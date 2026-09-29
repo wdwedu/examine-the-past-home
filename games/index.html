@@ -10,8 +10,8 @@
 html,body{margin:0;min-height:100%;background:#000;color:var(--white);font-family:Georgia,"Times New Roman",serif}
 .site-nav{position:sticky;top:0;z-index:1000;background:rgba(0,0,0,.985);border-bottom:1px solid #3c3c3c;box-shadow:0 8px 20px rgba(0,0,0,.32)}
 .nav-inner{max-width:1500px;margin:auto;min-height:91px;display:flex;align-items:center;justify-content:center;padding:22px 10px 10px}
-.nav-center{display:flex;align-items:center;justify-content:center;gap:17px;flex-wrap:wrap}
-.nav-item{width:74px;height:59px;display:grid;place-items:center;position:relative;color:#fff;text-decoration:none;border-radius:11px;transition:.22s}
+.nav-center{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap}
+.nav-item{width:68px;height:59px;display:grid;place-items:center;position:relative;color:#fff;text-decoration:none;border-radius:11px;transition:.22s;border:0;background:transparent;font:inherit;cursor:pointer;padding:0}
 .nav-item:hover,.nav-item:focus-visible,.nav-item.active{color:var(--yellow);background:#0b0c0a;transform:translateY(-3px);outline:none}
 .nav-label{position:absolute;bottom:61px;left:50%;transform:translate(-50%,6px);opacity:0;white-space:nowrap;color:var(--green);font:700 10px Georgia,serif;transition:.2s;pointer-events:none}
 .nav-item:hover .nav-label,.nav-item:focus-visible .nav-label{opacity:1;transform:translate(-50%,0)}
@@ -19,15 +19,19 @@ html,body{margin:0;min-height:100%;background:#000;color:var(--white);font-famil
 .blooms-symbol{color:#ffd800;font-size:29px;font-weight:900}
 .timeline-line-icon{width:38px;height:18px;display:block}
 .timeline-line-icon svg{width:38px;height:18px}
+.music-btn.playing{color:var(--green);text-shadow:0 0 12px rgba(141,255,67,.55)}
+.music-btn.loading{opacity:.55}
 .nav-glow{height:1px;background:linear-gradient(90deg,transparent,#3e3e3e 20%,#585858 50%,#3e3e3e 80%,transparent)}
 .blank-stage{min-height:calc(100vh - 92px);background:#000}
 .build-badge{position:fixed;right:12px;bottom:10px;color:#686868;font:700 9px Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;pointer-events:none}
 @media(max-width:900px){
- .nav-inner{padding:10px 6px 8px;min-height:auto}
- .nav-center{gap:2px}
- .nav-item{width:48px;height:48px}
+ .nav-inner{padding:10px 4px 8px;min-height:auto}
+ .nav-center{gap:1px}
+ .nav-item{width:42px;height:46px}
  .nav-label{display:none}
- .emoji-icon{font-size:21px}
+ .emoji-icon{font-size:20px}
+ .blooms-symbol{font-size:24px}
+ .timeline-line-icon,.timeline-line-icon svg{width:32px}
 }
 </style>
 </head>
@@ -66,11 +70,79 @@ html,body{margin:0;min-height:100%;background:#000;color:var(--white);font-famil
       <a class="nav-item" href="https://www.youtube.com/@ExamineThePast" aria-label="Communities">
         <span class="nav-label">Communities</span><span class="emoji-icon">👥</span>
       </a>
+      <a class="nav-item" href="https://www.examinethepast.com/#contact-section" aria-label="Contact Us">
+        <span class="nav-label">Contact Us</span><span class="emoji-icon">✉️</span>
+      </a>
+      <button class="nav-item music-btn" id="music-toggle" type="button" aria-label="Play The Light of Discovery">
+        <span class="nav-label" id="music-label">Music</span><span class="emoji-icon">🎵</span>
+      </button>
     </div>
   </div>
   <div class="nav-glow"></div>
 </nav>
-<main class="blank-stage" aria-label="Build 1 blank game workspace"></main>
-<div class="build-badge">Build 1 · Navigation Test</div>
+
+<audio id="discovery-audio" loop preload="none"></audio>
+<main class="blank-stage" aria-label="Build 2 blank game workspace"></main>
+<div class="build-badge">Build 2 · Navigation + Music Test</div>
+
+<script>
+(() => {
+  const button = document.getElementById('music-toggle');
+  const label = document.getElementById('music-label');
+  const audio = document.getElementById('discovery-audio');
+  const SOURCE_PAGE = 'https://wdwedu.github.io/blooms-taxonomy/';
+  let loaded = false;
+
+  audio.volume = 0.34;
+
+  async function loadTrack(){
+    if (loaded && audio.src) return true;
+    button.classList.add('loading');
+    button.setAttribute('aria-label','Loading The Light of Discovery');
+    label.textContent = 'Loading Music';
+    try{
+      const response = await fetch(SOURCE_PAGE, {cache:'force-cache'});
+      if(!response.ok) throw new Error('Music source unavailable');
+      const sourceHtml = await response.text();
+      const match = sourceHtml.match(/data:audio\/mpeg;base64,[^"']+/);
+      if(!match) throw new Error('Embedded music not found');
+      audio.src = match[0];
+      loaded = true;
+      return true;
+    } finally {
+      button.classList.remove('loading');
+    }
+  }
+
+  function syncUI(){
+    const playing = !audio.paused;
+    button.classList.toggle('playing', playing);
+    label.textContent = playing ? 'Music On' : 'Music';
+    button.setAttribute('aria-label', playing ? 'Pause The Light of Discovery' : 'Play The Light of Discovery');
+  }
+
+  button.addEventListener('click', async () => {
+    try{
+      if(!audio.paused){
+        audio.pause();
+        syncUI();
+        return;
+      }
+      const ready = await loadTrack();
+      if(ready) await audio.play();
+      syncUI();
+    }catch(err){
+      label.textContent = 'Music';
+      button.setAttribute('aria-label','Play The Light of Discovery');
+      button.classList.remove('playing','loading');
+      console.error(err);
+    }
+  });
+
+  audio.addEventListener('pause', syncUI);
+  audio.addEventListener('play', syncUI);
+  syncUI();
+})();
+</script>
 </body>
 </html>
