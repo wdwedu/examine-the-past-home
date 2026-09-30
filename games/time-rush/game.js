@@ -229,7 +229,7 @@ function submitRound(auto=false){
    els.action.disabled=false;els.action.textContent="Retry Level "+(roundIndex+1);setActionTone(0);
    return;
  }
- levelPerfect=true;totalCorrect+=r.events.length;totalPossible+=r.events.length;els.score.textContent=totalCorrect;
+ levelPerfect=true;totalCorrect+=100;totalPossible=ROUNDS.length*100;els.score.textContent=totalCorrect;
  sfx("unlock");celebrateLevel(roundIndex===ROUNDS.length-1);
  els.result.innerHTML='<strong>🏆 PERFECT — LEVEL '+(roundIndex+1)+' CLEARED!</strong><br><b>Accuracy:</b> 100% &nbsp; <b>Attempts:</b> '+levelAttempts+'<br><span class="mastery-note">'+(roundIndex===ROUNDS.length-1?"Every Ancient Worlds timeline is mastered. Claim your badge.":"Level "+(roundIndex+2)+" is now unlocked.")+'</span>';
  els.action.disabled=false;els.action.textContent=roundIndex===ROUNDS.length-1?"Claim Ancient Worlds Badge":"Enter Level "+(roundIndex+2);setActionTone(3);
