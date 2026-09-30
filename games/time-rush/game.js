@@ -144,7 +144,9 @@ function sfx(name){
  if(name==="warning") tone(150,.11,"sawtooth",.16);
  if(name==="correct"){tone(523,.12,"sine",.18);tone(659,.12,"sine",.18,.09);tone(784,.18,"sine",.19,.18);}
  if(name==="wrong"){tone(210,.18,"sawtooth",.16);tone(155,.22,"sawtooth",.13,.12);}
- if(name==="timeout"){tone(170,.16,"square",.18);tone(130,.2,"square",.16,.18);tone(95,.28,"sawtooth",.14,.38);}\n if(name==="unlock"){[523,659,784,1046].forEach((f,i)=>tone(f,.18,"sine",.2,i*.09));}\n if(name==="win"){[392,523,659,784,1046].forEach((f,i)=>tone(f,.25,"sine",.2,i*.11));}
+ if(name==="timeout"){tone(170,.16,"square",.18);tone(130,.2,"square",.16,.18);tone(95,.28,"sawtooth",.14,.38);}
+ if(name==="unlock"){[523,659,784,1046].forEach((f,i)=>tone(f,.18,"sine",.2,i*.09));}
+ if(name==="win"){[392,523,659,784,1046].forEach((f,i)=>tone(f,.25,"sine",.2,i*.11));}
 }
 document.addEventListener("pointerdown",audioReady,{once:true});
 
@@ -195,7 +197,7 @@ function showIntro(){
  els.action.textContent="Start Game";els.action.disabled=false;setActionTone(0);
 }
 function beginStudy(){
- sfx("click");phase="study";placed=[];window._currentShuffle=null;renderProgress();renderTimeline();
+ sfx("click");phase="study";placed=[];levelPerfect=false;levelAttempts++;window._currentShuffle=null;renderProgress();renderTimeline();
  const r=ROUNDS[roundIndex];els.hint.hidden=true;els.result.hidden=true;els.secondary.hidden=true;
  els.main.innerHTML='<h2>Study the Past</h2><div class="study-card"><div class="study-timer">Study Time · '+r.studySeconds+' seconds</div><h3>'+r.title+'</h3><p>'+r.study+'</p></div>';
  els.action.textContent="I'm Ready";els.action.disabled=false;setActionTone(1);
@@ -235,17 +237,16 @@ function submitRound(auto=false){
  els.action.disabled=false;els.action.textContent=roundIndex===ROUNDS.length-1?"Claim Ancient Worlds Badge":"Enter Level "+(roundIndex+2);setActionTone(3);
 }
 function advance(){
+ if(!levelPerfect)return;
  if(roundIndex===ROUNDS.length-1){finishGame();return}
- roundIndex++;beginStudy();
+ roundIndex++;levelAttempts=0;beginStudy();
 }
 function finishGame(){
  stopTimer();phase="complete";sfx("win");
- const pct=Math.round(totalCorrect/Math.max(1,totalPossible)*100);
- const rank=pct>=95?"Master Chronologist":pct>=85?"Expert Chronologist":pct>=70?"Skilled Chronologist":"Ancient Worlds Explorer";
+ const pct=100,rank="Ancient Worlds Master Chronologist";
  localStorage.setItem("etp_time_rush_ancient_worlds_complete","1");
- localStorage.setItem("etp_time_rush_presidents_unlocked","1");
- localStorage.setItem("etp_time_rush_ancient_worlds_score",String(pct));
- els.badgeRank.textContent=rank;els.badgeScore.textContent=pct+"% timeline accuracy";
+ localStorage.setItem("etp_time_rush_ancient_worlds_score","100");
+ els.badgeRank.textContent=rank;els.badgeScore.textContent="100% mastery · 900 points";
  els.completion.classList.add("show");
 }
 els.action.addEventListener("click",()=>{
