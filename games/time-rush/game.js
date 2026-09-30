@@ -116,7 +116,7 @@ const ROUNDS=[
 }
 ];
 
-let roundIndex=0,totalCorrect=0,totalPossible=0,placed=[],timer=null,timeLeft=0,phase="intro",audioCtx=null;
+let roundIndex=0,totalCorrect=0,totalPossible=0,placed=[],timer=null,timeLeft=0,phase="intro",audioCtx=null,levelAttempts=0,levelPerfect=false;
 const TONES=["tone-maroon","tone-blue","tone-green","tone-gold"];
 
 const $=s=>document.querySelector(s);
@@ -144,7 +144,7 @@ function sfx(name){
  if(name==="warning") tone(150,.11,"sawtooth",.16);
  if(name==="correct"){tone(523,.12,"sine",.18);tone(659,.12,"sine",.18,.09);tone(784,.18,"sine",.19,.18);}
  if(name==="wrong"){tone(210,.18,"sawtooth",.16);tone(155,.22,"sawtooth",.13,.12);}
- if(name==="win"){[392,523,659,784,1046].forEach((f,i)=>tone(f,.25,"sine",.2,i*.11));}
+ if(name==="timeout"){tone(170,.16,"square",.18);tone(130,.2,"square",.16,.18);tone(95,.28,"sawtooth",.14,.38);}\n if(name==="unlock"){[523,659,784,1046].forEach((f,i)=>tone(f,.18,"sine",.2,i*.09));}\n if(name==="win"){[392,523,659,784,1046].forEach((f,i)=>tone(f,.25,"sine",.2,i*.11));}
 }
 document.addEventListener("pointerdown",audioReady,{once:true});
 
@@ -191,7 +191,7 @@ function setActionTone(i){els.action.classList.remove(...TONES);els.action.class
 function showIntro(){
  phase="intro";renderProgress();els.time.textContent="—";els.score.textContent=totalCorrect;
  els.hint.hidden=true;els.result.hidden=true;els.secondary.hidden=true;
- els.main.innerHTML='<h2>Ancient Worlds: Time Rush</h2><div class="study-card"><h3>How to Play</h3><p>Each round begins with a short history reading. Study it before the clock runs out. Then the reading disappears and you must place the events in chronological order. Complete all nine rounds to earn your Ancient Worlds badge and unlock the next Time Rush game.</p></div>';
+ els.main.innerHTML='<h2>Ancient Worlds: Time Rush</h2><div class="study-card"><h3>How to Play</h3><p>Each round begins with a short history reading. Study it before the clock runs out. Then the reading disappears and you must place the events in chronological order. Each level must be completed at 100% before the next level opens. If time runs out or the order is wrong, retry that level until you master it. Complete all nine levels to earn your Ancient Worlds badge.</p></div>';
  els.action.textContent="Start Game";els.action.disabled=false;setActionTone(0);
 }
 function beginStudy(){
@@ -208,19 +208,31 @@ function beginArrange(){
  els.action.textContent="Submit Timeline";els.action.disabled=true;setActionTone(2);
  runTimer(r.playSeconds,()=>submitRound(true));
 }
+function celebrateLevel(finalLevel=false){
+ const old=document.querySelector(".level-win-flash");if(old)old.remove();
+ const flash=document.createElement("div");flash.className="level-win-flash";
+ flash.innerHTML='<div class="level-win-inner"><div class="level-win-kicker">'+(finalLevel?"ANCIENT WORLDS MASTERED":"TIMELINE LOCKED IN")+'</div><div class="level-win-title">YOU DID IT!</div><div class="level-win-next">'+(finalLevel?"Badge earned.":"Level "+(roundIndex+2)+" unlocked.")+'</div></div>';
+ document.body.appendChild(flash);requestAnimationFrame(()=>flash.classList.add("show"));
+ setTimeout(()=>flash.classList.remove("show"),1450);setTimeout(()=>flash.remove(),1900);
+}
 function submitRound(auto=false){
  if(phase!=="arrange")return;stopTimer();phase="feedback";
  const r=ROUNDS[roundIndex],correctIds=r.events.map(e=>e.id);
  let correct=0;correctIds.forEach((id,i)=>{if(placed[i]===id)correct++});
- totalCorrect+=correct;totalPossible+=r.events.length;els.score.textContent=totalCorrect;
  const perfect=correct===r.events.length;
- perfect?sfx("correct"):sfx("wrong");
  const pct=Math.round(correct/r.events.length*100);
  els.result.hidden=false;els.hint.hidden=true;els.secondary.hidden=true;
- els.result.innerHTML='<strong>'+(perfect?"Perfect Timeline!":auto?"Time ran out.":"Round complete.")+'</strong><br><b>Correct:</b> '+correct+' &nbsp; <b>Wrong:</b> '+(r.events.length-correct)+' &nbsp; <b>Score:</b> '+pct+'%<ol class="feedback-order">'+r.events.map(e=>'<li>'+e.label+'</li>').join("")+'</ol>';
- // Show the correct timeline after feedback.
  placed=[...correctIds];renderTimeline();
- els.action.disabled=false;els.action.textContent=roundIndex===ROUNDS.length-1?"Claim Badge":"Next Round";setActionTone(3);
+ if(!perfect){
+   levelPerfect=false;auto?sfx("timeout"):sfx("wrong");
+   els.result.innerHTML='<strong>'+(auto?"⏳ TIME\'S UP — LEVEL NOT CLEARED":"NOT YET — TRY THIS LEVEL AGAIN")+'</strong><br><b>Correct:</b> '+correct+' &nbsp; <b>Wrong:</b> '+(r.events.length-correct)+' &nbsp; <b>Accuracy:</b> '+pct+'%<br><span class="mastery-note">You need 100% to unlock Level '+(roundIndex+2)+'. Study the correct order above, then take another run.</span><ol class="feedback-order">'+r.events.map(e=>'<li>'+e.label+'</li>').join("")+'</ol>';
+   els.action.disabled=false;els.action.textContent="Retry Level "+(roundIndex+1);setActionTone(0);
+   return;
+ }
+ levelPerfect=true;totalCorrect+=r.events.length;totalPossible+=r.events.length;els.score.textContent=totalCorrect;
+ sfx("unlock");celebrateLevel(roundIndex===ROUNDS.length-1);
+ els.result.innerHTML='<strong>🏆 PERFECT — LEVEL '+(roundIndex+1)+' CLEARED!</strong><br><b>Accuracy:</b> 100% &nbsp; <b>Attempts:</b> '+levelAttempts+'<br><span class="mastery-note">'+(roundIndex===ROUNDS.length-1?"Every Ancient Worlds timeline is mastered. Claim your badge.":"Level "+(roundIndex+2)+" is now unlocked.")+'</span>';
+ els.action.disabled=false;els.action.textContent=roundIndex===ROUNDS.length-1?"Claim Ancient Worlds Badge":"Enter Level "+(roundIndex+2);setActionTone(3);
 }
 function advance(){
  if(roundIndex===ROUNDS.length-1){finishGame();return}
@@ -241,7 +253,7 @@ els.action.addEventListener("click",()=>{
  if(phase==="intro")beginStudy();
  else if(phase==="study")beginArrange();
  else if(phase==="arrange")submitRound(false);
- else if(phase==="feedback")advance();
+ else if(phase==="feedback"){if(levelPerfect)advance();else beginStudy();}
 });
 $("#playAgain").addEventListener("click",()=>location.reload());
 $("#vaultReturn").addEventListener("click",()=>location.href="../");
