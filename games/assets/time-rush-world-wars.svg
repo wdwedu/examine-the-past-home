@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="650" viewBox="0 0 2048 650">
+<defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#06090c"/><stop offset=".5" stop-color="#030303"/><stop offset="1" stop-color="#263039"/></linearGradient><radialGradient id="halo"><stop stop-color="#c39a42" stop-opacity=".26"/><stop offset="1" stop-color="#c39a42" stop-opacity="0"/></radialGradient><filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="2048" height="650" fill="url(#bg)"/><circle cx="1024" cy="220" r="390" fill="url(#halo)"/>
+<path d="M90 390l260-95 180 35-155 50 160 55-50 25-190-45-150 45z" fill="#d8d1bd" opacity=".17"/><path d="M1620 210l300 85-125 25 155 55-55 24-210-52-145 28 85-60-115-38z" fill="#d8d1bd" opacity=".15"/><path d="M0 535h2048" stroke="#8b6d33" stroke-width="3" opacity=".5"/>
+<g opacity=".22" fill="none" stroke="#c39a42" stroke-width="5"><circle cx="1024" cy="205" r="190"/><circle cx="1024" cy="205" r="155"/><path d="M1024 15v70M1024 325v70M834 205h70M1144 205h70M890 71l48 48M1110 291l48 48M1158 71l-48 48M938 291l-48 48"/></g>
+<text x="1024" y="225" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="142" fill="#f3c54f" stroke="#6b3c08" stroke-width="4" filter="url(#glow)">TIME RUSH</text>
+<text x="1024" y="330" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="68" letter-spacing="4" fill="#f7f2e6">WORLD WARS</text>
+<text x="1024" y="395" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="34" fill="#fff">Put history in order before time runs out.</text>
+<line x1="125" y1="510" x2="1923" y2="510" stroke="#c39a42" stroke-width="4" filter="url(#glow)"/>
+<circle cx="170" cy="510" r="12" fill="#fffdf2" stroke="#c39a42" stroke-width="5"/><circle cx="455" cy="510" r="12" fill="#fffdf2" stroke="#c39a42" stroke-width="5"/><circle cx="740" cy="510" r="12" fill="#fffdf2" stroke="#c39a42" stroke-width="5"/><circle cx="1024" cy="510" r="12" fill="#fffdf2" stroke="#c39a42" stroke-width="5"/><circle cx="1308" cy="510" r="12" fill="#fffdf2" stroke="#c39a42" stroke-width="5"/><circle cx="1593" cy="510" r="12" fill="#fffdf2" stroke="#c39a42" stroke-width="5"/><circle cx="1878" cy="510" r="12" fill="#fffdf2" stroke="#c39a42" stroke-width="5"/>
+<rect y="610" width="2048" height="40" fill="#000" opacity=".35"/>
+</svg>
