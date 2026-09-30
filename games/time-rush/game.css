@@ -1,5 +1,8 @@
+
+.hero-image-wrap{position:relative;width:100%;max-width:1600px;margin:0 auto;background:#000;overflow:hidden}
+.hero-image{display:block;width:100%;height:auto;max-width:100%;object-fit:contain;object-position:center top;image-rendering:auto}
 body{margin:0;background:#000;color:#f6f0df;font-family:Georgia,"Times New Roman",serif}
-#timeRushGame{position:relative;min-height:100vh;background:#020304 url("/examine-the-past-home/games/assets/time-rush-approved.webp") top center/100% auto no-repeat;overflow:hidden;padding-top:clamp(330px,34vw,545px);padding-bottom:60px}
+#timeRushGame{position:relative;min-height:100vh;background:#020304;overflow:hidden;padding-bottom:60px}
 #timeRushGame:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,transparent 0 48%,rgba(0,0,0,.14) 61%,#020304 90%)}
 .title-mask{position:absolute;z-index:3;top:4.8%;left:50%;transform:translateX(-50%);width:min(820px,66%);padding:14px 26px 22px;text-align:center;background:radial-gradient(ellipse at center,rgba(0,0,0,.88) 0,rgba(0,0,0,.76) 54%,rgba(0,0,0,.28) 72%,transparent 82%)}
 .live-title{font-family:Georgia,"Times New Roman",serif;font-weight:900;font-size:clamp(48px,7vw,116px);line-height:.9;letter-spacing:.045em;text-transform:uppercase;background:linear-gradient(180deg,#fff91a 0%,#ffd91a 48%,#f19b09 100%);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 2px 0 rgba(0,0,0,.65);filter:drop-shadow(0 0 8px rgba(255,223,22,.22))}
@@ -15,11 +18,11 @@ body{margin:0;background:#000;color:#f6f0df;font-family:Georgia,"Times New Roman
 .timeline-slot:nth-child(even) .timeline-label{top:58%;transform:translate(-50%,-10px)}
 .timeline-slot.filled:nth-child(odd) .timeline-label{transform:translate(-50%,0)}
 .timeline-slot.filled:nth-child(even) .timeline-label{transform:translate(-50%,0)}
-.progress-bar{position:relative;z-index:6;display:flex;justify-content:center;gap:7px;flex-wrap:wrap;width:min(760px,calc(100% - 20px));margin:0 auto 15px}
+.progress-bar{position:absolute;z-index:6;left:50%;transform:translateX(-50%);bottom:3.2%;display:flex;justify-content:center;gap:7px;flex-wrap:wrap;width:min(760px,calc(100% - 20px));margin:0}
 .progress-dot{width:28px;height:28px;border-radius:50%;border:1px solid rgba(214,173,77,.3);background:rgba(8,9,8,.82);color:#666;display:grid;place-items:center;font:700 10px Arial,sans-serif;transition:.25s}
 .progress-dot.current{color:#fff200;border-color:#b98e27;box-shadow:0 0 14px rgba(255,211,37,.22)}
 .progress-dot.done{color:#071006;background:#94ff53;border-color:#94ff53}
-.game-shell{position:relative;z-index:6;width:min(1160px,calc(100% - 20px));margin:0 auto;display:grid;grid-template-columns:290px 1fr;gap:16px}
+.game-shell{position:relative;z-index:6;width:min(1160px,calc(100% - 20px));margin:18px auto 0;display:grid;grid-template-columns:290px 1fr;gap:16px}
 .panel{border:1px solid #2a2b27;border-radius:18px;background:rgba(8,9,8,.9);box-shadow:0 18px 46px rgba(0,0,0,.5),inset 0 1px rgba(255,255,255,.025);backdrop-filter:blur(3px)}
 .controls{padding:19px;align-self:start}
 .controls h2,.main-panel h2{margin:0 0 10px;color:#fff200;font-family:Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;text-transform:uppercase;letter-spacing:.035em}
@@ -55,13 +58,31 @@ body{margin:0;background:#000;color:#f6f0df;font-family:Georgia,"Times New Roman
 .badge-emblem{width:165px;height:165px;border-radius:50%;margin:0 auto 18px;border:5px double #d8aa46;display:grid;place-items:center;background:radial-gradient(circle,#2a210f,#0b0b08 70%);box-shadow:0 0 34px rgba(255,196,58,.35),inset 0 0 28px rgba(255,196,58,.12)}
 .badge-emblem span{font-size:68px}.badge-card h2{font-family:Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;color:#fff200;font-size:36px;margin:0 0 6px;text-transform:uppercase}.badge-rank{color:#94ff53;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.unlock{margin:20px auto 0;padding:13px;border:1px solid #2f5e35;border-radius:12px;background:#071308;color:#baff72;font-weight:800}
 @media(max-width:900px){
- #timeRushGame{padding-top:clamp(225px,42vw,360px);background-size:100% auto}
- .title-mask{top:4%;width:72%}.world-subtitle{margin-top:7px}.game-tagline{margin-top:5px}
- .timeline-overlay{top:38%;left:6%;right:6%;height:15%}.timeline-label{width:20vw;font-size:8px}
- .game-shell{grid-template-columns:1fr}.card-grid{grid-template-columns:1fr}.controls{position:static}
-}
-@media(max-width:560px){
- #timeRushGame{padding-top:158px;background-size:100% auto}.title-mask{top:2.5%;width:76%;padding:8px 10px 12px}.live-title{font-size:42px}.world-subtitle{font-size:15px;letter-spacing:.1em}.game-tagline{font-size:10px}
+    .title-mask{top:4.2%;width:76%;padding:10px 14px 14px}
+    .timeline-overlay{top:38.2%;left:6%;right:6%;height:15%}
+    .timeline-label{width:20vw;font-size:8px}
+    .progress-bar{bottom:2.5%}
+    .game-shell{grid-template-columns:1fr}
+    .card-grid{grid-template-columns:1fr}
+    .controls{position:static}
+  }
+  @media(max-width:560px){
+    .hero-image-wrap{width:100%;overflow:hidden}
+    .hero-image{width:100%;height:auto;object-fit:contain}
+    .title-mask{top:2.6%;width:84%;padding:6px 8px 8px}
+    .live-title{font-size:clamp(34px,10vw,48px)}
+    .world-subtitle{font-size:clamp(16px,5vw,22px);letter-spacing:.1em;margin-top:6px}
+    .game-tagline{font-size:clamp(9px,2.8vw,12px);margin-top:4px}
+    .timeline-overlay{top:37.7%;left:4%;right:4%;height:16%}
+    .timeline-label{width:24vw;font-size:6.5px;line-height:1.05}
+    .timeline-slot:nth-child(odd) .timeline-label{bottom:57%}
+    .timeline-slot:nth-child(even) .timeline-label{top:57%}
+    .progress-bar{bottom:1.8%;gap:5px}
+    .progress-dot{width:24px;height:24px}
+    .game-shell{width:calc(100% - 12px);margin-top:12px}
+    .main-panel,.controls{padding:14px}
+    .badge-card{padding:24px 18px}
+  }.title-mask{top:2.5%;width:76%;padding:8px 10px 12px}.live-title{font-size:42px}.world-subtitle{font-size:15px;letter-spacing:.1em}.game-tagline{font-size:10px}
  .timeline-overlay{top:37.5%;left:4%;right:4%;height:16%}.timeline-label{width:24vw;font-size:6.5px;line-height:1.05}.timeline-slot:nth-child(odd) .timeline-label{bottom:57%}.timeline-slot:nth-child(even) .timeline-label{top:57%}
  .progress-dot{width:25px;height:25px}.game-shell{width:calc(100% - 12px)}.main-panel,.controls{padding:14px}.badge-card{padding:24px 18px}
 }
