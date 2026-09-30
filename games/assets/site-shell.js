@@ -16,6 +16,39 @@
    });
  });
 
+ // Shared game-share controls. Each game automatically shares its own live URL.
+ const cleanUrl=location.href.split("#")[0].replace(/([?&])build=\d+(&|$)/,(m,p1,p2)=>p2?p1:"").replace(/[?&]$/,"");
+ const shareTitle=document.title||"History Unlocked";
+ const shareText="Can you master this History Unlocked challenge?";
+ const enc=encodeURIComponent;
+ const shareLinks={
+   facebook:"https://www.facebook.com/sharer/sharer.php?u="+enc(cleanUrl),
+   x:"https://twitter.com/intent/tweet?text="+enc(shareText+" — "+shareTitle)+"&url="+enc(cleanUrl),
+   pinterest:"https://www.pinterest.com/pin/create/button/?url="+enc(cleanUrl)+"&description="+enc(shareText+" — "+shareTitle),
+   email:"mailto:?subject="+enc("History Unlocked: "+shareTitle)+"&body="+enc(shareText+"\n\n"+cleanUrl)
+ };
+ Object.entries(shareLinks).forEach(([key,url])=>{const a=document.querySelector('[data-share="'+key+'"]');if(a)a.href=url;});
+ const shareStatus=document.getElementById("shareStatus");
+ const nativeShare=document.querySelector('[data-share="native"]');
+ if(nativeShare){
+   nativeShare.addEventListener("click",async()=>{
+     try{
+       if(navigator.share){await navigator.share({title:shareTitle,text:shareText,url:cleanUrl});}
+       else if(navigator.clipboard){await navigator.clipboard.writeText(cleanUrl);if(shareStatus)shareStatus.textContent="Game link copied!";}
+     }catch(e){}
+   });
+ }
+ const copyShare=document.querySelector('[data-share="copy"]');
+ if(copyShare)copyShare.addEventListener("click",async()=>{
+   try{
+     await navigator.clipboard.writeText(cleanUrl);
+     if(shareStatus){shareStatus.textContent="Game link copied!";setTimeout(()=>shareStatus.textContent="",1800);}
+   }catch(e){
+     const ta=document.createElement("textarea");ta.value=cleanUrl;document.body.appendChild(ta);ta.select();document.execCommand("copy");ta.remove();
+     if(shareStatus){shareStatus.textContent="Game link copied!";setTimeout(()=>shareStatus.textContent="",1800);}
+   }
+ });
+
  const btn=document.getElementById("soundToggle");
  const icon=document.getElementById("soundIcon");
  const label=document.getElementById("soundText");
