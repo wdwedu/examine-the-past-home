@@ -175,3 +175,19 @@ body{margin:0;background:#000;color:#f6f0df;font-family:Georgia,"Times New Roman
 #game-shell-footer .brand-youtube{background:#c91d2d}#game-shell-footer .brand-facebook{background:#1d65bd}#game-shell-footer .brand-instagram{background:linear-gradient(145deg,#7d35ad,#db4e55,#efb84b)}#game-shell-footer .brand-pinterest{background:#b51625}#game-shell-footer .brand-blog{background:#d97819}#game-shell-footer .brand-tpt{background:#18816e;font-size:9px}#game-shell-footer .brand-etsy{background:#d75a13;font:900 19px Georgia,serif}#game-shell-footer .brand-redbubble{background:#c92736;font-size:9px}#game-shell-footer .brand-zazzle{background:#292929}
 #game-shell-footer .copyright{margin-top:23px;color:#666;font:400 9px Arial,sans-serif}
 @media(max-width:560px){#game-shell-footer .compact-game-footer{padding:29px 10px 17px}#game-shell-footer .share-actions{gap:8px}#game-shell-footer .share-native{height:40px;padding:0 14px}#game-shell-footer .share-icon{width:40px;height:40px}#game-shell-footer .footer-social{gap:8px 4px}#game-shell-footer .community-icon{width:49px}#game-shell-footer .community-icon>span{width:37px;height:37px}}
+
+/* Build 17 — quiet universal game-share footer */
+#game-shell-footer .build17-footer{padding:30px 18px 18px;background:linear-gradient(180deg,#020403,#000);border:0}
+#game-shell-footer .build17-footer .share-game{width:min(520px,100%);margin:0 auto}
+#game-shell-footer .build17-footer .share-game h2{margin:0;color:#fff200;font:700 italic clamp(19px,2.2vw,25px)/1.15 Georgia,"Times New Roman",serif;letter-spacing:.015em;text-transform:none}
+#game-shell-footer .build17-footer .share-actions{display:flex;justify-content:center;align-items:center;gap:13px;margin:14px auto 0}
+#game-shell-footer .build17-footer .share-logo{width:38px;height:38px;display:grid;place-items:center;border-radius:50%;overflow:hidden;box-shadow:0 5px 15px rgba(0,0,0,.34);transition:transform .18s ease,filter .18s ease}
+#game-shell-footer .build17-footer .share-logo svg{width:100%;height:100%;display:block}
+#game-shell-footer .build17-footer .facebook-logo{background:#1877f2}#game-shell-footer .build17-footer .facebook-logo svg{fill:#fff}
+#game-shell-footer .build17-footer .x-logo{background:#fff}#game-shell-footer .build17-footer .x-logo svg{width:22px;height:22px;fill:#000}
+#game-shell-footer .build17-footer .pinterest-logo{background:#e60023}#game-shell-footer .build17-footer .pinterest-logo svg{fill:#fff}
+#game-shell-footer .build17-footer .linkedin-logo{background:#0a66c2}#game-shell-footer .build17-footer .linkedin-logo svg{width:23px;height:23px;fill:#fff}
+#game-shell-footer .build17-footer .share-logo:hover,#game-shell-footer .build17-footer .share-logo:focus-visible{transform:translateY(-3px) scale(1.06);filter:brightness(1.1);outline:1px solid rgba(255,242,0,.55)}
+#game-shell-footer .build17-footer .share-status{height:8px;margin:0}
+#game-shell-footer .build17-footer .copyright{margin:19px 0 0;color:#666;font:400 9px Arial,sans-serif}
+@media(max-width:560px){#game-shell-footer .build17-footer{padding:25px 10px 15px}#game-shell-footer .build17-footer .share-game h2{font-size:19px}#game-shell-footer .build17-footer .share-actions{gap:11px;margin-top:12px}#game-shell-footer .build17-footer .share-logo{width:35px;height:35px}#game-shell-footer .build17-footer .copyright{margin-top:16px}}
