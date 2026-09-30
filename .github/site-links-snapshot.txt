@@ -1,0 +1,110 @@
+NAV 0 classes=['site-nav', 'final-nav', 'etp-nav-vnext']
+TEXT: Home 🏠 About ℹ️ History Hub 🎓 EXPLORE THE PAST Social Studies World History Resource Vault 📖 On This Day 📅 History Map 🌍 Timeline Bloom's ▲ Games 🎮 Communities 👥 Join Our Communities Contact Us 📧 Sound Off 🔇
+Home 🏠 => #top
+About ℹ️ => https://www.examinethepast.com/about-us
+Social Studies => https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v0-start-here-social-studies
+World History => https://www.examinethepast.com/explore-the-past/world-history
+Resource Vault 📖 => #resource-vault
+On This Day 📅 => https://www.examinethepast.com/on-this-day-in-history
+History Map 🌍 => https://www.examinethepast.com/historical-maps
+Timeline => https://www.examinethepast.com/interactive-timeline
+Bloom's ▲ => https://www.examinethepast.com/resources/blooms-taxonomy
+Games 🎮 => https://wdwedu.github.io/examine-the-past-home/games/
+ => https://www.youtube.com/@ExamineThePast
+ => https://www.facebook.com/examinethepast
+ => https://www.instagram.com/examinethepast/
+ => https://x.com/
+ => https://www.teacherspayteachers.com/store/examine-the-past
+ => https://www.redbubble.com/people/examinethepast/shop
+ => https://www.pinterest.com/examinethepast/
+ => https://www.etsy.com/shop/examinethepast
+Contact Us 📧 => #contact-section
+
+
+FOOTER TEXT:
+LEARN | SOCIAL STUDIES | V0: Start Here | V1: Foundations | V2: Geography | V3: Civilizations | V4: Government & Power | V5: Revolutions | V6: Modern World | V7: Economics | V8: America & Civic Life | EXPLORE | WORLD RELIGIONS | V0: Start Here (World Religion) | V1: Introduction to Religion | V2: African Origins of Spirituality | V3: The Rise of Polytheism | V4: Judaism and Monotheism | V5: Christianity’s Emergence | V6: The Rise of Islam | V7: Power, Politics, and Religion | V8: Religion Today in America | RESOURCES | On This Day In History | Interactive Timeline | Historical Maps | Blooms Generator | Current Events | Historical Movies | School & District Services | Curriculum Design | AI in Education | FAQ | LEGAL | Affiliate Disclosure | Careers & Partnerships | Resource Licensing | Copyright Policy | DMCA Notice | Privacy Policy | Terms of Service | Refund / Digital | Cookie Policy | Contact Us | JOIN OUR COMMUNITY | © 2026 Examine the Past. All Rights Reserved.
+
+
+FOOTER LINKS:
+
+SOCIAL STUDIES => https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v0-start-here-social-studies
+
+V0: Start Here => https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v0-start-here-social-studies
+
+V1: Foundations => https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v1-foundations
+
+V2: Geography => https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v2-geography
+
+V3: Civilizations => https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v3-civilizations
+
+V4: Government & Power => https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v4-government-power
+
+V5: Revolutions => https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v5-revolutions
+
+V6: Modern World => https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v6-modern-world
+
+V7: Economics => https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v7-economics
+
+V8: America & Civic Life => https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v8-america-civic-life
+
+WORLD RELIGIONS => https://www.examinethepast.com/explore-the-past
+
+V0: Start Here (World Religion) => https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v0-start-here-world-religions
+
+V1: Introduction to Religion => https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v1-introduction-to-religion
+
+V2: African Origins of Spirituality => https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v2-african-origins-of-spirituality
+
+V3: The Rise of Polytheism => https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v3-the-rise-of-polytheism
+
+V4: Judaism and Monotheism => https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v4-judaism-and-monotheism
+
+V5: Christianity’s Emergence => https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v5-christianitys-emergence
+
+V6: The Rise of Islam => https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v6-the-rise-of-islam
+
+V7: Power, Politics, and Religion => https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v7-power-politics-and-religion
+
+V8: Religion Today in America => https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v8-religion-today-in-america
+
+On This Day In History => https://www.examinethepast.com/on-this-day-in-history
+
+Interactive Timeline => https://www.examinethepast.com/interactive-timeline
+
+Historical Maps => https://www.examinethepast.com/historical-maps
+
+Blooms Generator => https://www.examinethepast.com/resources/blooms-taxonomy
+
+Current Events => https://www.examinethepast.com/resources/current-event-article-analysis
+
+Historical Movies => https://www.examinethepast.com/resources/teaching-movie-lessons
+
+School & District Services => https://www.examinethepast.com/school-district-services
+
+Curriculum Design => https://www.examinethepast.com/curriculum-design
+
+AI in Education => https://www.examinethepast.com/ai-in-education
+
+FAQ => https://www.examinethepast.com/faq
+
+Contact Us => #contact-section
+
+ => https://www.youtube.com/@ExamineThePast
+
+ => https://www.facebook.com/examinethepast
+
+ => https://www.instagram.com/examinethepast/
+
+ => https://x.com/
+
+ => https://examinethepast.blogspot.com/
+
+ => https://www.teacherspayteachers.com/store/examine-the-past
+
+ => https://www.redbubble.com/people/examinethepast/shop
+
+ => https://www.zazzle.com/store/examine_the_past
+
+ => https://www.pinterest.com/examinethepast/
+
+ => https://www.etsy.com/shop/examinethepast
