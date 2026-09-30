@@ -3,259 +3,242 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>History Unlocked — Examine the Past Game Vault</title>
+<title>History Unlocked — Examine the Past</title>
 <style>
 :root{
-  --ink:#050606;--char:#111310;--char2:#1b1d19;--metal:#8e8d82;--silver:#d6d4c8;
-  --ivory:#eee9d7;--acid:#b9ff59;--gold:#d2b46d;--ember:#efdc87;--line:#3a3d36;
+  --black:#000;--nav:#151515;--yellow:#fff200;--green:#94ff53;--white:#f4f1e8;
+  --muted:#777;--maroon:#65213a;--blue:#204c78;--cardgreen:#2d6547;--gold:#8a6a22;
 }
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{
-  margin:0;color:var(--ivory);font-family:Georgia,"Times New Roman",serif;
-  background:
-    radial-gradient(circle at 14% 10%,rgba(210,180,109,.10),transparent 28%),
-    radial-gradient(circle at 80% 18%,rgba(185,255,89,.055),transparent 26%),
-    repeating-linear-gradient(118deg,rgba(255,255,255,.018) 0 1px,transparent 1px 5px),
-    linear-gradient(180deg,#090a08 0%,#030403 48%,#0b0c0a 100%);
-  min-height:100vh;
-}
-body:before{
-  content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;opacity:.55;
-  background:
-    radial-gradient(ellipse at center,transparent 35%,rgba(0,0,0,.62) 92%),
-    linear-gradient(90deg,rgba(255,255,255,.018),transparent 28%,transparent 72%,rgba(255,255,255,.012));
-}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:#000;color:var(--white);font-family:Georgia,"Times New Roman",serif}
 a{color:inherit}
-.site-nav{
-  position:sticky;top:0;z-index:1000;
-  background:linear-gradient(180deg,rgba(38,40,36,.98),rgba(24,26,23,.98));
-  border-bottom:1px solid #4a4d45;
-  box-shadow:0 10px 28px rgba(0,0,0,.48),inset 0 1px rgba(255,255,255,.035);
+.top-text-nav{
+  min-height:52px;background:#000;border-bottom:1px solid #141414;display:flex;align-items:center;
+  justify-content:center;gap:30px;padding:8px 16px;font-size:13px;font-weight:700;text-transform:uppercase;
+  position:sticky;top:0;z-index:1200
 }
-.nav-inner{
-  width:min(1900px,calc(100% - 14px));min-height:104px;margin:auto;
-  display:flex;align-items:center;justify-content:center;padding:18px 12px 9px;overflow-x:auto;
+.top-text-nav a{text-decoration:none;color:#eee7d8;white-space:nowrap}.top-text-nav a:hover{color:var(--yellow)}
+.icon-nav{
+  position:sticky;top:52px;z-index:1100;background:#151515;border-bottom:1px solid #444;
+  box-shadow:0 8px 22px rgba(0,0,0,.42)
 }
-.nav-center{display:flex;align-items:center;gap:15px;margin:0 auto}
+.icon-row{width:min(1160px,calc(100% - 14px));min-height:94px;margin:auto;display:flex;align-items:center;justify-content:center;gap:16px;padding:20px 8px 10px;overflow-x:auto}
 .nav-item{
-  width:78px;height:64px;display:grid;place-items:center;position:relative;flex:0 0 auto;
-  border:0;border-radius:11px;background:transparent;color:#e7e5dc;text-decoration:none;cursor:pointer;
-  transition:.22s;font:inherit;
+  width:70px;height:56px;display:grid;place-items:center;position:relative;flex:0 0 auto;border:0;background:transparent;
+  color:#e6e6e6;text-decoration:none;border-radius:10px;cursor:pointer;font:inherit;transition:.2s
 }
-.nav-item:hover,.nav-item:focus-visible{background:#11120f;color:#fff36c;transform:translateY(-3px);outline:none}
-.nav-label{
-  position:absolute;bottom:67px;left:50%;transform:translate(-50%,7px);opacity:0;
-  white-space:nowrap;color:var(--acid);font:700 10px Georgia,serif;transition:.2s;pointer-events:none;
-  text-shadow:0 2px 8px #000;
-}
+.nav-item:hover,.nav-item:focus-visible{background:#0b0b0b;color:var(--yellow);transform:translateY(-3px);outline:none}
+.nav-label{position:absolute;bottom:58px;left:50%;transform:translate(-50%,7px);opacity:0;color:var(--green);font:700 10px Georgia,serif;white-space:nowrap;transition:.18s;pointer-events:none}
 .nav-item:hover .nav-label,.nav-item:focus-visible .nav-label{opacity:1;transform:translate(-50%,0)}
-.emoji{font-size:25px;line-height:1}.blooms{color:#ffd900;font-size:29px;font-weight:900}
-.timeline svg{width:38px;height:18px}
-.sound-svg{width:29px;height:29px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-.sound-on .sound-svg{color:var(--acid);filter:drop-shadow(0 0 5px rgba(185,255,89,.38))}
-.sound-on .mute-slash{display:none}.sound-off .sound-wave{display:none}
-.nav-glow{height:1px;background:linear-gradient(90deg,transparent,#686b61 20%,#8a8d81 50%,#686b61 80%,transparent)}
-.hero{padding:58px 18px 34px}
-.hero-shell{
-  width:min(1180px,100%);margin:auto;position:relative;overflow:hidden;text-align:center;
-  border:1px solid #484a43;border-radius:22px;padding:54px 22px 48px;
-  background:
-    linear-gradient(180deg,rgba(255,255,255,.025),rgba(0,0,0,.15)),
-    radial-gradient(circle at 50% 0%,rgba(210,180,109,.10),transparent 42%),
-    repeating-linear-gradient(94deg,rgba(255,255,255,.012) 0 2px,transparent 2px 7px),
-    #10120f;
-  box-shadow:0 30px 90px rgba(0,0,0,.55),inset 0 0 60px rgba(0,0,0,.48),inset 0 1px rgba(255,255,255,.05);
+.nav-icon{font-size:24px;line-height:1}.blooms{font-size:29px;font-weight:900;color:#ffd800}
+.timeline svg{width:38px;height:18px}.sound-control{margin-left:4px}.sound-control .nav-icon{font-size:22px}
+.nav-glow{height:1px;background:linear-gradient(90deg,transparent,#4a4a4a 20%,#777 50%,#4a4a4a 80%,transparent)}
+.page{
+  min-height:720px;background:
+    radial-gradient(circle at 50% 4%,rgba(255,242,0,.035),transparent 28%),
+    linear-gradient(180deg,#050505,#000 34%,#020202);
+  padding:54px 18px 70px
 }
-.hero-shell:before,.hero-shell:after{
-  content:"";position:absolute;left:3%;right:3%;height:1px;background:linear-gradient(90deg,transparent,#6e6c5d,transparent)
-}
-.hero-shell:before{top:18px}.hero-shell:after{bottom:18px}
-.kicker{font:700 10px Arial,sans-serif;letter-spacing:.34em;text-transform:uppercase;color:#a7aa9d;margin-bottom:12px}
-h1{
-  margin:0;color:#c9c5b3;font-family:Georgia,serif;font-size:clamp(48px,9vw,112px);line-height:.9;
-  letter-spacing:.04em;text-transform:uppercase;
-  text-shadow:0 2px 0 #000,0 -1px 0 rgba(255,255,255,.13),0 10px 30px rgba(0,0,0,.6);
-  filter:drop-shadow(0 1px 0 #2b2c28);
-}
-.hero-sub{margin:17px auto 0;max-width:730px;color:#bcb8aa;font-size:clamp(15px,2vw,22px);font-style:italic}
-.hero-rule{width:min(520px,80%);height:1px;margin:25px auto;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
-.featured{
-  width:min(1040px,calc(100% - 28px));margin:18px auto 42px;
-  display:grid;grid-template-columns:1.25fr .75fr;gap:20px;align-items:stretch;
-}
-.feature-card,.feature-info{
-  border:1px solid #46483f;border-radius:18px;background:linear-gradient(145deg,#11130f,#090a08);
-  box-shadow:0 20px 50px rgba(0,0,0,.42),inset 0 1px rgba(255,255,255,.04);
-}
-.feature-card{
-  min-height:310px;padding:34px;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;
-}
-.feature-card:before{
-  content:"";position:absolute;inset:-15%;
-  background:
-    radial-gradient(circle at 25% 30%,rgba(239,220,135,.22),transparent 24%),
-    linear-gradient(120deg,transparent 38%,rgba(255,255,255,.035) 49%,transparent 58%),
-    repeating-linear-gradient(0deg,transparent 0 20px,rgba(255,255,255,.016) 20px 21px);
-  transform:rotate(-3deg);
-}
-.feature-card>*{position:relative;z-index:1}
-.live-tag{align-self:flex-start;border:1px solid #696553;border-radius:99px;padding:7px 10px;color:var(--ember);font:700 10px Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase}
-.feature-title{font-size:clamp(38px,7vw,76px);line-height:.92;margin:14px 0 8px;color:#efe6bd;text-shadow:0 0 28px rgba(239,220,135,.24)}
-.feature-desc{max-width:640px;color:#c2beb0;font-size:16px;line-height:1.55}
-.feature-card:hover{border-color:#8f855e;box-shadow:0 22px 60px rgba(0,0,0,.48),0 0 35px rgba(239,220,135,.08),inset 0 1px rgba(255,255,255,.05)}
-.enter{
-  margin-top:20px;display:inline-flex;align-items:center;justify-content:center;align-self:flex-start;
-  min-height:48px;padding:0 22px;border:1px solid #918765;border-radius:12px;text-decoration:none;
-  background:linear-gradient(#2a2a22,#151611);color:#f4e9b8;font-weight:700;letter-spacing:.05em;
-  box-shadow:inset 0 1px rgba(255,255,255,.08),0 9px 24px rgba(0,0,0,.3);transition:.2s;
-}
-.enter:hover{transform:translateY(-2px);box-shadow:0 0 24px rgba(239,220,135,.14),0 12px 28px rgba(0,0,0,.38)}
-.feature-info{padding:28px}
-.feature-info h2{font-size:19px;margin:0 0 18px;color:#dbd4bb}
-.stat{padding:15px 0;border-top:1px solid #292b26}.stat:first-of-type{border-top:0}
-.stat b{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:#8f9287;margin-bottom:5px}
-.stat span{font-size:15px;color:#ddd8c7}
-.vault{width:min(1180px,calc(100% - 28px));margin:0 auto 70px}
-.vault-head{display:flex;justify-content:space-between;align-items:end;gap:20px;padding:0 4px 18px;border-bottom:1px solid #363832}
-.vault-head h2{font-size:clamp(26px,4vw,44px);margin:0;color:#d0ccbc;text-shadow:0 1px #000}
-.vault-head p{margin:0;color:#8e9187;font-size:13px}
-.group{padding:28px 0;border-bottom:1px solid #252722}
-.group-title{display:flex;gap:13px;align-items:baseline;margin-bottom:15px}
-.group-title strong{font-size:20px;color:#c9c5b6}.group-title span{font:700 10px Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#6f736a}
+.intro{width:min(1120px,100%);margin:0 auto 34px;text-align:center}
+.eyebrow{color:var(--green);font:700 12px Arial,sans-serif;letter-spacing:.22em;text-transform:uppercase;margin-bottom:9px}
+h1{font-family:Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;margin:0;color:var(--yellow);font-size:clamp(52px,9vw,100px);line-height:.92;text-transform:uppercase;letter-spacing:.015em}
+.intro p{max-width:780px;margin:17px auto 0;color:#fff;font-size:16px;line-height:1.55}
+.vault{width:min(1180px,100%);margin:auto}
+.family{margin:0 0 32px}
+.family-head{display:flex;align-items:baseline;gap:13px;margin:0 3px 12px}
+.family-head h2{font-family:Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;color:var(--yellow);font-size:26px;letter-spacing:.035em;margin:0;text-transform:uppercase}
+.family-head span{color:var(--green);font:700 10px Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase}
 .game-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
-.game-link,.game-locked{
-  min-height:64px;padding:14px 15px;border:1px solid #292b27;border-radius:10px;
-  background:linear-gradient(180deg,#11120f,#0a0b09);display:flex;align-items:center;gap:11px;
-  color:#84877e;text-decoration:none;position:relative;overflow:hidden;
-  box-shadow:inset 0 1px rgba(255,255,255,.025);
+.game-card{
+  --hover:#65213a;
+  min-height:88px;border:1px solid #272727;border-radius:10px;background:#111;
+  padding:13px 15px;text-decoration:none;display:block;position:relative;overflow:hidden;
+  box-shadow:inset 0 1px rgba(255,255,255,.025);transition:transform .18s ease,background .22s ease,box-shadow .22s ease,border-color .22s ease
 }
-.game-link:before,.game-locked:before{
-  content:"";position:absolute;inset:0;background:linear-gradient(105deg,transparent 20%,rgba(255,255,255,.022),transparent 60%);pointer-events:none
+.game-card.c2{--hover:#204c78}.game-card.c3{--hover:#2d6547}.game-card.c4{--hover:#8a6a22}
+.game-card:before{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 10%,rgba(255,255,255,.12) 45%,transparent 72%);transform:translateX(-130%);transition:transform .55s ease}
+.game-card:hover,.game-card:focus-visible{transform:translateY(-5px) scale(1.012);background:var(--hover);border-color:rgba(255,255,255,.18);box-shadow:0 14px 30px rgba(0,0,0,.42);outline:none}
+.game-card:hover:before,.game-card:focus-visible:before{transform:translateX(130%)}
+.status{display:inline-block;margin-bottom:6px;font:900 9px Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;transition:.2s}
+.status.open{color:#244327}.status.closed{color:#492025}
+.game-title{font-weight:900;color:#d8d8d3;font-size:15px;line-height:1.2;transition:.18s}
+.game-desc{margin-top:5px;color:#fff;font-size:11px;line-height:1.35}
+.game-card.active:hover .status.open,.game-card.active:focus-visible .status.open{color:#7dff4d;text-shadow:0 0 8px rgba(125,255,77,.65)}
+.game-card.active:hover .game-title,.game-card.active:focus-visible .game-title{color:var(--yellow);text-shadow:0 0 7px rgba(255,242,0,.28)}
+.game-card.closed-card{cursor:default}
+.game-card.closed-card:hover .game-title,.game-card.closed-card:focus-visible .game-title{color:#d8d8d3;text-shadow:none}
+.game-card.closed-card:hover .status.closed,.game-card.closed-card:focus-visible .status.closed{color:#492025;text-shadow:none}
+.site-footer{background:#000;border-top:1px solid #171717;padding:48px 20px 24px}
+.footer-grid{width:min(1400px,100%);margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:44px}
+.footer-col h3{font-family:Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;color:var(--yellow);font-size:25px;margin:0 0 18px;text-transform:uppercase}
+.footer-col a,.footer-col .section-label{display:block;color:#fff;text-decoration:none;font-weight:700;font-style:italic;font-size:13px;margin:0 0 12px}
+.footer-col a:hover{color:var(--yellow)}
+.community{text-align:center;margin:65px auto 0}.community h4{font-style:italic;font-size:16px;margin:0 0 18px;color:#fff}
+.socials{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+.socials a{width:29px;height:29px;border-radius:50%;display:grid;place-items:center;text-decoration:none;font:900 11px Arial,sans-serif;background:#222;border:1px solid #444;color:#fff}
+.copy{text-align:center;color:#aaa;font-size:10px;margin-top:18px}
+@media(max-width:900px){
+ .top-text-nav{justify-content:flex-start;overflow-x:auto;gap:22px;font-size:11px}
+ .icon-nav{top:49px}.icon-row{justify-content:flex-start;gap:2px;padding-left:4px}.nav-item{width:47px}.nav-label{display:none}
+ .game-grid{grid-template-columns:1fr 1fr}.footer-grid{grid-template-columns:1fr 1fr}
 }
-.game-num{font:700 10px Arial,sans-serif;color:#555950;min-width:26px}
-.game-name{font-size:14px;line-height:1.2}
-.game-link.active{border-color:#817959;color:#eee4bc;background:linear-gradient(180deg,#1e1d15,#10110d);box-shadow:0 0 20px rgba(239,220,135,.08),inset 0 1px rgba(255,255,255,.05)}
-.game-link.active:hover{color:#fff0af;transform:translateY(-1px);box-shadow:0 0 28px rgba(239,220,135,.15),0 10px 22px rgba(0,0,0,.28)}
-.game-link.active:after{content:"OPEN";margin-left:auto;font:700 9px Arial,sans-serif;letter-spacing:.14em;color:var(--ember)}
-footer{text-align:center;color:#62655e;padding:20px 15px 40px;font-size:11px}
-@media(max-width:800px){
-  .nav-inner{min-height:88px;padding:16px 5px 8px;justify-content:flex-start}
-  .nav-center{gap:2px;margin:0}
-  .nav-item{width:46px;height:54px}.nav-label{display:none}.emoji{font-size:20px}.blooms{font-size:24px}
-  .featured{grid-template-columns:1fr}.feature-info{display:grid;grid-template-columns:repeat(2,1fr);gap:0 18px}
-  .game-grid{grid-template-columns:1fr 1fr}
-  .hero{padding-top:28px}.hero-shell{padding:40px 18px 36px}.feature-card{min-height:280px;padding:26px}
-}
-@media(max-width:520px){
-  .featured,.vault{width:calc(100% - 20px)}.feature-card{min-height:300px}
-  .feature-info{grid-template-columns:1fr}.game-grid{grid-template-columns:1fr}
-  .vault-head{align-items:start;flex-direction:column;gap:6px}
+@media(max-width:560px){
+ .page{padding-left:10px;padding-right:10px}.game-grid{grid-template-columns:1fr}
+ .footer-grid{grid-template-columns:1fr 1fr;gap:28px 20px}.footer-col h3{font-size:21px}.footer-col a,.footer-col .section-label{font-size:11px}
 }
 </style>
 </head>
 <body>
-<nav class="site-nav" aria-label="Examine the Past navigation">
-  <div class="nav-inner"><div class="nav-center">
-    <a class="nav-item" href="https://www.examinethepast.com/" aria-label="Home"><span class="nav-label">Home</span><span class="emoji">🏠</span></a>
-    <a class="nav-item" href="https://www.examinethepast.com/about-us" aria-label="About"><span class="nav-label">About</span><span class="emoji">ℹ️</span></a>
-    <a class="nav-item" href="https://www.examinethepast.com/explore-the-past" aria-label="History Hub"><span class="nav-label">History Hub</span><span class="emoji">🎓</span></a>
-    <a class="nav-item" href="https://www.examinethepast.com/#resource-vault" aria-label="Resource Vault"><span class="nav-label">Resource Vault</span><span class="emoji">📖</span></a>
-    <a class="nav-item" href="https://www.examinethepast.com/on-this-day-in-history" aria-label="On This Day"><span class="nav-label">On This Day</span><span class="emoji">📅</span></a>
-    <a class="nav-item" href="https://www.examinethepast.com/historical-maps" aria-label="History Map"><span class="nav-label">History Map</span><span class="emoji">🌍</span></a>
-    <a class="nav-item timeline" href="https://www.examinethepast.com/interactive-timeline" aria-label="Timeline"><span class="nav-label">Timeline</span><svg viewBox="0 0 38 18"><path d="M3 9H35" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2.2"/><circle cx="7" cy="9" fill="currentColor" r="3.1"/><circle cx="19" cy="9" fill="currentColor" r="3.1"/><circle cx="31" cy="9" fill="currentColor" r="3.1"/></svg></a>
-    <a class="nav-item" href="https://www.examinethepast.com/resources/blooms-taxonomy" aria-label="Bloom's"><span class="nav-label">Bloom's</span><span class="emoji blooms">▲</span></a>
-    <a class="nav-item" href="./" aria-label="Games"><span class="nav-label">Games</span><span class="emoji">🎮</span></a>
-    <a class="nav-item" href="https://www.youtube.com/@ExamineThePast" aria-label="Communities"><span class="nav-label">Communities</span><span class="emoji">👥</span></a>
-    <a class="nav-item" href="https://www.examinethepast.com/#contact-section" aria-label="Contact Us"><span class="nav-label">Contact Us</span><span class="emoji">📧</span></a>
-    <button class="nav-item sound-off" id="soundToggle" type="button" aria-label="Turn background sound on">
-      <span class="nav-label" id="soundStatus">Sound Off</span>
-      <svg class="sound-svg" viewBox="0 0 32 32" aria-hidden="true">
-        <path d="M5 13h6l7-6v18l-7-6H5z"/>
-        <path class="sound-wave" d="M22 11c2 2 2 8 0 10M25 8c4 4 4 12 0 16"/>
-        <path class="mute-slash" d="M22 13l6 6M28 13l-6 6"/>
-      </svg>
-    </button>
-  </div></div>
-  <div class="nav-glow"></div>
-</nav>
+<header>
+  <nav class="top-text-nav" aria-label="Main site navigation">
+    <a href="https://www.examinethepast.com/" target="_top">Home</a>
+    <a href="https://www.examinethepast.com/explore-the-past" target="_top">Explore the Past</a>
+    <a href="https://www.examinethepast.com/#resource-vault" target="_top">Resources</a>
+    <a href="https://www.examinethepast.com/on-this-day-in-history" target="_top">On This Day in History</a>
+    <a href="https://www.examinethepast.com/interactive-timeline" target="_top">Interactive Timeline</a>
+    <a href="https://www.examinethepast.com/historical-maps" target="_top">Historical Maps</a>
+  </nav>
+  <nav class="icon-nav" aria-label="Examine the Past tools">
+    <div class="icon-row">
+      <a class="nav-item" href="https://www.examinethepast.com/" target="_top"><span class="nav-label">Home</span><span class="nav-icon">🏠</span></a>
+      <a class="nav-item" href="https://www.examinethepast.com/about-us" target="_top"><span class="nav-label">About</span><span class="nav-icon">ℹ️</span></a>
+      <a class="nav-item" href="https://www.examinethepast.com/explore-the-past" target="_top"><span class="nav-label">History Hub</span><span class="nav-icon">🎓</span></a>
+      <a class="nav-item" href="https://www.examinethepast.com/#resource-vault" target="_top"><span class="nav-label">Resource Vault</span><span class="nav-icon">📖</span></a>
+      <a class="nav-item" href="https://www.examinethepast.com/on-this-day-in-history" target="_top"><span class="nav-label">On This Day</span><span class="nav-icon">📅</span></a>
+      <a class="nav-item" href="https://www.examinethepast.com/historical-maps" target="_top"><span class="nav-label">History Map</span><span class="nav-icon">🌍</span></a>
+      <a class="nav-item timeline" href="https://www.examinethepast.com/interactive-timeline" target="_top"><span class="nav-label">Timeline</span><svg viewBox="0 0 38 18"><path d="M3 9H35" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="7" cy="9" r="3" fill="currentColor"/><circle cx="19" cy="9" r="3" fill="currentColor"/><circle cx="31" cy="9" r="3" fill="currentColor"/></svg></a>
+      <a class="nav-item" href="https://www.examinethepast.com/resources/blooms-taxonomy" target="_top"><span class="nav-label">Bloom's</span><span class="nav-icon blooms">▲</span></a>
+      <a class="nav-item" href="https://wdwedu.github.io/examine-the-past-home/games/" target="_top"><span class="nav-label">Games</span><span class="nav-icon">🎮</span></a>
+      <a class="nav-item" href="https://www.youtube.com/@ExamineThePast" target="_blank" rel="noopener"><span class="nav-label">Communities</span><span class="nav-icon">👥</span></a>
+      <a class="nav-item" href="https://www.examinethepast.com/#contact-section" target="_top"><span class="nav-label">Contact Us</span><span class="nav-icon">📧</span></a>
+      <button class="nav-item sound-control" id="soundToggle" type="button"><span class="nav-label" id="soundText">Sound On</span><span class="nav-icon" id="soundIcon">🔊</span></button>
+    </div>
+    <div class="nav-glow"></div>
+  </nav>
+</header>
 
-<audio id="gameAudio" loop preload="none"></audio>
+<audio id="gameAudio" loop preload="auto"></audio>
 
-<section class="hero">
-  <div class="hero-shell">
-    <div class="kicker">Examine the Past Interactive Games</div>
+<main class="page">
+  <section class="intro">
+    <div class="eyebrow">Examine the Past Interactive Games</div>
     <h1>History Unlocked</h1>
-    <div class="hero-rule"></div>
-    <p class="hero-sub">A growing vault of mysteries, challenges, timelines, maps, investigations, primary sources, and historical worlds to rebuild.</p>
-  </div>
-</section>
-
-<section class="featured" aria-label="Featured game">
-  <a class="feature-card" href="./time-rush/">
-    <span class="live-tag">First Prototype · Open</span>
-    <div class="feature-title">Time Rush</div>
-    <div class="feature-desc">Put history in order before the clock runs out. Read the event, judge the sequence, and build the timeline under pressure.</div>
-    <span class="enter">Enter Game →</span>
-  </a>
-  <aside class="feature-info">
-    <h2>Game 01</h2>
-    <div class="stat"><b>Family</b><span>Time Rush</span></div>
-    <div class="stat"><b>Format</b><span>Chronology + speed</span></div>
-    <div class="stat"><b>Current Status</b><span>Scenic prototype</span></div>
-    <div class="stat"><b>Designed For</b><span>Phone, tablet & desktop</span></div>
-  </aside>
-</section>
-
-<main class="vault">
-  <div class="vault-head">
-    <div><h2>The Game Vault</h2><p>50 planned games organized into eight reusable game systems.</p></div>
-    <p>Only Game 01 is illuminated in Build 4.</p>
-  </div>
-  <div id="gameGroups"></div>
+    <p>Choose a challenge from the vault. Active games reveal themselves in yellow and green. The rest stay mysterious until they are unlocked.</p>
+  </section>
+  <div class="vault" id="vault"></div>
 </main>
 
-<footer>Examine the Past · History Unlocked · Build 4</footer>
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-col"><h3>Learn</h3>
+      <span class="section-label">SOCIAL STUDIES</span>
+      <a href="https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v0-start-here-social-studies" target="_top">V0: Start Here</a>
+      <a href="https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v1-foundations" target="_top">V1: Foundations</a>
+      <a href="https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v2-geography" target="_top">V2: Geography</a>
+      <a href="https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v3-civilizations" target="_top">V3: Civilizations</a>
+      <a href="https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v4-government-power" target="_top">V4: Government &amp; Power</a>
+      <a href="https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v5-revolutions" target="_top">V5: Revolutions</a>
+      <a href="https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v6-modern-world" target="_top">V6: Modern World</a>
+      <a href="https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v7-economics" target="_top">V7: Economics</a>
+      <a href="https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v8-america-civic-life" target="_top">V8: America &amp; Civic Life</a>
+    </div>
+    <div class="footer-col"><h3>Explore</h3>
+      <span class="section-label">WORLD RELIGIONS</span>
+      <a href="https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v0-start-here-world-religions" target="_top">V0: Start Here (World Religion)</a>
+      <a href="https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v1-introduction-to-religion" target="_top">V1: Introduction to Religion</a>
+      <a href="https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v2-african-origins-of-spirituality" target="_top">V2: African Origins of Spirituality</a>
+      <a href="https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v3-the-rise-of-polytheism" target="_top">V3: The Rise of Polytheism</a>
+      <a href="https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v4-judaism-and-monotheism" target="_top">V4: Judaism and Monotheism</a>
+      <a href="https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v5-christianitys-emergence" target="_top">V5: Christianity's Emergence</a>
+      <a href="https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v6-the-rise-of-islam" target="_top">V6: The Rise of Islam</a>
+      <a href="https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v7-power-politics-and-religion" target="_top">V7: Power, Politics, and Religion</a>
+      <a href="https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v8-religion-today-in-america" target="_top">V8: Religion Today in America</a>
+    </div>
+    <div class="footer-col"><h3>Resources</h3>
+      <a href="https://www.examinethepast.com/on-this-day-in-history" target="_top">On This Day In History</a>
+      <a href="https://www.examinethepast.com/interactive-timeline" target="_top">Interactive Timeline</a>
+      <a href="https://www.examinethepast.com/historical-maps" target="_top">Historical Maps</a>
+      <a href="https://www.examinethepast.com/resources/blooms-taxonomy" target="_top">Blooms Generator</a>
+      <a href="https://www.examinethepast.com/resources/current-event-article-analysis" target="_top">Current Events</a>
+      <a href="https://www.examinethepast.com/resources/teaching-movie-lessons" target="_top">Historical Movies</a>
+      <a href="https://wdwedu.github.io/examine-the-past-home/games/" target="_top">Games (History Unlocked)</a>
+      <a href="https://www.examinethepast.com/curriculum-design" target="_top">Curriculum Design</a>
+      <a href="https://www.examinethepast.com/ai-in-education" target="_top">AI in Education</a>
+      <a href="https://www.examinethepast.com/faq" target="_top">FAQ</a>
+    </div>
+    <div class="footer-col"><h3>Legal</h3>
+      <a href="https://www.examinethepast.com/" target="_top">Affiliate Disclosure</a>
+      <a href="https://www.examinethepast.com/" target="_top">Careers &amp; Partnerships</a>
+      <a href="https://www.examinethepast.com/" target="_top">Resource Licensing</a>
+      <a href="https://www.examinethepast.com/" target="_top">Copyright Policy</a>
+      <a href="https://www.examinethepast.com/" target="_top">DMCA Notice</a>
+      <a href="https://www.examinethepast.com/" target="_top">Privacy Policy</a>
+      <a href="https://www.examinethepast.com/" target="_top">Terms of Service</a>
+      <a href="https://www.examinethepast.com/" target="_top">Refund / Digital</a>
+      <a href="https://www.examinethepast.com/" target="_top">Cookie Policy</a>
+      <a href="https://www.examinethepast.com/#contact-section" target="_top">Contact Us</a>
+    </div>
+  </div>
+  <div class="community"><h4>JOIN OUR COMMUNITY</h4><div class="socials">
+    <a href="https://www.youtube.com/@ExamineThePast" target="_blank">▶</a><a href="https://www.facebook.com/examinethepast" target="_blank">f</a><a href="https://www.instagram.com/examinethepast/" target="_blank">◎</a><a href="https://x.com/" target="_blank">X</a><a href="https://examinethepast.blogspot.com/" target="_blank">B</a><a href="https://www.teacherspayteachers.com/store/examine-the-past" target="_blank">T</a><a href="https://www.redbubble.com/people/examinethepast/shop" target="_blank">R</a><a href="https://www.zazzle.com/store/examine_the_past" target="_blank">Z</a><a href="https://www.pinterest.com/examinethepast/" target="_blank">P</a><a href="https://www.etsy.com/shop/examinethepast" target="_blank">E</a>
+  </div><div class="copy">© 2026 Examine the Past. All Rights Reserved.</div></div>
+</footer>
 
 <script>
-const groups = [
-["TIME RUSH",["Time Rush: Ancient Worlds","Time Rush: U.S. Presidents","Time Rush: Civil Rights","Time Rush: World Wars","Time Rush: Inventions","Time Rush: Revolutions"]],
-["HISTORY CASE FILES",["The Missing Colony","The Lincoln File","The Pharaoh’s Secret","The Cold War Brief","The Black Death Case","The Underground Railroad File"]],
-["CONNECTIONS",["Empires & Trade","Leaders & Movements","Cause & Effect: Revolutions","Reformers & Change","Alliances & Wars","Migration & Culture"]],
-["ESCAPE THE PAST",["Escape the Pyramid","Escape the Plantation","Escape the Trenches","Escape the Castle","Escape the Great Depression","Escape the Cold War Bunker"]],
-["MAP QUEST",["Empire Mapper","Colonies Challenge","Trade Routes Quest","Battlefields Quest","Migration Paths","Ancient Civilizations Map Hunt"]],
-["WHO IN TIME?",["Who Am I? Inventors","Who Am I? Leaders","Who Am I? Activists","Who Am I? Explorers","Who Am I? Writers","Who Am I? Scientists"]],
-["SOURCE LAB",["Source Lab: Speeches","Source Lab: Letters","Source Lab: Photos","Source Lab: Political Cartoons","Source Lab: Maps","Source Lab: Newspaper Reports","Source Lab: Diaries"]],
-["BUILD THE PAST",["Build a Colony","Build a Civilization","Rebuild a Timeline","Build a Constitution","Build a Trade Network","Reconstruct the Morning","Build a Movement"]]
+const groups=[
+["TIME RUSH",[
+["Time Rush: Ancient Worlds","Sequence the milestones that shaped the earliest civilizations."],
+["Time Rush: U.S. Presidents","Race through presidential eras in chronological order."],
+["Time Rush: Civil Rights","Place major civil-rights events where they belong in time."],
+["Time Rush: World Wars","Order pivotal moments from the world wars."],
+["Time Rush: Inventions","Track inventions that transformed daily life."],
+["Time Rush: Revolutions","Sequence revolutions and the turning points inside them."]]],
+["HISTORY CASE FILES",[
+["The Missing Colony","Investigate clues behind a vanished settlement."],["The Lincoln File","Separate evidence, claims, and unanswered questions."],["The Pharaoh's Secret","Follow archaeological clues through ancient Egypt."],["The Cold War Brief","Decode evidence from a global standoff."],["The Black Death Case","Trace causes, spread, and consequences."],["The Underground Railroad File","Use evidence to follow a hidden network to freedom."]]],
+["CONNECTIONS",[
+["Empires & Trade","Connect power, geography, goods, and exchange."],["Leaders & Movements","Match leaders to the movements they shaped."],["Cause & Effect: Revolutions","Build chains of causes and consequences."],["Reformers & Change","Link reformers to ideas and outcomes."],["Alliances & Wars","Connect alliances to conflicts and turning points."],["Migration & Culture","Trace how migration reshapes culture."]]],
+["ESCAPE THE PAST",[
+["Escape the Pyramid","Solve clues to unlock an ancient chamber."],["Escape the Plantation","Use historical evidence to navigate a dangerous setting."],["Escape the Trenches","Crack wartime clues under pressure."],["Escape the Castle","Solve medieval puzzles to find your way out."],["Escape the Great Depression","Use survival choices and clues to advance."],["Escape the Cold War Bunker","Decode the past before the doors seal."]]],
+["MAP QUEST",[
+["Empire Mapper","Identify territories as empires expand and contract."],["Colonies Challenge","Locate colonies and connect them to larger systems."],["Trade Routes Quest","Trace the routes that moved goods and ideas."],["Battlefields Quest","Locate battles and explain why place mattered."],["Migration Paths","Follow human movement across regions and eras."],["Ancient Civilizations Map Hunt","Find civilizations using geographic clues."]]],
+["WHO IN TIME?",[
+["Who Am I? Inventors","Identify an inventor from layered clues."],["Who Am I? Leaders","Use evidence to name the historical leader."],["Who Am I? Activists","Discover activists through actions and quotations."],["Who Am I? Explorers","Identify explorers from routes and clues."],["Who Am I? Writers","Match writers to eras, works, and ideas."],["Who Am I? Scientists","Use discoveries to uncover the scientist."]]],
+["SOURCE LAB",[
+["Source Lab: Speeches","Interrogate speeches for message, audience, and purpose."],["Source Lab: Letters","Read letters as evidence from another time."],["Source Lab: Photos","Examine photographs for clues and context."],["Source Lab: Political Cartoons","Decode symbols, claims, and perspective."],["Source Lab: Maps","Read maps as arguments about place and power."],["Source Lab: Newspaper Reports","Compare reporting, language, and perspective."],["Source Lab: Diaries","Use personal accounts to reconstruct experience."]]],
+["BUILD THE PAST",[
+["Build a Colony","Balance geography, resources, and survival choices."],["Build a Civilization","Construct a functioning civilization from key systems."],["Rebuild a Timeline","Reconstruct a broken historical sequence."],["Build a Constitution","Assemble principles into a governing framework."],["Build a Trade Network","Connect regions, resources, and routes."],["Reconstruct the Morning","Rebuild events from evidence and chronology."],["Build a Movement","Assemble people, goals, strategy, and momentum."]]]
 ];
-let n=1;
-document.getElementById("gameGroups").innerHTML = groups.map(([title,games]) => {
-  const cards = games.map(name => {
-    const current=n++;
-    if(current===1) return '<a class="game-link active" href="./time-rush/"><span class="game-num">'+String(current).padStart(2,"0")+'</span><span class="game-name">'+name+'</span></a>';
-    return '<div class="game-locked"><span class="game-num">'+String(current).padStart(2,"0")+'</span><span class="game-name">'+name+'</span></div>';
-  }).join("");
-  return '<section class="group"><div class="group-title"><strong>'+title+'</strong><span>'+games.length+' games</span></div><div class="game-grid">'+cards+'</div></section>';
+let number=1, color=1;
+document.getElementById("vault").innerHTML=groups.map(([title,games])=>{
+ const cards=games.map(([name,desc])=>{
+   const n=number++, c=color; color=color===4?1:color+1;
+   if(n===1) return '<a class="game-card active c'+c+'" href="https://wdwedu.github.io/examine-the-past-home/games/time-rush/" target="_top"><span class="status open">OPEN</span><div class="game-title">'+name+'</div><div class="game-desc">'+desc+'</div></a>';
+   return '<div class="game-card closed-card c'+c+'" tabindex="0"><span class="status closed">CLOSED</span><div class="game-title">'+name+'</div><div class="game-desc">'+desc+'</div></div>';
+ }).join("");
+ return '<section class="family"><div class="family-head"><h2>'+title+'</h2><span>'+games.length+' games</span></div><div class="game-grid">'+cards+'</div></section>';
 }).join("");
 
-const btn=document.getElementById("soundToggle"),status=document.getElementById("soundStatus"),audio=document.getElementById("gameAudio");
-let loaded=false; audio.volume=.34;
-async function ensureTrack(){
+const audio=document.getElementById("gameAudio"),btn=document.getElementById("soundToggle"),icon=document.getElementById("soundIcon"),label=document.getElementById("soundText");
+let loaded=false,wantsSound=true;
+audio.volume=.34;
+async function loadTrack(){
  if(loaded&&audio.src)return true;
  const r=await fetch("https://wdwedu.github.io/blooms-taxonomy/",{cache:"force-cache"});
- if(!r.ok) throw new Error("Audio source unavailable");
+ if(!r.ok)throw new Error("audio unavailable");
  const t=await r.text(),m=t.match(/data:audio\/mpeg;base64,[^"']+/);
- if(!m) throw new Error("Audio track not found");
+ if(!m)throw new Error("track missing");
  audio.src=m[0];loaded=true;return true;
 }
-function sync(){
- const on=!audio.paused;
- btn.classList.toggle("sound-on",on);btn.classList.toggle("sound-off",!on);
- status.textContent=on?"Sound On":"Sound Off";
+function ui(){
+ const on=wantsSound&&!audio.paused;
+ icon.textContent=on?"🔊":"🔇";label.textContent=on?"Sound On":"Sound Off";
  btn.setAttribute("aria-label",on?"Turn background sound off":"Turn background sound on");
 }
-btn.addEventListener("click",async()=>{try{if(!audio.paused)audio.pause();else{await ensureTrack();await audio.play();}}catch(e){console.error(e)}sync()});
-audio.addEventListener("play",sync);audio.addEventListener("pause",sync);sync();
+async function startSound(){try{await loadTrack();if(wantsSound)await audio.play()}catch(e){}ui()}
+btn.addEventListener("click",async()=>{if(!audio.paused){wantsSound=false;audio.pause()}else{wantsSound=true;await startSound()}ui()});
+window.addEventListener("load",startSound,{once:true});
+document.addEventListener("pointerdown",()=>{if(wantsSound&&audio.paused)startSound()},{once:true});
+audio.addEventListener("play",ui);audio.addEventListener("pause",ui);ui();
 </script>
 </body>
 </html>
