@@ -1,4 +1,4 @@
-name: Build 5 home footer patch
+name: Build 5 home footer patch v2
 on:
   push:
     branches: [main]
