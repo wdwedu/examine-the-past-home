@@ -5,162 +5,93 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Time Rush — History Unlocked</title>
 <style>
-:root{--bg:#050605;--panel:#11120f;--line:#3d4038;--ivory:#ece7d8;--muted:#92958b;--gold:#e5cf86;--acid:#b9ff59}
-*{box-sizing:border-box}
-body{
- margin:0;min-height:100vh;color:var(--ivory);font-family:Georgia,"Times New Roman",serif;
- background:
- radial-gradient(circle at 20% 18%,rgba(229,207,134,.12),transparent 25%),
- radial-gradient(circle at 78% 26%,rgba(185,255,89,.06),transparent 24%),
- repeating-linear-gradient(115deg,rgba(255,255,255,.012) 0 1px,transparent 1px 7px),
- linear-gradient(180deg,#0b0c0a,#030403 55%,#0a0b09);
-}
-.topbar{
- position:sticky;top:0;z-index:100;background:rgba(27,29,26,.97);border-bottom:1px solid #4b4e45;
- box-shadow:0 8px 24px rgba(0,0,0,.45)
-}
-.topbar-inner{
- min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:10px;
- width:min(1180px,calc(100% - 16px));margin:auto;padding:8px 4px
-}
-.leftnav,.rightnav{display:flex;align-items:center;gap:7px}
-.navbtn{
- width:48px;height:48px;border:0;border-radius:10px;background:transparent;color:#eeeae0;text-decoration:none;
- display:grid;place-items:center;position:relative;cursor:pointer
-}
-.navbtn:hover,.navbtn:focus-visible{background:#11120f;color:#fff36c;outline:none}
-.navbtn span{font-size:21px}.navbtn svg{width:26px;height:26px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-.wordmark{text-align:center;line-height:1}
-.wordmark b{display:block;font-size:18px;letter-spacing:.12em;text-transform:uppercase;color:#ddd7c3}
-.wordmark small{display:block;margin-top:6px;color:#85887f;font:700 9px Arial,sans-serif;letter-spacing:.18em;text-transform:uppercase}
-.sound-on{color:var(--acid)}.sound-on .mute{display:none}.sound-off .wave{display:none}
-.shell{width:min(1180px,calc(100% - 18px));margin:28px auto 60px}
-.scene{
- position:relative;min-height:340px;border:1px solid #46493f;border-radius:22px;overflow:hidden;
- background:
- radial-gradient(circle at 50% 12%,rgba(229,207,134,.16),transparent 29%),
- linear-gradient(180deg,rgba(255,255,255,.025),transparent 24%),
- repeating-linear-gradient(90deg,rgba(255,255,255,.012) 0 1px,transparent 1px 64px),
- #10110e;
- box-shadow:0 28px 70px rgba(0,0,0,.45),inset 0 0 70px rgba(0,0,0,.5)
-}
-.scene:after{
- content:"";position:absolute;left:5%;right:5%;bottom:78px;height:3px;
- background:linear-gradient(90deg,transparent,#7b765f 6%,#7b765f 94%,transparent)
-}
-.scene-head{position:relative;z-index:2;padding:40px 28px 18px;text-align:center}
-.eyebrow{font:700 10px Arial,sans-serif;letter-spacing:.26em;text-transform:uppercase;color:#96998f}
-h1{margin:8px 0 10px;font-size:clamp(56px,10vw,120px);line-height:.85;color:#efe5ba;text-shadow:0 2px #000,0 0 32px rgba(229,207,134,.14)}
-.tag{font-size:clamp(16px,2.6vw,24px);font-style:italic;color:#c3beae}
-.marker-row{position:relative;z-index:3;display:flex;justify-content:space-around;align-items:flex-end;padding:38px 7% 70px}
-.marker{width:12px;height:12px;border-radius:50%;background:#d9d0a4;box-shadow:0 0 18px rgba(229,207,134,.22);position:relative}
-.marker:after{content:"";position:absolute;width:1px;height:25px;background:#726e59;left:50%;top:12px}
-.game-layout{display:grid;grid-template-columns:300px 1fr;gap:18px;margin-top:18px}
-.panel{
- border:1px solid #373a33;border-radius:18px;background:linear-gradient(180deg,#11120f,#090a08);
- box-shadow:0 18px 40px rgba(0,0,0,.33),inset 0 1px rgba(255,255,255,.03)
-}
-.controls{padding:22px}
-.controls h2{font-size:20px;margin:0 0 8px}.controls p{color:#a9aca3;font-size:14px;line-height:1.45;margin:0 0 20px}
-.metrics{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:14px 0}
-.metric{border:1px solid #2c2f29;border-radius:10px;padding:11px;background:#0b0c0a}
-.metric b{display:block;color:#73776e;font:700 9px Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px}
-.metric span{font-size:20px;color:#e8dfbd}
-.label{display:block;margin:17px 0 7px;color:#8e9188;font:700 10px Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase}
-.diff{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
-.diff button,.action{
- border:1px solid #45483f;border-radius:9px;background:#151612;color:#d3cdbc;min-height:42px;font:700 11px Georgia,serif;cursor:pointer
-}
-.diff button.active{border-color:#8f855d;color:#f3e6ad;background:#222116}
-.action{width:100%;margin-top:17px;min-height:49px;background:linear-gradient(#2b291f,#171813);color:#f2e8b8;border-color:#8d835e;font-size:13px}
-.action:hover{transform:translateY(-1px)}
-.secondary{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:8px}
-.secondary button{min-height:40px;border:1px solid #33362f;border-radius:9px;background:#0d0e0c;color:#92958b;cursor:pointer}
-.board{padding:22px}
-.board-head{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:15px}
-.board-head h2{font-size:20px;margin:0}.status{font:700 10px Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#81857b}
-.cards{display:grid;gap:9px}
-.card{
- min-height:66px;border:1px solid #30332d;border-radius:11px;padding:13px 14px;
- display:flex;align-items:center;gap:13px;background:linear-gradient(180deg,#12130f,#0b0c0a);color:#9c9f96
-}
-.card .grab{font-size:19px;color:#62665d}.card strong{display:block;font-size:14px;color:#c9c5b6}.card small{display:block;margin-top:3px;color:#767a71;font-size:11px}
-.card.demo{border-color:#5e5a47;box-shadow:inset 0 1px rgba(255,255,255,.035)}
-.prototype-note{margin-top:12px;color:#676b63;font-size:11px;line-height:1.45}
-footer{text-align:center;padding:18px;color:#5f625b;font-size:10px}
-@media(max-width:760px){
- .wordmark b{font-size:14px}.wordmark small{font-size:8px}.navbtn{width:42px;height:42px}
- .game-layout{grid-template-columns:1fr}.scene{min-height:300px}.scene-head{padding-top:32px}
- .controls{order:2}.board{order:1}.marker-row{padding-left:10%;padding-right:10%}
-}
+:root{--yellow:#fff200;--green:#94ff53;--white:#f4f1e8}
+*{box-sizing:border-box}body{margin:0;background:#000;color:var(--white);font-family:Georgia,"Times New Roman",serif}
+.top-text-nav{min-height:52px;background:#000;border-bottom:1px solid #141414;display:flex;align-items:center;justify-content:center;gap:30px;padding:8px 16px;font-size:13px;font-weight:700;text-transform:uppercase;position:sticky;top:0;z-index:1200}
+.top-text-nav a{text-decoration:none;color:#eee7d8;white-space:nowrap}.top-text-nav a:hover{color:var(--yellow)}
+.icon-nav{position:sticky;top:52px;z-index:1100;background:#151515;border-bottom:1px solid #444;box-shadow:0 8px 22px rgba(0,0,0,.42)}
+.icon-row{width:min(1160px,calc(100% - 14px));min-height:94px;margin:auto;display:flex;align-items:center;justify-content:center;gap:16px;padding:20px 8px 10px;overflow-x:auto}
+.nav-item{width:70px;height:56px;display:grid;place-items:center;position:relative;flex:0 0 auto;border:0;background:transparent;color:#e6e6e6;text-decoration:none;border-radius:10px;cursor:pointer;font:inherit;transition:.2s}
+.nav-item:hover,.nav-item:focus-visible{background:#0b0b0b;color:var(--yellow);transform:translateY(-3px);outline:none}
+.nav-label{position:absolute;bottom:58px;left:50%;transform:translate(-50%,7px);opacity:0;color:var(--green);font:700 10px Georgia,serif;white-space:nowrap;transition:.18s;pointer-events:none}
+.nav-item:hover .nav-label,.nav-item:focus-visible .nav-label{opacity:1;transform:translate(-50%,0)}
+.nav-icon{font-size:24px;line-height:1}.blooms{font-size:29px;font-weight:900;color:#ffd800}.timeline svg{width:38px;height:18px}
+.nav-glow{height:1px;background:linear-gradient(90deg,transparent,#4a4a4a 20%,#777 50%,#4a4a4a 80%,transparent)}
+.page{min-height:720px;padding:50px 18px 70px;background:radial-gradient(circle at 50% 7%,rgba(255,242,0,.04),transparent 30%),linear-gradient(180deg,#050505,#000)}
+.intro{text-align:center;width:min(1050px,100%);margin:0 auto 26px}.eyebrow{color:var(--green);font:700 12px Arial,sans-serif;letter-spacing:.22em;text-transform:uppercase}
+h1{font-family:Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;margin:7px 0 10px;color:var(--yellow);font-size:clamp(58px,10vw,110px);line-height:.9;text-transform:uppercase}
+.intro p{margin:0 auto;color:#fff;max-width:740px;font-size:16px;line-height:1.5}
+.shell{width:min(1120px,100%);margin:auto;display:grid;grid-template-columns:300px 1fr;gap:16px}
+.panel{border:1px solid #2d2d2d;background:#111;border-radius:12px;box-shadow:0 16px 34px rgba(0,0,0,.38)}
+.controls{padding:20px}.controls h2,.board h2{color:var(--yellow);font-family:Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;letter-spacing:.03em;margin:0 0 10px;text-transform:uppercase}
+.controls p{font-size:13px;line-height:1.45;color:#ddd}.metrics{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:16px 0}
+.metric{border:1px solid #333;background:#090909;border-radius:9px;padding:11px}.metric b{display:block;color:var(--green);font:700 9px Arial,sans-serif;letter-spacing:.13em;text-transform:uppercase;margin-bottom:5px}.metric span{font-size:20px}
+.action{width:100%;min-height:48px;border-radius:9px;border:1px solid #6b5d16;background:#1c1b0c;color:#fff200;font-weight:900;cursor:pointer}
+.board{padding:20px}.card{border:1px solid #333;border-radius:9px;background:#0b0b0b;padding:13px 14px;margin-bottom:9px;color:#fff}.card strong{display:block}.card small{display:block;color:#aaa;margin-top:4px}
+.site-footer{background:#000;border-top:1px solid #171717;padding:48px 20px 24px}
+.footer-grid{width:min(1400px,100%);margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:44px}
+.footer-col h3{font-family:Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;color:var(--yellow);font-size:25px;margin:0 0 18px;text-transform:uppercase}
+.footer-col a,.footer-col .section-label{display:block;color:#fff;text-decoration:none;font-weight:700;font-style:italic;font-size:13px;margin:0 0 12px}
+.footer-col a:hover{color:var(--yellow)}
+.community{text-align:center;margin:65px auto 0}.community h4{font-style:italic;font-size:16px;margin:0 0 18px}.socials{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}.socials a{width:29px;height:29px;border-radius:50%;display:grid;place-items:center;text-decoration:none;font:900 11px Arial,sans-serif;background:#222;border:1px solid #444;color:#fff}.copy{text-align:center;color:#aaa;font-size:10px;margin-top:18px}
+@media(max-width:900px){.top-text-nav{justify-content:flex-start;overflow-x:auto;gap:22px;font-size:11px}.icon-nav{top:49px}.icon-row{justify-content:flex-start;gap:2px;padding-left:4px}.nav-item{width:47px}.nav-label{display:none}.shell{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.page{padding-left:10px;padding-right:10px}.footer-grid{grid-template-columns:1fr 1fr;gap:28px 20px}.footer-col h3{font-size:21px}.footer-col a,.footer-col .section-label{font-size:11px}}
 </style>
 </head>
 <body>
-<nav class="topbar">
- <div class="topbar-inner">
-  <div class="leftnav">
-   <a class="navbtn" href="https://www.examinethepast.com/" aria-label="Examine the Past home"><span>🏠</span></a>
-   <a class="navbtn" href="../" aria-label="Game Vault"><span>🎮</span></a>
-  </div>
-  <div class="wordmark"><b>Time Rush</b><small>History Unlocked · Game 01</small></div>
-  <div class="rightnav">
-   <a class="navbtn" href="https://www.examinethepast.com/#contact-section" aria-label="Contact"><span>📧</span></a>
-   <button class="navbtn sound-off" id="soundToggle" aria-label="Turn background sound on" type="button">
-    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 13h6l7-6v18l-7-6H5z"/><path class="wave" d="M22 11c2 2 2 8 0 10M25 8c4 4 4 12 0 16"/><path class="mute" d="M22 13l6 6M28 13l-6 6"/></svg>
-   </button>
-  </div>
- </div>
+<header>
+<nav class="top-text-nav">
+<a href="https://www.examinethepast.com/" target="_top">Home</a>
+<a href="https://www.examinethepast.com/explore-the-past" target="_top">Explore the Past</a>
+<a href="https://www.examinethepast.com/#resource-vault" target="_top">Resources</a>
+<a href="https://www.examinethepast.com/on-this-day-in-history" target="_top">On This Day in History</a>
+<a href="https://www.examinethepast.com/interactive-timeline" target="_top">Interactive Timeline</a>
+<a href="https://www.examinethepast.com/historical-maps" target="_top">Historical Maps</a>
 </nav>
+<nav class="icon-nav"><div class="icon-row">
+<a class="nav-item" href="https://www.examinethepast.com/" target="_top"><span class="nav-label">Home</span><span class="nav-icon">🏠</span></a>
+<a class="nav-item" href="https://www.examinethepast.com/about-us" target="_top"><span class="nav-label">About</span><span class="nav-icon">ℹ️</span></a>
+<a class="nav-item" href="https://www.examinethepast.com/explore-the-past" target="_top"><span class="nav-label">History Hub</span><span class="nav-icon">🎓</span></a>
+<a class="nav-item" href="https://www.examinethepast.com/#resource-vault" target="_top"><span class="nav-label">Resource Vault</span><span class="nav-icon">📖</span></a>
+<a class="nav-item" href="https://www.examinethepast.com/on-this-day-in-history" target="_top"><span class="nav-label">On This Day</span><span class="nav-icon">📅</span></a>
+<a class="nav-item" href="https://www.examinethepast.com/historical-maps" target="_top"><span class="nav-label">History Map</span><span class="nav-icon">🌍</span></a>
+<a class="nav-item timeline" href="https://www.examinethepast.com/interactive-timeline" target="_top"><span class="nav-label">Timeline</span><svg viewBox="0 0 38 18"><path d="M3 9H35" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="7" cy="9" r="3" fill="currentColor"/><circle cx="19" cy="9" r="3" fill="currentColor"/><circle cx="31" cy="9" r="3" fill="currentColor"/></svg></a>
+<a class="nav-item" href="https://www.examinethepast.com/resources/blooms-taxonomy" target="_top"><span class="nav-label">Bloom's</span><span class="nav-icon blooms">▲</span></a>
+<a class="nav-item" href="https://wdwedu.github.io/examine-the-past-home/games/" target="_top"><span class="nav-label">Games</span><span class="nav-icon">🎮</span></a>
+<a class="nav-item" href="https://www.youtube.com/@ExamineThePast" target="_blank" rel="noopener"><span class="nav-label">Communities</span><span class="nav-icon">👥</span></a>
+<a class="nav-item" href="https://www.examinethepast.com/#contact-section" target="_top"><span class="nav-label">Contact Us</span><span class="nav-icon">📧</span></a>
+<button class="nav-item" id="soundToggle" type="button"><span class="nav-label" id="soundText">Sound On</span><span class="nav-icon" id="soundIcon">🔊</span></button>
+</div><div class="nav-glow"></div></nav>
+</header>
 
-<audio id="gameAudio" loop preload="none"></audio>
+<audio id="gameAudio" loop preload="auto"></audio>
 
-<main class="shell">
- <section class="scene">
-  <div class="scene-head">
-   <div class="eyebrow">Prototype Challenge · Ancient Worlds</div>
-   <h1>Time Rush</h1>
-   <div class="tag">Put history in order before time runs out.</div>
-  </div>
-  <div class="marker-row" aria-hidden="true"><i class="marker"></i><i class="marker"></i><i class="marker"></i><i class="marker"></i><i class="marker"></i></div>
- </section>
-
- <section class="game-layout">
-  <aside class="panel controls">
-   <h2>Mission Controls</h2>
-   <p>Arrange the event cards from earliest to latest. This page shows the planned game interface; full gameplay comes next.</p>
-   <div class="metrics">
-    <div class="metric"><b>Time</b><span id="timer">01:30</span></div>
-    <div class="metric"><b>Score</b><span>0000</span></div>
-   </div>
-   <span class="label">Difficulty</span>
-   <div class="diff"><button class="active">Easy</button><button>Medium</button><button>Hard</button></div>
-   <button class="action" id="startBtn">Start Mission</button>
-   <div class="secondary"><button>Hint</button><button>Reset</button></div>
-  </aside>
-
-  <section class="panel board">
-   <div class="board-head"><h2>Arrange the Timeline</h2><span class="status" id="status">Preview Mode</span></div>
-   <div class="cards">
-    <div class="card demo"><span class="grab">↕</span><div><strong>Hammurabi’s Code</strong><small>Drag position when gameplay is activated.</small></div></div>
-    <div class="card"><span class="grab">↕</span><div><strong>Construction of the Great Pyramid</strong><small>Historical event card</small></div></div>
-    <div class="card"><span class="grab">↕</span><div><strong>First Olympic Games</strong><small>Historical event card</small></div></div>
-    <div class="card"><span class="grab">↕</span><div><strong>Roman Republic Established</strong><small>Historical event card</small></div></div>
-    <div class="card"><span class="grab">↕</span><div><strong>Alexander the Great’s Conquests</strong><small>Historical event card</small></div></div>
-   </div>
-   <div class="prototype-note">Build 4 establishes the visual shell, controls, scoring area, timer location, event-card layout, and mobile structure. The actual scoring/timeline engine is the next layer.</div>
-  </section>
- </section>
+<main class="page">
+<section class="intro"><div class="eyebrow">History Unlocked · Game 01</div><h1>Time Rush</h1><p>Put history in order before time runs out. Build 5 locks the Examine the Past shell around the game; full gameplay comes next.</p></section>
+<section class="shell">
+<aside class="panel controls"><h2>Mission Controls</h2><p>Arrange the events from earliest to latest.</p><div class="metrics"><div class="metric"><b>Time</b><span>01:30</span></div><div class="metric"><b>Score</b><span>0000</span></div></div><button class="action">Start Mission</button></aside>
+<section class="panel board"><h2>Arrange the Timeline</h2>
+<div class="card"><strong>Construction of the Great Pyramid</strong><small>Historical event card</small></div>
+<div class="card"><strong>Hammurabi's Code</strong><small>Historical event card</small></div>
+<div class="card"><strong>First Olympic Games</strong><small>Historical event card</small></div>
+<div class="card"><strong>Roman Republic Established</strong><small>Historical event card</small></div>
+<div class="card"><strong>Alexander the Great's Conquests</strong><small>Historical event card</small></div>
+</section></section>
 </main>
-<footer>Examine the Past · History Unlocked · Build 4 Prototype</footer>
+
+<footer class="site-footer"><div class="footer-grid">
+<div class="footer-col"><h3>Learn</h3><span class="section-label">SOCIAL STUDIES</span><a href="https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v0-start-here-social-studies" target="_top">V0: Start Here</a><a href="https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v1-foundations" target="_top">V1: Foundations</a><a href="https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v2-geography" target="_top">V2: Geography</a><a href="https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v3-civilizations" target="_top">V3: Civilizations</a><a href="https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v4-government-power" target="_top">V4: Government &amp; Power</a><a href="https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v5-revolutions" target="_top">V5: Revolutions</a><a href="https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v6-modern-world" target="_top">V6: Modern World</a><a href="https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v7-economics" target="_top">V7: Economics</a><a href="https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v8-america-civic-life" target="_top">V8: America &amp; Civic Life</a></div>
+<div class="footer-col"><h3>Explore</h3><span class="section-label">WORLD RELIGIONS</span><a href="https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v0-start-here-world-religions" target="_top">V0: Start Here (World Religion)</a><a href="https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v1-introduction-to-religion" target="_top">V1: Introduction to Religion</a><a href="https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v2-african-origins-of-spirituality" target="_top">V2: African Origins of Spirituality</a><a href="https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v3-the-rise-of-polytheism" target="_top">V3: The Rise of Polytheism</a><a href="https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v4-judaism-and-monotheism" target="_top">V4: Judaism and Monotheism</a><a href="https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v5-christianitys-emergence" target="_top">V5: Christianity's Emergence</a><a href="https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v6-the-rise-of-islam" target="_top">V6: The Rise of Islam</a><a href="https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v7-power-politics-and-religion" target="_top">V7: Power, Politics, and Religion</a><a href="https://www.examinethepast.com/explore-the-past/world-religions-mini-labs/v8-religion-today-in-america" target="_top">V8: Religion Today in America</a></div>
+<div class="footer-col"><h3>Resources</h3><a href="https://www.examinethepast.com/on-this-day-in-history" target="_top">On This Day In History</a><a href="https://www.examinethepast.com/interactive-timeline" target="_top">Interactive Timeline</a><a href="https://www.examinethepast.com/historical-maps" target="_top">Historical Maps</a><a href="https://www.examinethepast.com/resources/blooms-taxonomy" target="_top">Blooms Generator</a><a href="https://www.examinethepast.com/resources/current-event-article-analysis" target="_top">Current Events</a><a href="https://www.examinethepast.com/resources/teaching-movie-lessons" target="_top">Historical Movies</a><a href="https://wdwedu.github.io/examine-the-past-home/games/" target="_top">Games (History Unlocked)</a><a href="https://www.examinethepast.com/curriculum-design" target="_top">Curriculum Design</a><a href="https://www.examinethepast.com/ai-in-education" target="_top">AI in Education</a><a href="https://www.examinethepast.com/faq" target="_top">FAQ</a></div>
+<div class="footer-col"><h3>Legal</h3><a href="https://www.examinethepast.com/" target="_top">Affiliate Disclosure</a><a href="https://www.examinethepast.com/" target="_top">Careers &amp; Partnerships</a><a href="https://www.examinethepast.com/" target="_top">Resource Licensing</a><a href="https://www.examinethepast.com/" target="_top">Copyright Policy</a><a href="https://www.examinethepast.com/" target="_top">DMCA Notice</a><a href="https://www.examinethepast.com/" target="_top">Privacy Policy</a><a href="https://www.examinethepast.com/" target="_top">Terms of Service</a><a href="https://www.examinethepast.com/" target="_top">Refund / Digital</a><a href="https://www.examinethepast.com/" target="_top">Cookie Policy</a><a href="https://www.examinethepast.com/#contact-section" target="_top">Contact Us</a></div>
+</div><div class="community"><h4>JOIN OUR COMMUNITY</h4><div class="socials"><a href="https://www.youtube.com/@ExamineThePast" target="_blank">▶</a><a href="https://www.facebook.com/examinethepast" target="_blank">f</a><a href="https://www.instagram.com/examinethepast/" target="_blank">◎</a><a href="https://x.com/" target="_blank">X</a><a href="https://examinethepast.blogspot.com/" target="_blank">B</a><a href="https://www.teacherspayteachers.com/store/examine-the-past" target="_blank">T</a><a href="https://www.redbubble.com/people/examinethepast/shop" target="_blank">R</a><a href="https://www.zazzle.com/store/examine_the_past" target="_blank">Z</a><a href="https://www.pinterest.com/examinethepast/" target="_blank">P</a><a href="https://www.etsy.com/shop/examinethepast" target="_blank">E</a></div><div class="copy">© 2026 Examine the Past. All Rights Reserved.</div></div></footer>
 
 <script>
-document.querySelectorAll(".diff button").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll(".diff button").forEach(x=>x.classList.remove("active"));b.classList.add("active")}));
-const start=document.getElementById("startBtn"),status=document.getElementById("status");
-start.addEventListener("click",()=>{status.textContent="Prototype Ready";start.textContent="Gameplay Engine Coming Next"});
-const btn=document.getElementById("soundToggle"),audio=document.getElementById("gameAudio");let loaded=false;audio.volume=.34;
-async function ensureTrack(){if(loaded&&audio.src)return true;const r=await fetch("https://wdwedu.github.io/blooms-taxonomy/",{cache:"force-cache"});if(!r.ok)throw new Error("audio unavailable");const t=await r.text(),m=t.match(/data:audio\/mpeg;base64,[^"']+/);if(!m)throw new Error("track missing");audio.src=m[0];loaded=true;return true}
-function sync(){const on=!audio.paused;btn.classList.toggle("sound-on",on);btn.classList.toggle("sound-off",!on);btn.setAttribute("aria-label",on?"Turn background sound off":"Turn background sound on")}
-btn.addEventListener("click",async()=>{try{if(!audio.paused)audio.pause();else{await ensureTrack();await audio.play()}}catch(e){console.error(e)}sync()});audio.addEventListener("play",sync);audio.addEventListener("pause",sync);sync();
+const audio=document.getElementById("gameAudio"),btn=document.getElementById("soundToggle"),icon=document.getElementById("soundIcon"),label=document.getElementById("soundText");let loaded=false,wantsSound=true;audio.volume=.34;
+async function loadTrack(){if(loaded&&audio.src)return true;const r=await fetch("https://wdwedu.github.io/blooms-taxonomy/",{cache:"force-cache"});if(!r.ok)throw new Error("audio unavailable");const t=await r.text(),m=t.match(/data:audio\/mpeg;base64,[^"']+/);if(!m)throw new Error("track missing");audio.src=m[0];loaded=true;return true}
+function ui(){const on=wantsSound&&!audio.paused;icon.textContent=on?"🔊":"🔇";label.textContent=on?"Sound On":"Sound Off"}
+async function startSound(){try{await loadTrack();if(wantsSound)await audio.play()}catch(e){}ui()}
+btn.addEventListener("click",async()=>{if(!audio.paused){wantsSound=false;audio.pause()}else{wantsSound=true;await startSound()}ui()});window.addEventListener("load",startSound,{once:true});document.addEventListener("pointerdown",()=>{if(wantsSound&&audio.paused)startSound()},{once:true});audio.addEventListener("play",ui);audio.addEventListener("pause",ui);ui();
 </script>
 </body>
 </html>
