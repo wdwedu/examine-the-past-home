@@ -117,6 +117,7 @@ const ROUNDS=[
 ];
 
 let roundIndex=0,totalCorrect=0,totalPossible=0,placed=[],timer=null,timeLeft=0,phase="intro",audioCtx=null;
+const TONES=["tone-red","tone-blue","tone-green","tone-gold"];
 
 const $=s=>document.querySelector(s);
 const els={
@@ -171,10 +172,10 @@ function renderProgress(){
 }
 function renderTimeline(){
  const r=ROUNDS[roundIndex],count=r.events.length;
- els.slots.style.gridTemplateColumns='repeat('+count+',minmax(70px,1fr))';
+ els.slots.style.setProperty("--slot-count",count);
  els.slots.innerHTML=Array.from({length:count},(_,i)=>{
    const id=placed[i],ev=r.events.find(e=>e.id===id);
-   return '<button class="timeline-slot '+(ev?"filled":"empty")+'" data-index="'+i+'" '+(ev?'title="Tap to remove"':'disabled')+'><span class="node"></span><span class="timeline-label">'+(ev?ev.label:"")+'</span></button>';
+   return '<button class="timeline-slot '+(ev?"filled":"empty")+'" data-index="'+i+'" '+(ev?'title="Tap to remove"':'disabled')+'><span class="timeline-label">'+(ev?ev.label:"")+'</span></button>';
  }).join("");
  els.slots.querySelectorAll(".filled").forEach(b=>b.addEventListener("click",()=>{
    sfx("click");placed.splice(Number(b.dataset.index),1);renderArrangeCards();renderTimeline();syncSubmit();
@@ -185,31 +186,32 @@ function renderArrangeCards(){
  const order=window._currentShuffle||r.events;
  els.main.innerHTML='<h2>Arrange the Timeline</h2><p class="board-note">Tap the events in the order you believe they happened. They will light up on the timeline above. Tap a timeline event to remove it and try again.</p><div class="card-grid" id="cardGrid"></div>';
  const grid=$("#cardGrid");
- grid.innerHTML=order.map(ev=>'<button class="event-card '+(placed.includes(ev.id)?"placed":"")+'" data-id="'+ev.id+'"><strong>'+ev.label+'</strong><small>'+ev.detail+'</small></button>').join("");
+ grid.innerHTML=order.map((ev,i)=>'<button class="event-card '+TONES[i%4]+' '+(placed.includes(ev.id)?"placed":"")+'" data-id="'+ev.id+'"><strong>'+ev.label+'</strong><small>'+ev.detail+'</small></button>').join("");
  grid.querySelectorAll(".event-card:not(.placed)").forEach(b=>b.addEventListener("click",()=>{
    if(placed.length>=r.events.length)return;
    sfx("place");placed.push(b.dataset.id);renderArrangeCards();renderTimeline();syncSubmit();
  }));
 }
+function setActionTone(i){els.action.classList.remove(...TONES);els.action.classList.add(TONES[i%4])}
 function syncSubmit(){els.action.disabled=placed.length!==ROUNDS[roundIndex].events.length}
 function showIntro(){
  phase="intro";renderProgress();els.time.textContent="—";els.score.textContent=totalCorrect;
  els.hint.hidden=true;els.result.hidden=true;els.secondary.hidden=true;
  els.main.innerHTML='<h2>Ancient Worlds: Time Rush</h2><div class="study-card"><h3>How to Play</h3><p>Each round begins with a short history reading. Study it before the clock runs out. Then the reading disappears and you must place the events in chronological order. Complete all nine rounds to earn your Ancient Worlds badge and unlock the next Time Rush game.</p></div>';
- els.action.textContent="Start Game";els.action.disabled=false;
+ els.action.textContent="Start Game";els.action.disabled=false;setActionTone(0);
 }
 function beginStudy(){
  sfx("click");phase="study";placed=[];window._currentShuffle=null;renderProgress();renderTimeline();
  const r=ROUNDS[roundIndex];els.hint.hidden=true;els.result.hidden=true;els.secondary.hidden=true;
  els.main.innerHTML='<h2>Study the Past</h2><div class="study-card"><div class="study-timer">Study Time · '+r.studySeconds+' seconds</div><h3>'+r.title+'</h3><p>'+r.study+'</p></div>';
- els.action.textContent="I'm Ready";els.action.disabled=false;
+ els.action.textContent="I'm Ready";els.action.disabled=false;setActionTone(1);
  runTimer(r.studySeconds,beginArrange);
 }
 function beginArrange(){
  stopTimer();phase="arrange";const r=ROUNDS[roundIndex];window._currentShuffle=shuffle(r.events);placed=[];
  renderArrangeCards();renderTimeline();els.hint.hidden=true;els.result.hidden=true;els.secondary.hidden=false;els.secondary.textContent="Clear Timeline";
  els.secondary.onclick=()=>{sfx("click");placed=[];renderArrangeCards();renderTimeline();syncSubmit();};
- els.action.textContent="Submit Timeline";els.action.disabled=true;
+ els.action.textContent="Submit Timeline";els.action.disabled=true;setActionTone(2);
  runTimer(r.playSeconds,()=>submitRound(true));
 }
 function submitRound(auto=false){
@@ -224,7 +226,7 @@ function submitRound(auto=false){
  els.result.innerHTML='<strong>'+(perfect?"Perfect Timeline!":auto?"Time ran out.":"Round complete.")+'</strong><br>'+correct+' of '+r.events.length+' events are in the correct position ('+pct+'%).<ol class="feedback-order">'+r.events.map(e=>'<li>'+e.label+'</li>').join("")+'</ol>';
  // Show the correct timeline after feedback.
  placed=[...correctIds];renderTimeline();
- els.action.disabled=false;els.action.textContent=roundIndex===ROUNDS.length-1?"Claim Badge":"Next Round";
+ els.action.disabled=false;els.action.textContent=roundIndex===ROUNDS.length-1?"Claim Badge":"Next Round";setActionTone(3);
 }
 function advance(){
  if(roundIndex===ROUNDS.length-1){finishGame();return}
