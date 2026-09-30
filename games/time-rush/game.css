@@ -210,3 +210,5 @@ body{margin:0;background:#000;color:#f6f0df;font-family:Georgia,"Times New Roman
 .action:hover::after,.action:focus-visible::after,.event-card:hover::after,.event-card:focus-visible::after{opacity:1;animation:timeRushShimmy .72s ease-out}
 .action:hover,.action:focus-visible,.event-card:hover,.event-card:focus-visible{filter:brightness(1.08) saturate(.88);box-shadow:0 11px 28px rgba(0,0,0,.48),inset 0 1px rgba(255,255,255,.07)}
 @keyframes timeRushShimmy{0%{transform:rotate(19deg) translateX(-260%)}100%{transform:rotate(19deg) translateX(620%)}}
+
+#vaultReturn{background:linear-gradient(145deg,#3b2b0b,#130d03 65%,#070401)!important;border-color:#6d5520!important;color:#f5e8bd!important}
