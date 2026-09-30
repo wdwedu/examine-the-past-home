@@ -25,6 +25,7 @@
    facebook:"https://www.facebook.com/sharer/sharer.php?u="+enc(cleanUrl),
    x:"https://twitter.com/intent/tweet?text="+enc(shareText+" — "+shareTitle)+"&url="+enc(cleanUrl),
    pinterest:"https://www.pinterest.com/pin/create/button/?url="+enc(cleanUrl)+"&description="+enc(shareText+" — "+shareTitle),
+   linkedin:"https://www.linkedin.com/sharing/share-offsite/?url="+enc(cleanUrl),
    email:"mailto:?subject="+enc("History Unlocked: "+shareTitle)+"&body="+enc(shareText+"\n\n"+cleanUrl)
  };
  Object.entries(shareLinks).forEach(([key,url])=>{const a=document.querySelector('[data-share="'+key+'"]');if(a)a.href=url;});
