@@ -143,3 +143,12 @@ body{margin:0;background:#000;color:#f6f0df;font-family:Georgia,"Times New Roman
 .source-links a:hover,.source-links a:focus-visible{color:#b8e89e;border-bottom-color:#b8e89e;outline:none}
 .game-sources p{margin:9px 0 0;max-width:760px;color:#62665f;font-size:9px;line-height:1.45}
 @media(max-width:560px){.game-sources{width:calc(100% - 24px);margin:-28px auto 38px}.source-links{display:grid;gap:7px}.source-links a{width:max-content;max-width:100%}}
+
+.mastery-note{display:block;margin-top:9px;color:#b8e89e;font-weight:700;line-height:1.45}
+.level-win-flash{position:fixed;inset:0;z-index:4900;display:grid;place-items:center;pointer-events:none;background:radial-gradient(circle at center,rgba(115,255,79,.12),rgba(0,0,0,0) 48%);opacity:0;transform:scale(.94);transition:opacity .22s ease,transform .3s cubic-bezier(.2,.9,.25,1.2)}
+.level-win-flash.show{opacity:1;transform:scale(1)}
+.level-win-inner{width:min(560px,86vw);padding:28px 22px;text-align:center;border:1px solid rgba(255,221,73,.6);border-radius:22px;background:radial-gradient(circle at 50% 10%,rgba(255,211,56,.19),transparent 40%),linear-gradient(160deg,rgba(15,24,13,.97),rgba(2,5,3,.98));box-shadow:0 0 34px rgba(117,255,76,.22),0 0 80px rgba(255,200,44,.12);text-shadow:0 3px 18px #000}
+.level-win-kicker{color:#9cff65;font:800 12px Arial,sans-serif;letter-spacing:.18em}
+.level-win-title{color:#fff200;font-family:Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;font-size:clamp(42px,8vw,78px);letter-spacing:.04em;line-height:1;margin:8px 0}
+.level-win-next{color:#fff;font:800 clamp(14px,2.6vw,20px) Arial,sans-serif}
+@media(max-width:560px){.level-win-inner{padding:24px 14px}.level-win-kicker{font-size:10px}.level-win-title{font-size:48px}}
