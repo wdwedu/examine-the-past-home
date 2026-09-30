@@ -159,9 +159,15 @@ function runTimer(seconds,onDone){
    if(timeLeft<=0){stopTimer();onDone();}
  },1000);
 }
+function syncActionTone(){
+ const tones=["tone-maroon","tone-blue","tone-green","tone-yellow"];
+ els.action.classList.remove(...tones);
+ els.action.classList.add(tones[roundIndex%tones.length]);
+}
 function renderProgress(){
  els.progress.innerHTML=ROUNDS.map((_,i)=>'<div class="progress-dot '+(i<roundIndex?"done":i===roundIndex?"current":"")+'">'+(i+1)+'</div>').join("");
  els.round.textContent=(roundIndex+1)+"/"+ROUNDS.length;
+ syncActionTone();
 }
 function renderTimeline(){
  const r=ROUNDS[roundIndex],count=r.events.length;
