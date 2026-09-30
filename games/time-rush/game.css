@@ -66,3 +66,70 @@ body{margin:0;background:#000;color:#f6f0df;font-family:Georgia,"Times New Roman
 #vaultReturn{margin-top:18px}
 @media(max-width:900px){.history-unlocked-lockup{padding:14px 10px 12px}.game-shell{grid-template-columns:1fr;gap:10px}.controls{position:static}.card-grid{grid-template-columns:1fr}.timeline-slot .timeline-label{width:17vw;font-size:clamp(7px,1.7vw,10px)}}
 @media(max-width:560px){.history-unlocked-lockup{padding:11px 8px 10px}.hu-title{font-size:30px}.hu-subtitle{font-size:12px}.hu-credit{font-size:9px}.hero-title-mask{left:13%;right:13%;top:5%;height:36%}.hero-title{top:7%;width:88%}.world-title{font-size:8vw}.rush-title{font-size:6.5vw}.game-subtitle{font-size:3.2vw;margin-top:4px}.live-timeline{left:8%;right:8%;top:42.7%;height:18%}.timeline-slot .timeline-label{width:19vw;font-size:2.05vw;line-height:1.08}.timeline-slot:nth-child(odd) .timeline-label{bottom:60%}.timeline-slot:nth-child(even) .timeline-label{top:60%}.progress-bar{gap:5px;margin-top:10px}.progress-dot{width:27px;height:27px}.game-shell{width:calc(100% - 12px);margin-top:8px}.main-panel,.controls{padding:15px}.main-panel{min-height:360px}.metrics{grid-template-columns:repeat(4,1fr);gap:5px}.metric{padding:8px 5px;text-align:center}.metric span{font-size:15px}.metric b{font-size:7px}.study-card{padding:17px;font-size:14px}.event-card{min-height:72px;padding:13px}.badge-card{padding:24px 18px}.badge-emblem{width:140px;height:140px}}
+
+/* Build 14 banner + mobile-first Time Rush lock */
+#timeRushGame{
+  background:
+    radial-gradient(ellipse at 50% 38%,rgba(27,72,45,.20),transparent 34%),
+    linear-gradient(180deg,#020303 0%,#050806 48%,#000 100%);
+}
+.game-hero{width:min(1600px,100%);padding:0;margin:0 auto;background:#000;overflow:visible}
+.hero-image-wrap{width:100%;aspect-ratio:2048/647;overflow:hidden;background:#000;box-shadow:0 12px 38px rgba(0,0,0,.55)}
+.hero-image{width:100%;height:100%;object-fit:contain;object-position:center center;display:block;image-rendering:auto}
+.hero-image-wrap::after{
+  content:"";position:absolute;left:3%;right:3%;bottom:-2px;height:4px;
+  background:linear-gradient(90deg,transparent,rgba(118,255,94,.22),rgba(179,255,116,.58),rgba(118,255,94,.22),transparent);
+  box-shadow:0 0 20px rgba(112,255,98,.26);pointer-events:none;z-index:8
+}
+.hero-title,.hero-title-mask{display:none!important}
+.live-timeline{left:8.5%;right:8.5%;top:60%;height:36%;z-index:7}
+.timeline-slots{display:grid;grid-template-columns:repeat(var(--slot-count,6),1fr)!important;gap:1.2%;height:100%;align-items:stretch}
+.timeline-slot{height:100%;min-width:0;background:transparent!important;border:0!important;box-shadow:none!important}
+.timeline-slot .timeline-label{
+  width:min(178px,15vw);padding:2px 3px;color:#fff;
+  font:800 clamp(8px,.92vw,14px)/1.12 Arial,sans-serif;
+  letter-spacing:.01em;text-shadow:0 2px 5px #000,0 0 10px #000,0 0 4px #000;
+}
+.timeline-slot:nth-child(odd) .timeline-label{bottom:58%}
+.timeline-slot:nth-child(even) .timeline-label{top:56%}
+.banner-transition{
+  min-height:56px;display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;
+  padding:9px 16px 5px;text-align:center;
+  background:linear-gradient(180deg,rgba(6,14,9,.98),rgba(1,3,2,.98));
+  border-top:1px solid rgba(126,255,93,.22);
+  box-shadow:inset 0 13px 26px rgba(89,255,108,.035)
+}
+.banner-transition span{color:#fff200;font:800 13px/1 Arial,sans-serif;letter-spacing:.12em}
+.banner-transition small{color:#8ee65e;font:italic 11px/1.25 Georgia,serif}
+.progress-bar{margin:0 auto;padding:7px 8px 10px;background:#010201}
+.game-shell{width:min(1320px,calc(100% - 22px));margin:0 auto 54px;gap:14px}
+.controls{top:92px}
+.main-panel{min-height:400px}
+#game-shell-footer{border-top:1px solid rgba(124,255,92,.24);box-shadow:0 -16px 34px rgba(69,255,104,.055)}
+
+@media(max-width:900px){
+  .game-hero{width:100%}
+  .game-shell{width:calc(100% - 12px);grid-template-columns:1fr;margin-top:0}
+  .controls{position:static}
+  .banner-transition{min-height:44px;padding:7px 10px 4px;gap:5px}
+  .banner-transition span{font-size:11px}
+  .banner-transition small{font-size:9px;width:100%}
+  .timeline-slot .timeline-label{width:15.5vw;font-size:clamp(6px,1.35vw,9px)}
+}
+@media(max-width:560px){
+  .hero-image-wrap{aspect-ratio:2048/647}
+  .live-timeline{left:7.5%;right:7.5%;top:59%;height:38%}
+  .timeline-slot .timeline-label{width:16vw;font-size:1.55vw;line-height:1.05;padding:1px}
+  .timeline-slot:nth-child(odd) .timeline-label{bottom:58%}
+  .timeline-slot:nth-child(even) .timeline-label{top:55%}
+  .banner-transition{min-height:38px}
+  .banner-transition span{font-size:10px}
+  .banner-transition small{font-size:8px}
+  .progress-bar{padding:5px 5px 8px;gap:4px}
+  .progress-dot{width:24px;height:24px;font-size:9px}
+  .game-shell{width:calc(100% - 10px);gap:8px}
+  .controls,.main-panel{border-radius:12px;padding:13px}
+  .mission-copy{margin-bottom:9px}
+  .metrics{margin:8px 0}
+  .action,.ghost{min-height:45px}
+}
