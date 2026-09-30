@@ -39,6 +39,13 @@
      }catch(e){}
    });
  }
+ const instagramShare=document.querySelector('[data-share="instagram"]');
+ if(instagramShare)instagramShare.addEventListener("click",async()=>{
+   try{
+     if(navigator.share){await navigator.share({title:shareTitle,text:shareText,url:cleanUrl});}
+     else if(navigator.clipboard){await navigator.clipboard.writeText(cleanUrl);if(shareStatus){shareStatus.textContent="Game link copied — paste it into Instagram.";setTimeout(()=>shareStatus.textContent="",2400);}}
+   }catch(e){}
+ });
  const copyShare=document.querySelector('[data-share="copy"]');
  if(copyShare)copyShare.addEventListener("click",async()=>{
    try{
