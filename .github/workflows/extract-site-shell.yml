@@ -1,0 +1,20 @@
+name: Extract site shell snapshot
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/extract-site-shell.yml"
+permissions:
+  contents: write
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python .github/scripts/extract_site_shell.py
+      - name: Commit snapshot
+        run: |
+          git config user.name "Examine the Past Build Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add .github/site-shell-snapshot.txt
+          if git diff --cached --quiet; then echo "No changes."; else git commit -m "Dev: snapshot site shell" && git push; fi
