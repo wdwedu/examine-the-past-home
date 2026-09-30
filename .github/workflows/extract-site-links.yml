@@ -1,0 +1,20 @@
+name: Extract site links
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/extract-site-links.yml"
+permissions:
+  contents: write
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install beautifulsoup4
+      - run: python .github/scripts/extract_site_links.py
+      - run: |
+          git config user.name "Examine the Past Build Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add .github/site-links-snapshot.txt
+          if git diff --cached --quiet; then echo "No changes."; else git commit -m "Dev: snapshot site links" && git push; fi
