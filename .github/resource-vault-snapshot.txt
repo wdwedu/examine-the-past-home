@@ -1,0 +1,79 @@
+=== RESOURCE HTML ===
+<section class="experience" id="resource-vault">
+<div class="wrap">
+<div class="eyebrow">Interactive Learning + Teacher Tools</div>
+<h2 class="section-title impact">Resource Vault</h2>
+<p class="section-copy">Choose a tool and move directly into the interactive resources already built across Examine the Past.</p>
+<div class="experience-grid">
+<a class="exp-card tone-red" href="https://www.examinethepast.com/on-this-day-in-history" rel="noopener" target="_blank"><div class="exp-icon">DATE</div><h3>On This Day in History</h3><p>Choose a date and travel through major events, people, turning points, and stories connected to that day.</p></a>
+<a class="exp-card tone-blue" href="https://www.examinethepast.com/interactive-timeline" rel="noopener" target="_blank"><div class="exp-icon">TIME</div><h3>History Timeline</h3><p>Move through the broad arc of human history and explore how major eras and developments connect.</p></a>
+<a class="exp-card tone-green" href="https://www.examinethepast.com/resources/blooms-taxonomy" rel="noopener" target="_blank"><div class="exp-icon">ASK</div><h3>Bloom’s Question Builder</h3><p>Build stronger questions across the six levels of Bloom’s Taxonomy and move learners toward deeper thinking.</p></a>
+<a class="exp-card tone-gold" href="https://www.examinethepast.com/historical-maps" rel="noopener" target="_blank"><div class="exp-icon">MAP</div><h3>Interactive History Map</h3><p>Explore history spatially through locations, geographic relationships, events, and historical context.</p></a>
+<a class="exp-card tone-red" href="https://www.examinethepast.com/resources/current-event-article-analysis" rel="noopener" target="_blank"><div class="exp-icon">NEWS</div><h3>Current Event Analysis</h3><p>Connect today’s headlines to evidence, source evaluation, perspective, history, geography, and critical thinking.</p></a>
+<a class="exp-card tone-blue" href="https://www.examinethepast.com/resources/teaching-movie-lessons" rel="noopener" target="_blank"><div class="exp-icon">FILM</div><h3>Teaching With Movies</h3><p>Turn film into active viewing, historical analysis, evidence-based discussion, and purposeful writing.</p></a>
+</div>
+</div>
+</section>
+
+=== CLASSES ===
+exp-card
+exp-icon
+experience-grid
+eyebrow
+impact
+section-copy
+section-title
+tone-blue
+tone-gold
+tone-green
+tone-red
+wrap
+
+=== MATCHING CSS ===
+.wrap{width:min(var(--max),calc(100% - 36px));margin:auto}
+.impact{font-family:Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;text-transform:uppercase}
+.eyebrow{font:700 10px Arial,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:var(--green)}
+.section-title{margin:8px 0 10px;color:var(--yellow);font-size:clamp(45px,7vw,92px);line-height:.9;letter-spacing:.015em}
+.section-copy{max-width:850px;color:#b0aea7;line-height:1.55;font-size:15px}
+.experience-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;margin-top:28px}
+.exp-card{min-height:208px;border:1px solid #2a2b27;border-radius:18px;padding:21px;background:#0b0c0a;text-decoration:none;position:relative;overflow:hidden;transition:.38s}
+.exp-card::after{content:"";position:absolute;inset:auto -20% -65% -20%;height:190px;opacity:0;filter:blur(8px);transition:.38s}
+.exp-card:hover{transform:translateY(-7px) scale(1.01);border-color:rgba(255,255,255,.12)}
+.exp-card:hover::after{opacity:.72;transform:translateY(-18px)}
+.exp-card>*{position:relative;z-index:2}
+.exp-icon{width:54px;height:32px;border:1px solid rgba(150,255,72,.28);border-radius:999px;display:inline-grid;place-items:center;color:var(--green);background:#11120f;font:700 11px Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase}
+.exp-card h3{color:#fff;font-size:25px;line-height:1.08;margin:15px 0 8px}
+.exp-card p{color:#a4a29b;font-size:13px;line-height:1.55;margin:0}
+.exp-card:hover h3{color:var(--yellow)}
+.tone-red:hover{background:linear-gradient(145deg,#17090d,#0b0c0a)}
+.tone-red::after{background:radial-gradient(circle,rgba(95,15,36,.57),transparent 68%)}
+.tone-blue:hover{background:linear-gradient(145deg,#07111a,#0b0c0a)}
+.tone-blue::after{background:radial-gradient(circle,rgba(26,78,128,.54),transparent 68%)}
+.tone-green:hover{background:linear-gradient(145deg,#071308,#0b0c0a)}
+.tone-green::after{background:radial-gradient(circle,rgba(44,112,49,.54),transparent 68%)}
+.tone-gold:hover{background:linear-gradient(145deg,#171407,#0b0c0a)}
+.tone-gold::after{background:radial-gradient(circle,rgba(142,114,20,.48),transparent 68%)}
+.experience-grid{grid-template-columns:repeat(2,1fr)}
+.experience-grid{grid-template-columns:1fr}
+.wrap{width:calc(100% - 22px)}
+.product.tone-red:hover{background:linear-gradient(145deg,#17090d,#0b0c0a)}
+.product.tone-red::after{background:radial-gradient(circle,rgba(95,15,36,.57),transparent 68%)}
+.product.tone-blue:hover{background:linear-gradient(145deg,#07111a,#0b0c0a)}
+.product.tone-blue::after{background:radial-gradient(circle,rgba(26,78,128,.54),transparent 68%)}
+.product.tone-green:hover{background:linear-gradient(145deg,#071308,#0b0c0a)}
+.product.tone-green::after{background:radial-gradient(circle,rgba(44,112,49,.54),transparent 68%)}
+.product.tone-gold:hover{background:linear-gradient(145deg,#171407,#0b0c0a)}
+.product.tone-gold::after{background:radial-gradient(circle,rgba(142,114,20,.48),transparent 68%)}
+.wrap,.mega-footer-wrap{width:calc(100% - 28px)!important;max-width:none!important}
+.experience-grid{grid-template-columns:1fr 1fr!important}
+.experience-grid{grid-template-columns:1fr!important}
+.exp-card{min-height:auto!important;padding:20px!important}
+.section-title{font-size:clamp(42px,14vw,66px)!important}
+.section-copy{font-size:14px!important}
+.testimonial-card.tone-red:hover{background:linear-gradient(145deg,#17090d,#0b0c0a)}
+.testimonial-card.tone-blue:hover{background:linear-gradient(145deg,#07111a,#0b0c0a)}
+.testimonial-card.tone-green:hover{background:linear-gradient(145deg,#071308,#0b0c0a)}
+.testimonial-card.tone-gold:hover{background:linear-gradient(145deg,#171407,#0b0c0a)}
+/* Testimonial heading cleanup */
+#testimonials .eyebrow{color:var(--green)!important;}
+#testimonials .section-copy{color:#fff!important;}
