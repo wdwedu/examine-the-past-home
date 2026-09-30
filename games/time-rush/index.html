@@ -1,17 +1,66 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Time Rush — History Unlocked</title><link rel="stylesheet" href="/examine-the-past-home/games/assets/site-shell.css"><style>
-body{margin:0;background:#000;color:#f5f2e9;font-family:Georgia,"Times New Roman",serif}
-.page{min-height:720px;padding:50px 18px 70px;background:radial-gradient(circle at 50% 7%,rgba(255,242,0,.025),transparent 30%),linear-gradient(180deg,#050505,#000)}
-.intro{text-align:center;width:min(1050px,100%);margin:0 auto 26px}.eyebrow{color:var(--green);font:700 12px Arial,sans-serif;letter-spacing:.22em;text-transform:uppercase}
-h1{font-family:Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;margin:7px 0 10px;color:var(--yellow);font-size:clamp(58px,10vw,110px);line-height:.9;text-transform:uppercase}.intro p{margin:0 auto;color:#fff;max-width:740px;font-size:16px;line-height:1.5}
-.shell{width:min(1120px,100%);margin:auto;display:grid;grid-template-columns:300px 1fr;gap:16px}.panel{border:1px solid #2d2d2d;background:#111;border-radius:12px;box-shadow:0 16px 34px rgba(0,0,0,.38)}
-.controls{padding:20px}.controls h2,.board h2{color:var(--yellow);font-family:Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;letter-spacing:.03em;margin:0 0 10px;text-transform:uppercase}.controls p{font-size:13px;line-height:1.45;color:#ddd}
-.metrics{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:16px 0}.metric{border:1px solid #333;background:#090909;border-radius:9px;padding:11px}.metric b{display:block;color:var(--green);font:700 9px Arial,sans-serif;letter-spacing:.13em;text-transform:uppercase;margin-bottom:5px}.metric span{font-size:20px}
-.action{width:100%;min-height:48px;border-radius:9px;border:1px solid #554817;background:#171608;color:#fff200;font-weight:900;cursor:pointer}.board{padding:20px}.card{border:1px solid #333;border-radius:9px;background:#0b0b0b;padding:13px 14px;margin-bottom:9px;color:#fff}.card strong{display:block}.card small{display:block;color:#aaa;margin-top:4px}
-@media(max-width:900px){.shell{grid-template-columns:1fr}}@media(max-width:560px){.page{padding-left:10px;padding-right:10px}}
-</style></head><body>
-<div id="game-shell-nav"></div><audio id="gameAudio" loop preload="auto"></audio>
-<main class="page"><section class="intro"><div class="eyebrow">History Unlocked · Game 01</div><h1>Time Rush</h1><p>Put history in order before time runs out. Build 6 keeps the game inside the same Examine the Past visual shell while we prepare the playable engine.</p></section>
-<section class="shell"><aside class="panel controls"><h2>Mission Controls</h2><p>Arrange the events from earliest to latest.</p><div class="metrics"><div class="metric"><b>Time</b><span>01:30</span></div><div class="metric"><b>Score</b><span>0000</span></div></div><button class="action">Start Mission</button></aside>
-<section class="panel board"><h2>Arrange the Timeline</h2><div class="card"><strong>Construction of the Great Pyramid</strong><small>Historical event card</small></div><div class="card"><strong>Hammurabi's Code</strong><small>Historical event card</small></div><div class="card"><strong>First Olympic Games</strong><small>Historical event card</small></div><div class="card"><strong>Roman Republic Established</strong><small>Historical event card</small></div><div class="card"><strong>Alexander the Great's Conquests</strong><small>Historical event card</small></div></section></section></main>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Ancient Worlds: Time Rush — History Unlocked</title>
+<link rel="stylesheet" href="/examine-the-past-home/games/assets/site-shell.css">
+<link rel="stylesheet" href="/examine-the-past-home/games/time-rush/game.css">
+</head>
+<body data-music-source="https://wdwedu.github.io/examine-the-past-home/" data-music-volume=".22">
+<div id="game-shell-nav"></div>
+<audio id="gameAudio" loop preload="auto"></audio>
 
-<div id="game-shell-footer"></div><script src="/examine-the-past-home/games/assets/site-shell.js"></script></body></html>
+<main id="timeRushGame">
+  <section class="game-hero">
+    <p class="game-subtitle">Put history in order before time runs out.</p>
+
+    <div class="progress-bar" id="progressBar" aria-label="Game progress"></div>
+
+    <section class="live-timeline" aria-label="Interactive timeline">
+      <div class="timeline-line"></div>
+      <div class="timeline-slots" id="timelineSlots"></div>
+    </section>
+  </section>
+
+  <section class="game-shell">
+    <aside class="panel controls">
+      <h2>Mission Control</h2>
+      <p class="mission-copy">Read. Remember. Arrange. Build the timeline. Get feedback. Advance.</p>
+
+      <div class="metrics">
+        <div class="metric"><b>Round</b><span id="roundValue">1/9</span></div>
+        <div class="metric"><b>Time</b><span id="timeValue">—</span></div>
+        <div class="metric"><b>Score</b><span id="scoreValue">0</span></div>
+        <div class="metric"><b>Game</b><span>Ancient</span></div>
+      </div>
+
+      <button class="action" id="primaryAction">Start Game</button>
+      <button class="ghost" id="secondaryAction" hidden>Clear Timeline</button>
+
+      <div class="hint-box" id="hintBox" hidden></div>
+      <div class="result-box" id="resultBox" hidden></div>
+    </aside>
+
+    <section class="panel main-panel" id="mainPanel"></section>
+  </section>
+</main>
+
+<div class="completion" id="completion" role="dialog" aria-modal="true" aria-label="Game complete">
+  <div class="badge-card">
+    <div class="badge-emblem"><span>⌛</span></div>
+    <h2>Ancient Worlds Badge</h2>
+    <div class="badge-rank" id="badgeRank">Ancient Worlds Chronologist</div>
+    <p id="badgeScore">Timeline mastery complete.</p>
+    <div class="unlock">NEXT GAME UNLOCKED<br>Time Rush: U.S. Presidents</div>
+    <button class="action" id="vaultReturn" style="margin-top:18px">Return to Game Vault</button>
+    <button class="ghost" id="playAgain">Play Ancient Worlds Again</button>
+  </div>
+</div>
+
+<div id="game-shell-footer"></div>
+
+<script src="/examine-the-past-home/games/assets/site-shell.js"></script>
+<script src="/examine-the-past-home/games/time-rush/game.js"></script>
+</body>
+</html>
