@@ -17,7 +17,7 @@
  });
 
  // Shared game-share controls. Each game automatically shares its own live URL.
- const cleanUrl=location.href.split("#")[0].replace(/([?&])build=\d+(&|$)/,(m,p1,p2)=>p2?p1:"").replace(/[?&]$/,"");
+ const cleanUrl=location.href.split("#")[0].replace(/([?&])build=[^&]+(&|$)/,(m,p1,p2)=>p2?p1:"").replace(/[?&]$/,"");
  const shareTitle=document.title||"History Unlocked";
  const shareText="Can you master this History Unlocked challenge?";
  const enc=encodeURIComponent;
