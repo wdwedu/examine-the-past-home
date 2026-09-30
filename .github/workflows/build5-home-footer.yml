@@ -1,0 +1,19 @@
+name: Build 5 home footer patch
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/build5-home-footer.yml"
+permissions:
+  contents: write
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python .github/scripts/patch_build5_footer.py
+      - run: |
+          git config user.name "Examine the Past Build Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.html
+          if git diff --cached --quiet; then echo "No changes."; else git commit -m "Build 5: replace district services with Games in footer" && git push; fi
