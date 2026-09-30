@@ -217,7 +217,7 @@ function submitRound(auto=false){
  perfect?sfx("correct"):sfx("wrong");
  const pct=Math.round(correct/r.events.length*100);
  els.result.hidden=false;els.hint.hidden=true;els.secondary.hidden=true;
- els.result.innerHTML='<strong>'+(perfect?"Perfect Timeline!":auto?"Time ran out.":"Round complete.")+'</strong><br>'+correct+' of '+r.events.length+' events are in the correct position ('+pct+'%).<ol class="feedback-order">'+r.events.map(e=>'<li>'+e.label+'</li>').join("")+'</ol>';
+ els.result.innerHTML='<strong>'+(perfect?"Perfect Timeline!":auto?"Time ran out.":"Round complete.")+'</strong><br><b>Correct:</b> '+correct+' &nbsp; <b>Wrong:</b> '+(r.events.length-correct)+' &nbsp; <b>Score:</b> '+pct+'%<ol class="feedback-order">'+r.events.map(e=>'<li>'+e.label+'</li>').join("")+'</ol>';
  // Show the correct timeline after feedback.
  placed=[...correctIds];renderTimeline();
  els.action.disabled=false;els.action.textContent=roundIndex===ROUNDS.length-1?"Claim Badge":"Next Round";setActionTone(3);
