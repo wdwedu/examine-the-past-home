@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="650" viewBox="0 0 2048 650">
+<defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#090b13"/><stop offset=".5" stop-color="#030303"/><stop offset="1" stop-color="#351b2a"/></linearGradient><radialGradient id="halo"><stop stop-color="#d4a94a" stop-opacity=".26"/><stop offset="1" stop-color="#d4a94a" stop-opacity="0"/></radialGradient><filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="2048" height="650" fill="url(#bg)"/><circle cx="1024" cy="220" r="390" fill="url(#halo)"/>
+<path d="M70 445h540v18H70zM125 260h70v185h-70zm115-55h70v240h-70zm115 95h70v145h-70zm115-35h70v180h-70z" fill="#eee6d2" opacity=".18"/><path d="M1610 420c85-150 175-225 300-250M1655 445c70-105 145-165 250-190" fill="none" stroke="#d4a94a" stroke-width="10" opacity=".25"/><circle cx="1810" cy="170" r="55" fill="#eee6d2" opacity=".15"/>
+<g opacity=".22" fill="none" stroke="#d4a94a" stroke-width="5"><circle cx="1024" cy="205" r="190"/><circle cx="1024" cy="205" r="155"/><path d="M1024 15v70M1024 325v70M834 205h70M1144 205h70M890 71l48 48M1110 291l48 48M1158 71l-48 48M938 291l-48 48"/></g>
+<text x="1024" y="225" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="142" fill="#f3c54f" stroke="#6b3c08" stroke-width="4" filter="url(#glow)">TIME RUSH</text>
+<text x="1024" y="330" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="68" letter-spacing="4" fill="#f7f2e6">CIVIL RIGHTS</text>
+<text x="1024" y="395" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="34" fill="#fff">Put history in order before time runs out.</text>
+<line x1="125" y1="510" x2="1923" y2="510" stroke="#d4a94a" stroke-width="4" filter="url(#glow)"/>
+<circle cx="170" cy="510" r="12" fill="#fffdf2" stroke="#d4a94a" stroke-width="5"/><circle cx="455" cy="510" r="12" fill="#fffdf2" stroke="#d4a94a" stroke-width="5"/><circle cx="740" cy="510" r="12" fill="#fffdf2" stroke="#d4a94a" stroke-width="5"/><circle cx="1024" cy="510" r="12" fill="#fffdf2" stroke="#d4a94a" stroke-width="5"/><circle cx="1308" cy="510" r="12" fill="#fffdf2" stroke="#d4a94a" stroke-width="5"/><circle cx="1593" cy="510" r="12" fill="#fffdf2" stroke="#d4a94a" stroke-width="5"/><circle cx="1878" cy="510" r="12" fill="#fffdf2" stroke="#d4a94a" stroke-width="5"/>
+<rect y="610" width="2048" height="40" fill="#000" opacity=".35"/>
+</svg>
