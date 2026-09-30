@@ -191,3 +191,10 @@ body{margin:0;background:#000;color:#f6f0df;font-family:Georgia,"Times New Roman
 #game-shell-footer .build17-footer .share-status{height:8px;margin:0}
 #game-shell-footer .build17-footer .copyright{margin:19px 0 0;color:#666;font:400 9px Arial,sans-serif}
 @media(max-width:560px){#game-shell-footer .build17-footer{padding:25px 10px 15px}#game-shell-footer .build17-footer .share-game h2{font-size:19px}#game-shell-footer .build17-footer .share-actions{gap:11px;margin-top:12px}#game-shell-footer .build17-footer .share-logo{width:35px;height:35px}#game-shell-footer .build17-footer .copyright{margin-top:16px}}
+
+/* Build 17 uploaded share icons */
+#game-shell-footer .build17-footer .uploaded-logo{padding:0;border:0;background:transparent;appearance:none}
+#game-shell-footer .build17-footer .uploaded-logo img{display:block;width:100%;height:100%;object-fit:cover;border-radius:10px}
+#game-shell-footer .build17-footer button.uploaded-logo{cursor:pointer}
+#game-shell-footer .build17-footer .x-custom{background:linear-gradient(145deg,#363636,#111);border:1px solid #4b4b4b;border-radius:10px}
+#game-shell-footer .build17-footer .x-custom span{color:#fff;font:500 22px/1 Arial,sans-serif}
