@@ -2,325 +2,260 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Games — Examine the Past</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>History Unlocked — Examine the Past Game Vault</title>
 <style>
-:root{--yellow:#fff000;--green:#8dff43;--white:#f2efe7}
+:root{
+  --ink:#050606;--char:#111310;--char2:#1b1d19;--metal:#8e8d82;--silver:#d6d4c8;
+  --ivory:#eee9d7;--acid:#b9ff59;--gold:#d2b46d;--ember:#efdc87;--line:#3a3d36;
+}
 *{box-sizing:border-box}
-html,body{margin:0;min-height:100%;background:#000;color:var(--white);font-family:Georgia,"Times New Roman",serif}
-
-/* Mirrored from the Examine the Past home navigation */
+html{scroll-behavior:smooth}
+body{
+  margin:0;color:var(--ivory);font-family:Georgia,"Times New Roman",serif;
+  background:
+    radial-gradient(circle at 14% 10%,rgba(210,180,109,.10),transparent 28%),
+    radial-gradient(circle at 80% 18%,rgba(185,255,89,.055),transparent 26%),
+    repeating-linear-gradient(118deg,rgba(255,255,255,.018) 0 1px,transparent 1px 5px),
+    linear-gradient(180deg,#090a08 0%,#030403 48%,#0b0c0a 100%);
+  min-height:100vh;
+}
+body:before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;opacity:.55;
+  background:
+    radial-gradient(ellipse at center,transparent 35%,rgba(0,0,0,.62) 92%),
+    linear-gradient(90deg,rgba(255,255,255,.018),transparent 28%,transparent 72%,rgba(255,255,255,.012));
+}
+a{color:inherit}
 .site-nav{
   position:sticky;top:0;z-index:1000;
-  background:rgba(0,0,0,.975);
-  border-bottom:1px solid #3c3c3c;
-  box-shadow:0 8px 20px rgba(0,0,0,.32),0 1px 0 rgba(255,255,255,.025)
+  background:linear-gradient(180deg,rgba(38,40,36,.98),rgba(24,26,23,.98));
+  border-bottom:1px solid #4a4d45;
+  box-shadow:0 10px 28px rgba(0,0,0,.48),inset 0 1px rgba(255,255,255,.035);
 }
-.final-nav .final-nav-inner{
-  width:min(1900px,calc(100% - 20px));
-  min-height:104px;
-  margin:0 auto;
-  position:relative;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  padding:18px 115px 10px;
-  overflow-x:auto;
+.nav-inner{
+  width:min(1900px,calc(100% - 14px));min-height:104px;margin:auto;
+  display:flex;align-items:center;justify-content:center;padding:18px 12px 9px;overflow-x:auto;
 }
-.final-nav .nav-center{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  gap:18px;
-  margin:0 auto;
-}
+.nav-center{display:flex;align-items:center;gap:15px;margin:0 auto}
 .nav-item{
-  width:74px;height:59px;
-  display:grid;place-items:center;
-  position:relative;
-  color:#fff;text-decoration:none;
-  border:0;background:transparent;cursor:pointer;
-  border-radius:11px;transition:.22s;flex:0 0 auto;
-  font:inherit;padding:0;
+  width:78px;height:64px;display:grid;place-items:center;position:relative;flex:0 0 auto;
+  border:0;border-radius:11px;background:transparent;color:#e7e5dc;text-decoration:none;cursor:pointer;
+  transition:.22s;font:inherit;
 }
-.final-nav .image-nav{
-  width:86px;height:64px;padding:0;border:0;background:transparent;
-  display:grid;place-items:center;position:relative;
+.nav-item:hover,.nav-item:focus-visible{background:#11120f;color:#fff36c;transform:translateY(-3px);outline:none}
+.nav-label{
+  position:absolute;bottom:67px;left:50%;transform:translate(-50%,7px);opacity:0;
+  white-space:nowrap;color:var(--acid);font:700 10px Georgia,serif;transition:.2s;pointer-events:none;
+  text-shadow:0 2px 8px #000;
 }
-.final-nav .nav-label{
-  position:absolute;
-  bottom:67px;left:50%;
-  transform:translate(-50%,6px);
-  opacity:0;
-  color:var(--green);
-  font:700 10px Georgia,serif;
-  white-space:nowrap;
-  transition:.2s ease;
-  pointer-events:none;
+.nav-item:hover .nav-label,.nav-item:focus-visible .nav-label{opacity:1;transform:translate(-50%,0)}
+.emoji{font-size:25px;line-height:1}.blooms{color:#ffd900;font-size:29px;font-weight:900}
+.timeline svg{width:38px;height:18px}
+.sound-svg{width:29px;height:29px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.sound-on .sound-svg{color:var(--acid);filter:drop-shadow(0 0 5px rgba(185,255,89,.38))}
+.sound-on .mute-slash{display:none}.sound-off .sound-wave{display:none}
+.nav-glow{height:1px;background:linear-gradient(90deg,transparent,#686b61 20%,#8a8d81 50%,#686b61 80%,transparent)}
+.hero{padding:58px 18px 34px}
+.hero-shell{
+  width:min(1180px,100%);margin:auto;position:relative;overflow:hidden;text-align:center;
+  border:1px solid #484a43;border-radius:22px;padding:54px 22px 48px;
+  background:
+    linear-gradient(180deg,rgba(255,255,255,.025),rgba(0,0,0,.15)),
+    radial-gradient(circle at 50% 0%,rgba(210,180,109,.10),transparent 42%),
+    repeating-linear-gradient(94deg,rgba(255,255,255,.012) 0 2px,transparent 2px 7px),
+    #10120f;
+  box-shadow:0 30px 90px rgba(0,0,0,.55),inset 0 0 60px rgba(0,0,0,.48),inset 0 1px rgba(255,255,255,.05);
 }
-.final-nav .image-nav:hover .nav-label,
-.final-nav .image-nav:focus-visible .nav-label{
-  opacity:1;transform:translate(-50%,0)
+.hero-shell:before,.hero-shell:after{
+  content:"";position:absolute;left:3%;right:3%;height:1px;background:linear-gradient(90deg,transparent,#6e6c5d,transparent)
 }
-.final-nav .image-nav:hover,
-.final-nav .image-nav:focus-visible{
-  color:var(--yellow);
-  background:#0b0c0a;
-  transform:translateY(-3px);
-  outline:none;
+.hero-shell:before{top:18px}.hero-shell:after{bottom:18px}
+.kicker{font:700 10px Arial,sans-serif;letter-spacing:.34em;text-transform:uppercase;color:#a7aa9d;margin-bottom:12px}
+h1{
+  margin:0;color:#c9c5b3;font-family:Georgia,serif;font-size:clamp(48px,9vw,112px);line-height:.9;
+  letter-spacing:.04em;text-transform:uppercase;
+  text-shadow:0 2px 0 #000,0 -1px 0 rgba(255,255,255,.13),0 10px 30px rgba(0,0,0,.6);
+  filter:drop-shadow(0 1px 0 #2b2c28);
 }
-.emoji-icon{font-size:25px;line-height:1;transition:.2s ease}
-.final-nav .image-nav:hover .emoji-icon,
-.final-nav .image-nav:focus-visible .emoji-icon{transform:translateY(-4px) scale(1.08)}
-.blooms-symbol{color:#ffd800;font-size:29px;font-weight:900}
-.timeline-line-icon{width:38px;height:18px;display:block;transition:.2s ease}
-.timeline-line-icon svg{width:38px;height:18px}
-.final-nav .image-nav:hover .timeline-line-icon{transform:translateY(-4px) scale(1.08)}
-.nav-glow{
-  height:1px;
-  background:linear-gradient(90deg,transparent,#3e3e3e 20%,#585858 50%,#3e3e3e 80%,transparent);
-  box-shadow:0 0 5px rgba(255,255,255,.045)
+.hero-sub{margin:17px auto 0;max-width:730px;color:#bcb8aa;font-size:clamp(15px,2vw,22px);font-style:italic}
+.hero-rule{width:min(520px,80%);height:1px;margin:25px auto;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.featured{
+  width:min(1040px,calc(100% - 28px));margin:18px auto 42px;
+  display:grid;grid-template-columns:1.25fr .75fr;gap:20px;align-items:stretch;
 }
-
-/* Same dropdown behavior family as home nav */
-.nav-drop{position:relative;flex:0 0 auto}
-.course-menu,.community-menu{
-  position:absolute;top:67px;left:50%;transform:translateX(-50%) translateY(7px);
-  min-width:210px;padding:10px;
-  border:1px solid #353535;border-radius:10px;
-  background:#101110;
-  box-shadow:0 14px 30px rgba(0,0,0,.5);
-  opacity:0;visibility:hidden;pointer-events:none;
-  transition:.18s ease;
+.feature-card,.feature-info{
+  border:1px solid #46483f;border-radius:18px;background:linear-gradient(145deg,#11130f,#090a08);
+  box-shadow:0 20px 50px rgba(0,0,0,.42),inset 0 1px rgba(255,255,255,.04);
 }
-.nav-drop.open .course-menu,.nav-drop.open .community-menu{
-  opacity:1;visibility:visible;pointer-events:auto;transform:translateX(-50%) translateY(0)
+.feature-card{
+  min-height:310px;padding:34px;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;
 }
-.mini-menu-head,.community-title{
-  color:var(--green);font:700 10px Arial,sans-serif;letter-spacing:.12em;
-  padding:4px 8px 7px;text-transform:uppercase
+.feature-card:before{
+  content:"";position:absolute;inset:-15%;
+  background:
+    radial-gradient(circle at 25% 30%,rgba(239,220,135,.22),transparent 24%),
+    linear-gradient(120deg,transparent 38%,rgba(255,255,255,.035) 49%,transparent 58%),
+    repeating-linear-gradient(0deg,transparent 0 20px,rgba(255,255,255,.016) 20px 21px);
+  transform:rotate(-3deg);
 }
-.course-menu a,.community-menu a{
-  display:block;padding:8px 9px;border-radius:7px;color:#e9e7df;text-decoration:none;
-  font:700 12px Georgia,serif
+.feature-card>*{position:relative;z-index:1}
+.live-tag{align-self:flex-start;border:1px solid #696553;border-radius:99px;padding:7px 10px;color:var(--ember);font:700 10px Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase}
+.feature-title{font-size:clamp(38px,7vw,76px);line-height:.92;margin:14px 0 8px;color:#efe6bd;text-shadow:0 0 28px rgba(239,220,135,.24)}
+.feature-desc{max-width:640px;color:#c2beb0;font-size:16px;line-height:1.55}
+.feature-card:hover{border-color:#8f855e;box-shadow:0 22px 60px rgba(0,0,0,.48),0 0 35px rgba(239,220,135,.08),inset 0 1px rgba(255,255,255,.05)}
+.enter{
+  margin-top:20px;display:inline-flex;align-items:center;justify-content:center;align-self:flex-start;
+  min-height:48px;padding:0 22px;border:1px solid #918765;border-radius:12px;text-decoration:none;
+  background:linear-gradient(#2a2a22,#151611);color:#f4e9b8;font-weight:700;letter-spacing:.05em;
+  box-shadow:inset 0 1px rgba(255,255,255,.08),0 9px 24px rgba(0,0,0,.3);transition:.2s;
 }
-.course-menu a:hover,.community-menu a:hover{background:#1b1c19;color:var(--yellow)}
-.community-links{display:grid;grid-template-columns:1fr 1fr;gap:4px}
-
-/* Home-page sound control: speaker icon toggles off/on */
-.sound-toggle-single .sound-emoji{font-size:24px}
-.sound-toggle-single.sound-on{color:var(--green)}
-.sound-toggle-single.loading{opacity:.55}
-
-.blank-stage{min-height:calc(100vh - 105px);background:#000}
-.build-badge{
-  position:fixed;right:12px;bottom:10px;color:#686868;
-  font:700 9px Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;
-  pointer-events:none
+.enter:hover{transform:translateY(-2px);box-shadow:0 0 24px rgba(239,220,135,.14),0 12px 28px rgba(0,0,0,.38)}
+.feature-info{padding:28px}
+.feature-info h2{font-size:19px;margin:0 0 18px;color:#dbd4bb}
+.stat{padding:15px 0;border-top:1px solid #292b26}.stat:first-of-type{border-top:0}
+.stat b{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:#8f9287;margin-bottom:5px}
+.stat span{font-size:15px;color:#ddd8c7}
+.vault{width:min(1180px,calc(100% - 28px));margin:0 auto 70px}
+.vault-head{display:flex;justify-content:space-between;align-items:end;gap:20px;padding:0 4px 18px;border-bottom:1px solid #363832}
+.vault-head h2{font-size:clamp(26px,4vw,44px);margin:0;color:#d0ccbc;text-shadow:0 1px #000}
+.vault-head p{margin:0;color:#8e9187;font-size:13px}
+.group{padding:28px 0;border-bottom:1px solid #252722}
+.group-title{display:flex;gap:13px;align-items:baseline;margin-bottom:15px}
+.group-title strong{font-size:20px;color:#c9c5b6}.group-title span{font:700 10px Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#6f736a}
+.game-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.game-link,.game-locked{
+  min-height:64px;padding:14px 15px;border:1px solid #292b27;border-radius:10px;
+  background:linear-gradient(180deg,#11120f,#0a0b09);display:flex;align-items:center;gap:11px;
+  color:#84877e;text-decoration:none;position:relative;overflow:hidden;
+  box-shadow:inset 0 1px rgba(255,255,255,.025);
 }
-
-@media(max-width:1000px){
-  .final-nav .final-nav-inner{padding:18px 8px 10px;justify-content:flex-start}
-  .final-nav .nav-center{justify-content:flex-start;gap:4px;margin:0}
-  .final-nav .image-nav{width:54px;height:58px}
-  .final-nav .nav-label{bottom:61px}
+.game-link:before,.game-locked:before{
+  content:"";position:absolute;inset:0;background:linear-gradient(105deg,transparent 20%,rgba(255,255,255,.022),transparent 60%);pointer-events:none
 }
-@media(max-width:700px){
-  .final-nav .final-nav-inner{min-height:91px;padding:16px 4px 8px}
-  .final-nav .nav-center{gap:1px}
-  .final-nav .image-nav{width:45px;height:52px}
-  .emoji-icon{font-size:20px}
-  .blooms-symbol{font-size:24px}
-  .timeline-line-icon,.timeline-line-icon svg{width:32px}
-  .final-nav .nav-label{display:none}
-  .course-menu,.community-menu{position:fixed;top:88px;left:10px;right:10px;transform:none;min-width:0}
-  .nav-drop.open .course-menu,.nav-drop.open .community-menu{transform:none}
+.game-num{font:700 10px Arial,sans-serif;color:#555950;min-width:26px}
+.game-name{font-size:14px;line-height:1.2}
+.game-link.active{border-color:#817959;color:#eee4bc;background:linear-gradient(180deg,#1e1d15,#10110d);box-shadow:0 0 20px rgba(239,220,135,.08),inset 0 1px rgba(255,255,255,.05)}
+.game-link.active:hover{color:#fff0af;transform:translateY(-1px);box-shadow:0 0 28px rgba(239,220,135,.15),0 10px 22px rgba(0,0,0,.28)}
+.game-link.active:after{content:"OPEN";margin-left:auto;font:700 9px Arial,sans-serif;letter-spacing:.14em;color:var(--ember)}
+footer{text-align:center;color:#62655e;padding:20px 15px 40px;font-size:11px}
+@media(max-width:800px){
+  .nav-inner{min-height:88px;padding:16px 5px 8px;justify-content:flex-start}
+  .nav-center{gap:2px;margin:0}
+  .nav-item{width:46px;height:54px}.nav-label{display:none}.emoji{font-size:20px}.blooms{font-size:24px}
+  .featured{grid-template-columns:1fr}.feature-info{display:grid;grid-template-columns:repeat(2,1fr);gap:0 18px}
+  .game-grid{grid-template-columns:1fr 1fr}
+  .hero{padding-top:28px}.hero-shell{padding:40px 18px 36px}.feature-card{min-height:280px;padding:26px}
+}
+@media(max-width:520px){
+  .featured,.vault{width:calc(100% - 20px)}.feature-card{min-height:300px}
+  .feature-info{grid-template-columns:1fr}.game-grid{grid-template-columns:1fr}
+  .vault-head{align-items:start;flex-direction:column;gap:6px}
 }
 </style>
 </head>
 <body>
-
-<nav aria-label="Primary navigation" class="site-nav final-nav etp-nav-vnext">
-  <div class="final-nav-inner etp-nav-row">
-    <div class="nav-center">
-      <a aria-label="Home" class="nav-item image-nav nav-home" href="https://www.examinethepast.com/">
-        <span class="nav-label">Home</span>
-        <span aria-hidden="true" class="emoji-icon home-emoji">🏠</span>
-      </a>
-
-      <a aria-label="About Examine the Past" class="nav-item image-nav nav-about"
-         href="https://www.examinethepast.com/about-us">
-        <span class="nav-label">About</span>
-        <span aria-hidden="true" class="emoji-icon about-info-emoji">ℹ️</span>
-      </a>
-
-      <div class="nav-drop">
-        <button aria-expanded="false" class="nav-item image-nav drop-toggle" type="button">
-          <span class="nav-label">History Hub</span>
-          <span class="emoji-icon history-emoji">🎓</span>
-        </button>
-        <div class="course-menu mini-labs-menu">
-          <div class="mini-menu-head">Explore the Past</div>
-          <a href="https://www.examinethepast.com/explore-the-past/social-studies-mini-labs/v0-start-here-social-studies">Social Studies</a>
-          <a href="https://www.examinethepast.com/explore-the-past/world-history">World History</a>
-        </div>
-      </div>
-
-      <a class="nav-item image-nav" href="https://www.examinethepast.com/#resource-vault">
-        <span class="nav-label">Resource Vault</span>
-        <span class="emoji-icon">📖</span>
-      </a>
-
-      <a class="nav-item image-nav" href="https://www.examinethepast.com/on-this-day-in-history">
-        <span class="nav-label">On This Day</span>
-        <span class="emoji-icon">📅</span>
-      </a>
-
-      <a class="nav-item image-nav" href="https://www.examinethepast.com/historical-maps">
-        <span class="nav-label">History Map</span>
-        <span class="emoji-icon">🌍</span>
-      </a>
-
-      <a class="nav-item image-nav" href="https://www.examinethepast.com/interactive-timeline">
-        <span class="nav-label">Timeline</span>
-        <span aria-hidden="true" class="timeline-line-icon">
-          <svg viewBox="0 0 38 18">
-            <path d="M3 9H35" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2.2"></path>
-            <circle cx="7" cy="9" fill="currentColor" r="3.1"></circle>
-            <circle cx="19" cy="9" fill="currentColor" r="3.1"></circle>
-            <circle cx="31" cy="9" fill="currentColor" r="3.1"></circle>
-          </svg>
-        </span>
-      </a>
-
-      <a class="nav-item image-nav" href="https://www.examinethepast.com/resources/blooms-taxonomy">
-        <span class="nav-label">Bloom's</span>
-        <span class="emoji-icon blooms-symbol">▲</span>
-      </a>
-
-      <a class="nav-item image-nav" href="https://wdwedu.github.io/examine-the-past-home/games/">
-        <span class="nav-label">Games</span>
-        <span aria-hidden="true" class="emoji-icon">🎮</span>
-      </a>
-
-      <div class="nav-drop">
-        <button aria-expanded="false" class="nav-item image-nav drop-toggle" type="button">
-          <span class="nav-label">Communities</span>
-          <span class="emoji-icon community-emoji">👥</span>
-        </button>
-        <div class="community-menu">
-          <div class="community-title">Join Our Communities</div>
-          <div class="community-links">
-            <a href="https://www.youtube.com/@ExamineThePast">YouTube</a>
-            <a href="https://www.facebook.com/examinethepast">Facebook</a>
-            <a href="https://www.instagram.com/examinethepast/">Instagram</a>
-            <a href="https://www.pinterest.com/examinethepast/">Pinterest</a>
-            <a href="https://www.teacherspayteachers.com/store/examine-the-past">TPT</a>
-            <a href="https://www.etsy.com/shop/examinethepast">Etsy</a>
-            <a href="https://www.redbubble.com/people/examinethepast/shop">Redbubble</a>
-            <a href="https://x.com/">X</a>
-          </div>
-        </div>
-      </div>
-
-      <a class="nav-item image-nav" href="https://www.examinethepast.com/#contact-section">
-        <span class="nav-label">Contact Us</span>
-        <span class="emoji-icon">📧</span>
-      </a>
-
-      <button aria-label="Turn background sound on"
-              class="nav-item image-nav sound-toggle-single"
-              id="soundToggle" type="button">
-        <span class="nav-label" id="soundStatus">Sound Off</span>
-        <span class="emoji-icon sound-emoji" id="soundIcon">🔇</span>
-      </button>
-    </div>
-  </div>
+<nav class="site-nav" aria-label="Examine the Past navigation">
+  <div class="nav-inner"><div class="nav-center">
+    <a class="nav-item" href="https://www.examinethepast.com/" aria-label="Home"><span class="nav-label">Home</span><span class="emoji">🏠</span></a>
+    <a class="nav-item" href="https://www.examinethepast.com/about-us" aria-label="About"><span class="nav-label">About</span><span class="emoji">ℹ️</span></a>
+    <a class="nav-item" href="https://www.examinethepast.com/explore-the-past" aria-label="History Hub"><span class="nav-label">History Hub</span><span class="emoji">🎓</span></a>
+    <a class="nav-item" href="https://www.examinethepast.com/#resource-vault" aria-label="Resource Vault"><span class="nav-label">Resource Vault</span><span class="emoji">📖</span></a>
+    <a class="nav-item" href="https://www.examinethepast.com/on-this-day-in-history" aria-label="On This Day"><span class="nav-label">On This Day</span><span class="emoji">📅</span></a>
+    <a class="nav-item" href="https://www.examinethepast.com/historical-maps" aria-label="History Map"><span class="nav-label">History Map</span><span class="emoji">🌍</span></a>
+    <a class="nav-item timeline" href="https://www.examinethepast.com/interactive-timeline" aria-label="Timeline"><span class="nav-label">Timeline</span><svg viewBox="0 0 38 18"><path d="M3 9H35" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2.2"/><circle cx="7" cy="9" fill="currentColor" r="3.1"/><circle cx="19" cy="9" fill="currentColor" r="3.1"/><circle cx="31" cy="9" fill="currentColor" r="3.1"/></svg></a>
+    <a class="nav-item" href="https://www.examinethepast.com/resources/blooms-taxonomy" aria-label="Bloom's"><span class="nav-label">Bloom's</span><span class="emoji blooms">▲</span></a>
+    <a class="nav-item" href="./" aria-label="Games"><span class="nav-label">Games</span><span class="emoji">🎮</span></a>
+    <a class="nav-item" href="https://www.youtube.com/@ExamineThePast" aria-label="Communities"><span class="nav-label">Communities</span><span class="emoji">👥</span></a>
+    <a class="nav-item" href="https://www.examinethepast.com/#contact-section" aria-label="Contact Us"><span class="nav-label">Contact Us</span><span class="emoji">📧</span></a>
+    <button class="nav-item sound-off" id="soundToggle" type="button" aria-label="Turn background sound on">
+      <span class="nav-label" id="soundStatus">Sound Off</span>
+      <svg class="sound-svg" viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M5 13h6l7-6v18l-7-6H5z"/>
+        <path class="sound-wave" d="M22 11c2 2 2 8 0 10M25 8c4 4 4 12 0 16"/>
+        <path class="mute-slash" d="M22 13l6 6M28 13l-6 6"/>
+      </svg>
+    </button>
+  </div></div>
   <div class="nav-glow"></div>
 </nav>
 
 <audio id="gameAudio" loop preload="none"></audio>
-<main class="blank-stage" aria-label="Build 3 blank game workspace"></main>
-<div class="build-badge">Build 3 · Home Navigation Match</div>
+
+<section class="hero">
+  <div class="hero-shell">
+    <div class="kicker">Examine the Past Interactive Games</div>
+    <h1>History Unlocked</h1>
+    <div class="hero-rule"></div>
+    <p class="hero-sub">A growing vault of mysteries, challenges, timelines, maps, investigations, primary sources, and historical worlds to rebuild.</p>
+  </div>
+</section>
+
+<section class="featured" aria-label="Featured game">
+  <a class="feature-card" href="./time-rush/">
+    <span class="live-tag">First Prototype · Open</span>
+    <div class="feature-title">Time Rush</div>
+    <div class="feature-desc">Put history in order before the clock runs out. Read the event, judge the sequence, and build the timeline under pressure.</div>
+    <span class="enter">Enter Game →</span>
+  </a>
+  <aside class="feature-info">
+    <h2>Game 01</h2>
+    <div class="stat"><b>Family</b><span>Time Rush</span></div>
+    <div class="stat"><b>Format</b><span>Chronology + speed</span></div>
+    <div class="stat"><b>Current Status</b><span>Scenic prototype</span></div>
+    <div class="stat"><b>Designed For</b><span>Phone, tablet & desktop</span></div>
+  </aside>
+</section>
+
+<main class="vault">
+  <div class="vault-head">
+    <div><h2>The Game Vault</h2><p>50 planned games organized into eight reusable game systems.</p></div>
+    <p>Only Game 01 is illuminated in Build 4.</p>
+  </div>
+  <div id="gameGroups"></div>
+</main>
+
+<footer>Examine the Past · History Unlocked · Build 4</footer>
 
 <script>
-(() => {
-  document.querySelectorAll('.nav-drop > .drop-toggle').forEach(toggle => {
-    toggle.addEventListener('click', e => {
-      e.stopPropagation();
-      const drop = toggle.parentElement;
-      document.querySelectorAll('.nav-drop').forEach(d => {
-        if (d !== drop) {
-          d.classList.remove('open');
-          const b = d.querySelector('.drop-toggle');
-          if (b) b.setAttribute('aria-expanded','false');
-        }
-      });
-      const open = drop.classList.toggle('open');
-      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-    });
-  });
-  document.addEventListener('click', () => {
-    document.querySelectorAll('.nav-drop').forEach(d => {
-      d.classList.remove('open');
-      const b = d.querySelector('.drop-toggle');
-      if (b) b.setAttribute('aria-expanded','false');
-    });
-  });
+const groups = [
+["TIME RUSH",["Time Rush: Ancient Worlds","Time Rush: U.S. Presidents","Time Rush: Civil Rights","Time Rush: World Wars","Time Rush: Inventions","Time Rush: Revolutions"]],
+["HISTORY CASE FILES",["The Missing Colony","The Lincoln File","The Pharaoh’s Secret","The Cold War Brief","The Black Death Case","The Underground Railroad File"]],
+["CONNECTIONS",["Empires & Trade","Leaders & Movements","Cause & Effect: Revolutions","Reformers & Change","Alliances & Wars","Migration & Culture"]],
+["ESCAPE THE PAST",["Escape the Pyramid","Escape the Plantation","Escape the Trenches","Escape the Castle","Escape the Great Depression","Escape the Cold War Bunker"]],
+["MAP QUEST",["Empire Mapper","Colonies Challenge","Trade Routes Quest","Battlefields Quest","Migration Paths","Ancient Civilizations Map Hunt"]],
+["WHO IN TIME?",["Who Am I? Inventors","Who Am I? Leaders","Who Am I? Activists","Who Am I? Explorers","Who Am I? Writers","Who Am I? Scientists"]],
+["SOURCE LAB",["Source Lab: Speeches","Source Lab: Letters","Source Lab: Photos","Source Lab: Political Cartoons","Source Lab: Maps","Source Lab: Newspaper Reports","Source Lab: Diaries"]],
+["BUILD THE PAST",["Build a Colony","Build a Civilization","Rebuild a Timeline","Build a Constitution","Build a Trade Network","Reconstruct the Morning","Build a Movement"]]
+];
+let n=1;
+document.getElementById("gameGroups").innerHTML = groups.map(([title,games]) => {
+  const cards = games.map(name => {
+    const current=n++;
+    if(current===1) return '<a class="game-link active" href="./time-rush/"><span class="game-num">'+String(current).padStart(2,"0")+'</span><span class="game-name">'+name+'</span></a>';
+    return '<div class="game-locked"><span class="game-num">'+String(current).padStart(2,"0")+'</span><span class="game-name">'+name+'</span></div>';
+  }).join("");
+  return '<section class="group"><div class="group-title"><strong>'+title+'</strong><span>'+games.length+' games</span></div><div class="game-grid">'+cards+'</div></section>';
+}).join("");
 
-  const button = document.getElementById('soundToggle');
-  const status = document.getElementById('soundStatus');
-  const icon = document.getElementById('soundIcon');
-  const audio = document.getElementById('gameAudio');
-
-  /* Keep the Games-page track from Build 2; only the control now mirrors Home. */
-  const SOURCE_PAGE = 'https://wdwedu.github.io/blooms-taxonomy/';
-  let loaded = false;
-  audio.volume = 0.34;
-
-  async function ensureTrack(){
-    if (loaded && audio.src) return true;
-    button.classList.add('loading');
-    try{
-      const response = await fetch(SOURCE_PAGE, {cache:'force-cache'});
-      if(!response.ok) throw new Error('Soundtrack source unavailable');
-      const sourceHtml = await response.text();
-      const match = sourceHtml.match(/data:audio\/mpeg;base64,[^"']+/);
-      if(!match) throw new Error('Embedded soundtrack not found');
-      audio.src = match[0];
-      loaded = true;
-      return true;
-    } finally {
-      button.classList.remove('loading');
-    }
-  }
-
-  function syncSoundUI(){
-    const on = !audio.paused;
-    button.classList.toggle('sound-on', on);
-    status.textContent = on ? 'Sound On' : 'Sound Off';
-    icon.textContent = on ? '🔊' : '🔇';
-    button.setAttribute('aria-label', on ? 'Turn background sound off' : 'Turn background sound on');
-  }
-
-  button.addEventListener('click', async () => {
-    try{
-      if(!audio.paused){
-        audio.pause();
-      }else{
-        const ready = await ensureTrack();
-        if(ready) await audio.play();
-      }
-    }catch(e){
-      console.error(e);
-    }
-    syncSoundUI();
-  });
-
-  audio.addEventListener('play', syncSoundUI);
-  audio.addEventListener('pause', syncSoundUI);
-  syncSoundUI();
-})();
+const btn=document.getElementById("soundToggle"),status=document.getElementById("soundStatus"),audio=document.getElementById("gameAudio");
+let loaded=false; audio.volume=.34;
+async function ensureTrack(){
+ if(loaded&&audio.src)return true;
+ const r=await fetch("https://wdwedu.github.io/blooms-taxonomy/",{cache:"force-cache"});
+ if(!r.ok) throw new Error("Audio source unavailable");
+ const t=await r.text(),m=t.match(/data:audio\/mpeg;base64,[^"']+/);
+ if(!m) throw new Error("Audio track not found");
+ audio.src=m[0];loaded=true;return true;
+}
+function sync(){
+ const on=!audio.paused;
+ btn.classList.toggle("sound-on",on);btn.classList.toggle("sound-off",!on);
+ status.textContent=on?"Sound On":"Sound Off";
+ btn.setAttribute("aria-label",on?"Turn background sound off":"Turn background sound on");
+}
+btn.addEventListener("click",async()=>{try{if(!audio.paused)audio.pause();else{await ensureTrack();await audio.play();}}catch(e){console.error(e)}sync()});
+audio.addEventListener("play",sync);audio.addEventListener("pause",sync);sync();
 </script>
 </body>
 </html>
