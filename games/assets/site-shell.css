@@ -64,3 +64,16 @@
 .ig-glyph{position:relative;width:21px;height:21px;border:2px solid #fff;border-radius:6px;display:block}
 .ig-glyph:before{content:"";position:absolute;width:7px;height:7px;border:2px solid #fff;border-radius:50%;left:5px;top:5px}
 .ig-glyph:after{content:"";position:absolute;width:3px;height:3px;background:#fff;border-radius:50%;right:3px;top:3px}
+
+/* Build 25 — compact approved share footer */
+.compact-game-footer{padding:24px 12px 16px!important}
+.share-game{width:min(420px,100%)!important}
+.share-game h2{color:#fff200!important;font-family:Georgia,"Times New Roman",serif!important;font-size:clamp(21px,3vw,25px)!important;font-weight:700!important;font-style:italic!important;line-height:1!important}
+.share-actions{gap:8px!important;margin-top:11px!important}
+.share-logo{width:36px!important;height:36px!important}
+.share-logo.x-custom{font-size:18px!important}
+.ig-glyph{width:18px!important;height:18px!important;border-width:2px!important}
+.ig-glyph:before{width:6px!important;height:6px!important;left:4px!important;top:4px!important}
+.compact-game-footer .copyright{margin-top:12px!important;font-size:9px!important}
+.share-status{height:13px!important;margin-top:3px!important;font-size:9px!important}
+@media(max-width:560px){.compact-game-footer{padding:20px 8px 14px!important}.share-logo{width:34px!important;height:34px!important}.share-actions{gap:7px!important}.share-game h2{font-size:21px!important}}
