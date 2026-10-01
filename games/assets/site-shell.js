@@ -79,8 +79,9 @@
  }
  function ui(){
    const on=wantsSound&&!audio.paused;
-   icon.textContent=on?"🔊":"🔇";
-   label.textContent=on?"Sound On":"Sound Off";
+   if(icon)icon.textContent=on?"🔊":"🔇";
+   if(label)label.textContent=on?"Sound On":"Sound Off";
+   if(!icon&&!label)btn.textContent=on?"Sound: On":"Sound: Off";
    btn.setAttribute("aria-label",on?"Turn background sound off":"Turn background sound on");
  }
  async function start(){
