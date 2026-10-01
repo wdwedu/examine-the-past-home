@@ -59,3 +59,8 @@
 .share-status{height:16px;margin-top:5px;color:#94ff53;font:700 10px Georgia,"Times New Roman",serif}
 .compact-game-footer .copyright{margin-top:17px;color:#7a7a7a;font-family:Georgia,"Times New Roman",serif;font-size:10px}
 @media(max-width:560px){.compact-game-footer{padding:28px 10px 18px}.share-actions{gap:9px;margin-top:12px}.share-logo{width:40px;height:40px}.share-logo.x-custom{font-size:20px}}
+
+.instagram-share{background:radial-gradient(circle at 32% 105%,#f7df7a 0 12%,#f05243 34%,#d92b8a 58%,#7440b9 78%,#315ecf 100%)!important}
+.ig-glyph{position:relative;width:21px;height:21px;border:2px solid #fff;border-radius:6px;display:block}
+.ig-glyph:before{content:"";position:absolute;width:7px;height:7px;border:2px solid #fff;border-radius:50%;left:5px;top:5px}
+.ig-glyph:after{content:"";position:absolute;width:3px;height:3px;background:#fff;border-radius:50%;right:3px;top:3px}
