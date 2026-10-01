@@ -61,12 +61,12 @@ h1{font-family:Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;margin:0;c
 <script>
 const groups=[
 ["Time Rush",[
-["Time Rush: Ancient Worlds","Race to place major milestones of early civilizations in the correct chronological order."],
-["Time Rush: U.S. Presidents","Sequence presidents, elections, crises, and turning points before time runs out."],
-["Time Rush: Civil Rights","Build the chronology of landmark protests, court cases, laws, and movement victories."],
-["Time Rush: World Wars","Arrange decisive battles, alliances, declarations, and turning points across both world wars."],
-["Time Rush: Inventions","Track how major inventions emerged and transformed work, travel, communication, and daily life."],
-["Time Rush: Revolutions","Sequence the sparks, turning points, leaders, and outcomes of major revolutions."]]],
+["Time Rush: Ancient Worlds","Race through the milestones of the earliest civilizations and empires."],
+["Time Rush: Classical Civilizations","Sequence the turning points of Greece, Rome, and the classical Mediterranean world."],
+["Time Rush: Medieval Worlds","Build the chronology of kingdoms, faith, conflict, and change in the medieval era."],
+["Time Rush: Exploration & Encounters","Trace voyages, conquest, exchange, and the creation of new global connections."],
+["Time Rush: Revolutions & Change","Sequence revolutions, reform, industrial change, and new political ideas."],
+["Time Rush: A Modern World","Race through world wars, decolonization, the Cold War, and modern technology."]]],
 ["History Case Files",[
 ["The Missing Colony","Investigate evidence, competing theories, and unanswered questions behind a vanished settlement."],
 ["The Lincoln File","Examine documents, testimony, and historical claims connected to Lincoln and his era."],
@@ -124,7 +124,7 @@ let number=1, tone=0;
 document.getElementById("vault").innerHTML=groups.map(([title,games])=>{
  const cards=games.map(([name,desc])=>{
    const n=number++, t=tones[tone++%4];
-   const timeRushLinks=["/examine-the-past-home/games/time-rush/","/examine-the-past-home/games/time-rush/us-presidents/","/examine-the-past-home/games/time-rush/civil-rights/","/examine-the-past-home/games/time-rush/world-wars/","/examine-the-past-home/games/time-rush/inventions/","/examine-the-past-home/games/time-rush/revolutions/"];
+   const timeRushLinks=["/examine-the-past-home/games/time-rush/ancient-worlds/","/examine-the-past-home/games/time-rush/classical-civilizations/","/examine-the-past-home/games/time-rush/medieval-worlds/","/examine-the-past-home/games/time-rush/exploration-encounters/","/examine-the-past-home/games/time-rush/revolutions-change/","/examine-the-past-home/games/time-rush/modern-world/"];
    if(n<=6)return '<a class="game-card active '+t+'" href="'+timeRushLinks[n-1]+'"><span class="status open">OPEN</span><div class="game-title">'+name+'</div><div class="game-desc">'+desc+'</div></a>';
    return '<div class="game-card closed-card '+t+'" tabindex="0"><span class="status closed">CLOSED</span><div class="game-title">'+name+'</div><div class="game-desc">'+desc+'</div></div>';
  }).join("");
