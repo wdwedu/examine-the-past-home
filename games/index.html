@@ -120,12 +120,20 @@ const groups=[
 ["Build a Movement","Combine goals, leaders, supporters, strategy, communication, and pressure to build social change."]]]
 ];
 const tones=["tone-red","tone-blue","tone-green","tone-gold"];
+const activeLinks={
+1:"/examine-the-past-home/games/time-rush/ancient-worlds/",
+2:"/examine-the-past-home/games/time-rush/classical-civilizations/",
+3:"/examine-the-past-home/games/time-rush/medieval-worlds/",
+4:"/examine-the-past-home/games/time-rush/exploration-encounters/",
+5:"/examine-the-past-home/games/time-rush/revolutions-change/",
+6:"/examine-the-past-home/games/time-rush/modern-world/",
+7:"/examine-the-past-home/games/history-case-files/missing-colony/"
+};
 let number=1, tone=0;
 document.getElementById("vault").innerHTML=groups.map(([title,games])=>{
  const cards=games.map(([name,desc])=>{
-   const n=number++, t=tones[tone++%4];
-   const timeRushLinks=["/examine-the-past-home/games/time-rush/ancient-worlds/","/examine-the-past-home/games/time-rush/classical-civilizations/","/examine-the-past-home/games/time-rush/medieval-worlds/","/examine-the-past-home/games/time-rush/exploration-encounters/","/examine-the-past-home/games/time-rush/revolutions-change/","/examine-the-past-home/games/time-rush/modern-world/"];
-   if(n<=6)return '<a class="game-card active '+t+'" href="'+timeRushLinks[n-1]+'"><span class="status open">OPEN</span><div class="game-title">'+name+'</div><div class="game-desc">'+desc+'</div></a>';
+   const n=number++, t=tones[tone++%4], href=activeLinks[n];
+   if(href)return '<a class="game-card active '+t+'" href="'+href+'"><span class="status open">OPEN</span><div class="game-title">'+name+'</div><div class="game-desc">'+desc+'</div></a>';
    return '<div class="game-card closed-card '+t+'" tabindex="0"><span class="status closed">CLOSED</span><div class="game-title">'+name+'</div><div class="game-desc">'+desc+'</div></div>';
  }).join("");
  return '<section class="family"><h2>'+title+'</h2><div class="game-grid">'+cards+'</div></section>';
