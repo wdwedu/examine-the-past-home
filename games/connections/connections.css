@@ -75,3 +75,10 @@ linear-gradient(135deg,#0c0e09,#060705)}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 @media(max-width:820px){.cx-intro,.cx-summary{grid-template-columns:1fr}.cx-stats{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:620px){.cx-columns{grid-template-columns:1fr}.cx-wrap{padding-left:9px;padding-right:9px}.cx-stage{padding:12px}.cx-stats{grid-template-columns:1fr 1fr}.cx-head{display:block}.cx-head .cx-btn{width:100%;margin-top:10px}.cx-link-row{grid-template-columns:1fr auto 1fr}.cx-actions .cx-btn{width:100%}}
+
+.cx-howto{display:grid;gap:5px;margin:0 0 14px;padding:11px 13px;border:1px solid #596747;border-radius:12px;background:#0d110b}
+.cx-howto b{font:900 10px Arial,sans-serif;letter-spacing:.14em;color:#a8d47f}
+.cx-howto span{color:#e8e2d2;font-size:13px;line-height:1.45}
+.cx-howto strong{color:#f0c866}
+.cx-howto em{color:#8fbf6d;font:700 11px Arial,sans-serif;font-style:normal}
+.cx-node.selected{border-color:#fff200!important;background:#201c0c!important;box-shadow:0 0 0 2px rgba(255,242,0,.18),0 0 18px rgba(255,242,0,.08)!important}
