@@ -23,7 +23,7 @@ function renderIntro(){update("Briefing");stage.innerHTML=`
 <div class="cx-rule"><i>3</i><span>Build streaks for bonus points. Wrong links do not end the game—they sharpen the pattern.</span></div>
 <div class="cx-rule"><i>4</i><span>A surprise cross-link challenge tests whether you can connect ideas across rounds.</span></div></div></section>
 <aside class="cx-panel"><h3>Winning the Web</h3><p>Do not just memorize pairs. Look for the deeper relationship: cause and effect, exchange, leadership, alliance, migration, reform, or influence.</p><p><b>Goal:</b> complete every web and finish with the strongest possible Connection Score.</p></aside></div>`;
-document.getElementById("startConnections").addEventListener("click",()=>{burst("🔗","Network Activated","Round 1 unlocked.");renderRound()})}
+document.getElementById("startConnections").addEventListener("click",()=>{state.selectedLeft=null;state.selectedRight=null;burst("🔗","Network Activated","Tap LEFT, then its match on the RIGHT.");renderRound()})}
 function current(){return cfg.rounds[state.round]}
 function pairFor(leftId){return current().links[leftId]}
 function node(side,item){
@@ -32,7 +32,7 @@ function node(side,item){
  return `<button class="cx-node ${matched?"matched":""} ${selected?"selected":""}" data-side="${side}" data-id="${esc(item.id)}" ${matched?"disabled":""}><strong>${esc(item.label)}</strong><small>${esc(item.detail||"")}</small></button>`
 }
 function renderRound(){
- update("Connecting");state.selectedLeft=null;state.selectedRight=null;
+ update("Connecting");
  const r=current();
  const links=[...state.matches.entries()].map(([l,rid])=>{
   const a=r.left.find(x=>x.id===l),b=r.right.find(x=>x.id===rid),ex=r.links[l].explain;
@@ -40,6 +40,7 @@ function renderRound(){
  }).join("");
  stage.innerHTML=`
  <div class="cx-head"><div><h2>${esc(r.title)}</h2><p>${esc(r.prompt)}</p></div><button class="cx-btn secondary" id="restartRound">Clear Selection</button></div>
+ <div class="cx-howto"><b>HOW TO CONNECT</b><span><strong>1.</strong> Tap one card on the LEFT. <strong>2.</strong> Tap the matching card on the RIGHT. Your first choice stays highlighted until you make the second choice.</span><em>${state.selectedLeft?"Left card selected — now choose its match on the right.":state.selectedRight?"Right card selected — now choose its match on the left.":"Choose your first card."}</em></div>
  <div class="cx-columns">
   <section class="cx-column"><h3>${esc(r.leftLabel||"Connect From")}</h3><div class="cx-list">${r.left.map(x=>node("left",x)).join("")}</div></section>
   <section class="cx-column"><h3>${esc(r.rightLabel||"Connect To")}</h3><div class="cx-list">${r.right.map(x=>node("right",x)).join("")}</div></section>
@@ -68,7 +69,7 @@ function checkPair(){
 }
 function advance(){
  if(state.round===2&&cfg.challenge&&!state.challengeDone){renderChallenge();return}
- if(state.round<cfg.rounds.length-1){state.round++;state.matches.clear();burst("🕸️","New Web","A new relationship pattern is opening.");renderRound()}else renderSummary()
+ if(state.round<cfg.rounds.length-1){state.round++;state.matches.clear();state.selectedLeft=null;state.selectedRight=null;burst("🕸️","New Web","Tap LEFT, then its matching card on the RIGHT.");renderRound()}else renderSummary()
 }
 function renderChallenge(){
  update("Cross-Link");const q=cfg.challenge;
@@ -81,7 +82,7 @@ function renderChallenge(){
   const fb=document.getElementById("challengeFeedback");fb.classList.remove("hidden");fb.classList.toggle("good",ok);fb.innerHTML=esc(q.explain);
   document.getElementById("challengeNext").classList.remove("hidden");update("Cross-Link");
  }));
- document.getElementById("challengeNext").addEventListener("click",()=>{state.round++;state.matches.clear();renderRound()});
+ document.getElementById("challengeNext").addEventListener("click",()=>{state.round++;state.matches.clear();state.selectedLeft=null;state.selectedRight=null;renderRound()});
 }
 function renderSummary(){
  update("Complete");
