@@ -61,11 +61,12 @@
  const icon=document.getElementById("soundIcon");
  const label=document.getElementById("soundText");
  const audio=document.getElementById("gameAudio");
- if(!btn||!audio)return;
+ if(!audio)return;
 
+ const autoplay=document.body.dataset.musicAutoplay==="true";
  const source=document.body.dataset.musicSource||"https://wdwedu.github.io/blooms-taxonomy/";
  const volume=parseFloat(document.body.dataset.musicVolume||".28");
- let loaded=false,wantsSound=true;
+ let loaded=false,wantsMusic=autoplay;
  audio.volume=Number.isFinite(volume)?volume:.28;
 
  async function loadTrack(){
@@ -78,22 +79,31 @@
    audio.src=m[0];loaded=true;return true;
  }
  function ui(){
-   const on=wantsSound&&!audio.paused;
+   if(!btn)return;
+   const on=wantsMusic&&!audio.paused;
    if(icon)icon.textContent=on?"🔊":"🔇";
-   if(label)label.textContent=on?"Sound On":"Sound Off";
-   if(!icon&&!label)btn.textContent=on?"Sound: On":"Sound: Off";
-   btn.setAttribute("aria-label",on?"Turn background sound off":"Turn background sound on");
+   if(label)label.textContent=on?"Music On":"Music Off";
+   if(!icon&&!label)btn.textContent=on?"Music: On":"Music: Off";
+   btn.setAttribute("aria-label",on?"Turn background music off":"Turn background music on");
  }
- async function start(){
-   try{await loadTrack();if(wantsSound)await audio.play();}catch(e){}
+ async function startMusic(){
+   try{await loadTrack();if(wantsMusic)await audio.play();}catch(e){}
    ui();
  }
- btn.addEventListener("click",async()=>{
-   if(!audio.paused){wantsSound=false;audio.pause();}
-   else{wantsSound=true;await start();}
-   ui();
- });
- window.addEventListener("load",start,{once:true});
- document.addEventListener("pointerdown",()=>{if(wantsSound&&audio.paused)start()},{once:true});
+
+ if(autoplay){
+   window.addEventListener("load",startMusic,{once:true});
+   document.addEventListener("pointerdown",()=>{if(wantsMusic&&audio.paused)startMusic()},{once:true});
+ }else{
+   wantsMusic=false;
+   audio.pause();
+ }
+ if(btn&&autoplay){
+   btn.addEventListener("click",async()=>{
+     if(!audio.paused){wantsMusic=false;audio.pause();}
+     else{wantsMusic=true;await startMusic();}
+     ui();
+   });
+ }
  audio.addEventListener("play",ui);audio.addEventListener("pause",ui);ui();
 })();
