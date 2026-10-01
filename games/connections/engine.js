@@ -39,7 +39,7 @@ function renderRound(){
   return `<div class="cx-link-row"><b>${esc(a.label)}</b><span class="arrow">↔</span><b>${esc(b.label)}</b><div class="cx-explain">${esc(ex)}</div></div>`
  }).join("");
  stage.innerHTML=`
- <div class="cx-head"><div><h2>${esc(r.title)}</h2><p>${esc(r.prompt)}</p></div><button class="cx-btn secondary" id="restartRound">Reset Round</button></div>
+ <div class="cx-head"><div><h2>${esc(r.title)}</h2><p>${esc(r.prompt)}</p></div><button class="cx-btn secondary" id="restartRound">Clear Selection</button></div>
  <div class="cx-columns">
   <section class="cx-column"><h3>${esc(r.leftLabel||"Connect From")}</h3><div class="cx-list">${r.left.map(x=>node("left",x)).join("")}</div></section>
   <section class="cx-column"><h3>${esc(r.rightLabel||"Connect To")}</h3><div class="cx-list">${r.right.map(x=>node("right",x)).join("")}</div></section>
@@ -47,7 +47,7 @@ function renderRound(){
  <div class="cx-links"><h3>Connections Built: ${state.matches.size}/${r.left.length}</h3>${links||'<div class="cx-feedback">No links built yet. Choose one item from each side.</div>'}</div>
  ${state.matches.size===r.left.length?'<div class="cx-actions"><button class="cx-btn" id="nextRound">'+(state.round===cfg.rounds.length-1?"Finish Web":"Continue")+'</button></div>':""}`;
  stage.querySelectorAll(".cx-node[data-side]").forEach(b=>b.addEventListener("click",()=>selectNode(b.dataset.side,b.dataset.id)));
- document.getElementById("restartRound").addEventListener("click",()=>{state.matches.clear();state.selectedLeft=null;state.selectedRight=null;state.streak=0;update("Connecting");renderRound()});
+ document.getElementById("restartRound").addEventListener("click",()=>{state.selectedLeft=null;state.selectedRight=null;renderRound()});
  const next=document.getElementById("nextRound");if(next)next.addEventListener("click",advance);
 }
 function selectNode(side,id){
