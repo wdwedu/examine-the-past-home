@@ -44,3 +44,18 @@
 .brand-youtube{background:linear-gradient(145deg,#ff2838,#9b0712)}.brand-facebook{background:linear-gradient(145deg,#2c80e7,#123f91);font-size:22px!important}.brand-instagram{background:linear-gradient(145deg,#8a3ab9,#e95950,#fccc63);font-size:24px!important}.brand-pinterest{background:linear-gradient(145deg,#e22c3d,#8c0715);font-size:20px!important}.brand-blog{background:linear-gradient(145deg,#f59b34,#a64d00);font-size:20px!important}.brand-tpt{background:linear-gradient(145deg,#2b9b86,#0c5145);font-size:10px!important}.brand-etsy{background:linear-gradient(145deg,#f07b32,#9f3500);font-family:Georgia,serif!important;font-size:21px!important}.brand-redbubble{background:linear-gradient(145deg,#e53443,#8f101a);font-size:10px!important}.brand-zazzle{background:linear-gradient(145deg,#555,#111);font-size:19px!important}
 .compact-game-footer .copyright{margin-top:26px;color:#555}
 @media(max-width:560px){.compact-game-footer{padding:34px 10px 18px}.share-actions{gap:8px}.share-native{height:42px;padding:0 15px}.share-icon{width:42px;height:42px}.compact-game-footer .footer-social{gap:8px 5px}.community-icon{width:52px!important}.community-icon>span{width:39px;height:39px}.community-icon small{font-size:7px}.footer-divider{margin:20px auto 24px}}
+
+/* Build 24 — locked game share footer */
+.compact-game-footer{padding:34px 18px 22px;background:#000;border-top:1px solid #171717}
+.share-game{width:min(540px,100%);margin:0 auto;text-align:center}
+.share-game h2{margin:0;color:#f5f2e9;font-family:Georgia,"Times New Roman",serif;font-size:clamp(27px,3.5vw,34px);font-weight:700;letter-spacing:0;text-transform:none;line-height:1.1}
+.share-actions{display:flex;justify-content:center;align-items:center;gap:11px;flex-wrap:wrap;margin-top:14px}
+.share-logo{width:43px;height:43px;border-radius:50%!important;overflow:hidden;display:grid!important;place-items:center;background:#111;border:1px solid rgba(148,255,83,.36)!important;box-shadow:0 0 0 2px rgba(148,255,83,.035),0 5px 14px rgba(0,0,0,.42);padding:0!important;transition:.18s}
+.share-logo img{display:block;width:100%!important;height:100%!important;min-width:100%;min-height:100%;object-fit:cover!important;border-radius:50%!important;margin:0!important;padding:0!important}
+.share-logo.instagram-share img{width:112%!important;height:112%!important;min-width:112%;min-height:112%;max-width:none!important;object-fit:cover!important}
+.share-logo.x-custom{color:#fff!important;font:500 22px/1 Georgia,"Times New Roman",serif;background:#111}
+.share-logo.x-custom span{display:block;line-height:1}
+.share-actions .share-logo:hover,.share-actions .share-logo:focus-visible{transform:translateY(-2px) scale(1.04);filter:brightness(1.08);outline:1px solid rgba(148,255,83,.65);outline-offset:2px}
+.share-status{height:16px;margin-top:5px;color:#94ff53;font:700 10px Georgia,"Times New Roman",serif}
+.compact-game-footer .copyright{margin-top:17px;color:#7a7a7a;font-family:Georgia,"Times New Roman",serif;font-size:10px}
+@media(max-width:560px){.compact-game-footer{padding:28px 10px 18px}.share-actions{gap:9px;margin-top:12px}.share-logo{width:40px;height:40px}.share-logo.x-custom{font-size:20px}}
