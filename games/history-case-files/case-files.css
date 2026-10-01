@@ -9,7 +9,7 @@ linear-gradient(125deg,rgba(255,255,255,.025),transparent 25%),
 repeating-linear-gradient(90deg,rgba(216,168,61,.045) 0 1px,transparent 1px 44px),
 repeating-linear-gradient(0deg,rgba(216,168,61,.035) 0 1px,transparent 1px 44px),
 #090907;padding:26px 26px 22px;min-height:255px}
-.case-hero:after{content:"CASE 01";position:absolute;right:16px;top:8px;font-family:Impact,Haettenschweiler,sans-serif;font-size:clamp(64px,13vw,150px);letter-spacing:.03em;color:rgba(216,168,61,.055);line-height:1;pointer-events:none}
+.case-hero:after{content:attr(data-case);position:absolute;right:16px;top:8px;font-family:Impact,Haettenschweiler,sans-serif;font-size:clamp(64px,13vw,150px);letter-spacing:.03em;color:rgba(216,168,61,.055);line-height:1;pointer-events:none}
 .case-kicker{font:800 11px Arial,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#9fd06d}
 .case-title{font-family:Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;font-size:clamp(44px,8vw,86px);line-height:.9;margin:9px 0 5px;color:var(--case-gold2);text-transform:uppercase;letter-spacing:.01em}
 .case-subtitle{font-size:clamp(18px,3vw,28px);font-weight:700;color:#fff;margin-bottom:15px}
