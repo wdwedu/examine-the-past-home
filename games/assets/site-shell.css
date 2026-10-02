@@ -319,3 +319,59 @@ body.legal-open{overflow:hidden}
   .legal-card-v4{padding:28px 20px 30px!important;max-height:90vh!important}
   .legal-links-v4 button.legal-open-v4,.legal-links-v4 span{font-size:9px!important}
 }
+
+/* Build 28 — navigation alignment: inner pages scroll, home stays fixed separately */
+.icon-nav{
+  position:relative!important;
+  top:auto!important;
+  z-index:40!important;
+  background:#000!important;
+  border-bottom:1px solid #2b2b2b!important;
+  box-shadow:none!important;
+}
+.icon-row{
+  width:min(1180px,100%)!important;
+  min-height:76px!important;
+  margin:0 auto!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:8px!important;
+  padding:14px 8px 9px!important;
+  overflow:visible!important;
+  scrollbar-width:none!important;
+}
+.icon-row::-webkit-scrollbar{display:none!important}
+.icon-nav .nav-item{
+  width:50px!important;
+  height:48px!important;
+  min-width:0!important;
+  flex:0 0 auto!important;
+  background:transparent!important;
+  color:#f5f5f5!important;
+  border-radius:0!important;
+}
+.icon-nav .nav-icon{font-size:22px!important;line-height:1!important}
+.icon-nav .timeline{color:#4ca5ff!important}
+.icon-nav .timeline svg{width:32px!important;height:16px!important}
+.icon-nav .blooms{color:#fff000!important;font-size:22px!important}
+.icon-nav .nav-glow{background:#222!important;box-shadow:none!important}
+@media(max-width:620px){
+  .icon-row{
+    min-height:68px!important;
+    gap:3px!important;
+    padding:11px 4px 7px!important;
+    justify-content:space-between!important;
+  }
+  .icon-nav .nav-item{
+    width:auto!important;
+    height:42px!important;
+    flex:1 1 0!important;
+    max-width:28px!important;
+    padding:0!important;
+  }
+  .icon-nav .nav-icon{font-size:18px!important}
+  .icon-nav .timeline svg{width:28px!important;height:14px!important}
+  .icon-nav .blooms{font-size:18px!important}
+  .icon-nav .nav-label{display:none!important}
+}
