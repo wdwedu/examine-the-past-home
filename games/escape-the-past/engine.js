@@ -75,6 +75,7 @@ function renderFinal(){
  stage.innerHTML=`<div class="final-lock"><div class="big">${esc(q.icon||"🚪")}</div><h3>Final Lock</h3><p>${esc(q.question)}</p><div class="choice-grid">${q.choices.map((c,i)=>'<button class="escape-choice" data-final="'+i+'">'+esc(c)+'</button>').join("")}</div><div id="finalFeedback" class="escape-feedback hidden"></div></div>`;
  stage.querySelectorAll("[data-final]").forEach(b=>b.addEventListener("click",()=>{if(state.finalDone)return;const i=Number(b.dataset.final);if(i===q.answer){state.finalDone=true;state.score+=200;good();b.classList.add("correct");burst("🚪","Escape Route Open","+200 final-lock bonus");const fb=document.getElementById("finalFeedback");fb.classList.remove("hidden");fb.classList.add("good");fb.innerHTML='<b>Unlocked.</b> '+esc(q.explain);setTimeout(renderSummary,800)}else{b.classList.add("wrong");b.disabled=true;wrong(q,q.wrong||"Use the evidence collected across the mission.")}}));
 }
+function sourceLinks(){if(!cfg.sources||!cfg.sources.length)return "";return '<div class="sensitivity-note"><b>Historical sources:</b><br>'+cfg.sources.map(x=>'<a href="'+esc(x.url)+'" target="_blank" rel="noopener noreferrer">'+esc(x.label)+'</a>').join(" · ")+'</div>'}
 function renderSummary(){
  update("Escaped");
  const max=cfg.stages.length*100+200;const raw=Math.round((state.score/max)*82)+(18-Math.min(18,Math.round(state.danger*.18)));const score=Math.max(40,Math.min(100,raw));
