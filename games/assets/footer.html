@@ -1,4 +1,4 @@
-<footer class="site-footer compact-game-footer build17-footer">
+<footer class="site-footer compact-game-footer build27-footer">
   <section class="share-game" aria-label="Share this game">
     <h2>Share</h2>
     <div class="share-actions">
@@ -10,5 +10,116 @@
     </div>
     <div class="share-status" id="shareStatus" aria-live="polite"></div>
   </section>
+
+  <nav class="legal-links" aria-label="Legal">
+    <button type="button" data-legal-open="privacy">Privacy</button>
+    <span aria-hidden="true">·</span>
+    <button type="button" data-legal-open="terms">Terms</button>
+    <span aria-hidden="true">·</span>
+    <button type="button" data-legal-open="disclaimer">Disclaimer</button>
+    <span aria-hidden="true">·</span>
+    <button type="button" data-legal-open="affiliate">Affiliate Disclosure</button>
+    <span aria-hidden="true">·</span>
+    <button type="button" data-legal-open="cookies">Cookie Policy</button>
+    <span aria-hidden="true">·</span>
+    <button type="button" data-legal-open="dmca">DMCA</button>
+  </nav>
   <div class="copyright">© 2026 Examine the Past. All Rights Reserved.</div>
+
+  <div class="legal-overlay" id="legalOverlay" hidden>
+    <section class="legal-modal" role="dialog" aria-modal="true" aria-labelledby="legalTitle">
+      <button class="legal-close" type="button" aria-label="Close legal notice">×</button>
+      <div class="legal-scroll" id="legalContent"></div>
+    </section>
+  </div>
+
+  <template id="legal-privacy">
+    <div class="legal-brand">EXAMINE THE PAST</div>
+    <h2 id="legalTitle">Privacy Policy</h2>
+    <div class="legal-date">Last updated October 2, 2026</div>
+    <p>Examine the Past respects your privacy. This policy explains the types of information that may be collected when you use our websites, interactive games, educational resources, forms, stores, or other services.</p>
+    <h3>Information we may collect</h3>
+    <p>We may receive information you voluntarily provide, such as contact details submitted through forms, newsletter signups, purchases, or account features. We may also receive limited technical information such as browser type, device information, pages viewed, and similar usage data through hosting, security, analytics, or cookie technologies.</p>
+    <h3>How information may be used</h3>
+    <p>Information may be used to operate and improve the site, respond to requests, deliver products or services, maintain security, understand site usage, and comply with legal obligations.</p>
+    <h3>Third-party services</h3>
+    <p>Payments, analytics, embedded media, affiliate programs, advertising, or other site functions may be provided by third parties with their own privacy practices. Examine the Past does not control those third-party policies.</p>
+    <h3>Children's privacy</h3>
+    <p>Our educational content may be viewed by students, but our general public website is not designed to knowingly collect personal information directly from children under 13. If you believe a child has submitted personal information, please contact us so the matter can be reviewed.</p>
+    <h3>Your choices</h3>
+    <p>You may use browser controls to limit cookies and may contact Examine the Past through our Contact page with privacy questions or requests concerning information you previously provided.</p>
+  </template>
+
+  <template id="legal-terms">
+    <div class="legal-brand">EXAMINE THE PAST</div>
+    <h2 id="legalTitle">Terms of Use</h2>
+    <div class="legal-date">Last updated October 2, 2026</div>
+    <p>By using Examine the Past websites, games, downloads, educational resources, or related services, you agree to use them lawfully and in accordance with these terms.</p>
+    <h3>Educational use</h3>
+    <p>Our materials are provided for educational and informational purposes. Unless a product license states otherwise, content may not be copied, resold, republished, redistributed, or used to create competing commercial products.</p>
+    <h3>Intellectual property</h3>
+    <p>Examine the Past names, branding, original text, game systems, graphics, downloads, and other original materials are protected by applicable intellectual-property laws. Third-party materials remain the property of their respective owners.</p>
+    <h3>Acceptable use</h3>
+    <p>You may not interfere with site operation, attempt unauthorized access, misuse automated tools, remove ownership notices, or use the site in a manner that violates law or the rights of others.</p>
+    <h3>Third-party links and services</h3>
+    <p>The site may link to or rely on services operated by other companies. Examine the Past is not responsible for the availability, content, policies, or practices of third-party services.</p>
+    <h3>Changes</h3>
+    <p>Features, content, prices, availability, and these terms may be updated as the site develops. Continued use after an update constitutes acceptance of the revised terms.</p>
+  </template>
+
+  <template id="legal-disclaimer">
+    <div class="legal-brand">EXAMINE THE PAST</div>
+    <h2 id="legalTitle">Disclaimer</h2>
+    <div class="legal-date">Last updated October 2, 2026</div>
+    <p>Examine the Past provides educational and informational content. We work to present historically responsible material, but no website can guarantee that every statement, date, interpretation, link, or external resource will remain error-free or current.</p>
+    <h3>Historical interpretation</h3>
+    <p>History often involves incomplete evidence, scholarly disagreement, changing interpretations, and contested terminology. Where appropriate, our games and resources distinguish documented evidence from inference and encourage users to consult additional primary and secondary sources.</p>
+    <h3>No professional advice</h3>
+    <p>Content on this site is not legal, financial, medical, tax, or other professional advice and should not be treated as a substitute for advice from a qualified professional.</p>
+    <h3>External resources</h3>
+    <p>Links to museums, archives, government agencies, retailers, affiliate partners, or other third parties are provided for convenience or supporting information. We do not control their content or availability.</p>
+    <h3>Use at your discretion</h3>
+    <p>Your use of the site and reliance on its content are at your own discretion, subject to applicable law and any specific product or service terms.</p>
+  </template>
+
+  <template id="legal-affiliate">
+    <div class="legal-brand">EXAMINE THE PAST</div>
+    <h2 id="legalTitle">Affiliate Disclosure</h2>
+    <div class="legal-date">Last updated October 2, 2026</div>
+    <p>Examine the Past may participate in affiliate programs. This means we may earn a commission when a visitor purchases a product or service through certain links on our site, at no additional cost to the visitor.</p>
+    <h3>How affiliate links are identified</h3>
+    <p>When content contains an affiliate recommendation or compensated link, we aim to provide a clear disclosure near that recommendation or link in addition to this site-wide disclosure.</p>
+    <h3>Editorial independence</h3>
+    <p>Compensation does not guarantee positive coverage. We aim to recommend resources based on relevance to our educational content and audience.</p>
+    <h3>Third-party purchases</h3>
+    <p>Purchases made through affiliate links are transactions with the third-party seller. Pricing, shipping, returns, warranties, privacy practices, and customer service are governed by that seller's terms.</p>
+  </template>
+
+  <template id="legal-cookies">
+    <div class="legal-brand">EXAMINE THE PAST</div>
+    <h2 id="legalTitle">Cookie Policy</h2>
+    <div class="legal-date">Last updated October 2, 2026</div>
+    <p>Examine the Past may use cookies and similar technologies to help websites function, remember preferences, understand site usage, maintain security, support analytics, and measure certain referral or affiliate activity.</p>
+    <h3>Types of cookies</h3>
+    <p>Cookies may include essential cookies needed for site functionality, preference cookies, analytics cookies, and third-party cookies associated with embedded services, advertising, or affiliate tracking where those features are used.</p>
+    <h3>Your choices</h3>
+    <p>You can usually delete or block cookies through your browser settings. Blocking some cookies may affect site functionality. Where applicable law requires consent before nonessential cookies are used, we intend to use an appropriate consent mechanism.</p>
+    <h3>Third-party technologies</h3>
+    <p>Third-party providers may set or read their own cookies when their services are used. Their handling of information is governed by their own policies.</p>
+  </template>
+
+  <template id="legal-dmca">
+    <div class="legal-brand">EXAMINE THE PAST</div>
+    <h2 id="legalTitle">DMCA Notice</h2>
+    <div class="legal-date">Last updated October 2, 2026</div>
+    <p>Examine the Past respects the intellectual-property rights of others and responds to properly submitted notices concerning material alleged to infringe copyright.</p>
+    <h3>Copyright notice requirements</h3>
+    <p>A notice should identify the copyrighted work claimed to have been infringed, identify the material claimed to be infringing and its location, provide sufficient contact information for the complaining party, and include the statements and signature required by applicable law.</p>
+    <h3>Good-faith requirement</h3>
+    <p>The complaining party should state a good-faith belief that the disputed use is not authorized by the copyright owner, its agent, or the law, and that the information in the notice is accurate under penalty of perjury.</p>
+    <h3>Counter-notification</h3>
+    <p>If material is removed or disabled because of a copyright notice, the affected party may submit a legally sufficient counter-notification where applicable. We may restore material when permitted by law if the complaining party does not timely seek a court order.</p>
+    <h3>Submitting a notice</h3>
+    <p>Please use the Examine the Past Contact page for current copyright-contact information. A website notice does not itself replace any registration or designation required to obtain protections available under applicable law.</p>
+  </template>
 </footer>
