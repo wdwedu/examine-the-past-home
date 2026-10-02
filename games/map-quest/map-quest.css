@@ -25,3 +25,7 @@ body{margin:0;background:#050706;color:var(--mq-text);font-family:Georgia,"Times
 .mq-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.hidden{display:none!important}
 @media(max-width:760px){body{background-image:linear-gradient(rgba(5,7,6,.44),rgba(5,7,6,.64)),url("/examine-the-past-home/games/assets/map-quest-section-bg-build30.png");background-attachment:scroll}.mq-intro,.mq-summary{grid-template-columns:1fr}.mq-stats{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:560px){.mq-wrap{padding-left:9px;padding-right:9px}.mq-stage{padding:12px}.mq-stats{grid-template-columns:1fr 1fr}.mq-grid{grid-template-columns:1fr}.mq-head{display:block}.mq-head .mq-btn{width:100%;margin-top:10px}}
+
+/* Build 32 — refined section artwork */
+body{background-color:#050504!important;background-image:linear-gradient(rgba(5,7,6,.34),rgba(5,7,6,.54)),url("/examine-the-past-home/games/assets/map-quest-section-bg-build32.svg")!important;background-position:center top!important;background-size:cover!important;background-repeat:no-repeat!important;background-attachment:fixed!important}
+@media(max-width:760px){body{background-image:linear-gradient(rgba(5,7,6,.46),rgba(5,7,6,.64)),url("/examine-the-past-home/games/assets/map-quest-section-bg-build32.svg")!important;background-position:center top!important;background-size:cover!important;background-attachment:scroll!important}}
