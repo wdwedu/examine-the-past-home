@@ -1,0 +1,27 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Empire Mapper — Map Quest</title>
+<link rel="stylesheet" href="/examine-the-past-home/games/assets/site-shell.css?v=28">
+<link rel="stylesheet" href="/examine-the-past-home/games/map-quest/map-quest.css?v=30">
+</head><body data-music-autoplay="false">
+<div id="game-shell-nav"></div><audio id="gameAudio" loop preload="auto"></audio>
+<main class="mq-wrap">
+<section class="mq-hero">
+ <div class="mq-kicker">History Unlocked · Map Quest</div>
+ <h1 class="mq-title">Empire Mapper</h1>
+ <div class="mq-sub">Territory · Terrain · Power</div>
+ <div class="mq-stats">
+  <div class="mq-stat"><b>Round</b><span id="roundValue">1/4</span></div>
+  <div class="mq-stat"><b>Score</b><span id="scoreValue">0</span></div>
+  <div class="mq-stat"><b>Streak</b><span id="streakValue">0</span></div>
+  <div class="mq-stat"><b>Map Pins</b><span id="pinsValue">0</span></div>
+  <div class="mq-stat"><b>Phase</b><span id="phaseValue">Briefing</span></div>
+ </div>
+ <div class="mq-actions"><button class="mq-btn secondary" id="sfxToggle" type="button">SFX: On</button></div>
+</section>
+<section class="mq-stage" id="mapQuestStage" aria-live="polite"></section>
+</main>
+<div id="game-shell-footer"></div>
+<script src="/examine-the-past-home/games/assets/site-shell.js?v=28"></script>
+<script src="/examine-the-past-home/games/map-quest/empire-mapper/config.js?v=30"></script>
+<script src="/examine-the-past-home/games/map-quest/engine.js?v=30"></script>
+</body></html>
