@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11100d"/><stop offset=".46" stop-color="#392815"/><stop offset="1" stop-color="#0b1012"/></linearGradient>
+ <radialGradient id="lamp"><stop stop-color="#f5bd55" stop-opacity=".8"/><stop offset=".35" stop-color="#c27924" stop-opacity=".25"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+ <pattern id="grain" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r=".8" fill="#fff" opacity=".035"/><circle cx="10" cy="9" r=".6" fill="#fff" opacity=".025"/></pattern>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/><rect width="1600" height="900" fill="url(#grain)"/>
+<circle cx="260" cy="210" r="330" fill="url(#lamp)"/>
+<g opacity=".5" fill="none" stroke="#b68a4d">
+ <path d="M120 120h330v430H120z"/><path d="M510 95h260v360H510z"/><path d="M1240 120h240v410h-240z"/>
+ <path d="M145 155h280M145 205h280M145 255h280M145 305h280M145 355h280M145 405h280"/>
+ <path d="M1265 155h190M1265 210h190M1265 265h190M1265 320h190M1265 375h190M1265 430h190"/>
+</g>
+<g opacity=".7">
+ <rect x="90" y="575" width="1420" height="250" rx="20" fill="#17120d" stroke="#8d6537" stroke-width="3"/>
+ <path d="M340 620h720l120 155H220z" fill="#b79255" opacity=".72"/>
+ <path d="M370 650c150-80 340-70 500-5s240 60 390-15" fill="none" stroke="#6d4f2f" stroke-width="4"/>
+ <path d="M425 685c80 40 170 55 265 25 120-38 220-25 305 30" fill="none" stroke="#5d4329" stroke-width="3"/>
+ <circle cx="800" cy="695" r="72" fill="none" stroke="#5e482f" stroke-width="4"/><circle cx="800" cy="695" r="45" fill="none" stroke="#5e482f"/>
+ <path d="M800 623v144M728 695h144M748 643l104 104M852 643L748 747" stroke="#5e482f" stroke-width="2"/>
+</g>
+<g fill="#d6c19b" opacity=".84" stroke="#6e5030">
+ <rect x="170" y="640" width="200" height="120" transform="rotate(-6 270 700)"/><rect x="1110" y="620" width="210" height="128" transform="rotate(7 1215 684)"/>
+ <rect x="970" y="675" width="165" height="95" transform="rotate(-5 1050 720)"/>
+</g>
+<g fill="none" stroke="#c5a66b" stroke-width="8" opacity=".8"><circle cx="910" cy="660" r="54"/><path d="M950 700l65 65"/></g>
+<g fill="#3c2b1d" stroke="#9a713d" opacity=".85"><circle cx="590" cy="625" r="28"/><path d="M565 625h50M590 600v50"/><rect x="1320" y="545" width="90" height="130" rx="8"/></g>
+<rect width="1600" height="900" fill="none" stroke="#c8974b" stroke-opacity=".18" stroke-width="8"/>
+</svg>
