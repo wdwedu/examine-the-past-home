@@ -16,6 +16,47 @@
    });
  });
 
+ // Shared legal popup controls.
+ const legalOverlay=document.getElementById("legalOverlay");
+ const legalContent=document.getElementById("legalContent");
+ const legalClose=document.querySelector(".legal-close");
+ let legalOpener=null;
+ function closeLegal(){
+   if(!legalOverlay||legalOverlay.hidden)return;
+   legalOverlay.hidden=true;
+   document.body.classList.remove("legal-open");
+   if(legalContent)legalContent.innerHTML="";
+   if(legalOpener){legalOpener.focus();legalOpener=null;}
+ }
+ function openLegal(key,opener){
+   if(!legalOverlay||!legalContent)return;
+   const tpl=document.getElementById("legal-"+key);
+   if(!tpl)return;
+   legalOpener=opener||null;
+   legalContent.innerHTML=tpl.innerHTML;
+   legalContent.scrollTop=0;
+   legalOverlay.hidden=false;
+   document.body.classList.add("legal-open");
+   requestAnimationFrame(()=>legalClose?.focus());
+ }
+ document.querySelectorAll("[data-legal-open]").forEach(btn=>{
+   btn.addEventListener("click",()=>openLegal(btn.dataset.legalOpen,btn));
+ });
+ legalClose?.addEventListener("click",closeLegal);
+ legalOverlay?.addEventListener("click",e=>{if(e.target===legalOverlay)closeLegal();});
+ document.addEventListener("keydown",e=>{
+   if(!legalOverlay||legalOverlay.hidden)return;
+   if(e.key==="Escape"){e.preventDefault();closeLegal();return;}
+   if(e.key==="Tab"){
+     const modal=legalOverlay.querySelector(".legal-modal");
+     const focusables=[...modal.querySelectorAll('button,[href],input,select,textarea,[tabindex]:not([tabindex="-1"])')].filter(x=>!x.disabled);
+     if(!focusables.length)return;
+     const first=focusables[0],last=focusables[focusables.length-1];
+     if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}
+     else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}
+   }
+ });
+
  // Shared game-share controls. Each game automatically shares its own live URL.
  const cleanUrl=location.href.split("#")[0].replace(/([?&])build=[^&]+(&|$)/,(m,p1,p2)=>p2?p1:"").replace(/[?&]$/,"");
  const shareTitle=document.title||"History Unlocked";
