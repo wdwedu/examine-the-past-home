@@ -247,3 +247,19 @@ body>*,#timeRushGame{
 @media(prefers-reduced-motion:reduce){
   body::before{background-attachment:scroll}
 }
+
+/* Build 29 — shared section background */
+body{
+  background:
+    linear-gradient(rgba(0,0,0,.76),rgba(0,0,0,.86)),
+    url("/examine-the-past-home/games/assets/history-unlocked-time-rush-section-bg-build29.png?v=29") center top / cover fixed no-repeat,
+    #050504 !important;
+}
+@media (max-width:760px){
+  body{
+    background:
+      linear-gradient(rgba(0,0,0,.87),rgba(0,0,0,.93)),
+      url("/examine-the-past-home/games/assets/history-unlocked-time-rush-section-bg-build29.png?v=29") center top / cover scroll no-repeat,
+      #050504 !important;
+  }
+}
