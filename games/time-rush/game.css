@@ -263,3 +263,7 @@ body{
       #050504 !important;
   }
 }
+
+/* Build 30 — section background */
+body{background-color:#050504!important;background-image:linear-gradient(rgba(5,5,4,.30),rgba(5,5,4,.52)),url("/examine-the-past-home/games/assets/time-rush-section-bg-build30.png")!important;background-position:center top!important;background-size:cover!important;background-repeat:no-repeat!important;background-attachment:fixed!important}
+@media(max-width:760px){body{background-image:linear-gradient(rgba(5,5,4,.42),rgba(5,5,4,.62)),url("/examine-the-past-home/games/assets/time-rush-section-bg-build30.png")!important;background-attachment:scroll!important}}
