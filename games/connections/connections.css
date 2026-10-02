@@ -82,3 +82,38 @@ linear-gradient(135deg,#0c0e09,#060705)}
 .cx-howto strong{color:#f0c866}
 .cx-howto em{color:#8fbf6d;font:700 11px Arial,sans-serif;font-style:normal}
 .cx-node.selected{border-color:#fff200!important;background:#201c0c!important;box-shadow:0 0 0 2px rgba(255,242,0,.18),0 0 18px rgba(255,242,0,.08)!important}
+
+/* Build 29 — shared atmospheric section background */
+body{
+  background:#050504!important;
+  position:relative;
+}
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  z-index:0;
+  pointer-events:none;
+  background:
+    linear-gradient(180deg,rgba(0,0,0,.52) 0%,rgba(0,0,0,.67) 42%,rgba(0,0,0,.82) 100%),
+    url("/examine-the-past-home/games/assets/connections-section-bg-build29.png?v=29") center top/cover no-repeat;
+  filter:saturate(.82) contrast(.96);
+}
+body>*,.cx-wrap{
+  position:relative;
+  z-index:1;
+}
+.cx-wrap{
+  background:transparent!important;
+}
+@media(max-width:700px){
+  body::before{
+    background:
+      linear-gradient(180deg,rgba(0,0,0,.72) 0%,rgba(0,0,0,.82) 48%,rgba(0,0,0,.90) 100%),
+      url("/examine-the-past-home/games/assets/connections-section-bg-build29.png?v=29") center top/auto 100vh no-repeat;
+    filter:saturate(.70) contrast(.92);
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  body::before{background-attachment:scroll}
+}
