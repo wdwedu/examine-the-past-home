@@ -90,3 +90,38 @@ repeating-linear-gradient(90deg,rgba(255,255,255,.018) 0 1px,transparent 1px 54p
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 @media(max-width:820px){.escape-intro,.escape-summary,.room-wrap{grid-template-columns:1fr}.inventory{order:2}.room{order:1}.escape-stats{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:560px){.escape-wrap{padding-left:9px;padding-right:9px}.escape-stage{padding:12px}.escape-stats{grid-template-columns:1fr 1fr}.escape-head{display:block}.escape-head .escape-btn{width:100%;margin-top:10px}.clue-sheet{margin:10px;padding:15px}.escape-actions .escape-btn{width:100%}}
+
+/* Build 29 — shared atmospheric section background */
+body{
+  background:#050504!important;
+  position:relative;
+}
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  z-index:0;
+  pointer-events:none;
+  background:
+    linear-gradient(180deg,rgba(0,0,0,.52) 0%,rgba(0,0,0,.67) 42%,rgba(0,0,0,.82) 100%),
+    url("/examine-the-past-home/games/assets/escape-section-bg-build29.png?v=29") center top/cover no-repeat;
+  filter:saturate(.82) contrast(.96);
+}
+body>*,.escape-wrap{
+  position:relative;
+  z-index:1;
+}
+.escape-wrap{
+  background:transparent!important;
+}
+@media(max-width:700px){
+  body::before{
+    background:
+      linear-gradient(180deg,rgba(0,0,0,.72) 0%,rgba(0,0,0,.82) 48%,rgba(0,0,0,.90) 100%),
+      url("/examine-the-past-home/games/assets/escape-section-bg-build29.png?v=29") center top/auto 100vh no-repeat;
+    filter:saturate(.70) contrast(.92);
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  body::before{background-attachment:scroll}
+}
