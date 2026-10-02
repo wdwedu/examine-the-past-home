@@ -212,3 +212,38 @@ body{margin:0;background:#000;color:#f6f0df;font-family:Georgia,"Times New Roman
 @keyframes timeRushShimmy{0%{transform:rotate(19deg) translateX(-260%)}100%{transform:rotate(19deg) translateX(620%)}}
 
 #vaultReturn{background:linear-gradient(145deg,#3b2b0b,#130d03 65%,#070401)!important;border-color:#6d5520!important;color:#f5e8bd!important}
+
+/* Build 29 — shared atmospheric section background */
+body{
+  background:#050504!important;
+  position:relative;
+}
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  z-index:0;
+  pointer-events:none;
+  background:
+    linear-gradient(180deg,rgba(0,0,0,.52) 0%,rgba(0,0,0,.67) 42%,rgba(0,0,0,.82) 100%),
+    url("/examine-the-past-home/games/assets/time-rush-section-bg-build29.png?v=29") center top/cover no-repeat;
+  filter:saturate(.82) contrast(.96);
+}
+body>*,#timeRushGame{
+  position:relative;
+  z-index:1;
+}
+#timeRushGame{
+  background:transparent!important;
+}
+@media(max-width:700px){
+  body::before{
+    background:
+      linear-gradient(180deg,rgba(0,0,0,.72) 0%,rgba(0,0,0,.82) 48%,rgba(0,0,0,.90) 100%),
+      url("/examine-the-past-home/games/assets/time-rush-section-bg-build29.png?v=29") center top/auto 100vh no-repeat;
+    filter:saturate(.70) contrast(.92);
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  body::before{background-attachment:scroll}
+}
