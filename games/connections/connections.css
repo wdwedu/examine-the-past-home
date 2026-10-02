@@ -133,3 +133,8 @@ body{
       #050504 !important;
   }
 }
+
+/* Build 30 — section background */
+body{background-color:#050604!important;background-image:linear-gradient(rgba(5,6,4,.28),rgba(5,6,4,.50)),url("/examine-the-past-home/games/assets/connections-section-bg-build30.png")!important;background-position:center top!important;background-size:cover!important;background-repeat:no-repeat!important;background-attachment:fixed!important}
+.cx-stage,.cx-hero{backdrop-filter:blur(1.5px)}
+@media(max-width:760px){body{background-image:linear-gradient(rgba(5,6,4,.40),rgba(5,6,4,.60)),url("/examine-the-past-home/games/assets/connections-section-bg-build30.png")!important;background-attachment:scroll!important}}
