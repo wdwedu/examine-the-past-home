@@ -77,3 +77,34 @@
 .compact-game-footer .copyright{margin-top:12px!important;font-size:9px!important}
 .share-status{height:13px!important;margin-top:3px!important;font-size:9px!important}
 @media(max-width:560px){.compact-game-footer{padding:20px 8px 14px!important}.share-logo{width:34px!important;height:34px!important}.share-actions{gap:7px!important}.share-game h2{font-size:21px!important}}
+
+/* Build 27 — universal legal footer + legal popups */
+.legal-links{display:flex;justify-content:center;align-items:center;gap:6px 8px;flex-wrap:wrap;width:min(760px,100%);margin:10px auto 0;color:#595959;font-family:Georgia,"Times New Roman",serif}
+.legal-links button{appearance:none;border:0;background:transparent;color:#8b8b8b;padding:2px 0;cursor:pointer;font:600 9px Georgia,"Times New Roman",serif;text-decoration:none}
+.legal-links button:hover,.legal-links button:focus-visible{color:#fff200;outline:none;text-decoration:underline;text-underline-offset:3px}
+.legal-links span{color:#4b4b4b;font-size:9px}
+.legal-overlay[hidden]{display:none!important}
+.legal-overlay{position:fixed;inset:0;z-index:5000;background:rgba(0,0,0,.78);display:grid;place-items:center;padding:18px}
+.legal-modal{position:relative;width:min(94vw,760px);max-height:min(82vh,900px);overflow:hidden;border:1px solid #3b3b3b;border-radius:20px;background:linear-gradient(180deg,#1b1b1b,#111);box-shadow:0 24px 80px rgba(0,0,0,.72)}
+.legal-scroll{max-height:min(82vh,900px);overflow-y:auto;padding:22px 34px 28px 34px;scrollbar-color:#5d5d5d #141414;overscroll-behavior:contain}
+.legal-brand{color:#7dff4d;font:500 16px/1.2 Arial,sans-serif;letter-spacing:.15em;text-transform:uppercase;margin:0 58px 8px 0}
+.legal-modal h2{margin:0 64px 4px 0;color:#fff200;font-family:Georgia,"Times New Roman",serif;font-size:clamp(32px,5vw,48px);line-height:1.02;font-weight:700;letter-spacing:0}
+.legal-date{color:#929292;font:600 13px Georgia,"Times New Roman",serif;margin:8px 0 28px}
+.legal-modal p{margin:0 0 24px;color:#dedede;font:400 clamp(16px,2.3vw,22px)/1.58 Georgia,"Times New Roman",serif}
+.legal-modal h3{margin:28px 0 12px;color:#7dff4d;font:700 clamp(20px,3vw,28px)/1.2 Georgia,"Times New Roman",serif}
+.legal-close{position:absolute;right:18px;top:18px;z-index:2;width:58px;height:58px;border-radius:50%;border:1px solid #444;background:#171717;color:#f1f1f1;display:grid;place-items:center;cursor:pointer;font:300 37px/1 Arial,sans-serif}
+.legal-close:hover,.legal-close:focus-visible{border-color:#777;color:#fff200;outline:none}
+body.legal-open{overflow:hidden}
+@media(max-width:560px){
+ .legal-links{gap:5px 7px;margin-top:9px;padding:0 8px}
+ .legal-links button,.legal-links span{font-size:8px}
+ .legal-overlay{padding:10px}
+ .legal-modal{width:100%;max-height:84vh;border-radius:18px}
+ .legal-scroll{max-height:84vh;padding:20px 26px 24px}
+ .legal-brand{font-size:13px;margin-right:54px}
+ .legal-modal h2{font-size:34px;margin-right:54px}
+ .legal-date{font-size:12px;margin-bottom:24px}
+ .legal-modal p{font-size:17px;line-height:1.58;margin-bottom:22px}
+ .legal-modal h3{font-size:21px;margin-top:25px}
+ .legal-close{width:48px;height:48px;right:12px;top:12px;font-size:31px}
+}
