@@ -16,45 +16,43 @@
    });
  });
 
- // Shared legal popup controls.
- const legalOverlay=document.getElementById("legalOverlay");
- const legalContent=document.getElementById("legalContent");
- const legalClose=document.querySelector(".legal-close");
- let legalOpener=null;
- function closeLegal(){
-   if(!legalOverlay||legalOverlay.hidden)return;
-   legalOverlay.hidden=true;
-   document.body.classList.remove("legal-open");
-   if(legalContent)legalContent.innerHTML="";
-   if(legalOpener){legalOpener.focus();legalOpener=null;}
- }
- function openLegal(key,opener){
-   if(!legalOverlay||!legalContent)return;
-   const tpl=document.getElementById("legal-"+key);
-   if(!tpl)return;
-   legalOpener=opener||null;
-   legalContent.innerHTML=tpl.innerHTML;
-   legalContent.scrollTop=0;
-   legalOverlay.hidden=false;
-   document.body.classList.add("legal-open");
-   requestAnimationFrame(()=>legalClose?.focus());
- }
- document.querySelectorAll("[data-legal-open]").forEach(btn=>{
-   btn.addEventListener("click",()=>openLegal(btn.dataset.legalOpen,btn));
+ // Home-matched legal popup controls.
+ let savedLegalScroll=0;
+ const openLegalModal=(key,opener)=>{
+   const modal=document.getElementById("legal-"+key);
+   if(!modal)return;
+   savedLegalScroll=window.scrollY;
+   modal.dataset.openerId="";
+   if(opener&&!opener.id){opener.id="legal-opener-"+Math.random().toString(36).slice(2)}
+   if(opener)modal.dataset.openerId=opener.id;
+   modal.classList.add("open");
+   modal.setAttribute("aria-hidden","false");
+   document.body.style.overflow="hidden";
+   modal.querySelector(".legal-close-v4")?.focus({preventScroll:true});
+ };
+ const closeLegalModal=(modal)=>{
+   if(!modal)return;
+   const openerId=modal.dataset.openerId;
+   modal.classList.remove("open");
+   modal.setAttribute("aria-hidden","true");
+   document.body.style.overflow="";
+   window.scrollTo(0,savedLegalScroll);
+   if(openerId)document.getElementById(openerId)?.focus({preventScroll:true});
+ };
+ document.querySelectorAll(".legal-open-v4").forEach(btn=>{
+   btn.addEventListener("click",e=>{
+     e.preventDefault();
+     openLegalModal(btn.dataset.legal,btn);
+   });
  });
- legalClose?.addEventListener("click",closeLegal);
- legalOverlay?.addEventListener("click",e=>{if(e.target===legalOverlay)closeLegal();});
+ document.querySelectorAll(".legal-modal-v4").forEach(modal=>{
+   modal.querySelector(".legal-close-v4")?.addEventListener("click",()=>closeLegalModal(modal));
+   modal.querySelector(".legal-backdrop-v4")?.addEventListener("click",()=>closeLegalModal(modal));
+ });
  document.addEventListener("keydown",e=>{
-   if(!legalOverlay||legalOverlay.hidden)return;
-   if(e.key==="Escape"){e.preventDefault();closeLegal();return;}
-   if(e.key==="Tab"){
-     const modal=legalOverlay.querySelector(".legal-modal");
-     const focusables=[...modal.querySelectorAll('button,[href],input,select,textarea,[tabindex]:not([tabindex="-1"])')].filter(x=>!x.disabled);
-     if(!focusables.length)return;
-     const first=focusables[0],last=focusables[focusables.length-1];
-     if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}
-     else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}
-   }
+   if(e.key!=="Escape")return;
+   const open=document.querySelector(".legal-modal-v4.open");
+   if(open)closeLegalModal(open);
  });
 
  // Shared game-share controls. Each game automatically shares its own live URL.
