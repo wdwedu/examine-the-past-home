@@ -1,19 +1,19 @@
-:root{--etp-yellow:#ffed00;--etp-green:#b7ff4b;--etp-bg:#070907;--etp-panel:#111511;--etp-muted:#c9ccbd}
+:root{--etp-yellow:#fff200;--etp-green:#94ff53;--etp-bg:#070907;--etp-panel:#111511;--etp-muted:#c9ccbd}
 #etpSiteHeader{position:sticky;top:0;z-index:2147482000;background:rgba(7,9,7,.92);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.08);font-family:Georgia,"Times New Roman",serif}
 #etpSiteHeader *{box-sizing:border-box}
 .etp-header-inner{max-width:1220px;margin:auto;min-height:54px;padding:6px 14px;display:flex;align-items:center;gap:10px}
 .etp-home-mark{display:flex;align-items:center;gap:8px;color:var(--etp-yellow)!important;text-decoration:none!important;font-weight:700;letter-spacing:.06em;white-space:nowrap}
-.etp-home-mark .etp-mark{width:32px;height:32px;border:1px solid rgba(255,237,0,.35);border-radius:50%;display:grid;place-items:center;font-size:.76rem}
+.etp-home-mark .etp-mark{width:32px;height:32px;border:1px solid rgba(255,242,0,.35);border-radius:50%;display:grid;place-items:center;font-size:.76rem}
 .etp-icon-nav{margin-left:auto;display:flex;align-items:center;gap:3px}
 .etp-nav-item{position:relative}
 .etp-icon-btn{width:44px;height:42px;border:0;background:transparent;color:#f5f5ec;display:grid;place-items:center;border-radius:12px;font-size:1.22rem;cursor:pointer;text-decoration:none!important;transition:.2s ease}
-.etp-icon-btn:hover,.etp-icon-btn:focus-visible{background:rgba(183,255,75,.08);transform:translateY(-1px)}
-.etp-tip{position:absolute;left:50%;bottom:49px;transform:translate(-50%,7px);opacity:0;pointer-events:none;white-space:nowrap;background:#101410;border:1px solid rgba(183,255,75,.22);color:#fff;padding:6px 9px;border-radius:9px;font-size:.82rem;font-weight:700;transition:.18s ease;box-shadow:0 9px 20px rgba(0,0,0,.28)}
+.etp-icon-btn:hover,.etp-icon-btn:focus-visible{background:rgba(148,255,83,.08);transform:translateY(-1px)}
+.etp-tip{position:absolute;left:50%;bottom:49px;transform:translate(-50%,7px);opacity:0;pointer-events:none;white-space:nowrap;background:#101410;border:1px solid rgba(148,255,83,.22);color:#fff;padding:6px 9px;border-radius:9px;font-size:.82rem;font-weight:700;transition:.18s ease;box-shadow:0 9px 20px rgba(0,0,0,.28)}
 .etp-nav-item:hover>.etp-tip,.etp-nav-item:focus-within>.etp-tip{opacity:1;transform:translate(-50%,0)}
 .etp-drop{position:absolute;top:46px;right:0;min-width:238px;padding:8px;background:#0c100c;border:1px solid rgba(255,255,255,.1);border-radius:14px;box-shadow:0 18px 45px rgba(0,0,0,.42);display:none}
 .etp-nav-item:hover>.etp-drop,.etp-nav-item:focus-within>.etp-drop,.etp-nav-item.open>.etp-drop{display:block}
 .etp-drop a{display:flex;align-items:center;gap:10px;color:#eef0e6!important;text-decoration:none!important;padding:9px 10px;border-radius:10px;font-size:.9rem}
-.etp-drop a:hover{background:rgba(183,255,75,.07);color:var(--etp-green)!important}
+.etp-drop a:hover{background:rgba(148,255,83,.07);color:var(--etp-green)!important}
 .etp-sound-btn{border:0;background:transparent;color:#fff;font-size:1.08rem;cursor:pointer;width:40px;height:40px;border-radius:11px}
 .etp-sound-btn:hover{background:rgba(255,255,255,.06)}
 .etp-mobile-toggle{display:none;margin-left:auto;border:0;background:transparent;color:#fff;width:42px;height:40px;font-size:1.25rem;cursor:pointer}
