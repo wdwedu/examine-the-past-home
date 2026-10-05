@@ -1,12 +1,12 @@
 :root{--etp-yellow:#fff200;--etp-green:#94ff53;--etp-bg:#000;--etp-white:#f7f7f2;--etp-muted:#d7d7cf}
 *{box-sizing:border-box}
 #etpSiteHeader{position:sticky;top:0;z-index:2147482000;background:rgba(0,0,0,.96);backdrop-filter:blur(10px);border-bottom:1px solid #2a2a2a;font-family:Georgia,"Times New Roman",serif}
-.etp-header-inner{max-width:980px;margin:auto;min-height:72px;padding:9px 14px;display:flex;align-items:center;justify-content:center}
-.etp-icon-nav{display:flex;align-items:center;justify-content:center;gap:18px;width:100%}
+.etp-header-inner{max-width:920px;margin:auto;min-height:72px;padding:18px 10px 7px;display:flex;align-items:center;justify-content:center}
+.etp-icon-nav{display:flex;align-items:center;justify-content:center;gap:20px;width:100%}
 .etp-nav-item{position:relative}
-.etp-icon-btn{width:48px;height:46px;border:0;background:transparent;color:#f7f7f2;display:grid;place-items:center;border-radius:10px;font-size:1.28rem;cursor:pointer;text-decoration:none!important;transition:.18s ease}
+.etp-icon-btn{width:44px;height:42px;border:0;background:transparent;color:#f7f7f2;display:grid;place-items:center;border-radius:10px;font-size:1.28rem;cursor:pointer;text-decoration:none!important;transition:.18s ease}
 .etp-icon-btn:hover,.etp-icon-btn:focus-visible{transform:translateY(-2px) scale(1.04);color:var(--etp-yellow);outline:none}
-.etp-tip{position:absolute;left:50%;bottom:50px;transform:translate(-50%,7px);opacity:0;pointer-events:none;white-space:nowrap;background:#101010;border:1px solid rgba(148,255,83,.22);color:#fff;padding:7px 10px;border-radius:8px;font-size:.86rem;font-weight:700;transition:.18s ease;box-shadow:0 9px 22px rgba(0,0,0,.4)}
+.etp-tip{position:absolute;left:50%;top:-12px;transform:translate(-50%,5px);opacity:0;pointer-events:none;white-space:nowrap;background:#101010;border:1px solid rgba(148,255,83,.22);color:#fff;padding:7px 10px;border-radius:8px;font-size:.86rem;font-weight:700;transition:.18s ease;box-shadow:0 9px 22px rgba(0,0,0,.4)}
 .etp-nav-item:hover>.etp-tip,.etp-nav-item:focus-within>.etp-tip{opacity:1;transform:translate(-50%,0)}
 .etp-drop{position:absolute;top:48px;left:50%;transform:translateX(-50%);min-width:245px;padding:8px;background:#0b0b0b;border:1px solid #2c2c2c;border-radius:13px;box-shadow:0 18px 45px rgba(0,0,0,.5);display:none}
 .etp-nav-item:hover>.etp-drop,.etp-nav-item:focus-within>.etp-drop,.etp-nav-item.open>.etp-drop{display:block}
