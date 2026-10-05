@@ -1,0 +1,34 @@
+name: Audit homepage navigation
+
+on:
+  push:
+    branches:
+      - etp-navigation-transitions-build
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: etp-navigation-transitions-build
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Generate homepage navigation audit
+        run: python scripts/audit_homepage.py
+      - name: Commit audit
+        run: |
+          if git diff --quiet -- audit/navigation-audit.txt && git ls-files --error-unmatch audit/navigation-audit.txt >/dev/null 2>&1; then
+            echo "No audit changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit/navigation-audit.txt
+          git commit -m "Add homepage navigation audit [skip ci]" || exit 0
+          git push
