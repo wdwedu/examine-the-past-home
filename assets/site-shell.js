@@ -1,18 +1,25 @@
 (()=>{if(document.getElementById('etpSiteHeader'))return;const s=document.currentScript;const root=s?.dataset?.etpRoot||'./';const href=p=>root+p;
 const header=document.createElement('header');header.id='etpSiteHeader';header.innerHTML=`
 <div class="etp-header-inner"><nav class="etp-icon-nav" aria-label="Site navigation">
-<div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#home">🏠</a><span class="etp-tip">Home</span></div>
-<div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#about">ℹ️</a><span class="etp-tip">About</span></div>
+<div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#top">🏠</a><span class="etp-tip">Home</span></div>
+<div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#about-us">ℹ️</a><span class="etp-tip">About</span></div>
+
 <div class="etp-nav-item"><button class="etp-icon-btn" aria-label="History Hub">🎓</button><span class="etp-tip">History Hub</span><div class="etp-drop">
-<a href="${href('')}#us-history">🇺🇸 U.S. History</a><a href="${href('')}#world-history">🌍 World History</a><a href="${href('')}#civics-government">🏛️ Civics & Government</a><a href="${href('')}#geography">🗺️ Geography</a><a href="${href('')}#black-history">✊🏾 Black History</a><a href="${href('')}#world-religions">🕊️ World Religions</a></div></div>
-<div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#resource-vault">📖</a><span class="etp-tip">Resources</span></div>
+<a href="${href('')}#us-history">🇺🇸 U.S. History</a><a href="${href('')}#world-history">🌍 World History</a><a href="${href('')}#civics-government">🏛️ Civics & Government</a><a href="${href('')}#geography">🗺️ Geography</a><a href="${href('')}#black-history">✊🏾 Black History</a><a href="${href('')}#world-religions">🕊️ World Religions</a>
+</div></div>
+
+<div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#timeline">⏳</a><span class="etp-tip">Timeline</span></div>
+<div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#history-maps">🗺️</a><span class="etp-tip">History Maps</span></div>
 <div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#today-history">📅</a><span class="etp-tip">Today in History</span></div>
-<div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#history-maps">🌍</a><span class="etp-tip">History Maps</span></div>
-<div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#timeline">•••</a><span class="etp-tip">Interactive Timeline</span></div>
-<div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#blooms-taxonomy">▲</a><span class="etp-tip">Bloom's Generator</span></div>
 <div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#history-unlocked">🎮</a><span class="etp-tip">History Unlocked</span></div>
+
+<div class="etp-nav-item"><button class="etp-icon-btn" aria-label="Teacher Tools">🧰</button><span class="etp-tip">Teacher Tools</span><div class="etp-drop">
+<a href="${href('')}#blooms-taxonomy">🧠 Bloom's Taxonomy</a><a href="${href('')}#movies-classroom">🎬 Movies in the Classroom</a><a href="${href('')}#classroom-management">🏫 Classroom Management</a><a href="${href('')}#learner-supports">👥 Learner Supports</a>
+</div></div>
+
+<div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#hidden-treasures">🛍️</a><span class="etp-tip">Shop History</span></div>
 <div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#community">👥</a><span class="etp-tip">Community</span></div>
-<div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#contact">📧</a><span class="etp-tip">Contact Us</span></div>
+<div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#contact-section">📧</a><span class="etp-tip">Contact Us</span></div>
 <button class="etp-sound-btn" aria-label="Toggle sound" title="Sound">🔊</button>
 </nav></div>`;
 document.body.prepend(header);
