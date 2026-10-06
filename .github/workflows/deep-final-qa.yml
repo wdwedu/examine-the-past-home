@@ -14,6 +14,20 @@ jobs:
         with:
           python-version: '3.x'
       - run: python scripts/final_site_qa.py
+      - name: Validate JavaScript syntax
+        run: |
+          find assets games lessons teacher-tools timeline maps today shop current-events faq licensing careers copyright refund -name '*.js' -type f -print0 | xargs -0 -n1 node --check
+      - name: Smoke test key routes
+        run: |
+          mkdir -p /tmp/etp-smoke
+          ln -s "$GITHUB_WORKSPACE" /tmp/etp-smoke/examine-the-past-home
+          python -m http.server 8765 --directory /tmp/etp-smoke >/tmp/etp-http.log 2>&1 &
+          SERVER_PID=$!
+          sleep 2
+          for route in             ""             "lessons/"             "lessons/social-studies-mini-labs/"             "lessons/social-studies-mini-labs/v3-civilizations-and-culture/"             "lessons/social-studies-mini-labs/v3l1-what-makes-a-civilization/"             "lessons/world-religions/"             "lessons/black-history-heroes/"             "games/"             "games/map-quest/"             "timeline/"             "maps/"             "today/"             "teacher-tools/"             "shop/"             "faq/"             "licensing/"             "careers/"             "current-events/"             "copyright/"             "refund/"; do
+              curl -fsS "http://127.0.0.1:8765/examine-the-past-home/$route" >/dev/null
+          done
+          kill $SERVER_PID
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
