@@ -1,4 +1,4 @@
-(()=>{if(document.getElementById('etpSiteHeader'))return;const s=document.currentScript;const root=s?.dataset?.etpRoot||'./';const href=p=>root+p;
+(()=>{if(document.getElementById('etpSiteHeader'))return;const s=document.currentScript;const root=s?.dataset?.etpRoot||'./';const href=p=>root+p;const noFooter=s?.dataset?.noFooter==='true';
 const header=document.createElement('header');header.id='etpSiteHeader';header.innerHTML=`
 <div class="etp-header-inner"><nav class="etp-icon-nav" aria-label="Site navigation">
 <div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#top">🏠</a><span class="etp-tip">Home</span></div>
@@ -85,6 +85,7 @@ mobilePanel.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMob
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMobile()});
 
 
+if(!noFooter){
 const footer=document.createElement('footer');footer.id='etpSiteFooter';footer.innerHTML=`
 <div class="etp-footer-grid">
 <div>
@@ -175,5 +176,6 @@ const overlay=footer.querySelector('.etp-legal-overlay'),title=footer.querySelec
 function closeLegal(){overlay.hidden=true;overlay.setAttribute('aria-hidden','true');document.body.classList.remove('etp-legal-open')}
 footer.querySelectorAll('.etp-legal-link').forEach(b=>b.addEventListener('click',()=>{const d=legalContent[b.dataset.legal]||['Legal','Information will be added here.'];title.textContent=d[0];copy.textContent=d[1];overlay.hidden=false;overlay.setAttribute('aria-hidden','false');document.body.classList.add('etp-legal-open')}));
 footer.querySelector('.etp-legal-close')?.addEventListener('click',closeLegal);footer.querySelector('.etp-legal-backdrop')?.addEventListener('click',closeLegal);document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!overlay.hidden)closeLegal()});
+}
 
 })();
