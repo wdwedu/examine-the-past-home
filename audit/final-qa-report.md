@@ -3,11 +3,11 @@
 ## Summary
 - HTML pages: 198
 - Links checked: 789
-- Errors: 1
+- Errors: 0
 - Warnings: 0
 
 ## Errors
-- **missing_home_anchor** - `{'type': 'missing_home_anchor', 'page': 'index.html', 'fragment': 'contact'}`
+- None
 
 ## Warnings
 - None

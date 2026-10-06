@@ -6,14 +6,8 @@
     "transition_links": 194,
     "dead_placeholders": 0
   },
-  "error_count": 1,
+  "error_count": 0,
   "warning_count": 0,
-  "errors": [
-    {
-      "type": "missing_home_anchor",
-      "page": "index.html",
-      "fragment": "contact"
-    }
-  ],
+  "errors": [],
   "warnings": []
 }
