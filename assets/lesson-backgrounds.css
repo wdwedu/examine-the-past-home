@@ -41,9 +41,8 @@ body.lesson-subject-bg::after{
 body.subject-us-history{--lesson-bg:url("backgrounds/us-history.webp")}
 body.subject-black-history{--lesson-bg:url("backgrounds/black-history.webp")}
 body.subject-world-history{--lesson-bg:url("backgrounds/world-history.webp")}
-/* Phase 1 fallback: these two use the global world-history visual until their dedicated approved files are committed. */
-body.subject-world-religions{--lesson-bg:url("backgrounds/world-history.webp")}
-body.subject-geography{--lesson-bg:url("backgrounds/world-history.webp")}
+body.subject-world-religions{--lesson-bg:url("backgrounds/world-religions.webp")}
+body.subject-geography{--lesson-bg:url("backgrounds/geography.webp")}
 body.subject-civics-government{--lesson-bg:url("backgrounds/us-history.webp")}
 
 body.lesson-subject-bg main.wrap{
