@@ -42,7 +42,7 @@ const footer=document.createElement('footer');footer.id='etpSiteFooter';footer.i
   <a href="${href('maps/')}">History Maps</a>
   <a href="${href('today/')}">Today in History</a>
   <a href="${href('games/')}">History Unlocked</a>
-  <a href="${href('')}#current-events">Current Events</a>
+  <a href="${href('current-events/')}">Current Events</a>
   <a href="${href('teacher-tools/movies-in-the-classroom/')}">Historical Movies</a>
   <a href="${href('shop/')}">Explore Hidden Treasures</a>
 </div>
@@ -54,20 +54,20 @@ const footer=document.createElement('footer');footer.id='etpSiteFooter';footer.i
   <a href="${href('teacher-tools/learning-styles/')}">Learner Supports</a>
   <a href="${href('teacher-tools/')}">Curriculum Design</a>
   <a href="${href('teacher-tools/')}">AI in Education</a>
-  <a href="${href('')}#faq">FAQ</a>
+  <a href="${href('faq/')}">FAQ</a>
 </div>
 <div>
   <div class="etp-footer-title">LEGAL & SITE</div>
   <button class="etp-legal-link" data-legal="affiliate">Affiliate Disclosure</button>
-  <a href="${href('')}#careers">Careers & Partnerships</a>
-  <a href="${href('')}#licensing">Resource Licensing</a>
+  <a href="${href('careers/')}">Careers & Partnerships</a>
+  <a href="${href('licensing/')}">Resource Licensing</a>
   <button class="etp-legal-link" data-legal="copyright">Copyright Policy</button>
   <button class="etp-legal-link" data-legal="dmca">DMCA Notice</button>
   <button class="etp-legal-link" data-legal="privacy">Privacy Policy</button>
   <button class="etp-legal-link" data-legal="terms">Terms of Service</button>
   <button class="etp-legal-link" data-legal="refund">Refund / Digital</button>
   <button class="etp-legal-link" data-legal="cookies">Cookie Policy</button>
-  <a href="${href('')}#contact">Contact Us</a>
+  <a href="${href('')}#contact-section">Contact Us</a>
 </div>
 </div>
 <div class="etp-community-wrap" id="community">
