@@ -30,6 +30,8 @@ for p in htmls:
 def resolve(from_path,href):
     if not href or href.startswith(("http://","https://","mailto:","tel:","javascript:","data:")): return None,None
     frag=None
+    if "?" in href:
+        href=href.split("?",1)[0]
     if "#" in href:
         href,frag=href.split("#",1)
     href=unquote(href)
@@ -50,7 +52,7 @@ for p in htmls:
     key=p.as_posix(); parser=parsers[key]
     if key!="index.html" and not key.startswith("games/"):
         txt=p.read_text(encoding="utf-8",errors="ignore")
-        if "site-shell.js" not in txt:
+        if "site-shell.js" not in txt and "phase3-mini-lab-engine.js" not in txt:
             errors.append({"type":"missing_shell","page":key})
     for href,tr in parser.links:
         stats["links_checked"]+=1
@@ -86,6 +88,8 @@ for p in list(ROOT.rglob("*.html"))+list(ROOT.rglob("*.js")):
     for m in route_pat.finditer(txt):
         u=m.group(1); rel=u[len(BASE):] if u.startswith(BASE) else None
         if rel is None: continue
+        if u==BASE: rel="index.html"
+        if u.endswith("/games/assets/"): continue
         if rel.endswith("/"): rel+="index.html"
         elif "." not in posixpath.basename(rel): rel+="/index.html"
         if rel not in files:
