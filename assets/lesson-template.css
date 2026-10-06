@@ -12,3 +12,14 @@ details{border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:14px 1
 @media(max-width:900px){.lesson-grid{grid-template-columns:1fr}.sidebar{position:static;order:-1}.toc{display:grid;grid-template-columns:repeat(2,1fr);gap:4px 16px}.objectives,.source-card{grid-template-columns:1fr}.vocab-grid,.related{grid-template-columns:1fr 1fr}.topnav{display:none}}
 @media(max-width:580px){.vocab-grid,.related,.toc{grid-template-columns:1fr}.hero{padding-top:45px}.block{padding:19px}.wrap{padding:0 15px}}
 .precheck{display:grid;gap:14px}.precheck-card{border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:17px;background:rgba(255,255,255,.02)}.precheck-card label{display:block;margin:8px 0;color:var(--muted);cursor:pointer}.precheck-card input{accent-color:var(--green);margin-right:8px}.precheck-result{margin-top:14px;padding:14px 16px;border:1px solid rgba(148,255,83,.2);border-radius:14px;background:rgba(148,255,83,.035);color:var(--muted)}.celebration{position:fixed;inset:0;pointer-events:none;z-index:2147482500;overflow:hidden}.burst-piece{position:absolute;width:10px;height:10px;border-radius:2px;animation:burst .9s ease-out forwards}.burst-icon{position:absolute;font-size:1.6rem;animation:burstIcon .95s ease-out forwards}@keyframes burst{0%{transform:translate(0,0) scale(.7);opacity:1}100%{transform:translate(var(--x),var(--y)) rotate(540deg) scale(.15);opacity:0}}@keyframes burstIcon{0%{transform:translate(-50%,-50%) scale(.6);opacity:0}25%{opacity:1;transform:translate(-50%,-50%) scale(1.25)}100%{transform:translate(-50%,-140%) scale(.9);opacity:0}}
+
+/* Standalone lesson visual / primary-source slot */
+.lesson-visual{margin:0 0 18px;border:1px solid rgba(255,255,255,.09);border-radius:18px;overflow:hidden;background:#0b0f0b;box-shadow:0 12px 28px rgba(0,0,0,.22)}
+.lesson-visual img{display:block;width:100%;max-height:390px;object-fit:cover;background:#0b0f0b}
+.lesson-visual figcaption{padding:12px 14px 13px;color:var(--muted);font-size:.82rem;line-height:1.45;border-top:1px solid rgba(255,255,255,.06)}
+.lesson-visual .visual-label{display:inline-flex;margin-right:8px;color:var(--green);font-size:.68rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase}
+.lesson-visual .visual-credit{display:block;margin-top:4px;color:#9aa49a;font-size:.74rem}
+.lesson-visual .visual-credit a{color:var(--yellow);text-decoration:underline;text-underline-offset:2px}
+.lesson-visual.compact{max-width:760px}
+.lesson-visual.primary-source img{object-fit:contain;max-height:440px;padding:8px}
+@media(max-width:700px){.lesson-visual img{max-height:260px}.lesson-visual.primary-source img{max-height:320px}}
