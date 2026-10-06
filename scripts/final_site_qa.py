@@ -99,7 +99,7 @@ for p in list(ROOT.rglob("*.html"))+list(ROOT.rglob("*.js")):
 
 shell=Path("assets/site-shell.js").read_text(encoding="utf-8",errors="ignore")
 home=parsers.get("index.html")
-required={"top","about-us","us-history","world-history","civics-government","geography","black-history","world-religions","timeline","history-maps","today-history","history-unlocked","blooms-taxonomy","movies-classroom","classroom-management","learner-supports","hidden-treasures","community","contact-section","current-events","careers","licensing","faq","contact"}
+required={"top","about-us","us-history","world-history","civics-government","geography","black-history","world-religions","timeline","history-maps","today-history","history-unlocked","blooms-taxonomy","movies-classroom","classroom-management","learner-supports","hidden-treasures","community","contact-section","current-events","careers","licensing","faq"}
 if home:
     for frag in sorted(required):
         if ("#"+frag) in shell and frag not in home.ids:
