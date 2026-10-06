@@ -1,0 +1,26 @@
+name: Build Phase 3 curriculum routes
+on:
+  push:
+    paths:
+      - scripts/phase3_build_request.txt
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: python scripts/build_phase3_routes.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lessons
+          if git diff --cached --quiet; then
+            echo "No curriculum route changes"
+            exit 0
+          fi
+          git commit -m "Generate Phase 3 V3-V8 curriculum routes [skip ci]"
+          git push
