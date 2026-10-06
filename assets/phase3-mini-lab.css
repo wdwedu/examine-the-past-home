@@ -1,0 +1,11 @@
+/* Phase 3 lightweight Mini Lab engine */
+.phase3-loading{min-height:70vh;display:grid;place-items:center;color:#fff200;font-family:Georgia,serif;letter-spacing:.04em}
+.phase3-source-visual{min-height:210px;border-radius:18px;border:1px solid rgba(255,242,0,.16);display:flex;align-items:end;padding:18px;overflow:hidden;background:
+linear-gradient(180deg,transparent 0%,rgba(0,0,0,.72) 100%),
+var(--lesson-bg) center/cover no-repeat}
+.phase3-source-visual strong{font-size:1.15rem;color:#fff200}.phase3-source-visual span{color:#eee}
+.phase3-meter{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.phase3-meter span{font-size:.7rem;border:1px solid rgba(148,255,83,.24);color:#94ff53;border-radius:999px;padding:5px 8px}
+.phase3-image-note{font-size:.78rem;color:#9aa49a;margin-top:8px}
+.phase3-cq{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.phase3-cq .callout{margin:0}
+@media(max-width:700px){.phase3-cq{grid-template-columns:1fr}.phase3-source-visual{min-height:145px}}
