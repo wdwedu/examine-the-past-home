@@ -23,6 +23,67 @@ const header=document.createElement('header');header.id='etpSiteHeader';header.i
 <button class="etp-sound-btn" aria-label="Toggle sound" title="Sound">🔊</button>
 </nav></div>`;
 document.body.prepend(header);
+const mobileToggle=document.createElement('button');
+mobileToggle.className='etp-mobile-toggle';
+mobileToggle.type='button';
+mobileToggle.setAttribute('aria-label','Open navigation');
+mobileToggle.setAttribute('aria-expanded','false');
+mobileToggle.innerHTML='<span></span><span></span><span></span>';
+const mobilePanel=document.createElement('div');
+mobilePanel.className='etp-mobile-panel';
+mobilePanel.hidden=true;
+mobilePanel.innerHTML=`
+<div class="etp-mobile-group">
+  <a href="${href('')}#top"><span>🏠</span><b>Home</b></a>
+  <a href="${href('')}#about-us"><span>ℹ️</span><b>About</b></a>
+</div>
+<div class="etp-mobile-heading">HISTORY HUB</div>
+<div class="etp-mobile-grid">
+  <a href="${href('')}#us-history"><span>🇺🇸</span><b>U.S. History</b></a>
+  <a href="${href('')}#world-history"><span>🌍</span><b>World History</b></a>
+  <a href="${href('')}#civics-government"><span>🏛️</span><b>Civics & Government</b></a>
+  <a href="${href('')}#geography"><span>🗺️</span><b>Geography</b></a>
+  <a href="${href('')}#black-history"><span>✊🏾</span><b>Black History</b></a>
+  <a href="${href('')}#world-religions"><span>🕊️</span><b>World Religions</b></a>
+</div>
+<div class="etp-mobile-heading">EXPLORE</div>
+<div class="etp-mobile-grid">
+  <a href="${href('')}#timeline"><span>⏳</span><b>Timeline</b></a>
+  <a href="${href('')}#history-maps"><span>🗺️</span><b>History Maps</b></a>
+  <a href="${href('')}#today-history"><span>📅</span><b>Today in History</b></a>
+  <a href="${href('')}#history-unlocked"><span>🎮</span><b>History Unlocked</b></a>
+</div>
+<div class="etp-mobile-heading">TEACHER TOOLS</div>
+<div class="etp-mobile-grid">
+  <a href="${href('')}#blooms-taxonomy"><span>🧠</span><b>Bloom's Taxonomy</b></a>
+  <a href="${href('')}#movies-classroom"><span>🎬</span><b>Movies in the Classroom</b></a>
+  <a href="${href('')}#classroom-management"><span>🏫</span><b>Classroom Management</b></a>
+  <a href="${href('')}#learner-supports"><span>👥</span><b>Learner Supports</b></a>
+</div>
+<div class="etp-mobile-group etp-mobile-last">
+  <a href="${href('')}#hidden-treasures"><span>🛍️</span><b>Shop History</b></a>
+  <a href="${href('')}#community"><span>👥</span><b>Community</b></a>
+  <a href="${href('')}#contact-section"><span>📧</span><b>Contact Us</b></a>
+  <button class="etp-mobile-sound" type="button"><span>🔊</span><b>Sound</b></button>
+</div>`;
+header.querySelector('.etp-header-inner').prepend(mobileToggle);
+header.querySelector('.etp-header-inner').append(mobilePanel);
+function closeMobile(){
+  mobilePanel.hidden=true;
+  mobileToggle.classList.remove('open');
+  mobileToggle.setAttribute('aria-expanded','false');
+  mobileToggle.setAttribute('aria-label','Open navigation');
+}
+mobileToggle.addEventListener('click',()=>{
+  const willOpen=mobilePanel.hidden;
+  mobilePanel.hidden=!willOpen;
+  mobileToggle.classList.toggle('open',willOpen);
+  mobileToggle.setAttribute('aria-expanded',String(willOpen));
+  mobileToggle.setAttribute('aria-label',willOpen?'Close navigation':'Open navigation');
+});
+mobilePanel.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMobile));
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMobile()});
+
 
 const footer=document.createElement('footer');footer.id='etpSiteFooter';footer.innerHTML=`
 <div class="etp-footer-grid">
@@ -98,7 +159,9 @@ const footer=document.createElement('footer');footer.id='etpSiteFooter';footer.i
 document.body.append(footer);
 
 header.querySelectorAll('.etp-nav-item>button').forEach(b=>b.addEventListener('click',e=>{e.stopPropagation();b.parentElement.classList.toggle('open')}));
-const snd=header.querySelector('.etp-sound-btn');let sound=true;snd.addEventListener('click',()=>{sound=!sound;snd.textContent=sound?'🔊':'🔇';window.ETPTransitions?.setSound(sound)});
+const snd=header.querySelector('.etp-sound-btn'),mobileSnd=header.querySelector('.etp-mobile-sound');let sound=true;
+function toggleSound(){sound=!sound;if(snd)snd.textContent=sound?'🔊':'🔇';if(mobileSnd)mobileSnd.querySelector('span').textContent=sound?'🔊':'🔇';window.ETPTransitions?.setSound(sound)}
+snd?.addEventListener('click',toggleSound);mobileSnd?.addEventListener('click',toggleSound);
 const legalContent={
 privacy:["Privacy Policy","Examine the Past respects your privacy. We may receive information you voluntarily provide through forms, accounts, purchases, or newsletter signups, along with limited technical information used to operate, secure, and improve the site. Third-party services may have their own privacy practices."],
 terms:["Terms of Service","By using Examine the Past, you agree to use the site and its educational resources lawfully. Original materials may not be copied, resold, republished, or redistributed except where a specific license permits it. Third-party materials remain the property of their respective owners."],
