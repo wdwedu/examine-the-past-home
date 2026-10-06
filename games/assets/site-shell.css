@@ -421,3 +421,23 @@ body.legal-open{overflow:hidden}
 .compact-game-footer .copyright{margin-top:14px!important;color:#8e8e8e!important;font:400 9px Georgia,"Times New Roman",serif!important}
 @media(max-width:900px){.icon-row{justify-content:flex-start!important;gap:8px!important;overflow-x:auto!important}.icon-nav .nav-label{display:none!important}.compact-game-footer .screenshot-footer{grid-template-columns:1fr 1fr!important;gap:34px!important;padding:32px 28px 20px!important}}
 @media(max-width:560px){.compact-game-footer .screenshot-footer{grid-template-columns:1fr 1fr!important;gap:26px 18px!important;padding:28px 18px 18px!important}.screenshot-footer .footer-col h3{font-size:18px!important}.screenshot-footer .footer-col a,.footer-legal-link{font-size:12px!important}}
+
+/* Universal mobile hamburger for History Unlocked */
+.game-mobile-toggle,.game-mobile-menu{display:none}
+@media(max-width:759px){
+  .icon-nav{position:sticky!important;top:0!important;z-index:2147482000!important;background:#000!important}
+  .icon-row{display:none!important}
+  .game-mobile-toggle{display:flex!important;width:54px;height:56px;margin:0;padding:0;border:0;background:transparent;align-items:center;justify-content:center;flex-direction:column;gap:5px;cursor:pointer}
+  .game-mobile-toggle span{display:block;width:28px;height:2px;border-radius:3px;background:#f7f7f2;transition:.2s}
+  .game-mobile-toggle.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+  .game-mobile-toggle.open span:nth-child(2){opacity:0}
+  .game-mobile-toggle.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+  .game-mobile-menu{display:block;position:absolute;top:100%;left:0;right:0;max-height:calc(100vh - 56px);overflow:auto;padding:12px 14px 18px;background:linear-gradient(180deg,#0c0e0c,#050605);border-bottom:1px solid #353535;box-shadow:0 20px 42px rgba(0,0,0,.72)}
+  .game-mobile-menu[hidden]{display:none!important}
+  .game-mobile-heading{color:#94ff53;font:700 .67rem Georgia,"Times New Roman",serif;letter-spacing:.16em;margin:12px 4px 7px}
+  .game-mobile-grid,.game-mobile-row{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+  .game-mobile-last{margin-top:10px}
+  .game-mobile-menu a{min-height:47px;display:grid;grid-template-columns:31px 1fr;align-items:center;gap:7px;padding:7px 9px;border:1px solid rgba(255,255,255,.065);border-radius:10px;background:rgba(255,255,255,.025);color:#f7f7f2!important;text-decoration:none!important}
+  .game-mobile-menu a b{font:700 .81rem/1.18 Georgia,"Times New Roman",serif}
+}
+@media(max-width:390px){.game-mobile-grid,.game-mobile-row{grid-template-columns:1fr}}
