@@ -1,0 +1,41 @@
+{
+  "boston-tea-party-loc": {
+    "title": "Boston Tea Party",
+    "image": "https://tile.loc.gov/storage-services/service/pnp/det/4a20000/4a26000/4a26600/4a26642v.jpg",
+    "source": "https://www.loc.gov/item/2016817483/",
+    "credit": "Library of Congress, Prints & Photographs Division, Detroit Publishing Company Collection",
+    "rights": "No known restrictions on publication",
+    "reproduction": "LC-DIG-det-4a26642",
+    "suggested": [
+      "American Revolution",
+      "Colonial protest",
+      "Taxation and resistance"
+    ]
+  },
+  "langston-hughes-gordon-parks-loc": {
+    "title": "Portrait of Langston Hughes",
+    "image": "https://tile.loc.gov/storage-services/service/pnp/fsa/8d39000/8d39400/8d39489v.jpg",
+    "source": "https://www.loc.gov/item/2017858893/",
+    "credit": "Library of Congress, Prints & Photographs Division, FSA/OWI Collection; photograph by Gordon Parks, 1943",
+    "rights": "Public domain; no known restrictions",
+    "reproduction": "LC-DIG-fsa-8d39489",
+    "suggested": [
+      "Harlem Renaissance",
+      "Black literary history",
+      "Langston Hughes"
+    ]
+  },
+  "zora-neale-hurston-loc": {
+    "title": "Zora Neale Hurston beating a drum",
+    "image": "https://tile.loc.gov/storage-services/service/pnp/ds/16000/16025v.jpg",
+    "source": "https://www.loc.gov/item/93513271/",
+    "credit": "Library of Congress, Prints & Photographs Division, New York World-Telegram & Sun Collection",
+    "rights": "No known restrictions on publication",
+    "reproduction": "LC-DIG-ds-16025",
+    "suggested": [
+      "Harlem Renaissance",
+      "Black folklore",
+      "Zora Neale Hurston"
+    ]
+  }
+}
