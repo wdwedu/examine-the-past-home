@@ -1,10 +1,10 @@
 # Examine the Past - Final Structural QA
 
 ## Summary
-- HTML pages: 191
-- Links checked: 786
-- Errors: 1016
-- Warnings: 32
+- HTML pages: 196
+- Links checked: 789
+- Errors: 1025
+- Warnings: 24
 
 ## Errors
 - **missing_fragment** - `{'type': 'missing_fragment', 'page': 'index.html', 'href': '#current-events', 'target': 'index.html', 'fragment': 'current-events'}`
@@ -13,17 +13,24 @@
 - **missing_asset** - `{'type': 'missing_asset', 'page': 'index.html', 'src': 'assets/home-expansion.js?v=41', 'resolved': 'assets/home-expansion.js?v=41'}`
 - **missing_asset** - `{'type': 'missing_asset', 'page': 'index.html', 'src': 'assets/home-expansion.css?v=41', 'resolved': 'assets/home-expansion.css?v=41'}`
 - **missing_asset** - `{'type': 'missing_asset', 'page': 'index.html', 'src': 'assets/etp-transitions.css?v=41', 'resolved': 'assets/etp-transitions.css?v=41'}`
+- **missing_asset** - `{'type': 'missing_asset', 'page': 'faq/index.html', 'src': '../assets/site-shell.js?v=46', 'resolved': 'assets/site-shell.js?v=46'}`
+- **missing_asset** - `{'type': 'missing_asset', 'page': 'faq/index.html', 'src': '../assets/site-shell.css?v=46', 'resolved': 'assets/site-shell.css?v=46'}`
 - **missing_asset** - `{'type': 'missing_asset', 'page': 'shop/index.html', 'src': '../assets/site-shell.js?v=42', 'resolved': 'assets/site-shell.js?v=42'}`
 - **missing_asset** - `{'type': 'missing_asset', 'page': 'shop/index.html', 'src': '../assets/site-shell.css?v=42', 'resolved': 'assets/site-shell.css?v=42'}`
 - **missing_asset** - `{'type': 'missing_asset', 'page': 'today/index.html', 'src': '../assets/site-shell.js?v=42', 'resolved': 'assets/site-shell.js?v=42'}`
 - **missing_asset** - `{'type': 'missing_asset', 'page': 'today/index.html', 'src': '../assets/site-shell.css?v=42', 'resolved': 'assets/site-shell.css?v=42'}`
 - **missing_asset** - `{'type': 'missing_asset', 'page': 'games/index.html', 'src': '/examine-the-past-home/games/assets/site-shell.js?v=42', 'resolved': 'games/assets/site-shell.js?v=42'}`
 - **missing_asset** - `{'type': 'missing_asset', 'page': 'games/index.html', 'src': '/examine-the-past-home/games/assets/site-shell.css?v=42', 'resolved': 'games/assets/site-shell.css?v=42'}`
-- **broken_internal_link** - `{'type': 'broken_internal_link', 'page': 'maps/index.html', 'href': '../games/map-quest/', 'resolved': 'games/map-quest/index.html'}`
 - **missing_asset** - `{'type': 'missing_asset', 'page': 'maps/index.html', 'src': '../assets/site-shell.js?v=42', 'resolved': 'assets/site-shell.js?v=42'}`
 - **missing_asset** - `{'type': 'missing_asset', 'page': 'maps/index.html', 'src': '../assets/site-shell.css?v=42', 'resolved': 'assets/site-shell.css?v=42'}`
+- **missing_asset** - `{'type': 'missing_asset', 'page': 'careers/index.html', 'src': '../assets/site-shell.js?v=46', 'resolved': 'assets/site-shell.js?v=46'}`
+- **missing_asset** - `{'type': 'missing_asset', 'page': 'careers/index.html', 'src': '../assets/site-shell.css?v=46', 'resolved': 'assets/site-shell.css?v=46'}`
+- **missing_asset** - `{'type': 'missing_asset', 'page': 'current-events/index.html', 'src': '../assets/site-shell.js?v=46', 'resolved': 'assets/site-shell.js?v=46'}`
+- **missing_asset** - `{'type': 'missing_asset', 'page': 'current-events/index.html', 'src': '../assets/site-shell.css?v=46', 'resolved': 'assets/site-shell.css?v=46'}`
 - **missing_asset** - `{'type': 'missing_asset', 'page': 'lessons/index.html', 'src': '../assets/site-shell.js?v=44', 'resolved': 'assets/site-shell.js?v=44'}`
 - **missing_asset** - `{'type': 'missing_asset', 'page': 'lessons/index.html', 'src': '../assets/site-shell.css?v=44', 'resolved': 'assets/site-shell.css?v=44'}`
+- **missing_asset** - `{'type': 'missing_asset', 'page': 'licensing/index.html', 'src': '../assets/site-shell.js?v=46', 'resolved': 'assets/site-shell.js?v=46'}`
+- **missing_asset** - `{'type': 'missing_asset', 'page': 'licensing/index.html', 'src': '../assets/site-shell.css?v=46', 'resolved': 'assets/site-shell.css?v=46'}`
 - **missing_asset** - `{'type': 'missing_asset', 'page': 'timeline/index.html', 'src': '../assets/site-shell.js?v=42', 'resolved': 'assets/site-shell.js?v=42'}`
 - **missing_asset** - `{'type': 'missing_asset', 'page': 'timeline/index.html', 'src': '../assets/site-shell.css?v=42', 'resolved': 'assets/site-shell.css?v=42'}`
 - **missing_asset** - `{'type': 'missing_asset', 'page': 'teacher-tools/index.html', 'src': '../assets/site-shell.js?v=42', 'resolved': 'assets/site-shell.js?v=42'}`
@@ -709,6 +716,8 @@
 - **missing_asset** - `{'type': 'missing_asset', 'page': 'lessons/black-history-heroes/taharqa/index.html', 'src': '../../../assets/site-shell.css?v=44', 'resolved': 'assets/site-shell.css?v=44'}`
 - **missing_asset** - `{'type': 'missing_asset', 'page': 'lessons/black-history-heroes/taharqa/index.html', 'src': '../../../assets/lesson-template.css?v=44', 'resolved': 'assets/lesson-template.css?v=44'}`
 - **missing_asset** - `{'type': 'missing_asset', 'page': 'lessons/black-history-heroes/taharqa/index.html', 'src': '../../../assets/lesson-backgrounds.css?v=44', 'resolved': 'assets/lesson-backgrounds.css?v=44'}`
+- **missing_asset** - `{'type': 'missing_asset', 'page': 'games/map-quest/index.html', 'src': '../../assets/site-shell.js?v=46', 'resolved': 'assets/site-shell.js?v=46'}`
+- **missing_asset** - `{'type': 'missing_asset', 'page': 'games/map-quest/index.html', 'src': '../../assets/site-shell.css?v=46', 'resolved': 'assets/site-shell.css?v=46'}`
 - **broken_internal_link** - `{'type': 'broken_internal_link', 'page': 'games/assets/nav.html', 'href': '/examine-the-past-home/#top', 'resolved': '/index.html'}`
 - **broken_internal_link** - `{'type': 'broken_internal_link', 'page': 'games/assets/nav.html', 'href': '/examine-the-past-home/#about-us', 'resolved': '/index.html'}`
 - **broken_internal_link** - `{'type': 'broken_internal_link', 'page': 'games/assets/nav.html', 'href': '/examine-the-past-home/#us-history', 'resolved': '/index.html'}`
@@ -1025,14 +1034,6 @@
 - **missing_home_anchor** - `{'type': 'missing_home_anchor', 'page': 'index.html', 'fragment': 'licensing'}`
 
 ## Warnings
-- **placeholder_href** - `{'type': 'placeholder_href', 'page': 'shop/index.html', 'href': '#'}`
-- **placeholder_href** - `{'type': 'placeholder_href', 'page': 'today/index.html', 'href': '#'}`
-- **placeholder_href** - `{'type': 'placeholder_href', 'page': 'maps/index.html', 'href': '#'}`
-- **placeholder_href** - `{'type': 'placeholder_href', 'page': 'teacher-tools/movies-in-the-classroom/index.html', 'href': '#'}`
-- **missing_transition** - `{'type': 'missing_transition', 'page': 'lessons/black-history-heroes/index.html', 'href': 'queen-makeda/'}`
-- **missing_transition** - `{'type': 'missing_transition', 'page': 'lessons/black-history-heroes/index.html', 'href': 'piye/'}`
-- **missing_transition** - `{'type': 'missing_transition', 'page': 'lessons/black-history-heroes/index.html', 'href': 'taharqa/'}`
-- **missing_transition** - `{'type': 'missing_transition', 'page': 'lessons/black-history-heroes/index.html', 'href': 'sundiata/'}`
 - **missing_transition** - `{'type': 'missing_transition', 'page': 'lessons/world-religions/index.html', 'href': 'v0-start-here/'}`
 - **missing_transition** - `{'type': 'missing_transition', 'page': 'lessons/world-religions/index.html', 'href': 'v1-introduction/'}`
 - **missing_transition** - `{'type': 'missing_transition', 'page': 'lessons/world-religions/index.html', 'href': 'v2-african-origins/'}`
