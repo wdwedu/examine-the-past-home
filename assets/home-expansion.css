@@ -53,3 +53,11 @@ html{scroll-behavior:smooth}
   .etp-appetizer-card{background:linear-gradient(145deg,rgba(28,31,28,.98),rgba(12,14,12,.98));border-color:rgba(255,255,255,.12)}
 }
 @media(max-width:390px){.etp-home-mobile-grid,.etp-home-mobile-row{grid-template-columns:1fr}}
+
+/* Final homepage navigation lock: retire legacy homepage nav at every breakpoint */
+.site-nav.final-nav.etp-nav-vnext,
+.final-nav.etp-nav-vnext,
+.site-nav.etp-nav-vnext,
+nav.final-nav,
+nav.site-nav{display:none!important}
+.etp-home-mobile-shell{display:none!important}
