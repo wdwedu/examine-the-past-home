@@ -20,18 +20,18 @@
    mobileMenu.hidden=true;
    mobileMenu.innerHTML=`
      <div class="game-mobile-row"><a href="/examine-the-past-home/#top" target="_top">🏠 <b>Home</b></a><a href="/examine-the-past-home/#about-us" target="_top">ℹ️ <b>About</b></a></div>
-     <div class="game-mobile-heading">HISTORY HUB</div>
+     <div class="game-mobile-heading">History Hub</div>
      <div class="game-mobile-grid">
        <a href="/examine-the-past-home/#us-history" target="_top">🇺🇸 <b>U.S. History</b></a><a href="/examine-the-past-home/#world-history" target="_top">🌍 <b>World History</b></a>
        <a href="/examine-the-past-home/#civics-government" target="_top">🏛️ <b>Civics & Government</b></a><a href="/examine-the-past-home/#geography" target="_top">🗺️ <b>Geography</b></a>
        <a href="/examine-the-past-home/#black-history" target="_top">✊🏾 <b>Black History</b></a><a href="/examine-the-past-home/#world-religions" target="_top">🕊️ <b>World Religions</b></a>
      </div>
-     <div class="game-mobile-heading">EXPLORE</div>
+     <div class="game-mobile-heading">Explore</div>
      <div class="game-mobile-grid">
        <a href="/examine-the-past-home/#timeline" target="_top">⏳ <b>Timeline</b></a><a href="/examine-the-past-home/#history-maps" target="_top">🗺️ <b>History Maps</b></a>
        <a href="/examine-the-past-home/#today-history" target="_top">📅 <b>Today in History</b></a><a href="/examine-the-past-home/games/" target="_top">🎮 <b>History Unlocked</b></a>
      </div>
-     <div class="game-mobile-heading">TEACHER TOOLS</div>
+     <div class="game-mobile-heading">Teacher Tools</div>
      <div class="game-mobile-grid">
        <a href="/examine-the-past-home/#blooms-taxonomy" target="_top">🧠 <b>Bloom's Taxonomy</b></a><a href="/examine-the-past-home/#movies-classroom" target="_top">🎬 <b>Movies</b></a>
        <a href="/examine-the-past-home/#classroom-management" target="_top">🏫 <b>Classroom Management</b></a><a href="/examine-the-past-home/#learner-supports" target="_top">👥 <b>Learner Supports</b></a>

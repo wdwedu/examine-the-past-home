@@ -62,3 +62,89 @@
 @media(max-width:390px){
   .etp-mobile-grid,.etp-mobile-group{grid-template-columns:1fr}
 }
+
+/* ETP aesthetic navigation + typography lock v49 */
+body h1,
+body h2,
+body h3,
+body .hero h1,
+body .hero h2,
+body .card h2,
+body .collection-card h2,
+body .featured-lesson h2,
+body .etp-appetizer h2,
+body .section-title,
+body .hero-title,
+body .page-title,
+body .resource-title{
+  font-family:Georgia,"Times New Roman",serif!important;
+}
+
+@media(max-width:759px){
+  #etpSiteHeader{
+    position:sticky!important;
+    top:0!important;
+    z-index:2147483000!important;
+    height:46px!important;
+    min-height:46px!important;
+    max-height:46px!important;
+    background:#000!important;
+    border-bottom:1px solid #242424!important;
+    box-shadow:0 5px 14px rgba(0,0,0,.28)!important;
+  }
+  #etpSiteHeader .etp-header-inner{
+    height:46px!important;
+    min-height:46px!important;
+    max-height:46px!important;
+    padding:0 9px!important;
+    display:flex!important;
+    align-items:center!important;
+    justify-content:flex-end!important;
+    overflow:visible!important;
+  }
+  #etpSiteHeader .etp-icon-nav{display:none!important}
+  #etpSiteHeader .etp-mobile-toggle{
+    order:50!important;
+    display:flex!important;
+    width:42px!important;
+    height:42px!important;
+    min-width:42px!important;
+    margin:2px 0 2px auto!important;
+    padding:0!important;
+    align-items:center!important;
+    justify-content:center!important;
+    flex-direction:column!important;
+    gap:5px!important;
+    background:transparent!important;
+    border:0!important;
+    border-radius:7px!important;
+  }
+  #etpSiteHeader .etp-mobile-toggle span{
+    width:25px!important;
+    height:2px!important;
+    background:#f7f7f2!important;
+  }
+  #etpSiteHeader .etp-mobile-panel{
+    top:100%!important;
+    left:0!important;
+    right:0!important;
+    max-height:calc(100vh - 46px)!important;
+    padding:10px 13px 15px!important;
+    background:linear-gradient(180deg,#0b0d0b,#050605 88%)!important;
+  }
+  #etpSiteHeader .etp-mobile-heading{
+    color:#fff200!important;
+    text-transform:none!important;
+    font-family:Georgia,"Times New Roman",serif!important;
+    font-size:.79rem!important;
+    line-height:1.15!important;
+    letter-spacing:.06em!important;
+    margin:11px 4px 7px!important;
+  }
+  #etpSiteHeader .etp-mobile-panel a b,
+  #etpSiteHeader .etp-mobile-sound b{
+    font-family:Georgia,"Times New Roman",serif!important;
+    font-size:.82rem!important;
+    text-transform:none!important;
+  }
+}

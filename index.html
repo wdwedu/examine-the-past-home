@@ -2075,7 +2075,31 @@ nav.site-nav{display:none!important}
   }
 }
 </style>
-<link rel="stylesheet" href="assets/site-shell.css?v=48">
+<link rel="stylesheet" href="assets/site-shell.css?v=49">
+
+
+<style id="etp-home-aesthetic-v49">
+/* Homepage typography + thin mobile header v49 */
+body h1,
+body h2,
+body h3,
+body .hero-title,
+body .section-title,
+body .page-title,
+body .resource-title,
+body [class*="headline"]{
+  font-family:Georgia,"Times New Roman",serif!important;
+}
+@media(max-width:759px){
+  #etpSiteHeader{
+    height:46px!important;
+    min-height:46px!important;
+    max-height:46px!important;
+    position:sticky!important;
+    top:0!important;
+  }
+}
+</style>
 
 </head>
 <body id="top">
@@ -2147,7 +2171,7 @@ nav.site-nav{display:none!important}
 <section class="experience" id="resource-vault">
 <div class="wrap">
 <div class="eyebrow">Interactive Learning + Teacher Tools</div>
-<h2 class="section-title impact">Resource Vault</h2>
+<h2 class="section-title impact">Teacher Tools</h2>
 <p class="section-copy">Choose a tool and move directly into the interactive resources already built across Examine the Past.</p>
 <div class="experience-grid">
 <a class="exp-card tone-red" href="https://www.examinethepast.com/on-this-day-in-history" rel="noopener" target="_blank"><div class="exp-icon">DATE</div><h3>On This Day in History</h3><p>Choose a date and travel through major events, people, turning points, and stories connected to that day.</p></a>
@@ -2327,7 +2351,7 @@ nav.site-nav{display:none!important}
 
 <section class="etp-appetizer" id="history-unlocked"><div class="etp-appetizer-inner"><div><div class="etp-appetizer-kicker">Interactive Games</div><h2>🎮 History Unlocked</h2><p>Turn historical thinking into challenges, mysteries, maps, source analysis, chronology, and immersive games.</p><div class="etp-appetizer-actions"><a class="etp-appetizer-btn" href="games/" data-etp-transition="time">Enter History Unlocked</a></div></div><div class="etp-appetizer-card"><h3>Learn by doing</h3><ul class="etp-appetizer-list"><li>Time Rush and Map Quest</li><li>Case Files and Source Lab</li><li>Escape and Build the Past experiences</li></ul></div></div></section>
 
-<section class="etp-appetizer" id="teacher-tools"><div class="etp-appetizer-inner"><div><div class="etp-appetizer-kicker">Educator Resources</div><h2>🧰 Teacher Tools</h2><p>Move beyond the old Resource Vault into a connected educator section with practical instructional tools and professional resources.</p><div class="etp-teacher-grid">
+<section class="etp-appetizer" id="teacher-tools"><div class="etp-appetizer-inner"><div><div class="etp-appetizer-kicker">Educator Resources</div><h2>🧰 Teacher Tools</h2><p>Move beyond the old Teacher Tools into a connected educator section with practical instructional tools and professional resources.</p><div class="etp-teacher-grid">
 <a id="blooms-taxonomy" href="teacher-tools/blooms-taxonomy/" data-etp-transition="shutter"><strong>🧠 Bloom's Taxonomy</strong><span>Questioning, objectives, and cognitive demand.</span></a>
 <a id="movies-classroom" href="teacher-tools/movies-in-the-classroom/" data-etp-transition="film"><strong>🎬 Movies in the Classroom</strong><span>Use film intentionally in instruction.</span></a>
 <a id="classroom-management" href="teacher-tools/classroom-management/" data-etp-transition="page"><strong>🏫 Classroom Management</strong><span>Practical systems for organized learning.</span></a>
@@ -2793,6 +2817,6 @@ if(contactForm){
 })();
 </script><script src="assets/etp-transitions.js?v=41"></script>
 <script src="assets/home-expansion.js?v=41"></script>
-<script src="assets/site-shell.js?v=48" data-etp-root="./" data-no-footer="true"></script>
+<script src="assets/site-shell.js?v=49" data-etp-root="./" data-no-footer="true"></script>
 </body>
 </html>

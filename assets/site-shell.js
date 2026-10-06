@@ -37,7 +37,7 @@ mobilePanel.innerHTML=`
   <a href="${href('')}#top"><span>🏠</span><b>Home</b></a>
   <a href="${href('')}#about-us"><span>ℹ️</span><b>About</b></a>
 </div>
-<div class="etp-mobile-heading">HISTORY HUB</div>
+<div class="etp-mobile-heading">History Hub</div>
 <div class="etp-mobile-grid">
   <a href="${href('')}#us-history"><span>🇺🇸</span><b>U.S. History</b></a>
   <a href="${href('')}#world-history"><span>🌍</span><b>World History</b></a>
@@ -46,14 +46,14 @@ mobilePanel.innerHTML=`
   <a href="${href('')}#black-history"><span>✊🏾</span><b>Black History</b></a>
   <a href="${href('')}#world-religions"><span>🕊️</span><b>World Religions</b></a>
 </div>
-<div class="etp-mobile-heading">EXPLORE</div>
+<div class="etp-mobile-heading">Explore</div>
 <div class="etp-mobile-grid">
   <a href="${href('')}#timeline"><span>⏳</span><b>Timeline</b></a>
   <a href="${href('')}#history-maps"><span>🗺️</span><b>History Maps</b></a>
   <a href="${href('')}#today-history"><span>📅</span><b>Today in History</b></a>
   <a href="${href('')}#history-unlocked"><span>🎮</span><b>History Unlocked</b></a>
 </div>
-<div class="etp-mobile-heading">TEACHER TOOLS</div>
+<div class="etp-mobile-heading">Teacher Tools</div>
 <div class="etp-mobile-grid">
   <a href="${href('')}#blooms-taxonomy"><span>🧠</span><b>Bloom's Taxonomy</b></a>
   <a href="${href('')}#movies-classroom"><span>🎬</span><b>Movies in the Classroom</b></a>
@@ -99,7 +99,7 @@ const footer=document.createElement('footer');footer.id='etpSiteFooter';footer.i
   <a href="${href('lessons/')}">All Lessons</a>
 </div>
 <div>
-  <div class="etp-footer-title">EXPLORE</div>
+  <div class="etp-footer-title">Explore</div>
   <a href="${href('timeline/')}">Interactive Timeline</a>
   <a href="${href('maps/')}">History Maps</a>
   <a href="${href('today/')}">Today in History</a>
@@ -109,7 +109,7 @@ const footer=document.createElement('footer');footer.id='etpSiteFooter';footer.i
   <a href="${href('shop/')}">Explore Hidden Treasures</a>
 </div>
 <div>
-  <div class="etp-footer-title">TEACHER TOOLS</div>
+  <div class="etp-footer-title">Teacher Tools</div>
   <a href="${href('teacher-tools/blooms-taxonomy/')}">Bloom's Taxonomy</a>
   <a href="${href('teacher-tools/classroom-management/')}">Classroom Management</a>
   <a href="${href('teacher-tools/movies-in-the-classroom/')}">Movies in the Classroom</a>
