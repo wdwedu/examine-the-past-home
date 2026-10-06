@@ -1,0 +1,89 @@
+/* Examine the Past — fixed subject lesson backgrounds */
+body.lesson-subject-bg{
+  --lesson-bg:url("backgrounds/world-history.webp");
+  --lesson-bg-opacity:1;
+  position:relative;
+  background:#060806;
+  isolation:isolate;
+}
+body.lesson-subject-bg::before{
+  content:"";
+  position:fixed;
+  z-index:-3;
+  inset:72px 0 0;
+  background-image:var(--lesson-bg);
+  background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
+  opacity:var(--lesson-bg-opacity);
+  pointer-events:none;
+  transform:translateZ(0);
+}
+body.lesson-subject-bg::after{
+  content:"";
+  position:fixed;
+  z-index:-2;
+  inset:72px 0 0;
+  background:
+    linear-gradient(90deg,
+      rgba(0,0,0,.05) 0%,
+      rgba(0,0,0,.20) 13%,
+      rgba(0,0,0,.58) 27%,
+      rgba(4,8,5,.82) 38%,
+      rgba(4,8,5,.90) 50%,
+      rgba(4,8,5,.82) 62%,
+      rgba(0,0,0,.58) 73%,
+      rgba(0,0,0,.20) 87%,
+      rgba(0,0,0,.05) 100%),
+    linear-gradient(180deg,rgba(0,0,0,.20),transparent 16%,transparent 82%,rgba(0,0,0,.35));
+  pointer-events:none;
+}
+body.subject-us-history{--lesson-bg:url("backgrounds/us-history.webp")}
+body.subject-black-history{--lesson-bg:url("backgrounds/black-history.webp")}
+body.subject-world-history{--lesson-bg:url("backgrounds/world-history.webp")}
+/* Phase 1 fallback: these two use the global world-history visual until their dedicated approved files are committed. */
+body.subject-world-religions{--lesson-bg:url("backgrounds/world-history.webp")}
+body.subject-geography{--lesson-bg:url("backgrounds/world-history.webp")}
+body.subject-civics-government{--lesson-bg:url("backgrounds/us-history.webp")}
+
+body.lesson-subject-bg main.wrap{
+  position:relative;
+  z-index:1;
+}
+body.lesson-subject-bg .hero{
+  background:linear-gradient(180deg,rgba(7,9,7,.26),rgba(7,9,7,.08));
+  border-radius:0 0 22px 22px;
+}
+body.lesson-subject-bg .block,
+body.lesson-subject-bg .collection-card,
+body.lesson-subject-bg .featured-lesson,
+body.lesson-subject-bg .hub-note{
+  backdrop-filter:blur(3px);
+  -webkit-backdrop-filter:blur(3px);
+}
+body.lesson-subject-bg .block{
+  background:linear-gradient(150deg,rgba(23,29,23,.91),rgba(10,14,10,.93));
+}
+body.lesson-subject-bg .collection-card{
+  background:linear-gradient(145deg,rgba(23,26,23,.90),rgba(9,13,9,.93));
+}
+body.lesson-subject-bg .sidebar .toc{
+  background:rgba(7,10,7,.88);
+  backdrop-filter:blur(4px);
+}
+#etpSiteHeader,#etpSiteFooter{position:relative;z-index:20}
+#etpSiteHeader{position:sticky}
+@media(max-width:900px){
+  body.lesson-subject-bg::before{inset:72px 0 0;background-position:center top;opacity:.58}
+  body.lesson-subject-bg::after{
+    inset:72px 0 0;
+    background:rgba(3,6,3,.68);
+  }
+}
+@media(max-width:560px){
+  body.lesson-subject-bg::before{inset:62px 0 0;opacity:.42}
+  body.lesson-subject-bg::after{inset:62px 0 0;background:rgba(3,6,3,.76)}
+}
+@media(prefers-reduced-motion:reduce){
+  body.lesson-subject-bg::before{position:absolute}
+}
