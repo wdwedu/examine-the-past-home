@@ -14,7 +14,7 @@ class P(HTMLParser):
     def handle_starttag(self,tag,attrs):
         d=dict(attrs)
         if "id" in d: self.ids.add(d["id"])
-        if tag=="a" and "href" in d: self.links.append((d["href"],d.get("data-etp-transition")))
+        if tag=="a" and "href" in d: self.links.append((d["href"],d.get("data-etp-transition"),d.get("data-share")))
         if tag=="script" and "src" in d: self.scripts.append(d["src"])
         if tag=="link" and d.get("rel")=="stylesheet" and "href" in d: self.styles.append(d["href"])
 
@@ -37,6 +37,7 @@ def resolve(from_path,href):
     href=unquote(href)
     if href.startswith(BASE):
         rel=href[len(BASE):]
+        if rel=="": rel="index.html"
     elif href.startswith("/"):
         return "__OUTSIDE__",frag
     elif href=="":
@@ -54,9 +55,10 @@ for p in htmls:
         txt=p.read_text(encoding="utf-8",errors="ignore")
         if "site-shell.js" not in txt and "phase3-mini-lab-engine.js" not in txt:
             errors.append({"type":"missing_shell","page":key})
-    for href,tr in parser.links:
+    for href,tr,share in parser.links:
         stats["links_checked"]+=1
         if href=="#":
+            if share: continue
             stats["dead_placeholders"]+=1
             warnings.append({"type":"placeholder_href","page":key,"href":"#"})
             continue
