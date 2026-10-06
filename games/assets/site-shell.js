@@ -7,6 +7,52 @@
  }
  await Promise.all([inject("game-shell-nav","nav.html"),inject("game-shell-footer","footer.html")]);
 
+ const gameNav=document.querySelector("#game-shell-nav .icon-nav");
+ if(gameNav){
+   const mobileToggle=document.createElement("button");
+   mobileToggle.className="game-mobile-toggle";
+   mobileToggle.type="button";
+   mobileToggle.setAttribute("aria-label","Open navigation");
+   mobileToggle.setAttribute("aria-expanded","false");
+   mobileToggle.innerHTML="<span></span><span></span><span></span>";
+   const mobileMenu=document.createElement("div");
+   mobileMenu.className="game-mobile-menu";
+   mobileMenu.hidden=true;
+   mobileMenu.innerHTML=`
+     <div class="game-mobile-row"><a href="/examine-the-past-home/#top" target="_top">🏠 <b>Home</b></a><a href="/examine-the-past-home/#about-us" target="_top">ℹ️ <b>About</b></a></div>
+     <div class="game-mobile-heading">HISTORY HUB</div>
+     <div class="game-mobile-grid">
+       <a href="/examine-the-past-home/#us-history" target="_top">🇺🇸 <b>U.S. History</b></a><a href="/examine-the-past-home/#world-history" target="_top">🌍 <b>World History</b></a>
+       <a href="/examine-the-past-home/#civics-government" target="_top">🏛️ <b>Civics & Government</b></a><a href="/examine-the-past-home/#geography" target="_top">🗺️ <b>Geography</b></a>
+       <a href="/examine-the-past-home/#black-history" target="_top">✊🏾 <b>Black History</b></a><a href="/examine-the-past-home/#world-religions" target="_top">🕊️ <b>World Religions</b></a>
+     </div>
+     <div class="game-mobile-heading">EXPLORE</div>
+     <div class="game-mobile-grid">
+       <a href="/examine-the-past-home/#timeline" target="_top">⏳ <b>Timeline</b></a><a href="/examine-the-past-home/#history-maps" target="_top">🗺️ <b>History Maps</b></a>
+       <a href="/examine-the-past-home/#today-history" target="_top">📅 <b>Today in History</b></a><a href="/examine-the-past-home/games/" target="_top">🎮 <b>History Unlocked</b></a>
+     </div>
+     <div class="game-mobile-heading">TEACHER TOOLS</div>
+     <div class="game-mobile-grid">
+       <a href="/examine-the-past-home/#blooms-taxonomy" target="_top">🧠 <b>Bloom's Taxonomy</b></a><a href="/examine-the-past-home/#movies-classroom" target="_top">🎬 <b>Movies</b></a>
+       <a href="/examine-the-past-home/#classroom-management" target="_top">🏫 <b>Classroom Management</b></a><a href="/examine-the-past-home/#learner-supports" target="_top">👥 <b>Learner Supports</b></a>
+     </div>
+     <div class="game-mobile-row game-mobile-last">
+       <a href="/examine-the-past-home/#hidden-treasures" target="_top">🛍️ <b>Shop History</b></a><a href="/examine-the-past-home/#contact-section" target="_top">📧 <b>Contact Us</b></a>
+     </div>`;
+   gameNav.prepend(mobileToggle);
+   gameNav.appendChild(mobileMenu);
+   const closeMenu=()=>{mobileMenu.hidden=true;mobileToggle.classList.remove("open");mobileToggle.setAttribute("aria-expanded","false");mobileToggle.setAttribute("aria-label","Open navigation")};
+   mobileToggle.addEventListener("click",()=>{
+      const open=mobileMenu.hidden;
+      mobileMenu.hidden=!open;
+      mobileToggle.classList.toggle("open",open);
+      mobileToggle.setAttribute("aria-expanded",String(open));
+      mobileToggle.setAttribute("aria-label",open?"Close navigation":"Open navigation");
+   });
+   mobileMenu.querySelectorAll("a").forEach(a=>a.addEventListener("click",closeMenu));
+   document.addEventListener("keydown",e=>{if(e.key==="Escape")closeMenu()});
+ }
+
  document.querySelectorAll('a[href^="https://www.examinethepast.com"]').forEach(a=>{
    a.addEventListener("click",e=>{
      const href=a.href;if(!href)return;
