@@ -1,9 +1,11 @@
-/* Examine the Past — fixed subject lesson backgrounds */
+/* Examine the Past — lightweight SVG subject atmospheres */
 body.lesson-subject-bg{
-  --lesson-bg:url("backgrounds/world-history.webp");
-  --lesson-bg-opacity:1;
+  --lesson-theme:url("themes/world-history.svg");
   position:relative;
-  background:#060806;
+  background:
+    radial-gradient(circle at 18% 0%,rgba(148,255,83,.035),transparent 26rem),
+    radial-gradient(circle at 82% 6%,rgba(255,242,0,.03),transparent 24rem),
+    #060806;
   isolation:isolate;
 }
 body.lesson-subject-bg::before{
@@ -11,13 +13,14 @@ body.lesson-subject-bg::before{
   position:fixed;
   z-index:-3;
   inset:72px 0 0;
-  background-image:var(--lesson-bg);
+  background-image:var(--lesson-theme);
   background-size:cover;
   background-position:center center;
   background-repeat:no-repeat;
-  opacity:var(--lesson-bg-opacity);
+  opacity:.9;
   pointer-events:none;
   transform:translateZ(0);
+  animation:etpAmbientDrift 28s ease-in-out infinite alternate;
 }
 body.lesson-subject-bg::after{
   content:"";
@@ -26,63 +29,59 @@ body.lesson-subject-bg::after{
   inset:72px 0 0;
   background:
     linear-gradient(90deg,
-      rgba(0,0,0,.05) 0%,
-      rgba(0,0,0,.20) 13%,
-      rgba(0,0,0,.58) 27%,
-      rgba(4,8,5,.82) 38%,
-      rgba(4,8,5,.90) 50%,
-      rgba(4,8,5,.82) 62%,
-      rgba(0,0,0,.58) 73%,
-      rgba(0,0,0,.20) 87%,
-      rgba(0,0,0,.05) 100%),
-    linear-gradient(180deg,rgba(0,0,0,.20),transparent 16%,transparent 82%,rgba(0,0,0,.35));
+      rgba(2,5,2,.16) 0%,
+      rgba(2,5,2,.30) 16%,
+      rgba(3,7,3,.78) 34%,
+      rgba(3,7,3,.92) 50%,
+      rgba(3,7,3,.78) 66%,
+      rgba(2,5,2,.30) 84%,
+      rgba(2,5,2,.16) 100%);
   pointer-events:none;
 }
-body.subject-us-history{--lesson-bg:url("backgrounds/us-history.webp")}
-body.subject-black-history{--lesson-bg:url("backgrounds/black-history.webp")}
-body.subject-world-history{--lesson-bg:url("backgrounds/world-history.webp")}
-body.subject-world-religions{--lesson-bg:url("backgrounds/world-religions.webp")}
-body.subject-geography{--lesson-bg:url("backgrounds/geography.webp")}
-body.subject-civics-government{--lesson-bg:url("backgrounds/us-history.webp")}
+body.subject-us-history{--lesson-theme:url("themes/us-history.svg")}
+body.subject-world-history{--lesson-theme:url("themes/world-history.svg")}
+body.subject-black-history{--lesson-theme:url("themes/black-history.svg")}
+body.subject-world-religions{--lesson-theme:url("themes/world-religions.svg")}
+body.subject-geography{--lesson-theme:url("themes/geography.svg")}
+body.subject-civics-government{--lesson-theme:url("themes/civics-government.svg")}
 
-body.lesson-subject-bg main.wrap{
-  position:relative;
-  z-index:1;
-}
+body.lesson-subject-bg main.wrap{position:relative;z-index:1}
 body.lesson-subject-bg .hero{
-  background:linear-gradient(180deg,rgba(7,9,7,.26),rgba(7,9,7,.08));
+  background:linear-gradient(180deg,rgba(7,9,7,.20),rgba(7,9,7,.05));
   border-radius:0 0 22px 22px;
 }
 body.lesson-subject-bg .block,
 body.lesson-subject-bg .collection-card,
 body.lesson-subject-bg .featured-lesson,
 body.lesson-subject-bg .hub-note{
-  backdrop-filter:blur(3px);
-  -webkit-backdrop-filter:blur(3px);
+  backdrop-filter:blur(2px);
+  -webkit-backdrop-filter:blur(2px);
 }
 body.lesson-subject-bg .block{
-  background:linear-gradient(150deg,rgba(23,29,23,.91),rgba(10,14,10,.93));
+  background:linear-gradient(150deg,rgba(23,29,23,.92),rgba(10,14,10,.95));
 }
 body.lesson-subject-bg .collection-card{
-  background:linear-gradient(145deg,rgba(23,26,23,.90),rgba(9,13,9,.93));
+  background:linear-gradient(145deg,rgba(23,26,23,.91),rgba(9,13,9,.95));
 }
 body.lesson-subject-bg .sidebar .toc{
-  background:rgba(7,10,7,.88);
-  backdrop-filter:blur(4px);
+  background:rgba(7,10,7,.90);
+  backdrop-filter:blur(3px);
 }
 #etpSiteHeader,#etpSiteFooter{position:relative;z-index:20}
 #etpSiteHeader{position:sticky}
+
+@keyframes etpAmbientDrift{
+  0%{transform:translate3d(0,0,0) scale(1)}
+  100%{transform:translate3d(0,-10px,0) scale(1.012)}
+}
 @media(max-width:900px){
-  body.lesson-subject-bg::before{inset:72px 0 0;background-position:center top;opacity:.58}
-  body.lesson-subject-bg::after{
-    inset:72px 0 0;
-    background:rgba(3,6,3,.68);
-  }
+  body.lesson-subject-bg::before{inset:72px 0 0;background-size:auto 100%;opacity:.65}
+  body.lesson-subject-bg::after{inset:72px 0 0;background:rgba(3,6,3,.74)}
 }
 @media(max-width:560px){
-  body.lesson-subject-bg::before{inset:62px 0 0;opacity:.42}
-  body.lesson-subject-bg::after{inset:62px 0 0;background:rgba(3,6,3,.76)}
+  body.lesson-subject-bg::before{inset:62px 0 0;opacity:.46}
+  body.lesson-subject-bg::after{inset:62px 0 0;background:rgba(3,6,3,.80)}
 }
 @media(prefers-reduced-motion:reduce){
-  body.lesson-subject-bg::before{position:absolute}
+  body.lesson-subject-bg::before{animation:none}
 }
