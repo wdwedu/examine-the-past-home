@@ -1,0 +1,23 @@
+name: Navigation Aesthetic Cleanup
+on:
+  push:
+    paths:
+      - scripts/nav_aesthetic_request.txt
+permissions:
+  contents: write
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: python scripts/nav_aesthetic_cleanup_v49.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html assets games lessons teacher-tools timeline maps today shop faq licensing careers current-events copyright refund
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Refine navigation aesthetics and Georgia typography [skip ci]"
+          git push
