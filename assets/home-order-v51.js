@@ -4,7 +4,7 @@ const oldVault=id("resource-vault"),oldTeacher=id("teacher-tools"),oldShop=id("h
 [oldVault,oldTeacher,oldShop].forEach(n=>{if(n)n.hidden=true});
 document.querySelectorAll("section").forEach(sec=>{const t=(sec.textContent||"");if(t.includes("Teacher Packet PDF")&&t.includes("Open Complete Download Folder")){sec.classList.add("etp-free-resource-legacy");sec.hidden=true}});
 const tools=id("teacher-tools-v50"),testimonials=id("testimonials"),hub=id("history-hub-v50"),shops=id("shops"),about=id("about-us"),contact=id("contact-section");
-const hero=id("top")||q("section.hero")||q("main section")||q("body > section");
+const heroTitle=[...document.querySelectorAll("h1,h2")].find(n=>/EXAMINE THE PAST/i.test((n.textContent||"").trim()));const hero=(heroTitle&&heroTitle.closest("section"))||q("section.hero")||q("main section")||q("body > section");
 if(hero&&tools)hero.insertAdjacentElement("afterend",tools);
 if(tools&&testimonials)tools.insertAdjacentElement("afterend",testimonials);
 if(testimonials&&hub)testimonials.insertAdjacentElement("afterend",hub);
