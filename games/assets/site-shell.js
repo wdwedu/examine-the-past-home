@@ -1,5 +1,6 @@
 (async()=>{
- const SITE_ROOT=location.hostname.endsWith("github.io")?"/examine-the-past-home/":"/";\n const BASE=SITE_ROOT+"games/assets/";
+ const SITE_ROOT=location.hostname.endsWith("github.io")?"/examine-the-past-home/":"/";
+ const BASE=SITE_ROOT+"games/assets/";
  async function inject(id,file){
    const node=document.getElementById(id); if(!node)return;
    try{const r=await fetch(BASE+file,{cache:"no-store"});if(!r.ok)throw new Error(file);node.innerHTML=await r.text();}
@@ -53,7 +54,8 @@
       mobileToggle.setAttribute("aria-expanded",String(open));
       mobileToggle.setAttribute("aria-label",open?"Close navigation":"Open navigation");
    });
-   const mobileLast=mobileMenu.querySelector(".game-mobile-last");if(mobileLast){mobileLast.insertAdjacentHTML("beforeend",'<button class="game-mobile-action" type="button" data-etp-action="lights">💡 <b>Lights</b></button><button class="game-mobile-action" type="button" data-etp-action="jukebox">🎶 <b>History Jukebox</b></button>')}\n   mobileMenu.querySelectorAll("a").forEach(a=>a.addEventListener("click",closeMenu));
+   const mobileLast=mobileMenu.querySelector(".game-mobile-last");if(mobileLast){mobileLast.insertAdjacentHTML("beforeend",'<button class="game-mobile-action" type="button" data-etp-action="lights">💡 <b>Lights</b></button><button class="game-mobile-action" type="button" data-etp-action="jukebox">🎶 <b>History Jukebox</b></button>')}
+   mobileMenu.querySelectorAll("a").forEach(a=>a.addEventListener("click",closeMenu));
    document.addEventListener("keydown",e=>{if(e.key==="Escape")closeMenu()});
  }
 
