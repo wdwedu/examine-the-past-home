@@ -499,3 +499,7 @@ body h1,body h2,body h3,body .title,body .game-title,body .section-title{
     text-transform:none!important;
   }
 }
+
+/* v50 mobile action buttons */
+.game-mobile-action{min-height:47px;display:grid;grid-template-columns:31px 1fr;align-items:center;gap:7px;padding:7px 9px;border:1px solid rgba(255,255,255,.065);border-radius:10px;background:rgba(255,255,255,.025);color:#f7f7f2!important;text-align:left;font-family:Georgia,"Times New Roman",serif;font-weight:700;cursor:pointer}
+.game-mobile-action:hover,.game-mobile-action:focus-visible{border-color:rgba(255,242,0,.45);color:#fff200!important}
