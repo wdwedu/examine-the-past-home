@@ -1,0 +1,46 @@
+/* Examine the Past homepage organization v51 */
+body{background:#000!important}
+#resource-vault,#teacher-tools,#hidden-treasures{display:none!important}
+.etp-free-resource-legacy{display:none!important}
+#teacher-tools-v50,#history-hub-v50,#testimonials,#shops,#about-us,#contact-section{background:#000!important}
+#about-us .etp-about-copy{max-width:900px;margin:18px 0 0;color:#d7d9d4;font:1.04rem/1.75 Georgia,"Times New Roman",serif}
+#about-us .etp-about-copy p{margin:0 0 16px}
+#about-us .etp-about-values{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:22px}
+#about-us .etp-about-value{padding:17px;border:1px solid rgba(255,255,255,.09);border-radius:14px;background:linear-gradient(145deg,#111511,#080a08)}
+#about-us .etp-about-value strong{display:block;color:#fff200;font:700 1rem Georgia,serif;margin-bottom:5px}
+#about-us .etp-about-value span{color:#aeb5ae;font:.86rem/1.5 Georgia,serif}
+body.etp-lights-on #teacher-tools-v50,
+body.etp-lights-on #testimonials,
+body.etp-lights-on #history-hub-v50,
+body.etp-lights-on #shops,
+body.etp-lights-on #about-us,
+body.etp-lights-on #contact-section,
+body.etp-lights-on #etpSiteFooter{
+  background:#f2f0e8!important;color:#171914!important;
+}
+body.etp-lights-on #teacher-tools-v50 .etp-v50-copy,
+body.etp-lights-on #history-hub-v50 .etp-v50-copy,
+body.etp-lights-on #testimonials .section-copy,
+body.etp-lights-on #shops .section-copy,
+body.etp-lights-on #about-us p,
+body.etp-lights-on #contact-section p{color:#40443d!important}
+body.etp-lights-on #teacher-tools-v50 .etp-tool-card,
+body.etp-lights-on #history-hub-v50 .etp-hub-card,
+body.etp-lights-on #testimonials .testimonial-card,
+body.etp-lights-on #about-us .etp-about-value{
+  filter:none!important;background:#fffdf5!important;color:#171914!important;border-color:rgba(25,40,25,.16)!important;box-shadow:0 13px 30px rgba(35,40,32,.10)!important
+}
+body.etp-lights-on #teacher-tools-v50 .etp-tool-card h3,
+body.etp-lights-on #history-hub-v50 .etp-hub-card h3,
+body.etp-lights-on #about-us .etp-about-value strong{color:#6a5900!important}
+body.etp-lights-on #teacher-tools-v50 .etp-tool-card p,
+body.etp-lights-on #history-hub-v50 .etp-hub-card p,
+body.etp-lights-on #about-us .etp-about-value span{color:#4a4f48!important}
+body.etp-lights-on #etpSiteFooter a,
+body.etp-lights-on #etpSiteFooter .etp-legal-link,
+body.etp-lights-on #etpSiteFooter .etp-community-title{color:#1b1e1a!important}
+body.etp-lights-on #etpSiteFooter .etp-footer-title{color:#6a5900!important}
+body.etp-lights-on #contact-section input,
+body.etp-lights-on #contact-section textarea,
+body.etp-lights-on #contact-section select{background:#fff!important;color:#171914!important;border-color:#b5b9ad!important}
+@media(max-width:760px){#about-us .etp-about-values{grid-template-columns:1fr}}
