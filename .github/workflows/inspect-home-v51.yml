@@ -1,0 +1,22 @@
+name: Inspect Homepage V51 Structure
+on:
+  push:
+    paths:
+      - scripts/home_v51_inspect_request.txt
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: python scripts/inspect_home_v51.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit/home-v51-structure-inspect.json
+          git commit -m "Inspect homepage v51 section structure [skip ci]" || true
+          git push
