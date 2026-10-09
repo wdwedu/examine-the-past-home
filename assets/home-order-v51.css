@@ -44,3 +44,12 @@ body.etp-lights-on #contact-section input,
 body.etp-lights-on #contact-section textarea,
 body.etp-lights-on #contact-section select{background:#fff!important;color:#171914!important;border-color:#b5b9ad!important}
 @media(max-width:760px){#about-us .etp-about-values{grid-template-columns:1fr}}
+/* Preserve homepage hero in dark mode even when Lights are on */
+body.etp-lights-on #top,
+body.etp-lights-on section.hero,
+body.etp-lights-on .hero-section,
+body.etp-lights-on .hero,
+body.etp-lights-on [class*="hero"]:has(h1){background-color:#000!important;color:#fff!important}
+body.etp-lights-on #top h1,
+body.etp-lights-on section.hero h1,
+body.etp-lights-on .hero-section h1{color:#fff200!important}
