@@ -1,11 +1,15 @@
 (async()=>{
- const BASE="/examine-the-past-home/games/assets/";
+ const SITE_ROOT=location.hostname.endsWith("github.io")?"/examine-the-past-home/":"/";\n const BASE=SITE_ROOT+"games/assets/";
  async function inject(id,file){
    const node=document.getElementById(id); if(!node)return;
    try{const r=await fetch(BASE+file,{cache:"no-store"});if(!r.ok)throw new Error(file);node.innerHTML=await r.text();}
    catch(e){console.error("Shell load failed",file,e);}
  }
  await Promise.all([inject("game-shell-nav","nav.html"),inject("game-shell-footer","footer.html")]);
+ document.querySelectorAll('a[href^="/examine-the-past-home/"]').forEach(a=>{const raw=a.getAttribute("href");a.setAttribute("href",SITE_ROOT+raw.replace(/^\/examine-the-past-home\//,""))});
+ if(!document.querySelector('link[data-etp-game-experience]')){const l=document.createElement("link");l.rel="stylesheet";l.href=SITE_ROOT+"assets/etp-experience-v50.css?v=50";l.dataset.etpGameExperience="1";document.head.appendChild(l)}
+ if(!document.querySelector('script[data-etp-game-experience]')){const x=document.createElement("script");x.src=SITE_ROOT+"assets/etp-experience-v50.js?v=50";x.dataset.etpGameExperience="1";x.onload=()=>window.ETPExperience&&window.ETPExperience.enableReader();document.head.appendChild(x)}
+
 
  const gameNav=document.querySelector("#game-shell-nav .icon-nav");
  if(gameNav){
@@ -22,19 +26,19 @@
      <div class="game-mobile-row"><a href="/examine-the-past-home/#top" target="_top">🏠 <b>Home</b></a><a href="/examine-the-past-home/#about-us" target="_top">ℹ️ <b>About</b></a></div>
      <div class="game-mobile-heading">History Hub</div>
      <div class="game-mobile-grid">
-       <a href="/examine-the-past-home/#us-history" target="_top">🇺🇸 <b>U.S. History</b></a><a href="/examine-the-past-home/#world-history" target="_top">🌍 <b>World History</b></a>
-       <a href="/examine-the-past-home/#civics-government" target="_top">🏛️ <b>Civics & Government</b></a><a href="/examine-the-past-home/#geography" target="_top">🗺️ <b>Geography</b></a>
-       <a href="/examine-the-past-home/#black-history" target="_top">✊🏾 <b>Black History</b></a><a href="/examine-the-past-home/#world-religions" target="_top">🕊️ <b>World Religions</b></a>
+       <a href="/examine-the-past-home/lessons/us-history/" target="_top">🇺🇸 <b>U.S. History</b></a><a href="/examine-the-past-home/lessons/world-history/" target="_top">🌍 <b>World History</b></a>
+       <a href="/examine-the-past-home/lessons/civics-government/" target="_top">🏛️ <b>Civics & Government</b></a><a href="/examine-the-past-home/lessons/geography/" target="_top">🗺️ <b>Geography</b></a>
+       <a href="/examine-the-past-home/lessons/black-history/" target="_top">✊🏾 <b>Black History</b></a><a href="/examine-the-past-home/lessons/world-religions/" target="_top">🕊️ <b>World Religions</b></a>
      </div>
      <div class="game-mobile-heading">Explore</div>
      <div class="game-mobile-grid">
-       <a href="/examine-the-past-home/#timeline" target="_top">⏳ <b>Timeline</b></a><a href="/examine-the-past-home/#history-maps" target="_top">🗺️ <b>History Maps</b></a>
-       <a href="/examine-the-past-home/#today-history" target="_top">📅 <b>Today in History</b></a><a href="/examine-the-past-home/games/" target="_top">🎮 <b>History Unlocked</b></a>
+       <a href="/examine-the-past-home/timeline/" target="_top">⏳ <b>Timeline</b></a><a href="/examine-the-past-home/maps/" target="_top">🗺️ <b>History Maps</b></a>
+       <a href="/examine-the-past-home/today/" target="_top">📅 <b>Today in History</b></a><a href="/examine-the-past-home/games/" target="_top">🎮 <b>History Unlocked</b></a>
      </div>
      <div class="game-mobile-heading">Teacher Tools</div>
      <div class="game-mobile-grid">
-       <a href="/examine-the-past-home/#blooms-taxonomy" target="_top">🧠 <b>Bloom's Taxonomy</b></a><a href="/examine-the-past-home/#movies-classroom" target="_top">🎬 <b>Movies</b></a>
-       <a href="/examine-the-past-home/#classroom-management" target="_top">🏫 <b>Classroom Management</b></a><a href="/examine-the-past-home/#learner-supports" target="_top">👥 <b>Learner Supports</b></a>
+       <a href="/examine-the-past-home/teacher-tools/blooms-taxonomy/" target="_top">🧠 <b>Bloom's Taxonomy</b></a><a href="/examine-the-past-home/teacher-tools/movies-in-the-classroom/" target="_top">🎬 <b>Movies</b></a>
+       <a href="/examine-the-past-home/teacher-tools/classroom-management/" target="_top">🏫 <b>Classroom Management</b></a><a href="/examine-the-past-home/teacher-tools/learning-styles/" target="_top">👥 <b>Learner Supports</b></a>
      </div>
      <div class="game-mobile-row game-mobile-last">
        <a href="/examine-the-past-home/#hidden-treasures" target="_top">🛍️ <b>Shop History</b></a><a href="/examine-the-past-home/#contact-section" target="_top">📧 <b>Contact Us</b></a>
@@ -49,7 +53,7 @@
       mobileToggle.setAttribute("aria-expanded",String(open));
       mobileToggle.setAttribute("aria-label",open?"Close navigation":"Open navigation");
    });
-   mobileMenu.querySelectorAll("a").forEach(a=>a.addEventListener("click",closeMenu));
+   const mobileLast=mobileMenu.querySelector(".game-mobile-last");if(mobileLast){mobileLast.insertAdjacentHTML("beforeend",'<button class="game-mobile-action" type="button" data-etp-action="lights">💡 <b>Lights</b></button><button class="game-mobile-action" type="button" data-etp-action="jukebox">🎶 <b>History Jukebox</b></button>')}\n   mobileMenu.querySelectorAll("a").forEach(a=>a.addEventListener("click",closeMenu));
    document.addEventListener("keydown",e=>{if(e.key==="Escape")closeMenu()});
  }
 
