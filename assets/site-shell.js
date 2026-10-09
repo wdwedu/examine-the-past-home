@@ -1,181 +1,53 @@
-(()=>{if(document.getElementById('etpSiteHeader'))return;const s=document.currentScript;const root=s?.dataset?.etpRoot||'./';const href=p=>root+p;const noFooter=s?.dataset?.noFooter==='true';
-const header=document.createElement('header');header.id='etpSiteHeader';header.innerHTML=`
-<div class="etp-header-inner"><nav class="etp-icon-nav" aria-label="Site navigation">
-<div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#top">🏠</a><span class="etp-tip">Home</span></div>
-<div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#about-us">ℹ️</a><span class="etp-tip">About</span></div>
-
-<div class="etp-nav-item"><button class="etp-icon-btn" aria-label="History Hub">🎓</button><span class="etp-tip">History Hub</span><div class="etp-drop">
-<a href="${href('')}#us-history">🇺🇸 U.S. History</a><a href="${href('')}#world-history">🌍 World History</a><a href="${href('')}#civics-government">🏛️ Civics & Government</a><a href="${href('')}#geography">🗺️ Geography</a><a href="${href('')}#black-history">✊🏾 Black History</a><a href="${href('')}#world-religions">🕊️ World Religions</a>
-</div></div>
-
-<div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#timeline">⏳</a><span class="etp-tip">Timeline</span></div>
-<div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#history-maps">🗺️</a><span class="etp-tip">History Maps</span></div>
-<div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#today-history">📅</a><span class="etp-tip">Today in History</span></div>
-<div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#history-unlocked">🎮</a><span class="etp-tip">History Unlocked</span></div>
-
-<div class="etp-nav-item"><button class="etp-icon-btn" aria-label="Teacher Tools">🧰</button><span class="etp-tip">Teacher Tools</span><div class="etp-drop">
-<a href="${href('')}#blooms-taxonomy">🧠 Bloom's Taxonomy</a><a href="${href('')}#movies-classroom">🎬 Movies in the Classroom</a><a href="${href('')}#classroom-management">🏫 Classroom Management</a><a href="${href('')}#learner-supports">👥 Learner Supports</a>
-</div></div>
-
-<div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#hidden-treasures">🛍️</a><span class="etp-tip">Shop History</span></div>
-<div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#community">👥</a><span class="etp-tip">Community</span></div>
-<div class="etp-nav-item"><a class="etp-icon-btn" href="${href('')}#contact-section">📧</a><span class="etp-tip">Contact Us</span></div>
-<button class="etp-sound-btn" aria-label="Toggle sound" title="Sound">🔊</button>
-</nav></div>`;
+(()=>{if(document.getElementById("etpSiteHeader"))return;
+const cur=document.currentScript,root=cur&&cur.dataset&&cur.dataset.etpRoot?cur.dataset.etpRoot:"./",noFooter=cur&&cur.dataset&&cur.dataset.noFooter==="true";
+const u=p=>root+p;
+function loadCSS(href,key){if(document.querySelector('link[data-etp-load="'+key+'"]'))return;const l=document.createElement("link");l.rel="stylesheet";l.href=href;l.dataset.etpLoad=key;document.head.appendChild(l)}
+function loadJS(src,key){if(document.querySelector('script[data-etp-load="'+key+'"]'))return;const x=document.createElement("script");x.src=src;x.async=false;x.dataset.etpLoad=key;document.head.appendChild(x)}
+loadCSS(u("assets/etp-transitions.css?v=50"),"transitions-css");loadJS(u("assets/etp-transitions.js?v=50"),"transitions-js");
+loadCSS(u("assets/etp-experience-v50.css?v=50"),"experience-css");loadJS(u("assets/etp-experience-v50.js?v=50"),"experience-js");
+const header=document.createElement("header");header.id="etpSiteHeader";
+header.innerHTML='<div class="etp-header-inner"><nav class="etp-icon-nav" aria-label="Site navigation">'+
+'<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('')+'">🏠</a><span class="etp-tip">Home</span></div>'+
+'<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('')+'#about-us">ℹ️</a><span class="etp-tip">About</span></div>'+
+'<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('lessons/')+'" data-etp-transition="page">🎓</a><span class="etp-tip">History Hub</span></div>'+
+'<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('timeline/')+'" data-etp-transition="timeline">⏳</a><span class="etp-tip">Timeline</span></div>'+
+'<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('maps/')+'" data-etp-transition="map">🗺️</a><span class="etp-tip">History Maps</span></div>'+
+'<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('today/')+'" data-etp-transition="page">📅</a><span class="etp-tip">Today in History</span></div>'+
+'<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('games/')+'" data-etp-transition="time">🎮</a><span class="etp-tip">History Unlocked</span></div>'+
+'<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('teacher-tools/')+'" data-etp-transition="page">🧰</a><span class="etp-tip">Teacher Tools</span></div>'+
+'<div class="etp-nav-item"><a class="etp-icon-btn" href="https://www.etsy.com/shop/examinethepast">🛍️</a><span class="etp-tip">Shop History</span></div>'+
+'<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('')+'#community">👥</a><span class="etp-tip">Community</span></div>'+
+'<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('')+'#contact-section">📧</a><span class="etp-tip">Contact Us</span></div>'+
+'<div class="etp-nav-item"><button class="etp-icon-btn" type="button" data-etp-action="lights" aria-label="Toggle page lights">💡</button><span class="etp-tip">Lights</span></div>'+
+'<div class="etp-nav-item"><button class="etp-icon-btn" type="button" data-etp-action="jukebox" aria-label="Open History Jukebox">🎶</button><span class="etp-tip">History Jukebox</span></div>'+
+'</nav></div>';
 document.body.prepend(header);
-const mobileToggle=document.createElement('button');
-mobileToggle.className='etp-mobile-toggle';
-mobileToggle.type='button';
-mobileToggle.setAttribute('aria-label','Open navigation');
-mobileToggle.setAttribute('aria-expanded','false');
-mobileToggle.innerHTML='<span></span><span></span><span></span>';
-const mobilePanel=document.createElement('div');
-mobilePanel.className='etp-mobile-panel';
-mobilePanel.hidden=true;
-mobilePanel.innerHTML=`
-<div class="etp-mobile-group">
-  <a href="${href('')}#top"><span>🏠</span><b>Home</b></a>
-  <a href="${href('')}#about-us"><span>ℹ️</span><b>About</b></a>
-</div>
-<div class="etp-mobile-heading">History Hub</div>
-<div class="etp-mobile-grid">
-  <a href="${href('')}#us-history"><span>🇺🇸</span><b>U.S. History</b></a>
-  <a href="${href('')}#world-history"><span>🌍</span><b>World History</b></a>
-  <a href="${href('')}#civics-government"><span>🏛️</span><b>Civics & Government</b></a>
-  <a href="${href('')}#geography"><span>🗺️</span><b>Geography</b></a>
-  <a href="${href('')}#black-history"><span>✊🏾</span><b>Black History</b></a>
-  <a href="${href('')}#world-religions"><span>🕊️</span><b>World Religions</b></a>
-</div>
-<div class="etp-mobile-heading">Explore</div>
-<div class="etp-mobile-grid">
-  <a href="${href('')}#timeline"><span>⏳</span><b>Timeline</b></a>
-  <a href="${href('')}#history-maps"><span>🗺️</span><b>History Maps</b></a>
-  <a href="${href('')}#today-history"><span>📅</span><b>Today in History</b></a>
-  <a href="${href('')}#history-unlocked"><span>🎮</span><b>History Unlocked</b></a>
-</div>
-<div class="etp-mobile-heading">Teacher Tools</div>
-<div class="etp-mobile-grid">
-  <a href="${href('')}#blooms-taxonomy"><span>🧠</span><b>Bloom's Taxonomy</b></a>
-  <a href="${href('')}#movies-classroom"><span>🎬</span><b>Movies in the Classroom</b></a>
-  <a href="${href('')}#classroom-management"><span>🏫</span><b>Classroom Management</b></a>
-  <a href="${href('')}#learner-supports"><span>👥</span><b>Learner Supports</b></a>
-</div>
-<div class="etp-mobile-group etp-mobile-last">
-  <a href="${href('')}#hidden-treasures"><span>🛍️</span><b>Shop History</b></a>
-  <a href="${href('')}#community"><span>👥</span><b>Community</b></a>
-  <a href="${href('')}#contact-section"><span>📧</span><b>Contact Us</b></a>
-  <button class="etp-mobile-sound" type="button"><span>🔊</span><b>Sound</b></button>
-</div>`;
-header.querySelector('.etp-header-inner').prepend(mobileToggle);
-header.querySelector('.etp-header-inner').append(mobilePanel);
-function closeMobile(){
-  mobilePanel.hidden=true;
-  mobileToggle.classList.remove('open');
-  mobileToggle.setAttribute('aria-expanded','false');
-  mobileToggle.setAttribute('aria-label','Open navigation');
-}
-mobileToggle.addEventListener('click',()=>{
-  const willOpen=mobilePanel.hidden;
-  mobilePanel.hidden=!willOpen;
-  mobileToggle.classList.toggle('open',willOpen);
-  mobileToggle.setAttribute('aria-expanded',String(willOpen));
-  mobileToggle.setAttribute('aria-label',willOpen?'Close navigation':'Open navigation');
-});
-mobilePanel.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMobile));
-document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMobile()});
-
-
-if(!noFooter){
-const footer=document.createElement('footer');footer.id='etpSiteFooter';footer.innerHTML=`
-<div class="etp-footer-grid">
-<div>
-  <div class="etp-footer-title">LEARN</div>
-  <a href="${href('lessons/us-history/')}">U.S. History</a>
-  <a href="${href('lessons/world-history/')}">World History</a>
-  <a href="${href('lessons/civics-government/')}">Civics & Government</a>
-  <a href="${href('lessons/geography/')}">Geography</a>
-  <a href="${href('lessons/black-history/')}">Black History</a>
-  <a href="${href('lessons/world-religions/')}">World Religions</a>
-  <a href="${href('lessons/')}">All Lessons</a>
-</div>
-<div>
-  <div class="etp-footer-title">Explore</div>
-  <a href="${href('timeline/')}">Interactive Timeline</a>
-  <a href="${href('maps/')}">History Maps</a>
-  <a href="${href('today/')}">Today in History</a>
-  <a href="${href('games/')}">History Unlocked</a>
-  <a href="${href('current-events/')}">Current Events</a>
-  <a href="${href('teacher-tools/movies-in-the-classroom/')}">Historical Movies</a>
-  <a href="${href('shop/')}">Explore Hidden Treasures</a>
-</div>
-<div>
-  <div class="etp-footer-title">Teacher Tools</div>
-  <a href="${href('teacher-tools/blooms-taxonomy/')}">Bloom's Taxonomy</a>
-  <a href="${href('teacher-tools/classroom-management/')}">Classroom Management</a>
-  <a href="${href('teacher-tools/movies-in-the-classroom/')}">Movies in the Classroom</a>
-  <a href="${href('teacher-tools/learning-styles/')}">Learner Supports</a>
-  <a href="${href('teacher-tools/')}">Curriculum Design</a>
-  <a href="${href('teacher-tools/')}">AI in Education</a>
-  <a href="${href('faq/')}">FAQ</a>
-</div>
-<div>
-  <div class="etp-footer-title">LEGAL & SITE</div>
-  <button class="etp-legal-link" data-legal="affiliate">Affiliate Disclosure</button>
-  <a href="${href('careers/')}">Careers & Partnerships</a>
-  <a href="${href('licensing/')}">Resource Licensing</a>
-  <button class="etp-legal-link" data-legal="copyright">Copyright Policy</button>
-  <button class="etp-legal-link" data-legal="dmca">DMCA Notice</button>
-  <button class="etp-legal-link" data-legal="privacy">Privacy Policy</button>
-  <button class="etp-legal-link" data-legal="terms">Terms of Service</button>
-  <button class="etp-legal-link" data-legal="refund">Refund / Digital</button>
-  <button class="etp-legal-link" data-legal="cookies">Cookie Policy</button>
-  <a href="${href('')}#contact-section">Contact Us</a>
-</div>
-</div>
-<div class="etp-community-wrap" id="community">
-  <div class="etp-community-title">JOIN OUR COMMUNITY</div>
-  <div class="etp-community">
-    <a href="https://www.youtube.com/@ExamineThePast" target="_blank" rel="noopener" title="YouTube"><span class="brand-text etp-brand-youtube">▶</span></a>
-    <a href="${href('')}#community" title="Facebook"><img src="${href('games/assets/share-facebook.webp')}" alt="Facebook"></a>
-    <a href="${href('')}#community" title="Instagram"><img src="${href('games/assets/share-instagram.webp')}" alt="Instagram"></a>
-    <a href="${href('')}#community" title="X"><span class="brand-text etp-brand-x">𝕏</span></a>
-    <a href="${href('')}#community" title="Blogger"><span class="brand-text etp-brand-blogger">B</span></a>
-    <a href="${href('')}#community" title="Teachers Pay Teachers"><span class="brand-text etp-brand-tpt">T</span></a>
-    <a href="${href('')}#community" title="Redbubble"><span class="brand-text etp-brand-rb">RB</span></a>
-    <a href="${href('')}#community" title="Zazzle"><span class="brand-text etp-brand-z">Z</span></a>
-    <a href="${href('')}#community" title="Pinterest"><img src="${href('games/assets/share-pinterest.webp')}" alt="Pinterest"></a>
-    <a href="${href('')}#community" title="Etsy"><span class="brand-text etp-brand-etsy">E</span></a>
-  </div>
-</div>
-<div class="etp-footer-bottom">© 2026 Examine the Past. All Rights Reserved.</div>
-<div class="etp-legal-overlay" hidden aria-hidden="true">
-  <button class="etp-legal-backdrop" aria-label="Close legal notice"></button>
-  <article class="etp-legal-card" role="dialog" aria-modal="true">
-    <button class="etp-legal-close" aria-label="Close">×</button>
-    <div class="etp-legal-kicker">EXAMINE THE PAST</div>
-    <h2 class="etp-legal-title"></h2>
-    <div class="etp-legal-copy"></div>
-  </article>
-</div>`;
+const toggle=document.createElement("button");toggle.className="etp-mobile-toggle";toggle.type="button";toggle.setAttribute("aria-label","Open navigation");toggle.setAttribute("aria-expanded","false");toggle.innerHTML="<span></span><span></span><span></span>";
+const panel=document.createElement("div");panel.className="etp-mobile-panel";panel.hidden=true;
+panel.innerHTML='<div class="etp-mobile-group"><a href="'+u('')+'"><span>🏠</span><b>Home</b></a><a href="'+u('')+'#about-us"><span>ℹ️</span><b>About</b></a></div>'+
+'<div class="etp-mobile-heading">History Hub</div><div class="etp-mobile-grid"><a href="'+u('lessons/us-history/')+'" data-etp-transition="page"><span>🇺🇸</span><b>U.S. History</b></a><a href="'+u('lessons/world-history/')+'" data-etp-transition="globe"><span>🌍</span><b>World History</b></a><a href="'+u('lessons/civics-government/')+'" data-etp-transition="page"><span>🏛️</span><b>Civics & Government</b></a><a href="'+u('lessons/geography/')+'" data-etp-transition="map"><span>🗺️</span><b>Geography</b></a><a href="'+u('lessons/black-history/')+'" data-etp-transition="ink"><span>✊🏾</span><b>Black History</b></a><a href="'+u('lessons/world-religions/')+'" data-etp-transition="mosaic"><span>🕊️</span><b>World Religions</b></a></div>'+
+'<div class="etp-mobile-heading">Explore</div><div class="etp-mobile-grid"><a href="'+u('timeline/')+'" data-etp-transition="timeline"><span>⏳</span><b>Timeline</b></a><a href="'+u('maps/')+'" data-etp-transition="map"><span>🗺️</span><b>History Maps</b></a><a href="'+u('today/')+'" data-etp-transition="page"><span>📅</span><b>Today in History</b></a><a href="'+u('games/')+'" data-etp-transition="time"><span>🎮</span><b>History Unlocked</b></a></div>'+
+'<div class="etp-mobile-heading">Teacher Tools</div><div class="etp-mobile-grid"><a href="'+u('teacher-tools/blooms-taxonomy/')+'" data-etp-transition="page"><span>🧠</span><b>Bloom’s Taxonomy</b></a><a href="'+u('teacher-tools/movies-in-the-classroom/')+'" data-etp-transition="film"><span>🎬</span><b>Movies in the Classroom</b></a><a href="'+u('teacher-tools/classroom-management/')+'" data-etp-transition="page"><span>🏫</span><b>Classroom Management</b></a><a href="'+u('teacher-tools/learning-styles/')+'" data-etp-transition="page"><span>👥</span><b>Learner Supports</b></a></div>'+
+'<div class="etp-mobile-group etp-mobile-last"><a href="https://www.etsy.com/shop/examinethepast"><span>🛍️</span><b>Shop History</b></a><a href="'+u('')+'#community"><span>👥</span><b>Community</b></a><a href="'+u('')+'#contact-section"><span>📧</span><b>Contact Us</b></a><button class="etp-mobile-sound" type="button" data-etp-action="lights"><span>💡</span><b>Lights</b></button><button class="etp-mobile-sound" type="button" data-etp-action="jukebox"><span>🎶</span><b>History Jukebox</b></button></div>';
+header.querySelector(".etp-header-inner").prepend(toggle);header.querySelector(".etp-header-inner").append(panel);
+function closeMobile(){panel.hidden=true;toggle.classList.remove("open");toggle.setAttribute("aria-expanded","false");toggle.setAttribute("aria-label","Open navigation")}
+toggle.addEventListener("click",()=>{const open=panel.hidden;panel.hidden=!open;toggle.classList.toggle("open",open);toggle.setAttribute("aria-expanded",String(open));toggle.setAttribute("aria-label",open?"Close navigation":"Open navigation")});panel.querySelectorAll("a").forEach(a=>a.addEventListener("click",closeMobile));document.addEventListener("keydown",e=>{if(e.key==="Escape")closeMobile()});
+if(!noFooter){const footer=document.createElement("footer");footer.id="etpSiteFooter";
+footer.innerHTML='<div class="etp-footer-grid"><div><div class="etp-footer-title">Learn</div><a href="'+u('lessons/us-history/')+'">U.S. History</a><a href="'+u('lessons/world-history/')+'">World History</a><a href="'+u('lessons/civics-government/')+'">Civics & Government</a><a href="'+u('lessons/geography/')+'">Geography</a><a href="'+u('lessons/black-history/')+'">Black History</a><a href="'+u('lessons/world-religions/')+'">World Religions</a><a href="'+u('lessons/')+'">All Lessons</a></div>'+
+'<div><div class="etp-footer-title">Explore</div><a href="'+u('timeline/')+'">Interactive Timeline</a><a href="'+u('maps/')+'">History Maps</a><a href="'+u('today/')+'">Today in History</a><a href="'+u('games/')+'">History Unlocked</a><a href="'+u('current-events/')+'">Current Events</a><a href="https://www.etsy.com/shop/examinethepast">Shop History</a></div>'+
+'<div><div class="etp-footer-title">Teacher Tools</div><a href="'+u('teacher-tools/blooms-taxonomy/')+'">Bloom’s Taxonomy</a><a href="'+u('teacher-tools/classroom-management/')+'">Classroom Management</a><a href="'+u('teacher-tools/movies-in-the-classroom/')+'">Movies in the Classroom</a><a href="'+u('teacher-tools/learning-styles/')+'">Learner Supports</a><a href="'+u('teacher-tools/')+'">All Teacher Tools</a><a href="'+u('faq/')+'">FAQ</a></div>'+
+'<div><div class="etp-footer-title">Legal & Site</div><button class="etp-legal-link" data-legal="affiliate">Affiliate Disclosure</button><a href="'+u('careers/')+'">Careers & Partnerships</a><a href="'+u('licensing/')+'">Resource Licensing</a><button class="etp-legal-link" data-legal="copyright">Copyright Policy</button><button class="etp-legal-link" data-legal="dmca">DMCA Notice</button><button class="etp-legal-link" data-legal="privacy">Privacy Policy</button><button class="etp-legal-link" data-legal="terms">Terms of Service</button><button class="etp-legal-link" data-legal="refund">Refund / Digital</button><button class="etp-legal-link" data-legal="cookies">Cookie Policy</button><a href="'+u('')+'#contact-section">Contact Us</a></div></div>'+
+'<div class="etp-community-wrap" id="community"><div class="etp-community-title">JOIN OUR COMMUNITY</div><div class="etp-community">'+
+'<a href="https://www.youtube.com/@ExamineThePast" target="_blank" rel="noopener" title="YouTube"><span class="brand-text etp-brand-youtube">▶</span></a>'+
+'<a href="https://www.facebook.com/examinethepast" target="_blank" rel="noopener" title="Facebook"><img src="'+u('games/assets/share-facebook.webp')+'" alt="Facebook"></a>'+
+'<a href="https://www.instagram.com/examinethepast/" target="_blank" rel="noopener" title="Instagram"><img src="'+u('games/assets/share-instagram.webp')+'" alt="Instagram"></a>'+
+'<a href="https://www.teacherspayteachers.com/store/examine-the-past" target="_blank" rel="noopener" title="Teachers Pay Teachers"><span class="brand-text etp-brand-tpt">T</span></a>'+
+'<a href="https://www.redbubble.com/people/examinethepast/shop" target="_blank" rel="noopener" title="Redbubble"><span class="brand-text etp-brand-rb">RB</span></a>'+
+'<a href="https://www.zazzle.com/store/examine_the_past" target="_blank" rel="noopener" title="Zazzle"><span class="brand-text etp-brand-z">Z</span></a>'+
+'<a href="https://www.pinterest.com/examinethepast/" target="_blank" rel="noopener" title="Pinterest"><img src="'+u('games/assets/share-pinterest.webp')+'" alt="Pinterest"></a>'+
+'<a href="https://www.etsy.com/shop/examinethepast" target="_blank" rel="noopener" title="Etsy"><span class="brand-text etp-brand-etsy">E</span></a>'+
+'</div></div><div class="etp-footer-bottom">© 2026 Examine the Past. All Rights Reserved.</div><div class="etp-legal-overlay" hidden aria-hidden="true"><button class="etp-legal-backdrop" aria-label="Close legal notice"></button><article class="etp-legal-card" role="dialog" aria-modal="true"><button class="etp-legal-close" aria-label="Close">×</button><div class="etp-legal-kicker">EXAMINE THE PAST</div><h2 class="etp-legal-title"></h2><div class="etp-legal-copy"></div></article></div>';
 document.body.append(footer);
-
-header.querySelectorAll('.etp-nav-item>button').forEach(b=>b.addEventListener('click',e=>{e.stopPropagation();b.parentElement.classList.toggle('open')}));
-const snd=header.querySelector('.etp-sound-btn'),mobileSnd=header.querySelector('.etp-mobile-sound');let sound=true;
-function toggleSound(){sound=!sound;if(snd)snd.textContent=sound?'🔊':'🔇';if(mobileSnd)mobileSnd.querySelector('span').textContent=sound?'🔊':'🔇';window.ETPTransitions?.setSound(sound)}
-snd?.addEventListener('click',toggleSound);mobileSnd?.addEventListener('click',toggleSound);
-const legalContent={
-privacy:["Privacy Policy","Examine the Past respects your privacy. We may receive information you voluntarily provide through forms, accounts, purchases, or newsletter signups, along with limited technical information used to operate, secure, and improve the site. Third-party services may have their own privacy practices."],
-terms:["Terms of Service","By using Examine the Past, you agree to use the site and its educational resources lawfully. Original materials may not be copied, resold, republished, or redistributed except where a specific license permits it. Third-party materials remain the property of their respective owners."],
-affiliate:["Affiliate Disclosure","Examine the Past may participate in affiliate programs and may earn a commission from qualifying purchases made through selected links. Compensation does not determine our historical conclusions or instructional recommendations."],
-copyright:["Copyright Policy","Examine the Past respects intellectual-property rights. Original text, graphics, games, downloads, and other materials are protected by applicable law. Third-party and public-domain materials are identified where appropriate."],
-dmca:["DMCA Notice","Examine the Past responds to properly submitted copyright notices. A notice should identify the copyrighted work, the allegedly infringing material and its location, contact information, and the statements required by applicable law."],
-refund:["Refund / Digital Products","Digital products and downloads are generally treated according to the terms stated at purchase. If a file is defective, inaccessible, duplicated, or otherwise requires review, contact Examine the Past with the order details so the issue can be evaluated."],
-cookies:["Cookie Policy","Examine the Past and services used to operate the site may use cookies or similar technologies for essential functions, preferences, analytics, security, and embedded third-party services. Browser settings can be used to limit or remove cookies."]
-};
-const overlay=footer.querySelector('.etp-legal-overlay'),title=footer.querySelector('.etp-legal-title'),copy=footer.querySelector('.etp-legal-copy');
-function closeLegal(){overlay.hidden=true;overlay.setAttribute('aria-hidden','true');document.body.classList.remove('etp-legal-open')}
-footer.querySelectorAll('.etp-legal-link').forEach(b=>b.addEventListener('click',()=>{const d=legalContent[b.dataset.legal]||['Legal','Information will be added here.'];title.textContent=d[0];copy.textContent=d[1];overlay.hidden=false;overlay.setAttribute('aria-hidden','false');document.body.classList.add('etp-legal-open')}));
-footer.querySelector('.etp-legal-close')?.addEventListener('click',closeLegal);footer.querySelector('.etp-legal-backdrop')?.addEventListener('click',closeLegal);document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!overlay.hidden)closeLegal()});
-}
-
+const legal={privacy:["Privacy Policy","Examine the Past respects your privacy. Information voluntarily provided through forms, purchases, or newsletter signups may be used to operate and improve the site. Third-party services have their own privacy practices."],terms:["Terms of Service","Use Examine the Past and its educational resources lawfully. Original materials may not be copied, resold, republished, or redistributed except where a specific license permits it."],affiliate:["Affiliate Disclosure","Examine the Past may earn a commission from qualifying purchases made through selected affiliate links. Compensation does not determine historical conclusions or instructional recommendations."],copyright:["Copyright Policy","Original Examine the Past text, graphics, games, downloads, and other materials are protected by applicable law. Third-party and public-domain materials are identified where appropriate."],dmca:["DMCA Notice","Examine the Past responds to properly submitted copyright notices identifying the copyrighted work, allegedly infringing material, contact information, and statements required by applicable law."],refund:["Refund / Digital Products","Digital products are handled according to the terms stated at purchase and applicable marketplace policies. Contact Examine the Past with order details when a file is defective, inaccessible, or duplicated."],cookies:["Cookie Policy","Examine the Past and services used to operate the site may use cookies or similar technologies for essential functions, preferences, analytics, security, and embedded services."]};
+const overlay=footer.querySelector(".etp-legal-overlay"),title=footer.querySelector(".etp-legal-title"),copy=footer.querySelector(".etp-legal-copy");function closeLegal(){overlay.hidden=true;overlay.setAttribute("aria-hidden","true");document.body.classList.remove("etp-legal-open")}footer.querySelectorAll(".etp-legal-link").forEach(b=>b.addEventListener("click",()=>{const d=legal[b.dataset.legal]||["Legal","Information will be added here."];title.textContent=d[0];copy.textContent=d[1];overlay.hidden=false;overlay.setAttribute("aria-hidden","false");document.body.classList.add("etp-legal-open")}));footer.querySelector(".etp-legal-close").addEventListener("click",closeLegal);footer.querySelector(".etp-legal-backdrop").addEventListener("click",closeLegal);document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!overlay.hidden)closeLegal()})}
 })();
