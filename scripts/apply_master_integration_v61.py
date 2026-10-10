@@ -51,7 +51,8 @@ for p in ROOT.rglob("*.html"):
     reps=[
       (r'<a([^>]*data-share="facebook"[^>]*)href="#"',r'<a\1href="https://www.facebook.com/"'),
       (r'<a([^>]*data-share="pinterest"[^>]*)href="#"',r'<a\1href="https://www.pinterest.com/"'),
-      (r'<a([^>]*data-share="linkedin"[^>]*)href="#"',r'<a\1href="https://www.linkedin.com/"')
+      (r'<a([^>]*data-share="linkedin"[^>]*)href="#"',r'<a\1href="https://www.linkedin.com/"'),
+      (r'<a([^>]*data-share="x"[^>]*)href="#"',r'<a\1href="https://x.com/"')
     ]
     before=s
     for pat,repl in reps:
@@ -69,6 +70,14 @@ for sp in [Path("assets/site-shell.js"),Path("games/assets/site-shell.js")]:
     s=re.sub(r'etp-experience-v50\.css\?v=\d+','etp-experience-v50.css?v=61',s)
     s=re.sub(r'etp-experience-v50\.js\?v=\d+','etp-experience-v50.js?v=61',s)
     sp.write_text(s,encoding="utf-8")
+
+
+# Hard second pass: normalize every remaining site-shell cache reference.
+for p in ROOT.rglob("*.html"):
+    s=p.read_text(encoding="utf-8",errors="ignore")
+    s=re.sub(r'site-shell\.css\?v=\d+','site-shell.css?v=61',s)
+    s=re.sub(r'site-shell\.js\?v=\d+','site-shell.js?v=61',s)
+    p.write_text(s,encoding="utf-8")
 
 # Validation report (partials excluded from user-facing shell count).
 pages=[]
