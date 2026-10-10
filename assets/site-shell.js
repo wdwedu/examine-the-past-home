@@ -3,8 +3,8 @@ const cur=document.currentScript,root=cur&&cur.dataset&&cur.dataset.etpRoot?cur.
 const u=p=>root+p;
 function loadCSS(href,key){if(document.querySelector('link[data-etp-load="'+key+'"]'))return;const l=document.createElement("link");l.rel="stylesheet";l.href=href;l.dataset.etpLoad=key;document.head.appendChild(l)}
 function loadJS(src,key){if(document.querySelector('script[data-etp-load="'+key+'"]'))return;const x=document.createElement("script");x.src=src;x.async=false;x.dataset.etpLoad=key;document.head.appendChild(x)}
-loadCSS(u("assets/etp-transitions.css?v=52"),"transitions-css");loadJS(u("assets/etp-transitions.js?v=52"),"transitions-js");
-loadCSS(u("assets/etp-experience-v50.css?v=59"),"experience-css");loadJS(u("assets/etp-experience-v50.js?v=59"),"experience-js");
+loadCSS(u("assets/etp-transitions.css?v=61"),"transitions-css");loadJS(u("assets/etp-transitions.js?v=61"),"transitions-js");
+loadCSS(u("assets/etp-experience-v50.css?v=61"),"experience-css");loadJS(u("assets/etp-experience-v50.js?v=61"),"experience-js");
 const header=document.createElement("header");header.id="etpSiteHeader";
 header.innerHTML='<div class="etp-header-inner"><nav class="etp-icon-nav" aria-label="Site navigation">'+
 '<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('')+'">🏠</a><span class="etp-tip">Home</span></div>'+

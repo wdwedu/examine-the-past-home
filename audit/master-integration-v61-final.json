@@ -5,13 +5,7 @@
   "share_fallbacks_cleaned": 0,
   "absolute_preview_links_converted": 26,
   "missing_shell": [],
-  "stale_shell_versions": [
-    "games/time-rush/us-presidents/index.html",
-    "games/time-rush/world-wars/index.html",
-    "games/time-rush/inventions/index.html",
-    "games/time-rush/civil-rights/index.html",
-    "games/time-rush/revolutions/index.html"
-  ],
+  "stale_shell_versions": [],
   "placeholder_hrefs": [],
   "legacy_absolute_preview_urls": [],
   "added_shell_pages": [
