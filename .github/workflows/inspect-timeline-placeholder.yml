@@ -1,0 +1,22 @@
+name: Inspect Timeline Placeholder
+on:
+  push:
+    paths:
+      - scripts/timeline_placeholder_inspect_request.txt
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: python scripts/inspect_timeline_placeholder.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit/timeline-placeholder-context.txt
+          git commit -m "Inspect legacy Timeline placeholder link [skip ci]" || true
+          git push
