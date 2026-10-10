@@ -1,0 +1,42 @@
+{
+  "today/today-v62.js": [
+    {
+      "chunk": "file",
+      "ok": false,
+      "stderr": "cle>'}function paint(){const rows=filter===\"all\"?rowsCache:rowsCache.filter(r=>r.cats.includes(filter));results.innerHTML=rows.map(card).join(\"\");count.textContent=rows.length+\" event\"+(rows.length===1?\"\":\"s\");empty.hidden=rows.length!==0;heading.textContent=dateText(Number(monthSelect.value),Number(daySelect.value));label.textContent=\"Showing events for \"+dateText(Number(monthSelect.value),Number(daySelect.value))+\".\";history.replaceState(null,\"\",\"#\"+key(Number(monthSelect.value),Number(daySelect.value)))}async function travel(animated=false){const m=Number(monthSelect.value),d=Number(daySelect.value);if(animated)showFlash();calendarMonth=m-1;calendarYear=new Date().getFullYear();buildCalendar();const localRows=(local[key(m,d)]||[]).map(normalizeLocal);rowsCache=[...localRows];feedStatus.textContent=localRows.length?\"Loading broader historical feed\u2026\":\"Loading historical feed\u2026\";paint();try{const remote=await fetchWiki(m,d),ids=new Set(rowsCache.map(r=>r.year+\"|\"+r.title.toLowerCase()));remote.forEach(r=>{const id=r.year+\"|\"+r.title.toLowerCase();if(!ids.has(id)){ids.add(id);rowsCache.push(r)}});feedStatus.textContent=\"Examine the Past curated entries + Wikipedia historical feed\"}catch(e){feedStatus.textContent=\"Examine the Past curated entries \u2022 live feed unavailable\"}paint()}document.querySelectorAll(\".today-filter\").forEach(b=>b.addEventListener(\"click\",()=>{document.querySelectorAll(\".today-filter\").forEach(x=>x.classList.remove(\"active\"));b.classList.add(\"active\");filter=b.dataset.filter;if(window.ETPTransitions?.clickSound)window.ETPTransitions.clickSound(\"tap\");paint()}));monthSelect.addEventListener(\"change\",()=>{fillDays(Number(monthSelect.value),1);calendarMonth=Number(monthSelect.value)-1;buildCalendar()});daySelect.addEventListener(\"change\",buildCalendar);images.addEventListener(\"change\",paint);document.getElementById(\"travelBtn\").addEventListener(\"click\",()=>travel(true));document.getElementById(\"calendarPrev\").addEventListener(\"click\",()=>{calendarMonth--;if(calendarMonth<0){calendarMonth=11;calendarYear--}buildCalendar();if(window.ETPTransitions?.clickSound)window.ETPTransitions.clickSound(\"tap\")});document.getElementById(\"calendarNext\").addEventListener(\"click\",()=>{calendarMonth++;if(calendarMonth>11){calendarMonth=0;calendarYear++}buildCalendar();if(window.ETPTransitions?.clickSound)window.ETPTransitions.clickSound(\"tap\")});let initial=new Date();const h=location.hash.match(/^#(\\d{2})-(\\d{2})$/);if(h){const m=Number(h[1]),d=Number(h[2]);if(m>=1&&m<=12&&d>=1&&d<=maxDays(m))initial=new Date(initial.getFullYear(),m-1,d)}monthSelect.value=initial.getMonth()+1;fillDays(initial.getMonth()+1,initial.getDate());daySelect.value=initial.getDate();calendarMonth=initial.getMonth();calendarYear=initial.getFullYear();buildCalendar();travel(false)})();\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            \n\nSyntaxError: Unexpected token 'class'\n    at wrapSafe (node:internal/modules/cjs/loader:1464:18)\n    at checkSyntax (node:internal/main/check_syntax:78:3)\n\nNode.js v20.20.2\n"
+    }
+  ],
+  "assets/etp-transitions.js": [
+    {
+      "chunk": "file",
+      "ok": true,
+      "stderr": ""
+    }
+  ],
+  "assets/etp-experience-v50.js": [
+    {
+      "chunk": "file",
+      "ok": true,
+      "stderr": ""
+    }
+  ],
+  "assets/site-shell.js": [
+    {
+      "chunk": "file",
+      "ok": true,
+      "stderr": ""
+    }
+  ],
+  "maps/index.html": [
+    {
+      "chunk": "inline-2",
+      "ok": true,
+      "stderr": ""
+    },
+    {
+      "chunk": "inline-4",
+      "ok": true,
+      "stderr": ""
+    }
+  ]
+}
