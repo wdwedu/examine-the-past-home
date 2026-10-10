@@ -1,1 +1,94 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Today in History | Examine the Past</title><link rel="stylesheet" href="../assets/site-shell.css?v=52"><link rel="stylesheet" href="../assets/etp-section.css"><link rel="stylesheet" href="../assets/etp-transitions.css"></head><body><main class="wrap"><section class="hero"><div class="eyebrow">One Date • Many Connections</div><h1>Today in History</h1><p>A permanent home for the redesigned daily-history experience, connecting dates to lessons, maps, timelines, and related resources.</p></section><section class="grid"><article class="card"><span class="tag">Today • Migration Remaining</span><h2>Daily History</h2><p>The permanent route is established. The daily event feed/content still needs migration into the GitHub experience.</p><span class="btn" aria-disabled="true">Not Yet Live</span></article><a class="card" href="../timeline/" data-etp-transition="timeline"><span class="tag">Timeline</span><h2>Interactive Timeline</h2><p>Jump from today's events into broader chronology.</p><span class="btn">Open Timeline</span></a></section></main><script src="../assets/etp-transitions.js"></script><script src="../assets/site-shell.js?v=52" data-etp-root="../"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Today in History | Examine the Past</title>
+<meta name="description" content="Choose a date and explore important events, people, movements, discoveries, and turning points from history.">
+<link rel="stylesheet" href="../assets/site-shell.css?v=56">
+<link rel="stylesheet" href="../assets/etp-transitions.css?v=56">
+<link rel="stylesheet" href="today-v56.css?v=56">
+</head>
+<body>
+<main class="today-main">
+<section class="today-hero">
+  <div class="today-wrap">
+    <div class="today-kicker">One Date • Many Connections</div>
+    <h1>Today in History</h1>
+    <p>Choose a date and explore major events, movements, discoveries, people, and cultural turning points—then jump outward into the Timeline, History Maps, and related lesson collections.</p>
+  </div>
+</section>
+
+<section class="today-datebar">
+  <div class="today-wrap today-datebar-inner">
+    <button class="today-nav-btn" id="prevDay" type="button" aria-label="Previous day">←</button>
+    <div class="today-date-center">
+      <div class="today-current-label">Selected Date</div>
+      <h2 id="selectedDateLabel">October 10</h2>
+      <div class="today-date-controls">
+        <select id="monthSelect" aria-label="Select month"></select>
+        <select id="daySelect" aria-label="Select day"></select>
+        <button type="button" id="goToday">Today</button>
+      </div>
+    </div>
+    <button class="today-nav-btn" id="nextDay" type="button" aria-label="Next day">→</button>
+  </div>
+</section>
+
+<section class="today-wrap today-filter-row" aria-label="History categories">
+  <button class="today-filter active" data-filter="all">All</button>
+  <button class="today-filter" data-filter="us">U.S. History</button>
+  <button class="today-filter" data-filter="world">World History</button>
+  <button class="today-filter" data-filter="black">Black History</button>
+  <button class="today-filter" data-filter="civics">Civics & Government</button>
+  <button class="today-filter" data-filter="science">Science & Technology</button>
+  <button class="today-filter" data-filter="culture">Culture</button>
+</section>
+
+<section class="today-wrap today-feature" id="todayFeature">
+  <div class="today-feature-kicker">Featured Connection</div>
+  <div class="today-feature-card">
+    <div>
+      <div class="today-feature-year" id="featureYear">1967</div>
+      <h2 id="featureTitle">Outer Space Treaty enters into force</h2>
+      <p id="featureText">A major international agreement established principles for the peaceful exploration and use of outer space.</p>
+    </div>
+    <div class="today-feature-links" id="featureLinks"></div>
+  </div>
+</section>
+
+<section class="today-wrap today-results-section">
+  <div class="today-section-head">
+    <div>
+      <div class="today-kicker">Events on This Date</div>
+      <h2 id="resultsHeading">October 10</h2>
+    </div>
+    <div class="today-count" id="eventCount">0 events</div>
+  </div>
+  <div class="today-results" id="todayResults"></div>
+  <div class="today-empty" id="todayEmpty" hidden>
+    <h3>No curated events yet for this date.</h3>
+    <p>This first release focuses on a growing set of major historical dates. Use the previous/next buttons or choose another date while the collection expands.</p>
+  </div>
+</section>
+
+<section class="today-wrap today-connect">
+  <div class="today-section-head"><div><div class="today-kicker">Keep Exploring</div><h2>Connect the Date to the Bigger Story</h2></div></div>
+  <div class="today-connect-grid">
+    <a href="../timeline/" data-etp-transition="timeline"><span>⏳</span><h3>Interactive Timeline</h3><p>Place the event inside a longer chronology and compare what came before and after.</p></a>
+    <a href="../maps/" data-etp-transition="map"><span>🗺️</span><h3>History Maps</h3><p>Explore the places, routes, borders, terrain, and movement connected to historical change.</p></a>
+    <a href="../lessons/" data-etp-transition="page"><span>🎓</span><h3>History Hub</h3><p>Move from a date into full lessons, inquiry labs, source work, and subject collections.</p></a>
+  </div>
+</section>
+
+<section class="today-wrap today-note">
+  <h2>About This Collection</h2>
+  <p>Today in History is a curated educational collection. Dates are selected for historical significance and classroom usefulness rather than as a complete list of everything that happened on a given day. Entries will continue to expand over time.</p>
+</section>
+</main>
+<script src="../assets/etp-transitions.js?v=56"></script>
+<script src="today-data-v56.js?v=56"></script>
+<script src="today-v56.js?v=56"></script>
+<script src="../assets/site-shell.js?v=56" data-etp-root="../"></script>
+</body>
+</html>
