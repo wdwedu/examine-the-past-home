@@ -1,0 +1,1 @@
+# Learner Supports / Learning Styles Integration v58\n\n- Imported bytes: 13427020\n- Has universal header/footer shell: True\n- Source preserved as large self-contained application: True\n- Tool-local navigation remains inside the application and scrolls beneath the universal sticky header.\n- Permanent route: /teacher-tools/learning-styles/
