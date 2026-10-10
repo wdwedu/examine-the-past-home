@@ -12,14 +12,7 @@
     "games/time-rush/civil-rights/index.html",
     "games/time-rush/revolutions/index.html"
   ],
-  "placeholder_hrefs": [
-    "games/time-rush/index.html",
-    "games/time-rush/us-presidents/index.html",
-    "games/time-rush/world-wars/index.html",
-    "games/time-rush/inventions/index.html",
-    "games/time-rush/civil-rights/index.html",
-    "games/time-rush/revolutions/index.html"
-  ],
+  "placeholder_hrefs": [],
   "legacy_absolute_preview_urls": [],
   "added_shell_pages": [
     "lessons/social-studies-mini-labs/v7l2-supply-demand-and-markets/index.html",
