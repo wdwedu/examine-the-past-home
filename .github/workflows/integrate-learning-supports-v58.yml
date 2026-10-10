@@ -1,0 +1,40 @@
+name: Integrate Learner Supports V58
+on:
+  push:
+    paths:
+      - scripts/learning_supports_v58_request.txt
+permissions:
+  contents: write
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Import existing Learning Styles application
+        run: |
+          mkdir -p teacher-tools/learning-styles
+          curl -L --fail --retry 3 \
+            https://raw.githubusercontent.com/wdwedu/learning-styles/main/index.html \
+            -o teacher-tools/learning-styles/index.html
+      - name: Apply universal Examine the Past shell
+        run: python scripts/integrate_learning_supports_v58.py
+      - name: Validate imported application
+        run: |
+          test -s teacher-tools/learning-styles/index.html
+          grep -q "site-shell.js?v=58" teacher-tools/learning-styles/index.html
+          python - <<'PY'
+          from pathlib import Path
+          p=Path("teacher-tools/learning-styles/index.html")
+          print("learning-styles bytes:",p.stat().st_size)
+          assert p.stat().st_size > 12000000, "Learning Styles import unexpectedly small"
+          PY
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add teacher-tools/learning-styles/index.html audit/learning-styles-v58.md
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Integrate Learner Supports into universal shell v58 [skip ci]"
+          git push
