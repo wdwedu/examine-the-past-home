@@ -186,3 +186,14 @@ html,body{background:#000}
 .etp-community-logos a{display:grid!important;place-items:center!important;width:40px!important;height:40px!important;border-radius:50%!important;background:#070707!important;border:1px solid rgba(255,255,255,.09)!important;transition:.18s ease!important}
 .etp-community-logos a:hover{transform:translateY(-4px) scale(1.06)!important;border-color:rgba(255,242,0,.38)!important;box-shadow:0 8px 22px rgba(0,0,0,.38)!important}
 .etp-community-logos img{width:30px!important;height:30px!important;object-fit:contain!important;display:block!important}
+
+/* Animated History Jukebox sound bars v59 */
+.etp-sound-bars{display:inline-flex;align-items:flex-end;justify-content:center;gap:2px;width:24px;height:22px;vertical-align:middle}
+.etp-sound-bars i{display:block;width:3px;border-radius:2px;background:#94ff53;box-shadow:0 0 6px rgba(148,255,83,.55);animation:etpSoundBar 2.4s ease-in-out infinite}
+.etp-sound-bars i:nth-child(1){height:8px;animation-delay:0s}
+.etp-sound-bars i:nth-child(2){height:15px;animation-delay:.25s}
+.etp-sound-bars i:nth-child(3){height:11px;animation-delay:.5s}
+.etp-sound-bars i:nth-child(4){height:18px;animation-delay:.75s}
+.etp-sound-bars i:nth-child(5){height:9px;animation-delay:1s}
+@keyframes etpSoundBar{0%,100%{transform:scaleY(.7);opacity:.75}50%{transform:scaleY(1.12);opacity:1}}
+@media(prefers-reduced-motion:reduce){.etp-sound-bars i{animation:none}}
