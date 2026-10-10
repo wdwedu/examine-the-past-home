@@ -49,3 +49,8 @@ body>#etpSiteFooter+*{background:#000!important}
 .etp-track-meta strong{display:block;color:#f6f6ee;font:700 .82rem/1.2 Georgia,serif}.etp-track-meta span{display:block;color:#969d96;font:.7rem/1.3 Georgia,serif;margin-top:2px}
 @media(max-width:900px){#teacher-tools-v50 .etp-tools-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:600px){:root{--etp-home-width:min(94vw,1180px)}.etp-main-hero-title{font-size:clamp(2.8rem,12.5vw,4.5rem)!important}.etp-genre-grid{grid-template-columns:1fr 1fr!important}.etp-track-list{grid-template-columns:1fr;max-height:300px}#teacher-tools-v50 .etp-tool-card,#history-hub-v50 .etp-hub-card{min-height:175px}}
+/* About width correction v53 */
+#about-us .etp-appetizer-inner,
+#about-us .etp-appetizer-inner>div,
+#about-us .etp-about-copy{width:var(--etp-home-width)!important;max-width:none!important;margin-left:auto!important;margin-right:auto!important}
+#about-us .etp-appetizer-inner>div{padding-left:0!important;padding-right:0!important}
