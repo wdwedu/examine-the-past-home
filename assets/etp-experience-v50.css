@@ -110,3 +110,21 @@ body.etp-lights-on #etpSiteFooter .etp-footer-title{color:#fff200!important}
  .etp-jukebox-bottom{align-items:stretch!important}
  .etp-sfx-toggle{align-self:flex-end;margin-left:auto}
 }
+
+/* v59 Lights mode text lock */
+body.etp-lights-on main,
+body.etp-lights-on main p,
+body.etp-lights-on main li,
+body.etp-lights-on main label,
+body.etp-lights-on main span:not(.tag):not(.eyebrow),
+body.etp-lights-on #teacher-tools-v50 .etp-tool-card p,
+body.etp-lights-on #history-hub-v50 .etp-hub-card p,
+body.etp-lights-on #about-us p,
+body.etp-lights-on #about-us .etp-about-value span,
+body.etp-lights-on .maps-main p,
+body.etp-lights-on .today-main p,
+body.etp-lights-on .today-card p,
+body.etp-lights-on .maps-card p{color:#f6f6f0!important}
+body.etp-lights-on main h1,
+body.etp-lights-on main h2,
+body.etp-lights-on main h3{color:#fff200!important}
