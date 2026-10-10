@@ -1,0 +1,40 @@
+name: Integrate Interactive Timeline V54
+on:
+  push:
+    paths:
+      - scripts/timeline_v54_request.txt
+permissions:
+  contents: write
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Import existing production timeline
+        run: |
+          mkdir -p timeline
+          curl -L --fail --retry 3 \
+            https://raw.githubusercontent.com/wdwedu/interactive-timeline/main/index.html \
+            -o timeline/index.html
+      - name: Apply universal Examine the Past shell
+        run: python scripts/integrate_timeline_v54.py
+      - name: Sanity check imported timeline
+        run: |
+          test -s timeline/index.html
+          grep -q "site-shell.js?v=54" timeline/index.html
+          python - <<'PY'
+          from pathlib import Path
+          p=Path("timeline/index.html")
+          print("timeline bytes:",p.stat().st_size)
+          assert p.stat().st_size > 10000000, "Timeline import unexpectedly small"
+          PY
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add timeline/index.html
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Integrate production Interactive Timeline into universal shell [skip ci]"
+          git push
