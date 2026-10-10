@@ -1,0 +1,985 @@
+{
+  "html_pages": 200,
+  "missing_shell": [
+    "lessons/social-studies-mini-labs/v7l2-supply-demand-and-markets/index.html",
+    "lessons/social-studies-mini-labs/v5l3-american-revolution-independence-and-government/index.html",
+    "lessons/social-studies-mini-labs/v7l1-scarcity-choice-and-opportunity-cost/index.html",
+    "lessons/social-studies-mini-labs/v5l5-industrial-revolution-and-social-change/index.html",
+    "lessons/social-studies-mini-labs/v4l5-comparing-government-systems/index.html",
+    "lessons/social-studies-mini-labs/v8l5-civic-life-capstone-evidence-deliberation-and-action/index.html",
+    "lessons/social-studies-mini-labs/v7l4-trade-globalization-and-interdependence/index.html",
+    "lessons/social-studies-mini-labs/v4l3-democracy-republics-and-representation/index.html",
+    "lessons/social-studies-mini-labs/v3l2-culture-belief-and-social-order/index.html",
+    "lessons/social-studies-mini-labs/v3l5-comparing-civilizations-patterns-and-differences/index.html",
+    "lessons/social-studies-mini-labs/v3l3-cities-trade-and-specialization/index.html",
+    "lessons/social-studies-mini-labs/v8l1-foundations-of-american-government/index.html",
+    "lessons/social-studies-mini-labs/v7l3-economic-systems-market-command-and-mixed/index.html",
+    "lessons/social-studies-mini-labs/v4l1-why-governments-form/index.html",
+    "lessons/social-studies-mini-labs/v5l4-french-and-haitian-revolutions/index.html",
+    "lessons/social-studies-mini-labs/v3l1-what-makes-a-civilization/index.html",
+    "lessons/social-studies-mini-labs/v7l5-personal-finance-public-policy-and-economic-decision-making/index.html",
+    "lessons/social-studies-mini-labs/v8l2-rights-liberties-and-responsibilities/index.html",
+    "lessons/social-studies-mini-labs/v6l2-cold-war-and-ideological-conflict/index.html",
+    "lessons/social-studies-mini-labs/v5l1-why-revolutions-begin/index.html",
+    "lessons/social-studies-mini-labs/v4l2-power-authority-and-legitimacy/index.html",
+    "lessons/social-studies-mini-labs/v8l3-elections-media-and-civic-participation/index.html",
+    "lessons/social-studies-mini-labs/v6l1-world-wars-and-global-shifts/index.html",
+    "lessons/social-studies-mini-labs/v6l5-modern-global-challenges/index.html",
+    "lessons/social-studies-mini-labs/v6l4-technology-and-global-connections/index.html",
+    "lessons/social-studies-mini-labs/v8l4-public-policy-and-local-action/index.html",
+    "lessons/social-studies-mini-labs/v3l4-empires-exchange-and-cultural-diffusion/index.html",
+    "lessons/social-studies-mini-labs/v5l2-enlightenment-ideas-and-political-change/index.html",
+    "lessons/social-studies-mini-labs/v6l3-decolonization-and-new-nations/index.html",
+    "lessons/social-studies-mini-labs/v4l4-rights-laws-and-citizenship/index.html",
+    "lessons/world-religions/v5l2-jesus-teachings-movement-and-tension/index.html",
+    "lessons/world-religions/v3l1-why-many-gods-systems-of-divine-roles/index.html",
+    "lessons/world-religions/v6l1-arabia-before-islam-society-trade-and-belief/index.html",
+    "lessons/world-religions/v7l2-empire-conversion-and-cultural-blending/index.html",
+    "lessons/world-religions/v6l5-sunni-and-shia-a-historical-split/index.html",
+    "lessons/world-religions/v4l1-origins-and-covenant-abraham-to-early-israel/index.html",
+    "lessons/world-religions/v4l5-judaism-under-empires-persian-to-roman-context/index.html",
+    "lessons/world-religions/v5l4-from-jewish-sect-to-gentile-faith/index.html",
+    "lessons/world-religions/v4l2-torah-law-and-ethical-living/index.html",
+    "lessons/world-religions/v8l5-dialogue-skills-disagreeing-with-respect/index.html",
+    "lessons/world-religions/v3l5-religion-and-power-in-ancient-states/index.html",
+    "lessons/world-religions/v4l4-exile-return-and-survival/index.html",
+    "lessons/world-religions/v3l2-mesopotamia-city-states-temples-and-priests/index.html",
+    "lessons/world-religions/v7l5-tolerance-pluralism-and-persecution/index.html",
+    "lessons/world-religions/v8l1-religious-freedom-and-the-american-framework/index.html",
+    "lessons/world-religions/v5l1-judea-under-rome-the-world-of-jesus/index.html",
+    "lessons/world-religions/v6l3-the-ummah-community-law-and-identity/index.html",
+    "lessons/world-religions/v8l2-christianity-in-america-diversity-and-influence/index.html",
+    "lessons/world-religions/v5l3-crucifixion-roman-authority-and-local-leadership/index.html",
+    "lessons/world-religions/v8l4-islam-in-america-community-and-misconceptions/index.html",
+    "lessons/world-religions/v7l4-the-crusades-as-a-case-study/index.html",
+    "lessons/world-religions/v6l4-expansion-and-caliphates/index.html",
+    "lessons/world-religions/v4l3-kingdom-temple-and-national-story/index.html",
+    "lessons/world-religions/v7l1-religion-and-state-power-basic-patterns/index.html",
+    "lessons/world-religions/v8l3-judaism-in-america-community-and-identity/index.html",
+    "lessons/world-religions/v6l2-muhammad-and-the-quran/index.html",
+    "lessons/world-religions/v7l3-conflict-when-politics-wears-a-religious-label/index.html",
+    "lessons/world-religions/v5l5-rome-and-the-rise-of-a-state-religion/index.html",
+    "lessons/world-religions/v3l3-egypt-divine-kingship-and-the-afterlife/index.html",
+    "lessons/world-religions/v3l4-greece-and-rome-myth-civic-life-and-empire/index.html",
+    "games/assets/nav.html",
+    "games/assets/footer.html"
+  ],
+  "old_shell_versions": [
+    {
+      "page": "index.html",
+      "version": "52"
+    },
+    {
+      "page": "faq/index.html",
+      "version": "52"
+    },
+    {
+      "page": "shop/index.html",
+      "version": "52"
+    },
+    {
+      "page": "today/index.html",
+      "version": "56"
+    },
+    {
+      "page": "games/index.html",
+      "version": "53"
+    },
+    {
+      "page": "maps/index.html",
+      "version": "55"
+    },
+    {
+      "page": "careers/index.html",
+      "version": "52"
+    },
+    {
+      "page": "current-events/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/index.html",
+      "version": "52"
+    },
+    {
+      "page": "licensing/index.html",
+      "version": "52"
+    },
+    {
+      "page": "copyright/index.html",
+      "version": "52"
+    },
+    {
+      "page": "refund/index.html",
+      "version": "52"
+    },
+    {
+      "page": "timeline/index.html",
+      "version": "54"
+    },
+    {
+      "page": "teacher-tools/index.html",
+      "version": "60"
+    },
+    {
+      "page": "teacher-tools/learning-styles/index.html",
+      "version": "58"
+    },
+    {
+      "page": "teacher-tools/blooms-taxonomy/index.html",
+      "version": "60"
+    },
+    {
+      "page": "teacher-tools/classroom-management/index.html",
+      "version": "57"
+    },
+    {
+      "page": "teacher-tools/ai-in-education/index.html",
+      "version": "60"
+    },
+    {
+      "page": "teacher-tools/curriculum-design/index.html",
+      "version": "60"
+    },
+    {
+      "page": "teacher-tools/movies-in-the-classroom/index.html",
+      "version": "59"
+    },
+    {
+      "page": "lessons/black-history-heroes/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/us-history/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-history/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/black-history/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-religions/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/master-template/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/social-studies-mini-labs/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/geography/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/civics-government/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/civics-government/checks-balances/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/geography/map-skills-spatial-thinking/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/geography/migration-push-pull/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/social-studies-mini-labs/v2l3-maps-power-perception/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/social-studies-mini-labs/v7-economics-and-global-systems/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/social-studies-mini-labs/v8-american-and-civic-life-capstone/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/social-studies-mini-labs/v2l2-physical-human-geography/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/social-studies-mini-labs/v2l5-climate-migration-adaptation/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/social-studies-mini-labs/v1l3-cause-effect-history/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/social-studies-mini-labs/v6-modern-world-connections/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/social-studies-mini-labs/v2l1-why-geography-matters/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/social-studies-mini-labs/v1-foundations/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/social-studies-mini-labs/v0-start-here/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/social-studies-mini-labs/v2-geography/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/social-studies-mini-labs/v4-government-and-civic-life/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/social-studies-mini-labs/v2l4-resources-settlement/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/social-studies-mini-labs/v3-civilizations-and-culture/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/social-studies-mini-labs/v1l4-turning-points-significance/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/social-studies-mini-labs/v1l5-continuity-change/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/social-studies-mini-labs/v1l2-bias-perspective-point-of-view/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/social-studies-mini-labs/v1l1-how-history-is-made/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/social-studies-mini-labs/v5-revolutions-and-change/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-religions/v5-christianitys-emergence-from-judaism/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-religions/v1l4-ethics-rules-social-order/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-religions/v1l3-rituals-symbols-sacred-space/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-religions/v2l2-ancestors-community-memory/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-religions/v2l3-nature-spirits-sacred-landscapes/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-religions/v2l5-migration-exchange-cultural-influence/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-religions/v1l5-religions-spread-change/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-religions/v4-judaism-and-monotheism/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-religions/v2l1-africa-meaning-making/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-religions/v1l2-sacred-stories-historical-evidence/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-religions/v0-start-here/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-religions/v6-the-rise-of-islam/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-religions/v8-religion-today-in-america/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-religions/v1-introduction/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-religions/v3-the-rise-of-polytheism/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-religions/v2-african-origins/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-religions/v2l4-oral-tradition-griots/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-religions/v1l1-what-is-religion/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-religions/african-origins-spirituality/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-religions/v7-power-politics-and-religion/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-religions/studying-religion-historically/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/black-history/harlem-renaissance/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-history/first-civilizations/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/world-history/columbian-exchange/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/us-history/constitution-separation-powers/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/us-history/american-revolution/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/black-history-heroes/queen-makeda/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/black-history-heroes/piye/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/black-history-heroes/sundiata/index.html",
+      "version": "52"
+    },
+    {
+      "page": "lessons/black-history-heroes/taharqa/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/map-quest/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/time-rush/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/source-lab/speeches/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/source-lab/newspaper-reports/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/source-lab/maps/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/source-lab/letters/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/source-lab/political-cartoons/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/source-lab/diaries/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/source-lab/photos/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/time-rush/medieval-worlds/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/time-rush/classical-civilizations/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/time-rush/exploration-encounters/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/time-rush/modern-world/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/time-rush/us-presidents/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/time-rush/world-wars/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/time-rush/inventions/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/time-rush/civil-rights/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/time-rush/revolutions/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/time-rush/revolutions-change/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/time-rush/ancient-worlds/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/build-the-past/rebuild-a-timeline/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/build-the-past/build-a-trade-network/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/build-the-past/reconstruct-the-morning/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/build-the-past/build-a-civilization/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/build-the-past/build-a-movement/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/build-the-past/build-a-colony/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/build-the-past/build-a-constitution/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/history-case-files/missing-colony/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/history-case-files/cold-war-brief/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/history-case-files/black-death-case/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/history-case-files/lincoln-file/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/history-case-files/underground-railroad-file/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/history-case-files/pharaoh-secret/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/escape-the-past/escape-trenches/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/escape-the-past/escape-plantation/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/escape-the-past/escape-castle/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/escape-the-past/escape-great-depression/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/escape-the-past/escape-cold-war-bunker/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/escape-the-past/escape-pyramid/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/who-in-time/writers/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/who-in-time/explorers/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/who-in-time/scientists/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/who-in-time/leaders/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/who-in-time/inventors/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/who-in-time/activists/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/connections/alliances-wars/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/connections/cause-effect-revolutions/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/connections/empires-trade/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/connections/leaders-movements/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/connections/migration-culture/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/connections/reformers-change/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/map-quest/trade-routes-quest/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/map-quest/battlefields-quest/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/map-quest/colonies-challenge/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/map-quest/empire-mapper/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/map-quest/ancient-civilizations-map-hunt/index.html",
+      "version": "52"
+    },
+    {
+      "page": "games/map-quest/migration-paths/index.html",
+      "version": "52"
+    }
+  ],
+  "github_preview_refs": [
+    {
+      "page": "index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/assets/nav.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/assets/footer.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/source-lab/speeches/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/source-lab/newspaper-reports/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/source-lab/maps/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/source-lab/letters/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/source-lab/political-cartoons/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/source-lab/diaries/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/source-lab/photos/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/medieval-worlds/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/medieval-worlds/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/classical-civilizations/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/classical-civilizations/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/exploration-encounters/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/exploration-encounters/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/modern-world/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/modern-world/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/us-presidents/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/us-presidents/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/world-wars/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/world-wars/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/inventions/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/inventions/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/civil-rights/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/civil-rights/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/revolutions/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/revolutions/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/revolutions-change/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/revolutions-change/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/ancient-worlds/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/time-rush/ancient-worlds/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/build-the-past/rebuild-a-timeline/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/build-the-past/build-a-trade-network/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/build-the-past/reconstruct-the-morning/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/build-the-past/build-a-civilization/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/build-the-past/build-a-movement/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/build-the-past/build-a-colony/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/build-the-past/build-a-constitution/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/history-case-files/missing-colony/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/history-case-files/missing-colony/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/history-case-files/cold-war-brief/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/history-case-files/cold-war-brief/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/history-case-files/black-death-case/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/history-case-files/black-death-case/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/history-case-files/lincoln-file/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/history-case-files/lincoln-file/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/history-case-files/underground-railroad-file/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/history-case-files/underground-railroad-file/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/history-case-files/pharaoh-secret/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/history-case-files/pharaoh-secret/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/escape-the-past/escape-trenches/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/escape-the-past/escape-plantation/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/escape-the-past/escape-castle/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/escape-the-past/escape-great-depression/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/escape-the-past/escape-cold-war-bunker/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/escape-the-past/escape-pyramid/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/who-in-time/writers/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/who-in-time/explorers/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/who-in-time/scientists/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/who-in-time/leaders/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/who-in-time/inventors/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/who-in-time/activists/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/connections/alliances-wars/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/connections/alliances-wars/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/connections/cause-effect-revolutions/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/connections/cause-effect-revolutions/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/connections/empires-trade/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/connections/empires-trade/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/connections/leaders-movements/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/connections/leaders-movements/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/connections/migration-culture/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/connections/migration-culture/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/connections/reformers-change/index.html",
+      "pattern": "https://wdwedu.github.io/examine-the-past-home/"
+    },
+    {
+      "page": "games/connections/reformers-change/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/map-quest/trade-routes-quest/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/map-quest/battlefields-quest/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/map-quest/colonies-challenge/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/map-quest/empire-mapper/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/map-quest/ancient-civilizations-map-hunt/index.html",
+      "pattern": "/examine-the-past-home/"
+    },
+    {
+      "page": "games/map-quest/migration-paths/index.html",
+      "pattern": "/examine-the-past-home/"
+    }
+  ],
+  "placeholder_hrefs": [
+    "games/time-rush/index.html",
+    "games/time-rush/us-presidents/index.html",
+    "games/time-rush/world-wars/index.html",
+    "games/time-rush/inventions/index.html",
+    "games/time-rush/civil-rights/index.html",
+    "games/time-rush/revolutions/index.html"
+  ],
+  "missing_footer_hooks": [],
+  "teacher_tool_routes": [
+    "teacher-tools/index.html",
+    "teacher-tools/learning-styles/index.html",
+    "teacher-tools/blooms-taxonomy/index.html",
+    "teacher-tools/classroom-management/index.html",
+    "teacher-tools/ai-in-education/index.html",
+    "teacher-tools/curriculum-design/index.html",
+    "teacher-tools/movies-in-the-classroom/index.html"
+  ]
+}
