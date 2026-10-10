@@ -1,0 +1,1 @@
+# Classroom Management Integration v57\n\n- Imported bytes: 8060305\n- Has universal header shell: True\n- Source remains self-contained: True\n- Local tool navigation remains inside the tool and is not made globally sticky.\n- Permanent route: /teacher-tools/classroom-management/
