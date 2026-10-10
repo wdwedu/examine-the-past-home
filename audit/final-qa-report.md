@@ -2,7 +2,7 @@
 
 ## Summary
 - HTML pages: 198
-- Links checked: 864
+- Links checked: 913
 - Errors: 0
 - Warnings: 0
 
