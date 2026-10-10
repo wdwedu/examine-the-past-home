@@ -148,3 +148,9 @@ body .resource-title{
     text-transform:none!important;
   }
 }
+
+/* Universal footer lock v52 */
+html,body{background:#000}
+#etpSiteFooter{position:relative!important;background:#000!important;border-top:1px solid rgba(84,255,69,.22)!important;box-shadow:none!important;margin-bottom:0!important;padding-bottom:max(18px,env(safe-area-inset-bottom))!important}
+#etpSiteFooter:before{content:"";position:absolute;left:5%;right:5%;top:-2px;height:2px;background:linear-gradient(90deg,transparent,#54ff45,#baff5a,#54ff45,transparent);box-shadow:0 0 12px rgba(84,255,69,.82),0 0 28px rgba(84,255,69,.3);pointer-events:none}
+#etpSiteFooter:after{content:"";position:absolute;left:0;right:0;bottom:-48px;height:48px;background:#000;pointer-events:none}
