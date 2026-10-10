@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>History Unlocked — Examine the Past</title>
-<link rel="stylesheet" href="/examine-the-past-home/games/assets/site-shell.css?v=52">
+<link rel="stylesheet" href="assets/site-shell.css?v=53">
 <style>
 body{margin:0;background:#000;color:#f5f2e9;font-family:Georgia,"Times New Roman",serif}
 .page{min-height:720px;padding:56px 18px 76px;background:radial-gradient(circle at 50% 3%,rgba(255,242,0,.018),transparent 26%),linear-gradient(180deg,#050505,#000 34%,#020202)}
 .intro{width:min(1120px,100%);margin:0 auto 38px;text-align:center}
 .eyebrow{color:var(--green);font:700 12px Arial,sans-serif;letter-spacing:.22em;text-transform:uppercase;margin-bottom:9px}
-h1{font-family:Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;margin:0;color:var(--yellow);font-size:clamp(48px,8vw,88px);line-height:.94;text-transform:uppercase;letter-spacing:.012em}
+h1{font-family:Georgia,"Times New Roman",serif;margin:0;color:var(--yellow);font-size:clamp(48px,8vw,88px);line-height:.94;text-transform:uppercase;letter-spacing:.012em}
 .intro p{max-width:760px;margin:16px auto 0;color:#fff;font-size:16px;line-height:1.55}
 .vault{width:min(1180px,100%);margin:auto}
 .family{margin:0 0 42px;padding-top:2px}
@@ -45,6 +45,26 @@ h1{font-family:Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;margin:0;c
 .game-card.closed-card:hover .game-title,.game-card.closed-card:focus-visible .game-title{color:#f0efe9;text-shadow:none}
 @media(max-width:900px){.game-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.page{padding-left:10px;padding-right:10px}.game-grid{grid-template-columns:1fr}.family{margin-bottom:36px}}
+
+/* History Unlocked brand interaction v53 */
+.game-card.active:hover,.game-card.active:focus-visible{
+  background:linear-gradient(145deg,#11150f,#080908)!important;
+  border-color:rgba(255,255,255,.78)!important;
+  box-shadow:0 18px 38px rgba(0,0,0,.48),0 0 22px rgba(148,255,83,.055)!important;
+  transform:translateY(-7px) scale(1.015)!important
+}
+.game-card.active:hover::after,.game-card.active:focus-visible::after{
+  background:radial-gradient(circle,rgba(148,255,83,.26),transparent 68%)!important;
+  opacity:.92!important
+}
+.game-card.active:hover .status.open,.game-card.active:focus-visible .status.open{
+  color:var(--green)!important;text-shadow:0 0 8px rgba(148,255,83,.55)!important
+}
+.game-card.active:hover .game-title,.game-card.active:focus-visible .game-title{
+  color:var(--yellow)!important;text-shadow:0 0 8px rgba(255,242,0,.22)!important
+}
+.game-card.active:hover .game-desc,.game-card.active:focus-visible .game-desc{color:#fff!important}
+
 </style>
 </head>
 <body data-music-autoplay="true" data-music-volume=".22" data-music-source="https://wdwedu.github.io/examine-the-past-home/">
@@ -57,8 +77,9 @@ h1{font-family:Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;margin:0;c
 </section>
 <div class="vault" id="vault"></div>
 </main>
-<div id="game-shell-footer"></div><script src="/examine-the-past-home/games/assets/site-shell.js?v=52"></script>
+<div id="game-shell-footer"></div><script src="assets/site-shell.js?v=53"></script>
 <script>
+const SITE_ROOT_GAME=location.hostname.endsWith("github.io")?"/examine-the-past-home/":"/";
 const groups=[
 ["Time Rush",[
 ["Time Rush: Ancient Worlds","Race through the milestones of the earliest civilizations and empires."],
@@ -177,7 +198,7 @@ document.getElementById("vault").innerHTML=groups.map(([title,games])=>{
  const cards=games.map(([name,desc])=>{
    const n=number++, t=tones[tone++%4], href=activeLinks[n];
    if(href)return '<a class="game-card active '+t+'" href="'+href+'"><span class="status open">OPEN</span><div class="game-title">'+name+'</div><div class="game-desc">'+desc+'</div></a>';
-   return '<div class="game-card closed-card '+t+'" tabindex="0"><span class="status closed">CLOSED</span><div class="game-title">'+name+'</div><div class="game-desc">'+desc+'</div></div>';
+   } return '<div class="game-card closed-card '+t+'" tabindex="0"><span class="status closed">CLOSED</span><div class="game-title">'+name+'</div><div class="game-desc">'+desc+'</div></div>';
  }).join("");
  return '<section class="family"><h2>'+title+'</h2><div class="game-grid">'+cards+'</div></section>';
 }).join("");
