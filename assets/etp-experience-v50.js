@@ -30,7 +30,7 @@ const library={
 ],
 "Historical Songs":[
 {id:"M3tKJ8gSKSk",title:"Fisk Jubilee Singers — Wade in the Water",note:"An African American spiritual with deep roots in Black religious, cultural, and musical history."},
-{id:"wEBlaMOmKVj",title:"Sam Cooke — A Change Is Gonna Come",note:"Civil Rights-era music that can be paired with the history of protest, segregation, and social change.",fallback:"wEBlaMOmKV4"}
+{id:"wEBlaMOmKV4",title:"Sam Cooke — A Change Is Gonna Come",note:"Civil Rights-era music that can be paired with the history of protest, segregation, and social change.",fallback:"wEBlaMOmKV4"}
 ],
 "Great American Songbook":[
 {id:"SmAs3262L9c",title:"Fred Astaire — Cheek to Cheek",note:"A popular standard tied to American film, dance, entertainment, and interwar popular culture."}
