@@ -1,13 +1,19 @@
 {
   "stats": {
     "html_pages": 198,
-    "links_checked": 780,
-    "cross_page_links": 251,
-    "transition_links": 194,
-    "dead_placeholders": 0
+    "links_checked": 819,
+    "cross_page_links": 249,
+    "transition_links": 192,
+    "dead_placeholders": 1
   },
   "error_count": 0,
-  "warning_count": 0,
+  "warning_count": 1,
   "errors": [],
-  "warnings": []
+  "warnings": [
+    {
+      "type": "placeholder_href",
+      "page": "timeline/index.html",
+      "href": "#"
+    }
+  ]
 }
