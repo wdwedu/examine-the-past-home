@@ -8,8 +8,8 @@
  }
  await Promise.all([inject("game-shell-nav","nav.html"),inject("game-shell-footer","footer.html")]);
  document.querySelectorAll('a[href^="/examine-the-past-home/"]').forEach(a=>{const raw=a.getAttribute("href");a.setAttribute("href",SITE_ROOT+raw.replace(/^\/examine-the-past-home\//,""))});
- if(!document.querySelector('link[data-etp-game-experience]')){const l=document.createElement("link");l.rel="stylesheet";l.href=SITE_ROOT+"assets/etp-experience-v50.css?v=50";l.dataset.etpGameExperience="1";document.head.appendChild(l)}
- if(!document.querySelector('script[data-etp-game-experience]')){const x=document.createElement("script");x.src=SITE_ROOT+"assets/etp-experience-v50.js?v=50";x.dataset.etpGameExperience="1";x.onload=()=>window.ETPExperience&&window.ETPExperience.enableReader();document.head.appendChild(x)}
+ if(!document.querySelector('link[data-etp-game-experience]')){const l=document.createElement("link");l.rel="stylesheet";l.href=SITE_ROOT+"assets/etp-experience-v50.css?v=52";l.dataset.etpGameExperience="1";document.head.appendChild(l)}
+ if(!document.querySelector('script[data-etp-game-experience]')){const x=document.createElement("script");x.src=SITE_ROOT+"assets/etp-experience-v50.js?v=52";x.dataset.etpGameExperience="1";x.onload=()=>window.ETPExperience&&window.ETPExperience.enableReader();document.head.appendChild(x)}
 
 
  const gameNav=document.querySelector("#game-shell-nav .icon-nav");
