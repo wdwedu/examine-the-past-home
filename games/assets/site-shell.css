@@ -503,3 +503,18 @@ body h1,body h2,body h3,body .title,body .game-title,body .section-title{
 /* v50 mobile action buttons */
 .game-mobile-action{min-height:47px;display:grid;grid-template-columns:31px 1fr;align-items:center;gap:7px;padding:7px 9px;border:1px solid rgba(255,255,255,.065);border-radius:10px;background:rgba(255,255,255,.025);color:#f7f7f2!important;text-align:left;font-family:Georgia,"Times New Roman",serif;font-weight:700;cursor:pointer}
 .game-mobile-action:hover,.game-mobile-action:focus-visible{border-color:rgba(255,242,0,.45);color:#fff200!important}
+
+/* History Unlocked shell/footer lock v53 */
+.icon-nav{background:#000!important;border-bottom:1px solid #252525!important}
+.site-footer,.compact-game-footer,.build37-footer,.footer-community-shell,.footer-community-icons,.copyright{background:#000!important;background-image:none!important}
+.site-footer,.compact-game-footer{position:relative!important;border:0!important;border-top:0!important;box-shadow:none!important}
+.site-footer:before,.compact-game-footer:before{
+  content:"";position:absolute;left:0;right:0;top:0;width:100%;height:2px;
+  background:linear-gradient(90deg,#54ff45 0%,#baff5a 50%,#54ff45 100%);
+  box-shadow:0 0 10px rgba(84,255,69,.92),0 0 24px rgba(84,255,69,.34)
+}
+.footer-divider{display:none!important}
+.footer-community-shell{border:0!important;box-shadow:none!important}
+.footer-community-icons .community-dot{display:grid!important;place-items:center!important;width:42px!important;height:42px!important;border-radius:50%!important;background:#070707!important;border:1px solid rgba(255,255,255,.09)!important;color:#fff!important;text-decoration:none!important}
+.footer-community-icons .community-dot img{display:block!important;width:30px!important;height:30px!important;object-fit:contain!important}
+.footer-community-icons .community-dot:hover{transform:translateY(-4px) scale(1.06)!important;border-color:rgba(255,242,0,.4)!important}
