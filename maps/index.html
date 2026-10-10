@@ -1,1 +1,97 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>History Maps | Examine the Past</title><link rel="stylesheet" href="../assets/site-shell.css?v=52"><link rel="stylesheet" href="../assets/etp-section.css"><link rel="stylesheet" href="../assets/etp-transitions.css"></head><body><main class="wrap"><section class="hero"><div class="eyebrow">Explore History Spatially</div><h1>History Maps</h1><p>This is the permanent GitHub destination for the Maps experience as we migrate it away from Google Sites.</p></section><section class="grid"><article class="card"><span class="tag">Maps • Migration Remaining</span><h2>Interactive History Maps</h2><p>The permanent route is established. The full interactive map library still needs its Google Sites content migrated and rebuilt here.</p><span class="btn" aria-disabled="true">Not Yet Live</span></article><a class="card" href="../lessons/geography/" data-etp-transition="compass"><span class="tag">History Hub</span><h2>Geography Lessons</h2><p>Move between maps and the Geography lesson collection.</p><span class="btn">Open Geography</span></a><a class="card" href="../games/map-quest/" data-etp-transition="compass"><span class="tag">History Unlocked</span><h2>Map Quest</h2><p>Apply geographic thinking through the game experience.</p><span class="btn">Play Map Quest</span></a></section></main><script src="../assets/etp-transitions.js"></script><script src="../assets/site-shell.js?v=52" data-etp-root="../"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>History Maps | Examine the Past</title>
+<meta name="description" content="Explore civilizations, empires, migration, trade, colonies, and battlefields through interactive historical maps.">
+<link rel="stylesheet" href="../assets/site-shell.css?v=55">
+<link rel="stylesheet" href="../assets/etp-transitions.css?v=55">
+<link rel="stylesheet" href="maps-v55.css?v=55">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+</head>
+<body>
+<main class="maps-main">
+<section class="maps-hero">
+  <div class="maps-wrap">
+    <div class="maps-kicker">Explore History Spatially</div>
+    <h1>History Maps</h1>
+    <p>History changes when you can see where it happened. Explore places, routes, migrations, empires, trade systems, and battlefields—and connect geography to historical choices and consequences.</p>
+    <div class="maps-hero-actions">
+      <button type="button" class="maps-primary" data-map-focus="ancient">Start Exploring</button>
+      <a class="maps-secondary" href="../lessons/geography/" data-etp-transition="compass">Geography Lessons</a>
+      <a class="maps-secondary" href="../games/map-quest/" data-etp-transition="compass">Play Map Quest</a>
+    </div>
+  </div>
+</section>
+
+<section class="maps-controls maps-wrap" aria-label="Map categories">
+  <button class="map-filter active" data-map-filter="all">All Maps</button>
+  <button class="map-filter" data-map-filter="ancient">Ancient Civilizations</button>
+  <button class="map-filter" data-map-filter="empires">Empires</button>
+  <button class="map-filter" data-map-filter="colonies">Colonies</button>
+  <button class="map-filter" data-map-filter="trade">Trade Routes</button>
+  <button class="map-filter" data-map-filter="migration">Migration</button>
+  <button class="map-filter" data-map-filter="battlefields">Battlefields</button>
+</section>
+
+<section class="maps-explorer maps-wrap">
+  <div class="maps-panel">
+    <div class="maps-panel-head">
+      <div>
+        <div class="maps-panel-kicker">Interactive Explorer</div>
+        <h2 id="mapThemeTitle">All Historical Themes</h2>
+      </div>
+      <button type="button" class="maps-reset" id="mapReset">Reset View</button>
+    </div>
+    <div id="historyMap" class="history-map" aria-label="Interactive historical map"></div>
+    <div class="maps-legend">
+      <span><i class="dot ancient"></i>Ancient Civilizations</span>
+      <span><i class="dot empires"></i>Empires</span>
+      <span><i class="dot colonies"></i>Colonies</span>
+      <span><i class="dot trade"></i>Trade</span>
+      <span><i class="dot migration"></i>Migration</span>
+      <span><i class="dot battlefields"></i>Battlefields</span>
+    </div>
+  </div>
+
+  <aside class="maps-story-panel" id="mapStoryPanel">
+    <div class="maps-story-kicker">Map Story</div>
+    <h2>Choose a place</h2>
+    <p>Select a marker to connect location with historical evidence, decisions, movement, resources, and change.</p>
+    <div class="maps-story-tags"></div>
+  </aside>
+</section>
+
+<section class="maps-collections maps-wrap">
+  <div class="maps-section-head">
+    <div class="maps-kicker">Six Ways to Read the Past</div>
+    <h2>Map Collections</h2>
+  </div>
+  <div class="maps-card-grid">
+    <article class="maps-card ancient" data-open-theme="ancient"><span>🏺</span><h3>Ancient Civilizations</h3><p>Compare river valleys, planned cities, early states, and environmental settings across Egypt, Mesopotamia, the Indus region, and Shang China.</p><button type="button">Explore Map</button></article>
+    <article class="maps-card empires" data-open-theme="empires"><span>👑</span><h3>Empires</h3><p>See how seas, mountains, deserts, rivers, roads, and chokepoints shaped imperial opportunities and limits.</p><button type="button">Explore Map</button></article>
+    <article class="maps-card colonies" data-open-theme="colonies"><span>⛵</span><h3>Colonies</h3><p>Connect harbors, rivers, extraction, labor systems, Indigenous homelands, and imperial competition.</p><button type="button">Explore Map</button></article>
+    <article class="maps-card trade" data-open-theme="trade"><span>🧭</span><h3>Trade Routes</h3><p>Trace exchange networks that moved goods, technologies, religions, disease, language, and political influence.</p><button type="button">Explore Map</button></article>
+    <article class="maps-card migration" data-open-theme="migration"><span>🧳</span><h3>Migration</h3><p>Follow voluntary and forced movements shaped by opportunity, oppression, environment, law, family networks, and labor.</p><button type="button">Explore Map</button></article>
+    <article class="maps-card battlefields" data-open-theme="battlefields"><span>⚔️</span><h3>Battlefields</h3><p>Study terrain, ridges, rivers, cities, coastlines, logistics, and distance as part of military decision-making.</p><button type="button">Explore Map</button></article>
+  </div>
+</section>
+
+<section class="maps-thinking maps-wrap">
+  <div class="maps-section-head"><div class="maps-kicker">Think Like a Geographer</div><h2>Read Maps as Evidence</h2></div>
+  <div class="maps-thinking-grid">
+    <article><strong>Observe</strong><p>What patterns, locations, routes, terrain, or spatial relationships do you notice?</p></article>
+    <article><strong>Infer</strong><p>What might geography have made easier, harder, safer, more profitable, or more dangerous?</p></article>
+    <article><strong>Question</strong><p>What does the map leave out? Whose movement, territory, power, or experience needs more evidence?</p></article>
+  </div>
+</section>
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="../assets/etp-transitions.js?v=55"></script>
+<script src="maps-data-v55.js?v=55"></script>
+<script src="maps-v55.js?v=55"></script>
+<script src="../assets/site-shell.js?v=55" data-etp-root="../"></script>
+</body>
+</html>
