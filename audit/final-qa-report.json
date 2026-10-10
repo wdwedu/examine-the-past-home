@@ -4,16 +4,10 @@
     "links_checked": 864,
     "cross_page_links": 251,
     "transition_links": 194,
-    "dead_placeholders": 1
+    "dead_placeholders": 0
   },
   "error_count": 0,
-  "warning_count": 1,
+  "warning_count": 0,
   "errors": [],
-  "warnings": [
-    {
-      "type": "placeholder_href",
-      "page": "timeline/index.html",
-      "href": "#"
-    }
-  ]
+  "warnings": []
 }

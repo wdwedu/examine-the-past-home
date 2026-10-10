@@ -4,10 +4,10 @@
 - HTML pages: 198
 - Links checked: 864
 - Errors: 0
-- Warnings: 1
+- Warnings: 0
 
 ## Errors
 - None
 
 ## Warnings
-- **placeholder_href** - `{'type': 'placeholder_href', 'page': 'timeline/index.html', 'href': '#'}`
+- None
