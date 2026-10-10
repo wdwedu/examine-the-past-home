@@ -1,0 +1,23 @@
+name: Inspect V62 JS Syntax
+on:
+  push:
+    paths:
+      - scripts/v62_js_syntax_request.txt
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.x'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '20'}
+      - run: python scripts/inspect_v62_js_syntax.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audit/v62-js-syntax-inspect.json
+          git commit -m "Inspect v62 JavaScript syntax [skip ci]" || true
+          git push
