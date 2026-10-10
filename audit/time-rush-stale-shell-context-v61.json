@@ -1,0 +1,32 @@
+{
+  "games/time-rush/us-presidents/index.html": [
+    {
+      "match": "site-shell.js?v=61",
+      "context": "aria-live=\"polite\"></div>\n  </section>\n  <div class=\"copyright\">\u00a9 2026 Examine the Past. All Rights Reserved.</div>\n</footer></div><script src=\"/examine-the-past-home/games/assets/site-shell.js?v=61a\"></script><script src=\"/examine-the-past-home/games/time-rush/us-presidents/config.js?v=19\"></script><script src=\"/examine-the-past-home/games/time-rush/engine.js?v=19\"></script>"
+    }
+  ],
+  "games/time-rush/world-wars/index.html": [
+    {
+      "match": "site-shell.js?v=61",
+      "context": "aria-live=\"polite\"></div>\n  </section>\n  <div class=\"copyright\">\u00a9 2026 Examine the Past. All Rights Reserved.</div>\n</footer></div><script src=\"/examine-the-past-home/games/assets/site-shell.js?v=61a\"></script><script src=\"/examine-the-past-home/games/time-rush/world-wars/config.js?v=19\"></script><script src=\"/examine-the-past-home/games/time-rush/engine.js?v=19\"></script></b"
+    }
+  ],
+  "games/time-rush/inventions/index.html": [
+    {
+      "match": "site-shell.js?v=61",
+      "context": "aria-live=\"polite\"></div>\n  </section>\n  <div class=\"copyright\">\u00a9 2026 Examine the Past. All Rights Reserved.</div>\n</footer></div><script src=\"/examine-the-past-home/games/assets/site-shell.js?v=61a\"></script><script src=\"/examine-the-past-home/games/time-rush/inventions/config.js?v=19\"></script><script src=\"/examine-the-past-home/games/time-rush/engine.js?v=19\"></script></b"
+    }
+  ],
+  "games/time-rush/civil-rights/index.html": [
+    {
+      "match": "site-shell.js?v=61",
+      "context": "aria-live=\"polite\"></div>\n  </section>\n  <div class=\"copyright\">\u00a9 2026 Examine the Past. All Rights Reserved.</div>\n</footer></div><script src=\"/examine-the-past-home/games/assets/site-shell.js?v=61a\"></script><script src=\"/examine-the-past-home/games/time-rush/civil-rights/config.js?v=19\"></script><script src=\"/examine-the-past-home/games/time-rush/engine.js?v=19\"></script><"
+    }
+  ],
+  "games/time-rush/revolutions/index.html": [
+    {
+      "match": "site-shell.js?v=61",
+      "context": "aria-live=\"polite\"></div>\n  </section>\n  <div class=\"copyright\">\u00a9 2026 Examine the Past. All Rights Reserved.</div>\n</footer></div><script src=\"/examine-the-past-home/games/assets/site-shell.js?v=61a\"></script><script src=\"/examine-the-past-home/games/time-rush/revolutions/config.js?v=19\"></script><script src=\"/examine-the-past-home/games/time-rush/engine.js?v=19\"></script></"
+    }
+  ]
+}
