@@ -1,0 +1,17 @@
+name: Inspect Master Integration V61 Failure
+on:
+  push:
+    paths:
+      - scripts/master_integration_inspect_v61_request.txt
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: python scripts/apply_master_integration_v61.py
+      - run: cat audit/master-integration-v61-final.json
