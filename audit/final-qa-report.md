@@ -1,8 +1,8 @@
 # Examine the Past - Final Structural QA
 
 ## Summary
-- HTML pages: 198
-- Links checked: 917
+- HTML pages: 200
+- Links checked: 931
 - Errors: 0
 - Warnings: 0
 
