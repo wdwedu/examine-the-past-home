@@ -1,0 +1,7 @@
+llow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" id="modalVideo" loading="lazy" title="Historical video"></iframe></div><div class="modal-activities" id="modalActivities"></div><div class="source" id="modalSource"></div><a href="#" id="modalSourceLink" rel="noopener" target="_blank">Open trusted source ↗</a></div>
+</div>
+<script>
+const eraBtns=[...document.querySelectorAll('.era-link')];
+eraBtns.forEach(btn=>btn.addEventListener('click',()=>document.getElementById(btn.dataset.id)?.scrollIntoView({behavior:'smooth'})));
+function goTop(){document.getElementById('top').scrollIntoView({behavior:'smooth'})}
+const observer=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){eraBtns.forEach(b=>b.c
