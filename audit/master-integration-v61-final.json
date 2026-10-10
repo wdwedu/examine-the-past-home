@@ -1,8 +1,8 @@
 {
   "user_facing_html_pages": 198,
   "shells_added": 60,
-  "shell_versions_refreshed": 198,
-  "share_fallbacks_cleaned": 6,
+  "shell_versions_refreshed": 192,
+  "share_fallbacks_cleaned": 0,
   "absolute_preview_links_converted": 26,
   "missing_shell": [],
   "stale_shell_versions": [
