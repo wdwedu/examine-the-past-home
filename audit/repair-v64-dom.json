@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-13",
+  "javascript_checks": 98,
+  "syntax_errors": 0,
+  "missing_local_assets": 0,
+  "game_cards": 50,
+  "game_pages_initialized": 55,
+  "interaction_groups_passed": 9,
+  "tested": [
+    "vault rendering and local game routes",
+    "game page initialization and available start buttons",
+    "home hotspot routes and first-tap labels",
+    "mobile menu open and close",
+    "explicit jukebox selection and Music Off",
+    "sound setting persistence",
+    "Back/Home link targets and canceled/repeated transition cleanup",
+    "date warp selected date and cleanup deadline",
+    "Read, Pause, Resume, Stop, Restart, reading speed, Lights on/off",
+    "lesson completion and progress display"
+  ],
+  "limitations": [
+    "DOM tests use simulated 360px and 1280px windows; CSS layout was not rendered.",
+    "Speech synthesis, AudioContext and map rendering APIs were stubbed.",
+    "Actual mobile appearance, audible speech/music/sound, external YouTube playback and live historical tiles remain unverified."
+  ]
+}
