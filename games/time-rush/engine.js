@@ -25,4 +25,4 @@ function submit(auto=false){if(phase!=="arrange")return;stopTimer();phase="feedb
 function advance(){if(!perfect)return;if(roundIndex===ROUNDS.length-1){finish();return}roundIndex++;attempts=0;study()}
 function finish(){stopTimer();phase="complete";sfx("win");localStorage.setItem(CFG.storageKey+"_complete","1");localStorage.setItem(CFG.storageKey+"_score","100");E.badgeRank.textContent=CFG.rank;E.badgeScore.textContent="100% mastery · "+(ROUNDS.length*100)+" points";E.completion.classList.add("show")}
 E.action.onclick=()=>{audioReady();if(phase==="intro")study();else if(phase==="study")arrange();else if(phase==="arrange")submit(false);else if(phase==="feedback"){if(perfect)advance();else study()}};
-$("#playAgain").onclick=()=>location.reload();$("#vaultReturn").onclick=()=>location.href="/examine-the-past-home/games/";showIntro();
+$("#playAgain").onclick=()=>location.reload();$("#vaultReturn").onclick=()=>location.href=(location.hostname.endsWith("github.io")?"/examine-the-past-home/games/":"/games/");showIntro();

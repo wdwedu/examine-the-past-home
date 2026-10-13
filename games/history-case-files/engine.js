@@ -167,7 +167,7 @@ function renderReport(){
  ${sourceLinks()}
  <div class="case-footer-actions"><button class="case-btn" id="reopen">Reopen Case</button><button class="case-btn secondary" id="vault">Return to Game Vault</button></div>`;
  document.getElementById("reopen").addEventListener("click",()=>{state.phase="Briefing";state.current=0;state.solved.clear();state.points=0;state.streak=0;state.theory=null;state.picks.clear();state.twistSeen=false;state.crossDone=false;state.confidence="Strong";updateStatus();renderBrief()});
- document.getElementById("vault").addEventListener("click",()=>{window.location.href="/examine-the-past-home/games/"});
+ document.getElementById("vault").addEventListener("click",()=>{window.location.href=(location.hostname.endsWith("github.io")?"/examine-the-past-home/games/":"/games/")});
 }
 if(soundBtn)soundBtn.addEventListener("click",()=>{state.sound=!state.sound;soundBtn.textContent=state.sound?"Sound: On":"Sound: Off";if(state.sound)tone(360,.06)});
 updateStatus();renderBrief();

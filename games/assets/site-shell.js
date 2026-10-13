@@ -1,18 +1,21 @@
-(async()=>{
+(async()=>{if(window.__ETP_GAME_SHELL)return;window.__ETP_GAME_SHELL=true;
  const SITE_ROOT=location.hostname.endsWith("github.io")?"/examine-the-past-home/":"/";
+ const common=document.createElement('script');common.src=SITE_ROOT+'assets/repair-v63.js?v=64';document.head.appendChild(common);
+ const style=document.createElement('link');style.rel='stylesheet';style.href=SITE_ROOT+'assets/repair-v63.css?v=64';document.head.appendChild(style);
  const BASE=SITE_ROOT+"games/assets/";
  async function inject(id,file){
    const node=document.getElementById(id); if(!node)return;
-   try{const r=await fetch(BASE+file,{cache:"no-store"});if(!r.ok)throw new Error(file);node.innerHTML=await r.text();}
+   try{const r=await fetch(BASE+file,{cache:"no-store"});if(!r.ok)throw new Error(file);node.innerHTML=(await r.text()).replace(/((?:href|src)=["\'])\/(?!\/)/g,"$1"+SITE_ROOT);}
    catch(e){console.error("Shell load failed",file,e);}
  }
  await Promise.all([inject("game-shell-nav","nav.html"),inject("game-shell-footer","footer.html")]);
  document.querySelectorAll('a[href^="/examine-the-past-home/"]').forEach(a=>{const raw=a.getAttribute("href");a.setAttribute("href",SITE_ROOT+raw.replace(/^\/examine-the-past-home\//,""))});
  document.querySelectorAll('img[src^="/examine-the-past-home/"]').forEach(img=>{const raw=img.getAttribute("src");img.setAttribute("src",SITE_ROOT+raw.replace(/^\/examine-the-past-home\//,""))});
  if(!document.querySelector('link[data-etp-game-experience]')){const l=document.createElement("link");l.rel="stylesheet";l.href=SITE_ROOT+"assets/etp-experience-v50.css?v=62";l.dataset.etpGameExperience="1";document.head.appendChild(l)}
- if(!document.querySelector('script[data-etp-game-experience]')){const x=document.createElement("script");x.src=SITE_ROOT+"assets/etp-experience-v50.js?v=62";x.dataset.etpGameExperience="1";x.onload=()=>window.ETPExperience&&window.ETPExperience.enableReader();document.head.appendChild(x)}
+ if(!document.querySelector('script[data-etp-game-experience]')){const x=document.createElement("script");x.src=SITE_ROOT+"assets/etp-experience-v50.js?v=64";x.dataset.etpGameExperience="1";document.head.appendChild(x)}
 
 
+ window.ETPRepair?.refreshHeader();
  const gameNav=document.querySelector("#game-shell-nav .icon-nav");
  if(gameNav){
    const mobileToggle=document.createElement("button");
@@ -155,7 +158,7 @@
  const audio=document.getElementById("gameAudio");
  if(!audio)return;
 
- const autoplay=document.body.dataset.musicAutoplay==="true";
+ const autoplay=false;
  const source=document.body.dataset.musicSource||"https://wdwedu.github.io/blooms-taxonomy/";
  const volume=parseFloat(document.body.dataset.musicVolume||".28");
  let loaded=false,wantsMusic=autoplay;
@@ -166,9 +169,9 @@
    const r=await fetch(source,{cache:"force-cache"});
    if(!r.ok)throw new Error("audio unavailable");
    const t=await r.text();
-   const m=t.match(/data:audio\/mpeg;base64,[^"']+/);
+   const m=t.match(/<audio[^>]*>[\s\S]*?<source[^>]*src="([^"]+)"/);
    if(!m)throw new Error("track missing");
-   audio.src=m[0];loaded=true;return true;
+   audio.src=new URL(m[1],source).href;loaded=true;return true;
  }
  function ui(){
    if(!btn)return;
@@ -178,7 +181,7 @@
    if(!icon&&!label)btn.textContent=on?"Music: On":"Music: Off";
    btn.setAttribute("aria-label",on?"Turn background music off":"Turn background music on");
  }
- async function startMusic(){
+ async function startMusic(){window.ETPRepair?.stopMusic();
    try{await loadTrack();if(wantsMusic)await audio.play();}catch(e){}
    ui();
  }
@@ -190,7 +193,7 @@
    wantsMusic=false;
    audio.pause();
  }
- if(btn&&autoplay){
+ if(btn){
    btn.addEventListener("click",async()=>{
      if(!audio.paused){wantsMusic=false;audio.pause();}
      else{wantsMusic=true;await startMusic();}
@@ -198,4 +201,4 @@
    });
  }
  audio.addEventListener("play",ui);audio.addEventListener("pause",ui);ui();
-})();
+window.addEventListener("pagehide",()=>audio.pause());})();

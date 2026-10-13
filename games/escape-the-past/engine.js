@@ -85,7 +85,7 @@ function renderSummary(){
  <article class="escape-report"><h3>${esc(cfg.title)}</h3><p>${esc(cfg.closing)}</p><ul>${cfg.takeaways.map(x=>'<li>'+esc(x)+'</li>').join("")}</ul><p><b>Inventory recovered:</b> ${state.items.map(x=>esc(x.icon+" "+x.item)).join(" · ")}</p></article></div>
  <div class="escape-actions"><button class="escape-btn" id="playAgain">Play Again</button><button class="escape-btn secondary" id="vaultBtn">Return to Game Vault</button></div>`;
  document.getElementById("playAgain").addEventListener("click",()=>{Object.assign(state,{level:0,score:0,danger:0,items:[],solved:new Set(),sequence:[],attempts:0,finalDone:false});intro()});
- document.getElementById("vaultBtn").addEventListener("click",()=>location.href="/examine-the-past-home/games/");
+ document.getElementById("vaultBtn").addEventListener("click",()=>location.href=(location.hostname.endsWith("github.io")?"/examine-the-past-home/games/":"/games/"));
 }
 if(sfxBtn)sfxBtn.addEventListener("click",()=>{state.sfx=!state.sfx;sfxBtn.textContent=state.sfx?"SFX: On":"SFX: Off";if(state.sfx)tone(360,.06)});
 update("Briefing");intro();

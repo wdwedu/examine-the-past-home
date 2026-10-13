@@ -95,7 +95,7 @@ function renderSummary(){
  <article class="cx-report"><h3>${esc(cfg.title)}</h3><p>${esc(cfg.closing)}</p><ul>${cfg.takeaways.map(x=>'<li>'+esc(x)+'</li>').join("")}</ul><p><b>What this game measured:</b> your ability to recognize historically meaningful relationships—not just isolated facts.</p></article></div>
  <div class="cx-actions"><button class="cx-btn" id="playAgain">Play Again</button><button class="cx-btn secondary" id="vaultBtn">Return to Game Vault</button></div>`;
  document.getElementById("playAgain").addEventListener("click",()=>{state.round=0;state.score=0;state.streak=0;state.totalLinks=0;state.matches.clear();state.wrong=0;state.challengeDone=false;renderIntro()});
- document.getElementById("vaultBtn").addEventListener("click",()=>location.href="/examine-the-past-home/games/");
+ document.getElementById("vaultBtn").addEventListener("click",()=>location.href=(location.hostname.endsWith("github.io")?"/examine-the-past-home/games/":"/games/"));
 }
 if(soundBtn)soundBtn.addEventListener("click",()=>{state.sound=!state.sound;soundBtn.textContent=state.sound?"Sound: On":"Sound: Off";if(state.sound)tone(380,.06)});
 update("Briefing");renderIntro();

@@ -120,7 +120,7 @@
 
   async function fetchWiki(month, day) {
     const url = "https://api.wikimedia.org/feed/v1/wikipedia/en/onthisday/all/" + pad(month) + "/" + pad(day);
-    const response = await fetch(url, { headers: { accept: "application/json" } });
+    const response = await fetch(url, { headers: { accept: "application/json" }, signal: AbortSignal.timeout(8000) });
     if (!response.ok) throw new Error("Historical feed " + response.status);
     const payload = await response.json();
     const seen = new Set();
@@ -139,13 +139,10 @@
     return out.slice(0, 35);
   }
 
+  let lastDate = new Date();
   function showFlash() {
-    flash.classList.remove("active");
-    void flash.offsetWidth;
-    flash.classList.add("active");
-    if (window.ETPTransitions && window.ETPTransitions.clickSound) {
-      window.ETPTransitions.clickSound("time");
-    }
+    const selected=new Date(calendarYear,Number(monthSelect.value)-1,Number(daySelect.value));
+    window.ETPTransitions?.dateWarp(selected,lastDate);lastDate=selected;
   }
 
   function dateText(month, day) {
@@ -242,7 +239,9 @@
     history.replaceState(null, "", "#" + dateKey(Number(monthSelect.value), Number(daySelect.value)));
   }
 
+  let requestId=0;
   async function travel(animated = false) {
+    const request=++requestId;
     const month = Number(monthSelect.value);
     const day = Number(daySelect.value);
 
@@ -262,6 +261,7 @@
 
     try {
       const remote = await fetchWiki(month, day);
+      if(request!==requestId)return;
       const ids = new Set(rowsCache.map(row => row.year + "|" + row.title.toLowerCase()));
 
       remote.forEach(row => {
@@ -274,6 +274,7 @@
 
       feedStatus.textContent = "Examine the Past curated entries + Wikipedia historical feed";
     } catch (error) {
+      if(request!==requestId)return;
       feedStatus.textContent = "Examine the Past curated entries • live feed unavailable";
     }
 

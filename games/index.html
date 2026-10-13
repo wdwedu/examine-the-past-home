@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>History Unlocked — Examine the Past</title>
 <link rel="stylesheet" href="assets/site-shell.css?v=61">
+<link rel="stylesheet" href="../assets/site-shell.css?v=64">
 <style>
 body{margin:0;background:#000;color:#f5f2e9;font-family:Georgia,"Times New Roman",serif}
 .page{min-height:720px;padding:56px 18px 76px;background:radial-gradient(circle at 50% 3%,rgba(255,242,0,.018),transparent 26%),linear-gradient(180deg,#050505,#000 34%,#020202)}
@@ -67,7 +68,7 @@ h1{font-family:Georgia,"Times New Roman",serif;margin:0;color:var(--yellow);font
 
 </style>
 </head>
-<body data-music-autoplay="true" data-music-volume=".22" data-music-source="https://examinethepast.com/">
+<body data-music-autoplay="false" data-music-volume=".22" data-music-source="https://examinethepast.com/">
 <div id="game-shell-nav"></div><audio id="gameAudio" loop preload="auto"></audio>
 <main class="page">
 <section class="intro">
@@ -77,7 +78,7 @@ h1{font-family:Georgia,"Times New Roman",serif;margin:0;color:var(--yellow);font
 </section>
 <div class="vault" id="vault"></div>
 </main>
-<div id="game-shell-footer"></div><script src="assets/site-shell.js?v=61"></script>
+<div id="game-shell-footer"></div><script src="../assets/site-shell.js?v=64" data-etp-root="../"></script>
 <script>
 const SITE_ROOT_GAME=location.hostname.endsWith("github.io")?"/examine-the-past-home/":"/";
 const groups=[
@@ -142,63 +143,63 @@ const groups=[
 ];
 const tones=["tone-red","tone-blue","tone-green","tone-gold"];
 const activeLinks={
-1:"/examine-the-past-home/games/time-rush/ancient-worlds/",
-2:"/examine-the-past-home/games/time-rush/classical-civilizations/",
-3:"/examine-the-past-home/games/time-rush/medieval-worlds/",
-4:"/examine-the-past-home/games/time-rush/exploration-encounters/",
-5:"/examine-the-past-home/games/time-rush/revolutions-change/",
-6:"/examine-the-past-home/games/time-rush/modern-world/",
-7:"/examine-the-past-home/games/history-case-files/missing-colony/",
-8:"/examine-the-past-home/games/history-case-files/lincoln-file/",
-9:"/examine-the-past-home/games/history-case-files/pharaoh-secret/",
-10:"/examine-the-past-home/games/history-case-files/cold-war-brief/",
-11:"/examine-the-past-home/games/history-case-files/black-death-case/",
-12:"/examine-the-past-home/games/history-case-files/underground-railroad-file/",
-13:"/examine-the-past-home/games/connections/empires-trade/",
-14:"/examine-the-past-home/games/connections/leaders-movements/",
-15:"/examine-the-past-home/games/connections/cause-effect-revolutions/",
-16:"/examine-the-past-home/games/connections/reformers-change/",
-17:"/examine-the-past-home/games/connections/alliances-wars/",
-18:"/examine-the-past-home/games/connections/migration-culture/",
-19:"/examine-the-past-home/games/escape-the-past/escape-pyramid/",
-20:"/examine-the-past-home/games/escape-the-past/escape-plantation/",
-21:"/examine-the-past-home/games/escape-the-past/escape-trenches/",
-22:"/examine-the-past-home/games/escape-the-past/escape-castle/",
-23:"/examine-the-past-home/games/escape-the-past/escape-great-depression/",
-24:"/examine-the-past-home/games/escape-the-past/escape-cold-war-bunker/",
-25:"/examine-the-past-home/games/map-quest/empire-mapper/",
-26:"/examine-the-past-home/games/map-quest/colonies-challenge/",
-27:"/examine-the-past-home/games/map-quest/trade-routes-quest/",
-28:"/examine-the-past-home/games/map-quest/battlefields-quest/",
-29:"/examine-the-past-home/games/map-quest/migration-paths/",
-30:"/examine-the-past-home/games/map-quest/ancient-civilizations-map-hunt/",
-31:"/examine-the-past-home/games/who-in-time/inventors/",
-32:"/examine-the-past-home/games/who-in-time/leaders/",
-33:"/examine-the-past-home/games/who-in-time/activists/",
-34:"/examine-the-past-home/games/who-in-time/explorers/",
-35:"/examine-the-past-home/games/who-in-time/writers/",
-36:"/examine-the-past-home/games/who-in-time/scientists/",
-37:"/examine-the-past-home/games/source-lab/speeches/",
-38:"/examine-the-past-home/games/source-lab/letters/",
-39:"/examine-the-past-home/games/source-lab/photos/",
-40:"/examine-the-past-home/games/source-lab/political-cartoons/",
-41:"/examine-the-past-home/games/source-lab/maps/",
-42:"/examine-the-past-home/games/source-lab/newspaper-reports/",
-43:"/examine-the-past-home/games/source-lab/diaries/",
-44:"/examine-the-past-home/games/build-the-past/build-a-colony/",
-45:"/examine-the-past-home/games/build-the-past/build-a-civilization/",
-46:"/examine-the-past-home/games/build-the-past/rebuild-a-timeline/",
-47:"/examine-the-past-home/games/build-the-past/build-a-constitution/",
-48:"/examine-the-past-home/games/build-the-past/build-a-trade-network/",
-49:"/examine-the-past-home/games/build-the-past/reconstruct-the-morning/",
-50:"/examine-the-past-home/games/build-the-past/build-a-movement/"
+1:SITE_ROOT_GAME+"games/time-rush/ancient-worlds/",
+2:SITE_ROOT_GAME+"games/time-rush/classical-civilizations/",
+3:SITE_ROOT_GAME+"games/time-rush/medieval-worlds/",
+4:SITE_ROOT_GAME+"games/time-rush/exploration-encounters/",
+5:SITE_ROOT_GAME+"games/time-rush/revolutions-change/",
+6:SITE_ROOT_GAME+"games/time-rush/modern-world/",
+7:SITE_ROOT_GAME+"games/history-case-files/missing-colony/",
+8:SITE_ROOT_GAME+"games/history-case-files/lincoln-file/",
+9:SITE_ROOT_GAME+"games/history-case-files/pharaoh-secret/",
+10:SITE_ROOT_GAME+"games/history-case-files/cold-war-brief/",
+11:SITE_ROOT_GAME+"games/history-case-files/black-death-case/",
+12:SITE_ROOT_GAME+"games/history-case-files/underground-railroad-file/",
+13:SITE_ROOT_GAME+"games/connections/empires-trade/",
+14:SITE_ROOT_GAME+"games/connections/leaders-movements/",
+15:SITE_ROOT_GAME+"games/connections/cause-effect-revolutions/",
+16:SITE_ROOT_GAME+"games/connections/reformers-change/",
+17:SITE_ROOT_GAME+"games/connections/alliances-wars/",
+18:SITE_ROOT_GAME+"games/connections/migration-culture/",
+19:SITE_ROOT_GAME+"games/escape-the-past/escape-pyramid/",
+20:SITE_ROOT_GAME+"games/escape-the-past/escape-plantation/",
+21:SITE_ROOT_GAME+"games/escape-the-past/escape-trenches/",
+22:SITE_ROOT_GAME+"games/escape-the-past/escape-castle/",
+23:SITE_ROOT_GAME+"games/escape-the-past/escape-great-depression/",
+24:SITE_ROOT_GAME+"games/escape-the-past/escape-cold-war-bunker/",
+25:SITE_ROOT_GAME+"games/map-quest/empire-mapper/",
+26:SITE_ROOT_GAME+"games/map-quest/colonies-challenge/",
+27:SITE_ROOT_GAME+"games/map-quest/trade-routes-quest/",
+28:SITE_ROOT_GAME+"games/map-quest/battlefields-quest/",
+29:SITE_ROOT_GAME+"games/map-quest/migration-paths/",
+30:SITE_ROOT_GAME+"games/map-quest/ancient-civilizations-map-hunt/",
+31:SITE_ROOT_GAME+"games/who-in-time/inventors/",
+32:SITE_ROOT_GAME+"games/who-in-time/leaders/",
+33:SITE_ROOT_GAME+"games/who-in-time/activists/",
+34:SITE_ROOT_GAME+"games/who-in-time/explorers/",
+35:SITE_ROOT_GAME+"games/who-in-time/writers/",
+36:SITE_ROOT_GAME+"games/who-in-time/scientists/",
+37:SITE_ROOT_GAME+"games/source-lab/speeches/",
+38:SITE_ROOT_GAME+"games/source-lab/letters/",
+39:SITE_ROOT_GAME+"games/source-lab/photos/",
+40:SITE_ROOT_GAME+"games/source-lab/political-cartoons/",
+41:SITE_ROOT_GAME+"games/source-lab/maps/",
+42:SITE_ROOT_GAME+"games/source-lab/newspaper-reports/",
+43:SITE_ROOT_GAME+"games/source-lab/diaries/",
+44:SITE_ROOT_GAME+"games/build-the-past/build-a-colony/",
+45:SITE_ROOT_GAME+"games/build-the-past/build-a-civilization/",
+46:SITE_ROOT_GAME+"games/build-the-past/rebuild-a-timeline/",
+47:SITE_ROOT_GAME+"games/build-the-past/build-a-constitution/",
+48:SITE_ROOT_GAME+"games/build-the-past/build-a-trade-network/",
+49:SITE_ROOT_GAME+"games/build-the-past/reconstruct-the-morning/",
+50:SITE_ROOT_GAME+"games/build-the-past/build-a-movement/"
 };
 let number=1, tone=0;
 document.getElementById("vault").innerHTML=groups.map(([title,games])=>{
  const cards=games.map(([name,desc])=>{
    const n=number++, t=tones[tone++%4], href=activeLinks[n];
    if(href)return '<a class="game-card active '+t+'" href="'+href+'"><span class="status open">OPEN</span><div class="game-title">'+name+'</div><div class="game-desc">'+desc+'</div></a>';
-   } return '<div class="game-card closed-card '+t+'" tabindex="0"><span class="status closed">CLOSED</span><div class="game-title">'+name+'</div><div class="game-desc">'+desc+'</div></div>';
+   return '<div class="game-card closed-card '+t+'" tabindex="0"><span class="status closed">CLOSED</span><div class="game-title">'+name+'</div><div class="game-desc">'+desc+'</div></div>';
  }).join("");
  return '<section class="family"><h2>'+title+'</h2><div class="game-grid">'+cards+'</div></section>';
 }).join("");

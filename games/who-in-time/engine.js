@@ -57,7 +57,7 @@ function summary(){
  <div class="wi-summary"><aside class="wi-score"><div class="wi-ring"><span>${score}</span></div><h3>${rank}</h3><p>${state.firstGuesses} first-clue identifications</p></aside>
  <article class="wi-report"><h3>${esc(cfg.title)}</h3><p>${esc(cfg.closing)}</p><ul>${cfg.takeaways.map(x=>'<li>'+esc(x)+'</li>').join("")}</ul></article></div>
  <div class="wi-actions"><button class="wi-btn" id="again">Play Again</button><button class="wi-btn secondary" id="vault">Return to Game Vault</button></div>`;
- document.getElementById("again").addEventListener("click",()=>{state.round=0;state.score=0;state.streak=0;state.clue=0;state.done.clear();state.confidence="Strong";state.firstGuesses=0;intro()});document.getElementById("vault").addEventListener("click",()=>location.href="/examine-the-past-home/games/");
+ document.getElementById("again").addEventListener("click",()=>{state.round=0;state.score=0;state.streak=0;state.clue=0;state.done.clear();state.confidence="Strong";state.firstGuesses=0;intro()});document.getElementById("vault").addEventListener("click",()=>location.href=(location.hostname.endsWith("github.io")?"/examine-the-past-home/games/":"/games/"));
 }
 if(sfxBtn)sfxBtn.addEventListener("click",()=>{state.sfx=!state.sfx;sfxBtn.textContent=state.sfx?"SFX: On":"SFX: Off";if(state.sfx)tone(360,.06)});
 update("Briefing");intro();
