@@ -1,0 +1,26 @@
+{
+  "version": 65,
+  "syntax_errors": 0,
+  "missing_local_assets": 0,
+  "game_cards": 50,
+  "passed": [
+    "single theme across reader/header and page navigation",
+    "theme change stops reading",
+    "dark reset clears old light classes",
+    "three jukebox categories and custom genre dropdown",
+    "explicit video selection, pause/play, next, stop and close",
+    "playlist add, persistence across pages and removal",
+    "branded reader label and correct page restrictions",
+    "base text/heading/accent contrast exceeds 4.5:1 in both themes"
+  ],
+  "limitations": [
+    "DOM checks do not render mobile/desktop layout.",
+    "Speech synthesis and media APIs are stubbed; audible speech/music and embedded-video playback remain unverified."
+  ],
+  "media_metadata_verified": [
+    "The March \u2014 US National Archives",
+    "The Gilded Age \u2014 American Experience | PBS",
+    "JFK Inaugural Address \u2014 The Kennedy Center",
+    "Day of Infamy annotated video \u2014 FDRLibrary"
+  ]
+}

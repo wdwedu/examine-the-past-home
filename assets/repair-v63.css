@@ -72,7 +72,7 @@ body.comfort-still *,body.comfort-still *:before,body.comfort-still *:after{anim
 
 /* Footer avoidance and targeted narrow-screen sizing. */
 #page-tools{bottom:var(--tools-footer-offset,0px)!important}
-body.ie-reader{--paper:#efeadd;--text:#242924;--muted:#4a5148}
+
 body.ie-reader[data-comfort-shade=warm] main,body.ie-reader[data-comfort-shade=gray] main{background:var(--paper)!important;color:var(--text)!important}
 body.ie-reader[data-comfort-shade=warm] main p,body.ie-reader[data-comfort-shade=gray] main p{color:var(--text)!important}
 #ie-comfort-panel .read-aloud #read-settings{position:static!important;inset:auto!important;width:100%!important;max-height:none}

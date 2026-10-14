@@ -1,7 +1,7 @@
 (async()=>{if(window.__ETP_GAME_SHELL)return;window.__ETP_GAME_SHELL=true;
  const SITE_ROOT=location.hostname.endsWith("github.io")?"/examine-the-past-home/":"/";
- const common=document.createElement('script');common.src=SITE_ROOT+'assets/repair-v63.js?v=64';document.head.appendChild(common);
- const style=document.createElement('link');style.rel='stylesheet';style.href=SITE_ROOT+'assets/repair-v63.css?v=64';document.head.appendChild(style);
+ const common=document.createElement('script');common.src=SITE_ROOT+'assets/repair-v63.js?v=65';document.head.appendChild(common);
+ const style=document.createElement('link');style.rel='stylesheet';style.href=SITE_ROOT+'assets/repair-v63.css?v=65';document.head.appendChild(style);
  const BASE=SITE_ROOT+"games/assets/";
  async function inject(id,file){
    const node=document.getElementById(id); if(!node)return;
@@ -12,7 +12,7 @@
  document.querySelectorAll('a[href^="/examine-the-past-home/"]').forEach(a=>{const raw=a.getAttribute("href");a.setAttribute("href",SITE_ROOT+raw.replace(/^\/examine-the-past-home\//,""))});
  document.querySelectorAll('img[src^="/examine-the-past-home/"]').forEach(img=>{const raw=img.getAttribute("src");img.setAttribute("src",SITE_ROOT+raw.replace(/^\/examine-the-past-home\//,""))});
  if(!document.querySelector('link[data-etp-game-experience]')){const l=document.createElement("link");l.rel="stylesheet";l.href=SITE_ROOT+"assets/etp-experience-v50.css?v=62";l.dataset.etpGameExperience="1";document.head.appendChild(l)}
- if(!document.querySelector('script[data-etp-game-experience]')){const x=document.createElement("script");x.src=SITE_ROOT+"assets/etp-experience-v50.js?v=64";x.dataset.etpGameExperience="1";document.head.appendChild(x)}
+ if(!document.querySelector('script[data-etp-game-experience]')){const x=document.createElement("script");x.src=SITE_ROOT+"assets/etp-experience-v50.js?v=65";x.dataset.etpGameExperience="1";document.head.appendChild(x)}
 
 
  window.ETPRepair?.refreshHeader();
