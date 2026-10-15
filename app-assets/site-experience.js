@@ -10,7 +10,25 @@ function action(text,fn,cls=''){const b=el('button','x-action '+cls,text);b.type
 const icon='<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>';
 function dialog(type,title){const d=el('dialog',type),head=el('div','x-dialog-heading'),img=el('img');img.src=asset('icon-192.png');img.alt='';const copy=el('div');copy.append(el('small','',cfg.name),el('h2','',title));const close=action('×',()=>d.close());close.setAttribute('aria-label','Close '+title);head.append(img,copy,close);d.append(head);d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close();}});document.body.append(d);return d;}
 function divider(index=0){const n=document.createElementNS('http://www.w3.org/2000/svg','svg');n.setAttribute('class','x-divider');n.setAttribute('viewBox','0 0 420 20');n.setAttribute('aria-hidden','true');const designs=['M0 10H100Q130 -5 160 10T220 10T280 10H420','M0 10H140C165 10 160 -6 180 4S170 25 200 10H420','M0 10Q70 2 140 10T280 10T420 10','M0 10H90L110 5L130 15L150 10H280Q300 0 320 10H420'];const start=65+index*11,bend=start+32;const unique='M0 10H'+start+'C'+bend+' 10 '+bend+' '+(1+index%4)+' '+(bend+18)+' '+(1+index%4)+'S'+(bend+7)+' '+(19-index%4)+' '+(bend+40)+' 10H420';n.innerHTML='<path d="M0 10H420" opacity=".3"/><path class="x-flow" d="'+unique+'"/>';n.querySelector('.x-flow').style.animationDuration=(10+index)+'s';n.style.setProperty('--x-divider-speed',(10+index)+'s');return n;}
+function etpMenu(){
+ const host=$('#etpSiteHeader .etp-header-inner'),source=$('#etpSiteHeader .etp-mobile-panel'),row=$('#etpSiteHeader .etp-icon-nav');
+ if(!host||!source||!row)return;
+ const menu=dialog('x-menu','Menu');menu.id='site-experience-menu';
+ const options=el('div','etp-menu-options'),light=row.querySelector('[data-etp-action="lights"]');
+ if(light){const wrap=light.closest('.etp-nav-item');const label=el('span','','Page lighting');options.append(label,light);wrap?.remove();}
+ const install=action('Install App',()=>{menu.close();window.siteInstallApp?.();});options.append(install);menu.append(options);
+ const links=el('nav','x-menu-items');links.setAttribute('aria-label','Examine the Past navigation');
+ source.querySelectorAll('a[href]').forEach(a=>{const copy=a.cloneNode(true);copy.classList.add('x-menu-item');copy.addEventListener('click',()=>menu.close());links.append(copy);});menu.append(links);
+ const toggle=el('button','x-menu-toggle etp-menu-toggle');toggle.type='button';toggle.setAttribute('aria-label','Open navigation');toggle.setAttribute('aria-haspopup','dialog');toggle.setAttribute('aria-controls',menu.id);toggle.setAttribute('aria-expanded','false');toggle.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>';toggle.onclick=()=>{menu.showModal();toggle.setAttribute('aria-expanded','true');};menu.addEventListener('close',()=>toggle.setAttribute('aria-expanded','false'));host.prepend(toggle);
+ all('.etp-mobile-toggle,.etp-mobile-panel').forEach(n=>n.remove());
+ row.querySelectorAll('.etp-nav-item').forEach(w=>{const a=w.querySelector('a,button'),label=w.querySelector('.etp-tip')?.textContent;if(a&&label)a.setAttribute('aria-label',label);});
+ const tip=el('div','etp-nav-tooltip');tip.hidden=true;tip.setAttribute('role','tooltip');tip.id='etp-nav-tooltip';document.body.append(tip);
+ function hide(){tip.hidden=true;row.querySelectorAll('[aria-describedby="etp-nav-tooltip"]').forEach(n=>n.removeAttribute('aria-describedby'));}
+ function show(e){const a=e.target.closest('a,button');if(!a||!row.contains(a))return;tip.textContent=a.getAttribute('aria-label');tip.hidden=false;a.setAttribute('aria-describedby',tip.id);const r=a.getBoundingClientRect(),width=tip.getBoundingClientRect().width;tip.style.left=Math.max(5,Math.min(innerWidth-width-5,r.left+r.width/2-width/2))+'px';tip.style.top=Math.max(2,r.top-12)+'px';}
+ row.addEventListener('pointerover',show);row.addEventListener('focusin',show);row.addEventListener('pointerout',hide);row.addEventListener('focusout',hide);addEventListener('scroll',hide,{passive:true});
+}
 function addMenu(){
+ if(cfg.slug==='examine-the-past-home'){etpMenu();return;}
  if(cfg.slug==='perennial-home-and-gardens')return;
  if(cfg.slug==='ie')return; // i.e. already uses the approved compact dropdown.
  const sources=all(cfg.navSources).filter(n=>!n.closest('.x-menu'));
@@ -44,7 +62,7 @@ function addMenu(){
 }
 function brandNative(){
  const panel=$(cfg.nativePanel||'[data-no-native]');if(!panel)return;
- panel.classList.add('x-native-panel');
+ panel.classList.add('x-native-panel');if(cfg.slug==='examine-the-past-home')return;
  if(cfg.slug==='ie'){
   const identity=panel.querySelector('.music-identity');if(identity&&!identity.querySelector('.x-brand-name')){const small=el('small','x-brand-name','InAct Entertainment');small.style.cssText='display:block;font:11px Georgia,serif';identity.insertBefore(small,identity.lastElementChild);}
   return;
@@ -120,7 +138,8 @@ async function genericPlayer(){
 }
 function init(){
  const body=document.body;body.dataset.siteSlug=cfg.slug;for(const [key,value] of Object.entries({high:cfg.high,mid:cfg.mid,low:cfg.low,ink:cfg.ink}))body.style.setProperty('--x-'+key,value);
- const link=el('link');link.rel='stylesheet';link.href=asset('site-experience.css?v=20261015-quiet');document.head.append(link);
+ if(cfg.slug==='examine-the-past-home'){const etp=el('link');etp.rel='stylesheet';etp.href=asset('etp-refinements.css?v=20261015');document.head.append(etp);}
+ const link=el('link');link.rel='stylesheet';link.href=asset('site-experience.css?v=20261015-etp');document.head.append(link);
  function syncTheme(){const m=getComputedStyle(document.body).color.match(/[\d.]+/g)||[240,240,240];const light=cfg.slug!=='ie'&&(+m[0]*.2126 + +m[1]*.7152 + +m[2]*.0722)<145;body.style.setProperty('--x-panel',light?'#f1eee7':'#0c100f');body.style.setProperty('--x-text',light?'#262923':'#eee');}
  syncTheme();for(const n of [document.body,document.documentElement])new MutationObserver(syncTheme).observe(n,{attributes:true,attributeFilter:['class','data-theme']});
  addMenu();brandNative();genericPlayer();

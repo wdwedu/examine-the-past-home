@@ -61,3 +61,11 @@ elif slug=='examine-the-past-home':
   s=s.replace("+playlist.length+'</button><p>Your playlist", "+playlist.length+'</button></details><p>Your playlist")
   p.write_text(s)
 print(slug+': site-specific refinements complete')
+
+# Refresh shared assets on every route after the ETP interface repair.
+if slug=='examine-the-past-home':
+ for page in root.rglob('*.html'):
+  value=page.read_text()
+  value=re.sub(r'(assets/(?:site-shell\.(?:js|css)|home-expansion\.js|etp-experience-v50\.(?:js|css)|repair-v63\.(?:js|css)|brand-v65\.css))(?:\?v=[^"\s<>]+)?',lambda m:m[1]+'?v=20261015-etp',value)
+  value=value.replace('app-assets/install.js"','app-assets/install.js?v=20261015-etp"')
+  page.write_text(value)

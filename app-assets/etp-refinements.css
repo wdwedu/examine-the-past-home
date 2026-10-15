@@ -1,0 +1,52 @@
+/* Examine the Past: visible icon navigation and uncluttered native media. */
+#etpSiteHeader .etp-header-inner{min-height:58px!important;padding:8px 10px!important;max-width:1180px;display:flex!important;gap:10px;overflow:visible!important;align-items:center!important}
+#etpSiteHeader .etp-icon-nav{display:flex!important;flex:1;min-width:0!important;gap:clamp(2px,1.2vw,16px)!important;justify-content:center!important;flex-wrap:wrap!important}
+#etpSiteHeader .etp-icon-btn{border:0!important;background:transparent!important;box-shadow:none!important;min-width:24px}
+#etpSiteHeader .etp-tip{display:none!important}
+#etpSiteHeader button.etp-menu-toggle.etp-menu-toggle{width:36px!important;height:40px!important;min-width:36px!important;padding:6px!important;margin:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;color:#fff!important;animation:none!important;flex:none}
+#etpSiteHeader button.etp-menu-toggle::after{display:none!important}
+.etp-menu-toggle svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.8}
+.etp-menu-options{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:14px 0 20px;color:#fff}
+.etp-menu-options .etp-icon-btn{background:transparent;border:0;font-size:24px}
+.etp-nav-tooltip{position:fixed;z-index:2147483100;pointer-events:none;background:#101510;border:1px solid #94ff5370;color:#fff;padding:5px 9px;border-radius:6px;font:12px/1.3 Georgia,serif;max-width:calc(100vw - 10px);box-shadow:0 3px 12px #0008}
+.etp-nav-tooltip[hidden]{display:none!important}
+#etpSiteHeader .site-app-button,.site-app-mobile-rail,.etp-media-dock{display:none!important}
+#etpSiteFooter .site-app-footer-text{display:block!important;background:transparent!important;color:#fff!important;border:0!important;border-radius:0!important;padding:3px 0!important;margin:0!important;font:700 italic .92rem/1.45 Georgia,serif!important;text-align:left;box-shadow:none!important;animation:none!important;cursor:pointer}
+#etpSiteFooter .site-app-footer-text::before,#etpSiteFooter .site-app-footer-text::after{display:none!important}
+#etpSiteFooter .site-app-footer-text:hover,#etpSiteFooter .site-app-footer-text:focus-visible{color:#fff200!important;text-decoration:underline}
+#etpSiteFooter .etp-community a{width:34px!important;height:34px!important;overflow:visible!important;background:transparent!important;border:0!important;flex:none}
+#etpSiteFooter .etp-community img{width:28px!important;height:28px!important;object-fit:contain!important;border-radius:0!important;filter:none!important}
+#etpSiteFooter .etp-community a[title="Zazzle"]{background:#fff!important;border-radius:50%}
+.etp-jukebox-overlay .etp-jukebox-card .etp-jukebox-top{display:flex!important;align-items:flex-start;justify-content:space-between;gap:12px;margin:0 0 14px;width:100%}
+.etp-jukebox-overlay .etp-jukebox-card .etp-jukebox-brand{display:flex!important;position:static!important;order:0;flex:1;min-width:0;padding:0!important;margin:0!important;background:transparent!important;border:0!important;box-shadow:none!important;gap:12px}
+.etp-jukebox-overlay .etp-jukebox-card .etp-jukebox-brand img{width:56px;height:56px;flex:none;object-fit:contain}
+.etp-jukebox-overlay .etp-jukebox-card .etp-jukebox-brand span{font:italic clamp(12px,3.4vw,19px)/1.35 Georgia,serif;color:#94ff53;display:block;margin:0 0 4px}
+.etp-jukebox-overlay .etp-jukebox-card .etp-jukebox-brand h2{font:700 clamp(25px,5vw,38px)/1.1 Georgia,serif!important;margin:0!important;color:#fff200!important}
+.etp-jukebox-overlay .etp-jukebox-actions{display:flex;order:1;gap:6px;flex:none}
+.etp-jukebox-overlay .etp-jukebox-card :is(.etp-jukebox-min,.etp-jukebox-close){position:static!important;inset:auto!important;transform:none!important;display:grid!important;place-items:center!important;width:32px!important;height:32px!important;min-width:32px!important;padding:0!important;margin:0!important;font:22px/1 Georgia,serif!important;animation:none!important;flex:none}
+.etp-jukebox-overlay .etp-spectrum{display:block!important;width:100%!important;max-width:none!important;height:24px!important;margin:12px 0 28px;overflow:visible;fill:none;stroke-width:1.2;stroke-linecap:round}
+.etp-spectrum-base{stroke:#94ff5350}.etp-spectrum-wave{stroke:#fff200;stroke-dasharray:115 12;animation:etp-spectrum-flow 7s linear infinite,etp-spectrum-pulse 3s ease-in-out infinite;filter:drop-shadow(0 0 2px #fff20066)}
+@keyframes etp-spectrum-flow{to{stroke-dashoffset:-254}}@keyframes etp-spectrum-pulse{50%{opacity:.45}}
+.etp-jukebox-overlay .etp-jukebox-card .x-playlists{margin:26px 0 20px;padding:0;border:0;background:transparent}
+.etp-jukebox-overlay .etp-jukebox-card .x-playlists summary{text-align:left;color:#fff;font:14px Georgia,serif;cursor:pointer}
+.etp-jukebox-overlay .etp-history-link{display:block;width:100%;box-sizing:border-box;text-align:center;margin:20px 0 0;padding:13px 18px;border-radius:10px;border:1px solid #fff28c;background:#fff200;color:#171600!important;text-decoration:none;font:700 16px/1.3 Georgia,serif}
+.etp-jukebox-overlay .etp-history-link:hover{box-shadow:0 0 16px #fff20040}
+.etp-jukebox-overlay .etp-juke-footer{position:static!important;display:flex!important;align-items:center;justify-content:center;width:100%;margin:26px 0 0!important;padding:18px 0 0!important;background:transparent!important;box-shadow:none!important;border:0!important;border-top:1px solid #94ff5340!important;font:11px/1.7 Georgia,serif;color:#ddd;gap:12px}
+.etp-jukebox-overlay .etp-juke-footer img{display:block;width:44px;height:44px;object-fit:contain;flex:none}
+.etp-jukebox-overlay .etp-selection-details{margin:18px 0 0;padding-top:14px;text-align:left}
+.etp-jukebox-overlay .etp-selection-details summary{text-align:left!important}
+.etp-jukebox-overlay .etp-watch-source{margin:14px 0 6px!important;text-align:left}
+.etp-jukebox-overlay .etp-juke-message:empty{display:none}
+.etp-jukebox-overlay .etp-juke-back{margin-bottom:22px}
+body.ie-reader #page-tools{min-height:42px!important;background:#000!important;border-top:1px solid #94ff5360!important;transition:none!important}
+body.ie-reader #page-tools button{background:#19251c!important;color:#fff200!important;border:1px solid #94ff5355!important;box-shadow:none!important;animation:none!important}
+body.ie-reader #page-tools button:hover,body.ie-reader #page-tools button:focus-visible{background:#2b3a24!important;outline:1px solid #fff200;outline-offset:2px}
+body.ie-reader #page-tools button[aria-pressed="true"],body.ie-reader #page-tools button[data-playing="true"]{background:#fff200!important;color:#111!important}
+@media(max-width:759px){#etpSiteHeader .etp-header-inner{gap:4px!important;padding:8px 5px!important}#etpSiteHeader .etp-icon-nav{gap:2px!important}#etpSiteHeader .etp-icon-btn{width:24px!important;height:36px!important;font-size:17px!important}#etpSiteHeader .etp-sound-bars{transform:scale(.7)}#etpSiteHeader button.etp-menu-toggle.etp-menu-toggle{width:28px!important;min-width:28px!important;padding:2px!important}#etpSiteFooter .site-app-footer-text{font-size:.8rem!important}}
+@media(max-width:390px){.etp-jukebox-overlay .etp-jukebox-card .etp-jukebox-brand{gap:7px}.etp-jukebox-overlay .etp-jukebox-card .etp-jukebox-brand img{width:38px;height:38px}.etp-jukebox-overlay .etp-jukebox-actions{gap:4px}.etp-jukebox-overlay .etp-jukebox-card :is(.etp-jukebox-min,.etp-jukebox-close){width:28px!important;min-width:28px!important;height:30px!important}}
+@media(prefers-reduced-motion:reduce){.etp-spectrum-wave{animation:none!important}}
+body.comfort-still .etp-spectrum-wave{animation:none!important}
+
+#etpSiteFooter{border-top:1px solid #94ff5370!important}
+#etpSiteFooter .etp-footer-credit{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:16px;font:11px/1.5 Georgia,serif;color:#ddd}
+#etpSiteFooter .etp-footer-credit img{width:36px;height:36px;object-fit:contain}

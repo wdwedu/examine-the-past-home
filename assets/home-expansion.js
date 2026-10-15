@@ -3,14 +3,14 @@
 (()=> {
   if(!document.querySelector('link[href*="site-shell.css"]')){
     const l=document.createElement('link');
-    l.rel='stylesheet'; l.href='assets/site-shell.css?v=48';
+    l.rel='stylesheet'; l.href='assets/site-shell.css?v=20261015-etp';
     document.head.appendChild(l);
   }
   if(!document.getElementById('etpSiteHeader')){
     const s=document.createElement('script');
-    s.src='assets/site-shell.js?v=48';
+    s.src='assets/site-shell.js?v=20261015-etp';
     s.dataset.etpRoot='./';
-    s.dataset.noFooter='true';
+    s.dataset.noFooter='false';
     document.body.appendChild(s);
   }
 })();

@@ -19,34 +19,30 @@ function setTheme(mode,persist=true){
  document.dispatchEvent(new CustomEvent('etp-theme-change',{detail:mode}));
 }
 window.ETPTheme={set:setTheme,get:()=>themeMode,toggle:()=>setTheme(themeMode==='off'?'on':'off')};setTheme(themeMode,false);
-const brandCSS=document.createElement('link');brandCSS.rel='stylesheet';brandCSS.href=url('assets/brand-v65.css?v=65');brandCSS.dataset.etpBrand='65';document.head.append(brandCSS);
+const brandCSS=document.createElement('link');brandCSS.rel='stylesheet';brandCSS.href=url('assets/brand-v65.css?v=20261015-etp');brandCSS.dataset.etpBrand='65';document.head.append(brandCSS);
 window.addEventListener('storage',e=>{if(e.key===themeKey)setTheme(e.newValue,false)});
 
 function stopMusic(){window.ETPExperience?.stopPlayer();document.querySelectorAll('audio,video').forEach(a=>a.pause());document.querySelectorAll('.etp-jukebox-overlay iframe').forEach(f=>{f.src='';});try{sessionStorage.setItem('etp-music-playing','off')}catch{}}
 let readerLoading=false;
 function enableReader(){
  const main=document.querySelector('main');
- if(readerLoading||!main||document.getElementById('page-tools')||!document.querySelector('.lesson-grid,[data-lesson-id],article[data-article],.article-body,.guide-body,main[data-etp-reading]'))return;
+ if(readerLoading||!main||document.getElementById('page-tools')||location.pathname===root||location.pathname===root+'index.html'||document.body.dataset.home==='true')return;
  readerLoading=true;document.body.dataset.reader='true';document.querySelector('.etp-reader')?.remove();
- for(const name of ['read-aloud.css','page-tools.css','reader-comfort.css']){const l=document.createElement('link');l.rel='stylesheet';l.href=url('assets/'+name+'?v=65');document.head.append(l)}
+ for(const name of ['read-aloud.css','page-tools.css','reader-comfort.css']){const l=document.createElement('link');l.rel='stylesheet';l.href=url('assets/'+name+'?v=20261015');document.head.append(l)}
  const bar=document.createElement('aside');bar.id='page-tools';bar.innerHTML='<button class="light-toggle" type="button">Comfort</button><div class="reader-utilities"></div><div class="reader-right"></div>';document.body.append(bar);
- function load(name){return new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=url('assets/'+name+'?v=65');s.onload=resolve;s.onerror=reject;document.head.append(s)})}
+ function load(name){return new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=url('assets/'+name+'?v=20261015');s.onload=resolve;s.onerror=reject;document.head.append(s)})}
  load('read-aloud.js').then(()=>load('reader-comfort.js')).then(()=>{
  document.head.append(brandCSS);setTheme(themeMode,false);const settings=document.getElementById('read-settings');if(!settings)return;
  const restart=document.createElement('button');restart.type='button';restart.id='read-restart';restart.textContent='Restart';restart.onclick=()=>{document.getElementById('read-stop').click();document.getElementById('read-play').click()};settings.append(restart);
  ['read-play','read-here','read-restart'].forEach(id=>document.getElementById(id)?.addEventListener('click',stopMusic,{capture:true}));
  document.querySelectorAll('audio').forEach(a=>a.addEventListener('play',()=>document.getElementById('read-stop')?.click()));
- const update=()=>{const foot=document.querySelector('#etpSiteFooter,#game-shell-footer,body>footer'),height=bar.getBoundingClientRect().height;const overlap=foot?Math.max(0,innerHeight-foot.getBoundingClientRect().top):0;bar.style.setProperty('--tools-footer-offset',Math.min(overlap,innerHeight-height)+'px');document.documentElement.style.setProperty('--etp-reader-height',height+'px')};
- window.addEventListener('scroll',update,{passive:true});window.addEventListener('resize',update);new ResizeObserver(update).observe(bar);update();
+ const update=()=>{const foot=(document.getElementById('etpSiteFooter')||document.querySelector('body>footer:not([hidden])')),height=bar.getBoundingClientRect().height;const overlap=foot?Math.max(0,innerHeight-foot.getBoundingClientRect().top):0;bar.style.setProperty('--tools-footer-offset',overlap+'px');document.documentElement.style.setProperty('--etp-reader-height',height+'px')};
+ window.addEventListener('scroll',update,{passive:true});window.addEventListener('resize',update);const resize=new ResizeObserver(update);resize.observe(bar);const foot=document.querySelector('#etpSiteFooter,body>footer');if(foot)resize.observe(foot);update();
  }).catch(()=>{bar.remove();readerLoading=false;console.error('Reading bar could not load')});
 }
 function refreshHeader(){const header=document.getElementById('etpSiteHeader')||document.querySelector('#game-shell-nav header');if(header&&!header.dataset.repairObserved){header.dataset.repairObserved='true';const resize=()=>document.documentElement.style.setProperty('--etp-header-height',header.getBoundingClientRect().height+'px');new ResizeObserver(resize).observe(header);resize()}}
 window.ETPRepair={stopMusic,enableReader,refreshHeader};
 function boot(){
- const dock=document.createElement('div');dock.className='etp-media-dock';dock.setAttribute('aria-label','Music controls');dock.innerHTML='<button type="button" data-etp-action="jukebox">Music / Media</button><button type="button" id="music-stop">Music Off</button>';document.body.append(dock);
- dock.querySelector('#music-stop').onclick=stopMusic;
- // Game pages and ordinary pages share one explicit-choice player.
- dock.querySelector('[data-etp-action]').addEventListener('click',()=>{if(!window.ETPExperience)console.warn('Music player is still loading')});
  document.querySelectorAll('audio').forEach(a=>{a.autoplay=false;a.removeAttribute('autoplay');a.pause();a.addEventListener('play',()=>{document.querySelectorAll('audio,video').forEach(other=>{if(other!==a)other.pause()});document.querySelectorAll('.etp-jukebox-overlay iframe').forEach(f=>f.src='')})});
  let previous=null;try{previous=sessionStorage.getItem('etp-last-page');if(previous!==location.href)sessionStorage.setItem('etp-last-page',location.href)}catch{}
  if(/\/(maps|timeline)\/(?:index\.html)?$/.test(location.pathname)){

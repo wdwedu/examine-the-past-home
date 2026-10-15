@@ -3,6 +3,12 @@ on:
   push:
     paths:
       - 'app-assets/**'
+      - 'assets/etp-experience-v50.js'
+      - 'assets/repair-v63.js'
+      - 'assets/site-shell.js'
+      - 'assets/home-expansion.js'
+      - 'assets/social/**'
+      - 'assets/ie-credit.png'
       - '.github/scripts/refine_experience.py'
       - '.github/scripts/enable_app.py'
       - '.github/scripts/app-config.json'
@@ -34,6 +40,8 @@ jobs:
         run: |
           node --check app-assets/install.js
           node --check app-assets/site-experience.js
+          node --check assets/etp-experience-v50.js
+          node --check assets/repair-v63.js
       - name: Save app support
         run: |
           git config user.name "github-actions[bot]"
@@ -49,5 +57,8 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
+          name: pages-${{ github.run_id }}-${{ github.run_attempt }}
       - uses: actions/deploy-pages@v4
         id: deploy
+        with:
+          artifact_name: pages-${{ github.run_id }}-${{ github.run_attempt }}
