@@ -65,7 +65,7 @@
   }
   window.siteInstallApp=install;
   window.__siteExperienceConfig=brand;
-  const experience=document.createElement("script");experience.src=new URL("site-experience.js?v=20261015-etp",document.currentScript.src).href;document.head.append(experience);
+  const experience=document.createElement("script");experience.src=new URL("site-experience.js?v=20261015-etp-r2",document.currentScript.src).href;document.head.append(experience);
   function init() {
     document.querySelectorAll('.site-app-footer,.site-app-desktop,.site-app-mobile').forEach(n=>n.remove());
     const learn=[...document.querySelectorAll('#etpSiteFooter .etp-footer-grid a')].find(a=>a.textContent.trim()==='All Lessons');

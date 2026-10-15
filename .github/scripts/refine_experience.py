@@ -62,10 +62,21 @@ elif slug=='examine-the-past-home':
   p.write_text(s)
 print(slug+': site-specific refinements complete')
 
-# Refresh shared assets on every route after the ETP interface repair.
+# One shared header/footer on every page, including all playable games.
 if slug=='examine-the-past-home':
+ import os
  for page in root.rglob('*.html'):
+  if 'assets' in page.parts:continue  # HTML fragments are not pages.
   value=page.read_text()
-  value=re.sub(r'(assets/(?:site-shell\.(?:js|css)|home-expansion\.js|etp-experience-v50\.(?:js|css)|repair-v63\.(?:js|css)|brand-v65\.css))(?:\?v=[^"\s<>]+)?',lambda m:m[1]+'?v=20261015-etp',value)
-  value=value.replace('app-assets/install.js"','app-assets/install.js?v=20261015-etp"')
+  shell=os.path.relpath(root/'assets/site-shell.js',page.parent).replace(os.sep,'/')
+  value=re.sub(r'(<script\b[^>]*\bsrc=["\'])[^"\']*assets/site-shell\.js(?:\?[^"\']*)?(["\'])',lambda m:m[1]+shell+'?v=20261015-etp-r2'+m[2],value)
+  value=re.sub(r'(assets/(?:site-shell\.(?:js|css)|home-expansion\.js|etp-experience-v50\.(?:js|css)|repair-v63\.(?:js|css)|brand-v65\.css))(?:\?v=[^"\s<>]+)?',lambda m:m[1]+'?v=20261015-etp-r2',value)
+  value=re.sub(r'(app-assets/install\.js)(?:\?v=[^"\s<>]+)?',lambda m:m[1]+'?v=20261015-etp-r2',value)
+  if page.as_posix()=='teacher-tools/learning-styles/index.html':
+   if not re.search(r'<script[^>]+src=["\'][^"\']*assets/site-shell\.js',value):
+    value=value.replace('</head>',f'<script defer src="{shell}?v=20261015-etp-r2"></script></head>',1)
+   # Keep the learner-specific buttons as a local tool strip under the shared header.
+   if '<header class="topbar">' in value:
+    value=value.replace('<header class="topbar">','<section class="topbar etp-learning-toolbar">',1).replace('</header>','</section>',1)
+   value=value.replace('<footer class="mega-footer" id="site-footer">','<footer class="mega-footer" id="site-footer" hidden style="display:none!important">')
   page.write_text(value)

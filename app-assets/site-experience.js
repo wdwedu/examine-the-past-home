@@ -15,11 +15,11 @@ function etpMenu(){
  if(!host||!source||!row)return;
  const menu=dialog('x-menu','Menu');menu.id='site-experience-menu';
  const options=el('div','etp-menu-options'),light=row.querySelector('[data-etp-action="lights"]');
- if(light){const wrap=light.closest('.etp-nav-item');const label=el('span','','Page lighting');options.append(label,light);wrap?.remove();}
+ if(light){const wrap=light.closest('.etp-nav-item');light.classList.add('etp-menu-light');light.innerHTML='<span aria-hidden="true">💡</span><span data-etp-lights-label>'+ (document.body.classList.contains('etp-lights-on')?'Lights On':'Lights Off')+'</span>';wrap?.remove();}
  const install=action('Install App',()=>{menu.close();window.siteInstallApp?.();});options.append(install);menu.append(options);
  const links=el('nav','x-menu-items');links.setAttribute('aria-label','Examine the Past navigation');
- source.querySelectorAll('a[href]').forEach(a=>{const copy=a.cloneNode(true);copy.classList.add('x-menu-item');copy.addEventListener('click',()=>menu.close());links.append(copy);});menu.append(links);
- const toggle=el('button','x-menu-toggle etp-menu-toggle');toggle.type='button';toggle.setAttribute('aria-label','Open navigation');toggle.setAttribute('aria-haspopup','dialog');toggle.setAttribute('aria-controls',menu.id);toggle.setAttribute('aria-expanded','false');toggle.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>';toggle.onclick=()=>{menu.showModal();toggle.setAttribute('aria-expanded','true');};menu.addEventListener('close',()=>toggle.setAttribute('aria-expanded','false'));host.prepend(toggle);
+ source.querySelectorAll('a[href]').forEach(a=>{const copy=a.cloneNode(true);if(new URL(a.href).pathname.includes('/lessons/us-history/')){const flag=el('img','etp-us-flag');flag.src=new URL('../assets/icons/us-flag.svg',base).href;flag.alt='United States flag';copy.querySelector('span')?.replaceChildren(flag);}copy.classList.add('x-menu-item');copy.addEventListener('click',()=>menu.close());links.append(copy);});menu.append(links);if(light){const bottom=el('div','etp-menu-bottom');bottom.append(light);menu.append(bottom);}
+ const toggle=el('button','x-menu-toggle etp-menu-toggle');toggle.type='button';toggle.setAttribute('aria-label','Open navigation');toggle.setAttribute('aria-haspopup','dialog');toggle.setAttribute('aria-controls',menu.id);toggle.setAttribute('aria-expanded','false');toggle.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>';toggle.onclick=()=>{menu.showModal();toggle.setAttribute('aria-expanded','true');};menu.addEventListener('close',()=>toggle.setAttribute('aria-expanded','false'));host.append(toggle);
  all('.etp-mobile-toggle,.etp-mobile-panel').forEach(n=>n.remove());
  row.querySelectorAll('.etp-nav-item').forEach(w=>{const a=w.querySelector('a,button'),label=w.querySelector('.etp-tip')?.textContent;if(a&&label)a.setAttribute('aria-label',label);});
  const tip=el('div','etp-nav-tooltip');tip.hidden=true;tip.setAttribute('role','tooltip');tip.id='etp-nav-tooltip';document.body.append(tip);
@@ -138,8 +138,8 @@ async function genericPlayer(){
 }
 function init(){
  const body=document.body;body.dataset.siteSlug=cfg.slug;for(const [key,value] of Object.entries({high:cfg.high,mid:cfg.mid,low:cfg.low,ink:cfg.ink}))body.style.setProperty('--x-'+key,value);
- if(cfg.slug==='examine-the-past-home'){const etp=el('link');etp.rel='stylesheet';etp.href=asset('etp-refinements.css?v=20261015');document.head.append(etp);}
- const link=el('link');link.rel='stylesheet';link.href=asset('site-experience.css?v=20261015-etp');document.head.append(link);
+ if(cfg.slug==='examine-the-past-home'){const etp=el('link');etp.rel='stylesheet';etp.href=asset('etp-refinements.css?v=20261015-r2');document.head.append(etp);}
+ const link=el('link');link.rel='stylesheet';link.href=asset('site-experience.css?v=20261015-etp-r2');document.head.append(link);
  function syncTheme(){const m=getComputedStyle(document.body).color.match(/[\d.]+/g)||[240,240,240];const light=cfg.slug!=='ie'&&(+m[0]*.2126 + +m[1]*.7152 + +m[2]*.0722)<145;body.style.setProperty('--x-panel',light?'#f1eee7':'#0c100f');body.style.setProperty('--x-text',light?'#262923':'#eee');}
  syncTheme();for(const n of [document.body,document.documentElement])new MutationObserver(syncTheme).observe(n,{attributes:true,attributeFilter:['class','data-theme']});
  addMenu();brandNative();genericPlayer();

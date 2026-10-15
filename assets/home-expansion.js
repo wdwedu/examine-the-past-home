@@ -3,12 +3,12 @@
 (()=> {
   if(!document.querySelector('link[href*="site-shell.css"]')){
     const l=document.createElement('link');
-    l.rel='stylesheet'; l.href='assets/site-shell.css?v=20261015-etp';
+    l.rel='stylesheet'; l.href='assets/site-shell.css?v=20261015-etp-r2';
     document.head.appendChild(l);
   }
   if(!document.getElementById('etpSiteHeader')){
     const s=document.createElement('script');
-    s.src='assets/site-shell.js?v=20261015-etp';
+    s.src='assets/site-shell.js?v=20261015-etp-r2';
     s.dataset.etpRoot='./';
     s.dataset.noFooter='false';
     document.body.appendChild(s);

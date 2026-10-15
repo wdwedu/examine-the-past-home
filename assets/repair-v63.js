@@ -19,7 +19,7 @@ function setTheme(mode,persist=true){
  document.dispatchEvent(new CustomEvent('etp-theme-change',{detail:mode}));
 }
 window.ETPTheme={set:setTheme,get:()=>themeMode,toggle:()=>setTheme(themeMode==='off'?'on':'off')};setTheme(themeMode,false);
-const brandCSS=document.createElement('link');brandCSS.rel='stylesheet';brandCSS.href=url('assets/brand-v65.css?v=20261015-etp');brandCSS.dataset.etpBrand='65';document.head.append(brandCSS);
+const brandCSS=document.createElement('link');brandCSS.rel='stylesheet';brandCSS.href=url('assets/brand-v65.css?v=20261015-etp-r2');brandCSS.dataset.etpBrand='65';document.head.append(brandCSS);
 window.addEventListener('storage',e=>{if(e.key===themeKey)setTheme(e.newValue,false)});
 
 function stopMusic(){window.ETPExperience?.stopPlayer();document.querySelectorAll('audio,video').forEach(a=>a.pause());document.querySelectorAll('.etp-jukebox-overlay iframe').forEach(f=>{f.src='';});try{sessionStorage.setItem('etp-music-playing','off')}catch{}}
