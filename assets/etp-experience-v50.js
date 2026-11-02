@@ -2,60 +2,229 @@
 let stopPlayer=()=>{};
 let sfx=(()=>{try{return localStorage.getItem("etp-sfx")!=="off"}catch{return true}})(),utterance=null,readerSpeed=1,currentTracks=[],currentIndex=-1,isPlaying=false;const LIGHT_KEY="etp-lights-mode";
 const library={
-"Rock / Pop":[
-{id:"eFTLKWw542g",title:"Billy Joel — We Didn't Start the Fire",note:"A rapid-fire survey of postwar people, events, culture, conflict, and change."}
-],
-"Hip-Hop":[
-{id:"HUZOKvYcx_o",title:"Common & John Legend — Glory",note:"A modern Civil Rights-era connection through the story and memory of Selma."}
-],
-"Soul / R&B":[
-{id:"wEBlaMOmKV4",title:"Sam Cooke — A Change Is Gonna Come",note:"A landmark Civil Rights-era song about hope, inequality, and social change."},
-{id:"A134hShx_gw",title:"Aretha Franklin — Respect",note:"A song closely associated with Civil Rights, women's rights, dignity, and social change."}
-],
-"Reggae":[
-{id:"uMUQMSXLlHM",title:"Bob Marley & The Wailers — Buffalo Soldier",note:"A musical doorway into Black military history, displacement, memory, and identity."}
-],
-"Jazz":[
-{id:"zqNTltOGh5c",title:"Miles Davis — So What",note:"Modal jazz and the sound of postwar American musical experimentation."},
-{id:"ej6gfL4yF4E",title:"John Coltrane — My Favorite Things",note:"A familiar melody transformed through improvisation during a major era of modern jazz."},
-{id:"rBrd_3VMC3c",title:"Louis Armstrong — What a Wonderful World",note:"A late-career recording by one of the foundational figures in the history of jazz."}
-],
-"Folk":[
-{id:"9ywYohqoM60",title:"Bob Dylan — The Times They Are A-Changin'",note:"Folk music as a voice for generational change, reform, and 1960s protest culture."}
-],
-"Afrobeat":[
-{id:"Qj5x6pbJMyU",title:"Fela Kuti — Zombie",note:"Afrobeat used as political resistance and criticism of military power in Nigeria."}
-],
-"Country":[
-{id:"bSTJR2VgwCE",title:"Johnny Cash — The Ballad of Ira Hayes",note:"A country narrative about Indigenous military service, public memory, and the costs of war."}
-],
-"Historical Songs":[
-{id:"M3tKJ8gSKSk",title:"Fisk Jubilee Singers — Wade in the Water",note:"An African American spiritual with deep roots in Black religious, cultural, and musical history."},
-{id:"wEBlaMOmKV4",title:"Sam Cooke — A Change Is Gonna Come",note:"Civil Rights-era music that can be paired with the history of protest, segregation, and social change.",fallback:"wEBlaMOmKV4"}
-],
-"Great American Songbook":[
-{id:"SmAs3262L9c",title:"Fred Astaire — Cheek to Cheek",note:"A popular standard tied to American film, dance, entertainment, and interwar popular culture."}
-],
-"Spirituals & Gospel":[
-{id:"haRTx76mmgY",title:"Bill McAdoo & Pete Seeger — Wade in the Water",note:"A Smithsonian Folkways recording connecting spiritual traditions, folk preservation, and Black musical history."}
-],
-"History Stories":[
-{id:"6E9WU9TGrec",title:"Crash Course U.S. History #1",note:"A fast overview of Native societies, Spanish colonization, and the problem of the 'Black Legend.'"},
-{id:"iIoYdC1Gkq8",title:"History of the Fourth of July",note:"A short history-focused video on the date, the Declaration, and traditions around Independence Day."}
-]};
+ "Hip-Hop / Lo-fi": [
+  {
+   "id": "T2kdotlE4Q8",
+   "title": "Lo-fi Hip-Hop — 1 Hour Focus Beats",
+   "note": "NatureSymphony · mellow instrumental beats for study and work"
+  },
+  {
+   "id": "J2UyOTS3UCE",
+   "title": "Krill Waves Radio — Two Hours of Chillhop",
+   "note": "Monterey Bay Aquarium · mostly instrumental ocean-themed lo-fi"
+  },
+  {
+   "id": "0M5kukiPjMQ",
+   "title": "Krill Waves Radio — Two Hours of Comb Jellies",
+   "note": "Monterey Bay Aquarium · mostly instrumental lo-fi beats"
+  }
+ ],
+ "Soul / R&B": [
+  {
+   "id": "Hp99F_INIMU",
+   "title": "Smooth R&B Instrumentals — 1 Hour",
+   "note": "Dazai Beats · gentle R&B beats, no lead vocals"
+  },
+  {
+   "id": "kALePlJG9tg",
+   "title": "Slow Jam Instrumentals — 80 Minutes",
+   "note": "Fasol Prod · mellow R&B and neo-soul instrumental set"
+  }
+ ],
+ "Reggae": [
+  {
+   "id": "uojgerbmFg4",
+   "title": "Slow Dub Reggae — 1 Hour",
+   "note": "Chill Fusion Sounds · mellow reggae instrumentals for study"
+  },
+  {
+   "id": "qSyFKpV13gQ",
+   "title": "Roots & Dub Instrumentals — 2 Hours",
+   "note": "Ras Dave · continuous roots reggae instrumental mix"
+  },
+  {
+   "id": "iJi5a2c32n4",
+   "title": "Dub in the Treehouse — 2 Hours 20 Minutes",
+   "note": "Futuristic Sound · ambient psychedelic dub"
+  }
+ ],
+ "Jazz": [
+  {
+   "id": "8K5uC-9u3kI",
+   "title": "Smooth Jazz Study Session — 1 Hour",
+   "note": "PLAYaudio · instrumental saxophone and jazz standards"
+  },
+  {
+   "id": "3mIkra4uwtQ",
+   "title": "Relaxing Background Jazz — 1 Hour",
+   "note": "ChilledVibes Lounge · instrumental saxophone and piano"
+  }
+ ],
+ "Folk / Acoustic": [
+  {
+   "id": "afOXMF--TVw",
+   "title": "Acoustic Folk Instrumentals — 1 Hour",
+   "note": "Blue Timber Music · gentle fiddle, guitar and mandolin"
+  },
+  {
+   "id": "-_mL2G0-TwM",
+   "title": "Through the Open Valley — 1 Hour",
+   "note": "Stillwood Hollow · acoustic country-folk instrumentals"
+  },
+  {
+   "id": "Q7918hbV-yc",
+   "title": "Whispers of the Old Porch — 1 Hour",
+   "note": "Stillwood Hollow · soft guitar, mandolin and banjo"
+  }
+ ],
+ "Afrobeat": [
+  {
+   "id": "Tm1x2foAmwk",
+   "title": "Afrobeat Instrumental Mix — 1 Hour",
+   "note": "Mykah Beats · rhythmic instrumental Afrobeat for focus"
+  },
+  {
+   "id": "t8U49NWLudw",
+   "title": "Afrobeat Study Instrumentals — 1 Hour",
+   "note": "Mykah Beats · continuous Afrobeat instrumental mix"
+  }
+ ],
+ "Country": [
+  {
+   "id": "B4BTkVd4rSM",
+   "title": "Peaceful Country Instrumentals — 1 Hour",
+   "note": "Country Melodies · relaxed country guitar and melodies"
+  },
+  {
+   "id": "5b0P4faH6Zs",
+   "title": "Country Guitar Instrumentals — 1 Hour",
+   "note": "Country guitar compilation · relaxed instrumental selections"
+  }
+ ],
+ "Classical / Piano": [
+  {
+   "id": "BVHe3zZQyRo",
+   "title": "Classical Masterpieces — 2 Hours",
+   "note": "Rhythmix Classical · instrumental orchestral and piano classics"
+  },
+  {
+   "id": "Vrb-d5qWI4g",
+   "title": "Classical Piano for Deep Focus — 2 Hours",
+   "note": "Rose Maris · original instrumental piano music"
+  }
+ ]
+};
 function setSfx(v){sfx=!!v;try{localStorage.setItem("etp-sfx",sfx?"on":"off")}catch(e){}if(window.ETPTransitions)window.ETPTransitions.setSound(sfx);document.querySelectorAll("[data-etp-sfx-state]").forEach(n=>n.textContent=sfx?"On":"Off")}
 const documentaries=[
- {id:'DQYzHIIQ1O4',title:'The March — Full Film',note:'National Archives restoration of James Blue’s film documenting the 1963 March on Washington.',source:'https://www.archives.gov/news/topics/african-american-history'},
- {id:'yjpYzFtxfjU',title:'The Gilded Age — Full Documentary',note:'American Experience / PBS documentary on the late nineteenth-century United States.',source:'https://www.wpbstv.org/the-gilded-age-full-documentary-american-experience-pbs/'}
+ {
+  "id": "T5PwyuzSYcs",
+  "title": "History of the Entire World — Documentary",
+  "note": "Made In History · survey of prehistory, ancient, medieval and modern history",
+  "source": "https://www.youtube.com/watch?v=T5PwyuzSYcs"
+ },
+ {
+  "id": "Xx0NzvZvAnI",
+  "title": "The Ancient World — Full Documentary",
+  "note": "Made In History · civilizations of Mesopotamia, Egypt, India, China, Greece and Rome",
+  "source": "https://www.youtube.com/watch?v=Xx0NzvZvAnI"
+ },
+ {
+  "id": "wPy87nNmC_g",
+  "title": "Ancient Rome: The Entire History",
+  "note": "HUMAN AGE · from the Roman kingdom and republic to the Byzantine period",
+  "source": "https://www.youtube.com/watch?v=wPy87nNmC_g"
+ },
+ {
+  "id": "Rzn81JLApvU",
+  "title": "The Medieval World — Full Documentary",
+  "note": "Made In History · Africa, Asia, Europe and the Americas, circa 500–1500 CE",
+  "source": "https://www.youtube.com/watch?v=Rzn81JLApvU"
+ },
+ {
+  "id": "H3bCn48G3Ew",
+  "title": "World War I — Full Documentary",
+  "note": "The Entire History · origins, global fighting and consequences, 1914–1918",
+  "source": "https://www.youtube.com/watch?v=H3bCn48G3Ew"
+ },
+ {
+  "id": "ABBeHdRR2PY",
+  "title": "World War II: A History — Part 2",
+  "note": "Extreme Mysteries / Janson Media · documentary chronicle of World War II",
+  "source": "https://www.youtube.com/watch?v=ABBeHdRR2PY"
+ },
+ {
+  "id": "DQYzHIIQ1O4",
+  "title": "The March — Restored Historical Film",
+  "note": "National Archives restoration · the 1963 March on Washington",
+  "source": "https://www.youtube.com/watch?v=DQYzHIIQ1O4"
+ },
+ {
+  "id": "yjpYzFtxfjU",
+  "title": "The Gilded Age — American Experience",
+  "note": "PBS American Experience · politics and society in late nineteenth-century America",
+  "source": "https://www.youtube.com/watch?v=yjpYzFtxfjU"
+ },
+ {
+  "id": "vnVwvPpdFeY",
+  "title": "Recorded Speeches: American History, 1933–2008",
+  "note": "TDC · archival speech compilation exploring twentieth-century US history",
+  "source": "https://www.youtube.com/watch?v=vnVwvPpdFeY"
+ }
 ];
 const speeches=[
- {id:'NwM6s55no6U',title:'John F. Kennedy — Inaugural Address',note:'January 20, 1961. Recording published by The Kennedy Center.',source:'https://www.youtube.com/watch?v=NwM6s55no6U'},
- {id:'7xd8MpR-5Ko',title:'Franklin D. Roosevelt — Day of Infamy',note:'FDR Library’s annotated “Pop-Up Video” of the address to Congress.',source:'https://www.youtube.com/watch?v=7xd8MpR-5Ko'}
+ {
+  "id": "d-lFkRZ0lfk",
+  "title": "Sojourner Truth — Akron Speech (Reenactment)",
+  "note": "1851 text performed by Sojourner Truth Education Committee; not an original recording",
+  "source": "https://www.youtube.com/watch?v=d-lFkRZ0lfk"
+ },
+ {
+  "id": "7xd8MpR-5Ko",
+  "title": "Franklin D. Roosevelt — Day of Infamy",
+  "note": "December 8, 1941; archival address and commentary from the FDR Library",
+  "source": "https://www.youtube.com/watch?v=7xd8MpR-5Ko"
+ },
+ {
+  "id": "s_LncVnecLA",
+  "title": "Winston Churchill — We Shall Fight on the Beaches",
+  "note": "June 4, 1940; wartime British parliamentary address recording",
+  "source": "https://www.youtube.com/watch?v=s_LncVnecLA"
+ },
+ {
+  "id": "NwM6s55no6U",
+  "title": "John F. Kennedy — Inaugural Address",
+  "note": "January 20, 1961; Kennedy Center published recording",
+  "source": "https://www.youtube.com/watch?v=NwM6s55no6U"
+ },
+ {
+  "id": "ouRbkBAOGEw",
+  "title": "John F. Kennedy — We Choose to Go to the Moon",
+  "note": "September 12, 1962; speech at Rice University",
+  "source": "https://www.youtube.com/watch?v=ouRbkBAOGEw"
+ },
+ {
+  "id": "g5OJ205MdKI",
+  "title": "Nelson Mandela — I Am Prepared to Die (Excerpts)",
+  "note": "1964 Rivonia Trial; excerpted audio, not the full statement",
+  "source": "https://www.youtube.com/watch?v=g5OJ205MdKI"
+ },
+ {
+  "id": "WX00QkvK-mQ",
+  "title": "Ronald Reagan — Tear Down This Wall",
+  "note": "June 12, 1987; C-SPAN archival clip",
+  "source": "https://www.youtube.com/watch?v=WX00QkvK-mQ"
+ },
+ {
+  "id": "vnVwvPpdFeY",
+  "title": "Greatest Recorded American Speeches, 1933–2008",
+  "note": "TDC compilation of major historical addresses; selected excerpts",
+  "source": "https://www.youtube.com/watch?v=vnVwvPpdFeY"
+ }
 ];
 function ensureJukebox(){let o=document.querySelector('.etp-jukebox-overlay');if(o)return o;
  o=document.createElement('div');o.className='etp-jukebox-overlay';o.id='etp-jukebox';o.hidden=true;
  const root=new URL('../',document.querySelector('script[src*="etp-experience-v50.js"]').src).pathname;
- o.innerHTML=`<section class="etp-jukebox-card" role="dialog" aria-modal="true" aria-label="Examine the Past Jukebox"><div class="etp-jukebox-top"><span class="etp-mini-title"></span><div class="etp-jukebox-actions"><button type="button" class="etp-jukebox-min" aria-label="Minimize jukebox">—</button><button type="button" class="etp-jukebox-close" aria-label="Close jukebox and stop media">×</button></div><div class="etp-jukebox-brand"><img src="${root}assets/extracted/2c5f625ea6f72201aca6.webp" alt="Examine the Past Earth"><div><span>Examine the Past</span><h2>Jukebox</h2></div></div></div><svg class="etp-spectrum" viewBox="0 0 600 24" preserveAspectRatio="none" aria-hidden="true"><path class="etp-spectrum-base" d="M0 12H600"/><path class="etp-spectrum-wave" d="M0 12H30L36 8L42 16L48 3L54 21L60 8L66 12H110L116 5L122 19L128 9L134 15L140 12H190L196 7L202 17L208 2L214 22L220 9L226 12H280L286 5L292 19L298 9L304 15L310 12H360L366 8L372 16L378 3L384 21L390 8L396 12H450L456 5L462 19L468 9L474 15L480 12H540L546 7L552 17L558 3L564 21L570 12H600"/></svg><button type="button" class="etp-juke-back" hidden>‹ Back</button><div class="etp-jukebox-player-shell" hidden><div class="etp-jukebox-now"><strong></strong><span></span></div><div class="etp-video-wrap"><iframe title="Examine the Past Jukebox player" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div><div class="etp-player-controls"><button type="button" data-player="prev">‹ Previous</button><button type="button" data-player="toggle">Pause</button><button type="button" data-player="next">Next ›</button><button type="button" data-player="stop">Stop</button></div><details class="etp-selection-details"><summary>About This Selection</summary><div class="etp-track-note"></div></details><a class="etp-watch-source" target="_blank" rel="noopener">Open on YouTube ↗</a></div><div class="etp-juke-screen"></div><p class="etp-juke-message" role="status"></p><div class="etp-juke-footer"><img src="${root}assets/ie-credit.png" alt="InAct Entertainment logo"><span>Brought to you by InAct Entertainment LLC<br>© 2026 InAct Entertainment LLC</span></div></section>`;
+ o.innerHTML=`<section class="etp-jukebox-card" role="dialog" aria-modal="true" aria-label="Examine the Past Jukebox"><div class="etp-jukebox-top"><span class="etp-mini-title"></span><div class="etp-jukebox-actions"><button type="button" class="etp-jukebox-min" aria-label="Minimize jukebox">—</button><button type="button" class="etp-jukebox-close" aria-label="Close jukebox and stop media">×</button></div><div class="etp-jukebox-brand"><img src="${root}assets/extracted/2c5f625ea6f72201aca6.webp" alt="Examine the Past Earth"><div><span>Examine the Past</span><h2>Jukebox</h2></div></div></div><svg class="etp-spectrum" viewBox="0 0 600 24" preserveAspectRatio="none" aria-hidden="true"><path class="etp-spectrum-base" d="M0 12H600"/><path class="etp-spectrum-wave" d="M0 12H30L36 8L42 16L48 3L54 21L60 8L66 12H110L116 5L122 19L128 9L134 15L140 12H190L196 7L202 17L208 2L214 22L220 9L226 12H280L286 5L292 19L298 9L304 15L310 12H360L366 8L372 16L378 3L384 21L390 8L396 12H450L456 5L462 19L468 9L474 15L480 12H540L546 7L552 17L558 3L564 21L570 12H600"/></svg><button type="button" class="etp-juke-back" hidden>‹ Back</button><div class="etp-jukebox-player-shell" hidden><div class="etp-jukebox-now"><strong></strong><span></span></div><div class="etp-video-wrap"><iframe title="Examine the Past Jukebox player" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div><div class="etp-player-controls"><button type="button" data-player="prev">‹ Previous</button><button type="button" data-player="toggle">Pause</button><button type="button" data-player="next">Next ›</button><button type="button" data-player="stop">Stop</button></div><details class="etp-selection-details"><summary>About This Selection</summary><div class="etp-track-note"></div></details><a class="etp-watch-source" target="_blank" rel="noopener">Open on YouTube ↗</a></div><div class="etp-juke-screen"></div><p class="etp-juke-message" role="status"></p><div class="etp-juke-footer"><img src="${root}assets/ie-credit.png" alt="InAct Entertainment logo"><span>Brought to you by InAct Entertainment LLC · © 2026 InAct Entertainment LLC</span></div></section>`;
  document.body.append(o);
  const screen=o.querySelector('.etp-juke-screen'),back=o.querySelector('.etp-juke-back'),frame=o.querySelector('iframe'),player=o.querySelector('.etp-jukebox-player-shell'),toggle=o.querySelector('[data-player="toggle"]'),message=o.querySelector('.etp-juke-message');
  let lastBrowse='root',lastGenre='',shuffled=false,repeated=false;let view='root',genre='',collection=[],index=-1,playing=false,active=null,returnFocus=null,playlist=[];
