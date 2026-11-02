@@ -1,0 +1,43 @@
+name: Install presidential game artwork
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'presidential_challenge_website_assets.zip'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Extract optimized portraits and answer cards
+        run: |
+          python3 - <<'PY'
+          import zipfile, pathlib
+          archive = pathlib.Path('presidential_challenge_website_assets.zip')
+          if not archive.exists():
+              raise SystemExit('Upload presidential_challenge_website_assets.zip to the repository root first.')
+          with zipfile.ZipFile(archive) as z:
+              expected = {f'assets/presidents/{kind}/{n:02}.webp' for kind in ('portraits','answer-cards') for n in range(1,48)}
+              found = set(z.namelist())
+              if not expected.issubset(found):
+                  raise SystemExit(f'Missing {len(expected-found)} expected presidential images')
+              for name in sorted(expected):
+                  destination = pathlib.Path(name)
+                  destination.parent.mkdir(parents=True, exist_ok=True)
+                  destination.write_bytes(z.read(name))
+          print('Installed 94 presidential images.')
+          PY
+      - name: Commit installed game images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/presidents
+          if ! git diff --cached --quiet; then
+            git commit -m "Install optimized presidential game artwork"
+            git push
+          fi
