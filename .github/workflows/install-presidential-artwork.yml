@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'presidential_challenge_website_assets.zip'
+      - 'presidential_challenge_website_assets_v2.zip'
   workflow_dispatch:
 permissions:
   contents: write
@@ -18,9 +18,9 @@ jobs:
         run: |
           python3 - <<'PY'
           import zipfile, pathlib
-          archive = pathlib.Path('presidential_challenge_website_assets.zip')
+          archive = pathlib.Path('presidential_challenge_website_assets_v2.zip')
           if not archive.exists():
-              raise SystemExit('Upload presidential_challenge_website_assets.zip to the repository root first.')
+              raise SystemExit('Upload presidential_challenge_website_assets_v2.zip to the repository root first.')
           with zipfile.ZipFile(archive) as z:
               expected = {f'assets/presidents/{kind}/{n:02}.webp' for kind in ('portraits','answer-cards') for n in range(1,48)}
               found = set(z.namelist())
