@@ -116,6 +116,9 @@ const library={
 };
 function setSfx(v){sfx=!!v;try{localStorage.setItem("etp-sfx",sfx?"on":"off")}catch(e){}if(window.ETPTransitions)window.ETPTransitions.setSound(sfx);document.querySelectorAll("[data-etp-sfx-state]").forEach(n=>n.textContent=sfx?"On":"Off")}
 const documentaries=[
+{"id":"apCvzsTn1qY","title":"Ancient Egypt — Rise and Fall of a Civilization","note":"Historical documentary tracing pharaohs, the Nile, cultural achievements and the Ptolemaic era.","source":"https://www.youtube.com/watch?v=apCvzsTn1qY"},
+{"id":"8D7Z8TKRzpw","title":"The Entire History of Ancient Egypt","note":"Layers of History · dynasties, pyramids, religious life and ancient Egyptian society.","source":"https://www.youtube.com/watch?v=8D7Z8TKRzpw"},
+{"id":"qTCVkTmvW7s","title":"The Fall of Ancient Rome — Documentary","note":"Survey of Roman imperial decline and the transformation of Late Antiquity.","source":"https://www.youtube.com/watch?v=qTCVkTmvW7s"},
  {
   "id": "T5PwyuzSYcs",
   "title": "History of the Entire World — Documentary",
