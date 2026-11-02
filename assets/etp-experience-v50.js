@@ -175,6 +175,8 @@ const documentaries=[
  }
 ];
 const speeches=[
+{"id":"BLmiOEk59n8","title":"John F. Kennedy — Inaugural Address (C-SPAN)","note":"January 20, 1961 · archival presidential inaugural address.","source":"https://www.youtube.com/watch?v=BLmiOEk59n8"},
+{"id":"teet9pcl0VM","title":"Barack Obama — 2008 Election Victory Speech","note":"CBS News archival coverage of election night, with Obama's victory address beginning after the network's announcement.","source":"https://www.youtube.com/watch?v=teet9pcl0VM"},
  {
   "id": "d-lFkRZ0lfk",
   "title": "Sojourner Truth — Akron Speech (Reenactment)",
