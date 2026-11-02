@@ -67,3 +67,9 @@ body[data-etp-theme].ie-reader :is(.tag,.eyebrow){color:var(--green)!important}
 body[data-etp-theme].ie-reader .tag.yellow{color:var(--yellow)!important}
 body[data-etp-theme] .etp-watch-source{display:inline-block;color:#94ff53!important;font:12px Georgia,serif;margin-top:8px}
 body[data-etp-theme] :is(button,input,select,textarea){font-family:Georgia,"Times New Roman",serif!important}
+
+/* Compact sponsor credit ONLY within the History Jukebox. */
+.etp-jukebox-card .etp-juke-footer{display:flex!important;flex-direction:row!important;align-items:center!important;justify-content:center!important;flex-wrap:nowrap!important;gap:5px!important;margin-top:10px!important;padding:6px 2px 0!important;border-top:1px solid #94ff5320!important;color:#aeb8ae!important;font:normal 8px/1.2 Georgia,serif!important;text-align:center!important;white-space:nowrap!important}
+.etp-jukebox-card .etp-juke-footer img{width:20px!important;height:14px!important;max-width:20px!important;object-fit:contain!important;flex:0 0 20px!important;opacity:.75!important}
+.etp-jukebox-card .etp-juke-footer span{display:inline!important;font-size:8px!important;line-height:1.2!important;color:#aeb8ae!important;font-weight:400!important;white-space:nowrap!important}
+@media(max-width:440px){.etp-jukebox-card .etp-juke-footer{font-size:7px!important;gap:3px!important}.etp-jukebox-card .etp-juke-footer span{font-size:7px!important}.etp-jukebox-card .etp-juke-footer img{width:17px!important;max-width:17px!important;flex-basis:17px!important}}
