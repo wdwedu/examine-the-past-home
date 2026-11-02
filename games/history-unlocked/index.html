@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>History Unlocked — Examine the Past</title>
+<link rel="stylesheet" href="../../assets/site-shell.css?v=20261015-etp-r2">
+<link rel="stylesheet" href="../../assets/site-shell.css?v=20261015-etp-r2">
+<style>
+body{margin:0;background:#000;color:#f5f2e9;font-family:Georgia,"Times New Roman",serif}
+.page{min-height:720px;padding:56px 18px 76px;background:radial-gradient(circle at 50% 3%,rgba(255,242,0,.018),transparent 26%),linear-gradient(180deg,#050505,#000 34%,#020202)}
+.intro{width:min(1120px,100%);margin:0 auto 38px;text-align:center}
+.eyebrow{color:var(--green);font:700 12px Arial,sans-serif;letter-spacing:.22em;text-transform:uppercase;margin-bottom:9px}
+h1{font-family:Georgia,"Times New Roman",serif;margin:0;color:var(--yellow);font-size:clamp(48px,8vw,88px);line-height:.94;text-transform:uppercase;letter-spacing:.012em}
+.intro p{max-width:760px;margin:16px auto 0;color:#fff;font-size:16px;line-height:1.55}
+.vault{width:min(1180px,100%);margin:auto}
+.family{margin:0 0 42px;padding-top:2px}
+.family h2{font-family:Georgia,"Times New Roman",serif;color:var(--yellow);font-size:25px;line-height:1.1;margin:0 3px 15px;font-weight:700}
+.game-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.game-card{
+  min-height:104px;border:1px solid #2a2b27;border-radius:18px;padding:16px 18px;background:#0b0c0a;
+  text-decoration:none;position:relative;overflow:hidden;transition:.38s;display:block
+}
+.game-card::after{
+  content:"";position:absolute;inset:auto -20% -65% -20%;height:190px;opacity:.18;filter:blur(8px);transition:.38s
+}
+.game-card>*{position:relative;z-index:2}
+.game-card:hover,.game-card:focus-visible{transform:translateY(-7px) scale(1.01);border-color:rgba(255,255,255,.12);outline:none}
+.game-card:hover::after,.game-card:focus-visible::after{opacity:.72;transform:translateY(-18px)}
+.tone-red:hover{background:linear-gradient(145deg,#17090d,#0b0c0a)}
+.tone-red::after{background:radial-gradient(circle,rgba(95,15,36,.57),transparent 68%)}
+.tone-blue:hover{background:linear-gradient(145deg,#07111a,#0b0c0a)}
+.tone-blue::after{background:radial-gradient(circle,rgba(26,78,128,.54),transparent 68%)}
+.tone-green:hover{background:linear-gradient(145deg,#071308,#0b0c0a)}
+.tone-green::after{background:radial-gradient(circle,rgba(44,112,49,.54),transparent 68%)}
+.tone-gold:hover{background:linear-gradient(145deg,#171407,#0b0c0a)}
+.tone-gold::after{background:radial-gradient(circle,rgba(142,114,20,.48),transparent 68%)}
+.status{display:inline-block;margin-bottom:7px;font:900 9px Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;transition:.2s}
+.status.open{color:#28412b}.status.closed{color:#7a2830}
+.game-title{font-weight:900;color:#f0efe9;font-size:16px;line-height:1.2;transition:.18s}
+.game-desc{margin-top:7px;color:#c9c6bf;font-size:12px;line-height:1.45}
+.game-card.active:hover .status.open,.game-card.active:focus-visible .status.open{color:#7dff4d;text-shadow:0 0 8px rgba(125,255,77,.55)}
+.game-card.active:hover .game-title,.game-card.active:focus-visible .game-title{color:var(--yellow);text-shadow:0 0 7px rgba(255,242,0,.24)}
+.game-card.closed-card{cursor:default}
+.game-card.closed-card:hover .status.closed,.game-card.closed-card:focus-visible .status.closed{color:#fff;text-shadow:none}
+.game-card.closed-card:hover .game-title,.game-card.closed-card:focus-visible .game-title{color:#f0efe9;text-shadow:none}
+@media(max-width:900px){.game-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.page{padding-left:10px;padding-right:10px}.game-grid{grid-template-columns:1fr}.family{margin-bottom:36px}}
+
+/* History Unlocked brand interaction v53 */
+.game-card.active:hover,.game-card.active:focus-visible{
+  background:linear-gradient(145deg,#11150f,#080908)!important;
+  border-color:rgba(255,255,255,.78)!important;
+  box-shadow:0 18px 38px rgba(0,0,0,.48),0 0 22px rgba(148,255,83,.055)!important;
+  transform:translateY(-7px) scale(1.015)!important
+}
+.game-card.active:hover::after,.game-card.active:focus-visible::after{
+  background:radial-gradient(circle,rgba(148,255,83,.26),transparent 68%)!important;
+  opacity:.92!important
+}
+.game-card.active:hover .status.open,.game-card.active:focus-visible .status.open{
+  color:var(--green)!important;text-shadow:0 0 8px rgba(148,255,83,.55)!important
+}
+.game-card.active:hover .game-title,.game-card.active:focus-visible .game-title{
+  color:var(--yellow)!important;text-shadow:0 0 8px rgba(255,242,0,.22)!important
+}
+.game-card.active:hover .game-desc,.game-card.active:focus-visible .game-desc{color:#fff!important}
+
+</style>
+<link rel="manifest" href="../../manifest.webmanifest" type="application/manifest+json">
+<link rel="apple-touch-icon" sizes="180x180" href="../../app-assets/icon-180.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Examine the Past">
+<script defer src="../app-assets/install.js?v=20261015-etp-r2"></script>
+</head>
+<body data-music-autoplay="false" data-music-volume=".22" data-music-source="https://examinethepast.com/">
+<div id="game-shell-nav"></div><audio id="gameAudio" loop preload="auto"></audio>
+<main class="page">
+<section class="intro">
+  <div class="eyebrow">Examine the Past Interactive Games</div>
+  <h1>History Unlocked</h1>
+  <p>Choose a challenge from the vault. You have the power to unlock every game!</p>
+</section>
+<div class="vault" id="vault"></div>
+</main>
+<div id="game-shell-footer"></div><script src="../../assets/site-shell.js?v=20261015-etp-r2" data-etp-root="../../"></script>
+<script>
+const SITE_ROOT_GAME=location.hostname.endsWith("github.io")?"/examine-the-past-home/":"/";
+const groups=[
+["Time Rush",[
+["Time Rush: Ancient Worlds","Race through the milestones of the earliest civilizations and empires."],
+["Time Rush: Classical Civilizations","Sequence the turning points of Greece, Rome, and the classical Mediterranean world."],
+["Time Rush: Medieval Worlds","Build the chronology of kingdoms, faith, conflict, and change in the medieval era."],
+["Time Rush: Exploration & Encounters","Trace voyages, conquest, exchange, and the creation of new global connections."],
+["Time Rush: Revolutions & Change","Sequence revolutions, reform, industrial change, and new political ideas."],
+["Time Rush: A Modern World","Race through world wars, decolonization, the Cold War, and modern technology."]]],
+["History Case Files",[
+["The Missing Colony","Investigate evidence, competing theories, and unanswered questions behind a vanished settlement."],
+["The Lincoln File","Examine documents, testimony, and historical claims connected to Lincoln and his era."],
+["The Pharaoh's Secret","Use archaeological evidence to solve a mystery from ancient Egypt."],
+["The Cold War Brief","Analyze coded clues, political choices, and global tensions from the Cold War."],
+["The Black Death Case","Trace evidence about the plague’s spread, causes, responses, and long-term impact."],
+["The Underground Railroad File","Follow people, places, signals, and evidence through a hidden network to freedom."]]],
+["Connections",[
+["Empires & Trade","Link empires to the routes, resources, technologies, and exchanges that sustained them."],
+["Leaders & Movements","Match historical leaders to the movements, ideas, and changes they helped shape."],
+["Cause & Effect: Revolutions","Build chains that connect grievances, triggers, actions, and consequences."],
+["Reformers & Change","Connect reformers to the problems they challenged and the reforms that followed."],
+["Alliances & Wars","Link alliances, rivalries, and political decisions to conflicts and outcomes."],
+["Migration & Culture","Trace how migration carries language, belief, food, technology, and identity across regions."]]],
+["Escape the Past",[
+["Escape the Pyramid","Solve historical clues and decode symbols to unlock an ancient chamber."],
+["Escape the Plantation","Use evidence, geography, and careful choices to navigate a dangerous historical setting."],
+["Escape the Trenches","Crack wartime clues and make decisions under pressure on the Western Front."],
+["Escape the Castle","Solve medieval puzzles involving power, society, defense, and daily life."],
+["Escape the Great Depression","Use historical clues and survival decisions to move through economic crisis."],
+["Escape the Cold War Bunker","Decode intelligence, political clues, and Cold War tensions before time runs out."]]],
+["Map Quest",[
+["Empire Mapper","Identify territories and explain how geography shaped the rise and fall of empires."],
+["Colonies Challenge","Locate colonies and connect them to trade, power, settlement, and conflict."],
+["Trade Routes Quest","Trace routes that moved goods, people, technologies, religions, and ideas."],
+["Battlefields Quest","Locate key battles and explain why terrain, distance, and geography mattered."],
+["Migration Paths","Follow population movements and connect routes to push-pull factors and cultural change."],
+["Ancient Civilizations Map Hunt","Use rivers, landforms, climate, and location clues to identify ancient civilizations."]]],
+["Who in Time?",[
+["Who Am I? Inventors","Identify an inventor from clues about inventions, problems solved, and historical context."],
+["Who Am I? Leaders","Use decisions, quotations, conflicts, and achievements to identify a historical leader."],
+["Who Am I? Activists","Discover activists through their goals, strategies, speeches, and social movements."],
+["Who Am I? Explorers","Identify explorers from routes, sponsors, encounters, and geographic clues."],
+["Who Am I? Writers","Match writers to their works, eras, ideas, and historical influence."],
+["Who Am I? Scientists","Use discoveries, experiments, and historical context to identify the scientist."]]],
+["Source Lab",[
+["Source Lab: Speeches","Analyze a speech for audience, purpose, argument, evidence, and historical context."],
+["Source Lab: Letters","Use personal correspondence to uncover perspective, relationships, and everyday historical experience."],
+["Source Lab: Photos","Inspect photographs for visual evidence, context, bias, and details hidden in plain sight."],
+["Source Lab: Political Cartoons","Decode symbols, exaggeration, labels, and point of view in historical political cartoons."],
+["Source Lab: Maps","Read historical maps for boundaries, power, movement, geography, and the choices of mapmakers."],
+["Source Lab: Newspaper Reports","Compare headlines and reporting to identify evidence, bias, perspective, and missing voices."],
+["Source Lab: Diaries","Reconstruct a historical moment through a person’s daily observations, emotions, and firsthand experience."]]],
+["Build the Past",[
+["Build a Colony","Balance geography, labor, resources, government, and survival while building a colony."],
+["Build a Civilization","Assemble the systems a civilization needs: food, government, belief, trade, technology, and defense."],
+["Rebuild a Timeline","Restore a damaged historical sequence by placing evidence and events back in order."],
+["Build a Constitution","Choose principles, rights, institutions, and limits to assemble a governing framework."],
+["Build a Trade Network","Connect resources, markets, routes, geography, and risk to create a working trade system."],
+["Reconstruct the Morning","Piece together a historical morning using chronology, testimony, locations, and surviving evidence."],
+["Build a Movement","Combine goals, leaders, supporters, strategy, communication, and pressure to build social change."]]]
+];
+const tones=["tone-red","tone-blue","tone-green","tone-gold"];
+const activeLinks={
+1:SITE_ROOT_GAME+"games/time-rush/ancient-worlds/",
+2:SITE_ROOT_GAME+"games/time-rush/classical-civilizations/",
+3:SITE_ROOT_GAME+"games/time-rush/medieval-worlds/",
+4:SITE_ROOT_GAME+"games/time-rush/exploration-encounters/",
+5:SITE_ROOT_GAME+"games/time-rush/revolutions-change/",
+6:SITE_ROOT_GAME+"games/time-rush/modern-world/",
+7:SITE_ROOT_GAME+"games/history-case-files/missing-colony/",
+8:SITE_ROOT_GAME+"games/history-case-files/lincoln-file/",
+9:SITE_ROOT_GAME+"games/history-case-files/pharaoh-secret/",
+10:SITE_ROOT_GAME+"games/history-case-files/cold-war-brief/",
+11:SITE_ROOT_GAME+"games/history-case-files/black-death-case/",
+12:SITE_ROOT_GAME+"games/history-case-files/underground-railroad-file/",
+13:SITE_ROOT_GAME+"games/connections/empires-trade/",
+14:SITE_ROOT_GAME+"games/connections/leaders-movements/",
+15:SITE_ROOT_GAME+"games/connections/cause-effect-revolutions/",
+16:SITE_ROOT_GAME+"games/connections/reformers-change/",
+17:SITE_ROOT_GAME+"games/connections/alliances-wars/",
+18:SITE_ROOT_GAME+"games/connections/migration-culture/",
+19:SITE_ROOT_GAME+"games/escape-the-past/escape-pyramid/",
+20:SITE_ROOT_GAME+"games/escape-the-past/escape-plantation/",
+21:SITE_ROOT_GAME+"games/escape-the-past/escape-trenches/",
+22:SITE_ROOT_GAME+"games/escape-the-past/escape-castle/",
+23:SITE_ROOT_GAME+"games/escape-the-past/escape-great-depression/",
+24:SITE_ROOT_GAME+"games/escape-the-past/escape-cold-war-bunker/",
+25:SITE_ROOT_GAME+"games/map-quest/empire-mapper/",
+26:SITE_ROOT_GAME+"games/map-quest/colonies-challenge/",
+27:SITE_ROOT_GAME+"games/map-quest/trade-routes-quest/",
+28:SITE_ROOT_GAME+"games/map-quest/battlefields-quest/",
+29:SITE_ROOT_GAME+"games/map-quest/migration-paths/",
+30:SITE_ROOT_GAME+"games/map-quest/ancient-civilizations-map-hunt/",
+31:SITE_ROOT_GAME+"games/who-in-time/inventors/",
+32:SITE_ROOT_GAME+"games/who-in-time/leaders/",
+33:SITE_ROOT_GAME+"games/who-in-time/activists/",
+34:SITE_ROOT_GAME+"games/who-in-time/explorers/",
+35:SITE_ROOT_GAME+"games/who-in-time/writers/",
+36:SITE_ROOT_GAME+"games/who-in-time/scientists/",
+37:SITE_ROOT_GAME+"games/source-lab/speeches/",
+38:SITE_ROOT_GAME+"games/source-lab/letters/",
+39:SITE_ROOT_GAME+"games/source-lab/photos/",
+40:SITE_ROOT_GAME+"games/source-lab/political-cartoons/",
+41:SITE_ROOT_GAME+"games/source-lab/maps/",
+42:SITE_ROOT_GAME+"games/source-lab/newspaper-reports/",
+43:SITE_ROOT_GAME+"games/source-lab/diaries/",
+44:SITE_ROOT_GAME+"games/build-the-past/build-a-colony/",
+45:SITE_ROOT_GAME+"games/build-the-past/build-a-civilization/",
+46:SITE_ROOT_GAME+"games/build-the-past/rebuild-a-timeline/",
+47:SITE_ROOT_GAME+"games/build-the-past/build-a-constitution/",
+48:SITE_ROOT_GAME+"games/build-the-past/build-a-trade-network/",
+49:SITE_ROOT_GAME+"games/build-the-past/reconstruct-the-morning/",
+50:SITE_ROOT_GAME+"games/build-the-past/build-a-movement/"
+};
+let number=1, tone=0;
+document.getElementById("vault").innerHTML=groups.map(([title,games])=>{
+ const cards=games.map(([name,desc])=>{
+   const n=number++, t=tones[tone++%4], href=activeLinks[n];
+   if(href)return '<a class="game-card active '+t+'" href="'+href+'"><span class="status open">OPEN</span><div class="game-title">'+name+'</div><div class="game-desc">'+desc+'</div></a>';
+   return '<div class="game-card closed-card '+t+'" tabindex="0"><span class="status closed">CLOSED</span><div class="game-title">'+name+'</div><div class="game-desc">'+desc+'</div></div>';
+ }).join("");
+ return '<section class="family"><h2>'+title+'</h2><div class="game-grid">'+cards+'</div></section>';
+}).join("");
+</script>
+</body></html>
