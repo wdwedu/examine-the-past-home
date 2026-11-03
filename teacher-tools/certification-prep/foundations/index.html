@@ -82,10 +82,10 @@ button:disabled{opacity:.42;cursor:not-allowed}
 .review-row strong{color:#1d496e}
 .review-row p{margin:4px 0}
 .report-actions{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}
-.cert-preview{border:2px solid #101010;padding:18px;text-align:center;margin:20px 0;background:#fff;color:#111}
-.cert-preview>.inner{border:1px solid #111;padding:24px}
-.cert-preview h2{font-size:clamp(1.7rem,3.4vw,2.7rem);color:#111}
-.cert-preview .mark{color:#5c8b37;letter-spacing:.17em;font-weight:bold}
+.cert-preview{border:2px solid #101010;padding:18px;text-align:center;margin:20px 0;background:#0b1220;color:#fff;border-color:#fff200}
+.cert-preview>.inner{border:1px solid #fff200;padding:24px}
+.cert-preview h2{font-size:clamp(1.7rem,3.4vw,2.7rem);color:#fff200}
+.cert-preview .mark{color:#a0ff62;letter-spacing:.17em;font-weight:bold}
 .cert-preview .certificate-score{font-size:1.55rem;font-weight:bold}
 #notice{position:fixed;bottom:20px;right:20px;background:#132e44;color:white;padding:14px 19px;max-width:340px;border-radius:8px;box-shadow:0 9px 25px #0008;z-index:100;display:none;font:14px Arial,sans-serif}
 @media(max-width:830px){.lab-layout{grid-template-columns:1fr}.sidebar{order:2}.qnav{grid-template-columns:repeat(10,1fr)}.report-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
@@ -99,7 +99,7 @@ header,footer,nav,#etpSiteHeader,#etpSiteFooter,.lab-head,.lab-layout,.report-ac
 .summary-card{border:0;box-shadow:none;padding:10px 0}
 #report-review{font-size:12px}
 body.print-certificate #results>.lab-shell> :not(.cert-preview){display:none!important}
-body.print-certificate .cert-preview{display:block!important;break-inside:avoid}
+body.print-certificate .cert-preview{display:block!important;break-inside:avoid;print-color-adjust:exact;-webkit-print-color-adjust:exact}
 body.print-report .cert-preview{display:none!important}
 }
 </style>
@@ -136,9 +136,9 @@ body.print-report .cert-preview{display:none!important}
 <h2 style="font-size:clamp(1.6rem,3vw,2.5rem)">Your Foundations Lab Results</h2>
 <p id="result-date" class="mini"></p>
 <div class="summary-card"><div class="result-number" id="result-score">0 / 120</div><p id="result-subtitle"></p><div id="result-breakdown" class="report-grid"></div></div>
-<div class="summary-card"><h3>Your Next Study Priorities</h3><p id="study-advice"></p><div class="report-actions"><button class="btn primary" type="button" id="back-to-practice">← Return to Guided Practice</button><button class="btn" type="button" id="print-report">Download / Print Results PDF</button><button class="btn" type="button" id="print-cert">Download / Print Certificate PDF</button></div></div>
+<div class="summary-card"><label for="educator-name" style="display:block;font-weight:bold;margin-bottom:6px">Name for your completion certificate (optional)</label><input id="educator-name" type="text" maxlength="80" placeholder="Educator name" style="width:min(100%,460px);padding:10px;border:1px solid #9cabb7;border-radius:6px;color:#172536;background:white;margin-bottom:17px"><h3>Your Next Study Priorities</h3><p id="study-advice"></p><div class="report-actions"><button class="btn primary" type="button" id="back-to-practice">← Return to Guided Practice</button><button class="btn" type="button" id="print-report">Download / Print Results PDF</button><button class="btn" type="button" id="print-cert">Download / Print Certificate PDF</button></div></div>
 <div class="summary-card" id="report-review"><h3>Question Review</h3><p class="mini">Correct answers, your responses and explanations are included below for review.</p><div id="review-items"></div></div>
-<div class="cert-preview"><div class="inner"><div class="mark">EXAMINE THE PAST</div><h2>Certificate of Completion</h2><p>History Teacher Certification Prep Center</p><p>This acknowledges completion of the independent guided assessment</p><h3>The History Foundations Lab</h3><p id="certificate-date"></p><p class="certificate-score" id="certificate-score"></p><p>Issued as a record of independent practice only. Not a teaching license, ETS certification, official score, or evidence of Praxis passage.</p></div></div>
+<div class="cert-preview" id="earned-certificate"><div class="inner"><div class="mark">EXAMINE THE PAST</div><h2>Certificate of Completion</h2><p>History Teacher Certification Prep Center</p><p style="font-size:1.15rem">Presented to <strong id="cert-name">Educator</strong></p><p>This acknowledges completion of the independent guided assessment</p><h3>The History Foundations Lab</h3><p id="certificate-date"></p><p class="certificate-score" id="certificate-score"></p><p>Issued as a record of independent practice only. Not a teaching license, ETS certification, official score, or evidence of Praxis passage.</p></div></div>
 <p><a class="back-link" href="../" data-etp-transition="shutter">← Back to Certification Center</a></p>
 </div></section>
 </main>
@@ -187,6 +187,9 @@ const date=state.completedAt?new Date(state.completedAt):new Date();const dateTe
 el("result-date").textContent="Practice report generated "+dateText;
 el("certificate-date").textContent="Completed "+dateText;
 el("certificate-score").textContent="Practice result: "+result.correct+" of 120 ("+percent+"%)";
+el("earned-certificate").classList.toggle("hidden",done<N);
+el("print-cert").disabled=done<N;
+el("cert-name").textContent=el("educator-name").value.trim()||"Educator";
 const breakdown=el("result-breakdown");breakdown.replaceChildren();result.sections.forEach(d=>{const box=document.createElement("div");box.className="report-unit";const h=document.createElement("strong");h.textContent=d.name;const b=document.createElement("b");b.textContent=d.correct+" / 30";const span=document.createElement("span");span.textContent=d.answered+" answered • "+(100*d.correct/30).toFixed(1)+"% of total";box.append(h,b,span);breakdown.appendChild(box)});
 const sorted=result.sections.slice().sort((a,b)=>a.correct-b.correct);
 const priorities=sorted.slice(0,2).map(x=>x.name+" ("+x.correct+"/30)");
@@ -215,6 +218,7 @@ el("back-to-practice").onclick=showPractice;
 el("download-backup").onclick=()=>download("examine-the-past-foundations-progress.json",JSON.stringify({format:"etp-foundations-5941-v1",savedAt:new Date().toISOString(),state},null,2),"application/json");
 el("restore-file").onchange=async e=>{const file=e.target.files[0];if(!file)return;try{const object=JSON.parse(await file.text());if(object.format!=="etp-foundations-5941-v1"||!object.state||typeof object.state.answers!=="object")throw Error("Invalid Foundations Lab backup");if(!confirm("Restore this saved attempt? This replaces your current progress."))return;state=object.state;state.current=Math.max(0,Math.min(N-1,Number(state.current)||0));state.flags=state.flags||{};save();showPractice();toast("Backup restored.")}catch(err){alert("Could not restore this file. Please select a valid Foundations Lab backup.")}finally{e.target.value=""}};
 el("restart").onclick=()=>{if(confirm("Start over and erase this device's Foundations Lab answers? Download a backup first if you want to keep them.")){state={answers:{},flags:{},current:0,completedAt:null};save();showPractice();toast("New guided attempt started.")}};
+el("educator-name").addEventListener("input",()=>{const name=el("educator-name").value.trim();el("cert-name").textContent=name||"Educator";try{localStorage.setItem("etp-foundations-cert-name",name)}catch(e){}});try{el("educator-name").value=localStorage.getItem("etp-foundations-cert-name")||""}catch(e){}
 el("print-report").onclick=()=>printMode("report");el("print-cert").onclick=()=>{if(answered()<N){alert("Complete all 120 questions to produce the completion certificate. You can still save a provisional results report.");return}printMode("certificate")};
 init();
 })();
