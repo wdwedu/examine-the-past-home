@@ -1,0 +1,422 @@
+[
+ {
+  "id": "WH2-01",
+  "domain": 1,
+  "stem": "Which innovation most directly accelerated the circulation of printed texts in fifteenth-century Europe?",
+  "options": [
+   "Movable metal type combined with a mechanical printing press",
+   "The first use of papyrus in ancient Egypt",
+   "The development of the steam locomotive",
+   "A universal ban on manuscript copying"
+  ],
+  "answer": 0,
+  "explanation": "Gutenberg-era printing technology reduced the cost and increased the volume of reproducible texts.",
+  "skill": "technology"
+ },
+ {
+  "id": "WH2-02",
+  "domain": 1,
+  "stem": "What was a major consequence of the Ottoman conquest of Constantinople in 1453?",
+  "options": [
+   "The end of the Byzantine Empire and expansion of Ottoman control",
+   "The immediate fall of the Qing dynasty",
+   "The beginning of French rule in India",
+   "The extinction of Mediterranean commerce"
+  ],
+  "answer": 0,
+  "explanation": "The fall of Constantinople ended Byzantine imperial rule and consolidated Ottoman dominance at a strategic crossroads.",
+  "skill": "political"
+ },
+ {
+  "id": "WH2-03",
+  "domain": 1,
+  "stem": "Why did maritime exploration by Portugal expand along the West African coast in the fifteenth century?",
+  "options": [
+   "To seek commercial routes, trade goods and strategic advantages",
+   "To establish control of the Pacific coast of Canada",
+   "To avoid all contact with African markets",
+   "To restore the western Roman Empire"
+  ],
+  "answer": 0,
+  "explanation": "Portuguese voyages sought access to African trade and, eventually, sea routes toward Asia.",
+  "skill": "causation"
+ },
+ {
+  "id": "WH2-04",
+  "domain": 1,
+  "stem": "The Columbian Exchange most directly refers to which phenomenon?",
+  "options": [
+   "Transfers of plants, animals, pathogens and peoples between the Americas and Afro-Eurasia",
+   "A single treaty between Columbus and the Inca",
+   "The exchange of silk solely between China and Japan",
+   "Industrial trade between the United States and the Soviet Union"
+  ],
+  "answer": 0,
+  "explanation": "After 1492 transatlantic contact transformed ecologies, diets and populations, including catastrophic disease impacts in the Americas.",
+  "skill": "exchange"
+ },
+ {
+  "id": "WH2-05",
+  "domain": 1,
+  "stem": "Which was a central grievance raised by Martin Luther in 1517?",
+  "options": [
+   "Practices concerning indulgences and the authority of church teachings",
+   "The absence of universal suffrage in France",
+   "The expansion of Ottoman gunpowder armies",
+   "Britain's taxation of North American colonies"
+  ],
+  "answer": 0,
+  "explanation": "Luther challenged indulgence practices and later broader questions of doctrine and authority.",
+  "skill": "religion"
+ },
+ {
+  "id": "WH2-06",
+  "domain": 1,
+  "stem": "A key difference between the Protestant Reformation and the Catholic Reformation was that the latter emphasized what?",
+  "options": [
+   "Renewal and doctrinal clarification within the Roman Catholic Church",
+   "Complete rejection of the papacy by Catholic bishops",
+   "A return to ancient Greek polytheism",
+   "A permanent union of all Protestant denominations"
+  ],
+  "answer": 0,
+  "explanation": "The Council of Trent and related reforms addressed clerical standards and reaffirmed Catholic doctrines.",
+  "skill": "comparison"
+ },
+ {
+  "id": "WH2-07",
+  "domain": 1,
+  "stem": "What was an important feature of Mughal rule under Akbar?",
+  "options": [
+   "Efforts to govern a religiously diverse empire through accommodation",
+   "Mandatory conversion of all subjects to Christianity",
+   "The abolition of all provincial administration",
+   "Conquest of the Americas by imperial armies"
+  ],
+  "answer": 0,
+  "explanation": "Akbar pursued policies of religious accommodation and strengthened imperial administrative institutions.",
+  "skill": "political"
+ },
+ {
+  "id": "WH2-08",
+  "domain": 1,
+  "stem": "Which feature distinguished the Tokugawa political settlement in early modern Japan?",
+  "options": [
+   "Rule through a shogunate with regional daimyo under structured controls",
+   "Direct administration by Ming Chinese governors",
+   "Universal voting rights for peasant farmers",
+   "Absence of a warrior elite"
+  ],
+  "answer": 0,
+  "explanation": "The Tokugawa shogunate coordinated daimyo obligations and maintained internal political stability.",
+  "skill": "political"
+ },
+ {
+  "id": "WH2-09",
+  "domain": 1,
+  "stem": "What was an important effect of Spanish colonization in the Americas during the sixteenth century?",
+  "options": [
+   "Indigenous demographic decline intensified by epidemic diseases and coercive labor",
+   "The complete elimination of European settlement",
+   "An immediate end to silver mining",
+   "The return of all conquered territory to local rulers"
+  ],
+  "answer": 0,
+  "explanation": "Epidemics, conquest and labor exploitation sharply disrupted Indigenous populations and societies.",
+  "skill": "causation"
+ },
+ {
+  "id": "WH2-10",
+  "domain": 1,
+  "stem": "The Atlantic slave trade expanded in close connection with which economic development?",
+  "options": [
+   "Labor demands of plantation production in the Americas",
+   "Decline of all export agriculture in Brazil",
+   "Banning sugar cultivation in Caribbean colonies",
+   "The disappearance of European maritime commerce"
+  ],
+  "answer": 0,
+  "explanation": "Plantation economies in sugar, tobacco and other commodities drove coerced transatlantic transportation.",
+  "skill": "economic"
+ },
+ {
+  "id": "WH2-11",
+  "domain": 1,
+  "stem": "Which best describes the significance of the Scientific Revolution?",
+  "options": [
+   "Increasing emphasis on observation, experimentation and mathematical explanation",
+   "A universal rejection of all existing knowledge by the same year",
+   "The first discovery that Earth has a moon",
+   "The elimination of religious beliefs throughout Europe"
+  ],
+  "answer": 0,
+  "explanation": "Scientific inquiry increasingly employed evidence and mathematical models, though older intellectual traditions persisted.",
+  "skill": "ideas"
+ },
+ {
+  "id": "WH2-12",
+  "domain": 1,
+  "stem": "Which Enlightenment thinker is particularly associated with the separation of governmental powers?",
+  "options": [
+   "Montesquieu",
+   "Martin Luther",
+   "Ibn Battuta",
+   "Hernán Cortés"
+  ],
+  "answer": 0,
+  "explanation": "Montesquieu argued that distributing legislative, executive and judicial powers could limit tyranny.",
+  "skill": "ideas"
+ },
+ {
+  "id": "WH2-13",
+  "domain": 1,
+  "stem": "The Haitian Revolution is historically distinctive because it resulted in what?",
+  "options": [
+   "An independent state emerging from a successful revolution by formerly enslaved people",
+   "The creation of the first British colony in the Caribbean",
+   "The restoration of French slavery across Haiti",
+   "The annexation of Haiti by Spain in 1804"
+  ],
+  "answer": 0,
+  "explanation": "The Haitian Revolution ended French colonial rule and led to independence in 1804.",
+  "skill": "political"
+ },
+ {
+  "id": "WH2-14",
+  "domain": 1,
+  "stem": "Which development is commonly associated with the early Industrial Revolution in Britain?",
+  "options": [
+   "Mechanized textile production and factory-based labor",
+   "Dependence entirely on household hand spinning",
+   "Immediate abolition of coal-powered engines",
+   "The first cultivation of wheat in Europe"
+  ],
+  "answer": 0,
+  "explanation": "Textile machinery and steam-based energy contributed to industrial transformation and urbanization.",
+  "skill": "economic"
+ },
+ {
+  "id": "WH2-15",
+  "domain": 1,
+  "stem": "A major motive for nineteenth-century European imperialism in Africa was what?",
+  "options": [
+   "Access to resources, markets and geopolitical prestige",
+   "The establishment of a single pan-African democracy",
+   "A pledge to prevent all migration between continents",
+   "An end to rivalry among European governments"
+  ],
+  "answer": 0,
+  "explanation": "Economic and strategic interests helped drive imperial expansion, alongside ideological justifications.",
+  "skill": "causation"
+ },
+ {
+  "id": "WH2-16",
+  "domain": 1,
+  "stem": "What was a major consequence of the Meiji Restoration in Japan?",
+  "options": [
+   "State-directed modernization and strengthening of centralized institutions",
+   "The restoration of Tokugawa isolationist policies without change",
+   "The end of Japan's monarchy",
+   "The conversion of Japan into a European colony"
+  ],
+  "answer": 0,
+  "explanation": "Meiji leaders pursued industrial, military and educational reforms to strengthen Japan.",
+  "skill": "political"
+ },
+ {
+  "id": "WH2-17",
+  "domain": 1,
+  "stem": "How did the Opium Wars affect Qing China's relations with Western powers?",
+  "options": [
+   "They contributed to unequal treaties and expanded foreign commercial privileges",
+   "They ended all treaty-port commerce",
+   "They restored complete Qing authority over Hong Kong",
+   "They produced an immediate democratic Chinese republic"
+  ],
+  "answer": 0,
+  "explanation": "Military defeat forced concessions to foreign powers and intensified pressure on Qing sovereignty.",
+  "skill": "political"
+ },
+ {
+  "id": "WH2-18",
+  "domain": 1,
+  "stem": "Which immediate event triggered the outbreak of World War I in 1914?",
+  "options": [
+   "The assassination of Archduke Franz Ferdinand at Sarajevo",
+   "The Bolshevik seizure of power in Petrograd",
+   "The signing of the Treaty of Versailles",
+   "Germany's invasion of Poland"
+  ],
+  "answer": 0,
+  "explanation": "The Sarajevo assassination set off a diplomatic and military crisis within a preexisting alliance system.",
+  "skill": "chronology"
+ },
+ {
+  "id": "WH2-19",
+  "domain": 1,
+  "stem": "Which condition most directly contributed to trench warfare on the Western Front?",
+  "options": [
+   "Defensive firepower that made frontal assaults extremely costly",
+   "A complete absence of machine guns and artillery",
+   "The universal dominance of cavalry charges",
+   "A ban on constructing fortifications"
+  ],
+  "answer": 0,
+  "explanation": "Machine guns, artillery and entrenched defenses helped produce costly stalemate.",
+  "skill": "technology"
+ },
+ {
+  "id": "WH2-20",
+  "domain": 1,
+  "stem": "Which was a principal cause of Russia's February Revolution in 1917?",
+  "options": [
+   "War losses, food shortages and declining confidence in the monarchy",
+   "The signing of the North Atlantic Treaty",
+   "A Soviet victory over Nazi Germany",
+   "The building of the Berlin Wall"
+  ],
+  "answer": 0,
+  "explanation": "Military setbacks and material crisis undermined the Romanov government and fueled protests.",
+  "skill": "causation"
+ },
+ {
+  "id": "WH2-21",
+  "domain": 1,
+  "stem": "The Great Depression became a global crisis partly because of what?",
+  "options": [
+   "Interconnected financial systems and a contraction of international trade",
+   "The absence of international banking connections",
+   "Worldwide prosperity following every bank closure",
+   "A universal gold standard adopted for the first time in 1939"
+  ],
+  "answer": 0,
+  "explanation": "Financial shocks, protectionist policies and falling trade transmitted and intensified economic distress.",
+  "skill": "economic"
+ },
+ {
+  "id": "WH2-22",
+  "domain": 1,
+  "stem": "Which policy is most associated with the Nazi regime's consolidation of power after 1933?",
+  "options": [
+   "Elimination of political opposition and establishment of a one-party dictatorship",
+   "Extension of multiparty democratic competition",
+   "Protection of Jewish civil rights through equal citizenship",
+   "Removal of propaganda from public life"
+  ],
+  "answer": 0,
+  "explanation": "The Nazis dismantled democratic institutions, persecuted opponents and imposed authoritarian rule.",
+  "skill": "political"
+ },
+ {
+  "id": "WH2-23",
+  "domain": 1,
+  "stem": "Which event brought the United States directly into World War II in December 1941?",
+  "options": [
+   "Japan's attack on Pearl Harbor",
+   "The signing of the Munich Agreement",
+   "The fall of Constantinople",
+   "The start of the Korean War"
+  ],
+  "answer": 0,
+  "explanation": "The Pearl Harbor attack on December 7 prompted U.S. entry into the war against Japan.",
+  "skill": "chronology"
+ },
+ {
+  "id": "WH2-24",
+  "domain": 1,
+  "stem": "What did the term 'decolonization' chiefly describe after World War II?",
+  "options": [
+   "Independence movements ending European colonial rule across Asia and Africa",
+   "The restoration of all nineteenth-century empires",
+   "The end of national sovereignty worldwide",
+   "The expansion of Rome into the Mediterranean"
+  ],
+  "answer": 0,
+  "explanation": "Anticolonial struggles and changing global politics accelerated independence across former colonies.",
+  "skill": "political"
+ },
+ {
+  "id": "WH2-25",
+  "domain": 1,
+  "stem": "The Bandung Conference of 1955 is associated with which development?",
+  "options": [
+   "Cooperation among Asian and African states seeking greater international autonomy",
+   "Formation of NATO",
+   "Creation of the European Coal and Steel Community",
+   "The first meeting of the League of Nations"
+  ],
+  "answer": 0,
+  "explanation": "Bandung articulated solidarity and nonalignment-related principles among newly independent and other Asian-African states.",
+  "skill": "diplomacy"
+ },
+ {
+  "id": "WH2-26",
+  "domain": 1,
+  "stem": "Which division characterized the Cold War in Europe after 1945?",
+  "options": [
+   "Rival U.S.-aligned and Soviet-aligned political and security blocs",
+   "A single unified European military under Roman authority",
+   "Permanent dissolution of every European state",
+   "A war fought solely between Britain and France"
+  ],
+  "answer": 0,
+  "explanation": "NATO and the Warsaw Pact came to represent competing blocs during the Cold War.",
+  "skill": "comparison"
+ },
+ {
+  "id": "WH2-27",
+  "domain": 1,
+  "stem": "Which change followed China's economic reforms beginning in 1978?",
+  "options": [
+   "Expanded market mechanisms and foreign investment under continued Communist Party rule",
+   "Immediate abolition of the Communist Party",
+   "A complete prohibition on private enterprise",
+   "China's withdrawal from all international trade"
+  ],
+  "answer": 0,
+  "explanation": "Reform policies introduced market-oriented incentives while the Communist Party retained political control.",
+  "skill": "economic"
+ },
+ {
+  "id": "WH2-28",
+  "domain": 1,
+  "stem": "What was a major historical significance of the fall of the Berlin Wall in 1989?",
+  "options": [
+   "It symbolized the weakening of communist rule in Eastern Europe and preceded German reunification",
+   "It formally ended World War I",
+   "It established the Holy Roman Empire",
+   "It restored the Soviet Union as a monarchy"
+  ],
+  "answer": 0,
+  "explanation": "The wall's opening marked a pivotal moment in the collapse of East German communist rule.",
+  "skill": "chronology"
+ },
+ {
+  "id": "WH2-29",
+  "domain": 1,
+  "stem": "Which statement best characterizes globalization since the late twentieth century?",
+  "options": [
+   "Greater interdependence through trade, communications and migration, alongside uneven outcomes",
+   "Complete elimination of borders and nation-states",
+   "A permanent end to all economic inequality",
+   "The cessation of long-distance communication"
+  ],
+  "answer": 0,
+  "explanation": "Economic and technological connections intensified, but benefits and costs were unevenly distributed.",
+  "skill": "comparison"
+ },
+ {
+  "id": "WH2-30",
+  "domain": 1,
+  "stem": "A historian comparing mortality figures from two twentieth-century conflicts should first consider what?",
+  "options": [
+   "Whether definitions, populations and collection methods are comparable",
+   "Which figure supports the historian's preferred narrative",
+   "Whether both figures are printed in the same font",
+   "Whether the conflicts occurred on the same continent only"
+  ],
+  "answer": 0,
+  "explanation": "Comparable measures and source methods are essential to interpreting numerical evidence responsibly.",
+  "skill": "source"
+ }
+]
