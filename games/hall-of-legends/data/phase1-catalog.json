@@ -1,0 +1,2398 @@
+{
+  "schema_version": "1.0",
+  "build_phase": "Phase 1 — asset audit and editorial chronology",
+  "counts": {
+    "source_main": 120,
+    "source_african_historical_figures": 32,
+    "source_african_extras": 21,
+    "overlap": 11,
+    "unique": 141,
+    "supporting_african_files": 3
+  },
+  "chronology_notice": "Editorial_anchor is a rough event/period sorting aid from the preliminary inventory—not a verified birth year, date of achievement, or publication-ready historical fact. Individually fact-check every person, date, role, region, and visual portrayal before releasing interactive lessons. Some figures are known primarily from oral or literary traditions.",
+  "authors_policy": "Give substantive priority to published scholarship by African, African American, and diasporic historians and relevant primary sources. Distinguish evidence, scholarly interpretation, and inherited tradition. Include figure-specific references in Phase 5.",
+  "source_archives": [
+    "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+    "African Black HISTORY Heroes.zip"
+  ],
+  "eras": [
+    {
+      "id": "ancient",
+      "title": "Ancient Africa and the Nile Valley",
+      "max": 599
+    },
+    {
+      "id": "kingdoms",
+      "title": "African Kingdoms, Empires and Scholarship",
+      "max": 1499
+    },
+    {
+      "id": "atlantic",
+      "title": "African Kingdoms and the Atlantic World",
+      "max": 1749
+    },
+    {
+      "id": "freedom",
+      "title": "Enslavement, Resistance and Freedom",
+      "max": 1864
+    },
+    {
+      "id": "transformation",
+      "title": "Emancipation, Empire and New Institutions",
+      "max": 1919
+    },
+    {
+      "id": "culture",
+      "title": "Modern Movements, Arts and Innovation",
+      "max": 1949
+    },
+    {
+      "id": "rights",
+      "title": "Civil Rights, Independence and Global Change",
+      "max": 1979
+    },
+    {
+      "id": "modern",
+      "title": "Modern Legacies and New Possibilities",
+      "max": 9999
+    }
+  ],
+  "overlap": [
+    "Sundiata Keita",
+    "Mansa Musa",
+    "Afonso I of Kongo",
+    "Queen Amina of Zazzau",
+    "Queen Nzinga",
+    "Ayuba Suleiman Diallo",
+    "Shaka Zulu",
+    "Haile Selassie I",
+    "Jomo Kenyatta",
+    "Kwame Nkrumah",
+    "Patrice Lumumba"
+  ],
+  "added": [
+    "Queen Makeda of Sheba",
+    "Piye",
+    "Shabaka",
+    "Taharqa",
+    "Tenkamenin",
+    "Nastasen",
+    "Amanirenas",
+    "Amanitore",
+    "Zoskales",
+    "Ezana of Aksum",
+    "Kaleb of Aksum",
+    "Moremi Ajasoro",
+    "Oba Ewuare",
+    "Sunni Ali Ber",
+    "Askia Muhammad I",
+    "Queen Nandi",
+    "Ranavalona I",
+    "Yaa Asantewaa",
+    "Queen Muhumuza",
+    "Labotsibeni Mdluli",
+    "Empress Zewditu"
+  ],
+  "figures": [
+    {
+      "id": "bh-121",
+      "name": "Queen Makeda of Sheba",
+      "editorial_anchor": -950,
+      "era": "ancient",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Queen  Makeda of Sheba Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": "Traditional figure; identification and exact chronology not established archaeologically."
+    },
+    {
+      "id": "bh-122",
+      "name": "Piye",
+      "editorial_anchor": -730,
+      "era": "ancient",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Piye Meriamun Name card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-123",
+      "name": "Shabaka",
+      "editorial_anchor": -710,
+      "era": "ancient",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Shabaka Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-124",
+      "name": "Taharqa",
+      "editorial_anchor": -690,
+      "era": "ancient",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Taharqa Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-126",
+      "name": "Nastasen",
+      "editorial_anchor": -325,
+      "era": "ancient",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Nastasen Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-127",
+      "name": "Amanirenas",
+      "editorial_anchor": -22,
+      "era": "ancient",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Amanirenas Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-128",
+      "name": "Amanitore",
+      "editorial_anchor": 20,
+      "era": "ancient",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Queen Amanitore Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-129",
+      "name": "Zoskales",
+      "editorial_anchor": 60,
+      "era": "ancient",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Zoskales Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": "Known through ancient external testimony; identification and political context require specialist review."
+    },
+    {
+      "id": "bh-130",
+      "name": "Ezana of Aksum",
+      "editorial_anchor": 330,
+      "era": "ancient",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Ezana  of Aksum Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-131",
+      "name": "Kaleb of Aksum",
+      "editorial_anchor": 525,
+      "era": "ancient",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Kaleb  of Axum Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-125",
+      "name": "Tenkamenin",
+      "editorial_anchor": 1060,
+      "era": "kingdoms",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Tenkamenin Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": "Traditional account; historicity, identity and chronology need specialist review."
+    },
+    {
+      "id": "bh-132",
+      "name": "Moremi Ajasoro",
+      "editorial_anchor": 1200,
+      "era": "kingdoms",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Moremi  Ajasoro Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": "Important Yoruba oral tradition; historical particulars and dating are contested."
+    },
+    {
+      "id": "bh-001",
+      "name": "Sundiata Keita",
+      "editorial_anchor": 1235,
+      "era": "kingdoms",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "1 Sundiata Keita.png"
+        },
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "1 Sundiata Keita.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-002",
+      "name": "Mansa Musa",
+      "editorial_anchor": 1324,
+      "era": "kingdoms",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "2 Mansa Musa.png"
+        },
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "2 Mansa Musa Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-133",
+      "name": "Oba Ewuare",
+      "editorial_anchor": 1440,
+      "era": "kingdoms",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Oba Ewuare  the Great Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-134",
+      "name": "Sunni Ali Ber",
+      "editorial_anchor": 1464,
+      "era": "kingdoms",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Sunni Ali Ber Blank.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-135",
+      "name": "Askia Muhammad I",
+      "editorial_anchor": 1493,
+      "era": "kingdoms",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Askia  Muhammad I Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-003",
+      "name": "Afonso I of Kongo",
+      "editorial_anchor": 1506,
+      "era": "atlantic",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "3 King Afonso.png"
+        },
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "King  Afonso Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-004",
+      "name": "Queen Amina of Zazzau",
+      "editorial_anchor": 1576,
+      "era": "atlantic",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "4 Amina (Queen of Zazzau).png"
+        },
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Amina (Queen of Zazzau) Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-005",
+      "name": "Queen Nzinga",
+      "editorial_anchor": 1624,
+      "era": "atlantic",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "5 Queen Nzinga.png"
+        },
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "4 Queen Nzinga Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-007",
+      "name": "Ayuba Suleiman Diallo",
+      "editorial_anchor": 1731,
+      "era": "atlantic",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "7 Ayuba Suleiman Diallo.png"
+        },
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Ayuba Suleiman Diallo Blank.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-006",
+      "name": "Crispus Attucks",
+      "editorial_anchor": 1770,
+      "era": "freedom",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "6 Crispus Attucks.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-008",
+      "name": "Phillis Wheatley",
+      "editorial_anchor": 1773,
+      "era": "freedom",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "8 Phillis Wheatley.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-015",
+      "name": "Elizabeth Freeman (Mum Bett)",
+      "editorial_anchor": 1781,
+      "era": "freedom",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "15 Elizabeth Freeman (Mum Bett).png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-009",
+      "name": "Olaudah Equiano",
+      "editorial_anchor": 1789,
+      "era": "freedom",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "9 Olaudah Equiano.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-018",
+      "name": "James Forten",
+      "editorial_anchor": 1790,
+      "era": "freedom",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "18 James Forten.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-011",
+      "name": "Benjamin Banneker",
+      "editorial_anchor": 1791,
+      "era": "freedom",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "11 Benjamin Banneker.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-010",
+      "name": "Toussaint Louverture",
+      "editorial_anchor": 1791,
+      "era": "freedom",
+      "region": "Caribbean / South America",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "10 Toussaint Louverture.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-016",
+      "name": "Richard Allen",
+      "editorial_anchor": 1794,
+      "era": "freedom",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "16 Richard Allen.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-013",
+      "name": "Joshua Johnson",
+      "editorial_anchor": 1800,
+      "era": "freedom",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "13 Joshua Johnson.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-136",
+      "name": "Queen Nandi",
+      "editorial_anchor": 1800,
+      "era": "freedom",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Queen  Nandi Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-012",
+      "name": "Paul Cuffe",
+      "editorial_anchor": 1810,
+      "era": "freedom",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "12 Paul Cuffe.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-014",
+      "name": "Shaka Zulu",
+      "editorial_anchor": 1816,
+      "era": "freedom",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "14 Shaka kaSenzangakhona.png"
+        },
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Shaka kaSenzangakhona Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-137",
+      "name": "Ranavalona I",
+      "editorial_anchor": 1828,
+      "era": "freedom",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Ranavalo-Manjaka I Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-017",
+      "name": "Nat Turner",
+      "editorial_anchor": 1831,
+      "era": "freedom",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "17 Nat Turner.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-020",
+      "name": "Henry Highland Garnet",
+      "editorial_anchor": 1843,
+      "era": "freedom",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "20 Henry Highland Garnet.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-023",
+      "name": "Frederick Douglass",
+      "editorial_anchor": 1845,
+      "era": "freedom",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "23 Frederick Douglass.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-027",
+      "name": "Harriet Tubman",
+      "editorial_anchor": 1849,
+      "era": "freedom",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "27 Harriet Tubman.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-024",
+      "name": "Henry \"Box\" Brown",
+      "editorial_anchor": 1849,
+      "era": "freedom",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "24 Henry _Box_ Brown,.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-021",
+      "name": "Sojourner Truth",
+      "editorial_anchor": 1851,
+      "era": "freedom",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "21 Sojourner Truth.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-019",
+      "name": "Dred Scott",
+      "editorial_anchor": 1857,
+      "era": "freedom",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "19 Dred Scott.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-028",
+      "name": "Robert Smalls",
+      "editorial_anchor": 1862,
+      "era": "freedom",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "28 Robert Smalls.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-025",
+      "name": "Edmonia Lewis",
+      "editorial_anchor": 1865,
+      "era": "transformation",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "25 Mary Edmonia Lewis.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-022",
+      "name": "Cathay Williams",
+      "editorial_anchor": 1866,
+      "era": "transformation",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "22 Cathay Williams.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-032",
+      "name": "P. B. S. Pinchback",
+      "editorial_anchor": 1872,
+      "era": "transformation",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "32 P.B.S. Pinchback.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-029",
+      "name": "Booker T. Washington",
+      "editorial_anchor": 1881,
+      "era": "transformation",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "29 Booker T. Washington.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-026",
+      "name": "Granville T. Woods",
+      "editorial_anchor": 1884,
+      "era": "transformation",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "26 Granville T. Woods.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-035",
+      "name": "Henry Ossawa Tanner",
+      "editorial_anchor": 1890,
+      "era": "transformation",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "35 Henry Ossawa Tanner.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-140",
+      "name": "Labotsibeni Mdluli",
+      "editorial_anchor": 1890,
+      "era": "transformation",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Labotsibeni  Mdluli Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-034",
+      "name": "Ida B. Wells",
+      "editorial_anchor": 1892,
+      "era": "transformation",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "34 Ida B. Wells.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-038",
+      "name": "George Washington Carver",
+      "editorial_anchor": 1896,
+      "era": "transformation",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "George 38 Washington Carver.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-043",
+      "name": "Mary Church Terrell",
+      "editorial_anchor": 1896,
+      "era": "transformation",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "43 Mary Church Terrel.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-139",
+      "name": "Queen Muhumuza",
+      "editorial_anchor": 1900,
+      "era": "transformation",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Queen Muhumuza Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-138",
+      "name": "Yaa Asantewaa",
+      "editorial_anchor": 1900,
+      "era": "transformation",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Yaa  Asantewaa Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-052",
+      "name": "W. E. B. Du Bois",
+      "editorial_anchor": 1903,
+      "era": "transformation",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "52 W. E. B. Du Bois.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-045",
+      "name": "Mary McLeod Bethune",
+      "editorial_anchor": 1904,
+      "era": "transformation",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "45 Mary McLeod Bethune.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-031",
+      "name": "Madam C.J. Walker",
+      "editorial_anchor": 1905,
+      "era": "transformation",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "31 Madam C.J. Walker.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-040",
+      "name": "Jack Johnson",
+      "editorial_anchor": 1908,
+      "era": "transformation",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "40 Jack Johnson.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-044",
+      "name": "Matthew P. Henson",
+      "editorial_anchor": 1909,
+      "era": "transformation",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "44 Matthew P. Henson.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-037",
+      "name": "Ernest Everett Just",
+      "editorial_anchor": 1912,
+      "era": "transformation",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "37 Ernest Everett Just.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-051",
+      "name": "Garrett Morgan",
+      "editorial_anchor": 1914,
+      "era": "transformation",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "51 Garrett Morgan.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-036",
+      "name": "Marcus Garvey",
+      "editorial_anchor": 1914,
+      "era": "transformation",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "36 Marcus Garvey.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-030",
+      "name": "Alice Augusta Ball",
+      "editorial_anchor": 1915,
+      "era": "transformation",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "30 Alice Augusta Ball.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-041",
+      "name": "Carter G. Woodson",
+      "editorial_anchor": 1915,
+      "era": "transformation",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "41 Carter Godwin Woodson.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-141",
+      "name": "Empress Zewditu",
+      "editorial_anchor": 1916,
+      "era": "transformation",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Empress Zewditu Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-033",
+      "name": "Bessie Coleman",
+      "editorial_anchor": 1921,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "33 Bessie Coleman.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-061",
+      "name": "Louis Armstrong",
+      "editorial_anchor": 1923,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "61 Louis Armstrong.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-042",
+      "name": "Alain Locke",
+      "editorial_anchor": 1925,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "42 Alain Leroy Locke.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-066",
+      "name": "Paul Robeson",
+      "editorial_anchor": 1925,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "66 Paul Robeson.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-058",
+      "name": "Langston Hughes",
+      "editorial_anchor": 1926,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "58 Langston Hughes.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-053",
+      "name": "Roger Arliner Young",
+      "editorial_anchor": 1926,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "53 Roger Arliner.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-064",
+      "name": "Duke Ellington",
+      "editorial_anchor": 1927,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "64 Duke Ellington.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-065",
+      "name": "Haile Selassie I",
+      "editorial_anchor": 1930,
+      "era": "culture",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "65 Haile Selassie I.png"
+        },
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Haile Selassie Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-046",
+      "name": "Billie Holiday",
+      "editorial_anchor": 1935,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "46 Billy Holiday.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-070",
+      "name": "Jesse Owens",
+      "editorial_anchor": 1936,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "70 Jesse Owens.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-071",
+      "name": "Joe Louis",
+      "editorial_anchor": 1937,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "71 Joe Louis.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-047",
+      "name": "Zora Neale Hurston",
+      "editorial_anchor": 1937,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "47 Zora Neale Hurston.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-085",
+      "name": "Ella Fitzgerald",
+      "editorial_anchor": 1938,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "85 Ella Fitzgerald.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-083",
+      "name": "Marian Anderson",
+      "editorial_anchor": 1939,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "83 Marian Anderson.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-048",
+      "name": "Richard Wright",
+      "editorial_anchor": 1940,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "48 Richard Wright.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-100",
+      "name": "David Blackwell",
+      "editorial_anchor": 1941,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "100 David Harold Blackwell.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-039",
+      "name": "Doris \"Dorie\" Miller",
+      "editorial_anchor": 1941,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "39 Doris _Dorie_ Miller.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-089",
+      "name": "Jacob Lawrence",
+      "editorial_anchor": 1941,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "89 Jacob Armstead Lawrence.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-091",
+      "name": "Benjamin O. Davis Jr",
+      "editorial_anchor": 1942,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "91 Benjamin O. Davis Jr.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-076",
+      "name": "Vivien Thomas",
+      "editorial_anchor": 1944,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "76 Vivien Thomas.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-090",
+      "name": "Charity Adams Earley",
+      "editorial_anchor": 1945,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "90 Charity Adams Earley.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-055",
+      "name": "Nat King Cole",
+      "editorial_anchor": 1946,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "55 Nat King Cole.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-079",
+      "name": "Sugar Ray Robinson",
+      "editorial_anchor": 1946,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "79 Sugar Ray Robinson.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-063",
+      "name": "Jackie Robinson",
+      "editorial_anchor": 1947,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "63 Jackie Robinson.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-073",
+      "name": "Satchel Paige",
+      "editorial_anchor": 1948,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "73 Satchel Paige.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-069",
+      "name": "Marjorie Lee Browne",
+      "editorial_anchor": 1949,
+      "era": "culture",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "69 Marjorie Lee Browne.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-056",
+      "name": "Malcolm X (El-Hajj Malik El-Shabazz)",
+      "editorial_anchor": 1952,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "56 El-Hajj Malik El-Shabazz Malcom x.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-057",
+      "name": "Dorothy Dandridge",
+      "editorial_anchor": 1954,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "57 Dorothy Dandridge.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-050",
+      "name": "Medgar Evers",
+      "editorial_anchor": 1954,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "50 Medger Evers.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-094",
+      "name": "Ray Charles",
+      "editorial_anchor": 1954,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "94 Ray Charles.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-081",
+      "name": "Thurgood Marshall",
+      "editorial_anchor": 1954,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "81 Thurgood Marshall.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-075",
+      "name": "Annie Easley",
+      "editorial_anchor": 1955,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "75 Annie Easley.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-078",
+      "name": "James Baldwin",
+      "editorial_anchor": 1955,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "78 James Baldwin.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-059",
+      "name": "Martin Luther King Jr.",
+      "editorial_anchor": 1955,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "59 Martin Luther King Jr.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-096",
+      "name": "Rosa Parks",
+      "editorial_anchor": 1955,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "96 Rosa Parks.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-093",
+      "name": "Althea Gibson",
+      "editorial_anchor": 1956,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "93 Athea Gibson.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-098",
+      "name": "James Brown",
+      "editorial_anchor": 1956,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "98 James Brown.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-117",
+      "name": "Bill Russell",
+      "editorial_anchor": 1957,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "117 Bill Russell.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-119",
+      "name": "Jim Brown",
+      "editorial_anchor": 1957,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "119 James Nathaniel Brown.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-062",
+      "name": "Kwame Nkrumah",
+      "editorial_anchor": 1957,
+      "era": "rights",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "62 Francis Kwame Nkrumah.png"
+        },
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Francis Kwame Nkrumah Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-054",
+      "name": "Sam Cooke",
+      "editorial_anchor": 1957,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "54 Sam Cooke.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-092",
+      "name": "Nina Simone",
+      "editorial_anchor": 1958,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "92 Nina Simone.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-118",
+      "name": "Pelé (Edson Arantes do Nascimento)",
+      "editorial_anchor": 1958,
+      "era": "rights",
+      "region": "Caribbean / South America",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "118 Edson Nascimento Pele.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-074",
+      "name": "Marvin Gaye",
+      "editorial_anchor": 1960,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "74 Marvin Gay.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-049",
+      "name": "Patrice Lumumba",
+      "editorial_anchor": 1960,
+      "era": "rights",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "49 Patrice Lumumba.png"
+        },
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Patrice Lumumba Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-084",
+      "name": "Wilma Rudolph",
+      "editorial_anchor": 1960,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "84 Wilma Rudolph.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-067",
+      "name": "Fannie Lou Hamer",
+      "editorial_anchor": 1962,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "67 Fammie Lou Hamer.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-109",
+      "name": "Katherine Johnson",
+      "editorial_anchor": 1962,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "109 Katherine Johnson.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-088",
+      "name": "Wilt Chamberlain",
+      "editorial_anchor": 1962,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "88 Wilt Chamberlain.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-077",
+      "name": "Bayard Rustin",
+      "editorial_anchor": 1963,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "77 Bayard Rustin.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-113",
+      "name": "Gloria Richardson",
+      "editorial_anchor": 1963,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "113 Gloria Richardson.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-068",
+      "name": "Jomo Kenyatta",
+      "editorial_anchor": 1963,
+      "era": "rights",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "68 Jomo Kenyatta.png"
+        },
+        {
+          "archive": "African Black HISTORY Heroes",
+          "filename": "Jomo Kenyatta Name Card.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-120",
+      "name": "James Earl Jones",
+      "editorial_anchor": 1964,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "120 James Earl Jones.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-105",
+      "name": "Muhammad Ali",
+      "editorial_anchor": 1964,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "105 Muhammad Ali.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-116",
+      "name": "Sidney Poitier",
+      "editorial_anchor": 1964,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "116 Sidney Poitier.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-110",
+      "name": "John Lewis",
+      "editorial_anchor": 1965,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "110 John Lewis.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-080",
+      "name": "Huey P. Newton",
+      "editorial_anchor": 1966,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "80 Huey Percy Newton.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-106",
+      "name": "Aretha Franklin",
+      "editorial_anchor": 1967,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "106 Aretha Franklin Background.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-082",
+      "name": "Arthur Ashe",
+      "editorial_anchor": 1968,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "82 Arthur Ashe.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-060",
+      "name": "Fred Hampton",
+      "editorial_anchor": 1968,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "60 Fred Hampton.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-095",
+      "name": "Shirley Chisholm",
+      "editorial_anchor": 1968,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "95 Shirley Chisholm.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-103",
+      "name": "Maya Angelou",
+      "editorial_anchor": 1969,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "103 Maya Angelou.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-072",
+      "name": "Bob Marley",
+      "editorial_anchor": 1970,
+      "era": "rights",
+      "region": "Caribbean / South America",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "72 Bob Marley.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-097",
+      "name": "Richard Pryor",
+      "editorial_anchor": 1970,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "97 Richard Pryor.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-108",
+      "name": "Toni Morrison",
+      "editorial_anchor": 1970,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "108 Toni Morrison.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-112",
+      "name": "Cicely Tyson",
+      "editorial_anchor": 1972,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "112 Cicely Tyson.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-111",
+      "name": "George Carruthers",
+      "editorial_anchor": 1972,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "111 George Carruthers.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-101",
+      "name": "Hazel Johnson-Brown",
+      "editorial_anchor": 1979,
+      "era": "rights",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "101 Hazel Johnson-Brown.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-107",
+      "name": "Patricia Bath",
+      "editorial_anchor": 1981,
+      "era": "modern",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "107 Patricia Bath.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-099",
+      "name": "Michael Jackson",
+      "editorial_anchor": 1982,
+      "era": "modern",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "99 Michael Joseph Jackson.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-115",
+      "name": "Desmond Tutu",
+      "editorial_anchor": 1984,
+      "era": "modern",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "115 Desmond Tutu.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-104",
+      "name": "Prince",
+      "editorial_anchor": 1984,
+      "era": "modern",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "104 Prince Rogers Nelson.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-114",
+      "name": "Colin Powell",
+      "editorial_anchor": 1989,
+      "era": "modern",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "114 Colin Powell.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-086",
+      "name": "Tupac Shakur",
+      "editorial_anchor": 1991,
+      "era": "modern",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "86 Tupac Amaru Shakur.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-087",
+      "name": "Christopher Wallace (The Notorious B.I.G.)",
+      "editorial_anchor": 1994,
+      "era": "modern",
+      "region": "United States / Black Atlantic",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "87 Christopher Wallace.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    },
+    {
+      "id": "bh-102",
+      "name": "Nelson Mandela",
+      "editorial_anchor": 1994,
+      "era": "modern",
+      "region": "Africa",
+      "source_artwork": [
+        {
+          "archive": "Main BLACK HISTORY FIGURES",
+          "filename": "102 Nelson Mandela.png"
+        }
+      ],
+      "source_review": "pending_individual_review",
+      "artwork_type": "illustration",
+      "note": null
+    }
+  ]
+}
