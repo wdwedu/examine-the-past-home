@@ -21,5 +21,12 @@ preBtn?.addEventListener('click',()=>{
   let msg=score===cards.length?'Strong starting knowledge. Move through the lesson looking for deeper evidence and connections.':score>=Math.ceil(cards.length/2)?'You already have some useful background knowledge. The lesson will help sharpen and extend it.':'This is a good starting point. Use the lesson to build the key context and vocabulary before the source-analysis tasks.';
   out.textContent=`Starting point: ${score} of ${cards.length} correct. ${msg}`;
 });
-document.querySelector('#markComplete')?.addEventListener('click',e=>{e.currentTarget.textContent='✓ Lesson Complete';e.currentTarget.disabled=true;document.querySelector('#completeMessage').textContent='Lesson complete. In a member version, this can save progress and results to the learner account.';celebrate(e.currentTarget);});
+const finishButton=document.querySelector('#markComplete'),finishMessage=document.querySelector('#completeMessage');
+if(finishButton&&finishMessage){
+  const finishKey='etp-lesson-completed:'+location.pathname;
+  finishMessage.setAttribute('role','status');finishMessage.setAttribute('aria-live','polite');
+  function displayCompleted(saved){finishButton.textContent='✓ Lesson Complete';finishButton.disabled=true;finishButton.closest('.complete')?.classList.add('lesson-finished');finishMessage.textContent=saved?'Achievement unlocked! Your completion is saved in this browser.':'Achievement unlocked! You completed this lesson.';}
+  try{if(localStorage.getItem(finishKey)==='1')displayCompleted(true)}catch(_e){}
+  finishButton.addEventListener('click',()=>{let saved=false;try{localStorage.setItem(finishKey,'1');saved=true}catch(_e){}displayCompleted(saved);if(!matchMedia('(prefers-reduced-motion: reduce)').matches)celebrate(finishButton)});
+}
 })();
