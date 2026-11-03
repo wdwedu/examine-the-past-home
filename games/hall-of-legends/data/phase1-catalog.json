@@ -108,7 +108,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": "Traditional figure; identification and exact chronology not established archaeologically."
+      "note": "Traditional figure; identification and exact chronology not established archaeologically.",
+      "date_label": "Ethiopian tradition",
+      "date_status": "editorial_date_requires_source_review",
+      "original_artwork_position": null
     },
     {
       "id": "bh-122",
@@ -124,7 +127,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": "c. 747–716 BCE (reign)",
+      "date_status": "editorial_date_requires_source_review",
+      "original_artwork_position": null
     },
     {
       "id": "bh-123",
@@ -140,7 +146,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": "late 8th–early 7th century BCE",
+      "date_status": "editorial_date_requires_source_review",
+      "original_artwork_position": null
     },
     {
       "id": "bh-124",
@@ -156,7 +165,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": "690–664 BCE (reign)",
+      "date_status": "editorial_date_requires_source_review",
+      "original_artwork_position": null
     },
     {
       "id": "bh-126",
@@ -172,7 +184,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": "late 4th century BCE",
+      "date_status": "editorial_date_requires_source_review",
+      "original_artwork_position": null
     },
     {
       "id": "bh-127",
@@ -188,7 +203,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": "late 1st century BCE",
+      "date_status": "editorial_date_requires_source_review",
+      "original_artwork_position": null
     },
     {
       "id": "bh-128",
@@ -204,7 +222,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": "1st century CE",
+      "date_status": "editorial_date_requires_source_review",
+      "original_artwork_position": null
     },
     {
       "id": "bh-129",
@@ -220,7 +241,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": "Known through ancient external testimony; identification and political context require specialist review."
+      "note": "Known through ancient external testimony; identification and political context require specialist review.",
+      "date_label": "1st century CE (known through ancient account)",
+      "date_status": "editorial_date_requires_source_review",
+      "original_artwork_position": null
     },
     {
       "id": "bh-130",
@@ -236,7 +260,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": "c. 320s–350s CE (reign)",
+      "date_status": "editorial_date_requires_source_review",
+      "original_artwork_position": null
     },
     {
       "id": "bh-131",
@@ -252,7 +279,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": "early 6th century CE",
+      "date_status": "editorial_date_requires_source_review",
+      "original_artwork_position": null
     },
     {
       "id": "bh-125",
@@ -268,7 +298,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": "Traditional account; historicity, identity and chronology need specialist review."
+      "note": "Traditional account; historicity, identity and chronology need specialist review.",
+      "date_label": "Traditional account",
+      "date_status": "editorial_date_requires_source_review",
+      "original_artwork_position": null
     },
     {
       "id": "bh-132",
@@ -284,7 +317,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": "Important Yoruba oral tradition; historical particulars and dating are contested."
+      "note": "Important Yoruba oral tradition; historical particulars and dating are contested.",
+      "date_label": "Yoruba tradition",
+      "date_status": "editorial_date_requires_source_review",
+      "original_artwork_position": null
     },
     {
       "id": "bh-001",
@@ -304,7 +340,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": "c. 1235–1255 (reign)",
+      "date_status": "editorial_date_requires_source_review",
+      "original_artwork_position": 1
     },
     {
       "id": "bh-002",
@@ -324,7 +363,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": "c. 1312–1337 (reign)",
+      "date_status": "editorial_date_requires_source_review",
+      "original_artwork_position": 2
     },
     {
       "id": "bh-133",
@@ -340,7 +382,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": "mid-15th century (reign)",
+      "date_status": "editorial_date_requires_source_review",
+      "original_artwork_position": null
     },
     {
       "id": "bh-134",
@@ -356,7 +401,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": "c. 1464–1492 (reign)",
+      "date_status": "editorial_date_requires_source_review",
+      "original_artwork_position": null
     },
     {
       "id": "bh-135",
@@ -372,7 +420,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": "1493–1528 (reign)",
+      "date_status": "editorial_date_requires_source_review",
+      "original_artwork_position": null
     },
     {
       "id": "bh-003",
@@ -392,7 +443,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": "1506–early 1540s (reign)",
+      "date_status": "editorial_date_requires_source_review",
+      "original_artwork_position": 3
     },
     {
       "id": "bh-004",
@@ -412,7 +466,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": "probably 16th century",
+      "date_status": "editorial_date_requires_source_review",
+      "original_artwork_position": 4
     },
     {
       "id": "bh-005",
@@ -432,7 +489,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": "c. 1583–1663",
+      "date_status": "editorial_date_requires_source_review",
+      "original_artwork_position": 5
     },
     {
       "id": "bh-007",
@@ -452,7 +512,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": "c. 1701–1773",
+      "date_status": "editorial_date_requires_source_review",
+      "original_artwork_position": 7
     },
     {
       "id": "bh-006",
@@ -468,7 +531,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 6
     },
     {
       "id": "bh-008",
@@ -484,7 +550,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 8
     },
     {
       "id": "bh-015",
@@ -500,7 +569,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 15
     },
     {
       "id": "bh-009",
@@ -516,7 +588,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 9
     },
     {
       "id": "bh-018",
@@ -532,7 +607,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 18
     },
     {
       "id": "bh-011",
@@ -548,7 +626,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 11
     },
     {
       "id": "bh-010",
@@ -564,7 +645,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 10
     },
     {
       "id": "bh-016",
@@ -580,7 +664,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 16
     },
     {
       "id": "bh-013",
@@ -596,7 +683,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 13
     },
     {
       "id": "bh-136",
@@ -612,7 +702,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": null
     },
     {
       "id": "bh-012",
@@ -628,7 +721,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 12
     },
     {
       "id": "bh-014",
@@ -648,7 +744,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 14
     },
     {
       "id": "bh-137",
@@ -664,7 +763,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": null
     },
     {
       "id": "bh-017",
@@ -680,7 +782,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 17
     },
     {
       "id": "bh-020",
@@ -696,7 +801,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 20
     },
     {
       "id": "bh-023",
@@ -712,7 +820,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 23
     },
     {
       "id": "bh-027",
@@ -728,7 +839,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 27
     },
     {
       "id": "bh-024",
@@ -744,7 +858,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 24
     },
     {
       "id": "bh-021",
@@ -760,7 +877,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 21
     },
     {
       "id": "bh-019",
@@ -776,7 +896,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 19
     },
     {
       "id": "bh-028",
@@ -792,7 +915,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 28
     },
     {
       "id": "bh-025",
@@ -808,7 +934,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 25
     },
     {
       "id": "bh-022",
@@ -824,7 +953,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 22
     },
     {
       "id": "bh-032",
@@ -840,7 +972,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 32
     },
     {
       "id": "bh-029",
@@ -856,7 +991,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 29
     },
     {
       "id": "bh-026",
@@ -872,7 +1010,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 26
     },
     {
       "id": "bh-035",
@@ -888,7 +1029,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 35
     },
     {
       "id": "bh-140",
@@ -904,7 +1048,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": null
     },
     {
       "id": "bh-034",
@@ -920,7 +1067,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 34
     },
     {
       "id": "bh-038",
@@ -936,7 +1086,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": null
     },
     {
       "id": "bh-043",
@@ -952,7 +1105,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 43
     },
     {
       "id": "bh-139",
@@ -968,7 +1124,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": null
     },
     {
       "id": "bh-138",
@@ -984,7 +1143,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": null
     },
     {
       "id": "bh-052",
@@ -1000,7 +1162,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 52
     },
     {
       "id": "bh-045",
@@ -1016,7 +1181,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 45
     },
     {
       "id": "bh-031",
@@ -1032,7 +1200,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 31
     },
     {
       "id": "bh-040",
@@ -1048,7 +1219,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 40
     },
     {
       "id": "bh-044",
@@ -1064,7 +1238,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 44
     },
     {
       "id": "bh-037",
@@ -1080,7 +1257,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 37
     },
     {
       "id": "bh-051",
@@ -1096,7 +1276,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 51
     },
     {
       "id": "bh-036",
@@ -1112,7 +1295,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 36
     },
     {
       "id": "bh-030",
@@ -1128,7 +1314,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 30
     },
     {
       "id": "bh-041",
@@ -1144,7 +1333,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 41
     },
     {
       "id": "bh-141",
@@ -1160,7 +1352,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": null
     },
     {
       "id": "bh-033",
@@ -1176,7 +1371,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 33
     },
     {
       "id": "bh-061",
@@ -1192,7 +1390,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 61
     },
     {
       "id": "bh-042",
@@ -1208,7 +1409,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 42
     },
     {
       "id": "bh-066",
@@ -1224,7 +1428,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 66
     },
     {
       "id": "bh-058",
@@ -1240,7 +1447,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 58
     },
     {
       "id": "bh-053",
@@ -1256,7 +1466,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 53
     },
     {
       "id": "bh-064",
@@ -1272,7 +1485,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 64
     },
     {
       "id": "bh-065",
@@ -1292,7 +1508,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 65
     },
     {
       "id": "bh-046",
@@ -1308,7 +1527,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 46
     },
     {
       "id": "bh-070",
@@ -1324,7 +1546,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 70
     },
     {
       "id": "bh-071",
@@ -1340,7 +1565,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 71
     },
     {
       "id": "bh-047",
@@ -1356,7 +1584,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 47
     },
     {
       "id": "bh-085",
@@ -1372,7 +1603,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 85
     },
     {
       "id": "bh-083",
@@ -1388,7 +1622,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 83
     },
     {
       "id": "bh-048",
@@ -1404,7 +1641,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 48
     },
     {
       "id": "bh-100",
@@ -1420,7 +1660,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 100
     },
     {
       "id": "bh-039",
@@ -1436,7 +1679,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 39
     },
     {
       "id": "bh-089",
@@ -1452,7 +1698,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 89
     },
     {
       "id": "bh-091",
@@ -1468,7 +1717,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 91
     },
     {
       "id": "bh-076",
@@ -1484,7 +1736,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 76
     },
     {
       "id": "bh-090",
@@ -1500,7 +1755,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 90
     },
     {
       "id": "bh-055",
@@ -1516,7 +1774,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 55
     },
     {
       "id": "bh-079",
@@ -1532,7 +1793,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 79
     },
     {
       "id": "bh-063",
@@ -1548,7 +1812,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 63
     },
     {
       "id": "bh-073",
@@ -1564,7 +1831,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 73
     },
     {
       "id": "bh-069",
@@ -1580,7 +1850,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 69
     },
     {
       "id": "bh-056",
@@ -1596,7 +1869,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 56
     },
     {
       "id": "bh-057",
@@ -1612,7 +1888,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 57
     },
     {
       "id": "bh-050",
@@ -1628,7 +1907,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 50
     },
     {
       "id": "bh-094",
@@ -1644,7 +1926,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 94
     },
     {
       "id": "bh-081",
@@ -1660,7 +1945,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 81
     },
     {
       "id": "bh-075",
@@ -1676,7 +1964,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 75
     },
     {
       "id": "bh-078",
@@ -1692,7 +1983,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 78
     },
     {
       "id": "bh-059",
@@ -1708,7 +2002,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 59
     },
     {
       "id": "bh-096",
@@ -1724,7 +2021,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 96
     },
     {
       "id": "bh-093",
@@ -1740,7 +2040,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 93
     },
     {
       "id": "bh-098",
@@ -1756,7 +2059,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 98
     },
     {
       "id": "bh-117",
@@ -1772,7 +2078,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 117
     },
     {
       "id": "bh-119",
@@ -1788,7 +2097,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 119
     },
     {
       "id": "bh-062",
@@ -1808,7 +2120,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 62
     },
     {
       "id": "bh-054",
@@ -1824,7 +2139,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 54
     },
     {
       "id": "bh-092",
@@ -1840,7 +2158,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 92
     },
     {
       "id": "bh-118",
@@ -1856,7 +2177,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 118
     },
     {
       "id": "bh-074",
@@ -1872,7 +2196,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 74
     },
     {
       "id": "bh-049",
@@ -1892,7 +2219,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 49
     },
     {
       "id": "bh-084",
@@ -1908,7 +2238,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 84
     },
     {
       "id": "bh-067",
@@ -1924,7 +2257,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 67
     },
     {
       "id": "bh-109",
@@ -1940,7 +2276,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 109
     },
     {
       "id": "bh-088",
@@ -1956,7 +2295,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 88
     },
     {
       "id": "bh-077",
@@ -1972,7 +2314,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 77
     },
     {
       "id": "bh-113",
@@ -1988,7 +2333,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 113
     },
     {
       "id": "bh-068",
@@ -2008,7 +2356,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 68
     },
     {
       "id": "bh-120",
@@ -2024,7 +2375,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 120
     },
     {
       "id": "bh-105",
@@ -2040,7 +2394,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 105
     },
     {
       "id": "bh-116",
@@ -2056,7 +2413,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 116
     },
     {
       "id": "bh-110",
@@ -2072,7 +2432,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 110
     },
     {
       "id": "bh-080",
@@ -2088,7 +2451,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 80
     },
     {
       "id": "bh-106",
@@ -2104,7 +2470,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 106
     },
     {
       "id": "bh-082",
@@ -2120,7 +2489,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 82
     },
     {
       "id": "bh-060",
@@ -2136,7 +2508,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 60
     },
     {
       "id": "bh-095",
@@ -2152,7 +2527,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 95
     },
     {
       "id": "bh-103",
@@ -2168,7 +2546,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 103
     },
     {
       "id": "bh-072",
@@ -2184,7 +2565,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 72
     },
     {
       "id": "bh-097",
@@ -2200,7 +2584,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 97
     },
     {
       "id": "bh-108",
@@ -2216,7 +2603,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 108
     },
     {
       "id": "bh-112",
@@ -2232,7 +2622,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 112
     },
     {
       "id": "bh-111",
@@ -2248,7 +2641,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 111
     },
     {
       "id": "bh-101",
@@ -2264,7 +2660,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 101
     },
     {
       "id": "bh-107",
@@ -2280,7 +2679,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 107
     },
     {
       "id": "bh-099",
@@ -2296,7 +2698,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 99
     },
     {
       "id": "bh-115",
@@ -2312,7 +2717,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 115
     },
     {
       "id": "bh-104",
@@ -2328,7 +2736,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 104
     },
     {
       "id": "bh-114",
@@ -2344,7 +2755,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 114
     },
     {
       "id": "bh-086",
@@ -2360,7 +2774,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 86
     },
     {
       "id": "bh-087",
@@ -2376,7 +2793,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 87
     },
     {
       "id": "bh-102",
@@ -2392,7 +2812,10 @@
       ],
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
-      "note": null
+      "note": null,
+      "date_label": null,
+      "date_status": "not_reviewed",
+      "original_artwork_position": 102
     }
   ]
 }
