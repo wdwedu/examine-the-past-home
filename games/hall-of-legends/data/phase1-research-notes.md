@@ -59,3 +59,26 @@ Record: individual canonical name; era and geographic setting; reputable biograp
 - Existing Heroes Lessons: `/lessons/black-history-heroes/`
 - Unified Black History Lessons: `/lessons/black-history/lessons/`
 - Full chronological course roadmap: `/lessons/black-history/course/`
+
+
+## 2026-11-03 chronology extension — research-stage output
+- All **141 entries now have a date label** in `phase1-catalog.json` and original 1–120 artwork positions are preserved.
+- The dates mix life spans, regnal periods, and activity periods by design; do not compare all labels as identical date types.
+- A **preliminary reading order** follows each person's influential activity or contribution, not birth year. This avoids placing all African people before the Americas regardless of chronology.
+- The atlas renders earliest material at the **bottom**; each era's displayed list is deliberately reversed in the DOM so moving **up** advances forward in time.
+- Twenty entries have initial individually relevant reference URLs in the catalog. **The other 121 entries still need individual source checks** before any final bio/challenge is authored. A source link is not, by itself, full historical verification.
+- **12 provisional scenery segments** now encompass all 141 unique named subjects with counts 10, 7, 11, 14, 12, 11, 13, 13, 14, 14, 14, 8; adjacent segments are grouped into **6 conceptual panoramic pairs**. These are artwork planning assignments only, not final chronology sign-off.
+- The source archives have been inspected programmatically and contain 120 + 35 PNGs. In the African archive, 3 are nonportrait support images, 11 portraits overlap, and 21 introduce new named entries. Nothing was deleted.
+- Historical claims **not resolved**: identities and chronology of Makeda, Tenkamenin, Moremi Ajasoro, Zoskales, and contested dates for Amina of Zazzau; region and contribution dates for numerous modern biographies; publisher rights for provided imagery.
+- Individual visual portrait recreation and **the 141 personal Alliance activities, 8 Era Challenges, 100-credit system, local progress and certificates** remain later build phases and have **not** been presented as completed features.
+
+### Additional sources checked during this audit
+- **Smithsonian Libraries**: Ackson M. Kanduza, *Labotsibeni (c. 1858–1925): queen mother of Swaziland, 1890–1899; queen regent, 1899–1921*. https://www.si.edu/object/siris_sil_818547
+- **Smithsonian Libraries**: A. Adu Boahen and Emmanuel Akyeampong, *Yaa Asantewaa and the Asante-British War of 1900–1*. https://collections.si.edu/search/detail/edanmdm%3Asiris_sil_739224
+- **Cambridge University Press**: Richard Vokes, *Ghosts of Kanungu*, chapter on Nyabingi and Muhumuza. https://www.cambridge.org/core/books/abs/ghosts-of-kanungu/on-fertility-misfortune/8AD566389F33E26932260BCE5EFFDF46
+- **Oxford Dictionary of National Biography**: John D. Omer-Cooper, Shaka and Queen Nandi. https://academic.oup.com/oxford-dictionary-of-national-biography/reference/63486/reference-article-abstract/582570474
+- **Kenyan Presidential Library**: Jomo Kenyatta, uncertain birth circa 1895. https://www.presidentiallibrary.go.ke/index.php/presidents/he-mzee-jomo-kenyatta
+- **Cécile Fromont**: Kongo chapter in *Great Kingdoms of Africa*, demonstrating 1506 accession for Afonso. https://thecrucibleinstitute.org/wp-content/uploads/2025/02/Great-Kingdoms-of-Africa_John-Parker.pdf
+
+### Reviewer release gate
+Before a profile earns a historical-verification mark, require a vetted source supporting dates and place, accurate attribution of actions, a note on disputed claims, portrayal of the figure in context, and a valid source link. Do not describe these 141 individual biographies as fully fact-checked at this stage.
