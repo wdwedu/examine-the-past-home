@@ -32,3 +32,23 @@ body.etp-bh-portal{background:#020403;color:#f5f8f3;font-family:Georgia,"Times N
 @keyframes bh-cross-shimmer{0%,25%{transform:translateX(-95%) rotate(-5deg)}48%,100%{transform:translateX(105%) rotate(-5deg)}}@keyframes bh-btn-shine{0%,45%{transform:translateX(-135%) rotate(20deg)}57%,100%{transform:translateX(145%) rotate(20deg)}}
 @media(max-width:720px){.bh-wrap{width:calc(100% - 26px);padding-top:12px}.bh-choices,.bh-stack{grid-template-columns:1fr;gap:15px}.bh-choices .bh-path{min-height:0}.bh-feature{min-height:0}.bh-head{padding:21px 3px 20px}.bh-head h1{font-size:clamp(33px,9vw,49px)}.bh-feature,.bh-path{padding:24px}.bh-feature p,.bh-path p{font-size:15px}}
 @media(prefers-reduced-motion:reduce){.bh-feature,.bh-path,.bh-card-link,.bh-action{transition:none}.bh-feature::after,.bh-path::after,.bh-action::after{animation:none}}
+
+
+/* Hall of Legends: temporary source-backed historical atlas, ascending through eras. */
+.hall-status h2,.hall-method h2,.hall-links h2{margin:0 0 12px;color:#fff200;font:700 clamp(22px,3.1vw,30px) Georgia,serif}
+.hall-stats{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 2px}.hall-stats span{background:#091d12;border:1px solid #94ff533a;border-radius:12px;padding:12px 15px;color:#d8e2d7;font:13px Georgia,serif}.hall-stats strong{color:#fff200;font:700 22px Georgia,serif;margin-right:5px}
+.hall-sources{display:flex;flex-wrap:wrap;gap:8px 18px}.hall-sources a{color:#94ff53;font:13px/1.6 Georgia,serif}
+.hall-ascend{position:relative;margin:26px auto 0;padding:24px clamp(10px,2vw,22px);border:1px solid #fff2002e;border-radius:28px;overflow:hidden;background:linear-gradient(180deg,#090e11 0%,#0c131d 28%,#0b1613 63%,#19130c 100%)}
+.hall-ascend::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:5px;transform:translateX(-50%);background:linear-gradient(0deg,rgba(148,255,83,.1),rgba(255,242,0,.55));opacity:.3;pointer-events:none}
+.hall-topstone,.hall-entrance{position:relative;text-align:center;z-index:1;border:1px solid #94ff5375;border-radius:23px;padding:clamp(24px,4vw,40px);background:radial-gradient(ellipse at center,#17351d,#07100a 75%);box-shadow:0 20px 42px #000a}
+.hall-topstone h2,.hall-entrance h2{color:#fff200;font:700 clamp(24px,4.3vw,37px)/1.2 Georgia,serif;margin:8px 0 15px}
+.hall-topstone p,.hall-entrance p{max-width:660px;margin:10px auto 16px;color:#e4e9e2;font:16px/1.65 Georgia,serif}
+.hall-timeline{position:relative;z-index:1;display:flex;flex-direction:column;gap:24px;margin:32px 0}
+.hall-era{border:1px solid #94ff5340;border-radius:24px;padding:24px clamp(16px,3vw,28px);background:linear-gradient(135deg,#10191a,#080e0a 80%);box-shadow:0 16px 30px #0008}
+.hall-era-banner{text-align:center;margin-bottom:17px}.hall-era-banner h2{font:700 clamp(22px,3.6vw,30px)/1.25 Georgia,serif;color:#fff200;margin:7px 0 8px}
+.hall-plates{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;list-style:none;padding:0;margin:0}
+.hall-plate{display:flex;flex-direction:column;justify-content:center;gap:6px;border:1px solid rgba(148,255,83,.21);background:radial-gradient(circle at top,#1d2d26,#07100b 80%);min-height:90px;border-radius:12px;padding:14px 12px;text-align:center}
+.hall-plate-name{color:#fff;font:700 15px/1.3 Georgia,serif}.hall-plate-note{font:11px/1.4 Georgia,serif;color:#abb7ad}.hall-lesson-link{font:700 12px Georgia,serif;color:#94ff53;text-decoration:underline}
+.hall-find-label{display:block;color:#94ff53;font:700 14px Georgia,serif;margin-top:17px;margin-bottom:8px}.hall-find{display:block;max-width:430px;width:100%;margin:0 auto 16px;padding:13px 16px;background:#030903;border:1px solid #94ff53a1;border-radius:12px;color:#fff;font:16px Georgia,serif}.hall-find:focus-visible{outline:2px solid #fff200;outline-offset:2px}
+.hall-entrance .bh-action{cursor:pointer;margin:4px auto 15px}.hall-links{margin-top:28px}
+@media(max-width:790px){.hall-plates{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:440px){.hall-ascend{padding:10px 7px;border-radius:16px}.hall-era{padding:17px 12px}.hall-plate{padding:12px 8px}.hall-plate-name{font-size:13px}.hall-plate-note{font-size:10px}.hall-stats{flex-direction:column}.hall-stats span{width:100%}}
