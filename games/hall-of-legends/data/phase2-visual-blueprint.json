@@ -1,0 +1,1431 @@
+{
+  "title": "Hall of Legends — Phase 2 visual production plan",
+  "updated": "2026-11-03",
+  "status": "Visual map and placement specifications only: final scenery and artwork not yet generated",
+  "orientation": "Begin at the bottom; move upward chronologically; place earlier portraits lower in each scene",
+  "master_image_plan": {
+    "connected_pairs": 6,
+    "scene_slices": 12,
+    "bookends": 2,
+    "shared_seams": "At least 10% overlap/crossfade between scenes of each pair; keep center pathway and horizon consistent; match edge texture and lighting",
+    "scenic_art": "Era-specific architecture, ground, sky, distant landscapes, atmospheric depth; do not bake people, names or UI elements into background",
+    "responsive": "Desktop scenery fills viewport, mobile crops scenery around center while independent portrait UI maintains readable dimensions",
+    "production": "Approve one two-scene sample and crop before authoring all six master pairs"
+  },
+  "layout": {
+    "desktop": "Scenery outer 0–20% and 80–100%, portrait safe bands 20–38% and 62–80%, center traveling path 38–62%",
+    "mobile": "Scenery center crop; two 128–148 CSS px portrait overlays in separate columns, 44px minimum tap targets; background must not carry faces or required details",
+    "typography": "Georgia; yellow titles, green labels on dark surfaces; historical date below each name",
+    "popup": "Later phase: responsive modal with close X, biography pages, and unique Alliance challenge; journey restores last scroll position",
+    "navigation": "Persistent existing shared site header/footer; separate Hall up/down/resume controls without overlap",
+    "progress": "Later phase: earned Alliances /141 and Legacy Credits /100; eight Era Seals; summit certificate"
+  },
+  "historical_guards": [
+    "Hall is an interpretive temporal collage, not one geographic location across time",
+    "Reference current Great Mosque of Djenné only as a present-day comparison, not unchanged medieval structure",
+    "Distinguish traditional figures such as Makeda and Moremi from archaeologically documented rulers",
+    "No anachronistic buildings, clothing, flags or text",
+    "Respectful treatment of enslavement, liberation and resistance, without turning suffering into decoration"
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "title": "Nile Valley and Red Sea Worlds",
+      "scene_name_prior": "First Horizons",
+      "pair": 1,
+      "ground": "River gravel → worn sandstone",
+      "visual_direction": "Kushite Nile landscapes, Meroë monuments, Aksumite stelae and Red Sea trade as separate period vignettes; no invented proof of Queen Makeda.",
+      "palette": {
+        "sky": "#181d21",
+        "walls": "#51412c",
+        "ground": "#947050"
+      },
+      "figure_count": 10,
+      "reference_url": "https://whc.unesco.org/en/list/1336/",
+      "face_safe_zones": {
+        "desktop_left": "20%–38%",
+        "desktop_right": "62%–80%",
+        "mobile": "Two HTML portrait columns independent of background crop"
+      },
+      "portraits": [
+        {
+          "id": "bh-121",
+          "name": "Queen Makeda of Sheba",
+          "date_label": "Ethiopian tradition",
+          "side": "left",
+          "tier_from_bottom": 1,
+          "original_number": null
+        },
+        {
+          "id": "bh-122",
+          "name": "Piye",
+          "date_label": "c. 747–716 BCE (reign)",
+          "side": "right",
+          "tier_from_bottom": 1,
+          "original_number": null
+        },
+        {
+          "id": "bh-123",
+          "name": "Shabaka",
+          "date_label": "late 8th–early 7th century BCE",
+          "side": "left",
+          "tier_from_bottom": 2,
+          "original_number": null
+        },
+        {
+          "id": "bh-124",
+          "name": "Taharqa",
+          "date_label": "690–664 BCE (reign)",
+          "side": "right",
+          "tier_from_bottom": 2,
+          "original_number": null
+        },
+        {
+          "id": "bh-126",
+          "name": "Nastasen",
+          "date_label": "late 4th century BCE",
+          "side": "left",
+          "tier_from_bottom": 3,
+          "original_number": null
+        },
+        {
+          "id": "bh-127",
+          "name": "Amanirenas",
+          "date_label": "late 1st century BCE",
+          "side": "right",
+          "tier_from_bottom": 3,
+          "original_number": null
+        },
+        {
+          "id": "bh-128",
+          "name": "Amanitore",
+          "date_label": "1st century CE",
+          "side": "left",
+          "tier_from_bottom": 4,
+          "original_number": null
+        },
+        {
+          "id": "bh-129",
+          "name": "Zoskales",
+          "date_label": "1st century CE (known through ancient account)",
+          "side": "right",
+          "tier_from_bottom": 4,
+          "original_number": null
+        },
+        {
+          "id": "bh-130",
+          "name": "Ezana of Aksum",
+          "date_label": "c. 320s–350s CE (reign)",
+          "side": "left",
+          "tier_from_bottom": 5,
+          "original_number": null
+        },
+        {
+          "id": "bh-131",
+          "name": "Kaleb of Aksum",
+          "date_label": "early 6th century CE",
+          "side": "right",
+          "tier_from_bottom": 5,
+          "original_number": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Sahelian Kingdoms and Scholarship",
+      "scene_name_prior": "Kingdoms of Knowledge",
+      "pair": 1,
+      "ground": "Pressed earth → compacted laterite",
+      "visual_direction": "Sahelian earthen courts, land trade, learning and manuscripts; avoid depicting the 1907 Great Mosque of Djenné in medieval Mali.",
+      "palette": {
+        "sky": "#191b20",
+        "walls": "#473526",
+        "ground": "#a27a4b"
+      },
+      "figure_count": 7,
+      "reference_url": "https://whc.unesco.org/en/list/116/",
+      "face_safe_zones": {
+        "desktop_left": "20%–38%",
+        "desktop_right": "62%–80%",
+        "mobile": "Two HTML portrait columns independent of background crop"
+      },
+      "portraits": [
+        {
+          "id": "bh-125",
+          "name": "Tenkamenin",
+          "date_label": "Traditional account",
+          "side": "left",
+          "tier_from_bottom": 1,
+          "original_number": null
+        },
+        {
+          "id": "bh-132",
+          "name": "Moremi Ajasoro",
+          "date_label": "Yoruba tradition",
+          "side": "right",
+          "tier_from_bottom": 1,
+          "original_number": null
+        },
+        {
+          "id": "bh-001",
+          "name": "Sundiata Keita",
+          "date_label": "c. 1235–1255 (reign)",
+          "side": "left",
+          "tier_from_bottom": 2,
+          "original_number": 1
+        },
+        {
+          "id": "bh-002",
+          "name": "Mansa Musa",
+          "date_label": "c. 1312–1337 (reign)",
+          "side": "right",
+          "tier_from_bottom": 2,
+          "original_number": 2
+        },
+        {
+          "id": "bh-133",
+          "name": "Oba Ewuare",
+          "date_label": "mid-15th century (reign)",
+          "side": "left",
+          "tier_from_bottom": 3,
+          "original_number": null
+        },
+        {
+          "id": "bh-134",
+          "name": "Sunni Ali Ber",
+          "date_label": "c. 1464–1492 (reign)",
+          "side": "right",
+          "tier_from_bottom": 3,
+          "original_number": null
+        },
+        {
+          "id": "bh-135",
+          "name": "Askia Muhammad I",
+          "date_label": "1493–1528 (reign)",
+          "side": "left",
+          "tier_from_bottom": 4,
+          "original_number": null
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "African Courts and Atlantic Crossroads",
+      "scene_name_prior": "Changing Shores",
+      "pair": 2,
+      "ground": "Forest earth → timber → coastal stone",
+      "visual_direction": "Kongo river courts and contrasting West/Central African, Atlantic and Caribbean imagery; show displacement without turning suffering into decoration.",
+      "palette": {
+        "sky": "#142021",
+        "walls": "#264942",
+        "ground": "#6b7871"
+      },
+      "figure_count": 11,
+      "reference_url": "https://www.unesco.org/en/general-history-africa",
+      "face_safe_zones": {
+        "desktop_left": "20%–38%",
+        "desktop_right": "62%–80%",
+        "mobile": "Two HTML portrait columns independent of background crop"
+      },
+      "portraits": [
+        {
+          "id": "bh-003",
+          "name": "Afonso I of Kongo",
+          "date_label": "Reigned 1506–early 1540s",
+          "side": "left",
+          "tier_from_bottom": 1,
+          "original_number": 3
+        },
+        {
+          "id": "bh-004",
+          "name": "Queen Amina of Zazzau",
+          "date_label": "probably 16th century",
+          "side": "right",
+          "tier_from_bottom": 1,
+          "original_number": 4
+        },
+        {
+          "id": "bh-005",
+          "name": "Queen Nzinga",
+          "date_label": "c. 1583–1663 · ruled 17th century",
+          "side": "left",
+          "tier_from_bottom": 2,
+          "original_number": 5
+        },
+        {
+          "id": "bh-007",
+          "name": "Ayuba Suleiman Diallo",
+          "date_label": "c. 1701–1773",
+          "side": "right",
+          "tier_from_bottom": 2,
+          "original_number": 7
+        },
+        {
+          "id": "bh-006",
+          "name": "Crispus Attucks",
+          "date_label": "c. 1723–1770",
+          "side": "left",
+          "tier_from_bottom": 3,
+          "original_number": 6
+        },
+        {
+          "id": "bh-008",
+          "name": "Phillis Wheatley",
+          "date_label": "c. 1753–1784",
+          "side": "right",
+          "tier_from_bottom": 3,
+          "original_number": 8
+        },
+        {
+          "id": "bh-015",
+          "name": "Elizabeth Freeman (Mum Bett)",
+          "date_label": "c. 1744–1829",
+          "side": "left",
+          "tier_from_bottom": 4,
+          "original_number": 15
+        },
+        {
+          "id": "bh-009",
+          "name": "Olaudah Equiano",
+          "date_label": "c. 1745–1797",
+          "side": "right",
+          "tier_from_bottom": 4,
+          "original_number": 9
+        },
+        {
+          "id": "bh-018",
+          "name": "James Forten",
+          "date_label": "1766–1842",
+          "side": "left",
+          "tier_from_bottom": 5,
+          "original_number": 18
+        },
+        {
+          "id": "bh-011",
+          "name": "Benjamin Banneker",
+          "date_label": "1731–1806",
+          "side": "right",
+          "tier_from_bottom": 5,
+          "original_number": 11
+        },
+        {
+          "id": "bh-010",
+          "name": "Toussaint Louverture",
+          "date_label": "c. 1743–1803",
+          "side": "left",
+          "tier_from_bottom": 6,
+          "original_number": 10
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Paths of Resistance and Freedom",
+      "scene_name_prior": "Roads Toward Freedom",
+      "pair": 2,
+      "ground": "Wooded path → cobbled urban streets",
+      "visual_direction": "Parallel Caribbean, American and African resistance histories, including civic organizing and shifting legal and cultural contexts.",
+      "palette": {
+        "sky": "#171d29",
+        "walls": "#353e4c",
+        "ground": "#83624d"
+      },
+      "figure_count": 14,
+      "reference_url": "https://nmaahc.si.edu/explore/exhibitions/slavery-and-freedom",
+      "face_safe_zones": {
+        "desktop_left": "20%–38%",
+        "desktop_right": "62%–80%",
+        "mobile": "Two HTML portrait columns independent of background crop"
+      },
+      "portraits": [
+        {
+          "id": "bh-016",
+          "name": "Richard Allen",
+          "date_label": "1760–1831",
+          "side": "left",
+          "tier_from_bottom": 1,
+          "original_number": 16
+        },
+        {
+          "id": "bh-013",
+          "name": "Joshua Johnson",
+          "date_label": "c. 1763–c. 1824",
+          "side": "right",
+          "tier_from_bottom": 1,
+          "original_number": 13
+        },
+        {
+          "id": "bh-136",
+          "name": "Queen Nandi",
+          "date_label": "c. 1764–1827",
+          "side": "left",
+          "tier_from_bottom": 2,
+          "original_number": null
+        },
+        {
+          "id": "bh-012",
+          "name": "Paul Cuffe",
+          "date_label": "1759–1817",
+          "side": "right",
+          "tier_from_bottom": 2,
+          "original_number": 12
+        },
+        {
+          "id": "bh-014",
+          "name": "Shaka Zulu",
+          "date_label": "c. 1783–1828",
+          "side": "left",
+          "tier_from_bottom": 3,
+          "original_number": 14
+        },
+        {
+          "id": "bh-137",
+          "name": "Ranavalona I",
+          "date_label": "1828–1861 (reign)",
+          "side": "right",
+          "tier_from_bottom": 3,
+          "original_number": null
+        },
+        {
+          "id": "bh-017",
+          "name": "Nat Turner",
+          "date_label": "1800–1831",
+          "side": "left",
+          "tier_from_bottom": 4,
+          "original_number": 17
+        },
+        {
+          "id": "bh-020",
+          "name": "Henry Highland Garnet",
+          "date_label": "1815–1882",
+          "side": "right",
+          "tier_from_bottom": 4,
+          "original_number": 20
+        },
+        {
+          "id": "bh-023",
+          "name": "Frederick Douglass",
+          "date_label": "c. 1818–1895",
+          "side": "left",
+          "tier_from_bottom": 5,
+          "original_number": 23
+        },
+        {
+          "id": "bh-027",
+          "name": "Harriet Tubman",
+          "date_label": "c. 1822–1913",
+          "side": "right",
+          "tier_from_bottom": 5,
+          "original_number": 27
+        },
+        {
+          "id": "bh-024",
+          "name": "Henry \"Box\" Brown",
+          "date_label": "c. 1815–after 1880",
+          "side": "left",
+          "tier_from_bottom": 6,
+          "original_number": 24
+        },
+        {
+          "id": "bh-021",
+          "name": "Sojourner Truth",
+          "date_label": "c. 1797–1883",
+          "side": "right",
+          "tier_from_bottom": 6,
+          "original_number": 21
+        },
+        {
+          "id": "bh-019",
+          "name": "Dred Scott",
+          "date_label": "c. 1799–1858",
+          "side": "left",
+          "tier_from_bottom": 7,
+          "original_number": 19
+        },
+        {
+          "id": "bh-028",
+          "name": "Robert Smalls",
+          "date_label": "1839–1915",
+          "side": "right",
+          "tier_from_bottom": 7,
+          "original_number": 28
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Reconstruction and African Resistance",
+      "scene_name_prior": "New Foundations",
+      "pair": 3,
+      "ground": "Brick walkways → packed earth",
+      "visual_direction": "Freed communities and Reconstruction schools beside distinct African political and anticolonial settings; no implied shared physical location.",
+      "palette": {
+        "sky": "#1a2321",
+        "walls": "#553b30",
+        "ground": "#a27252"
+      },
+      "figure_count": 12,
+      "reference_url": "https://www.si.edu/exhibitions/make-good-promises-reconstruction-and-its-legacies%3Aevent-exhib-6538",
+      "face_safe_zones": {
+        "desktop_left": "20%–38%",
+        "desktop_right": "62%–80%",
+        "mobile": "Two HTML portrait columns independent of background crop"
+      },
+      "portraits": [
+        {
+          "id": "bh-025",
+          "name": "Edmonia Lewis",
+          "date_label": "c. 1844–1907",
+          "side": "left",
+          "tier_from_bottom": 1,
+          "original_number": 25
+        },
+        {
+          "id": "bh-022",
+          "name": "Cathay Williams",
+          "date_label": "Born c. 1844 · U.S. Army service 1866–1868",
+          "side": "right",
+          "tier_from_bottom": 1,
+          "original_number": 22
+        },
+        {
+          "id": "bh-032",
+          "name": "P. B. S. Pinchback",
+          "date_label": "1837–1921",
+          "side": "left",
+          "tier_from_bottom": 2,
+          "original_number": 32
+        },
+        {
+          "id": "bh-029",
+          "name": "Booker T. Washington",
+          "date_label": "1856–1915",
+          "side": "right",
+          "tier_from_bottom": 2,
+          "original_number": 29
+        },
+        {
+          "id": "bh-026",
+          "name": "Granville T. Woods",
+          "date_label": "1856–1910",
+          "side": "left",
+          "tier_from_bottom": 3,
+          "original_number": 26
+        },
+        {
+          "id": "bh-035",
+          "name": "Henry Ossawa Tanner",
+          "date_label": "1859–1937",
+          "side": "right",
+          "tier_from_bottom": 3,
+          "original_number": 35
+        },
+        {
+          "id": "bh-140",
+          "name": "Labotsibeni Mdluli",
+          "date_label": "c. 1858–1925 · regency 1899–1921",
+          "side": "left",
+          "tier_from_bottom": 4,
+          "original_number": null
+        },
+        {
+          "id": "bh-034",
+          "name": "Ida B. Wells",
+          "date_label": "1862–1931",
+          "side": "right",
+          "tier_from_bottom": 4,
+          "original_number": 34
+        },
+        {
+          "id": "bh-038",
+          "name": "George Washington Carver",
+          "date_label": "c. 1864–1943",
+          "side": "left",
+          "tier_from_bottom": 5,
+          "original_number": 38
+        },
+        {
+          "id": "bh-043",
+          "name": "Mary Church Terrell",
+          "date_label": "1863–1954",
+          "side": "right",
+          "tier_from_bottom": 5,
+          "original_number": 43
+        },
+        {
+          "id": "bh-139",
+          "name": "Queen Muhumuza",
+          "date_label": "Active c. 1907–1911 · died 1945",
+          "side": "left",
+          "tier_from_bottom": 6,
+          "original_number": null
+        },
+        {
+          "id": "bh-138",
+          "name": "Yaa Asantewaa",
+          "date_label": "19th century–1921 · resistance in 1900",
+          "side": "right",
+          "tier_from_bottom": 6,
+          "original_number": null
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "New Institutions and Invention",
+      "scene_name_prior": "Education and Industry",
+      "pair": 3,
+      "ground": "Wooden boards → tile",
+      "visual_direction": "Early educational institutions, printing, workshops, invention, African governance and intellectual life.",
+      "palette": {
+        "sky": "#151f20",
+        "walls": "#3c453c",
+        "ground": "#786e4e"
+      },
+      "figure_count": 11,
+      "reference_url": "https://www.unesco.org/en/general-history-africa",
+      "face_safe_zones": {
+        "desktop_left": "20%–38%",
+        "desktop_right": "62%–80%",
+        "mobile": "Two HTML portrait columns independent of background crop"
+      },
+      "portraits": [
+        {
+          "id": "bh-052",
+          "name": "W. E. B. Du Bois",
+          "date_label": "1868–1963",
+          "side": "left",
+          "tier_from_bottom": 1,
+          "original_number": 52
+        },
+        {
+          "id": "bh-045",
+          "name": "Mary McLeod Bethune",
+          "date_label": "1875–1955",
+          "side": "right",
+          "tier_from_bottom": 1,
+          "original_number": 45
+        },
+        {
+          "id": "bh-031",
+          "name": "Madam C.J. Walker",
+          "date_label": "1867–1919",
+          "side": "left",
+          "tier_from_bottom": 2,
+          "original_number": 31
+        },
+        {
+          "id": "bh-040",
+          "name": "Jack Johnson",
+          "date_label": "1878–1946",
+          "side": "right",
+          "tier_from_bottom": 2,
+          "original_number": 40
+        },
+        {
+          "id": "bh-044",
+          "name": "Matthew P. Henson",
+          "date_label": "1866–1955",
+          "side": "left",
+          "tier_from_bottom": 3,
+          "original_number": 44
+        },
+        {
+          "id": "bh-037",
+          "name": "Ernest Everett Just",
+          "date_label": "1883–1941",
+          "side": "right",
+          "tier_from_bottom": 3,
+          "original_number": 37
+        },
+        {
+          "id": "bh-051",
+          "name": "Garrett Morgan",
+          "date_label": "1877–1963",
+          "side": "left",
+          "tier_from_bottom": 4,
+          "original_number": 51
+        },
+        {
+          "id": "bh-036",
+          "name": "Marcus Garvey",
+          "date_label": "1887–1940",
+          "side": "right",
+          "tier_from_bottom": 4,
+          "original_number": 36
+        },
+        {
+          "id": "bh-030",
+          "name": "Alice Augusta Ball",
+          "date_label": "1892–1916",
+          "side": "left",
+          "tier_from_bottom": 5,
+          "original_number": 30
+        },
+        {
+          "id": "bh-041",
+          "name": "Carter G. Woodson",
+          "date_label": "1875–1950",
+          "side": "right",
+          "tier_from_bottom": 5,
+          "original_number": 41
+        },
+        {
+          "id": "bh-141",
+          "name": "Empress Zewditu",
+          "date_label": "1916–1930 (reign)",
+          "side": "left",
+          "tier_from_bottom": 6,
+          "original_number": null
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Jazz, Flight and Literary Awakening",
+      "scene_name_prior": "The Modern Black World",
+      "pair": 4,
+      "ground": "City bricks → theater floorboards",
+      "visual_direction": "Period city streets, rail travel, early aviation, manuscripts, salons, performance and international artistic achievement.",
+      "palette": {
+        "sky": "#172236",
+        "walls": "#2b415a",
+        "ground": "#8b694b"
+      },
+      "figure_count": 13,
+      "reference_url": "https://www.si.edu/newsdesk/factsheets/national-museum-african-american-history-and-culture-inaugural-exhibitions",
+      "face_safe_zones": {
+        "desktop_left": "20%–38%",
+        "desktop_right": "62%–80%",
+        "mobile": "Two HTML portrait columns independent of background crop"
+      },
+      "portraits": [
+        {
+          "id": "bh-033",
+          "name": "Bessie Coleman",
+          "date_label": "1892–1926",
+          "side": "left",
+          "tier_from_bottom": 1,
+          "original_number": 33
+        },
+        {
+          "id": "bh-061",
+          "name": "Louis Armstrong",
+          "date_label": "1901–1971",
+          "side": "right",
+          "tier_from_bottom": 1,
+          "original_number": 61
+        },
+        {
+          "id": "bh-042",
+          "name": "Alain Locke",
+          "date_label": "1885–1954",
+          "side": "left",
+          "tier_from_bottom": 2,
+          "original_number": 42
+        },
+        {
+          "id": "bh-066",
+          "name": "Paul Robeson",
+          "date_label": "1898–1976",
+          "side": "right",
+          "tier_from_bottom": 2,
+          "original_number": 66
+        },
+        {
+          "id": "bh-058",
+          "name": "Langston Hughes",
+          "date_label": "1901–1967",
+          "side": "left",
+          "tier_from_bottom": 3,
+          "original_number": 58
+        },
+        {
+          "id": "bh-053",
+          "name": "Roger Arliner Young",
+          "date_label": "1899–1964",
+          "side": "right",
+          "tier_from_bottom": 3,
+          "original_number": 53
+        },
+        {
+          "id": "bh-064",
+          "name": "Duke Ellington",
+          "date_label": "1899–1974",
+          "side": "left",
+          "tier_from_bottom": 4,
+          "original_number": 64
+        },
+        {
+          "id": "bh-065",
+          "name": "Haile Selassie I",
+          "date_label": "1892–1975 (reigned 1930–1974)",
+          "side": "right",
+          "tier_from_bottom": 4,
+          "original_number": 65
+        },
+        {
+          "id": "bh-046",
+          "name": "Billie Holiday",
+          "date_label": "1915–1959",
+          "side": "left",
+          "tier_from_bottom": 5,
+          "original_number": 46
+        },
+        {
+          "id": "bh-070",
+          "name": "Jesse Owens",
+          "date_label": "1913–1980",
+          "side": "right",
+          "tier_from_bottom": 5,
+          "original_number": 70
+        },
+        {
+          "id": "bh-071",
+          "name": "Joe Louis",
+          "date_label": "1914–1981",
+          "side": "left",
+          "tier_from_bottom": 6,
+          "original_number": 71
+        },
+        {
+          "id": "bh-047",
+          "name": "Zora Neale Hurston",
+          "date_label": "1891–1960",
+          "side": "right",
+          "tier_from_bottom": 6,
+          "original_number": 47
+        },
+        {
+          "id": "bh-085",
+          "name": "Ella Fitzgerald",
+          "date_label": "1917–1996",
+          "side": "left",
+          "tier_from_bottom": 7,
+          "original_number": 85
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "War, Work and Boundaries Broken",
+      "scene_name_prior": "Culture in Motion",
+      "pair": 4,
+      "ground": "Industrial concrete → urban pavement",
+      "visual_direction": "Period-accurate wartime research, service, arts, science, athletics and changing public streets, with distinct local settings.",
+      "palette": {
+        "sky": "#17202a",
+        "walls": "#3b4955",
+        "ground": "#756e67"
+      },
+      "figure_count": 13,
+      "reference_url": "https://www.si.edu/exhibitions/defending-freedom-defining-freedom-era-segregation-1876-1968-event-exhib-4841",
+      "face_safe_zones": {
+        "desktop_left": "20%–38%",
+        "desktop_right": "62%–80%",
+        "mobile": "Two HTML portrait columns independent of background crop"
+      },
+      "portraits": [
+        {
+          "id": "bh-083",
+          "name": "Marian Anderson",
+          "date_label": "1897–1993",
+          "side": "left",
+          "tier_from_bottom": 1,
+          "original_number": 83
+        },
+        {
+          "id": "bh-048",
+          "name": "Richard Wright",
+          "date_label": "1908–1960",
+          "side": "right",
+          "tier_from_bottom": 1,
+          "original_number": 48
+        },
+        {
+          "id": "bh-100",
+          "name": "David Blackwell",
+          "date_label": "1919–2010",
+          "side": "left",
+          "tier_from_bottom": 2,
+          "original_number": 100
+        },
+        {
+          "id": "bh-039",
+          "name": "Doris \"Dorie\" Miller",
+          "date_label": "1919–1943",
+          "side": "right",
+          "tier_from_bottom": 2,
+          "original_number": 39
+        },
+        {
+          "id": "bh-089",
+          "name": "Jacob Lawrence",
+          "date_label": "1917–2000",
+          "side": "left",
+          "tier_from_bottom": 3,
+          "original_number": 89
+        },
+        {
+          "id": "bh-091",
+          "name": "Benjamin O. Davis Jr",
+          "date_label": "1912–2002",
+          "side": "right",
+          "tier_from_bottom": 3,
+          "original_number": 91
+        },
+        {
+          "id": "bh-076",
+          "name": "Vivien Thomas",
+          "date_label": "1910–1985",
+          "side": "left",
+          "tier_from_bottom": 4,
+          "original_number": 76
+        },
+        {
+          "id": "bh-090",
+          "name": "Charity Adams Earley",
+          "date_label": "1918–2002",
+          "side": "right",
+          "tier_from_bottom": 4,
+          "original_number": 90
+        },
+        {
+          "id": "bh-055",
+          "name": "Nat King Cole",
+          "date_label": "1919–1965",
+          "side": "left",
+          "tier_from_bottom": 5,
+          "original_number": 55
+        },
+        {
+          "id": "bh-079",
+          "name": "Sugar Ray Robinson",
+          "date_label": "1921–1989",
+          "side": "right",
+          "tier_from_bottom": 5,
+          "original_number": 79
+        },
+        {
+          "id": "bh-063",
+          "name": "Jackie Robinson",
+          "date_label": "1919–1972",
+          "side": "left",
+          "tier_from_bottom": 6,
+          "original_number": 63
+        },
+        {
+          "id": "bh-073",
+          "name": "Satchel Paige",
+          "date_label": "1906–1982",
+          "side": "right",
+          "tier_from_bottom": 6,
+          "original_number": 73
+        },
+        {
+          "id": "bh-069",
+          "name": "Marjorie Lee Browne",
+          "date_label": "1914–1979",
+          "side": "left",
+          "tier_from_bottom": 7,
+          "original_number": 69
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Movement, Rights and Independence",
+      "scene_name_prior": "A Changing Nation",
+      "pair": 5,
+      "ground": "City sidewalks → civic steps",
+      "visual_direction": "Mid-century community organizing and civic spaces with clearly separate African independence moments.",
+      "palette": {
+        "sky": "#112226",
+        "walls": "#285052",
+        "ground": "#6d795f"
+      },
+      "figure_count": 14,
+      "reference_url": "https://www.si.edu/exhibitions/defending-freedom-defining-freedom-era-segregation-1876-1968-event-exhib-4841",
+      "face_safe_zones": {
+        "desktop_left": "20%–38%",
+        "desktop_right": "62%–80%",
+        "mobile": "Two HTML portrait columns independent of background crop"
+      },
+      "portraits": [
+        {
+          "id": "bh-056",
+          "name": "Malcolm X (El-Hajj Malik El-Shabazz)",
+          "date_label": "1925–1965",
+          "side": "left",
+          "tier_from_bottom": 1,
+          "original_number": 56
+        },
+        {
+          "id": "bh-057",
+          "name": "Dorothy Dandridge",
+          "date_label": "1922–1965",
+          "side": "right",
+          "tier_from_bottom": 1,
+          "original_number": 57
+        },
+        {
+          "id": "bh-050",
+          "name": "Medgar Evers",
+          "date_label": "1925–1963",
+          "side": "left",
+          "tier_from_bottom": 2,
+          "original_number": 50
+        },
+        {
+          "id": "bh-094",
+          "name": "Ray Charles",
+          "date_label": "1930–2004",
+          "side": "right",
+          "tier_from_bottom": 2,
+          "original_number": 94
+        },
+        {
+          "id": "bh-081",
+          "name": "Thurgood Marshall",
+          "date_label": "1908–1993",
+          "side": "left",
+          "tier_from_bottom": 3,
+          "original_number": 81
+        },
+        {
+          "id": "bh-075",
+          "name": "Annie Easley",
+          "date_label": "1933–2011",
+          "side": "right",
+          "tier_from_bottom": 3,
+          "original_number": 75
+        },
+        {
+          "id": "bh-078",
+          "name": "James Baldwin",
+          "date_label": "1924–1987",
+          "side": "left",
+          "tier_from_bottom": 4,
+          "original_number": 78
+        },
+        {
+          "id": "bh-059",
+          "name": "Martin Luther King Jr.",
+          "date_label": "1929–1968",
+          "side": "right",
+          "tier_from_bottom": 4,
+          "original_number": 59
+        },
+        {
+          "id": "bh-096",
+          "name": "Rosa Parks",
+          "date_label": "1913–2005",
+          "side": "left",
+          "tier_from_bottom": 5,
+          "original_number": 96
+        },
+        {
+          "id": "bh-093",
+          "name": "Althea Gibson",
+          "date_label": "1927–2003",
+          "side": "right",
+          "tier_from_bottom": 5,
+          "original_number": 93
+        },
+        {
+          "id": "bh-098",
+          "name": "James Brown",
+          "date_label": "1933–2006",
+          "side": "left",
+          "tier_from_bottom": 6,
+          "original_number": 98
+        },
+        {
+          "id": "bh-117",
+          "name": "Bill Russell",
+          "date_label": "1934–2022",
+          "side": "right",
+          "tier_from_bottom": 6,
+          "original_number": 117
+        },
+        {
+          "id": "bh-119",
+          "name": "Jim Brown",
+          "date_label": "1936–2023",
+          "side": "left",
+          "tier_from_bottom": 7,
+          "original_number": 119
+        },
+        {
+          "id": "bh-062",
+          "name": "Kwame Nkrumah",
+          "date_label": "1909–1972",
+          "side": "right",
+          "tier_from_bottom": 7,
+          "original_number": 62
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "New Nations and Expanding Horizons",
+      "scene_name_prior": "Freedom Across Borders",
+      "pair": 5,
+      "ground": "Granite plazas → public pavement",
+      "visual_direction": "African independence, Caribbean arts, American civic transformation, science and sports as parallel pathways.",
+      "palette": {
+        "sky": "#14252b",
+        "walls": "#2c5154",
+        "ground": "#8b8056"
+      },
+      "figure_count": 14,
+      "reference_url": "https://www.unesco.org/en/general-history-africa",
+      "face_safe_zones": {
+        "desktop_left": "20%–38%",
+        "desktop_right": "62%–80%",
+        "mobile": "Two HTML portrait columns independent of background crop"
+      },
+      "portraits": [
+        {
+          "id": "bh-054",
+          "name": "Sam Cooke",
+          "date_label": "1931–1964",
+          "side": "left",
+          "tier_from_bottom": 1,
+          "original_number": 54
+        },
+        {
+          "id": "bh-092",
+          "name": "Nina Simone",
+          "date_label": "1933–2003",
+          "side": "right",
+          "tier_from_bottom": 1,
+          "original_number": 92
+        },
+        {
+          "id": "bh-118",
+          "name": "Pelé (Edson Arantes do Nascimento)",
+          "date_label": "1940–2022",
+          "side": "left",
+          "tier_from_bottom": 2,
+          "original_number": 118
+        },
+        {
+          "id": "bh-074",
+          "name": "Marvin Gaye",
+          "date_label": "1939–1984",
+          "side": "right",
+          "tier_from_bottom": 2,
+          "original_number": 74
+        },
+        {
+          "id": "bh-049",
+          "name": "Patrice Lumumba",
+          "date_label": "1925–1961",
+          "side": "left",
+          "tier_from_bottom": 3,
+          "original_number": 49
+        },
+        {
+          "id": "bh-084",
+          "name": "Wilma Rudolph",
+          "date_label": "1940–1994",
+          "side": "right",
+          "tier_from_bottom": 3,
+          "original_number": 84
+        },
+        {
+          "id": "bh-067",
+          "name": "Fannie Lou Hamer",
+          "date_label": "1917–1977",
+          "side": "left",
+          "tier_from_bottom": 4,
+          "original_number": 67
+        },
+        {
+          "id": "bh-109",
+          "name": "Katherine Johnson",
+          "date_label": "1918–2020",
+          "side": "right",
+          "tier_from_bottom": 4,
+          "original_number": 109
+        },
+        {
+          "id": "bh-088",
+          "name": "Wilt Chamberlain",
+          "date_label": "1936–1999",
+          "side": "left",
+          "tier_from_bottom": 5,
+          "original_number": 88
+        },
+        {
+          "id": "bh-077",
+          "name": "Bayard Rustin",
+          "date_label": "1912–1987",
+          "side": "right",
+          "tier_from_bottom": 5,
+          "original_number": 77
+        },
+        {
+          "id": "bh-113",
+          "name": "Gloria Richardson",
+          "date_label": "1922–2021",
+          "side": "left",
+          "tier_from_bottom": 6,
+          "original_number": 113
+        },
+        {
+          "id": "bh-068",
+          "name": "Jomo Kenyatta",
+          "date_label": "c. 1895–1978",
+          "side": "right",
+          "tier_from_bottom": 6,
+          "original_number": 68
+        },
+        {
+          "id": "bh-120",
+          "name": "James Earl Jones",
+          "date_label": "1931–2024",
+          "side": "left",
+          "tier_from_bottom": 7,
+          "original_number": 120
+        },
+        {
+          "id": "bh-105",
+          "name": "Muhammad Ali",
+          "date_label": "1942–2016",
+          "side": "right",
+          "tier_from_bottom": 7,
+          "original_number": 105
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Voices, Organizing and Global Change",
+      "scene_name_prior": "Voices for Change",
+      "pair": 6,
+      "ground": "Civic paving → smooth concrete",
+      "visual_direction": "Civic halls, laboratories, neighborhood centers, press and art scenes, including global rights movements.",
+      "palette": {
+        "sky": "#211a26",
+        "walls": "#44404e",
+        "ground": "#7d6b75"
+      },
+      "figure_count": 14,
+      "reference_url": "https://www.si.edu/newsdesk/factsheets/national-museum-african-american-history-and-culture-inaugural-exhibitions",
+      "face_safe_zones": {
+        "desktop_left": "20%–38%",
+        "desktop_right": "62%–80%",
+        "mobile": "Two HTML portrait columns independent of background crop"
+      },
+      "portraits": [
+        {
+          "id": "bh-116",
+          "name": "Sidney Poitier",
+          "date_label": "1927–2022",
+          "side": "left",
+          "tier_from_bottom": 1,
+          "original_number": 116
+        },
+        {
+          "id": "bh-110",
+          "name": "John Lewis",
+          "date_label": "1940–2020",
+          "side": "right",
+          "tier_from_bottom": 1,
+          "original_number": 110
+        },
+        {
+          "id": "bh-080",
+          "name": "Huey P. Newton",
+          "date_label": "1942–1989",
+          "side": "left",
+          "tier_from_bottom": 2,
+          "original_number": 80
+        },
+        {
+          "id": "bh-106",
+          "name": "Aretha Franklin",
+          "date_label": "1942–2018",
+          "side": "right",
+          "tier_from_bottom": 2,
+          "original_number": 106
+        },
+        {
+          "id": "bh-082",
+          "name": "Arthur Ashe",
+          "date_label": "1943–1993",
+          "side": "left",
+          "tier_from_bottom": 3,
+          "original_number": 82
+        },
+        {
+          "id": "bh-060",
+          "name": "Fred Hampton",
+          "date_label": "1948–1969",
+          "side": "right",
+          "tier_from_bottom": 3,
+          "original_number": 60
+        },
+        {
+          "id": "bh-095",
+          "name": "Shirley Chisholm",
+          "date_label": "1924–2005",
+          "side": "left",
+          "tier_from_bottom": 4,
+          "original_number": 95
+        },
+        {
+          "id": "bh-103",
+          "name": "Maya Angelou",
+          "date_label": "1928–2014",
+          "side": "right",
+          "tier_from_bottom": 4,
+          "original_number": 103
+        },
+        {
+          "id": "bh-072",
+          "name": "Bob Marley",
+          "date_label": "1945–1981",
+          "side": "left",
+          "tier_from_bottom": 5,
+          "original_number": 72
+        },
+        {
+          "id": "bh-097",
+          "name": "Richard Pryor",
+          "date_label": "1940–2005",
+          "side": "right",
+          "tier_from_bottom": 5,
+          "original_number": 97
+        },
+        {
+          "id": "bh-108",
+          "name": "Toni Morrison",
+          "date_label": "1931–2019",
+          "side": "left",
+          "tier_from_bottom": 6,
+          "original_number": 108
+        },
+        {
+          "id": "bh-112",
+          "name": "Cicely Tyson",
+          "date_label": "1924–2021",
+          "side": "right",
+          "tier_from_bottom": 6,
+          "original_number": 112
+        },
+        {
+          "id": "bh-111",
+          "name": "George Carruthers",
+          "date_label": "1939–2020",
+          "side": "left",
+          "tier_from_bottom": 7,
+          "original_number": 111
+        },
+        {
+          "id": "bh-101",
+          "name": "Hazel Johnson-Brown",
+          "date_label": "1927–2011",
+          "side": "right",
+          "tier_from_bottom": 7,
+          "original_number": 101
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "New Possibilities and Living Memory",
+      "scene_name_prior": "Possibility and Memory",
+      "pair": 6,
+      "ground": "Smooth stone → open summit terrace",
+      "visual_direction": "Contemporary intellectual, scientific, artistic and political legacies, leading to an open view of future possibilities.",
+      "palette": {
+        "sky": "#151f2d",
+        "walls": "#404d5c",
+        "ground": "#87876c"
+      },
+      "figure_count": 8,
+      "reference_url": "https://nmaahc.si.edu/",
+      "face_safe_zones": {
+        "desktop_left": "20%–38%",
+        "desktop_right": "62%–80%",
+        "mobile": "Two HTML portrait columns independent of background crop"
+      },
+      "portraits": [
+        {
+          "id": "bh-107",
+          "name": "Patricia Bath",
+          "date_label": "1942–2019",
+          "side": "left",
+          "tier_from_bottom": 1,
+          "original_number": 107
+        },
+        {
+          "id": "bh-099",
+          "name": "Michael Jackson",
+          "date_label": "1958–2009",
+          "side": "right",
+          "tier_from_bottom": 1,
+          "original_number": 99
+        },
+        {
+          "id": "bh-115",
+          "name": "Desmond Tutu",
+          "date_label": "1931–2021",
+          "side": "left",
+          "tier_from_bottom": 2,
+          "original_number": 115
+        },
+        {
+          "id": "bh-104",
+          "name": "Prince",
+          "date_label": "1958–2016",
+          "side": "right",
+          "tier_from_bottom": 2,
+          "original_number": 104
+        },
+        {
+          "id": "bh-114",
+          "name": "Colin Powell",
+          "date_label": "1937–2021",
+          "side": "left",
+          "tier_from_bottom": 3,
+          "original_number": 114
+        },
+        {
+          "id": "bh-086",
+          "name": "Tupac Shakur",
+          "date_label": "1971–1996",
+          "side": "right",
+          "tier_from_bottom": 3,
+          "original_number": 86
+        },
+        {
+          "id": "bh-087",
+          "name": "Christopher Wallace (The Notorious B.I.G.)",
+          "date_label": "1972–1997",
+          "side": "left",
+          "tier_from_bottom": 4,
+          "original_number": 87
+        },
+        {
+          "id": "bh-102",
+          "name": "Nelson Mandela",
+          "date_label": "1918–2013",
+          "side": "right",
+          "tier_from_bottom": 4,
+          "original_number": 102
+        }
+      ]
+    }
+  ],
+  "integrity": {
+    "unique_figures": 141,
+    "scene_count": 12,
+    "master_pairs": 6,
+    "portraits_not_in_backdrops": true,
+    "individual_chronology_requires_source_signoff": true
+  }
+}
