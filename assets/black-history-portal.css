@@ -1,0 +1,34 @@
+
+/* Black History three-pathway portal: Examine the Past black/yellow/green/Georgia identity. */
+:root{--bh-yellow:#fff200;--bh-green:#94ff53;--bh-ink:#040704}
+body.etp-bh-portal{background:#020403;color:#f5f8f3;font-family:Georgia,"Times New Roman",serif;overflow-x:hidden}
+.bh-wrap{width:min(1060px,calc(100% - 32px));margin:0 auto;padding:28px 0 72px}
+.bh-crumb{display:inline-flex;align-items:center;gap:6px;padding:7px 2px;font:700 13px Georgia,serif;color:var(--bh-green);text-decoration:none}.bh-crumb:hover{color:var(--bh-yellow)}
+.bh-head{padding:25px 7px 22px;text-align:center}.bh-eyebrow{color:var(--bh-green);letter-spacing:.16em;text-transform:uppercase;font:700 12px Georgia,serif}.bh-head h1{margin:12px auto;color:var(--bh-yellow);font:700 clamp(37px,7vw,67px)/1.06 Georgia,serif;max-width:950px}.bh-head p{margin:16px auto 0;max-width:770px;color:#d9e0d7;font:clamp(16px,2.1vw,20px)/1.65 Georgia,serif}
+.bh-feature,.bh-path{position:relative;isolation:isolate;display:flex;flex-direction:column;align-items:flex-start;min-width:0;overflow:hidden;border:1px solid rgba(255,242,0,.27);border-radius:24px;padding:clamp(24px,4vw,42px);color:#fff;box-shadow:0 17px 45px #0009;transition:transform .24s,border-color .24s,box-shadow .24s}
+.bh-feature{min-height:300px;background:radial-gradient(ellipse at 90% 25%,#23426499,transparent 53%),linear-gradient(135deg,#06101e,#102744 51%,#050d19);border-color:#fff200a1}
+.bh-path--green{background:radial-gradient(ellipse at 85% 18%,#32643a88,transparent 60%),linear-gradient(145deg,#07150d,#112e1c 65%,#050c07);border-color:#94ff5355}
+.bh-path--plum{background:radial-gradient(ellipse at 85% 18%,#703d5c44,transparent 60%),linear-gradient(145deg,#140d1b,#2b172e 65%,#120b13);border-color:#d7a5de44}
+.bh-feature::after,.bh-path::after{content:"";position:absolute;z-index:-1;inset:-60%;background:linear-gradient(110deg,transparent 43%,rgba(255,255,255,.07) 48%,rgba(255,255,255,.18) 50%,rgba(255,255,255,.05) 52%,transparent 58%);transform:translateX(-95%) rotate(-5deg);animation:bh-cross-shimmer 9s ease-in-out infinite;pointer-events:none}
+.bh-feature:hover,.bh-path:hover,.bh-feature:focus-within,.bh-path:focus-within{transform:translateY(-3px);border-color:var(--bh-green);box-shadow:0 22px 55px #000b,0 0 20px #94ff5323}
+.bh-tag{display:inline-block;color:var(--bh-green);font:700 12px Georgia,serif;letter-spacing:.13em;text-transform:uppercase;margin-bottom:13px}
+.bh-feature h2,.bh-path h2{margin:0 0 12px;color:var(--bh-yellow);font:700 clamp(26px,4vw,36px)/1.18 Georgia,serif}
+.bh-path h2{font-size:clamp(23px,3vw,29px)}
+.bh-feature p,.bh-path p{max-width:670px;margin:0 0 22px;font:16px/1.6 Georgia,serif;color:#e8eae5}
+.bh-path p{font-size:15px;flex:1}
+.bh-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin:22px 0 0}.bh-choices .bh-path{min-height:278px}
+.bh-action{position:relative;isolation:isolate;display:inline-flex;align-items:center;justify-content:center;gap:11px;overflow:hidden;min-height:50px;max-width:100%;padding:12px 22px;border-radius:999px;background:linear-gradient(140deg,#0d1710,#16221b 45%,#080e0a);border:1px solid var(--bh-green);box-shadow:0 2px 0 #000a,inset 0 0 0 1px #fff20020;color:var(--bh-yellow)!important;font:700 15px Georgia,serif;text-decoration:none;text-align:center;transition:background .22s,box-shadow .22s,transform .22s}
+.bh-action::after{content:"";position:absolute;inset:-15%;transform:translateX(-135%) rotate(20deg);background:linear-gradient(95deg,transparent 42%,#fff9 50%,transparent 58%);animation:bh-btn-shine 6.5s ease-in-out infinite;pointer-events:none;z-index:-1}
+.bh-action:hover,.bh-action:focus-visible{background:#1f3424;box-shadow:0 0 0 2px #fff20048,0 0 17px #94ff5370;transform:translateY(-2px);outline:2px solid #fff200;outline-offset:3px}
+.bh-action--subtle{font-size:14px}
+.bh-small{color:#b6c0b7;font:13px/1.55 Georgia,serif}
+.bh-section{margin-top:36px}.bh-section h2{font:700 clamp(24px,3.4vw,34px) Georgia,serif;color:var(--bh-yellow)}
+.bh-panel{background:#0c120e;border:1px solid #94ff5330;border-radius:18px;padding:22px;margin:16px 0}
+.bh-panel h3{color:var(--bh-yellow);font:700 19px Georgia,serif;margin:2px 0 12px}
+.bh-panel p,.bh-panel li{color:#e2e9df;font:15px/1.65 Georgia,serif}
+.bh-panel a:not(.bh-action){color:var(--bh-green);text-decoration:underline}
+.bh-stack{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.bh-card-link{display:flex;flex-direction:column;gap:9px;padding:21px;border-radius:16px;border:1px solid #94ff5333;background:#0d160f;color:#fff;text-decoration:none;transition:border-color .2s,transform .2s}.bh-card-link:hover,.bh-card-link:focus-visible{border-color:var(--bh-green);transform:translateY(-2px)}.bh-card-link strong{color:var(--bh-yellow);font:700 20px Georgia,serif}.bh-card-link span{color:#dae2d8;font:14px/1.5 Georgia,serif}
+@keyframes bh-cross-shimmer{0%,25%{transform:translateX(-95%) rotate(-5deg)}48%,100%{transform:translateX(105%) rotate(-5deg)}}@keyframes bh-btn-shine{0%,45%{transform:translateX(-135%) rotate(20deg)}57%,100%{transform:translateX(145%) rotate(20deg)}}
+@media(max-width:720px){.bh-wrap{width:calc(100% - 26px);padding-top:12px}.bh-choices,.bh-stack{grid-template-columns:1fr;gap:15px}.bh-choices .bh-path{min-height:0}.bh-feature{min-height:0}.bh-head{padding:21px 3px 20px}.bh-head h1{font-size:clamp(33px,9vw,49px)}.bh-feature,.bh-path{padding:24px}.bh-feature p,.bh-path p{font-size:15px}}
+@media(prefers-reduced-motion:reduce){.bh-feature,.bh-path,.bh-card-link,.bh-action{transition:none}.bh-feature::after,.bh-path::after,.bh-action::after{animation:none}}
