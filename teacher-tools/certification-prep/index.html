@@ -38,7 +38,7 @@ try{$("state").value=localStorage.getItem("etp-cert-state")||""}catch(e){}
 $("state").addEventListener("change",()=>{try{localStorage.setItem("etp-cert-state",$("state").value)}catch(e){};$("state-note").textContent=$("state").value?"Selected: "+$("state").value+". Exam acceptance and qualifying scores must be confirmed with your licensing agency. This selection does not alter your practice score.":"Select the state where you plan to teach—not necessarily where you live."});
 $("state").dispatchEvent(new Event("change"));
 const pathNotes={new:"Recommended route: start with the interactive preparation course, then proceed to guided practice and both simulations.",returning:"Recommended route: review the shorter test-day refresher, then focus on guided practice and weak areas. The full course remains available.",ready:"Recommended route: select an exam below. You may skip the course and orientation entirely."};
-$("experience").addEventListener("change",()=>{$("path-note").textContent=pathNotes[$("experience").value]});
+$("experience").addEventListener("change",()=>{const v=$("experience").value;$("path-note").textContent=pathNotes[v];$("go-orientation").textContent=v==="ready"?"Go to Exam Experiences ↓":v==="returning"?"Begin Short Refresher →":"Begin Interactive Orientation →"});
 $("experience").dispatchEvent(new Event("change"));
 document.querySelectorAll(".jump-exams").forEach(b=>b.addEventListener("click",()=>jump("exams")));
 const intro=[
