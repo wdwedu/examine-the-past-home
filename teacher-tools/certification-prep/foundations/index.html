@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The History Foundations Lab | Examine the Past</title>
+<meta name="description" content="120-question independent guided Praxis World and U.S. History (5941) practice with explanations, saved progress, and a detailed performance report.">
+<link rel="stylesheet" href="../../../assets/site-shell.css?v=20261015-etp-r2">
+<link rel="stylesheet" href="../../../assets/etp-transitions.css?v=60">
+<link rel="manifest" href="../../../manifest.webmanifest">
+<style>
+:root{--ink:#162232;--muted:#536273;--line:#d4dbe2;--blue:#174d7e;--yellow:#fff200;--green:#a0ff62}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#000;color:#f8f8f8;font-family:Georgia,"Times New Roman",serif}
+button,input,select{font:inherit}
+button{cursor:pointer}
+button:disabled{opacity:.42;cursor:not-allowed}
+.lab-frame{background:#fff;color:var(--ink);min-height:100vh;padding:0 0 64px;font-size:16px;line-height:1.58}
+.lab-shell{width:min(1220px,94%);margin:auto}
+.lab-head{background:#eff3f7;color:var(--ink);border-bottom:1px solid #c8d1db;padding:27px 0 24px}
+.lab-kicker{letter-spacing:.13em;font:bold .75rem Arial,sans-serif;text-transform:uppercase;color:#42627d}
+.lab-head h1{font-size:clamp(1.6rem,3.4vw,2.55rem);margin:7px 0 6px;line-height:1.2}
+.lab-head p{margin:0;max-width:900px;color:#4e5866}
+.lab-head .lab-heading-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:19px}
+.lab-topline{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.back-link{display:inline-flex;align-items:center;gap:9px;padding:8px 13px;border-radius:8px;text-decoration:none;color:#e6f0fb;background:#10263b;border:1px solid #3b566f;font:bold 14px Arial,sans-serif}
+.back-link:hover,.back-link:focus-visible{background:#234f78}
+.pill{background:#dce9f2;color:#2b5778;border:1px solid #b7d1e2;border-radius:20px;padding:5px 11px;font:bold 12px Arial,sans-serif}
+.btn{border:1px solid #7f91a3;border-radius:7px;background:#f0f3f7;color:#152536;padding:10px 16px;font:bold 14px Arial,sans-serif;min-height:42px;transition:background .15s,box-shadow .15s}
+.btn:hover:not(:disabled),.btn:focus-visible{background:#e1eaf4;box-shadow:0 0 0 2px #a5bfd8}
+.btn.primary{background:#1d507a;color:#fff;border-color:#1d507a}
+.btn.primary:hover:not(:disabled){background:#163e60}
+.btn.danger{color:#9c2932;border-color:#ce9fa6;background:#fff}
+.btn.compact{padding:7px 12px;min-height:35px}
+.lab-layout{display:grid;grid-template-columns:minmax(0,1fr) 286px;gap:20px;padding-top:22px}
+.question-card,.side-card,.summary-card{background:#fff;border:1px solid var(--line);border-radius:11px;box-shadow:0 4px 18px #1a33440b}
+.question-card{padding:clamp(17px,3.4vw,34px)}
+.question-top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.domain-tag{color:#3d667c;font:bold 12px Arial,sans-serif;text-transform:uppercase;letter-spacing:.025em}
+.question-card h2{font-size:clamp(1.2rem,2.2vw,1.65rem);line-height:1.45;margin:22px 0 20px;color:#182b42}
+.choice-list{border:0;padding:0;margin:0;min-width:0}
+.choice-list legend{font-weight:bold;font-size:14px;color:#576677;margin-bottom:9px}
+.choice{display:flex;align-items:flex-start;gap:12px;padding:13px 15px;margin:9px 0;border:1px solid #c7d1dc;border-radius:7px;background:#fff;cursor:pointer;line-height:1.45;transition:background .12s,border-color .12s}
+.choice:hover,.choice:focus-within{background:#f0f6fb;border-color:#7a9cba}
+.choice.checked{background:#e7f1fb;border:2px solid #2d6a99;padding:12px 14px}
+.choice input{margin-top:4px;accent-color:#1c5b87;width:17px;height:17px;flex-shrink:0}
+.choice .letter{display:inline-grid;place-content:center;min-width:24px;height:24px;border-radius:4px;background:#e7ebef;color:#22364b;font:bold 13px Arial,sans-serif}
+.explain{padding:16px 18px;margin-top:21px;border:1px solid #add0a7;border-left:5px solid #4a9f4a;border-radius:7px;background:#f0faed}
+.explain.incorrect{background:#fff8ec;border-color:#e8c99e;border-left-color:#c38a36}
+.explain h3{font-size:1.07rem;color:#214f2b;margin:0 0 7px}
+.explain.incorrect h3{color:#774e1a}
+.explain p{margin:5px 0;color:#263744}
+.question-actions{margin-top:24px;border-top:1px solid #dde5ed;padding-top:19px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.action-group{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.sidebar{align-self:start;display:grid;gap:15px}
+.side-card{padding:18px}
+.side-card h3{font-size:1.04rem;margin:0 0 8px}
+.progressbar{height:11px;background:#e0e6ed;border-radius:12px;overflow:hidden;margin:10px 0}
+.progressbar>div{height:100%;background:#2f7d52;transition:width .2s}
+.mini{font:13px/1.6 Arial,sans-serif;color:#506171}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin:12px 0}
+.stat{background:#f3f6f8;padding:9px;border-radius:6px;text-align:center}
+.stat b{display:block;color:#152d42;font:700 21px Arial,sans-serif}
+.qnav{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;margin:10px 0 0}
+.qjump{width:100%;padding:6px 0;border:1px solid #c5d0dc;border-radius:4px;background:#fff;color:#1b3344;font:700 12px Arial,sans-serif}
+.qjump.answered{background:#dff0e3;border-color:#74aa88}
+.qjump.flagged{border:2px solid #bb7b2d}
+.qjump.current{outline:2px solid #1e587f;outline-offset:1px}
+.legend{display:flex;gap:9px;flex-wrap:wrap;font:12px Arial,sans-serif;color:#506070;margin-top:11px}
+.dot{width:9px;height:9px;border-radius:3px;display:inline-block;margin-right:4px}
+.sticky-actions{display:grid;gap:7px}
+.banner{border:1px solid #b4c6d5;border-left:4px solid #2a688c;padding:12px 15px;background:#eff7fc;border-radius:7px;margin-bottom:15px}
+.banner strong{color:#163c59}
+.hidden{display:none!important}
+#results{padding:32px 0}
+.summary-card{padding:clamp(19px,3vw,32px);margin:16px 0}
+.result-number{font-size:clamp(2.2rem,5.4vw,4rem);font-weight:bold;color:#1e4e76;line-height:1}
+.report-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.report-unit{background:#f0f5f8;padding:15px;border-radius:8px;border:1px solid #d9e4ed}
+.report-unit b{display:block;font:700 1.5rem Arial,sans-serif;color:#194d74}
+.report-unit span{font:13px/1.4 Arial,sans-serif;color:#526170}
+.review-row{padding:13px 0;border-bottom:1px solid #dbe3eb}
+.review-row strong{color:#1d496e}
+.review-row p{margin:4px 0}
+.report-actions{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}
+.cert-preview{border:2px solid #101010;padding:18px;text-align:center;margin:20px 0;background:#fff;color:#111}
+.cert-preview>.inner{border:1px solid #111;padding:24px}
+.cert-preview h2{font-size:clamp(1.7rem,3.4vw,2.7rem);color:#111}
+.cert-preview .mark{color:#5c8b37;letter-spacing:.17em;font-weight:bold}
+.cert-preview .certificate-score{font-size:1.55rem;font-weight:bold}
+#notice{position:fixed;bottom:20px;right:20px;background:#132e44;color:white;padding:14px 19px;max-width:340px;border-radius:8px;box-shadow:0 9px 25px #0008;z-index:100;display:none;font:14px Arial,sans-serif}
+@media(max-width:830px){.lab-layout{grid-template-columns:1fr}.sidebar{order:2}.qnav{grid-template-columns:repeat(10,1fr)}.report-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.qnav{grid-template-columns:repeat(6,1fr)}.lab-shell{width:95%}.choice{padding:11px}.question-card{padding:15px}.report-grid{grid-template-columns:1fr 1fr}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.progressbar>div{transition:none}}
+@media print{
+body{background:white!important;color:black!important}
+header,footer,nav,#etpSiteHeader,#etpSiteFooter,.lab-head,.lab-layout,.report-actions,.back-link,.side-card,#notice,.etp-back-link{display:none!important}
+.lab-frame{background:#fff!important;padding:0!important}
+#results{display:block!important;padding:0}
+.summary-card{border:0;box-shadow:none;padding:10px 0}
+#report-review{font-size:12px}
+body.print-certificate #results>.lab-shell> :not(.cert-preview){display:none!important}
+body.print-certificate .cert-preview{display:block!important;break-inside:avoid}
+body.print-report .cert-preview{display:none!important}
+}
+</style>
+</head>
+<body>
+<main class="lab-frame">
+<header class="lab-head"><div class="lab-shell">
+<div class="lab-topline"><div class="lab-kicker">Examine the Past · Teacher Resources</div><a class="back-link" href="../" data-etp-transition="shutter">← Back to Certification Center</a></div>
+<h1>The History Foundations Lab</h1>
+<p>A guided, untimed 120-question preparation assessment for Praxis® World and U.S. History (5941). Get explanations as you work; save and return on this device.</p>
+<div class="lab-heading-actions"><span class="pill">Guided Practice</span><span class="pill">Untimed</span><span class="pill">30 Questions per Historical Period</span><span class="pill">Independent • Not ETS-endorsed</span></div>
+</div></header>
+<div id="loading" class="lab-shell" style="padding:35px 0"><strong>Loading the 120-question practice bank…</strong></div>
+<div id="load-error" class="lab-shell hidden" style="padding:35px 0;color:#912b2b"><h2>Unable to load questions</h2><p>Check your connection and refresh. This page requires the four question-bank files published alongside it.</p><button class="btn" type="button" onclick="location.reload()">Retry</button></div>
+<div id="practice" class="lab-shell lab-layout hidden">
+<section class="question-card" aria-labelledby="question-stem">
+<div class="question-top"><span id="question-label" class="domain-tag">Question 1 of 120</span><span id="domain-label" class="domain-tag">World History to 1450</span></div>
+<h2 id="question-stem" tabindex="-1"></h2>
+<fieldset class="choice-list" id="choices"><legend>Choose the best answer</legend></fieldset>
+<div id="explanation" class="explain hidden" aria-live="polite"></div>
+<div class="question-actions">
+<div class="action-group"><button class="btn" id="prev" type="button">← Previous</button><button class="btn primary" id="next" type="button">Next Question →</button></div>
+<div class="action-group"><button class="btn" id="flag" type="button" aria-pressed="false">☆ Mark for Review</button><button class="btn compact" id="clear" type="button">Clear Response</button></div>
+</div>
+</section>
+<aside class="sidebar" aria-label="Practice tools and progress">
+<section class="side-card"><h3>Your Progress</h3><div class="progressbar"><div id="progress-fill" style="width:0%"></div></div><div class="mini" id="progress-label">0 of 120 answered</div><div class="stats"><div class="stat"><b id="answered-count">0</b>Answered</div><div class="stat"><b id="flag-count">0</b>Flagged</div></div><div class="mini">Answers are saved automatically in this browser. Download a backup before clearing device data.</div></section>
+<section class="side-card"><h3>Question Navigator</h3><div class="mini">Select any question to jump to it.</div><div id="question-navigator" class="qnav" aria-label="Question numbers"></div><div class="legend"><span><span class="dot" style="background:#dff0e3"></span>Answered</span><span><span class="dot" style="background:#fff;border:1px solid #c5d0dc"></span>Blank</span><span><span class="dot" style="background:#bb7b2d"></span>Flagged</span></div></section>
+<section class="side-card sticky-actions"><h3>Save & Finish</h3><button type="button" class="btn" id="download-backup">↓ Download Progress Backup</button><label class="btn" for="restore-file" style="text-align:center;cursor:pointer">↑ Restore Progress Backup</label><input type="file" accept=".json,application/json" id="restore-file" class="hidden"><button type="button" class="btn primary" id="finish">View Results / Finish</button><button type="button" class="btn danger" id="restart">Start Over</button></section>
+</aside>
+</div>
+<section id="results" class="hidden"><div class="lab-shell">
+<div class="banner"><strong>Practice report:</strong> The results below measure only this independent question bank. A raw percentage cannot predict or replace an official ETS Praxis scaled score.</div>
+<h2 style="font-size:clamp(1.6rem,3vw,2.5rem)">Your Foundations Lab Results</h2>
+<p id="result-date" class="mini"></p>
+<div class="summary-card"><div class="result-number" id="result-score">0 / 120</div><p id="result-subtitle"></p><div id="result-breakdown" class="report-grid"></div></div>
+<div class="summary-card"><h3>Your Next Study Priorities</h3><p id="study-advice"></p><div class="report-actions"><button class="btn primary" type="button" id="back-to-practice">← Return to Guided Practice</button><button class="btn" type="button" id="print-report">Download / Print Results PDF</button><button class="btn" type="button" id="print-cert">Download / Print Certificate PDF</button></div></div>
+<div class="summary-card" id="report-review"><h3>Question Review</h3><p class="mini">Correct answers, your responses and explanations are included below for review.</p><div id="review-items"></div></div>
+<div class="cert-preview"><div class="inner"><div class="mark">EXAMINE THE PAST</div><h2>Certificate of Completion</h2><p>History Teacher Certification Prep Center</p><p>This acknowledges completion of the independent guided assessment</p><h3>The History Foundations Lab</h3><p id="certificate-date"></p><p class="certificate-score" id="certificate-score"></p><p>Issued as a record of independent practice only. Not a teaching license, ETS certification, official score, or evidence of Praxis passage.</p></div></div>
+<p><a class="back-link" href="../" data-etp-transition="shutter">← Back to Certification Center</a></p>
+</div></section>
+</main>
+<div id="notice" role="status"></div>
+<script>
+(()=>{
+"use strict";
+const paths=["questions-world-early.json","questions-world-modern.json","questions-us-early.json","questions-us-modern.json"];
+const domains=["World History to 1450 C.E.","World History 1450 C.E. to Present","U.S. History to 1877","U.S. History 1877 to Present"];
+const KEY="etp-foundations-5941-v1",N=120;
+const el=id=>document.getElementById(id);
+let bank=[],state={answers:{},flags:{},current:0,completedAt:null},questionMap=[];
+let noticeTimer;
+function toast(message){const n=el("notice");n.textContent=message;n.style.display="block";clearTimeout(noticeTimer);noticeTimer=setTimeout(()=>n.style.display="none",4000)}
+function encodeChoice(q,j){const map=[0,1,2,3].map((_,k)=>(k+(q*3+1)%4)%4);return map[j]}
+function displayedOptions(q){const order=[0,1,2,3];const rotate=(q*3+1)%4;return order.map((_,j)=>(j+rotate)%4)}
+function currentQuestion(){return bank[state.current]}
+function validAnswer(x){return Number.isInteger(x)&&x>=0&&x<4}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){toast("Your browser could not save progress. Please download a backup.")}}
+function loadSaved(){try{const s=JSON.parse(localStorage.getItem(KEY)||"{}");if(s&&typeof s==="object"){state={answers:s.answers||{},flags:s.flags||{},current:Math.min(119,Math.max(0,Number(s.current)||0)),completedAt:s.completedAt||null}}}catch(e){}}
+function answered(){return bank.filter(q=>validAnswer(state.answers[q.id])).length}
+function flagged(){return bank.filter(q=>state.flags[q.id]).length}
+function updateNav(){el("answered-count").textContent=answered();el("flag-count").textContent=flagged();el("progress-label").textContent=answered()+" of 120 answered";el("progress-fill").style.width=answered()/120*100+"%";document.querySelectorAll(".qjump").forEach((b,i)=>{b.classList.toggle("answered",validAnswer(state.answers[bank[i].id]));b.classList.toggle("flagged",!!state.flags[bank[i].id]);b.classList.toggle("current",i===state.current);b.setAttribute("aria-current",i===state.current?"step":"false")})}
+function buildNavigator(){const nav=el("question-navigator");nav.replaceChildren();bank.forEach((q,i)=>{const b=document.createElement("button");b.type="button";b.className="qjump";b.textContent=String(i+1);b.title=domains[q.domain]+", question "+(i+1);b.setAttribute("aria-label","Go to question "+(i+1));b.onclick=()=>go(i);nav.appendChild(b)})}
+function go(index){if(index<0||index>=N)return;state.current=index;save();render();el("question-stem").focus({preventScroll:true});window.scrollTo({top:0,behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"})}
+function render(){
+const q=currentQuestion();el("question-label").textContent="QUESTION "+(state.current+1)+" OF "+N;el("domain-label").textContent=domains[q.domain];el("question-stem").textContent=q.stem;
+const f=el("choices");f.replaceChildren();const lg=document.createElement("legend");lg.textContent="Choose the best answer";f.appendChild(lg);
+const order=displayedOptions(state.current),selected=state.answers[q.id];
+order.forEach((original,i)=>{const label=document.createElement("label");label.className="choice"+(selected===original?" checked":"");const input=document.createElement("input");input.type="radio";input.name="answer";input.value=String(original);input.checked=selected===original;input.onchange=()=>{state.answers[q.id]=original;state.completedAt=null;save();render()};const letter=document.createElement("span");letter.className="letter";letter.textContent="ABCD"[i];const text=document.createElement("span");text.textContent=q.options[original];label.append(input,letter,text);f.appendChild(label)});
+const explain=el("explanation");explain.replaceChildren();
+if(validAnswer(selected)){const correct=selected===q.answer;explain.className="explain"+(correct?"":" incorrect");const head=document.createElement("h3");head.textContent=correct?"✓ Correct — here's why":"Not quite — learn the reasoning";const p=document.createElement("p");p.textContent=q.explanation;const a=document.createElement("p");a.style.fontWeight="bold";a.textContent="Correct response: "+q.options[q.answer];explain.append(head,p,a)}else explain.className="explain hidden";
+el("prev").disabled=state.current===0;el("next").textContent=state.current===N-1?"Review Your Results →":"Next Question →";
+el("flag").textContent=state.flags[q.id]?"★ Marked for Review":"☆ Mark for Review";el("flag").setAttribute("aria-pressed",String(!!state.flags[q.id]));updateNav()}
+function scores(){
+const sections=domains.map((name,domain)=>({name,domain,correct:0,answered:0,total:30}));
+let correct=0;const skills={};
+bank.forEach(q=>{const answer=state.answers[q.id],s=sections[q.domain],skill=skills[q.skill]||(skills[q.skill]={skill:q.skill,correct:0,total:0});skill.total++;
+if(validAnswer(answer)){s.answered++;if(answer===q.answer){correct++;s.correct++;skill.correct++}}});
+return{sections,correct,skills:Object.values(skills)}}
+function renderResults(){
+const result=scores(),done=answered(),percent=(100*result.correct/N).toFixed(1);
+el("result-score").textContent=result.correct+" / "+N;
+el("result-subtitle").textContent=percent+"% correct • "+done+" answered • "+(N-done)+" unanswered. This is a raw practice percentage, not an official Praxis passing determination.";
+const date=state.completedAt?new Date(state.completedAt):new Date();const dateText=date.toLocaleDateString(undefined,{year:"numeric",month:"long",day:"numeric"});
+el("result-date").textContent="Practice report generated "+dateText;
+el("certificate-date").textContent="Completed "+dateText;
+el("certificate-score").textContent="Practice result: "+result.correct+" of 120 ("+percent+"%)";
+const breakdown=el("result-breakdown");breakdown.replaceChildren();result.sections.forEach(d=>{const box=document.createElement("div");box.className="report-unit";const h=document.createElement("strong");h.textContent=d.name;const b=document.createElement("b");b.textContent=d.correct+" / 30";const span=document.createElement("span");span.textContent=d.answered+" answered • "+(100*d.correct/30).toFixed(1)+"% of total";box.append(h,b,span);breakdown.appendChild(box)});
+const sorted=result.sections.slice().sort((a,b)=>a.correct-b.correct);
+const priorities=sorted.slice(0,2).map(x=>x.name+" ("+x.correct+"/30)");
+const weakSkills=result.skills.filter(x=>x.total>=3).sort((a,b)=>(a.correct/a.total)-(b.correct/b.total)).slice(0,2).map(x=>x.skill);
+el("study-advice").textContent="Start with "+priorities.join(" and ")+". Review causation, chronology, evidence and comparisons using the explanations below. Skills for additional attention: "+(weakSkills.join(", ")||"mixed historical interpretation")+". Revisit missed questions in guided practice, and consult the official ETS 5941 study companion for content coverage.";
+const list=el("review-items");list.replaceChildren();bank.forEach((q,i)=>{const row=document.createElement("div");row.className="review-row";const h=document.createElement("strong");h.textContent=(i+1)+". "+q.stem;const p=document.createElement("p");const answer=state.answers[q.id];p.textContent="Your answer: "+(validAnswer(answer)?q.options[answer]:"Not answered")+" • Correct: "+q.options[q.answer];const detail=document.createElement("p");detail.textContent=q.explanation;row.append(h,p,detail);list.appendChild(row)});
+el("practice").classList.add("hidden");el("results").classList.remove("hidden");window.scrollTo(0,0)}
+function showPractice(){el("results").classList.add("hidden");el("practice").classList.remove("hidden");render();window.scrollTo(0,0)}
+function download(name,content,type){const blob=new Blob([content],{type}),url=URL.createObjectURL(blob),link=document.createElement("a");link.href=url;link.download=name;document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),2500)}
+function printMode(mode){document.body.classList.remove("print-report","print-certificate");document.body.classList.add(mode==="certificate"?"print-certificate":"print-report");window.print();setTimeout(()=>document.body.classList.remove("print-report","print-certificate"),1000)}
+async function init(){
+try{
+const sets=await Promise.all(paths.map(p=>fetch(p,{cache:"no-cache"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status+" for "+p);return r.json()})));
+if(sets.some((x,i)=>!Array.isArray(x)||x.length!==30||x.some(q=>q.domain!==i||q.options?.length!==4||q.answer!==0||!q.explanation)))throw Error("Question-bank validation failed");
+bank=sets.flat();if(new Set(bank.map(q=>q.id)).size!==N)throw Error("Question IDs must be unique");
+loadSaved();buildNavigator();el("loading").classList.add("hidden");showPractice();if(Object.keys(state.answers).length===0)toast("Your work autosaves in this browser. Download backups for extra protection.");
+}catch(err){console.error(err);el("loading").classList.add("hidden");el("load-error").classList.remove("hidden")}
+}
+el("prev").onclick=()=>go(state.current-1);
+el("next").onclick=()=>{if(state.current===N-1)finish();else go(state.current+1)};
+el("flag").onclick=()=>{const id=currentQuestion().id;state.flags[id]=!state.flags[id];save();render()};
+el("clear").onclick=()=>{delete state.answers[currentQuestion().id];state.completedAt=null;save();render()};
+function finish(){const missing=N-answered();if(missing&&!confirm("You have "+missing+" unanswered questions. View a provisional report now? You can return to practice and continue later."))return;if(!state.completedAt&&missing===0)state.completedAt=new Date().toISOString();save();renderResults()}
+el("finish").onclick=finish;
+el("back-to-practice").onclick=showPractice;
+el("download-backup").onclick=()=>download("examine-the-past-foundations-progress.json",JSON.stringify({format:"etp-foundations-5941-v1",savedAt:new Date().toISOString(),state},null,2),"application/json");
+el("restore-file").onchange=async e=>{const file=e.target.files[0];if(!file)return;try{const object=JSON.parse(await file.text());if(object.format!=="etp-foundations-5941-v1"||!object.state||typeof object.state.answers!=="object")throw Error("Invalid Foundations Lab backup");if(!confirm("Restore this saved attempt? This replaces your current progress."))return;state=object.state;state.current=Math.max(0,Math.min(N-1,Number(state.current)||0));state.flags=state.flags||{};save();showPractice();toast("Backup restored.")}catch(err){alert("Could not restore this file. Please select a valid Foundations Lab backup.")}finally{e.target.value=""}};
+el("restart").onclick=()=>{if(confirm("Start over and erase this device's Foundations Lab answers? Download a backup first if you want to keep them.")){state={answers:{},flags:{},current:0,completedAt:null};save();showPractice();toast("New guided attempt started.")}};
+el("print-report").onclick=()=>printMode("report");el("print-cert").onclick=()=>{if(answered()<N){alert("Complete all 120 questions to produce the completion certificate. You can still save a provisional results report.");return}printMode("certificate")};
+init();
+})();
+</script>
+<script src="../../../assets/etp-transitions.js?v=65"></script>
+<script src="../../../assets/site-shell.js?v=20261015-etp-r2" data-etp-root="../../../"></script>
+</body></html>
