@@ -9,7 +9,7 @@
     "unique": 141,
     "supporting_african_files": 3
   },
-  "chronology_notice": "Editorial_anchor is a rough event/period sorting aid from the preliminary inventory—not a verified birth year, date of achievement, or publication-ready historical fact. Individually fact-check every person, date, role, region, and visual portrayal before releasing interactive lessons. Some figures are known primarily from oral or literary traditions.",
+  "chronology_notice": "Preliminary chronology uses an editorial activity/contribution event for placement, not birth year. Date labels may be lifespans, reign periods, or dates of activity. 20 people are connected to initial research references; individual dates and identities must still be source-checked before writing the interactive biographies. Undated traditional subjects should not be assigned unsupported historical dates.",
   "authors_policy": "Give substantive priority to published scholarship by African, African American, and diasporic historians and relevant primary sources. Distinguish evidence, scholarly interpretation, and inherited tradition. Include figure-specific references in Phase 5.",
   "source_archives": [
     "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
@@ -110,8 +110,11 @@
       "artwork_type": "illustration",
       "note": "Traditional figure; identification and exact chronology not established archaeologically.",
       "date_label": "Ethiopian tradition",
-      "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": null
+      "date_status": "traditional_account_not_firmly_dated",
+      "original_artwork_position": null,
+      "date_sources": [
+        "https://resources.metmuseum.org/resources/metpublications/pdf/Two_Riddles_of_the_Queen_of_Sheba_The_Metropolitan_Museum_Journal_v_6_1972.pdf"
+      ]
     },
     {
       "id": "bh-122",
@@ -129,8 +132,11 @@
       "artwork_type": "illustration",
       "note": null,
       "date_label": "c. 747–716 BCE (reign)",
-      "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": null
+      "date_status": "research_source_linked",
+      "original_artwork_position": null,
+      "date_sources": [
+        "https://provenanceafrica.com/history/kingdoms-empires/kush/"
+      ]
     },
     {
       "id": "bh-123",
@@ -148,8 +154,11 @@
       "artwork_type": "illustration",
       "note": null,
       "date_label": "late 8th–early 7th century BCE",
-      "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": null
+      "date_status": "research_source_linked",
+      "original_artwork_position": null,
+      "date_sources": [
+        "https://provenanceafrica.com/history/kingdoms-empires/kush/"
+      ]
     },
     {
       "id": "bh-124",
@@ -167,8 +176,11 @@
       "artwork_type": "illustration",
       "note": null,
       "date_label": "690–664 BCE (reign)",
-      "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": null
+      "date_status": "research_source_linked",
+      "original_artwork_position": null,
+      "date_sources": [
+        "https://provenanceafrica.com/history/kingdoms-empires/kush/"
+      ]
     },
     {
       "id": "bh-126",
@@ -186,8 +198,11 @@
       "artwork_type": "illustration",
       "note": null,
       "date_label": "late 4th century BCE",
-      "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": null
+      "date_status": "research_source_linked",
+      "original_artwork_position": null,
+      "date_sources": [
+        "https://provenanceafrica.com/history/kingdoms-empires/kush/"
+      ]
     },
     {
       "id": "bh-127",
@@ -205,8 +220,11 @@
       "artwork_type": "illustration",
       "note": null,
       "date_label": "late 1st century BCE",
-      "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": null
+      "date_status": "research_source_linked",
+      "original_artwork_position": null,
+      "date_sources": [
+        "https://provenanceafrica.com/history/kingdoms-empires/kush/"
+      ]
     },
     {
       "id": "bh-128",
@@ -224,8 +242,11 @@
       "artwork_type": "illustration",
       "note": null,
       "date_label": "1st century CE",
-      "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": null
+      "date_status": "research_source_linked",
+      "original_artwork_position": null,
+      "date_sources": [
+        "https://www.nm.cz/en/about-us/science-and-research/building-programme-of-king-natakamani-and-queen-amanitore"
+      ]
     },
     {
       "id": "bh-129",
@@ -243,7 +264,7 @@
       "artwork_type": "illustration",
       "note": "Known through ancient external testimony; identification and political context require specialist review.",
       "date_label": "1st century CE (known through ancient account)",
-      "date_status": "editorial_date_requires_source_review",
+      "date_status": "ancient_identification_needs_specialist_review",
       "original_artwork_position": null
     },
     {
@@ -262,8 +283,11 @@
       "artwork_type": "illustration",
       "note": null,
       "date_label": "c. 320s–350s CE (reign)",
-      "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": null
+      "date_status": "research_source_linked",
+      "original_artwork_position": null,
+      "date_sources": [
+        "https://human.libretexts.org/Bookshelves/History/World_History/Book%3A_World_History_-_Cultures_States_and_Societies_to_1500_%28Berger_et_al.%29/09%3A_African_History_to_1500/9.01%3A_Chronology"
+      ]
     },
     {
       "id": "bh-131",
@@ -300,7 +324,7 @@
       "artwork_type": "illustration",
       "note": "Traditional account; historicity, identity and chronology need specialist review.",
       "date_label": "Traditional account",
-      "date_status": "editorial_date_requires_source_review",
+      "date_status": "traditional_account_not_firmly_dated",
       "original_artwork_position": null
     },
     {
@@ -319,7 +343,7 @@
       "artwork_type": "illustration",
       "note": "Important Yoruba oral tradition; historical particulars and dating are contested.",
       "date_label": "Yoruba tradition",
-      "date_status": "editorial_date_requires_source_review",
+      "date_status": "traditional_account_not_firmly_dated",
       "original_artwork_position": null
     },
     {
@@ -342,8 +366,11 @@
       "artwork_type": "illustration",
       "note": null,
       "date_label": "c. 1235–1255 (reign)",
-      "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 1
+      "date_status": "research_source_linked",
+      "original_artwork_position": 1,
+      "date_sources": [
+        "https://www.si.edu/object/siris_sil_730169"
+      ]
     },
     {
       "id": "bh-002",
@@ -365,8 +392,11 @@
       "artwork_type": "illustration",
       "note": null,
       "date_label": "c. 1312–1337 (reign)",
-      "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 2
+      "date_status": "research_source_linked",
+      "original_artwork_position": 2,
+      "date_sources": [
+        "https://www.si.edu/object/siris_sil_730169"
+      ]
     },
     {
       "id": "bh-133",
@@ -403,8 +433,11 @@
       "artwork_type": "illustration",
       "note": null,
       "date_label": "c. 1464–1492 (reign)",
-      "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": null
+      "date_status": "research_source_linked",
+      "original_artwork_position": null,
+      "date_sources": [
+        "https://www.ebsco.com/research-starters/history/reign-mohammed-i-askia"
+      ]
     },
     {
       "id": "bh-135",
@@ -422,8 +455,11 @@
       "artwork_type": "illustration",
       "note": null,
       "date_label": "1493–1528 (reign)",
-      "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": null
+      "date_status": "research_source_linked",
+      "original_artwork_position": null,
+      "date_sources": [
+        "https://www.ebsco.com/research-starters/history/reign-mohammed-i-askia"
+      ]
     },
     {
       "id": "bh-003",
@@ -444,9 +480,12 @@
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
       "note": null,
-      "date_label": "1506–early 1540s (reign)",
-      "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 3
+      "date_label": "Reigned 1506–early 1540s",
+      "date_status": "research_source_linked",
+      "original_artwork_position": 3,
+      "date_sources": [
+        "https://dacb.org/stories/congo/afonso2/"
+      ]
     },
     {
       "id": "bh-004",
@@ -468,8 +507,11 @@
       "artwork_type": "illustration",
       "note": null,
       "date_label": "probably 16th century",
-      "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 4
+      "date_status": "scholarly_chronology_disputed",
+      "original_artwork_position": 4,
+      "date_sources": [
+        "https://amp.dw.com/en/amina-the-warrior-queen-of-zazzau/a-52448399"
+      ]
     },
     {
       "id": "bh-005",
@@ -490,7 +532,7 @@
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
       "note": null,
-      "date_label": "c. 1583–1663",
+      "date_label": "c. 1583–1663 · ruled 17th century",
       "date_status": "editorial_date_requires_source_review",
       "original_artwork_position": 5
     },
@@ -704,8 +746,11 @@
       "artwork_type": "illustration",
       "note": null,
       "date_label": "c. 1764–1827",
-      "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": null
+      "date_status": "research_source_linked",
+      "original_artwork_position": null,
+      "date_sources": [
+        "https://academic.oup.com/oxford-dictionary-of-national-biography/reference/63486/reference-article-abstract/582570474"
+      ]
     },
     {
       "id": "bh-012",
@@ -746,8 +791,11 @@
       "artwork_type": "illustration",
       "note": null,
       "date_label": "c. 1783–1828",
-      "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 14
+      "date_status": "research_source_linked",
+      "original_artwork_position": 14,
+      "date_sources": [
+        "https://academic.oup.com/oxford-dictionary-of-national-biography/reference/63486/reference-article-abstract/582570474"
+      ]
     },
     {
       "id": "bh-137",
@@ -954,7 +1002,7 @@
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
       "note": null,
-      "date_label": "born c. 1844",
+      "date_label": "Born c. 1844 · U.S. Army service 1866–1868",
       "date_status": "editorial_date_requires_source_review",
       "original_artwork_position": 22
     },
@@ -1049,9 +1097,12 @@
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
       "note": null,
-      "date_label": "c. 1858–1925",
-      "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": null
+      "date_label": "c. 1858–1925 · regency 1899–1921",
+      "date_status": "research_source_linked",
+      "original_artwork_position": null,
+      "date_sources": [
+        "https://www.si.edu/object/siris_sil_818547"
+      ]
     },
     {
       "id": "bh-034",
@@ -1125,9 +1176,12 @@
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
       "note": null,
-      "date_label": "active c. 1907–1911",
-      "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": null
+      "date_label": "Active c. 1907–1911 · died 1945",
+      "date_status": "research_source_linked",
+      "original_artwork_position": null,
+      "date_sources": [
+        "https://www.cambridge.org/core/books/abs/ghosts-of-kanungu/on-fertility-misfortune/8AD566389F33E26932260BCE5EFFDF46"
+      ]
     },
     {
       "id": "bh-138",
@@ -1144,9 +1198,12 @@
       "source_review": "pending_individual_review",
       "artwork_type": "illustration",
       "note": null,
-      "date_label": "19th century–1921",
-      "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": null
+      "date_label": "19th century–1921 · resistance in 1900",
+      "date_status": "research_source_linked",
+      "original_artwork_position": null,
+      "date_sources": [
+        "https://www.si.edu/object/siris_sil_751056"
+      ]
     },
     {
       "id": "bh-052",
@@ -2358,8 +2415,11 @@
       "artwork_type": "illustration",
       "note": null,
       "date_label": "c. 1895–1978",
-      "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 68
+      "date_status": "research_source_linked",
+      "original_artwork_position": 68,
+      "date_sources": [
+        "https://www.presidentiallibrary.go.ke/index.php/presidents/he-mzee-jomo-kenyatta"
+      ]
     },
     {
       "id": "bh-120",
@@ -2817,5 +2877,11 @@
       "date_status": "editorial_date_requires_source_review",
       "original_artwork_position": 102
     }
-  ]
+  ],
+  "phase1_date_status": {
+    "all_141_date_labels_present": true,
+    "person_specific_source_links_count": 20,
+    "date_labels_not_individually_verified": true,
+    "original_numbering_preserved": true
+  }
 }
