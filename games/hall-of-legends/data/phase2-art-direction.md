@@ -67,3 +67,17 @@ This is a period-by-period exhibition collage, **not** a literal roadway crossin
 - [ ] Final portrait crops and the unique Alliance interactions implemented.
 
 **Note:** The preview contains simplified color-and-ground placeholders for assessing geometry and cropping—not final scenic illustrations. Do not present those placeholders as completed artwork.
+
+
+## Phase 3 design correction — explicit INTERIOR museum/hall, not outdoor pathway
+Following review of the initial illustrated landscape sample, the governing image style is changed:
+
+- The **entire visitor journey takes place inside a monumental, connected historical gallery**, with a roof or vault overhead, side walls, tall columns, display alcoves, physical floor, perspective depth, and distinct transitional archways. Do **not** depict standalone external village streets, open-air roads, or landscapes as the Hall itself.
+- Each historical era changes the **architecture, floor finish, lighting and curated visual setting inside the gallery**. Exterior settings (Nile valley, Sahelian urban environments, ports, streets, etc.) may appear as painted murals, dioramas, or views through monumental arches on the side, but the visitor continues inside one physically continuous hall.
+- Portrait locations are left/right wall bays near the central corridor, **not baked into the background image**. All faces, names, date labels, interactive overlays, game controls and source links must be separate webpage layers. No AI-generated text/banners or invented historical names in the actual master scenery.
+- The corridor spans the entire desktop composition, with side galleries and exhibit details framing the interior. On phones, crop or adapt the outer scenery while preserving a believable interior, the central floor, and two stable portrait columns.
+- Avoid historically false identity claims and a theme-park conflation of African cultures. Gallery decor can use objects from the historical period supported by source research; avoid attributing modern/reconstruction architecture to early eras. An image-generation sample can establish lighting and architectural scale without implying documentary authenticity.
+- Scenic production test for the first pair must show **two seamlessly connected interior galleries**: the lower Nile/Kush/Aksum-oriented gallery and the upper Sahel/Mali/Songhai gallery. The seam must be continuous interior architecture, not a crossfade between two external landscapes.
+- The page keeps **Bio Activity** pop-up interactions on the portraits, a distinct **Era Challenge** control along the center of the route, and source links exclusively in a consolidated **References** section—not next to each figure or on the learning cards.
+
+The original open-air samples were rejected as not museum-like; do not reuse them as final Hall scene backgrounds. The current sample art is visual exploration only; it should not be committed as historically verified environment art.
