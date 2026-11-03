@@ -2110,7 +2110,15 @@ body [class*="headline"]{
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Examine the Past">
 <script defer src="app-assets/install.js?v=20261015-etp-r2"></script>
-</head>
+<style>
+.etp-cert-card{position:relative;isolation:isolate;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;text-align:center;box-sizing:border-box;width:100%;margin:22px 0 8px;padding:30px 25px;border:1px solid #fff200;border-radius:18px;background:linear-gradient(125deg,#071427,#112b4b 53%,#071427);color:#fff;text-decoration:none;box-shadow:0 16px 38px #0008;transition:transform .25s,box-shadow .25s}
+.etp-cert-card::before{content:"";position:absolute;inset:-50%;pointer-events:none;background:linear-gradient(105deg,transparent 41%,rgba(255,255,255,.04) 47%,rgba(255,255,255,.30) 50%,rgba(255,255,255,.04) 53%,transparent 59%);transform:translateX(-110%);animation:etpCertShimmer 5.5s ease-in-out infinite}
+.etp-cert-card:hover,.etp-cert-card:focus-visible{transform:translateY(-5px);box-shadow:0 20px 45px #000a,0 0 22px #fff20045}
+.etp-cert-card h3{position:relative;margin:0;color:#fff200;font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.3rem,2.8vw,2.05rem);line-height:1.25}
+.etp-cert-card p{position:relative;margin:0;max-width:700px;color:#f3f5fa;font-size:clamp(.88rem,1.35vw,1rem);line-height:1.5}
+.etp-cert-action{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:12px 24px;border-radius:999px;background:#fff200;color:#09182c;font-weight:800;font-family:Georgia,"Times New Roman",serif;animation:etpCertBounce 2.3s ease-in-out infinite}
+@keyframes etpCertShimmer{0%,25%{transform:translateX(-110%)}55%,100%{transform:translateX(110%)}}@keyframes etpCertBounce{0%,65%,100%{transform:translateY(0)}73%{transform:translateY(-8px)}80%{transform:translateY(1px)}87%{transform:translateY(-4px)}}@media(prefers-reduced-motion:reduce){.etp-cert-card::before,.etp-cert-action{animation:none}}@media(max-width:600px){.etp-cert-card{padding:25px 15px}.etp-cert-action{width:100%;max-width:300px;box-sizing:border-box}}
+</style></head>
 <body id="top">
 <nav aria-label="Primary navigation" class="site-nav final-nav etp-nav-vnext">
 <div class="final-nav-inner etp-nav-row">
@@ -2190,6 +2198,7 @@ body [class*="headline"]{
 <a class="exp-card tone-red" href="https://www.examinethepast.com/resources/current-event-article-analysis" rel="noopener" target="_blank"><div class="exp-icon">NEWS</div><h3>Current Event Analysis</h3><p>Connect today’s headlines to evidence, source evaluation, perspective, history, geography, and critical thinking.</p></a>
 <a class="exp-card tone-blue" href="https://www.examinethepast.com/resources/teaching-movie-lessons" rel="noopener" target="_blank"><div class="exp-icon">FILM</div><h3>Teaching With Movies</h3><p>Turn film into active viewing, historical analysis, evidence-based discussion, and purposeful writing.</p></a>
 </div>
+<a class="etp-cert-card" href="teacher-tools/certification-prep/" data-etp-transition="shutter"><h3>History Teacher Certification Prep Center</h3><p>Guided Praxis® History (5941) practice and full-length exam simulations.</p><span class="etp-cert-action">Start Your Journey <span aria-hidden="true">→</span></span></a>
 </div>
 </section>
 <section class="testimonials-section" id="testimonials">
@@ -2365,7 +2374,7 @@ body [class*="headline"]{
 <a id="movies-classroom" href="teacher-tools/movies-in-the-classroom/" data-etp-transition="film"><strong>🎬 Movies in the Classroom</strong><span>Use film intentionally in instruction.</span></a>
 <a id="classroom-management" href="teacher-tools/classroom-management/" data-etp-transition="page"><strong>🏫 Classroom Management</strong><span>Practical systems for organized learning.</span></a>
 <a id="learner-supports" href="teacher-tools/learning-styles/" data-etp-transition="shutter"><strong>👥 Learner Supports</strong><span>Flexible supports and UDL-informed resources.</span></a>
-</div><div class="etp-appetizer-actions"><a class="etp-appetizer-btn" href="teacher-tools/" data-etp-transition="shutter">Explore All Teacher Tools</a></div></div><div class="etp-appetizer-card"><h3>Built for educators</h3><ul class="etp-appetizer-list"><li>Curriculum and lesson design</li><li>Classroom strategies</li><li>AI in Education and future tools</li></ul></div></div></section>
+</div><a class="etp-cert-card" href="teacher-tools/certification-prep/" data-etp-transition="shutter"><h3>History Teacher Certification Prep Center</h3><p>Guided Praxis® History (5941) practice and full-length exam simulations.</p><span class="etp-cert-action">Start Your Journey <span aria-hidden="true">→</span></span></a><div class="etp-appetizer-actions"><a class="etp-appetizer-btn" href="teacher-tools/" data-etp-transition="shutter">Explore All Teacher Tools</a></div></div><div class="etp-appetizer-card"><h3>Built for educators</h3><ul class="etp-appetizer-list"><li>Curriculum and lesson design</li><li>Classroom strategies</li><li>AI in Education and future tools</li></ul></div></div></section>
 
 <section class="etp-appetizer" id="hidden-treasures"><div class="etp-appetizer-inner"><div><div class="etp-appetizer-kicker">Explore Hidden Treasures</div><h2>🛍️ Shop History</h2><p>Discover featured Examine the Past resources, classroom products, sponsored selections, and store links.</p><div class="etp-appetizer-actions"><a class="etp-appetizer-btn" href="shop/" data-etp-transition="gold">Explore Hidden Treasures</a></div></div><div class="etp-appetizer-card"><h3>Resources worth keeping</h3><ul class="etp-appetizer-list"><li>Featured Examine the Past products</li><li>Digital and classroom resources</li><li>Clearly labeled sponsored links</li></ul></div></div></section>
 </div>
