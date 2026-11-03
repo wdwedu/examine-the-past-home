@@ -114,7 +114,8 @@
       "original_artwork_position": null,
       "date_sources": [
         "https://resources.metmuseum.org/resources/metpublications/pdf/Two_Riddles_of_the_Queen_of_Sheba_The_Metropolitan_Museum_Journal_v_6_1972.pdf"
-      ]
+      ],
+      "planned_scene": 1
     },
     {
       "id": "bh-122",
@@ -136,7 +137,8 @@
       "original_artwork_position": null,
       "date_sources": [
         "https://provenanceafrica.com/history/kingdoms-empires/kush/"
-      ]
+      ],
+      "planned_scene": 1
     },
     {
       "id": "bh-123",
@@ -158,7 +160,8 @@
       "original_artwork_position": null,
       "date_sources": [
         "https://provenanceafrica.com/history/kingdoms-empires/kush/"
-      ]
+      ],
+      "planned_scene": 1
     },
     {
       "id": "bh-124",
@@ -180,7 +183,8 @@
       "original_artwork_position": null,
       "date_sources": [
         "https://provenanceafrica.com/history/kingdoms-empires/kush/"
-      ]
+      ],
+      "planned_scene": 1
     },
     {
       "id": "bh-126",
@@ -202,7 +206,8 @@
       "original_artwork_position": null,
       "date_sources": [
         "https://provenanceafrica.com/history/kingdoms-empires/kush/"
-      ]
+      ],
+      "planned_scene": 1
     },
     {
       "id": "bh-127",
@@ -224,7 +229,8 @@
       "original_artwork_position": null,
       "date_sources": [
         "https://provenanceafrica.com/history/kingdoms-empires/kush/"
-      ]
+      ],
+      "planned_scene": 1
     },
     {
       "id": "bh-128",
@@ -246,7 +252,8 @@
       "original_artwork_position": null,
       "date_sources": [
         "https://www.nm.cz/en/about-us/science-and-research/building-programme-of-king-natakamani-and-queen-amanitore"
-      ]
+      ],
+      "planned_scene": 1
     },
     {
       "id": "bh-129",
@@ -265,7 +272,8 @@
       "note": "Known through ancient external testimony; identification and political context require specialist review.",
       "date_label": "1st century CE (known through ancient account)",
       "date_status": "ancient_identification_needs_specialist_review",
-      "original_artwork_position": null
+      "original_artwork_position": null,
+      "planned_scene": 1
     },
     {
       "id": "bh-130",
@@ -287,7 +295,8 @@
       "original_artwork_position": null,
       "date_sources": [
         "https://human.libretexts.org/Bookshelves/History/World_History/Book%3A_World_History_-_Cultures_States_and_Societies_to_1500_%28Berger_et_al.%29/09%3A_African_History_to_1500/9.01%3A_Chronology"
-      ]
+      ],
+      "planned_scene": 1
     },
     {
       "id": "bh-131",
@@ -306,7 +315,8 @@
       "note": null,
       "date_label": "early 6th century CE",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": null
+      "original_artwork_position": null,
+      "planned_scene": 1
     },
     {
       "id": "bh-125",
@@ -325,7 +335,8 @@
       "note": "Traditional account; historicity, identity and chronology need specialist review.",
       "date_label": "Traditional account",
       "date_status": "traditional_account_not_firmly_dated",
-      "original_artwork_position": null
+      "original_artwork_position": null,
+      "planned_scene": 2
     },
     {
       "id": "bh-132",
@@ -344,7 +355,8 @@
       "note": "Important Yoruba oral tradition; historical particulars and dating are contested.",
       "date_label": "Yoruba tradition",
       "date_status": "traditional_account_not_firmly_dated",
-      "original_artwork_position": null
+      "original_artwork_position": null,
+      "planned_scene": 2
     },
     {
       "id": "bh-001",
@@ -370,7 +382,8 @@
       "original_artwork_position": 1,
       "date_sources": [
         "https://www.si.edu/object/siris_sil_730169"
-      ]
+      ],
+      "planned_scene": 2
     },
     {
       "id": "bh-002",
@@ -396,7 +409,8 @@
       "original_artwork_position": 2,
       "date_sources": [
         "https://www.si.edu/object/siris_sil_730169"
-      ]
+      ],
+      "planned_scene": 2
     },
     {
       "id": "bh-133",
@@ -415,7 +429,8 @@
       "note": null,
       "date_label": "mid-15th century (reign)",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": null
+      "original_artwork_position": null,
+      "planned_scene": 2
     },
     {
       "id": "bh-134",
@@ -437,7 +452,8 @@
       "original_artwork_position": null,
       "date_sources": [
         "https://www.ebsco.com/research-starters/history/reign-mohammed-i-askia"
-      ]
+      ],
+      "planned_scene": 2
     },
     {
       "id": "bh-135",
@@ -459,7 +475,8 @@
       "original_artwork_position": null,
       "date_sources": [
         "https://www.ebsco.com/research-starters/history/reign-mohammed-i-askia"
-      ]
+      ],
+      "planned_scene": 2
     },
     {
       "id": "bh-003",
@@ -485,7 +502,8 @@
       "original_artwork_position": 3,
       "date_sources": [
         "https://dacb.org/stories/congo/afonso2/"
-      ]
+      ],
+      "planned_scene": 3
     },
     {
       "id": "bh-004",
@@ -511,7 +529,8 @@
       "original_artwork_position": 4,
       "date_sources": [
         "https://amp.dw.com/en/amina-the-warrior-queen-of-zazzau/a-52448399"
-      ]
+      ],
+      "planned_scene": 3
     },
     {
       "id": "bh-005",
@@ -534,7 +553,8 @@
       "note": null,
       "date_label": "c. 1583–1663 · ruled 17th century",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 5
+      "original_artwork_position": 5,
+      "planned_scene": 3
     },
     {
       "id": "bh-007",
@@ -557,7 +577,8 @@
       "note": null,
       "date_label": "c. 1701–1773",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 7
+      "original_artwork_position": 7,
+      "planned_scene": 3
     },
     {
       "id": "bh-006",
@@ -576,7 +597,8 @@
       "note": null,
       "date_label": "c. 1723–1770",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 6
+      "original_artwork_position": 6,
+      "planned_scene": 3
     },
     {
       "id": "bh-008",
@@ -595,7 +617,8 @@
       "note": null,
       "date_label": "c. 1753–1784",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 8
+      "original_artwork_position": 8,
+      "planned_scene": 3
     },
     {
       "id": "bh-015",
@@ -614,7 +637,8 @@
       "note": null,
       "date_label": "c. 1744–1829",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 15
+      "original_artwork_position": 15,
+      "planned_scene": 3
     },
     {
       "id": "bh-009",
@@ -633,7 +657,8 @@
       "note": null,
       "date_label": "c. 1745–1797",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 9
+      "original_artwork_position": 9,
+      "planned_scene": 3
     },
     {
       "id": "bh-018",
@@ -652,7 +677,8 @@
       "note": null,
       "date_label": "1766–1842",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 18
+      "original_artwork_position": 18,
+      "planned_scene": 3
     },
     {
       "id": "bh-011",
@@ -671,7 +697,8 @@
       "note": null,
       "date_label": "1731–1806",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 11
+      "original_artwork_position": 11,
+      "planned_scene": 3
     },
     {
       "id": "bh-010",
@@ -690,7 +717,8 @@
       "note": null,
       "date_label": "c. 1743–1803",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 10
+      "original_artwork_position": 10,
+      "planned_scene": 3
     },
     {
       "id": "bh-016",
@@ -709,7 +737,8 @@
       "note": null,
       "date_label": "1760–1831",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 16
+      "original_artwork_position": 16,
+      "planned_scene": 4
     },
     {
       "id": "bh-013",
@@ -728,7 +757,8 @@
       "note": null,
       "date_label": "c. 1763–c. 1824",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 13
+      "original_artwork_position": 13,
+      "planned_scene": 4
     },
     {
       "id": "bh-136",
@@ -750,7 +780,8 @@
       "original_artwork_position": null,
       "date_sources": [
         "https://academic.oup.com/oxford-dictionary-of-national-biography/reference/63486/reference-article-abstract/582570474"
-      ]
+      ],
+      "planned_scene": 4
     },
     {
       "id": "bh-012",
@@ -769,7 +800,8 @@
       "note": null,
       "date_label": "1759–1817",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 12
+      "original_artwork_position": 12,
+      "planned_scene": 4
     },
     {
       "id": "bh-014",
@@ -795,7 +827,8 @@
       "original_artwork_position": 14,
       "date_sources": [
         "https://academic.oup.com/oxford-dictionary-of-national-biography/reference/63486/reference-article-abstract/582570474"
-      ]
+      ],
+      "planned_scene": 4
     },
     {
       "id": "bh-137",
@@ -814,7 +847,8 @@
       "note": null,
       "date_label": "1828–1861 (reign)",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": null
+      "original_artwork_position": null,
+      "planned_scene": 4
     },
     {
       "id": "bh-017",
@@ -833,7 +867,8 @@
       "note": null,
       "date_label": "1800–1831",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 17
+      "original_artwork_position": 17,
+      "planned_scene": 4
     },
     {
       "id": "bh-020",
@@ -852,7 +887,8 @@
       "note": null,
       "date_label": "1815–1882",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 20
+      "original_artwork_position": 20,
+      "planned_scene": 4
     },
     {
       "id": "bh-023",
@@ -871,7 +907,8 @@
       "note": null,
       "date_label": "c. 1818–1895",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 23
+      "original_artwork_position": 23,
+      "planned_scene": 4
     },
     {
       "id": "bh-027",
@@ -890,7 +927,8 @@
       "note": null,
       "date_label": "c. 1822–1913",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 27
+      "original_artwork_position": 27,
+      "planned_scene": 4
     },
     {
       "id": "bh-024",
@@ -909,7 +947,8 @@
       "note": null,
       "date_label": "c. 1815–after 1880",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 24
+      "original_artwork_position": 24,
+      "planned_scene": 4
     },
     {
       "id": "bh-021",
@@ -928,7 +967,8 @@
       "note": null,
       "date_label": "c. 1797–1883",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 21
+      "original_artwork_position": 21,
+      "planned_scene": 4
     },
     {
       "id": "bh-019",
@@ -947,7 +987,8 @@
       "note": null,
       "date_label": "c. 1799–1858",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 19
+      "original_artwork_position": 19,
+      "planned_scene": 4
     },
     {
       "id": "bh-028",
@@ -966,7 +1007,8 @@
       "note": null,
       "date_label": "1839–1915",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 28
+      "original_artwork_position": 28,
+      "planned_scene": 4
     },
     {
       "id": "bh-025",
@@ -985,7 +1027,8 @@
       "note": null,
       "date_label": "c. 1844–1907",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 25
+      "original_artwork_position": 25,
+      "planned_scene": 5
     },
     {
       "id": "bh-022",
@@ -1004,7 +1047,8 @@
       "note": null,
       "date_label": "Born c. 1844 · U.S. Army service 1866–1868",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 22
+      "original_artwork_position": 22,
+      "planned_scene": 5
     },
     {
       "id": "bh-032",
@@ -1023,7 +1067,8 @@
       "note": null,
       "date_label": "1837–1921",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 32
+      "original_artwork_position": 32,
+      "planned_scene": 5
     },
     {
       "id": "bh-029",
@@ -1042,7 +1087,8 @@
       "note": null,
       "date_label": "1856–1915",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 29
+      "original_artwork_position": 29,
+      "planned_scene": 5
     },
     {
       "id": "bh-026",
@@ -1061,7 +1107,8 @@
       "note": null,
       "date_label": "1856–1910",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 26
+      "original_artwork_position": 26,
+      "planned_scene": 5
     },
     {
       "id": "bh-035",
@@ -1080,7 +1127,8 @@
       "note": null,
       "date_label": "1859–1937",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 35
+      "original_artwork_position": 35,
+      "planned_scene": 5
     },
     {
       "id": "bh-140",
@@ -1102,7 +1150,8 @@
       "original_artwork_position": null,
       "date_sources": [
         "https://www.si.edu/object/siris_sil_818547"
-      ]
+      ],
+      "planned_scene": 5
     },
     {
       "id": "bh-034",
@@ -1121,7 +1170,8 @@
       "note": null,
       "date_label": "1862–1931",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 34
+      "original_artwork_position": 34,
+      "planned_scene": 5
     },
     {
       "id": "bh-038",
@@ -1140,7 +1190,8 @@
       "note": null,
       "date_label": "c. 1864–1943",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 38
+      "original_artwork_position": 38,
+      "planned_scene": 5
     },
     {
       "id": "bh-043",
@@ -1159,7 +1210,8 @@
       "note": null,
       "date_label": "1863–1954",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 43
+      "original_artwork_position": 43,
+      "planned_scene": 5
     },
     {
       "id": "bh-139",
@@ -1181,7 +1233,8 @@
       "original_artwork_position": null,
       "date_sources": [
         "https://www.cambridge.org/core/books/abs/ghosts-of-kanungu/on-fertility-misfortune/8AD566389F33E26932260BCE5EFFDF46"
-      ]
+      ],
+      "planned_scene": 5
     },
     {
       "id": "bh-138",
@@ -1203,7 +1256,8 @@
       "original_artwork_position": null,
       "date_sources": [
         "https://www.si.edu/object/siris_sil_751056"
-      ]
+      ],
+      "planned_scene": 5
     },
     {
       "id": "bh-052",
@@ -1222,7 +1276,8 @@
       "note": null,
       "date_label": "1868–1963",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 52
+      "original_artwork_position": 52,
+      "planned_scene": 6
     },
     {
       "id": "bh-045",
@@ -1241,7 +1296,8 @@
       "note": null,
       "date_label": "1875–1955",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 45
+      "original_artwork_position": 45,
+      "planned_scene": 6
     },
     {
       "id": "bh-031",
@@ -1260,7 +1316,8 @@
       "note": null,
       "date_label": "1867–1919",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 31
+      "original_artwork_position": 31,
+      "planned_scene": 6
     },
     {
       "id": "bh-040",
@@ -1279,7 +1336,8 @@
       "note": null,
       "date_label": "1878–1946",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 40
+      "original_artwork_position": 40,
+      "planned_scene": 6
     },
     {
       "id": "bh-044",
@@ -1298,7 +1356,8 @@
       "note": null,
       "date_label": "1866–1955",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 44
+      "original_artwork_position": 44,
+      "planned_scene": 6
     },
     {
       "id": "bh-037",
@@ -1317,7 +1376,8 @@
       "note": null,
       "date_label": "1883–1941",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 37
+      "original_artwork_position": 37,
+      "planned_scene": 6
     },
     {
       "id": "bh-051",
@@ -1336,7 +1396,8 @@
       "note": null,
       "date_label": "1877–1963",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 51
+      "original_artwork_position": 51,
+      "planned_scene": 6
     },
     {
       "id": "bh-036",
@@ -1355,7 +1416,8 @@
       "note": null,
       "date_label": "1887–1940",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 36
+      "original_artwork_position": 36,
+      "planned_scene": 6
     },
     {
       "id": "bh-030",
@@ -1374,7 +1436,8 @@
       "note": null,
       "date_label": "1892–1916",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 30
+      "original_artwork_position": 30,
+      "planned_scene": 6
     },
     {
       "id": "bh-041",
@@ -1393,7 +1456,8 @@
       "note": null,
       "date_label": "1875–1950",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 41
+      "original_artwork_position": 41,
+      "planned_scene": 6
     },
     {
       "id": "bh-141",
@@ -1412,7 +1476,8 @@
       "note": null,
       "date_label": "1916–1930 (reign)",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": null
+      "original_artwork_position": null,
+      "planned_scene": 6
     },
     {
       "id": "bh-033",
@@ -1431,7 +1496,8 @@
       "note": null,
       "date_label": "1892–1926",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 33
+      "original_artwork_position": 33,
+      "planned_scene": 7
     },
     {
       "id": "bh-061",
@@ -1450,7 +1516,8 @@
       "note": null,
       "date_label": "1901–1971",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 61
+      "original_artwork_position": 61,
+      "planned_scene": 7
     },
     {
       "id": "bh-042",
@@ -1469,7 +1536,8 @@
       "note": null,
       "date_label": "1885–1954",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 42
+      "original_artwork_position": 42,
+      "planned_scene": 7
     },
     {
       "id": "bh-066",
@@ -1488,7 +1556,8 @@
       "note": null,
       "date_label": "1898–1976",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 66
+      "original_artwork_position": 66,
+      "planned_scene": 7
     },
     {
       "id": "bh-058",
@@ -1507,7 +1576,8 @@
       "note": null,
       "date_label": "1901–1967",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 58
+      "original_artwork_position": 58,
+      "planned_scene": 7
     },
     {
       "id": "bh-053",
@@ -1526,7 +1596,8 @@
       "note": null,
       "date_label": "1899–1964",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 53
+      "original_artwork_position": 53,
+      "planned_scene": 7
     },
     {
       "id": "bh-064",
@@ -1545,7 +1616,8 @@
       "note": null,
       "date_label": "1899–1974",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 64
+      "original_artwork_position": 64,
+      "planned_scene": 7
     },
     {
       "id": "bh-065",
@@ -1568,7 +1640,8 @@
       "note": null,
       "date_label": "1892–1975 (reigned 1930–1974)",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 65
+      "original_artwork_position": 65,
+      "planned_scene": 7
     },
     {
       "id": "bh-046",
@@ -1587,7 +1660,8 @@
       "note": null,
       "date_label": "1915–1959",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 46
+      "original_artwork_position": 46,
+      "planned_scene": 7
     },
     {
       "id": "bh-070",
@@ -1606,7 +1680,8 @@
       "note": null,
       "date_label": "1913–1980",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 70
+      "original_artwork_position": 70,
+      "planned_scene": 7
     },
     {
       "id": "bh-071",
@@ -1625,7 +1700,8 @@
       "note": null,
       "date_label": "1914–1981",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 71
+      "original_artwork_position": 71,
+      "planned_scene": 7
     },
     {
       "id": "bh-047",
@@ -1644,7 +1720,8 @@
       "note": null,
       "date_label": "1891–1960",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 47
+      "original_artwork_position": 47,
+      "planned_scene": 7
     },
     {
       "id": "bh-085",
@@ -1663,7 +1740,8 @@
       "note": null,
       "date_label": "1917–1996",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 85
+      "original_artwork_position": 85,
+      "planned_scene": 7
     },
     {
       "id": "bh-083",
@@ -1682,7 +1760,8 @@
       "note": null,
       "date_label": "1897–1993",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 83
+      "original_artwork_position": 83,
+      "planned_scene": 8
     },
     {
       "id": "bh-048",
@@ -1701,7 +1780,8 @@
       "note": null,
       "date_label": "1908–1960",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 48
+      "original_artwork_position": 48,
+      "planned_scene": 8
     },
     {
       "id": "bh-100",
@@ -1720,7 +1800,8 @@
       "note": null,
       "date_label": "1919–2010",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 100
+      "original_artwork_position": 100,
+      "planned_scene": 8
     },
     {
       "id": "bh-039",
@@ -1739,7 +1820,8 @@
       "note": null,
       "date_label": "1919–1943",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 39
+      "original_artwork_position": 39,
+      "planned_scene": 8
     },
     {
       "id": "bh-089",
@@ -1758,7 +1840,8 @@
       "note": null,
       "date_label": "1917–2000",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 89
+      "original_artwork_position": 89,
+      "planned_scene": 8
     },
     {
       "id": "bh-091",
@@ -1777,7 +1860,8 @@
       "note": null,
       "date_label": "1912–2002",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 91
+      "original_artwork_position": 91,
+      "planned_scene": 8
     },
     {
       "id": "bh-076",
@@ -1796,7 +1880,8 @@
       "note": null,
       "date_label": "1910–1985",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 76
+      "original_artwork_position": 76,
+      "planned_scene": 8
     },
     {
       "id": "bh-090",
@@ -1815,7 +1900,8 @@
       "note": null,
       "date_label": "1918–2002",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 90
+      "original_artwork_position": 90,
+      "planned_scene": 8
     },
     {
       "id": "bh-055",
@@ -1834,7 +1920,8 @@
       "note": null,
       "date_label": "1919–1965",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 55
+      "original_artwork_position": 55,
+      "planned_scene": 8
     },
     {
       "id": "bh-079",
@@ -1853,7 +1940,8 @@
       "note": null,
       "date_label": "1921–1989",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 79
+      "original_artwork_position": 79,
+      "planned_scene": 8
     },
     {
       "id": "bh-063",
@@ -1872,7 +1960,8 @@
       "note": null,
       "date_label": "1919–1972",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 63
+      "original_artwork_position": 63,
+      "planned_scene": 8
     },
     {
       "id": "bh-073",
@@ -1891,7 +1980,8 @@
       "note": null,
       "date_label": "1906–1982",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 73
+      "original_artwork_position": 73,
+      "planned_scene": 8
     },
     {
       "id": "bh-069",
@@ -1910,7 +2000,8 @@
       "note": null,
       "date_label": "1914–1979",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 69
+      "original_artwork_position": 69,
+      "planned_scene": 8
     },
     {
       "id": "bh-056",
@@ -1929,7 +2020,8 @@
       "note": null,
       "date_label": "1925–1965",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 56
+      "original_artwork_position": 56,
+      "planned_scene": 9
     },
     {
       "id": "bh-057",
@@ -1948,7 +2040,8 @@
       "note": null,
       "date_label": "1922–1965",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 57
+      "original_artwork_position": 57,
+      "planned_scene": 9
     },
     {
       "id": "bh-050",
@@ -1967,7 +2060,8 @@
       "note": null,
       "date_label": "1925–1963",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 50
+      "original_artwork_position": 50,
+      "planned_scene": 9
     },
     {
       "id": "bh-094",
@@ -1986,7 +2080,8 @@
       "note": null,
       "date_label": "1930–2004",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 94
+      "original_artwork_position": 94,
+      "planned_scene": 9
     },
     {
       "id": "bh-081",
@@ -2005,7 +2100,8 @@
       "note": null,
       "date_label": "1908–1993",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 81
+      "original_artwork_position": 81,
+      "planned_scene": 9
     },
     {
       "id": "bh-075",
@@ -2024,7 +2120,8 @@
       "note": null,
       "date_label": "1933–2011",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 75
+      "original_artwork_position": 75,
+      "planned_scene": 9
     },
     {
       "id": "bh-078",
@@ -2043,7 +2140,8 @@
       "note": null,
       "date_label": "1924–1987",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 78
+      "original_artwork_position": 78,
+      "planned_scene": 9
     },
     {
       "id": "bh-059",
@@ -2062,7 +2160,8 @@
       "note": null,
       "date_label": "1929–1968",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 59
+      "original_artwork_position": 59,
+      "planned_scene": 9
     },
     {
       "id": "bh-096",
@@ -2081,7 +2180,8 @@
       "note": null,
       "date_label": "1913–2005",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 96
+      "original_artwork_position": 96,
+      "planned_scene": 9
     },
     {
       "id": "bh-093",
@@ -2100,7 +2200,8 @@
       "note": null,
       "date_label": "1927–2003",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 93
+      "original_artwork_position": 93,
+      "planned_scene": 9
     },
     {
       "id": "bh-098",
@@ -2119,7 +2220,8 @@
       "note": null,
       "date_label": "1933–2006",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 98
+      "original_artwork_position": 98,
+      "planned_scene": 9
     },
     {
       "id": "bh-117",
@@ -2138,7 +2240,8 @@
       "note": null,
       "date_label": "1934–2022",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 117
+      "original_artwork_position": 117,
+      "planned_scene": 9
     },
     {
       "id": "bh-119",
@@ -2157,7 +2260,8 @@
       "note": null,
       "date_label": "1936–2023",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 119
+      "original_artwork_position": 119,
+      "planned_scene": 9
     },
     {
       "id": "bh-062",
@@ -2180,7 +2284,8 @@
       "note": null,
       "date_label": "1909–1972",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 62
+      "original_artwork_position": 62,
+      "planned_scene": 9
     },
     {
       "id": "bh-054",
@@ -2199,7 +2304,8 @@
       "note": null,
       "date_label": "1931–1964",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 54
+      "original_artwork_position": 54,
+      "planned_scene": 10
     },
     {
       "id": "bh-092",
@@ -2218,7 +2324,8 @@
       "note": null,
       "date_label": "1933–2003",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 92
+      "original_artwork_position": 92,
+      "planned_scene": 10
     },
     {
       "id": "bh-118",
@@ -2237,7 +2344,8 @@
       "note": null,
       "date_label": "1940–2022",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 118
+      "original_artwork_position": 118,
+      "planned_scene": 10
     },
     {
       "id": "bh-074",
@@ -2256,7 +2364,8 @@
       "note": null,
       "date_label": "1939–1984",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 74
+      "original_artwork_position": 74,
+      "planned_scene": 10
     },
     {
       "id": "bh-049",
@@ -2279,7 +2388,8 @@
       "note": null,
       "date_label": "1925–1961",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 49
+      "original_artwork_position": 49,
+      "planned_scene": 10
     },
     {
       "id": "bh-084",
@@ -2298,7 +2408,8 @@
       "note": null,
       "date_label": "1940–1994",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 84
+      "original_artwork_position": 84,
+      "planned_scene": 10
     },
     {
       "id": "bh-067",
@@ -2317,7 +2428,8 @@
       "note": null,
       "date_label": "1917–1977",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 67
+      "original_artwork_position": 67,
+      "planned_scene": 10
     },
     {
       "id": "bh-109",
@@ -2336,7 +2448,8 @@
       "note": null,
       "date_label": "1918–2020",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 109
+      "original_artwork_position": 109,
+      "planned_scene": 10
     },
     {
       "id": "bh-088",
@@ -2355,7 +2468,8 @@
       "note": null,
       "date_label": "1936–1999",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 88
+      "original_artwork_position": 88,
+      "planned_scene": 10
     },
     {
       "id": "bh-077",
@@ -2374,7 +2488,8 @@
       "note": null,
       "date_label": "1912–1987",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 77
+      "original_artwork_position": 77,
+      "planned_scene": 10
     },
     {
       "id": "bh-113",
@@ -2393,7 +2508,8 @@
       "note": null,
       "date_label": "1922–2021",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 113
+      "original_artwork_position": 113,
+      "planned_scene": 10
     },
     {
       "id": "bh-068",
@@ -2419,7 +2535,8 @@
       "original_artwork_position": 68,
       "date_sources": [
         "https://www.presidentiallibrary.go.ke/index.php/presidents/he-mzee-jomo-kenyatta"
-      ]
+      ],
+      "planned_scene": 10
     },
     {
       "id": "bh-120",
@@ -2438,7 +2555,8 @@
       "note": null,
       "date_label": "1931–2024",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 120
+      "original_artwork_position": 120,
+      "planned_scene": 10
     },
     {
       "id": "bh-105",
@@ -2457,7 +2575,8 @@
       "note": null,
       "date_label": "1942–2016",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 105
+      "original_artwork_position": 105,
+      "planned_scene": 10
     },
     {
       "id": "bh-116",
@@ -2476,7 +2595,8 @@
       "note": null,
       "date_label": "1927–2022",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 116
+      "original_artwork_position": 116,
+      "planned_scene": 11
     },
     {
       "id": "bh-110",
@@ -2495,7 +2615,8 @@
       "note": null,
       "date_label": "1940–2020",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 110
+      "original_artwork_position": 110,
+      "planned_scene": 11
     },
     {
       "id": "bh-080",
@@ -2514,7 +2635,8 @@
       "note": null,
       "date_label": "1942–1989",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 80
+      "original_artwork_position": 80,
+      "planned_scene": 11
     },
     {
       "id": "bh-106",
@@ -2533,7 +2655,8 @@
       "note": null,
       "date_label": "1942–2018",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 106
+      "original_artwork_position": 106,
+      "planned_scene": 11
     },
     {
       "id": "bh-082",
@@ -2552,7 +2675,8 @@
       "note": null,
       "date_label": "1943–1993",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 82
+      "original_artwork_position": 82,
+      "planned_scene": 11
     },
     {
       "id": "bh-060",
@@ -2571,7 +2695,8 @@
       "note": null,
       "date_label": "1948–1969",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 60
+      "original_artwork_position": 60,
+      "planned_scene": 11
     },
     {
       "id": "bh-095",
@@ -2590,7 +2715,8 @@
       "note": null,
       "date_label": "1924–2005",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 95
+      "original_artwork_position": 95,
+      "planned_scene": 11
     },
     {
       "id": "bh-103",
@@ -2609,7 +2735,8 @@
       "note": null,
       "date_label": "1928–2014",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 103
+      "original_artwork_position": 103,
+      "planned_scene": 11
     },
     {
       "id": "bh-072",
@@ -2628,7 +2755,8 @@
       "note": null,
       "date_label": "1945–1981",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 72
+      "original_artwork_position": 72,
+      "planned_scene": 11
     },
     {
       "id": "bh-097",
@@ -2647,7 +2775,8 @@
       "note": null,
       "date_label": "1940–2005",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 97
+      "original_artwork_position": 97,
+      "planned_scene": 11
     },
     {
       "id": "bh-108",
@@ -2666,7 +2795,8 @@
       "note": null,
       "date_label": "1931–2019",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 108
+      "original_artwork_position": 108,
+      "planned_scene": 11
     },
     {
       "id": "bh-112",
@@ -2685,7 +2815,8 @@
       "note": null,
       "date_label": "1924–2021",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 112
+      "original_artwork_position": 112,
+      "planned_scene": 11
     },
     {
       "id": "bh-111",
@@ -2704,7 +2835,8 @@
       "note": null,
       "date_label": "1939–2020",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 111
+      "original_artwork_position": 111,
+      "planned_scene": 11
     },
     {
       "id": "bh-101",
@@ -2723,7 +2855,8 @@
       "note": null,
       "date_label": "1927–2011",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 101
+      "original_artwork_position": 101,
+      "planned_scene": 11
     },
     {
       "id": "bh-107",
@@ -2742,7 +2875,8 @@
       "note": null,
       "date_label": "1942–2019",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 107
+      "original_artwork_position": 107,
+      "planned_scene": 12
     },
     {
       "id": "bh-099",
@@ -2761,7 +2895,8 @@
       "note": null,
       "date_label": "1958–2009",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 99
+      "original_artwork_position": 99,
+      "planned_scene": 12
     },
     {
       "id": "bh-115",
@@ -2780,7 +2915,8 @@
       "note": null,
       "date_label": "1931–2021",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 115
+      "original_artwork_position": 115,
+      "planned_scene": 12
     },
     {
       "id": "bh-104",
@@ -2799,7 +2935,8 @@
       "note": null,
       "date_label": "1958–2016",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 104
+      "original_artwork_position": 104,
+      "planned_scene": 12
     },
     {
       "id": "bh-114",
@@ -2818,7 +2955,8 @@
       "note": null,
       "date_label": "1937–2021",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 114
+      "original_artwork_position": 114,
+      "planned_scene": 12
     },
     {
       "id": "bh-086",
@@ -2837,7 +2975,8 @@
       "note": null,
       "date_label": "1971–1996",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 86
+      "original_artwork_position": 86,
+      "planned_scene": 12
     },
     {
       "id": "bh-087",
@@ -2856,7 +2995,8 @@
       "note": null,
       "date_label": "1972–1997",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 87
+      "original_artwork_position": 87,
+      "planned_scene": 12
     },
     {
       "id": "bh-102",
@@ -2875,7 +3015,8 @@
       "note": null,
       "date_label": "1918–2013",
       "date_status": "editorial_date_requires_source_review",
-      "original_artwork_position": 102
+      "original_artwork_position": 102,
+      "planned_scene": 12
     }
   ],
   "phase1_date_status": {
@@ -2883,5 +3024,115 @@
     "person_specific_source_links_count": 20,
     "date_labels_not_individually_verified": true,
     "original_numbering_preserved": true
-  }
+  },
+  "scenes": [
+    {
+      "number": 1,
+      "title": "First Horizons",
+      "figure_count": 10,
+      "first_figure": "Queen Makeda of Sheba",
+      "last_figure": "Kaleb of Aksum",
+      "panorama_pair": 1,
+      "status": "provisional grouping; not final image placement"
+    },
+    {
+      "number": 2,
+      "title": "Kingdoms of Knowledge",
+      "figure_count": 7,
+      "first_figure": "Tenkamenin",
+      "last_figure": "Askia Muhammad I",
+      "panorama_pair": 1,
+      "status": "provisional grouping; not final image placement"
+    },
+    {
+      "number": 3,
+      "title": "Changing Shores",
+      "figure_count": 11,
+      "first_figure": "Afonso I of Kongo",
+      "last_figure": "Toussaint Louverture",
+      "panorama_pair": 2,
+      "status": "provisional grouping; not final image placement"
+    },
+    {
+      "number": 4,
+      "title": "Roads Toward Freedom",
+      "figure_count": 14,
+      "first_figure": "Richard Allen",
+      "last_figure": "Robert Smalls",
+      "panorama_pair": 2,
+      "status": "provisional grouping; not final image placement"
+    },
+    {
+      "number": 5,
+      "title": "New Foundations",
+      "figure_count": 12,
+      "first_figure": "Edmonia Lewis",
+      "last_figure": "Yaa Asantewaa",
+      "panorama_pair": 3,
+      "status": "provisional grouping; not final image placement"
+    },
+    {
+      "number": 6,
+      "title": "Education and Industry",
+      "figure_count": 11,
+      "first_figure": "W. E. B. Du Bois",
+      "last_figure": "Empress Zewditu",
+      "panorama_pair": 3,
+      "status": "provisional grouping; not final image placement"
+    },
+    {
+      "number": 7,
+      "title": "The Modern Black World",
+      "figure_count": 13,
+      "first_figure": "Bessie Coleman",
+      "last_figure": "Ella Fitzgerald",
+      "panorama_pair": 4,
+      "status": "provisional grouping; not final image placement"
+    },
+    {
+      "number": 8,
+      "title": "Culture in Motion",
+      "figure_count": 13,
+      "first_figure": "Marian Anderson",
+      "last_figure": "Marjorie Lee Browne",
+      "panorama_pair": 4,
+      "status": "provisional grouping; not final image placement"
+    },
+    {
+      "number": 9,
+      "title": "A Changing Nation",
+      "figure_count": 14,
+      "first_figure": "Malcolm X (El-Hajj Malik El-Shabazz)",
+      "last_figure": "Kwame Nkrumah",
+      "panorama_pair": 5,
+      "status": "provisional grouping; not final image placement"
+    },
+    {
+      "number": 10,
+      "title": "Freedom Across Borders",
+      "figure_count": 14,
+      "first_figure": "Sam Cooke",
+      "last_figure": "Muhammad Ali",
+      "panorama_pair": 5,
+      "status": "provisional grouping; not final image placement"
+    },
+    {
+      "number": 11,
+      "title": "Voices for Change",
+      "figure_count": 14,
+      "first_figure": "Sidney Poitier",
+      "last_figure": "Hazel Johnson-Brown",
+      "panorama_pair": 6,
+      "status": "provisional grouping; not final image placement"
+    },
+    {
+      "number": 12,
+      "title": "Possibility and Memory",
+      "figure_count": 8,
+      "first_figure": "Patricia Bath",
+      "last_figure": "Nelson Mandela",
+      "panorama_pair": 6,
+      "status": "provisional grouping; not final image placement"
+    }
+  ]
 }
