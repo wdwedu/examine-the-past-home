@@ -1,9 +1,10 @@
 /* 45-second Black History Heroes poster popup. Site-wide, once per tab session.
    Uses the same artwork and destination everywhere; no external dependencies. */
 (()=>{'use strict';
+if(!/^\/games\/hall-of-legends\/?$/.test(location.pathname))return;
 if(window.__etpPosterPopupLoaded)return;window.__etpPosterPopupLoaded=true;
 const ROOT=(()=>{const script=document.currentScript;return script?.src?new URL('../',script.src).pathname:'/'})();
-const KEY='etp-black-history-poster-v1';
+const KEY='etp-black-history-hall-poster-v2';
 const START=KEY+'-first-seen';
 const WAIT=45000;
 const DEST='https://examinethepast.etsy.com/listing/1853851411';
