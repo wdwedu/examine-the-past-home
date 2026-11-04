@@ -21,7 +21,7 @@
  const film=document.getElementById("vh-intro-video"),animation=document.getElementById("vh-cinema");
  // Only set when a real film is published and verified. Until then the cinematic
  // introduction runs automatically using native CSS motion rather than a poster.
- const publishedIntro="";
+ const publishedIntro="../../assets/visual-history/visual-history-intro.mp4";
  if(publishedIntro){
   film.src=publishedIntro;film.hidden=false;
   film.addEventListener("playing",()=>animation.hidden=true);
