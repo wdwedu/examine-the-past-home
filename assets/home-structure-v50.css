@@ -38,3 +38,5 @@ body>#community{display:none!important}
 .etp-hub-card:hover:before,.etp-hub-card:focus-visible:before{transform:translateX(110%)}
 .etp-hub-card:hover,.etp-hub-card:focus-visible{transform:translateY(-6px) scale(1.012);box-shadow:0 16px 42px #0009,0 0 17px #94ff5330;outline:2px solid #94ff53;outline-offset:2px}
 @media(prefers-reduced-motion:reduce){.etp-hub-card,.etp-hub-card:before{transition:none}.etp-hub-card:hover{transform:none}}
+
+.etp-us-flag-icon{display:block;width:44px;height:29px;object-fit:cover;border-radius:3px;box-shadow:0 3px 9px #000a;margin-bottom:2px}
