@@ -1,0 +1,17 @@
+/* Examine the Past — Black History Heroes poster, 45-second sitewide promotion */
+.etp-poster-promo[hidden]{display:none!important}
+.etp-poster-promo{position:fixed;inset:0;z-index:2147483605;display:grid;place-items:center;padding:clamp(12px,3vw,28px);background:rgba(0,0,0,.81);backdrop-filter:blur(8px)}
+.etp-poster-promo-card{position:relative;box-sizing:border-box;width:min(740px,96vw);max-height:min(90dvh,880px);overflow:auto;border:1px solid rgba(148,255,83,.52);border-radius:16px;background:linear-gradient(155deg,#151a15,#050705 77%);color:#fff;box-shadow:0 22px 90px #000d,0 0 30px #94ff5317;padding:clamp(16px,3.2vw,28px);font-family:Georgia,"Times New Roman",serif;text-align:center}
+.etp-poster-promo-close{position:absolute;z-index:3;top:8px;right:8px;width:40px;height:40px;border:0;border-radius:50%;background:#070a08e8;color:#fff;font:32px/1 Arial,sans-serif;cursor:pointer;display:grid;place-items:center}
+.etp-poster-promo-close:hover,.etp-poster-promo-close:focus-visible{color:#fff200;outline:2px solid #94ff53;outline-offset:1px}
+.etp-poster-promo-kicker{margin:2px 46px 5px;color:#94ff53;font:700 11px/1.3 Arial,sans-serif;letter-spacing:.17em;text-transform:uppercase}
+.etp-poster-promo-title{color:#fff200;font:700 clamp(23px,4vw,36px)/1.15 Georgia,serif;margin:8px 30px 12px}
+.etp-poster-promo-image{display:block;width:100%;max-height:46dvh;object-fit:contain;border-radius:8px;margin:0 auto 12px}
+.etp-poster-promo-image[hidden]{display:none!important}
+.etp-poster-promo-fallback{display:none;padding:45px 12px;margin:8px 0;border:1px solid #94ff5330;color:#d2dacd;font-style:italic}
+.etp-poster-promo-image[hidden]+.etp-poster-promo-fallback{display:block}
+.etp-poster-promo-copy{margin:10px auto 18px;max-width:560px;color:#d9e1d7;font:15px/1.5 Georgia,serif}
+.etp-poster-promo-cta{display:inline-flex;align-items:center;justify-content:center;min-height:47px;min-width:190px;padding:11px 26px;border:1px solid #fff200;border-radius:999px;background:linear-gradient(115deg,#b5ed58,#fff200);color:#11170e!important;font:700 15px Georgia,serif;text-decoration:none!important;box-shadow:0 3px 17px #94ff5333;transition:transform .18s}
+.etp-poster-promo-cta:hover,.etp-poster-promo-cta:focus-visible{transform:translateY(-2px);outline:2px solid #fff;outline-offset:3px}
+@media(max-width:520px){.etp-poster-promo-card{max-height:92dvh;padding:14px}.etp-poster-promo-image{max-height:39dvh}.etp-poster-promo-title{margin-right:25px;margin-left:25px}.etp-poster-promo-copy{font-size:14px}}
+@media(prefers-reduced-motion:reduce){.etp-poster-promo-cta{transition:none}}
