@@ -1,0 +1,137 @@
+{
+  "version": "2026-11-04-harriet-exemplar-v1",
+  "figure_id": "bh-027",
+  "title": "Harriet Tubman — Routes to Freedom",
+  "editorial": "The decision moments below are historical simulations based on documented pressures and networks; none is a transcript of a single specific rescue. No outcome implies that people escaping slavery were responsible for the violence imposed on them.",
+  "biography": [
+    {
+      "heading": "A life shaped by slavery and resistance",
+      "text": "Harriet Tubman was born Araminta Ross around 1822 on Maryland's Eastern Shore, where she and her family lived under slavery. As a child and young adult she experienced forced labor, family separation, and serious injury. She became skilled at navigating the local landscape and developed relationships within a close community. These experiences shaped the knowledge, commitments, and resourcefulness she later used to help others reach freedom."
+    },
+    {
+      "heading": "Choosing freedom—and returning",
+      "text": "In 1849, after the death of her enslaver and amid the danger of being sold, Tubman escaped from Maryland and made her way to Philadelphia. Freedom did not end her concern for loved ones still enslaved. She returned repeatedly to Maryland to assist family, friends, and other freedom seekers. Escape depended on planning, courage, communication, and trusted networks of Black communities and abolitionist supporters. It was never the work of one person alone."
+    },
+    {
+      "heading": "A legal landscape of danger",
+      "text": "The Fugitive Slave Act of 1850 increased danger for people who had escaped slavery by strengthening federal procedures for their capture and return. Tubman continued organizing journeys despite the risk of arrest and violence. According to National Park Service research, across roughly 13 rescue trips she guided about 70 people to freedom and advised others who traveled separately. Some older popular accounts claim much larger numbers, but those figures are not supported in the same way."
+    },
+    {
+      "heading": "Service during the Civil War",
+      "text": "Tubman's contributions extended beyond the Underground Railroad. During the Civil War she served the Union cause, including work as a nurse, scout, and intelligence organizer. In 1863 she helped lead the Combahee River Raid in South Carolina, during which Union forces liberated hundreds of enslaved people. Her knowledge and leadership show that Black women contributed to military operations and liberation efforts as well as civilian resistance."
+    },
+    {
+      "heading": "Care, citizenship, and memory",
+      "text": "In later life Tubman supported education, family care, and women's suffrage. Her legacy raises questions about how we remember historical leaders: a powerful individual story can inspire people, but understanding her world also requires attention to the many unnamed people who sheltered, guided, financed, and joined freedom-seeking efforts. Surviving records, later biographies, and public memory do not always preserve every person's voice equally."
+    }
+  ],
+  "sources": [
+    {
+      "label": "National Park Service — Harriet Tubman and the Underground Railroad",
+      "url": "https://www.nps.gov/articles/harriet-tubman-and-the-underground-railroad.htm"
+    },
+    {
+      "label": "National Park Service — Harriet Tubman biography",
+      "url": "https://home.nps.gov/hatu/learn/historyculture/htubman.htm"
+    },
+    {
+      "label": "National Archives — Harriet Tubman records",
+      "url": "https://www.archives.gov/research/african-americans/individuals/harriet-tubman"
+    },
+    {
+      "label": "Maryland Department of Natural Resources — Harriet Tubman chronology",
+      "url": "https://dnr.maryland.gov/publiclands/Pages/eastern/tubman.aspx"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "network",
+      "title": "The Network of Trust",
+      "context": "Imagine you are preparing a museum exhibit about a freedom-seeking journey from Maryland after 1850. You must decide what evidence would best explain how people traveled while facing surveillance and the danger of capture.",
+      "prompt": "Which evidence would you investigate first?",
+      "choices": [
+        {
+          "label": "Look for accounts of trusted guides and safe places",
+          "next": "network_support",
+          "tone": "green",
+          "consequence": "You uncover a story about mutual aid and the risks borne by many people, not just one famous conductor."
+        },
+        {
+          "label": "Search only for the name of one celebrated conductor",
+          "next": "network_hero",
+          "tone": "red",
+          "consequence": "You learn about a well-known leader, but your exhibit leaves out the wider network that made the journey possible."
+        },
+        {
+          "label": "Focus on the Fugitive Slave Act and its enforcement",
+          "next": "network_law",
+          "tone": "blue",
+          "consequence": "You reveal why the risks grew after 1850, but the law alone cannot explain how freedom seekers organized assistance."
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "title": "Families and Difficult Choices",
+      "context": "Tubman's relatives and friends faced the possibility of sale and separation. You are designing an evidence-based exhibit about why rescuing family members was both urgent and dangerous.",
+      "prompt": "What is the most responsible way to explain those choices?",
+      "choices": [
+        {
+          "label": "Include family testimony and the risk of separation",
+          "next": "family_people",
+          "tone": "green",
+          "consequence": "Your interpretation recognizes personal ties and the coercive system that threatened them."
+        },
+        {
+          "label": "Treat rescue as a simple adventure without risks",
+          "next": "family_gloss",
+          "tone": "red",
+          "consequence": "The exhibit seems exciting, but it hides the surveillance, violence, and difficult consequences people faced."
+        },
+        {
+          "label": "Examine the law and the surrounding community together",
+          "next": "family_context",
+          "tone": "blue",
+          "consequence": "You place families' decisions within the legal and social conditions that shaped the options available."
+        }
+      ]
+    },
+    {
+      "id": "legacy",
+      "title": "More Than the Underground Railroad",
+      "context": "Your exhibit currently stops at Tubman's Underground Railroad work. A visitor asks whether her leadership continued after the Civil War began.",
+      "prompt": "Which revision best represents the evidence?",
+      "choices": [
+        {
+          "label": "Include her Civil War intelligence and Combahee River work",
+          "next": "legacy_war",
+          "tone": "green",
+          "consequence": "Your exhibit now explains that Tubman supported liberation during the war as well as before it."
+        },
+        {
+          "label": "End the story in 1849 when Tubman escaped",
+          "next": "legacy_early",
+          "tone": "red",
+          "consequence": "The exhibit misses decades of organizing, wartime service, and community care."
+        },
+        {
+          "label": "Add later women's suffrage and community work",
+          "next": "legacy_care",
+          "tone": "blue",
+          "consequence": "Visitors learn that her public legacy also included care, citizenship, and advocacy beyond the war."
+        }
+      ]
+    }
+  ],
+  "final": {
+    "prompt": "Which statement best reflects Harriet Tubman's historical work?",
+    "options": [
+      "She escaped in 1849 and then avoided further involvement in the struggle against slavery.",
+      "She repeatedly aided freedom seekers and later supported Union military operations during the Civil War.",
+      "Her Underground Railroad work was performed without help from other people or communities.",
+      "She first became known for running a national railroad company."
+    ],
+    "correct": 1,
+    "explanation": "Tubman returned to Maryland to help others escape and later contributed to Union operations, including the 1863 Combahee River Raid. Her work relied on collective networks of support."
+  }
+}
