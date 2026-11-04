@@ -1,0 +1,22 @@
+name: Certification Center QA
+
+on:
+  push:
+    paths:
+      - "teacher-tools/certification-prep/**"
+      - "scripts/check_certification_center.py"
+      - ".github/workflows/certification-center-qa.yml"
+  workflow_dispatch:
+
+jobs:
+  validate-certification-center:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out project
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate all three 5941 exam banks and page links
+        run: python scripts/check_certification_center.py
