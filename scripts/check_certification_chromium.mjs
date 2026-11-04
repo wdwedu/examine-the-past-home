@@ -18,7 +18,7 @@ const check=(ok,label)=>{assert.ok(ok,label);console.log("PASS",label);pass++};
 async function checkReadability(page,selectors,section) {
   for(const selector of selectors){
     const color=await page.locator(selector).first().evaluate(el=>{
-      const cs=getComputedStyle(el), bg=getComputedStyle(el.closest(".question-card,.panel,.lab-head,.hero,.choice,.option,.pill,.side-card")||el).backgroundColor;
+      const cs=getComputedStyle(el), bg=getComputedStyle(el.closest(".explain,.practice-source,.question-card,.panel,.lab-head,.hero,.choice,.option,.pill,.side-card")||el).backgroundColor;
       return {color:cs.color,background:bg,text:el.textContent?.trim().slice(0,65)};
     });
     const parse=str=>{const nums=str.match(/[0-9.]+/g);return nums&&nums.length>=3?nums.slice(0,3).map(Number):null};
@@ -67,8 +67,15 @@ try {
   ({context,page}=await setup({width:1365,height:900},"foundations"));
   await page.goto(BASE+"foundations/",{waitUntil:"networkidle"});
   check(await page.locator(".qjump").count()===120,"Foundations loads all 120 questions");
-  await page.locator('input[name="answer"]').first().check();
+  await checkReadability(page,[".lab-head p",".lab-head h1",".practice-source p"],"Foundations learning header/source");
+  await page.locator('input[name="answer"][value="0"]').check();
   check((await page.locator("#answered-count").innerText())==="1","Foundations answer counted");
+  check(await page.locator("#explanation:not(.incorrect)").isVisible(),"Guided correct explanation renders");
+  await checkReadability(page,["#explanation h3","#explanation p"],"Guided correct feedback");
+  await page.locator('input[name="answer"][value="1"]').check();
+  check(await page.locator("#explanation.incorrect").isVisible(),"Guided incorrect explanation renders");
+  await checkReadability(page,["#explanation h3","#explanation p"],"Guided incorrect feedback");
+  await page.locator('input[name="answer"][value="0"]').check();
   await page.reload({waitUntil:"networkidle"});
   check((await page.locator("#answered-count").innerText())==="1","Foundations response survives reload");
   await page.evaluate(()=>{
@@ -105,6 +112,8 @@ try {
     await page.locator("#consent").check();
     await page.locator("#start").click();
     check(await page.locator("#exam").isVisible(),exam+": exam opens");
+    check(await page.locator(".practice-source p").count()===1,exam+": source excerpt renders above question");
+    await checkReadability(page,[".practice-source p"],exam+" practice source");
     await checkReadability(page,[".stem",".option",".side h3",".hero h1"],exam);
     check(await page.locator(".qjump").count()===120,exam+": 120 question navigator buttons");
     check((await page.locator("#clock").innerText()).startsWith("01:59")||(await page.locator("#clock").innerText()).startsWith("02:00"),exam+": timer running");
