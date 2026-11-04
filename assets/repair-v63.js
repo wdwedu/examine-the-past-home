@@ -26,7 +26,7 @@ function stopMusic(){window.ETPExperience?.stopPlayer();document.querySelectorAl
 let readerLoading=false;
 function enableReader(){
  const main=document.querySelector('main');
- if(readerLoading||!main||document.getElementById('page-tools')||location.pathname===root||location.pathname===root+'index.html'||document.body.dataset.home==='true')return;
+ if(document.body.classList.contains('hall-visual-demo')||readerLoading||!main||document.getElementById('page-tools')||location.pathname===root||location.pathname===root+'index.html'||document.body.dataset.home==='true')return;
  readerLoading=true;document.body.dataset.reader='true';document.querySelector('.etp-reader')?.remove();
  for(const name of ['read-aloud.css','page-tools.css','reader-comfort.css']){const l=document.createElement('link');l.rel='stylesheet';l.href=url('assets/'+name+'?v=20261015');document.head.append(l)}
  const bar=document.createElement('aside');bar.id='page-tools';bar.innerHTML='<button class="light-toggle" type="button">Comfort</button><div class="reader-utilities"></div><div class="reader-right"></div>';document.body.append(bar);
