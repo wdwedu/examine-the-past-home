@@ -411,7 +411,7 @@ body.hall-visual-demo{overflow-x:clip}
 .hv-chronology .hv-head{
  position:relative;z-index:3;display:grid;place-items:center;
  min-height:114px;padding:27px 16px 36px;margin:0 auto;
- border-top:1px solid rgba(148,255,83,.28);
+ border-bottom:1px solid rgba(148,255,83,.34);
  background:linear-gradient(to bottom,#030603 0%,#09110b 27%,rgba(3,6,4,.85) 70%,transparent 100%);
  text-align:center;
 }
