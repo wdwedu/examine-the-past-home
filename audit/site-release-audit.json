@@ -1,13 +1,13 @@
 {
   "summary": {
-    "timestamp_utc": "2026-11-04T21:17:46.427083+00:00",
-    "files": 911,
-    "html_pages": 227,
+    "timestamp_utc": "2026-11-04T21:23:30.401046+00:00",
+    "files": 914,
+    "html_pages": 225,
     "js_checked": 96,
-    "links_checked": 1042,
-    "asset_refs_checked": 1953,
+    "links_checked": 996,
+    "asset_refs_checked": 1948,
     "error_count": 0,
-    "warning_count": 82,
+    "warning_count": 0,
     "external_domains": [
       [
         "www.examinethepast.com",
@@ -15,15 +15,15 @@
       ],
       [
         "www.etsy.com",
-        16
+        14
       ],
       [
         "www.facebook.com",
-        11
+        10
       ],
       [
         "www.pinterest.com",
-        11
+        10
       ],
       [
         "x.com",
@@ -38,10 +38,6 @@
         7
       ],
       [
-        "www.redbubble.com",
-        6
-      ],
-      [
         "www.linkedin.com",
         6
       ],
@@ -50,19 +46,7 @@
         6
       ],
       [
-        "www.youtube.com",
-        5
-      ],
-      [
-        "www.instagram.com",
-        5
-      ],
-      [
-        "www.teacherspayteachers.com",
-        5
-      ],
-      [
-        "www.zazzle.com",
+        "www.redbubble.com",
         5
       ],
       [
@@ -70,7 +54,23 @@
         4
       ],
       [
+        "www.youtube.com",
+        4
+      ],
+      [
+        "www.instagram.com",
+        4
+      ],
+      [
         "examinethepast.blogspot.com",
+        4
+      ],
+      [
+        "www.teacherspayteachers.com",
+        4
+      ],
+      [
+        "www.zazzle.com",
         4
       ],
       [
@@ -118,10 +118,6 @@
         1
       ],
       [
-        "www.tiktok.com",
-        1
-      ],
-      [
         "hutchinscenter.fas.harvard.edu",
         1
       ],
@@ -148,426 +144,14 @@
       [
         "www.fdrlibrary.org",
         1
+      ],
+      [
+        "examinethepast.com",
+        1
       ]
     ],
-    "issue_counts": {
-      "missing_html_lang": 2,
-      "missing_title": 2,
-      "missing_meta_description": 2,
-      "missing_h1": 76
-    }
+    "issue_counts": {}
   },
   "errors": [],
-  "warnings": [
-    {
-      "code": "missing_html_lang",
-      "path": "games/assets/footer.html",
-      "detail": "No html lang attribute"
-    },
-    {
-      "code": "missing_title",
-      "path": "games/assets/footer.html",
-      "detail": "No <title>"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/assets/footer.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_h1",
-      "path": "games/assets/footer.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_html_lang",
-      "path": "games/assets/nav.html",
-      "detail": "No html lang attribute"
-    },
-    {
-      "code": "missing_title",
-      "path": "games/assets/nav.html",
-      "detail": "No <title>"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/assets/nav.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_h1",
-      "path": "games/assets/nav.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "games/presidential-challenge/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "games/time-rush/ancient-worlds/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "games/time-rush/civil-rights/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "games/time-rush/classical-civilizations/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "games/time-rush/exploration-encounters/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "games/time-rush/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "games/time-rush/inventions/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "games/time-rush/medieval-worlds/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "games/time-rush/modern-world/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "games/time-rush/revolutions-change/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "games/time-rush/revolutions/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "games/time-rush/us-presidents/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "games/time-rush/world-wars/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v3l1-what-makes-a-civilization/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v3l2-culture-belief-and-social-order/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v3l3-cities-trade-and-specialization/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v3l4-empires-exchange-and-cultural-diffusion/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v3l5-comparing-civilizations-patterns-and-differences/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v4l1-why-governments-form/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v4l2-power-authority-and-legitimacy/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v4l3-democracy-republics-and-representation/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v4l4-rights-laws-and-citizenship/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v4l5-comparing-government-systems/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v5l1-why-revolutions-begin/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v5l2-enlightenment-ideas-and-political-change/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v5l3-american-revolution-independence-and-government/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v5l4-french-and-haitian-revolutions/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v5l5-industrial-revolution-and-social-change/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v6l1-world-wars-and-global-shifts/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v6l2-cold-war-and-ideological-conflict/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v6l3-decolonization-and-new-nations/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v6l4-technology-and-global-connections/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v6l5-modern-global-challenges/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v7l1-scarcity-choice-and-opportunity-cost/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v7l2-supply-demand-and-markets/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v7l3-economic-systems-market-command-and-mixed/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v7l4-trade-globalization-and-interdependence/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v7l5-personal-finance-public-policy-and-economic-decision-making/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v8l1-foundations-of-american-government/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v8l2-rights-liberties-and-responsibilities/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v8l3-elections-media-and-civic-participation/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v8l4-public-policy-and-local-action/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/social-studies-mini-labs/v8l5-civic-life-capstone-evidence-deliberation-and-action/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/visual-history/library/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v3l1-why-many-gods-systems-of-divine-roles/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v3l2-mesopotamia-city-states-temples-and-priests/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v3l3-egypt-divine-kingship-and-the-afterlife/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v3l4-greece-and-rome-myth-civic-life-and-empire/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v3l5-religion-and-power-in-ancient-states/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v4l1-origins-and-covenant-abraham-to-early-israel/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v4l2-torah-law-and-ethical-living/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v4l3-kingdom-temple-and-national-story/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v4l4-exile-return-and-survival/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v4l5-judaism-under-empires-persian-to-roman-context/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v5l1-judea-under-rome-the-world-of-jesus/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v5l2-jesus-teachings-movement-and-tension/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v5l3-crucifixion-roman-authority-and-local-leadership/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v5l4-from-jewish-sect-to-gentile-faith/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v5l5-rome-and-the-rise-of-a-state-religion/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v6l1-arabia-before-islam-society-trade-and-belief/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v6l2-muhammad-and-the-quran/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v6l3-the-ummah-community-law-and-identity/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v6l4-expansion-and-caliphates/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v6l5-sunni-and-shia-a-historical-split/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v7l1-religion-and-state-power-basic-patterns/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v7l2-empire-conversion-and-cultural-blending/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v7l3-conflict-when-politics-wears-a-religious-label/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v7l4-the-crusades-as-a-case-study/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v7l5-tolerance-pluralism-and-persecution/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v8l1-religious-freedom-and-the-american-framework/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v8l2-christianity-in-america-diversity-and-influence/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v8l3-judaism-in-america-community-and-identity/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v8l4-islam-in-america-community-and-misconceptions/index.html",
-      "detail": "No h1"
-    },
-    {
-      "code": "missing_h1",
-      "path": "lessons/world-religions/v8l5-dialogue-skills-disagreeing-with-respect/index.html",
-      "detail": "No h1"
-    }
-  ]
+  "warnings": []
 }

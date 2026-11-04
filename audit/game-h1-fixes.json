@@ -1,0 +1,54 @@
+[
+  {
+    "path": "games/presidential-challenge/index.html",
+    "heading": "Presidential Portrait Challenge"
+  },
+  {
+    "path": "games/time-rush/ancient-worlds/index.html",
+    "heading": "Ancient Worlds: Time Rush"
+  },
+  {
+    "path": "games/time-rush/civil-rights/index.html",
+    "heading": "Civil Rights: Time Rush"
+  },
+  {
+    "path": "games/time-rush/classical-civilizations/index.html",
+    "heading": "Classical Civilizations: Time Rush"
+  },
+  {
+    "path": "games/time-rush/exploration-encounters/index.html",
+    "heading": "Exploration & Encounters: Time Rush"
+  },
+  {
+    "path": "games/time-rush/index.html",
+    "heading": "Ancient Worlds: Time Rush"
+  },
+  {
+    "path": "games/time-rush/inventions/index.html",
+    "heading": "Inventions: Time Rush"
+  },
+  {
+    "path": "games/time-rush/medieval-worlds/index.html",
+    "heading": "Medieval Worlds: Time Rush"
+  },
+  {
+    "path": "games/time-rush/modern-world/index.html",
+    "heading": "A Modern World: Time Rush"
+  },
+  {
+    "path": "games/time-rush/revolutions/index.html",
+    "heading": "Revolutions: Time Rush"
+  },
+  {
+    "path": "games/time-rush/revolutions-change/index.html",
+    "heading": "Revolutions & Change: Time Rush"
+  },
+  {
+    "path": "games/time-rush/us-presidents/index.html",
+    "heading": "U.S. Presidents: Time Rush"
+  },
+  {
+    "path": "games/time-rush/world-wars/index.html",
+    "heading": "World Wars: Time Rush"
+  }
+]
