@@ -56,3 +56,85 @@ body.hall-visual-demo .hv-chronology .hv-frame-unit .hv-bio-link:focus-visible{
  body.hall-visual-demo .hv-chronology .hv-portrait-button .hv-image,
  body.hall-visual-demo .hv-chronology .hv-frame-unit .hv-bio-link{transition:none!important;transform:none!important}
 }
+
+/* Chapter 02–11: individually installed WebP hall environments. */
+.hv-chronology[data-chapter="2"] .hv-stops{
+ background-color:#100e0b;
+ background-image:linear-gradient(to bottom,rgba(0,0,0,.67),transparent 5%,transparent 94%,rgba(0,0,0,.73)),url("halls/hall-chapter-02-west-african-empires.webp");
+ background-position:center center,center center;
+ background-repeat:no-repeat,no-repeat;
+ background-size:100% 100%,100% 100%;
+}
+.hv-chronology[data-chapter="2"] .hv-stops::before{content:none!important}
+.hv-chronology[data-chapter="3"] .hv-stops{
+ background-color:#100e0b;
+ background-image:linear-gradient(to bottom,rgba(0,0,0,.67),transparent 5%,transparent 94%,rgba(0,0,0,.73)),url("halls/hall-chapter-03-resistance-and-survival.webp");
+ background-position:center center,center center;
+ background-repeat:no-repeat,no-repeat;
+ background-size:100% 100%,100% 100%;
+}
+.hv-chronology[data-chapter="3"] .hv-stops::before{content:none!important}
+.hv-chronology[data-chapter="4"] .hv-stops{
+ background-color:#100e0b;
+ background-image:linear-gradient(to bottom,rgba(0,0,0,.67),transparent 5%,transparent 94%,rgba(0,0,0,.73)),url("halls/hall-chapter-04-abolition-and-freedom.webp");
+ background-position:center center,center center;
+ background-repeat:no-repeat,no-repeat;
+ background-size:100% 100%,100% 100%;
+}
+.hv-chronology[data-chapter="4"] .hv-stops::before{content:none!important}
+.hv-chronology[data-chapter="5"] .hv-stops{
+ background-color:#100e0b;
+ background-image:linear-gradient(to bottom,rgba(0,0,0,.67),transparent 5%,transparent 94%,rgba(0,0,0,.73)),url("halls/hall-chapter-05-reconstruction-and-leadership.webp");
+ background-position:center center,center center;
+ background-repeat:no-repeat,no-repeat;
+ background-size:100% 100%,100% 100%;
+}
+.hv-chronology[data-chapter="5"] .hv-stops::before{content:none!important}
+.hv-chronology[data-chapter="6"] .hv-stops{
+ background-color:#100e0b;
+ background-image:linear-gradient(to bottom,rgba(0,0,0,.67),transparent 5%,transparent 94%,rgba(0,0,0,.73)),url("halls/hall-chapter-06-education-and-scholarship.webp");
+ background-position:center center,center center;
+ background-repeat:no-repeat,no-repeat;
+ background-size:100% 100%,100% 100%;
+}
+.hv-chronology[data-chapter="6"] .hv-stops::before{content:none!important}
+.hv-chronology[data-chapter="7"] .hv-stops{
+ background-color:#100e0b;
+ background-image:linear-gradient(to bottom,rgba(0,0,0,.67),transparent 5%,transparent 94%,rgba(0,0,0,.73)),url("halls/hall-chapter-07-science-and-innovation.webp");
+ background-position:center center,center center;
+ background-repeat:no-repeat,no-repeat;
+ background-size:100% 100%,100% 100%;
+}
+.hv-chronology[data-chapter="7"] .hv-stops::before{content:none!important}
+.hv-chronology[data-chapter="8"] .hv-stops{
+ background-color:#100e0b;
+ background-image:linear-gradient(to bottom,rgba(0,0,0,.67),transparent 5%,transparent 94%,rgba(0,0,0,.73)),url("halls/hall-chapter-08-arts-and-harlem-renaissance.webp");
+ background-position:center center,center center;
+ background-repeat:no-repeat,no-repeat;
+ background-size:100% 100%,100% 100%;
+}
+.hv-chronology[data-chapter="8"] .hv-stops::before{content:none!important}
+.hv-chronology[data-chapter="9"] .hv-stops{
+ background-color:#100e0b;
+ background-image:linear-gradient(to bottom,rgba(0,0,0,.67),transparent 5%,transparent 94%,rgba(0,0,0,.73)),url("halls/hall-chapter-09-civil-rights-movement.webp");
+ background-position:center center,center center;
+ background-repeat:no-repeat,no-repeat;
+ background-size:100% 100%,100% 100%;
+}
+.hv-chronology[data-chapter="9"] .hv-stops::before{content:none!important}
+.hv-chronology[data-chapter="10"] .hv-stops{
+ background-color:#100e0b;
+ background-image:linear-gradient(to bottom,rgba(0,0,0,.67),transparent 5%,transparent 94%,rgba(0,0,0,.73)),url("halls/hall-chapter-10-black-women-leaders.webp");
+ background-position:center center,center center;
+ background-repeat:no-repeat,no-repeat;
+ background-size:100% 100%,100% 100%;
+}
+.hv-chronology[data-chapter="10"] .hv-stops::before{content:none!important}
+.hv-chronology[data-chapter="11"] .hv-stops{
+ background-color:#100e0b;
+ background-image:linear-gradient(to bottom,rgba(0,0,0,.67),transparent 5%,transparent 94%,rgba(0,0,0,.73)),url("halls/hall-chapter-11-pan-african-global-legacy.webp");
+ background-position:center center,center center;
+ background-repeat:no-repeat,no-repeat;
+ background-size:100% 100%,100% 100%;
+}
+.hv-chronology[data-chapter="11"] .hv-stops::before{content:none!important}
