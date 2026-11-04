@@ -31,3 +31,16 @@ body.hall-visual-demo{background:#030604;color:#f7f8f3;font-family:Georgia,"Time
 .hv-image{display:block;width:94px;height:94px;max-width:100%;aspect-ratio:1;object-fit:cover;border-radius:12px;border:2px solid #fff20096;box-shadow:0 5px 15px #0009}
 .hv-person:has(.hv-image){min-height:192px}
 @media(max-width:700px){.hv-image{width:82px;height:82px}.hv-person:has(.hv-image){min-height:178px}}
+
+/* Phase 5 interaction anchors: controls and accessible previews. */
+.hv-activity{font-size:12px;min-height:40px;padding:8px 12px;margin-top:4px}
+.hv-era-control{display:block;position:relative;z-index:1;margin:8px auto 18px;border-color:#fff200;background:linear-gradient(125deg,#101f17,#233727,#101a13);box-shadow:0 0 18px #94ff533b}
+.hv-demo-overlay[hidden]{display:none!important}
+body.hv-demo-modal-open{overflow:hidden}
+.hv-demo-overlay{position:fixed;inset:0;background:#000d;z-index:99999;display:flex;align-items:center;justify-content:center;padding:14px}
+.hv-demo-dialog{width:min(560px,100%);max-height:88dvh;overflow-y:auto;position:relative;background:linear-gradient(125deg,#13251e,#060c08);color:white;border:1px solid #94ff53;border-radius:18px;padding:clamp(23px,4vw,38px);box-shadow:0 20px 65px #000e}
+.hv-demo-dialog h2{font:700 clamp(25px,4vw,37px)/1.2 Georgia,serif;color:#fff200;margin:15px 45px 7px 0}
+.hv-demo-dialog p{font:15px/1.65 Georgia,serif;color:#e2e8dd}
+.hv-demo-dialog #hv-demo-dates{font-weight:700;color:#94ff53}
+.hv-demo-close{position:absolute;top:10px;right:12px;min-width:44px;min-height:44px;border:1px solid #94ff53;border-radius:50%;background:#172b1e;color:#fff200;font:30px Georgia,serif;cursor:pointer}
+.hv-demo-close:focus-visible,.hv-demo-close:hover{outline:2px solid #fff200;outline-offset:2px}
