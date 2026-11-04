@@ -24,8 +24,8 @@ const games=document.createElement("section");games.id="home-games-v54";games.cl
 <a class="etp-home-game-card etp-home-game-black" href="lessons/black-history/#bh-games-title" data-etp-transition="page"><img class="etp-home-game-portrait" src="assets/hall-of-legends/portraits/002.webp" alt="Illustration of Mansa Musa" loading="lazy"><div><span class="etp-home-game-tag">Five Interactive Games</span><h3>Black History Games</h3><p>Explore 141 historical figures through interactive picture games and discoveries.</p><strong>Explore Black History Games →</strong></div></a>
 <a class="etp-home-game-card etp-home-game-unlocked" href="games/history-unlocked/" data-etp-transition="time"><div><span class="etp-home-game-tag">Historical Challenges</span><h3>History Unlocked</h3><p>Explore Time Rush, Case Files, connections, maps and more.</p><strong>Enter History Unlocked →</strong></div></a>
 </div><p class="etp-home-games-footer"><a href="games/" data-etp-transition="time">View All Nine Game Collections →</a></p></div>`;
-tools.insertAdjacentElement("afterend",games);
-hub.insertAdjacentElement("afterend",tools)}
+hub.insertAdjacentElement("afterend",tools);
+tools.insertAdjacentElement("afterend",games)}
 if(about&&contact){const h2=about.querySelector("h1,h2");if(h2)h2.textContent="About ExamineThePast";const k=[...about.querySelectorAll("div,p,span")].find(n=>/ABOUT EXAMINE|HISTORY BUILT/i.test((n.textContent||"").trim())&&(n.children.length===0));if(k)k.textContent="History Built to Be Explored.";contact.parentNode.insertBefore(about,contact)}
 if(contact){const h2=contact.querySelector("h1,h2");if(h2)h2.textContent="Contact ExamineThePast"}
 setTimeout(()=>{document.querySelectorAll("body > footer:not(#etpSiteFooter)").forEach(n=>n.hidden=true);document.querySelectorAll("body > #community").forEach(n=>{if(!n.closest("#etpSiteFooter"))n.hidden=true})},600)}
