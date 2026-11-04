@@ -1,34 +1,19 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Visual History | Examine the Past</title><meta name="description" content="Experience Examine the Past Visual History introductions and explore the growing library of historical films.">
-<meta property="og:type" content="website"><meta property="og:title" content="Visual History | Examine the Past"><meta property="og:description" content="Cinematic history introductions and a growing collection of narrated lessons."><meta property="og:image" content="https://www.examinethepast.com/app-assets/icon-512.png">
-<link rel="stylesheet" href="../../assets/etp-visual-history-home.css?v=20261104-autointro-v1">
-</head>
+<title>Visual History | Examine the Past</title>
+<meta name="description" content="Watch the original cinematic Visual History introduction and explore the Examine the Past lesson collection.">
+<meta property="og:type" content="website"><meta property="og:title" content="Visual History | Examine the Past"><meta property="og:description" content="Original cinematic Visual History introduction and a growing collection of narrated lessons."><meta property="og:image" content="https://www.examinethepast.com/app-assets/icon-512.png">
+<link rel="stylesheet" href="../../assets/etp-visual-history-home.css?v=20261104-original-video-v2">
+<style>
+.vh-cinematic .vh-landing-stage{background:#020504}
+.vh-cinematic #vh-intro-video{position:absolute;inset:0;z-index:1;display:block;width:100%;height:100%;object-fit:contain;background:#010302}
+</style></head>
 <body class="vh-cinematic" data-reader="off">
 <main class="vh-landing">
-<section class="vh-landing-stage" aria-label="Automatically playing Visual History introduction">
- <video id="vh-intro-video" autoplay muted loop playsinline preload="metadata" aria-label="Examine the Past Visual History introduction" hidden></video>
- <div class="vh-cinema" id="vh-cinema">
-  <span class="vh-rays" aria-hidden="true"></span><span class="vh-ring" aria-hidden="true"></span><span class="vh-ring" aria-hidden="true"></span><span class="vh-ring" aria-hidden="true"></span>
-  <img class="vh-visual-earth" src="../../app-assets/icon-512.png" alt="" aria-hidden="true">
-  <div class="vh-intro-caption"><p>EXAMINE THE PAST PRESENTS</p><h1>VISUAL HISTORY</h1></div>
- </div>
+<section class="vh-landing-stage" aria-label="Visual History introductory film">
+ <video id="vh-intro-video" src="../../assets/visual-history/visual-history-intro.mp4" autoplay muted loop playsinline controls preload="auto" aria-label="Examine the Past original Visual History introduction"></video>
 </section>
 <a class="vh-library-link" href="library/" data-etp-transition="earth-portal">Explore Visual History Collection</a>
 </main>
-<script>
-(()=>{
- const film=document.getElementById("vh-intro-video"),animation=document.getElementById("vh-cinema");
- // Only set when a real film is published and verified. Until then the cinematic
- // introduction runs automatically using native CSS motion rather than a poster.
- const publishedIntro="../../assets/visual-history/visual-history-intro.mp4";
- if(publishedIntro){
-  film.src=publishedIntro;film.hidden=false;
-  film.addEventListener("playing",()=>animation.hidden=true);
-  film.addEventListener("error",()=>{film.hidden=true;animation.hidden=false});
-  film.play().catch(()=>{film.hidden=true;animation.hidden=false});
- }
-})();
-</script>
-<script src="../../assets/site-shell.js?v=20261104-visual-intro-v1" data-etp-root="../../"></script>
+<script src="../../assets/site-shell.js?v=20261104-visual-intro-v2" data-etp-root="../../"></script>
 </body></html>
