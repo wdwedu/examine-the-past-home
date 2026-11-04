@@ -1,0 +1,69 @@
+/* Hall of Legends 141 biography reader — 2026-11-04
+   Preserve shared navigation, historic Hall, portrait assets and score system. */
+body.hall-visual-demo .hv-demo-overlay{z-index:2147483500}
+body.hall-visual-demo .hv-demo-dialog{
+ width:min(820px,calc(100vw - 26px));max-height:min(92dvh,960px);overflow:auto;
+ padding:clamp(22px,3.4vw,38px);border-radius:18px;
+ background:radial-gradient(ellipse at 85% 0%,#25422555,transparent 54%),linear-gradient(145deg,#07120d,#101b17 64%,#020605);
+ border:1px solid rgba(148,255,83,.65);
+ box-shadow:0 28px 95px #000e,inset 0 1px 0 #ffffff19;
+ scrollbar-width:thin;scrollbar-color:#94ff5390 #07120b;
+}
+body.hall-visual-demo .hv-demo-dialog .hv-tag{color:#94ff53;letter-spacing:.09em;font-size:12px}
+body.hall-visual-demo .hv-demo-dialog h2{margin:8px 52px 6px;font:700 clamp(24px,4vw,36px)/1.18 Georgia,serif;color:#fff200;text-align:center}
+body.hall-visual-demo .hv-demo-dialog #hv-demo-dates{
+ text-align:center;max-width:710px;margin:0 auto 12px;padding:5px 8px;color:#caf5ae;
+ font:700 clamp(12px,1.65vw,16px)/1.4 Georgia,serif
+}
+body.hall-visual-demo .hv-demo-dialog #hv-demo-desc{
+ max-width:720px;margin:17px auto 18px;color:#f0f5ed;
+ font:clamp(15px,1.6vw,17px)/1.73 Georgia,serif;text-align:left
+}
+body.hall-visual-demo .hv-demo-dialog .hv-demo-image{
+ width:min(182px,44vw);height:min(182px,44vw);margin:6px auto 10px;
+ object-fit:contain;background:radial-gradient(circle,#314c3760,transparent 75%);
+ border:0;box-shadow:none;filter:drop-shadow(0 7px 13px #000a)
+}
+body.hall-visual-demo .hv-demo-activity{
+ max-width:720px;margin:18px auto 22px;padding:0;
+ border:0;border-radius:0;background:none;box-shadow:none
+}
+body.hall-visual-demo .hv-bio-section{margin:0 0 19px;padding:17px 20px;border-left:3px solid #94ff53;background:rgba(148,255,83,.065);border-radius:0 9px 9px 0}
+body.hall-visual-demo .hv-bio-section h3,
+body.hall-visual-demo .hv-bio-inquiry h3,
+body.hall-visual-demo .hv-bio-sources h3{margin:0 0 8px;color:#fff200;font:700 clamp(18px,2.3vw,22px)/1.25 Georgia,serif}
+body.hall-visual-demo .hv-bio-section p,
+body.hall-visual-demo .hv-bio-inquiry p{
+ margin:0;color:#e9f0e7;font:clamp(14px,1.6vw,16px)/1.7 Georgia,serif
+}
+body.hall-visual-demo .hv-bio-inquiry{
+ margin:0 0 17px;padding:18px 20px;border:1px solid #daca6a66;border-radius:11px;
+ background:linear-gradient(145deg,#30280e99,#10180980)
+}
+body.hall-visual-demo .hv-bio-inquiry p{font-style:italic;color:#fff6d3}
+body.hall-visual-demo .hv-bio-sources{
+ margin:0 0 13px;padding:14px 17px;background:#070f0ccc;border:1px solid #ffffff27;border-radius:10px
+}
+body.hall-visual-demo .hv-bio-source{
+ display:flex;align-items:center;gap:7px;color:#b9ed9f!important;
+ font:700 13px/1.5 Georgia,serif;margin:6px 0;padding:6px 0;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere
+}
+body.hall-visual-demo .hv-bio-source:before{content:"↗";color:#fff200;font-weight:bold}
+body.hall-visual-demo .hv-bio-source:hover{color:#fff200!important}
+body.hall-visual-demo .hv-bio-editor-note{display:block;margin-top:10px;color:#b6c3b7;font:12px/1.55 Georgia,serif}
+body.hall-visual-demo .hv-demo-activity .hv-reward-pending{display:block;padding:8px 0;font:italic 13px/1.55 Georgia,serif;color:#cde3c9}
+body.hall-visual-demo #hv-demo-back{margin:4px auto 0;display:block}
+body.hall-visual-demo .hv-bio-time-warp{
+ position:fixed;inset:0;z-index:2147483600;pointer-events:none;overflow:hidden;background:#000;
+}
+body.hall-visual-demo .hv-bio-time-warp .etp-time{position:absolute;inset:0}
+@media(max-width:600px){
+ body.hall-visual-demo .hv-demo-dialog{max-height:94dvh;padding:19px 15px}
+ body.hall-visual-demo .hv-demo-dialog h2{margin-left:33px;margin-right:33px}
+ body.hall-visual-demo .hv-bio-section,body.hall-visual-demo .hv-bio-inquiry{padding:13px 14px}
+ body.hall-visual-demo .hv-bio-sources{padding:12px 13px}
+}
+@media(prefers-reduced-motion:reduce){
+ body.hall-visual-demo .hv-demo-overlay,
+ body.hall-visual-demo .hv-demo-overlay .hv-demo-dialog{animation:none!important;transition:none!important}
+}
