@@ -180,33 +180,65 @@ body.hall-visual-demo .hv-chronology .hv-chapter-up{
   box-shadow:0 0 13px rgba(148,255,83,.18);
   pointer-events:none;
 }
+/* Ledger data stay centered; quiet jump arrows live independently at far right. */
 body.hall-visual-demo .hv-scorebar-inner{
-  display:flex!important;align-items:center!important;
-  flex-wrap:nowrap!important;gap:clamp(5px,1.45vw,19px)!important;
+  position:relative!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  flex-wrap:nowrap!important;
+  width:min(1200px,100%)!important;
+  margin:0 auto!important;
+  gap:clamp(7px,2.3vw,28px)!important;
+  padding:5px clamp(43px,5vw,67px)!important;
+  box-sizing:border-box!important;
 }
 body.hall-visual-demo .hv-score-jumps{
-  display:flex;align-items:center;gap:4px;flex:0 0 auto;
+  position:absolute!important;
+  right:clamp(7px,1.8vw,25px)!important;
+  top:50%!important;
+  transform:translateY(-50%)!important;
+  display:flex!important;
+  flex-direction:row!important;
+  align-items:center!important;
+  gap:0!important;
+  width:auto!important;
+  margin:0!important;
 }
-body.hall-visual-demo .hv-score-jump{
-  display:grid;place-items:center;cursor:pointer;
-  border:1px solid rgba(148,255,83,.45);border-radius:7px;
-  background:rgba(0,0,0,.38);color:#fff200;
-  width:clamp(29px,3.3vw,38px);height:clamp(34px,3.6vw,40px);
-  font:bold 23px/1 Georgia,serif;text-shadow:0 0 7px rgba(255,242,0,.55);
-  transition:background .2s,box-shadow .2s,transform .2s;
+body.hall-visual-demo .hv-score-jump,
+body.hall-visual-demo .hv-score-jump:hover{
+  display:grid!important;
+  place-items:center!important;
+  cursor:pointer!important;
+  width:24px!important;
+  height:30px!important;
+  min-width:24px!important;
+  min-height:30px!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  outline:0!important;
+  background:transparent!important;
+  box-shadow:none!important;
+  color:#fff200!important;
+  font:700 17px/1 Georgia,serif!important;
+  text-shadow:none!important;
+  transform:none!important;
+  transition:color .15s ease!important;
 }
-body.hall-visual-demo .hv-score-jump:hover,
+body.hall-visual-demo .hv-score-jump:hover{color:#d9ff9c!important}
 body.hall-visual-demo .hv-score-jump:focus-visible{
-  background:rgba(148,255,83,.19);
-  box-shadow:0 0 12px rgba(148,255,83,.5);
-  transform:translateY(-2px);outline-offset:2px;
+  outline:1px solid #fff200!important;
+  outline-offset:-2px!important;
+  border-radius:3px!important;
 }
 body.hall-visual-demo #hv-summit{scroll-margin-top:125px}
 body.hall-visual-demo #hv-entrance{scroll-margin-top:125px}
 @media(max-width:650px){
-  body.hall-visual-demo .hv-scorebar-inner{gap:clamp(2px,1vw,7px)!important;padding:4px 5px!important}
-  body.hall-visual-demo .hv-score-jumps{gap:2px}
-  body.hall-visual-demo .hv-score-jump{width:29px;height:35px;font-size:21px;padding:0}
+  body.hall-visual-demo .hv-scorebar-inner{gap:clamp(4px,1.6vw,9px)!important;padding:4px 43px!important;justify-content:center!important}
+  body.hall-visual-demo .hv-score-jumps{right:3px!important;gap:0!important}
+  body.hall-visual-demo .hv-score-jump{width:20px!important;min-width:20px!important;height:28px!important;min-height:28px!important;font-size:15px!important}
   body.hall-visual-demo .hv-score-item b{font-size:clamp(12px,3.5vw,17px)!important}
   body.hall-visual-demo .hv-score-item small{font-size:clamp(8px,2.2vw,10px)!important}
   body.hall-visual-demo .hv-chronology .hv-frame-unit .hv-bio-link{min-width:88px!important;font-size:11px!important;padding:8px 10px!important}
