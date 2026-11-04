@@ -101,7 +101,7 @@ function scene(sc,geo,activityMap){
  for(const [prop,val] of [["--h-sky",sc.palette.sky],["--h-wall",sc.palette.walls],["--h-ground",sc.palette.ground]])s.style.setProperty(prop,val);
  const light=mk("div","hv-vignette");light.setAttribute("aria-hidden","true");s.append(light);
  const head=mk("header","hv-head");
- head.append(mk("div","hv-count","Chapter "+sc.id),mk("h2","",sc.title));s.append(head);
+ head.append(mk("h2","",sc.title));
  const stops=mk("div","hv-stops");stops.style.height=geo.scene_height_px+"px";
  const figures=new Map(sc.portraits.map(f=>[f.id,f]));
  for(const slot of geo.slots){
@@ -115,7 +115,7 @@ function scene(sc,geo,activityMap){
    stops.append(makeMarker(sc,slot,meta));
   }
  }
- s.append(stops);return s;
+ s.append(stops,head);return s;
 }
 function activateMarkerGlow(){
  const markers=[...container.querySelectorAll(".hv-floor-marker")];
