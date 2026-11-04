@@ -3,7 +3,9 @@ const $=id=>document.getElementById(id);
 const mk=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e};
 const container=$("hv-journey"),overlay=$("hv-demo-overlay");
 const siteRoot=document.body.dataset.siteRoot||"../../../",hallData=document.body.dataset.hallData||"../data/";
-const reduceMotion=()=>window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;\nfunction jumpTo(id){const el=$(id);if(el)el.scrollIntoView({behavior:reduceMotion()?"instant":"smooth",block:id==="hv-summit"?"start":"end"});}\nfor(const [button,target] of [["hv-jump-top","hv-summit"],["hv-jump-bottom","hv-entrance"]]){const b=$(button);if(b)b.addEventListener("click",()=>jumpTo(target));}
+const reduceMotion=()=>window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
+function jumpTo(id){const el=$(id);if(el)el.scrollIntoView({behavior:reduceMotion()?"instant":"smooth",block:id==="hv-summit"?"start":"end"});}
+for(const [button,target] of [["hv-jump-top","hv-summit"],["hv-jump-bottom","hv-entrance"]]){const b=$(button);if(b)b.addEventListener("click",()=>jumpTo(target));}
 let lastFocus=null,closeTimer=null;
 function finishClose(){
  clearTimeout(closeTimer);closeTimer=null;overlay.hidden=true;
@@ -115,7 +117,8 @@ function scene(sc,geo,activityMap){
  for(const [prop,val] of [["--h-sky",sc.palette.sky],["--h-wall",sc.palette.walls],["--h-ground",sc.palette.ground]])s.style.setProperty(prop,val);
  const light=mk("div","hv-vignette");light.setAttribute("aria-hidden","true");s.append(light);
  const head=mk("header","hv-head");
- head.append(mk("h2","",sc.title));\n const direction=mk("span","hv-chapter-up","↑");direction.setAttribute("aria-hidden","true");head.append(direction);
+ head.append(mk("h2","",sc.title));
+ const direction=mk("span","hv-chapter-up","↑");direction.setAttribute("aria-hidden","true");head.append(direction);
  const stops=mk("div","hv-stops");stops.style.height=geo.scene_height_px+"px";
  const figures=new Map(sc.portraits.map(f=>[f.id,f]));
  for(const slot of geo.slots){
