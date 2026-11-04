@@ -122,6 +122,24 @@ main.lab-frame #results .cert-preview,main.lab-frame #results .cert-preview p,ma
 main.lab-frame #results .cert-preview h2{color:#fff200!important}
 main.lab-frame #results .cert-preview .mark{color:#a0ff62!important}
 
+
+/* Guided learning feedback and brand-specific controls */
+main.lab-frame .lab-head .pill{background:#102840!important;color:#fff200!important;border:1px solid #8aff5e!important}
+main.lab-frame .btn.primary{background:linear-gradient(125deg,#09182d,#173d6a)!important;border:1px solid #3c638b!important;color:#fff!important}
+main.lab-frame .explain{background:#e9fae6!important;border:2px solid #56b642!important;border-left:6px solid #35892c!important;color:#173823!important}
+main.lab-frame .explain h3,main.lab-frame .explain p{color:#173823!important}
+main.lab-frame .explain.incorrect{background:#ffe9e9!important;border:2px solid #c84a4a!important;border-left:6px solid #ad2222!important;color:#6d1818!important}
+main.lab-frame .explain.incorrect h3,main.lab-frame .explain.incorrect p{color:#6d1818!important}
+main.lab-frame .choice-list .choice{color:#172638!important;background:#fff!important}
+main.lab-frame .choice-list .choice.checked{background:#e5f1e9!important;border-color:#2b854c!important}
+main.lab-frame .choice-list .choice.checked.choice-wrong{background:#fceaea!important;border-color:#bd4444!important}
+main.lab-frame .question-card{position:relative;overflow:hidden}
+.practice-timer{display:inline-flex;align-items:center;gap:9px;background:#0c2441;color:#fff;border:1px solid #7facba;border-radius:9px;padding:9px 13px;font:700 14px Arial,sans-serif}
+.practice-timer strong{color:#fff200!important;font-variant-numeric:tabular-nums}
+#sound-toggle{background:#102840;color:#fff200;border:1px solid #7ca17b;border-radius:7px;padding:8px 11px;font:700 12px Arial,sans-serif}
+.feedback-spark{position:absolute;top:35%;left:50%;z-index:10;width:9px;height:14px;pointer-events:none;border-radius:2px;animation:feedback-spark-fly 900ms ease-out forwards}
+@keyframes feedback-spark-fly{0%{opacity:1;transform:translate(-50%,-50%) rotate(0)}100%{opacity:0;transform:translate(var(--spark-x),var(--spark-y)) rotate(var(--spark-rot))}}
+@media(prefers-reduced-motion:reduce){.feedback-spark{display:none!important;animation:none!important}}
 </style>
 </head>
 <body>
@@ -130,7 +148,7 @@ main.lab-frame #results .cert-preview .mark{color:#a0ff62!important}
 <div class="lab-topline"><div class="lab-kicker">Examine the Past · Teacher Resources</div><a class="back-link" href="../" data-etp-transition="shutter">← Back to Certification Center</a></div>
 <h1>The History Foundations Lab</h1>
 <p>A guided, untimed 120-question preparation assessment for Praxis® World and U.S. History (5941). Get explanations as you work; save and return on this device.</p>
-<div class="lab-heading-actions"><span class="pill">Guided Practice</span><span class="pill">Untimed</span><span class="pill">30 Questions per Historical Period</span><span class="pill">Independent • Not ETS-endorsed</span></div>
+<div class="lab-heading-actions"><span class="pill">Guided Practice</span><span class="pill">Untimed</span><span class="pill">30 Questions per Historical Period</span><span class="pill">Independent • Not ETS-endorsed</span></div><div class="lab-heading-actions" style="align-items:center"><span class="practice-timer">⏱ Study time: <strong id="study-clock">00:00:00</strong></span><button id="sound-toggle" type="button" aria-pressed="true">🔊 Feedback sounds: On</button></div>
 </div></header>
 <div id="loading" class="lab-shell" style="padding:35px 0"><strong>Loading the 120-question practice bank…</strong></div>
 <div id="load-error" class="lab-shell hidden" style="padding:35px 0;color:#912b2b"><h2>Unable to load questions</h2><p>Check your connection and refresh. This page requires the four question-bank files published alongside it.</p><button class="btn" type="button" onclick="location.reload()">Retry</button></div>
@@ -154,7 +172,7 @@ main.lab-frame #results .cert-preview .mark{color:#a0ff62!important}
 <section id="results" class="hidden"><div class="lab-shell">
 <div class="banner"><strong>Practice report:</strong> The results below measure only this independent question bank. A raw percentage cannot predict or replace an official ETS Praxis scaled score.</div>
 <h2 style="font-size:clamp(1.6rem,3vw,2.5rem)">Your Foundations Lab Results</h2>
-<p id="result-date" class="mini"></p>
+<p id="result-date" class="mini"></p><p class="mini">Total guided study time: <strong id="report-study-time">00:00:00</strong></p>
 <div class="summary-card"><div class="result-number" id="result-score">0 / 120</div><p id="result-subtitle"></p><div id="result-breakdown" class="report-grid"></div></div>
 <div class="summary-card"><label for="educator-name" style="display:block;font-weight:bold;margin-bottom:6px">Name for your completion certificate (optional)</label><input id="educator-name" type="text" maxlength="80" placeholder="Educator name" style="width:min(100%,460px);padding:10px;border:1px solid #9cabb7;border-radius:6px;color:#172536;background:white;margin-bottom:17px"><h3>Your Next Study Priorities</h3><p id="study-advice"></p><div class="report-actions"><button class="btn primary" type="button" id="back-to-practice">← Return to Guided Practice</button><button class="btn" type="button" id="print-report">Download / Print Results PDF</button><button class="btn" type="button" id="print-cert">Download / Print Certificate PDF</button></div></div>
 <div class="summary-card" id="report-review"><h3>Question Review</h3><p class="mini">Correct answers, your responses and explanations are included below for review.</p><div id="review-items"></div></div>
@@ -170,15 +188,20 @@ const paths=["questions-world-early.json","questions-world-modern.json","questio
 const domains=["World History to 1450 C.E.","World History 1450 C.E. to Present","U.S. History to 1877","U.S. History 1877 to Present"];
 const KEY="etp-foundations-5941-v1",N=120;
 const el=id=>document.getElementById(id);
-let bank=[],state={answers:{},flags:{},current:0,completedAt:null},questionMap=[];
+let bank=[],state={answers:{},flags:{},current:0,completedAt:null,elapsedSeconds:0},questionMap=[];
+let timerLast=Date.now(),audioEnabled=true,audioContext=null;
 let noticeTimer;
 function toast(message){const n=el("notice");n.textContent=message;n.style.display="block";clearTimeout(noticeTimer);noticeTimer=setTimeout(()=>n.style.display="none",4000)}
 function encodeChoice(q,j){const map=[0,1,2,3].map((_,k)=>(k+(q*3+1)%4)%4);return map[j]}
+function readableTime(t){const n=Math.max(0,Math.floor(t));return [Math.floor(n/3600),Math.floor(n/60)%60,n%60].map(v=>String(v).padStart(2,"0")).join(":")}
+function updateStudyTime(){const now=Date.now();const delta=Math.max(0,Math.min(3,Math.floor((now-timerLast)/1000)));if(delta){state.elapsedSeconds=(Number(state.elapsedSeconds)||0)+delta;timerLast+=delta*1000;save()}el("study-clock").textContent=readableTime(state.elapsedSeconds||0);el("report-study-time").textContent=readableTime(state.elapsedSeconds||0)}
+function feedbackTone(correct){if(!audioEnabled)return;try{const Context=window.AudioContext||window.webkitAudioContext;if(!Context)return;audioContext=audioContext||new Context();if(audioContext.state==="suspended")audioContext.resume();const start=audioContext.currentTime;const pitches=correct?[659.25,783.99]:[233.08,196];pitches.forEach((pitch,i)=>{const osc=audioContext.createOscillator(),gain=audioContext.createGain();osc.type=correct?"sine":"triangle";osc.frequency.value=pitch;gain.gain.setValueAtTime(.0001,start+i*.115);gain.gain.exponentialRampToValueAtTime(correct?.075:.055,start+i*.115+.02);gain.gain.exponentialRampToValueAtTime(.0001,start+i*.115+.18);osc.connect(gain);gain.connect(audioContext.destination);osc.start(start+i*.115);osc.stop(start+i*.115+.2)})}catch(e){}}
+function feedbackConfetti(){if(window.matchMedia("(prefers-reduced-motion: reduce)").matches)return;const card=document.querySelector(".question-card");if(!card)return;const colors=["#fff200","#94ff53","#f5f5f5"];for(let i=0;i<23;i++){const piece=document.createElement("span");piece.className="feedback-spark";piece.style.background=colors[i%3];piece.style.left=(30+Math.random()*40)+"%";piece.style.setProperty("--spark-x",(Math.random()*560-280)+"px");piece.style.setProperty("--spark-y",(Math.random()*260-175)+"px");piece.style.setProperty("--spark-rot",(Math.random()*800-400)+"deg");card.append(piece);setTimeout(()=>piece.remove(),1000)}}
 function displayedOptions(q){const order=[0,1,2,3];const rotate=(q*3+1)%4;return order.map((_,j)=>(j+rotate)%4)}
 function currentQuestion(){return bank[state.current]}
 function validAnswer(x){return Number.isInteger(x)&&x>=0&&x<4}
 function save(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){toast("Your browser could not save progress. Please download a backup.")}}
-function loadSaved(){try{const s=JSON.parse(localStorage.getItem(KEY)||"{}");if(s&&typeof s==="object"){state={answers:s.answers||{},flags:s.flags||{},current:Math.min(119,Math.max(0,Number(s.current)||0)),completedAt:s.completedAt||null}}}catch(e){}}
+function loadSaved(){try{const s=JSON.parse(localStorage.getItem(KEY)||"{}");if(s&&typeof s==="object"){state={answers:s.answers||{},flags:s.flags||{},current:Math.min(119,Math.max(0,Number(s.current)||0)),completedAt:s.completedAt||null,elapsedSeconds:Number(s.elapsedSeconds)||0}}}catch(e){}}
 function answered(){return bank.filter(q=>validAnswer(state.answers[q.id])).length}
 function flagged(){return bank.filter(q=>state.flags[q.id]).length}
 function updateNav(){el("answered-count").textContent=answered();el("flag-count").textContent=flagged();el("progress-label").textContent=answered()+" of 120 answered";el("progress-fill").style.width=answered()/120*100+"%";document.querySelectorAll(".qjump").forEach((b,i)=>{b.classList.toggle("answered",validAnswer(state.answers[bank[i].id]));b.classList.toggle("flagged",!!state.flags[bank[i].id]);b.classList.toggle("current",i===state.current);b.setAttribute("aria-current",i===state.current?"step":"false")})}
@@ -188,9 +211,9 @@ function render(){
 const q=currentQuestion();el("question-label").textContent="QUESTION "+(state.current+1)+" OF "+N;el("domain-label").textContent=domains[q.domain];el("question-stem").textContent=q.stem;
 const f=el("choices");f.replaceChildren();const lg=document.createElement("legend");lg.textContent="Choose the best answer";f.appendChild(lg);
 const order=displayedOptions(state.current),selected=state.answers[q.id];
-order.forEach((original,i)=>{const label=document.createElement("label");label.className="choice"+(selected===original?" checked":"");const input=document.createElement("input");input.type="radio";input.name="answer";input.value=String(original);input.checked=selected===original;input.onchange=()=>{state.answers[q.id]=original;state.completedAt=null;save();render()};const letter=document.createElement("span");letter.className="letter";letter.textContent="ABCD"[i];const text=document.createElement("span");text.textContent=q.options[original];label.append(input,letter,text);f.appendChild(label)});
+order.forEach((original,i)=>{const label=document.createElement("label");label.className="choice"+(selected===original?" checked":"")+(selected===original&&selected!==q.answer?" choice-wrong":"");const input=document.createElement("input");input.type="radio";input.name="answer";input.value=String(original);input.checked=selected===original;input.onchange=()=>{const firstAttempt=!validAnswer(state.answers[q.id]);state.answers[q.id]=original;state.completedAt=null;save();render();if(firstAttempt){feedbackTone(original===q.answer);if(original===q.answer)feedbackConfetti()}};const letter=document.createElement("span");letter.className="letter";letter.textContent="ABCD"[i];const text=document.createElement("span");text.textContent=q.options[original];label.append(input,letter,text);f.appendChild(label)});
 const explain=el("explanation");explain.replaceChildren();
-if(validAnswer(selected)){const correct=selected===q.answer;explain.className="explain"+(correct?"":" incorrect");const head=document.createElement("h3");head.textContent=correct?"✓ Correct — here's why":"Not quite — learn the reasoning";const p=document.createElement("p");p.textContent=q.explanation;const a=document.createElement("p");a.style.fontWeight="bold";a.textContent="Correct response: "+q.options[q.answer];explain.append(head,p,a)}else explain.className="explain hidden";
+if(validAnswer(selected)){const correct=selected===q.answer;explain.className="explain"+(correct?"":" incorrect");const head=document.createElement("h3");head.textContent=correct?"✓ Correct!":"✗ Not quite right";const p=document.createElement("p");p.textContent=q.explanation;const a=document.createElement("p");a.style.fontWeight="bold";a.textContent="Correct response: "+q.options[q.answer];explain.append(head,p,a)}else explain.className="explain hidden";
 el("prev").disabled=state.current===0;el("next").textContent=state.current===N-1?"Review Your Results →":"Next Question →";
 el("flag").textContent=state.flags[q.id]?"★ Marked for Review":"☆ Mark for Review";el("flag").setAttribute("aria-pressed",String(!!state.flags[q.id]));updateNav()}
 function scores(){
@@ -204,7 +227,7 @@ const result=scores(),done=answered(),percent=(100*result.correct/N).toFixed(1);
 el("result-score").textContent=result.correct+" / "+N;
 el("result-subtitle").textContent=percent+"% correct • "+done+" answered • "+(N-done)+" unanswered. This is a raw practice percentage, not an official Praxis passing determination.";
 const date=state.completedAt?new Date(state.completedAt):new Date();const dateText=date.toLocaleDateString(undefined,{year:"numeric",month:"long",day:"numeric"});
-el("result-date").textContent="Practice report generated "+dateText;
+el("result-date").textContent="Practice report generated "+dateText;el("report-study-time").textContent=readableTime(state.elapsedSeconds||0);
 el("certificate-date").textContent="Completed "+dateText;
 el("certificate-score").textContent="Practice result: "+result.correct+" of 120 ("+percent+"%)";
 el("earned-certificate").classList.toggle("hidden",done<N);
@@ -237,8 +260,10 @@ el("finish").onclick=finish;
 el("back-to-practice").onclick=showPractice;
 el("download-backup").onclick=()=>download("examine-the-past-foundations-progress.json",JSON.stringify({format:"etp-foundations-5941-v1",savedAt:new Date().toISOString(),state},null,2),"application/json");
 el("restore-file").onchange=async e=>{const file=e.target.files[0];if(!file)return;try{const object=JSON.parse(await file.text());if(object.format!=="etp-foundations-5941-v1"||!object.state||typeof object.state.answers!=="object")throw Error("Invalid Foundations Lab backup");if(!confirm("Restore this saved attempt? This replaces your current progress."))return;state=object.state;state.current=Math.max(0,Math.min(N-1,Number(state.current)||0));state.flags=state.flags||{};save();showPractice();toast("Backup restored.")}catch(err){alert("Could not restore this file. Please select a valid Foundations Lab backup.")}finally{e.target.value=""}};
-el("restart").onclick=()=>{if(confirm("Start over and erase this device's Foundations Lab answers? Download a backup first if you want to keep them.")){state={answers:{},flags:{},current:0,completedAt:null};save();showPractice();toast("New guided attempt started.")}};
+el("restart").onclick=()=>{if(confirm("Start over and erase this device's Foundations Lab answers? Download a backup first if you want to keep them.")){state={answers:{},flags:{},current:0,completedAt:null,elapsedSeconds:0};timerLast=Date.now();save();showPractice();toast("New guided attempt started.")}};
 el("educator-name").addEventListener("input",()=>{const name=el("educator-name").value.trim();el("cert-name").textContent=name||"Educator";try{localStorage.setItem("etp-foundations-cert-name",name)}catch(e){}});try{el("educator-name").value=localStorage.getItem("etp-foundations-cert-name")||""}catch(e){}
+el("sound-toggle").onclick=()=>{audioEnabled=!audioEnabled;el("sound-toggle").setAttribute("aria-pressed",String(audioEnabled));el("sound-toggle").textContent=audioEnabled?"🔊 Feedback sounds: On":"🔇 Feedback sounds: Off"};
+setInterval(updateStudyTime,1000);
 el("print-report").onclick=()=>printMode("report");el("print-cert").onclick=()=>{if(answered()<N){alert("Complete all 120 questions to produce the completion certificate. You can still save a provisional results report.");return}printMode("certificate")};
 init();
 })();
