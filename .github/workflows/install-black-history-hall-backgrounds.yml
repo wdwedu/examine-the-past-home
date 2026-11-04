@@ -1,0 +1,65 @@
+name: Install Black History Hall chapter backgrounds
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/install-black-history-hall-backgrounds.yml'
+      - 'examine_past_halls_02_to_11_optimized.zip'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: install-black-history-hall-backgrounds
+  cancel-in-progress: false
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Validate and extract exactly ten chapter images
+        run: |
+          python3 - <<'PY'
+          import pathlib,zipfile
+          archive=pathlib.Path('examine_past_halls_02_to_11_optimized.zip')
+          if not archive.is_file(): raise SystemExit('Hall background ZIP not in repository root')
+          expected=[
+            'hall-chapter-02-west-african-empires.webp',
+            'hall-chapter-03-resistance-and-survival.webp',
+            'hall-chapter-04-abolition-and-freedom.webp',
+            'hall-chapter-05-reconstruction-and-leadership.webp',
+            'hall-chapter-06-education-and-scholarship.webp',
+            'hall-chapter-07-science-and-innovation.webp',
+            'hall-chapter-08-arts-and-harlem-renaissance.webp',
+            'hall-chapter-09-civil-rights-movement.webp',
+            'hall-chapter-10-black-women-leaders.webp',
+            'hall-chapter-11-pan-african-global-legacy.webp'
+          ]
+          output=pathlib.Path('assets/halls')
+          output.mkdir(parents=True,exist_ok=True)
+          with zipfile.ZipFile(archive) as z:
+            for name in expected:
+              path='assets/halls/'+name
+              if path not in z.namelist(): raise SystemExit('Missing '+path)
+              data=z.read(path)
+              if len(data)<100000 or data[:4]!=b'RIFF' or data[8:12]!=b'WEBP':
+                raise SystemExit('Invalid WEBP image: '+path)
+              (output/name).write_bytes(data)
+              print(name,len(data))
+          print('Installed',len(expected),'verified chapter backgrounds')
+          PY
+      - name: Commit optimized extracted WebP files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/halls/hall-chapter-*.webp
+          if git diff --cached --quiet; then
+            echo "Images already installed"
+          else
+            git commit -m "Install ten optimized historical Hall background WebPs"
+            git push
+          fi
