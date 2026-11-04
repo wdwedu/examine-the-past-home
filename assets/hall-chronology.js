@@ -42,41 +42,83 @@ function awardAlliance(id){
 function renderAllianceActivity(target,profile){
  const challenge=allianceMap.get(profile.id);
  if(!challenge)return;
- const wrap=mk("section","hv-alliance-activity");
- wrap.setAttribute("aria-label","Alliance Activity");
- wrap.append(mk("h3","hv-alliance-heading","Alliance Activity · 1 point"));
- wrap.append(mk("p","hv-alliance-instructions","Read the biography. Identify which account describes this figure. Choose one answer; you can try again after an incorrect response."));
- wrap.append(mk("p","hv-alliance-question",challenge.prompt));
- const answers=mk("div","hv-alliance-options"),feedback=mk("div","hv-alliance-feedback");
- feedback.setAttribute("role","status");feedback.setAttribute("aria-live","polite");
- let completed=earnedAlliances.has(profile.id);
- const choices=[];
- function showComplete(){
-  answers.querySelectorAll("button").forEach((b,i)=>{b.disabled=true;b.classList.toggle("hv-alliance-right",i===challenge.correct);});
-  feedback.replaceChildren(mk("strong","","Alliance earned for this figure ✓"),mk("p","",challenge.explanation));
-  feedback.className="hv-alliance-feedback hv-alliance-success";
+ const wrap=mk("section","hv-alliance-activity hv-branching-activity");
+ wrap.setAttribute("aria-label","Branching Alliance Activity for this historical figure");
+ const heading=mk("h3","hv-alliance-heading","Bio Activity · Historical Investigation");
+ const intro=mk("p","hv-alliance-instructions","You are a historical researcher preparing a new exhibit. Your decisions change what you investigate next. Follow the evidence to complete the Alliance challenge.");
+ const progress=mk("p","hv-branch-progress","Step 1 of 3 · Choose your investigation");
+ const stage=mk("div","hv-branch-stage");
+ const feedback=mk("div","hv-alliance-feedback");feedback.setAttribute("role","status");feedback.setAttribute("aria-live","polite");
+ wrap.append(heading,intro,progress,stage,feedback);
+ const makeChoice=(label,action)=>{
+  const button=mk("button","hv-alliance-choice hv-branch-choice",label);
+  button.type="button";button.addEventListener("click",action);return button;
+ };
+ const setStage=(title,description)=>{
+  stage.replaceChildren(mk("h4","hv-branch-title",title),mk("p","hv-branch-context",description));
+  feedback.replaceChildren();feedback.className="hv-alliance-feedback";
+ };
+ const paths=[
+  {title:"Follow the actions",button:"Investigate what this figure did",next:"Look for evidence of specific actions and how contemporaries described them.",result:profile.overview},
+  {title:"Understand the historical setting",button:"Explore why the story matters",next:"Put this person's actions alongside the wider social and political circumstances.",result:profile.significance},
+  {title:"Test the historical record",button:"Question how the story was recorded",next:"Ask where the account comes from and which details can be independently established.",result:profile.question}
+ ];
+ function stageOne(){
+  progress.textContent="Step 1 of 3 · Choose your investigation";
+  setStage("The exhibit needs a historical focus","You have space for one opening panel. What should visitors investigate first?");
+  for(const path of paths)stage.append(makeChoice(path.button,()=>stageTwo(path)));
  }
- for(let i=0;i<challenge.options.length;i++){
-  const button=mk("button","hv-alliance-choice",String.fromCharCode(65+i)+". "+challenge.options[i]);
-  button.type="button";
-  button.addEventListener("click",()=>{
-   if(earnedAlliances.has(profile.id)){showComplete();return;}
-   if(i===challenge.correct){
-    const newAward=awardAlliance(profile.id);
-    showComplete();
-    if(newAward)window.ETPTransitions?.clickSound?.("gold");
-   }else{
-    choices.forEach(b=>b.classList.remove("hv-alliance-wrong"));
-    button.classList.add("hv-alliance-wrong");
-    feedback.className="hv-alliance-feedback hv-alliance-try";
-    feedback.replaceChildren(mk("strong","","Not yet — try another account."),mk("p","","The correct historical account will match the biography above. Compare the figure's setting, actions and contributions, then select again."));
-   }
+ function stageTwo(path){
+  progress.textContent="Step 2 of 3 · Evaluate your evidence";
+  setStage(path.title,path.next);
+  const evidence=mk("blockquote","hv-branch-excerpt",path.result);stage.append(evidence);
+  stage.append(mk("p","hv-branch-context","What is the most responsible next step before making a claim about this history?"));
+  stage.append(makeChoice("Compare evidence and acknowledge its limits",()=>stageConsequence(path,true)));
+  stage.append(makeChoice("Use this one account as the complete explanation",()=>stageConsequence(path,false)));
+  stage.append(makeChoice("← Choose a different investigation",stageOne));
+ }
+ function stageConsequence(path,responsible){
+  progress.textContent="Step 2 of 3 · Your decision's consequence";
+  setStage(responsible?"A stronger historical interpretation":"An incomplete historical interpretation",
+   responsible?"Comparing sources and identifying uncertainties builds a defensible interpretation. You can now test your understanding.":"A single account can omit important context or reflect a particular perspective. Revise your approach by checking evidence before drawing a conclusion.");
+  stage.append(mk("p","hv-branch-context","Revisit the historical question: "+profile.question));
+  stage.append(makeChoice("Continue to the evidence challenge →",stageThree));
+  stage.append(makeChoice("← Reconsider the evidence",()=>stageTwo(path)));
+ }
+ function stageThree(){
+  progress.textContent="Step 3 of 3 · Earn your Alliance";
+  setStage("Historical evidence challenge",challenge.prompt);
+  const answers=mk("div","hv-alliance-options");stage.append(answers);
+  let finished=earnedAlliances.has(profile.id);
+  const choiceButtons=[];
+  function showComplete(newAward){
+   choiceButtons.forEach((b,i)=>{b.disabled=true;b.classList.toggle("hv-alliance-right",i===challenge.correct);b.classList.remove("hv-alliance-wrong")});
+   feedback.className="hv-alliance-feedback hv-alliance-success";
+   feedback.replaceChildren(mk("strong","",newAward?"Alliance earned! +1":"Alliance already earned · review completed"),mk("p","",challenge.explanation));
+   stage.append(makeChoice("Review another research path",stageOne));
+  }
+  challenge.options.forEach((option,i)=>{
+   const button=makeChoice(String.fromCharCode(65+i)+". "+option,()=>{
+    if(earnedAlliances.has(profile.id)){showComplete(false);return;}
+    if(i===challenge.correct){
+     const fresh=awardAlliance(profile.id);
+     showComplete(fresh);
+     if(fresh)window.ETPTransitions?.clickSound?.("gold");
+    }else{
+     choiceButtons.forEach(b=>b.classList.remove("hv-alliance-wrong"));
+     button.classList.add("hv-alliance-wrong");
+     feedback.className="hv-alliance-feedback hv-alliance-try";
+     feedback.replaceChildren(mk("strong","","Not yet — review the biography and try again."),mk("p","","Compare the claims against the life, setting, and contributions described above. Incorrect responses do not reduce your score."));
+    }
+   });
+   choiceButtons.push(button);answers.append(button);
   });
-  choices.push(button);answers.append(button);
+  if(finished)showComplete(false);
  }
- wrap.append(answers,feedback);
- if(completed)showComplete();
- if(!allianceStorageAvailable)wrap.append(mk("small","hv-alliance-storage-note","Progress cannot be saved in this browser session. You may need to complete this activity again after leaving the page."));
+ if(earnedAlliances.has(profile.id)){
+  stageThree();
+ }else{stageOne();}
+ if(!allianceStorageAvailable)wrap.append(mk("small","hv-alliance-storage-note","Progress is available for this session, but browser storage is not available for saving it."));
  target.append(wrap);
 }
 
