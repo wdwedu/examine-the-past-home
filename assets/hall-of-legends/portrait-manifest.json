@@ -1,112 +1,85 @@
 {
   "project": "Black History Heroes: Hall of Legends",
-  "phase": "4b - single-upload install bundle",
-  "build_date": "2026-11-03",
+  "phase": "5 — original-product-matched text-free artwork replacements",
+  "build_date": "2026-11-04",
   "total_images": 141,
   "main_collection_images": 120,
   "additional_african_images": 21,
   "quality_status": {
-    "standard_source_crops": 120,
-    "text_free_tight_face_crops_from_african_additions": 21,
-    "full_headgear_restoration_may_be_desirable": 8
+    "new_source_replacements": 32,
+    "additional_african_replacements": 21,
+    "original_120_clean_variant_replacements": 11,
+    "retained_original_portraits": 109,
+    "source_style_preserved": true,
+    "further_review_top_edge_clipping": 23
   },
-  "publication_note": "Working gallery portraits for interface installation, NOT authenticated historical likenesses. For the 21 added African leaders, outer lettered areas were cropped; full headgear and historical visual interpretations need later approval. No machine-generated corrections to historical faces were used.",
+  "publication_note": "32 original product-matched, name-free 1200x1200 source images resized proportionally to 512x512 WebP, without AI recreation, inpainting, transparency, or destructive cropping. Other 109 images remain byte-identical to the previously installed originals. Further top-of-head/headwear review is noted in audit.",
   "sources_disclaimer": "All images are stylized artistic interpretations and are not necessarily historic likenesses; original source artwork attribution and usage rights require publisher confirmation.",
   "files": [
     {
       "portrait_id": 1,
       "filename": "001.webp",
       "proposed_name": "Sundiata Keita",
-      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
       "source_file": "1 Sundiata Keita.png",
       "original_number": 1,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
-      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
-      "crop": [
-        58,
-        217,
-        1101,
-        1237
-      ],
-      "sha256": "3a2e001fd5e646208278550617ffda17c6a37b146400b20b94e5b199576f8736",
-      "bytes": 33650
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "2660c50dd7c5bfd2f415ae4156b5374b841ad2a21a4588bee9739ca6126f3c96",
+      "bytes": 52890
     },
     {
       "portrait_id": 2,
       "filename": "002.webp",
       "proposed_name": "Mansa Musa",
-      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
-      "source_file": "2 Mansa Musa.png",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
+      "source_file": "2 Mansa Musa Name Card.png",
       "original_number": 2,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
-      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
-      "crop": [
-        58,
-        217,
-        1101,
-        1237
-      ],
-      "sha256": "6aaa98776b2e0d1404d787bb42d77b044090e7992fdeeba53964b1b48e56537b",
-      "bytes": 40742
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "3ba66723e453b1b7fab22f1a1645b87e9385089b19e173c32d5393f5b83eff94",
+      "bytes": 53944
     },
     {
       "portrait_id": 3,
       "filename": "003.webp",
       "proposed_name": "King Afonso",
-      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
-      "source_file": "3 King Afonso.png",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
+      "source_file": "King  Afonso Name Card.png",
       "original_number": 3,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
-      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
-      "crop": [
-        58,
-        217,
-        1101,
-        1237
-      ],
-      "sha256": "5e5c31187707378e3fb097e9c88f8efb0954d31738e87916fa5506759c4463f6",
-      "bytes": 33548
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "2620b23fe90e3efc642365e23c6149cc7208d748d0214a565a098fd43445fe6a",
+      "bytes": 50812
     },
     {
       "portrait_id": 4,
       "filename": "004.webp",
       "proposed_name": "Amina (Queen of Zazzau)",
-      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
-      "source_file": "4 Amina (Queen of Zazzau).png",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
+      "source_file": "Amina (Queen of Zazzau) Name Card.png",
       "original_number": 4,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
-      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
-      "crop": [
-        58,
-        217,
-        1101,
-        1237
-      ],
-      "sha256": "b6cace45414402a27d04a79e468a93287c2ae6217a1fa8b48a2f236f95ba95cb",
-      "bytes": 45214
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "71874df5659417ec575e0ab204ad888a72ad565343ffda6ec571256c9bac5fe6",
+      "bytes": 62868
     },
     {
       "portrait_id": 5,
       "filename": "005.webp",
       "proposed_name": "Queen Nzinga",
-      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
-      "source_file": "5 Queen Nzinga.png",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
+      "source_file": "4 Queen Nzinga Name Card.png",
       "original_number": 5,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
-      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
-      "crop": [
-        58,
-        217,
-        1101,
-        1237
-      ],
-      "sha256": "1d6e43e29351c1924580b8824cdec3028b4aad5041e5f1443766e8780d6bd95f",
-      "bytes": 48274
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "6a371828e143f60d87422123c74663f9c5d2fa7f918ea464be449f68419a0551",
+      "bytes": 64834
     },
     {
       "portrait_id": 6,
@@ -116,7 +89,7 @@
       "source_file": "6 Crispus Attucks.png",
       "original_number": 6,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -131,20 +104,14 @@
       "portrait_id": 7,
       "filename": "007.webp",
       "proposed_name": "Ayuba Suleiman Diallo",
-      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
-      "source_file": "7 Ayuba Suleiman Diallo.png",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
+      "source_file": "Ayuba Suleiman Diallo Blank.png",
       "original_number": 7,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
-      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
-      "crop": [
-        58,
-        217,
-        1101,
-        1237
-      ],
-      "sha256": "0265fc33338d49d5c0f0018d73c4e03380e1879d91cccc4999048aa0ba24ede2",
-      "bytes": 27448
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "8454639cdd5e886bca51b7a07290927a4733adf992b04184b8cf26af40c4638d",
+      "bytes": 36584
     },
     {
       "portrait_id": 8,
@@ -154,7 +121,7 @@
       "source_file": "8 Phillis Wheatley.png",
       "original_number": 8,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -173,7 +140,7 @@
       "source_file": "9 Olaudah Equiano.png",
       "original_number": 9,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -192,7 +159,7 @@
       "source_file": "10 Toussaint Louverture.png",
       "original_number": 10,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_top_edge_review_recommended",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -211,7 +178,7 @@
       "source_file": "11 Benjamin Banneker.png",
       "original_number": 11,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -230,7 +197,7 @@
       "source_file": "12 Paul Cuffe.png",
       "original_number": 12,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -249,7 +216,7 @@
       "source_file": "13 Joshua Johnson.png",
       "original_number": 13,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -264,20 +231,14 @@
       "portrait_id": 14,
       "filename": "014.webp",
       "proposed_name": "Shaka kaSenzangakhona",
-      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
-      "source_file": "14 Shaka kaSenzangakhona.png",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
+      "source_file": "Shaka kaSenzangakhona Name Card.png",
       "original_number": 14,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
-      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
-      "crop": [
-        58,
-        217,
-        1101,
-        1237
-      ],
-      "sha256": "fb0ef30a823f616d1146aa3b32a909fcb5efbb53e4ce0f327b85398166992104",
-      "bytes": 38434
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "5ac84e838ab8bb435c9d341bbac2a667887c88afab770ec71cf4c37763b506cd",
+      "bytes": 63044
     },
     {
       "portrait_id": 15,
@@ -287,7 +248,7 @@
       "source_file": "15 Elizabeth Freeman (Mum Bett).png",
       "original_number": 15,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_top_edge_review_recommended",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -306,7 +267,7 @@
       "source_file": "16 Richard Allen.png",
       "original_number": 16,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -325,7 +286,7 @@
       "source_file": "17 Nat Turner.png",
       "original_number": 17,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -344,7 +305,7 @@
       "source_file": "18 James Forten.png",
       "original_number": 18,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -363,7 +324,7 @@
       "source_file": "19 Dred Scott.png",
       "original_number": 19,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -382,7 +343,7 @@
       "source_file": "20 Henry Highland Garnet.png",
       "original_number": 20,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -401,7 +362,7 @@
       "source_file": "21 Sojourner Truth.png",
       "original_number": 21,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_top_edge_review_recommended",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -420,7 +381,7 @@
       "source_file": "22 Cathay Williams.png",
       "original_number": 22,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_top_edge_review_recommended",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -439,7 +400,7 @@
       "source_file": "23 Frederick Douglass.png",
       "original_number": 23,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -458,7 +419,7 @@
       "source_file": "24 Henry _Box_ Brown,.png",
       "original_number": 24,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -477,7 +438,7 @@
       "source_file": "25 Mary Edmonia Lewis.png",
       "original_number": 25,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -496,7 +457,7 @@
       "source_file": "26 Granville T. Woods.png",
       "original_number": 26,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -515,7 +476,7 @@
       "source_file": "27 Harriet Tubman.png",
       "original_number": 27,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_top_edge_review_recommended",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -534,7 +495,7 @@
       "source_file": "28 Robert Smalls.png",
       "original_number": 28,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -553,7 +514,7 @@
       "source_file": "29 Booker T. Washington.png",
       "original_number": 29,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -572,7 +533,7 @@
       "source_file": "30 Alice Augusta Ball.png",
       "original_number": 30,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_top_edge_review_recommended",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -591,7 +552,7 @@
       "source_file": "31 Madam C.J. Walker.png",
       "original_number": 31,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -610,7 +571,7 @@
       "source_file": "32 P.B.S. Pinchback.png",
       "original_number": 32,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -629,7 +590,7 @@
       "source_file": "33 Bessie Coleman.png",
       "original_number": 33,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_top_edge_review_recommended",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -648,7 +609,7 @@
       "source_file": "34 Ida B. Wells.png",
       "original_number": 34,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -667,7 +628,7 @@
       "source_file": "35 Henry Ossawa Tanner.png",
       "original_number": 35,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -686,7 +647,7 @@
       "source_file": "36 Marcus Garvey.png",
       "original_number": 36,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -705,7 +666,7 @@
       "source_file": "37 Ernest Everett Just.png",
       "original_number": 37,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -724,7 +685,7 @@
       "source_file": "George 38 Washington Carver.png",
       "original_number": 38,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -743,7 +704,7 @@
       "source_file": "39 Doris _Dorie_ Miller.png",
       "original_number": 39,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -762,7 +723,7 @@
       "source_file": "40 Jack Johnson.png",
       "original_number": 40,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -781,7 +742,7 @@
       "source_file": "41 Carter Godwin Woodson.png",
       "original_number": 41,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -800,7 +761,7 @@
       "source_file": "42 Alain Leroy Locke.png",
       "original_number": 42,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -819,7 +780,7 @@
       "source_file": "43 Mary Church Terrel.png",
       "original_number": 43,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_top_edge_review_recommended",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -838,7 +799,7 @@
       "source_file": "44 Matthew P. Henson.png",
       "original_number": 44,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_top_edge_review_recommended",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -857,7 +818,7 @@
       "source_file": "45 Mary McLeod Bethune.png",
       "original_number": 45,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -876,7 +837,7 @@
       "source_file": "46 Billy Holiday.png",
       "original_number": 46,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -895,7 +856,7 @@
       "source_file": "47 Zora Neale Hurston.png",
       "original_number": 47,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_top_edge_review_recommended",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -914,7 +875,7 @@
       "source_file": "48 Richard Wright.png",
       "original_number": 48,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -929,20 +890,14 @@
       "portrait_id": 49,
       "filename": "049.webp",
       "proposed_name": "Patrice Lumumba",
-      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
-      "source_file": "49 Patrice Lumumba.png",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
+      "source_file": "Patrice Lumumba Name Card.png",
       "original_number": 49,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
-      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
-      "crop": [
-        58,
-        217,
-        1101,
-        1237
-      ],
-      "sha256": "f71bb0703122f4aab92c5566dbba51b3735de1554c01f710cfff01a355452f0f",
-      "bytes": 29532
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "a32225d26c7b224ca822e99472b45a79d86198052267fe746548f82ebf44419c",
+      "bytes": 42080
     },
     {
       "portrait_id": 50,
@@ -952,7 +907,7 @@
       "source_file": "50 Medger Evers.png",
       "original_number": 50,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -971,7 +926,7 @@
       "source_file": "51 Garrett Morgan.png",
       "original_number": 51,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -990,7 +945,7 @@
       "source_file": "52 W. E. B. Du Bois.png",
       "original_number": 52,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1009,7 +964,7 @@
       "source_file": "53 Roger Arliner.png",
       "original_number": 53,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1028,7 +983,7 @@
       "source_file": "54 Sam Cooke.png",
       "original_number": 54,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1047,7 +1002,7 @@
       "source_file": "55 Nat King Cole.png",
       "original_number": 55,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1066,7 +1021,7 @@
       "source_file": "56 El-Hajj Malik El-Shabazz Malcom x.png",
       "original_number": 56,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1085,7 +1040,7 @@
       "source_file": "57 Dorothy Dandridge.png",
       "original_number": 57,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1104,7 +1059,7 @@
       "source_file": "58 Langston Hughes.png",
       "original_number": 58,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1123,7 +1078,7 @@
       "source_file": "59 Martin Luther King Jr.png",
       "original_number": 59,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1142,7 +1097,7 @@
       "source_file": "60 Fred Hampton.png",
       "original_number": 60,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_top_edge_review_recommended",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1161,7 +1116,7 @@
       "source_file": "61 Louis Armstrong.png",
       "original_number": 61,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1176,20 +1131,14 @@
       "portrait_id": 62,
       "filename": "062.webp",
       "proposed_name": "Francis Kwame Nkrumah",
-      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
-      "source_file": "62 Francis Kwame Nkrumah.png",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
+      "source_file": "Francis Kwame Nkrumah Name Card.png",
       "original_number": 62,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
-      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
-      "crop": [
-        58,
-        217,
-        1101,
-        1237
-      ],
-      "sha256": "b65dccbe83b9c51ace48e00a6580bb2befa1d6d353c18cdaf4c4bd20e7e61cf5",
-      "bytes": 32056
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "2955c03a52d8b6476e68eb8131156744dd44b7466e8e97b5a647f6af6d364e7b",
+      "bytes": 44568
     },
     {
       "portrait_id": 63,
@@ -1199,7 +1148,7 @@
       "source_file": "63 Jackie Robinson.png",
       "original_number": 63,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_top_edge_review_recommended",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1218,7 +1167,7 @@
       "source_file": "64 Duke Ellington.png",
       "original_number": 64,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1233,20 +1182,14 @@
       "portrait_id": 65,
       "filename": "065.webp",
       "proposed_name": "Haile Selassie I",
-      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
-      "source_file": "65 Haile Selassie I.png",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
+      "source_file": "Haile Selassie Name Card.png",
       "original_number": 65,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
-      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
-      "crop": [
-        58,
-        217,
-        1101,
-        1237
-      ],
-      "sha256": "06ddfe618aeb3e8d7833a50910c63214b2503eb850a23d5aee7f817d65cd3ed2",
-      "bytes": 42156
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "4d2fd66cd2cf5f49e9d1967d7be7df88173391c47f6d02fbe50bc562a0371e56",
+      "bytes": 49200
     },
     {
       "portrait_id": 66,
@@ -1256,7 +1199,7 @@
       "source_file": "66 Paul Robeson.png",
       "original_number": 66,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1275,7 +1218,7 @@
       "source_file": "67 Fammie Lou Hamer.png",
       "original_number": 67,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1290,20 +1233,14 @@
       "portrait_id": 68,
       "filename": "068.webp",
       "proposed_name": "Jomo Kenyatta",
-      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
-      "source_file": "68 Jomo Kenyatta.png",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
+      "source_file": "Jomo Kenyatta Name Card.png",
       "original_number": 68,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
-      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
-      "crop": [
-        58,
-        217,
-        1101,
-        1237
-      ],
-      "sha256": "994c3f9ff358bd8ebd475186e030172d2935c88df4c0807836c715b1def834d1",
-      "bytes": 37744
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "ce5c69642219faf305ea6e02d8635d2f93441489114be70bd73186f2b75e8c94",
+      "bytes": 47940
     },
     {
       "portrait_id": 69,
@@ -1313,7 +1250,7 @@
       "source_file": "69 Marjorie Lee Browne.png",
       "original_number": 69,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1332,7 +1269,7 @@
       "source_file": "70 Jesse Owens.png",
       "original_number": 70,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1351,7 +1288,7 @@
       "source_file": "71 Joe Louis.png",
       "original_number": 71,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1370,7 +1307,7 @@
       "source_file": "72 Bob Marley.png",
       "original_number": 72,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1389,7 +1326,7 @@
       "source_file": "73 Satchel Paige.png",
       "original_number": 73,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_top_edge_review_recommended",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1408,7 +1345,7 @@
       "source_file": "74 Marvin Gay.png",
       "original_number": 74,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1427,7 +1364,7 @@
       "source_file": "75 Annie Easley.png",
       "original_number": 75,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1446,7 +1383,7 @@
       "source_file": "76 Vivien Thomas.png",
       "original_number": 76,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1465,7 +1402,7 @@
       "source_file": "77 Bayard Rustin.png",
       "original_number": 77,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1484,7 +1421,7 @@
       "source_file": "78 James Baldwin.png",
       "original_number": 78,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1503,7 +1440,7 @@
       "source_file": "79 Sugar Ray Robinson.png",
       "original_number": 79,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1522,7 +1459,7 @@
       "source_file": "80 Huey Percy Newton.png",
       "original_number": 80,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_top_edge_review_recommended",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1541,7 +1478,7 @@
       "source_file": "81 Thurgood Marshall.png",
       "original_number": 81,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1560,7 +1497,7 @@
       "source_file": "82 Arthur Ashe.png",
       "original_number": 82,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_top_edge_review_recommended",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1579,7 +1516,7 @@
       "source_file": "83 Marian Anderson.png",
       "original_number": 83,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1598,7 +1535,7 @@
       "source_file": "84 Wilma Rudolph.png",
       "original_number": 84,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1617,7 +1554,7 @@
       "source_file": "85 Ella Fitzgerald.png",
       "original_number": 85,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1636,7 +1573,7 @@
       "source_file": "86 Tupac Amaru Shakur.png",
       "original_number": 86,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_top_edge_review_recommended",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1655,7 +1592,7 @@
       "source_file": "87 Christopher Wallace.png",
       "original_number": 87,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_top_edge_review_recommended",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1674,7 +1611,7 @@
       "source_file": "88 Wilt Chamberlain.png",
       "original_number": 88,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1693,7 +1630,7 @@
       "source_file": "89 Jacob Armstead Lawrence.png",
       "original_number": 89,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1712,7 +1649,7 @@
       "source_file": "90 Charity Adams Earley.png",
       "original_number": 90,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1731,7 +1668,7 @@
       "source_file": "91 Benjamin O. Davis Jr.png",
       "original_number": 91,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_top_edge_review_recommended",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1750,7 +1687,7 @@
       "source_file": "92 Nina Simone.png",
       "original_number": 92,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1769,7 +1706,7 @@
       "source_file": "93 Athea Gibson.png",
       "original_number": 93,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1788,7 +1725,7 @@
       "source_file": "94 Ray Charles.png",
       "original_number": 94,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1807,7 +1744,7 @@
       "source_file": "95 Shirley Chisholm.png",
       "original_number": 95,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1826,7 +1763,7 @@
       "source_file": "96 Rosa Parks.png",
       "original_number": 96,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1845,7 +1782,7 @@
       "source_file": "97 Richard Pryor.png",
       "original_number": 97,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1864,7 +1801,7 @@
       "source_file": "98 James Brown.png",
       "original_number": 98,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1883,7 +1820,7 @@
       "source_file": "99 Michael Joseph Jackson.png",
       "original_number": 99,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1902,7 +1839,7 @@
       "source_file": "100 David Harold Blackwell.png",
       "original_number": 100,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1921,7 +1858,7 @@
       "source_file": "101 Hazel Johnson-Brown.png",
       "original_number": 101,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_top_edge_review_recommended",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1940,7 +1877,7 @@
       "source_file": "102 Nelson Mandela.png",
       "original_number": 102,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1959,7 +1896,7 @@
       "source_file": "103 Maya Angelou.png",
       "original_number": 103,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1978,7 +1915,7 @@
       "source_file": "104 Prince Rogers Nelson.png",
       "original_number": 104,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_top_edge_review_recommended",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -1997,7 +1934,7 @@
       "source_file": "105 Muhammad Ali.png",
       "original_number": 105,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -2016,7 +1953,7 @@
       "source_file": "106 Aretha Franklin Background.png",
       "original_number": 106,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_top_edge_review_recommended",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -2035,7 +1972,7 @@
       "source_file": "107 Patricia Bath.png",
       "original_number": 107,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -2054,7 +1991,7 @@
       "source_file": "108 Toni Morrison.png",
       "original_number": 108,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -2073,7 +2010,7 @@
       "source_file": "109 Katherine Johnson.png",
       "original_number": 109,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -2092,7 +2029,7 @@
       "source_file": "110 John Lewis.png",
       "original_number": 110,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -2111,7 +2048,7 @@
       "source_file": "111 George Carruthers.png",
       "original_number": 111,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_top_edge_review_recommended",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -2130,7 +2067,7 @@
       "source_file": "112 Cicely Tyson.png",
       "original_number": 112,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -2149,7 +2086,7 @@
       "source_file": "113 Gloria Richardson.png",
       "original_number": 113,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -2168,7 +2105,7 @@
       "source_file": "114 Colin Powell.png",
       "original_number": 114,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -2187,7 +2124,7 @@
       "source_file": "115 Desmond Tutu.png",
       "original_number": 115,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -2206,7 +2143,7 @@
       "source_file": "116 Sidney Poitier.png",
       "original_number": 116,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -2225,7 +2162,7 @@
       "source_file": "117 Bill Russell.png",
       "original_number": 117,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -2244,7 +2181,7 @@
       "source_file": "118 Edson Nascimento Pele.png",
       "original_number": 118,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -2263,7 +2200,7 @@
       "source_file": "119 James Nathaniel Brown.png",
       "original_number": 119,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_top_edge_review_recommended",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -2282,7 +2219,7 @@
       "source_file": "120 James Earl Jones.png",
       "original_number": 120,
       "is_extra": false,
-      "status": "standard_face_crop_ready_for_layout",
+      "status": "existing_original_portrait_retained",
       "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
       "crop": [
         58,
@@ -2297,443 +2234,335 @@
       "portrait_id": 121,
       "filename": "121.webp",
       "proposed_name": "Queen Makeda of Sheba",
-      "archive": "African Black HISTORY Heroes.zip",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
       "source_file": "Queen  Makeda of Sheba Name Card.png",
       "original_number": null,
       "is_extra": true,
-      "status": "clean_tight_face_crop_pending_historical_art_review",
-      "note": "Yellow heading may overlap the head and source includes small illustrated signature: regenerate/repair prior to final use.",
-      "crop": [
-        354,
-        393,
-        1040,
-        1079
-      ],
-      "sha256": "28638202ae31779035787e7d49628636c42279fdff4b570d91eb80a1517c31a2",
-      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
-      "trim_pixels_from_previous_crop_each_side": 48,
-      "bytes": 23244
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "0b542a01819f9917a71b2f4ee70716528280c122bbb45ba486fca860427c6f42",
+      "bytes": 57602
     },
     {
       "portrait_id": 122,
       "filename": "122.webp",
       "proposed_name": "Piye",
-      "archive": "African Black HISTORY Heroes.zip",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
       "source_file": "Piye Meriamun Name card.png",
       "original_number": null,
       "is_extra": true,
-      "status": "clean_tight_face_crop_pending_historical_art_review",
-      "note": "Yellow heading may overlap the head and source includes small illustrated signature: regenerate/repair prior to final use.",
-      "crop": [
-        354,
-        393,
-        1040,
-        1079
-      ],
-      "sha256": "cc4f8bc331bcc7690d4ce017046ab81c1ae65edf7650bb0f9c43bc97962cd411",
-      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
-      "trim_pixels_from_previous_crop_each_side": 48,
-      "bytes": 27352
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "672584c65fa459642240ceb82c3a7177c01539515651cf0f2c3c5bd7cb7f4567",
+      "bytes": 41262
     },
     {
       "portrait_id": 123,
       "filename": "123.webp",
       "proposed_name": "Shabaka",
-      "archive": "African Black HISTORY Heroes.zip",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
       "source_file": "Shabaka Name Card.png",
       "original_number": null,
       "is_extra": true,
-      "status": "clean_tight_face_crop_pending_historical_art_review",
-      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
-      "crop": [
-        354,
-        393,
-        1040,
-        1079
-      ],
-      "sha256": "473e48a47defab43b7a822b0c61d32e50de00ab5ad0a33e1a97e939e85af84b6",
-      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
-      "trim_pixels_from_previous_crop_each_side": 39,
-      "bytes": 21360
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "ba04f608497bd45883f9ddfd6395840cf4d7832555de9fb253e1914d42c3250c",
+      "bytes": 49350
     },
     {
       "portrait_id": 124,
       "filename": "124.webp",
       "proposed_name": "Taharqa",
-      "archive": "African Black HISTORY Heroes.zip",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
       "source_file": "Taharqa Name Card.png",
       "original_number": null,
       "is_extra": true,
-      "status": "clean_tight_face_crop_pending_historical_art_review",
-      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
-      "crop": [
-        354,
-        393,
-        1040,
-        1079
-      ],
-      "sha256": "3909718faae4e51e8a1152f81c7ebf83f7b3fa2d0c63dca39271b5f34cb3a760",
-      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
-      "trim_pixels_from_previous_crop_each_side": 39,
-      "bytes": 19544
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "48e07512a1f4412f9517455abcfc30740520068b89e5e892273fee606691b13e",
+      "bytes": 48190
     },
     {
       "portrait_id": 125,
       "filename": "125.webp",
       "proposed_name": "Tenkamenin",
-      "archive": "African Black HISTORY Heroes.zip",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
       "source_file": "Tenkamenin Name Card.png",
       "original_number": null,
       "is_extra": true,
-      "status": "clean_tight_face_crop_pending_historical_art_review",
-      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
-      "crop": [
-        354,
-        393,
-        1040,
-        1079
-      ],
-      "sha256": "79e50a8817765af3a76399299be8ee0f04b3d677b7126102428cac890a7cafee",
-      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
-      "trim_pixels_from_previous_crop_each_side": 39,
-      "bytes": 22118
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "84f0de8ff1d214b462922b3d043d9cd5bc28134fc75edd9af67f8e6729787f55",
+      "bytes": 45128
     },
     {
       "portrait_id": 126,
       "filename": "126.webp",
       "proposed_name": "Nastasen",
-      "archive": "African Black HISTORY Heroes.zip",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
       "source_file": "Nastasen Name Card.png",
       "original_number": null,
       "is_extra": true,
-      "status": "clean_tight_face_crop_pending_historical_art_review",
-      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
-      "crop": [
-        354,
-        393,
-        1040,
-        1079
-      ],
-      "sha256": "484c6ea39a4b21bc60063ea5e4fd9d2f3571f08d2407262290c4db314638215e",
-      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
-      "trim_pixels_from_previous_crop_each_side": 39,
-      "bytes": 37288
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "28f4ff393412d86be553d40f6ddfccfb45989475926e8802dfdcc5f2b35d4e37",
+      "bytes": 65280
     },
     {
       "portrait_id": 127,
       "filename": "127.webp",
       "proposed_name": "Amanirenas",
-      "archive": "African Black HISTORY Heroes.zip",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
       "source_file": "Amanirenas Name Card.png",
       "original_number": null,
       "is_extra": true,
-      "status": "clean_tight_face_crop_pending_historical_art_review",
-      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
-      "crop": [
-        354,
-        393,
-        1040,
-        1079
-      ],
-      "sha256": "e270961d3b51fee38d5240d82aea705fc1e155c46e37d9fcc59e0a1b0d8f2bea",
-      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
-      "trim_pixels_from_previous_crop_each_side": 39,
-      "bytes": 24174
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "cdeab091434238f088074c921b13f114441e3ce109ba1b5ea9d59c6cd991d909",
+      "bytes": 62150
     },
     {
       "portrait_id": 128,
       "filename": "128.webp",
       "proposed_name": "Amanitore",
-      "archive": "African Black HISTORY Heroes.zip",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
       "source_file": "Queen Amanitore Name Card.png",
       "original_number": null,
       "is_extra": true,
-      "status": "clean_tight_face_crop_pending_historical_art_review",
-      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
-      "crop": [
-        354,
-        393,
-        1040,
-        1079
-      ],
-      "sha256": "30240f7808662aca6d7ab64c04952b3f349372366c1d996580897b4bb23d68dc",
-      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
-      "trim_pixels_from_previous_crop_each_side": 39,
-      "bytes": 31310
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "89cbb95f4d50c57ee2fab5ac3cadeb5968e28fdf7d4f4710baa45ab5ad4ad0a7",
+      "bytes": 50674
     },
     {
       "portrait_id": 129,
       "filename": "129.webp",
       "proposed_name": "Zoskales",
-      "archive": "African Black HISTORY Heroes.zip",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
       "source_file": "Zoskales Name Card.png",
       "original_number": null,
       "is_extra": true,
-      "status": "clean_tight_face_crop_pending_historical_art_review",
-      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
-      "crop": [
-        354,
-        393,
-        1040,
-        1079
-      ],
-      "sha256": "c588dd2d6db7a0efa59112bf5e479dc5adf19f5b7d7b9df041a60792cd357f69",
-      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
-      "trim_pixels_from_previous_crop_each_side": 39,
-      "bytes": 34110
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "85fad4264fd27dfd2ca7801294c7ecaa4e7c57c9c295cfc3daad7eed6dc9b0e0",
+      "bytes": 58040
     },
     {
       "portrait_id": 130,
       "filename": "130.webp",
       "proposed_name": "Ezana of Aksum",
-      "archive": "African Black HISTORY Heroes.zip",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
       "source_file": "Ezana  of Aksum Name Card.png",
       "original_number": null,
       "is_extra": true,
-      "status": "clean_tight_face_crop_pending_historical_art_review",
-      "note": "Yellow heading may overlap the head and source includes small illustrated signature: regenerate/repair prior to final use.",
-      "crop": [
-        354,
-        393,
-        1040,
-        1079
-      ],
-      "sha256": "8a88fa513fb59a0642b55fb8d0424cf9f4ea351ee5b5febdda2b62633ba8d4ca",
-      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
-      "trim_pixels_from_previous_crop_each_side": 48,
-      "bytes": 17558
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "a2a8217097ade68bc2e5cf4b37c6ae0d0c6edd59d6402ceb819cad219df5b212",
+      "bytes": 29560
     },
     {
       "portrait_id": 131,
       "filename": "131.webp",
       "proposed_name": "Kaleb of Aksum",
-      "archive": "African Black HISTORY Heroes.zip",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
       "source_file": "Kaleb  of Axum Name Card.png",
       "original_number": null,
       "is_extra": true,
-      "status": "clean_tight_face_crop_pending_historical_art_review",
-      "note": "Yellow heading may overlap the head and source includes small illustrated signature: regenerate/repair prior to final use.",
-      "crop": [
-        354,
-        393,
-        1040,
-        1079
-      ],
-      "sha256": "88ae13031edff8725f1d1655263c50e0ef4f727ead834f7468d9bf1c5fb9e36d",
-      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
-      "trim_pixels_from_previous_crop_each_side": 48,
-      "bytes": 20736
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "8951bd81fc1c8564c25f95e0e74f23f51689b324a8b54fa9b98f2c70abd3588c",
+      "bytes": 36760
     },
     {
       "portrait_id": 132,
       "filename": "132.webp",
       "proposed_name": "Moremi Ajasoro",
-      "archive": "African Black HISTORY Heroes.zip",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
       "source_file": "Moremi  Ajasoro Name Card.png",
       "original_number": null,
       "is_extra": true,
-      "status": "clean_tight_face_crop_pending_historical_art_review",
-      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
-      "crop": [
-        354,
-        393,
-        1040,
-        1079
-      ],
-      "sha256": "aa3d77b08eec2010c1ffb4b7a460cb402b239e5b220cef401a8ecfd2876b7b91",
-      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
-      "trim_pixels_from_previous_crop_each_side": 39,
-      "bytes": 26902
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "d8206395f0cb54d7c767c06baada52a43ed087eda560e9cf3200b1f7c29a1ea2",
+      "bytes": 56184
     },
     {
       "portrait_id": 133,
       "filename": "133.webp",
       "proposed_name": "Oba Ewuare",
-      "archive": "African Black HISTORY Heroes.zip",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
       "source_file": "Oba Ewuare  the Great Name Card.png",
       "original_number": null,
       "is_extra": true,
-      "status": "clean_tight_face_crop_pending_historical_art_review",
-      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
-      "crop": [
-        354,
-        393,
-        1040,
-        1079
-      ],
-      "sha256": "c02e7740e9d8881908e3eecc24de2984aed62c5b3507418c7ee499d139b6c53c",
-      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
-      "trim_pixels_from_previous_crop_each_side": 39,
-      "bytes": 27234
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "a9b2109ad0bd6f1f72c564a20703f5042eee2f3825f0af774c509185473c0b07",
+      "bytes": 60696
     },
     {
       "portrait_id": 134,
       "filename": "134.webp",
       "proposed_name": "Sunni Ali Ber",
-      "archive": "African Black HISTORY Heroes.zip",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
       "source_file": "Sunni Ali Ber Blank.png",
       "original_number": null,
       "is_extra": true,
-      "status": "clean_tight_face_crop_pending_historical_art_review",
-      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
-      "crop": [
-        354,
-        393,
-        1040,
-        1079
-      ],
-      "sha256": "3c6cd762d97498a7b359c6cf065d34d693ff521e5f45d87db6e4d780011195d2",
-      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
-      "trim_pixels_from_previous_crop_each_side": 39,
-      "bytes": 27000
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "9372818cb6dea62346db52a703ec7e76e975bca16b9c4421d80e42d85cbe4d04",
+      "bytes": 52484
     },
     {
       "portrait_id": 135,
       "filename": "135.webp",
       "proposed_name": "Askia Muhammad I",
-      "archive": "African Black HISTORY Heroes.zip",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
       "source_file": "Askia  Muhammad I Name Card.png",
       "original_number": null,
       "is_extra": true,
-      "status": "clean_tight_face_crop_pending_historical_art_review",
-      "note": "Yellow heading may overlap the head and source includes small illustrated signature: regenerate/repair prior to final use.",
-      "crop": [
-        354,
-        393,
-        1040,
-        1079
-      ],
-      "sha256": "7f0432b7e90b2066f6c97f1a842d36732461c974908a1ed0657975e7b2443ad9",
-      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
-      "trim_pixels_from_previous_crop_each_side": 48,
-      "bytes": 26208
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "8ffb30650860def9f67d4d635f9b543ffec0295d0a936ef2c651ec596955f2fc",
+      "bytes": 55088
     },
     {
       "portrait_id": 136,
       "filename": "136.webp",
       "proposed_name": "Queen Nandi",
-      "archive": "African Black HISTORY Heroes.zip",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
       "source_file": "Queen  Nandi Name Card.png",
       "original_number": null,
       "is_extra": true,
-      "status": "clean_tight_face_crop_pending_historical_art_review",
-      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
-      "crop": [
-        354,
-        393,
-        1040,
-        1079
-      ],
-      "sha256": "c2df1ab3da6769c7f7f588011aeefea33e4b27458c9f43131291617b9a99c3fd",
-      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
-      "trim_pixels_from_previous_crop_each_side": 39,
-      "bytes": 27284
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "1ae55b8c60a6b53087d36497818e578591161ec4fb625f76574b5b01bf22b983",
+      "bytes": 53914
     },
     {
       "portrait_id": 137,
       "filename": "137.webp",
       "proposed_name": "Ranavalona I",
-      "archive": "African Black HISTORY Heroes.zip",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
       "source_file": "Ranavalo-Manjaka I Name Card.png",
       "original_number": null,
       "is_extra": true,
-      "status": "clean_tight_face_crop_pending_historical_art_review",
-      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
-      "crop": [
-        354,
-        393,
-        1040,
-        1079
-      ],
-      "sha256": "bba37110bc14e78e73ae39583c7580ca768e9d20370370d032e34029b1e00c33",
-      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
-      "trim_pixels_from_previous_crop_each_side": 39,
-      "bytes": 39246
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "73433fda3f748e344e9441f7b38419d86a2505a6c085125499e390f85b3d90d2",
+      "bytes": 58226
     },
     {
       "portrait_id": 138,
       "filename": "138.webp",
       "proposed_name": "Yaa Asantewaa",
-      "archive": "African Black HISTORY Heroes.zip",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
       "source_file": "Yaa  Asantewaa Name Card.png",
       "original_number": null,
       "is_extra": true,
-      "status": "clean_tight_face_crop_pending_historical_art_review",
-      "note": "Yellow heading may overlap the head and source includes small illustrated signature: regenerate/repair prior to final use.",
-      "crop": [
-        354,
-        393,
-        1040,
-        1079
-      ],
-      "sha256": "42f93742af7a5123c140216b10acf76dae6736d1a98baee110343fe41087237a",
-      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
-      "trim_pixels_from_previous_crop_each_side": 48,
-      "bytes": 26960
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "e0793521849576a2e0766c1e9114432ace4b28c674ba830d726dbddd1bc730de",
+      "bytes": 51680
     },
     {
       "portrait_id": 139,
       "filename": "139.webp",
       "proposed_name": "Queen Muhumuza",
-      "archive": "African Black HISTORY Heroes.zip",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
       "source_file": "Queen Muhumuza Name Card.png",
       "original_number": null,
       "is_extra": true,
-      "status": "clean_tight_face_crop_pending_historical_art_review",
-      "note": "Yellow heading may overlap the head and source includes small illustrated signature: regenerate/repair prior to final use.",
-      "crop": [
-        354,
-        393,
-        1040,
-        1079
-      ],
-      "sha256": "16d4091d0b83bb09229de97dbeaaac55a902b5700c390e6c0e80a7bd5af3416c",
-      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
-      "trim_pixels_from_previous_crop_each_side": 48,
-      "bytes": 27798
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "4d6c40110a76dd87d500a46d5528a7dae5c50bc63edbb2eaad6236b7f2e7ca06",
+      "bytes": 51328
     },
     {
       "portrait_id": 140,
       "filename": "140.webp",
       "proposed_name": "Labotsibeni Mdluli",
-      "archive": "African Black HISTORY Heroes.zip",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
       "source_file": "Labotsibeni  Mdluli Name Card.png",
       "original_number": null,
       "is_extra": true,
-      "status": "clean_tight_face_crop_pending_historical_art_review",
-      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
-      "crop": [
-        354,
-        393,
-        1040,
-        1079
-      ],
-      "sha256": "d95aab71e1c25b1561c08df7f9f1f9e90abe4658c00df8e64f03c63eebbecf38",
-      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
-      "trim_pixels_from_previous_crop_each_side": 39,
-      "bytes": 38532
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "6f85102770117a547865c26d0c213ec159fc7c67d2ef257db6f7dde05a0f1ae2",
+      "bytes": 70224
     },
     {
       "portrait_id": 141,
       "filename": "141.webp",
       "proposed_name": "Empress Zewditu",
-      "archive": "African Black HISTORY Heroes.zip",
+      "archive": "new African Black HISTORY Heroes Flash Cards (8.5 x 11 in)  (600 x 600 px).zip",
       "source_file": "Empress Zewditu Name Card.png",
       "original_number": null,
       "is_extra": true,
-      "status": "clean_tight_face_crop_pending_historical_art_review",
-      "note": "Yellow heading may overlap the head and source includes small illustrated signature: regenerate/repair prior to final use.",
-      "crop": [
-        354,
-        393,
-        1040,
-        1079
-      ],
-      "sha256": "1a42ef5bff9278135500a737610ae0d8254fbd304a8fc456e6a228e524b980ae",
-      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
-      "trim_pixels_from_previous_crop_each_side": 48,
-      "bytes": 28198
+      "status": "replaced_from_user_supplied_text_free_original_product_image",
+      "crop": "full source 1200x1200 resized proportionally to 512x512; no crop",
+      "sha256": "e91a851a3e45eea48f55c875f3d51c449c5c5c9239a83f9329a43772c406ceef",
+      "bytes": 77282
     }
   ],
-  "upload_path": "Upload exact ZIP filename hall-of-legends-upload.zip to wdwedu/examine-the-past-home ROOT. GitHub Actions installs files automatically."
+  "upload_path": "Upload exact ZIP filename hall-of-legends-upload.zip to wdwedu/examine-the-past-home ROOT. GitHub Actions installs files automatically.",
+  "replaced_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    14,
+    49,
+    62,
+    65,
+    68,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141
+  ],
+  "top_edge_review_ids": [
+    10,
+    15,
+    21,
+    22,
+    27,
+    30,
+    33,
+    43,
+    44,
+    47,
+    60,
+    63,
+    73,
+    80,
+    82,
+    86,
+    87,
+    91,
+    101,
+    104,
+    106,
+    111,
+    119
+  ],
+  "review_disclaimer": "The 23 top-edge review figures have full faces but some hats, headwraps, hair, or crowns touch the image boundary. The new upload pack does not fix these. This is a conservative visual QA watchlist, not a claim of face loss."
 }
