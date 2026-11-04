@@ -6,7 +6,7 @@ if(window.__etpPosterPopupLoaded)return;window.__etpPosterPopupLoaded=true;
 const ROOT=(()=>{const script=document.currentScript;return script?.src?new URL('../',script.src).pathname:'/'})();
 const KEY='etp-black-history-hall-poster-v2';
 const START=KEY+'-first-seen';
-const WAIT=45000;
+const WAIT=150000;
 const DEST='https://examinethepast.etsy.com/listing/1853851411';
 let seen=false;try{seen=sessionStorage.getItem(KEY)==='seen'}catch(e){}
 if(seen)return;
@@ -15,7 +15,7 @@ let popup=null,previousFocus=null;
 function markSeen(){try{sessionStorage.setItem(KEY,'seen')}catch(e){}}
 function close(){if(!popup)return;popup.hidden=true;markSeen();document.removeEventListener('keydown',onKey);if(previousFocus?.isConnected)previousFocus.focus({preventScroll:true})}
 function onKey(event){if(event.key==='Escape'){event.preventDefault();close()}else if(event.key==='Tab'&&popup&&!popup.hidden){const controls=[...popup.querySelectorAll('button,a')];const first=controls[0],last=controls[controls.length-1];if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus()}else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus()}}}
-function show(){if(popup||document.querySelector('.etp-poster-promo'))return;try{if(sessionStorage.getItem(KEY)==='seen')return}catch(e){}
+function show(){if(document.querySelector("#hv-guide-layer:not([hidden])")){setTimeout(show,30000);return;}if(popup||document.querySelector('.etp-poster-promo'))return;try{if(sessionStorage.getItem(KEY)==='seen')return}catch(e){}
 previousFocus=document.activeElement;
 popup=document.createElement('div');popup.className='etp-poster-promo';
 popup.setAttribute('role','presentation');
