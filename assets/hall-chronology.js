@@ -197,7 +197,7 @@ function openPreview({title,dates,description,file,kind="bio",reward="",profile=
  overlay.dataset.kind=kind;
  $("hv-demo-name").textContent=title;
  $("hv-demo-dates").textContent=dates;
- $("hv-demo-desc").textContent=description;
+ $("hv-demo-desc").textContent=kind==="bio"&&profile?"Explore the life, historical context, evidence, and interpretations behind this figure’s legacy. Then follow a branching investigation to test your understanding.":description;
  const tag=overlay.querySelector(".hv-demo-dialog .hv-tag");
  if(tag)tag.textContent=kind==="bio"?"Historical Biography · Hall of Legends":kind==="era"?"Era Challenge · Seal":"Legacy Credit Challenge";
  const img=$("hv-demo-image");
