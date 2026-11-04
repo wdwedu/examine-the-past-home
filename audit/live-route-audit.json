@@ -1,0 +1,1383 @@
+{
+  "timestamp_utc": "2026-11-04T20:56:03.397993+00:00",
+  "checked": 229,
+  "passed": 229,
+  "fail_count": 0,
+  "failures": [],
+  "results": [
+    {
+      "path": "",
+      "code": 200,
+      "url": "https://examinethepast.com/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "articles/september-11-2001/",
+      "code": 200,
+      "url": "https://examinethepast.com/articles/september-11-2001/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "assets/etp-transitions.js",
+      "code": 200,
+      "url": "https://examinethepast.com/assets/etp-transitions.js",
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/site-shell.js",
+      "code": 200,
+      "url": "https://examinethepast.com/assets/site-shell.js",
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/visual-history/visual-history-intro.mp4",
+      "code": 200,
+      "url": "https://examinethepast.com/assets/visual-history/visual-history-intro.mp4",
+      "content_type": "video/mp4"
+    },
+    {
+      "path": "careers/",
+      "code": 200,
+      "url": "https://examinethepast.com/careers/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "copyright/",
+      "code": 200,
+      "url": "https://examinethepast.com/copyright/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "current-events/",
+      "code": 200,
+      "url": "https://examinethepast.com/current-events/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "faq/",
+      "code": 200,
+      "url": "https://examinethepast.com/faq/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/black-history-bingo/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/black-history-bingo/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/black-history-challenge/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/black-history-challenge/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/black-history-connections/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/black-history-connections/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/black-history-timeline-shuffle/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/black-history-timeline-shuffle/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/black-history-who-am-i/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/black-history-who-am-i/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/build-the-past/build-a-civilization/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/build-the-past/build-a-civilization/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/build-the-past/build-a-colony/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/build-the-past/build-a-colony/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/build-the-past/build-a-constitution/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/build-the-past/build-a-constitution/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/build-the-past/build-a-movement/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/build-the-past/build-a-movement/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/build-the-past/build-a-trade-network/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/build-the-past/build-a-trade-network/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/build-the-past/rebuild-a-timeline/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/build-the-past/rebuild-a-timeline/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/build-the-past/reconstruct-the-morning/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/build-the-past/reconstruct-the-morning/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/connections/alliances-wars/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/connections/alliances-wars/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/connections/cause-effect-revolutions/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/connections/cause-effect-revolutions/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/connections/empires-trade/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/connections/empires-trade/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/connections/leaders-movements/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/connections/leaders-movements/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/connections/migration-culture/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/connections/migration-culture/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/connections/reformers-change/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/connections/reformers-change/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/escape-the-past/escape-castle/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/escape-the-past/escape-castle/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/escape-the-past/escape-cold-war-bunker/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/escape-the-past/escape-cold-war-bunker/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/escape-the-past/escape-great-depression/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/escape-the-past/escape-great-depression/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/escape-the-past/escape-plantation/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/escape-the-past/escape-plantation/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/escape-the-past/escape-pyramid/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/escape-the-past/escape-pyramid/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/escape-the-past/escape-trenches/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/escape-the-past/escape-trenches/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/hall-of-legends/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/hall-of-legends/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/hall-of-legends/data/gallery-geometry.json",
+      "code": 200,
+      "url": "https://examinethepast.com/games/hall-of-legends/data/gallery-geometry.json",
+      "content_type": "application/json; charset=utf-8"
+    },
+    {
+      "path": "games/hall-of-legends/research-atlas/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/hall-of-legends/research-atlas/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/hall-of-legends/scene-blueprint/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/hall-of-legends/scene-blueprint/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/history-case-files/black-death-case/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/history-case-files/black-death-case/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/history-case-files/cold-war-brief/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/history-case-files/cold-war-brief/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/history-case-files/lincoln-file/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/history-case-files/lincoln-file/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/history-case-files/missing-colony/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/history-case-files/missing-colony/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/history-case-files/pharaoh-secret/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/history-case-files/pharaoh-secret/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/history-case-files/underground-railroad-file/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/history-case-files/underground-railroad-file/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/history-unlocked/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/history-unlocked/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/map-quest/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/map-quest/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/map-quest/ancient-civilizations-map-hunt/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/map-quest/ancient-civilizations-map-hunt/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/map-quest/battlefields-quest/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/map-quest/battlefields-quest/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/map-quest/colonies-challenge/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/map-quest/colonies-challenge/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/map-quest/empire-mapper/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/map-quest/empire-mapper/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/map-quest/migration-paths/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/map-quest/migration-paths/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/map-quest/trade-routes-quest/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/map-quest/trade-routes-quest/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/presidential-challenge/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/presidential-challenge/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/presidential-challenges/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/presidential-challenges/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/presidential-challenges/bingo/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/presidential-challenges/bingo/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/presidential-challenges/challenge-board/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/presidential-challenges/challenge-board/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/presidential-challenges/connections/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/presidential-challenges/connections/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/presidential-challenges/timeline-shuffle/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/presidential-challenges/timeline-shuffle/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/presidential-challenges/who-am-i/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/presidential-challenges/who-am-i/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/source-lab/diaries/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/source-lab/diaries/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/source-lab/letters/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/source-lab/letters/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/source-lab/maps/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/source-lab/maps/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/source-lab/newspaper-reports/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/source-lab/newspaper-reports/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/source-lab/photos/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/source-lab/photos/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/source-lab/political-cartoons/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/source-lab/political-cartoons/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/source-lab/speeches/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/source-lab/speeches/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/time-rush/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/time-rush/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/time-rush/ancient-worlds/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/time-rush/ancient-worlds/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/time-rush/civil-rights/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/time-rush/civil-rights/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/time-rush/classical-civilizations/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/time-rush/classical-civilizations/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/time-rush/exploration-encounters/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/time-rush/exploration-encounters/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/time-rush/inventions/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/time-rush/inventions/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/time-rush/medieval-worlds/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/time-rush/medieval-worlds/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/time-rush/modern-world/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/time-rush/modern-world/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/time-rush/revolutions-change/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/time-rush/revolutions-change/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/time-rush/revolutions/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/time-rush/revolutions/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/time-rush/us-presidents/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/time-rush/us-presidents/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/time-rush/world-wars/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/time-rush/world-wars/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/transition-gallery/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/transition-gallery/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/who-in-time/activists/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/who-in-time/activists/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/who-in-time/explorers/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/who-in-time/explorers/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/who-in-time/inventors/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/who-in-time/inventors/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/who-in-time/leaders/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/who-in-time/leaders/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/who-in-time/scientists/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/who-in-time/scientists/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "games/who-in-time/writers/",
+      "code": 200,
+      "url": "https://examinethepast.com/games/who-in-time/writers/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/black-history-heroes/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/black-history-heroes/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/black-history-heroes/figure/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/black-history-heroes/figure/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/black-history-heroes/piye/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/black-history-heroes/piye/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/black-history-heroes/queen-makeda/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/black-history-heroes/queen-makeda/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/black-history-heroes/sundiata/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/black-history-heroes/sundiata/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/black-history-heroes/taharqa/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/black-history-heroes/taharqa/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/black-history/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/black-history/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/black-history/course/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/black-history/course/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/black-history/harlem-renaissance/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/black-history/harlem-renaissance/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/black-history/lessons/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/black-history/lessons/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/civics-government/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/civics-government/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/civics-government/checks-balances/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/civics-government/checks-balances/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/geography/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/geography/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/geography/map-skills-spatial-thinking/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/geography/map-skills-spatial-thinking/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/geography/migration-push-pull/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/geography/migration-push-pull/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/master-template/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/master-template/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v0-start-here/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v0-start-here/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v1-foundations/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v1-foundations/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v1l1-how-history-is-made/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v1l1-how-history-is-made/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v1l2-bias-perspective-point-of-view/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v1l2-bias-perspective-point-of-view/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v1l3-cause-effect-history/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v1l3-cause-effect-history/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v1l4-turning-points-significance/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v1l4-turning-points-significance/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v1l5-continuity-change/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v1l5-continuity-change/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v2-geography/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v2-geography/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v2l1-why-geography-matters/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v2l1-why-geography-matters/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v2l2-physical-human-geography/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v2l2-physical-human-geography/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v2l3-maps-power-perception/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v2l3-maps-power-perception/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v2l4-resources-settlement/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v2l4-resources-settlement/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v2l5-climate-migration-adaptation/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v2l5-climate-migration-adaptation/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v3-civilizations-and-culture/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v3-civilizations-and-culture/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v3l1-what-makes-a-civilization/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v3l1-what-makes-a-civilization/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v3l2-culture-belief-and-social-order/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v3l2-culture-belief-and-social-order/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v3l3-cities-trade-and-specialization/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v3l3-cities-trade-and-specialization/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v3l4-empires-exchange-and-cultural-diffusion/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v3l4-empires-exchange-and-cultural-diffusion/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v3l5-comparing-civilizations-patterns-and-differences/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v3l5-comparing-civilizations-patterns-and-differences/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v4-government-and-civic-life/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v4-government-and-civic-life/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v4l1-why-governments-form/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v4l1-why-governments-form/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v4l2-power-authority-and-legitimacy/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v4l2-power-authority-and-legitimacy/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v4l3-democracy-republics-and-representation/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v4l3-democracy-republics-and-representation/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v4l4-rights-laws-and-citizenship/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v4l4-rights-laws-and-citizenship/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v4l5-comparing-government-systems/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v4l5-comparing-government-systems/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v5-revolutions-and-change/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v5-revolutions-and-change/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v5l1-why-revolutions-begin/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v5l1-why-revolutions-begin/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v5l2-enlightenment-ideas-and-political-change/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v5l2-enlightenment-ideas-and-political-change/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v5l3-american-revolution-independence-and-government/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v5l3-american-revolution-independence-and-government/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v5l4-french-and-haitian-revolutions/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v5l4-french-and-haitian-revolutions/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v5l5-industrial-revolution-and-social-change/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v5l5-industrial-revolution-and-social-change/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v6-modern-world-connections/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v6-modern-world-connections/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v6l1-world-wars-and-global-shifts/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v6l1-world-wars-and-global-shifts/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v6l2-cold-war-and-ideological-conflict/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v6l2-cold-war-and-ideological-conflict/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v6l3-decolonization-and-new-nations/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v6l3-decolonization-and-new-nations/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v6l4-technology-and-global-connections/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v6l4-technology-and-global-connections/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v6l5-modern-global-challenges/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v6l5-modern-global-challenges/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v7-economics-and-global-systems/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v7-economics-and-global-systems/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v7l1-scarcity-choice-and-opportunity-cost/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v7l1-scarcity-choice-and-opportunity-cost/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v7l2-supply-demand-and-markets/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v7l2-supply-demand-and-markets/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v7l3-economic-systems-market-command-and-mixed/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v7l3-economic-systems-market-command-and-mixed/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v7l4-trade-globalization-and-interdependence/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v7l4-trade-globalization-and-interdependence/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v7l5-personal-finance-public-policy-and-economic-decision-making/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v7l5-personal-finance-public-policy-and-economic-decision-making/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v8-american-and-civic-life-capstone/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v8-american-and-civic-life-capstone/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v8l1-foundations-of-american-government/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v8l1-foundations-of-american-government/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v8l2-rights-liberties-and-responsibilities/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v8l2-rights-liberties-and-responsibilities/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v8l3-elections-media-and-civic-participation/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v8l3-elections-media-and-civic-participation/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v8l4-public-policy-and-local-action/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v8l4-public-policy-and-local-action/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v8l5-civic-life-capstone-evidence-deliberation-and-action/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/social-studies-mini-labs/v8l5-civic-life-capstone-evidence-deliberation-and-action/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/us-history/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/us-history/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/us-history/american-revolution/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/us-history/american-revolution/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/us-history/constitution-separation-powers/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/us-history/constitution-separation-powers/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/visual-history/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/visual-history/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/visual-history/library/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/visual-history/library/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-history/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-history/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-history/columbian-exchange/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-history/columbian-exchange/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-history/first-civilizations/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-history/first-civilizations/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/african-origins-spirituality/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/african-origins-spirituality/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/studying-religion-historically/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/studying-religion-historically/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v0-start-here/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v0-start-here/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v1-introduction/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v1-introduction/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v1l1-what-is-religion/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v1l1-what-is-religion/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v1l2-sacred-stories-historical-evidence/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v1l2-sacred-stories-historical-evidence/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v1l3-rituals-symbols-sacred-space/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v1l3-rituals-symbols-sacred-space/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v1l4-ethics-rules-social-order/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v1l4-ethics-rules-social-order/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v1l5-religions-spread-change/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v1l5-religions-spread-change/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v2-african-origins/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v2-african-origins/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v2l1-africa-meaning-making/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v2l1-africa-meaning-making/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v2l2-ancestors-community-memory/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v2l2-ancestors-community-memory/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v2l3-nature-spirits-sacred-landscapes/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v2l3-nature-spirits-sacred-landscapes/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v2l4-oral-tradition-griots/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v2l4-oral-tradition-griots/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v2l5-migration-exchange-cultural-influence/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v2l5-migration-exchange-cultural-influence/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v3-the-rise-of-polytheism/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v3-the-rise-of-polytheism/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v3l1-why-many-gods-systems-of-divine-roles/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v3l1-why-many-gods-systems-of-divine-roles/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v3l2-mesopotamia-city-states-temples-and-priests/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v3l2-mesopotamia-city-states-temples-and-priests/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v3l3-egypt-divine-kingship-and-the-afterlife/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v3l3-egypt-divine-kingship-and-the-afterlife/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v3l4-greece-and-rome-myth-civic-life-and-empire/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v3l4-greece-and-rome-myth-civic-life-and-empire/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v3l5-religion-and-power-in-ancient-states/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v3l5-religion-and-power-in-ancient-states/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v4-judaism-and-monotheism/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v4-judaism-and-monotheism/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v4l1-origins-and-covenant-abraham-to-early-israel/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v4l1-origins-and-covenant-abraham-to-early-israel/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v4l2-torah-law-and-ethical-living/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v4l2-torah-law-and-ethical-living/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v4l3-kingdom-temple-and-national-story/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v4l3-kingdom-temple-and-national-story/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v4l4-exile-return-and-survival/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v4l4-exile-return-and-survival/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v4l5-judaism-under-empires-persian-to-roman-context/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v4l5-judaism-under-empires-persian-to-roman-context/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v5-christianitys-emergence-from-judaism/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v5-christianitys-emergence-from-judaism/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v5l1-judea-under-rome-the-world-of-jesus/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v5l1-judea-under-rome-the-world-of-jesus/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v5l2-jesus-teachings-movement-and-tension/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v5l2-jesus-teachings-movement-and-tension/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v5l3-crucifixion-roman-authority-and-local-leadership/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v5l3-crucifixion-roman-authority-and-local-leadership/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v5l4-from-jewish-sect-to-gentile-faith/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v5l4-from-jewish-sect-to-gentile-faith/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v5l5-rome-and-the-rise-of-a-state-religion/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v5l5-rome-and-the-rise-of-a-state-religion/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v6-the-rise-of-islam/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v6-the-rise-of-islam/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v6l1-arabia-before-islam-society-trade-and-belief/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v6l1-arabia-before-islam-society-trade-and-belief/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v6l2-muhammad-and-the-quran/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v6l2-muhammad-and-the-quran/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v6l3-the-ummah-community-law-and-identity/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v6l3-the-ummah-community-law-and-identity/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v6l4-expansion-and-caliphates/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v6l4-expansion-and-caliphates/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v6l5-sunni-and-shia-a-historical-split/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v6l5-sunni-and-shia-a-historical-split/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v7-power-politics-and-religion/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v7-power-politics-and-religion/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v7l1-religion-and-state-power-basic-patterns/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v7l1-religion-and-state-power-basic-patterns/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v7l2-empire-conversion-and-cultural-blending/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v7l2-empire-conversion-and-cultural-blending/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v7l3-conflict-when-politics-wears-a-religious-label/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v7l3-conflict-when-politics-wears-a-religious-label/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v7l4-the-crusades-as-a-case-study/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v7l4-the-crusades-as-a-case-study/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v7l5-tolerance-pluralism-and-persecution/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v7l5-tolerance-pluralism-and-persecution/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v8-religion-today-in-america/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v8-religion-today-in-america/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v8l1-religious-freedom-and-the-american-framework/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v8l1-religious-freedom-and-the-american-framework/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v8l2-christianity-in-america-diversity-and-influence/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v8l2-christianity-in-america-diversity-and-influence/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v8l3-judaism-in-america-community-and-identity/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v8l3-judaism-in-america-community-and-identity/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v8l4-islam-in-america-community-and-misconceptions/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v8l4-islam-in-america-community-and-misconceptions/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "lessons/world-religions/v8l5-dialogue-skills-disagreeing-with-respect/",
+      "code": 200,
+      "url": "https://examinethepast.com/lessons/world-religions/v8l5-dialogue-skills-disagreeing-with-respect/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "licensing/",
+      "code": 200,
+      "url": "https://examinethepast.com/licensing/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "maps/",
+      "code": 200,
+      "url": "https://examinethepast.com/maps/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "refund/",
+      "code": 200,
+      "url": "https://examinethepast.com/refund/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "shop/",
+      "code": 200,
+      "url": "https://examinethepast.com/shop/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "teacher-tools/",
+      "code": 200,
+      "url": "https://examinethepast.com/teacher-tools/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "teacher-tools/ai-in-education/",
+      "code": 200,
+      "url": "https://examinethepast.com/teacher-tools/ai-in-education/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "teacher-tools/blooms-taxonomy/",
+      "code": 200,
+      "url": "https://examinethepast.com/teacher-tools/blooms-taxonomy/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "teacher-tools/certification-prep/",
+      "code": 200,
+      "url": "https://examinethepast.com/teacher-tools/certification-prep/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "teacher-tools/certification-prep/final/",
+      "code": 200,
+      "url": "https://examinethepast.com/teacher-tools/certification-prep/final/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "teacher-tools/certification-prep/foundations/",
+      "code": 200,
+      "url": "https://examinethepast.com/teacher-tools/certification-prep/foundations/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "teacher-tools/certification-prep/readiness/",
+      "code": 200,
+      "url": "https://examinethepast.com/teacher-tools/certification-prep/readiness/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "teacher-tools/classroom-management/",
+      "code": 200,
+      "url": "https://examinethepast.com/teacher-tools/classroom-management/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "teacher-tools/curriculum-design/",
+      "code": 200,
+      "url": "https://examinethepast.com/teacher-tools/curriculum-design/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "teacher-tools/learning-styles/",
+      "code": 200,
+      "url": "https://examinethepast.com/teacher-tools/learning-styles/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "teacher-tools/movies-in-the-classroom/",
+      "code": 200,
+      "url": "https://examinethepast.com/teacher-tools/movies-in-the-classroom/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "timeline/",
+      "code": 200,
+      "url": "https://examinethepast.com/timeline/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "today/",
+      "code": 200,
+      "url": "https://examinethepast.com/today/",
+      "content_type": "text/html; charset=utf-8"
+    }
+  ]
+}
