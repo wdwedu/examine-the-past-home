@@ -20,6 +20,9 @@
 .game-tile.coming:hover{transform:translateY(-5px) scale(1.008)}
 @media(max-width:640px){.game-tile{min-height:220px}.game-tile h2,.game-tile.featured h2{min-height:0}}
 @media(prefers-reduced-motion:reduce){.game-tile:hover,.game-tile:focus-visible{transform:none}}
+/* Extra breathing room between the Games grid and the shared footer. */
+.games-hall{padding-bottom:clamp(118px,11vw,176px)!important}
+@media(max-width:640px){.games-hall{padding-bottom:86px!important}}
 </style></head><body data-music-autoplay="false"><main class="games-hall"><section class="intro"><div class="eyebrow">EXAMINE THE PAST • INTERACTIVE EXPERIENCES</div><h1>Games</h1><p>Choose Your Challenge. Unlock the Past.</p></section><section class="games-grid" aria-label="History games collections">
 <a class="game-tile featured" href="history-unlocked/" data-etp-transition="time"><div class="tile-top"><span class="tile-tag">50 Interactive Challenges</span></div><div><h2>History Unlocked</h2><p>Enter the original vault of historical games: Time Rush, History Case Files, Connections, Map Quest, Who in Time?, Source Lab, Build the Past, and more.</p><div class="tile-cta">Enter History Unlocked →</div></div></a>
 <a class="game-tile tile-blue" href="presidential-challenges/" data-etp-transition="time"><div class="tile-top"><span class="tile-tag">Six Interactive Games</span></div><div><h2>Presidential Challenges</h2><p>Explore several interactive presidential games featuring portraits, history Bingo, mysteries, timelines, connections, and category challenges.</p><div class="tile-cta">See Presidential Game Challenges →</div></div></a>
