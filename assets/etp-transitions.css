@@ -5,3 +5,53 @@
 .etp-ink{background:#050806!important}
 .etp-ink:before{background:#060b07!important;box-shadow:13vmin 4vmin 0 -2vmin #060b07,-12vmin 8vmin 0 -3vmin #060b07,7vmin -12vmin 0 -2vmin #060b07,0 0 25px #94ff534c!important}
 .etp-timeline:before{background:linear-gradient(90deg,transparent,#fff200,#94ff53,transparent)!important}
+
+/* Five CINEMATIC TRANSITIONS — Examine the Past.
+   Brand: #fff200 / #94ff53 on midnight blue, emerald, burgundy and black.
+   Existing effects remain untouched. No external video, imagery or sound requests. */
+.etp-cine-stage{position:absolute;inset:0;overflow:hidden;perspective:950px;background:radial-gradient(circle,#12283f 0%,#071014 38%,#020305 74%);isolation:isolate}
+.etp-cine-stage>span{position:absolute;display:block}
+.etp-warp-tunnel .etp-cine-stage{background:radial-gradient(ellipse at center,#103047 0 4%,#173d2b 12%,#020806 36%,#010205 73%)}
+.etp-cine-core{inset:43%;border-radius:50%;background:#010301;box-shadow:0 0 40px 13px #94ff5390,0 0 110px 35px #fff20043;animation:etpCineCore 1.4s ease-in forwards}
+.etp-cine-ring{left:50%;top:50%;height:min(44vmin,410px);width:min(44vmin,410px);border:clamp(2px,.6vmin,6px) solid;border-color:#94ff53 #fff200 #94ff53 #3d9ed2;border-radius:50%;box-shadow:0 0 16px #94ff5377,inset 0 0 16px #fff2005d;opacity:0;--z:calc(var(--i) * .07s);animation:etpCineTunnel 1.08s var(--z) cubic-bezier(.1,.6,.22,1) forwards}
+.etp-cine-streak{left:50%;top:50%;height:2px;width:50vw;transform-origin:left center;transform:rotate(var(--a));background:linear-gradient(90deg,#fff20066,#94ff53,transparent 82%);filter:drop-shadow(0 0 5px #94ff53);opacity:0;animation:etpCineStreak .74s calc(var(--i)*.018s) ease-out forwards}
+@keyframes etpCineTunnel{0%{opacity:0;transform:translate(-50%,-50%) rotate(0) scale(.05)}25%{opacity:.94}85%{opacity:.75}100%{opacity:0;transform:translate(-50%,-50%) rotate(450deg) scale(7)}}
+@keyframes etpCineStreak{0%{opacity:0;scale:.1}35%{opacity:1}100%{opacity:0;scale:2.8}}
+@keyframes etpCineCore{0%{opacity:0;transform:scale(.15)}47%{opacity:1}100%{opacity:0;transform:scale(17)}}
+.etp-temporal-spiral .etp-cine-stage{background:radial-gradient(circle at center,#081709 0 7%,#113157 17%,#050608 52%,#010203 100%)}
+.etp-cine-spiral-core{inset:29%;border-radius:50%;border:2px solid #94ff53;box-shadow:0 0 70px #94ff5384,inset 0 0 70px #fff20073;animation:etpCineSpiralCore 1.34s ease-in forwards}
+.etp-cine-ribbon{left:50%;top:50%;height:clamp(80px,30vmin,340px);width:clamp(80px,30vmin,340px);border-radius:50%;border:clamp(3px,.7vmin,8px) solid transparent;border-left-color:#fff200;border-top-color:#94ff53;border-right-color:#326ab1;filter:drop-shadow(0 0 14px #94ff53b3);opacity:0;animation:etpCineRibbon 1.3s calc(var(--i)*.035s) cubic-bezier(.5,.1,.15,1) forwards}
+.etp-cine-spiral-spark{left:50%;top:50%;width:35vw;height:2px;transform-origin:0 0;transform:rotate(var(--a));background:linear-gradient(90deg,#fff200,#94ff53,transparent);animation:etpCineSpark 1.23s calc(var(--i)*.022s) ease-in forwards}
+@keyframes etpCineRibbon{0%{opacity:0;transform:translate(-50%,-50%) rotate(0) scale(3)}22%{opacity:1}85%{opacity:1}100%{opacity:0;transform:translate(-50%,-50%) rotate(900deg) scale(.03)}}
+@keyframes etpCineSpiralCore{0%{opacity:.1;transform:scale(1.9)}70%{opacity:1}100%{opacity:0;transform:scale(.05)}}
+@keyframes etpCineSpark{0%{opacity:0;scale:.1}35%{opacity:.9;scale:1.6}100%{opacity:0;scale:.05;rotate:180deg}}
+.etp-rotating-library .etp-cine-stage{background:radial-gradient(ellipse at center,#273b31,#10162c 50%,#030305 90%);perspective:900px}
+.etp-cine-room{position:absolute;inset:7% -20%;display:flex;align-items:stretch;justify-content:center;gap:1vw;transform-style:preserve-3d;animation:etpCineLibrary 1.58s cubic-bezier(.3,.2,.25,1) both}
+.etp-cine-shelf{position:relative;flex:1;max-width:18vw;border:clamp(5px,1vw,13px) solid #2d2117;border-top-color:#705126;border-bottom-color:#624218;background:repeating-linear-gradient(0deg,#10100d 0 19%,#946532 19.4% 20%,#18120c 21% 40%);box-shadow:inset 0 0 25px #000,0 0 10px #94ff5324;display:flex;align-items:flex-end;justify-content:space-around;gap:2px;overflow:hidden}
+.etp-cine-book{display:block;position:relative;align-self:flex-end;height:calc(40% + var(--j)*5%);flex:1;max-width:20px;margin-bottom:9%;background:linear-gradient(90deg,#142e42,#46203c 30%,#184533 65%,#615014);border-left:1px solid #c9bc686e;border-right:2px solid #050606}
+.etp-cine-library-light{inset:0;background:radial-gradient(circle at 50% 38%,#fff20055,transparent 43%);mix-blend-mode:screen;animation:etpCineLibLight 1.57s ease-out forwards}
+@keyframes etpCineLibrary{0%{opacity:0;transform:rotateY(-55deg) scale(.65) translateX(-30%)}25%{opacity:1;transform:rotateY(-15deg) scale(.95)}62%{transform:rotateY(115deg) scale(1.15)}100%{opacity:0;transform:rotateY(260deg) scale(1.9) translateX(10%)}}
+@keyframes etpCineLibLight{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.etp-earth-portal .etp-cine-stage{background:radial-gradient(ellipse at center,#0b3450 0 11%,#0b1e2c 36%,#040706 68%,#010201 100%)}
+.etp-cine-earth{left:50%;top:50%;width:min(42vmin,390px);height:min(42vmin,390px);border-radius:50%;transform:translate(-50%,-50%);background:radial-gradient(circle at 26% 23%,#346c8d,#153654 48%,#071224 72%);box-shadow:inset -18px -10px 36px #010507,0 0 24px #76d4e4b3,0 0 75px #94ff533f;overflow:hidden;animation:etpCineEarth 1.51s ease-in-out forwards}
+.etp-cine-earth-continent{display:block;position:absolute;inset:9%;background:radial-gradient(ellipse at 27% 27%,#94ff53 0 6%,transparent 7%),radial-gradient(ellipse at 55% 46%,#2c894c 0 16%,transparent 17%),radial-gradient(ellipse at 78% 70%,#4d9b38 0 11%,transparent 12%),radial-gradient(ellipse at 18% 74%,#94ff53 0 12%,transparent 13%);filter:blur(3px);animation:etpCineContinent .78s linear infinite alternate}
+.etp-cine-earth-glow{left:50%;top:50%;width:min(60vmin,520px);height:min(60vmin,520px);border:2px solid #fff200af;border-radius:50%;box-shadow:0 0 25px #fff20044;transform:translate(-50%,-50%);animation:etpCineEarthHalo 1.4s ease-in both}
+.etp-cine-orbit{left:50%;top:50%;width:min(65vmin,600px);height:min(22vmin,220px);border:2px solid #94ff53;border-left-color:#fff200;border-right-color:#fff200;border-radius:50%;box-shadow:0 0 15px #94ff5380;transform:translate(-50%,-50%) rotate(calc(var(--i)*30deg));opacity:0;animation:etpCineOrbit 1.5s calc(var(--i)*.035s) ease-in forwards}
+.etp-cine-earth-center{inset:0;background:radial-gradient(circle at center,transparent 1%,#94ff5323 10%,transparent 49%);animation:etpCineEarthLight 1.5s ease-in forwards}
+@keyframes etpCineEarth{0%{opacity:0;transform:translate(-50%,-50%) rotate(-60deg) scale(.2)}35%{opacity:1}80%{opacity:1}100%{opacity:0;transform:translate(-50%,-50%) rotate(280deg) scale(5)}}
+@keyframes etpCineContinent{to{transform:translateX(22%)}}
+@keyframes etpCineEarthHalo{0%{opacity:0;scale:.4}45%{opacity:1}100%{opacity:0;scale:3}}
+@keyframes etpCineOrbit{0%{opacity:0;scale:.3}45%{opacity:1}100%{opacity:0;scale:3;rotate:210deg}}
+@keyframes etpCineEarthLight{0%{opacity:0}70%{opacity:.7}100%{opacity:0}}
+.etp-keyhole-passage .etp-cine-stage{background:radial-gradient(ellipse at center,#1d2f20 0%,#050706 66%)}
+.etp-cine-door-left,.etp-cine-door-right{top:-5%;bottom:-5%;width:50.2%;background:repeating-linear-gradient(90deg,#140d0d 0 7%,#301e17 7.5% 18%,#0c0a0b 19% 20%);border:clamp(4px,.9vw,13px) solid #6a3e22;box-shadow:inset 0 0 65px #000,0 0 28px #000;animation:etpCineDoor 1.42s cubic-bezier(.6,.1,.4,1) forwards}
+.etp-cine-door-left{left:0;transform-origin:left;--direction:-1}
+.etp-cine-door-right{right:0;transform-origin:right;--direction:1}
+.etp-cine-keyhole{left:50%;top:50%;width:clamp(30px,7vmin,95px);height:clamp(50px,11vmin,145px);background:radial-gradient(circle at 50% 29%,#fff200 0 19%,transparent 20%),linear-gradient(110deg,#94ff53,#fff200);clip-path:polygon(24% 0,76% 0,93% 22%,75% 42%,100% 100%,0 100%,25% 42%,7% 22%);filter:drop-shadow(0 0 20px #fff200);transform:translate(-50%,-50%);animation:etpCineKeyhole 1.42s ease-in forwards}
+.etp-cine-keyhole-light{inset:0;background:radial-gradient(circle at center,#fff20088,#94ff5350 19%,transparent 65%);opacity:0;animation:etpCineKeyLight 1.42s ease-in forwards}
+.etp-cine-key-beam{left:50%;top:50%;width:45vmax;height:2px;transform-origin:left;transform:rotate(calc(var(--i)*51deg));background:linear-gradient(90deg,#fff200,#94ff5390,transparent);opacity:0;animation:etpCineBeam 1.35s ease-in forwards}
+@keyframes etpCineDoor{0%,19%{transform:translateX(0)}58%{transform:translateX(calc(var(--direction)*16%))}100%{transform:translateX(calc(var(--direction)*110%))}}
+@keyframes etpCineKeyhole{0%{opacity:0;scale:.3}30%{opacity:1;scale:1}100%{opacity:0;scale:15}}
+@keyframes etpCineKeyLight{0%,22%{opacity:0}48%{opacity:1}100%{opacity:0;transform:scale(2)}}
+@keyframes etpCineBeam{0%,26%{opacity:0;scale:.1}54%{opacity:1}100%{opacity:0;scale:3}}
+@media(prefers-reduced-motion:reduce){.etp-cine-stage,.etp-cine-stage *{animation:none!important;transition:none!important}#etpTransitionOverlay.active .etp-cine-stage{background:#040906}}
