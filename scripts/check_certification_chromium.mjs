@@ -27,7 +27,7 @@ async function checkReadability(page,selectors,section) {
     const luminance=c=>{const a=c.map(x=>x/255).map(x=>x<=.04045?x/12.92:Math.pow((x+.055)/1.055,2.4));return .2126*a[0]+.7152*a[1]+.0722*a[2]};
     const x=luminance(fg),y=luminance(bg);
     const ratio=(Math.max(x,y)+.05)/(Math.min(x,y)+.05);
-    check(ratio>=4.5,section+" readable "+selector+" ("+ratio.toFixed(2)+":1)");
+    check(ratio>=4.5,section+" readable "+selector+" ("+ratio.toFixed(2)+":1, colors "+JSON.stringify(color)+")");
   }
 }
 
