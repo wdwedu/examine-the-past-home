@@ -455,3 +455,56 @@ body.hall-visual-demo .etp-jukebox-card{font-family:Georgia,"Times New Roman",se
 .etp-genre-grid{grid-template-columns:1fr 1fr!important}
 .etp-track-list{grid-template-columns:1fr;max-height:300px}
 }
+
+/* Hall desktop navigation: keep the shared homepage icon row, with a visible
+   working menu button on the far right. Uses the existing shared toggle logic. */
+@media(min-width:760px){
+ body.hall-visual-demo #etpSiteHeader .etp-header-inner{
+   position:relative;display:flex;align-items:center;justify-content:center;
+   max-width:1120px!important;min-height:78px;overflow:visible!important;
+   padding:10px 12px!important;gap:12px
+ }
+ body.hall-visual-demo #etpSiteHeader .etp-icon-nav{
+   display:flex!important;flex:1 1 auto;width:auto;min-width:0;
+   gap:clamp(8px,1vw,17px);justify-content:center;align-items:center
+ }
+ body.hall-visual-demo #etpSiteHeader .etp-mobile-toggle{
+   display:flex!important;flex:0 0 44px;width:44px;height:44px;
+   padding:0;align-items:center;justify-content:center;flex-direction:column;
+   gap:5px;margin:0 0 0 auto;background:transparent;border:1px solid #94ff534d;
+   color:#fff;border-radius:8px;cursor:pointer;order:10;
+ }
+ body.hall-visual-demo #etpSiteHeader .etp-mobile-toggle span{
+   width:25px;height:2px;border-radius:3px;background:#f7f7f2;
+ }
+ body.hall-visual-demo #etpSiteHeader .etp-mobile-toggle:hover,
+ body.hall-visual-demo #etpSiteHeader .etp-mobile-toggle:focus-visible{
+   border-color:#94ff53;box-shadow:0 0 13px #94ff5350;outline:2px solid #fff200;
+   outline-offset:2px
+ }
+ body.hall-visual-demo #etpSiteHeader .etp-mobile-panel{
+   position:absolute;display:block;top:100%;left:auto;right:12px;
+   width:min(440px,calc(100vw - 24px));z-index:2147483000;
+   max-height:calc(100dvh - 100px);overflow:auto;
+   background:linear-gradient(180deg,#0d100e,#050605 88%);
+   border:1px solid #94ff5340;border-radius:0 0 13px 13px;
+   padding:12px;box-shadow:0 18px 40px #000b
+ }
+ body.hall-visual-demo #etpSiteHeader .etp-mobile-panel[hidden]{display:none!important}
+ body.hall-visual-demo #etpSiteHeader .etp-mobile-heading{
+   color:#fff200;font:700 .8rem Georgia,serif;letter-spacing:.05em;margin:12px 4px 7px
+ }
+ body.hall-visual-demo #etpSiteHeader .etp-mobile-grid,
+ body.hall-visual-demo #etpSiteHeader .etp-mobile-group{
+   display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px
+ }
+ body.hall-visual-demo #etpSiteHeader .etp-mobile-panel a,
+ body.hall-visual-demo #etpSiteHeader .etp-mobile-sound{
+   display:grid;grid-template-columns:28px 1fr;align-items:center;
+   gap:7px;min-height:44px;padding:7px;border-radius:9px;
+   background:#ffffff06;color:#f7f7f2;text-align:left;text-decoration:none
+ }
+ body.hall-visual-demo #etpSiteHeader .etp-mobile-panel a:hover{
+   background:#94ff5317;color:#fff200
+ }
+}
