@@ -39,8 +39,8 @@ function scene(sc){
   const f=sc.portraits[i];
   if(previous!==null){bottom+=188;const diff=f.sort_year-previous;if(diff>12)bottom+=Math.min(68,Math.round(Math.log2(diff+1)*8));else if(diff>3)bottom+=14}
   stops.append(person(f,bottom));
-  if(i===bonusAfter){stops.append(makeMarker(sc,"bonus",markerTitles[sc.id-1],bottom+246));bottom+=126}
-  if(sc.challenge_marker&&i===eraAfter){stops.append(makeMarker(sc,"era","Era Challenge",bottom+246));bottom+=126}
+  if(i===bonusAfter){stops.append(makeMarker(sc,"bonus",markerTitles[sc.id-1],bottom+270));bottom+=160}
+  if(sc.challenge_marker&&i===eraAfter){stops.append(makeMarker(sc,"era","Era Challenge",bottom+270));bottom+=160}
   previous=f.sort_year;
  }
  stops.style.height=(bottom+284)+"px";s.append(stops);return s;
