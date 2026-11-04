@@ -284,7 +284,7 @@ Promise.all([
  getJson(hallData+"biographies-02.json?v=20261104-bios-v1"),
  getJson(hallData+"biographies-03.json?v=20261104-bios-v1"),
  getJson(hallData+"phase1-catalog.json?v=20261104-bios-v1"),
- getJson(hallData+"alliance-activities.json?v=20261104-alliance-v1")
+ getJson(hallData+"alliance-activities.json?v=20261104-alliance-v2")
 ]).then(([data,geometry,activities,biographies1,biographies2,biographies3,catalog,alliances])=>{
  const profiles=[...biographies1.entries,...biographies2.entries,...biographies3.entries];
  const expectedIds=new Set(data.scenes.flatMap(sc=>sc.portraits.map(f=>f.id)));
