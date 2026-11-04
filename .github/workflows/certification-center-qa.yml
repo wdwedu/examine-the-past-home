@@ -20,3 +20,7 @@ jobs:
           python-version: "3.12"
       - name: Validate all three 5941 exam banks and page links
         run: python scripts/check_certification_center.py
+      - name: Install DOM smoke-test runtime
+        run: npm install --no-save --no-package-lock jsdom@24
+      - name: Simulate guided practice and both timed exams
+        run: node scripts/check_certification_browser.mjs
