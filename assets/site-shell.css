@@ -197,3 +197,22 @@ html,body{background:#000}
 .etp-sound-bars i:nth-child(5){height:9px;animation-delay:1s}
 @keyframes etpSoundBar{0%,100%{transform:scaleY(.7);opacity:.75}50%{transform:scaleY(1.12);opacity:1}}
 @media(prefers-reduced-motion:reduce){.etp-sound-bars i{animation:none}}
+
+/* Shared site-wide Share interface (replaces old Community navigation shortcut). */
+.etp-share-overlay[hidden]{display:none!important}
+.etp-share-overlay{position:fixed;inset:0;z-index:2147483250;display:grid;place-items:center;padding:20px;font-family:Georgia,serif}
+.etp-share-shade{position:absolute;inset:0;background:#000d;backdrop-filter:blur(6px)}
+.etp-share-dialog{position:relative;z-index:1;width:min(540px,100%);max-height:90vh;overflow:auto;border:1px solid #94ff53;border-radius:18px;padding:27px 22px;background:linear-gradient(145deg,#122e4b,#091a16 73%,#050709);box-shadow:0 25px 70px #000}
+.etp-share-kicker{color:#94ff53;font:bold 11px Georgia,serif;letter-spacing:.13em;text-align:center}
+.etp-share-dialog h2{font:bold clamp(24px,4vw,33px) Georgia,serif;color:#fff200;text-align:center;margin:10px 40px}
+.etp-share-dialog p{text-align:center;color:#f0f1eb;margin:12px 0 22px}
+.etp-share-close{position:absolute;right:13px;top:10px;border:0;background:transparent;color:#fff200;font-size:29px;cursor:pointer}
+.etp-share-social{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+.etp-share-social a{padding:11px 3px;border:1px solid #8dc47a66;border-radius:10px;display:flex;flex-direction:column;align-items:center;gap:9px;background:#061216aa;color:#fff;text-decoration:none;font:700 11px Georgia,serif;text-align:center;min-width:0}
+.etp-share-social a img{width:28px;height:28px;object-fit:contain}
+.etp-share-social a:hover,.etp-share-social a:focus-visible{border-color:#fff200;outline:2px solid #94ff53;outline-offset:2px}
+.etp-share-controls{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:22px}
+.etp-share-controls button{border:1px solid #94ff53;border-radius:10px;background:#102f21;color:#fff200;padding:11px 16px;font:bold 14px Georgia,serif;cursor:pointer}
+.etp-share-status{display:block;text-align:center;color:#94ff53;min-height:16px;margin-top:12px;overflow-wrap:anywhere}
+body.etp-sharing{overflow:hidden}
+@media(max-width:500px){.etp-share-dialog{padding:22px 13px}.etp-share-social{grid-template-columns:repeat(3,minmax(0,1fr))}}
