@@ -27,3 +27,15 @@ The previous Phase 2 environment allocations were based on the year of each pers
 - [ ] Verify historical death dates and same-year ordering against reliable sources; ancient traditions must not be passed off as documented biographies.
 - [ ] Build complete researched multi-page Bio Activities, varied Alliance Challenges and eight Era Challenges.
 - [ ] Create final connected interior museum backgrounds **after** approving portrait positions and scene heights.
+
+## Phase 6 — Interactive museum presentation (2026-11-03)
+- Left portrait frames rotate **+26° clockwise** and slightly in 3D; right frames rotate **−26° counterclockwise**. Hover/focus/tap brings the frame to a full front-facing angle, lifts it and brightens the glow. Names, dates and Bio remain upright.
+- Replaced perspective triangle floor with a continuous **46%-width parallel-sided floor** and fixed 27% wall boundaries through all 12 galleries; no vanishing-point transformation between scenes.
+- Positioned **12 individually titled historical challenge buttons** and **8 Era Challenge buttons** in dedicated central-floor gaps. Their yellow transparent lettering glows continuously and pulses once when approached, using IntersectionObserver; no achievements are awarded by previews.
+- Added a slim **sticky Legacy Ledger** directly beneath the site's shared navigation: Alliances 0/141, Legacy Credits 0/100, Era Seals 0/8. It replaces the shared reading controls on Hall pages only. Entrance repeats these three totals.
+- Built a complete **visual certificate template** at the very top of the Hall with a recipient-name placeholder, score fields and eight unearned seals. Watermark says PREVIEW / NOT YET EARNED. The certificate is **not** awarded or downloadable until scoring is implemented.
+- Moved contextual notes and consolidated historical references into a collapsed research section at the entrance, preserving the source-links-at-bottom rule.
+- Modal preview overlay sits above both sticky navigation and scorebar. Reduced-motion visitors do not receive flashing arrival animation.
+- Static integrity tests passed: 141 mapped unique portraits, ascending chronological order, 20 markers including eight Era Challenges, eight certificate seals, JS syntax and HTML div balance on both Hall routes.
+
+**Still pending:** rendered desktop/mobile browser QA, final scenery, historical source validation for approximate dates, and the actual activity/scoring/certificate-award logic.
