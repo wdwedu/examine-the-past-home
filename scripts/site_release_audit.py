@@ -57,7 +57,7 @@ for path,doc in scan.items():
  if not doc.heading or "h1" not in doc.heading:
   # The 60 mini-lab routes render an actual semantic H1 via the shared engine.
   dynamic_lab=bool(re.search(r'<body[^>]*data-lesson-id=',page_text,re.I)) and "phase3-mini-lab-engine.js" in page_text
-  redirected=bool(re.search(r'<meta[^>]*http-equiv=["\\']refresh',page_text,re.I)) and "location.replace" in page_text
+  redirected=("http-equiv=\"refresh\"" in page_text.lower() or "http-equiv='refresh'" in page_text.lower()) and "location.replace" in page_text
   if not (dynamic_lab or redirected):issue("warning","missing_h1",path,"No h1, including generated page inspection")
  for k,c in Counter(doc.ids).items():
   if c>1:issue("error","duplicate_id",path,k+" appears "+str(c)+" times")
