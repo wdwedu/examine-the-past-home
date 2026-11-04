@@ -26,3 +26,8 @@ body.hall-visual-demo{background:#030604;color:#f7f8f3;font-family:Georgia,"Time
 .hv-mobile .hv-pair{max-width:390px}.hv-mobile .hv-rows{padding:20px 10px 45px;gap:20px}.hv-mobile .hv-person{flex-basis:143px;min-height:161px}.hv-mobile .hv-row{min-height:164px}.hv-mobile .hv-scene::after{left:28%;width:44%}
 @media(max-width:700px){.hv-rows{padding:22px 10px 43px;gap:21px}.hv-row{min-height:156px}.hv-person{flex-basis:clamp(125px,41%,148px);min-height:156px;padding:8px 6px}.hv-person b{font-size:12px}.hv-person small{font-size:10px}.hv-avatar{width:43px;height:43px;font-size:17px}.hv-pair-head{font-size:13px}.hv-head{padding:25px 9px}.hv-header{padding:20px 2px 15px}.hv-scene::after{left:28%;width:44%}.hv-visual-toggle{display:none}.hv-source{word-break:break-word}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}}
+
+/* Automatically installed portrait crops preserve wall-card sizing at all breakpoints. */
+.hv-image{display:block;width:94px;height:94px;max-width:100%;aspect-ratio:1;object-fit:cover;border-radius:12px;border:2px solid #fff20096;box-shadow:0 5px 15px #0009}
+.hv-person:has(.hv-image){min-height:192px}
+@media(max-width:700px){.hv-image{width:82px;height:82px}.hv-person:has(.hv-image){min-height:178px}}
