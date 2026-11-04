@@ -1,0 +1,30 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Timeline Shuffle | Examine the Past</title><link rel="stylesheet" href="../../assets/black-history-games.css?v=20261104-games-v3"></head><body><main class="bhg-wrap"><a class="bhg-back" href="../../lessons/black-history/">← Black History Games</a><h1>Timeline Shuffle</h1><p class="bhg-desc">Put six historical events in order, earliest to latest. Drag cards or use the earlier/later arrows.</p><div class="bhg-stats"><span id="round">Six historical events</span><span id="score">Arrange the timeline</span><button id="shuffle" type="button" class="bhg-action">Shuffle Events</button></div><div class="bhg-clue"><strong>EARLIEST ↑ TO LATEST ↓</strong>Which event happened first? Which came later?</div><div id="list" aria-label="Reorder the historical events"></div><div class="bhg-stats"><button id="check" class="bhg-next" type="button">Check My Timeline</button><button id="show" class="bhg-action" type="button" hidden>Show Correct Order</button></div><p id="status" class="bhg-status" role="status" aria-live="polite"></p></main><script>
+(()=>{"use strict";const $=x=>document.getElementById(x);const events=[
+{id:"bh-002",year:1324,event:"Mansa Musa makes his famous pilgrimage to Mecca."},
+{id:"bh-006",year:1770,event:"Crispus Attucks is killed during the Boston Massacre."},
+{id:"bh-008",year:1773,event:"Phillis Wheatley's book of poems is published in London."},
+{id:"bh-010",year:1804,event:"Haiti declares independence after the revolution."},
+{id:"bh-027",year:1849,event:"Harriet Tubman escapes slavery in Maryland."},
+{id:"bh-028",year:1862,event:"Robert Smalls pilots a Confederate vessel to Union lines."},
+{id:"bh-029",year:1881,event:"Booker T. Washington becomes the founding principal of Tuskegee Institute."},
+{id:"bh-063",year:1947,event:"Jackie Robinson joins the Brooklyn Dodgers, breaking baseball's modern color barrier."},
+{id:"bh-096",year:1955,event:"Rosa Parks is arrested for refusing to surrender her bus seat in Montgomery."},
+{id:"bh-062",year:1957,event:"Ghana becomes independent with Kwame Nkrumah as prime minister."},
+{id:"bh-102",year:1994,event:"Nelson Mandela is elected South Africa's president in its first inclusive national election."}];
+let people=new Map(),items=[],checked=false,dragged=null;
+const shuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
+function draw(){const host=$("list");host.replaceChildren();items.forEach((e,i)=>{const f=people.get(e.id),card=document.createElement("article");card.className="bhg-timeline-choice";card.draggable=!checked;card.dataset.id=e.id;card.style.display="flex";card.style.alignItems="center";card.style.gap="12px";card.style.margin="9px 0";
+const img=document.createElement("img");img.src="../../assets/hall-of-legends/portraits/"+f.source_artwork;img.alt="";img.style.cssText="height:75px;width:67px;object-fit:contain;flex:none";const content=document.createElement("div");content.style.flex="1";const text=document.createElement("strong");text.textContent=(i+1)+". "+e.event;content.append(text);if(checked){const date=document.createElement("div");date.style.color="#fff200";date.textContent="Year: "+e.year;content.append(date);}const actions=document.createElement("div");actions.style.cssText="display:flex;flex-direction:column;gap:4px";
+for(const [label,d] of [["↑",-1],["↓",1]]){const b=document.createElement("button");b.type="button";b.className="bhg-action";b.style.padding="5px 11px";b.textContent=label;b.setAttribute("aria-label","Move "+e.event+" "+(d<0?"earlier":"later"));b.disabled=checked||i+d<0||i+d>=items.length;b.addEventListener("click",()=>move(i,i+d));actions.append(b);}
+card.addEventListener("dragstart",event=>{dragged=i;event.dataTransfer.effectAllowed="move";});
+card.addEventListener("dragover",event=>{if(!checked)event.preventDefault();});
+card.addEventListener("drop",event=>{event.preventDefault();if(!checked&&dragged!==null)move(dragged,i);dragged=null;});
+card.append(img,content,actions);host.append(card);});}
+function move(a,b){if(checked||a===b)return;const [x]=items.splice(a,1);items.splice(b,0,x);draw();}
+function start(){checked=false;items=shuffle(events).slice(0,6);items=shuffle(items);$("status").textContent="Place all six cards in chronological order.";$("score").textContent="Arrange the timeline";$("check").hidden=false;$("show").hidden=true;draw();window.BHGameFX?.sound("start");}
+$("check").addEventListener("click",()=>{if(checked)return;checked=true;let correct=items.filter((e,i)=>i===0||items[i-1].year<e.year).length;const perfect=items.every((e,i)=>e.id===[...items].sort((a,b)=>a.year-b.year)[i].id);$("score").textContent=perfect?"Perfect timeline!":"Check the historical years";$("status").textContent=perfect?"Excellent! Every event is in historical order.":"Review the years on the cards, then select Show Correct Order.";if(perfect){window.BHGameFX?.sound("win");window.BHGameFX?.confetti(document.body,70);}else window.BHGameFX?.sound("start");$("show").hidden=perfect;draw();});
+$("show").addEventListener("click",()=>{items.sort((a,b)=>a.year-b.year);$("status").textContent="Historical order shown. Shuffle to try a new six-event set.";$("show").hidden=true;draw();});
+$("shuffle").addEventListener("click",()=>{if(people.size)start();});
+fetch("../hall-of-legends/data/death-chronology.json").then(r=>r.json()).then(d=>{people=new Map(d.scenes.flatMap(s=>s.portraits).map(f=>[f.id,f]));if(events.some(e=>!people.has(e.id)))throw Error("Missing portrait");start();}).catch(()=>{$("status").textContent="Timeline assets unavailable. Please refresh.";});
+})();
+</script><script src="../../assets/black-history-game-fx.js?v=20261104-a"></script><script src="../../assets/site-shell.js" data-etp-root="../../"></script></body></html>
