@@ -3,7 +3,7 @@ const $=id=>document.getElementById(id);
 const mk=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e};
 const container=$("hv-journey"),overlay=$("hv-demo-overlay");
 const siteRoot=document.body.dataset.siteRoot||"../../../",hallData=document.body.dataset.hallData||"../data/";
-const reduceMotion=()=>window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
+const reduceMotion=()=>window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;\nfunction jumpTo(id){const el=$(id);if(el)el.scrollIntoView({behavior:reduceMotion()?"instant":"smooth",block:id==="hv-summit"?"start":"end"});}\nfor(const [button,target] of [["hv-jump-top","hv-summit"],["hv-jump-bottom","hv-entrance"]]){const b=$(button);if(b)b.addEventListener("click",()=>jumpTo(target));}
 let lastFocus=null,closeTimer=null;
 function finishClose(){
  clearTimeout(closeTimer);closeTimer=null;overlay.hidden=true;
@@ -52,13 +52,27 @@ document.addEventListener("keydown",e=>{
  if(e.shiftKey&&document.activeElement===list[0]){e.preventDefault();list.at(-1).focus()}
  else if(!e.shiftKey&&document.activeElement===list.at(-1)){e.preventDefault();list[0].focus()}
 });
+function figureDates(f){
+ const life=String(f.lifespan_or_period||"").trim();
+ const death=String(f.display_date||"").trim();
+ // Modern biographical ranges represent birth and death years, unlike ancient reigns.
+ const match=life.match(/^(c\\.\\s*)?(\\d{3,4})\\s*[–-]\\s*(c\\.\\s*)?(\\d{3,4})(?=\\s|$|·)/);
+ if(match && !/reign|regency|service|term/i.test(life)){
+  return "Born "+(match[1]||"")+match[2]+" · Died "+(match[3]||"")+match[4];
+ }
+ if(/^Born\\s/i.test(life)){
+  return life+(death&&!life.includes(death)?" · "+death:"");
+ }
+ if(life && death && life!==death)return life+" · "+death;
+ return life||death||"Dates not established";
+}
 function person(f,slot){
  const c=mk("article","hv-person hv-person--"+f.side),
        unit=mk("div","hv-frame-unit"),
        face=mk("button","hv-portrait-button"),
        name=mk("b","hv-person-name",f.name),
-       date=mk("small","hv-person-date",f.display_date),
-       bio=mk("button","hv-bio-link","Bio");
+       date=mk("small","hv-person-date",figureDates(f)),
+       bio=mk("button","hv-bio-link","Bio Activity");
  c.dataset.figureId=f.id;if(f.id==="bh-121")c.id="hv-queen-start";
  c.style.setProperty("--bottom",slot.bottom_px+"px");
  face.type="button";face.setAttribute("aria-label","Highlight portrait of "+f.name);face.setAttribute("aria-pressed","false");
@@ -72,9 +86,9 @@ function person(f,slot){
   document.querySelectorAll(".hv-person--active").forEach(el=>{el.classList.remove("hv-person--active");el.querySelector(".hv-portrait-button")?.setAttribute("aria-pressed","false")});
   if(active){c.classList.add("hv-person--active");face.setAttribute("aria-pressed","true")}
  });
- bio.type="button";bio.setAttribute("aria-label","Read biography of "+f.name);
+ bio.type="button";bio.setAttribute("aria-label","Open biography activity for "+f.name);
  bio.addEventListener("click",()=>openPreview({
-  title:f.name,dates:f.lifespan_or_period+" · "+f.display_date,
+  title:f.name,dates:figureDates(f),
   description:"Discover this figure's life, choices, and historical legacy. A researched biography and interactive branching scenario will be available here.",
   file:f.source_artwork,kind:"bio",reward:"1 Alliance upon successful completion"
  }));
@@ -101,7 +115,7 @@ function scene(sc,geo,activityMap){
  for(const [prop,val] of [["--h-sky",sc.palette.sky],["--h-wall",sc.palette.walls],["--h-ground",sc.palette.ground]])s.style.setProperty(prop,val);
  const light=mk("div","hv-vignette");light.setAttribute("aria-hidden","true");s.append(light);
  const head=mk("header","hv-head");
- head.append(mk("h2","",sc.title));
+ head.append(mk("h2","",sc.title));\n const direction=mk("span","hv-chapter-up","↑");direction.setAttribute("aria-hidden","true");head.append(direction);
  const stops=mk("div","hv-stops");stops.style.height=geo.scene_height_px+"px";
  const figures=new Map(sc.portraits.map(f=>[f.id,f]));
  for(const slot of geo.slots){
