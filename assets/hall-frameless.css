@@ -138,3 +138,13 @@ body.hall-visual-demo .hv-chronology .hv-frame-unit .hv-bio-link:focus-visible{
  background-size:100% 100%,100% 100%;
 }
 .hv-chronology[data-chapter="11"] .hv-stops::before{content:none!important}
+
+/* Chapter 12 — New Possibilities and Living Memory. Image loads after upload to assets/halls. */
+body.hall-visual-demo .hv-chronology[data-chapter="12"] .hv-stops{
+ background-color:#100e0b;
+ background-image:linear-gradient(to bottom,rgba(0,0,0,.67),transparent 5%,transparent 94%,rgba(0,0,0,.73)),url("halls/hall-chapter-12-new-possibilities-and-living-memory.webp");
+ background-position:center center,center center;
+ background-repeat:no-repeat,no-repeat;
+ background-size:100% 100%,100% 100%;
+}
+body.hall-visual-demo .hv-chronology[data-chapter="12"] .hv-stops::before{content:none!important}
