@@ -405,3 +405,29 @@ body.hall-visual-demo{overflow-x:clip}
 }
 /* Reduce the provisional schematic floor showing around the installed artwork. */
 .hv-chronology[data-chapter="1"] .hv-stops::before{content:none}
+
+/* Hall journey entry labels: historical era names begin BELOW the portrait corridor.
+   On a bottom-to-top ascent, the visitor reads the title before entering each era. */
+.hv-chronology .hv-head{
+ position:relative;z-index:3;display:grid;place-items:center;
+ min-height:114px;padding:27px 16px 36px;margin:0 auto;
+ border-top:1px solid rgba(148,255,83,.28);
+ background:linear-gradient(to bottom,#030603 0%,#09110b 27%,rgba(3,6,4,.85) 70%,transparent 100%);
+ text-align:center;
+}
+.hv-chronology .hv-head h2{
+ margin:0 auto;color:#94ff53;font:700 clamp(21px,3.2vw,35px)/1.17 Georgia,"Times New Roman",serif;
+ letter-spacing:.025em;text-shadow:0 2px 5px #000,0 0 16px #94ff5366;
+ max-width:960px;
+}
+.hv-chronology .hv-head .hv-count{display:none!important}
+.hv-chronology[data-chapter="1"] .hv-head{background:linear-gradient(to bottom,#070a08 0%,#10100cc9 60%,#0000)}
+/* Same site header and Jukebox as home: do not add a Hall-specific navigation or player. */
+body.hall-visual-demo #etpSiteHeader{font-family:Georgia,"Times New Roman",serif}
+body.hall-visual-demo #etpSiteHeader .etp-header-inner{max-width:920px}
+body.hall-visual-demo .etp-jukebox-overlay,
+body.hall-visual-demo .etp-jukebox-card{font-family:Georgia,"Times New Roman",serif}
+@media(max-width:759px){
+ body.hall-visual-demo #etpSiteHeader{height:46px!important;min-height:46px!important;max-height:46px!important}
+ body.hall-visual-demo #etpSiteHeader .etp-header-inner{min-height:46px!important;max-height:46px!important}
+}
