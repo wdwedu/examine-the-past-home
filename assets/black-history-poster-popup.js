@@ -22,7 +22,7 @@ popup.innerHTML='<section class="etp-poster-promo-card" role="dialog" aria-modal
 '<button type="button" class="etp-poster-promo-close" aria-label="Close poster advertisement" title="Close">×</button>'+
 '<p class="etp-poster-promo-kicker">Examine the Past · Featured Poster</p>'+
 '<h2 id="etp-poster-title" class="etp-poster-promo-title">Black History Heroes</h2>'+
-'<img class="etp-poster-promo-image" alt="Black History Heroes glossy portrait collection poster" src="'+ROOT+'assets/promos/black-history-heroes-glossy-poster.webp">'+
+'<img class="etp-poster-promo-image" alt="Black History Heroes glossy portrait collection poster" src="'+ROOT+'black-history-heroes-glossy-poster.webp">'+
 '<div class="etp-poster-promo-fallback">Explore the Black History Heroes poster on Etsy</div>'+
 '<p class="etp-poster-promo-copy">A striking collection of Black history portraits, brought together in one glossy wall display.</p>'+
 '<a class="etp-poster-promo-cta" href="'+DEST+'" target="_blank" rel="noopener noreferrer">View on Etsy ↗</a></section>';
