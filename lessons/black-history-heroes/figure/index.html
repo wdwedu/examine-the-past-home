@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Individual Black History Heroes profiles from the Examine the Past Hall of Legends."><title>Black History Hero Profile | Examine the Past</title>
+<link rel="stylesheet" href="../../../assets/site-shell.css"><link rel="stylesheet" href="../../../assets/hall-biography-reader.css?v=20261104-branch-v1">
+<style>
+body{background:#000;color:#e8efe5;font-family:Georgia,serif;margin:0}
+main{width:min(850px,94vw);margin:26px auto 60px;padding:clamp(16px,3vw,40px);border:1px solid #94ff5365;border-radius:17px;background:linear-gradient(125deg,#101e15,#030805)}
+a{color:#c7ff98}.back{display:inline-block;color:#94ff53;margin-bottom:20px}
+.eyebrow{color:#94ff53;font-size:.82rem;letter-spacing:.09em;text-transform:uppercase}
+h1{color:#fff200;font-size:clamp(28px,5vw,47px);margin:10px 0}
+h2{color:#fff200;font-size:24px}
+p{line-height:1.78;font-size:17px}
+#bio-period{color:#94ff53;font-weight:bold}
+.note{border-left:3px solid #fff200;padding:10px 17px;background:#fff2000c;color:#dce4d4}
+article section{padding:15px 0;border-top:1px solid #94ff532e}
+#bio-image{display:block;float:right;width:min(180px,33vw);max-height:220px;object-fit:contain;margin:0 0 12px 18px}
+@media(max-width:600px){#bio-image{width:104px}}
+</style></head><body>
+<main><a class="back" href="../../../games/hall-of-legends/">← Return to the Hall of Legends</a><div class="eyebrow">Examine the Past · Black History Heroes</div><img id="bio-image" alt="" hidden><h1 id="bio-title">Historical Biography</h1><div id="bio-period"></div><article id="bio-content"><p>Loading this historical profile…</p></article><p class="note">This is the published introductory Examine the Past profile. The complete classroom lesson with guided activities and supporting materials is in development; this profile does not claim to be that completed lesson.</p><p><a href="../../../games/hall-of-legends/research-atlas/">Explore the Hall's Historical Research Atlas and sources</a></p></main>
+<script>
+(async()=>{const id=new URLSearchParams(location.search).get("id");const all=await Promise.all([1,2,3].map(n=>fetch("../../../games/hall-of-legends/data/biographies-0"+n+".json").then(r=>{if(!r.ok)throw Error("Profiles unavailable");return r.json()})));const figures=await fetch("../../../games/hall-of-legends/data/death-chronology.json").then(r=>r.json());const profile=all.flatMap(x=>x.entries).find(x=>x.id===id),person=figures.scenes.flatMap(x=>x.portraits).find(x=>x.id===id);if(!profile||!person)throw Error("Profile not found");const text=(tag,content)=>{const e=document.createElement(tag);e.textContent=content;return e};document.title=person.name+" | Examine the Past";document.getElementById("bio-title").textContent=person.name;document.getElementById("bio-period").textContent=person.lifespan_or_period+" · "+person.display_date;const image=document.getElementById("bio-image");image.src="../../../assets/hall-of-legends/portraits/"+person.source_artwork;image.alt="Illustrated portrait of "+person.name;image.hidden=false;image.onerror=()=>image.hidden=true;const content=document.getElementById("bio-content");content.replaceChildren();for(const [heading,body] of [["Life and historical context",profile.overview],["Significance and historical interpretation",profile.significance],["Historical inquiry",profile.question]]){const s=document.createElement("section");s.append(text("h2",heading),text("p",body));content.append(s)}})().catch(()=>document.getElementById("bio-content").replaceChildren(document.createTextNode("This historical profile could not be loaded. Please return to the Hall and try again.")));
+</script><script src="../../../assets/site-shell.js" data-etp-root="../../../"></script></body></html>
