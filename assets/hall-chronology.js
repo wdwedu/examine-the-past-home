@@ -125,11 +125,14 @@ function person(f,slot){
   if(active){c.classList.add("hv-person--active");face.setAttribute("aria-pressed","true")}
  });
  bio.type="button";bio.setAttribute("aria-label","Open biography activity for "+f.name);
- bio.addEventListener("click",()=>openPreview({
-  title:f.name,dates:figureDates(f),
-  description:"Discover this figure's life, choices, and historical legacy. A researched biography and interactive branching scenario will be available here.",
-  file:f.source_artwork,kind:"bio",reward:"1 Alliance upon successful completion"
- }));
+ bio.addEventListener("click",()=>{
+  const profile=profileMap.get(f.id);
+  openBioWithTimeWarp({
+   title:f.name,dates:figureDates(f),
+   description:profile?.overview||"This biography is undergoing individual historical source review.",
+   file:f.source_artwork,kind:"bio",profile
+  });
+ });
  unit.append(face,name,date,bio);c.append(unit);return c;
 }
 function makeMarker(sc,slot,meta){
