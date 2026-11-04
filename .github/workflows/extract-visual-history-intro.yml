@@ -1,0 +1,72 @@
+name: Install existing Visual History introductory film
+on:
+  push:
+    paths:
+      - .github/workflows/extract-visual-history-intro.yml
+      - ETP_Visual_History_911_Web_Package_FIXED.zip
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  extract-intro:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Identify and install verified original 16-second video
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import zipfile, pathlib, subprocess, tempfile, os, shutil, json
+          zip_path=pathlib.Path("ETP_Visual_History_911_Web_Package_FIXED.zip")
+          if not zip_path.is_file(): raise SystemExit("Original package missing; nothing modified")
+          choices=[]
+          with zipfile.ZipFile(zip_path) as z, tempfile.TemporaryDirectory() as tmp:
+            media=[i for i in z.infolist() if not i.is_dir() and pathlib.PurePosixPath(i.filename).suffix.lower() in (".mp4",".webm",".m4v",".mov")]
+            print("Media entries:",[(i.filename,i.file_size) for i in media])
+            for i in media:
+              ext=pathlib.PurePosixPath(i.filename).suffix.lower()
+              target=pathlib.Path(tmp)/("candidate_"+str(len(choices))+ext)
+              with z.open(i) as source, target.open("wb") as dest: shutil.copyfileobj(source,dest)
+              probe=subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","default=noprint_wrappers=1:nokey=1",str(target)],capture_output=True,text=True)
+              try: duration=float(probe.stdout.strip())
+              except ValueError: duration=0
+              print("Candidate:",i.filename,"seconds:",duration)
+              if 12<=duration<=22:
+                title=i.filename.lower()
+                strength=2 if any(word in title for word in ("intro","opening","visual_history","visual-history","etp")) else 1
+                if "preview" in title or "promo" in title: strength-=1
+                choices.append((strength,abs(duration-16),i.filename,target,ext,duration))
+            if not choices:
+              pathlib.Path("audit").mkdir(exist_ok=True)
+              pathlib.Path("audit/visual-history-video-inspection.txt").write_text("No 12-22 second intro film found. Archive media:\n"+"\n".join(f"{i.filename} ({i.file_size} bytes)" for i in media)+"\n",encoding="utf-8")
+              print("No qualifying original intro video was found. Page left unchanged.")
+            else:
+              choices.sort(key=lambda x:(-x[0],x[1]))
+              strength,deviation,name,src,ext,duration=choices[0]
+              if ext not in (".mp4",".webm"): raise SystemExit("Candidate format unsupported; no media published")
+              directory=pathlib.Path("assets/visual-history")
+              directory.mkdir(parents=True,exist_ok=True)
+              destination=directory/("visual-history-intro"+ext)
+              shutil.copyfile(src,destination)
+              html_path=pathlib.Path("lessons/visual-history/index.html")
+              html=html_path.read_text(encoding="utf-8")
+              old='const publishedIntro="";'
+              replacement='const publishedIntro="../../assets/visual-history/visual-history-intro'+ext+'";'
+              if old in html: html=html.replace(old,replacement)
+              elif replacement not in html: raise SystemExit("Intro video URL placeholder changed; refusing unrelated edits")
+              html_path.write_text(html,encoding="utf-8")
+              pathlib.Path("audit").mkdir(exist_ok=True)
+              pathlib.Path("audit/visual-history-video-inspection.txt").write_text(f"Installed existing intro video from ZIP:\n{name}\nDuration: {duration:.2f} seconds\nWebsite path: {destination}\n",encoding="utf-8")
+              print("Installed:",name,"at",destination)
+          PY
+      - name: Commit verified film and player hookup
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/visual-history/ lessons/visual-history/index.html audit/visual-history-video-inspection.txt
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Install existing Visual History video from uploaded ZIP [skip ci]"
+          git push
