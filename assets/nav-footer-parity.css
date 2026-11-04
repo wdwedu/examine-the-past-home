@@ -67,3 +67,30 @@ footer .footer-social img{
 .etp-genre-grid{grid-template-columns:repeat(4,minmax(0,1fr))!important}
 .etp-track-list{display:grid;grid-template-columns:1fr 1fr;gap:8px;max-height:270px;overflow:auto}
 @media(max-width:600px){.etp-genre-grid{grid-template-columns:1fr 1fr!important}.etp-track-list{grid-template-columns:1fr;max-height:300px}}
+
+/* Static footers on Timeline and legacy pages use more specific wrappers. */
+footer .footer-master-wrap .footer-social,
+footer.final-etp-footer .footer-social{display:flex!important;flex-wrap:nowrap!important;gap:clamp(3px,.6vw,7px)!important;justify-content:center!important}
+footer .footer-master-wrap .footer-social a,
+footer.final-etp-footer .footer-social a{
+ box-sizing:border-box!important;display:grid!important;place-items:center!important;
+ flex:0 0 clamp(24px,3.4vw,32px)!important;width:clamp(24px,3.4vw,32px)!important;
+ height:clamp(24px,3.4vw,32px)!important;padding:2px!important;margin:0!important;
+ border-radius:50%!important;background:#090909!important;border:1px solid #ffffff29!important;
+}
+footer .footer-master-wrap .footer-social a img,
+footer.final-etp-footer .footer-social a img{
+ width:100%!important;height:100%!important;max-width:100%!important;max-height:100%!important;
+ padding:2px!important;object-fit:contain!important;border-radius:50%!important;
+}
+footer .footer-master-wrap .footer-social a[aria-label="Zazzle"],
+footer.final-etp-footer .footer-social a[aria-label="Zazzle"],
+footer a.community-dot.z-dot{
+ border-color:#fff200!important;color:#fff200!important;box-shadow:0 0 8px #fff20078!important;
+}
+@media(max-width:480px){
+ footer .footer-master-wrap .footer-social a,footer.final-etp-footer .footer-social a{
+  flex-basis:clamp(20px,7.7vw,27px)!important;
+  width:clamp(20px,7.7vw,27px)!important;height:clamp(20px,7.7vw,27px)!important;
+ }
+}
