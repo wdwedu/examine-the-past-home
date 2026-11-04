@@ -391,3 +391,17 @@ body.hall-visual-demo{overflow-x:clip}
  .hv-chronology .hv-person--left{left:9%}
  .hv-chronology .hv-person--right{right:9%}
 }
+
+/* Chapter 1 artwork preview: user-uploaded 1530 × 3168 WebP.
+   Mount it only in the 3168px portrait/activities area; retain all live foreground UI. */
+.hv-chronology[data-chapter="1"] .hv-stops{
+  background-color:#100e0b;
+  background-image:
+    linear-gradient(to bottom,rgba(0,0,0,.68) 0%,transparent 5%,transparent 94%,rgba(0,0,0,.72) 100%),
+    url("../hall-chapter-01-ancient-courts-1530x3168.webp");
+  background-position:center center,center center;
+  background-repeat:no-repeat,no-repeat;
+  background-size:100% 100%,100% 100%;
+}
+/* Reduce the provisional schematic floor showing around the installed artwork. */
+.hv-chronology[data-chapter="1"] .hv-stops::before{content:none}
