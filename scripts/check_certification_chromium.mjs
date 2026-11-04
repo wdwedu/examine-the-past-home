@@ -14,6 +14,23 @@ await mkdir(OUT,{recursive:true});
 const browser = await chromium.launch({headless:true});
 let pass=0;
 const check=(ok,label)=>{assert.ok(ok,label);console.log("PASS",label);pass++};
+
+async function checkReadability(page,selectors,section) {
+  for(const selector of selectors){
+    const color=await page.locator(selector).first().evaluate(el=>{
+      const cs=getComputedStyle(el), bg=getComputedStyle(el.closest(".question-card,.panel,.lab-head,.hero,.choice,.option,.pill,.side-card")||el).backgroundColor;
+      return {color:cs.color,background:bg,text:el.textContent?.trim().slice(0,65)};
+    });
+    const parse=str=>{const m=str.match(/rgba?\\((\\d+),\\s*(\\d+),\\s*(\\d+)/);return m?[Number(m[1]),Number(m[2]),Number(m[3])]:null};
+    const fg=parse(color.color),bg=parse(color.background);
+    assert.ok(fg&&bg,section+" color parse failed "+selector+" "+JSON.stringify(color));
+    const luminance=c=>{const a=c.map(x=>x/255).map(x=>x<=.04045?x/12.92:Math.pow((x+.055)/1.055,2.4));return .2126*a[0]+.7152*a[1]+.0722*a[2]};
+    const x=luminance(fg),y=luminance(bg);
+    const ratio=(Math.max(x,y)+.05)/(Math.min(x,y)+.05);
+    check(ratio>=4.5,section+" readable "+selector+" ("+ratio.toFixed(2)+":1)");
+  }
+}
+
 async function setup(viewport,name) {
   const context=await browser.newContext({viewport,deviceScaleFactor:1,acceptDownloads:true});
   const page=await context.newPage();
@@ -71,6 +88,7 @@ try {
   await page.locator("#finish").click();
   check((await page.locator("#result-score").innerText()).includes("120 / 120"),"Foundations score calculation");
   check(await page.locator("#earned-certificate").isVisible(),"Foundations earned certificate appears");
+  await checkReadability(page,[".question-card h2",".choice-list .choice",".side-card h3",".lab-head h1",".lab-head .pill"],"Foundations");
   await page.screenshot({path:OUT+"/foundations-results.png",fullPage:true});
   await page.emulateMedia({media:"print"});
   await page.evaluate(()=>document.body.classList.add("print-certificate"));
@@ -87,6 +105,7 @@ try {
     await page.locator("#consent").check();
     await page.locator("#start").click();
     check(await page.locator("#exam").isVisible(),exam+": exam opens");
+    await checkReadability(page,[".stem",".option",".side h3",".hero h1"],exam);
     check(await page.locator(".qjump").count()===120,exam+": 120 question navigator buttons");
     check((await page.locator("#clock").innerText()).startsWith("01:59")||(await page.locator("#clock").innerText()).startsWith("02:00"),exam+": timer running");
     await page.locator('input[name="option"]').first().check();
