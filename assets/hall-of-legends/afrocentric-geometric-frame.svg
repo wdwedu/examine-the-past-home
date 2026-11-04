@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Decorative geometric museum portrait frame">
+<defs>
+ <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1e2e20"/><stop offset=".5" stop-color="#08100a"/><stop offset="1" stop-color="#293d25"/></linearGradient>
+ <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff5a5"/><stop offset=".35" stop-color="#a8893c"/><stop offset=".68" stop-color="#e7c769"/><stop offset="1" stop-color="#8a7034"/></linearGradient>
+ <pattern id="weave" width="24" height="16" patternUnits="userSpaceOnUse">
+  <path d="M0 8L8 0L16 8L8 16Z M16 8L24 0L32 8L24 16Z" fill="none" stroke="#e8c95f" stroke-width="1.7"/>
+  <path d="M8 4L12 8L8 12L4 8Z" fill="#94ff53" opacity=".75"/>
+  <path d="M20 4L24 8L20 12L16 8Z" fill="#fff200" opacity=".6"/>
+ </pattern>
+</defs>
+<!-- Opaque ornamental perimeter with a transparent square opening; the underlying portrait stays fully visible. -->
+<path d="M0 0H200V200H0Z M17 17H183V183H17Z" fill="url(#wood)" fill-rule="evenodd"/>
+<rect x="1.5" y="1.5" width="197" height="197" rx="2" fill="none" stroke="url(#metal)" stroke-width="3"/>
+<rect x="6" y="6" width="188" height="188" fill="none" stroke="#94ff53" stroke-width="1.5" opacity=".8"/>
+<rect x="14.5" y="14.5" width="171" height="171" fill="none" stroke="url(#metal)" stroke-width="3"/>
+<path d="M8 8H192V15H8Z M8 185H192V192H8Z M8 15H15V185H8Z M185 15H192V185H185Z" fill="url(#weave)" opacity=".94"/>
+<g fill="#fff200" stroke="#15381e" stroke-width="1">
+ <path d="M0 0L15 0L0 15Z M200 0L185 0L200 15Z M0 200L15 200L0 185Z M200 200L185 200L200 185Z"/>
+ <path d="M100 2L107 9L100 16L93 9Z M100 198L107 191L100 184L93 191Z M2 100L9 93L16 100L9 107Z M198 100L191 93L184 100L191 107Z" fill="#94ff53"/>
+</g>
+</svg>
