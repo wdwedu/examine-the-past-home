@@ -93,7 +93,7 @@ try {
     await page.locator("#next").click();
     const nextLabel=await page.locator("#questionNumber").innerText();
     console.log(exam+" navigation label after Next:",JSON.stringify(nextLabel));
-    check(nextLabel.includes("2 of 120"),exam+": next-question control (found: "+nextLabel+")");
+    check(/QUESTION\s+2\s+OF\s+120/i.test(nextLabel),exam+": next-question control (found: "+nextLabel+")");
     await page.locator("#flag").click();
     check((await page.locator("#flag").innerText()).includes("Flagged"),exam+": question marking");
     await page.locator("#submit").click();
