@@ -408,8 +408,9 @@ function scene(sc,geo,activityMap){
  for(const [prop,val] of [["--h-sky",sc.palette.sky],["--h-wall",sc.palette.walls],["--h-ground",sc.palette.ground]])s.style.setProperty(prop,val);
  const light=mk("div","hv-vignette");light.setAttribute("aria-hidden","true");s.append(light);
  const head=mk("header","hv-head");
- head.append(mk("h2","",sc.title));
- const direction=mk("span","hv-chapter-up","↑");direction.setAttribute("aria-hidden","true");head.append(direction);
+ if(sc.id===1){const tour=mk("button","hv-guide-launch","How to Explore the Hall");tour.id="hv-guide-launch";tour.type="button";tour.setAttribute("aria-label","Show the Hall of Legends guided tour");head.append(tour);}
+ const line=mk("div","hv-title-row");line.append(mk("h2","",sc.title));
+ const direction=mk("span","hv-chapter-up","↑");direction.setAttribute("aria-hidden","true");line.append(direction);head.append(line);
  const stops=mk("div","hv-stops");stops.style.height=geo.scene_height_px+"px";
  const figures=new Map(sc.portraits.map(f=>[f.id,f]));
  for(const slot of geo.slots){
@@ -435,7 +436,7 @@ function activateMarkerGlow(){
 }
 function goToBeginning(smooth=false){
  const q=document.querySelector(".hv-scene[data-chapter=\"1\"] .hv-head")||$("hv-queen-start");
- if(q)q.scrollIntoView({behavior:smooth&&!reduceMotion()?"smooth":"instant",block:"center"});
+ if(q)q.scrollIntoView({behavior:smooth&&!reduceMotion()?"smooth":"instant",block:"end"});
 }
 function goToEntrance(){
  const entrance=$("hv-entrance");
@@ -449,7 +450,7 @@ document.querySelectorAll("[data-mode]").forEach(b=>b.addEventListener("click",(
 const getJson=url=>fetch(url).then(r=>{if(!r.ok)throw Error("Hall resource unavailable: "+url);return r.json()});
 Promise.all([
  getJson(hallData+"death-chronology.json?v=20261103-hall-v9"),
- getJson(hallData+"gallery-geometry.json?v=20261103-hall-v9"),
+ getJson(hallData+"gallery-geometry.json?v=20261104-start-floor-v1"),
  getJson(hallData+"activity-placement.json?v=20261103-hall-v9"),
  getJson(hallData+"biographies-01.json?v=20261104-bios-v1"),
  getJson(hallData+"biographies-02.json?v=20261104-bios-v1"),
