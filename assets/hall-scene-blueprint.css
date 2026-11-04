@@ -154,3 +154,14 @@ body.hall-visual-demo{overflow-x:clip}
  .hv-chronology .hv-portrait-button,.hv-floor-marker{transition:none!important}
  .hv-floor-marker.hv-marker--arrived{animation:none!important}
 }
+
+/* The summit certificate is the topmost Hall content; supporting research is tucked into the entrance. */
+.hv-entrance-title{color:#fff200;font:700 clamp(28px,4.8vw,48px)/1.12 Georgia,serif;margin:10px auto 18px}
+.hv-research-details{max-width:900px;margin:26px auto 8px;padding:10px 12px;border:1px solid #94ff5360;border-radius:12px;background:#08110b;text-align:left}
+.hv-research-details>summary{color:#fff200;font:700 15px Georgia,serif;cursor:pointer;padding:8px;list-style-position:inside}
+.hv-research-details>summary:hover,.hv-research-details>summary:focus-visible{color:#94ff53;outline-offset:3px}
+.hv-research-details .hv-header{padding:15px 8px}
+.hv-research-details .hv-header h1{font-size:clamp(24px,3vw,36px)}
+.hv-research-details .hv-control{margin:10px auto}
+.hv-research-details .hv-explainer{margin:12px 0}
+.hv-entrance>.hv-back{margin-top:18px}
