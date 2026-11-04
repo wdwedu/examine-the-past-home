@@ -254,6 +254,13 @@ function heroLessonUrl(id){
   :siteRoot+"lessons/black-history-heroes/figure/?id="+encodeURIComponent(id);
 }
 function renderBiography(target,profile,personName){
+ const completedHeroLessons=new Set(["bh-121","bh-122","bh-124","bh-001"]);
+ if(completedHeroLessons.has(profile.id)){
+  const lessonLink=mk("a","hv-complete-hero-lesson","Open Full Hero Lesson →");
+  lessonLink.href=heroLessonUrl(profile.id);
+  lessonLink.setAttribute("aria-label","Open the completed Hero Lesson for "+personName);
+  target.append(lessonLink);
+ }
  const featured=featuredProfiles.get(profile.id);
  if(featured){featuredBioParagraphs(target,featured);}else{appendBioSection(target,"Life and historical context",profile.overview);
  appendBioSection(target,"Why this history matters",profile.significance);}
