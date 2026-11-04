@@ -1,1 +1,44 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Visual History | Examine the Past</title><meta name="description" content="Illustrated, evidence-based visual history lessons and articles from Examine the Past."><meta property="og:title" content="Visual History | Examine the Past"><meta property="og:description" content="See history unfold through visuals, narrative and historical inquiry."><meta property="og:image" content="https://www.examinethepast.com/app-assets/icon-512.png"><link rel="stylesheet" href="../../assets/etp-visual-history.css"></head><body><main><a class="back" href="../">← History Hub</a><section class="hero"><div class="eyebrow">Examine the Past · Historical storytelling</div><h1>Visual History</h1><p class="lead">Explore pivotal moments through carefully written narratives, historical evidence, illustrated experiences, and questions worth investigating.</p><div class="actions"><a class="action" href="../../articles/september-11-2001/" data-etp-transition="page">Read September 11, 2001 →</a><a class="action" href="../../lessons/">Explore History Hub →</a></div></section><figure style="max-width:650px;margin:28px auto;text-align:center"><img src="../../assets/extracted/c2f4a6f4fb203dc338fb.png" loading="lazy" alt="September 11 Visual History lesson cover artwork" style="max-width:100%;max-height:360px;object-fit:contain;border-radius:15px"></figure><section aria-labelledby="featured"><h2 id="featured">Featured Visual History</h2><div class="cards"><article class="card"><div class="date">September 11, 2001 · United States</div><h3>September 11, 2001: A Visual History</h3><p>Understand the morning's sequence, the people affected, and the importance of evidence, remembrance, and historical context.</p><div class="actions"><a class="action" href="../../articles/september-11-2001/">Read the Visual History →</a></div></article><article class="card"><div class="date">Classroom resource</div><h3>Visual History Lesson Collection</h3><p>Purposeful visuals, guided questions, historical interpretation, and teacher-ready materials developed as complete lessons.</p><p>Additional lessons are in development.</p></article><article class="card"><div class="date">Historical inquiry</div><h3>Discover the Evidence</h3><p>Ask what the surviving sources show, what remains uncertain, and whose experiences help explain the past.</p><div class="actions"><a class="action" href="../../timeline/">Explore the Timeline →</a></div></article></div></section><p class="editorial">Visual History lessons are developed with age-appropriate, source-based instruction. Additional topics will be published as they are completed.</p></main><script src="../../assets/site-shell.js?v=20261104-nav-v4" data-etp-root="../../"></script></body></html>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Visual History | Examine the Past</title>
+<meta name="description" content="Experience Examine the Past Visual History through immersive narrated historical video.">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Examine the Past">
+<meta property="og:title" content="Visual History | Examine the Past">
+<meta property="og:description" content="Experience historical moments through visual storytelling and narration.">
+<meta property="og:image" content="https://www.examinethepast.com/assets/extracted/c2f4a6f4fb203dc338fb.png">
+<link rel="stylesheet" href="../../assets/etp-visual-history.css?v=20261104-player-v2">
+</head><body>
+<main class="vh-player-page" aria-label="Visual History video experience">
+<section class="vh-player-shell" aria-label="September 11 Visual History video">
+ <div class="vh-player-stage" id="vh-player-stage">
+  <video id="vh-film" controls playsinline preload="metadata" poster="../../assets/extracted/c2f4a6f4fb203dc338fb.png" aria-label="September 11, 2001 narrated Visual History"></video>
+  <div class="vh-player-cover" id="vh-player-cover" aria-hidden="true">
+   <img src="../../assets/extracted/c2f4a6f4fb203dc338fb.png" alt="" fetchpriority="high">
+   <div class="vh-player-cover-gradient"></div>
+  </div>
+ </div>
+ <button class="vh-play-button" type="button" id="vh-play"> <span aria-hidden="true">▶</span> Play Visual History</button>
+ <p class="vh-play-status" id="vh-play-status" role="status" aria-live="polite"></p>
+</section>
+</main>
+<script>
+(function(){
+ const film=document.getElementById("vh-film"),button=document.getElementById("vh-play"),status=document.getElementById("vh-play-status"),cover=document.getElementById("vh-player-cover");
+ // The completed video source will be registered here when a verified, playable asset is published.
+ const verifiedVideoSource="";
+ if(verifiedVideoSource){film.src=verifiedVideoSource;film.load();}
+ button.addEventListener("click",async function(){
+  if(!film.currentSrc&&!film.querySelector("source")&&!film.getAttribute("src")){
+   status.textContent="The complete narrated Visual History video has not yet been published.";
+   return;
+  }
+  cover.hidden=true;
+  try{if(film.paused){await film.play();button.innerHTML="Pause Visual History";}else{film.pause();button.innerHTML='<span aria-hidden="true">▶</span> Play Visual History';}}
+  catch(e){status.textContent="The video could not start. Use the player controls to retry.";}
+ });
+ film.addEventListener("pause",()=>{button.innerHTML='<span aria-hidden="true">▶</span> Play Visual History';});
+ film.addEventListener("ended",()=>{button.innerHTML='<span aria-hidden="true">↻</span> Replay Visual History';});
+})();
+</script>
+<script src="../../assets/site-shell.js?v=20261104-nav-v4" data-etp-root="../../"></script>
+</body></html>
