@@ -1,24 +1,37 @@
-(()=>{"use strict";const KEY="etp.hall.guide-seen.v1",reduce=()=>matchMedia("(prefers-reduced-motion: reduce)").matches;let step=0,visible=false,previous=null;
+(()=>{"use strict";
+if(document.getElementById("hv-guide-layer"))return;
+const reduced=()=>matchMedia("(prefers-reduced-motion: reduce)").matches;
 const steps=[
- {target:".hv-scene[data-chapter='1'] .hv-head",title:"Welcome to Ancient Courts",message:"Begin here and travel upward through twelve chapters of Black history.",point:"bottom"},
- {target:".hv-scene[data-chapter='1'] .hv-bio-link",title:"Meet a Historical Figure",message:"Choose Bio Activity below a portrait to explore the person's history and make decisions.",point:"bottom"},
- {target:".hv-scene[data-chapter='1'] .hv-head",title:"Continue Upward",message:"Scroll upward to explore earlier and later historical connections across the Hall.",point:"bottom"},
- {target:"#hv-scorebar .hv-score-title",title:"Your Legacy Ledger",message:"Keep track of earned Alliances here. Use the small arrows at the right to jump around the Hall.",point:"bottom"}
+ {selector:'.hv-scene[data-chapter="1"] .hv-title-row',title:"Begin at Ancient Courts",message:"Start here with Queen Makeda, Piye and Shabaka. Follow the green arrow upward."},
+ {selector:'.hv-scene[data-chapter="1"] #hv-queen-start .hv-bio-link',title:"Open Bio Activity",message:"Select Bio Activity to discover a person's story and explore their historical choices."},
+ {selector:'.hv-scene[data-chapter="1"] [data-challenge-id="legacy-01"]',title:"Legacy Reflection",message:"Look for activities along the center of the floor. New challenges will appear here."},
+ {selector:'#hv-scorebar .hv-score-title',title:"Your Legacy Ledger",message:"Track Alliances, Credits and Seals in the thin bar above the Hall. Use the arrows to move around."}
 ];
-const overlay=document.createElement("div");overlay.id="hv-guide-layer";overlay.hidden=true;overlay.innerHTML='<div class="hv-guide-bubble" role="dialog" aria-modal="false" aria-label="Hall introduction" tabindex="-1"><div class="hv-guide-step-count"></div><h3 class="hv-guide-title"></h3><p class="hv-guide-message"></p><div class="hv-guide-actions"><button type="button" class="hv-guide-skip">End Guide</button><button type="button" class="hv-guide-next">Next →</button></div></div>';document.body.append(overlay);
-const bubble=overlay.querySelector(".hv-guide-bubble");
-function position(){if(!visible)return;let target=document.querySelector(steps[step].target);if(!target)return;const rect=target.getBoundingClientRect(),width=Math.min(355,innerWidth-28);bubble.style.width=width+"px";const top=rect.bottom+16;const h=bubble.offsetHeight;const maxTop=Math.max(10,innerHeight-h-18);const placeBelow=top<=maxTop;let y=placeBelow?top:Math.max(12,rect.top-h-18),x=Math.max(12,Math.min(innerWidth-width-12,rect.left+rect.width/2-width/2));bubble.style.left=x+"px";bubble.style.top=y+"px";bubble.dataset.arrow=placeBelow?"above":"below";}
-function show(i){step=i;let t=document.querySelector(steps[i].target);if(!t){finish();return}visible=true;overlay.hidden=false;const d=steps[i];overlay.querySelector(".hv-guide-step-count").textContent="HOW TO EXPLORE · "+(i+1)+" / "+steps.length;overlay.querySelector(".hv-guide-title").textContent=d.title;overlay.querySelector(".hv-guide-message").textContent=d.message;overlay.querySelector(".hv-guide-next").textContent=i===steps.length-1?"Start Exploring ✓":"Next →";if(i!==3)t.scrollIntoView({behavior:reduce()?"auto":"smooth",block:"center"});setTimeout(()=>{position();bubble.focus({preventScroll:true})},reduce()?0:380);}
-function finish(){visible=false;overlay.hidden=true;document.body.classList.remove("hv-guide-active");try{localStorage.setItem(KEY,"yes")}catch{};const first=document.querySelector(".hv-scene[data-chapter=\"1\"] .hv-head");if(first){first.setAttribute("tabindex","-1");first.focus({preventScroll:true});}}
-function begin(){previous=document.activeElement;document.body.classList.add("hv-guide-active");show(0)}
-overlay.querySelector(".hv-guide-skip").addEventListener("click",finish);
-overlay.querySelector(".hv-guide-next").addEventListener("click",()=>step===steps.length-1?finish():show(step+1));
-document.addEventListener("keydown",e=>{if(!visible)return;if(e.key==="Escape"){e.preventDefault();finish()}});
+let current=-1,open=false;
+const layer=document.createElement("div");layer.id="hv-guide-layer";layer.hidden=true;
+layer.innerHTML='<section class="hv-guide-bubble" role="dialog" aria-label="How to explore the Hall" aria-modal="false" tabindex="-1"><div class="hv-guide-counter"></div><div class="hv-guide-title"></div><p class="hv-guide-message"></p><div class="hv-guide-controls"><button type="button" class="hv-guide-exit">End Guide</button><button type="button" class="hv-guide-next">Next →</button></div></section>';
+document.body.append(layer);const bubble=layer.querySelector(".hv-guide-bubble"),link=()=>document.getElementById("hv-guide-launch");
+function rectFor(){const e=document.querySelector(steps[current]?.selector||"");return e?.getBoundingClientRect();}
+function position(){if(!open)return;const r=rectFor();if(!r)return;const vw=innerWidth,vh=innerHeight,w=Math.min(312,vw-24);bubble.style.width=w+"px";
+const bh=bubble.offsetHeight||170,spaceBelow=vh-r.bottom,spaceAbove=r.top;
+let y,side;
+if(spaceBelow>=bh+20){y=r.bottom+13;side="above"}
+else if(spaceAbove>=bh+20){y=r.top-bh-13;side="below"}
+else{y=Math.max(12,Math.min(vh-bh-12,r.top+(r.height/2)-bh/2));side="side"}
+const x=Math.max(12,Math.min(vw-w-12,r.left+r.width/2-w/2));
+bubble.style.left=x+"px";bubble.style.top=y+"px";bubble.dataset.pointer=side;
+bubble.style.setProperty("--pointer-x",Math.max(18,Math.min(w-18,r.left+r.width/2-x))+"px");
+}
+function display(index){const e=document.querySelector(steps[index].selector);if(!e){end();return}current=index;open=true;layer.hidden=false;
+const item=steps[index];layer.querySelector(".hv-guide-counter").textContent=(index+1)+" / "+steps.length;layer.querySelector(".hv-guide-title").textContent=item.title;layer.querySelector(".hv-guide-message").textContent=item.message;layer.querySelector(".hv-guide-next").textContent=index===steps.length-1?"Explore the Hall ✓":"Next →";
+position();requestAnimationFrame(position);bubble.focus({preventScroll:true});
+}
+function end(){open=false;layer.hidden=true;current=-1;link()?.focus({preventScroll:true});}
+function start(){display(0);}
+layer.querySelector(".hv-guide-next").addEventListener("click",()=>current===steps.length-1?end():display(current+1));
+layer.querySelector(".hv-guide-exit").addEventListener("click",end);
+document.addEventListener("click",e=>{if(e.target.closest("#hv-guide-launch")){e.preventDefault();start()}});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&open){e.preventDefault();end()}});
 window.addEventListener("resize",position);
-window.addEventListener("scroll",()=>{if(visible)requestAnimationFrame(position)},{passive:true});
-let launched=false;
-document.addEventListener("etp-hall-ready",()=>{if(launched)return;launched=true;const entrance=document.querySelector("#hv-entrance");if(entrance&&!document.querySelector("#hv-guide-launch")){const btn=document.createElement("button");btn.type="button";btn.id="hv-guide-launch";btn.className="hv-guide-launch";btn.textContent="How to Explore the Hall";btn.addEventListener("click",begin);entrance.prepend(btn);}
-let seen=false;try{seen=localStorage.getItem(KEY)==="yes"}catch{}
-if(!seen&&!location.hash){setTimeout(()=>{if(!visible)begin()},800)}
-});
+window.addEventListener("scroll",()=>{if(open)requestAnimationFrame(position)},{passive:true});
 })();
