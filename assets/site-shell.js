@@ -8,6 +8,7 @@ loadCSS(u("assets/site-shell.css?v=20261015-etp-r2"),"shell-css");
 loadCSS(u("assets/etp-transitions.css?v=20261015-etp-r2"),"transitions-css");loadJS(u("assets/etp-transitions.js?v=20261015-etp-r2"),"transitions-js");
 loadCSS(u("assets/etp-experience-v50.css?v=20261015-etp-r2"),"experience-css");loadJS(u("assets/etp-experience-v50.js?v=20261102-history-jukebox"),"experience-js");
 loadCSS(u("assets/repair-v63.css?v=20261015-etp-r2"),"repair-css");loadJS(u("assets/repair-v63.js?v=20261103-hall-scorebar"),"repair-js");
+loadCSS(u("assets/nav-footer-parity.css?v=20261104-unified-v1"),"nav-footer-parity");
 const header=document.createElement("header");header.id="etpSiteHeader";
 header.innerHTML='<div class="etp-header-inner"><nav class="etp-icon-nav" aria-label="Site navigation">'+
 '<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('')+'">🏠</a><span class="etp-tip">Home</span></div>'+
@@ -27,12 +28,29 @@ header.innerHTML='<div class="etp-header-inner"><nav class="etp-icon-nav" aria-l
 document.body.prepend(header);
 const toggle=document.createElement("button");toggle.className="etp-mobile-toggle";toggle.type="button";toggle.setAttribute("aria-label","Open navigation");toggle.setAttribute("aria-expanded","false");toggle.innerHTML="<span></span><span></span><span></span>";
 const panel=document.createElement("div");panel.className="etp-mobile-panel";panel.hidden=true;
-panel.innerHTML='<div class="etp-mobile-group"><a href="'+u('')+'"><span>🏠</span><b>Home</b></a><a href="'+u('')+'#about-us"><span>ℹ️</span><b>About</b></a></div>'+
-'<div class="etp-mobile-heading">History Hub</div><div class="etp-mobile-grid"><a href="'+u('lessons/us-history/')+'" data-etp-transition="page"><span>🇺🇸</span><b>U.S. History</b></a><a href="'+u('lessons/world-history/')+'" data-etp-transition="globe"><span>🌍</span><b>World History</b></a><a href="'+u('lessons/civics-government/')+'" data-etp-transition="page"><span>🏛️</span><b>Civics & Government</b></a><a href="'+u('lessons/geography/')+'" data-etp-transition="map"><span>🗺️</span><b>Geography</b></a><a href="'+u('lessons/black-history/')+'" data-etp-transition="ink"><span>✊🏾</span><b>Black History</b></a><a href="'+u('lessons/world-religions/')+'" data-etp-transition="mosaic"><span>🕊️</span><b>World Religions</b></a></div>'+
-'<div class="etp-mobile-heading">Explore</div><div class="etp-mobile-grid"><a href="'+u('timeline/')+'" data-etp-transition="timeline"><span>⏳</span><b>Timeline</b></a><a href="'+u('maps/')+'" data-etp-transition="map"><span>🗺️</span><b>History Maps</b></a><a href="'+u('today/')+'" data-etp-transition="stamp"><span>📅</span><b>Today in History</b></a><a href="'+u('games/')+'" data-etp-transition="time"><span>🎮</span><b>Games</b></a></div>'+
-'<div class="etp-mobile-heading">Teacher Tools</div><div class="etp-mobile-grid"><a href="'+u('teacher-tools/blooms-taxonomy/')+'" data-etp-transition="page"><span>🧠</span><b>Bloom’s Taxonomy</b></a><a href="'+u('teacher-tools/movies-in-the-classroom/')+'" data-etp-transition="film"><span>🎬</span><b>Movies in the Classroom</b></a><a href="'+u('teacher-tools/classroom-management/')+'" data-etp-transition="page"><span>🏫</span><b>Classroom Management</b></a><a href="'+u('teacher-tools/learning-styles/')+'" data-etp-transition="page"><span>👥</span><b>Learner Supports</b></a></div>'+
-'<div class="etp-mobile-group etp-mobile-last"><a href="https://www.etsy.com/shop/examinethepast"><span>🛍️</span><b>Shop History</b></a><a href="'+u('')+'#community"><span>👥</span><b>Community</b></a><a href="'+u('')+'#contact-section"><span>📧</span><b>Contact Us</b></a><button class="etp-mobile-sound" type="button" data-etp-action="lights"><span>💡</span><b data-etp-lights-label>Lights Off</b></button><button class="etp-mobile-sound" type="button" data-etp-action="jukebox"><span><span class="etp-sound-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></span><b>History Jukebox</b></button></div>';
+panel.innerHTML='<div class="etp-mobile-install"><button type="button" data-etp-action="install"><span>⬇️</span><b>Install App</b></button></div>'+
+'<div class="etp-mobile-heading">Navigate</div><div class="etp-mobile-list">'+
+'<a href="'+u('')+'"><span>🏠</span><b>Home</b></a>'+
+'<a href="'+u('')+'#about-us"><span>ℹ️</span><b>About</b></a>'+
+'<a href="'+u('lessons/')+'" data-etp-transition="archive"><span>🎓</span><b>History Hub</b></a>'+
+'<a href="'+u('lessons/us-history/')+'" data-etp-transition="page"><span>🇺🇸</span><b>U.S. History</b></a>'+
+'<a href="'+u('lessons/world-history/')+'" data-etp-transition="globe"><span>🌍</span><b>World History</b></a>'+
+'<a href="'+u('lessons/civics-government/')+'" data-etp-transition="page"><span>🏛️</span><b>Civics & Government</b></a>'+
+'<a href="'+u('lessons/geography/')+'" data-etp-transition="map"><span>🗺️</span><b>Geography</b></a>'+
+'<a href="'+u('lessons/black-history/')+'" data-etp-transition="ink"><span>✊🏾</span><b>Black History</b></a>'+
+'<a href="'+u('lessons/world-religions/')+'" data-etp-transition="mosaic"><span>🕊️</span><b>World Religions</b></a>'+
+'<a href="'+u('timeline/')+'" data-etp-transition="timeline"><span>⏳</span><b>Timeline</b></a>'+
+'<a href="'+u('maps/')+'" data-etp-transition="map"><span>🗺️</span><b>History Maps</b></a>'+
+'<a href="'+u('today/')+'" data-etp-transition="stamp"><span>📅</span><b>Today in History</b></a>'+
+'<a href="'+u('games/')+'" data-etp-transition="time"><span>🎮</span><b>Games</b></a>'+
+'<a href="'+u('teacher-tools/')+'" data-etp-transition="page"><span>🧰</span><b>Teacher Tools</b></a>'+
+'<a href="https://www.etsy.com/shop/examinethepast"><span>🛍️</span><b>Shop History</b></a>'+
+'<a href="'+u('')+'#community"><span>👥</span><b>Community</b></a>'+
+'<a href="'+u('')+'#contact-section"><span>📧</span><b>Contact Us</b></a>'+
+'<button type="button" data-etp-action="jukebox"><span>🎵</span><b>History Jukebox</b></button>'+
+'</div><div class="etp-mobile-bottom"><button class="etp-mobile-sound" type="button" data-etp-action="lights"><span>💡</span><b data-etp-lights-label>Lights Off</b></button></div>';
 header.querySelector(".etp-header-inner").prepend(toggle);header.querySelector(".etp-header-inner").append(panel);
+panel.querySelector('[data-etp-action="install"]')?.addEventListener("click",e=>{e.preventDefault();if(typeof window.siteInstallApp==="function")window.siteInstallApp();else {const b=document.querySelector(".site-app-footer-text");if(b)b.click();}});
 function closeMobile(){panel.hidden=true;toggle.classList.remove("open");toggle.setAttribute("aria-expanded","false");toggle.setAttribute("aria-label","Open navigation")}
 toggle.addEventListener("click",()=>{const open=panel.hidden;panel.hidden=!open;toggle.classList.toggle("open",open);toggle.setAttribute("aria-expanded",String(open));toggle.setAttribute("aria-label",open?"Close navigation":"Open navigation")});panel.querySelectorAll("a").forEach(a=>a.addEventListener("click",closeMobile));document.addEventListener("keydown",e=>{if(e.key==="Escape")closeMobile()});
 if(!noFooter){const footer=document.createElement("footer");footer.id="etpSiteFooter";
