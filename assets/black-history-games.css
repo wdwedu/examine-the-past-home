@@ -1,2 +1,37 @@
 body{margin:0;background:#030804;color:#f5f8ef;font-family:Georgia,serif}.bhg-wrap{max-width:1100px;margin:auto;padding:28px 14px 70px}.bhg-back{color:#94ff53}.bhg-wrap h1{text-align:center;color:#fff200;font-size:clamp(32px,5vw,48px)}.bhg-desc{text-align:center;max-width:760px;margin:10px auto 20px;line-height:1.6}.bhg-stats{display:flex;justify-content:space-between;gap:15px;align-items:center;flex-wrap:wrap;background:#142b1c;border:1px solid #94ff53;border-radius:12px;padding:13px;margin:15px 0}.bhg-action,.bhg-next{background:#163723;color:#fff200;border:1px solid #94ff53;border-radius:8px;padding:10px 16px;cursor:pointer;font:700 14px Georgia,serif}.bhg-action:focus-visible,.bhg-next:focus-visible{outline:2px solid #fff200}.bhg-clue{background:linear-gradient(135deg,#12345c,#0b162d);padding:18px;border-radius:12px;border:1px solid #87b8ef;font-size:clamp(17px,2.2vw,23px);line-height:1.5;text-align:center;margin:14px 0}.bhg-clue strong{display:block;color:#94ff53;font-size:13px;margin-bottom:7px}.bhg-status{text-align:center;color:#a7ffa0;min-height:32px;margin:12px 0;font-weight:bold}.bhg-bingo-board,.bhg-board{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:7px}.bhg-card{background:linear-gradient(145deg,#173c60,#0a1a2e);color:white;border:1px solid #85b8e0;border-radius:8px;min-width:0;cursor:pointer;padding:5px}.bhg-card img{display:block;width:100%;height:clamp(45px,8vw,100px);object-fit:contain}.bhg-card span{display:block;min-height:33px;font:700 clamp(9px,1.1vw,13px)/1.3 Georgia,serif;overflow-wrap:anywhere}.bhg-card.marked{border:2px solid #94ff53;background:#17442b}.bhg-card.marked:after{content:'✓';display:block;color:#94ff53}.bhg-card.free{background:#534217;color:#fff200;font:bold 18px Georgia,serif;display:grid;place-items:center}.bhg-card:focus-visible,.bhg-card:hover:not(:disabled){outline:2px solid #fff200;outline-offset:2px}.bhg-category{background:#163e27;color:#fff;border:1px solid #94ff53;border-radius:7px;padding:15px 3px;font:700 clamp(10px,1.5vw,16px) Georgia,serif;text-align:center}.bhg-cell{background:#14365c;color:#fff200;border:1px solid #6aa2ff;border-radius:7px;min-height:65px;cursor:pointer;font:700 clamp(18px,3vw,29px) Georgia,serif}.bhg-cell:disabled{background:#0a1718;color:#718184;border-color:#27393c;cursor:default}.bhg-question[hidden]{display:none}.bhg-question{padding:18px;border:1px solid #ffe278;border-radius:12px;background:linear-gradient(140deg,#37291a,#121c31);margin-top:18px}.bhg-question h2{color:#fff200}.bhg-answers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.bhg-answer{background:#183b59;color:#fff;border:1px solid #99bfd9;border-radius:8px;padding:12px;cursor:pointer;font:700 15px Georgia,serif;min-height:45px}.bhg-answer.right{background:#1d613b}.bhg-answer.wrong{background:#733347}.bhg-answer:focus-visible,.bhg-cell:focus-visible{outline:2px solid #fff200}.bhg-reveal{display:flex;align-items:center;gap:13px;margin:12px 0}.bhg-reveal img{height:100px;width:90px;object-fit:contain}.bhg-quiet{text-align:center;color:#bbc8ba;font-size:12px;margin:20px auto}@media(max-width:620px){.bhg-bingo-board,.bhg-board{gap:3px}.bhg-card{padding:2px}.bhg-card img{height:48px}.bhg-card span{font-size:9px;min-height:44px}.bhg-category{font-size:10px;padding:9px 1px}.bhg-cell{min-height:53px;font-size:18px}.bhg-answers{grid-template-columns:1fr}}
 .bhg-board[hidden]{display:none!important}.bhg-cell:hover:not(:disabled){background:#265b91}.bhg-card.marked:disabled{opacity:1}.bhg-quiet a{color:#94ff53}
+
+/* Clearer Bingo states, brand spectrum, a black/gold free square, and celebrations. */
+.bhg-bingo-board .bhg-card:nth-child(4n+1){background:linear-gradient(145deg,#183e65,#091a2a);border-color:#89bdf8}
+.bhg-bingo-board .bhg-card:nth-child(4n+2){background:linear-gradient(145deg,#205337,#0b211b);border-color:#85e0a1}
+.bhg-bingo-board .bhg-card:nth-child(4n+3){background:linear-gradient(145deg,#58283f,#221020);border-color:#d78fac}
+.bhg-bingo-board .bhg-card:nth-child(4n){background:linear-gradient(145deg,#554015,#231d0e);border-color:#d8bd64}
+.bhg-bingo-board .bhg-card.marked{background:linear-gradient(135deg,#1b5a36,#0c2d17);border:2px solid #94ff53}
+.bhg-bingo-board .bhg-card.free{
+ background:linear-gradient(150deg,#010302,#15150b,#020302);border:2px solid #fff200;
+ box-shadow:inset 0 0 0 2px #ffffff62,0 0 13px #ffe92438;
+ color:#fff200;position:relative;min-height:96px;
+}
+.bhg-bingo-board .bhg-card.free::before{content:"✦";display:block;color:#fff;font-size:clamp(14px,2vw,25px);padding-bottom:3px}
+.bhg-bingo-board .bhg-card.free:hover,.bhg-bingo-board .bhg-card.free:focus-visible{animation:bhg-free-bounce .5s ease-in-out;box-shadow:0 0 18px #fff20088}
+@keyframes bhg-free-bounce{0%,100%{transform:translateY(0)}35%{transform:translateY(-7px)}68%{transform:translateY(2px)}}
+.bhg-bingo-board .bhg-card:focus-visible,.bhg-bingo-board .bhg-card:hover:not(:disabled){outline:2px solid #fff200;outline-offset:2px}
+.bhg-confetti-layer{position:fixed;inset:0;z-index:2147481000;pointer-events:none;overflow:hidden}
+.bhg-confetti{position:absolute;display:block;width:8px;height:14px;opacity:0;animation:bhg-confetti-fall var(--duration,1.8s) var(--delay,0s) ease-out forwards}
+@keyframes bhg-confetti-fall{0%{opacity:1;transform:translate(0,-30px) rotate(0deg)}80%{opacity:1}100%{opacity:0;transform:translate(var(--drift,40px),105vh) rotate(690deg)}}
+.bhg-image-stage{width:min(500px,100%);margin:12px auto;min-height:290px;position:relative;background:linear-gradient(150deg,#132b4b,#091c20);border:1px solid #7ebedc;border-radius:18px;display:grid;place-items:center;overflow:hidden}
+.bhg-image-stage img{width:min(290px,82%);height:280px;object-fit:contain;filter:blur(var(--blur,16px));transition:filter .65s,transform .65s}
+.bhg-image-stage.revealed img{filter:none;transform:scale(1.06)}
+.bhg-choice-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:16px auto}
+.bhg-timeline-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:12px 0}
+.bhg-timeline-choice{padding:13px;border-radius:10px;background:linear-gradient(130deg,#163454,#112719);border:1px solid #85a9ce;color:#f8f9f5;font:700 14px/1.45 Georgia,serif;cursor:pointer;text-align:left}
+.bhg-timeline-choice.active{border-color:#fff200;box-shadow:0 0 12px #fff20065;background:#514019}
+.bhg-timeline-choice:focus-visible,.bhg-timeline-choice:hover:not(:disabled){outline:2px solid #fff200;outline-offset:2px}
+.bhg-match-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.bhg-match-grid .bhg-card{min-height:160px}
+.bhg-match-grid .bhg-card.selected{outline:3px solid #fff200;background:#4c3916}
+.bhg-match-grid .bhg-card.matched{background:#1d6137;border:2px solid #94ff53;opacity:.9}
+.bhg-game-subtitle{color:#b3ffbd;font-weight:700;letter-spacing:.06em}
+.bhg-tile-message{padding:14px;border-left:4px solid #ffe165;background:#47331555;border-radius:8px;line-height:1.6}
+@media(max-width:650px){.bhg-match-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.bhg-match-grid .bhg-card{min-height:130px}.bhg-timeline-choice{font-size:12px;padding:11px}.bhg-image-stage img{height:235px}.bhg-image-stage{min-height:245px}}
+@media(prefers-reduced-motion:reduce){.bhg-bingo-board .bhg-card.free:hover{animation:none!important}.bhg-confetti-layer{display:none!important}.bhg-image-stage img{transition:none!important}}
