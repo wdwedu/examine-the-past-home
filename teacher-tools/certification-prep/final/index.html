@@ -73,6 +73,7 @@ const two=x=>String(x).padStart(2,"0");
 function clock(){if(!active||submitted)return;const remaining=Math.max(0,deadline-Date.now()),sec=Math.ceil(remaining/1000);$("clock").textContent=two(Math.floor(sec/3600))+":"+two(Math.floor(sec/60)%60)+":"+two(sec%60);$("clock").className="clock"+(remaining<60000?" urgent":remaining<600000?" warning":"");if(remaining<=0)submit(true)}
 function jump(i){if(!active||submitted||i<0||i>=N)return;position=i;render();$("stem").focus({preventScroll:true});window.scrollTo(0,0)}
 function lockExamContrast(){
+const hero=document.querySelector(".hero");if(hero)hero.style.setProperty("background","#eff3f7","important");
 const selectors=".hero h1,.hero p,.intro h2,.intro p,.intro li,.intro label,.panel h2,.panel h3,.panel p,.panel .small,.panel .area,.panel .area strong,.panel .area small,#results>h2,#results>p,.stem";
 document.querySelectorAll(selectors).forEach(node=>{if(node.closest(".cert,.bar"))return;node.style.setProperty("color","#172638","important")});
 }
