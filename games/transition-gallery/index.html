@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cinematic Transition Studio | Examine the Past</title>
+<meta name="description" content="Preview five original branded cinematic transition and audio experiences for Examine the Past.">
+<link rel="stylesheet" href="../../assets/etp-transitions.css?v=20261104-cinematic-5-v1">
+<style>
+:root{color-scheme:dark}*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% -25%,#193953,#070f0b 60%,#020503);color:#f2f4ee;font:16px/1.55 Georgia,serif}
+main{max-width:1080px;margin:auto;padding:28px clamp(14px,4vw,35px) 90px}
+a{color:#94ff53}.eyebrow{text-transform:uppercase;letter-spacing:.12em;color:#94ff53;font-size:12px;font-weight:700;text-align:center}
+h1{text-align:center;color:#fff200;font-size:clamp(30px,5vw,55px);margin:9px 0}
+.intro{text-align:center;margin:0 auto 26px;max-width:750px;color:#dbece0}
+.controls{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;border:1px solid #547e69;border-radius:14px;padding:14px;background:#091811}
+.controls button,.card button{border:1px solid #94ff53;border-radius:9px;color:#fff200;background:#163422;padding:10px 16px;cursor:pointer;font:bold 14px Georgia,serif}
+.controls button:hover,.controls button:focus-visible,.card button:hover,.card button:focus-visible{outline:2px solid #fff200;outline-offset:2px}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:22px}
+.card{position:relative;overflow:hidden;display:flex;flex-direction:column;background:linear-gradient(145deg,#102d50,#081d19 80%,#030805);border:1px solid #609d9299;border-radius:17px;padding:22px;min-height:230px}
+.card:nth-child(3){background:linear-gradient(145deg,#4a2137,#101827)}.card:nth-child(4){background:linear-gradient(145deg,#12432f,#081b31)}.card:nth-child(5){background:linear-gradient(145deg,#463615,#101724)}
+.card .id{font-size:12px;letter-spacing:.11em;color:#94ff53;font-weight:700}
+.card h2{font-size:25px;color:#fff200;margin:9px 0 4px}
+.card p{margin:6px 0 8px;color:#ebf2e9}.card .sound{font-size:12px;color:#c8e7be;margin-bottom:15px}
+.card button{margin-top:auto;align-self:flex-start}
+.note{font-size:13px;color:#c6d2c7;margin-top:25px;text-align:center}
+#status{color:#fff200;min-height:22px;font-weight:bold}
+@media(max-width:650px){.cards{grid-template-columns:1fr}.card{min-height:205px}}
+@media(prefers-reduced-motion:reduce){.card{transition:none}}
+</style></head><body>
+<main>
+<a href="../../games/">← Games</a>
+<div class="eyebrow">Examine the Past · Design Preview</div>
+<h1>Cinematic Transition Studio</h1>
+<p class="intro">Explore five new historical passage effects. Every preview includes its own original sound. The signature rising time warp is preserved, with deep gradients and bright yellow and green accents.</p>
+<div class="controls"><div><strong>Preview sound</strong><p style="margin:2px 0;font-size:13px;color:#c9d9ca">Follows the website's sound preference.</p></div><button id="sound" type="button" aria-pressed="true">Sound On</button><span id="status" role="status" aria-live="polite"></span></div>
+<section class="cards" aria-label="Five cinematic effects">
+<article class="card"><span class="id">01 · Temporal passage</span><h2>Time Warp Tunnel</h2><p>Rings of emerald and gold rush toward the viewer, pulling the present into a distant historical world.</p><p class="sound">Sound: layered rising time warp + deep accelerating resonance.</p><button data-preview="warp-tunnel">Preview Time Warp</button></article>
+<article class="card"><span class="id">06 · Spiraling time</span><h2>Temporal Spiral</h2><p>Yellow, green and midnight-blue light ribbons turn into an inward-moving vortex.</p><p class="sound">Sound: reversed tonal rotation resolving into our signature rising warp.</p><button data-preview="temporal-spiral">Preview Spiral</button></article>
+<article class="card"><span class="id">17 · Historical architecture</span><h2>Rotating Library</h2><p>Dark wooden shelves and colorful book spines swing around a luminous central passage.</p><p class="sound">Sound: mellow mechanical rotation, soft bell harmonics.</p><button data-preview="rotating-library">Preview Library</button></article>
+<article class="card"><span class="id">39 · Earth emblem</span><h2>Globe Transformation</h2><p>A deep-blue historical Earth rotates within glowing yellow-green orbital rings and expands into the next scene.</p><p class="sound">Sound: deep planetary sweep and two luminous tones.</p><button data-preview="earth-portal">Preview Globe</button></article>
+<article class="card"><span class="id">46 · Secret passage</span><h2>Through the Keyhole</h2><p>Antique doors part around a glowing keyhole as the camera moves toward the new room.</p><p class="sound">Sound: a clean latch followed by a compact time warp.</p><button data-preview="keyhole-passage">Preview Keyhole</button></article>
+</section>
+<p class="note">These are code-rendered visual effects and synthesized original cues. Nothing is downloaded during playback. If your device requests reduced motion, the preview remains disabled.</p>
+</main>
+<script src="../../assets/etp-transitions.js?v=20261104-cinematic-5-v1"></script>
+<script>
+(()=>{const $=id=>document.getElementById(id);let enabled=true;try{enabled=localStorage.getItem("etp-sfx")!=="off"}catch{}
+const sound=$("sound"),status=$("status");function sync(){sound.textContent=enabled?"Sound On":"Sound Off";sound.setAttribute("aria-pressed",String(enabled));window.ETPTransitions?.setSound(enabled)}
+sync();sound.addEventListener("click",()=>{enabled=!enabled;try{localStorage.setItem("etp-sfx",enabled?"on":"off")}catch{}sync()});
+for(const button of document.querySelectorAll("[data-preview]")){button.addEventListener("click",()=>{if(!window.ETPTransitions){status.textContent="Preview is unavailable.";return;}if(window.matchMedia("(prefers-reduced-motion: reduce)").matches){status.textContent="Reduced-motion preference is active.";return;}
+status.textContent="Playing "+button.closest(".card").querySelector("h2").textContent;window.ETPTransitions.preview(button.dataset.preview)})}
+})();
+</script>
+</body></html>
