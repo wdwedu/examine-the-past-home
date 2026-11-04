@@ -355,7 +355,10 @@ Promise.all([
  allianceMap=new Map(alliances.entries.map(q=>[q.id,q]));
  restoreAlliances(expectedIds);
  profileMap=new Map(profiles.map(p=>[p.id,p]));
- sourceMap=new Map(catalog.figures.map(f=>[f.id,(f.date_sources||[]).filter(u=>/^https:\/\//.test(u))]));
+ sourceMap=new Map(catalog.figures.map(f=>[f.id,(f.date_sources||[]).filter(u=>
+  /^https:\/\//.test(u)&&
+  /^https:\/\/(?:[^/]+\.)?(?:si\.edu|metmuseum\.org|nm\.cz|libretexts\.org|ebsco\.com|dacb\.org|dw\.com|oup\.com|cambridge\.org|presidentiallibrary\.go\.ke)(?:\/|$)/i.test(u)
+ )]));
  const scs=data.scenes,gs=geometry.scenes;
  if(scs.length!==12||gs.length!==12||scs.reduce((n,s)=>n+s.figure_count,0)!==141||
     activities.legacy_activities.length!==20||activities.era_challenges.length!==8||
