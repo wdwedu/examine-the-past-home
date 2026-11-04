@@ -290,3 +290,11 @@ body.hall-visual-demo .hv-feature-factcheck{
  body.hall-visual-demo .hv-branching-activity,
  body.hall-visual-demo .hv-branching-activity .hv-alliance-choice{transition:none!important}
 }
+
+/* Preserve the Hall’s green / yellow title system above centered portraits. */
+body.hall-visual-demo .hv-demo-dialog>.hv-tag,
+body.hall-visual-demo .hv-demo-dialog .hv-tag{display:block!important;text-align:center!important;color:#94ff53!important;font:700 12px/1.4 Georgia,serif!important;letter-spacing:.08em!important;margin:0 auto 12px!important}
+body.hall-visual-demo .hv-demo-dialog #hv-demo-image{display:block;margin:8px auto!important;max-width:min(230px,72%)!important;object-fit:contain!important}
+body.hall-visual-demo .hv-demo-dialog #hv-demo-image[hidden]{display:none!important}
+body.hall-visual-demo .hv-demo-dialog #hv-demo-name{text-align:center!important;color:#fff200!important;margin:11px 0 4px!important}
+body.hall-visual-demo .hv-demo-dialog #hv-demo-dates{text-align:center!important;color:#94ff53!important}
