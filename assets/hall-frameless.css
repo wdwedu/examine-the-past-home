@@ -1,0 +1,58 @@
+/* Hall of Legends — frameless gallery refinement, 2026-11-03.
+   Preserves existing portraits, biography actions, responsive positioning and chapter logic. */
+body.hall-visual-demo .hv-chronology .hv-frame-unit,
+body.hall-visual-demo .hv-chronology .hv-person:hover .hv-frame-unit,
+body.hall-visual-demo .hv-chronology .hv-person:focus-within .hv-frame-unit,
+body.hall-visual-demo .hv-chronology .hv-person--active .hv-frame-unit{
+  border:0!important;border-radius:0!important;padding:0!important;
+  background:transparent!important;box-shadow:none!important;
+}
+body.hall-visual-demo .hv-chronology .hv-portrait-button,
+body.hall-visual-demo .hv-mobile .hv-chronology .hv-portrait-button,
+body.hall-visual-demo .hv-chronology .hv-person:hover .hv-portrait-button,
+body.hall-visual-demo .hv-chronology .hv-person--active .hv-portrait-button{
+  border:0!important;border-radius:0!important;padding:0!important;
+  background:transparent!important;box-shadow:none!important;
+  overflow:visible!important;
+}
+body.hall-visual-demo .hv-chronology .hv-portrait-button::after{content:none!important;background:none!important;display:none!important}
+body.hall-visual-demo .hv-chronology .hv-portrait-button .hv-image{
+  background:transparent!important;border:0!important;border-radius:0!important;
+  box-shadow:none!important;padding:0!important;
+  filter:drop-shadow(0 8px 12px rgba(0,0,0,.65));
+  transition:transform .32s ease,filter .32s ease;
+}
+body.hall-visual-demo .hv-chronology .hv-person:hover .hv-image,
+body.hall-visual-demo .hv-chronology .hv-person:focus-within .hv-image,
+body.hall-visual-demo .hv-chronology .hv-person--active .hv-image{
+  transform:translateY(-4px) scale(1.045);
+  filter:drop-shadow(0 0 10px rgba(255,242,0,.45)) drop-shadow(0 10px 14px rgba(0,0,0,.65));
+}
+body.hall-visual-demo .hv-chronology .hv-frame-unit .hv-person-name,
+body.hall-visual-demo .hv-chronology .hv-frame-unit .hv-person-date{
+  border:0!important;border-radius:6px!important;
+  width:auto!important;max-width:100%!important;align-self:center!important;
+  background:rgba(0,0,0,.38)!important;
+  box-shadow:none!important;text-align:center!important;
+  padding:4px 9px!important;margin:2px 0 0!important;
+  text-shadow:0 1px 4px #000,0 0 5px #000;
+}
+body.hall-visual-demo .hv-chronology .hv-frame-unit .hv-person-date{color:#f5f1e2!important;font-size:clamp(10px,1vw,12px)}
+body.hall-visual-demo .hv-chronology .hv-frame-unit .hv-bio-link{
+  width:auto!important;min-width:66px!important;align-self:center!important;
+  margin:6px auto 0!important;padding:8px 14px!important;
+  border:0!important;border-radius:999px!important;
+  background:rgba(0,0,0,.44)!important;
+  color:#fff200!important;box-shadow:0 0 9px rgba(148,255,83,.22)!important;
+  transition:transform .25s ease,box-shadow .25s ease,background .25s ease!important;
+}
+body.hall-visual-demo .hv-chronology .hv-frame-unit .hv-bio-link:hover,
+body.hall-visual-demo .hv-chronology .hv-frame-unit .hv-bio-link:focus-visible{
+  transform:translateY(-3px) scale(1.06)!important;
+  background:rgba(3,12,5,.68)!important;
+  box-shadow:0 0 11px rgba(255,242,0,.7),0 0 24px rgba(148,255,83,.42)!important;
+}
+@media(prefers-reduced-motion:reduce){
+ body.hall-visual-demo .hv-chronology .hv-portrait-button .hv-image,
+ body.hall-visual-demo .hv-chronology .hv-frame-unit .hv-bio-link{transition:none!important;transform:none!important}
+}
