@@ -1,0 +1,2739 @@
+{
+  "project": "Black History Heroes: Hall of Legends",
+  "phase": "4b - single-upload install bundle",
+  "build_date": "2026-11-03",
+  "total_images": 141,
+  "main_collection_images": 120,
+  "additional_african_images": 21,
+  "quality_status": {
+    "standard_source_crops": 120,
+    "text_free_tight_face_crops_from_african_additions": 21,
+    "full_headgear_restoration_may_be_desirable": 8
+  },
+  "publication_note": "Working gallery portraits for interface installation, NOT authenticated historical likenesses. For the 21 added African leaders, outer lettered areas were cropped; full headgear and historical visual interpretations need later approval. No machine-generated corrections to historical faces were used.",
+  "sources_disclaimer": "All images are stylized artistic interpretations and are not necessarily historic likenesses; original source artwork attribution and usage rights require publisher confirmation.",
+  "files": [
+    {
+      "portrait_id": 1,
+      "filename": "001.webp",
+      "proposed_name": "Sundiata Keita",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "1 Sundiata Keita.png",
+      "original_number": 1,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "3a2e001fd5e646208278550617ffda17c6a37b146400b20b94e5b199576f8736",
+      "bytes": 33650
+    },
+    {
+      "portrait_id": 2,
+      "filename": "002.webp",
+      "proposed_name": "Mansa Musa",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "2 Mansa Musa.png",
+      "original_number": 2,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "6aaa98776b2e0d1404d787bb42d77b044090e7992fdeeba53964b1b48e56537b",
+      "bytes": 40742
+    },
+    {
+      "portrait_id": 3,
+      "filename": "003.webp",
+      "proposed_name": "King Afonso",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "3 King Afonso.png",
+      "original_number": 3,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "5e5c31187707378e3fb097e9c88f8efb0954d31738e87916fa5506759c4463f6",
+      "bytes": 33548
+    },
+    {
+      "portrait_id": 4,
+      "filename": "004.webp",
+      "proposed_name": "Amina (Queen of Zazzau)",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "4 Amina (Queen of Zazzau).png",
+      "original_number": 4,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "b6cace45414402a27d04a79e468a93287c2ae6217a1fa8b48a2f236f95ba95cb",
+      "bytes": 45214
+    },
+    {
+      "portrait_id": 5,
+      "filename": "005.webp",
+      "proposed_name": "Queen Nzinga",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "5 Queen Nzinga.png",
+      "original_number": 5,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "1d6e43e29351c1924580b8824cdec3028b4aad5041e5f1443766e8780d6bd95f",
+      "bytes": 48274
+    },
+    {
+      "portrait_id": 6,
+      "filename": "006.webp",
+      "proposed_name": "Crispus Attucks",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "6 Crispus Attucks.png",
+      "original_number": 6,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "e10784211cb7cd79a4dd369db1df6f484f36b5cb62c15ed3bdbfb9e33c3f642d",
+      "bytes": 40462
+    },
+    {
+      "portrait_id": 7,
+      "filename": "007.webp",
+      "proposed_name": "Ayuba Suleiman Diallo",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "7 Ayuba Suleiman Diallo.png",
+      "original_number": 7,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "0265fc33338d49d5c0f0018d73c4e03380e1879d91cccc4999048aa0ba24ede2",
+      "bytes": 27448
+    },
+    {
+      "portrait_id": 8,
+      "filename": "008.webp",
+      "proposed_name": "Phillis Wheatley",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "8 Phillis Wheatley.png",
+      "original_number": 8,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "3cc2576fba5ccc7ed0762f6294daf67d10c3142fefb3bb0678b5ad2d4244f041",
+      "bytes": 19200
+    },
+    {
+      "portrait_id": 9,
+      "filename": "009.webp",
+      "proposed_name": "Olaudah Equiano",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "9 Olaudah Equiano.png",
+      "original_number": 9,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "0c5f9fdbf1070cb6184de03be71accfd3f5738ec3c9ca0dfe3864f17e6cf9d1a",
+      "bytes": 25672
+    },
+    {
+      "portrait_id": 10,
+      "filename": "010.webp",
+      "proposed_name": "Toussaint Louverture",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "10 Toussaint Louverture.png",
+      "original_number": 10,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "e31823a8f64c25ca2437fbea4c56ffcbbec31126e1723eb09bd1d2ed4e8bf7d0",
+      "bytes": 25930
+    },
+    {
+      "portrait_id": 11,
+      "filename": "011.webp",
+      "proposed_name": "Benjamin Banneker",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "11 Benjamin Banneker.png",
+      "original_number": 11,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "46b842446e3823fdfed2097940c12773a19cf974b6ad76fb5d845e8578318631",
+      "bytes": 27014
+    },
+    {
+      "portrait_id": 12,
+      "filename": "012.webp",
+      "proposed_name": "Paul Cuffe",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "12 Paul Cuffe.png",
+      "original_number": 12,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "09a918ab69a10cf431f236d895a089cc418867de714c7defd019013decb18f67",
+      "bytes": 21994
+    },
+    {
+      "portrait_id": 13,
+      "filename": "013.webp",
+      "proposed_name": "Joshua Johnson",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "13 Joshua Johnson.png",
+      "original_number": 13,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "ea33a63cb8549d9e98226be3fcdc0e20506a32724de0d2609cfde812a7d6daa5",
+      "bytes": 17240
+    },
+    {
+      "portrait_id": 14,
+      "filename": "014.webp",
+      "proposed_name": "Shaka kaSenzangakhona",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "14 Shaka kaSenzangakhona.png",
+      "original_number": 14,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "fb0ef30a823f616d1146aa3b32a909fcb5efbb53e4ce0f327b85398166992104",
+      "bytes": 38434
+    },
+    {
+      "portrait_id": 15,
+      "filename": "015.webp",
+      "proposed_name": "Elizabeth Freeman (Mum Bett)",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "15 Elizabeth Freeman (Mum Bett).png",
+      "original_number": 15,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "2f639627a1fbbb4f1a119a4ece2f0c4d049d35fcd47ac98e4711f0f2fc8baae0",
+      "bytes": 24946
+    },
+    {
+      "portrait_id": 16,
+      "filename": "016.webp",
+      "proposed_name": "Richard Allen",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "16 Richard Allen.png",
+      "original_number": 16,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "d8ef628691e34e511e5c31ba6fdcdc1c6ea1908048ca4f7026e1c1e6981d3718",
+      "bytes": 32740
+    },
+    {
+      "portrait_id": 17,
+      "filename": "017.webp",
+      "proposed_name": "Nat Turner",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "17 Nat Turner.png",
+      "original_number": 17,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "1ddbd0c008b7d943fd1f67dfe45dc9a34e0ba55442700bfdff45c29704a9c356",
+      "bytes": 31650
+    },
+    {
+      "portrait_id": 18,
+      "filename": "018.webp",
+      "proposed_name": "James Forten",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "18 James Forten.png",
+      "original_number": 18,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "42411947d9a02dc290dfaa532777ad9543af3c49410b87b47636fcf4036a9470",
+      "bytes": 29720
+    },
+    {
+      "portrait_id": 19,
+      "filename": "019.webp",
+      "proposed_name": "Dred Scott",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "19 Dred Scott.png",
+      "original_number": 19,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "61cf0efa2bba7be9dc5abbb1dd59c8fe4bf8209181dcc824f08c3fc370390c62",
+      "bytes": 37622
+    },
+    {
+      "portrait_id": 20,
+      "filename": "020.webp",
+      "proposed_name": "Henry Highland Garnet",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "20 Henry Highland Garnet.png",
+      "original_number": 20,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "6b6cec439cba07eace5ecf707600d6b6c229d08c57019222865e9fa06ede4e2f",
+      "bytes": 46960
+    },
+    {
+      "portrait_id": 21,
+      "filename": "021.webp",
+      "proposed_name": "Sojourner Truth",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "21 Sojourner Truth.png",
+      "original_number": 21,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "a3ad37ae5bb7de6063ca4572e3ed20e8e7b419372a543c2a771e8c517d021f3b",
+      "bytes": 38882
+    },
+    {
+      "portrait_id": 22,
+      "filename": "022.webp",
+      "proposed_name": "Cathay Williams",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "22 Cathay Williams.png",
+      "original_number": 22,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "2b1fbeb41e9f806c4726920e892e72935c417b18b377d9b139bba52b187d3717",
+      "bytes": 24698
+    },
+    {
+      "portrait_id": 23,
+      "filename": "023.webp",
+      "proposed_name": "Frederick Douglass",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "23 Frederick Douglass.png",
+      "original_number": 23,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "ef27fe2c84384b67d22beb1d02338bb43c3dd08371802015307069bacc075aee",
+      "bytes": 20048
+    },
+    {
+      "portrait_id": 24,
+      "filename": "024.webp",
+      "proposed_name": "Henry _Box_ Brown,",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "24 Henry _Box_ Brown,.png",
+      "original_number": 24,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "762002c876e1d0ba0ea87054b64ade24fecb7a524dc8f5bbc481880f7d90c9df",
+      "bytes": 22774
+    },
+    {
+      "portrait_id": 25,
+      "filename": "025.webp",
+      "proposed_name": "Mary Edmonia Lewis",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "25 Mary Edmonia Lewis.png",
+      "original_number": 25,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "856304889278c0bdf1cc68aa91861836429fa84ddb12cce15f88d606066fba4a",
+      "bytes": 31572
+    },
+    {
+      "portrait_id": 26,
+      "filename": "026.webp",
+      "proposed_name": "Granville T. Woods",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "26 Granville T. Woods.png",
+      "original_number": 26,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "270f199aa19151095580305163582373cd631f50f9cd6f4fd74471ead8e0740e",
+      "bytes": 25126
+    },
+    {
+      "portrait_id": 27,
+      "filename": "027.webp",
+      "proposed_name": "Harriet Tubman",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "27 Harriet Tubman.png",
+      "original_number": 27,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "38dc17208207a126d30f5bb6b3a643654ad91f05b840b3be694ce40e8828e827",
+      "bytes": 26788
+    },
+    {
+      "portrait_id": 28,
+      "filename": "028.webp",
+      "proposed_name": "Robert Smalls",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "28 Robert Smalls.png",
+      "original_number": 28,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "16e4509e7ec6dd86341853cd44bf210afd14ec989d813e6d5cc8f0740b860a81",
+      "bytes": 34744
+    },
+    {
+      "portrait_id": 29,
+      "filename": "029.webp",
+      "proposed_name": "Booker T. Washington",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "29 Booker T. Washington.png",
+      "original_number": 29,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "5b2566319275a3028baa8a10bee976e3e7f7eeca9ca110fd5de2ca125b482e9d",
+      "bytes": 27176
+    },
+    {
+      "portrait_id": 30,
+      "filename": "030.webp",
+      "proposed_name": "Alice Augusta Ball",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "30 Alice Augusta Ball.png",
+      "original_number": 30,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "3820e935da366301557a4a746947a993f678fcc59f26f44e6692ba65dd7f3939",
+      "bytes": 29378
+    },
+    {
+      "portrait_id": 31,
+      "filename": "031.webp",
+      "proposed_name": "Madam C.J. Walker",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "31 Madam C.J. Walker.png",
+      "original_number": 31,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "c1238130482c941d01655041db35f513b9d2a069ae8c932e76d09884f81771e2",
+      "bytes": 31156
+    },
+    {
+      "portrait_id": 32,
+      "filename": "032.webp",
+      "proposed_name": "P.B.S. Pinchback",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "32 P.B.S. Pinchback.png",
+      "original_number": 32,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "debb11905b98bf0f8c7ac3fc729dc8b6a79aa361e02a0d74a72204fe0a6091f8",
+      "bytes": 33812
+    },
+    {
+      "portrait_id": 33,
+      "filename": "033.webp",
+      "proposed_name": "Bessie Coleman",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "33 Bessie Coleman.png",
+      "original_number": 33,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "d149656a7409cce556380fdcb73aad690aa0e80950f553e57f0999d08f9cb599",
+      "bytes": 39872
+    },
+    {
+      "portrait_id": 34,
+      "filename": "034.webp",
+      "proposed_name": "Ida B. Wells",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "34 Ida B. Wells.png",
+      "original_number": 34,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "814c4e13d21a93650bb4b45fed3c02e5f4a1461d599eff7291fba8b3b24728c4",
+      "bytes": 28926
+    },
+    {
+      "portrait_id": 35,
+      "filename": "035.webp",
+      "proposed_name": "Henry Ossawa Tanner",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "35 Henry Ossawa Tanner.png",
+      "original_number": 35,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "3de2d6c9fc5e17493bed434b4ec122453a05f9d1a70cce56714f8657d4f16d05",
+      "bytes": 27462
+    },
+    {
+      "portrait_id": 36,
+      "filename": "036.webp",
+      "proposed_name": "Marcus Garvey",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "36 Marcus Garvey.png",
+      "original_number": 36,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "cc9e8d98266580aa3249b366a8f8c1eb58f4be85a81a1ad2dfedfd82b8f06690",
+      "bytes": 28348
+    },
+    {
+      "portrait_id": 37,
+      "filename": "037.webp",
+      "proposed_name": "Ernest Everett Just",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "37 Ernest Everett Just.png",
+      "original_number": 37,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "27a24d7cc6ceacb3b6c75aa3dbd7d4ec99eb1ac41a615b912a2f5a4743977ced",
+      "bytes": 42190
+    },
+    {
+      "portrait_id": 38,
+      "filename": "038.webp",
+      "proposed_name": "George Washington Carver",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "George 38 Washington Carver.png",
+      "original_number": 38,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "16cb7c9855eca9b882ed6d1d84f2bfaf624c27aa8fc82c0133f91941ba70dd03",
+      "bytes": 33062
+    },
+    {
+      "portrait_id": 39,
+      "filename": "039.webp",
+      "proposed_name": "Doris _Dorie_ Miller",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "39 Doris _Dorie_ Miller.png",
+      "original_number": 39,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "073b3524c36d03561a86aaa1d8b4d389fb3d3d2303064b43e3b3d35a469e8e17",
+      "bytes": 21848
+    },
+    {
+      "portrait_id": 40,
+      "filename": "040.webp",
+      "proposed_name": "Jack Johnson",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "40 Jack Johnson.png",
+      "original_number": 40,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "8f8ee09c61715b5d455116303e17b659e689b6b8bf6bda79b28e010ab6420c9d",
+      "bytes": 34744
+    },
+    {
+      "portrait_id": 41,
+      "filename": "041.webp",
+      "proposed_name": "Carter Godwin Woodson",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "41 Carter Godwin Woodson.png",
+      "original_number": 41,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "957af4b09e88ae654cdb55a5ebd94c23bd937ca4b8c9414506e1e26359d267a1",
+      "bytes": 31900
+    },
+    {
+      "portrait_id": 42,
+      "filename": "042.webp",
+      "proposed_name": "Alain Leroy Locke",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "42 Alain Leroy Locke.png",
+      "original_number": 42,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "66acc0bb4a102538afef75f4aeab4d407b69e4caa483a873a0f0305a3b6e9e80",
+      "bytes": 25096
+    },
+    {
+      "portrait_id": 43,
+      "filename": "043.webp",
+      "proposed_name": "Mary Church Terrel",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "43 Mary Church Terrel.png",
+      "original_number": 43,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "a60a99908f7416294087a3ea59959e2059bc4ac5e495d8f7ba3a48addae412d1",
+      "bytes": 30400
+    },
+    {
+      "portrait_id": 44,
+      "filename": "044.webp",
+      "proposed_name": "Matthew P. Henson",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "44 Matthew P. Henson.png",
+      "original_number": 44,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "3c18fed65cf7d9414c4221a361b550002888385b988a90d41769dcd2f7cf5d83",
+      "bytes": 28846
+    },
+    {
+      "portrait_id": 45,
+      "filename": "045.webp",
+      "proposed_name": "Mary McLeod Bethune",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "45 Mary McLeod Bethune.png",
+      "original_number": 45,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "f68c5d2bb5b31ef9b5e94567ab5bf42ab443a1ece9256746af42fc045dca0ab1",
+      "bytes": 22294
+    },
+    {
+      "portrait_id": 46,
+      "filename": "046.webp",
+      "proposed_name": "Billy Holiday",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "46 Billy Holiday.png",
+      "original_number": 46,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "febd409e63d52e166398aee23e74306b435ccca35525dc1903ce616d7ace866d",
+      "bytes": 26200
+    },
+    {
+      "portrait_id": 47,
+      "filename": "047.webp",
+      "proposed_name": "Zora Neale Hurston",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "47 Zora Neale Hurston.png",
+      "original_number": 47,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "64a2ef0e70f0ae3a3aa5c0743d27da4f5fd28abff7106145af8ecc8c4d206023",
+      "bytes": 32304
+    },
+    {
+      "portrait_id": 48,
+      "filename": "048.webp",
+      "proposed_name": "Richard Wright",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "48 Richard Wright.png",
+      "original_number": 48,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "381e52710f66014365d82fb56ae84229c11d2c13fa5d4346f56fa7b87f64298f",
+      "bytes": 29222
+    },
+    {
+      "portrait_id": 49,
+      "filename": "049.webp",
+      "proposed_name": "Patrice Lumumba",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "49 Patrice Lumumba.png",
+      "original_number": 49,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "f71bb0703122f4aab92c5566dbba51b3735de1554c01f710cfff01a355452f0f",
+      "bytes": 29532
+    },
+    {
+      "portrait_id": 50,
+      "filename": "050.webp",
+      "proposed_name": "Medger Evers",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "50 Medger Evers.png",
+      "original_number": 50,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "38db16af405ad63c0e9106b68e8f51b1bc162b0bb59fdff16c9e78876735f942",
+      "bytes": 36358
+    },
+    {
+      "portrait_id": 51,
+      "filename": "051.webp",
+      "proposed_name": "Garrett Morgan",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "51 Garrett Morgan.png",
+      "original_number": 51,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "43a45b3e149294a9eb1ec3c241765ae40367c0a8355bd2d246d6ec37faf350f4",
+      "bytes": 26046
+    },
+    {
+      "portrait_id": 52,
+      "filename": "052.webp",
+      "proposed_name": "W. E. B. Du Bois",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "52 W. E. B. Du Bois.png",
+      "original_number": 52,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "e8fb064d53bb26a68f2efa710543313353b5f0268cea9f6e48f59885803e4251",
+      "bytes": 34160
+    },
+    {
+      "portrait_id": 53,
+      "filename": "053.webp",
+      "proposed_name": "Roger Arliner",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "53 Roger Arliner.png",
+      "original_number": 53,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "2090c656022869a5ab9659a407f10af09be1af4be692211d7892c66347d9cd75",
+      "bytes": 24730
+    },
+    {
+      "portrait_id": 54,
+      "filename": "054.webp",
+      "proposed_name": "Sam Cooke",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "54 Sam Cooke.png",
+      "original_number": 54,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "f801e49ec1d49efb6df34a2a827a61c4a683594ac22d8cd14dc7f38a75d6af77",
+      "bytes": 30626
+    },
+    {
+      "portrait_id": 55,
+      "filename": "055.webp",
+      "proposed_name": "Nat King Cole",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "55 Nat King Cole.png",
+      "original_number": 55,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "291852be451777886ab055143d097c19511540b621c0777be4a06e195df4ad4f",
+      "bytes": 24264
+    },
+    {
+      "portrait_id": 56,
+      "filename": "056.webp",
+      "proposed_name": "El-Hajj Malik El-Shabazz Malcom x",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "56 El-Hajj Malik El-Shabazz Malcom x.png",
+      "original_number": 56,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "dd4e5f2385cc1b74488ff7c78f1ab11ac2c6bfda372bd031653c11ce7044d04f",
+      "bytes": 35994
+    },
+    {
+      "portrait_id": 57,
+      "filename": "057.webp",
+      "proposed_name": "Dorothy Dandridge",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "57 Dorothy Dandridge.png",
+      "original_number": 57,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "c720fa5258820a08cdaf20c8b32fa7983d86bc3545da96ad304aef78803e6bef",
+      "bytes": 26026
+    },
+    {
+      "portrait_id": 58,
+      "filename": "058.webp",
+      "proposed_name": "Langston Hughes",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "58 Langston Hughes.png",
+      "original_number": 58,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "e55503459132502211784f7fff2e173a7110f764b20589e1b6b8db511ae2c335",
+      "bytes": 27908
+    },
+    {
+      "portrait_id": 59,
+      "filename": "059.webp",
+      "proposed_name": "Martin Luther King Jr",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "59 Martin Luther King Jr.png",
+      "original_number": 59,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "abbacf6243f2efd9c922ec3374b96ac1beb624f6cb387abdc09b44613ac1b3ae",
+      "bytes": 47506
+    },
+    {
+      "portrait_id": 60,
+      "filename": "060.webp",
+      "proposed_name": "Fred Hampton",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "60 Fred Hampton.png",
+      "original_number": 60,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "a7bffe3b0d5d0e50cb9b76ee3d6284e4e14dac4bcc0ecc3fda12c6833968625b",
+      "bytes": 31056
+    },
+    {
+      "portrait_id": 61,
+      "filename": "061.webp",
+      "proposed_name": "Louis Armstrong",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "61 Louis Armstrong.png",
+      "original_number": 61,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "71c027d1a1ea0384d9df76d5572f4f66b12d4274e344cb342f0a0ecd7b02f1f8",
+      "bytes": 30124
+    },
+    {
+      "portrait_id": 62,
+      "filename": "062.webp",
+      "proposed_name": "Francis Kwame Nkrumah",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "62 Francis Kwame Nkrumah.png",
+      "original_number": 62,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "b65dccbe83b9c51ace48e00a6580bb2befa1d6d353c18cdaf4c4bd20e7e61cf5",
+      "bytes": 32056
+    },
+    {
+      "portrait_id": 63,
+      "filename": "063.webp",
+      "proposed_name": "Jackie Robinson",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "63 Jackie Robinson.png",
+      "original_number": 63,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "009336a0e7c6d4344b3390773950129de0b8166293d02636886af035e80c1776",
+      "bytes": 17468
+    },
+    {
+      "portrait_id": 64,
+      "filename": "064.webp",
+      "proposed_name": "Duke Ellington",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "64 Duke Ellington.png",
+      "original_number": 64,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "18b476c0a6edd42f63e0931d3b20aa930b3a3408b4aa9aa39a577104fa49e1a3",
+      "bytes": 26768
+    },
+    {
+      "portrait_id": 65,
+      "filename": "065.webp",
+      "proposed_name": "Haile Selassie I",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "65 Haile Selassie I.png",
+      "original_number": 65,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "06ddfe618aeb3e8d7833a50910c63214b2503eb850a23d5aee7f817d65cd3ed2",
+      "bytes": 42156
+    },
+    {
+      "portrait_id": 66,
+      "filename": "066.webp",
+      "proposed_name": "Paul Robeson",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "66 Paul Robeson.png",
+      "original_number": 66,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "e05e30d1608f71c15b2d2064b35f92f18f40ecfef9c34a916fdd53cfff4cf431",
+      "bytes": 24938
+    },
+    {
+      "portrait_id": 67,
+      "filename": "067.webp",
+      "proposed_name": "Fammie Lou Hamer",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "67 Fammie Lou Hamer.png",
+      "original_number": 67,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "4bdac232c663ee9e411e9b2a15e0084bc7f5d0e8c22d3ecf2f49db7a2fe91610",
+      "bytes": 29406
+    },
+    {
+      "portrait_id": 68,
+      "filename": "068.webp",
+      "proposed_name": "Jomo Kenyatta",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "68 Jomo Kenyatta.png",
+      "original_number": 68,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "994c3f9ff358bd8ebd475186e030172d2935c88df4c0807836c715b1def834d1",
+      "bytes": 37744
+    },
+    {
+      "portrait_id": 69,
+      "filename": "069.webp",
+      "proposed_name": "Marjorie Lee Browne",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "69 Marjorie Lee Browne.png",
+      "original_number": 69,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "60ef0c52917a9d67a2f86de76f3f0e6dfa33d57a5860a2f81a3495b35937fe7a",
+      "bytes": 34788
+    },
+    {
+      "portrait_id": 70,
+      "filename": "070.webp",
+      "proposed_name": "Jesse Owens",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "70 Jesse Owens.png",
+      "original_number": 70,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "de8b3a72dc121ce39ebe0a9e5163c3984ad7c76be7b837eb4dd53104cedbc3ec",
+      "bytes": 27634
+    },
+    {
+      "portrait_id": 71,
+      "filename": "071.webp",
+      "proposed_name": "Joe Louis",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "71 Joe Louis.png",
+      "original_number": 71,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "f6e11417c3f4309e0db3f8e07c7c9f445501e9e13ce75e846b2c38a03908edd1",
+      "bytes": 34000
+    },
+    {
+      "portrait_id": 72,
+      "filename": "072.webp",
+      "proposed_name": "Bob Marley",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "72 Bob Marley.png",
+      "original_number": 72,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "af6260a9ffde92661fcb0e7d21e122137f1c7b02dd0aeac908deaf293f57981d",
+      "bytes": 54466
+    },
+    {
+      "portrait_id": 73,
+      "filename": "073.webp",
+      "proposed_name": "Satchel Paige",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "73 Satchel Paige.png",
+      "original_number": 73,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "ccd7f8f39a232471723bd57263bb7df5905f9c29e55d3ff4768b3535d237a8c3",
+      "bytes": 41714
+    },
+    {
+      "portrait_id": 74,
+      "filename": "074.webp",
+      "proposed_name": "Marvin Gay",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "74 Marvin Gay.png",
+      "original_number": 74,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "19097515d96ca7d9011b724902344483dec67950acd6443a5ef39778c8a975b3",
+      "bytes": 33892
+    },
+    {
+      "portrait_id": 75,
+      "filename": "075.webp",
+      "proposed_name": "Annie Easley",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "75 Annie Easley.png",
+      "original_number": 75,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "fbb8f90fe9ff3ae1eb4fa8013d6a108b3e5c0e6f8a187a766461f9a6a007b572",
+      "bytes": 30636
+    },
+    {
+      "portrait_id": 76,
+      "filename": "076.webp",
+      "proposed_name": "Vivien Thomas",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "76 Vivien Thomas.png",
+      "original_number": 76,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "24c7da1104811bb80f29f1a100b2b52aba4527984bf7f54291d2f6f32a1ee93e",
+      "bytes": 33192
+    },
+    {
+      "portrait_id": 77,
+      "filename": "077.webp",
+      "proposed_name": "Bayard Rustin",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "77 Bayard Rustin.png",
+      "original_number": 77,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "51bdd412e69de0562e207cd7c015defc8c2cf594f3060fdb179e6e76e11d2e72",
+      "bytes": 28816
+    },
+    {
+      "portrait_id": 78,
+      "filename": "078.webp",
+      "proposed_name": "James Baldwin",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "78 James Baldwin.png",
+      "original_number": 78,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "a72420cd129920edbc5c5f48e67595324b8105ab38a1a42ddf19e818e0dbb083",
+      "bytes": 20190
+    },
+    {
+      "portrait_id": 79,
+      "filename": "079.webp",
+      "proposed_name": "Sugar Ray Robinson",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "79 Sugar Ray Robinson.png",
+      "original_number": 79,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "e76cae6d491e4b80c4bf45a56b376238b16eca76b8a6d278bcfcc6e73b0e5314",
+      "bytes": 40788
+    },
+    {
+      "portrait_id": 80,
+      "filename": "080.webp",
+      "proposed_name": "Huey Percy Newton",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "80 Huey Percy Newton.png",
+      "original_number": 80,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "fe50671d2126814d3928ea3fef09cbe575d4191dfd954803b7a4cc98eeb30e68",
+      "bytes": 23400
+    },
+    {
+      "portrait_id": 81,
+      "filename": "081.webp",
+      "proposed_name": "Thurgood Marshall",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "81 Thurgood Marshall.png",
+      "original_number": 81,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "d737e2dc7f5b5da66d89b99c605ffefdd07d3d5d0948f0f9f566464baa7ca423",
+      "bytes": 40948
+    },
+    {
+      "portrait_id": 82,
+      "filename": "082.webp",
+      "proposed_name": "Arthur Ashe",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "82 Arthur Ashe.png",
+      "original_number": 82,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "f3cb0e286c7e69d50bcb9844f6f030399159df773460d69c19584e0a018cadf7",
+      "bytes": 28470
+    },
+    {
+      "portrait_id": 83,
+      "filename": "083.webp",
+      "proposed_name": "Marian Anderson",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "83 Marian Anderson.png",
+      "original_number": 83,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "cd83eb018dcaab53316e602912dd2e130700bbac29340dab24b48beda29baff8",
+      "bytes": 35800
+    },
+    {
+      "portrait_id": 84,
+      "filename": "084.webp",
+      "proposed_name": "Wilma Rudolph",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "84 Wilma Rudolph.png",
+      "original_number": 84,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "28d6ce4158c623c09a26789792c20528d4405b979178132a63d7cf93403c21ba",
+      "bytes": 38228
+    },
+    {
+      "portrait_id": 85,
+      "filename": "085.webp",
+      "proposed_name": "Ella Fitzgerald",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "85 Ella Fitzgerald.png",
+      "original_number": 85,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "85b3fe8506c255121cfd6141a3aff4e863f95c3b73c014a8b3eed2cc3dc8a6bd",
+      "bytes": 40240
+    },
+    {
+      "portrait_id": 86,
+      "filename": "086.webp",
+      "proposed_name": "Tupac Amaru Shakur",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "86 Tupac Amaru Shakur.png",
+      "original_number": 86,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "5a90733a74d3ac3455d41336239759e7d663406c080b3691fded317d863cb500",
+      "bytes": 24620
+    },
+    {
+      "portrait_id": 87,
+      "filename": "087.webp",
+      "proposed_name": "Christopher Wallace",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "87 Christopher Wallace.png",
+      "original_number": 87,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "ca52ab2e738a7d136f77cb927ba1484592252d9fc22f05c1433476eb802569c5",
+      "bytes": 38012
+    },
+    {
+      "portrait_id": 88,
+      "filename": "088.webp",
+      "proposed_name": "Wilt Chamberlain",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "88 Wilt Chamberlain.png",
+      "original_number": 88,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "422e08750bad70a1e0b8b00a18f764a2d0ab2365ba96a429ffb3a5999de7c1f3",
+      "bytes": 24066
+    },
+    {
+      "portrait_id": 89,
+      "filename": "089.webp",
+      "proposed_name": "Jacob Armstead Lawrence",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "89 Jacob Armstead Lawrence.png",
+      "original_number": 89,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "72a2f0dc48512b0a8e2bffb7a68eec146d2393673be716b3ac9501a14bc55e69",
+      "bytes": 21658
+    },
+    {
+      "portrait_id": 90,
+      "filename": "090.webp",
+      "proposed_name": "Charity Adams Earley",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "90 Charity Adams Earley.png",
+      "original_number": 90,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "61c47943a37bce66dea017e73dd10325cc5f06af5bf46616a9a6ab2e5b4d48a7",
+      "bytes": 22664
+    },
+    {
+      "portrait_id": 91,
+      "filename": "091.webp",
+      "proposed_name": "Benjamin O. Davis Jr",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "91 Benjamin O. Davis Jr.png",
+      "original_number": 91,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "1f3fbe545aaddfaac92763b819adfca0fcc9cd67fa9a781a5a28bc2541542c4a",
+      "bytes": 32558
+    },
+    {
+      "portrait_id": 92,
+      "filename": "092.webp",
+      "proposed_name": "Nina Simone",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "92 Nina Simone.png",
+      "original_number": 92,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "39703a8137487642f62adc6707d4242a8f6580049f614e6c0ef4f0353baa6143",
+      "bytes": 28854
+    },
+    {
+      "portrait_id": 93,
+      "filename": "093.webp",
+      "proposed_name": "Athea Gibson",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "93 Athea Gibson.png",
+      "original_number": 93,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "e817abd6bab3f2f6ba9e9ced857da9d533f8ab34f9a96ecbe6c77b3143b83538",
+      "bytes": 30942
+    },
+    {
+      "portrait_id": 94,
+      "filename": "094.webp",
+      "proposed_name": "Ray Charles",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "94 Ray Charles.png",
+      "original_number": 94,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "fe2f6e55b3b90a8ece05f20773b34412b16ac86a7ff239ddf81e02d80eefd0bc",
+      "bytes": 29772
+    },
+    {
+      "portrait_id": 95,
+      "filename": "095.webp",
+      "proposed_name": "Shirley Chisholm",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "95 Shirley Chisholm.png",
+      "original_number": 95,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "72ed1765b093ab0e3b7e385a129ad156d2e0c615138947fb0480207086ea4bae",
+      "bytes": 38532
+    },
+    {
+      "portrait_id": 96,
+      "filename": "096.webp",
+      "proposed_name": "Rosa Parks",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "96 Rosa Parks.png",
+      "original_number": 96,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "3aa5b12545d4795228e574085db5e3f83fd8e7f53575d3edf4e75c6248ffc093",
+      "bytes": 36812
+    },
+    {
+      "portrait_id": 97,
+      "filename": "097.webp",
+      "proposed_name": "Richard Pryor",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "97 Richard Pryor.png",
+      "original_number": 97,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "f890c1139923f4e89febbef30a593fd81882e3d4ec25b3a2304b057b28c5e78f",
+      "bytes": 29418
+    },
+    {
+      "portrait_id": 98,
+      "filename": "098.webp",
+      "proposed_name": "James Brown",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "98 James Brown.png",
+      "original_number": 98,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "220669955a79d17bb139b91604c92e5683be4e40cd48127b3f97b34c30de6f57",
+      "bytes": 28652
+    },
+    {
+      "portrait_id": 99,
+      "filename": "099.webp",
+      "proposed_name": "Michael Joseph Jackson",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "99 Michael Joseph Jackson.png",
+      "original_number": 99,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "0cee575cb5ad09dc5f990ca3e5e700c8b9ba6d5e04daef02f8c8f984640373b5",
+      "bytes": 36476
+    },
+    {
+      "portrait_id": 100,
+      "filename": "100.webp",
+      "proposed_name": "David Harold Blackwell",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "100 David Harold Blackwell.png",
+      "original_number": 100,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "4159135ffa1c1cc2648968d55e672d9f3601896cf8ecac027d5a2a6ca4babb10",
+      "bytes": 27784
+    },
+    {
+      "portrait_id": 101,
+      "filename": "101.webp",
+      "proposed_name": "Hazel Johnson-Brown",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "101 Hazel Johnson-Brown.png",
+      "original_number": 101,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "1bd59edc6ebaef12fcf060531e2dae4a3e014753c6ecae44d2b44125b44fb865",
+      "bytes": 28356
+    },
+    {
+      "portrait_id": 102,
+      "filename": "102.webp",
+      "proposed_name": "Nelson Mandela",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "102 Nelson Mandela.png",
+      "original_number": 102,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "4fcb02d00adddc6e2a9b566f836d475896d77e84878378d90fbfc7e8420db9cc",
+      "bytes": 39308
+    },
+    {
+      "portrait_id": 103,
+      "filename": "103.webp",
+      "proposed_name": "Maya Angelou",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "103 Maya Angelou.png",
+      "original_number": 103,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "449612eae89c63d5dc65bb4cc14a56f8a71166a30c1b58a58e68771d323cf1f3",
+      "bytes": 37954
+    },
+    {
+      "portrait_id": 104,
+      "filename": "104.webp",
+      "proposed_name": "Prince Rogers Nelson",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "104 Prince Rogers Nelson.png",
+      "original_number": 104,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "9ee2653b680755781d7b51ba7587e51991fa881892976beecc100554bd6ab8f7",
+      "bytes": 32084
+    },
+    {
+      "portrait_id": 105,
+      "filename": "105.webp",
+      "proposed_name": "Muhammad Ali",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "105 Muhammad Ali.png",
+      "original_number": 105,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "d20d9c6c31e433153b4f757480ea9de78d74d93c1d7b6826c95f8fad3103d2d2",
+      "bytes": 30246
+    },
+    {
+      "portrait_id": 106,
+      "filename": "106.webp",
+      "proposed_name": "Aretha Franklin Background",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "106 Aretha Franklin Background.png",
+      "original_number": 106,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "074d2ac49cdafc14c1ae424fd6281d151ccf975c514303dc27cd2a7dfb823f14",
+      "bytes": 35590
+    },
+    {
+      "portrait_id": 107,
+      "filename": "107.webp",
+      "proposed_name": "Patricia Bath",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "107 Patricia Bath.png",
+      "original_number": 107,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "c03798170a8eb4360b4a3a79d586722af44b7bf882c2b05ea32f4588f755af7b",
+      "bytes": 29876
+    },
+    {
+      "portrait_id": 108,
+      "filename": "108.webp",
+      "proposed_name": "Toni Morrison",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "108 Toni Morrison.png",
+      "original_number": 108,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "5d48db317f21656e33b3ad1d3a16372840ccc0fd8e1b6d62a6c62290b7efa67b",
+      "bytes": 48328
+    },
+    {
+      "portrait_id": 109,
+      "filename": "109.webp",
+      "proposed_name": "Katherine Johnson",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "109 Katherine Johnson.png",
+      "original_number": 109,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "58ae8cc58d56b6897793a3037ed0f942008fce92ddf034eca596bbf4a9fd7dd1",
+      "bytes": 30106
+    },
+    {
+      "portrait_id": 110,
+      "filename": "110.webp",
+      "proposed_name": "John Lewis",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "110 John Lewis.png",
+      "original_number": 110,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "76725bfd6e8e063249ca4e09bb809c61304f71495ab9ef51e447535ddd3613b2",
+      "bytes": 35108
+    },
+    {
+      "portrait_id": 111,
+      "filename": "111.webp",
+      "proposed_name": "George Carruthers",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "111 George Carruthers.png",
+      "original_number": 111,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "f9eefb1dd631932578ea395f07524030dc813563282bdbdfc017557016b60390",
+      "bytes": 45404
+    },
+    {
+      "portrait_id": 112,
+      "filename": "112.webp",
+      "proposed_name": "Cicely Tyson",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "112 Cicely Tyson.png",
+      "original_number": 112,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "839df111b851923d75fba4787054ab47493fc3a090b2b4f82d0f2b89dc536b1a",
+      "bytes": 20944
+    },
+    {
+      "portrait_id": 113,
+      "filename": "113.webp",
+      "proposed_name": "Gloria Richardson",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "113 Gloria Richardson.png",
+      "original_number": 113,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "c1e114387bb65fae3f852449cf006e1756107b50f02076c1b61142f1bacd2750",
+      "bytes": 39652
+    },
+    {
+      "portrait_id": 114,
+      "filename": "114.webp",
+      "proposed_name": "Colin Powell",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "114 Colin Powell.png",
+      "original_number": 114,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "831fc4db4aec89ab6e54c41403d21c15f3ad6ce61e72cf640104deb965230f23",
+      "bytes": 34500
+    },
+    {
+      "portrait_id": 115,
+      "filename": "115.webp",
+      "proposed_name": "Desmond Tutu",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "115 Desmond Tutu.png",
+      "original_number": 115,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "2e17210d13d289cf5ca7f48e5f037f62e4cd9dc40f5d267b5606fe68c6e1685f",
+      "bytes": 33528
+    },
+    {
+      "portrait_id": 116,
+      "filename": "116.webp",
+      "proposed_name": "Sidney Poitier",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "116 Sidney Poitier.png",
+      "original_number": 116,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "87733e2077569354e2e98a7ac8a77d4dc3a001796fb58f74f57a4312dcf41b91",
+      "bytes": 23620
+    },
+    {
+      "portrait_id": 117,
+      "filename": "117.webp",
+      "proposed_name": "Bill Russell",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "117 Bill Russell.png",
+      "original_number": 117,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "65a08787cbe62cea9b382d4cd10736c40cc96863c0c05b905c9e65262f76cc0c",
+      "bytes": 39396
+    },
+    {
+      "portrait_id": 118,
+      "filename": "118.webp",
+      "proposed_name": "Edson Nascimento Pele",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "118 Edson Nascimento Pele.png",
+      "original_number": 118,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "b1ffbe989f2bb66169db7566dc6128cbd3bb02f3238a92c788164f7d3394620d",
+      "bytes": 31568
+    },
+    {
+      "portrait_id": 119,
+      "filename": "119.webp",
+      "proposed_name": "James Nathaniel Brown",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "119 James Nathaniel Brown.png",
+      "original_number": 119,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "89a189c06ad92aef2e530705da3a7c834cb7097d9af11104f66c5734a5b7b657",
+      "bytes": 31516
+    },
+    {
+      "portrait_id": 120,
+      "filename": "120.webp",
+      "proposed_name": "James Earl Jones",
+      "archive": "Main  BLACK HISTORY FIGURES  (8.5 x 11 in).zip",
+      "source_file": "120 James Earl Jones.png",
+      "original_number": 120,
+      "is_extra": false,
+      "status": "standard_face_crop_ready_for_layout",
+      "note": "Standard central portrait crop excludes top and bottom lettering. Original illustrated, not authenticated historical likeness.",
+      "crop": [
+        58,
+        217,
+        1101,
+        1237
+      ],
+      "sha256": "1db15f6b1be2dd2de49d8ac27707f86a21aa99ecdf97fbd2b4ce460a7b6fdb27",
+      "bytes": 42174
+    },
+    {
+      "portrait_id": 121,
+      "filename": "121.webp",
+      "proposed_name": "Queen Makeda of Sheba",
+      "archive": "African Black HISTORY Heroes.zip",
+      "source_file": "Queen  Makeda of Sheba Name Card.png",
+      "original_number": null,
+      "is_extra": true,
+      "status": "clean_tight_face_crop_pending_historical_art_review",
+      "note": "Yellow heading may overlap the head and source includes small illustrated signature: regenerate/repair prior to final use.",
+      "crop": [
+        354,
+        393,
+        1040,
+        1079
+      ],
+      "sha256": "28638202ae31779035787e7d49628636c42279fdff4b570d91eb80a1517c31a2",
+      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
+      "trim_pixels_from_previous_crop_each_side": 48,
+      "bytes": 23244
+    },
+    {
+      "portrait_id": 122,
+      "filename": "122.webp",
+      "proposed_name": "Piye",
+      "archive": "African Black HISTORY Heroes.zip",
+      "source_file": "Piye Meriamun Name card.png",
+      "original_number": null,
+      "is_extra": true,
+      "status": "clean_tight_face_crop_pending_historical_art_review",
+      "note": "Yellow heading may overlap the head and source includes small illustrated signature: regenerate/repair prior to final use.",
+      "crop": [
+        354,
+        393,
+        1040,
+        1079
+      ],
+      "sha256": "cc4f8bc331bcc7690d4ce017046ab81c1ae65edf7650bb0f9c43bc97962cd411",
+      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
+      "trim_pixels_from_previous_crop_each_side": 48,
+      "bytes": 27352
+    },
+    {
+      "portrait_id": 123,
+      "filename": "123.webp",
+      "proposed_name": "Shabaka",
+      "archive": "African Black HISTORY Heroes.zip",
+      "source_file": "Shabaka Name Card.png",
+      "original_number": null,
+      "is_extra": true,
+      "status": "clean_tight_face_crop_pending_historical_art_review",
+      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
+      "crop": [
+        354,
+        393,
+        1040,
+        1079
+      ],
+      "sha256": "473e48a47defab43b7a822b0c61d32e50de00ab5ad0a33e1a97e939e85af84b6",
+      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
+      "trim_pixels_from_previous_crop_each_side": 39,
+      "bytes": 21360
+    },
+    {
+      "portrait_id": 124,
+      "filename": "124.webp",
+      "proposed_name": "Taharqa",
+      "archive": "African Black HISTORY Heroes.zip",
+      "source_file": "Taharqa Name Card.png",
+      "original_number": null,
+      "is_extra": true,
+      "status": "clean_tight_face_crop_pending_historical_art_review",
+      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
+      "crop": [
+        354,
+        393,
+        1040,
+        1079
+      ],
+      "sha256": "3909718faae4e51e8a1152f81c7ebf83f7b3fa2d0c63dca39271b5f34cb3a760",
+      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
+      "trim_pixels_from_previous_crop_each_side": 39,
+      "bytes": 19544
+    },
+    {
+      "portrait_id": 125,
+      "filename": "125.webp",
+      "proposed_name": "Tenkamenin",
+      "archive": "African Black HISTORY Heroes.zip",
+      "source_file": "Tenkamenin Name Card.png",
+      "original_number": null,
+      "is_extra": true,
+      "status": "clean_tight_face_crop_pending_historical_art_review",
+      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
+      "crop": [
+        354,
+        393,
+        1040,
+        1079
+      ],
+      "sha256": "79e50a8817765af3a76399299be8ee0f04b3d677b7126102428cac890a7cafee",
+      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
+      "trim_pixels_from_previous_crop_each_side": 39,
+      "bytes": 22118
+    },
+    {
+      "portrait_id": 126,
+      "filename": "126.webp",
+      "proposed_name": "Nastasen",
+      "archive": "African Black HISTORY Heroes.zip",
+      "source_file": "Nastasen Name Card.png",
+      "original_number": null,
+      "is_extra": true,
+      "status": "clean_tight_face_crop_pending_historical_art_review",
+      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
+      "crop": [
+        354,
+        393,
+        1040,
+        1079
+      ],
+      "sha256": "484c6ea39a4b21bc60063ea5e4fd9d2f3571f08d2407262290c4db314638215e",
+      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
+      "trim_pixels_from_previous_crop_each_side": 39,
+      "bytes": 37288
+    },
+    {
+      "portrait_id": 127,
+      "filename": "127.webp",
+      "proposed_name": "Amanirenas",
+      "archive": "African Black HISTORY Heroes.zip",
+      "source_file": "Amanirenas Name Card.png",
+      "original_number": null,
+      "is_extra": true,
+      "status": "clean_tight_face_crop_pending_historical_art_review",
+      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
+      "crop": [
+        354,
+        393,
+        1040,
+        1079
+      ],
+      "sha256": "e270961d3b51fee38d5240d82aea705fc1e155c46e37d9fcc59e0a1b0d8f2bea",
+      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
+      "trim_pixels_from_previous_crop_each_side": 39,
+      "bytes": 24174
+    },
+    {
+      "portrait_id": 128,
+      "filename": "128.webp",
+      "proposed_name": "Amanitore",
+      "archive": "African Black HISTORY Heroes.zip",
+      "source_file": "Queen Amanitore Name Card.png",
+      "original_number": null,
+      "is_extra": true,
+      "status": "clean_tight_face_crop_pending_historical_art_review",
+      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
+      "crop": [
+        354,
+        393,
+        1040,
+        1079
+      ],
+      "sha256": "30240f7808662aca6d7ab64c04952b3f349372366c1d996580897b4bb23d68dc",
+      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
+      "trim_pixels_from_previous_crop_each_side": 39,
+      "bytes": 31310
+    },
+    {
+      "portrait_id": 129,
+      "filename": "129.webp",
+      "proposed_name": "Zoskales",
+      "archive": "African Black HISTORY Heroes.zip",
+      "source_file": "Zoskales Name Card.png",
+      "original_number": null,
+      "is_extra": true,
+      "status": "clean_tight_face_crop_pending_historical_art_review",
+      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
+      "crop": [
+        354,
+        393,
+        1040,
+        1079
+      ],
+      "sha256": "c588dd2d6db7a0efa59112bf5e479dc5adf19f5b7d7b9df041a60792cd357f69",
+      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
+      "trim_pixels_from_previous_crop_each_side": 39,
+      "bytes": 34110
+    },
+    {
+      "portrait_id": 130,
+      "filename": "130.webp",
+      "proposed_name": "Ezana of Aksum",
+      "archive": "African Black HISTORY Heroes.zip",
+      "source_file": "Ezana  of Aksum Name Card.png",
+      "original_number": null,
+      "is_extra": true,
+      "status": "clean_tight_face_crop_pending_historical_art_review",
+      "note": "Yellow heading may overlap the head and source includes small illustrated signature: regenerate/repair prior to final use.",
+      "crop": [
+        354,
+        393,
+        1040,
+        1079
+      ],
+      "sha256": "8a88fa513fb59a0642b55fb8d0424cf9f4ea351ee5b5febdda2b62633ba8d4ca",
+      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
+      "trim_pixels_from_previous_crop_each_side": 48,
+      "bytes": 17558
+    },
+    {
+      "portrait_id": 131,
+      "filename": "131.webp",
+      "proposed_name": "Kaleb of Aksum",
+      "archive": "African Black HISTORY Heroes.zip",
+      "source_file": "Kaleb  of Axum Name Card.png",
+      "original_number": null,
+      "is_extra": true,
+      "status": "clean_tight_face_crop_pending_historical_art_review",
+      "note": "Yellow heading may overlap the head and source includes small illustrated signature: regenerate/repair prior to final use.",
+      "crop": [
+        354,
+        393,
+        1040,
+        1079
+      ],
+      "sha256": "88ae13031edff8725f1d1655263c50e0ef4f727ead834f7468d9bf1c5fb9e36d",
+      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
+      "trim_pixels_from_previous_crop_each_side": 48,
+      "bytes": 20736
+    },
+    {
+      "portrait_id": 132,
+      "filename": "132.webp",
+      "proposed_name": "Moremi Ajasoro",
+      "archive": "African Black HISTORY Heroes.zip",
+      "source_file": "Moremi  Ajasoro Name Card.png",
+      "original_number": null,
+      "is_extra": true,
+      "status": "clean_tight_face_crop_pending_historical_art_review",
+      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
+      "crop": [
+        354,
+        393,
+        1040,
+        1079
+      ],
+      "sha256": "aa3d77b08eec2010c1ffb4b7a460cb402b239e5b220cef401a8ecfd2876b7b91",
+      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
+      "trim_pixels_from_previous_crop_each_side": 39,
+      "bytes": 26902
+    },
+    {
+      "portrait_id": 133,
+      "filename": "133.webp",
+      "proposed_name": "Oba Ewuare",
+      "archive": "African Black HISTORY Heroes.zip",
+      "source_file": "Oba Ewuare  the Great Name Card.png",
+      "original_number": null,
+      "is_extra": true,
+      "status": "clean_tight_face_crop_pending_historical_art_review",
+      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
+      "crop": [
+        354,
+        393,
+        1040,
+        1079
+      ],
+      "sha256": "c02e7740e9d8881908e3eecc24de2984aed62c5b3507418c7ee499d139b6c53c",
+      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
+      "trim_pixels_from_previous_crop_each_side": 39,
+      "bytes": 27234
+    },
+    {
+      "portrait_id": 134,
+      "filename": "134.webp",
+      "proposed_name": "Sunni Ali Ber",
+      "archive": "African Black HISTORY Heroes.zip",
+      "source_file": "Sunni Ali Ber Blank.png",
+      "original_number": null,
+      "is_extra": true,
+      "status": "clean_tight_face_crop_pending_historical_art_review",
+      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
+      "crop": [
+        354,
+        393,
+        1040,
+        1079
+      ],
+      "sha256": "3c6cd762d97498a7b359c6cf065d34d693ff521e5f45d87db6e4d780011195d2",
+      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
+      "trim_pixels_from_previous_crop_each_side": 39,
+      "bytes": 27000
+    },
+    {
+      "portrait_id": 135,
+      "filename": "135.webp",
+      "proposed_name": "Askia Muhammad I",
+      "archive": "African Black HISTORY Heroes.zip",
+      "source_file": "Askia  Muhammad I Name Card.png",
+      "original_number": null,
+      "is_extra": true,
+      "status": "clean_tight_face_crop_pending_historical_art_review",
+      "note": "Yellow heading may overlap the head and source includes small illustrated signature: regenerate/repair prior to final use.",
+      "crop": [
+        354,
+        393,
+        1040,
+        1079
+      ],
+      "sha256": "7f0432b7e90b2066f6c97f1a842d36732461c974908a1ed0657975e7b2443ad9",
+      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
+      "trim_pixels_from_previous_crop_each_side": 48,
+      "bytes": 26208
+    },
+    {
+      "portrait_id": 136,
+      "filename": "136.webp",
+      "proposed_name": "Queen Nandi",
+      "archive": "African Black HISTORY Heroes.zip",
+      "source_file": "Queen  Nandi Name Card.png",
+      "original_number": null,
+      "is_extra": true,
+      "status": "clean_tight_face_crop_pending_historical_art_review",
+      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
+      "crop": [
+        354,
+        393,
+        1040,
+        1079
+      ],
+      "sha256": "c2df1ab3da6769c7f7f588011aeefea33e4b27458c9f43131291617b9a99c3fd",
+      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
+      "trim_pixels_from_previous_crop_each_side": 39,
+      "bytes": 27284
+    },
+    {
+      "portrait_id": 137,
+      "filename": "137.webp",
+      "proposed_name": "Ranavalona I",
+      "archive": "African Black HISTORY Heroes.zip",
+      "source_file": "Ranavalo-Manjaka I Name Card.png",
+      "original_number": null,
+      "is_extra": true,
+      "status": "clean_tight_face_crop_pending_historical_art_review",
+      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
+      "crop": [
+        354,
+        393,
+        1040,
+        1079
+      ],
+      "sha256": "bba37110bc14e78e73ae39583c7580ca768e9d20370370d032e34029b1e00c33",
+      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
+      "trim_pixels_from_previous_crop_each_side": 39,
+      "bytes": 39246
+    },
+    {
+      "portrait_id": 138,
+      "filename": "138.webp",
+      "proposed_name": "Yaa Asantewaa",
+      "archive": "African Black HISTORY Heroes.zip",
+      "source_file": "Yaa  Asantewaa Name Card.png",
+      "original_number": null,
+      "is_extra": true,
+      "status": "clean_tight_face_crop_pending_historical_art_review",
+      "note": "Yellow heading may overlap the head and source includes small illustrated signature: regenerate/repair prior to final use.",
+      "crop": [
+        354,
+        393,
+        1040,
+        1079
+      ],
+      "sha256": "42f93742af7a5123c140216b10acf76dae6736d1a98baee110343fe41087237a",
+      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
+      "trim_pixels_from_previous_crop_each_side": 48,
+      "bytes": 26960
+    },
+    {
+      "portrait_id": 139,
+      "filename": "139.webp",
+      "proposed_name": "Queen Muhumuza",
+      "archive": "African Black HISTORY Heroes.zip",
+      "source_file": "Queen Muhumuza Name Card.png",
+      "original_number": null,
+      "is_extra": true,
+      "status": "clean_tight_face_crop_pending_historical_art_review",
+      "note": "Yellow heading may overlap the head and source includes small illustrated signature: regenerate/repair prior to final use.",
+      "crop": [
+        354,
+        393,
+        1040,
+        1079
+      ],
+      "sha256": "16d4091d0b83bb09229de97dbeaaac55a902b5700c390e6c0e80a7bd5af3416c",
+      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
+      "trim_pixels_from_previous_crop_each_side": 48,
+      "bytes": 27798
+    },
+    {
+      "portrait_id": 140,
+      "filename": "140.webp",
+      "proposed_name": "Labotsibeni Mdluli",
+      "archive": "African Black HISTORY Heroes.zip",
+      "source_file": "Labotsibeni  Mdluli Name Card.png",
+      "original_number": null,
+      "is_extra": true,
+      "status": "clean_tight_face_crop_pending_historical_art_review",
+      "note": "Tight face crop; requires individual approval and original illustrated source retained.",
+      "crop": [
+        354,
+        393,
+        1040,
+        1079
+      ],
+      "sha256": "d95aab71e1c25b1561c08df7f9f1f9e90abe4658c00df8e64f03c63eebbecf38",
+      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
+      "trim_pixels_from_previous_crop_each_side": 39,
+      "bytes": 38532
+    },
+    {
+      "portrait_id": 141,
+      "filename": "141.webp",
+      "proposed_name": "Empress Zewditu",
+      "archive": "African Black HISTORY Heroes.zip",
+      "source_file": "Empress Zewditu Name Card.png",
+      "original_number": null,
+      "is_extra": true,
+      "status": "clean_tight_face_crop_pending_historical_art_review",
+      "note": "Yellow heading may overlap the head and source includes small illustrated signature: regenerate/repair prior to final use.",
+      "crop": [
+        354,
+        393,
+        1040,
+        1079
+      ],
+      "sha256": "1a42ef5bff9278135500a737610ae0d8254fbd304a8fc456e6a228e524b980ae",
+      "crop_refinement": "Trimmed outer lettered margins from the prior face crop; facial features preserved; decorative headgear may require a later fuller artistic recreation.",
+      "trim_pixels_from_previous_crop_each_side": 48,
+      "bytes": 28198
+    }
+  ],
+  "upload_path": "Upload exact ZIP filename hall-of-legends-upload.zip to wdwedu/examine-the-past-home ROOT. GitHub Actions installs files automatically."
+}
