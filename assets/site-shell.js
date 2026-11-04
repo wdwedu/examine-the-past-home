@@ -4,7 +4,7 @@ const u=p=>root+p;
 document.body.dataset.etpShell="shared";
 function loadCSS(href,key){if(document.querySelector('link[data-etp-load="'+key+'"]'))return;const l=document.createElement("link");l.rel="stylesheet";l.href=href;l.dataset.etpLoad=key;document.head.appendChild(l)}
 function loadJS(src,key){if([...document.scripts].some(s=>s.src&&new URL(s.src).pathname===new URL(src,location.href).pathname))return;const x=document.createElement("script");x.src=src;x.async=false;x.dataset.etpLoad=key;document.head.appendChild(x)}
-loadCSS(u("assets/site-shell.css?v=20261104-share-v2"),"shell-css");
+loadCSS(u("assets/site-shell.css?v=20261104-nav-v4"),"shell-css");
 loadCSS(u("assets/etp-transitions.css?v=20261104-brand-v1"),"transitions-css");loadJS(u("assets/etp-transitions.js?v=20261104-soft-wind-v1"),"transitions-js");
 loadCSS(u("assets/etp-experience-v50.css?v=20261015-etp-r2"),"experience-css");loadJS(u("assets/etp-experience-v50.js?v=20261102-history-jukebox"),"experience-js");
 loadCSS(u("assets/repair-v63.css?v=20261015-etp-r2"),"repair-css");loadJS(u("assets/repair-v63.js?v=20261103-hall-scorebar"),"repair-js");
@@ -20,10 +20,10 @@ header.innerHTML='<div class="etp-header-inner"><nav class="etp-icon-nav" aria-l
 '<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('today/')+'" data-etp-transition="stamp">📅</a><span class="etp-tip">Today in History</span></div>'+
 '<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('games/')+'" data-etp-transition="time">🎮</a><span class="etp-tip">Games</span></div>'+
 '<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('teacher-tools/')+'" data-etp-transition="page">🧰</a><span class="etp-tip">Teacher Tools</span></div>'+
-'<div class="etp-nav-item"><a class="etp-icon-btn" href="https://www.etsy.com/shop/examinethepast">🛍️</a><span class="etp-tip">Shop History</span></div>'+
+'<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('games/presidential-challenges/')+'" data-etp-transition="page" aria-label="Presidents"><img class="etp-nav-flag" src="'+u('assets/us-flag.svg')+'" alt=""></a><span class="etp-tip">Presidents</span></div>'+
+'<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('lessons/black-history/')+'" data-etp-transition="page" aria-label="Black History">✊🏾</a><span class="etp-tip">Black History</span></div>'+
 '<div class="etp-nav-item"><button class="etp-icon-btn" type="button" data-etp-share aria-label="Share Examine the Past">↗</button><span class="etp-tip">Share</span></div>'+
 '<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('')+'#contact-section">📧</a><span class="etp-tip">Contact Us</span></div>'+
-'<div class="etp-nav-item"><button class="etp-icon-btn" type="button" data-etp-action="lights" aria-label="Toggle page lights">💡</button><span class="etp-tip" data-etp-lights-label>Lights Off</span></div>'+
 '<div class="etp-nav-item"><button class="etp-icon-btn" type="button" data-etp-action="jukebox" aria-label="Open History Jukebox"><span class="etp-sound-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></button><span class="etp-tip">History Jukebox</span></div>'+
 '</nav></div>';
 document.body.prepend(header);
@@ -60,6 +60,7 @@ panel.innerHTML='<div class="etp-mobile-install"><button type="button" data-etp-
 '<a href="'+u('')+'#about-us"><span>ℹ️</span><b>About</b></a>'+
 '<a href="'+u('lessons/')+'" data-etp-transition="archive"><span>🎓</span><b>History Hub</b></a>'+
 '<a href="'+u('lessons/us-history/')+'" data-etp-transition="page"><span>🇺🇸</span><b>U.S. History</b></a>'+
+'<a href="'+u('games/presidential-challenges/')+'" data-etp-transition="page"><span>🏛️</span><b>Presidents</b></a>'+
 '<a href="'+u('lessons/world-history/')+'" data-etp-transition="globe"><span>🌍</span><b>World History</b></a>'+
 '<a href="'+u('lessons/civics-government/')+'" data-etp-transition="page"><span>🏛️</span><b>Civics & Government</b></a>'+
 '<a href="'+u('lessons/geography/')+'" data-etp-transition="map"><span>🗺️</span><b>Geography</b></a>'+
@@ -70,18 +71,17 @@ panel.innerHTML='<div class="etp-mobile-install"><button type="button" data-etp-
 '<a href="'+u('today/')+'" data-etp-transition="stamp"><span>📅</span><b>Today in History</b></a>'+
 '<a href="'+u('games/')+'" data-etp-transition="time"><span>🎮</span><b>Games</b></a>'+
 '<a href="'+u('teacher-tools/')+'" data-etp-transition="page"><span>🧰</span><b>Teacher Tools</b></a>'+
-'<a href="https://www.etsy.com/shop/examinethepast"><span>🛍️</span><b>Shop History</b></a>'+
 '<button type="button" data-etp-share><span>↗</span><b>Share</b></button>'+
 '<a href="'+u('')+'#contact-section"><span>📧</span><b>Contact Us</b></a>'+
 '<button type="button" data-etp-action="jukebox"><span>🎵</span><b>History Jukebox</b></button>'+
-'</div><div class="etp-mobile-bottom"><button class="etp-mobile-sound" type="button" data-etp-action="lights"><span>💡</span><b data-etp-lights-label>Lights Off</b></button></div>';
+'</div>';
 header.querySelector(".etp-header-inner").prepend(toggle);header.querySelector(".etp-header-inner").append(panel);
 panel.querySelector('[data-etp-action="install"]')?.addEventListener("click",e=>{e.preventDefault();if(typeof window.siteInstallApp==="function")window.siteInstallApp();else {const b=document.querySelector(".site-app-footer-text");if(b)b.click();}});
 function closeMobile(){panel.hidden=true;toggle.classList.remove("open");toggle.setAttribute("aria-expanded","false");toggle.setAttribute("aria-label","Open navigation")}
 toggle.addEventListener("click",()=>{const open=panel.hidden;panel.hidden=!open;toggle.classList.toggle("open",open);toggle.setAttribute("aria-expanded",String(open));toggle.setAttribute("aria-label",open?"Close navigation":"Open navigation")});panel.querySelectorAll("a").forEach(a=>a.addEventListener("click",closeMobile));document.addEventListener("keydown",e=>{if(e.key==="Escape")closeMobile()});
 if(!noFooter){const footer=document.createElement("footer");footer.id="etpSiteFooter";
 footer.innerHTML='<div class="etp-footer-grid"><div><div class="etp-footer-title">Learn</div><a href="'+u('lessons/us-history/')+'">U.S. History</a><a href="'+u('lessons/world-history/')+'">World History</a><a href="'+u('lessons/civics-government/')+'">Civics & Government</a><a href="'+u('lessons/geography/')+'">Geography</a><a href="'+u('lessons/black-history/')+'">Black History</a><a href="'+u('lessons/world-religions/')+'">World Religions</a><a href="'+u('lessons/')+'">All Lessons</a></div>'+
-'<div><div class="etp-footer-title">Explore</div><a href="'+u('timeline/')+'">Interactive Timeline</a><a href="'+u('maps/')+'">History Maps</a><a href="'+u('today/')+'">Today in History</a><a href="'+u('games/')+'">Games</a><a href="'+u('current-events/')+'">Current Events</a><a href="https://www.etsy.com/shop/examinethepast">Shop History</a></div>'+
+'<div><div class="etp-footer-title">Explore</div><a href="'+u('timeline/')+'">Interactive Timeline</a><a href="'+u('maps/')+'">History Maps</a><a href="'+u('today/')+'">Today in History</a><a href="'+u('games/')+'">Games</a><a href="'+u('games/presidential-challenges/')+'">Presidents</a><a href="'+u('lessons/black-history/')+'">Black History</a><a href="'+u('current-events/')+'">Current Events</a><a href="https://www.etsy.com/shop/examinethepast">Shop History</a></div>'+
 '<div><div class="etp-footer-title">Teacher Tools</div><a href="'+u('teacher-tools/blooms-taxonomy/')+'">Bloom’s Taxonomy</a><a href="'+u('teacher-tools/classroom-management/')+'">Classroom Management</a><a href="'+u('teacher-tools/movies-in-the-classroom/')+'">Movies in the Classroom</a><a href="'+u('teacher-tools/learning-styles/')+'">Learner Supports</a><a href="'+u('teacher-tools/')+'">All Teacher Tools</a><a href="'+u('faq/')+'">FAQ</a></div>'+
 '<div><div class="etp-footer-title">Legal & Site</div><button class="etp-legal-link" data-legal="affiliate">Affiliate Disclosure</button><a href="'+u('careers/')+'">Careers & Partnerships</a><a href="'+u('licensing/')+'">Resource Licensing</a><button class="etp-legal-link" data-legal="copyright">Copyright Policy</button><button class="etp-legal-link" data-legal="dmca">DMCA Notice</button><button class="etp-legal-link" data-legal="privacy">Privacy Policy</button><button class="etp-legal-link" data-legal="terms">Terms of Service</button><button class="etp-legal-link" data-legal="refund">Refund / Digital</button><button class="etp-legal-link" data-legal="cookies">Cookie Policy</button><a href="'+u('')+'#contact-section">Contact Us</a></div></div>'+
 '<div class="etp-community-wrap" id="community"><div class="etp-community-title">JOIN OUR COMMUNITY</div><div class="etp-community etp-community-logos">'+
