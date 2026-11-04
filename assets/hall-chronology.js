@@ -13,7 +13,7 @@ function appendBioSection(target,heading,paragraph){
  target.append(section);
 }
 function addResearchLink(target,label,url){
- if(!/^https:\/\//.test(url))return;
+ if(!/^https:\/\//.test(url)&&!/^\.\.?\//.test(url))return;
  const link=mk("a","hv-bio-source",label);link.href=url;link.target="_blank";link.rel="noopener noreferrer";target.append(link);
 }
 function renderBiography(target,profile,personName){
