@@ -422,89 +422,60 @@ body.hall-visual-demo{overflow-x:clip}
 }
 .hv-chronology .hv-head .hv-count{display:none!important}
 .hv-chronology[data-chapter="1"] .hv-head{background:linear-gradient(to bottom,#070a08 0%,#10100cc9 60%,#0000)}
-/* Same site header and Jukebox as home: do not add a Hall-specific navigation or player. */
-body.hall-visual-demo #etpSiteHeader{font-family:Georgia,"Times New Roman",serif}
-body.hall-visual-demo #etpSiteHeader .etp-header-inner{max-width:920px}
-body.hall-visual-demo .etp-jukebox-overlay,
-body.hall-visual-demo .etp-jukebox-card{font-family:Georgia,"Times New Roman",serif}
-@media(max-width:759px){
- body.hall-visual-demo #etpSiteHeader{height:46px!important;min-height:46px!important;max-height:46px!important}
- body.hall-visual-demo #etpSiteHeader .etp-header-inner{min-height:46px!important;max-height:46px!important}
-}
 
-/* Homepage Jukebox appearance parity: same skin, controls and layout without loading homepage-only sections. */
-.etp-jukebox-card{width:min(980px,96vw)!important}
-.etp-jukebox-player-shell{padding:14px;border-radius:18px;border:1px solid rgba(255,242,0,.16);background:linear-gradient(145deg,#17150a,#070805 58%,#111723);box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 20px 46px rgba(0,0,0,.38)}
-.etp-jukebox-now{display:flex;justify-content:space-between;gap:15px;align-items:flex-start;margin:0 0 10px}
-.etp-jukebox-now strong{display:block;color:#fff200;font:700 1rem Georgia,serif}.etp-jukebox-now span{display:block;color:#9fa79f;font:.78rem/1.4 Georgia,serif;margin-top:3px}
-.etp-genre-grid{grid-template-columns:repeat(4,minmax(0,1fr))!important}
-.etp-genre-btn{position:relative;overflow:hidden;min-height:48px;background:linear-gradient(145deg,#18253d,#070b13)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 7px 18px rgba(0,0,0,.25)}
-.etp-genre-btn:nth-child(4n+2){background:linear-gradient(145deg,#15371e,#071108)!important}
-.etp-genre-btn:nth-child(4n+3){background:linear-gradient(145deg,#451a22,#16080b)!important}
-.etp-genre-btn:nth-child(4n){background:linear-gradient(145deg,#34204a,#120919)!important}
-.etp-genre-btn:hover,.etp-genre-btn.active{background:linear-gradient(145deg,#55490f,#181404)!important;color:#fff200!important;box-shadow:0 0 18px rgba(255,242,0,.08)}
-.etp-track-library{margin-top:14px;border-top:1px solid rgba(255,255,255,.08);padding-top:14px}
-.etp-track-heading{display:flex;justify-content:space-between;align-items:end;gap:10px;margin-bottom:9px}.etp-track-heading strong{color:#fff200;font:700 1rem Georgia,serif}.etp-track-heading span{color:#818881;font:.72rem Georgia,serif}
-.etp-track-list{display:grid;grid-template-columns:1fr 1fr;gap:8px;max-height:270px;overflow:auto;padding-right:4px}
-.etp-track-choice{display:grid;grid-template-columns:36px 1fr;gap:8px;align-items:center;text-align:left;border:1px solid rgba(255,255,255,.085);border-radius:10px;background:#101310;color:#f3f3ed;padding:9px 10px;cursor:pointer}
-.etp-track-choice:hover,.etp-track-choice.active{border-color:rgba(255,242,0,.45);background:#18180c}
-.etp-track-play{width:30px;height:30px;display:grid;place-items:center;border-radius:50%;background:#fff200;color:#090909;font-size:.72rem}
-.etp-track-meta strong{display:block;color:#f6f6ee;font:700 .82rem/1.2 Georgia,serif}.etp-track-meta span{display:block;color:#969d96;font:.7rem/1.3 Georgia,serif;margin-top:2px}
+/* Navigation and History Jukebox deliberately have NO Hall-only styles.
+   Both are rendered by assets/site-shell.js and styled by homepage CSS. */
 
-@media(max-width:600px){
-.etp-genre-grid{grid-template-columns:1fr 1fr!important}
-.etp-track-list{grid-template-columns:1fr;max-height:300px}
+/* Hall of Legends — locked certificate of historical legacy.
+   Subdued grayscale portrait gallery, silver graphite paper, brand green/yellow. */
+.hv-certificate{
+ color:#e9eae4;
+ border:8px double #667268;
+ outline:2px solid rgba(148,255,83,.52);
+ background:
+  radial-gradient(ellipse at 52% 38%,rgba(61,73,63,.34),transparent 68%),
+  linear-gradient(145deg,#232926 0%,#121714 55%,#292c2a 100%);
+ box-shadow:0 0 0 7px #070a08,0 18px 60px #000d,inset 0 0 0 1px #d4d6ce33;
 }
-
-/* Hall desktop navigation: keep the shared homepage icon row, with a visible
-   working menu button on the far right. Uses the existing shared toggle logic. */
-@media(min-width:760px){
- body.hall-visual-demo #etpSiteHeader .etp-header-inner{
-   position:relative;display:flex;align-items:center;justify-content:center;
-   max-width:1120px!important;min-height:78px;overflow:visible!important;
-   padding:10px 12px!important;gap:12px
- }
- body.hall-visual-demo #etpSiteHeader .etp-icon-nav{
-   display:flex!important;flex:1 1 auto;width:auto;min-width:0;
-   gap:clamp(8px,1vw,17px);justify-content:center;align-items:center
- }
- body.hall-visual-demo #etpSiteHeader .etp-mobile-toggle{
-   display:flex!important;flex:0 0 44px;width:44px;height:44px;
-   padding:0;align-items:center;justify-content:center;flex-direction:column;
-   gap:5px;margin:0 0 0 auto;background:transparent;border:1px solid #94ff534d;
-   color:#fff;border-radius:8px;cursor:pointer;order:10;
- }
- body.hall-visual-demo #etpSiteHeader .etp-mobile-toggle span{
-   width:25px;height:2px;border-radius:3px;background:#f7f7f2;
- }
- body.hall-visual-demo #etpSiteHeader .etp-mobile-toggle:hover,
- body.hall-visual-demo #etpSiteHeader .etp-mobile-toggle:focus-visible{
-   border-color:#94ff53;box-shadow:0 0 13px #94ff5350;outline:2px solid #fff200;
-   outline-offset:2px
- }
- body.hall-visual-demo #etpSiteHeader .etp-mobile-panel{
-   position:absolute;display:block;top:100%;left:auto;right:12px;
-   width:min(440px,calc(100vw - 24px));z-index:2147483000;
-   max-height:calc(100dvh - 100px);overflow:auto;
-   background:linear-gradient(180deg,#0d100e,#050605 88%);
-   border:1px solid #94ff5340;border-radius:0 0 13px 13px;
-   padding:12px;box-shadow:0 18px 40px #000b
- }
- body.hall-visual-demo #etpSiteHeader .etp-mobile-panel[hidden]{display:none!important}
- body.hall-visual-demo #etpSiteHeader .etp-mobile-heading{
-   color:#fff200;font:700 .8rem Georgia,serif;letter-spacing:.05em;margin:12px 4px 7px
- }
- body.hall-visual-demo #etpSiteHeader .etp-mobile-grid,
- body.hall-visual-demo #etpSiteHeader .etp-mobile-group{
-   display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px
- }
- body.hall-visual-demo #etpSiteHeader .etp-mobile-panel a,
- body.hall-visual-demo #etpSiteHeader .etp-mobile-sound{
-   display:grid;grid-template-columns:28px 1fr;align-items:center;
-   gap:7px;min-height:44px;padding:7px;border-radius:9px;
-   background:#ffffff06;color:#f7f7f2;text-align:left;text-decoration:none
- }
- body.hall-visual-demo #etpSiteHeader .etp-mobile-panel a:hover{
-   background:#94ff5317;color:#fff200
- }
+.hv-certificate::before{
+ content:"";position:absolute;z-index:0;inset:10px;
+ background-image:
+   linear-gradient(90deg,#141a17b5,#11171390 50%,#141a17b5),
+   url("hall-of-legends/portraits/001.webp"),
+   url("hall-of-legends/portraits/040.webp"),
+   url("hall-of-legends/portraits/080.webp"),
+   url("hall-of-legends/portraits/141.webp");
+ background-size:100% 100%,24% auto,24% auto,24% auto,24% auto;
+ background-position:center,3% 52%,34% 50%,67% 50%,97% 52%;
+ background-repeat:no-repeat;
+ filter:grayscale(1);
+ opacity:.18;
+ pointer-events:none;
 }
+.hv-certificate > *{position:relative;z-index:1}
+.hv-certificate > .hv-cert-watermark{position:absolute;z-index:2}
+.hv-cert-brand{color:#bbefaa;letter-spacing:.24em;text-shadow:0 1px 4px #000}
+.hv-cert-corners,.hv-cert-ornament{color:#c9b967}
+.hv-cert-title{color:#fff3a7;text-shadow:0 2px 8px #000c;font-size:clamp(26px,4.2vw,48px)}
+.hv-certificate .hv-cert-intro{color:#e4e6dd;text-shadow:0 1px 4px #000}
+.hv-cert-name{color:#d3ebcc;border-color:#94ff5380}
+.hv-cert-subtitle{color:#c6d3c8}
+.hv-cert-stats span{color:#c7d1c8}
+.hv-cert-stats b{color:#a4ee89}
+.hv-cert-seal{
+ border-color:#808d81;color:#adb5ae;
+ background:#bdc8be12;
+ box-shadow:inset 0 0 9px #0008
+}
+.hv-cert-bottom{color:#c5ccc4;border-color:#94ff5355}
+.hv-cert-watermark{
+ transform:translate(-50%,-50%) rotate(-9deg);
+ border:2px solid #9aa39b88;
+ background:#0b100dc4;
+ color:#e0e6dfc7;
+ font:700 clamp(13px,3vw,27px) Georgia,serif;
+ letter-spacing:.08em;
+ padding:12px 18px;
+ text-shadow:0 2px 6px #000;
+}
+@media(max-width:700px){.hv-certificate::before{background-size:100% 100%,24% auto,24% auto,24% auto,24% auto;opacity:.14}}
