@@ -24,6 +24,15 @@ function renderBiography(target,profile,personName){
  const sources=mk("section","hv-bio-sources");
  sources.append(mk("h3","","Sources and further research"));
  const listed=sourceMap.get(profile.id)||[];
+ const expandedLessons={"bh-121":"queen-makeda","bh-122":"piye","bh-124":"taharqa","bh-001":"sundiata"};
+ if(expandedLessons[profile.id])addResearchLink(sources,"Read expanded Examine the Past lesson",siteRoot+"lessons/black-history-heroes/"+expandedLessons[profile.id]+"/");
+ const featuredSources={
+  "bh-027":[["National Park Service — Harriet Tubman","https://www.nps.gov/subjects/africanamericanheritage/harriet-tubman.htm"]],
+  "bh-107":[["National Library of Medicine — Patricia Bath","https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_patricia-bath.html?id=item-25"]],
+  "bh-109":[["NASA — Katherine Johnson Biography","https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/"]]
+ };
+ for(const [label,url] of featuredSources[profile.id]||[])addResearchLink(sources,label,url);
+
  for(const [i,url] of listed.entries())addResearchLink(sources,"Research reference "+(i+1),url);
  addResearchLink(sources,"Smithsonian African American History Collection","https://americanhistory.si.edu/explore/topics/african-american-history");
  addResearchLink(sources,"Dictionary of African Biography — Harvard","https://hutchinscenter.fas.harvard.edu/DAB");
@@ -85,7 +94,7 @@ document.addEventListener("keydown",e=>{
  if(overlay.hidden)return;
  if(e.key==="Escape"){e.preventDefault();closePreview();return}
  if(e.key!=="Tab")return;
- const list=[...overlay.querySelectorAll("button:not([disabled])")];
+ const list=[...overlay.querySelectorAll("button:not([disabled]),a[href]")];
  if(!list.length)return;
  if(e.shiftKey&&document.activeElement===list[0]){e.preventDefault();list.at(-1).focus()}
  else if(!e.shiftKey&&document.activeElement===list.at(-1)){e.preventDefault();list[0].focus()}
