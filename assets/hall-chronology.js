@@ -434,14 +434,14 @@ function activateMarkerGlow(){
  markers.forEach(m=>observer.observe(m));
 }
 function goToBeginning(smooth=false){
- const q=$("hv-queen-start");
+ const q=document.querySelector(".hv-scene[data-chapter=\"1\"] .hv-head")||$("hv-queen-start");
  if(q)q.scrollIntoView({behavior:smooth&&!reduceMotion()?"smooth":"instant",block:"center"});
 }
 function goToEntrance(){
  const entrance=$("hv-entrance");
  if(entrance)entrance.scrollIntoView({behavior:"instant",block:"start"});
 }
-$("hv-begin").addEventListener("click",()=>goToBeginning(true));
+$("hv-begin")?.addEventListener("click",()=>goToBeginning(true));
 document.querySelectorAll("[data-mode]").forEach(b=>b.addEventListener("click",()=>{
  const mode=b.getAttribute("data-mode");document.body.classList.toggle("hv-mobile",mode==="mobile");
  document.querySelectorAll("[data-mode]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));
@@ -497,6 +497,7 @@ Promise.all([
  }
  activateMarkerGlow();
  updateAllianceDisplays();
+ document.dispatchEvent(new CustomEvent("etp-hall-ready"));
  const nav=performance.getEntriesByType("navigation")[0];
  const initial=!location.hash&&(!nav||nav.type!=="back_forward");
  if(initial){
@@ -504,7 +505,7 @@ Promise.all([
   const stop=()=>{interacted=true};
   window.addEventListener("wheel",stop,{once:true,passive:true});
   window.addEventListener("touchstart",stop,{once:true,passive:true});
-  const start=()=>{if(!interacted)goToEntrance()};
+  const start=()=>{if(!interacted)goToBeginning(false)};
   requestAnimationFrame(()=>requestAnimationFrame(start));
   if(document.readyState!=="complete")window.addEventListener("load",start,{once:true});
  }
