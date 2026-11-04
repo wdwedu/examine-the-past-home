@@ -2,7 +2,7 @@
 <script>
 (()=>{"use strict";const $=id=>document.getElementById(id),people=[],profiles=new Map();let card=[],marked=new Set(),pool=[],current=null,won=false;
 const shuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
-const clueText=p=>{let s=p.overview;const n=s.indexOf(" ");if(n<0)return s;return "Which historical figure fits this account? "+s.slice(n+1);};
+const clueText=p=>{let s=p.overview;const person=people.find(x=>x.id===p.id),name=person?.name||"";if(name)s=s.replace(name,"This historical figure");const surname=name.split(" ").at(-1);if(surname&&surname.length>3)s=s.replaceAll(surname,"the figure");return "Which historical figure fits this account? "+s;};
 function next(){const remaining=pool.filter(id=>!marked.has(id));if(!remaining.length){current=null;$("clue").textContent="All 24 portraits identified. Create a new card to play again!";return;}
 current=remaining[Math.floor(Math.random()*remaining.length)];$("clue").replaceChildren();const label=document.createElement("strong");label.textContent="WHO AM I?";$("clue").append(label,document.createTextNode(clueText(profiles.get(current))));}
 function lines(){let b=card.map(x=>x===null||marked.has(x));let lists=[];for(let n=0;n<5;n++){lists.push([0,1,2,3,4].map(c=>n*5+c));lists.push([0,1,2,3,4].map(r=>r*5+n));}lists.push([0,6,12,18,24],[4,8,12,16,20]);return lists.some(line=>line.every(i=>b[i]));}
