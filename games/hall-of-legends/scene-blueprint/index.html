@@ -2,7 +2,8 @@
 (()=>{"use strict";
 const container=document.getElementById("hv-journey"),entrance=document.getElementById("hv-entrance");
 const mk=(tag,cls,text)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(text!==undefined)el.textContent=text;return el;};
-function person(f){const c=mk("article","hv-person"),avatar=mk("div","hv-avatar","◈"),name=mk("b","",f.name),date=mk("small","",f.date_label||"Date under review");avatar.setAttribute("aria-hidden","true");c.append(avatar,name,date);if(f.original_number){c.append(mk("span","hv-num","Original portrait "+f.original_number))}else{c.append(mk("span","hv-num","African collection"))}return c}
+let installedNames=null;
+function person(f){const c=mk("article","hv-person"),avatar=mk("div","hv-avatar","◈"),name=mk("b","",f.name),date=mk("small","",f.date_label||"Date under review");avatar.setAttribute("aria-hidden","true");if(installedNames){let file=f.original_number?String(f.original_number).padStart(3,"0")+".webp":installedNames.get(f.name);if(file){const img=mk("img","hv-image");img.src="../../../assets/hall-of-legends/portraits/"+file;img.loading="lazy";img.decoding="async";img.alt="Illustrated portrait of "+f.name;img.onerror=()=>{img.replaceWith(avatar)};c.append(img)}else c.append(avatar)}else c.append(avatar);c.append(name,date);if(f.original_number){c.append(mk("span","hv-num","Original portrait "+f.original_number))}else{c.append(mk("span","hv-num","African collection"))}return c}
 function scene(sc){const s=mk("section","hv-scene");s.setAttribute("aria-label",sc.title);s.style.setProperty("--h-sky",sc.palette.sky);s.style.setProperty("--h-wall",sc.palette.walls);s.style.setProperty("--h-ground",sc.palette.ground);
 const light=mk("div","hv-vignette");light.setAttribute("aria-hidden","true");s.append(light);
 const head=mk("header","hv-head");head.append(mk("div","hv-count","Scene "+sc.id+" · "+sc.figure_count+" figures"),mk("h2","",sc.title),mk("p","",sc.ground));s.append(head);
@@ -10,7 +11,7 @@ const rows=mk("div","hv-rows"),groups=new Map();for(const p of sc.portraits){let
 const tip=mk("p","hv-footnote",sc.visual_direction);s.append(tip);return s}
 document.querySelectorAll("[data-mode]").forEach(b=>b.addEventListener("click",()=>{const mode=b.getAttribute("data-mode");document.body.classList.toggle("hv-mobile",mode==="mobile");document.querySelectorAll("[data-mode]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)))}));
 document.getElementById("hv-begin").addEventListener("click",()=>{const p=container.lastElementChild?.lastElementChild;if(p)p.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"})});
-fetch("../data/phase2-visual-blueprint.json?v=20261103").then(r=>{if(!r.ok)throw Error("Blueprint unavailable");return r.json()}).then(data=>{
+fetch("../data/phase2-visual-blueprint.json?v=20261103").then(r=>{if(!r.ok)throw Error("Blueprint unavailable");return r.json()}).then(async data=>{const response=await fetch("../../../assets/hall-of-legends/portrait-manifest.json?v=20261103").catch(()=>null);if(response&&response.ok){const manifest=await response.json();if(manifest.files?.length===141)installedNames=new Map(manifest.files.filter(x=>x.is_extra).map(x=>[x.proposed_name,x.filename]));}
  if(data.scenes.length!==12||data.scenes.reduce((sum,s)=>sum+s.figure_count,0)!==141)throw Error("Incomplete blueprint");
  container.replaceChildren();
  const refs=document.getElementById("hv-references-list");refs.replaceChildren();for(const scene of data.scenes){const li=mk("li","");const link=mk("a","hv-source",scene.title+" — background research");link.href=scene.reference_url;link.target="_blank";link.rel="noopener noreferrer";li.append(link);refs.append(li)}
