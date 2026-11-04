@@ -77,9 +77,9 @@
           "type": "legacy",
           "id": "legacy-01",
           "title": "Legacy Reflection",
-          "lane": "west",
+          "lane": "center",
           "credits": 5,
-          "bottom_px": 1261
+          "bottom_px": 396
         },
         {
           "type": "portrait",
