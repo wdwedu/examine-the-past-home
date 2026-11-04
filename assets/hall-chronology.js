@@ -85,32 +85,47 @@ function appendBioSection(target,heading,paragraph){
  section.append(mk("h3","",heading),mk("p","",paragraph));
  target.append(section);
 }
-function addResearchLink(target,label,url){
+function addResearchLink(target,label,url,featured=false){
  if(!/^https:\/\//.test(url)&&!/^\.\.?\//.test(url))return;
- const link=mk("a","hv-bio-source",label);link.href=url;link.target="_blank";link.rel="noopener noreferrer";target.append(link);
+ const link=mk("a",featured?"hv-bio-source hv-bio-source-primary":"hv-bio-source",label);
+ link.href=url;
+ if(/^https:\/\//.test(url)){link.target="_blank";link.rel="noopener noreferrer";}
+ target.append(link);
+}
+function heroLessonUrl(id){
+ const expanded={"bh-121":"queen-makeda","bh-122":"piye","bh-124":"taharqa","bh-001":"sundiata"};
+ return expanded[id]
+  ?siteRoot+"lessons/black-history-heroes/"+expanded[id]+"/"
+  :siteRoot+"lessons/black-history-heroes/figure/?id="+encodeURIComponent(id);
 }
 function renderBiography(target,profile,personName){
- appendBioSection(target,"Historical significance",profile.significance);
+ appendBioSection(target,"Life and historical context",profile.overview);
+ appendBioSection(target,"Why this history matters",profile.significance);
+ const expanded=mk("section","hv-bio-section hv-bio-interpretation");
+ expanded.append(mk("h3","","Reading history with care"));
+ expanded.append(mk("p","","Historical biographies are built by comparing records, context, and interpretations. A person's influence is not limited to a single event, and later accounts can disagree about what happened or why."));
+ expanded.append(mk("p","",profile.id.match(/^bh-1(?:2[1-9]|3[0-5])$/)?"For early historical and traditional accounts, the evidence may be incomplete. Reigns, legends, and approximate historical periods are not confirmed birth and death dates.":"As you read this account, distinguish documented actions from the interpretations that historians and later generations give them."));
+ target.append(expanded);
  const inquiry=mk("section","hv-bio-inquiry");
- inquiry.append(mk("h3","","Think like a historian"),mk("p","",profile.question));
- target.append(inquiry);
+ inquiry.append(mk("h3","","Think like a historian"),mk("p","",profile.question));target.append(inquiry);
  renderAllianceActivity(target,profile);
  const sources=mk("section","hv-bio-sources");
  sources.append(mk("h3","","Sources and further research"));
+ addResearchLink(sources,"Examine the Past · "+(new Set(["bh-121","bh-122","bh-124","bh-001"]).has(profile.id)?"Open the complete Hero Lesson":"Read the "+personName+" profile"),heroLessonUrl(profile.id),true);
+ const details=mk("details","hv-bio-research-details"),summary=mk("summary","","Other historical references");details.append(summary);
  const listed=sourceMap.get(profile.id)||[];
- const expandedLessons={"bh-121":"queen-makeda","bh-122":"piye","bh-124":"taharqa","bh-001":"sundiata"};
- if(expandedLessons[profile.id])addResearchLink(sources,"Read expanded Examine the Past lesson",siteRoot+"lessons/black-history-heroes/"+expandedLessons[profile.id]+"/");
  const featuredSources={
   "bh-027":[["National Park Service — Harriet Tubman","https://www.nps.gov/subjects/africanamericanheritage/harriet-tubman.htm"]],
   "bh-107":[["National Library of Medicine — Patricia Bath","https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_patricia-bath.html?id=item-25"]],
   "bh-109":[["NASA — Katherine Johnson Biography","https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/"]]
  };
- for(const [label,url] of featuredSources[profile.id]||[])addResearchLink(sources,label,url);
-
- for(const [i,url] of listed.entries())addResearchLink(sources,"Research reference "+(i+1),url);
- addResearchLink(sources,"Smithsonian African American History Collection","https://americanhistory.si.edu/explore/topics/african-american-history");
- addResearchLink(sources,"Dictionary of African Biography — Harvard","https://hutchinscenter.fas.harvard.edu/DAB");
- sources.append(mk("small","hv-bio-editor-note","These are research collections and available catalogue references, not a claim that every biography has been independently verified against each collection. Ancient and traditional accounts require extra care."));
+ for(const [label,url] of featuredSources[profile.id]||[])addResearchLink(details,label,url);
+ for(const [i,url] of listed.entries())addResearchLink(details,"Figure research reference "+(i+1),url);
+ addResearchLink(details,"Smithsonian — African American History","https://americanhistory.si.edu/explore/topics/african-american-history");
+ addResearchLink(details,"Dictionary of African Biography — Harvard","https://hutchinscenter.fas.harvard.edu/DAB");
+ details.append(mk("small","hv-bio-editor-note","These links are research resources, not a claim of completed individual scholarly verification."));
+ sources.append(details);
+ addResearchLink(sources,"Hall of Legends · Complete source collection",siteRoot+"games/hall-of-legends/research-atlas/");
  target.append(sources);
 }
 function openBioWithTimeWarp(args){
