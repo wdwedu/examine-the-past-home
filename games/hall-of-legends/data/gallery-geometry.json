@@ -1,0 +1,1670 @@
+{
+  "version": "2026-11-03-gallery-geometry-1",
+  "description": "Exact portrait and challenge vertical coordinates, ordered from floor to ceiling. Single placement source for Hall rendering and future layered interior artwork. This is a layout specification, not finished environment art.",
+  "coordinate_system": "bottom_px measured upward from bottom of each gallery's .hv-stops container; scene_height_px sets .hv-stops height. Portraits on left/right wall; challenge signs in open corridor bays.",
+  "layout": {
+    "desktop_wall_split_pct": 27,
+    "desktop_floor_width_pct": 46,
+    "mobile_breakpoint_px": 850,
+    "mobile_wall_split_pct": 34,
+    "mobile_floor_width_pct": 32,
+    "portrait_frame_desktop_width_css": "clamp(145px,16vw,190px)",
+    "portrait_frame_mobile_width_css": "clamp(98px,31vw,205px)",
+    "portrait_frame_square": true,
+    "portrait_art_fit": "contain",
+    "decorative_frame_svg": "assets/hall-of-legends/afrocentric-geometric-frame.svg",
+    "wall_textures": "behind portraits only; no baked-in names or portraits",
+    "floor": "continuous parallel-sided museum corridor; no vanishing point"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "title": "Ancient Courts and First Kingdoms",
+      "figure_count": 11,
+      "scene_height_px": 3168,
+      "art_reference_width_px": 1530,
+      "wall_split_desktop_pct": 27,
+      "wall_split_mobile_pct": 34,
+      "floor_width_desktop_pct": 46,
+      "floor_width_mobile_pct": 32,
+      "slots": [
+        {
+          "type": "portrait",
+          "id": "bh-121",
+          "name": "Queen Makeda of Sheba",
+          "side": "left",
+          "source_artwork": "121.webp",
+          "year": -950,
+          "bottom_px": 48
+        },
+        {
+          "type": "portrait",
+          "id": "bh-122",
+          "name": "Piye",
+          "side": "right",
+          "source_artwork": "122.webp",
+          "year": -716,
+          "bottom_px": 299
+        },
+        {
+          "type": "portrait",
+          "id": "bh-123",
+          "name": "Shabaka",
+          "side": "left",
+          "source_artwork": "123.webp",
+          "year": -690,
+          "bottom_px": 525
+        },
+        {
+          "type": "portrait",
+          "id": "bh-124",
+          "name": "Taharqa",
+          "side": "right",
+          "source_artwork": "124.webp",
+          "year": -664,
+          "bottom_px": 751
+        },
+        {
+          "type": "portrait",
+          "id": "bh-126",
+          "name": "Nastasen",
+          "side": "left",
+          "source_artwork": "126.webp",
+          "year": -310,
+          "bottom_px": 1007
+        },
+        {
+          "type": "legacy",
+          "id": "legacy-01",
+          "title": "Legacy Reflection",
+          "lane": "west",
+          "credits": 5,
+          "bottom_px": 1261
+        },
+        {
+          "type": "portrait",
+          "id": "bh-127",
+          "name": "Amanirenas",
+          "side": "right",
+          "source_artwork": "127.webp",
+          "year": -10,
+          "bottom_px": 1451
+        },
+        {
+          "type": "portrait",
+          "id": "bh-128",
+          "name": "Amanitore",
+          "side": "left",
+          "source_artwork": "128.webp",
+          "year": 50,
+          "bottom_px": 1686
+        },
+        {
+          "type": "portrait",
+          "id": "bh-129",
+          "name": "Zoskales",
+          "side": "right",
+          "source_artwork": "129.webp",
+          "year": 75,
+          "bottom_px": 1912
+        },
+        {
+          "type": "portrait",
+          "id": "bh-130",
+          "name": "Ezana of Aksum",
+          "side": "left",
+          "source_artwork": "130.webp",
+          "year": 350,
+          "bottom_px": 2165
+        },
+        {
+          "type": "portrait",
+          "id": "bh-131",
+          "name": "Kaleb of Aksum",
+          "side": "right",
+          "source_artwork": "131.webp",
+          "year": 540,
+          "bottom_px": 2414
+        },
+        {
+          "type": "portrait",
+          "id": "bh-125",
+          "name": "Tenkamenin",
+          "side": "left",
+          "source_artwork": "125.webp",
+          "year": 1060,
+          "bottom_px": 2670
+        },
+        {
+          "type": "era",
+          "id": "era-01",
+          "title": "Era Challenge",
+          "lane": "center",
+          "seal_number": 1,
+          "bottom_px": 2950
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "African Kingdoms and Atlantic Crossroads",
+      "figure_count": 12,
+      "scene_height_px": 3264,
+      "art_reference_width_px": 1530,
+      "wall_split_desktop_pct": 27,
+      "wall_split_mobile_pct": 34,
+      "floor_width_desktop_pct": 46,
+      "floor_width_mobile_pct": 32,
+      "slots": [
+        {
+          "type": "portrait",
+          "id": "bh-132",
+          "name": "Moremi Ajasoro",
+          "side": "right",
+          "source_artwork": "132.webp",
+          "year": 1200,
+          "bottom_px": 48
+        },
+        {
+          "type": "portrait",
+          "id": "bh-001",
+          "name": "Sundiata Keita",
+          "side": "left",
+          "source_artwork": "001.webp",
+          "year": 1255,
+          "bottom_px": 282
+        },
+        {
+          "type": "portrait",
+          "id": "bh-002",
+          "name": "Mansa Musa",
+          "side": "right",
+          "source_artwork": "002.webp",
+          "year": 1337,
+          "bottom_px": 521
+        },
+        {
+          "type": "portrait",
+          "id": "bh-133",
+          "name": "Oba Ewuare",
+          "side": "left",
+          "source_artwork": "133.webp",
+          "year": 1473,
+          "bottom_px": 766
+        },
+        {
+          "type": "legacy",
+          "id": "legacy-02",
+          "title": "Artifact Detective",
+          "lane": "east",
+          "credits": 5,
+          "bottom_px": 1020
+        },
+        {
+          "type": "portrait",
+          "id": "bh-134",
+          "name": "Sunni Ali Ber",
+          "side": "right",
+          "source_artwork": "134.webp",
+          "year": 1492,
+          "bottom_px": 1179
+        },
+        {
+          "type": "portrait",
+          "id": "bh-135",
+          "name": "Askia Muhammad I",
+          "side": "left",
+          "source_artwork": "135.webp",
+          "year": 1538,
+          "bottom_px": 1411
+        },
+        {
+          "type": "portrait",
+          "id": "bh-003",
+          "name": "Afonso I of Kongo",
+          "side": "right",
+          "source_artwork": "003.webp",
+          "year": 1542,
+          "bottom_px": 1613
+        },
+        {
+          "type": "portrait",
+          "id": "bh-004",
+          "name": "Queen Amina of Zazzau",
+          "side": "left",
+          "source_artwork": "004.webp",
+          "year": 1600,
+          "bottom_px": 1848
+        },
+        {
+          "type": "legacy",
+          "id": "legacy-03",
+          "title": "Map the Moment",
+          "lane": "west",
+          "credits": 5,
+          "bottom_px": 2102
+        },
+        {
+          "type": "portrait",
+          "id": "bh-005",
+          "name": "Queen Nzinga",
+          "side": "right",
+          "source_artwork": "005.webp",
+          "year": 1663,
+          "bottom_px": 2274
+        },
+        {
+          "type": "portrait",
+          "id": "bh-006",
+          "name": "Crispus Attucks",
+          "side": "left",
+          "source_artwork": "006.webp",
+          "year": 1770,
+          "bottom_px": 2516
+        },
+        {
+          "type": "portrait",
+          "id": "bh-007",
+          "name": "Ayuba Suleiman Diallo",
+          "side": "right",
+          "source_artwork": "007.webp",
+          "year": 1773,
+          "bottom_px": 2704
+        },
+        {
+          "type": "portrait",
+          "id": "bh-008",
+          "name": "Phillis Wheatley",
+          "side": "left",
+          "source_artwork": "008.webp",
+          "year": 1784,
+          "bottom_px": 2906
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Revolution, Resistance and Emancipation",
+      "figure_count": 12,
+      "scene_height_px": 3088,
+      "art_reference_width_px": 1530,
+      "wall_split_desktop_pct": 27,
+      "wall_split_mobile_pct": 34,
+      "floor_width_desktop_pct": 46,
+      "floor_width_mobile_pct": 32,
+      "slots": [
+        {
+          "type": "portrait",
+          "id": "bh-009",
+          "name": "Olaudah Equiano",
+          "side": "right",
+          "source_artwork": "009.webp",
+          "year": 1797,
+          "bottom_px": 48
+        },
+        {
+          "type": "portrait",
+          "id": "bh-010",
+          "name": "Toussaint Louverture",
+          "side": "left",
+          "source_artwork": "010.webp",
+          "year": 1803,
+          "bottom_px": 250
+        },
+        {
+          "type": "portrait",
+          "id": "bh-011",
+          "name": "Benjamin Banneker",
+          "side": "right",
+          "source_artwork": "011.webp",
+          "year": 1806,
+          "bottom_px": 438
+        },
+        {
+          "type": "portrait",
+          "id": "bh-012",
+          "name": "Paul Cuffe",
+          "side": "left",
+          "source_artwork": "012.webp",
+          "year": 1817,
+          "bottom_px": 640
+        },
+        {
+          "type": "legacy",
+          "id": "legacy-04",
+          "title": "Historical Crossroads",
+          "lane": "east",
+          "credits": 5,
+          "bottom_px": 894
+        },
+        {
+          "type": "portrait",
+          "id": "bh-013",
+          "name": "Joshua Johnson",
+          "side": "right",
+          "source_artwork": "013.webp",
+          "year": 1824,
+          "bottom_px": 1032
+        },
+        {
+          "type": "portrait",
+          "id": "bh-136",
+          "name": "Queen Nandi",
+          "side": "left",
+          "source_artwork": "136.webp",
+          "year": 1827,
+          "bottom_px": 1220
+        },
+        {
+          "type": "portrait",
+          "id": "bh-014",
+          "name": "Shaka Zulu",
+          "side": "right",
+          "source_artwork": "014.webp",
+          "year": 1828,
+          "bottom_px": 1408
+        },
+        {
+          "type": "portrait",
+          "id": "bh-015",
+          "name": "Elizabeth Freeman (Mum Bett)",
+          "side": "left",
+          "source_artwork": "015.webp",
+          "year": 1829,
+          "bottom_px": 1596
+        },
+        {
+          "type": "legacy",
+          "id": "legacy-05",
+          "title": "Timeline Tangle",
+          "lane": "west",
+          "credits": 5,
+          "bottom_px": 1850
+        },
+        {
+          "type": "portrait",
+          "id": "bh-016",
+          "name": "Richard Allen",
+          "side": "right",
+          "source_artwork": "016.webp",
+          "year": 1831,
+          "bottom_px": 1974
+        },
+        {
+          "type": "portrait",
+          "id": "bh-017",
+          "name": "Nat Turner",
+          "side": "left",
+          "source_artwork": "017.webp",
+          "year": 1831,
+          "bottom_px": 2162
+        },
+        {
+          "type": "portrait",
+          "id": "bh-018",
+          "name": "James Forten",
+          "side": "right",
+          "source_artwork": "018.webp",
+          "year": 1842,
+          "bottom_px": 2364
+        },
+        {
+          "type": "portrait",
+          "id": "bh-019",
+          "name": "Dred Scott",
+          "side": "left",
+          "source_artwork": "019.webp",
+          "year": 1858,
+          "bottom_px": 2585
+        },
+        {
+          "type": "era",
+          "id": "era-02",
+          "title": "Era Challenge",
+          "lane": "center",
+          "seal_number": 2,
+          "bottom_px": 2865
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Abolition, Reconstruction and New Paths",
+      "figure_count": 12,
+      "scene_height_px": 2864,
+      "art_reference_width_px": 1530,
+      "wall_split_desktop_pct": 27,
+      "wall_split_mobile_pct": 34,
+      "floor_width_desktop_pct": 46,
+      "floor_width_mobile_pct": 32,
+      "slots": [
+        {
+          "type": "portrait",
+          "id": "bh-137",
+          "name": "Ranavalona I",
+          "side": "right",
+          "source_artwork": "137.webp",
+          "year": 1861,
+          "bottom_px": 48
+        },
+        {
+          "type": "portrait",
+          "id": "bh-024",
+          "name": "Henry \"Box\" Brown",
+          "side": "left",
+          "source_artwork": "024.webp",
+          "year": 1880,
+          "bottom_px": 271
+        },
+        {
+          "type": "portrait",
+          "id": "bh-020",
+          "name": "Henry Highland Garnet",
+          "side": "right",
+          "source_artwork": "020.webp",
+          "year": 1882,
+          "bottom_px": 459
+        },
+        {
+          "type": "portrait",
+          "id": "bh-021",
+          "name": "Sojourner Truth",
+          "side": "left",
+          "source_artwork": "021.webp",
+          "year": 1883,
+          "bottom_px": 647
+        },
+        {
+          "type": "portrait",
+          "id": "bh-022",
+          "name": "Cathay Williams",
+          "side": "right",
+          "source_artwork": "022.webp",
+          "year": 1893,
+          "bottom_px": 849
+        },
+        {
+          "type": "portrait",
+          "id": "bh-023",
+          "name": "Frederick Douglass",
+          "side": "left",
+          "source_artwork": "023.webp",
+          "year": 1895,
+          "bottom_px": 1037
+        },
+        {
+          "type": "legacy",
+          "id": "legacy-06",
+          "title": "Evidence Vault",
+          "lane": "east",
+          "credits": 5,
+          "bottom_px": 1291
+        },
+        {
+          "type": "portrait",
+          "id": "bh-025",
+          "name": "Edmonia Lewis",
+          "side": "right",
+          "source_artwork": "025.webp",
+          "year": 1907,
+          "bottom_px": 1429
+        },
+        {
+          "type": "portrait",
+          "id": "bh-026",
+          "name": "Granville T. Woods",
+          "side": "left",
+          "source_artwork": "026.webp",
+          "year": 1910,
+          "bottom_px": 1617
+        },
+        {
+          "type": "portrait",
+          "id": "bh-027",
+          "name": "Harriet Tubman",
+          "side": "right",
+          "source_artwork": "027.webp",
+          "year": 1913,
+          "bottom_px": 1805
+        },
+        {
+          "type": "portrait",
+          "id": "bh-028",
+          "name": "Robert Smalls",
+          "side": "left",
+          "source_artwork": "028.webp",
+          "year": 1915,
+          "bottom_px": 1993
+        },
+        {
+          "type": "portrait",
+          "id": "bh-029",
+          "name": "Booker T. Washington",
+          "side": "right",
+          "source_artwork": "029.webp",
+          "year": 1915,
+          "bottom_px": 2181
+        },
+        {
+          "type": "portrait",
+          "id": "bh-030",
+          "name": "Alice Augusta Ball",
+          "side": "left",
+          "source_artwork": "030.webp",
+          "year": 1916,
+          "bottom_px": 2369
+        },
+        {
+          "type": "era",
+          "id": "era-03",
+          "title": "Era Challenge",
+          "lane": "center",
+          "seal_number": 3,
+          "bottom_px": 2649
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "New Institutions and Early Innovation",
+      "figure_count": 11,
+      "scene_height_px": 2704,
+      "art_reference_width_px": 1530,
+      "wall_split_desktop_pct": 27,
+      "wall_split_mobile_pct": 34,
+      "floor_width_desktop_pct": 46,
+      "floor_width_mobile_pct": 32,
+      "slots": [
+        {
+          "type": "portrait",
+          "id": "bh-031",
+          "name": "Madam C.J. Walker",
+          "side": "right",
+          "source_artwork": "031.webp",
+          "year": 1919,
+          "bottom_px": 48
+        },
+        {
+          "type": "portrait",
+          "id": "bh-032",
+          "name": "P. B. S. Pinchback",
+          "side": "left",
+          "source_artwork": "032.webp",
+          "year": 1921,
+          "bottom_px": 236
+        },
+        {
+          "type": "portrait",
+          "id": "bh-138",
+          "name": "Yaa Asantewaa",
+          "side": "right",
+          "source_artwork": "138.webp",
+          "year": 1921,
+          "bottom_px": 424
+        },
+        {
+          "type": "legacy",
+          "id": "legacy-07",
+          "title": "Chronology Check",
+          "lane": "west",
+          "credits": 5,
+          "bottom_px": 678
+        },
+        {
+          "type": "portrait",
+          "id": "bh-140",
+          "name": "Labotsibeni Mdluli",
+          "side": "left",
+          "source_artwork": "140.webp",
+          "year": 1925,
+          "bottom_px": 816
+        },
+        {
+          "type": "portrait",
+          "id": "bh-033",
+          "name": "Bessie Coleman",
+          "side": "right",
+          "source_artwork": "033.webp",
+          "year": 1926,
+          "bottom_px": 1004
+        },
+        {
+          "type": "portrait",
+          "id": "bh-141",
+          "name": "Empress Zewditu",
+          "side": "left",
+          "source_artwork": "141.webp",
+          "year": 1930,
+          "bottom_px": 1206
+        },
+        {
+          "type": "portrait",
+          "id": "bh-034",
+          "name": "Ida B. Wells",
+          "side": "right",
+          "source_artwork": "034.webp",
+          "year": 1931,
+          "bottom_px": 1394
+        },
+        {
+          "type": "legacy",
+          "id": "legacy-08",
+          "title": "Cause & Effect Match",
+          "lane": "east",
+          "credits": 5,
+          "bottom_px": 1648
+        },
+        {
+          "type": "portrait",
+          "id": "bh-035",
+          "name": "Henry Ossawa Tanner",
+          "side": "left",
+          "source_artwork": "035.webp",
+          "year": 1937,
+          "bottom_px": 1786
+        },
+        {
+          "type": "portrait",
+          "id": "bh-036",
+          "name": "Marcus Garvey",
+          "side": "right",
+          "source_artwork": "036.webp",
+          "year": 1940,
+          "bottom_px": 1974
+        },
+        {
+          "type": "portrait",
+          "id": "bh-037",
+          "name": "Ernest Everett Just",
+          "side": "left",
+          "source_artwork": "037.webp",
+          "year": 1941,
+          "bottom_px": 2162
+        },
+        {
+          "type": "portrait",
+          "id": "bh-038",
+          "name": "George Washington Carver",
+          "side": "right",
+          "source_artwork": "038.webp",
+          "year": 1943,
+          "bottom_px": 2350
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Arts, Discovery and Midcentury Change",
+      "figure_count": 12,
+      "scene_height_px": 3040,
+      "art_reference_width_px": 1530,
+      "wall_split_desktop_pct": 27,
+      "wall_split_mobile_pct": 34,
+      "floor_width_desktop_pct": 46,
+      "floor_width_mobile_pct": 32,
+      "slots": [
+        {
+          "type": "portrait",
+          "id": "bh-039",
+          "name": "Doris \"Dorie\" Miller",
+          "side": "left",
+          "source_artwork": "039.webp",
+          "year": 1943,
+          "bottom_px": 48
+        },
+        {
+          "type": "portrait",
+          "id": "bh-139",
+          "name": "Queen Muhumuza",
+          "side": "right",
+          "source_artwork": "139.webp",
+          "year": 1945,
+          "bottom_px": 236
+        },
+        {
+          "type": "portrait",
+          "id": "bh-040",
+          "name": "Jack Johnson",
+          "side": "left",
+          "source_artwork": "040.webp",
+          "year": 1946,
+          "bottom_px": 424
+        },
+        {
+          "type": "portrait",
+          "id": "bh-041",
+          "name": "Carter G. Woodson",
+          "side": "right",
+          "source_artwork": "041.webp",
+          "year": 1950,
+          "bottom_px": 626
+        },
+        {
+          "type": "legacy",
+          "id": "legacy-09",
+          "title": "Voices of Change",
+          "lane": "west",
+          "credits": 5,
+          "bottom_px": 880
+        },
+        {
+          "type": "portrait",
+          "id": "bh-043",
+          "name": "Mary Church Terrell",
+          "side": "left",
+          "source_artwork": "043.webp",
+          "year": 1954,
+          "bottom_px": 1018
+        },
+        {
+          "type": "portrait",
+          "id": "bh-042",
+          "name": "Alain Locke",
+          "side": "right",
+          "source_artwork": "042.webp",
+          "year": 1954,
+          "bottom_px": 1206
+        },
+        {
+          "type": "portrait",
+          "id": "bh-045",
+          "name": "Mary McLeod Bethune",
+          "side": "left",
+          "source_artwork": "045.webp",
+          "year": 1955,
+          "bottom_px": 1394
+        },
+        {
+          "type": "portrait",
+          "id": "bh-044",
+          "name": "Matthew P. Henson",
+          "side": "right",
+          "source_artwork": "044.webp",
+          "year": 1955,
+          "bottom_px": 1582
+        },
+        {
+          "type": "legacy",
+          "id": "legacy-10",
+          "title": "Who Said It?",
+          "lane": "east",
+          "credits": 5,
+          "bottom_px": 1836
+        },
+        {
+          "type": "portrait",
+          "id": "bh-046",
+          "name": "Billie Holiday",
+          "side": "left",
+          "source_artwork": "046.webp",
+          "year": 1959,
+          "bottom_px": 1974
+        },
+        {
+          "type": "portrait",
+          "id": "bh-047",
+          "name": "Zora Neale Hurston",
+          "side": "right",
+          "source_artwork": "047.webp",
+          "year": 1960,
+          "bottom_px": 2162
+        },
+        {
+          "type": "portrait",
+          "id": "bh-048",
+          "name": "Richard Wright",
+          "side": "left",
+          "source_artwork": "048.webp",
+          "year": 1960,
+          "bottom_px": 2350
+        },
+        {
+          "type": "portrait",
+          "id": "bh-049",
+          "name": "Patrice Lumumba",
+          "side": "right",
+          "source_artwork": "049.webp",
+          "year": 1961,
+          "bottom_px": 2538
+        },
+        {
+          "type": "era",
+          "id": "era-04",
+          "title": "Era Challenge",
+          "lane": "center",
+          "seal_number": 4,
+          "bottom_px": 2818
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "The Movement and a Changing World",
+      "figure_count": 12,
+      "scene_height_px": 2656,
+      "art_reference_width_px": 1530,
+      "wall_split_desktop_pct": 27,
+      "wall_split_mobile_pct": 34,
+      "floor_width_desktop_pct": 46,
+      "floor_width_mobile_pct": 32,
+      "slots": [
+        {
+          "type": "portrait",
+          "id": "bh-052",
+          "name": "W. E. B. Du Bois",
+          "side": "left",
+          "source_artwork": "052.webp",
+          "year": 1963,
+          "bottom_px": 48
+        },
+        {
+          "type": "portrait",
+          "id": "bh-051",
+          "name": "Garrett Morgan",
+          "side": "right",
+          "source_artwork": "051.webp",
+          "year": 1963,
+          "bottom_px": 236
+        },
+        {
+          "type": "portrait",
+          "id": "bh-050",
+          "name": "Medgar Evers",
+          "side": "left",
+          "source_artwork": "050.webp",
+          "year": 1963,
+          "bottom_px": 424
+        },
+        {
+          "type": "portrait",
+          "id": "bh-053",
+          "name": "Roger Arliner Young",
+          "side": "right",
+          "source_artwork": "053.webp",
+          "year": 1964,
+          "bottom_px": 612
+        },
+        {
+          "type": "portrait",
+          "id": "bh-054",
+          "name": "Sam Cooke",
+          "side": "left",
+          "source_artwork": "054.webp",
+          "year": 1964,
+          "bottom_px": 800
+        },
+        {
+          "type": "portrait",
+          "id": "bh-055",
+          "name": "Nat King Cole",
+          "side": "right",
+          "source_artwork": "055.webp",
+          "year": 1965,
+          "bottom_px": 988
+        },
+        {
+          "type": "legacy",
+          "id": "legacy-11",
+          "title": "Connections Challenge",
+          "lane": "west",
+          "credits": 5,
+          "bottom_px": 1242
+        },
+        {
+          "type": "portrait",
+          "id": "bh-056",
+          "name": "Malcolm X (El-Hajj Malik El-Shabazz)",
+          "side": "left",
+          "source_artwork": "056.webp",
+          "year": 1965,
+          "bottom_px": 1366
+        },
+        {
+          "type": "portrait",
+          "id": "bh-057",
+          "name": "Dorothy Dandridge",
+          "side": "right",
+          "source_artwork": "057.webp",
+          "year": 1965,
+          "bottom_px": 1554
+        },
+        {
+          "type": "portrait",
+          "id": "bh-058",
+          "name": "Langston Hughes",
+          "side": "left",
+          "source_artwork": "058.webp",
+          "year": 1967,
+          "bottom_px": 1742
+        },
+        {
+          "type": "portrait",
+          "id": "bh-059",
+          "name": "Martin Luther King Jr.",
+          "side": "right",
+          "source_artwork": "059.webp",
+          "year": 1968,
+          "bottom_px": 1930
+        },
+        {
+          "type": "portrait",
+          "id": "bh-060",
+          "name": "Fred Hampton",
+          "side": "left",
+          "source_artwork": "060.webp",
+          "year": 1969,
+          "bottom_px": 2118
+        },
+        {
+          "type": "portrait",
+          "id": "bh-061",
+          "name": "Louis Armstrong",
+          "side": "right",
+          "source_artwork": "061.webp",
+          "year": 1971,
+          "bottom_px": 2306
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "New Voices and Global Horizons",
+      "figure_count": 12,
+      "scene_height_px": 2992,
+      "art_reference_width_px": 1530,
+      "wall_split_desktop_pct": 27,
+      "wall_split_mobile_pct": 34,
+      "floor_width_desktop_pct": 46,
+      "floor_width_mobile_pct": 32,
+      "slots": [
+        {
+          "type": "portrait",
+          "id": "bh-063",
+          "name": "Jackie Robinson",
+          "side": "left",
+          "source_artwork": "063.webp",
+          "year": 1972,
+          "bottom_px": 48
+        },
+        {
+          "type": "portrait",
+          "id": "bh-062",
+          "name": "Kwame Nkrumah",
+          "side": "right",
+          "source_artwork": "062.webp",
+          "year": 1972,
+          "bottom_px": 236
+        },
+        {
+          "type": "portrait",
+          "id": "bh-064",
+          "name": "Duke Ellington",
+          "side": "left",
+          "source_artwork": "064.webp",
+          "year": 1974,
+          "bottom_px": 424
+        },
+        {
+          "type": "portrait",
+          "id": "bh-065",
+          "name": "Haile Selassie I",
+          "side": "right",
+          "source_artwork": "065.webp",
+          "year": 1975,
+          "bottom_px": 612
+        },
+        {
+          "type": "legacy",
+          "id": "legacy-12",
+          "title": "Primary Source Spotlight",
+          "lane": "east",
+          "credits": 5,
+          "bottom_px": 866
+        },
+        {
+          "type": "portrait",
+          "id": "bh-066",
+          "name": "Paul Robeson",
+          "side": "left",
+          "source_artwork": "066.webp",
+          "year": 1976,
+          "bottom_px": 990
+        },
+        {
+          "type": "portrait",
+          "id": "bh-067",
+          "name": "Fannie Lou Hamer",
+          "side": "right",
+          "source_artwork": "067.webp",
+          "year": 1977,
+          "bottom_px": 1178
+        },
+        {
+          "type": "portrait",
+          "id": "bh-068",
+          "name": "Jomo Kenyatta",
+          "side": "left",
+          "source_artwork": "068.webp",
+          "year": 1978,
+          "bottom_px": 1366
+        },
+        {
+          "type": "portrait",
+          "id": "bh-069",
+          "name": "Marjorie Lee Browne",
+          "side": "right",
+          "source_artwork": "069.webp",
+          "year": 1979,
+          "bottom_px": 1554
+        },
+        {
+          "type": "legacy",
+          "id": "legacy-13",
+          "title": "Fact or Fiction?",
+          "lane": "west",
+          "credits": 5,
+          "bottom_px": 1808
+        },
+        {
+          "type": "portrait",
+          "id": "bh-070",
+          "name": "Jesse Owens",
+          "side": "left",
+          "source_artwork": "070.webp",
+          "year": 1980,
+          "bottom_px": 1932
+        },
+        {
+          "type": "portrait",
+          "id": "bh-071",
+          "name": "Joe Louis",
+          "side": "right",
+          "source_artwork": "071.webp",
+          "year": 1981,
+          "bottom_px": 2120
+        },
+        {
+          "type": "portrait",
+          "id": "bh-072",
+          "name": "Bob Marley",
+          "side": "left",
+          "source_artwork": "072.webp",
+          "year": 1981,
+          "bottom_px": 2308
+        },
+        {
+          "type": "portrait",
+          "id": "bh-073",
+          "name": "Satchel Paige",
+          "side": "right",
+          "source_artwork": "073.webp",
+          "year": 1982,
+          "bottom_px": 2496
+        },
+        {
+          "type": "era",
+          "id": "era-05",
+          "title": "Era Challenge",
+          "lane": "center",
+          "seal_number": 5,
+          "bottom_px": 2776
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Culture, Achievement and New Generations",
+      "figure_count": 11,
+      "scene_height_px": 2672,
+      "art_reference_width_px": 1530,
+      "wall_split_desktop_pct": 27,
+      "wall_split_mobile_pct": 34,
+      "floor_width_desktop_pct": 46,
+      "floor_width_mobile_pct": 32,
+      "slots": [
+        {
+          "type": "portrait",
+          "id": "bh-074",
+          "name": "Marvin Gaye",
+          "side": "left",
+          "source_artwork": "074.webp",
+          "year": 1984,
+          "bottom_px": 48
+        },
+        {
+          "type": "portrait",
+          "id": "bh-076",
+          "name": "Vivien Thomas",
+          "side": "right",
+          "source_artwork": "076.webp",
+          "year": 1985,
+          "bottom_px": 236
+        },
+        {
+          "type": "portrait",
+          "id": "bh-078",
+          "name": "James Baldwin",
+          "side": "left",
+          "source_artwork": "078.webp",
+          "year": 1987,
+          "bottom_px": 424
+        },
+        {
+          "type": "legacy",
+          "id": "legacy-14",
+          "title": "Turning Point",
+          "lane": "east",
+          "credits": 5,
+          "bottom_px": 678
+        },
+        {
+          "type": "portrait",
+          "id": "bh-077",
+          "name": "Bayard Rustin",
+          "side": "right",
+          "source_artwork": "077.webp",
+          "year": 1987,
+          "bottom_px": 802
+        },
+        {
+          "type": "portrait",
+          "id": "bh-079",
+          "name": "Sugar Ray Robinson",
+          "side": "left",
+          "source_artwork": "079.webp",
+          "year": 1989,
+          "bottom_px": 990
+        },
+        {
+          "type": "portrait",
+          "id": "bh-080",
+          "name": "Huey P. Newton",
+          "side": "right",
+          "source_artwork": "080.webp",
+          "year": 1989,
+          "bottom_px": 1178
+        },
+        {
+          "type": "portrait",
+          "id": "bh-083",
+          "name": "Marian Anderson",
+          "side": "left",
+          "source_artwork": "083.webp",
+          "year": 1993,
+          "bottom_px": 1380
+        },
+        {
+          "type": "legacy",
+          "id": "legacy-15",
+          "title": "Visual Evidence",
+          "lane": "west",
+          "credits": 5,
+          "bottom_px": 1634
+        },
+        {
+          "type": "portrait",
+          "id": "bh-081",
+          "name": "Thurgood Marshall",
+          "side": "right",
+          "source_artwork": "081.webp",
+          "year": 1993,
+          "bottom_px": 1758
+        },
+        {
+          "type": "portrait",
+          "id": "bh-082",
+          "name": "Arthur Ashe",
+          "side": "left",
+          "source_artwork": "082.webp",
+          "year": 1993,
+          "bottom_px": 1946
+        },
+        {
+          "type": "portrait",
+          "id": "bh-084",
+          "name": "Wilma Rudolph",
+          "side": "right",
+          "source_artwork": "084.webp",
+          "year": 1994,
+          "bottom_px": 2134
+        },
+        {
+          "type": "portrait",
+          "id": "bh-085",
+          "name": "Ella Fitzgerald",
+          "side": "left",
+          "source_artwork": "085.webp",
+          "year": 1996,
+          "bottom_px": 2322
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "A World in Transition",
+      "figure_count": 12,
+      "scene_height_px": 2992,
+      "art_reference_width_px": 1530,
+      "wall_split_desktop_pct": 27,
+      "wall_split_mobile_pct": 34,
+      "floor_width_desktop_pct": 46,
+      "floor_width_mobile_pct": 32,
+      "slots": [
+        {
+          "type": "portrait",
+          "id": "bh-086",
+          "name": "Tupac Shakur",
+          "side": "right",
+          "source_artwork": "086.webp",
+          "year": 1996,
+          "bottom_px": 48
+        },
+        {
+          "type": "portrait",
+          "id": "bh-087",
+          "name": "Christopher Wallace (The Notorious B.I.G.)",
+          "side": "left",
+          "source_artwork": "087.webp",
+          "year": 1997,
+          "bottom_px": 236
+        },
+        {
+          "type": "portrait",
+          "id": "bh-088",
+          "name": "Wilt Chamberlain",
+          "side": "right",
+          "source_artwork": "088.webp",
+          "year": 1999,
+          "bottom_px": 424
+        },
+        {
+          "type": "portrait",
+          "id": "bh-089",
+          "name": "Jacob Lawrence",
+          "side": "left",
+          "source_artwork": "089.webp",
+          "year": 2000,
+          "bottom_px": 612
+        },
+        {
+          "type": "legacy",
+          "id": "legacy-16",
+          "title": "Legacy Link",
+          "lane": "east",
+          "credits": 5,
+          "bottom_px": 866
+        },
+        {
+          "type": "portrait",
+          "id": "bh-091",
+          "name": "Benjamin O. Davis Jr",
+          "side": "right",
+          "source_artwork": "091.webp",
+          "year": 2002,
+          "bottom_px": 990
+        },
+        {
+          "type": "portrait",
+          "id": "bh-090",
+          "name": "Charity Adams Earley",
+          "side": "left",
+          "source_artwork": "090.webp",
+          "year": 2002,
+          "bottom_px": 1178
+        },
+        {
+          "type": "portrait",
+          "id": "bh-093",
+          "name": "Althea Gibson",
+          "side": "right",
+          "source_artwork": "093.webp",
+          "year": 2003,
+          "bottom_px": 1366
+        },
+        {
+          "type": "portrait",
+          "id": "bh-092",
+          "name": "Nina Simone",
+          "side": "left",
+          "source_artwork": "092.webp",
+          "year": 2003,
+          "bottom_px": 1554
+        },
+        {
+          "type": "legacy",
+          "id": "legacy-17",
+          "title": "Hidden History",
+          "lane": "west",
+          "credits": 5,
+          "bottom_px": 1808
+        },
+        {
+          "type": "portrait",
+          "id": "bh-094",
+          "name": "Ray Charles",
+          "side": "right",
+          "source_artwork": "094.webp",
+          "year": 2004,
+          "bottom_px": 1932
+        },
+        {
+          "type": "portrait",
+          "id": "bh-096",
+          "name": "Rosa Parks",
+          "side": "left",
+          "source_artwork": "096.webp",
+          "year": 2005,
+          "bottom_px": 2120
+        },
+        {
+          "type": "portrait",
+          "id": "bh-095",
+          "name": "Shirley Chisholm",
+          "side": "right",
+          "source_artwork": "095.webp",
+          "year": 2005,
+          "bottom_px": 2308
+        },
+        {
+          "type": "portrait",
+          "id": "bh-097",
+          "name": "Richard Pryor",
+          "side": "left",
+          "source_artwork": "097.webp",
+          "year": 2005,
+          "bottom_px": 2496
+        },
+        {
+          "type": "era",
+          "id": "era-06",
+          "title": "Era Challenge",
+          "lane": "center",
+          "seal_number": 6,
+          "bottom_px": 2776
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Legacies of the New Century",
+      "figure_count": 12,
+      "scene_height_px": 2800,
+      "art_reference_width_px": 1530,
+      "wall_split_desktop_pct": 27,
+      "wall_split_mobile_pct": 34,
+      "floor_width_desktop_pct": 46,
+      "floor_width_mobile_pct": 32,
+      "slots": [
+        {
+          "type": "portrait",
+          "id": "bh-098",
+          "name": "James Brown",
+          "side": "right",
+          "source_artwork": "098.webp",
+          "year": 2006,
+          "bottom_px": 48
+        },
+        {
+          "type": "portrait",
+          "id": "bh-099",
+          "name": "Michael Jackson",
+          "side": "left",
+          "source_artwork": "099.webp",
+          "year": 2009,
+          "bottom_px": 236
+        },
+        {
+          "type": "portrait",
+          "id": "bh-100",
+          "name": "David Blackwell",
+          "side": "right",
+          "source_artwork": "100.webp",
+          "year": 2010,
+          "bottom_px": 424
+        },
+        {
+          "type": "portrait",
+          "id": "bh-075",
+          "name": "Annie Easley",
+          "side": "left",
+          "source_artwork": "075.webp",
+          "year": 2011,
+          "bottom_px": 612
+        },
+        {
+          "type": "portrait",
+          "id": "bh-101",
+          "name": "Hazel Johnson-Brown",
+          "side": "right",
+          "source_artwork": "101.webp",
+          "year": 2011,
+          "bottom_px": 800
+        },
+        {
+          "type": "portrait",
+          "id": "bh-102",
+          "name": "Nelson Mandela",
+          "side": "left",
+          "source_artwork": "102.webp",
+          "year": 2013,
+          "bottom_px": 988
+        },
+        {
+          "type": "legacy",
+          "id": "legacy-18",
+          "title": "Cause & Consequence",
+          "lane": "east",
+          "credits": 5,
+          "bottom_px": 1242
+        },
+        {
+          "type": "portrait",
+          "id": "bh-103",
+          "name": "Maya Angelou",
+          "side": "right",
+          "source_artwork": "103.webp",
+          "year": 2014,
+          "bottom_px": 1366
+        },
+        {
+          "type": "portrait",
+          "id": "bh-105",
+          "name": "Muhammad Ali",
+          "side": "left",
+          "source_artwork": "105.webp",
+          "year": 2016,
+          "bottom_px": 1554
+        },
+        {
+          "type": "portrait",
+          "id": "bh-104",
+          "name": "Prince",
+          "side": "right",
+          "source_artwork": "104.webp",
+          "year": 2016,
+          "bottom_px": 1742
+        },
+        {
+          "type": "portrait",
+          "id": "bh-106",
+          "name": "Aretha Franklin",
+          "side": "left",
+          "source_artwork": "106.webp",
+          "year": 2018,
+          "bottom_px": 1930
+        },
+        {
+          "type": "portrait",
+          "id": "bh-108",
+          "name": "Toni Morrison",
+          "side": "right",
+          "source_artwork": "108.webp",
+          "year": 2019,
+          "bottom_px": 2118
+        },
+        {
+          "type": "portrait",
+          "id": "bh-107",
+          "name": "Patricia Bath",
+          "side": "left",
+          "source_artwork": "107.webp",
+          "year": 2019,
+          "bottom_px": 2306
+        },
+        {
+          "type": "era",
+          "id": "era-07",
+          "title": "Era Challenge",
+          "lane": "center",
+          "seal_number": 7,
+          "bottom_px": 2586
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Living Memory and Enduring Influence",
+      "figure_count": 12,
+      "scene_height_px": 2992,
+      "art_reference_width_px": 1530,
+      "wall_split_desktop_pct": 27,
+      "wall_split_mobile_pct": 34,
+      "floor_width_desktop_pct": 46,
+      "floor_width_mobile_pct": 32,
+      "slots": [
+        {
+          "type": "portrait",
+          "id": "bh-109",
+          "name": "Katherine Johnson",
+          "side": "right",
+          "source_artwork": "109.webp",
+          "year": 2020,
+          "bottom_px": 48
+        },
+        {
+          "type": "portrait",
+          "id": "bh-110",
+          "name": "John Lewis",
+          "side": "left",
+          "source_artwork": "110.webp",
+          "year": 2020,
+          "bottom_px": 236
+        },
+        {
+          "type": "portrait",
+          "id": "bh-111",
+          "name": "George Carruthers",
+          "side": "right",
+          "source_artwork": "111.webp",
+          "year": 2020,
+          "bottom_px": 424
+        },
+        {
+          "type": "portrait",
+          "id": "bh-113",
+          "name": "Gloria Richardson",
+          "side": "left",
+          "source_artwork": "113.webp",
+          "year": 2021,
+          "bottom_px": 612
+        },
+        {
+          "type": "legacy",
+          "id": "legacy-19",
+          "title": "History in Context",
+          "lane": "west",
+          "credits": 5,
+          "bottom_px": 866
+        },
+        {
+          "type": "portrait",
+          "id": "bh-112",
+          "name": "Cicely Tyson",
+          "side": "right",
+          "source_artwork": "112.webp",
+          "year": 2021,
+          "bottom_px": 990
+        },
+        {
+          "type": "portrait",
+          "id": "bh-115",
+          "name": "Desmond Tutu",
+          "side": "left",
+          "source_artwork": "115.webp",
+          "year": 2021,
+          "bottom_px": 1178
+        },
+        {
+          "type": "portrait",
+          "id": "bh-114",
+          "name": "Colin Powell",
+          "side": "right",
+          "source_artwork": "114.webp",
+          "year": 2021,
+          "bottom_px": 1366
+        },
+        {
+          "type": "portrait",
+          "id": "bh-117",
+          "name": "Bill Russell",
+          "side": "left",
+          "source_artwork": "117.webp",
+          "year": 2022,
+          "bottom_px": 1554
+        },
+        {
+          "type": "legacy",
+          "id": "legacy-20",
+          "title": "The Legacy Question",
+          "lane": "east",
+          "credits": 5,
+          "bottom_px": 1808
+        },
+        {
+          "type": "portrait",
+          "id": "bh-118",
+          "name": "Pelé (Edson Arantes do Nascimento)",
+          "side": "right",
+          "source_artwork": "118.webp",
+          "year": 2022,
+          "bottom_px": 1932
+        },
+        {
+          "type": "portrait",
+          "id": "bh-116",
+          "name": "Sidney Poitier",
+          "side": "left",
+          "source_artwork": "116.webp",
+          "year": 2022,
+          "bottom_px": 2120
+        },
+        {
+          "type": "portrait",
+          "id": "bh-119",
+          "name": "Jim Brown",
+          "side": "right",
+          "source_artwork": "119.webp",
+          "year": 2023,
+          "bottom_px": 2308
+        },
+        {
+          "type": "portrait",
+          "id": "bh-120",
+          "name": "James Earl Jones",
+          "side": "left",
+          "source_artwork": "120.webp",
+          "year": 2024,
+          "bottom_px": 2496
+        },
+        {
+          "type": "era",
+          "id": "era-08",
+          "title": "Era Challenge",
+          "lane": "center",
+          "seal_number": 8,
+          "bottom_px": 2776
+        }
+      ]
+    }
+  ]
+}
