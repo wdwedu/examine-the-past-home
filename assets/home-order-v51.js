@@ -6,7 +6,7 @@ document.querySelectorAll("section").forEach(sec=>{const t=(sec.textContent||"")
 const tools=id("teacher-tools-v50"),testimonials=id("testimonials"),hub=id("history-hub-v50"),shops=id("shops"),about=id("about-us"),contact=id("contact-section");
 const heroTitle=[...document.querySelectorAll("h1,h2")].find(n=>/EXAMINE THE PAST/i.test((n.textContent||"").trim()));const hero=(heroTitle&&heroTitle.closest("section"))||q("section.hero")||q("main section")||q("body > section");
 if(hero&&tools)hero.insertAdjacentElement("afterend",tools);
-if(tools&&testimonials)tools.insertAdjacentElement("afterend",testimonials);
+const gamesSection=id("home-games-v54");if(tools&&gamesSection)tools.insertAdjacentElement("afterend",gamesSection);if(gamesSection&&testimonials)gamesSection.insertAdjacentElement("afterend",testimonials);else if(tools&&testimonials)tools.insertAdjacentElement("afterend",testimonials);
 if(testimonials&&hub)testimonials.insertAdjacentElement("afterend",hub);
 if(hub&&shops)hub.insertAdjacentElement("afterend",shops);
 if(shops&&about)shops.insertAdjacentElement("afterend",about);
