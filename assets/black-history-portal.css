@@ -69,3 +69,10 @@ box-shadow:0 15px 35px #0008}
 .bh-game-card p{font:15px/1.6 Georgia,serif;color:#f1f4ed;margin:0 0 22px;flex:1}
 .bh-game-card:hover,.bh-game-card:focus-within{border-color:#fff200;box-shadow:0 0 25px #94ff532b}
 @media(max-width:680px){.bh-game-grid{grid-template-columns:1fr}.bh-game-card{padding:24px}}
+
+/* Distinct games without diluting the Examine the Past green/yellow hierarchy. */
+.bh-game-card--mystery{background:radial-gradient(circle at 80% 15%,#44689488,transparent 55%),linear-gradient(145deg,#111a3d,#1a2e4f 65%,#111426);border-color:#7daff67d}
+.bh-game-card--timeline{background:radial-gradient(circle at 85% 12%,#65963a55,transparent 56%),linear-gradient(145deg,#122618,#1d3620 55%,#111e16);border-color:#98dc78a0}
+.bh-game-card--connections{background:radial-gradient(circle at 85% 12%,#b65e4b55,transparent 56%),linear-gradient(145deg,#31182a,#42212c 57%,#251422);border-color:#e5a38d93}
+.bh-game-grid .bh-game-card{min-height:270px}
+.bh-game-grid .bh-game-card .bh-tag{position:relative}
