@@ -165,3 +165,8 @@ body.hall-visual-demo{overflow-x:clip}
 .hv-research-details .hv-control{margin:10px auto}
 .hv-research-details .hv-explainer{margin:12px 0}
 .hv-entrance>.hv-back{margin-top:18px}
+
+/* Modal must sit above the shared site navigation and the sticky score ledger. */
+.hv-demo-overlay{z-index:2147483000}
+.hv-mobile .hv-chronology .hv-person--left{left:clamp(18px,5vw,30px)}
+.hv-mobile .hv-chronology .hv-person--right{right:clamp(18px,5vw,30px)}
