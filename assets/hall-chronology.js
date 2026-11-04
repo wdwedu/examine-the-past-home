@@ -39,7 +39,115 @@ function awardAlliance(id){
  catch(err){allianceStorageAvailable=false;}
  updateAllianceDisplays();return true;
 }
+let featuredProfiles=new Map();
+function phaseVisual(target,phase,tone){
+ target.dataset.phase=phase;target.dataset.tone=tone;
+ const stage=target.querySelector(".hv-branch-stage");
+ if(stage){stage.classList.remove("hv-branch-revealed");void stage.offsetWidth;stage.classList.add("hv-branch-revealed");}
+}
+function featuredBioParagraphs(target,feature){
+ for(const entry of feature.biography)appendBioSection(target,entry.heading,entry.text);
+ const note=mk("p","hv-feature-factcheck","Historical note: This biography is based on NPS, Maryland and National Archives research. The interactive choices are educational simulations, not documented conversations.");
+ target.append(note);
+}
+function renderTubmanActivity(target,profile,feature){
+ const wrap=mk("section","hv-alliance-activity hv-branching-activity hv-tubman-activity");
+ wrap.setAttribute("aria-label","Harriet Tubman historical decision investigation");
+ const heading=mk("h3","hv-alliance-heading",feature.title);
+ const intro=mk("p","hv-alliance-instructions","Three different historical investigations. Your choices change the evidence you uncover. Revisit your decisions before the final challenge.");
+ const progress=mk("p","hv-branch-progress","");
+ const stage=mk("div","hv-branch-stage");
+ const feedback=mk("div","hv-alliance-feedback");feedback.setAttribute("role","status");feedback.setAttribute("aria-live","polite");
+ const trail=mk("div","hv-branch-trail");trail.setAttribute("aria-label","Investigation progress");
+ wrap.append(heading,intro,progress,trail,stage,feedback);target.append(wrap);
+ const visited=new Set();
+ let selected=null;
+ const setStage=(phase,tone,title,body)=>{
+  wrap.dataset.phase=phase;wrap.dataset.tone=tone;
+  stage.replaceChildren(mk("h4","hv-branch-title",title),mk("p","hv-branch-context",body));
+  stage.classList.remove("hv-branch-revealed");void stage.offsetWidth;stage.classList.add("hv-branch-revealed");
+  feedback.replaceChildren();feedback.className="hv-alliance-feedback";
+ };
+ const button=(label,action,tone="blue")=>{
+  const el=mk("button","hv-alliance-choice hv-branch-choice",label);
+  el.type="button";el.dataset.tone=tone;
+  el.addEventListener("click",()=>{
+   if(el.disabled)return;
+   el.classList.add("hv-choice-selected");
+   el.setAttribute("aria-pressed","true");
+   stage.querySelectorAll("button").forEach(x=>x.disabled=true);
+   setTimeout(action,reduceMotion()?0:190);
+  });
+  return el;
+ };
+ function updateTrail(){
+  trail.replaceChildren();
+  feature.scenarios.forEach(sc=>{
+   const pill=mk("span","hv-branch-trail-pill"+(visited.has(sc.id)?" hv-visited":""),(visited.has(sc.id)?"✓ ":"○ ")+sc.title);
+   trail.append(pill);
+  });
+ }
+ function enterHub(){
+  progress.textContent="Choose your historical investigation";
+  setStage("explore","blue","A history that changes with what you investigate","Choose an exhibit question. Each route opens a different historical situation and changes what you learn. You can explore more than one.");
+  updateTrail();
+  for(const sc of feature.scenarios)stage.append(button(sc.title+" →",()=>enterScenario(sc)));
+  stage.append(button("I am ready for the final challenge",enterFinal,"gold"));
+ }
+ function enterScenario(sc){
+  selected=sc;
+  progress.textContent="Investigate · "+sc.title;
+  setStage("decision","red",sc.title,sc.context);
+  stage.append(mk("p","hv-branch-question",sc.prompt));
+  for(const ch of sc.choices)stage.append(button(ch.label,()=>enterConsequence(sc,ch),ch.tone));
+  stage.append(button("← Choose a different investigation",enterHub,"blue"));
+ }
+ function enterConsequence(sc,ch){
+  visited.add(sc.id);updateTrail();
+  progress.textContent="Your decision changed the exhibit";
+  setStage("consequence",ch.tone,ch.tone==="red"?"A missing piece of the story":"New evidence unlocked",ch.consequence);
+  const insight=ch.tone==="red"?"Try a different source or decision to recover the missing historical context.":"Your choice brings the exhibit closer to a careful historical interpretation.";
+  stage.append(mk("p","hv-branch-insight",insight));
+  stage.append(button("Investigate another decision",()=>enterScenario(sc),"blue"));
+  stage.append(button("Explore another history path",enterHub,"green"));
+  stage.append(button("Move to the final challenge →",enterFinal,"gold"));
+ }
+ function enterFinal(){
+  progress.textContent="Final challenge · 1 Alliance";
+  setStage("reward","gold","Prove what you discovered",feature.final.prompt);
+  const options=mk("div","hv-alliance-options");stage.append(options);
+  const choices=[];
+  const result=()=>{
+   choices.forEach((b,i)=>{b.disabled=true;b.classList.toggle("hv-alliance-right",i===feature.final.correct)});
+   feedback.className="hv-alliance-feedback hv-alliance-success";
+   feedback.replaceChildren(mk("strong","","Alliance earned for Harriet Tubman ✓"),mk("p","",feature.final.explanation));
+  };
+  feature.final.options.forEach((option,i)=>{
+   const btn=mk("button","hv-alliance-choice",String.fromCharCode(65+i)+". "+option);btn.type="button";
+   btn.addEventListener("click",()=>{
+    if(earnedAlliances.has(profile.id)){result();return;}
+    if(i===feature.final.correct){
+     const fresh=awardAlliance(profile.id);
+     result();
+     if(fresh)window.ETPTransitions?.clickSound?.("gold");
+    }else{
+     choices.forEach(x=>x.classList.remove("hv-alliance-wrong"));
+     btn.classList.add("hv-alliance-wrong");
+     feedback.className="hv-alliance-feedback hv-alliance-try";
+     feedback.replaceChildren(mk("strong","","Not quite. Revisit the evidence."),mk("p","","Tubman's work included rescue journeys, collective support networks, and Civil War service. Try again."));
+    }
+   });choices.push(btn);options.append(btn);
+  });
+  if(earnedAlliances.has(profile.id))result();
+  stage.append(button("← Explore the different investigation paths",enterHub,"green"));
+ }
+ if(earnedAlliances.has(profile.id))enterFinal();else enterHub();
+ if(!allianceStorageAvailable)wrap.append(mk("small","hv-alliance-storage-note","This browser cannot save progress. Your score will not persist when the page closes."));
+}
+
 function renderAllianceActivity(target,profile){
+ const feature=featuredProfiles.get(profile.id);
+ if(feature){renderTubmanActivity(target,profile,feature);return;}
  const challenge=allianceMap.get(profile.id);
  if(!challenge)return;
  const wrap=mk("section","hv-alliance-activity hv-branching-activity");
@@ -57,6 +165,7 @@ function renderAllianceActivity(target,profile){
  const setStage=(title,description)=>{
   stage.replaceChildren(mk("h4","hv-branch-title",title),mk("p","hv-branch-context",description));
   feedback.replaceChildren();feedback.className="hv-alliance-feedback";
+  phaseVisual(wrap,wrap.dataset.phase||"explore",wrap.dataset.tone||"blue");
  };
  const paths=[
   {title:"Follow the actions",button:"Investigate what this figure did",next:"Look for evidence of specific actions and how contemporaries described them.",result:profile.overview},
@@ -64,11 +173,13 @@ function renderAllianceActivity(target,profile){
   {title:"Test the historical record",button:"Question how the story was recorded",next:"Ask where the account comes from and which details can be independently established.",result:profile.question}
  ];
  function stageOne(){
+  wrap.dataset.phase="explore";wrap.dataset.tone="blue";
   progress.textContent="Step 1 of 3 · Choose your investigation";
   setStage("The exhibit needs a historical focus","You have space for one opening panel. What should visitors investigate first?");
   for(const path of paths)stage.append(makeChoice(path.button,()=>stageTwo(path)));
  }
  function stageTwo(path){
+  wrap.dataset.phase="decision";wrap.dataset.tone="green";
   progress.textContent="Step 2 of 3 · Evaluate your evidence";
   setStage(path.title,path.next);
   const evidence=mk("blockquote","hv-branch-excerpt",path.result);stage.append(evidence);
@@ -78,6 +189,7 @@ function renderAllianceActivity(target,profile){
   stage.append(makeChoice("← Choose a different investigation",stageOne));
  }
  function stageConsequence(path,responsible){
+  wrap.dataset.phase="consequence";wrap.dataset.tone=responsible?"green":"red";
   progress.textContent="Step 2 of 3 · Your decision's consequence";
   setStage(responsible?"A stronger historical interpretation":"An incomplete historical interpretation",
    responsible?"Comparing sources and identifying uncertainties builds a defensible interpretation. You can now test your understanding.":"A single account can omit important context or reflect a particular perspective. Revise your approach by checking evidence before drawing a conclusion.");
@@ -86,6 +198,7 @@ function renderAllianceActivity(target,profile){
   stage.append(makeChoice("← Reconsider the evidence",()=>stageTwo(path)));
  }
  function stageThree(){
+  wrap.dataset.phase="reward";wrap.dataset.tone="gold";
   progress.textContent="Step 3 of 3 · Earn your Alliance";
   setStage("Historical evidence challenge",challenge.prompt);
   const answers=mk("div","hv-alliance-options");stage.append(answers);
@@ -141,8 +254,9 @@ function heroLessonUrl(id){
   :siteRoot+"lessons/black-history-heroes/figure/?id="+encodeURIComponent(id);
 }
 function renderBiography(target,profile,personName){
- appendBioSection(target,"Life and historical context",profile.overview);
- appendBioSection(target,"Why this history matters",profile.significance);
+ const featured=featuredProfiles.get(profile.id);
+ if(featured){featuredBioParagraphs(target,featured);}else{appendBioSection(target,"Life and historical context",profile.overview);
+ appendBioSection(target,"Why this history matters",profile.significance);}
  const expanded=mk("section","hv-bio-section hv-bio-interpretation");
  expanded.append(mk("h3","","Reading history with care"));
  expanded.append(mk("p","","Historical biographies are built by comparing records, context, and interpretations. A person's influence is not limited to a single event, and later accounts can disagree about what happened or why."));
@@ -157,7 +271,7 @@ function renderBiography(target,profile,personName){
  const details=mk("details","hv-bio-research-details"),summary=mk("summary","","Other historical references");details.append(summary);
  const listed=sourceMap.get(profile.id)||[];
  const featuredSources={
-  "bh-027":[["National Park Service — Harriet Tubman","https://www.nps.gov/subjects/africanamericanheritage/harriet-tubman.htm"]],
+  "bh-027":[["National Park Service — Harriet Tubman","https://www.nps.gov/articles/harriet-tubman-and-the-underground-railroad.htm"],["National Archives — Harriet Tubman","https://www.archives.gov/research/african-americans/individuals/harriet-tubman"]],
   "bh-107":[["National Library of Medicine — Patricia Bath","https://www.nlm.nih.gov/exhibition/changing-the-face-of-medicine/physicians/biography_patricia-bath.html?id=item-25"]],
   "bh-109":[["NASA — Katherine Johnson Biography","https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/"]]
  };
@@ -341,8 +455,9 @@ Promise.all([
  getJson(hallData+"biographies-02.json?v=20261104-bios-v1"),
  getJson(hallData+"biographies-03.json?v=20261104-bios-v1"),
  getJson(hallData+"phase1-catalog.json?v=20261104-bios-v1"),
- getJson(hallData+"alliance-activities.json?v=20261104-alliance-v2")
-]).then(([data,geometry,activities,biographies1,biographies2,biographies3,catalog,alliances])=>{
+ getJson(hallData+"alliance-activities.json?v=20261104-alliance-v2"),
+ getJson(hallData+"harriet-tubman-feature.json?v=20261104-color-branch-v1")
+]).then(([data,geometry,activities,biographies1,biographies2,biographies3,catalog,alliances,harrietFeature])=>{
  const profiles=[...biographies1.entries,...biographies2.entries,...biographies3.entries];
  const expectedIds=new Set(data.scenes.flatMap(sc=>sc.portraits.map(f=>f.id)));
  if(profiles.length!==141||new Set(profiles.map(p=>p.id)).size!==141||
@@ -353,6 +468,8 @@ Promise.all([
     new Set(q.options).size!==4||!Number.isInteger(q.correct)||q.correct<0||q.correct>3||!q.explanation))
     throw Error("Alliance activity question bank incomplete or malformed");
  allianceMap=new Map(alliances.entries.map(q=>[q.id,q]));
+ if(harrietFeature.figure_id!=="bh-027"||harrietFeature.scenarios.length!==3||harrietFeature.biography.length<4||harrietFeature.scenarios.some(q=>q.choices.length!==3))throw Error("Harriet historical feature invalid");
+ featuredProfiles.set(harrietFeature.figure_id,harrietFeature);
  restoreAlliances(expectedIds);
  profileMap=new Map(profiles.map(p=>[p.id,p]));
  sourceMap=new Map(catalog.figures.map(f=>[f.id,(f.date_sources||[]).filter(u=>
