@@ -21,12 +21,37 @@ header.innerHTML='<div class="etp-header-inner"><nav class="etp-icon-nav" aria-l
 '<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('games/')+'" data-etp-transition="time">🎮</a><span class="etp-tip">Games</span></div>'+
 '<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('teacher-tools/')+'" data-etp-transition="page">🧰</a><span class="etp-tip">Teacher Tools</span></div>'+
 '<div class="etp-nav-item"><a class="etp-icon-btn" href="https://www.etsy.com/shop/examinethepast">🛍️</a><span class="etp-tip">Shop History</span></div>'+
-'<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('')+'#community">👥</a><span class="etp-tip">Community</span></div>'+
+'<div class="etp-nav-item"><button class="etp-icon-btn" type="button" data-etp-share aria-label="Share Examine the Past">↗</button><span class="etp-tip">Share</span></div>'+
 '<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('')+'#contact-section">📧</a><span class="etp-tip">Contact Us</span></div>'+
 '<div class="etp-nav-item"><button class="etp-icon-btn" type="button" data-etp-action="lights" aria-label="Toggle page lights">💡</button><span class="etp-tip" data-etp-lights-label>Lights Off</span></div>'+
 '<div class="etp-nav-item"><button class="etp-icon-btn" type="button" data-etp-action="jukebox" aria-label="Open History Jukebox"><span class="etp-sound-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></button><span class="etp-tip">History Jukebox</span></div>'+
 '</nav></div>';
 document.body.prepend(header);
+
+const shareBox=document.createElement("div");shareBox.className="etp-share-overlay";shareBox.hidden=true;
+shareBox.innerHTML='<div class="etp-share-shade" data-etp-share-close></div><section class="etp-share-dialog" role="dialog" aria-modal="true" aria-label="Share Examine the Past"><button type="button" class="etp-share-close" data-etp-share-close aria-label="Close sharing">×</button><div class="etp-share-kicker">EXAMINE THE PAST</div><h2>Share Historical Discovery</h2><p>Invite someone to explore Examine the Past.</p><div class="etp-share-social"></div><div class="etp-share-controls"><button type="button" data-etp-copy>Copy Page Link</button><button type="button" data-etp-native>More Sharing Options</button></div><small class="etp-share-status" role="status"></small></section>';
+document.body.append(shareBox);
+const shareTarget=()=>location.origin+location.pathname+location.search;
+const buildShareLinks=()=>{
+ const link=encodeURIComponent(shareTarget()),title=encodeURIComponent("Explore Examine the Past — History Built to Be Explored.");
+ const links=[
+ ["Facebook","https://www.facebook.com/sharer/sharer.php?u="+link,u("assets/social/facebook.svg")],
+ ["Pinterest","https://pinterest.com/pin/create/button/?url="+link+"&description="+title,u("assets/social/pinterest.svg")],
+ ["X","https://twitter.com/intent/tweet?url="+link+"&text="+title,null],
+ ["LinkedIn","https://www.linkedin.com/sharing/share-offsite/?url="+link,null],
+ ["Email","mailto:?subject="+title+"&body="+link,null]
+ ];
+ const area=shareBox.querySelector(".etp-share-social");area.replaceChildren();
+ for(const [label,href,logo] of links){const a=document.createElement("a");a.href=href;a.target=label==="Email"?"_self":"_blank";a.rel="noopener noreferrer";a.setAttribute("aria-label","Share on "+label);if(logo){const img=document.createElement("img");img.src=logo;img.alt="";a.append(img)}else{a.textContent=label}const span=document.createElement("span");span.textContent=label;a.append(span);area.append(a)}
+};
+let sharePreviousFocus=null;
+function closeShare(){if(shareBox.hidden)return;shareBox.hidden=true;document.body.classList.remove("etp-sharing");sharePreviousFocus?.focus?.()}
+function openShare(){sharePreviousFocus=document.activeElement;buildShareLinks();shareBox.hidden=false;document.body.classList.add("etp-sharing");shareBox.querySelector(".etp-share-close")?.focus()}
+document.addEventListener("click",e=>{if(e.target.closest("[data-etp-share]")){e.preventDefault();openShare()}if(e.target.closest("[data-etp-share-close]"))closeShare()});
+shareBox.querySelector("[data-etp-copy]").addEventListener("click",async()=>{try{await navigator.clipboard.writeText(shareTarget());shareBox.querySelector(".etp-share-status").textContent="Page link copied."}catch{shareBox.querySelector(".etp-share-status").textContent="Copy this link: "+shareTarget()}});
+shareBox.querySelector("[data-etp-native]").addEventListener("click",async()=>{if(navigator.share){try{await navigator.share({title:"Examine the Past",text:"Explore history through interactive lessons and games.",url:shareTarget()})}catch{}}else{shareBox.querySelector(".etp-share-status").textContent="Choose a social network or Copy Page Link."}});
+document.addEventListener("keydown",e=>{if(shareBox.hidden)return;if(e.key==="Escape"){e.preventDefault();closeShare()}if(e.key==="Tab"){const focusable=[...shareBox.querySelectorAll("button,a[href]")];if(!focusable.length)return;const first=focusable[0],last=focusable.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}});
+
 const toggle=document.createElement("button");toggle.className="etp-mobile-toggle";toggle.type="button";toggle.setAttribute("aria-label","Open navigation");toggle.setAttribute("aria-expanded","false");toggle.innerHTML="<span></span><span></span><span></span>";
 const panel=document.createElement("div");panel.className="etp-mobile-panel";panel.hidden=true;
 panel.innerHTML='<div class="etp-mobile-install"><button type="button" data-etp-action="install"><span>⬇️</span><b>Install App</b></button></div>'+
@@ -46,7 +71,7 @@ panel.innerHTML='<div class="etp-mobile-install"><button type="button" data-etp-
 '<a href="'+u('games/')+'" data-etp-transition="time"><span>🎮</span><b>Games</b></a>'+
 '<a href="'+u('teacher-tools/')+'" data-etp-transition="page"><span>🧰</span><b>Teacher Tools</b></a>'+
 '<a href="https://www.etsy.com/shop/examinethepast"><span>🛍️</span><b>Shop History</b></a>'+
-'<a href="'+u('')+'#community"><span>👥</span><b>Community</b></a>'+
+'<button type="button" data-etp-share><span>↗</span><b>Share</b></button>'+
 '<a href="'+u('')+'#contact-section"><span>📧</span><b>Contact Us</b></a>'+
 '<button type="button" data-etp-action="jukebox"><span>🎵</span><b>History Jukebox</b></button>'+
 '</div><div class="etp-mobile-bottom"><button class="etp-mobile-sound" type="button" data-etp-action="lights"><span>💡</span><b data-etp-lights-label>Lights Off</b></button></div>';
