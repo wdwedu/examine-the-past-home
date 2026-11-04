@@ -148,6 +148,14 @@ body main.lab-frame .explain.incorrect,body main.lab-frame .explain.incorrect *,
 body main.lab-frame .lab-head .practice-timer,body main.lab-frame .lab-head .practice-timer *{color:#fff!important}
 body main.lab-frame .lab-head .practice-timer strong{color:#fff200!important}
 body main.lab-frame .lab-head .pill,body main.lab-frame #sound-toggle{color:#fff200!important}
+
+/* Original practice-source panels help candidates rehearse reading under test conditions. */
+.practice-source{margin:18px 0 12px;padding:18px 21px;border:1px solid #a8bfcf;border-left:5px solid #225d89;border-radius:9px;background:#f0f5f8!important;color:#182b40!important}
+.practice-source,.practice-source *{color:#182b40!important}
+.practice-source strong{font:700 12px Arial,sans-serif;letter-spacing:.05em;text-transform:uppercase;color:#225676!important}
+.practice-source p{margin:10px 0 0;font-size:clamp(.98rem,1.4vw,1.08rem);line-height:1.75;color:#182b40!important}
+.practice-source small{font:12px/1.5 Arial,sans-serif;color:#47617a!important}
+@media(max-width:560px){.practice-source{padding:14px}}
 </style>
 </head>
 <body>
@@ -223,6 +231,10 @@ fix(".explain.incorrect,.explain.incorrect h3,.explain.incorrect p,.explain.inco
 }
 function render(){
 const q=currentQuestion();el("question-label").textContent="QUESTION "+(state.current+1)+" OF "+N;el("domain-label").textContent=domains[q.domain];el("question-stem").textContent=q.stem;
+let sourceBox=el("practice-source");
+if(!sourceBox){sourceBox=document.createElement("aside");sourceBox.id="practice-source";sourceBox.className="practice-source hidden";el("question-stem").before(sourceBox)}
+sourceBox.replaceChildren();
+if(q.stimulus){sourceBox.classList.remove("hidden");const head=document.createElement("strong");head.textContent="Reading passage • Original instructional source";const p=document.createElement("p");p.textContent=q.stimulus;const note=document.createElement("small");note.textContent="Written for practice. Not an ETS or historical quotation.";sourceBox.append(head,p,note)}else sourceBox.classList.add("hidden");
 const f=el("choices");f.replaceChildren();const lg=document.createElement("legend");lg.textContent="Choose the best answer";f.appendChild(lg);
 const order=displayedOptions(state.current),selected=state.answers[q.id];
 order.forEach((original,i)=>{const label=document.createElement("label");label.className="choice"+(selected===original?" checked":"")+(selected===original&&selected!==q.answer?" choice-wrong":"");label.style.setProperty("color","#172638","important");const input=document.createElement("input");input.type="radio";input.name="answer";input.value=String(original);input.checked=selected===original;input.onchange=()=>{const firstAttempt=!validAnswer(state.answers[q.id]);state.answers[q.id]=original;state.completedAt=null;save();render();if(firstAttempt){feedbackTone(original===q.answer);if(original===q.answer)feedbackConfetti()}};const letter=document.createElement("span");letter.className="letter";letter.textContent="ABCD"[i];const text=document.createElement("span");text.textContent=q.options[original];text.style.setProperty("color","#172638","important");label.append(input,letter,text);f.appendChild(label)});
