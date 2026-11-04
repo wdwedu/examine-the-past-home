@@ -281,7 +281,7 @@ function renderBiography(target,profile,personName){
  addResearchLink(details,"Dictionary of African Biography — Harvard","https://hutchinscenter.fas.harvard.edu/DAB");
  details.append(mk("small","hv-bio-editor-note","These links are research resources, not a claim of completed individual scholarly verification."));
  sources.append(details);
- addResearchLink(sources,"Hall of Legends · Complete source collection",siteRoot+"games/hall-of-legends/research-atlas/");
+ addResearchLink(sources,"Return to Hall of Legends",siteRoot+"games/hall-of-legends/");
  target.append(sources);
 }
 function openBioWithTimeWarp(args){
