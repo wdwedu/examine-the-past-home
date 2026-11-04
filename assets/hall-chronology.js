@@ -11,27 +11,27 @@ for(const id of ["hv-demo-close","hv-demo-back"])$(id).addEventListener("click",
 overlay.addEventListener("click",e=>{if(e.target===overlay)closePreview()});
 document.addEventListener("keydown",e=>{if(overlay.hidden)return;if(e.key==="Escape"){e.preventDefault();closePreview()}if(e.key==="Tab"){const list=[...overlay.querySelectorAll("button:not([disabled])")];if(e.shiftKey&&document.activeElement===list[0]){e.preventDefault();list.at(-1).focus()}else if(!e.shiftKey&&document.activeElement===list.at(-1)){e.preventDefault();list[0].focus()}}});
 function person(f,bottom){
- const c=mk("article","hv-person hv-person--"+f.side),face=mk("button","hv-portrait-button"),name=mk("b","hv-person-name",f.name),date=mk("small","hv-person-date",f.display_date),bio=mk("button","hv-bio-link","Bio");
+ const c=mk("article","hv-person hv-person--"+f.side),unit=mk("div","hv-frame-unit"),face=mk("button","hv-portrait-button"),name=mk("b","hv-person-name",f.name),date=mk("small","hv-person-date",f.display_date),bio=mk("button","hv-bio-link","Bio");
  c.dataset.figureId=f.id;if(f.id==="bh-121")c.id="hv-queen-start";
  c.style.setProperty("--bottom",bottom+"px");
  face.type="button";face.setAttribute("aria-label","Highlight portrait of "+f.name);face.setAttribute("aria-pressed","false");
  if(installed){const img=mk("img","hv-image");img.src=siteRoot+"assets/hall-of-legends/portraits/"+f.source_artwork;img.loading="lazy";img.decoding="async";img.alt="Illustrated portrait of "+f.name;img.onerror=()=>{img.replaceWith(mk("span","hv-avatar","◈"))};face.append(img)}else face.append(mk("span","hv-avatar","◈"));
  face.addEventListener("click",()=>{const active=!c.classList.contains("hv-person--active");document.querySelectorAll(".hv-person--active").forEach(el=>{el.classList.remove("hv-person--active");el.querySelector(".hv-portrait-button")?.setAttribute("aria-pressed","false")});if(active){c.classList.add("hv-person--active");face.setAttribute("aria-pressed","true")}});
- bio.type="button";bio.setAttribute("aria-label","Read biography of "+f.name);bio.addEventListener("click",()=>openPreview(f.name,f.lifespan_or_period+" · "+f.display_date,"This is the Bio Activity preview. The complete researched biography and individual Alliance Challenge are still in development. This preview awards no points or Alliances. The artwork is an illustration, not necessarily an authenticated historical likeness.",f.source_artwork));
- c.append(face,name,date,bio);return c;
+ bio.type="button";bio.setAttribute("aria-label","Read biography of "+f.name);bio.addEventListener("click",()=>openPreview(f.name,f.lifespan_or_period+" · "+f.display_date,"This biography and its activity are coming soon. Keep exploring the Hall and the stories behind its portraits. Some portraits are artistic interpretations rather than verified likenesses.",f.source_artwork));
+ unit.append(face,name,date,bio);c.append(unit);return c;
 }
 function makeMarker(sc,kind,label,bottom){
  const button=mk("button","hv-floor-marker hv-floor-marker--"+kind,label);
  button.type="button";button.style.bottom=bottom+"px";
- button.setAttribute("aria-label",label+" — preview only, not yet active");
- button.addEventListener("click",()=>openPreview(kind==="era"?"Era Challenge — "+sc.title:label,kind==="era"?"One of eight Era Challenges · Legacy Credits":"Hall of Legends · Gallery "+sc.id,"This challenge marker is installed in the central museum corridor. The historical activity and scoring will be activated in a later build. No points, seals, or Alliances are awarded by this preview."));
+ button.setAttribute("aria-label",label+" — coming soon");
+ button.addEventListener("click",()=>openPreview(kind==="era"?"Era Challenge — "+sc.title:label,kind==="era"?"One of eight Era Challenges · Legacy Credits":"Hall of Legends · Gallery "+sc.id,"This challenge is coming soon. Continue your journey through the Hall and discover more stories along the way."));
  return button;
 }
 function scene(sc){
  const s=mk("section","hv-scene hv-chronology");s.setAttribute("aria-label",sc.title);
  for(const [prop,val] of [["--h-sky",sc.palette.sky],["--h-wall",sc.palette.walls],["--h-ground",sc.palette.ground]])s.style.setProperty(prop,val);
  const light=mk("div","hv-vignette");light.setAttribute("aria-hidden","true");s.append(light);
- const head=mk("header","hv-head");head.append(mk("div","hv-count","Gallery "+sc.id+" · "+sc.figure_count+" figures"),mk("h2","",sc.title),mk("p","",sc.ground));s.append(head);
+ const head=mk("header","hv-head");head.append(mk("div","hv-count","Chapter "+sc.id),mk("h2","",sc.title));s.append(head);
  const stops=mk("div","hv-stops");let bottom=48,previous=null;
  const bonusAfter=Math.max(2,Math.floor(sc.figure_count/3)-1);
  const eraAfter=Math.max(bonusAfter+2,Math.floor(sc.figure_count*2/3)-1);
@@ -52,6 +52,7 @@ function activateMarkerGlow(){
  markers.forEach(m=>observer.observe(m));
 }
 function goToBeginning(smooth=false){const q=$("hv-queen-start");if(q)q.scrollIntoView({behavior:smooth&&!matchMedia("(prefers-reduced-motion: reduce)").matches?"smooth":"instant",block:"center"})}
+function goToEntrance(){const entrance=$("hv-entrance");if(entrance)entrance.scrollIntoView({behavior:"instant",block:"start"})}
 $("hv-begin").addEventListener("click",()=>goToBeginning(true));
 document.querySelectorAll("[data-mode]").forEach(b=>b.addEventListener("click",()=>{const mode=b.getAttribute("data-mode");document.body.classList.toggle("hv-mobile",mode==="mobile");document.querySelectorAll("[data-mode]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)))}));
 Promise.all([
@@ -63,6 +64,6 @@ Promise.all([
  const refs=$("hv-references-list");refs.replaceChildren();for(const item of data.reference_sources){const li=mk("li",""),a=mk("a","hv-source",item.label);a.href=item.url;a.target="_blank";a.rel="noopener noreferrer";li.append(a);refs.append(li)}
  container.replaceChildren();for(let i=data.scenes.length-1;i>=0;i--)container.append(scene(data.scenes[i]));activateMarkerGlow();
  const nav=performance.getEntriesByType("navigation")[0],initial=!location.hash&&(!nav||nav.type!=="back_forward");
- if(initial){let interacted=false;const stop=()=>{interacted=true};window.addEventListener("wheel",stop,{once:true,passive:true});window.addEventListener("touchstart",stop,{once:true,passive:true});const start=()=>{if(!interacted)goToBeginning(false)};requestAnimationFrame(()=>requestAnimationFrame(start));if(document.readyState!=="complete")window.addEventListener("load",start,{once:true})}
+ if(initial){let interacted=false;const stop=()=>{interacted=true};window.addEventListener("wheel",stop,{once:true,passive:true});window.addEventListener("touchstart",stop,{once:true,passive:true});const start=()=>{if(!interacted)goToEntrance()};requestAnimationFrame(()=>requestAnimationFrame(start));if(document.readyState!=="complete")window.addEventListener("load",start,{once:true})}
 }).catch(e=>{container.replaceChildren(mk("div","hv-explainer","The chronological Hall layout could not load. Please return to the Hall of Legends entrance."));console.error(e)});
 })();
