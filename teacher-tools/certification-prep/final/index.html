@@ -17,6 +17,27 @@ main{background:#fff;color:#1a2735;min-height:95vh;padding-bottom:65px;line-heig
 .score{font:bold clamp(2.6rem,5vw,4rem) Arial,sans-serif;color:#195577}.review-item{border-bottom:1px solid #d9e2e9;padding:15px 0}.review-item strong{color:#195477}.review-item p{margin:5px 0}.cert{background:#091523;color:#fff;border:2px solid #fff200;text-align:center;padding:13px;margin:25px 0}.cert-inner{border:1px solid #fff200;padding:25px 15px}.cert h2{color:#fff200;font-size:clamp(1.7rem,4vw,2.8rem)}.cert strong{color:#fff200}.brand{color:#a4ff6c;font:bold 13px Georgia;letter-spacing:.15em}.seal{width:84px;height:84px;border-radius:50%;border:3px double #fff200;color:#fff200;display:grid;place-items:center;margin:20px auto;font-weight:bold}.cert small{color:#c2cdd9}
 @media(max-width:810px){.layout{grid-template-columns:1fr}.areas{grid-template-columns:repeat(2,1fr)}.navgrid{grid-template-columns:repeat(10,1fr)}}@media(max-width:470px){.areas{grid-template-columns:1fr 1fr}.navgrid{grid-template-columns:repeat(6,1fr)}.wrap{width:95%}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{body,main{background:#fff!important;color:black!important}header,footer,nav,#etpSiteHeader,#etpSiteFooter,.hero,#intro,#exam,.report-buttons{display:none!important}#results{display:block!important}.panel{border:0;box-shadow:none;padding:8px 0}.wrap{width:100%}body.print-certificate #results>:not(.cert){display:none!important}body.print-certificate .cert{break-inside:avoid;print-color-adjust:exact;-webkit-print-color-adjust:exact}body.print-report .cert{display:none!important}}
+
+/* ETP EXAM CONTRAST LOCK: apply only to white test screens, not the shared black shell. */
+body main{background:#fff!important;color:#172638!important}
+body main .hero,body main .hero h1,body main .hero p,body main .intro,body main .intro h2,body main .intro li,body main .intro p,body main .intro label,body main .notice{color:#172638!important}
+body main .hero{background:#eff3f7!important}
+body main .hero .eyebrow{color:#315f7e!important}
+body main .panel,body main .panel h2,body main .panel h3,body main .panel p,body main .panel .small,body main .panel .stem,body main .panel .choices legend,body main .panel .option,body main .panel .option span:last-child,body main .review-item,body main .review-item p,body main .area,body main .area strong,body main .area small,body main #results>h2,body main #results .small{color:#172638!important}
+body main .panel,body main .option{background:#fff!important}
+body main .option.selected{background:#eaf2fb!important}
+body main .option:hover,body main .option:focus-within{background:#eef6fd!important}
+body main .letter,body main .meta{color:#315a73!important}
+body main .btn:not(.primary):not(.danger),body main .navgrid button{color:#17374d!important}
+body main .btn.primary{background:#1c5179!important;color:#fff!important}
+body main .back{background:#111f2f!important;color:#fff!important}
+body main .bar,body main .bar span{background:#10263d!important;color:#fff!important}
+body main .bar .clock.warning{color:#ffd67a!important}
+body main .bar .clock.urgent{color:#ffb3a3!important}
+body main .cert,body main .cert p,body main .cert h3,body main .cert small{color:#f8faff!important}
+body main .cert h2,body main .cert strong{color:#fff200!important}
+body main .cert .brand{color:#a4ff6c!important}
+
 </style></head><body><main>
 <section class="hero"><div class="wrap"><div class="eyebrow">Examine the Past · Independent Teacher Certification Practice</div><h1>Certification Final Simulation</h1><p>A realistic, full-length two-hour practice assessment with 120 questions. This is not an official ETS score or certification examination.</p><a class="back" href="../" data-etp-transition="shutter">← Back to Certification Center</a></div></section>
 <div class="wrap" id="loading" style="padding:30px 0">Loading all 120 practice questions…</div><div class="wrap hidden" id="error" style="padding:25px 0;color:#8c2e2e">Questions could not be loaded. Check the connection and refresh.</div>
