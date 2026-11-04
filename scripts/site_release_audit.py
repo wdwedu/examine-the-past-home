@@ -42,7 +42,7 @@ def resolve(from_path,url):
  if resolved.endswith("/") or "." not in posixpath.basename(resolved):resolved=resolved.rstrip("/")+"/index.html"
  return resolved,p
 files={p.as_posix():p for p in ROOT.rglob("*") if p.is_file() and ".git" not in p.parts}
-htmls=sorted(p for p in files if p.endswith(".html") and not p.startswith("audit/"))
+htmls=sorted(p for p in files if p.endswith(".html") and not p.startswith("audit/") and p not in ("games/assets/nav.html","games/assets/footer.html"))
 scan={};errors=[];warnings=[];external=Counter();assets_checked=0;links_checked=0
 def issue(severity,code,path,detail): (errors if severity=="error" else warnings).append({"code":code,"path":path,"detail":str(detail)[:260]})
 for path in htmls:
@@ -54,7 +54,11 @@ for path,doc in scan.items():
  if not doc.lang:issue("warning","missing_html_lang",path,"No html lang attribute")
  if not doc.title:issue("warning","missing_title",path,"No <title>")
  if not doc.desc:issue("warning","missing_meta_description",path,"No meta description")
- if not doc.heading or "h1" not in doc.heading:issue("warning","missing_h1",path,"No h1")
+ if not doc.heading or "h1" not in doc.heading:
+  # The 60 mini-lab routes render an actual semantic H1 via the shared engine.
+  dynamic_lab=bool(re.search(r'<body[^>]*data-lesson-id=',page_text,re.I)) and "phase3-mini-lab-engine.js" in page_text
+  redirected=bool(re.search(r'<meta[^>]*http-equiv=["\\']refresh',page_text,re.I)) and "location.replace" in page_text
+  if not (dynamic_lab or redirected):issue("warning","missing_h1",path,"No h1, including generated page inspection")
  for k,c in Counter(doc.ids).items():
   if c>1:issue("error","duplicate_id",path,k+" appears "+str(c)+" times")
  for img in doc.images:
