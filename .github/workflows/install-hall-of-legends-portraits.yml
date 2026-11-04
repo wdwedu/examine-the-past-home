@@ -1,0 +1,81 @@
+name: Install Hall of Legends portraits
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'hall-of-legends-upload.zip'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: install-hall-of-legends-portraits
+  cancel-in-progress: false
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Examine the Past
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Verify and install exactly 141 optimized portraits
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, pathlib, zipfile
+
+          root = pathlib.Path('.')
+          archive = root / 'hall-of-legends-upload.zip'
+          if not archive.is_file():
+              raise SystemExit('Upload hall-of-legends-upload.zip to the REPOSITORY ROOT, then retry.')
+
+          output = root / 'assets' / 'hall-of-legends' / 'portraits'
+          output.mkdir(parents=True, exist_ok=True)
+          expected = {f'portraits/{i:03}.webp' for i in range(1, 142)}
+          with zipfile.ZipFile(archive) as bundle:
+              names = set(bundle.namelist())
+              missing = expected - names
+              if missing:
+                  raise SystemExit(f'Portrait installation stopped: {len(missing)} expected images missing')
+              if 'portrait_manifest.json' not in names:
+                  raise SystemExit('The upload pack must contain portrait_manifest.json')
+              manifest = json.loads(bundle.read('portrait_manifest.json'))
+              records = manifest.get('files', [])
+              if len(records) != 141:
+                  raise SystemExit('The manifest does not list exactly 141 portraits')
+              observed = set()
+              for record in records:
+                  num = record.get('portrait_id')
+                  if not isinstance(num, int) or num not in range(1, 142) or num in observed:
+                      raise SystemExit('Invalid or repeated portrait number')
+                  observed.add(num)
+                  name = f'portraits/{num:03}.webp'
+                  if record.get('filename') != f'{num:03}.webp':
+                      raise SystemExit('Image/manifest filename mismatch: ' + name)
+                  raw = bundle.read(name)
+                  if len(raw) < 100 or len(raw) > 2000000 or raw[:4] != b'RIFF' or raw[8:12] != b'WEBP':
+                      raise SystemExit('Invalid optimized WebP: ' + name)
+                  digest = hashlib.sha256(raw).hexdigest()
+                  if digest != record.get('sha256'):
+                      raise SystemExit('Image checksum mismatch: ' + name)
+                  (output / f'{num:03}.webp').write_bytes(raw)
+
+              # Do not add the original 275 MB and 69 MB source archives or review JPGs to the site.
+              (root / 'assets' / 'hall-of-legends' / 'portrait-manifest.json').write_text(
+                  json.dumps(manifest, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+              print('Validated and installed exactly 141 Hall of Legends portraits.')
+          PY
+
+      - name: Commit installed image assets and remove ZIP from current site tree
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/hall-of-legends/portraits assets/hall-of-legends/portrait-manifest.json
+          git rm -f hall-of-legends-upload.zip
+          if ! git diff --cached --quiet; then
+            git commit -m "Install 141 optimized Hall of Legends portraits"
+            git push
+          fi
