@@ -5,7 +5,7 @@ document.body.dataset.etpShell="shared";
 function loadCSS(href,key){if(document.querySelector('link[data-etp-load="'+key+'"]'))return;const l=document.createElement("link");l.rel="stylesheet";l.href=href;l.dataset.etpLoad=key;document.head.appendChild(l)}
 function loadJS(src,key){if([...document.scripts].some(s=>s.src&&new URL(s.src).pathname===new URL(src,location.href).pathname))return;const x=document.createElement("script");x.src=src;x.async=false;x.dataset.etpLoad=key;document.head.appendChild(x)}
 loadCSS(u("assets/site-shell.css?v=20261104-nav-v4"),"shell-css");
-loadCSS(u("assets/etp-transitions.css?v=20261104-brand-v1"),"transitions-css");loadJS(u("assets/etp-transitions.js?v=20261104-soft-wind-v1"),"transitions-js");
+loadCSS(u("assets/etp-transitions.css?v=20261104-brand-v1"),"transitions-css");loadJS(u("assets/etp-transitions.js?v=20261104-timewarp-v2"),"transitions-js");
 loadCSS(u("assets/etp-experience-v50.css?v=20261015-etp-r2"),"experience-css");loadJS(u("assets/etp-experience-v50.js?v=20261102-history-jukebox"),"experience-js");
 loadCSS(u("assets/repair-v63.css?v=20261015-etp-r2"),"repair-css");loadJS(u("assets/repair-v63.js?v=20261103-hall-scorebar"),"repair-js");
 loadCSS(u("assets/nav-footer-parity.css?v=20261104-unified-v1"),"nav-footer-parity");
