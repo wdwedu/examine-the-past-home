@@ -1,11 +1,11 @@
 (()=>{"use strict";
-const $=id=>document.getElementById(id),mode=document.body.dataset.presidentialGame,DATA=window.PRESIDENT_DATA;
+const $=id=>document.getElementById(id),mode=document.body.dataset.presidentialGame,DATA=PRESIDENT_DATA;
 const names=DATA.names,terms=DATA.terms,unique=names.map((name,i)=>({name,n:i+1,term:terms[i]})).filter((p,i,a)=>a.findIndex(x=>x.name===p.name)===i);
 const portrait=n=>"../../../assets/presidents/portraits/"+String(n).padStart(2,"0")+".webp";
 const shuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a};
 const node=(tag,cls,txt)=>{let e=document.createElement(tag);if(cls)e.className=cls;if(txt!==undefined)e.textContent=txt;return e};
 const celebrate=(big=false)=>{window.BHGameFX?.sound(big?"win":"success");window.BHGameFX?.confetti(document.body,big?65:30)};
-const facts=[...new Map(window.PRESIDENT_CHALLENGES.flatMap(ch=>ch.questions).map(q=>[q.q,q])).values()].filter(q=>q.n&&q.q&&q.answer&&q.explanation);
+const facts=[...new Map(PRESIDENT_CHALLENGES.flatMap(ch=>ch.questions).map(q=>[q.q,q])).values()].filter(q=>q.n&&q.q&&q.answer&&q.explanation);
 const named=new Map();for(const q of facts)if(!named.has(q.answer))named.set(q.answer,q);
 const people=unique.filter(p=>named.has(p.name));
 function say(t){$("status").textContent=t}
