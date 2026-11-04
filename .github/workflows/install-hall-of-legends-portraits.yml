@@ -3,7 +3,8 @@ on:
   push:
     branches: [main]
     paths:
-      - 'hall-of-legends-upload.zip'
+      - 'hall-of-legends-upload*.zip'
+      - '.github/workflows/install-hall-of-legends-portraits.yml'
   workflow_dispatch:
 
 permissions:
@@ -30,7 +31,11 @@ jobs:
           root = pathlib.Path('.')
           archive = root / 'hall-of-legends-upload.zip'
           if not archive.is_file():
-              raise SystemExit('Upload hall-of-legends-upload.zip to the REPOSITORY ROOT, then retry.')
+              candidates = sorted(root.glob('hall-of-legends-upload*.zip'))
+              if len(candidates) != 1:
+                  raise SystemExit('Expected one Hall portrait upload ZIP in repository root')
+              archive = candidates[0]
+          print('Using portrait archive:', archive.name)
 
           output = root / 'assets' / 'hall-of-legends' / 'portraits'
           output.mkdir(parents=True, exist_ok=True)
@@ -74,7 +79,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/hall-of-legends/portraits assets/hall-of-legends/portrait-manifest.json
-          git rm -f hall-of-legends-upload.zip
+          git rm -f --ignore-unmatch -- 'hall-of-legends-upload.zip' 'hall-of-legends-upload (1).zip'
           if ! git diff --cached --quiet; then
             git commit -m "Install 141 optimized Hall of Legends portraits"
             git push
