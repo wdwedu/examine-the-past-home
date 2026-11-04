@@ -7,6 +7,79 @@ const reduceMotion=()=>window.matchMedia&&matchMedia("(prefers-reduced-motion: r
 function jumpTo(id){const el=$(id);if(el)el.scrollIntoView({behavior:reduceMotion()?"instant":"smooth",block:id==="hv-summit"?"start":"end"});}
 for(const [button,target] of [["hv-jump-top","hv-summit"],["hv-jump-bottom","hv-entrance"]]){const b=$(button);if(b)b.addEventListener("click",()=>jumpTo(target));}
 let lastFocus=null,closeTimer=null,profileMap=new Map(),sourceMap=new Map();
+let allianceMap=new Map(), earnedAlliances=new Set(), allianceStorageAvailable=true;
+const ALLIANCE_STORE="etp.hall.alliances.v1";
+function restoreAlliances(allowed){
+ try{
+  const raw=localStorage.getItem(ALLIANCE_STORE),stored=raw?JSON.parse(raw):[];
+  if(!Array.isArray(stored))throw Error("Invalid achievement format");
+  earnedAlliances=new Set(stored.filter(id=>typeof id==="string"&&allowed.has(id)));
+ }catch(err){allianceStorageAvailable=false;earnedAlliances=new Set();}
+ updateAllianceDisplays();
+}
+function updateAllianceDisplays(){
+ const score=earnedAlliances.size;
+ const ledger=document.querySelector("#hv-scorebar .hv-score-item b");
+ if(ledger){if(ledger.firstChild&&ledger.firstChild.nodeType===3)ledger.firstChild.nodeValue=String(score);else ledger.textContent=score+" / 141";}
+ const cert=document.querySelector(".hv-cert-stats span:first-child b");
+ if(cert)cert.textContent=score+" / 141";
+ const entrance=document.querySelector(".hv-entrance-ledger .hv-ledger-values span:first-child strong");
+ if(entrance)entrance.textContent=score+" / 141";
+ document.querySelectorAll(".hv-person[data-figure-id]").forEach(card=>{
+  const done=earnedAlliances.has(card.dataset.figureId);
+  card.classList.toggle("hv-person--allied",done);
+  const btn=card.querySelector(".hv-bio-link");
+  if(btn)btn.setAttribute("aria-label",(done?"Alliance earned. Review Bio Activity for ":"Open biography activity for ")+card.querySelector(".hv-person-name")?.textContent);
+ });
+}
+function awardAlliance(id){
+ if(earnedAlliances.has(id))return false;
+ earnedAlliances.add(id);
+ if(allianceStorageAvailable)try{localStorage.setItem(ALLIANCE_STORE,JSON.stringify([...earnedAlliances]));}
+ catch(err){allianceStorageAvailable=false;}
+ updateAllianceDisplays();return true;
+}
+function renderAllianceActivity(target,profile){
+ const challenge=allianceMap.get(profile.id);
+ if(!challenge)return;
+ const wrap=mk("section","hv-alliance-activity");
+ wrap.setAttribute("aria-label","Alliance Activity");
+ wrap.append(mk("h3","hv-alliance-heading","Alliance Activity · 1 point"));
+ wrap.append(mk("p","hv-alliance-instructions","Read the biography. Identify which account describes this figure. Choose one answer; you can try again after an incorrect response."));
+ wrap.append(mk("p","hv-alliance-question",challenge.prompt));
+ const answers=mk("div","hv-alliance-options"),feedback=mk("div","hv-alliance-feedback");
+ feedback.setAttribute("role","status");feedback.setAttribute("aria-live","polite");
+ let completed=earnedAlliances.has(profile.id);
+ const choices=[];
+ function showComplete(){
+  answers.querySelectorAll("button").forEach((b,i)=>{b.disabled=true;b.classList.toggle("hv-alliance-right",i===challenge.correct);});
+  feedback.replaceChildren(mk("strong","","Alliance earned for this figure ✓"),mk("p","",challenge.explanation));
+  feedback.className="hv-alliance-feedback hv-alliance-success";
+ }
+ for(let i=0;i<challenge.options.length;i++){
+  const button=mk("button","hv-alliance-choice",String.fromCharCode(65+i)+". "+challenge.options[i]);
+  button.type="button";
+  button.addEventListener("click",()=>{
+   if(earnedAlliances.has(profile.id)){showComplete();return;}
+   if(i===challenge.correct){
+    const newAward=awardAlliance(profile.id);
+    showComplete();
+    if(newAward)window.ETPTransitions?.clickSound?.("gold");
+   }else{
+    choices.forEach(b=>b.classList.remove("hv-alliance-wrong"));
+    button.classList.add("hv-alliance-wrong");
+    feedback.className="hv-alliance-feedback hv-alliance-try";
+    feedback.replaceChildren(mk("strong","","Not yet — try another account."),mk("p","","The correct historical account will match the biography above. Compare the figure's setting, actions and contributions, then select again."));
+   }
+  });
+  choices.push(button);answers.append(button);
+ }
+ wrap.append(answers,feedback);
+ if(completed)showComplete();
+ if(!allianceStorageAvailable)wrap.append(mk("small","hv-alliance-storage-note","Progress cannot be saved in this browser session. You may need to complete this activity again after leaving the page."));
+ target.append(wrap);
+}
+
 function appendBioSection(target,heading,paragraph){
  const section=mk("section","hv-bio-section");
  section.append(mk("h3","",heading),mk("p","",paragraph));
@@ -21,6 +94,7 @@ function renderBiography(target,profile,personName){
  const inquiry=mk("section","hv-bio-inquiry");
  inquiry.append(mk("h3","","Think like a historian"),mk("p","",profile.question));
  target.append(inquiry);
+ renderAllianceActivity(target,profile);
  const sources=mk("section","hv-bio-sources");
  sources.append(mk("h3","","Sources and further research"));
  const listed=sourceMap.get(profile.id)||[];
@@ -38,8 +112,6 @@ function renderBiography(target,profile,personName){
  addResearchLink(sources,"Dictionary of African Biography — Harvard","https://hutchinscenter.fas.harvard.edu/DAB");
  sources.append(mk("small","hv-bio-editor-note","These are research collections and available catalogue references, not a claim that every biography has been independently verified against each collection. Ancient and traditional accounts require extra care."));
  target.append(sources);
- const notice=mk("small","hv-reward-pending","The biography is open to read. Interactive Alliance scoring will be activated in a later phase.");
- target.append(notice);
 }
 function openBioWithTimeWarp(args){
  if(reduceMotion()){openPreview(args);return}
@@ -211,13 +283,20 @@ Promise.all([
  getJson(hallData+"biographies-01.json?v=20261104-bios-v1"),
  getJson(hallData+"biographies-02.json?v=20261104-bios-v1"),
  getJson(hallData+"biographies-03.json?v=20261104-bios-v1"),
- getJson(hallData+"phase1-catalog.json?v=20261104-bios-v1")
-]).then(([data,geometry,activities,biographies1,biographies2,biographies3,catalog])=>{
+ getJson(hallData+"phase1-catalog.json?v=20261104-bios-v1"),
+ getJson(hallData+"alliance-activities.json?v=20261104-alliance-v1")
+]).then(([data,geometry,activities,biographies1,biographies2,biographies3,catalog,alliances])=>{
  const profiles=[...biographies1.entries,...biographies2.entries,...biographies3.entries];
  const expectedIds=new Set(data.scenes.flatMap(sc=>sc.portraits.map(f=>f.id)));
  if(profiles.length!==141||new Set(profiles.map(p=>p.id)).size!==141||
    profiles.some(p=>!expectedIds.has(p.id)||!p.overview||!p.significance||!p.question))
    throw Error("Hall biographies missing, duplicated or incomplete");
+ if(alliances.entries.length!==141||new Set(alliances.entries.map(q=>q.id)).size!==141||
+    alliances.entries.some(q=>!expectedIds.has(q.id)||!Array.isArray(q.options)||q.options.length!==4||
+    new Set(q.options).size!==4||!Number.isInteger(q.correct)||q.correct<0||q.correct>3||!q.explanation))
+    throw Error("Alliance activity question bank incomplete or malformed");
+ allianceMap=new Map(alliances.entries.map(q=>[q.id,q]));
+ restoreAlliances(expectedIds);
  profileMap=new Map(profiles.map(p=>[p.id,p]));
  sourceMap=new Map(catalog.figures.map(f=>[f.id,(f.date_sources||[]).filter(u=>/^https:\/\//.test(u))]));
  const scs=data.scenes,gs=geometry.scenes;
@@ -240,6 +319,7 @@ Promise.all([
   container.append(scene(scs[i],gs[i],map));
  }
  activateMarkerGlow();
+ updateAllianceDisplays();
  const nav=performance.getEntriesByType("navigation")[0];
  const initial=!location.hash&&(!nav||nav.type!=="back_forward");
  if(initial){
