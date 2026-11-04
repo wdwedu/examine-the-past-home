@@ -385,3 +385,9 @@ body.hall-visual-demo{overflow-x:clip}
  .hv-demo-overlay.hv-overlay-leaving .hv-demo-dialog{animation:none!important;transition:none!important}
  .hv-floor-marker:hover,.hv-floor-marker:focus-visible{transform:translateX(calc(-50% + var(--hall-marker-shift)))}
 }
+
+/* At tablet/desktop widths, keep the full decorative frame inside the 27% wall. */
+@media(min-width:851px){
+ .hv-chronology .hv-person--left{left:9%}
+ .hv-chronology .hv-person--right{right:9%}
+}
