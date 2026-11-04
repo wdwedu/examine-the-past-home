@@ -1,43 +1,51 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Visual History | Examine the Past</title>
-<meta name="description" content="Experience Examine the Past Visual History through immersive narrated historical video.">
+<meta name="description" content="Visual History narrated films from Examine the Past.">
 <meta property="og:type" content="website"><meta property="og:site_name" content="Examine the Past">
 <meta property="og:title" content="Visual History | Examine the Past">
-<meta property="og:description" content="Experience historical moments through visual storytelling and narration.">
-<meta property="og:image" content="https://www.examinethepast.com/assets/extracted/c2f4a6f4fb203dc338fb.png">
-<link rel="stylesheet" href="../../assets/etp-visual-history.css?v=20261104-player-v2">
+<meta property="og:description" content="Watch cinematic, narrated visual history lessons.">
+<meta property="og:image" content="https://www.examinethepast.com/app-assets/icon-512.png">
+<link rel="stylesheet" href="../../assets/etp-visual-history.css?v=20261104-clean-player-v3">
 </head><body>
-<main class="vh-player-page" aria-label="Visual History video experience">
-<section class="vh-player-shell" aria-label="September 11 Visual History video">
- <div class="vh-player-stage" id="vh-player-stage">
-  <video id="vh-film" controls playsinline preload="metadata" poster="../../assets/extracted/c2f4a6f4fb203dc338fb.png" aria-label="September 11, 2001 narrated Visual History"></video>
-  <div class="vh-player-cover" id="vh-player-cover" aria-hidden="true">
-   <img src="../../assets/extracted/c2f4a6f4fb203dc338fb.png" alt="" fetchpriority="high">
-   <div class="vh-player-cover-gradient"></div>
+<main class="vh-player-page">
+ <section class="vh-player-shell" aria-label="Visual History screen">
+  <div class="vh-player-stage" id="vh-player-stage">
+   <video id="vh-film" controls playsinline preload="metadata" aria-label="Visual History film" hidden></video>
+   <div class="vh-awaiting-video" id="vh-awaiting-video" aria-label="Visual History video screen">
+     <div class="vh-awaiting-brand"><span>EXAMINE THE PAST</span><h1>VISUAL HISTORY</h1></div>
+   </div>
   </div>
- </div>
- <button class="vh-play-button" type="button" id="vh-play"> <span aria-hidden="true">▶</span> Play Visual History</button>
- <p class="vh-play-status" id="vh-play-status" role="status" aria-live="polite"></p>
-</section>
+  <button class="vh-play-button" type="button" id="vh-play"><span aria-hidden="true">▶</span> Play Visual History</button>
+  <p class="vh-play-status" id="vh-play-status" role="status" aria-live="polite"></p>
+ </section>
 </main>
 <script>
-(function(){
- const film=document.getElementById("vh-film"),button=document.getElementById("vh-play"),status=document.getElementById("vh-play-status"),cover=document.getElementById("vh-player-cover");
- // The completed video source will be registered here when a verified, playable asset is published.
- const verifiedVideoSource="";
- if(verifiedVideoSource){film.src=verifiedVideoSource;film.load();}
- button.addEventListener("click",async function(){
-  if(!film.currentSrc&&!film.querySelector("source")&&!film.getAttribute("src")){
-   status.textContent="The complete narrated Visual History video has not yet been published.";
+(()=>{"use strict";
+ const film=document.getElementById("vh-film");
+ const button=document.getElementById("vh-play");
+ const status=document.getElementById("vh-play-status");
+ const still=document.getElementById("vh-awaiting-video");
+ // The completed narrated film has not yet been verified in the website assets.
+ const verifiedVideoURL="";
+ if(verifiedVideoURL){
+  film.src=verifiedVideoURL;
+  film.hidden=false;
+  film.load();
+ }
+ button.addEventListener("click",async()=>{
+  if(!verifiedVideoURL){
+   status.textContent="The complete Visual History video has not been published yet.";
    return;
   }
-  cover.hidden=true;
-  try{if(film.paused){await film.play();button.innerHTML="Pause Visual History";}else{film.pause();button.innerHTML='<span aria-hidden="true">▶</span> Play Visual History';}}
-  catch(e){status.textContent="The video could not start. Use the player controls to retry.";}
+  still.hidden=true;
+  try{
+   if(film.paused){await film.play();button.textContent="Pause Visual History";}
+   else{film.pause();button.textContent="Play Visual History";}
+  }catch{status.textContent="Playback could not start. Use the video controls to try again.";}
  });
- film.addEventListener("pause",()=>{button.innerHTML='<span aria-hidden="true">▶</span> Play Visual History';});
- film.addEventListener("ended",()=>{button.innerHTML='<span aria-hidden="true">↻</span> Replay Visual History';});
+ film.addEventListener("pause",()=>button.textContent="Play Visual History");
+ film.addEventListener("ended",()=>button.textContent="Replay Visual History");
 })();
 </script>
 <script src="../../assets/site-shell.js?v=20261104-nav-v4" data-etp-root="../../"></script>
