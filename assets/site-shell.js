@@ -37,9 +37,9 @@ const buildShareLinks=()=>{
  const links=[
  ["Facebook","https://www.facebook.com/sharer/sharer.php?u="+link,u("assets/social/facebook.svg")],
  ["Pinterest","https://pinterest.com/pin/create/button/?url="+link+"&description="+title,u("assets/social/pinterest.svg")],
- ["X","https://twitter.com/intent/tweet?url="+link+"&text="+title,null],
- ["LinkedIn","https://www.linkedin.com/sharing/share-offsite/?url="+link,null],
- ["Email","mailto:?subject="+title+"&body="+link,null]
+ ["X","https://twitter.com/intent/tweet?url="+link+"&text="+title,u("assets/social/x.svg")],
+ ["LinkedIn","https://www.linkedin.com/sharing/share-offsite/?url="+link,u("assets/social/linkedin.svg")],
+ ["Email","mailto:?subject="+title+"&body="+link,u("assets/social/email.svg")]
  ];
  const area=shareBox.querySelector(".etp-share-social");area.replaceChildren();
  for(const [label,href,logo] of links){const a=document.createElement("a");a.href=href;a.target=label==="Email"?"_self":"_blank";a.rel="noopener noreferrer";a.setAttribute("aria-label","Share on "+label);if(logo){const img=document.createElement("img");img.src=logo;img.alt="";a.append(img)}else{a.textContent=label}const span=document.createElement("span");span.textContent=label;a.append(span);area.append(a)}
