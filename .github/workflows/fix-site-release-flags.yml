@@ -1,0 +1,29 @@
+name: Correct verified release flags
+on:
+  push:
+    paths:
+      - .github/workflows/fix-site-release-flags.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Apply conservative metadata and link-security fixes
+        run: python3 scripts/fix_site_release_flags.py
+      - name: Validate updated site against complete QA
+        run: python3 scripts/site_release_audit.py
+      - name: Commit changes and current audit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html games lessons teacher-tools assets audit *.html careers current-events copyright faq licensing maps shop today timeline 2>/dev/null || true
+          git add -u
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Clean release metadata, new-tab links, and duplicate anchor [skip ci]"
+          git push
