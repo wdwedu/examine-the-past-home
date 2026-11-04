@@ -1,19 +1,61 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Visual History | Examine the Past</title>
-<meta name="description" content="Watch the original cinematic Visual History introduction and explore the Examine the Past lesson collection.">
-<meta property="og:type" content="website"><meta property="og:title" content="Visual History | Examine the Past"><meta property="og:description" content="Original cinematic Visual History introduction and a growing collection of narrated lessons."><meta property="og:image" content="https://www.examinethepast.com/app-assets/icon-512.png">
-<link rel="stylesheet" href="../../assets/etp-visual-history-home.css?v=20261104-original-video-v2">
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Visual History Collection | Examine the Past</title>
+<meta name="description" content="Visual History mini lessons from Examine the Past: cinematic introductions and historically grounded classroom products.">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Examine the Past">
+<meta property="og:title" content="Visual History Collection | Examine the Past">
+<meta property="og:description" content="Browse Visual History mini lessons. September 11, 2001 available now; more titles are in development.">
+<meta property="og:image" content="https://www.examinethepast.com/app-assets/icon-512.png">
+<link rel="stylesheet" href="../../assets/etp-visual-history-home.css?v=20261104-collection-v4">
 <style>
-.vh-cinematic .vh-landing-stage{background:#020504}
-.vh-cinematic #vh-intro-video{position:absolute;inset:0;z-index:1;display:block;width:100%;height:100%;object-fit:contain;background:#010302}
-</style></head>
-<body class="vh-cinematic" data-reader="off">
+body.vh-cinematic{background:#010403!important}
+body.vh-cinematic .vh-landing{width:min(1500px,calc(100% - 30px));max-width:none;padding:54px 0 100px!important}
+.vh-cinematic .vh-landing-stage{background:#010303;border:1px solid #94ff5366;border-radius:12px;aspect-ratio:16/9}
+.vh-cinematic #vh-intro-video{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#010303}
+.vh-cinematic .vh-collection{margin:46px auto 0;max-width:1240px}
+.vh-cinematic .vh-collection>h1{margin:0 auto 24px;text-align:center;color:#fff200;font:700 clamp(28px,4vw,47px)/1.18 Georgia,serif;letter-spacing:.02em}
+.vh-cinematic .vh-collection-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;align-items:stretch}
+.vh-cinematic .vh-product{display:flex;flex-direction:column;min-height:270px;padding:26px 24px 24px;border:1px solid #94ff537a;border-radius:17px;background:linear-gradient(145deg,#142f51,#071420 70%,#040b0c);box-shadow:0 8px 24px #0007}
+.vh-cinematic .vh-product:nth-child(2){background:linear-gradient(145deg,#173f2c,#071b17 75%)}
+.vh-cinematic .vh-product:nth-child(3){background:linear-gradient(145deg,#51253b,#170e1a 75%)}
+.vh-cinematic .vh-status{font:700 11px/1.35 Georgia,serif;letter-spacing:.09em;text-transform:uppercase;color:#94ff53}
+.vh-cinematic .vh-product h2{margin:15px 0 10px;color:#fff200;font:700 clamp(23px,2.4vw,31px)/1.16 Georgia,serif}
+.vh-cinematic .vh-product p{flex:1;font:15px/1.6 Georgia,serif;color:#e6efe5;margin:0 0 23px}
+.vh-cinematic .vh-product-action{display:inline-block;align-self:flex-start;text-decoration:none;padding:11px 17px;border:1px solid #94ff53;border-radius:9px;background:#184331;color:#fff200;font:700 14px/1.3 Georgia,serif}
+.vh-cinematic .vh-product-action:hover,.vh-cinematic .vh-product-action:focus-visible{border-color:#fff200;outline:2px solid #94ff53;outline-offset:3px}
+.vh-cinematic .vh-coming-soon{align-self:flex-start;margin-top:auto;padding:11px 17px;border:1px solid #e7e9d04d;border-radius:9px;color:#e8e9e4;background:#17211c;font:700 13px/1.3 Georgia,serif}
+@media(max-width:900px){.vh-cinematic .vh-collection-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:630px){body.vh-cinematic .vh-landing{width:calc(100% - 18px);padding:42px 0 80px!important}.vh-cinematic .vh-collection{margin-top:30px}.vh-cinematic .vh-collection-grid{grid-template-columns:1fr;gap:14px}.vh-cinematic .vh-product{min-height:226px;padding:22px}}
+</style>
+</head><body class="vh-cinematic" data-reader="off">
 <main class="vh-landing">
-<section class="vh-landing-stage" aria-label="Visual History introductory film">
- <video id="vh-intro-video" src="../../assets/visual-history/visual-history-intro.mp4" autoplay muted loop playsinline controls preload="auto" aria-label="Examine the Past original Visual History introduction"></video>
+<section class="vh-landing-stage" aria-label="Examine the Past Visual History video banner">
+<video id="vh-intro-video" src="../../assets/visual-history/visual-history-intro.mp4" autoplay muted loop playsinline controls preload="auto" aria-label="Original Examine the Past Visual History introductory film"></video>
 </section>
-<a class="vh-library-link" href="library/" data-etp-transition="earth-portal">Explore Visual History Collection</a>
+<section class="vh-collection" aria-labelledby="vh-collection-title">
+<h1 id="vh-collection-title">Visual History Collection</h1>
+<div class="vh-collection-grid">
+<article class="vh-product">
+<div class="vh-status">Available now</div>
+<h2>September 11, 2001</h2>
+<p>Explore the events, evidence, and lasting historical significance of September 11 through a classroom-ready Visual History lesson.</p>
+<a class="vh-product-action" href="https://www.etsy.com/listing/4565364402/911-visual-history-lesson-powerpoint" target="_blank" rel="noopener noreferrer">See on Etsy</a>
+</article>
+<article class="vh-product">
+<div class="vh-status">Coming soon</div>
+<h2>The American Civil War</h2>
+<p>Investigate the conflict's causes, turning points, and consequences through a narrated Visual History mini lesson.</p>
+<span class="vh-coming-soon" aria-label="Etsy listing not yet available">Etsy Listing Coming Soon</span>
+</article>
+<article class="vh-product">
+<div class="vh-status">Coming soon · America at 250</div>
+<h2>The Declaration of Independence</h2>
+<p>Explore the ideas, debates, and contradictions surrounding the founding document during its 250th anniversary year.</p>
+<span class="vh-coming-soon" aria-label="Etsy listing not yet available">Etsy Listing Coming Soon</span>
+</article>
+</div>
+</section>
 </main>
-<script src="../../assets/site-shell.js?v=20261104-visual-intro-v2" data-etp-root="../../"></script>
+<script src="../../assets/site-shell.js?v=20261104-visual-collection-v4" data-etp-root="../../"></script>
 </body></html>
