@@ -2,9 +2,10 @@
 const $=id=>document.getElementById(id);
 const mk=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e};
 const container=$("hv-journey"),overlay=$("hv-demo-overlay");
+const siteRoot=document.body.dataset.siteRoot||"../../../",hallData=document.body.dataset.hallData||"../data/";
 let lastFocus=null,installed=false;
 function closePreview(){overlay.hidden=true;document.body.classList.remove("hv-demo-modal-open");lastFocus?.focus()}
-function openPreview(name,dates,description,file){lastFocus=document.activeElement;$("hv-demo-name").textContent=name;$("hv-demo-dates").textContent=dates;$("hv-demo-desc").textContent=description;const img=$("hv-demo-image");if(img){img.hidden=!file;if(file){img.src="../../../assets/hall-of-legends/portraits/"+file;img.alt="Illustrated portrait of "+name;img.onerror=()=>{img.hidden=true}}}overlay.hidden=false;document.body.classList.add("hv-demo-modal-open");$("hv-demo-close").focus()}
+function openPreview(name,dates,description,file){lastFocus=document.activeElement;$("hv-demo-name").textContent=name;$("hv-demo-dates").textContent=dates;$("hv-demo-desc").textContent=description;const img=$("hv-demo-image");if(img){img.hidden=!file;if(file){img.src=siteRoot+"assets/hall-of-legends/portraits/"+file;img.alt="Illustrated portrait of "+name;img.onerror=()=>{img.hidden=true}}}overlay.hidden=false;document.body.classList.add("hv-demo-modal-open");$("hv-demo-close").focus()}
 for(const id of ["hv-demo-close","hv-demo-back"])$(id).addEventListener("click",closePreview);
 overlay.addEventListener("click",e=>{if(e.target===overlay)closePreview()});
 document.addEventListener("keydown",e=>{if(overlay.hidden)return;if(e.key==="Escape"){e.preventDefault();closePreview()}if(e.key==="Tab"){const list=[...overlay.querySelectorAll("button:not([disabled])")];if(e.shiftKey&&document.activeElement===list[0]){e.preventDefault();list.at(-1).focus()}else if(!e.shiftKey&&document.activeElement===list.at(-1)){e.preventDefault();list[0].focus()}}});
@@ -13,7 +14,7 @@ function person(f,gap){
  c.dataset.figureId=f.id;if(f.id==="bh-121")c.id="hv-queen-start";
  c.style.setProperty("--bottom",(42+f.position_from_bottom*148+gap)+"px");
  face.type="button";face.setAttribute("aria-label","Highlight portrait of "+f.name);face.setAttribute("aria-pressed","false");
- if(installed){const img=mk("img","hv-image");img.src="../../../assets/hall-of-legends/portraits/"+f.source_artwork;img.loading="lazy";img.decoding="async";img.alt="Illustrated portrait of "+f.name;img.onerror=()=>{img.replaceWith(mk("span","hv-avatar","◈"))};face.append(img)}else face.append(mk("span","hv-avatar","◈"));
+ if(installed){const img=mk("img","hv-image");img.src=siteRoot+"assets/hall-of-legends/portraits/"+f.source_artwork;img.loading="lazy";img.decoding="async";img.alt="Illustrated portrait of "+f.name;img.onerror=()=>{img.replaceWith(mk("span","hv-avatar","◈"))};face.append(img)}else face.append(mk("span","hv-avatar","◈"));
  face.addEventListener("click",()=>{const active=!c.classList.contains("hv-person--active");document.querySelectorAll(".hv-person--active").forEach(el=>{el.classList.remove("hv-person--active");el.querySelector(".hv-portrait-button")?.setAttribute("aria-pressed","false")});if(active){c.classList.add("hv-person--active");face.setAttribute("aria-pressed","true")}});
  bio.type="button";bio.setAttribute("aria-label","Read biography of "+f.name);bio.addEventListener("click",()=>openPreview(f.name,f.lifespan_or_period+" · "+f.display_date,"This is the Bio Activity preview. The complete researched biography and individual Alliance Challenge are still in development. This preview awards no points or Alliances. The artwork is an illustration, not necessarily an authenticated historical likeness.",f.source_artwork));
  c.append(face,name,date,bio);return c;
@@ -31,8 +32,8 @@ function goToBeginning(smooth=false){const q=$("hv-queen-start");if(q)q.scrollIn
 $("hv-begin").addEventListener("click",()=>goToBeginning(true));
 document.querySelectorAll("[data-mode]").forEach(b=>b.addEventListener("click",()=>{const mode=b.getAttribute("data-mode");document.body.classList.toggle("hv-mobile",mode==="mobile");document.querySelectorAll("[data-mode]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)))}));
 Promise.all([
- fetch("../data/death-chronology.json?v=20261103-v2").then(r=>{if(!r.ok)throw Error("Chronology unavailable");return r.json()}),
- fetch("../../../assets/hall-of-legends/portrait-manifest.json?v=20261103-replaced").then(r=>r.ok?r.json():null).catch(()=>null)
+ fetch(hallData+"death-chronology.json?v=20261103-v3").then(r=>{if(!r.ok)throw Error("Chronology unavailable");return r.json()}),
+ fetch(siteRoot+"assets/hall-of-legends/portrait-manifest.json?v=20261103-replaced").then(r=>r.ok?r.json():null).catch(()=>null)
 ]).then(([data,manifest])=>{
  installed=manifest?.files?.length===141;
  if(data.scenes.length!==12||data.scenes.reduce((n,s)=>n+s.figure_count,0)!==141||data.scenes.filter(s=>s.challenge_marker).length!==8)throw Error("Incomplete 141-figure chronology");
