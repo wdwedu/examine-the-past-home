@@ -91,7 +91,9 @@ try {
     check((await page.locator("#clock").innerText()).startsWith("01:59")||(await page.locator("#clock").innerText()).startsWith("02:00"),exam+": timer running");
     await page.locator('input[name="option"]').first().check();
     await page.locator("#next").click();
-    check((await page.locator("#questionNumber").innerText()).includes("2 of 120"),exam+": next-question control");
+    const nextLabel=await page.locator("#questionNumber").innerText();
+    console.log(exam+" navigation label after Next:",JSON.stringify(nextLabel));
+    check(nextLabel.includes("2 of 120"),exam+": next-question control (found: "+nextLabel+")");
     await page.locator("#flag").click();
     check((await page.locator("#flag").innerText()).includes("Flagged"),exam+": question marking");
     await page.locator("#submit").click();
