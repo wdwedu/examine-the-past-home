@@ -21,7 +21,7 @@ async function checkReadability(page,selectors,section) {
       const cs=getComputedStyle(el), bg=getComputedStyle(el.closest(".question-card,.panel,.lab-head,.hero,.choice,.option,.pill,.side-card")||el).backgroundColor;
       return {color:cs.color,background:bg,text:el.textContent?.trim().slice(0,65)};
     });
-    const parse=str=>{const m=str.match(/rgba?\\((\\d+),\\s*(\\d+),\\s*(\\d+)/);return m?[Number(m[1]),Number(m[2]),Number(m[3])]:null};
+    const parse=str=>{const nums=str.match(/[0-9.]+/g);return nums&&nums.length>=3?nums.slice(0,3).map(Number):null};
     const fg=parse(color.color),bg=parse(color.background);
     assert.ok(fg&&bg,section+" color parse failed "+selector+" "+JSON.stringify(color));
     const luminance=c=>{const a=c.map(x=>x/255).map(x=>x<=.04045?x/12.92:Math.pow((x+.055)/1.055,2.4));return .2126*a[0]+.7152*a[1]+.0722*a[2]};
