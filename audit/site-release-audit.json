@@ -1,13 +1,13 @@
 {
   "summary": {
-    "timestamp_utc": "2026-11-04T20:53:29.744601+00:00",
-    "files": 902,
+    "timestamp_utc": "2026-11-04T21:17:46.427083+00:00",
+    "files": 911,
     "html_pages": 227,
     "js_checked": 96,
     "links_checked": 1042,
     "asset_refs_checked": 1953,
-    "error_count": 1,
-    "warning_count": 325,
+    "error_count": 0,
+    "warning_count": 82,
     "external_domains": [
       [
         "www.examinethepast.com",
@@ -151,43 +151,15 @@
       ]
     ],
     "issue_counts": {
-      "duplicate_id": 1,
-      "missing_meta_description": 199,
       "missing_html_lang": 2,
       "missing_title": 2,
-      "missing_h1": 76,
-      "external_blank_no_noopener": 46
+      "missing_meta_description": 2,
+      "missing_h1": 76
     }
   },
-  "errors": [
-    {
-      "code": "duplicate_id",
-      "path": "index.html",
-      "detail": "top appears 2 times"
-    }
-  ],
+  "errors": [],
   "warnings": [
     {
-      "code": "missing_meta_description",
-      "path": "careers/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "copyright/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "current-events/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "faq/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_html_lang",
       "path": "games/assets/footer.html",
       "detail": "No html lang attribute"
@@ -226,181 +198,6 @@
       "code": "missing_h1",
       "path": "games/assets/nav.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/black-history-connections/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/black-history-timeline-shuffle/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/build-the-past/build-a-civilization/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/build-the-past/build-a-colony/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/build-the-past/build-a-constitution/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/build-the-past/build-a-movement/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/build-the-past/build-a-trade-network/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/build-the-past/rebuild-a-timeline/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/build-the-past/reconstruct-the-morning/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/connections/alliances-wars/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/connections/cause-effect-revolutions/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/connections/empires-trade/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/connections/leaders-movements/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/connections/migration-culture/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/connections/reformers-change/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/escape-the-past/escape-castle/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/escape-the-past/escape-cold-war-bunker/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/escape-the-past/escape-great-depression/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/escape-the-past/escape-plantation/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/escape-the-past/escape-pyramid/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/escape-the-past/escape-trenches/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/history-case-files/black-death-case/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/history-case-files/cold-war-brief/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/history-case-files/lincoln-file/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/history-case-files/missing-colony/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/history-case-files/pharaoh-secret/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/history-case-files/underground-railroad-file/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/history-unlocked/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/map-quest/ancient-civilizations-map-hunt/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/map-quest/battlefields-quest/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/map-quest/colonies-challenge/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/map-quest/empire-mapper/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/map-quest/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/map-quest/migration-paths/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/map-quest/trade-routes-quest/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -408,54 +205,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "games/source-lab/diaries/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/source-lab/letters/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/source-lab/maps/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/source-lab/newspaper-reports/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/source-lab/photos/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/source-lab/political-cartoons/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/source-lab/speeches/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/time-rush/ancient-worlds/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "games/time-rush/ancient-worlds/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/time-rush/civil-rights/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -463,19 +215,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "games/time-rush/classical-civilizations/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "games/time-rush/classical-civilizations/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/time-rush/exploration-encounters/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -483,19 +225,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "games/time-rush/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "games/time-rush/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/time-rush/inventions/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -503,19 +235,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "games/time-rush/medieval-worlds/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "games/time-rush/medieval-worlds/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/time-rush/modern-world/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -523,19 +245,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "games/time-rush/revolutions-change/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "games/time-rush/revolutions-change/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/time-rush/revolutions/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -543,19 +255,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "games/time-rush/us-presidents/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "games/time-rush/us-presidents/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/time-rush/world-wars/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -563,269 +265,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "games/who-in-time/activists/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/who-in-time/explorers/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/who-in-time/inventors/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/who-in-time/leaders/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/who-in-time/scientists/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "games/who-in-time/writers/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "index.html",
-      "detail": "https://www.etsy.com/listing/4515601693/historical-thinking-skills-poster-bundle?ref=shop_home_feat_2&sr_prefetch=1&pf_from=shop_home&dd=1&logging_key=352d1cd7ae9d7e57815dfed2721e69676e5b0cd3%3A4515601693"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "index.html",
-      "detail": "https://www.etsy.com/listing/4565364402/911-visual-history-lesson-powerpoint?ref=shop_home_feat_1&sr_prefetch=1&pf_from=shop_home&pro=1&dd=1&logging_key=e4c03e6a179c50c3bf12ac2ec076d351338819f6%3A4565364402"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "index.html",
-      "detail": "https://www.redbubble.com/i/poster/Black-History-Heroes-Over-60-Icons-Who-Shaped-the-World-by-examinethepast/165093116/flk2"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "index.html",
-      "detail": "https://www.etsy.com/listing/4362383708/mug-presidents-of-the-united-states-of?sr_prefetch=1&pf_from=shop_home&ref=shop_home_active_8&logging_key=0b27963ce02d5d3cb5866bedd62ce4520f4a88e5%3A4362383708"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "index.html",
-      "detail": "https://us.amazon.com/Cornell-Notebook-Note-Taking-Organizing-Boardroom/dp/B0CR8CY23S"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "index.html",
-      "detail": "https://www.amazon.com/dp/B0CLKWQBVG?binding=paperback&searchxofy=true&ref_=dbs_s_bs_series_rwt_tpbk&qid=1788546246&sr=1-2"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "index.html",
-      "detail": "https://www.youtube.com/@ExamineThePast"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "index.html",
-      "detail": "https://www.facebook.com/examinethepast"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "index.html",
-      "detail": "https://www.instagram.com/examinethepast/"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "index.html",
-      "detail": "https://x.com/"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "index.html",
-      "detail": "https://examinethepast.blogspot.com/"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "index.html",
-      "detail": "https://www.teacherspayteachers.com/store/examine-the-past"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "index.html",
-      "detail": "https://www.redbubble.com/people/examinethepast/shop"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "index.html",
-      "detail": "https://www.zazzle.com/store/examine_the_past"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "index.html",
-      "detail": "https://www.pinterest.com/examinethepast/"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "index.html",
-      "detail": "https://www.etsy.com/shop/examinethepast"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/black-history-heroes/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/black-history-heroes/piye/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/black-history-heroes/queen-makeda/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/black-history-heroes/sundiata/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/black-history-heroes/taharqa/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/black-history/harlem-renaissance/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/civics-government/checks-balances/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/civics-government/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/geography/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/geography/map-skills-spatial-thinking/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/geography/migration-push-pull/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/master-template/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v0-start-here/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v1-foundations/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v1l1-how-history-is-made/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v1l2-bias-perspective-point-of-view/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v1l3-cause-effect-history/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v1l4-turning-points-significance/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v1l5-continuity-change/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v2-geography/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v2l1-why-geography-matters/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v2l2-physical-human-geography/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v2l3-maps-power-perception/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v2l4-resources-settlement/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v2l5-climate-migration-adaptation/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v3-civilizations-and-culture/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v3l1-what-makes-a-civilization/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/social-studies-mini-labs/v3l1-what-makes-a-civilization/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v3l2-culture-belief-and-social-order/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -833,19 +275,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v3l3-cities-trade-and-specialization/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/social-studies-mini-labs/v3l3-cities-trade-and-specialization/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v3l4-empires-exchange-and-cultural-diffusion/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -853,24 +285,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v3l5-comparing-civilizations-patterns-and-differences/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/social-studies-mini-labs/v3l5-comparing-civilizations-patterns-and-differences/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v4-government-and-civic-life/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v4l1-why-governments-form/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -878,19 +295,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v4l2-power-authority-and-legitimacy/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/social-studies-mini-labs/v4l2-power-authority-and-legitimacy/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v4l3-democracy-republics-and-representation/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -898,19 +305,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v4l4-rights-laws-and-citizenship/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/social-studies-mini-labs/v4l4-rights-laws-and-citizenship/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v4l5-comparing-government-systems/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -918,24 +315,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v5-revolutions-and-change/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v5l1-why-revolutions-begin/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/social-studies-mini-labs/v5l1-why-revolutions-begin/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v5l2-enlightenment-ideas-and-political-change/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -943,19 +325,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v5l3-american-revolution-independence-and-government/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/social-studies-mini-labs/v5l3-american-revolution-independence-and-government/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v5l4-french-and-haitian-revolutions/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -963,24 +335,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v5l5-industrial-revolution-and-social-change/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/social-studies-mini-labs/v5l5-industrial-revolution-and-social-change/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v6-modern-world-connections/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v6l1-world-wars-and-global-shifts/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -988,19 +345,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v6l2-cold-war-and-ideological-conflict/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/social-studies-mini-labs/v6l2-cold-war-and-ideological-conflict/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v6l3-decolonization-and-new-nations/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -1008,19 +355,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v6l4-technology-and-global-connections/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/social-studies-mini-labs/v6l4-technology-and-global-connections/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v6l5-modern-global-challenges/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -1028,24 +365,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v7-economics-and-global-systems/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v7l1-scarcity-choice-and-opportunity-cost/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/social-studies-mini-labs/v7l1-scarcity-choice-and-opportunity-cost/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v7l2-supply-demand-and-markets/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -1053,19 +375,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v7l3-economic-systems-market-command-and-mixed/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/social-studies-mini-labs/v7l3-economic-systems-market-command-and-mixed/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v7l4-trade-globalization-and-interdependence/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -1073,24 +385,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v7l5-personal-finance-public-policy-and-economic-decision-making/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/social-studies-mini-labs/v7l5-personal-finance-public-policy-and-economic-decision-making/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v8-american-and-civic-life-capstone/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v8l1-foundations-of-american-government/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -1098,19 +395,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v8l2-rights-liberties-and-responsibilities/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/social-studies-mini-labs/v8l2-rights-liberties-and-responsibilities/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v8l3-elections-media-and-civic-participation/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -1118,19 +405,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v8l4-public-policy-and-local-action/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/social-studies-mini-labs/v8l4-public-policy-and-local-action/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/social-studies-mini-labs/v8l5-civic-life-capstone-evidence-deliberation-and-action/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -1138,134 +415,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/us-history/american-revolution/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/us-history/constitution-separation-powers/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/us-history/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/visual-history/library/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/visual-history/library/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-history/columbian-exchange/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-history/first-civilizations/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-history/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/african-origins-spirituality/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/studying-religion-historically/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v0-start-here/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v1-introduction/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v1l1-what-is-religion/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v1l2-sacred-stories-historical-evidence/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v1l3-rituals-symbols-sacred-space/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v1l4-ethics-rules-social-order/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v1l5-religions-spread-change/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v2-african-origins/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v2l1-africa-meaning-making/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v2l2-ancestors-community-memory/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v2l3-nature-spirits-sacred-landscapes/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v2l4-oral-tradition-griots/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v2l5-migration-exchange-cultural-influence/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v3-the-rise-of-polytheism/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v3l1-why-many-gods-systems-of-divine-roles/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -1273,19 +425,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v3l2-mesopotamia-city-states-temples-and-priests/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/world-religions/v3l2-mesopotamia-city-states-temples-and-priests/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v3l3-egypt-divine-kingship-and-the-afterlife/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -1293,19 +435,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v3l4-greece-and-rome-myth-civic-life-and-empire/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/world-religions/v3l4-greece-and-rome-myth-civic-life-and-empire/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v3l5-religion-and-power-in-ancient-states/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -1313,24 +445,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v4-judaism-and-monotheism/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v4l1-origins-and-covenant-abraham-to-early-israel/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/world-religions/v4l1-origins-and-covenant-abraham-to-early-israel/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v4l2-torah-law-and-ethical-living/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -1338,19 +455,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v4l3-kingdom-temple-and-national-story/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/world-religions/v4l3-kingdom-temple-and-national-story/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v4l4-exile-return-and-survival/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -1358,24 +465,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v4l5-judaism-under-empires-persian-to-roman-context/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/world-religions/v4l5-judaism-under-empires-persian-to-roman-context/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v5-christianitys-emergence-from-judaism/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v5l1-judea-under-rome-the-world-of-jesus/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -1383,19 +475,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v5l2-jesus-teachings-movement-and-tension/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/world-religions/v5l2-jesus-teachings-movement-and-tension/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v5l3-crucifixion-roman-authority-and-local-leadership/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -1403,19 +485,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v5l4-from-jewish-sect-to-gentile-faith/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/world-religions/v5l4-from-jewish-sect-to-gentile-faith/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v5l5-rome-and-the-rise-of-a-state-religion/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -1423,24 +495,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v6-the-rise-of-islam/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v6l1-arabia-before-islam-society-trade-and-belief/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/world-religions/v6l1-arabia-before-islam-society-trade-and-belief/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v6l2-muhammad-and-the-quran/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -1448,19 +505,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v6l3-the-ummah-community-law-and-identity/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/world-religions/v6l3-the-ummah-community-law-and-identity/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v6l4-expansion-and-caliphates/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -1468,24 +515,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v6l5-sunni-and-shia-a-historical-split/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/world-religions/v6l5-sunni-and-shia-a-historical-split/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v7-power-politics-and-religion/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v7l1-religion-and-state-power-basic-patterns/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -1493,19 +525,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v7l2-empire-conversion-and-cultural-blending/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/world-religions/v7l2-empire-conversion-and-cultural-blending/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v7l3-conflict-when-politics-wears-a-religious-label/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -1513,19 +535,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v7l4-the-crusades-as-a-case-study/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/world-religions/v7l4-the-crusades-as-a-case-study/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v7l5-tolerance-pluralism-and-persecution/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -1533,24 +545,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v8-religion-today-in-america/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v8l1-religious-freedom-and-the-american-framework/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/world-religions/v8l1-religious-freedom-and-the-american-framework/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v8l2-christianity-in-america-diversity-and-influence/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -1558,19 +555,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v8l3-judaism-in-america-community-and-identity/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/world-religions/v8l3-judaism-in-america-community-and-identity/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v8l4-islam-in-america-community-and-misconceptions/index.html",
-      "detail": "No meta description"
     },
     {
       "code": "missing_h1",
@@ -1578,219 +565,9 @@
       "detail": "No h1"
     },
     {
-      "code": "missing_meta_description",
-      "path": "lessons/world-religions/v8l5-dialogue-skills-disagreeing-with-respect/index.html",
-      "detail": "No meta description"
-    },
-    {
       "code": "missing_h1",
       "path": "lessons/world-religions/v8l5-dialogue-skills-disagreeing-with-respect/index.html",
       "detail": "No h1"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "licensing/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "maps/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "refund/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "shop/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "teacher-tools/ai-in-education/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "teacher-tools/blooms-taxonomy/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "teacher-tools/certification-prep/final/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "teacher-tools/certification-prep/readiness/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "teacher-tools/classroom-management/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "teacher-tools/classroom-management/index.html",
-      "detail": "https://www.youtube.com/@ExamineThePast"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "teacher-tools/classroom-management/index.html",
-      "detail": "https://www.facebook.com/examinethepast"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "teacher-tools/classroom-management/index.html",
-      "detail": "https://www.instagram.com/examinethepast/"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "teacher-tools/classroom-management/index.html",
-      "detail": "https://x.com/"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "teacher-tools/classroom-management/index.html",
-      "detail": "https://examinethepast.blogspot.com/"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "teacher-tools/classroom-management/index.html",
-      "detail": "https://www.teacherspayteachers.com/store/examine-the-past"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "teacher-tools/classroom-management/index.html",
-      "detail": "https://www.redbubble.com/people/examinethepast/shop"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "teacher-tools/classroom-management/index.html",
-      "detail": "https://www.zazzle.com/store/examine_the_past"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "teacher-tools/classroom-management/index.html",
-      "detail": "https://www.pinterest.com/examinethepast/"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "teacher-tools/classroom-management/index.html",
-      "detail": "https://www.etsy.com/shop/examinethepast"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "teacher-tools/curriculum-design/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "teacher-tools/learning-styles/index.html",
-      "detail": "https://www.youtube.com/@ExamineThePast"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "teacher-tools/learning-styles/index.html",
-      "detail": "https://www.facebook.com/examinethepast"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "teacher-tools/learning-styles/index.html",
-      "detail": "https://www.instagram.com/examinethepast/"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "teacher-tools/learning-styles/index.html",
-      "detail": "https://x.com/"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "teacher-tools/learning-styles/index.html",
-      "detail": "https://examinethepast.blogspot.com/"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "teacher-tools/learning-styles/index.html",
-      "detail": "https://www.teacherspayteachers.com/store/examine-the-past"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "teacher-tools/learning-styles/index.html",
-      "detail": "https://www.redbubble.com/people/examinethepast/shop"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "teacher-tools/learning-styles/index.html",
-      "detail": "https://www.zazzle.com/store/examine_the_past"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "teacher-tools/learning-styles/index.html",
-      "detail": "https://www.pinterest.com/examinethepast/"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "teacher-tools/learning-styles/index.html",
-      "detail": "https://www.etsy.com/shop/examinethepast"
-    },
-    {
-      "code": "missing_meta_description",
-      "path": "timeline/index.html",
-      "detail": "No meta description"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "timeline/index.html",
-      "detail": "https://www.youtube.com/@ExamineThePast"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "timeline/index.html",
-      "detail": "https://www.facebook.com/examinethepast"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "timeline/index.html",
-      "detail": "https://www.instagram.com/examinethepast/"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "timeline/index.html",
-      "detail": "https://x.com/"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "timeline/index.html",
-      "detail": "https://examinethepast.blogspot.com/"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "timeline/index.html",
-      "detail": "https://www.teacherspayteachers.com/store/examine-the-past"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "timeline/index.html",
-      "detail": "https://www.redbubble.com/people/examinethepast/shop"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "timeline/index.html",
-      "detail": "https://www.zazzle.com/store/examine_the_past"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "timeline/index.html",
-      "detail": "https://www.pinterest.com/examinethepast/"
-    },
-    {
-      "code": "external_blank_no_noopener",
-      "path": "timeline/index.html",
-      "detail": "https://www.etsy.com/shop/examinethepast"
     }
   ]
 }

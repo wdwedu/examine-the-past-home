@@ -1,0 +1,1019 @@
+{
+  "changes": [
+    {
+      "path": "careers/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "copyright/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "current-events/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "faq/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/black-history-connections/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/black-history-timeline-shuffle/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/build-the-past/build-a-civilization/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/build-the-past/build-a-colony/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/build-the-past/build-a-constitution/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/build-the-past/build-a-movement/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/build-the-past/build-a-trade-network/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/build-the-past/rebuild-a-timeline/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/build-the-past/reconstruct-the-morning/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/connections/alliances-wars/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/connections/cause-effect-revolutions/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/connections/empires-trade/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/connections/leaders-movements/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/connections/migration-culture/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/connections/reformers-change/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/escape-the-past/escape-castle/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/escape-the-past/escape-cold-war-bunker/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/escape-the-past/escape-great-depression/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/escape-the-past/escape-plantation/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/escape-the-past/escape-pyramid/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/escape-the-past/escape-trenches/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/history-case-files/black-death-case/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/history-case-files/cold-war-brief/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/history-case-files/lincoln-file/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/history-case-files/missing-colony/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/history-case-files/pharaoh-secret/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/history-case-files/underground-railroad-file/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/history-unlocked/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/map-quest/ancient-civilizations-map-hunt/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/map-quest/battlefields-quest/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/map-quest/colonies-challenge/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/map-quest/empire-mapper/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/map-quest/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/map-quest/migration-paths/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/map-quest/trade-routes-quest/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/source-lab/diaries/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/source-lab/letters/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/source-lab/maps/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/source-lab/newspaper-reports/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/source-lab/photos/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/source-lab/political-cartoons/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/source-lab/speeches/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/time-rush/ancient-worlds/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/time-rush/civil-rights/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/time-rush/classical-civilizations/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/time-rush/exploration-encounters/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/time-rush/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/time-rush/inventions/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/time-rush/medieval-worlds/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/time-rush/modern-world/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/time-rush/revolutions/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/time-rush/revolutions-change/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/time-rush/us-presidents/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/time-rush/world-wars/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/who-in-time/activists/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/who-in-time/explorers/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/who-in-time/inventors/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/who-in-time/leaders/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/who-in-time/scientists/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "games/who-in-time/writers/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "index.html",
+      "fix": "noopener_links",
+      "count": 1
+    },
+    {
+      "path": "index.html",
+      "fix": "duplicate_top_id",
+      "count": 1
+    },
+    {
+      "path": "lessons/black-history/harlem-renaissance/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/black-history-heroes/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/black-history-heroes/piye/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/black-history-heroes/queen-makeda/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/black-history-heroes/sundiata/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/black-history-heroes/taharqa/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/civics-government/checks-balances/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/civics-government/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/geography/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/geography/map-skills-spatial-thinking/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/geography/migration-push-pull/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/master-template/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v0-start-here/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v1-foundations/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v1l1-how-history-is-made/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v1l2-bias-perspective-point-of-view/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v1l3-cause-effect-history/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v1l4-turning-points-significance/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v1l5-continuity-change/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v2-geography/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v2l1-why-geography-matters/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v2l2-physical-human-geography/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v2l3-maps-power-perception/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v2l4-resources-settlement/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v2l5-climate-migration-adaptation/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v3-civilizations-and-culture/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v3l1-what-makes-a-civilization/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v3l2-culture-belief-and-social-order/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v3l3-cities-trade-and-specialization/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v3l4-empires-exchange-and-cultural-diffusion/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v3l5-comparing-civilizations-patterns-and-differences/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v4-government-and-civic-life/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v4l1-why-governments-form/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v4l2-power-authority-and-legitimacy/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v4l3-democracy-republics-and-representation/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v4l4-rights-laws-and-citizenship/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v4l5-comparing-government-systems/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v5-revolutions-and-change/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v5l1-why-revolutions-begin/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v5l2-enlightenment-ideas-and-political-change/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v5l3-american-revolution-independence-and-government/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v5l4-french-and-haitian-revolutions/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v5l5-industrial-revolution-and-social-change/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v6-modern-world-connections/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v6l1-world-wars-and-global-shifts/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v6l2-cold-war-and-ideological-conflict/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v6l3-decolonization-and-new-nations/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v6l4-technology-and-global-connections/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v6l5-modern-global-challenges/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v7-economics-and-global-systems/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v7l1-scarcity-choice-and-opportunity-cost/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v7l2-supply-demand-and-markets/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v7l3-economic-systems-market-command-and-mixed/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v7l4-trade-globalization-and-interdependence/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v7l5-personal-finance-public-policy-and-economic-decision-making/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v8-american-and-civic-life-capstone/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v8l1-foundations-of-american-government/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v8l2-rights-liberties-and-responsibilities/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v8l3-elections-media-and-civic-participation/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v8l4-public-policy-and-local-action/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/social-studies-mini-labs/v8l5-civic-life-capstone-evidence-deliberation-and-action/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/us-history/american-revolution/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/us-history/constitution-separation-powers/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/us-history/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/visual-history/library/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-history/columbian-exchange/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-history/first-civilizations/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-history/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/african-origins-spirituality/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/studying-religion-historically/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v0-start-here/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v1-introduction/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v1l1-what-is-religion/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v1l2-sacred-stories-historical-evidence/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v1l3-rituals-symbols-sacred-space/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v1l4-ethics-rules-social-order/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v1l5-religions-spread-change/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v2-african-origins/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v2l1-africa-meaning-making/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v2l2-ancestors-community-memory/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v2l3-nature-spirits-sacred-landscapes/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v2l4-oral-tradition-griots/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v2l5-migration-exchange-cultural-influence/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v3-the-rise-of-polytheism/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v3l1-why-many-gods-systems-of-divine-roles/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v3l2-mesopotamia-city-states-temples-and-priests/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v3l3-egypt-divine-kingship-and-the-afterlife/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v3l4-greece-and-rome-myth-civic-life-and-empire/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v3l5-religion-and-power-in-ancient-states/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v4-judaism-and-monotheism/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v4l1-origins-and-covenant-abraham-to-early-israel/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v4l2-torah-law-and-ethical-living/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v4l3-kingdom-temple-and-national-story/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v4l4-exile-return-and-survival/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v4l5-judaism-under-empires-persian-to-roman-context/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v5-christianitys-emergence-from-judaism/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v5l1-judea-under-rome-the-world-of-jesus/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v5l2-jesus-teachings-movement-and-tension/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v5l3-crucifixion-roman-authority-and-local-leadership/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v5l4-from-jewish-sect-to-gentile-faith/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v5l5-rome-and-the-rise-of-a-state-religion/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v6-the-rise-of-islam/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v6l1-arabia-before-islam-society-trade-and-belief/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v6l2-muhammad-and-the-quran/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v6l3-the-ummah-community-law-and-identity/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v6l4-expansion-and-caliphates/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v6l5-sunni-and-shia-a-historical-split/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v7-power-politics-and-religion/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v7l1-religion-and-state-power-basic-patterns/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v7l2-empire-conversion-and-cultural-blending/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v7l3-conflict-when-politics-wears-a-religious-label/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v7l4-the-crusades-as-a-case-study/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v7l5-tolerance-pluralism-and-persecution/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v8-religion-today-in-america/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v8l1-religious-freedom-and-the-american-framework/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v8l2-christianity-in-america-diversity-and-influence/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v8l3-judaism-in-america-community-and-identity/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v8l4-islam-in-america-community-and-misconceptions/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "lessons/world-religions/v8l5-dialogue-skills-disagreeing-with-respect/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "licensing/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "maps/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "refund/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "shop/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "teacher-tools/ai-in-education/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "teacher-tools/blooms-taxonomy/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "teacher-tools/certification-prep/final/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "teacher-tools/certification-prep/readiness/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "teacher-tools/classroom-management/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "teacher-tools/classroom-management/index.html",
+      "fix": "noopener_links",
+      "count": 1
+    },
+    {
+      "path": "teacher-tools/curriculum-design/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "teacher-tools/learning-styles/index.html",
+      "fix": "noopener_links",
+      "count": 1
+    },
+    {
+      "path": "timeline/index.html",
+      "fix": "meta_description",
+      "count": 1
+    },
+    {
+      "path": "timeline/index.html",
+      "fix": "noopener_links",
+      "count": 1
+    }
+  ],
+  "counts": {
+    "noopener_links": 4,
+    "meta_description": 197,
+    "duplicate_top_id": 1
+  }
+}
