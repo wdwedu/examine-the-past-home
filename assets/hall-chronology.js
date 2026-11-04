@@ -6,7 +6,40 @@ const siteRoot=document.body.dataset.siteRoot||"../../../",hallData=document.bod
 const reduceMotion=()=>window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
 function jumpTo(id){const el=$(id);if(el)el.scrollIntoView({behavior:reduceMotion()?"instant":"smooth",block:id==="hv-summit"?"start":"end"});}
 for(const [button,target] of [["hv-jump-top","hv-summit"],["hv-jump-bottom","hv-entrance"]]){const b=$(button);if(b)b.addEventListener("click",()=>jumpTo(target));}
-let lastFocus=null,closeTimer=null;
+let lastFocus=null,closeTimer=null,profileMap=new Map(),sourceMap=new Map();
+function appendBioSection(target,heading,paragraph){
+ const section=mk("section","hv-bio-section");
+ section.append(mk("h3","",heading),mk("p","",paragraph));
+ target.append(section);
+}
+function addResearchLink(target,label,url){
+ if(!/^https:\/\//.test(url))return;
+ const link=mk("a","hv-bio-source",label);link.href=url;link.target="_blank";link.rel="noopener noreferrer";target.append(link);
+}
+function renderBiography(target,profile,personName){
+ appendBioSection(target,"Historical significance",profile.significance);
+ const inquiry=mk("section","hv-bio-inquiry");
+ inquiry.append(mk("h3","","Think like a historian"),mk("p","",profile.question));
+ target.append(inquiry);
+ const sources=mk("section","hv-bio-sources");
+ sources.append(mk("h3","","Sources and further research"));
+ const listed=sourceMap.get(profile.id)||[];
+ for(const [i,url] of listed.entries())addResearchLink(sources,"Research reference "+(i+1),url);
+ addResearchLink(sources,"Smithsonian African American History Collection","https://americanhistory.si.edu/explore/topics/african-american-history");
+ addResearchLink(sources,"Dictionary of African Biography — Harvard","https://hutchinscenter.fas.harvard.edu/DAB");
+ sources.append(mk("small","hv-bio-editor-note","These are research collections and available catalogue references, not a claim that every biography has been independently verified against each collection. Ancient and traditional accounts require extra care."));
+ target.append(sources);
+ const notice=mk("small","hv-reward-pending","The biography is open to read. Interactive Alliance scoring will be activated in a later phase.");
+ target.append(notice);
+}
+function openBioWithTimeWarp(args){
+ if(reduceMotion()){openPreview(args);return}
+ window.ETPTransitions?.clickSound?.("time");
+ const old=document.getElementById("hv-bio-time-warp");if(old)old.remove();
+ const warp=mk("div","hv-bio-time-warp");warp.id="hv-bio-time-warp";warp.setAttribute("aria-hidden","true");
+ warp.append(mk("div","etp-fx etp-time"));document.body.append(warp);
+ setTimeout(()=>{warp.remove();openPreview(args)},430);
+}
 function finishClose(){
  clearTimeout(closeTimer);closeTimer=null;overlay.hidden=true;
  overlay.classList.remove("hv-overlay-leaving");
@@ -19,7 +52,7 @@ function closePreview(){
  overlay.classList.add("hv-overlay-leaving");
  closeTimer=setTimeout(finishClose,260);
 }
-function openPreview({title,dates,description,file,kind="bio",reward=""}){
+function openPreview({title,dates,description,file,kind="bio",reward="",profile=null}){
  clearTimeout(closeTimer);closeTimer=null;
  lastFocus=document.activeElement;
  overlay.classList.remove("hv-overlay-leaving");
@@ -28,16 +61,19 @@ function openPreview({title,dates,description,file,kind="bio",reward=""}){
  $("hv-demo-dates").textContent=dates;
  $("hv-demo-desc").textContent=description;
  const tag=overlay.querySelector(".hv-demo-dialog .hv-tag");
- if(tag)tag.textContent=kind==="bio"?"Biography · Alliance Challenge":kind==="era"?"Era Challenge · Seal":"Legacy Credit Challenge";
+ if(tag)tag.textContent=kind==="bio"?"Historical Biography · Hall of Legends":kind==="era"?"Era Challenge · Seal":"Legacy Credit Challenge";
  const img=$("hv-demo-image");
  if(img){img.hidden=!file;if(file){img.src=siteRoot+"assets/hall-of-legends/portraits/"+file;img.alt="Illustrated portrait of "+title;img.onerror=()=>{img.hidden=true}}}
  const info=$("hv-demo-activity");
  if(info){
   info.replaceChildren();
-  info.append(mk("h3","",kind==="bio"?"Your Alliance Challenge":kind==="era"?"Your Era Seal":"Your Legacy Credits"));
+  if(kind==="bio"&&profile){renderBiography(info,profile,title);}
+  else{
+  info.append(mk("h3","",kind==="bio"?"Biography Under Review":kind==="era"?"Your Era Seal":"Your Legacy Credits"));
   info.append(mk("p","",kind==="bio"?"A branching scenario will invite you to weigh evidence, make choices, and explore their consequences.":kind==="era"?"Complete a chapter review to earn this Era Seal.":"Complete this historical challenge to earn five Legacy Credits."));
   if(reward)info.append(mk("strong","hv-reward-note",reward));
   info.append(mk("small","hv-reward-pending","Coming soon · No achievements awarded yet"));
+  }
  }
  overlay.hidden=false;
  document.body.classList.add("hv-demo-modal-open");
@@ -159,8 +195,19 @@ const getJson=url=>fetch(url).then(r=>{if(!r.ok)throw Error("Hall resource unava
 Promise.all([
  getJson(hallData+"death-chronology.json?v=20261103-hall-v9"),
  getJson(hallData+"gallery-geometry.json?v=20261103-hall-v9"),
- getJson(hallData+"activity-placement.json?v=20261103-hall-v9")
-]).then(([data,geometry,activities])=>{
+ getJson(hallData+"activity-placement.json?v=20261103-hall-v9"),
+ getJson(hallData+"biographies-01.json?v=20261104-bios-v1"),
+ getJson(hallData+"biographies-02.json?v=20261104-bios-v1"),
+ getJson(hallData+"biographies-03.json?v=20261104-bios-v1"),
+ getJson(hallData+"phase1-catalog.json?v=20261104-bios-v1")
+]).then(([data,geometry,activities,biographies1,biographies2,biographies3,catalog])=>{
+ const profiles=[...biographies1.entries,...biographies2.entries,...biographies3.entries];
+ const expectedIds=new Set(data.scenes.flatMap(sc=>sc.portraits.map(f=>f.id)));
+ if(profiles.length!==141||new Set(profiles.map(p=>p.id)).size!==141||
+   profiles.some(p=>!expectedIds.has(p.id)||!p.overview||!p.significance||!p.question))
+   throw Error("Hall biographies missing, duplicated or incomplete");
+ profileMap=new Map(profiles.map(p=>[p.id,p]));
+ sourceMap=new Map(catalog.figures.map(f=>[f.id,(f.date_sources||[]).filter(u=>/^https:\/\//.test(u))]));
  const scs=data.scenes,gs=geometry.scenes;
  if(scs.length!==12||gs.length!==12||scs.reduce((n,s)=>n+s.figure_count,0)!==141||
     activities.legacy_activities.length!==20||activities.era_challenges.length!==8||
