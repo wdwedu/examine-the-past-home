@@ -44,3 +44,40 @@ body.hv-demo-modal-open{overflow:hidden}
 .hv-demo-dialog #hv-demo-dates{font-weight:700;color:#94ff53}
 .hv-demo-close{position:absolute;top:10px;right:12px;min-width:44px;min-height:44px;border:1px solid #94ff53;border-radius:50%;background:#172b1e;color:#fff200;font:30px Georgia,serif;cursor:pointer}
 .hv-demo-close:focus-visible,.hv-demo-close:hover{outline:2px solid #fff200;outline-offset:2px}
+
+/* Hall of Legends — death-year ascent layout, intentionally without final scenic artwork. */
+.hv-chronology{min-height:0;overflow:hidden}
+.hv-chronology .hv-head{padding:30px 12px 22px}
+.hv-chronology .hv-head p{color:#f0e8db}
+.hv-chronology .hv-stops{position:relative;width:100%;min-height:360px;isolation:isolate}
+.hv-chronology .hv-person,.hv-chronology .hv-person:has(.hv-image){position:absolute;bottom:var(--bottom);z-index:2;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:4px;width:clamp(145px,16vw,190px);min-height:0;height:auto;flex-basis:auto;padding:0 4px;background:none;border:0;border-radius:0;box-shadow:none;overflow:visible;transition:transform .35s ease,filter .35s ease;will-change:transform}
+.hv-chronology .hv-person--left{left:clamp(10px,12%,215px);transform:perspective(800px) rotateY(-14deg) rotateZ(-1.5deg);transform-origin:left center}
+.hv-chronology .hv-person--right{right:clamp(10px,12%,215px);transform:perspective(800px) rotateY(14deg) rotateZ(1.5deg);transform-origin:right center}
+.hv-chronology .hv-person:hover,.hv-chronology .hv-person:focus-within,.hv-chronology .hv-person--active{z-index:8;transform:perspective(800px) rotateY(0deg) rotateZ(0deg) translateY(-7px) scale(1.08);filter:drop-shadow(0 0 15px #94ff5399)}
+.hv-chronology .hv-portrait-button{display:flex;justify-content:center;align-items:center;position:relative;cursor:pointer;flex:0 0 auto;width:clamp(116px,13vw,148px);height:clamp(116px,13vw,148px);padding:0;border:0;border-radius:9px;background:radial-gradient(ellipse at center,#17241eaa,#030a0800 74%);box-shadow:0 0 0 1px #ffffff13,0 0 17px #94ff5324;transition:box-shadow .3s ease,background .3s ease}
+.hv-chronology .hv-portrait-button:hover,.hv-chronology .hv-person--active .hv-portrait-button{background:radial-gradient(ellipse at center,#354f2bd9,#030a0800 77%);box-shadow:0 0 14px #fff2008c,0 0 28px #94ff539c}
+.hv-chronology .hv-portrait-button:focus-visible,.hv-chronology .hv-bio-link:focus-visible{outline:2px solid #fff200;outline-offset:3px}
+.hv-chronology .hv-image{display:block;width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;object-position:center;border:0;border-radius:7px;box-shadow:none;background:transparent}
+.hv-chronology .hv-avatar{width:70px;height:70px}
+.hv-chronology .hv-person-name{display:block;color:#fff;font:700 clamp(12px,1.3vw,15px)/1.22 Georgia,"Times New Roman",serif;max-width:100%;text-shadow:-1px -1px 1px #000,1px 1px 2px #000,0 0 7px #000;-webkit-text-stroke:.2px #080808}
+.hv-chronology .hv-person-date{display:block;color:#fff;font:400 clamp(10px,1.05vw,12px)/1.28 Georgia,"Times New Roman",serif;max-width:100%;text-shadow:0 1px 3px #000,0 0 5px #000;-webkit-text-stroke:.15px #050505}
+.hv-chronology .hv-bio-link{border:0;background:transparent;min-height:38px;padding:6px 12px;color:#fff;cursor:pointer;font:700 14px Georgia,"Times New Roman",serif;text-decoration:underline;text-underline-offset:4px;text-shadow:0 1px 3px #000,0 0 7px #000;-webkit-text-stroke:.2px #000}
+.hv-chronology .hv-bio-link:hover{color:#fff200}
+.hv-challenge-bay{position:relative;z-index:3;display:flex;justify-content:center;align-items:center;min-height:95px;margin:12px auto 0;max-width:600px;background:radial-gradient(ellipse at center,#111f16d9,transparent 80%)}
+.hv-challenge-bay .hv-era-control{font-size:13px;max-width:220px;white-space:normal;text-align:center}
+.hv-demo-image{display:block;width:min(220px,60vw);height:min(220px,60vw);object-fit:contain;margin:8px auto 14px;background:radial-gradient(circle,#31412c55,transparent 75%);border-radius:10px}
+.hv-demo-image[hidden]{display:none!important}
+.hv-mobile #hv-journey{max-width:390px;margin:auto}
+.hv-mobile .hv-chronology .hv-person,.hv-mobile .hv-chronology .hv-person:has(.hv-image){width:clamp(132px,39vw,152px)}
+.hv-mobile .hv-chronology .hv-person--left{left:5px}.hv-mobile .hv-chronology .hv-person--right{right:5px}
+.hv-mobile .hv-chronology .hv-portrait-button{width:112px;height:112px}
+@media(max-width:700px){
+ .hv-chronology .hv-person,.hv-chronology .hv-person:has(.hv-image){width:clamp(132px,42vw,156px)}
+ .hv-chronology .hv-person--left{left:4px}.hv-chronology .hv-person--right{right:4px}
+ .hv-chronology .hv-portrait-button{width:clamp(105px,32vw,125px);height:clamp(105px,32vw,125px)}
+ .hv-chronology .hv-person-name{font-size:12px}.hv-chronology .hv-person-date{font-size:10.5px}
+ .hv-chronology .hv-bio-link{font-size:13px}
+ .hv-challenge-bay{min-height:80px}.hv-challenge-bay .hv-era-control{max-width:175px;font-size:12px}
+ #hv-references ul{columns:1!important}
+}
+@media(prefers-reduced-motion:reduce){.hv-chronology .hv-person,.hv-chronology .hv-portrait-button{transition:none!important}}
