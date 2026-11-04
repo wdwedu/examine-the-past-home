@@ -156,6 +156,12 @@ body main.lab-frame .lab-head .pill,body main.lab-frame #sound-toggle{color:#fff
 .practice-source p{margin:10px 0 0;font-size:clamp(.98rem,1.4vw,1.08rem);line-height:1.75;color:#182b40!important}
 .practice-source small{font:12px/1.5 Arial,sans-serif;color:#47617a!important}
 @media(max-width:560px){.practice-source{padding:14px}}
+
+.reading-guide{margin:20px 0 0;padding:15px 18px;border-radius:9px;background:#ecf5f1!important;border:1px solid #76a893;color:#172638!important}
+.reading-guide summary{cursor:pointer;font-weight:700;color:#173c38!important}
+.reading-guide p,.reading-guide strong{color:#172638!important}
+.reading-guide a{color:#164c74!important;text-decoration:underline!important}
+.reading-guide div{padding-top:10px}
 </style>
 </head>
 <body>
@@ -166,6 +172,7 @@ body main.lab-frame .lab-head .pill,body main.lab-frame #sound-toggle{color:#fff
 <p>A guided, untimed 120-question preparation assessment for Praxis® World and U.S. History (5941). Get explanations as you work; save and return on this device.</p>
 <div class="lab-heading-actions"><span class="pill">Guided Practice</span><span class="pill">Untimed</span><span class="pill">30 Questions per Historical Period</span><span class="pill">Independent • Not ETS-endorsed</span></div><div class="lab-heading-actions" style="align-items:center"><span class="practice-timer">⏱ Study time: <strong id="study-clock">00:00:00</strong></span><button id="sound-toggle" type="button" aria-pressed="true">🔊 Feedback sounds: On</button></div>
 </div></header>
+<div class="lab-shell"><details class="reading-guide"><summary>Reading strategy for longer Praxis questions</summary><div><p><strong>1. Read the question prompt first.</strong> Identify what you need to find: a cause, inference, comparison, or source limitation.</p><p><strong>2. Read the passage in small sections.</strong> After each part, summarize the key point in five or six words before moving on.</p><p><strong>3. Find evidence, then compare answers.</strong> Eliminate choices that make absolute claims such as “all,” “never,” or “immediately” unless the source supports them.</p><p><strong>4. If stuck, mark it and move on.</strong> In a timed exam, avoid spending several minutes rereading a single item. Return after easier questions.</p><p>Some official 5941 items also use maps, charts, graphs, cartoons, and photographs. These original practice questions are supplementary—not an ETS replica. <a href="https://praxis.ets.org/on/demandware.static/-/Library-Sites-ets-praxisLibrary/default/pdfs/5941.pdf" target="_blank" rel="noopener">Compare with the official ETS 5941 Study Companion</a>.</p></div></details></div>
 <div id="loading" class="lab-shell" style="padding:35px 0"><strong>Loading the 120-question practice bank…</strong></div>
 <div id="load-error" class="lab-shell hidden" style="padding:35px 0;color:#912b2b"><h2>Unable to load questions</h2><p>Check your connection and refresh. This page requires the four question-bank files published alongside it.</p><button class="btn" type="button" onclick="location.reload()">Retry</button></div>
 <div id="practice" class="lab-shell lab-layout hidden">
