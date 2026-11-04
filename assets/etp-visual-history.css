@@ -15,3 +15,17 @@ main.vh-player-page{width:min(1440px,calc(100% - 28px));max-width:none;margin:0 
 .vh-play-status:empty{display:none}
 @media(max-width:650px){main.vh-player-page{width:calc(100% - 16px);padding:20px 0 46px}.vh-player-stage{border-radius:8px}.vh-play-button{margin-top:16px;font-size:14px;padding:11px 20px;min-height:44px}}
 @media(prefers-reduced-motion:reduce){.vh-play-button{transition:none}}
+
+/* Clean cinematic Visual History screen, without the September 11 product artwork. */
+body:has(.vh-player-page){background:#010302!important}
+main.vh-player-page{width:min(1600px,calc(100% - 24px))!important;padding:18px 0 84px!important}
+.vh-player-stage{width:100%!important;aspect-ratio:16/9!important;background:#010403!important;border:1px solid #94ff534b!important;border-radius:10px!important;box-shadow:0 13px 38px #0009!important}
+.vh-player-stage video[hidden]{display:none!important}
+.vh-awaiting-video{position:absolute;inset:0;display:flex;justify-content:center;align-items:center;background:radial-gradient(ellipse at center,#142c32 0%,#091714 27%,#030907 65%,#010302 100%);text-align:center}
+.vh-awaiting-video[hidden]{display:none!important}
+.vh-awaiting-brand{max-width:90%;padding:20px}
+.vh-awaiting-brand span{display:block;color:#94ff53;letter-spacing:.23em;font:bold clamp(12px,1.6vw,21px)/1.5 Georgia,serif}
+.vh-awaiting-brand h1{font:bold clamp(35px,7vw,100px)/1.1 Georgia,serif!important;letter-spacing:.05em;color:#fff200!important;margin:13px 0!important;text-shadow:0 0 23px #fff20013}
+.vh-play-button{margin-top:18px!important}
+.vh-play-status{margin-top:8px!important}
+@media(max-width:650px){main.vh-player-page{padding:13px 0 62px!important}.vh-awaiting-brand h1{font-size:clamp(26px,7vw,45px)!important}.vh-awaiting-brand span{font-size:11px!important}}
