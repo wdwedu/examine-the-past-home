@@ -52,3 +52,20 @@ body.etp-bh-portal{background:#020403;color:#f5f8f3;font-family:Georgia,"Times N
 .hall-find-label{display:block;color:#94ff53;font:700 14px Georgia,serif;margin-top:17px;margin-bottom:8px}.hall-find{display:block;max-width:430px;width:100%;margin:0 auto 16px;padding:13px 16px;background:#030903;border:1px solid #94ff53a1;border-radius:12px;color:#fff;font:16px Georgia,serif}.hall-find:focus-visible{outline:2px solid #fff200;outline-offset:2px}
 .hall-entrance .bh-action{cursor:pointer;margin:4px auto 15px}.hall-links{margin-top:28px}
 @media(max-width:790px){.hall-plates{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:440px){.hall-ascend{padding:10px 7px;border-radius:16px}.hall-era{padding:17px 12px}.hall-plate{padding:12px 8px}.hall-plate-name{font-size:13px}.hall-plate-note{font-size:10px}.hall-stats{flex-direction:column}.hall-stats span{width:100%}}
+
+/* Black History Games: additional pathway with distinct brand gradients. */
+.bh-play-section{margin-top:27px;padding:25px 0 10px}
+.bh-games-intro{text-align:center;max-width:760px;margin:0 auto 22px}
+.bh-games-intro h2{font:700 clamp(28px,4vw,39px)/1.2 Georgia,serif;color:#fff200;margin:5px 0 9px}
+.bh-games-intro p{font:16px/1.6 Georgia,serif;color:#dce5dc;margin:0}
+.bh-game-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.bh-game-card{border-radius:23px;min-width:0;position:relative;overflow:hidden;padding:27px;
+display:flex;flex-direction:column;align-items:flex-start;border:1px solid #84c2e880;
+box-shadow:0 15px 35px #0008}
+.bh-game-card--bingo{background:linear-gradient(145deg,#142d4d,#0d2a28 62%,#08120b)}
+.bh-game-card--challenge{background:linear-gradient(145deg,#451f3c,#291b2b 58%,#2d2510)}
+.bh-game-icon{position:absolute;right:24px;top:15px;font:bold 58px Georgia,serif;color:#fff20028;pointer-events:none}
+.bh-game-card h3{color:#fff200;font:700 clamp(23px,3vw,29px)/1.22 Georgia,serif;margin:0 0 12px}
+.bh-game-card p{font:15px/1.6 Georgia,serif;color:#f1f4ed;margin:0 0 22px;flex:1}
+.bh-game-card:hover,.bh-game-card:focus-within{border-color:#fff200;box-shadow:0 0 25px #94ff532b}
+@media(max-width:680px){.bh-game-grid{grid-template-columns:1fr}.bh-game-card{padding:24px}}
