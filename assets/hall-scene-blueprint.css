@@ -303,3 +303,85 @@ body.hall-visual-demo{overflow-x:clip}
  .hv-entrance #hv-begin{animation:none!important;transition:none!important}
  .hv-chronology .hv-person,.hv-chronology .hv-frame-unit{transition:none!important}
 }
+
+/* Phase 8 — staggered five-credit activities, seal milestones and museum portal transitions. */
+.hv-floor-marker{
+ display:flex;flex-direction:column;align-items:center;justify-content:center;
+ gap:5px;left:50%;width:min(240px,42%);min-height:78px;
+ padding:10px 8px;line-height:1.18;
+ --hall-marker-shift:0px;
+ transform:translateX(calc(-50% + var(--hall-marker-shift)));
+ background:transparent;border:1px solid transparent;
+ border-radius:10px;box-shadow:none;
+}
+.hv-floor-marker--west{--hall-marker-shift:clamp(-42px,-3vw,-10px)}
+.hv-floor-marker--east{--hall-marker-shift:clamp(10px,3vw,42px)}
+.hv-floor-marker--center{--hall-marker-shift:0px}
+.hv-floor-marker .hv-marker-title{
+ display:block;width:100%;font:700 clamp(13px,1.4vw,18px)/1.24 Georgia,"Times New Roman",serif;
+ text-wrap:balance;overflow-wrap:break-word;
+}
+.hv-floor-marker .hv-marker-reward{
+ display:block;font:700 clamp(10px,1vw,12px)/1.25 Georgia,"Times New Roman",serif;
+ text-transform:none;letter-spacing:.015em;color:#94ff53;text-shadow:0 0 8px #94ff5377,0 1px 3px #000;
+}
+.hv-floor-marker--era .hv-marker-title{font-size:clamp(16px,1.75vw,21px);color:#fff200}
+.hv-floor-marker--era .hv-marker-reward{color:#e8c971}
+.hv-floor-marker:hover,.hv-floor-marker:focus-visible{
+ transform:translateX(calc(-50% + var(--hall-marker-shift))) translateY(-4px) scale(1.045);
+ border-color:#fff20075;outline:2px solid #94ff53;outline-offset:2px;
+}
+.hv-floor-marker.hv-marker--arrived{animation:hv-marker-arrival 1.45s ease-in-out 1}
+.hv-demo-overlay:not([hidden]){animation:hv-portal-enter .42s ease-out both}
+.hv-demo-overlay:not([hidden])::before{
+ content:"";position:absolute;inset:0;pointer-events:none;
+ background:radial-gradient(ellipse at center,#94ff531a 0%,transparent 60%);
+ animation:hv-portal-halo .6s ease-out both;
+}
+.hv-demo-overlay:not([hidden]) .hv-demo-dialog{
+ animation:hv-dialog-enter .48s cubic-bezier(.16,.84,.23,1) both;
+}
+.hv-demo-overlay.hv-overlay-leaving{animation:hv-portal-leave .26s ease-in both!important}
+.hv-demo-overlay.hv-overlay-leaving .hv-demo-dialog{animation:hv-dialog-leave .26s ease-in both!important}
+@keyframes hv-portal-enter{from{opacity:0;background-color:#0000}to{opacity:1;background-color:#000d}}
+@keyframes hv-portal-leave{from{opacity:1}to{opacity:0}}
+@keyframes hv-portal-halo{0%{opacity:0;transform:scale(.72)}45%{opacity:1}100%{opacity:.35;transform:scale(1.08)}}
+@keyframes hv-dialog-enter{0%{opacity:0;transform:translateY(26px) scale(.87);filter:blur(5px)}70%{opacity:1;filter:blur(0)}100%{transform:translateY(0) scale(1);filter:blur(0)}}
+@keyframes hv-dialog-leave{from{opacity:1;transform:translateY(0) scale(1)}to{opacity:0;transform:translateY(12px) scale(.95)}}
+.hv-demo-activity{
+ margin:18px 0 20px;padding:14px 16px;
+ background:linear-gradient(125deg,#15281b,#0b1b11);
+ border:1px solid #94ff5366;border-radius:12px;text-align:left;
+}
+.hv-demo-activity h3{margin:0 0 8px;color:#fff200;font:700 18px Georgia,serif}
+.hv-demo-activity p{margin:0 0 12px;color:#f1f5ec;font:14px/1.55 Georgia,serif}
+.hv-demo-activity .hv-reward-note{display:block;color:#94ff53;font:700 14px Georgia,serif}
+.hv-demo-activity .hv-reward-pending{display:block;margin-top:9px;color:#e0ddc7;font:italic 12px Georgia,serif}
+@media(max-width:850px){
+ /* On narrow screens the wall panels grow wider so every portrait remains mounted to a wall. */
+ .hv-chronology{
+  background:linear-gradient(90deg,
+   color-mix(in srgb,var(--h-wall) 60%,#0b0d0a) 0 33.7%,
+   #1c241e 34% 66%,
+   color-mix(in srgb,var(--h-wall) 60%,#0b0d0a) 66.3% 100%);
+ }
+ .hv-chronology::after{left:34%;width:32%;height:100%;clip-path:none;transform:none}
+ .hv-chronology .hv-person,.hv-chronology .hv-person:has(.hv-image),
+ .hv-mobile .hv-chronology .hv-person,.hv-mobile .hv-chronology .hv-person:has(.hv-image){
+  width:clamp(98px,31vw,205px);padding:0;
+ }
+ .hv-chronology .hv-person--left,.hv-mobile .hv-chronology .hv-person--left{left:1.5vw}
+ .hv-chronology .hv-person--right,.hv-mobile .hv-chronology .hv-person--right{right:1.5vw}
+ .hv-floor-marker{width:42%;padding:8px 4px;min-height:75px}
+ .hv-floor-marker--west{--hall-marker-shift:-5px}
+ .hv-floor-marker--east{--hall-marker-shift:5px}
+ .hv-floor-marker .hv-marker-title{font-size:clamp(11px,2.5vw,15px)}
+ .hv-floor-marker--era .hv-marker-title{font-size:clamp(13px,2.9vw,18px)}
+ .hv-floor-marker .hv-marker-reward{font-size:clamp(9px,2.2vw,11px)}
+}
+@media(prefers-reduced-motion:reduce){
+ .hv-demo-overlay:not([hidden]),.hv-demo-overlay:not([hidden])::before,
+ .hv-demo-overlay:not([hidden]) .hv-demo-dialog,.hv-demo-overlay.hv-overlay-leaving,
+ .hv-demo-overlay.hv-overlay-leaving .hv-demo-dialog{animation:none!important;transition:none!important}
+ .hv-floor-marker:hover,.hv-floor-marker:focus-visible{transform:translateX(calc(-50% + var(--hall-marker-shift)))}
+}
