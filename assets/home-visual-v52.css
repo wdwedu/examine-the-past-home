@@ -81,3 +81,20 @@ body>#etpSiteFooter+*{background:#000!important}
 #teacher-tools-v50 #etp-certification-visible-home{margin-top:50px!important}
 @media(max-width:800px){.etp-home-games-grid{grid-template-columns:1fr}.etp-home-game-card{min-height:235px}.etp-home-game-card>div{padding-top:60px}.etp-home-game-portrait{height:88%;width:52%;opacity:.5}}
 @media(prefers-reduced-motion:reduce){.etp-home-game-card,.etp-home-game-card:before{transition:none}.etp-home-game-card:hover{transform:none}}
+
+/* Full nine-card home gallery with common heading positions. */
+#home-games-v54 .etp-home-game-card{min-height:270px;align-items:stretch}
+#home-games-v54 .etp-home-game-card>div{display:flex;flex-direction:column;align-items:flex-start;flex:1;padding-top:0!important}
+#home-games-v54 .etp-home-game-card h3{min-height:2.35em;display:flex;align-items:flex-start;margin:15px 0 9px}
+#home-games-v54 .etp-home-game-card p{flex:1}
+#home-games-v54 .etp-home-game-portrait{top:auto;bottom:0;right:-10px;height:92%;width:62%;opacity:.34;object-position:right bottom;filter:drop-shadow(0 5px 12px #000)}
+#home-games-v54 .etp-home-game-presidents .etp-home-game-portrait,
+#home-games-v54 .etp-home-game-black .etp-home-game-portrait{opacity:.5}
+#home-games-v54 .etp-home-game-coming .etp-home-game-tag{color:#fff}
+#home-games-v54 .etp-home-game-coming strong{color:#d5dbd1}
+#home-games-v54 .etp-home-game-red{background:linear-gradient(145deg,#502035,#170d1a)}
+#home-games-v54 .etp-home-game-green{background:linear-gradient(145deg,#173e28,#071a14)}
+#home-games-v54 .etp-home-game-purple{background:linear-gradient(145deg,#38224e,#110d20)}
+#home-games-v54 .etp-home-game-blue{background:linear-gradient(145deg,#163856,#08121e)}
+#home-games-v54 .etp-home-game-coming:hover{transform:translateY(-5px) scale(1.008)}
+@media(max-width:800px){#home-games-v54 .etp-home-game-card{min-height:225px}#home-games-v54 .etp-home-game-portrait{width:47%;height:80%}}
