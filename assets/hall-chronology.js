@@ -11,7 +11,7 @@ document.addEventListener("keydown",e=>{if(overlay.hidden)return;if(e.key==="Esc
 function person(f,gap){
  const c=mk("article","hv-person hv-person--"+f.side),face=mk("button","hv-portrait-button"),name=mk("b","hv-person-name",f.name),date=mk("small","hv-person-date",f.display_date),bio=mk("button","hv-bio-link","Bio");
  c.dataset.figureId=f.id;if(f.id==="bh-121")c.id="hv-queen-start";
- c.style.setProperty("--rank",f.position_from_bottom);c.style.setProperty("--gap",gap+"px");
+ c.style.setProperty("--bottom",(42+f.position_from_bottom*148+gap)+"px");
  face.type="button";face.setAttribute("aria-label","Highlight portrait of "+f.name);face.setAttribute("aria-pressed","false");
  if(installed){const img=mk("img","hv-image");img.src="../../../assets/hall-of-legends/portraits/"+f.source_artwork;img.loading="lazy";img.decoding="async";img.alt="Illustrated portrait of "+f.name;img.onerror=()=>{img.replaceWith(mk("span","hv-avatar","◈"))};face.append(img)}else face.append(mk("span","hv-avatar","◈"));
  face.addEventListener("click",()=>{const active=!c.classList.contains("hv-person--active");document.querySelectorAll(".hv-person--active").forEach(el=>{el.classList.remove("hv-person--active");el.querySelector(".hv-portrait-button")?.setAttribute("aria-pressed","false")});if(active){c.classList.add("hv-person--active");face.setAttribute("aria-pressed","true")}});
@@ -25,7 +25,7 @@ function scene(sc){
  if(sc.challenge_marker){const bay=mk("div","hv-challenge-bay"),b=mk("button","hv-btn hv-era-control","Era Challenge · Preview");b.type="button";b.addEventListener("click",()=>openPreview("Era Challenge — "+sc.title,"Legacy Credits · one of eight era challenges","This is a reserved interactive challenge in the central museum passage. When developed, it will use historical evidence from the people you meet and award Legacy Credits. No credits are awarded by this preview."));bay.append(b);s.append(bay)}
  const stops=mk("div","hv-stops");stops.style.setProperty("--slots",sc.figure_count);let gap=0,prev=null;
  for(const f of sc.portraits){if(prev!==null){const diff=f.sort_year-prev;if(diff>12)gap+=Math.min(82,Math.round(Math.log2(diff+1)*9));else if(diff>3)gap+=15}stops.append(person(f,gap));prev=f.sort_year}
- stops.style.setProperty("--extra",gap+"px");s.append(stops);return s;
+ stops.style.height=(sc.figure_count*148+gap+178)+"px";s.append(stops);return s;
 }
 function goToBeginning(smooth=false){const q=$("hv-queen-start");if(q)q.scrollIntoView({behavior:smooth&&!matchMedia("(prefers-reduced-motion: reduce)").matches?"smooth":"instant",block:"center"})}
 $("hv-begin").addEventListener("click",()=>goToBeginning(true));
