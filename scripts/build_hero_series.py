@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Render independently authored source-led Hero Lessons as accessible static HTML."""
 from pathlib import Path
-import json,html,urllib.parse
+import json,html,urllib.parse,re
 ROOT=Path(__file__).resolve().parent.parent
 DATA=ROOT/"lessons/black-history-heroes/lesson-data"
 def e(x):return html.escape(str(x),quote=True)
@@ -29,7 +29,7 @@ def build(d):
  assert len(d["readings"])==3 and len(d["branches"])==2 and len(d["final"])==5
  assert len(d["objectives"])>=4 and len(d["sources"])>=4
  title=e(d["title"]);subtitle=e(d["subtitle"])
- stylesheet='<link rel="stylesheet" href="../../../assets/lesson-template.css?v=20261106-master"><link rel="stylesheet" href="../../../assets/lesson-backgrounds.css?v=44"><link rel="stylesheet" href="../../../assets/hero-lesson-interactions.css?v=20261106-series-v2">'
+ stylesheet='<link rel="stylesheet" href="../../../assets/lesson-template.css?v=20261106-master"><link rel="stylesheet" href="../../../assets/lesson-backgrounds.css?v=44"><link rel="stylesheet" href="../../../assets/hero-lesson-interactions.css?v=20261106-timer-finish-v3">'
  extra="""<style>
 :root{color-scheme:dark;--yellow:#fff200;--green:#94ff53;--muted:#d5dfd6}
 html{scroll-behavior:smooth}body{background:#020604;color:#f5f5ed;font-family:Georgia,serif;margin:0}
@@ -82,7 +82,13 @@ html{scroll-behavior:smooth}body{background:#020604;color:#f5f5ed;font-family:Ge
  final='<section class="mk-step mk-blue" id="finish"><div class="mk-kicker">08 · Independent Knowledge Check</div><h2>Show What You Know</h2><p>Answer five questions, check each explanation, and revise as necessary. Correct feedback includes a confetti burst; inaccurate selections receive red feedback. Answers stay on this device.</p><div id="mk-final-test">'+''.join(question(q,i+3) for i,q in enumerate(d["final"]))+'</div><button class="mk-btn mk-green-btn" type="button" id="mk-score">Calculate My Final Score</button><p id="mk-score-result" class="mk-result" aria-live="polite"></p><div class="mk-note"><strong>Exit ticket:</strong> '+e(d["exit"])+'</div></section>'
  extend='<section class="mk-step mk-green" id="extend"><div class="mk-kicker">09 · Independent or Group Extension</div><h2>'+e(d["extendTitle"])+'</h2><ul>'+''.join('<li>'+e(x)+'</li>' for x in d["extensions"])+'</ul></section>'
  sources='<section class="mk-step mk-charcoal" id="sources"><div class="mk-kicker">10 · Historical Sources & Research Trail</div><h2>Sources, Interpretations & Evidence Limits</h2><p>'+e(d["sourceIntro"])+'</p>'+source_list(d["sources"])+'<p class="mk-reference-note">Reading and scenarios are original educational synthesis and simulations, not quotations from these sources. External material opens in a separate tab. Verify exact wording, dates, and image permissions when assigning outside content.</p></section>'
- body='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+title+' — Master Inquiry Lesson | Examine the Past</title><meta name="description" content="'+e(d["description"])+'">'+stylesheet+extra+'</head><body class="lesson-subject-bg subject-black-history"><main class="mk-wrap" data-hero-key="'+key+'">'+nav+hero+guide+chapters+hook+reading+branches+write+final+extend+sources+'</main><script defer src="../../../assets/hero-lesson-series.js?v=20261106-v1"></script><script defer src="../../../assets/hero-lesson-interactions.js?v=20261106-series-v1"></script><script src="../../../assets/site-shell.js?v=20261106-hero-series-v1" data-etp-root="../../../"></script></body></html>'
+ body='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+title+' — Master Inquiry Lesson | Examine the Past</title><meta name="description" content="'+e(d["description"])+'">'+stylesheet+extra+'</head><body class="lesson-subject-bg subject-black-history"><main class="mk-wrap" data-hero-key="'+key+'">'+nav+hero+guide+chapters+hook+reading+branches+write+final+extend+sources+'</main><script defer src="../../../assets/hero-lesson-series.js?v=20261106-locked-jumps-v3"></script><script defer src="../../../assets/hero-lesson-interactions.js?v=20261106-timer-finish-v3"></script><script src="../../../assets/site-shell.js?v=20261106-hero-series-v1" data-etp-root="../../../"></script></body></html>'
+ # Permanent template QA: all six buttons must link to six unique, existing lesson sections.
+ expected=("lesson-start","reading-one","reading-two","branch-one","synthesis","finish")
+ actual=tuple(re.findall(r'<a href="#([^"]+)">[^<]+</a>',chapters))
+ assert actual==expected,(key,"Wrong lesson navigation",actual)
+ for section_id in expected:
+  assert len(re.findall(r'<section[^>]*\\bid="'+re.escape(section_id)+r'"',body))==1,(key,"Broken or duplicate navigation target",section_id)
  out=ROOT/"lessons/black-history-heroes"/key/"index.html";out.parent.mkdir(parents=True,exist_ok=True);out.write_text(body,encoding="utf-8");return str(out.relative_to(ROOT)),len(body)
 def main():
  results=[]
