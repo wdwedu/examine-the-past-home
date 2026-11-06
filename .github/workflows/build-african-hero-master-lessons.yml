@@ -1,0 +1,48 @@
+name: Build African Hero Master Inquiry Lessons
+on:
+  push:
+    paths:
+      - .github/workflows/build-african-hero-master-lessons.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate source data and generate four lessons
+        run: |
+          python3 -m py_compile scripts/build_hero_series.py
+          python3 scripts/build_hero_series.py
+      - name: Validate generated lessons and assets
+        run: |
+          python3 - <<'PY'
+          import json,re
+          from pathlib import Path
+          for key in ('piye','shabaka','taharqa','sundiata'):
+            path=Path('lessons/black-history-heroes')/key/'index.html'
+            s=path.read_text()
+            assert s.count('class="mk-question"')==8,(key,s.count('class="mk-question"'))
+            assert s.count('class="mk-step')==10,key
+            assert 'data-hero-key="'+key+'"' in s,key
+            assert 'hero-lesson-series.js' in s and 'hero-lesson-interactions.js' in s,key
+            assert (Path('assets/hero-lessons')/(key+'.webp')).exists(),key
+            for anchor in ('lesson-start','reading-one','reading-two','reading-three','branch-one','branch-two','synthesis','finish','extend','sources'):
+              assert 'id="'+anchor+'"' in s,(key,anchor)
+            assert s.count('data-outcome=')==6,key
+            assert s.count('target="_blank"')>=4,key
+            print('PASS',key,len(s),'bytes',len(json.loads((Path('lessons/black-history-heroes/lesson-data')/(key+'.json')).read_text())['sources']),'sources')
+          PY
+      - name: Commit generated lessons
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lessons/black-history-heroes/piye/index.html lessons/black-history-heroes/shabaka/index.html lessons/black-history-heroes/taharqa/index.html lessons/black-history-heroes/sundiata/index.html
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Publish four expanded African Hero Master Inquiry Lessons [skip ci]"
+          git pull --rebase origin main
+          git push
