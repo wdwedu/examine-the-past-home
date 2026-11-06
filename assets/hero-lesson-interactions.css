@@ -45,3 +45,17 @@ body.mk-interactive .mk-wrap{padding-bottom:135px}
 @keyframes mk-expiry{0%,100%{transform:translateX(0)}25%{transform:translateX(-4px)}75%{transform:translateX(4px)}}
 @media(max-width:700px){.mk-progress-dock{padding:8px 10px}.mk-progress-line{font-size:11px}.mk-question{padding:15px}.mk-branch-controls{padding:10px}.mk-timer-panel{padding:10px}}
 @media(prefers-reduced-motion:reduce){.mk-progress-fill,.mk-timer-panel,.mk-confetti-bit{animation:none!important;transition:none!important}.mk-confetti-field{display:none}}
+
+/* Prominent, accessible chapter-jump navigation, independent of the site transition engine. */
+.mk-steps-nav{display:flex!important;flex-wrap:wrap!important;align-items:stretch!important;justify-content:space-between!important;column-gap:clamp(15px,2.3vw,34px)!important;row-gap:10px!important;margin:24px 0 30px!important;padding:15px clamp(13px,2vw,22px)!important;background:#101c22!important;border:1px solid #cddde142!important;border-radius:14px!important}
+.mk-steps-nav a{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-height:46px!important;padding:10px 9px!important;background:transparent!important;color:#fff!important;text-decoration:none!important;border:0!important;border-bottom:0!important;font:700 clamp(15px,1.45vw,18px)/1.3 Georgia,serif!important;white-space:normal!important;text-align:center;transition:background .2s,border-radius .2s}
+.mk-steps-nav a:hover,.mk-steps-nav a:focus-visible{color:#fff200!important;background:#203948!important;border-radius:9px!important;outline:2px solid #94ff53!important;outline-offset:1px!important}
+.mk-steps-nav a[aria-current="location"]{color:#fff200!important;background:#1d3a31!important;border-radius:9px!important}
+.mk-step[id]{scroll-margin-top:160px!important}
+.mk-hero .mk-skip{scroll-margin-top:160px}
+.mk-video-chapter-guide{margin:12px 0;padding:14px 16px;border-left:4px solid #94ff53;background:#0d282b;border-radius:9px}
+.mk-video-chapter-guide h4{margin:0 0 8px;color:#fff200;font-size:16px}
+.mk-video-chapter-guide ul{margin:7px 0;padding-left:22px}
+.mk-video-chapter-guide li{line-height:1.65;margin:5px 0;color:#ecf1eb}
+.mk-video-chapter-guide small{color:#d5e1d7}
+@media(max-width:750px){.mk-steps-nav{justify-content:center!important;column-gap:13px!important;padding:10px!important}.mk-steps-nav a{flex:1 1 130px!important;font-size:15px!important}}
