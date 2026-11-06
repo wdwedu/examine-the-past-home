@@ -1,19 +1,19 @@
 {
-  "version": "2026-11-06",
+  "version": "2026-11-06-16-card-structure",
   "owner": "Examine the Past",
-  "frameworkType": "original_examine_the_past_curriculum_not_official_district_approval",
+  "frameworkType": "independently_developed_history_hub",
   "statusLegend": [
     "Planned",
     "In Development",
     "Ready for Review",
     "Published"
   ],
-  "sourceNote": "Unit names and lesson titles are transcribed from the user-approved History Hub curriculum brief. Supplemental unit inquiries, objectives, and timings are proposed planning text, not verified standards mappings.",
+  "sourceNote": "Examine the Past publishes original educator-organized scopes and sequences for historical and civic inquiry.",
   "courses": [
     {
       "id": "grade-5-early-american-history",
       "grade": "5",
-      "title": "Grade 5: Early American History",
+      "title": "Early American History",
       "subtitle": "Indigenous America to the Early Republic",
       "description": "Indigenous societies, Atlantic encounters, colonial America, independence and the early republic.",
       "essentialQuestion": "How did the peoples, cultures, conflicts, and ideas of early North America shape the United States?",
@@ -21,9 +21,9 @@
       "image": "assets/halls/hall-chapter-03-resistance-and-survival.webp",
       "imageStatus": "temporary_site_asset_pending_original_art",
       "standards": {
-        "name": "Maryland Grade 5 Social Studies framework",
-        "url": "https://marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/Grade5-A.pdf",
-        "note": "Original Examine the Past sequence; verify lesson-level indicators."
+        "name": "Independent Curriculum Design",
+        "url": "/lessons/#curriculum-design",
+        "note": "Original Examine the Past course plan; course development and historical research remain ongoing."
       },
       "units": [
         {
@@ -604,7 +604,7 @@
     {
       "id": "grade-6-ancient-world-history",
       "grade": "6",
-      "title": "Grade 6: Ancient World History & Geography",
+      "title": "Ancient World History & Geography",
       "subtitle": "Civilizations, Geography, and Human Development",
       "description": "Geography, early civilizations, governments, beliefs, trade and human environments.",
       "essentialQuestion": "How have geography, migration, resources, and cultural exchange shaped human civilizations?",
@@ -612,9 +612,9 @@
       "image": "hall-chapter-01-ancient-courts-1530x3168.webp",
       "imageStatus": "temporary_site_asset_pending_original_art",
       "standards": {
-        "name": "Maryland Grades 6–7 Social Studies framework",
-        "url": "https://marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/Grade6and7-A.pdf",
-        "note": "Integrated geography/history; this chronology is a proposed enrichment sequence, not an official six-grade sequence."
+        "name": "Independent Curriculum Design",
+        "url": "/lessons/#curriculum-design",
+        "note": "Original Examine the Past course plan; course development and historical research remain ongoing."
       },
       "units": [
         {
@@ -1123,7 +1123,7 @@
     {
       "id": "grade-7-world-cultures-geography",
       "grade": "7",
-      "title": "Grade 7: World Cultures & Geography",
+      "title": "World Cultures & Geography",
       "subtitle": "Societies, Regions, and Global Connections",
       "description": "World regions, migration, cultures, exchanges, governments and human-environment relations.",
       "essentialQuestion": "How do the world's people and regions influence one another?",
@@ -1131,9 +1131,9 @@
       "image": "assets/halls/hall-chapter-11-pan-african-global-legacy.webp",
       "imageStatus": "temporary_site_asset_pending_original_art",
       "standards": {
-        "name": "Maryland Grades 6–7 Social Studies framework",
-        "url": "https://marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/Grade6and7-A.pdf",
-        "note": "Integrated two-year geographic study; connections to world cultures and history require explicit standards mapping."
+        "name": "Independent Curriculum Design",
+        "url": "/lessons/#curriculum-design",
+        "note": "Original Examine the Past course plan; course development and historical research remain ongoing."
       },
       "units": [
         {
@@ -1623,7 +1623,7 @@
     {
       "id": "grade-8-early-united-states-history",
       "grade": "8",
-      "title": "Grade 8: Early United States History",
+      "title": "Early United States History",
       "subtitle": "Colonial Foundations through Reconstruction",
       "description": "Revolution, Constitution, reform, slavery, the Civil War and Reconstruction.",
       "essentialQuestion": "How did the United States develop from colonies into a nation divided over slavery, power, and citizenship?",
@@ -1631,9 +1631,9 @@
       "image": "assets/halls/hall-chapter-04-abolition-and-freedom.webp",
       "imageStatus": "temporary_site_asset_pending_original_art",
       "standards": {
-        "name": "Maryland Middle School United States History framework",
-        "url": "https://msde.maryland.gov/academics-0/curriculum-academic-standards/social-studies",
-        "note": "Examine the Past course units, not official district unit titles."
+        "name": "Independent Curriculum Design",
+        "url": "/lessons/#curriculum-design",
+        "note": "Original Examine the Past course plan; course development and historical research remain ongoing."
       },
       "units": [
         {
@@ -2391,7 +2391,7 @@
     {
       "id": "grade-9-united-states-history",
       "grade": "9",
-      "title": "Grade 9: United States History",
+      "title": "United States History",
       "subtitle": "1865 to the Present",
       "description": "Modern U.S. transformation through economic, political, social and international history.",
       "essentialQuestion": "How has the United States evolved politically, economically, socially, and internationally since the Civil War?",
@@ -2399,9 +2399,9 @@
       "image": "assets/halls/hall-chapter-05-reconstruction-and-leadership.webp",
       "imageStatus": "temporary_site_asset_pending_original_art",
       "standards": {
-        "name": "Maryland High School United States History framework",
-        "url": "https://msde.maryland.gov/academics-0/curriculum-academic-standards/social-studies",
-        "note": "Reconstruction and industrialization form a bridge; the revised high school main sequence emphasizes Progressivism onward."
+        "name": "Independent Curriculum Design",
+        "url": "/lessons/#curriculum-design",
+        "note": "Original Examine the Past course plan; course development and historical research remain ongoing."
       },
       "units": [
         {
@@ -3486,7 +3486,7 @@
     {
       "id": "grade-10-civics-government",
       "grade": "10",
-      "title": "Grade 10: Civics & Government",
+      "title": "Civics & Government",
       "subtitle": "American Democracy and Citizenship",
       "description": "Constitutional principles, branches of government, civil rights, elections and civic action.",
       "essentialQuestion": "How do constitutional principles, government institutions, and citizen participation shape democracy?",
@@ -3494,9 +3494,9 @@
       "image": "assets/halls/hall-chapter-09-civil-rights-movement.webp",
       "imageStatus": "temporary_site_asset_pending_original_art",
       "standards": {
-        "name": "Maryland American Government framework",
-        "url": "https://msde.maryland.gov/academics-0/curriculum-academic-standards/social-studies",
-        "note": "Course learning sequence is an Examine the Past proposal, not a graduation-course equivalency claim."
+        "name": "Independent Curriculum Design",
+        "url": "/lessons/#curriculum-design",
+        "note": "Original Examine the Past course plan; course development and historical research remain ongoing."
       },
       "units": [
         {
@@ -4274,7 +4274,7 @@
     {
       "id": "grade-11-modern-world-history",
       "grade": "11",
-      "title": "Grade 11: Modern World History",
+      "title": "Modern World History",
       "subtitle": "Approximately 1300 to the Present",
       "description": "Global exchange, revolutions, imperialism, world wars, decolonization and interdependence.",
       "essentialQuestion": "How did global interactions, revolutions, industrialization, and conflict shape the modern world?",
@@ -4282,9 +4282,9 @@
       "image": "assets/halls/hall-chapter-06-education-and-scholarship.webp",
       "imageStatus": "temporary_site_asset_pending_original_art",
       "standards": {
-        "name": "Maryland Modern World History framework",
-        "url": "https://msde.maryland.gov/academics-0/curriculum-academic-standards/social-studies",
-        "note": "Approx. 1300–present history with source inquiry and multiple regional perspectives."
+        "name": "Independent Curriculum Design",
+        "url": "/lessons/#curriculum-design",
+        "note": "Original Examine the Past course plan; course development and historical research remain ongoing."
       },
       "units": [
         {
@@ -5273,7 +5273,7 @@
     {
       "id": "grade-12-social-studies-electives",
       "grade": "12",
-      "title": "Grade 12: Social Studies Electives",
+      "title": "Social Studies Electives",
       "subtitle": "Advanced Historical and Social Inquiry",
       "description": "Five introductory elective pathways in historical inquiry and social studies.",
       "essentialQuestion": "How can historical inquiry help us evaluate evidence, context, change, and diverse perspectives?",
@@ -5281,9 +5281,9 @@
       "image": "assets/halls/hall-chapter-02-west-african-empires.webp",
       "imageStatus": "temporary_site_asset_pending_original_art",
       "standards": {
-        "name": "Charles County 2026–27 High School Program of Studies",
-        "url": "https://www.ccboe.com/page/high-school-program-of-studies-2026-27/",
-        "note": "Elective explorations, not a mandatory Grade 12 course or approved district offerings."
+        "name": "Independent Curriculum Design",
+        "url": "/lessons/#curriculum-design",
+        "note": "Original Examine the Past course plan; course development and historical research remain ongoing."
       },
       "units": [
         {
@@ -5780,9 +5780,9 @@
       "image": "assets/halls/hall-chapter-10-black-women-leaders.webp",
       "imageStatus": "temporary_site_asset_pending_original_art",
       "standards": {
-        "name": "Maryland Social Studies standards and Charles County course references",
-        "url": "https://msde.maryland.gov/academics-0/curriculum-academic-standards/social-studies",
-        "note": "Proposed Examine the Past enrichment content; individual standards mapping pending"
+        "name": "Independent Curriculum Design",
+        "url": "/lessons/#curriculum-design",
+        "note": "Original Examine the Past course plan; course development and historical research remain ongoing."
       },
       "units": [],
       "pathways": [
@@ -5815,9 +5815,9 @@
       "image": "assets/halls/hall-chapter-08-arts-and-harlem-renaissance.webp",
       "imageStatus": "temporary_site_asset_pending_original_art",
       "standards": {
-        "name": "Maryland Social Studies standards and Charles County course references",
-        "url": "https://msde.maryland.gov/academics-0/curriculum-academic-standards/social-studies",
-        "note": "Proposed Examine the Past enrichment content; individual standards mapping pending"
+        "name": "Independent Curriculum Design",
+        "url": "/lessons/#curriculum-design",
+        "note": "Original Examine the Past course plan; course development and historical research remain ongoing."
       },
       "units": [
         {
@@ -6219,9 +6219,9 @@
       "image": "assets/halls/hall-chapter-12-new-possibilities-and-living-memory.webp",
       "imageStatus": "temporary_site_asset_pending_original_art",
       "standards": {
-        "name": "Maryland Social Studies standards and Charles County course references",
-        "url": "https://msde.maryland.gov/academics-0/curriculum-academic-standards/social-studies",
-        "note": "Proposed Examine the Past enrichment content; individual standards mapping pending"
+        "name": "Independent Curriculum Design",
+        "url": "/lessons/#curriculum-design",
+        "note": "Original Examine the Past course plan; course development and historical research remain ongoing."
       },
       "units": [
         {
@@ -6622,9 +6622,9 @@
       "image": "assets/halls/hall-chapter-07-science-and-innovation.webp",
       "imageStatus": "temporary_site_asset_pending_original_art",
       "standards": {
-        "name": "Maryland Social Studies standards and Charles County course references",
-        "url": "https://msde.maryland.gov/academics-0/curriculum-academic-standards/social-studies",
-        "note": "Proposed Examine the Past enrichment content; individual standards mapping pending"
+        "name": "Independent Curriculum Design",
+        "url": "/lessons/#curriculum-design",
+        "note": "Original Examine the Past course plan; course development and historical research remain ongoing."
       },
       "units": [
         {
@@ -7025,9 +7025,9 @@
       "image": "assets/halls/hall-chapter-02-west-african-empires.webp",
       "imageStatus": "temporary_site_asset_pending_original_art",
       "standards": {
-        "name": "Maryland Social Studies standards",
-        "url": "https://msde.maryland.gov/academics-0/curriculum-academic-standards/social-studies",
-        "note": "Original enrichment curriculum, not a district-approved semester course"
+        "name": "Independent Curriculum Design",
+        "url": "/lessons/#curriculum-design",
+        "note": "Original Examine the Past course plan; course development and historical research remain ongoing."
       },
       "units": [
         {
@@ -7428,9 +7428,9 @@
       "image": "assets/halls/hall-chapter-09-civil-rights-movement.webp",
       "imageStatus": "temporary_site_asset_pending_original_art",
       "standards": {
-        "name": "Maryland Social Studies standards",
-        "url": "https://msde.maryland.gov/academics-0/curriculum-academic-standards/social-studies",
-        "note": "Original enrichment curriculum, not a district-approved semester course"
+        "name": "Independent Curriculum Design",
+        "url": "/lessons/#curriculum-design",
+        "note": "Original Examine the Past course plan; course development and historical research remain ongoing."
       },
       "units": [
         {
@@ -7820,16 +7820,1200 @@
           "estimatedDuration": "Approximately 2–4 weeks, flexible pacing"
         }
       ]
+    },
+    {
+      "id": "world-religions-comparative-history",
+      "title": "World Religions",
+      "subtitle": "Belief, Society, and Historical Exchange",
+      "grade": null,
+      "section": "EXTENDED",
+      "description": "Independent study in belief, society, and historical exchange.",
+      "essentialQuestion": "How can evidence strengthen interpretations of World Religions?",
+      "image": "assets/halls/hall-chapter-11-pan-african-global-legacy.webp",
+      "imageStatus": "temporary_site_asset_pending_original_art",
+      "standards": {
+        "name": "Independent Curriculum Design",
+        "url": "/lessons/#curriculum-design",
+        "note": "Independent learning resource, not an AP-authorized course."
+      },
+      "units": [
+        {
+          "id": "world-religions-comparative-history-unit-1",
+          "number": "1",
+          "title": "Comparative Historical Study",
+          "topics": [
+            "Comparative Historical Study"
+          ],
+          "essentialQuestion": "What historical or civic evidence helps us understand comparative historical study?",
+          "objectives": [
+            "Examine key contexts and historical claims.",
+            "Analyze evidence and multiple perspectives.",
+            "Communicate an evidence-based conclusion."
+          ],
+          "estimatedDuration": "Flexible 3–6 class periods",
+          "lessons": [
+            {
+              "id": "world-religions-comparative-history-1-1",
+              "unitId": "world-religions-comparative-history-unit-1",
+              "unitNumber": "1",
+              "title": "Understanding Religious Traditions",
+              "slug": "understanding-religious-traditions",
+              "overview": "Planned historical inquiry into Understanding Religious Traditions.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about understanding religious traditions?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/world-religions-comparative-history/understanding-religious-traditions/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "world-religions-comparative-history-1-2",
+              "unitId": "world-religions-comparative-history-unit-1",
+              "unitNumber": "1",
+              "title": "Historical Evidence and Belief",
+              "slug": "historical-evidence-and-belief",
+              "overview": "Planned historical inquiry into Historical Evidence and Belief.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about historical evidence and belief?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/world-religions-comparative-history/historical-evidence-and-belief/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "world-religions-comparative-history-1-3",
+              "unitId": "world-religions-comparative-history-unit-1",
+              "unitNumber": "1",
+              "title": "Communities and Identity",
+              "slug": "communities-and-identity",
+              "overview": "Planned historical inquiry into Communities and Identity.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about communities and identity?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/world-religions-comparative-history/communities-and-identity/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "world-religions-comparative-history-1-4",
+              "unitId": "world-religions-comparative-history-unit-1",
+              "unitNumber": "1",
+              "title": "Respectful Source Reading",
+              "slug": "respectful-source-reading",
+              "overview": "Planned historical inquiry into Respectful Source Reading.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about respectful source reading?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/world-religions-comparative-history/respectful-source-reading/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            }
+          ]
+        },
+        {
+          "id": "world-religions-comparative-history-unit-2",
+          "number": "2",
+          "title": "Belief Across Regions",
+          "topics": [
+            "Belief Across Regions"
+          ],
+          "essentialQuestion": "What historical or civic evidence helps us understand belief across regions?",
+          "objectives": [
+            "Examine key contexts and historical claims.",
+            "Analyze evidence and multiple perspectives.",
+            "Communicate an evidence-based conclusion."
+          ],
+          "estimatedDuration": "Flexible 3–6 class periods",
+          "lessons": [
+            {
+              "id": "world-religions-comparative-history-2-1",
+              "unitId": "world-religions-comparative-history-unit-2",
+              "unitNumber": "2",
+              "title": "South Asian Traditions",
+              "slug": "south-asian-traditions",
+              "overview": "Planned historical inquiry into South Asian Traditions.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about south asian traditions?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/world-religions-comparative-history/south-asian-traditions/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "world-religions-comparative-history-2-2",
+              "unitId": "world-religions-comparative-history-unit-2",
+              "unitNumber": "2",
+              "title": "East Asian Traditions",
+              "slug": "east-asian-traditions",
+              "overview": "Planned historical inquiry into East Asian Traditions.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about east asian traditions?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/world-religions-comparative-history/east-asian-traditions/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "world-religions-comparative-history-2-3",
+              "unitId": "world-religions-comparative-history-unit-2",
+              "unitNumber": "2",
+              "title": "Abrahamic Traditions",
+              "slug": "abrahamic-traditions",
+              "overview": "Planned historical inquiry into Abrahamic Traditions.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about abrahamic traditions?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/world-religions-comparative-history/abrahamic-traditions/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "world-religions-comparative-history-2-4",
+              "unitId": "world-religions-comparative-history-unit-2",
+              "unitNumber": "2",
+              "title": "African and Indigenous Traditions",
+              "slug": "african-and-indigenous-traditions",
+              "overview": "Planned historical inquiry into African and Indigenous Traditions.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about african and indigenous traditions?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/world-religions-comparative-history/african-and-indigenous-traditions/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            }
+          ]
+        },
+        {
+          "id": "world-religions-comparative-history-unit-3",
+          "number": "3",
+          "title": "Religion and History",
+          "topics": [
+            "Religion and History"
+          ],
+          "essentialQuestion": "What historical or civic evidence helps us understand religion and history?",
+          "objectives": [
+            "Examine key contexts and historical claims.",
+            "Analyze evidence and multiple perspectives.",
+            "Communicate an evidence-based conclusion."
+          ],
+          "estimatedDuration": "Flexible 3–6 class periods",
+          "lessons": [
+            {
+              "id": "world-religions-comparative-history-3-1",
+              "unitId": "world-religions-comparative-history-unit-3",
+              "unitNumber": "3",
+              "title": "Religion and Exchange",
+              "slug": "religion-and-exchange",
+              "overview": "Planned historical inquiry into Religion and Exchange.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about religion and exchange?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/world-religions-comparative-history/religion-and-exchange/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "world-religions-comparative-history-3-2",
+              "unitId": "world-religions-comparative-history-unit-3",
+              "unitNumber": "3",
+              "title": "Religious Institutions",
+              "slug": "religious-institutions",
+              "overview": "Planned historical inquiry into Religious Institutions.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about religious institutions?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/world-religions-comparative-history/religious-institutions/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "world-religions-comparative-history-3-3",
+              "unitId": "world-religions-comparative-history-unit-3",
+              "unitNumber": "3",
+              "title": "Historical Reform",
+              "slug": "historical-reform",
+              "overview": "Planned historical inquiry into Historical Reform.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about historical reform?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/world-religions-comparative-history/historical-reform/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "world-religions-comparative-history-3-4",
+              "unitId": "world-religions-comparative-history-unit-3",
+              "unitNumber": "3",
+              "title": "Modern Religious Diversity",
+              "slug": "modern-religious-diversity",
+              "overview": "Planned historical inquiry into Modern Religious Diversity.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about modern religious diversity?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/world-religions-comparative-history/modern-religious-diversity/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ap-us-history-preparation",
+      "title": "AP U.S. History",
+      "subtitle": "Advanced American Historical Inquiry",
+      "grade": null,
+      "section": "ADVANCED",
+      "description": "Independent study in advanced american historical inquiry.",
+      "essentialQuestion": "How can evidence strengthen interpretations of AP U.S. History?",
+      "image": "assets/halls/hall-chapter-05-reconstruction-and-leadership.webp",
+      "imageStatus": "temporary_site_asset_pending_original_art",
+      "standards": {
+        "name": "Independent Curriculum Design",
+        "url": "/lessons/#curriculum-design",
+        "note": "Independent learning resource, not an AP-authorized course."
+      },
+      "units": [
+        {
+          "id": "ap-us-history-preparation-unit-1",
+          "number": "1",
+          "title": "Foundations and the Republic",
+          "topics": [
+            "Foundations and the Republic"
+          ],
+          "essentialQuestion": "What historical or civic evidence helps us understand foundations and the republic?",
+          "objectives": [
+            "Examine key contexts and historical claims.",
+            "Analyze evidence and multiple perspectives.",
+            "Communicate an evidence-based conclusion."
+          ],
+          "estimatedDuration": "Flexible 3–6 class periods",
+          "lessons": [
+            {
+              "id": "ap-us-history-preparation-1-1",
+              "unitId": "ap-us-history-preparation-unit-1",
+              "unitNumber": "1",
+              "title": "Colonial America and Indigenous Peoples",
+              "slug": "colonial-america-and-indigenous-peoples",
+              "overview": "Planned historical inquiry into Colonial America and Indigenous Peoples.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about colonial america and indigenous peoples?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-us-history-preparation/colonial-america-and-indigenous-peoples/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-us-history-preparation-1-2",
+              "unitId": "ap-us-history-preparation-unit-1",
+              "unitNumber": "1",
+              "title": "Revolution and Independence",
+              "slug": "revolution-and-independence",
+              "overview": "Planned historical inquiry into Revolution and Independence.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about revolution and independence?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-us-history-preparation/revolution-and-independence/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-us-history-preparation-1-3",
+              "unitId": "ap-us-history-preparation-unit-1",
+              "unitNumber": "1",
+              "title": "Constitutional Debate",
+              "slug": "constitutional-debate",
+              "overview": "Planned historical inquiry into Constitutional Debate.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about constitutional debate?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-us-history-preparation/constitutional-debate/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-us-history-preparation-1-4",
+              "unitId": "ap-us-history-preparation-unit-1",
+              "unitNumber": "1",
+              "title": "The Early Republic",
+              "slug": "the-early-republic",
+              "overview": "Planned historical inquiry into The Early Republic.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about the early republic?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-us-history-preparation/the-early-republic/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            }
+          ]
+        },
+        {
+          "id": "ap-us-history-preparation-unit-2",
+          "number": "2",
+          "title": "Transformation and Conflict",
+          "topics": [
+            "Transformation and Conflict"
+          ],
+          "essentialQuestion": "What historical or civic evidence helps us understand transformation and conflict?",
+          "objectives": [
+            "Examine key contexts and historical claims.",
+            "Analyze evidence and multiple perspectives.",
+            "Communicate an evidence-based conclusion."
+          ],
+          "estimatedDuration": "Flexible 3–6 class periods",
+          "lessons": [
+            {
+              "id": "ap-us-history-preparation-2-1",
+              "unitId": "ap-us-history-preparation-unit-2",
+              "unitNumber": "2",
+              "title": "Expansion and Slavery",
+              "slug": "expansion-and-slavery",
+              "overview": "Planned historical inquiry into Expansion and Slavery.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about expansion and slavery?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-us-history-preparation/expansion-and-slavery/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-us-history-preparation-2-2",
+              "unitId": "ap-us-history-preparation-unit-2",
+              "unitNumber": "2",
+              "title": "Civil War and Reconstruction",
+              "slug": "civil-war-and-reconstruction",
+              "overview": "Planned historical inquiry into Civil War and Reconstruction.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about civil war and reconstruction?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-us-history-preparation/civil-war-and-reconstruction/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-us-history-preparation-2-3",
+              "unitId": "ap-us-history-preparation-unit-2",
+              "unitNumber": "2",
+              "title": "Industrial America",
+              "slug": "industrial-america",
+              "overview": "Planned historical inquiry into Industrial America.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about industrial america?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-us-history-preparation/industrial-america/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-us-history-preparation-2-4",
+              "unitId": "ap-us-history-preparation-unit-2",
+              "unitNumber": "2",
+              "title": "Reform and Change",
+              "slug": "reform-and-change",
+              "overview": "Planned historical inquiry into Reform and Change.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about reform and change?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-us-history-preparation/reform-and-change/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            }
+          ]
+        },
+        {
+          "id": "ap-us-history-preparation-unit-3",
+          "number": "3",
+          "title": "The Modern United States",
+          "topics": [
+            "The Modern United States"
+          ],
+          "essentialQuestion": "What historical or civic evidence helps us understand the modern united states?",
+          "objectives": [
+            "Examine key contexts and historical claims.",
+            "Analyze evidence and multiple perspectives.",
+            "Communicate an evidence-based conclusion."
+          ],
+          "estimatedDuration": "Flexible 3–6 class periods",
+          "lessons": [
+            {
+              "id": "ap-us-history-preparation-3-1",
+              "unitId": "ap-us-history-preparation-unit-3",
+              "unitNumber": "3",
+              "title": "American Global Engagement",
+              "slug": "american-global-engagement",
+              "overview": "Planned historical inquiry into American Global Engagement.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about american global engagement?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-us-history-preparation/american-global-engagement/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-us-history-preparation-3-2",
+              "unitId": "ap-us-history-preparation-unit-3",
+              "unitNumber": "3",
+              "title": "Civil Rights",
+              "slug": "civil-rights",
+              "overview": "Planned historical inquiry into Civil Rights.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about civil rights?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-us-history-preparation/civil-rights/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-us-history-preparation-3-3",
+              "unitId": "ap-us-history-preparation-unit-3",
+              "unitNumber": "3",
+              "title": "Contemporary America",
+              "slug": "contemporary-america",
+              "overview": "Planned historical inquiry into Contemporary America.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about contemporary america?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-us-history-preparation/contemporary-america/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-us-history-preparation-3-4",
+              "unitId": "ap-us-history-preparation-unit-3",
+              "unitNumber": "3",
+              "title": "Writing Historical Arguments",
+              "slug": "writing-historical-arguments",
+              "overview": "Planned historical inquiry into Writing Historical Arguments.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about writing historical arguments?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-us-history-preparation/writing-historical-arguments/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ap-world-history-preparation",
+      "title": "AP World History",
+      "subtitle": "Advanced Global Historical Inquiry",
+      "grade": null,
+      "section": "ADVANCED",
+      "description": "Independent study in advanced global historical inquiry.",
+      "essentialQuestion": "How can evidence strengthen interpretations of AP World History?",
+      "image": "assets/halls/hall-chapter-02-west-african-empires.webp",
+      "imageStatus": "temporary_site_asset_pending_original_art",
+      "standards": {
+        "name": "Independent Curriculum Design",
+        "url": "/lessons/#curriculum-design",
+        "note": "Independent learning resource, not an AP-authorized course."
+      },
+      "units": [
+        {
+          "id": "ap-world-history-preparation-unit-1",
+          "number": "1",
+          "title": "Networks and Regions",
+          "topics": [
+            "Networks and Regions"
+          ],
+          "essentialQuestion": "What historical or civic evidence helps us understand networks and regions?",
+          "objectives": [
+            "Examine key contexts and historical claims.",
+            "Analyze evidence and multiple perspectives.",
+            "Communicate an evidence-based conclusion."
+          ],
+          "estimatedDuration": "Flexible 3–6 class periods",
+          "lessons": [
+            {
+              "id": "ap-world-history-preparation-1-1",
+              "unitId": "ap-world-history-preparation-unit-1",
+              "unitNumber": "1",
+              "title": "Trade Networks",
+              "slug": "trade-networks",
+              "overview": "Planned historical inquiry into Trade Networks.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about trade networks?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-world-history-preparation/trade-networks/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-world-history-preparation-1-2",
+              "unitId": "ap-world-history-preparation-unit-1",
+              "unitNumber": "1",
+              "title": "States and Empires",
+              "slug": "states-and-empires",
+              "overview": "Planned historical inquiry into States and Empires.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about states and empires?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-world-history-preparation/states-and-empires/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-world-history-preparation-1-3",
+              "unitId": "ap-world-history-preparation-unit-1",
+              "unitNumber": "1",
+              "title": "Cultural Exchange",
+              "slug": "cultural-exchange",
+              "overview": "Planned historical inquiry into Cultural Exchange.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about cultural exchange?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-world-history-preparation/cultural-exchange/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-world-history-preparation-1-4",
+              "unitId": "ap-world-history-preparation-unit-1",
+              "unitNumber": "1",
+              "title": "Historical Comparison",
+              "slug": "historical-comparison",
+              "overview": "Planned historical inquiry into Historical Comparison.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about historical comparison?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-world-history-preparation/historical-comparison/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            }
+          ]
+        },
+        {
+          "id": "ap-world-history-preparation-unit-2",
+          "number": "2",
+          "title": "Global Transformation",
+          "topics": [
+            "Global Transformation"
+          ],
+          "essentialQuestion": "What historical or civic evidence helps us understand global transformation?",
+          "objectives": [
+            "Examine key contexts and historical claims.",
+            "Analyze evidence and multiple perspectives.",
+            "Communicate an evidence-based conclusion."
+          ],
+          "estimatedDuration": "Flexible 3–6 class periods",
+          "lessons": [
+            {
+              "id": "ap-world-history-preparation-2-1",
+              "unitId": "ap-world-history-preparation-unit-2",
+              "unitNumber": "2",
+              "title": "Maritime Empires",
+              "slug": "maritime-empires",
+              "overview": "Planned historical inquiry into Maritime Empires.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about maritime empires?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-world-history-preparation/maritime-empires/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-world-history-preparation-2-2",
+              "unitId": "ap-world-history-preparation-unit-2",
+              "unitNumber": "2",
+              "title": "Political Revolutions",
+              "slug": "political-revolutions",
+              "overview": "Planned historical inquiry into Political Revolutions.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about political revolutions?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-world-history-preparation/political-revolutions/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-world-history-preparation-2-3",
+              "unitId": "ap-world-history-preparation-unit-2",
+              "unitNumber": "2",
+              "title": "Industrialization",
+              "slug": "industrialization",
+              "overview": "Planned historical inquiry into Industrialization.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about industrialization?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-world-history-preparation/industrialization/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-world-history-preparation-2-4",
+              "unitId": "ap-world-history-preparation-unit-2",
+              "unitNumber": "2",
+              "title": "Imperialism and Resistance",
+              "slug": "imperialism-and-resistance",
+              "overview": "Planned historical inquiry into Imperialism and Resistance.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about imperialism and resistance?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-world-history-preparation/imperialism-and-resistance/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            }
+          ]
+        },
+        {
+          "id": "ap-world-history-preparation-unit-3",
+          "number": "3",
+          "title": "The Modern World",
+          "topics": [
+            "The Modern World"
+          ],
+          "essentialQuestion": "What historical or civic evidence helps us understand the modern world?",
+          "objectives": [
+            "Examine key contexts and historical claims.",
+            "Analyze evidence and multiple perspectives.",
+            "Communicate an evidence-based conclusion."
+          ],
+          "estimatedDuration": "Flexible 3–6 class periods",
+          "lessons": [
+            {
+              "id": "ap-world-history-preparation-3-1",
+              "unitId": "ap-world-history-preparation-unit-3",
+              "unitNumber": "3",
+              "title": "Global Wars",
+              "slug": "global-wars",
+              "overview": "Planned historical inquiry into Global Wars.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about global wars?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-world-history-preparation/global-wars/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-world-history-preparation-3-2",
+              "unitId": "ap-world-history-preparation-unit-3",
+              "unitNumber": "3",
+              "title": "Decolonization",
+              "slug": "decolonization",
+              "overview": "Planned historical inquiry into Decolonization.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about decolonization?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-world-history-preparation/decolonization/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-world-history-preparation-3-3",
+              "unitId": "ap-world-history-preparation-unit-3",
+              "unitNumber": "3",
+              "title": "Globalization",
+              "slug": "globalization",
+              "overview": "Planned historical inquiry into Globalization.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about globalization?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-world-history-preparation/globalization/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-world-history-preparation-3-4",
+              "unitId": "ap-world-history-preparation-unit-3",
+              "unitNumber": "3",
+              "title": "Evidence-Based World History",
+              "slug": "evidence-based-world-history",
+              "overview": "Planned historical inquiry into Evidence-Based World History.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about evidence-based world history?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-world-history-preparation/evidence-based-world-history/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ap-government-preparation",
+      "title": "AP Government & Politics",
+      "subtitle": "Advanced Civic Inquiry",
+      "grade": null,
+      "section": "ADVANCED",
+      "description": "Independent study in advanced civic inquiry.",
+      "essentialQuestion": "How can evidence strengthen interpretations of AP Government & Politics?",
+      "image": "assets/halls/hall-chapter-09-civil-rights-movement.webp",
+      "imageStatus": "temporary_site_asset_pending_original_art",
+      "standards": {
+        "name": "Independent Curriculum Design",
+        "url": "/lessons/#curriculum-design",
+        "note": "Independent learning resource, not an AP-authorized course."
+      },
+      "units": [
+        {
+          "id": "ap-government-preparation-unit-1",
+          "number": "1",
+          "title": "Constitutional Principles",
+          "topics": [
+            "Constitutional Principles"
+          ],
+          "essentialQuestion": "What historical or civic evidence helps us understand constitutional principles?",
+          "objectives": [
+            "Examine key contexts and historical claims.",
+            "Analyze evidence and multiple perspectives.",
+            "Communicate an evidence-based conclusion."
+          ],
+          "estimatedDuration": "Flexible 3–6 class periods",
+          "lessons": [
+            {
+              "id": "ap-government-preparation-1-1",
+              "unitId": "ap-government-preparation-unit-1",
+              "unitNumber": "1",
+              "title": "Founding Ideas",
+              "slug": "founding-ideas",
+              "overview": "Planned historical inquiry into Founding Ideas.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about founding ideas?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-government-preparation/founding-ideas/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-government-preparation-1-2",
+              "unitId": "ap-government-preparation-unit-1",
+              "unitNumber": "1",
+              "title": "Federalism",
+              "slug": "federalism",
+              "overview": "Planned historical inquiry into Federalism.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about federalism?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-government-preparation/federalism/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-government-preparation-1-3",
+              "unitId": "ap-government-preparation-unit-1",
+              "unitNumber": "1",
+              "title": "Civil Liberties",
+              "slug": "civil-liberties",
+              "overview": "Planned historical inquiry into Civil Liberties.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about civil liberties?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-government-preparation/civil-liberties/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-government-preparation-1-4",
+              "unitId": "ap-government-preparation-unit-1",
+              "unitNumber": "1",
+              "title": "Constitutional Interpretation",
+              "slug": "constitutional-interpretation",
+              "overview": "Planned historical inquiry into Constitutional Interpretation.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about constitutional interpretation?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-government-preparation/constitutional-interpretation/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            }
+          ]
+        },
+        {
+          "id": "ap-government-preparation-unit-2",
+          "number": "2",
+          "title": "Institutions",
+          "topics": [
+            "Institutions"
+          ],
+          "essentialQuestion": "What historical or civic evidence helps us understand institutions?",
+          "objectives": [
+            "Examine key contexts and historical claims.",
+            "Analyze evidence and multiple perspectives.",
+            "Communicate an evidence-based conclusion."
+          ],
+          "estimatedDuration": "Flexible 3–6 class periods",
+          "lessons": [
+            {
+              "id": "ap-government-preparation-2-1",
+              "unitId": "ap-government-preparation-unit-2",
+              "unitNumber": "2",
+              "title": "Congress",
+              "slug": "congress",
+              "overview": "Planned historical inquiry into Congress.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about congress?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-government-preparation/congress/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-government-preparation-2-2",
+              "unitId": "ap-government-preparation-unit-2",
+              "unitNumber": "2",
+              "title": "The Presidency",
+              "slug": "the-presidency",
+              "overview": "Planned historical inquiry into The Presidency.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about the presidency?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-government-preparation/the-presidency/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-government-preparation-2-3",
+              "unitId": "ap-government-preparation-unit-2",
+              "unitNumber": "2",
+              "title": "Judicial Review",
+              "slug": "judicial-review",
+              "overview": "Planned historical inquiry into Judicial Review.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about judicial review?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-government-preparation/judicial-review/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-government-preparation-2-4",
+              "unitId": "ap-government-preparation-unit-2",
+              "unitNumber": "2",
+              "title": "Public Policy",
+              "slug": "public-policy",
+              "overview": "Planned historical inquiry into Public Policy.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about public policy?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-government-preparation/public-policy/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            }
+          ]
+        },
+        {
+          "id": "ap-government-preparation-unit-3",
+          "number": "3",
+          "title": "Civic Participation",
+          "topics": [
+            "Civic Participation"
+          ],
+          "essentialQuestion": "What historical or civic evidence helps us understand civic participation?",
+          "objectives": [
+            "Examine key contexts and historical claims.",
+            "Analyze evidence and multiple perspectives.",
+            "Communicate an evidence-based conclusion."
+          ],
+          "estimatedDuration": "Flexible 3–6 class periods",
+          "lessons": [
+            {
+              "id": "ap-government-preparation-3-1",
+              "unitId": "ap-government-preparation-unit-3",
+              "unitNumber": "3",
+              "title": "Voting and Elections",
+              "slug": "voting-and-elections",
+              "overview": "Planned historical inquiry into Voting and Elections.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about voting and elections?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-government-preparation/voting-and-elections/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-government-preparation-3-2",
+              "unitId": "ap-government-preparation-unit-3",
+              "unitNumber": "3",
+              "title": "Parties and Interest Groups",
+              "slug": "parties-and-interest-groups",
+              "overview": "Planned historical inquiry into Parties and Interest Groups.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about parties and interest groups?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-government-preparation/parties-and-interest-groups/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-government-preparation-3-3",
+              "unitId": "ap-government-preparation-unit-3",
+              "unitNumber": "3",
+              "title": "Media and Politics",
+              "slug": "media-and-politics",
+              "overview": "Planned historical inquiry into Media and Politics.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about media and politics?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-government-preparation/media-and-politics/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            },
+            {
+              "id": "ap-government-preparation-3-4",
+              "unitId": "ap-government-preparation-unit-3",
+              "unitNumber": "3",
+              "title": "Civic Argument",
+              "slug": "civic-argument",
+              "overview": "Planned historical inquiry into Civic Argument.",
+              "objectives": [
+                "Identify major questions and concepts.",
+                "Evaluate sources and perspectives.",
+                "Build a supported conclusion."
+              ],
+              "inquiryQuestion": "What can reliable evidence show us about civic argument?",
+              "assessmentPlan": "Evidence analysis and supported writing.",
+              "status": "In Development",
+              "canonicalUrl": "/lessons/curriculum/ap-government-preparation/civic-argument/",
+              "sourceReferences": [],
+              "relatedCourses": []
+            }
+          ]
+        }
+      ]
     }
   ],
   "sourceReferences": [
     {
-      "label": "Maryland Social Studies Frameworks",
-      "url": "https://msde.maryland.gov/academics-0/curriculum-academic-standards/social-studies"
-    },
-    {
-      "label": "Charles County 2026–27 High School Program of Studies",
-      "url": "https://www.ccboe.com/page/high-school-program-of-studies-2026-27/"
+      "label": "Curriculum Design Overview",
+      "url": "/lessons/#curriculum-design"
     }
   ]
 }
