@@ -23,3 +23,5 @@ jobs:
           python3 -m http.server 8765 --directory . >/tmp/hero-site.log 2>&1 &
           sleep 3
           node scripts/check_hero_series_browser.mjs
+
+# Check both existing embedded-video player and new reserved video slots.
