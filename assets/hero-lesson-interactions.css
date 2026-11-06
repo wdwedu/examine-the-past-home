@@ -78,3 +78,30 @@ body.mk-interactive .mk-wrap{padding-bottom:135px}
 .mk-step[id]{scroll-margin-top:155px}
 @media(max-width:730px){.mk-unified-row{flex-wrap:wrap;gap:5px}.mk-progress-group{max-width:100%;flex-basis:100%}.mk-unified-timer{flex:1 1 100%;justify-content:center;gap:5px}.mk-unified-timer button{padding:5px 7px}.mk-progress-dock{padding:5px 8px!important}.mk-progress-group{font-size:11px}}
 @media(max-width:360px){.mk-unified-timer{font-size:10px;gap:3px}.mk-unified-timer button{font-size:10px;padding:5px}.mk-unified-timer output{font-size:14px;min-width:42px}}
+
+
+/* Classroom timer finishing polish — concise, accessible controls */
+.mk-timer-status{display:none!important}
+.mk-unified-timer{gap:4px}
+.mk-unified-timer select{max-width:77px;min-height:28px;font-size:11px}
+.mk-unified-timer button{padding:4px 6px;min-height:28px;font-size:11px}
+.mk-unified-timer #mk-audio-toggle{padding:4px 5px;min-width:62px}
+.mk-unified-timer output{font-size:16px;min-width:49px}
+.mk-progress-dock.mk-time-expired{border-bottom-color:#ad414a!important}
+.mk-progress-dock.mk-time-expired #mk-timer-clock{color:#ffd4d5}
+.mk-progress-dock.mk-finish-flash{animation:mk-five-color-finish 2.8s ease-out 1}
+@keyframes mk-five-color-finish{
+  0%,100%{background:#06120ff7;box-shadow:0 8px 24px #000a}
+  9%{background:#3c1728;box-shadow:0 0 15px #ef5961a0}
+  18%{background:#06120ff7}
+  27%{background:#45310c;box-shadow:0 0 15px #ffbd4ba0}
+  36%{background:#06120ff7}
+  45%{background:#173e38;box-shadow:0 0 15px #55e2caa0}
+  54%{background:#06120ff7}
+  63%{background:#25214b;box-shadow:0 0 15px #9d84e9a0}
+  72%{background:#06120ff7}
+  81%{background:#293a12;box-shadow:0 0 15px #a6e35ca0}
+  90%{background:#06120ff7}
+}
+@media(max-width:730px){.mk-unified-timer{gap:3px}.mk-unified-timer button{padding:4px 5px;font-size:10px;min-height:27px}.mk-unified-timer select{max-width:73px;font-size:10px}.mk-unified-timer #mk-audio-toggle{min-width:57px}.mk-unified-timer output{font-size:15px;min-width:45px}}
+@media(prefers-reduced-motion:reduce){.mk-progress-dock.mk-finish-flash{animation:none!important}}
