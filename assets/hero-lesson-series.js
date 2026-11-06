@@ -3,10 +3,23 @@
 const main=document.querySelector(".mk-wrap[data-hero-key]");if(!main)return;
 const escape=s=>String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 for(const box of main.querySelectorAll(".mk-question")){
+ const options=[...box.querySelectorAll("input")];
+ const expectedIndices=(box.dataset.answer||"").split(",").map(x=>Number(x.trim()));
+ if(!expectedIndices.length||expectedIndices.some(x=>!Number.isInteger(x)||x<0||x>=options.length)||new Set(expectedIndices).size!==expectedIndices.length){box.dataset.invalidQuestion="true";console.error("Invalid answer key",box);continue}
+ if(expectedIndices.length>1){
+  const heading=box.querySelector("h3");
+  if(heading&&!/select (?:exactly |the |all |two|three|four|five|\d)/i.test(heading.textContent)){
+   const instruction=document.createElement("p");instruction.className="mk-multi-instruction";instruction.textContent="Select "+expectedIndices.length+" answers, then choose Check & Explain.";heading.after(instruction);
+  }
+ }
+
  const button=box.querySelector(".mk-check"),feedback=box.querySelector(".mk-feedback");
  if(!button||!feedback)continue;
  button.addEventListener("click",()=>{
   const selected=[...box.querySelectorAll("input")].flatMap((x,i)=>x.checked?[i]:[]);
+  const required=(box.dataset.answer||"").split(",").length;
+  if(required>1&&selected.length!==required){feedback.textContent="Choose exactly "+required+" answers, then check again.";box.dataset.checked="false";return}
+
   if(!selected.length){feedback.textContent="Choose an answer before checking.";box.dataset.checked="false";return}
   const expected=box.dataset.answer.split(",").map(Number);
   const ok=selected.length===expected.length&&selected.every(x=>expected.includes(x));
