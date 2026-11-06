@@ -247,18 +247,20 @@ function addResearchLink(target,label,url,featured=false){
  if(/^https:\/\//.test(url)){link.target="_blank";link.rel="noopener noreferrer";}
  target.append(link);
 }
+/* One canonical Hall → Hero Lesson route per historical figure. */
+const HERO_LESSON_ROUTES={"bh-121":"queen-makeda","bh-122":"piye","bh-123":"shabaka","bh-124":"taharqa","bh-126":"nastasen","bh-127":"amanirenas","bh-128":"amanitore","bh-129":"zoskales","bh-130":"ezana-of-aksum","bh-131":"kaleb-of-aksum","bh-125":"tenkamenin","bh-132":"moremi-ajasoro","bh-001":"sundiata","bh-002":"mansa-musa","bh-133":"oba-ewuare","bh-134":"sunni-ali-ber","bh-135":"askia-muhammad-i","bh-003":"afonso-i-of-kongo","bh-004":"queen-amina-of-zazzau","bh-005":"queen-nzinga","bh-006":"crispus-attucks","bh-007":"ayuba-suleiman-diallo","bh-008":"phillis-wheatley","bh-009":"olaudah-equiano","bh-010":"toussaint-louverture","bh-011":"benjamin-banneker","bh-012":"paul-cuffe","bh-013":"joshua-johnson","bh-136":"queen-nandi","bh-014":"shaka-zulu","bh-015":"elizabeth-freeman-mum-bett","bh-016":"richard-allen","bh-017":"nat-turner","bh-018":"james-forten","bh-019":"dred-scott","bh-137":"ranavalona-i","bh-024":"henry-box-brown","bh-020":"henry-highland-garnet","bh-021":"sojourner-truth","bh-022":"cathay-williams","bh-023":"frederick-douglass","bh-025":"edmonia-lewis","bh-026":"granville-t-woods","bh-027":"harriet-tubman","bh-028":"robert-smalls","bh-029":"booker-t-washington","bh-030":"alice-augusta-ball","bh-031":"madam-c-j-walker","bh-032":"p-b-s-pinchback","bh-138":"yaa-asantewaa","bh-140":"labotsibeni-mdluli","bh-033":"bessie-coleman","bh-141":"empress-zewditu","bh-034":"ida-b-wells","bh-035":"henry-ossawa-tanner","bh-036":"marcus-garvey","bh-037":"ernest-everett-just","bh-038":"george-washington-carver","bh-039":"doris-dorie-miller","bh-139":"queen-muhumuza","bh-040":"jack-johnson","bh-041":"carter-g-woodson","bh-043":"mary-church-terrell","bh-042":"alain-locke","bh-045":"mary-mcleod-bethune","bh-044":"matthew-p-henson","bh-046":"billie-holiday","bh-047":"zora-neale-hurston","bh-048":"richard-wright","bh-049":"patrice-lumumba","bh-052":"w-e-b-du-bois","bh-051":"garrett-morgan","bh-050":"medgar-evers","bh-053":"roger-arliner-young","bh-054":"sam-cooke","bh-055":"nat-king-cole","bh-056":"malcolm-x-el-hajj-malik-el-shabazz","bh-057":"dorothy-dandridge","bh-058":"langston-hughes","bh-059":"martin-luther-king-jr","bh-060":"fred-hampton","bh-061":"louis-armstrong","bh-063":"jackie-robinson","bh-062":"kwame-nkrumah","bh-064":"duke-ellington","bh-065":"haile-selassie-i","bh-066":"paul-robeson","bh-067":"fannie-lou-hamer","bh-068":"jomo-kenyatta","bh-069":"marjorie-lee-browne","bh-070":"jesse-owens","bh-071":"joe-louis","bh-072":"bob-marley","bh-073":"satchel-paige","bh-074":"marvin-gaye","bh-076":"vivien-thomas","bh-078":"james-baldwin","bh-077":"bayard-rustin","bh-079":"sugar-ray-robinson","bh-080":"huey-p-newton","bh-083":"marian-anderson","bh-081":"thurgood-marshall","bh-082":"arthur-ashe","bh-084":"wilma-rudolph","bh-085":"ella-fitzgerald","bh-086":"tupac-shakur","bh-087":"christopher-wallace-the-notorious-b-i-g","bh-088":"wilt-chamberlain","bh-089":"jacob-lawrence","bh-091":"benjamin-o-davis-jr","bh-090":"charity-adams-earley","bh-093":"althea-gibson","bh-092":"nina-simone","bh-094":"ray-charles","bh-096":"rosa-parks","bh-095":"shirley-chisholm","bh-097":"richard-pryor","bh-098":"james-brown","bh-099":"michael-jackson","bh-100":"david-blackwell","bh-075":"annie-easley","bh-101":"hazel-johnson-brown","bh-102":"nelson-mandela","bh-103":"maya-angelou","bh-105":"muhammad-ali","bh-104":"prince","bh-106":"aretha-franklin","bh-108":"toni-morrison","bh-107":"patricia-bath","bh-109":"katherine-johnson","bh-110":"john-lewis","bh-111":"george-carruthers","bh-113":"gloria-richardson","bh-112":"cicely-tyson","bh-115":"desmond-tutu","bh-114":"colin-powell","bh-117":"bill-russell","bh-118":"pele-edson-arantes-do-nascimento","bh-116":"sidney-poitier","bh-119":"jim-brown","bh-120":"james-earl-jones"};
+const MASTER_HERO_IDS=new Set(["bh-121","bh-122","bh-123","bh-124","bh-001"]);
 function heroLessonUrl(id){
- const expanded={"bh-121":"queen-makeda","bh-122":"piye","bh-123":"shabaka","bh-124":"taharqa","bh-001":"sundiata"};
- return expanded[id]
-  ?siteRoot+"lessons/black-history-heroes/"+expanded[id]+"/"
-  :siteRoot+"lessons/black-history-heroes/figure/?id="+encodeURIComponent(id);
+ const slug=HERO_LESSON_ROUTES[id];
+ return slug?siteRoot+"lessons/black-history-heroes/"+encodeURIComponent(slug)+"/":null;
 }
 function renderBiography(target,profile,personName){
- const completedHeroLessons=new Set(["bh-121","bh-122","bh-123","bh-124","bh-001"]);
- if(completedHeroLessons.has(profile.id)){
-  const lessonLink=mk("a","hv-complete-hero-lesson","Open Full Hero Lesson →");
-  lessonLink.href=heroLessonUrl(profile.id);
-  lessonLink.setAttribute("aria-label","Open the completed Hero Lesson for "+personName);
+ const destination=heroLessonUrl(profile.id);
+ if(destination){
+  const master=MASTER_HERO_IDS.has(profile.id);
+  const lessonLink=mk("a","hv-complete-hero-lesson",master?"Open Full Hero Lesson →":"Explore Inquiry Lesson (Draft) →");
+  lessonLink.href=destination;
+  lessonLink.setAttribute("aria-label",(master?"Open completed Hero Lesson for ":"Open historical inquiry lesson draft for ")+personName);
   target.append(lessonLink);
  }
  const featured=featuredProfiles.get(profile.id);

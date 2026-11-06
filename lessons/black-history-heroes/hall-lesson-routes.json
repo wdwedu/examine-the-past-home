@@ -1,0 +1,1137 @@
+{
+  "version": "2026-11-06",
+  "total": 141,
+  "master": 5,
+  "draft": 136,
+  "description": "Canonical Hall figure ID to lesson folder routes. Master lessons are the five individually developed lessons; all 136 additional lessons are editorial drafts requiring historical review.",
+  "figures": [
+    {
+      "id": "bh-121",
+      "name": "Queen Makeda of Sheba",
+      "slug": "queen-makeda",
+      "lesson_url": "/lessons/black-history-heroes/queen-makeda/",
+      "status": "master",
+      "portrait": "121.webp"
+    },
+    {
+      "id": "bh-122",
+      "name": "Piye",
+      "slug": "piye",
+      "lesson_url": "/lessons/black-history-heroes/piye/",
+      "status": "master",
+      "portrait": "122.webp"
+    },
+    {
+      "id": "bh-123",
+      "name": "Shabaka",
+      "slug": "shabaka",
+      "lesson_url": "/lessons/black-history-heroes/shabaka/",
+      "status": "master",
+      "portrait": "123.webp"
+    },
+    {
+      "id": "bh-124",
+      "name": "Taharqa",
+      "slug": "taharqa",
+      "lesson_url": "/lessons/black-history-heroes/taharqa/",
+      "status": "master",
+      "portrait": "124.webp"
+    },
+    {
+      "id": "bh-126",
+      "name": "Nastasen",
+      "slug": "nastasen",
+      "lesson_url": "/lessons/black-history-heroes/nastasen/",
+      "status": "editorial_draft",
+      "portrait": "126.webp"
+    },
+    {
+      "id": "bh-127",
+      "name": "Amanirenas",
+      "slug": "amanirenas",
+      "lesson_url": "/lessons/black-history-heroes/amanirenas/",
+      "status": "editorial_draft",
+      "portrait": "127.webp"
+    },
+    {
+      "id": "bh-128",
+      "name": "Amanitore",
+      "slug": "amanitore",
+      "lesson_url": "/lessons/black-history-heroes/amanitore/",
+      "status": "editorial_draft",
+      "portrait": "128.webp"
+    },
+    {
+      "id": "bh-129",
+      "name": "Zoskales",
+      "slug": "zoskales",
+      "lesson_url": "/lessons/black-history-heroes/zoskales/",
+      "status": "editorial_draft",
+      "portrait": "129.webp"
+    },
+    {
+      "id": "bh-130",
+      "name": "Ezana of Aksum",
+      "slug": "ezana-of-aksum",
+      "lesson_url": "/lessons/black-history-heroes/ezana-of-aksum/",
+      "status": "editorial_draft",
+      "portrait": "130.webp"
+    },
+    {
+      "id": "bh-131",
+      "name": "Kaleb of Aksum",
+      "slug": "kaleb-of-aksum",
+      "lesson_url": "/lessons/black-history-heroes/kaleb-of-aksum/",
+      "status": "editorial_draft",
+      "portrait": "131.webp"
+    },
+    {
+      "id": "bh-125",
+      "name": "Tenkamenin",
+      "slug": "tenkamenin",
+      "lesson_url": "/lessons/black-history-heroes/tenkamenin/",
+      "status": "editorial_draft",
+      "portrait": "125.webp"
+    },
+    {
+      "id": "bh-132",
+      "name": "Moremi Ajasoro",
+      "slug": "moremi-ajasoro",
+      "lesson_url": "/lessons/black-history-heroes/moremi-ajasoro/",
+      "status": "editorial_draft",
+      "portrait": "132.webp"
+    },
+    {
+      "id": "bh-001",
+      "name": "Sundiata Keita",
+      "slug": "sundiata",
+      "lesson_url": "/lessons/black-history-heroes/sundiata/",
+      "status": "master",
+      "portrait": "001.webp"
+    },
+    {
+      "id": "bh-002",
+      "name": "Mansa Musa",
+      "slug": "mansa-musa",
+      "lesson_url": "/lessons/black-history-heroes/mansa-musa/",
+      "status": "editorial_draft",
+      "portrait": "002.webp"
+    },
+    {
+      "id": "bh-133",
+      "name": "Oba Ewuare",
+      "slug": "oba-ewuare",
+      "lesson_url": "/lessons/black-history-heroes/oba-ewuare/",
+      "status": "editorial_draft",
+      "portrait": "133.webp"
+    },
+    {
+      "id": "bh-134",
+      "name": "Sunni Ali Ber",
+      "slug": "sunni-ali-ber",
+      "lesson_url": "/lessons/black-history-heroes/sunni-ali-ber/",
+      "status": "editorial_draft",
+      "portrait": "134.webp"
+    },
+    {
+      "id": "bh-135",
+      "name": "Askia Muhammad I",
+      "slug": "askia-muhammad-i",
+      "lesson_url": "/lessons/black-history-heroes/askia-muhammad-i/",
+      "status": "editorial_draft",
+      "portrait": "135.webp"
+    },
+    {
+      "id": "bh-003",
+      "name": "Afonso I of Kongo",
+      "slug": "afonso-i-of-kongo",
+      "lesson_url": "/lessons/black-history-heroes/afonso-i-of-kongo/",
+      "status": "editorial_draft",
+      "portrait": "003.webp"
+    },
+    {
+      "id": "bh-004",
+      "name": "Queen Amina of Zazzau",
+      "slug": "queen-amina-of-zazzau",
+      "lesson_url": "/lessons/black-history-heroes/queen-amina-of-zazzau/",
+      "status": "editorial_draft",
+      "portrait": "004.webp"
+    },
+    {
+      "id": "bh-005",
+      "name": "Queen Nzinga",
+      "slug": "queen-nzinga",
+      "lesson_url": "/lessons/black-history-heroes/queen-nzinga/",
+      "status": "editorial_draft",
+      "portrait": "005.webp"
+    },
+    {
+      "id": "bh-006",
+      "name": "Crispus Attucks",
+      "slug": "crispus-attucks",
+      "lesson_url": "/lessons/black-history-heroes/crispus-attucks/",
+      "status": "editorial_draft",
+      "portrait": "006.webp"
+    },
+    {
+      "id": "bh-007",
+      "name": "Ayuba Suleiman Diallo",
+      "slug": "ayuba-suleiman-diallo",
+      "lesson_url": "/lessons/black-history-heroes/ayuba-suleiman-diallo/",
+      "status": "editorial_draft",
+      "portrait": "007.webp"
+    },
+    {
+      "id": "bh-008",
+      "name": "Phillis Wheatley",
+      "slug": "phillis-wheatley",
+      "lesson_url": "/lessons/black-history-heroes/phillis-wheatley/",
+      "status": "editorial_draft",
+      "portrait": "008.webp"
+    },
+    {
+      "id": "bh-009",
+      "name": "Olaudah Equiano",
+      "slug": "olaudah-equiano",
+      "lesson_url": "/lessons/black-history-heroes/olaudah-equiano/",
+      "status": "editorial_draft",
+      "portrait": "009.webp"
+    },
+    {
+      "id": "bh-010",
+      "name": "Toussaint Louverture",
+      "slug": "toussaint-louverture",
+      "lesson_url": "/lessons/black-history-heroes/toussaint-louverture/",
+      "status": "editorial_draft",
+      "portrait": "010.webp"
+    },
+    {
+      "id": "bh-011",
+      "name": "Benjamin Banneker",
+      "slug": "benjamin-banneker",
+      "lesson_url": "/lessons/black-history-heroes/benjamin-banneker/",
+      "status": "editorial_draft",
+      "portrait": "011.webp"
+    },
+    {
+      "id": "bh-012",
+      "name": "Paul Cuffe",
+      "slug": "paul-cuffe",
+      "lesson_url": "/lessons/black-history-heroes/paul-cuffe/",
+      "status": "editorial_draft",
+      "portrait": "012.webp"
+    },
+    {
+      "id": "bh-013",
+      "name": "Joshua Johnson",
+      "slug": "joshua-johnson",
+      "lesson_url": "/lessons/black-history-heroes/joshua-johnson/",
+      "status": "editorial_draft",
+      "portrait": "013.webp"
+    },
+    {
+      "id": "bh-136",
+      "name": "Queen Nandi",
+      "slug": "queen-nandi",
+      "lesson_url": "/lessons/black-history-heroes/queen-nandi/",
+      "status": "editorial_draft",
+      "portrait": "136.webp"
+    },
+    {
+      "id": "bh-014",
+      "name": "Shaka Zulu",
+      "slug": "shaka-zulu",
+      "lesson_url": "/lessons/black-history-heroes/shaka-zulu/",
+      "status": "editorial_draft",
+      "portrait": "014.webp"
+    },
+    {
+      "id": "bh-015",
+      "name": "Elizabeth Freeman (Mum Bett)",
+      "slug": "elizabeth-freeman-mum-bett",
+      "lesson_url": "/lessons/black-history-heroes/elizabeth-freeman-mum-bett/",
+      "status": "editorial_draft",
+      "portrait": "015.webp"
+    },
+    {
+      "id": "bh-016",
+      "name": "Richard Allen",
+      "slug": "richard-allen",
+      "lesson_url": "/lessons/black-history-heroes/richard-allen/",
+      "status": "editorial_draft",
+      "portrait": "016.webp"
+    },
+    {
+      "id": "bh-017",
+      "name": "Nat Turner",
+      "slug": "nat-turner",
+      "lesson_url": "/lessons/black-history-heroes/nat-turner/",
+      "status": "editorial_draft",
+      "portrait": "017.webp"
+    },
+    {
+      "id": "bh-018",
+      "name": "James Forten",
+      "slug": "james-forten",
+      "lesson_url": "/lessons/black-history-heroes/james-forten/",
+      "status": "editorial_draft",
+      "portrait": "018.webp"
+    },
+    {
+      "id": "bh-019",
+      "name": "Dred Scott",
+      "slug": "dred-scott",
+      "lesson_url": "/lessons/black-history-heroes/dred-scott/",
+      "status": "editorial_draft",
+      "portrait": "019.webp"
+    },
+    {
+      "id": "bh-137",
+      "name": "Ranavalona I",
+      "slug": "ranavalona-i",
+      "lesson_url": "/lessons/black-history-heroes/ranavalona-i/",
+      "status": "editorial_draft",
+      "portrait": "137.webp"
+    },
+    {
+      "id": "bh-024",
+      "name": "Henry \"Box\" Brown",
+      "slug": "henry-box-brown",
+      "lesson_url": "/lessons/black-history-heroes/henry-box-brown/",
+      "status": "editorial_draft",
+      "portrait": "024.webp"
+    },
+    {
+      "id": "bh-020",
+      "name": "Henry Highland Garnet",
+      "slug": "henry-highland-garnet",
+      "lesson_url": "/lessons/black-history-heroes/henry-highland-garnet/",
+      "status": "editorial_draft",
+      "portrait": "020.webp"
+    },
+    {
+      "id": "bh-021",
+      "name": "Sojourner Truth",
+      "slug": "sojourner-truth",
+      "lesson_url": "/lessons/black-history-heroes/sojourner-truth/",
+      "status": "editorial_draft",
+      "portrait": "021.webp"
+    },
+    {
+      "id": "bh-022",
+      "name": "Cathay Williams",
+      "slug": "cathay-williams",
+      "lesson_url": "/lessons/black-history-heroes/cathay-williams/",
+      "status": "editorial_draft",
+      "portrait": "022.webp"
+    },
+    {
+      "id": "bh-023",
+      "name": "Frederick Douglass",
+      "slug": "frederick-douglass",
+      "lesson_url": "/lessons/black-history-heroes/frederick-douglass/",
+      "status": "editorial_draft",
+      "portrait": "023.webp"
+    },
+    {
+      "id": "bh-025",
+      "name": "Edmonia Lewis",
+      "slug": "edmonia-lewis",
+      "lesson_url": "/lessons/black-history-heroes/edmonia-lewis/",
+      "status": "editorial_draft",
+      "portrait": "025.webp"
+    },
+    {
+      "id": "bh-026",
+      "name": "Granville T. Woods",
+      "slug": "granville-t-woods",
+      "lesson_url": "/lessons/black-history-heroes/granville-t-woods/",
+      "status": "editorial_draft",
+      "portrait": "026.webp"
+    },
+    {
+      "id": "bh-027",
+      "name": "Harriet Tubman",
+      "slug": "harriet-tubman",
+      "lesson_url": "/lessons/black-history-heroes/harriet-tubman/",
+      "status": "editorial_draft",
+      "portrait": "027.webp"
+    },
+    {
+      "id": "bh-028",
+      "name": "Robert Smalls",
+      "slug": "robert-smalls",
+      "lesson_url": "/lessons/black-history-heroes/robert-smalls/",
+      "status": "editorial_draft",
+      "portrait": "028.webp"
+    },
+    {
+      "id": "bh-029",
+      "name": "Booker T. Washington",
+      "slug": "booker-t-washington",
+      "lesson_url": "/lessons/black-history-heroes/booker-t-washington/",
+      "status": "editorial_draft",
+      "portrait": "029.webp"
+    },
+    {
+      "id": "bh-030",
+      "name": "Alice Augusta Ball",
+      "slug": "alice-augusta-ball",
+      "lesson_url": "/lessons/black-history-heroes/alice-augusta-ball/",
+      "status": "editorial_draft",
+      "portrait": "030.webp"
+    },
+    {
+      "id": "bh-031",
+      "name": "Madam C.J. Walker",
+      "slug": "madam-c-j-walker",
+      "lesson_url": "/lessons/black-history-heroes/madam-c-j-walker/",
+      "status": "editorial_draft",
+      "portrait": "031.webp"
+    },
+    {
+      "id": "bh-032",
+      "name": "P. B. S. Pinchback",
+      "slug": "p-b-s-pinchback",
+      "lesson_url": "/lessons/black-history-heroes/p-b-s-pinchback/",
+      "status": "editorial_draft",
+      "portrait": "032.webp"
+    },
+    {
+      "id": "bh-138",
+      "name": "Yaa Asantewaa",
+      "slug": "yaa-asantewaa",
+      "lesson_url": "/lessons/black-history-heroes/yaa-asantewaa/",
+      "status": "editorial_draft",
+      "portrait": "138.webp"
+    },
+    {
+      "id": "bh-140",
+      "name": "Labotsibeni Mdluli",
+      "slug": "labotsibeni-mdluli",
+      "lesson_url": "/lessons/black-history-heroes/labotsibeni-mdluli/",
+      "status": "editorial_draft",
+      "portrait": "140.webp"
+    },
+    {
+      "id": "bh-033",
+      "name": "Bessie Coleman",
+      "slug": "bessie-coleman",
+      "lesson_url": "/lessons/black-history-heroes/bessie-coleman/",
+      "status": "editorial_draft",
+      "portrait": "033.webp"
+    },
+    {
+      "id": "bh-141",
+      "name": "Empress Zewditu",
+      "slug": "empress-zewditu",
+      "lesson_url": "/lessons/black-history-heroes/empress-zewditu/",
+      "status": "editorial_draft",
+      "portrait": "141.webp"
+    },
+    {
+      "id": "bh-034",
+      "name": "Ida B. Wells",
+      "slug": "ida-b-wells",
+      "lesson_url": "/lessons/black-history-heroes/ida-b-wells/",
+      "status": "editorial_draft",
+      "portrait": "034.webp"
+    },
+    {
+      "id": "bh-035",
+      "name": "Henry Ossawa Tanner",
+      "slug": "henry-ossawa-tanner",
+      "lesson_url": "/lessons/black-history-heroes/henry-ossawa-tanner/",
+      "status": "editorial_draft",
+      "portrait": "035.webp"
+    },
+    {
+      "id": "bh-036",
+      "name": "Marcus Garvey",
+      "slug": "marcus-garvey",
+      "lesson_url": "/lessons/black-history-heroes/marcus-garvey/",
+      "status": "editorial_draft",
+      "portrait": "036.webp"
+    },
+    {
+      "id": "bh-037",
+      "name": "Ernest Everett Just",
+      "slug": "ernest-everett-just",
+      "lesson_url": "/lessons/black-history-heroes/ernest-everett-just/",
+      "status": "editorial_draft",
+      "portrait": "037.webp"
+    },
+    {
+      "id": "bh-038",
+      "name": "George Washington Carver",
+      "slug": "george-washington-carver",
+      "lesson_url": "/lessons/black-history-heroes/george-washington-carver/",
+      "status": "editorial_draft",
+      "portrait": "038.webp"
+    },
+    {
+      "id": "bh-039",
+      "name": "Doris \"Dorie\" Miller",
+      "slug": "doris-dorie-miller",
+      "lesson_url": "/lessons/black-history-heroes/doris-dorie-miller/",
+      "status": "editorial_draft",
+      "portrait": "039.webp"
+    },
+    {
+      "id": "bh-139",
+      "name": "Queen Muhumuza",
+      "slug": "queen-muhumuza",
+      "lesson_url": "/lessons/black-history-heroes/queen-muhumuza/",
+      "status": "editorial_draft",
+      "portrait": "139.webp"
+    },
+    {
+      "id": "bh-040",
+      "name": "Jack Johnson",
+      "slug": "jack-johnson",
+      "lesson_url": "/lessons/black-history-heroes/jack-johnson/",
+      "status": "editorial_draft",
+      "portrait": "040.webp"
+    },
+    {
+      "id": "bh-041",
+      "name": "Carter G. Woodson",
+      "slug": "carter-g-woodson",
+      "lesson_url": "/lessons/black-history-heroes/carter-g-woodson/",
+      "status": "editorial_draft",
+      "portrait": "041.webp"
+    },
+    {
+      "id": "bh-043",
+      "name": "Mary Church Terrell",
+      "slug": "mary-church-terrell",
+      "lesson_url": "/lessons/black-history-heroes/mary-church-terrell/",
+      "status": "editorial_draft",
+      "portrait": "043.webp"
+    },
+    {
+      "id": "bh-042",
+      "name": "Alain Locke",
+      "slug": "alain-locke",
+      "lesson_url": "/lessons/black-history-heroes/alain-locke/",
+      "status": "editorial_draft",
+      "portrait": "042.webp"
+    },
+    {
+      "id": "bh-045",
+      "name": "Mary McLeod Bethune",
+      "slug": "mary-mcleod-bethune",
+      "lesson_url": "/lessons/black-history-heroes/mary-mcleod-bethune/",
+      "status": "editorial_draft",
+      "portrait": "045.webp"
+    },
+    {
+      "id": "bh-044",
+      "name": "Matthew P. Henson",
+      "slug": "matthew-p-henson",
+      "lesson_url": "/lessons/black-history-heroes/matthew-p-henson/",
+      "status": "editorial_draft",
+      "portrait": "044.webp"
+    },
+    {
+      "id": "bh-046",
+      "name": "Billie Holiday",
+      "slug": "billie-holiday",
+      "lesson_url": "/lessons/black-history-heroes/billie-holiday/",
+      "status": "editorial_draft",
+      "portrait": "046.webp"
+    },
+    {
+      "id": "bh-047",
+      "name": "Zora Neale Hurston",
+      "slug": "zora-neale-hurston",
+      "lesson_url": "/lessons/black-history-heroes/zora-neale-hurston/",
+      "status": "editorial_draft",
+      "portrait": "047.webp"
+    },
+    {
+      "id": "bh-048",
+      "name": "Richard Wright",
+      "slug": "richard-wright",
+      "lesson_url": "/lessons/black-history-heroes/richard-wright/",
+      "status": "editorial_draft",
+      "portrait": "048.webp"
+    },
+    {
+      "id": "bh-049",
+      "name": "Patrice Lumumba",
+      "slug": "patrice-lumumba",
+      "lesson_url": "/lessons/black-history-heroes/patrice-lumumba/",
+      "status": "editorial_draft",
+      "portrait": "049.webp"
+    },
+    {
+      "id": "bh-052",
+      "name": "W. E. B. Du Bois",
+      "slug": "w-e-b-du-bois",
+      "lesson_url": "/lessons/black-history-heroes/w-e-b-du-bois/",
+      "status": "editorial_draft",
+      "portrait": "052.webp"
+    },
+    {
+      "id": "bh-051",
+      "name": "Garrett Morgan",
+      "slug": "garrett-morgan",
+      "lesson_url": "/lessons/black-history-heroes/garrett-morgan/",
+      "status": "editorial_draft",
+      "portrait": "051.webp"
+    },
+    {
+      "id": "bh-050",
+      "name": "Medgar Evers",
+      "slug": "medgar-evers",
+      "lesson_url": "/lessons/black-history-heroes/medgar-evers/",
+      "status": "editorial_draft",
+      "portrait": "050.webp"
+    },
+    {
+      "id": "bh-053",
+      "name": "Roger Arliner Young",
+      "slug": "roger-arliner-young",
+      "lesson_url": "/lessons/black-history-heroes/roger-arliner-young/",
+      "status": "editorial_draft",
+      "portrait": "053.webp"
+    },
+    {
+      "id": "bh-054",
+      "name": "Sam Cooke",
+      "slug": "sam-cooke",
+      "lesson_url": "/lessons/black-history-heroes/sam-cooke/",
+      "status": "editorial_draft",
+      "portrait": "054.webp"
+    },
+    {
+      "id": "bh-055",
+      "name": "Nat King Cole",
+      "slug": "nat-king-cole",
+      "lesson_url": "/lessons/black-history-heroes/nat-king-cole/",
+      "status": "editorial_draft",
+      "portrait": "055.webp"
+    },
+    {
+      "id": "bh-056",
+      "name": "Malcolm X (El-Hajj Malik El-Shabazz)",
+      "slug": "malcolm-x-el-hajj-malik-el-shabazz",
+      "lesson_url": "/lessons/black-history-heroes/malcolm-x-el-hajj-malik-el-shabazz/",
+      "status": "editorial_draft",
+      "portrait": "056.webp"
+    },
+    {
+      "id": "bh-057",
+      "name": "Dorothy Dandridge",
+      "slug": "dorothy-dandridge",
+      "lesson_url": "/lessons/black-history-heroes/dorothy-dandridge/",
+      "status": "editorial_draft",
+      "portrait": "057.webp"
+    },
+    {
+      "id": "bh-058",
+      "name": "Langston Hughes",
+      "slug": "langston-hughes",
+      "lesson_url": "/lessons/black-history-heroes/langston-hughes/",
+      "status": "editorial_draft",
+      "portrait": "058.webp"
+    },
+    {
+      "id": "bh-059",
+      "name": "Martin Luther King Jr.",
+      "slug": "martin-luther-king-jr",
+      "lesson_url": "/lessons/black-history-heroes/martin-luther-king-jr/",
+      "status": "editorial_draft",
+      "portrait": "059.webp"
+    },
+    {
+      "id": "bh-060",
+      "name": "Fred Hampton",
+      "slug": "fred-hampton",
+      "lesson_url": "/lessons/black-history-heroes/fred-hampton/",
+      "status": "editorial_draft",
+      "portrait": "060.webp"
+    },
+    {
+      "id": "bh-061",
+      "name": "Louis Armstrong",
+      "slug": "louis-armstrong",
+      "lesson_url": "/lessons/black-history-heroes/louis-armstrong/",
+      "status": "editorial_draft",
+      "portrait": "061.webp"
+    },
+    {
+      "id": "bh-063",
+      "name": "Jackie Robinson",
+      "slug": "jackie-robinson",
+      "lesson_url": "/lessons/black-history-heroes/jackie-robinson/",
+      "status": "editorial_draft",
+      "portrait": "063.webp"
+    },
+    {
+      "id": "bh-062",
+      "name": "Kwame Nkrumah",
+      "slug": "kwame-nkrumah",
+      "lesson_url": "/lessons/black-history-heroes/kwame-nkrumah/",
+      "status": "editorial_draft",
+      "portrait": "062.webp"
+    },
+    {
+      "id": "bh-064",
+      "name": "Duke Ellington",
+      "slug": "duke-ellington",
+      "lesson_url": "/lessons/black-history-heroes/duke-ellington/",
+      "status": "editorial_draft",
+      "portrait": "064.webp"
+    },
+    {
+      "id": "bh-065",
+      "name": "Haile Selassie I",
+      "slug": "haile-selassie-i",
+      "lesson_url": "/lessons/black-history-heroes/haile-selassie-i/",
+      "status": "editorial_draft",
+      "portrait": "065.webp"
+    },
+    {
+      "id": "bh-066",
+      "name": "Paul Robeson",
+      "slug": "paul-robeson",
+      "lesson_url": "/lessons/black-history-heroes/paul-robeson/",
+      "status": "editorial_draft",
+      "portrait": "066.webp"
+    },
+    {
+      "id": "bh-067",
+      "name": "Fannie Lou Hamer",
+      "slug": "fannie-lou-hamer",
+      "lesson_url": "/lessons/black-history-heroes/fannie-lou-hamer/",
+      "status": "editorial_draft",
+      "portrait": "067.webp"
+    },
+    {
+      "id": "bh-068",
+      "name": "Jomo Kenyatta",
+      "slug": "jomo-kenyatta",
+      "lesson_url": "/lessons/black-history-heroes/jomo-kenyatta/",
+      "status": "editorial_draft",
+      "portrait": "068.webp"
+    },
+    {
+      "id": "bh-069",
+      "name": "Marjorie Lee Browne",
+      "slug": "marjorie-lee-browne",
+      "lesson_url": "/lessons/black-history-heroes/marjorie-lee-browne/",
+      "status": "editorial_draft",
+      "portrait": "069.webp"
+    },
+    {
+      "id": "bh-070",
+      "name": "Jesse Owens",
+      "slug": "jesse-owens",
+      "lesson_url": "/lessons/black-history-heroes/jesse-owens/",
+      "status": "editorial_draft",
+      "portrait": "070.webp"
+    },
+    {
+      "id": "bh-071",
+      "name": "Joe Louis",
+      "slug": "joe-louis",
+      "lesson_url": "/lessons/black-history-heroes/joe-louis/",
+      "status": "editorial_draft",
+      "portrait": "071.webp"
+    },
+    {
+      "id": "bh-072",
+      "name": "Bob Marley",
+      "slug": "bob-marley",
+      "lesson_url": "/lessons/black-history-heroes/bob-marley/",
+      "status": "editorial_draft",
+      "portrait": "072.webp"
+    },
+    {
+      "id": "bh-073",
+      "name": "Satchel Paige",
+      "slug": "satchel-paige",
+      "lesson_url": "/lessons/black-history-heroes/satchel-paige/",
+      "status": "editorial_draft",
+      "portrait": "073.webp"
+    },
+    {
+      "id": "bh-074",
+      "name": "Marvin Gaye",
+      "slug": "marvin-gaye",
+      "lesson_url": "/lessons/black-history-heroes/marvin-gaye/",
+      "status": "editorial_draft",
+      "portrait": "074.webp"
+    },
+    {
+      "id": "bh-076",
+      "name": "Vivien Thomas",
+      "slug": "vivien-thomas",
+      "lesson_url": "/lessons/black-history-heroes/vivien-thomas/",
+      "status": "editorial_draft",
+      "portrait": "076.webp"
+    },
+    {
+      "id": "bh-078",
+      "name": "James Baldwin",
+      "slug": "james-baldwin",
+      "lesson_url": "/lessons/black-history-heroes/james-baldwin/",
+      "status": "editorial_draft",
+      "portrait": "078.webp"
+    },
+    {
+      "id": "bh-077",
+      "name": "Bayard Rustin",
+      "slug": "bayard-rustin",
+      "lesson_url": "/lessons/black-history-heroes/bayard-rustin/",
+      "status": "editorial_draft",
+      "portrait": "077.webp"
+    },
+    {
+      "id": "bh-079",
+      "name": "Sugar Ray Robinson",
+      "slug": "sugar-ray-robinson",
+      "lesson_url": "/lessons/black-history-heroes/sugar-ray-robinson/",
+      "status": "editorial_draft",
+      "portrait": "079.webp"
+    },
+    {
+      "id": "bh-080",
+      "name": "Huey P. Newton",
+      "slug": "huey-p-newton",
+      "lesson_url": "/lessons/black-history-heroes/huey-p-newton/",
+      "status": "editorial_draft",
+      "portrait": "080.webp"
+    },
+    {
+      "id": "bh-083",
+      "name": "Marian Anderson",
+      "slug": "marian-anderson",
+      "lesson_url": "/lessons/black-history-heroes/marian-anderson/",
+      "status": "editorial_draft",
+      "portrait": "083.webp"
+    },
+    {
+      "id": "bh-081",
+      "name": "Thurgood Marshall",
+      "slug": "thurgood-marshall",
+      "lesson_url": "/lessons/black-history-heroes/thurgood-marshall/",
+      "status": "editorial_draft",
+      "portrait": "081.webp"
+    },
+    {
+      "id": "bh-082",
+      "name": "Arthur Ashe",
+      "slug": "arthur-ashe",
+      "lesson_url": "/lessons/black-history-heroes/arthur-ashe/",
+      "status": "editorial_draft",
+      "portrait": "082.webp"
+    },
+    {
+      "id": "bh-084",
+      "name": "Wilma Rudolph",
+      "slug": "wilma-rudolph",
+      "lesson_url": "/lessons/black-history-heroes/wilma-rudolph/",
+      "status": "editorial_draft",
+      "portrait": "084.webp"
+    },
+    {
+      "id": "bh-085",
+      "name": "Ella Fitzgerald",
+      "slug": "ella-fitzgerald",
+      "lesson_url": "/lessons/black-history-heroes/ella-fitzgerald/",
+      "status": "editorial_draft",
+      "portrait": "085.webp"
+    },
+    {
+      "id": "bh-086",
+      "name": "Tupac Shakur",
+      "slug": "tupac-shakur",
+      "lesson_url": "/lessons/black-history-heroes/tupac-shakur/",
+      "status": "editorial_draft",
+      "portrait": "086.webp"
+    },
+    {
+      "id": "bh-087",
+      "name": "Christopher Wallace (The Notorious B.I.G.)",
+      "slug": "christopher-wallace-the-notorious-b-i-g",
+      "lesson_url": "/lessons/black-history-heroes/christopher-wallace-the-notorious-b-i-g/",
+      "status": "editorial_draft",
+      "portrait": "087.webp"
+    },
+    {
+      "id": "bh-088",
+      "name": "Wilt Chamberlain",
+      "slug": "wilt-chamberlain",
+      "lesson_url": "/lessons/black-history-heroes/wilt-chamberlain/",
+      "status": "editorial_draft",
+      "portrait": "088.webp"
+    },
+    {
+      "id": "bh-089",
+      "name": "Jacob Lawrence",
+      "slug": "jacob-lawrence",
+      "lesson_url": "/lessons/black-history-heroes/jacob-lawrence/",
+      "status": "editorial_draft",
+      "portrait": "089.webp"
+    },
+    {
+      "id": "bh-091",
+      "name": "Benjamin O. Davis Jr",
+      "slug": "benjamin-o-davis-jr",
+      "lesson_url": "/lessons/black-history-heroes/benjamin-o-davis-jr/",
+      "status": "editorial_draft",
+      "portrait": "091.webp"
+    },
+    {
+      "id": "bh-090",
+      "name": "Charity Adams Earley",
+      "slug": "charity-adams-earley",
+      "lesson_url": "/lessons/black-history-heroes/charity-adams-earley/",
+      "status": "editorial_draft",
+      "portrait": "090.webp"
+    },
+    {
+      "id": "bh-093",
+      "name": "Althea Gibson",
+      "slug": "althea-gibson",
+      "lesson_url": "/lessons/black-history-heroes/althea-gibson/",
+      "status": "editorial_draft",
+      "portrait": "093.webp"
+    },
+    {
+      "id": "bh-092",
+      "name": "Nina Simone",
+      "slug": "nina-simone",
+      "lesson_url": "/lessons/black-history-heroes/nina-simone/",
+      "status": "editorial_draft",
+      "portrait": "092.webp"
+    },
+    {
+      "id": "bh-094",
+      "name": "Ray Charles",
+      "slug": "ray-charles",
+      "lesson_url": "/lessons/black-history-heroes/ray-charles/",
+      "status": "editorial_draft",
+      "portrait": "094.webp"
+    },
+    {
+      "id": "bh-096",
+      "name": "Rosa Parks",
+      "slug": "rosa-parks",
+      "lesson_url": "/lessons/black-history-heroes/rosa-parks/",
+      "status": "editorial_draft",
+      "portrait": "096.webp"
+    },
+    {
+      "id": "bh-095",
+      "name": "Shirley Chisholm",
+      "slug": "shirley-chisholm",
+      "lesson_url": "/lessons/black-history-heroes/shirley-chisholm/",
+      "status": "editorial_draft",
+      "portrait": "095.webp"
+    },
+    {
+      "id": "bh-097",
+      "name": "Richard Pryor",
+      "slug": "richard-pryor",
+      "lesson_url": "/lessons/black-history-heroes/richard-pryor/",
+      "status": "editorial_draft",
+      "portrait": "097.webp"
+    },
+    {
+      "id": "bh-098",
+      "name": "James Brown",
+      "slug": "james-brown",
+      "lesson_url": "/lessons/black-history-heroes/james-brown/",
+      "status": "editorial_draft",
+      "portrait": "098.webp"
+    },
+    {
+      "id": "bh-099",
+      "name": "Michael Jackson",
+      "slug": "michael-jackson",
+      "lesson_url": "/lessons/black-history-heroes/michael-jackson/",
+      "status": "editorial_draft",
+      "portrait": "099.webp"
+    },
+    {
+      "id": "bh-100",
+      "name": "David Blackwell",
+      "slug": "david-blackwell",
+      "lesson_url": "/lessons/black-history-heroes/david-blackwell/",
+      "status": "editorial_draft",
+      "portrait": "100.webp"
+    },
+    {
+      "id": "bh-075",
+      "name": "Annie Easley",
+      "slug": "annie-easley",
+      "lesson_url": "/lessons/black-history-heroes/annie-easley/",
+      "status": "editorial_draft",
+      "portrait": "075.webp"
+    },
+    {
+      "id": "bh-101",
+      "name": "Hazel Johnson-Brown",
+      "slug": "hazel-johnson-brown",
+      "lesson_url": "/lessons/black-history-heroes/hazel-johnson-brown/",
+      "status": "editorial_draft",
+      "portrait": "101.webp"
+    },
+    {
+      "id": "bh-102",
+      "name": "Nelson Mandela",
+      "slug": "nelson-mandela",
+      "lesson_url": "/lessons/black-history-heroes/nelson-mandela/",
+      "status": "editorial_draft",
+      "portrait": "102.webp"
+    },
+    {
+      "id": "bh-103",
+      "name": "Maya Angelou",
+      "slug": "maya-angelou",
+      "lesson_url": "/lessons/black-history-heroes/maya-angelou/",
+      "status": "editorial_draft",
+      "portrait": "103.webp"
+    },
+    {
+      "id": "bh-105",
+      "name": "Muhammad Ali",
+      "slug": "muhammad-ali",
+      "lesson_url": "/lessons/black-history-heroes/muhammad-ali/",
+      "status": "editorial_draft",
+      "portrait": "105.webp"
+    },
+    {
+      "id": "bh-104",
+      "name": "Prince",
+      "slug": "prince",
+      "lesson_url": "/lessons/black-history-heroes/prince/",
+      "status": "editorial_draft",
+      "portrait": "104.webp"
+    },
+    {
+      "id": "bh-106",
+      "name": "Aretha Franklin",
+      "slug": "aretha-franklin",
+      "lesson_url": "/lessons/black-history-heroes/aretha-franklin/",
+      "status": "editorial_draft",
+      "portrait": "106.webp"
+    },
+    {
+      "id": "bh-108",
+      "name": "Toni Morrison",
+      "slug": "toni-morrison",
+      "lesson_url": "/lessons/black-history-heroes/toni-morrison/",
+      "status": "editorial_draft",
+      "portrait": "108.webp"
+    },
+    {
+      "id": "bh-107",
+      "name": "Patricia Bath",
+      "slug": "patricia-bath",
+      "lesson_url": "/lessons/black-history-heroes/patricia-bath/",
+      "status": "editorial_draft",
+      "portrait": "107.webp"
+    },
+    {
+      "id": "bh-109",
+      "name": "Katherine Johnson",
+      "slug": "katherine-johnson",
+      "lesson_url": "/lessons/black-history-heroes/katherine-johnson/",
+      "status": "editorial_draft",
+      "portrait": "109.webp"
+    },
+    {
+      "id": "bh-110",
+      "name": "John Lewis",
+      "slug": "john-lewis",
+      "lesson_url": "/lessons/black-history-heroes/john-lewis/",
+      "status": "editorial_draft",
+      "portrait": "110.webp"
+    },
+    {
+      "id": "bh-111",
+      "name": "George Carruthers",
+      "slug": "george-carruthers",
+      "lesson_url": "/lessons/black-history-heroes/george-carruthers/",
+      "status": "editorial_draft",
+      "portrait": "111.webp"
+    },
+    {
+      "id": "bh-113",
+      "name": "Gloria Richardson",
+      "slug": "gloria-richardson",
+      "lesson_url": "/lessons/black-history-heroes/gloria-richardson/",
+      "status": "editorial_draft",
+      "portrait": "113.webp"
+    },
+    {
+      "id": "bh-112",
+      "name": "Cicely Tyson",
+      "slug": "cicely-tyson",
+      "lesson_url": "/lessons/black-history-heroes/cicely-tyson/",
+      "status": "editorial_draft",
+      "portrait": "112.webp"
+    },
+    {
+      "id": "bh-115",
+      "name": "Desmond Tutu",
+      "slug": "desmond-tutu",
+      "lesson_url": "/lessons/black-history-heroes/desmond-tutu/",
+      "status": "editorial_draft",
+      "portrait": "115.webp"
+    },
+    {
+      "id": "bh-114",
+      "name": "Colin Powell",
+      "slug": "colin-powell",
+      "lesson_url": "/lessons/black-history-heroes/colin-powell/",
+      "status": "editorial_draft",
+      "portrait": "114.webp"
+    },
+    {
+      "id": "bh-117",
+      "name": "Bill Russell",
+      "slug": "bill-russell",
+      "lesson_url": "/lessons/black-history-heroes/bill-russell/",
+      "status": "editorial_draft",
+      "portrait": "117.webp"
+    },
+    {
+      "id": "bh-118",
+      "name": "Pelé (Edson Arantes do Nascimento)",
+      "slug": "pele-edson-arantes-do-nascimento",
+      "lesson_url": "/lessons/black-history-heroes/pele-edson-arantes-do-nascimento/",
+      "status": "editorial_draft",
+      "portrait": "118.webp"
+    },
+    {
+      "id": "bh-116",
+      "name": "Sidney Poitier",
+      "slug": "sidney-poitier",
+      "lesson_url": "/lessons/black-history-heroes/sidney-poitier/",
+      "status": "editorial_draft",
+      "portrait": "116.webp"
+    },
+    {
+      "id": "bh-119",
+      "name": "Jim Brown",
+      "slug": "jim-brown",
+      "lesson_url": "/lessons/black-history-heroes/jim-brown/",
+      "status": "editorial_draft",
+      "portrait": "119.webp"
+    },
+    {
+      "id": "bh-120",
+      "name": "James Earl Jones",
+      "slug": "james-earl-jones",
+      "lesson_url": "/lessons/black-history-heroes/james-earl-jones/",
+      "status": "editorial_draft",
+      "portrait": "120.webp"
+    }
+  ]
+}
