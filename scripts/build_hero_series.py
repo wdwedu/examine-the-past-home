@@ -14,6 +14,7 @@ def question(q,n=None):
  kind="single" if len(idx)==1 else "multi"
  typ="radio" if kind=="single" else "checkbox"
  name="q"+str(n or "diagnostic")
+ if kind=="multi" and "select" not in q["prompt"].lower() and "choose" not in q["prompt"].lower():q=dict(q,prompt=q["prompt"]+" (Select "+str(len(idx))+" answers.)")
  labels="".join('<label class="mk-choice"><input type="'+typ+'"'+(' name="'+name+'"' if kind=="single" else '')+'> '+e(option)+'</label>' for option in q["options"])
  return '<div class="mk-question" data-type="'+kind+'" data-answer="'+",".join(map(str,idx))+'" data-explain="'+e(q["explain"])+'"><h3>'+e(q["prompt"])+'</h3>'+labels+'<button class="mk-btn mk-check" type="button">Check & Explain</button><div class="mk-feedback" role="status" aria-live="polite"></div></div>'
 def branch(b,ind):
