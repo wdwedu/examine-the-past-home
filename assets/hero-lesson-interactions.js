@@ -15,8 +15,8 @@ let ctx;
 function cue(type){
  if(!sound)return;
  try{ctx=ctx||new(window.AudioContext||window.webkitAudioContext)();if(ctx.state==="suspended")ctx.resume();
- const now=ctx.currentTime;let notes=type==="correct"?[[523,0,.14,.07,523],[659,.11,.14,.08,659],[784,.23,.22,.08,1047]]:type==="wrong"?[[340,0,.19,.045,185],[220,.16,.24,.06,95]]:type==="timer"?[[523,0,.18,.07,523],[659,.20,.18,.08,659],[784,.40,.18,.08,784],[1047,.63,.48,.10,1047]]:[[130,0,.4,.14,42],[70,.05,.3,.08,35]];
- for(const [f,t,d,volume,end] of notes){const o=ctx.createOscillator(),g=ctx.createGain();o.type=type==="wrong"?"sawtooth":"triangle";o.frequency.setValueAtTime(f,now+t);o.frequency.exponentialRampToValueAtTime(end,now+t+d);g.gain.setValueAtTime(.001,now+t);g.gain.exponentialRampToValueAtTime(volume,now+t+.016);g.gain.exponentialRampToValueAtTime(.001,now+t+d);o.connect(g).connect(ctx.destination);o.start(now+t);o.stop(now+t+d+.02)}
+ const now=ctx.currentTime;let notes=type==="correct"?[[523,0,.14,.07,523],[659,.11,.14,.08,659],[784,.23,.22,.08,1047]]:type==="wrong"?[[340,0,.19,.045,185],[220,.16,.24,.06,95]]:type==="countdown"?[[660,0,.10,.045,660]]:type==="timer"?[[265,0,.48,.085,185]]:[[130,0,.4,.14,42],[70,.05,.3,.08,35]];
+ for(const [f,t,d,volume,end] of notes){const o=ctx.createOscillator(),g=ctx.createGain();o.type=type==="wrong"?"sawtooth":type==="timer"?"sine":"triangle";o.frequency.setValueAtTime(f,now+t);o.frequency.exponentialRampToValueAtTime(end,now+t+d);g.gain.setValueAtTime(.001,now+t);g.gain.exponentialRampToValueAtTime(volume,now+t+.016);g.gain.exponentialRampToValueAtTime(.001,now+t+d);o.connect(g).connect(ctx.destination);o.start(now+t);o.stop(now+t+d+.02)}
  }catch{}
 }
 function celebrate(target){if(reduced)return;const field=document.createElement("div");field.className="mk-confetti-field";field.setAttribute("aria-hidden","true");document.body.append(field);const r=target.getBoundingClientRect(),x=r.left+r.width/2,y=Math.min(innerHeight-40,Math.max(35,r.top+20));
@@ -43,15 +43,16 @@ const choices=[15,20,...Array.from({length:10},(_,i)=>(i+1)*60),12*60,15*60,20*6
 const duration=document.getElementById("mk-timer-duration"),clock=document.getElementById("mk-timer-clock"),startButton=document.getElementById("mk-timer-start"),resetButton=document.getElementById("mk-timer-reset"),timerStatus=document.getElementById("mk-timer-status");
 for(const seconds of choices){const opt=document.createElement("option");opt.value=String(seconds);opt.textContent=seconds<60?seconds+" sec":seconds/60+" min";duration.append(opt)}
 duration.value="60";
-let remaining=60,deadline=0,timerRunning=false,interval=null;
+let remaining=60,deadline=0,timerRunning=false,interval=null,lastCountdownBeep=4,finishEffectTimeout=null;
 const renderClock=()=>{clock.textContent=String(Math.floor(remaining/60)).padStart(2,"0")+":"+String(remaining%60).padStart(2,"0")};
 function stop(){if(interval!==null)clearInterval(interval);interval=null;timerRunning=false;startButton.textContent="Start";startButton.setAttribute("aria-label","Start or resume countdown")}
-const reset=()=>{stop();remaining=Number(duration.value);renderClock();timerStatus.textContent="";dock.classList.remove("mk-time-expired")};
-function timerDone(){stop();remaining=0;renderClock();timerStatus.textContent="Time is up!";dock.classList.add("mk-time-expired");cue("timer")}
-function tick(){remaining=Math.max(0,Math.ceil((deadline-performance.now())/1000));renderClock();if(remaining===0)timerDone()}
-startButton.addEventListener("click",()=>{if(timerRunning){tick();stop();timerStatus.textContent="Paused.";return}if(remaining<=0)remaining=Number(duration.value);
+const clearFinish=()=>{if(finishEffectTimeout!==null)clearTimeout(finishEffectTimeout);finishEffectTimeout=null;dock.classList.remove("mk-time-expired","mk-finish-flash")};
+const reset=()=>{stop();clearFinish();remaining=Number(duration.value);lastCountdownBeep=4;renderClock();timerStatus.textContent=""};
+function timerDone(){stop();remaining=0;renderClock();timerStatus.textContent="";clearFinish();dock.classList.add("mk-time-expired");if(!reduced){void dock.offsetWidth;dock.classList.add("mk-finish-flash");finishEffectTimeout=setTimeout(()=>{dock.classList.remove("mk-time-expired","mk-finish-flash");finishEffectTimeout=null},2900)}else{finishEffectTimeout=setTimeout(()=>{dock.classList.remove("mk-time-expired");finishEffectTimeout=null},1900)}cue("timer")}
+function tick(){const next=Math.max(0,Math.ceil((deadline-performance.now())/1000));if(next>=1&&next<=3&&next<lastCountdownBeep){cue("countdown");lastCountdownBeep=next}remaining=next;renderClock();if(remaining===0)timerDone()}
+startButton.addEventListener("click",()=>{if(timerRunning){tick();if(timerRunning)stop();timerStatus.textContent="";return}if(remaining<=0)return;
 try{ctx=ctx||new(window.AudioContext||window.webkitAudioContext)();if(ctx.state==="suspended")ctx.resume()}catch{}
-deadline=performance.now()+remaining*1000;timerRunning=true;startButton.textContent="Pause";timerStatus.textContent="";dock.classList.remove("mk-time-expired");interval=setInterval(tick,200);renderClock()});
+deadline=performance.now()+remaining*1000;lastCountdownBeep=4;timerRunning=true;startButton.textContent="Pause";timerStatus.textContent="";clearFinish();interval=setInterval(tick,200);renderClock()});
 resetButton.addEventListener("click",reset);duration.addEventListener("change",reset);renderClock();
 for(const [id,seconds] of [["lesson-start",20],["reading-one",8*60],["reading-two",8*60],["branch-one",2*60],["branch-two",2*60],["synthesis",8*60],["finish",5*60]]){
  const section=document.getElementById(id);if(!section)continue;
@@ -60,5 +61,5 @@ for(const [id,seconds] of [["lesson-start",20],["reading-one",8*60],["reading-tw
  const note=document.createElement("p");note.className="mk-timer-suggestion";note.textContent="Suggested timer: "+(seconds<60?seconds+" seconds":seconds/60+" minutes")+" · Use the timer in the toolbar above.";
  target.before(note);
 }
-addEventListener("pagehide",()=>{stop();if(ctx)ctx.close().catch(()=>{})});
+addEventListener("pagehide",()=>{stop();clearFinish();if(ctx)ctx.close().catch(()=>{})});
 })();
