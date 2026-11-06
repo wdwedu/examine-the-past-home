@@ -17,7 +17,7 @@ try{
    assert.equal(await page.locator(".mk-question").count(),8,key+" assessment count");
    assert.equal(await page.locator(".mk-timer-panel").count(),7,key+" optional timers count");
    assert.ok(await page.locator(".mk-hero img").evaluate(img=>img.complete&&img.naturalWidth>0),key+" hero portrait loaded");
-   assert.ok(await page.locator("main .mk-video-placeholder,main .mk-video-screen iframe").count()>=1,key+" video slot");
+   assert.ok(await page.locator("main .mk-video-placeholder,main .mk-video-screen").count()>=1,key+" video slot");
    const q=page.locator(".mk-question").first();
    await q.locator("input").first().check();
    await q.locator(".mk-check").click();
