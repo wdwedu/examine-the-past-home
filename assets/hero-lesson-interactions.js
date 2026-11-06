@@ -27,7 +27,7 @@ for(const q of document.querySelectorAll(".mk-question")){
  const msg=q.dataset.explain||"Review the evidence and try again.";f.replaceChildren();const strong=document.createElement("strong");strong.textContent=ok?"✓ Correct. ":"Review the evidence and try again. ";if(ok)strong.className="mk-checkmark";f.append(strong,document.createTextNode(msg));
  if(ok&&!awarded){cue("correct");celebrate(b);awarded=true}else if(!ok)cue("wrong");
  }));
- q.querySelectorAll("input").forEach(i=>i.addEventListener("change",()=>{q.classList.remove("mk-success","mk-incorrect");f.classList.remove("mk-positive","mk-negative");awarded=false}));
+ q.querySelectorAll("input").forEach(i=>i.addEventListener("change",()=>{q.classList.remove("mk-success","mk-incorrect");f.classList.remove("mk-positive","mk-negative");q.dataset.checked="false";q.dataset.passed="false";f.textContent="Answer changed. Check again to confirm your choice.";awarded=false}));
 }
 let maxProgress=0;
 function updateProgress(){const at=scrollY+Math.min(innerHeight*.4,300);let current=0;for(let i=0;i<sections.length;i++)if(sections[i].getBoundingClientRect().top+scrollY<=at)current=i;
