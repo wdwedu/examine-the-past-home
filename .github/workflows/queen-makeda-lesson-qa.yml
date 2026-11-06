@@ -1,0 +1,45 @@
+name: Queen Makeda interactive lesson QA
+on:
+  push:
+    paths:
+      - .github/workflows/queen-makeda-lesson-qa.yml
+      - lessons/black-history-heroes/queen-makeda/index.html
+      - assets/hero-lesson-interactions.js
+      - assets/hero-lesson-interactions.css
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check JavaScript syntax
+        run: node --check assets/hero-lesson-interactions.js
+      - name: Check lesson features and sources
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from html.parser import HTMLParser
+          page=Path('lessons/black-history-heroes/queen-makeda/index.html').read_text()
+          js=Path('assets/hero-lesson-interactions.js').read_text()
+          css=Path('assets/hero-lesson-interactions.css').read_text()
+          class Page(HTMLParser):
+              def __init__(self):super().__init__();self.ids=[];self.refs=[]
+              def handle_starttag(self,t,attrs):
+                  d=dict(attrs)
+                  if 'id' in d:self.ids.append(d['id'])
+                  if t in ('script','link','img','iframe') and ('src' in d or 'href' in d):self.refs.append(d.get('src',d.get('href')))
+          d=Page();d.feed(page)
+          assert len(d.ids)==len(set(d.ids)), 'duplicate HTML ids'
+          assert len([x for x in d.ids if x in ['lesson-start','reading-one','reading-two','reading-three','branch-one','branch-two','synthesis','finish','extend','sources']])==10
+          assert 'hero-lesson-interactions.css' in page and 'hero-lesson-interactions.js' in page
+          assert 'collections.penn.museum/collections/videos/video/4' in page
+          assert 'whc.unesco.org/en/list/1700/' in page and 'si.edu/object/nmafa_67-3-1' in page
+          assert 'mk-progress-dock' in js and 'mk-timer-panel' in js
+          assert 'q.dataset.checked="false"' in js
+          assert 'mk-time-expired' in css and 'mk-incorrect' in css and 'mk-confetti' in css
+          assert page.count('class="mk-question"')==8
+          print('Queen Makeda lesson structure, sources and interactions: PASS')
+          PY
