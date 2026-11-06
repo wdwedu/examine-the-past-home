@@ -1,0 +1,257 @@
+{
+  "key": "piye",
+  "title": "Piye (Piankhy)",
+  "subtitle": "A Kushite king, a victory inscription, and the difficult question of whose version of a campaign survives.",
+  "method": "Victory Stela · Source Criticism",
+  "description": "Investigate Piye, Kush and Egypt's Twenty-Fifth Dynasty through a royal victory inscription, source comparison and interactive decisions.",
+  "essential": "How can a king's victory inscription help us understand an ancient campaign without accepting every royal claim as an impartial account?",
+  "objectives": [
+    "Identify Napata, Kush, Thebes, and the Nile Delta and explain how geography shaped Piye's campaign.",
+    "Explain how Piye's Victory Stela communicates military success and religious authority.",
+    "Distinguish events reported in an inscription from the ruler's persuasive interpretation of those events.",
+    "Compose an evidence-based museum label noting at least one missing perspective."
+  ],
+  "misconception": "A victory stela is valuable primary evidence but it is also a political statement designed to celebrate the patron; it is not neutral reporting.",
+  "hookTitle": "Whose Victory Is Carved in Stone?",
+  "hook": [
+    "A stone inscription describes a king whose army advanced along the Nile and compelled rival rulers to submit. Imagine you are the museum historian translating that inscription. It tells you what the king wanted audiences to remember—but does it tell you how every participant felt?",
+    "Your first task is to separate a source's account from an independently verified conclusion. Then examine how geography, ritual and political claims shape what we know about the Kushite king Piye."
+  ],
+  "lens": "Do not confuse a royal inscription describing an event with several independent witnesses establishing every detail.",
+  "diagnostic": {
+    "prompt": "Before you begin: Which statements are responsible ways to use a royal victory inscription?",
+    "options": [
+      "It provides direct evidence of how a ruler wanted to represent events.",
+      "It proves the ruler's enemies all agreed with his account.",
+      "Its setting and intended audience can affect the story it tells.",
+      "Other evidence can help evaluate a ruler's claims."
+    ],
+    "answer": [
+      0,
+      2,
+      3
+    ],
+    "explain": "Royal inscriptions are primary sources with a point of view. Archaeology, other records and political context help us interpret them."
+  },
+  "readings": [
+    {
+      "label": "Geography · The Kingdom of Kush",
+      "title": "From Napata to the Nile Delta",
+      "paragraphs": [
+        "Piye ruled Kush from the region of Napata, in what is now Sudan. Kush had its own political institutions, religious life, royal traditions and long connection with Egypt. The Nile connected settlements but also posed logistical challenges: armies, supplies and messages had to move through a long valley punctuated by different centers of power.",
+        "In the eighth century BCE, Egypt was divided among regional rulers. Piye increased Kushite influence in Upper Egypt. When an alliance led by Tefnakht in the north challenged his position, the campaign moved toward the Delta. The events became part of the political history historians call Egypt's Twenty-Fifth, or Kushite, Dynasty.",
+        "A map should therefore show more than a northward arrow. It must mark Napata, Thebes and the Delta while indicating that authority and allegiance differed across communities."
+      ],
+      "prompt": "Why could a single river be both a transportation corridor and a political challenge?",
+      "question": {
+        "prompt": "Check 1 · Which geographic explanation is best supported?",
+        "options": [
+          "Piye ruled from a Kushite homeland south of Egypt and operated along Nile-connected regions.",
+          "Kush was only a nickname for the Egyptian Delta.",
+          "The Nile made regional rulers and local allegiances irrelevant."
+        ],
+        "answer": [
+          0
+        ],
+        "explain": "Kush's center was south of Egypt; the Nile enabled connections, but local political power still mattered."
+      }
+    },
+    {
+      "label": "Primary Source · Royal Inscription",
+      "title": "Reading Piye's Victory Stela",
+      "paragraphs": [
+        "The Victory Stela associated with Piye was found at Gebel Barkal and describes his campaign in Egyptian hieroglyphs. Its scenes and text celebrate victories and acts of submission. It also connects political authority with religious legitimacy, illustrating how military success could be framed as the fulfillment of sacred obligations.",
+        "Read a royal inscription as an argument. The king and his scribes selected incidents, arranged events and emphasized conduct meant to demonstrate worthy rule. A surrender scene can document the image a court promoted; it cannot tell us, by itself, the full motivations of people represented as defeated.",
+        "Historians can study the source's language, relief scenes and archaeological context while asking which voices remain unrecorded—soldiers, residents, rival rulers and traders among them."
+      ],
+      "prompt": "Name one detail the stela can establish about royal presentation and one question it leaves open.",
+      "question": {
+        "prompt": "Check 2 · Select two sound historical conclusions.",
+        "options": [
+          "The monument reveals how Piye's court framed conquest and kingship.",
+          "Every person represented in the relief necessarily endorsed Piye's interpretation.",
+          "The inscription must be compared with other evidence to understand the campaign.",
+          "Royal texts are useless because they have a point of view."
+        ],
+        "answer": [
+          0,
+          2
+        ],
+        "explain": "A biased source is still historical evidence. Its usefulness depends on the question being asked and corroboration."
+      }
+    },
+    {
+      "label": "Leadership · Religion and Legitimacy",
+      "title": "Authority Beyond the Battlefield",
+      "paragraphs": [
+        "Piye's inscription pays attention not only to battlefield events but also to rituals, temples and relationships with local rulers. That combination matters. A king could seek legitimacy through religious dedication, established ceremonial customs and the public recognition of other leaders.",
+        "Egyptian and Kushite histories were deeply interconnected, yet Kushite identity was not erased when its kings ruled Egypt. The Twenty-Fifth Dynasty drew on Egyptian forms of kingship while retaining ties to Nubian places and traditions. This history challenges simplistic pictures of an isolated Africa.",
+        "A responsible account distinguishes the power Piye exercised, what the monument claims, and how later scholars interpret the surviving evidence."
+      ],
+      "prompt": "How could ritual, alliances and military power reinforce one another, and whose perspective would you still need?"
+    }
+  ],
+  "evidenceKnown": "A monumental royal text from the Kushite period recounts military campaigns and displays an official vision of kingship.",
+  "evidenceUnknown": "The stela alone does not provide full testimony from the conquered rulers or ordinary inhabitants.",
+  "videoTitle": "The Kushite King and the Victory Stela",
+  "videoPrompts": "0:00 geographical orientation (to be timed); source scene analysis (to be timed); missing perspectives (to be timed).",
+  "branches": [
+    {
+      "type": "Museum Ethics",
+      "title": "Decision Room: Label the Victory",
+      "prompt": "A museum plans a caption for the stela. A visitor wants a single sentence explaining the carved scene. Which label should you propose?",
+      "options": [
+        {
+          "label": "Piye's account of royal triumph",
+          "title": "Attribution matters",
+          "outcome": "The caption says whose claims the monument records. It is concise but should also give geography, approximate date and material context.",
+          "followup": "What additional sentence would help the visitor assess the source?"
+        },
+        {
+          "label": "Proof everyone agreed",
+          "title": "Unsupported certainty",
+          "outcome": "A victory text does not document the private thoughts of the people it depicts. Rework the label to distinguish propaganda from testimony.",
+          "followup": "Which words would you remove to avoid claiming more than the source proves?"
+        },
+        {
+          "label": "Hide the inscription",
+          "title": "Lost learning opportunity",
+          "outcome": "Removing a partial source avoids one problem but discards valuable evidence. Better interpretation makes limitations visible.",
+          "followup": "What could an accessible gallery note explain?"
+        }
+      ],
+      "debrief": "A source's perspective does not make it worthless; label the perspective and identify what remains unknown."
+    },
+    {
+      "type": "Campaign Evidence",
+      "title": "Decision Room: A Dispatch from the Nile",
+      "prompt": "You are preparing an evidence packet for a discussion of why local rulers submitted. Which research strategy should your group use first?",
+      "options": [
+        {
+          "label": "Compare monuments and geography",
+          "title": "Corroborate the campaign",
+          "outcome": "Compare the stela's route and submissions with maps, other inscriptions, and archaeological interpretations.",
+          "followup": "What discrepancy would make you revise your initial claim?"
+        },
+        {
+          "label": "Copy the royal account only",
+          "title": "One voice dominates",
+          "outcome": "A single court text reflects a ruler's priorities. More independent viewpoints would strengthen the investigation.",
+          "followup": "Who is missing from the royal narrative?"
+        },
+        {
+          "label": "Ignore the stela",
+          "title": "Source rejected too quickly",
+          "outcome": "Its political purpose makes critical reading necessary, not abandonment.",
+          "followup": "Which facts about the source itself can still be established?"
+        }
+      ],
+      "debrief": "Every choice must be evaluated using source origin, corroboration and uncertainty."
+    }
+  ],
+  "writingTitle": "Create a Museum Label for Piye's Stela",
+  "writingInstructions": "Develop a short, accurate museum label that names the object, dates its broad period, identifies the king's purpose and acknowledges a limitation.",
+  "writingChoices": [
+    "Write a 120–180-word museum label with a source attribution and two geographical or political details.",
+    "Write a curator's audio script explaining how a victory inscription differs from independent verification.",
+    "Sketch a route map of Kush, Thebes and the Delta, then annotate how the stela uses geography to tell a story."
+  ],
+  "writingPlaceholder": "This Victory Stela shows how Piye's court represented... The evidence supports... However, it cannot establish...",
+  "final": [
+    {
+      "prompt": "1. Piye's kingdom was centered in which region?",
+      "options": [
+        "Kush, south of Egypt",
+        "Roman Italy",
+        "The Indus Valley"
+      ],
+      "answer": [
+        0
+      ],
+      "explain": "Piye was a Kushite ruler of the Napatan period."
+    },
+    {
+      "prompt": "2. The Victory Stela is most directly evidence of...",
+      "options": [
+        "every rival's private belief",
+        "Piye's court representation of the campaign",
+        "modern photography"
+      ],
+      "answer": [
+        1
+      ],
+      "explain": "The inscription was commissioned in a royal setting and communicates an official message."
+    },
+    {
+      "prompt": "3. Which techniques improve an interpretation of the stela?",
+      "options": [
+        "Identify intended audience and purpose.",
+        "Compare it with other evidence.",
+        "Assume the depiction is an unbiased transcript."
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explain": "Source criticism considers purpose and comparison rather than treating a royal text as neutral."
+    },
+    {
+      "prompt": "4. Why does the Nile matter to this history?",
+      "options": [
+        "It connected regions while rulers competed for control.",
+        "It eliminated the need for logistics.",
+        "It prevented cultural exchange."
+      ],
+      "answer": [
+        0
+      ],
+      "explain": "The river linked settlements and campaign routes without erasing political differences."
+    },
+    {
+      "prompt": "5. Which claim is responsibly qualified?",
+      "options": [
+        "All Egyptian rulers welcomed Piye.",
+        "Kushite kings never used Egyptian traditions.",
+        "Piye's inscription combines military and religious claims to legitimacy."
+      ],
+      "answer": [
+        2
+      ],
+      "explain": "The text links rule, ritual and military success."
+    }
+  ],
+  "exit": "What would a royal inscription need to tell us about its opponents for a more complete history—and why might it not tell us?",
+  "extendTitle": "The Historian's Evidence Portfolio",
+  "extensions": [
+    "Create a labeled Nile map marking Kush, Thebes and the Delta, distinguishing political regions from modern borders.",
+    "Compare a paragraph of an account commissioned by a ruler to a modern museum description. Identify who selected each detail.",
+    "Draft two contrasting exhibition labels: one celebratory and one evidentiary. Explain which serves historical inquiry better."
+  ],
+  "sourceIntro": "Piye's Victory Stela is an ancient source that requires careful translation and source criticism. Modern institutions help explain the artifact and Kushite historical context.",
+  "sources": [
+    {
+      "type": "Museum learning",
+      "label": "British Museum / Smarthistory — King Piye and the Kushite Control of Egypt",
+      "url": "https://smarthistory.org/king-piye-kushite-egypt/",
+      "use": "Detailed historical context and image of the Victory Stela; helpful for direct monument analysis."
+    },
+    {
+      "type": "Museum synthesis",
+      "label": "The Metropolitan Museum — Egypt in the Third Intermediate Period",
+      "url": "https://www.metmuseum.org/toah/hd/tipd/hd_tipd.htm",
+      "use": "Dynastic context, cultural exchange and Kushite control; period dates differ among scholarly chronologies."
+    },
+    {
+      "type": "Teaching resource",
+      "label": "British Museum — Ancient Sudan and Nubia",
+      "url": "https://www.britishmuseum.org/collection/galleries/sudan-egypt-and-nubia",
+      "use": "Museum starting point for the ancient Nile Valley."
+    },
+    {
+      "type": "Scholarship",
+      "label": "Smarthistory — King Piye and the Kushite control of Egypt",
+      "url": "https://smarthistory.org/king-piye-kushite-egypt/",
+      "use": "Inspect the illustration carefully and compare descriptions of royal authority."
+    }
+  ]
+}
