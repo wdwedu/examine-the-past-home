@@ -15,7 +15,7 @@ let ctx;
 function cue(type){
  if(!sound)return;
  try{ctx=ctx||new(window.AudioContext||window.webkitAudioContext)();if(ctx.state==="suspended")ctx.resume();
- const now=ctx.currentTime;let notes=type==="correct"?[[523,0,.14,.07,523],[659,.11,.14,.08,659],[784,.23,.22,.08,1047]]:type==="wrong"?[[340,0,.19,.045,185],[220,.16,.24,.06,95]]:[[130,0,.4,.14,42],[70,.05,.3,.08,35]];
+ const now=ctx.currentTime;let notes=type==="correct"?[[523,0,.14,.07,523],[659,.11,.14,.08,659],[784,.23,.22,.08,1047]]:type==="wrong"?[[340,0,.19,.045,185],[220,.16,.24,.06,95]]:type==="timer"?[[523,0,.18,.07,523],[659,.20,.18,.08,659],[784,.40,.18,.08,784],[1047,.63,.48,.10,1047]]:[[130,0,.4,.14,42],[70,.05,.3,.08,35]];
  for(const [f,t,d,volume,end] of notes){const o=ctx.createOscillator(),g=ctx.createGain();o.type=type==="wrong"?"sawtooth":"triangle";o.frequency.setValueAtTime(f,now+t);o.frequency.exponentialRampToValueAtTime(end,now+t+d);g.gain.setValueAtTime(.001,now+t);g.gain.exponentialRampToValueAtTime(volume,now+t+.016);g.gain.exponentialRampToValueAtTime(.001,now+t+d);o.connect(g).connect(ctx.destination);o.start(now+t);o.stop(now+t+d+.02)}
  }catch{}
 }
