@@ -3,8 +3,11 @@ const wrap=document.querySelector(".mk-wrap"),sections=[...document.querySelecto
 document.body.classList.add("mk-interactive");
 const reduced=matchMedia("(prefers-reduced-motion: reduce)").matches;
 const dock=document.createElement("div");dock.id="mk-progress-dock";dock.className="mk-progress-dock";
-dock.innerHTML='<div class="mk-progress-line"><span id="mk-progress-label">Lesson progress</span><span><strong id="mk-progress-percent">0%</strong> <button id="mk-audio-toggle" type="button" style="background:#153a28;color:#fff200;border:1px solid #94ff53;border-radius:6px;padding:5px 9px;cursor:pointer">Sound: On</button></span></div><div id="mk-progress-track" class="mk-progress-track" role="progressbar" aria-label="Lesson reading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="mk-progress-fill" class="mk-progress-fill"></span></div>';
-wrap.insertBefore(dock,wrap.querySelector(".mk-hero")||wrap.firstChild);
+dock.innerHTML='<div class="mk-unified-row"><div class="mk-progress-group"><span id="mk-progress-label">Lesson progress</span><div id="mk-progress-track" class="mk-progress-track" role="progressbar" aria-label="Lesson reading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="mk-progress-fill" class="mk-progress-fill"></span></div><strong id="mk-progress-percent">0%</strong></div><div class="mk-unified-timer"><label for="mk-timer-duration">Timer</label><select id="mk-timer-duration" aria-label="Set countdown duration"></select><output id="mk-timer-clock" aria-label="Time remaining" role="timer">01:00</output><button type="button" id="mk-timer-start">Start</button><button type="button" id="mk-timer-reset">Reset</button><button id="mk-audio-toggle" type="button" aria-label="Toggle lesson and timer sounds">Sound: On</button></div></div><p id="mk-timer-status" class="mk-timer-status" aria-live="polite"></p>';
+const siteHeader=document.getElementById("etpSiteHeader");
+if(siteHeader){siteHeader.insertAdjacentElement("afterend",dock)}else{document.body.prepend(dock)}
+const positionDock=()=>{document.documentElement.style.setProperty("--mk-dock-top",(document.getElementById("etpSiteHeader")?.getBoundingClientRect().height||0)+"px")};
+positionDock();addEventListener("resize",positionDock);if(window.ResizeObserver&&siteHeader)new ResizeObserver(positionDock).observe(siteHeader);
 let sound=true;try{sound=localStorage.getItem("etp-sfx")!=="off"}catch{}
 const toggle=document.getElementById("mk-audio-toggle");function audioLabel(){toggle.textContent=sound?"Sound: On":"Sound: Off";toggle.setAttribute("aria-pressed",String(sound))}audioLabel();
 toggle.onclick=()=>{sound=!sound;audioLabel();try{localStorage.setItem("etp-sfx",sound?"on":"off")}catch{}};
@@ -36,19 +39,26 @@ function updateProgress(){const at=scrollY+Math.min(innerHeight*.4,300);let curr
  document.getElementById("mk-progress-label").textContent="Section "+(current+1)+" of "+sections.length;
  document.getElementById("mk-progress-percent").textContent=maxProgress+"%";document.getElementById("mk-progress-fill").style.width=maxProgress+"%";document.getElementById("mk-progress-track").setAttribute("aria-valuenow",String(maxProgress))}
 addEventListener("scroll",updateProgress,{passive:true});addEventListener("resize",updateProgress);updateProgress();
-const plan=[["lesson-start",2,true],["reading-one",2,true],["reading-two",2,true],["branch-one",4,false],["branch-two",4,false],["synthesis",12,false],["finish",8,false]];
-let active=null,interval=null;
-function stop(){if(interval)clearInterval(interval);interval=null;if(active){active.start.hidden=false;active.pause.hidden=true;active=null}}
-for(const [id,min,q] of plan){const section=document.getElementById(id);if(!section)continue;let target=q?section.querySelector(".mk-question"):section.querySelector(".mk-branch-controls,.mk-response,#mk-final-test");if(!target)continue;
- const panel=document.createElement("div");panel.className="mk-timer-panel";panel.innerHTML='<div class="mk-timer-row"><strong style="color:#fff200">Optional Timer</strong><output class="mk-timer-readout" aria-label="Time remaining"></output><button class="mk-timer-start">Activate Timer</button><button class="mk-timer-pause" hidden>Pause</button><button class="mk-timer-reset">Reset</button><label style="color:#f0f4ef">Minutes <select class="mk-timer-minutes" aria-label="Choose timer duration" style="background:#eff5ed;color:#183023;border-radius:5px;padding:5px"></select></label></div><p class="mk-timer-note">Optional countdown. Answers and scoring are unaffected.</p>';
- target.before(panel);const select=panel.querySelector("select");for(const n of [1,2,3,4,5,6,8,10,12,15,20,25,30]){const o=document.createElement("option");o.value=n;o.textContent=n+" min";o.selected=n===min;select.append(o)}
- const t={left:min*60,total:min*60,panel,start:panel.querySelector(".mk-timer-start"),pause:panel.querySelector(".mk-timer-pause"),out:panel.querySelector("output"),note:panel.querySelector(".mk-timer-note")};
- const display=()=>t.out.textContent=String(Math.floor(t.left/60)).padStart(2,"0")+":"+String(t.left%60).padStart(2,"0");display();
- t.start.onclick=()=>{if(active)stop();if(!t.left)t.left=t.total;active=t;const end=performance.now()+t.left*1000;t.start.hidden=true;t.pause.hidden=false;t.panel.classList.remove("mk-time-expired");t.note.textContent="Countdown active. Keep working at your own pace.";
- interval=setInterval(()=>{t.left=Math.max(0,Math.ceil((end-performance.now())/1000));display();if(t.left===0){stop();t.panel.classList.add("mk-time-expired");t.note.textContent="Time is up. You can continue, or reset and try again.";cue("thud")}},250)};
- t.pause.onclick=()=>{if(active!==t)return;stop();t.note.textContent="Timer paused; resume when ready.";display()};
- panel.querySelector(".mk-timer-reset").onclick=()=>{if(active===t)stop();t.left=t.total;display();t.panel.classList.remove("mk-time-expired");t.note.textContent="Ready to start when you choose."};
- select.onchange=()=>{if(active===t)stop();t.total=Number(select.value)*60;t.left=t.total;display();t.panel.classList.remove("mk-time-expired")};
+const choices=[15,20,...Array.from({length:10},(_,i)=>(i+1)*60),12*60,15*60,20*60,25*60,30*60,35*60,40*60,45*60];
+const duration=document.getElementById("mk-timer-duration"),clock=document.getElementById("mk-timer-clock"),startButton=document.getElementById("mk-timer-start"),resetButton=document.getElementById("mk-timer-reset"),timerStatus=document.getElementById("mk-timer-status");
+for(const seconds of choices){const opt=document.createElement("option");opt.value=String(seconds);opt.textContent=seconds<60?seconds+" sec":seconds/60+" min";duration.append(opt)}
+duration.value="60";
+let remaining=60,deadline=0,timerRunning=false,interval=null;
+const renderClock=()=>{clock.textContent=String(Math.floor(remaining/60)).padStart(2,"0")+":"+String(remaining%60).padStart(2,"0")};
+function stop(){if(interval!==null)clearInterval(interval);interval=null;timerRunning=false;startButton.textContent="Start";startButton.setAttribute("aria-label","Start or resume countdown")}
+const reset=()=>{stop();remaining=Number(duration.value);renderClock();timerStatus.textContent="";dock.classList.remove("mk-time-expired")};
+function timerDone(){stop();remaining=0;renderClock();timerStatus.textContent="Time is up!";dock.classList.add("mk-time-expired");cue("timer")}
+function tick(){remaining=Math.max(0,Math.ceil((deadline-performance.now())/1000));renderClock();if(remaining===0)timerDone()}
+startButton.addEventListener("click",()=>{if(timerRunning){tick();stop();timerStatus.textContent="Paused.";return}if(remaining<=0)remaining=Number(duration.value);
+try{ctx=ctx||new(window.AudioContext||window.webkitAudioContext)();if(ctx.state==="suspended")ctx.resume()}catch{}
+deadline=performance.now()+remaining*1000;timerRunning=true;startButton.textContent="Pause";timerStatus.textContent="";dock.classList.remove("mk-time-expired");interval=setInterval(tick,200);renderClock()});
+resetButton.addEventListener("click",reset);duration.addEventListener("change",reset);renderClock();
+for(const [id,seconds] of [["lesson-start",20],["reading-one",8*60],["reading-two",8*60],["branch-one",2*60],["branch-two",2*60],["synthesis",8*60],["finish",5*60]]){
+ const section=document.getElementById(id);if(!section)continue;
+ const target=section.querySelector(".mk-question,.mk-branch-controls,.mk-response,#mk-final-test");
+ if(!target)continue;
+ const note=document.createElement("p");note.className="mk-timer-suggestion";note.textContent="Suggested timer: "+(seconds<60?seconds+" seconds":seconds/60+" minutes")+" · Use the timer in the toolbar above.";
+ target.before(note);
 }
 addEventListener("pagehide",()=>{stop();if(ctx)ctx.close().catch(()=>{})});
 })();
