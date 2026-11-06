@@ -1,0 +1,47 @@
+/* Queen Makeda pilot — reusable hero lesson assessment, navigation, and timers. */
+body.mk-interactive .mk-wrap{padding-bottom:135px}
+.mk-progress-dock{position:sticky;top:var(--mk-dock-top,72px);z-index:60;background:#06120ff2;border:1px solid #94ff5377;border-radius:0 0 13px 13px;padding:9px 15px 11px;box-shadow:0 8px 24px #000a;backdrop-filter:blur(11px)}
+.mk-progress-line{display:flex;justify-content:space-between;align-items:center;gap:12px;color:#f1f5ef;font:700 13px/1.35 Georgia,serif}
+.mk-progress-line strong{color:#fff200}.mk-progress-track{width:100%;height:9px;border-radius:40px;overflow:hidden;background:#20352f;margin-top:8px;border:1px solid #94ff5340}
+.mk-progress-fill{display:block;height:100%;width:0%;border-radius:40px;background:linear-gradient(90deg,#94ff53,#fff200);transition:width .3s ease}
+.mk-question{position:relative;padding:21px;border:1px solid #a4c7c8a3;border-left:5px solid #66acdd;border-radius:14px;background:linear-gradient(145deg,#203748,#172833)!important;margin:22px 0 17px;box-shadow:0 8px 24px #0006}
+.mk-question>h3{color:#f9f7da!important;margin:0 0 14px}
+.mk-question .mk-choice{background:#091b26!important;border-color:#d0e0e447!important;color:#f6f9f7}
+.mk-question .mk-choice:has(input:checked){border-color:#fff200!important;background:#213d48!important;box-shadow:inset 4px 0 #fff200}
+.mk-question .mk-choice input{accent-color:#93ff52}
+.mk-question.mk-success{border-left-color:#7cf66e;border-color:#7cf66e;box-shadow:0 0 20px #94ff5330}
+.mk-question.mk-incorrect{border-left-color:#ff6969;border-color:#e57878;background:linear-gradient(135deg,#43202b,#271c24)!important}
+.mk-question.mk-incorrect .mk-choice:has(input:checked){border-color:#ff7777!important;background:#4a2932!important;box-shadow:inset 4px 0 #ec5c5c}
+.mk-question.mk-success .mk-choice:has(input:checked){border-color:#94ff53!important;background:#153d2b!important;box-shadow:inset 4px 0 #94ff53}
+.mk-feedback{display:block;border-radius:9px!important;padding:12px 15px!important;margin-top:12px!important;line-height:1.6!important}
+.mk-feedback.mk-positive{border-left:4px solid #94ff53!important;background:#153b2d!important;color:#e3ffe4!important}
+.mk-feedback.mk-negative{border-left:4px solid #ff7474!important;background:#41222c!important;color:#ffe6e7!important}
+.mk-feedback:empty{display:none!important}
+.mk-step:has(.mk-question)>.mk-card{background:#183548a3;border-color:#80b8d977}
+.mk-branch-controls{padding:16px;border-radius:13px;background:#e3eaf1!important;border:2px solid #9caeba}
+.mk-branch-controls .mk-btn{color:#fff200}
+.mk-branch-outcome{background:#183449!important;border-color:#80b9dc!important}
+.mk-step:has(.mk-branch-controls)>.mk-note{margin-top:18px}
+.mk-step:has(.mk-response) .mk-response{background:#f6f9f0!important;color:#132b22;border-color:#94ff53;min-height:160px}
+.mk-timer-panel{background:#132c35;border:1px solid #89b1bb;border-radius:12px;padding:12px 14px;margin:16px 0 20px}
+.mk-timer-panel .mk-timer-row{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.mk-timer-panel button{font:700 13px Georgia,serif;cursor:pointer;border:1px solid #94ff53;border-radius:8px;padding:9px 13px;min-height:42px;color:#fff200;background:#184232}
+.mk-timer-panel button:focus-visible{outline:2px solid #fff200;outline-offset:2px}
+.mk-timer-panel button[hidden]{display:none}
+.mk-timer-readout{font:700 clamp(18px,2.3vw,25px) Georgia,serif;color:#fff200;min-width:68px;font-variant-numeric:tabular-nums;letter-spacing:.03em}
+.mk-timer-note{font:13px/1.5 Georgia,serif;color:#e2e9df;margin:8px 0 0}
+.mk-timer-panel.mk-time-expired{background:#49242d;border-color:#ff8c8c;animation:mk-expiry .5s ease}
+.mk-timer-panel.mk-time-expired .mk-timer-readout{color:#ffaaa8}
+.mk-timer-panel.mk-time-expired .mk-timer-note{color:#ffe7e8}
+.mk-confetti-field{position:fixed;inset:0;pointer-events:none;z-index:99999;overflow:hidden}
+.mk-confetti-bit{position:absolute;width:9px;height:14px;border-radius:1px;transform:translate(-50%,-50%);animation:mk-pop 1000ms ease-out forwards}
+.mk-checkmark{display:inline-block;color:#94ff53;font-weight:900;margin-right:6px}
+.mk-video-panel{border:1px solid #87b5bc;border-radius:14px;padding:19px;background:linear-gradient(140deg,#173346,#102523);margin:16px 0}
+.mk-video-panel h3{color:#fff200}.mk-video-screen{width:100%;aspect-ratio:16/9;overflow:hidden;border:1px solid #94ff5355;border-radius:10px;background:#040d12;display:grid;place-items:center}
+.mk-video-screen iframe{width:100%;height:100%;border:0}.mk-video-panel a,.mk-sources-expanded a{color:#b9ffac;text-decoration:underline;text-underline-offset:3px}
+.mk-sources-expanded li{margin:14px 0;line-height:1.65}
+.mk-sources-expanded strong{color:#fff200}
+@keyframes mk-pop{0%{opacity:1;transform:translate(-50%,-50%) rotate(0) scale(1)}100%{opacity:0;transform:translate(calc(-50% + var(--dx)),calc(-50% + var(--dy))) rotate(var(--rot)) scale(.55)}}
+@keyframes mk-expiry{0%,100%{transform:translateX(0)}25%{transform:translateX(-4px)}75%{transform:translateX(4px)}}
+@media(max-width:700px){.mk-progress-dock{padding:8px 10px}.mk-progress-line{font-size:11px}.mk-question{padding:15px}.mk-branch-controls{padding:10px}.mk-timer-panel{padding:10px}}
+@media(prefers-reduced-motion:reduce){.mk-progress-fill,.mk-timer-panel,.mk-confetti-bit{animation:none!important;transition:none!important}.mk-confetti-field{display:none}}
