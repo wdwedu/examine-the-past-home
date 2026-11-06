@@ -1,0 +1,256 @@
+{
+  "key": "sundiata",
+  "title": "Sundiata Keita (Sunjata)",
+  "subtitle": "The founding of Mali through living oral traditions, powerful storytelling and the historian's search for corroboration.",
+  "method": "Oral History · Performance and Memory",
+  "description": "Explore Sundiata Keita and the founding of medieval Mali through oral epic, griot traditions, source evaluation and interactive inquiry.",
+  "essential": "How can a performed epic preserve knowledge about the past while also changing across tellers, languages and generations?",
+  "objectives": [
+    "Locate the Manding region and identify the Mali Empire's thirteenth-century origins in West Africa.",
+    "Explain the role of jeliw (griots) as skilled performers and keepers of historical knowledge.",
+    "Distinguish major themes of the Sunjata epic from events that can be independently corroborated.",
+    "Compare two representations of a tradition and create a defensible historical account that respects oral sources without treating every detail literally."
+  ],
+  "misconception": "Oral tradition is not simply 'made up' because it is performed. It also should not be treated as an unchanged transcript of thirteenth-century events.",
+  "hookTitle": "Who Owns a Story That Lives in a Voice?",
+  "hook": [
+    "A jeli performs an account of Sundiata's childhood, exile, return and the struggle to found Mali. The audience knows familiar names, but the performer adjusts emphasis, language and detail. Two performances can differ without either losing cultural significance.",
+    "Imagine you're recording the performance for a history archive. Would your recording capture the complete truth about the thirteenth century, the meaning of the performance today, or both? Your challenge is to interpret an oral epic as art, memory and historical evidence at once."
+  ],
+  "lens": "Ask who performed or recorded a version, when and for whom, and what evidence independently supports its historical setting.",
+  "diagnostic": {
+    "prompt": "Before reading: Which claims about oral historical traditions are responsible?",
+    "options": [
+      "Performance can convey values and collective memory.",
+      "No spoken source can ever be historically valuable.",
+      "Different versions can reveal changes in audience and interpretation.",
+      "A modern recording proves every reported ancient dialogue happened verbatim."
+    ],
+    "answer": [
+      0,
+      2
+    ],
+    "explain": "Oral sources are historically valuable, but their performance context and limits must be examined."
+  },
+  "readings": [
+    {
+      "label": "Historical Setting · West African Networks",
+      "title": "Manding Communities and the Rise of Mali",
+      "paragraphs": [
+        "Mali emerged as a major West African empire in the thirteenth century in the broader Manding world. Earlier and neighboring political communities, trade routes and farming regions formed the setting for new alliances and rivalries. Exchange across the Sahel connected people, commodities, beliefs and ideas long before any one empire dominated those networks.",
+        "Accounts of Sundiata (also spelled Sunjata, Soundjata or Sundjata) describe a leader whose coalition defeated the Sosso ruler Sumanguru, traditionally associated with the Battle of Kirina around 1235. The date and particulars are often reported through later narratives; scholars compare versions of the epic with medieval sources and regional history.",
+        "Do not substitute a modern map of Mali's borders for the political geography of the thirteenth century. A careful map labels historical regions and the broad areas of influence rather than claiming a precisely surveyed empire."
+      ],
+      "prompt": "Why is a present-day country map an incomplete guide to a thirteenth-century political alliance?",
+      "question": {
+        "prompt": "Check 1 · Which statement gives an accurate context?",
+        "options": [
+          "The traditions situate Sundiata in the thirteenth-century formation of medieval Mali.",
+          "Mali began as a Roman province.",
+          "The empire had exactly the same borders as today's Mali."
+        ],
+        "answer": [
+          0
+        ],
+        "explain": "The epic concerns medieval Mali's origins; modern national borders cannot be projected backward unchanged."
+      }
+    },
+    {
+      "label": "Oral Historical Sources · Jeliw",
+      "title": "The Epic as Living Performance",
+      "paragraphs": [
+        "The Sunjata epic has been transmitted and performed by specialists often known as jeliw (singular jeli), frequently called griots in English. These performers combine narrative, genealogy, praise, music and commentary. Their work is not merely a written script recited aloud; the performance is shaped by language, patronage, setting and relationship with listeners.",
+        "Versions commonly include Sundiata's early hardships, exile, gathering of allies and conflict with Sumanguru. These stories show how communities explain authority, belonging, kinship and legitimate rule. Specific scenes and details may differ between performances and later transcriptions.",
+        "Scholars have collected multiple versions, including accounts recorded in the colonial period. A version written down in the twentieth century is direct evidence about that performance and its interpretation, while claims about the thirteenth century invite further corroboration."
+      ],
+      "prompt": "What can you learn from differences between two performances that a single printed summary might conceal?",
+      "question": {
+        "prompt": "Check 2 · Select accurate source evaluations.",
+        "options": [
+          "A recorded epic can reveal historical memory and artistic practice.",
+          "Every recorded version contains identical words and details.",
+          "Performance circumstances influence how a story is presented.",
+          "A later record automatically proves every precise event in the epic."
+        ],
+        "answer": [
+          0,
+          2
+        ],
+        "explain": "A performed narrative is both a meaningful source and a work that must be dated and contextualized."
+      }
+    },
+    {
+      "label": "Interpretation · Power and Alliance",
+      "title": "Leadership in the Founding Story",
+      "paragraphs": [
+        "Sundiata is remembered as a figure of endurance and coalition-building, not only as a battlefield leader. Epic traditions give roles to family members, advisers and opponents; the social relationships among these characters can illuminate values concerning loyalty, justice, legitimacy and power.",
+        "The Mali Empire's subsequent growth depended on far more than one person's heroism: networks of communities, agriculture, trade and political arrangements mattered. Historians distinguish the epic's moral and symbolic structure from the social and material conditions that supported imperial expansion.",
+        "One caution is especially important: some modern accounts claim that an early 'charter' from Sundiata's era survives as an unchanged written constitution. Scholars debate the formation, dating and history of versions of the Kouroukan Fouga charter. Avoid presenting it as a verbatim document produced at a precisely documented thirteenth-century meeting."
+      ],
+      "prompt": "What does an epic focused on one hero risk hiding about cooperation and ordinary communities?"
+    }
+  ],
+  "evidenceKnown": "Many documented epic performances and scholarly compilations preserve themes of the founding story; regional evidence supports a medieval Mali polity.",
+  "evidenceUnknown": "Exact speeches, some episodes, and claims about an unchanged founding charter are not securely established.",
+  "videoTitle": "Listening to a Living Epic",
+  "videoPrompts": "storytelling techniques (timestamps pending), multiple versions (pending), historical corroboration (pending).",
+  "branches": [
+    {
+      "type": "Oral-Source Ethics",
+      "title": "Decision Room: Archive a Jeli's Performance",
+      "prompt": "Your school records a jeli telling the Sunjata epic. A student asks you to shorten it to a timeline of battles and post the recording. What would you do?",
+      "options": [
+        {
+          "label": "Preserve performance context",
+          "title": "Respect the source",
+          "outcome": "Record the performer's name, language, setting and permission; explain the performance's meaning along with its historical claims.",
+          "followup": "How will you acknowledge the tradition and the performer's contribution?"
+        },
+        {
+          "label": "Remove all music and context",
+          "title": "Meaning lost",
+          "outcome": "Stripping performance away from its cultural practice can hide why the story matters and how it is transmitted.",
+          "followup": "What source details should accompany the transcript?"
+        },
+        {
+          "label": "Call it a literal transcript of 1235",
+          "title": "Anachronism",
+          "outcome": "A modern performance is not a time machine. It may refer to an earlier period but belongs to a later recorded context.",
+          "followup": "What distinctions belong in the archive label?"
+        }
+      ],
+      "debrief": "Historical responsibility includes credit, cultural context and critical examination of each version."
+    },
+    {
+      "type": "Competing Versions",
+      "title": "Decision Room: Two Epics, Two Details",
+      "prompt": "Two respected versions of the Sundiata story describe a key event differently. Your class wants a single 'official' answer. How should you respond?",
+      "options": [
+        {
+          "label": "Compare the versions",
+          "title": "Corroboration begins",
+          "outcome": "Compare collection dates, performers, audiences and wording; identify the shared core and the disputed details.",
+          "followup": "What independent medieval evidence might help resolve the difference?"
+        },
+        {
+          "label": "Choose the more dramatic version",
+          "title": "Storytelling is not proof",
+          "outcome": "Vividness can help memory but does not establish which detail is historically verified.",
+          "followup": "How would you communicate uncertainty without dismissing either performer?"
+        },
+        {
+          "label": "Reject both as useless",
+          "title": "Evidence discarded",
+          "outcome": "Variant oral traditions offer insight into memory and meaning even when individual events cannot be corroborated.",
+          "followup": "What research question can these differences answer directly?"
+        }
+      ],
+      "debrief": "Your investigation should be historically critical and respectful of a living tradition."
+    }
+  ],
+  "writingTitle": "Curate Two Voices from the Sunjata Epic",
+  "writingInstructions": "Make an evidence-based interpretive exhibit explaining how Sundiata's story is shared and what the surviving sources can and cannot establish.",
+  "writingChoices": [
+    "Write a 180-word exhibit comparing the epic's themes with the historical setting of medieval Mali.",
+    "Create a split-page chart titled 'What the performance tells us' and 'What another source would need to confirm.'",
+    "Develop a brief oral-history interview guide with five respectful questions about performance, attribution and context."
+  ],
+  "writingPlaceholder": "The Sunjata epic remembers... A version recorded in... This is evidence of... Historians should also ask...",
+  "final": [
+    {
+      "prompt": "1. The Sundiata traditions concern the origins of which empire?",
+      "options": [
+        "Medieval Mali",
+        "The Roman Empire",
+        "Han China"
+      ],
+      "answer": [
+        0
+      ],
+      "explain": "Sundiata is associated with the thirteenth-century founding of Mali."
+    },
+    {
+      "prompt": "2. A jeli is best described as...",
+      "options": [
+        "a specialist performer and custodian of oral traditions",
+        "an Egyptian pyramid architect",
+        "a modern political party"
+      ],
+      "answer": [
+        0
+      ],
+      "explain": "Jeliw are performers whose expertise includes narrative, genealogy, song and social memory."
+    },
+    {
+      "prompt": "3. Which features of oral performance matter for interpretation?",
+      "options": [
+        "The performer, audience, language and recording date.",
+        "Whether two versions agree or differ.",
+        "The assumption every version is an unchanged ancient transcript."
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explain": "A performance's context and variation are part of the evidence."
+    },
+    {
+      "prompt": "4. The commonly cited founding struggle is set in...",
+      "options": [
+        "the thirteenth-century Manding region",
+        "modern colonial North America",
+        "nineteenth-century Europe"
+      ],
+      "answer": [
+        0
+      ],
+      "explain": "Traditions situate Sundiata within medieval West African political change."
+    },
+    {
+      "prompt": "5. A strong history exhibit should...",
+      "options": [
+        "treat every epic dialogue as verbatim proof",
+        "ignore the performing tradition",
+        "value the epic while examining chronology and corroboration"
+      ],
+      "answer": [
+        2
+      ],
+      "explain": "Cultural significance and historical corroboration answer different questions."
+    }
+  ],
+  "exit": "How can two versions of one epic both be historically valuable even when they differ about an event?",
+  "extendTitle": "Oral History, Listening and Attribution",
+  "extensions": [
+    "Invite a family member or community storyteller to discuss how stories change across tellers, with permission and privacy safeguards.",
+    "Compare an academic summary of the Sunjata epic with a description of a recorded performance. Label the audience and date of each.",
+    "Map West African exchange routes and annotate why agricultural communities, political alliances and trade mattered alongside heroic traditions."
+  ],
+  "sourceIntro": "The Sunjata epic survives through performed and collected oral traditions. Its transmission is part of the historical record, and scholarship explains why modern recordings must be distinguished from claims about medieval events.",
+  "sources": [
+    {
+      "type": "University teaching",
+      "label": "University of California, Berkeley ORIAS — Sundiata",
+      "url": "https://orias.berkeley.edu/resources-teachers/monomyth-heros-journey-project/sundiata",
+      "use": "Accessible context on the jeli, performance and historical setting."
+    },
+    {
+      "type": "Scholarly collection",
+      "label": "British Academy — Corpus of Early Accounts of the Sunjata Epic, 1889–1959",
+      "url": "https://www.jstor.org/stable/jj.31510275",
+      "use": "Research collection showing why comparing many recorded versions matters; some full text may require access."
+    },
+    {
+      "type": "Historical synthesis",
+      "label": "Oxford Research Encyclopedia — Empire of Mali",
+      "url": "https://doi.org/10.1093/acrefore/9780190277734.013.266",
+      "use": "Regional history and cautions about overconfident reconstructions of the founding period."
+    },
+    {
+      "type": "Research chapter",
+      "label": "British Academy — Sundiata Keita, Historical and Legendary Hero",
+      "url": "https://doi.org/10.5871/bacad/9780197267387.003.0016",
+      "use": "Analysis of an early written record of the performed Sunjata narrative."
+    }
+  ]
+}
