@@ -45,16 +45,28 @@ html{scroll-behavior:smooth}body{background:#020604;color:#f5f5ed;font-family:Ge
 .mk-save-note{font-size:13px!important;color:#c5d5c9!important}
 @media(max-width:750px){.mk-layout{grid-template-columns:1fr}.mk-portrait{max-width:235px}.mk-rubric{grid-template-columns:1fr}.mk-vocab{grid-template-columns:1fr}.mk-hero h1{font-size:36px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.mk-btn{transition:none}.mk-btn:hover{transform:none}}
+</style><style id="mk-hero-visual-style">
+.mk-hero{min-height:410px;display:flex;align-items:center;padding-right:clamp(22px,4vw,52px)!important;background:linear-gradient(90deg,#102841 0%,#12344c 50%,#061b22 100%)!important}
+.mk-hero-copy{position:relative;z-index:2;max-width:65%;padding-right:16px}
+.mk-hero-art{position:absolute;right:0;top:0;bottom:0;width:44%;overflow:hidden;z-index:1;pointer-events:none}
+.mk-hero-art img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 28%;filter:contrast(1.03) saturate(1.04)}
+.mk-hero-art::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#102841 0%,#102841d8 8%,#10284120 45%,#10284130 100%),linear-gradient(0deg,#07151e70,transparent 34%)}
+.mk-hero-art figcaption{position:absolute;bottom:10px;right:15px;z-index:2;font:11px Georgia,serif;color:#ecf2e9;text-align:right;background:#051016aa;padding:5px 7px;border-radius:5px}
+.mk-hero h1{max-width:700px}
+@media(max-width:750px){.mk-hero{display:block;min-height:unset;padding-bottom:210px!important}.mk-hero-copy{max-width:100%;padding-right:0}.mk-hero-art{top:auto;bottom:0;left:0;right:0;width:100%;height:210px}.mk-hero-art img{object-position:center 28%}.mk-hero-art::after{background:linear-gradient(180deg,#102841 0%,#1028410a 24%,transparent 72%,#07151d77 100%)}}
 </style></head>
 <body class="lesson-subject-bg subject-black-history">
 <main class="mk-wrap">
 <nav class="mk-nav" aria-label="Return navigation"><a href="../">← All Hero Lessons</a><a href="../../../games/hall-of-legends/">Hall of Legends</a><a href="../../black-history/">Black History Home</a></nav>
 <header class="mk-hero">
+<div class="mk-hero-copy">
 <div class="mk-kicker">Examine the Past · Black History Heroes · Master Inquiry Lesson</div>
 <h1>Queen Makeda of Sheba</h1>
 <p>What makes a ruler powerful—and how do we know which stories about the past we can verify?</p>
 <div class="mk-tags"><span>Grades 5–12 · Adults</span><span>35–70 min, flexible</span><span>Independent or classroom</span><span>History · Civics · Literacy · SEL</span></div>
 <a class="mk-skip" href="#lesson-start">Begin the Lesson ↓</a>
+</div>
+<figure class="mk-hero-art"><img src="../../../assets/hall-of-legends/portraits/121.webp" alt="Contemporary illustrated interpretation of Queen Makeda, not a verified historical likeness" width="330" height="427" fetchpriority="high"><figcaption>Illustration · Not an authenticated portrait</figcaption></figure>
 </header>
 <div class="mk-panels" aria-label="Optional teacher planning and learner tools">
 <details><summary>Essential Question & Measurable Learning Objectives</summary><div class="mk-panel-body">
@@ -125,7 +137,7 @@ html{scroll-behavior:smooth}body{background:#020604;color:#f5f5ed;font-family:Ge
 <label class="mk-choice"><input type="checkbox"> Comparing source dates helps distinguish later memory from contemporary testimony.</label>
 <label class="mk-choice"><input type="checkbox"> Because an account is traditional, historians should ignore it entirely.</label>
 <button type="button" class="mk-btn mk-check">Check & Explain</button><div class="mk-feedback" role="status" aria-live="polite"></div></div>
-<div class="mk-video-panel" id="mk-video-context"><h3>Watch & Compare · Queen of Sheba in History and Legend</h3><p>Optional video lecture by scholar Annette Yoshiko Reed for the University of Pennsylvania Museum. This 39-minute exploration traces traditions across Jewish, Christian, Muslim, and Ethiopian communities. Watch selected portions or view the entire lecture. Treat it as a scholarly discussion of stories and historical context, <strong>not proof of Makeda's personal biography.</strong></p><div class="mk-video-screen"><button type="button" class="mk-btn" id="mk-video-load" aria-label="Load Penn Museum Queen of Sheba lecture">▶ Load Museum Lecture</button></div><p class="mk-save-note">Video loads only when selected. The player is hosted by YouTube, and its availability is controlled by its publisher.</p><p><a href="https://collections.penn.museum/collections/videos/video/4" target="_blank" rel="noopener noreferrer">Penn Museum lecture page and details</a> · <a href="https://www.youtube.com/watch?v=0Ph7OPwzmVc" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></p><p class="mk-cue">Source inquiry: How does the scholar distinguish the date of a surviving story from the era the story describes?</p></div>
+<div class="mk-video-panel" id="mk-video-context"><h3>Watch & Compare · Queen of Sheba in History and Legend</h3><p>Optional video lecture by scholar Annette Yoshiko Reed for the University of Pennsylvania Museum. This 39-minute exploration traces traditions across Jewish, Christian, Muslim, and Ethiopian communities. Watch selected portions or view the entire lecture. Treat it as a scholarly discussion of stories and historical context, <strong>not proof of Makeda's personal biography.</strong></p><div class="mk-video-screen"><button type="button" class="mk-btn" id="mk-video-load" aria-label="Load Penn Museum Queen of Sheba lecture">▶ Load Museum Lecture</button></div><p class="mk-save-note">Video loads only when selected. The player is hosted by YouTube, and its availability is controlled by its publisher.</p><p><a href="https://collections.penn.museum/collections/videos/video/4" target="_blank" rel="noopener noreferrer">Penn Museum lecture page and details</a> · <a href="https://www.youtube.com/watch?v=0Ph7OPwzmVc" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></p><div class="mk-video-chapter-guide"><h4>Suggested Viewing Guide</h4><p>Use the video alongside the reading. The following are inquiry topics, <strong>not verified timestamps</strong>:</p><ul><li>Where do the earliest accounts place the Queen of Sheba?</li><li>How did the stories travel among different communities?</li><li>What makes the Ethiopian royal tradition distinctive?</li><li>Which claims are historical evidence, and which are later interpretation?</li></ul><small>Precise chapter timestamps will be added after checking the complete recording.</small></div><p class="mk-cue">Source inquiry: How does the scholar distinguish the date of a surviving story from the era the story describes?</p></div>
 </section>
 <section class="mk-step mk-red" id="reading-three"><div class="mk-kicker">04 · Reading 3 of 3 · Leadership, Civics & Identity</div><h2>Power Beyond the Battlefield</h2>
 <p>Accounts of Makeda place value on wisdom, questioning, diplomacy, wealth, and long-distance relationships. Whether or not historians can verify particular conversations, these stories offer a way to investigate how communities imagine effective leadership.</p>
@@ -237,6 +249,39 @@ document.getElementById("mk-score").addEventListener("click",()=>{
 </script>
 <script>
 (()=>{const b=document.getElementById("mk-video-load");if(!b)return;b.addEventListener("click",()=>{const host=b.closest(".mk-video-screen"),frame=document.createElement("iframe");frame.src="https://www.youtube-nocookie.com/embed/0Ph7OPwzmVc?rel=0";frame.title="Penn Museum: The Queen of Sheba in History and Legend";frame.allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture";frame.allowFullscreen=true;frame.loading="lazy";host.replaceChildren(frame);});})();
+</script>
+<script>
+/* Chapter navigation: direct in-page jumping that bypasses site-wide transitions. */
+(()=>{
+ const nav=document.querySelector(".mk-steps-nav");if(!nav)return;
+ const links=[...nav.querySelectorAll('a[href^="#"]')];
+ const go=(a,push=true)=>{
+  const id=decodeURIComponent(a.getAttribute("href").slice(1));
+  const section=document.getElementById(id);if(!section)return;
+  const sticky=document.getElementById("etpSiteHeader");
+  const dock=document.getElementById("mk-progress-dock");
+  const offset=(sticky?.getBoundingClientRect().height||0)+(dock?.getBoundingClientRect().height||0)+22;
+  const y=Math.max(0,section.getBoundingClientRect().top+window.scrollY-offset);
+  if(push)history.pushState(null,"","#"+encodeURIComponent(id));
+  window.scrollTo({top:y,behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"instant":"smooth"});
+  links.forEach(x=>{if(x===a)x.setAttribute("aria-current","location");else x.removeAttribute("aria-current")});
+ };
+ nav.addEventListener("click",e=>{
+  const a=e.target.closest('a[href^="#"]');if(!a||!nav.contains(a))return;
+  if(!document.getElementById(a.getAttribute("href").slice(1)))return;
+  e.preventDefault();e.stopPropagation();go(a);
+ },true);
+ document.addEventListener("click",e=>{
+  const a=e.target.closest('.mk-skip[href^="#"]');if(!a)return;
+  const target=document.getElementById(a.hash.slice(1));if(!target)return;
+  e.preventDefault();e.stopPropagation();
+  const navLink=links.find(x=>x.hash===a.hash);
+  if(navLink)go(navLink);
+  else target.scrollIntoView({block:"start",behavior:"smooth"});
+ },true);
+ window.addEventListener("popstate",()=>{const link=links.find(x=>x.hash===location.hash);if(link)go(link,false)});
+ if(location.hash){const link=links.find(x=>x.hash===location.hash);if(link)requestAnimationFrame(()=>go(link,false))}
+})();
 </script>
 <script defer src="../../../assets/hero-lesson-interactions.js?v=20261106-makeda-v1"></script>
 <script src="../../../assets/site-shell.js?v=20261106-makeda-v1" data-etp-root="../../../"></script>
