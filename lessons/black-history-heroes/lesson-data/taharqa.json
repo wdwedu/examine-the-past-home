@@ -1,0 +1,256 @@
+{
+  "key": "taharqa",
+  "title": "Taharqa (Taharqo)",
+  "subtitle": "A Kushite pharaoh between monumental achievement and an expanding Assyrian empire.",
+  "method": "Chronology · Monument Evidence",
+  "description": "Investigate Taharqa's monuments, Nubian kingship, Assyrian invasions, chronological evidence and the meaning of historical legacies.",
+  "essential": "How do we evaluate the legacy of a ruler whose monuments celebrated power even as external threats challenged his rule?",
+  "objectives": [
+    "Locate Kush, Egypt and Assyria and sequence major features of Taharqa's reign with appropriate chronological caution.",
+    "Identify how temples, monuments and burial objects communicate public ideas about kingship.",
+    "Explain why Taharqa's military reversals do not erase his accomplishments or the persistence of Kush.",
+    "Write a balanced historical interpretation using at least two types of evidence."
+  ],
+  "misconception": "Taharqa's loss of control in Egypt did not end Kushite history or mean that Nubia was historically subordinate in every period.",
+  "hookTitle": "Can a Ruler Build and Lose at the Same Time?",
+  "hook": [
+    "Picture two museum cases. One holds a carefully carved object bearing Taharqa's name; the other contains a map of an Assyrian military advance. Which tells the truer story of the king? The question is misleading: neither object tells the whole story alone.",
+    "Taharqa ruled within Kush's Twenty-Fifth Dynasty in the seventh century BCE. This lesson asks you to assemble a balanced account from monumental works, archaeological objects and sources describing military conflict. Success and setback can exist in the same reign."
+  ],
+  "lens": "A monument can establish how authority was displayed; a military chronicle may describe a battle, but each must be read from its own viewpoint.",
+  "diagnostic": {
+    "prompt": "Before reading: Which approaches create a balanced historical account?",
+    "options": [
+      "Compare buildings, objects, dates and written records.",
+      "Call every monument an exact autobiography.",
+      "Ask how political opponents might depict the same events.",
+      "Treat a battlefield setback as proof that a whole civilization disappeared."
+    ],
+    "answer": [
+      0,
+      2
+    ],
+    "explain": "Multiple evidence types and attention to conflicting perspectives prevent one-dimensional stories."
+  },
+  "readings": [
+    {
+      "label": "Chronology · Kush, Egypt and Assyria",
+      "title": "A Reign Across Political Frontiers",
+      "paragraphs": [
+        "Taharqa (also spelled Taharqo) ruled the Kushite Twenty-Fifth Dynasty during the seventh century BCE; the Metropolitan Museum dates his reign in Egypt to approximately 690–664 BCE. Kush's political and religious centers in Nubia remained significant even as its kings exercised power in Egypt.",
+        "In the eastern Mediterranean and Near East, Assyria expanded its military power. Assyrian forces invaded Egypt during Taharqa's reign; a major invasion around 671 BCE forced him to withdraw south. Egypt's political future remained contested, and the final end of Kushite dominance in Egypt involved events after Taharqa's reign as well.",
+        "Avoid placing all events into a single dramatic moment. Distinguish a reign, an invasion, a retreat and the later political changes of successors. A clear timeline is often the best starting tool."
+      ],
+      "prompt": "What is the difference between losing political control in Egypt and the end of the Kushite kingdom?",
+      "question": {
+        "prompt": "Check 1 · Which chronological claim is defensible?",
+        "options": [
+          "Taharqa ruled in the Kushite Twenty-Fifth Dynasty during the seventh century BCE.",
+          "The Assyrian invasion ended all future Nubian kingdoms.",
+          "Taharqa ruled after the fall of the Roman Empire."
+        ],
+        "answer": [
+          0
+        ],
+        "explain": "Taharqa belongs to the seventh century BCE; Kush continued after the loss of political control in Egypt."
+      }
+    },
+    {
+      "label": "Material Evidence · Monuments and Shabtis",
+      "title": "What Survives from Taharqa's World?",
+      "paragraphs": [
+        "Temples and inscriptions associated with Taharqa attest to royal sponsorship of religious architecture and public displays of legitimacy. Monumental building did more than make places beautiful; it could associate kings with deities, rituals, local communities and continuity with respected predecessors.",
+        "The Metropolitan Museum holds a granite shabti bearing Taharqa's name, probably from his burial area at Nuri. This small funerary figure connects an identifiable king, material from Nubia, and Egyptian-Nubian religious traditions. Because the object can be studied directly, it is a valuable source for craft and funerary belief—but it cannot narrate a king's whole career.",
+        "A useful historical question begins with the object: What is its material? Where was it found or likely used? What supports its identification? And which claims would require written or archaeological evidence from somewhere else?"
+      ],
+      "prompt": "How can a small funerary object reveal more about culture than about military success?",
+      "question": {
+        "prompt": "Check 2 · Which claims suit evidence from monuments and museum objects?",
+        "options": [
+          "A shabti bearing Taharqa's name supports investigation of funerary beliefs.",
+          "The shabti alone proves the outcome of every battle.",
+          "Temple work can reveal the public presentation of kingship.",
+          "All ancient objects can be dated to an exact day."
+        ],
+        "answer": [
+          0,
+          2
+        ],
+        "explain": "Objects and monuments reveal material, symbolic and religious practices, not a comprehensive military chronology."
+      }
+    },
+    {
+      "label": "Interpretation · Legacy Under Pressure",
+      "title": "The Meaning of Victory and Retreat",
+      "paragraphs": [
+        "Assyrian records celebrate imperial expansion; Kushite or Egyptian royal monuments emphasize different achievements and ideals. Rather than choosing a 'winner' as the only worthy subject, historians reconstruct changing political realities through sources produced for different purposes.",
+        "Taharqa's reign included notable temple activity and the pressure of an expanding empire. His retreat in the face of Assyrian attack does not cancel out the accomplishments represented in surviving monuments. It does, however, require an accurate account of where and when Kushite authority was challenged.",
+        "A balanced assessment also asks whose labor made the monuments possible, how religious institutions supported royal legitimacy, and how local Egyptian communities experienced competing claims to rule. Some of those perspectives survive less clearly in official records."
+      ],
+      "prompt": "Write one sentence that acknowledges Taharqa's accomplishments and one that accurately describes his political setbacks."
+    }
+  ],
+  "evidenceKnown": "Identified royal monuments and a museum-held shabti, together with Assyrian records, document aspects of the period.",
+  "evidenceUnknown": "No single monument or imperial war narrative supplies a full view of ordinary people or every political negotiation.",
+  "videoTitle": "Taharqa: Artifacts, Temples and Conflict",
+  "videoPrompts": "reign and map (pending), the Nuri shabti (pending), Assyrian accounts and historical perspective (pending).",
+  "branches": [
+    {
+      "type": "Timeline Challenge",
+      "title": "Decision Room: Build a Balanced Timeline",
+      "prompt": "A museum exhibit combines a temple photograph and a battle-map display. Visitors think Taharqa's entire reign was either glorious or disastrous. What should your timeline emphasize?",
+      "options": [
+        {
+          "label": "Sequence monuments and conflict",
+          "title": "Balance achieved",
+          "outcome": "Placing building activity and invasion in chronological context shows multiple dimensions of rulership.",
+          "followup": "Which dates or ranges would you label as approximate?"
+        },
+        {
+          "label": "Mention battles only",
+          "title": "Culture erased by a narrow lens",
+          "outcome": "Military events are important but cannot account for religious architecture or long-term cultural influence.",
+          "followup": "What artifact would add depth?"
+        },
+        {
+          "label": "Exclude the Assyrians",
+          "title": "Conflict hidden",
+          "outcome": "An exhibit that omits the invasion presents a misleading picture of political outcomes.",
+          "followup": "How could you address military pressure without reducing Taharqa to defeat?"
+        }
+      ],
+      "debrief": "Use more than one type of evidence to distinguish achievements, constraints and consequences."
+    },
+    {
+      "type": "Museum Interpretation",
+      "title": "Decision Room: The Shabti Label",
+      "prompt": "You are asked to explain a shabti likely from Nuri. Which description would be responsible for a student exhibition?",
+      "options": [
+        {
+          "label": "Object, place and interpretation",
+          "title": "Good source attribution",
+          "outcome": "Name material, probable find context and funerary use; explain that object evidence has limits.",
+          "followup": "Which detail would you cite directly from the museum catalog?"
+        },
+        {
+          "label": "Proof Taharqa never lost a battle",
+          "title": "Unsupported inference",
+          "outcome": "A funerary object cannot establish the outcome of a military campaign.",
+          "followup": "What evidence would a battle claim require?"
+        },
+        {
+          "label": "A meaningless object",
+          "title": "Evidence overlooked",
+          "outcome": "Small objects help reconstruct cultural beliefs, craftsmanship and long-term connections.",
+          "followup": "What does its Nubian stone suggest you might investigate further?"
+        }
+      ],
+      "debrief": "Identify what an artifact directly shows before drawing wider conclusions."
+    }
+  ],
+  "writingTitle": "Two Perspectives on Taharqa's Reign",
+  "writingInstructions": "Build a comparative exhibit panel connecting a Kushite royal monument or object with an account of Assyrian military pressure. Explain why neither source should dominate your entire conclusion.",
+  "writingChoices": [
+    "Write 180 words with one paragraph on monumental achievement and one on contested military power.",
+    "Create an annotated two-track timeline: Kushite public building and geopolitical events, with approximate dates.",
+    "Record a short dual-voice museum guide contrasting an object label with a military chronicle without inventing quoted speech."
+  ],
+  "writingPlaceholder": "One surviving object shows... A different source describes... Together these sources support... However...",
+  "final": [
+    {
+      "prompt": "1. Taharqa belonged to which dynasty?",
+      "options": [
+        "Kushite Twenty-Fifth Dynasty",
+        "First Dynasty of Rome",
+        "Mughal Dynasty"
+      ],
+      "answer": [
+        0
+      ],
+      "explain": "Taharqa was one of the Kushite kings who governed Egypt."
+    },
+    {
+      "prompt": "2. The Assyrians challenged Taharqa's position primarily in...",
+      "options": [
+        "Egypt in the seventh century BCE",
+        "Italy in the first century CE",
+        "Mali in the thirteenth century"
+      ],
+      "answer": [
+        0
+      ],
+      "explain": "The invasions belong to the seventh-century BCE Near Eastern political setting."
+    },
+    {
+      "prompt": "3. Which sources would help build a balanced interpretation?",
+      "options": [
+        "A museum-cataloged shabti.",
+        "A regional historical chronology.",
+        "One attractive fictional illustration alone."
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explain": "Material evidence and chronology can complement one another; modern art is not an ancient source."
+    },
+    {
+      "prompt": "4. A shabti can help investigate...",
+      "options": [
+        "ancient funerary beliefs and craftsmanship",
+        "every troop movement of an invasion",
+        "the exact content of all royal speeches"
+      ],
+      "answer": [
+        0
+      ],
+      "explain": "Funerary figurines are cultural and archaeological objects."
+    },
+    {
+      "prompt": "5. Which conclusion is most historically accurate?",
+      "options": [
+        "Assyrian victory ended African civilization.",
+        "Temple building proves Taharqa never retreated.",
+        "The reign had cultural achievements and serious external military challenges."
+      ],
+      "answer": [
+        2
+      ],
+      "explain": "Balanced history includes achievements and setbacks."
+    }
+  ],
+  "exit": "Why would an artifact, a temple and an enemy's war record produce different pictures of the same ruler?",
+  "extendTitle": "The Two-Track Historical Exhibit",
+  "extensions": [
+    "Draw a geographic map that distinguishes Kush, Egypt and Assyria using approximate historical regions.",
+    "Select one royal object from the Met and write a label that clearly states what is known versus inferred.",
+    "Create a timeline card explaining why the history of Kush did not end when Kushite kings lost control in Egypt."
+  ],
+  "sourceIntro": "Monuments and artifacts associated with Taharqa belong to the Kushite Twenty-Fifth Dynasty. A balanced explanation requires both museum objects and regional historical chronology.",
+  "sources": [
+    {
+      "type": "Primary artifact",
+      "label": "The Metropolitan Museum — Shabti of Taharqo",
+      "url": "https://www.metmuseum.org/art/collection/search/544883",
+      "use": "Material, provenance and likely Nubian burial context for the identified royal figurine."
+    },
+    {
+      "type": "Museum context",
+      "label": "The Met — Egypt in the Third Intermediate Period",
+      "url": "https://www.metmuseum.org/ko/essays/egypt-in-the-third-intermediate-period-1070-712-b-c",
+      "use": "Kushite dynasty, building revival and Assyrian campaigns. Compare ancient dates carefully."
+    },
+    {
+      "type": "Education",
+      "label": "The Met — Art of Ancient Egypt, Educator Resource",
+      "url": "https://www.metmuseum.org/-/media/files/learn/for-educators/publications-for-educators/the-art-of-ancient-egypt.pdf",
+      "use": "Chronological and art-historical teaching framework for ancient Egyptian material culture."
+    },
+    {
+      "type": "Public collection",
+      "label": "British Museum — Sudan, Egypt and Nubia",
+      "url": "https://www.britishmuseum.org/collection/galleries/sudan-egypt-and-nubia",
+      "use": "Additional institutional starting point for Kushite material culture and geographic context."
+    }
+  ]
+}
