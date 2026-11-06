@@ -59,3 +59,22 @@ body.mk-interactive .mk-wrap{padding-bottom:135px}
 .mk-video-chapter-guide li{line-height:1.65;margin:5px 0;color:#ecf1eb}
 .mk-video-chapter-guide small{color:#d5e1d7}
 @media(max-width:750px){.mk-steps-nav{justify-content:center!important;column-gap:13px!important;padding:10px!important}.mk-steps-nav a{flex:1 1 130px!important;font-size:15px!important}}
+
+
+/* Unified sticky progress + timer: directly below site navigation */
+.mk-progress-dock{position:sticky!important;top:var(--mk-dock-top,0px)!important;z-index:998!important;width:100%;margin:0!important;border-radius:0!important;padding:6px clamp(9px,2vw,20px)!important;background:#06120ff7}
+.mk-unified-row{max-width:1300px;margin:auto;display:flex;align-items:center;gap:clamp(10px,2vw,25px);justify-content:space-between}
+.mk-progress-group{flex:1 1 45%;min-width:120px;max-width:50%;display:flex;align-items:center;gap:9px;color:#f1f5ef;font:700 12px Georgia,serif;white-space:nowrap}
+.mk-progress-group .mk-progress-track{margin:0;flex:1;min-width:35px;height:8px}
+.mk-progress-group strong{color:#fff200;font-variant-numeric:tabular-nums}
+.mk-unified-timer{display:flex;align-items:center;justify-content:flex-end;gap:6px;flex:1 1 auto;font:700 12px Georgia,serif;color:#fff200}
+.mk-unified-timer select{max-width:85px;min-height:30px;border:1px solid #94ff53;border-radius:5px;background:#eaf2e8;color:#102a1a;padding:2px 4px;font:12px Georgia,serif}
+.mk-unified-timer output{font:700 17px Georgia,serif;color:#fff200;font-variant-numeric:tabular-nums;min-width:52px}
+.mk-unified-timer button{border:1px solid #94ff53;border-radius:6px;padding:6px 8px;background:#153a28;color:#fff200;font:700 12px Georgia,serif;cursor:pointer;min-height:30px;white-space:nowrap}
+.mk-unified-timer button:focus-visible,.mk-unified-timer select:focus-visible{outline:2px solid #fff200;outline-offset:2px}
+.mk-timer-status:empty{display:none}.mk-timer-status{margin:2px auto 0;text-align:right;max-width:1300px;font:12px Georgia,serif;color:#fff200}
+.mk-progress-dock.mk-time-expired{border-bottom-color:#fff200;box-shadow:0 4px 20px #94ff5355}
+.mk-timer-suggestion{font:italic 13px/1.4 Georgia,serif;color:#dbe9cd;margin:12px 0 7px;padding:4px 0;border-bottom:1px solid #94ff5340}
+.mk-step[id]{scroll-margin-top:155px}
+@media(max-width:730px){.mk-unified-row{flex-wrap:wrap;gap:5px}.mk-progress-group{max-width:100%;flex-basis:100%}.mk-unified-timer{flex:1 1 100%;justify-content:center;gap:5px}.mk-unified-timer button{padding:5px 7px}.mk-progress-dock{padding:5px 8px!important}.mk-progress-group{font-size:11px}}
+@media(max-width:360px){.mk-unified-timer{font-size:10px;gap:3px}.mk-unified-timer button{font-size:10px;padding:5px}.mk-unified-timer output{font-size:14px;min-width:42px}}
