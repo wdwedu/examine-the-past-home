@@ -2,7 +2,7 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Queen Makeda of Sheba — Master Inquiry Lesson | Examine the Past</title>
 <meta name="description" content="A self-guided and teacher-ready Black History inquiry lesson on Queen Makeda, African trade, diplomacy, source criticism and historical memory, with assessments and branching decisions.">
-<link rel="stylesheet" href="../../../assets/lesson-template.css?v=20261106-master"><link rel="stylesheet" href="../../../assets/lesson-backgrounds.css?v=44">
+<link rel="stylesheet" href="../../../assets/lesson-template.css?v=20261106-master"><link rel="stylesheet" href="../../../assets/hero-lesson-interactions.css?v=20261106-makeda-v1"><link rel="stylesheet" href="../../../assets/lesson-backgrounds.css?v=44">
 <style>
 :root{color-scheme:dark;--yellow:#fff200;--green:#94ff53;--muted:#d5dfd6}
 html{scroll-behavior:smooth}body{background:#020604;color:#f5f5ed;font-family:Georgia,serif;margin:0}
@@ -125,6 +125,7 @@ html{scroll-behavior:smooth}body{background:#020604;color:#f5f5ed;font-family:Ge
 <label class="mk-choice"><input type="checkbox"> Comparing source dates helps distinguish later memory from contemporary testimony.</label>
 <label class="mk-choice"><input type="checkbox"> Because an account is traditional, historians should ignore it entirely.</label>
 <button type="button" class="mk-btn mk-check">Check & Explain</button><div class="mk-feedback" role="status" aria-live="polite"></div></div>
+<div class="mk-video-panel" id="mk-video-context"><h3>Watch & Compare · Queen of Sheba in History and Legend</h3><p>Optional video lecture by scholar Annette Yoshiko Reed for the University of Pennsylvania Museum. This 39-minute exploration traces traditions across Jewish, Christian, Muslim, and Ethiopian communities. Watch selected portions or view the entire lecture. Treat it as a scholarly discussion of stories and historical context, <strong>not proof of Makeda's personal biography.</strong></p><div class="mk-video-screen"><button type="button" class="mk-btn" id="mk-video-load" aria-label="Load Penn Museum Queen of Sheba lecture">▶ Load Museum Lecture</button></div><p class="mk-save-note">Video loads only when selected. The player is hosted by YouTube, and its availability is controlled by its publisher.</p><p><a href="https://collections.penn.museum/collections/videos/video/4" target="_blank" rel="noopener noreferrer">Penn Museum lecture page and details</a> · <a href="https://www.youtube.com/watch?v=0Ph7OPwzmVc" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></p><p class="mk-cue">Source inquiry: How does the scholar distinguish the date of a surviving story from the era the story describes?</p></div>
 </section>
 <section class="mk-step mk-red" id="reading-three"><div class="mk-kicker">04 · Reading 3 of 3 · Leadership, Civics & Identity</div><h2>Power Beyond the Battlefield</h2>
 <p>Accounts of Makeda place value on wisdom, questioning, diplomacy, wealth, and long-distance relationships. Whether or not historians can verify particular conversations, these stories offer a way to investigate how communities imagine effective leadership.</p>
@@ -186,7 +187,12 @@ html{scroll-behavior:smooth}body{background:#020604;color:#f5f5ed;font-family:Ge
 <li><a href="https://www.britannica.com/place/Saba-ancient-kingdom-Arabia" target="_blank" rel="noopener noreferrer">Encyclopaedia Britannica — Sabaʾ</a>, background on the South Arabian kingdom.</li>
 <li><em>Kebra Nagast</em>, a medieval Ethiopian royal text. Use with attention to its later compilation and political-religious purposes.</li>
 <li><a href="https://www.thecorestandards.org/ELA-Literacy/RH/6-8/" target="_blank" rel="noopener noreferrer">Common Core history/social studies reading standards, grades 6–8</a>.</li>
-<li><a href="https://udlguidelines.cast.org/" target="_blank" rel="noopener noreferrer">CAST UDL Guidelines 3.0</a>.</li></ul>
+<li><a href="https://udlguidelines.cast.org/" target="_blank" rel="noopener noreferrer">CAST UDL Guidelines 3.0</a>.</li><li><strong>Archaeological evidence — </strong><a href="https://whc.unesco.org/en/list/1700/" target="_blank" rel="noopener noreferrer">UNESCO World Heritage Centre, Landmarks of the Ancient Kingdom of Saba, Marib</a>. Evidence for Sabaean cities, buildings, irrigation, inscriptions and long-distance exchange; not evidence that Makeda's personal story has been confirmed.</li>
+<li><strong>Material culture and historical method — </strong><a href="https://asia.si.edu/whats-on/exhibitions/unearthing-arabia-the-archaeological-adventures-of-wendell-phillips/" target="_blank" rel="noopener noreferrer">Smithsonian National Museum of Asian Art, Unearthing Arabia</a>. Archaeological research at the Awam Temple and recorded Sabaean inscriptions.</li>
+<li><strong>Art and Ethiopian cultural memory — </strong><a href="https://www.si.edu/object/nmafa_67-3-1" target="_blank" rel="noopener noreferrer">Smithsonian National Museum of African Art, Story of the Queen of Sheba</a>. A mid-20th-century painting illustrating Ethiopian traditions; valuable as evidence of representation, not an ancient likeness.</li>
+<li><strong>Scholarly museum lecture — </strong><a href="https://collections.penn.museum/collections/videos/video/4" target="_blank" rel="noopener noreferrer">Penn Museum, The Queen of Sheba in History and Legend, Annette Yoshiko Reed (2016)</a>. Comparative lecture, approximately 39 minutes; use selected excerpts for students.</li>
+<li><strong>Classroom teaching and comparison — </strong><a href="https://www.pbs.org/mythsandheroes/tguide_sheba.html" target="_blank" rel="noopener noreferrer">PBS, In Search of Myths & Heroes: Queen of Sheba Teacher Guide</a>. Activities for grades 7–12 examining mythology, geography and historical interpretation.</li>
+</ul>
 <p class="mk-save-note">Artwork is a modern interpretation from Examine the Past's Hall of Legends, not evidence of Makeda's appearance. Scenarios are explicitly fictional teaching simulations. Classroom teachers should review source material for student age and local curricular requirements.</p></section>
 </main>
 <script>
@@ -229,5 +235,9 @@ document.getElementById("mk-score").addEventListener("click",()=>{
 });
 })();
 </script>
+<script>
+(()=>{const b=document.getElementById("mk-video-load");if(!b)return;b.addEventListener("click",()=>{const host=b.closest(".mk-video-screen"),frame=document.createElement("iframe");frame.src="https://www.youtube-nocookie.com/embed/0Ph7OPwzmVc?rel=0";frame.title="Penn Museum: The Queen of Sheba in History and Legend";frame.allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture";frame.allowFullscreen=true;frame.loading="lazy";host.replaceChildren(frame);});})();
+</script>
+<script defer src="../../../assets/hero-lesson-interactions.js?v=20261106-makeda-v1"></script>
 <script src="../../../assets/site-shell.js?v=20261106-makeda-v1" data-etp-root="../../../"></script>
 </body></html>
