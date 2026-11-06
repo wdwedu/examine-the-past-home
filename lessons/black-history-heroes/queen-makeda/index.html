@@ -251,36 +251,35 @@ document.getElementById("mk-score").addEventListener("click",()=>{
 (()=>{const b=document.getElementById("mk-video-load");if(!b)return;b.addEventListener("click",()=>{const host=b.closest(".mk-video-screen"),frame=document.createElement("iframe");frame.src="https://www.youtube-nocookie.com/embed/0Ph7OPwzmVc?rel=0";frame.title="Penn Museum: The Queen of Sheba in History and Legend";frame.allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture";frame.allowFullscreen=true;frame.loading="lazy";host.replaceChildren(frame);});})();
 </script>
 <script>
-/* Chapter navigation: direct in-page jumping that bypasses site-wide transitions. */
+/* LOCKED SIX-STEP LESSON NAVIGATION — Queen Makeda and future hero templates. */
 (()=>{
  const nav=document.querySelector(".mk-steps-nav");if(!nav)return;
  const links=[...nav.querySelectorAll('a[href^="#"]')];
- const go=(a,push=true)=>{
-  const id=decodeURIComponent(a.getAttribute("href").slice(1));
-  const section=document.getElementById(id);if(!section)return;
-  const sticky=document.getElementById("etpSiteHeader");
-  const dock=document.getElementById("mk-progress-dock");
-  const offset=(sticky?.getBoundingClientRect().height||0)+(dock?.getBoundingClientRect().height||0)+22;
-  const y=Math.max(0,section.getBoundingClientRect().top+window.scrollY-offset);
-  if(push)history.pushState(null,"","#"+encodeURIComponent(id));
-  window.scrollTo({top:y,behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"instant":"smooth"});
-  links.forEach(x=>{if(x===a)x.setAttribute("aria-current","location");else x.removeAttribute("aria-current")});
- };
- nav.addEventListener("click",e=>{
-  const a=e.target.closest('a[href^="#"]');if(!a||!nav.contains(a))return;
-  if(!document.getElementById(a.getAttribute("href").slice(1)))return;
-  e.preventDefault();e.stopPropagation();go(a);
+ const resolve=a=>{try{return document.getElementById(decodeURIComponent(a.getAttribute("href").slice(1)))}catch{return null}};
+ const offset=()=>Math.ceil((document.getElementById("etpSiteHeader")?.getBoundingClientRect().height||0)+(document.getElementById("mk-progress-dock")?.getBoundingClientRect().height||0)+16);
+ const jump=(target)=>window.scrollTo({top:Math.max(0,window.scrollY+target.getBoundingClientRect().top-offset()),behavior:"instant"});
+ const activate=(link)=>links.forEach(x=>x===link?x.setAttribute("aria-current","location"):x.removeAttribute("aria-current"));
+ nav.addEventListener("click",event=>{
+  const link=event.target.closest('a[href^="#"]');
+  if(!link||!nav.contains(link)||event.button!==0||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
+  const target=resolve(link);if(!target)return;
+  event.preventDefault();event.stopPropagation();jump(target);
+  history.replaceState(history.state,"",link.getAttribute("href"));activate(link);
  },true);
- document.addEventListener("click",e=>{
-  const a=e.target.closest('.mk-skip[href^="#"]');if(!a)return;
+ document.addEventListener("click",event=>{
+  const a=event.target.closest('.mk-skip[href^="#"]');if(!a)return;
   const target=document.getElementById(a.hash.slice(1));if(!target)return;
-  e.preventDefault();e.stopPropagation();
-  const navLink=links.find(x=>x.hash===a.hash);
-  if(navLink)go(navLink);
-  else target.scrollIntoView({block:"start",behavior:"smooth"});
+  event.preventDefault();event.stopPropagation();jump(target);
+  history.replaceState(history.state,"",a.getAttribute("href"));
  },true);
- window.addEventListener("popstate",()=>{const link=links.find(x=>x.hash===location.hash);if(link)go(link,false)});
- if(location.hash){const link=links.find(x=>x.hash===location.hash);if(link)requestAnimationFrame(()=>go(link,false))}
+ const onHash=()=>{if(location.hash){const id=decodeURIComponent(location.hash.slice(1)),target=document.getElementById(id);if(target)requestAnimationFrame(()=>jump(target))}};
+ window.addEventListener("hashchange",onHash);
+ if(location.hash)window.addEventListener("load",onHash,{once:true});
+ let queued=false;window.addEventListener("scroll",()=>{
+  if(queued)return;queued=true;requestAnimationFrame(()=>{
+   queued=false;let active=links[0];for(const link of links){const section=resolve(link);if(section&&section.getBoundingClientRect().top<=offset()+28)active=link}activate(active);
+  });
+ },{passive:true});
 })();
 </script>
 <script defer src="../../../assets/hero-lesson-interactions.js?v=20261106-timer-finish-v3"></script>
