@@ -248,13 +248,13 @@ function addResearchLink(target,label,url,featured=false){
  target.append(link);
 }
 function heroLessonUrl(id){
- const expanded={"bh-121":"queen-makeda","bh-122":"piye","bh-124":"taharqa","bh-001":"sundiata"};
+ const expanded={"bh-121":"queen-makeda","bh-122":"piye","bh-123":"shabaka","bh-124":"taharqa","bh-001":"sundiata"};
  return expanded[id]
   ?siteRoot+"lessons/black-history-heroes/"+expanded[id]+"/"
   :siteRoot+"lessons/black-history-heroes/figure/?id="+encodeURIComponent(id);
 }
 function renderBiography(target,profile,personName){
- const completedHeroLessons=new Set(["bh-121","bh-122","bh-124","bh-001"]);
+ const completedHeroLessons=new Set(["bh-121","bh-122","bh-123","bh-124","bh-001"]);
  if(completedHeroLessons.has(profile.id)){
   const lessonLink=mk("a","hv-complete-hero-lesson","Open Full Hero Lesson →");
   lessonLink.href=heroLessonUrl(profile.id);
@@ -274,7 +274,7 @@ function renderBiography(target,profile,personName){
  renderAllianceActivity(target,profile);
  const sources=mk("section","hv-bio-sources");
  sources.append(mk("h3","","Sources and further research"));
- addResearchLink(sources,"Examine the Past · "+(new Set(["bh-121","bh-122","bh-124","bh-001"]).has(profile.id)?"Open the complete Hero Lesson":"Read the "+personName+" profile"),heroLessonUrl(profile.id),true);
+ addResearchLink(sources,"Examine the Past · "+(new Set(["bh-121","bh-122","bh-123","bh-124","bh-001"]).has(profile.id)?"Open the complete Hero Lesson":"Read the "+personName+" profile"),heroLessonUrl(profile.id),true);
  const details=mk("details","hv-bio-research-details"),summary=mk("summary","","Other historical references");details.append(summary);
  const listed=sourceMap.get(profile.id)||[];
  const featuredSources={
