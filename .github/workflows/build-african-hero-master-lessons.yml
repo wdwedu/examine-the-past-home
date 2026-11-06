@@ -27,7 +27,7 @@ jobs:
             path=Path('lessons/black-history-heroes')/key/'index.html'
             s=path.read_text()
             assert s.count('class="mk-question"')==8,(key,s.count('class="mk-question"'))
-            assert s.count('class="mk-step')==10,key
+            assert s.count('class="mk-step ')==10,key
             assert 'data-hero-key="'+key+'"' in s,key
             assert 'hero-lesson-series.js' in s and 'hero-lesson-interactions.js' in s,key
             assert (Path('assets/hero-lessons')/(key+'.webp')).exists(),key
