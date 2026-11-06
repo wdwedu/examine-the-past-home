@@ -1,0 +1,257 @@
+{
+  "key": "shabaka",
+  "title": "Shabaka (Shabaqo)",
+  "subtitle": "An ancient stone, a damaged text, and the evidence a ruler wanted preserved.",
+  "method": "Artifact Forensics · Competing Interpretations",
+  "description": "Investigate Shabaka of Kush and the Shabaka Stone through museum evidence, historical context, source criticism and hands-on inquiry.",
+  "essential": "What can a damaged sacred inscription reveal about kingship, religion and the decisions that shape which ideas survive?",
+  "objectives": [
+    "Place Shabaka within the Kushite Twenty-Fifth Dynasty and explain cultural connections between Nubia and Egypt.",
+    "Describe the Shabaka Stone as a surviving physical object, an inscription, and a royal claim about textual preservation.",
+    "Explain how missing portions and later reuse limit the confidence of a reconstruction.",
+    "Produce an interpretive label that separates physical evidence, textual claims and scholarly interpretation."
+  ],
+  "misconception": "The stone's claim to copy a much older damaged manuscript is not independent proof that such a manuscript existed exactly as described.",
+  "hookTitle": "The Stone That Survived Two Kinds of Damage",
+  "hook": [
+    "Imagine a large slab of stone. A royal text says an earlier manuscript was decaying and needed to be preserved. Centuries later someone reuses the slab, wearing away parts of the inscription. You can see words, gaps and the marks of reuse—but can you recover the entire original message?",
+    "Shabaka's story invites a double investigation: what the inscription says about religion and the authority of kings, and what the surviving artifact itself proves about the passage of time."
+  ],
+  "lens": "Differentiate three levels of evidence: the stone physically exists; the inscription makes a claim; scholars evaluate that claim.",
+  "diagnostic": {
+    "prompt": "Before reading: Which statements are sensible when an artifact contains a damaged text?",
+    "options": [
+      "Gaps make a full reconstruction uncertain.",
+      "A statement carved in stone must be literally true.",
+      "The wear marks can tell us about later use of the object.",
+      "Different translations can be compared for interpretation."
+    ],
+    "answer": [
+      0,
+      2,
+      3
+    ],
+    "explain": "The physical object, its surviving text and later scholarly reconstructions are distinct sources of knowledge."
+  },
+  "readings": [
+    {
+      "label": "Kingship · Kush and Egypt",
+      "title": "A Kushite King in Memphis",
+      "paragraphs": [
+        "Shabaka (also written Shabaqo) was a ruler of Kush's Twenty-Fifth Dynasty during a period when Kushite kings governed Egypt as pharaohs. In the late eighth and early seventh centuries BCE, the Nile Valley connected political capitals, temples and trade communities over great distances. Kushite rulers drew on long-standing Egyptian sacred and royal practices while maintaining their Nubian backgrounds.",
+        "The city of Memphis held major religious and political importance. There, the god Ptah was especially prominent. Connecting the royal name to sacred knowledge and temple institutions could help present a ruler as legitimate within a respected tradition.",
+        "The precise order and dates of some Twenty-Fifth Dynasty rulers remain subjects of scholarly chronological discussion. For our investigation, it is enough to understand that Shabaka belonged to a Kushite dynasty operating across Egypt and Nubia."
+      ],
+      "prompt": "Why would association with a major temple and an older tradition matter to a ruler seeking authority?",
+      "question": {
+        "prompt": "Check 1 · Which claim about Shabaka is defensible?",
+        "options": [
+          "He was a Kushite king associated with Egypt's Twenty-Fifth Dynasty.",
+          "He was a Roman emperor living at Memphis.",
+          "Kushite rule erased all prior Egyptian religious practices."
+        ],
+        "answer": [
+          0
+        ],
+        "explain": "Shabaka belonged to the Kushite dynasty; royal and religious continuity mattered to its public identity."
+      }
+    },
+    {
+      "label": "Physical Evidence · EA498",
+      "title": "The Shabaka Stone as an Artifact",
+      "paragraphs": [
+        "The British Museum holds the monument known as the Shabaka Stone (EA498), associated with Memphis around 710 BCE. It contains a religious text centered on Ptah, divine creation and an ordering of the world. The opening presents the king as preserving a version of knowledge said to have been damaged in an earlier written source.",
+        "Modern readers face a difficult problem: much of the stone is damaged. It was reused as a grinding surface, leaving wear that destroyed some text. Translations necessarily depend on what is legible, comparisons with other Egyptian concepts and sometimes contested restorations.",
+        "When a museum label calls the inscription 'ancient theology,' that describes a religious explanation preserved in a historical object. It does not mean that historians can independently verify the religious events described by the text."
+      ],
+      "prompt": "What does the later wear reveal about the object's history—and what can it not recover?",
+      "question": {
+        "prompt": "Check 2 · Which interpretations separate evidence from claim?",
+        "options": [
+          "The object survives and includes a royal preservation claim.",
+          "Every missing word can be restored with certainty.",
+          "Later wear damaged the inscription, limiting translation.",
+          "The stone's theological content should be treated as modern scientific measurement."
+        ],
+        "answer": [
+          0,
+          2
+        ],
+        "explain": "The artifact and surviving royal claim are physical and textual evidence; a complete ancient original is not independently established."
+      }
+    },
+    {
+      "label": "Historical Interpretation · Text and Purpose",
+      "title": "Preserving a Text—or Constructing Authority?",
+      "paragraphs": [
+        "The inscription links thought, speech and creative power with Ptah. It reflects ideas important to Egyptian religious thought and to the cultural environment in which Shabaka's court presented itself. Its language and setting invite questions about whom it was written for and how the king's role was represented.",
+        "The text claims an earlier written work was rescued from decay. Scholars have debated whether this is a literal description of an old manuscript, a literary convention, or a combination of preservation and reinterpretation. A cautious historian does not turn one royal statement into definitive evidence about a lost original.",
+        "This is why the Shabaka Stone is especially useful in school: the same object can support an art-history question, a religious-history question and a source-analysis question, but the standards for a defensible answer differ."
+      ],
+      "prompt": "Which conclusion is supported by the monument itself, and which would require an older manuscript we no longer possess?"
+    }
+  ],
+  "evidenceKnown": "British Museum EA498 survives with hieroglyphic text and visible wear from later reuse.",
+  "evidenceUnknown": "The lost portions are uncertain, and the inscription's claim of copying an older manuscript is debated.",
+  "videoTitle": "The Shabaka Stone in the Museum",
+  "videoPrompts": "museum orientation (timestamps pending), physical wear (pending), inscription and competing interpretations (pending).",
+  "branches": [
+    {
+      "type": "Conservation Ethics",
+      "title": "Decision Room: Repair the Missing Text?",
+      "prompt": "Your museum team is preparing a public digital reconstruction. Visitors want a complete text, but much is illegible. How should you present the missing lines?",
+      "options": [
+        {
+          "label": "Show gaps with tentative notes",
+          "title": "Reconstruct responsibly",
+          "outcome": "Explicit gaps and labeled hypotheses help visitors separate the surviving inscription from restoration.",
+          "followup": "Which marks could distinguish the physical text from editorial additions?"
+        },
+        {
+          "label": "Invent a smooth complete translation",
+          "title": "Readable but misleading",
+          "outcome": "An apparently complete paragraph could make modern guesses look like ancient words.",
+          "followup": "How would you disclose uncertainty in your revised display?"
+        },
+        {
+          "label": "Display only a blank wall",
+          "title": "Interpretation omitted",
+          "outcome": "Refusing to explain the stone sacrifices a chance to teach what scholars can know and where evidence stops.",
+          "followup": "What minimum context would still be responsible?"
+        }
+      ],
+      "debrief": "Preserving evidence includes making uncertainty visible, not hiding it behind polished prose."
+    },
+    {
+      "type": "Source Detective",
+      "title": "Decision Room: The Ancient Manuscript Claim",
+      "prompt": "A visitor asks whether Shabaka truly found and copied a much older papyrus. Which research method gives the strongest response?",
+      "options": [
+        {
+          "label": "Compare text, context and scholarship",
+          "title": "Test the claim",
+          "outcome": "The royal statement is evidence of a claim; chronology, literary conventions and other texts help assess its plausibility.",
+          "followup": "What independent evidence could strengthen the claim?"
+        },
+        {
+          "label": "Accept the inscription literally",
+          "title": "Royal words are not independent proof",
+          "outcome": "A statement commissioned in a royal context may express cultural goals as well as events.",
+          "followup": "How can you label the claim without dismissing the source?"
+        },
+        {
+          "label": "Dismiss every religious source",
+          "title": "Useful evidence discarded",
+          "outcome": "Religious texts still reveal historical ideas, institutions and values even when their theological accounts are not empirically testable.",
+          "followup": "What historical question could this text answer well?"
+        }
+      ],
+      "debrief": "Religious meaning, royal purpose and historical corroboration are different lines of inquiry."
+    }
+  ],
+  "writingTitle": "Curate an Evidence-First Museum Exhibit",
+  "writingInstructions": "Write an exhibit panel for the Shabaka Stone that would help a visitor understand its importance without confusing restoration or royal statements with verified fact.",
+  "writingChoices": [
+    "Produce a 150-word object label identifying EA498, religious content, later damage and uncertainty.",
+    "Create a two-column display separating 'what survives on the stone' from 'what scholars infer or debate.'",
+    "Record a two-minute docent explanation of why missing text can change interpretation; cite at least two details."
+  ],
+  "writingPlaceholder": "The Shabaka Stone is a surviving... It claims... Later use damaged... The evidence does not yet establish...",
+  "final": [
+    {
+      "prompt": "1. The Shabaka Stone is associated with which dynasty?",
+      "options": [
+        "The Twenty-Fifth, or Kushite, Dynasty",
+        "The Roman Julio-Claudian dynasty",
+        "The American colonial era"
+      ],
+      "answer": [
+        0
+      ],
+      "explain": "Shabaka ruled during the Kushite Twenty-Fifth Dynasty."
+    },
+    {
+      "prompt": "2. A physical feature that affects translation is...",
+      "options": [
+        "its photographic image on a modern website",
+        "damage from later grinding use",
+        "an intact modern printed edition"
+      ],
+      "answer": [
+        1
+      ],
+      "explain": "Grinding-related damage destroyed portions of the hieroglyphic text."
+    },
+    {
+      "prompt": "3. Which statements are supported by sound source criticism?",
+      "options": [
+        "The inscription says the king preserved an older text.",
+        "The older manuscript is independently verified to the last word.",
+        "A royal preservation claim should be checked against other evidence."
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explain": "The text makes a claim, but the claim does not verify itself."
+    },
+    {
+      "prompt": "4. The text's references to Ptah are especially useful for studying...",
+      "options": [
+        "religious and cultural ideas",
+        "modern chemistry",
+        "a medieval West African epic"
+      ],
+      "answer": [
+        0
+      ],
+      "explain": "The text reflects Egyptian religious thought and royal presentation."
+    },
+    {
+      "prompt": "5. A responsible museum reconstruction would...",
+      "options": [
+        "silently fill missing lines with guesses",
+        "announce that no scholarship is possible",
+        "label gaps and explain the basis of proposed restorations"
+      ],
+      "answer": [
+        2
+      ],
+      "explain": "Transparent reconstruction shows where the ancient text ends and modern interpretation begins."
+    }
+  ],
+  "exit": "Which is more certain: that the Shabaka Stone is damaged, or that the older manuscript described in its inscription survived exactly as claimed? Explain.",
+  "extendTitle": "A Forensic Exhibit Laboratory",
+  "extensions": [
+    "Make a sample 'damaged inscription' by masking text on paper; compare how two student groups reconstruct missing sentences.",
+    "Write an exhibit label in two voices: a royal court celebrating preservation and a modern curator explaining historical uncertainty.",
+    "Research how museums conserve inscriptions and identify why an object can be reused for a purpose far removed from its original meaning."
+  ],
+  "sourceIntro": "The Shabaka Stone is a physical artifact at the British Museum. Its theological text and the circumstances of its transmission are subject to interpretation; comparisons below distinguish a modern museum explanation from the surviving source.",
+  "sources": [
+    {
+      "type": "Primary artifact",
+      "label": "British Museum — Shabaka Stone exhibit information (EA498)",
+      "url": "https://www.britishmuseum.org/sites/default/files/2022-10/Hieroglyphs_unlocking_ancient_Egypt_large_print_guide_The_British_Museum.pdf",
+      "use": "Museum interpretation of the monument, its religious content, royal preservation claim and later wear."
+    },
+    {
+      "type": "Source transcript",
+      "label": "British Museum — Shabaka Stone transcript",
+      "url": "https://www.britishmuseum.org/sites/default/files/2022-11/Shabaka_Stone_transcript_Hieroglyphs_unlocking_ancient_Egypt_The_British_Musuem.pdf",
+      "use": "Read an institutional translation excerpt; separate translated statements from historical proof."
+    },
+    {
+      "type": "Historical context",
+      "label": "Metropolitan Museum of Art — Egypt in the Third Intermediate Period",
+      "url": "https://www.metmuseum.org/ko/essays/egypt-in-the-third-intermediate-period-1070-712-b-c",
+      "use": "Explains Kushite kingship, temple building and Egyptian religious traditions."
+    },
+    {
+      "type": "Scholarly debate",
+      "label": "University of Oxford — Memphis and the Memphite Theology",
+      "url": "https://ora.ox.ac.uk/objects/uuid:55a722fe-b901-4554-804d-94429ddc58bd",
+      "use": "Research discussing debates over how to interpret the surviving text and the claim of ancient transmission."
+    }
+  ]
+}
