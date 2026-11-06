@@ -40,6 +40,23 @@ jobs:
           assert 'mk-progress-dock' in js and 'mk-timer-panel' in js
           assert 'q.dataset.checked="false"' in js
           assert 'mk-time-expired' in css and 'mk-incorrect' in css and 'mk-confetti' in css
+          assert 'mk-hero-art' in page and page.count('portraits/121.webp')==1
+          assert 'id="mk-video-context"' in page and 'mk-video-chapter-guide' in page
+          from html.parser import HTMLParser
+          from urllib.parse import unquote
+          class Nav(HTMLParser):
+              def __init__(self):super().__init__();self.in_nav=False;self.hrefs=[]
+              def handle_starttag(self,tag,attrs):
+                  a=dict(attrs)
+                  if tag=='div' and a.get('class')=='mk-steps-nav':self.in_nav=True
+                  if self.in_nav and tag=='a':self.hrefs.append(a.get('href',''))
+              def handle_endtag(self,tag):
+                  if self.in_nav and tag=='div':self.in_nav=False
+          nav=Nav();nav.feed(page)
+          assert len(nav.hrefs)==6,nav.hrefs
+          assert all(h.startswith('#') and h[1:] in d.ids for h in nav.hrefs),nav.hrefs
+          assert 'history.pushState(null' in page and 'window.scrollTo({top:y' in page
+          assert 'mk-steps-nav a{' in css and 'text-decoration:none!important' in css
           assert page.count('class="mk-question"')==8
           print('Queen Makeda lesson structure, sources and interactions: PASS')
           PY
