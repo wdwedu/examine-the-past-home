@@ -24,7 +24,7 @@ for path in pages:
   for link in REQUIRED:
    if len(re.findall(r'<section\b[^>]*\bid="'+re.escape(link)+r'"',text))!=1:
     issues.append("Missing or duplicate section ID: "+link)
- quizzes=list(re.finditer(r'<div\s+class="mk-question"\b[^>]*>[\s\S]*?</div>',text))
+ quizzes=list(re.finditer(r'<div\s+class="mk-question"[^>]*>[\s\S]*?</div>',text))
  for idx,match in enumerate(quizzes,1):
   box=match.group(0)
   key=re.search(r'data-answer="([^"]+)"',box)
