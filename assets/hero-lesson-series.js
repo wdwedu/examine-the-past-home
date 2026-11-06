@@ -42,13 +42,39 @@ if(score&&result)score.addEventListener("click",()=>{
  const correct=questions.filter(q=>q.dataset.passed==="true").length;
  result.textContent=correct+"/5 correct. "+(correct>=4?"Knowledge target met. Complete your evidence-based claim and reflect on the rubric.":"Revisit the readings and explanations, then revise your answers.");
 });
-for(const a of main.querySelectorAll(".mk-steps-nav a[href^='#']")){
- a.addEventListener("click",ev=>{
-  const id=decodeURIComponent(a.hash.slice(1)),target=document.getElementById(id);
-  if(!target)return;
-  ev.preventDefault();history.pushState(null,"","#"+id);
-  const offset=(document.getElementById("etpSiteHeader")?.offsetHeight||70)+(document.getElementById("mk-progress-dock")?.offsetHeight||60)+20;
-  window.scrollTo({top:Math.max(0,target.getBoundingClientRect().top+scrollY-offset),behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});
- });
+/* LOCKED LESSON TEMPLATE: six real section jumps, sticky-header safe. */
+const stepNav=main.querySelector(".mk-steps-nav");
+if(stepNav){
+ const links=[...stepNav.querySelectorAll('a[href^="#"]')];
+ const resolve=a=>{try{return document.getElementById(decodeURIComponent(a.getAttribute("href").slice(1)))}catch{return null}};
+ const headerOffset=()=>Math.ceil((document.getElementById("etpSiteHeader")?.getBoundingClientRect().height||0)+(document.getElementById("mk-progress-dock")?.getBoundingClientRect().height||0)+16);
+ const jump=(target,smooth=false)=>{
+  const y=Math.max(0,window.scrollY+target.getBoundingClientRect().top-headerOffset());
+  // An explicit target Y is essential: default hash navigation can hide the heading under both sticky bars.
+  window.scrollTo({top:y,behavior:smooth&&!matchMedia("(prefers-reduced-motion: reduce)").matches?"smooth":"instant"});
+ };
+ for(const a of links){
+  const target=resolve(a);
+  if(!target){a.setAttribute("aria-disabled","true");continue}
+  a.addEventListener("click",e=>{
+   if(e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;
+   e.preventDefault();
+   jump(target,false);
+   history.replaceState(history.state,"",a.getAttribute("href"));
+   for(const item of links){if(item===a)item.setAttribute("aria-current","location");else item.removeAttribute("aria-current")}
+  });
+ }
+ // Support bookmarked sections and browser back/forward navigation.
+ const onHash=()=>{if(!location.hash)return;const id=decodeURIComponent(location.hash.slice(1)),target=document.getElementById(id);if(target&&main.contains(target))requestAnimationFrame(()=>jump(target,false))};
+ window.addEventListener("hashchange",onHash);
+ if(location.hash)window.addEventListener("load",onHash,{once:true});
+ // Mark current section as scrolling progresses without changing the user's URL.
+ let queued=false;window.addEventListener("scroll",()=>{
+  if(queued)return;queued=true;requestAnimationFrame(()=>{
+   queued=false;let active=links[0];const offset=headerOffset()+28;
+   for(const a of links){const section=resolve(a);if(section&&section.getBoundingClientRect().top<=offset)active=a}
+   for(const a of links){if(a===active)a.setAttribute("aria-current","location");else a.removeAttribute("aria-current")}
+  })
+ },{passive:true});
 }
 })();
