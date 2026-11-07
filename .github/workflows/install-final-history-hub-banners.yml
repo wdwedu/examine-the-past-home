@@ -1,0 +1,39 @@
+name: Install final five History Hub banners
+on:
+  push:
+    paths:
+      - '.github/workflows/install-final-history-hub-banners.yml'
+      - 'History_Hub_Final_Images_Part_1.zip'
+      - 'History_Hub_Final_Images_Part_2.zip'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - name: Extract and confirm all five images
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p assets/history-hub
+          unzip -j -o History_Hub_Final_Images_Part_1.zip '*.webp' -d assets/history-hub
+          unzip -j -o History_Hub_Final_Images_Part_2.zip '*.webp' -d assets/history-hub
+          for name in EXT_Hispanic_American_History EXT_World_Religions ADV_AP_US_History ADV_AP_World_History ADV_AP_Government_Politics; do
+            test -s "assets/history-hub/$name.webp"
+          done
+      - name: Commit website images
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/history-hub/*.webp
+          if ! git diff --cached --quiet; then
+            git commit -m "Install final five History Hub banner image files"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
