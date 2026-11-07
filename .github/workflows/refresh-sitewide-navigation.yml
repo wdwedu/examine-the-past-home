@@ -1,0 +1,46 @@
+name: Refresh shared navigation across site pages
+on:
+  push:
+    paths:
+      - '.github/workflows/refresh-sitewide-navigation.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - name: Update stale shared shell URLs in HTML
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          count=0
+          for p in Path('.').rglob('*.html'):
+              if any(x in {'.git','node_modules','.github'} for x in p.parts):continue
+              s=p.read_text(encoding='utf-8',errors='replace')
+              new=re.sub(r'(assets/site-shell\.js\?v=)[^"\x27\s<>]+',
+                  r'\g<1>20261107-mega-nav-v1',s)
+              new=re.sub(r'(assets/home-structure-v50\.css\?v=)[^"\x27\s<>]+',
+                  r'\g<1>20261107-audience-v1',new)
+              if new!=s:
+                  p.write_text(new,encoding='utf-8')
+                  count+=1
+          print('Updated HTML pages:',count)
+          PY
+      - name: Commit sitewide update
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -u '*.html'
+          if ! git diff --cached --quiet; then
+            git commit -m "Activate simplified global navigation across published pages"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
