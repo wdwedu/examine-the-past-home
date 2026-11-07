@@ -300,3 +300,72 @@ footer .footer-social a img,footer .footer-social a[aria-label="Etsy"] img,foote
  #etpSiteHeader .etp-header-minimal>.etp-icon-nav{flex-basis:28px!important;min-width:28px!important;width:28px!important}
  #etpSiteHeader .etp-header-minimal>.etp-mobile-toggle{flex-basis:29px!important;min-width:29px!important;width:29px!important}
 }
+
+/* 2026-11-07 v5: real globe logo, compact evenly-balanced navigation */
+#etpSiteHeader{height:48px!important;min-height:48px!important;max-height:48px!important}
+#etpSiteHeader .etp-header-inner.etp-header-minimal{
+ height:48px!important;min-height:48px!important;max-height:48px!important;
+ padding:2px clamp(8px,2.1vw,30px)!important;align-items:center!important;
+ gap:clamp(4px,1vw,14px)!important;
+}
+#etpSiteHeader .etp-header-minimal>.etp-icon-nav{
+ width:40px!important;min-width:40px!important;flex:0 0 40px!important;margin:0!important;
+}
+#etpSiteHeader .etp-header-minimal .etp-icon-btn[data-etp-action="jukebox"]{
+ height:40px!important;width:40px!important;color:#94ff53!important;
+}
+#etpSiteHeader .etp-header-minimal>.etp-top-navigation{
+ flex:1 1 auto!important;justify-content:space-evenly!important;align-items:center!important;
+ gap:clamp(8px,3.8vw,56px)!important;margin:0!important;
+}
+#etpSiteHeader .etp-top-navigation .etp-top-link{
+ width:40px!important;height:42px!important;flex:0 0 40px!important;
+ display:grid!important;place-items:center!important;
+}
+#etpSiteHeader .etp-top-navigation .etp-top-emoji{
+ font-size:30px!important;line-height:1!important;
+}
+#etpSiteHeader .etp-top-navigation .etp-top-logo{
+ display:block!important;width:37px!important;height:37px!important;
+ min-width:37px!important;min-height:37px!important;object-fit:contain!important;
+ max-width:none!important;max-height:none!important;margin:0!important;padding:0!important;
+ opacity:1!important;filter:none!important;
+}
+#etpSiteHeader .etp-header-minimal>.etp-mobile-toggle{
+ height:40px!important;width:40px!important;min-width:40px!important;flex:0 0 40px!important;
+ padding:0!important;margin:0!important;background:transparent!important;border:0!important;
+}
+#etpSiteHeader .etp-header-minimal>.etp-mobile-toggle span{
+ width:26px!important;height:2.5px!important;background:#fff200!important;box-shadow:none!important;
+}
+@media(max-width:759px){
+ #etpSiteHeader,#etpSiteHeader .etp-header-inner.etp-header-minimal{
+  height:45px!important;min-height:45px!important;max-height:45px!important;
+ }
+ #etpSiteHeader .etp-header-inner.etp-header-minimal{padding:2px 6px!important;gap:3px!important}
+ #etpSiteHeader .etp-header-minimal>.etp-icon-nav{width:32px!important;min-width:32px!important;flex-basis:32px!important}
+ #etpSiteHeader .etp-header-minimal .etp-icon-btn[data-etp-action="jukebox"]{width:32px!important;height:38px!important}
+ #etpSiteHeader .etp-header-minimal>.etp-top-navigation{
+  gap:clamp(3px,1.5vw,10px)!important;justify-content:space-evenly!important;
+ }
+ #etpSiteHeader .etp-top-navigation .etp-top-link{
+  flex:0 0 34px!important;width:34px!important;height:38px!important;
+ }
+ #etpSiteHeader .etp-top-navigation .etp-top-logo{
+  width:32px!important;height:32px!important;min-width:32px!important;min-height:32px!important;
+ }
+ #etpSiteHeader .etp-top-navigation .etp-top-emoji{font-size:27px!important}
+ #etpSiteHeader .etp-header-minimal>.etp-mobile-toggle{
+  width:32px!important;min-width:32px!important;flex-basis:32px!important;height:38px!important;
+ }
+ #etpSiteHeader .etp-header-minimal>.etp-mobile-toggle span{width:24px!important;background:#fff200!important;height:2px!important}
+ #etpSiteHeader .etp-header-minimal>.etp-mobile-panel{max-height:calc(100dvh - 48px)!important}
+}
+@media(max-width:380px){
+ #etpSiteHeader .etp-header-inner.etp-header-minimal{gap:2px!important;padding-inline:3px!important}
+ #etpSiteHeader .etp-header-minimal>.etp-icon-nav{width:27px!important;min-width:27px!important;flex-basis:27px!important}
+ #etpSiteHeader .etp-top-navigation .etp-top-link{width:29px!important;flex-basis:29px!important;height:37px!important}
+ #etpSiteHeader .etp-top-navigation .etp-top-logo{width:29px!important;height:29px!important;min-width:29px!important;min-height:29px!important}
+ #etpSiteHeader .etp-top-navigation .etp-top-emoji{font-size:24px!important}
+ #etpSiteHeader .etp-header-minimal>.etp-mobile-toggle{width:29px!important;min-width:29px!important;flex-basis:29px!important}
+}
