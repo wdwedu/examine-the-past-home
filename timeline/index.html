@@ -515,7 +515,7 @@ h1 span{display:inline-block;margin-bottom:.09em}
   .modal-card{padding:22px!important}
 }
 </style>
-<meta content="Timeline V7 | Publish Ready + Interactive Key + Study Music | 2026-09-07" name="etp-build"/><link href="https://www.examinethepast.com/interactive-timeline" rel="canonical"/>
+<meta content="Timeline | Interactive Key + Shared History Jukebox | 2026-09-07" name="etp-build"/><link href="https://www.examinethepast.com/interactive-timeline" rel="canonical"/>
 <!-- Examine the Past universal shell integration v54 -->
 <link rel="stylesheet" href="../assets/site-shell.css?v=20261015-etp-r2">
 <style id="etp-timeline-shell-v54">
@@ -717,15 +717,7 @@ body>nav:not(.etp-icon-nav),main>nav,.timeline-nav,.timeline-controls,.toolbar{p
 <div class="footer-social"><a aria-label="YouTube" href="https://www.youtube.com/@ExamineThePast" target="_blank" rel="noopener"><img alt="YouTube" src="../assets/extracted/464c360e19d677217cc4.png"/></a><a aria-label="Facebook" href="https://www.facebook.com/examinethepast" target="_blank" rel="noopener"><img alt="Facebook" src="../assets/extracted/3be38d2bc775aed1aa5d.png"/></a><a aria-label="Instagram" href="https://www.instagram.com/examinethepast/" target="_blank" rel="noopener"><img alt="Instagram" src="../assets/extracted/b57a0bfa07d7854fab42.png"/></a><a aria-label="X" href="https://x.com/" target="_blank" rel="noopener"><img alt="X" src="../assets/extracted/f7eacad8260c3bec20f3.png"/></a><a aria-label="Blog" href="https://examinethepast.blogspot.com/" target="_blank" rel="noopener"><img alt="Blog" src="../assets/extracted/6d1cadef583365615116.png"/></a><a aria-label="Teachers Pay Teachers" href="https://www.teacherspayteachers.com/store/examine-the-past" target="_blank" rel="noopener"><img alt="Teachers Pay Teachers" src="../assets/extracted/47484528cf35e39ccc1c.png"/></a><a aria-label="Redbubble" href="https://www.redbubble.com/people/examinethepast/shop" target="_blank" rel="noopener"><img alt="Redbubble" src="../assets/extracted/d7c3703ef4934cb83768.png"/></a><a aria-label="Zazzle" href="https://www.zazzle.com/store/examine_the_past" target="_blank" rel="noopener"><img alt="Zazzle" src="../assets/extracted/dd67003337351804b4ca.png"/></a><a aria-label="Pinterest" href="https://www.pinterest.com/examinethepast/" target="_blank" rel="noopener"><img alt="Pinterest" src="../assets/extracted/f3c8deb8b5f32e597b7c.png"/></a><a aria-label="Etsy" href="https://www.etsy.com/shop/examinethepast" target="_blank" rel="noopener"><img alt="Etsy" src="../assets/extracted/f9ed609807bb6dd1d7bf.png"/></a></div>
 <div class="copyright">© 2026 Examine the Past. All Rights Reserved.</div>
 </div></footer>
-<div aria-label="Study music controls" class="study-music" id="studyMusic">
-<div class="music-label"><span class="music-note">♫</span><span>Study Music</span></div>
-<div class="music-options">
-<button aria-pressed="false" class="music-btn" data-track="classical" type="button"><span class="music-icon">♬</span><small>Classical</small></button>
-<button aria-pressed="false" class="music-btn" data-track="jazz" type="button"><span class="music-icon">♩</span><small>Jazz</small></button>
-<button aria-pressed="false" class="music-btn" data-track="lofi" type="button"><span class="music-icon">◉</span><small>Lo-fi</small></button>
-<button aria-pressed="true" class="music-btn music-off active" data-track="off" type="button"><span class="music-icon">■</span><small>Off</small></button>
-</div></div>
-<audio id="studyAudio" loop="" preload="none"></audio><div aria-labelledby="modalTitle" aria-modal="true" class="modal" id="modal" role="dialog">
+<div aria-labelledby="modalTitle" aria-modal="true" class="modal" id="modal" role="dialog">
 <div class="modal-card">
 <div class="modal-top"><div><div class="eyebrow">Explore Deeper</div><h3 id="modalTitle"></h3></div><button aria-label="Close" class="close" onclick="closeModal()">×</button></div>
 <p class="modal-lead" id="modalText"></p><div class="deep-grid"><section class="deep-section"><h4>Why It Matters</h4><p id="modalWhy"></p></section><section class="deep-section"><h4>Evidence Historians Use</h4><p id="modalEvidence"></p></section><section class="deep-section"><h4>World Context</h4><p id="modalContext"></p></section></div><div class="modal-chart" id="modalChart"></div><div class="modal-video-wrap" id="modalVideoWrap" style="display:none"><h4>Watch Without Leaving the Timeline</h4><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" id="modalVideo" loading="lazy" title="Historical video"></iframe></div><div class="modal-activities" id="modalActivities"></div><div class="source" id="modalSource"></div><a href="#top" id="modalSourceLink" rel="noopener" target="_blank">Open trusted source ↗</a></div>
@@ -851,22 +843,6 @@ function shareUrl(network){
 }
 document.querySelectorAll('[data-share]').forEach(b=>{b.replaceWith(b.cloneNode(true));});
 document.querySelectorAll('[data-share]').forEach(b=>b.addEventListener('click',()=>shareUrl(b.dataset.share)));
-
-// ===== V7 STUDY MUSIC =====
-const studyAudio=document.getElementById('studyAudio');
-const trackFiles={classical:'../assets/extracted/0a4db516be1a83758578.mp3',jazz:'../assets/extracted/09149fba15f611476101.mp3',lofi:'../assets/extracted/0a7c2c7b191fee048d92.mp3'};
-const musicBtns=[...document.querySelectorAll('.music-btn')];
-function setMusic(track){
- musicBtns.forEach(b=>{const active=b.dataset.track===track;b.classList.toggle('active',active);b.setAttribute('aria-pressed',active?'true':'false');});
- if(track==='off'){studyAudio.pause();studyAudio.removeAttribute('src');studyAudio.load();return;}
- const src=trackFiles[track];
- if(studyAudio.getAttribute('src')!==src){studyAudio.src=src;studyAudio.load();}
- studyAudio.play().catch(err=>{
-   const box=document.getElementById('studyMusic');
-   if(box){box.setAttribute('title','Audio could not start. Click the track again after the page fully loads.');}
- });
-}
-musicBtns.forEach(b=>b.addEventListener('click',()=>setMusic(b.dataset.track)));
 
 // ===== V8 HOME-FOOTER LEGAL MODALS =====
 (() => {
