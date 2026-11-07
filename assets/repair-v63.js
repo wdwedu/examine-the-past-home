@@ -18,7 +18,7 @@ function setTheme(mode,persist=true){
  document.querySelectorAll('[data-shade]').forEach(n=>n.setAttribute('aria-pressed',String(n.dataset.shade===mode)));
  document.dispatchEvent(new CustomEvent('etp-theme-change',{detail:mode}));
 }
-window.ETPTheme={set:setTheme,get:()=>themeMode,toggle:()=>setTheme(themeMode==='off'?'on':'off')};setTheme(themeMode,false);
+window.ETPTheme={set:setTheme,get:()=>themeMode,toggle:()=>setTheme(themeMode==='off'?'on':'off')};setTheme("off",false);
 const brandCSS=document.createElement('link');brandCSS.rel='stylesheet';brandCSS.href=url('assets/brand-v65.css?v=20261103-logo-readable');brandCSS.dataset.etpBrand='65';document.head.append(brandCSS);
 window.addEventListener('storage',e=>{if(e.key===themeKey)setTheme(e.newValue,false)});
 
@@ -27,6 +27,14 @@ let readerLoading=false;
 function enableReader(){
  const main=document.querySelector('main');
  if((document.body.classList.contains('hall-visual-demo')||document.body.classList.contains('vh-cinematic'))||readerLoading||!main||document.getElementById('page-tools')||location.pathname===root||location.pathname===root+'index.html'||document.body.dataset.home==='true')return;
+ // Reading controls belong on substantial narrative pages, not games, maps, menus or dashboards.
+ const path=location.pathname;
+ const interactive=/\/(?:games|maps|timeline|today)\/(?:|.*)$|\/teacher-tools\/certification-prep\//i.test(path);
+ const narrative=[...main.querySelectorAll('p,article p,.etp-lesson-content,.reading-content')]
+   .filter(el=>!el.closest('nav,button,summary,[role="button"],.etp-card-actions,[hidden]'))
+   .map(el=>(el.innerText||el.textContent||'').trim()).filter(t=>t.length>75);
+ const readingLength=narrative.reduce((sum,t)=>sum+t.length,0);
+ if(interactive||narrative.length<4||readingLength<850)return;
  readerLoading=true;document.body.dataset.reader='true';document.querySelector('.etp-reader')?.remove();
  for(const name of ['read-aloud.css','page-tools.css','reader-comfort.css']){const l=document.createElement('link');l.rel='stylesheet';l.href=url('assets/'+name+'?v=20261015');document.head.append(l)}
  const bar=document.createElement('aside');bar.id='page-tools';bar.innerHTML='<button class="light-toggle" type="button">Comfort</button><div class="reader-utilities"></div><div class="reader-right"></div>';document.body.append(bar);
