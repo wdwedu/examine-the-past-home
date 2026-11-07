@@ -456,3 +456,77 @@ footer .footer-social a img,footer .footer-social a[aria-label="Etsy"] img,foote
  #etpSiteHeader .etp-top-navigation .etp-top-emoji{font-size:21px!important}
  #etpSiteHeader .etp-top-navigation .etp-top-logo{width:29px!important;height:29px!important}
 }
+
+/* v7: desktop-only wider icon spread / readable hover labels; preserve phone lineup */
+@media(min-width:760px){
+ #etpSiteHeader,#etpSiteHeader .etp-header-inner.etp-header-minimal{
+  height:60px!important;min-height:60px!important;max-height:60px!important;
+ }
+ #etpSiteHeader .etp-header-inner.etp-header-minimal{
+  padding:4px clamp(34px,4vw,75px)!important;
+  gap:clamp(14px,2vw,28px)!important;
+  justify-content:space-between!important;
+ }
+ #etpSiteHeader .etp-header-minimal>.etp-icon-nav{
+  flex:0 0 53px!important;width:53px!important;min-width:53px!important;
+ }
+ #etpSiteHeader .etp-header-minimal .etp-icon-btn[data-etp-action="jukebox"]{
+  width:51px!important;height:51px!important;
+ }
+ #etpSiteHeader .etp-header-minimal>.etp-top-navigation{
+  flex:0 1 620px!important;
+  width:min(620px,62vw)!important;
+  max-width:620px!important;
+  justify-content:space-between!important;
+  gap:20px!important;
+  margin:0 auto!important;
+ }
+ #etpSiteHeader .etp-top-navigation .etp-top-link{
+  flex:0 0 52px!important;width:52px!important;height:53px!important;
+  overflow:visible!important;
+ }
+ #etpSiteHeader .etp-top-navigation .etp-top-emoji{font-size:32px!important}
+ #etpSiteHeader .etp-top-navigation .etp-top-logo{width:39px!important;height:39px!important}
+ #etpSiteHeader .etp-top-navigation .etp-top-tip{
+  top:0!important;
+  font:700 15px/1.2 Georgia,"Times New Roman",serif!important;
+  color:#a7ff75!important;
+  padding:3px 7px!important;
+ }
+ #etpSiteHeader .etp-top-navigation .etp-top-link:hover .etp-top-logo,
+ #etpSiteHeader .etp-top-navigation .etp-top-link:hover .etp-top-emoji,
+ #etpSiteHeader .etp-top-navigation .etp-top-link:focus-visible .etp-top-logo,
+ #etpSiteHeader .etp-top-navigation .etp-top-link:focus-visible .etp-top-emoji{
+  transform:translateY(9px) scale(1.1)!important;
+ }
+ #etpSiteHeader .etp-header-minimal>.etp-mobile-toggle{
+  width:53px!important;height:51px!important;min-width:53px!important;flex:0 0 53px!important;
+ }
+ #etpSiteHeader .etp-header-minimal>.etp-mobile-toggle span{
+  width:34px!important;height:3px!important;background:#fff200!important;
+  box-shadow:0 0 6px #fff20050!important;
+ }
+}
+/* Enforce luminous yellow three-line menu, no surrounding box, at every width */
+#etpSiteHeader .etp-header-inner.etp-header-minimal>.etp-mobile-toggle{
+ border:0!important;background:transparent!important;box-shadow:none!important;
+}
+#etpSiteHeader .etp-header-inner.etp-header-minimal>.etp-mobile-toggle span{
+ background:#fff200!important;opacity:1;
+}
+/* Existing movement kept; increase bar definition without changing the mobile nav layout. */
+#etpSiteHeader .etp-header-minimal .etp-sound-bars{
+ display:flex!important;align-items:center!important;justify-content:center!important;
+ gap:3px!important;height:29px!important;
+ transform:scale(1.22)!important;transform-origin:center!important;
+}
+#etpSiteHeader .etp-header-minimal .etp-sound-bars i{
+ background:#94ff53!important;opacity:1!important;
+ box-shadow:0 0 4px #94ff5380!important;
+}
+@media(max-width:759px){
+ #etpSiteHeader .etp-header-minimal .etp-sound-bars{transform:scale(1.15)!important}
+ #etpSiteHeader .etp-header-inner.etp-header-minimal>.etp-mobile-toggle span{
+  background:#fff200!important;width:26px!important;height:2.5px!important;
+ }
+}
