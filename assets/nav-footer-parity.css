@@ -104,3 +104,14 @@ footer .footer-social a[aria-label="Zazzle"] img,
  max-width:78%!important;max-height:78%!important;
  object-fit:contain!important;padding:0!important;margin:auto!important;
 }
+
+/* Four-section menu / community final parity */
+#etpSiteHeader .etp-header-inner.etp-header-minimal{justify-content:flex-end!important}
+#etpSiteHeader .etp-header-inner.etp-header-minimal>.etp-icon-nav{margin:0!important;width:auto!important;flex:0 0 auto!important}
+#etpSiteHeader .etp-header-inner.etp-header-minimal>.etp-mobile-toggle{border:0!important;background:transparent!important;border-radius:0!important;box-shadow:none!important}
+#etpSiteFooter .etp-community-logos a,#etpSiteFooter .etp-community-logos a[title="Etsy"],#etpSiteFooter .etp-community-logos a[title="Zazzle"]{width:35px!important;height:35px!important;flex:0 0 35px!important;border:1px solid #ffffff50!important;box-shadow:none!important;background:#080808!important}
+#etpSiteFooter .etp-community-logos img,#etpSiteFooter .etp-community-logos a[title="Zazzle"] img,#etpSiteFooter .etp-community-logos a[title="Etsy"] img{width:91%!important;height:91%!important;max-width:91%!important;max-height:91%!important;opacity:1!important;filter:none!important;padding:0!important}
+footer .footer-social a[aria-label="Zazzle"],footer .footer-social a[aria-label="Etsy"],footer a.community-dot.z-dot{border:1px solid #ffffff50!important;box-shadow:none!important;color:#fff!important}
+footer .footer-social a,footer.final-etp-footer .footer-social a{width:35px!important;height:35px!important;flex:0 0 35px!important}
+footer .footer-social a img,footer .footer-social a[aria-label="Etsy"] img,footer .footer-social a[aria-label="Zazzle"] img{width:91%!important;height:91%!important;max-width:91%!important;max-height:91%!important;opacity:1!important;filter:none!important;padding:0!important}
+@media(max-width:480px){#etpSiteFooter .etp-community-logos a,#etpSiteFooter .etp-community-logos a[title="Etsy"],#etpSiteFooter .etp-community-logos a[title="Zazzle"],footer .footer-social a{width:clamp(27px,8vw,34px)!important;height:clamp(27px,8vw,34px)!important;flex-basis:clamp(27px,8vw,34px)!important}}
