@@ -1,0 +1,72 @@
+name: Build public sitemap and route directory
+on:
+  push:
+    paths:
+      - '.github/workflows/build-public-sitemap.yml'
+      - 'sitemap/index.html'
+      - 'lessons/**/index.html'
+      - 'teacher-tools/**/index.html'
+      - 'games/**/index.html'
+      - 'about/index.html'
+      - 'privacy/index.html'
+      - 'terms/index.html'
+      - 'cookies/index.html'
+      - 'digital-products/index.html'
+      - 'affiliate-disclosure/index.html'
+      - 'copyright/index.html'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sitemap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - name: Build XML sitemap and browsable site inventory
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re,json,html,xml.etree.ElementTree as ET
+          base='https://www.examinethepast.com'
+          skip={'lessons/curriculum/history-technology-ai/index.html'}
+          groups={'lessons/curriculum':'History Hub · Courses and Lessons','teacher-tools':'Teacher Tools','games':'History Unlocked Games','maps':'Maps','timeline':'Timeline','today':'Today in History','lessons':'History Hub · Courses and Lessons','about':'Site Information','privacy':'Site Information','terms':'Site Information','cookies':'Site Information','affiliate-disclosure':'Site Information','copyright':'Site Information','digital-products':'Site Information','sitemap':'Site Information','faq':'Site Information','careers':'Site Information','licensing':'Site Information'}
+          routes=[]
+          for p in sorted(Path('.').rglob('index.html')):
+            rel=p.as_posix()
+            if rel.startswith(('.git/','node_modules/','.github/')) or rel in skip:continue
+            route='/' if rel=='index.html' else '/'+rel[:-len('index.html')]
+            text=p.read_text(encoding='utf-8',errors='replace')
+            match=re.search(r'<title[^>]*>(.*?)</title>',text,re.I|re.S)
+            title=html.unescape(re.sub(r'<[^>]*>','',match.group(1))).strip() if match else route
+            title=re.sub(r'\s*[|–-]\s*Examine the Past\s*$','',title,flags=re.I)
+            segs=route.strip('/').split('/')
+            if route=='/':group='Main destinations'
+            elif route.startswith('/lessons/curriculum/'):group='History Hub · Courses and Lessons'
+            elif route.startswith('/lessons/'):group='History Hub · Courses and Lessons'
+            else:group=groups.get(segs[0], 'Other History Resources')
+            routes.append({'url':route,'title':title,'group':group})
+          routes.sort(key=lambda x:(x['group'],x['title'].lower(),x['url']))
+          Path('assets').mkdir(exist_ok=True)
+          Path('assets/public-site-routes.json').write_text(json.dumps(routes,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          root=ET.Element('urlset',{'xmlns':'http://www.sitemaps.org/schemas/sitemap/0.9'})
+          for item in routes:ET.SubElement(ET.SubElement(root,'url'),'loc').text=base+item['url']
+          ET.indent(root,space='  ')
+          ET.ElementTree(root).write('sitemap.xml',encoding='utf-8',xml_declaration=True)
+          Path('robots.txt').write_text('User-agent: *\nAllow: /\nSitemap: '+base+'/sitemap.xml\n',encoding='utf-8')
+          print('Published routes:',len(routes))
+          PY
+      - name: Commit generated sitemaps
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sitemap.xml robots.txt assets/public-site-routes.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Generate public sitemap and accurate route inventory"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
