@@ -324,3 +324,17 @@ body.etp-sharing{overflow:hidden}
  #etpSiteHeader .etp-mega-header p{font-size:12px!important}
  #etpSiteHeader .etp-mega-group summary{font-size:15px!important}
 }
+
+/* Final community-logo QA: smaller mark inside consistent circular buttons. */
+#etpSiteFooter .etp-community-logos a[title="Etsy"],
+#etpSiteFooter .etp-community-logos a[title="Zazzle"]{
+ width:28px!important;height:28px!important;flex:0 0 28px!important;
+ border:1px solid rgba(255,255,255,.30)!important;background:#0d0d0d!important;
+ overflow:hidden!important;border-radius:50%!important;
+}
+#etpSiteFooter .etp-community-logos a[title="Etsy"] img,
+#etpSiteFooter .etp-community-logos a[title="Zazzle"] img{
+ display:block!important;width:66%!important;height:66%!important;
+ max-width:66%!important;max-height:66%!important;object-fit:contain!important;
+ margin:auto!important;padding:0!important;
+}
