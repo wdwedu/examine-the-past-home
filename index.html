@@ -2143,39 +2143,21 @@ body [class*="headline"]{
 #resource-vault .etp-cert-card p{font-size:clamp(.78rem,1.15vw,.92rem);max-width:none}
 #resource-vault .etp-cert-card .etp-cert-action{padding:9px 18px;font-size:.91rem}
 @media(max-width:650px){#resource-vault .etp-cert-card{padding:18px 14px}#resource-vault .etp-cert-card h3{font-size:clamp(.71rem,3.2vw,1rem)!important;letter-spacing:-.02em}#resource-vault .etp-cert-card p{font-size:.8rem}}
-</style><link rel="stylesheet" href="assets/history-hub-home-cards.css?v=20261106-16-v1"><style>
-/* Teacher Tools: delayed, non-interfering visual previews. Existing card links and motion remain intact. */
-#resource-vault .exp-card .etp-card-peek{
-  position:absolute;inset:0;z-index:3;display:block;pointer-events:none;
-  opacity:0;visibility:hidden;border-radius:inherit;overflow:hidden;
-  background-image:linear-gradient(180deg,rgba(1,7,3,.08) 0%,rgba(1,7,3,.25) 43%,rgba(1,7,3,.96) 100%),var(--etp-peek-image);
-  background-position:center;background-size:cover;
-  transform:scale(1.025);
-  transition:opacity .2s ease 0s,visibility 0s linear .2s,transform .2s ease 0s;
-}
-#resource-vault .exp-card:hover .etp-card-peek{
-  opacity:1;visibility:visible;transform:scale(1);
-  transition:opacity .35s ease .7s,visibility 0s linear .7s,transform .35s ease .7s;
-}
-#resource-vault .exp-card:focus-visible .etp-card-peek{
-  opacity:1;visibility:visible;transform:scale(1);
-  transition:opacity .3s ease,visibility 0s,transform .3s ease;
-}
-#resource-vault .etp-card-peek-caption{
-  position:absolute;bottom:0;left:0;right:0;padding:13px 17px 16px;
-  display:flex;flex-direction:column;gap:5px;color:#fff;
-  font:500 12px/1.45 Georgia,serif;text-shadow:0 1px 4px #000;
-}
-#resource-vault .etp-card-peek-caption b{
-  color:#fff000;letter-spacing:.11em;font:800 10px/1.3 Arial,sans-serif;
-}
-@media (hover:none){
-  #resource-vault .exp-card:hover .etp-card-peek{opacity:0;visibility:hidden;transform:scale(1.025)}
-}
-@media (prefers-reduced-motion:reduce){
-  #resource-vault .exp-card .etp-card-peek,
-  #resource-vault .exp-card:hover .etp-card-peek{transition:none}
-}
+</style><link rel="stylesheet" href="assets/history-hub-home-cards.css?v=20261106-16-v1">
+<style id="etp-teacher-preview-v2">
+/* Actual eight-card Teacher Tools section, dynamically created by home-structure-v50.js. */
+#etp-teacher-image-preview{position:fixed!important;z-index:2147483000!important;display:block;pointer-events:none!important;width:min(390px,calc(100vw - 24px));max-width:390px;box-sizing:border-box;padding:7px;border:1px solid rgba(255,233,53,.68);border-radius:17px;background:#081009;box-shadow:0 18px 46px rgba(0,0,0,.87),0 0 24px rgba(141,255,53,.2);opacity:0;visibility:hidden;transform:translateY(7px) scale(.975);transition:opacity .18s ease,transform .18s ease,visibility 0s linear .18s;font-family:Georgia,serif;}
+#etp-teacher-image-preview.is-shown{opacity:1;visibility:visible;transform:translateY(0) scale(1);transition:opacity .32s ease,transform .32s ease,visibility 0s;}
+#etp-teacher-image-preview .etp-preview-visual{position:relative;border-radius:11px;overflow:hidden;background:#09130f;aspect-ratio:16/9;}
+#etp-teacher-image-preview .etp-preview-visual img{width:100%;height:100%;object-fit:cover;display:block;}
+#etp-teacher-image-preview .etp-preview-shade{position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.7),transparent 48%);}
+#etp-teacher-image-preview .etp-preview-caption{padding:11px 10px 8px;color:#e7eedf;font:normal 13px/1.45 Georgia,serif;text-align:left;}
+#etp-teacher-image-preview .etp-preview-kicker{font:700 10px/1.5 Arial,sans-serif;letter-spacing:.16em;color:#aaff56;margin-bottom:4px;}
+#etp-teacher-image-preview .etp-preview-caption strong{display:block;font:bold 19px/1.2 Georgia,serif;color:#fff000;margin-bottom:4px;}
+#etp-teacher-image-preview .etp-preview-sub{display:block;color:#e5eadd;}
+#etp-teacher-image-preview .etp-preview-secondary{position:absolute;right:8px;bottom:8px;width:33%;height:43%;border:2px solid #e9ff4e;border-radius:7px;object-fit:cover;box-shadow:0 4px 14px #000;}
+@media(hover:none),(pointer:coarse){#etp-teacher-image-preview{display:none!important}}
+@media(prefers-reduced-motion:reduce){#etp-teacher-image-preview{transition:none!important}}
 </style>
 </head>
 <body>
@@ -2243,10 +2225,10 @@ body [class*="headline"]{
 <h2 class="section-title impact">Teacher Tools</h2>
 <p class="section-copy">Choose a tool and move directly into the interactive resources already built across Examine the Past.</p>
 <div class="experience-grid">
-<a class="exp-card tone-red" href="https://www.examinethepast.com/on-this-day-in-history" rel="noopener" target="_blank"><div class="exp-icon">DATE</div><h3>On This Day in History</h3><p>Choose a date and travel through major events, people, turning points, and stories connected to that day.</p><span class="etp-card-peek" aria-hidden="true" style="--etp-peek-image:url('assets/teacher-tools/on-this-day-card.webp')"><span class="etp-card-peek-caption"><b>INSIDE THE EXPERIENCE</b><span>Explore an interactive date-by-date history experience.</span></span></span></a>
-<a class="exp-card tone-blue" href="https://www.examinethepast.com/interactive-timeline" rel="noopener" target="_blank"><div class="exp-icon">TIME</div><h3>History Timeline</h3><p>Move through the broad arc of human history and explore how major eras and developments connect.</p><span class="etp-card-peek" aria-hidden="true" style="--etp-peek-image:url('assets/teacher-tools/history-timeline-card.webp')"><span class="etp-card-peek-caption"><b>INSIDE THE EXPERIENCE</b><span>See historical eras unfold in a visual storytelling timeline.</span></span></span></a>
-<a class="exp-card tone-green" href="https://www.examinethepast.com/resources/blooms-taxonomy" rel="noopener" target="_blank"><div class="exp-icon">ASK</div><h3>Bloom’s Question Builder</h3><p>Build stronger questions across the six levels of Bloom’s Taxonomy and move learners toward deeper thinking.</p><span class="etp-card-peek" aria-hidden="true" style="--etp-peek-image:url('assets/teacher-tools/blooms-taxonomy-card.webp')"><span class="etp-card-peek-caption"><b>INSIDE THE EXPERIENCE</b><span>Preview the interactive six-level thinking pyramid.</span></span></span></a>
-<a class="exp-card tone-gold" href="https://www.examinethepast.com/historical-maps" rel="noopener" target="_blank"><div class="exp-icon">MAP</div><h3>Interactive History Map</h3><p>Explore history spatially through locations, geographic relationships, events, and historical context.</p><span class="etp-card-peek" aria-hidden="true" style="--etp-peek-image:url('assets/teacher-tools/world-history-map-card.webp')"><span class="etp-card-peek-caption"><b>INSIDE THE EXPERIENCE</b><span>Explore a living map of places, people, and events.</span></span></span></a>
+<a class="exp-card tone-red" href="https://www.examinethepast.com/on-this-day-in-history" rel="noopener" target="_blank"><div class="exp-icon">DATE</div><h3>On This Day in History</h3><p>Choose a date and travel through major events, people, turning points, and stories connected to that day.</p></span></a>
+<a class="exp-card tone-blue" href="https://www.examinethepast.com/interactive-timeline" rel="noopener" target="_blank"><div class="exp-icon">TIME</div><h3>History Timeline</h3><p>Move through the broad arc of human history and explore how major eras and developments connect.</p></span></a>
+<a class="exp-card tone-green" href="https://www.examinethepast.com/resources/blooms-taxonomy" rel="noopener" target="_blank"><div class="exp-icon">ASK</div><h3>Bloom’s Question Builder</h3><p>Build stronger questions across the six levels of Bloom’s Taxonomy and move learners toward deeper thinking.</p></span></a>
+<a class="exp-card tone-gold" href="https://www.examinethepast.com/historical-maps" rel="noopener" target="_blank"><div class="exp-icon">MAP</div><h3>Interactive History Map</h3><p>Explore history spatially through locations, geographic relationships, events, and historical context.</p></span></a>
 <a class="exp-card tone-red" href="https://www.examinethepast.com/resources/current-event-article-analysis" rel="noopener" target="_blank"><div class="exp-icon">NEWS</div><h3>Current Event Analysis</h3><p>Connect today’s headlines to evidence, source evaluation, perspective, history, geography, and critical thinking.</p></a>
 <a class="exp-card tone-blue" href="https://www.examinethepast.com/resources/teaching-movie-lessons" rel="noopener" target="_blank"><div class="exp-icon">FILM</div><h3>Teaching With Movies</h3><p>Turn film into active viewing, historical analysis, evidence-based discussion, and purposeful writing.</p></a>
 
@@ -2893,5 +2875,68 @@ if(contactForm){
 <script src="assets/home-structure-v50.js?v=20261104-games-v54"></script>
 <script src="assets/home-order-v51.js?v=20261104-games-v54"></script>
 <script src="assets/home-visual-v52.js?v=52"></script>
+<script id="etp-teacher-previews-v2">
+(function(){
+  "use strict";
+  const previews={
+    "Interactive Timeline":["history-timeline-card.webp","Interactive Timeline","See the past unfold through richly connected eras and turning points."],
+    "History Maps":["world-history-map-card.webp","History Maps","Discover history geographically through an immersive world explorer."],
+    "Today in History":["on-this-day-card.webp","Today in History","One date. Extraordinary stories. Explore the events behind the calendar."],
+    "History Unlocked":["history-unlocked-card.webp","History Unlocked","Step inside interactive historical challenges and games.","presidents-games-card.webp"],
+    "Bloom’s Taxonomy":["blooms-taxonomy-card.webp","Bloom’s Taxonomy","Explore the six levels of thinking in an interactive visual experience."],
+    "Classroom Management":["classroom-management-card.webp","Classroom Management","Explore classroom strategies with practical, visual examples."],
+    "Learner Supports":["learner-supports-card.webp","Learner Supports","Preview flexible ways to approach and support learning."]
+  };
+  // There is no corresponding screenshot for Movies in the Classroom; leave that card as-is.
+  const p=document.createElement("aside");
+  p.id="etp-teacher-image-preview";p.setAttribute("aria-hidden","true");
+  p.innerHTML='<div class="etp-preview-visual"><img alt="" decoding="async"><div class="etp-preview-shade"></div></div><div class="etp-preview-caption"><div class="etp-preview-kicker">A LOOK INSIDE</div><strong></strong><span class="etp-preview-sub"></span></div>';
+  document.body.appendChild(p);
+  const main=p.querySelector("img"),title=p.querySelector("strong"),sub=p.querySelector(".etp-preview-sub"),visual=p.querySelector(".etp-preview-visual");
+  let active=null,showTimer=null;
+  const clear=()=>{if(showTimer!==null){clearTimeout(showTimer);showTimer=null}};
+  function close(){clear();active=null;p.classList.remove("is-shown");}
+  function locate(card){
+    const r=card.getBoundingClientRect(),w=Math.min(390,innerWidth-24),h=p.offsetHeight||300;
+    const x=Math.max(12,Math.min(innerWidth-w-12,r.left+r.width/2-w/2));
+    const above=r.top>=h+17;
+    const y=above?Math.max(10,r.top-h-12):Math.min(innerHeight-h-10,r.bottom+12);
+    p.style.left=x+"px";p.style.top=Math.max(8,y)+"px";
+  }
+  function open(card,data){
+    if(active!==card)return;
+    const [file,heading,description,extra]=data;
+    main.src="assets/teacher-tools/"+file;
+    title.textContent=heading;sub.textContent=description;
+    visual.querySelector(".etp-preview-secondary")?.remove();
+    if(extra){const mini=document.createElement("img");mini.className="etp-preview-secondary";mini.alt="";mini.src="assets/teacher-tools/"+extra;visual.appendChild(mini);}
+    locate(card);p.classList.add("is-shown");locate(card);
+  }
+  function cardData(card){return previews[card.querySelector("h3")?.textContent.trim()]||null}
+  document.addEventListener("pointerover",e=>{
+    if(e.pointerType==="touch")return;
+    const card=e.target.closest?.("#teacher-tools-v50 .etp-tool-card");
+    if(!card||card.contains(e.relatedTarget)||!cardData(card))return;
+    clear();p.classList.remove("is-shown");active=card;
+    const data=cardData(card);
+    showTimer=setTimeout(()=>{showTimer=null;open(card,data)},650);
+  });
+  document.addEventListener("pointerout",e=>{
+    const card=e.target.closest?.("#teacher-tools-v50 .etp-tool-card");
+    if(card&&!card.contains(e.relatedTarget)&&card===active)close();
+  });
+  document.addEventListener("focusin",e=>{
+    const card=e.target.closest?.("#teacher-tools-v50 .etp-tool-card");
+    if(!card||!cardData(card))return;
+    clear();active=card;open(card,cardData(card));
+  });
+  document.addEventListener("focusout",e=>{
+    const card=e.target.closest?.("#teacher-tools-v50 .etp-tool-card");if(card===active)close();
+  });
+  window.addEventListener("scroll",()=>{if(active&&p.classList.contains("is-shown"))locate(active)},{passive:true});
+  window.addEventListener("resize",()=>{if(active&&p.classList.contains("is-shown"))locate(active)});
+  document.addEventListener("keydown",e=>{if(e.key==="Escape")close()});
+})();
+</script>
 </body>
 </html>
