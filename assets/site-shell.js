@@ -4,11 +4,11 @@ const u=p=>root+p;
 document.body.dataset.etpShell="shared";
 function loadCSS(href,key){if(document.querySelector('link[data-etp-load="'+key+'"]'))return;const l=document.createElement("link");l.rel="stylesheet";l.href=href;l.dataset.etpLoad=key;document.head.appendChild(l)}
 function loadJS(src,key){if([...document.scripts].some(s=>s.src&&new URL(s.src).pathname===new URL(src,location.href).pathname))return;const x=document.createElement("script");x.src=src;x.async=false;x.dataset.etpLoad=key;document.head.appendChild(x)}
-loadCSS(u("assets/site-shell.css?v=20261107-mega-nav-v1"),"shell-css");
+loadCSS(u("assets/site-shell.css?v=20261107-four-column-v2"),"shell-css");
 loadCSS(u("assets/etp-transitions.css?v=20261104-cinematic-5-v1"),"transitions-css");loadJS(u("assets/etp-transitions.js?v=20261104-cinematic-5-v1"),"transitions-js");
 loadCSS(u("assets/etp-experience-v50.css?v=20261015-etp-r2"),"experience-css");loadJS(u("assets/etp-experience-v50.js?v=20261102-history-jukebox"),"experience-js");
 loadCSS(u("assets/repair-v63.css?v=20261107-reader-audit-v1"),"repair-css");loadJS(u("assets/repair-v63.js?v=20261107-reader-audit-v1"),"repair-js");
-loadCSS(u("assets/nav-footer-parity.css?v=20261107-mega-nav-v1"),"nav-footer-parity");
+loadCSS(u("assets/nav-footer-parity.css?v=20261107-four-column-v2"),"nav-footer-parity");
 if(/\/teacher-tools\/blooms-taxonomy\//.test(location.pathname))loadCSS(u("assets/blooms-dark-levels.css?v=20261107-v1"),"bloom-dark-levels");
 if(![...document.scripts].some(x=>x.src&&x.src.includes("/app-assets/install.js")))loadJS(u("app-assets/install.js?v=20261104-unified-v1"),"install-js");
 const header=document.createElement("header");header.id="etpSiteHeader";
@@ -87,7 +87,7 @@ const menuGroups=[
  ["History Hub","◉",[["All Courses","lessons/"],["Grade 5 · Early American History","lessons/curriculum/grade-5-early-american-history/"],["Grade 6 · Ancient World","lessons/curriculum/grade-6-ancient-world-history/"],["Grade 7 · World Cultures","lessons/curriculum/grade-7-world-cultures-geography/"],["Grade 8 · Early U.S. History","lessons/curriculum/grade-8-early-united-states-history/"],["Grade 9 · U.S. History","lessons/curriculum/grade-9-united-states-history/"],["Grade 10 · Civics","lessons/curriculum/grade-10-civics-government/"],["Grade 11 · Modern World","lessons/curriculum/grade-11-modern-world-history/"],["Grade 12 · Electives","lessons/curriculum/grade-12-social-studies-electives/"],["Black History · Lessons","lessons/black-history/"],["Black History · Hall","lessons/black-history-heroes/"],["Black History · Games","games/black-history-challenge/"]]]
 ];
 const safeText=t=>String(t).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const groupMarkup=menuGroups.map(([label,icon,links])=>'<details class="etp-mega-group" open><summary><span class="etp-heading-icon" aria-hidden="true">'+icon+'</span><span class="etp-heading-text">'+safeText(label)+'</span><span class="etp-mega-expander" aria-hidden="true">+</span></summary><div class="etp-mega-links">'+links.map(([name,url])=>url==="@install"?'<button type="button" data-etp-action="install">'+safeText(name)+'</button>':'<a href="'+u(url.replace(/^\\//,""))+'">'+safeText(name)+'</a>').join('')+'</div></details>').join('');
+const groupMarkup=menuGroups.map(([label,icon,links])=>'<details class="etp-mega-group" open><summary><span class="etp-heading-icon" aria-hidden="true">'+icon+'</span><span class="etp-heading-text">'+safeText(label)+'</span><span class="etp-mega-expander" aria-hidden="true">+</span></summary><div class="etp-mega-links">'+links.map(([name,url])=>url==="@install"?'<button type="button" data-etp-action="install">'+safeText(name)+'</button>':'<a href="'+u(url.startsWith("/")?url.slice(1):url)+'">'+safeText(name)+'</a>').join('')+'</div></details>').join('');
 panel.innerHTML='<div class="etp-mega-header"><div><small>EXAMINE THE PAST</small><strong>Explore History</strong><p>Courses, games, tools, and discoveries—all in one place.</p></div><button type="button" class="etp-mega-close" aria-label="Close menu">×</button></div>'+
 '<div class="etp-mobile-list"><div class="etp-mega-grid">'+groupMarkup+'</div>'+
 '<div class="etp-mega-bottom"><button type="button" data-etp-share>Share This Page</button></div></div>';
