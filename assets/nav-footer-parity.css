@@ -94,3 +94,13 @@ footer a.community-dot.z-dot{
   width:clamp(20px,7.7vw,27px)!important;height:clamp(20px,7.7vw,27px)!important;
  }
 }
+
+/* Consistent community marks across page variants: reduce only Etsy and Zazzle. */
+footer .footer-social a[aria-label="Etsy"] img,
+footer .footer-social a[aria-label="Zazzle"] img,
+#etpSiteFooter .etp-community a[title="Etsy"] img,
+#etpSiteFooter .etp-community a[title="Zazzle"] img{
+ width:78%!important;height:78%!important;
+ max-width:78%!important;max-height:78%!important;
+ object-fit:contain!important;padding:0!important;margin:auto!important;
+}
