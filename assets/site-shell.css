@@ -222,3 +222,11 @@ body.etp-sharing{overflow:hidden}
 #etpSiteHeader .etp-icon-btn:has(.etp-nav-flag){display:flex;align-items:center;justify-content:center}
 #etpSiteHeader .etp-icon-nav{gap:clamp(3px,.65vw,9px)!important}
 #etpSiteHeader .etp-tip{bottom:calc(100% + 4px)!important;top:auto!important}
+
+/* Equal-size community buttons; the Etsy and Zazzle artwork is slightly inset. */
+#etpSiteFooter .etp-community-logos a{width:28px!important;height:28px!important;flex:0 0 28px!important}
+#etpSiteFooter .etp-community-logos a img{width:100%!important;height:100%!important;object-fit:contain!important}
+#etpSiteFooter .etp-community-logos a[title="Etsy"] img,
+#etpSiteFooter .etp-community-logos a[title="Zazzle"] img{
+ width:78%!important;height:78%!important;object-fit:contain!important;
+}
