@@ -216,3 +216,87 @@ footer .footer-social a img,footer .footer-social a[aria-label="Etsy"] img,foote
 #etpSiteHeader .etp-mega-subheading+a{font-weight:700!important}
 #teacher-tools,#history-unlocked,#history-hub-v50,#top{scroll-margin-top:75px!important}
 @media(max-width:759px){#teacher-tools,#history-unlocked,#history-hub-v50,#top{scroll-margin-top:56px!important}}
+
+/* 2026-11-07 icon-only header: green jukebox | four hover icons | white menu */
+#etpSiteHeader .etp-header-inner.etp-header-minimal{
+ display:flex!important;align-items:center!important;justify-content:space-between!important;
+ gap:clamp(8px,2vw,25px)!important; padding:5px clamp(10px,2.6vw,36px)!important;
+ height:62px!important;min-height:62px!important;max-height:62px!important;
+}
+#etpSiteHeader .etp-header-minimal>.etp-earth-home{display:none!important}
+#etpSiteHeader .etp-header-minimal>.etp-icon-nav{
+ order:0!important; flex:0 0 46px!important; width:46px!important; min-width:46px!important;
+ display:flex!important;align-items:center!important;justify-content:flex-start!important;
+ margin:0!important;
+}
+#etpSiteHeader .etp-header-minimal .etp-icon-btn[data-etp-action="jukebox"]{
+ color:#94ff53!important; width:42px!important;height:44px!important;
+}
+#etpSiteHeader .etp-header-minimal>.etp-top-navigation{
+ order:1!important; flex:1 1 auto!important;min-width:0!important;
+ display:flex!important;align-items:center!important;justify-content:center!important;
+ gap:clamp(16px,5vw,80px)!important;
+}
+#etpSiteHeader .etp-top-navigation .etp-top-link{
+ display:grid!important;place-items:center!important;position:relative!important;
+ flex:0 0 44px!important; width:44px!important;height:48px!important;
+ padding:0!important;margin:0!important;border:0!important;border-radius:8px!important;
+ text-decoration:none!important;background:transparent!important;color:#fff!important;
+}
+#etpSiteHeader .etp-top-navigation .etp-top-link:hover,
+#etpSiteHeader .etp-top-navigation .etp-top-link:focus-visible{
+ background:#131713!important;text-decoration:none!important;transform:translateY(-2px)!important;
+}
+#etpSiteHeader .etp-top-navigation .etp-top-emoji{
+ display:block!important; font:normal 27px/1 sans-serif!important;letter-spacing:0!important;
+}
+#etpSiteHeader .etp-top-navigation .etp-top-tip{
+ position:absolute!important;top:-24px!important;bottom:auto!important;left:50%!important;
+ transform:translate(-50%,5px)!important;opacity:0!important;pointer-events:none!important;
+ display:block!important;white-space:nowrap!important;color:#94ff53!important;
+ font:700 12px/1.2 Georgia,"Times New Roman",serif!important;
+ background:#080808!important;padding:3px 7px!important;border-radius:4px!important;
+ transition:opacity .16s ease,transform .16s ease!important;
+}
+#etpSiteHeader .etp-top-navigation .etp-top-link:hover .etp-top-tip,
+#etpSiteHeader .etp-top-navigation .etp-top-link:focus-visible .etp-top-tip{
+ opacity:1!important;transform:translate(-50%,0)!important;
+}
+#etpSiteHeader .etp-header-minimal>.etp-mobile-toggle{
+ order:2!important; flex:0 0 42px!important;width:42px!important;min-width:42px!important;
+ margin:0!important;display:flex!important;background:transparent!important;
+ border:0!important;box-shadow:none!important;border-radius:0!important;
+}
+#etpSiteHeader .etp-header-minimal>.etp-mobile-toggle span{
+ background:#fff!important;box-shadow:none!important;width:26px!important;height:3px!important;
+}
+@media(max-width:759px){
+ #etpSiteHeader{height:48px!important;min-height:48px!important;max-height:48px!important}
+ #etpSiteHeader .etp-header-inner.etp-header-minimal{
+  height:48px!important;min-height:48px!important;max-height:48px!important;
+  padding:3px 9px!important;gap:4px!important;
+ }
+ #etpSiteHeader .etp-header-minimal>.etp-icon-nav{
+  flex:0 0 33px!important;min-width:33px!important;width:33px!important;
+ }
+ #etpSiteHeader .etp-header-minimal .etp-icon-btn[data-etp-action="jukebox"]{width:33px!important;height:38px!important}
+ #etpSiteHeader .etp-header-minimal>.etp-top-navigation{
+  flex:1 1 auto!important;gap:clamp(7px,3vw,22px)!important;justify-content:space-evenly!important;
+ }
+ #etpSiteHeader .etp-top-navigation .etp-top-link{
+  flex:0 0 clamp(28px,8vw,40px)!important;width:clamp(28px,8vw,40px)!important;height:39px!important;
+ }
+ #etpSiteHeader .etp-top-navigation .etp-top-emoji{font-size:clamp(20px,5.8vw,25px)!important}
+ #etpSiteHeader .etp-header-minimal>.etp-mobile-toggle{
+  flex:0 0 33px!important;min-width:33px!important;width:33px!important;height:39px!important;
+ }
+ #etpSiteHeader .etp-header-minimal>.etp-mobile-toggle span{width:24px!important;height:2px!important;background:#fff!important}
+ #etpSiteHeader .etp-top-navigation .etp-top-tip{top:-20px!important;font-size:10px!important}
+}
+@media(max-width:380px){
+ #etpSiteHeader .etp-header-inner.etp-header-minimal{padding-inline:5px!important;gap:2px!important}
+ #etpSiteHeader .etp-header-minimal>.etp-top-navigation{gap:4px!important}
+ #etpSiteHeader .etp-top-navigation .etp-top-link{flex-basis:28px!important;width:28px!important}
+ #etpSiteHeader .etp-header-minimal>.etp-icon-nav{flex-basis:28px!important;min-width:28px!important;width:28px!important}
+ #etpSiteHeader .etp-header-minimal>.etp-mobile-toggle{flex-basis:29px!important;min-width:29px!important;width:29px!important}
+}
