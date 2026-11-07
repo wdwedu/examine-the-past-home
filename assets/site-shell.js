@@ -4,11 +4,11 @@ const u=p=>root+p;
 document.body.dataset.etpShell="shared";
 function loadCSS(href,key){if(document.querySelector('link[data-etp-load="'+key+'"]'))return;const l=document.createElement("link");l.rel="stylesheet";l.href=href;l.dataset.etpLoad=key;document.head.appendChild(l)}
 function loadJS(src,key){if([...document.scripts].some(s=>s.src&&new URL(s.src).pathname===new URL(src,location.href).pathname))return;const x=document.createElement("script");x.src=src;x.async=false;x.dataset.etpLoad=key;document.head.appendChild(x)}
-loadCSS(u("assets/site-shell.css?v=20261107-four-column-v2"),"shell-css");
+loadCSS(u("assets/site-shell.css?v=20261107-topnav-v3"),"shell-css");
 loadCSS(u("assets/etp-transitions.css?v=20261104-cinematic-5-v1"),"transitions-css");loadJS(u("assets/etp-transitions.js?v=20261104-cinematic-5-v1"),"transitions-js");
 loadCSS(u("assets/etp-experience-v50.css?v=20261015-etp-r2"),"experience-css");loadJS(u("assets/etp-experience-v50.js?v=20261102-history-jukebox"),"experience-js");
 loadCSS(u("assets/repair-v63.css?v=20261107-reader-audit-v1"),"repair-css");loadJS(u("assets/repair-v63.js?v=20261107-reader-audit-v1"),"repair-js");
-loadCSS(u("assets/nav-footer-parity.css?v=20261107-four-column-v2"),"nav-footer-parity");
+loadCSS(u("assets/nav-footer-parity.css?v=20261107-topnav-v3"),"nav-footer-parity");
 if(/\/teacher-tools\/blooms-taxonomy\//.test(location.pathname))loadCSS(u("assets/blooms-dark-levels.css?v=20261107-v1"),"bloom-dark-levels");
 if(![...document.scripts].some(x=>x.src&&x.src.includes("/app-assets/install.js")))loadJS(u("app-assets/install.js?v=20261104-unified-v1"),"install-js");
 const header=document.createElement("header");header.id="etpSiteHeader";
@@ -27,7 +27,12 @@ header.innerHTML='<div class="etp-header-inner"><nav class="etp-icon-nav" aria-l
 '<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('')+'#contact-section">📧</a><span class="etp-tip">Contact Us</span></div>'+
 '<div class="etp-nav-item"><button class="etp-icon-btn" type="button" data-etp-action="jukebox" aria-label="Open History Jukebox"><span class="etp-sound-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></button><span class="etp-tip">History Jukebox</span></div>'+
 '</nav></div>';
-header.innerHTML='<div class="etp-header-inner etp-header-minimal"><nav class="etp-icon-nav" aria-label="Music"><div class="etp-nav-item"><button class="etp-icon-btn" type="button" data-etp-action="jukebox" aria-label="Open History Jukebox"><span class="etp-sound-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></button><span class="etp-tip">History Jukebox</span></div></nav></div>';
+header.innerHTML='<div class="etp-header-inner etp-header-minimal"><nav class="etp-top-navigation" aria-label="Primary site navigation">'+
+'<a class="etp-top-link" href="'+u('')+'#top"><span class="etp-top-emoji" aria-hidden="true">🏠</span><span>Home</span></a>'+
+'<a class="etp-top-link" href="'+u('')+'#teacher-tools"><span class="etp-top-emoji" aria-hidden="true">🧰</span><span>Tools</span></a>'+
+'<a class="etp-top-link" href="'+u('')+'#history-unlocked"><span class="etp-top-emoji" aria-hidden="true">🎮</span><span>Games</span></a>'+
+'<a class="etp-top-link" href="'+u('')+'#history-hub-v50"><span class="etp-top-emoji" aria-hidden="true">📚</span><span>Courses</span></a>'+
+'</nav><nav class="etp-icon-nav" aria-label="Music"><div class="etp-nav-item"><button class="etp-icon-btn" type="button" data-etp-action="jukebox" aria-label="Open History Jukebox"><span class="etp-sound-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></button><span class="etp-tip">History Jukebox</span></div></nav></div>';
 const earthHome=document.createElement("a");earthHome.className="etp-earth-home";earthHome.href=u("");earthHome.setAttribute("aria-label","Examine the Past home");earthHome.innerHTML='<img src="'+u('app-assets/icon-192.png')+'" alt="">';header.querySelector(".etp-header-minimal").prepend(earthHome);
 document.body.prepend(header);
 
@@ -87,12 +92,12 @@ const menuGroups=[
  ["History Hub","◉",[["All Courses","lessons/"],["Grade 5 · Early American History","lessons/curriculum/grade-5-early-american-history/"],["Grade 6 · Ancient World","lessons/curriculum/grade-6-ancient-world-history/"],["Grade 7 · World Cultures","lessons/curriculum/grade-7-world-cultures-geography/"],["Grade 8 · Early U.S. History","lessons/curriculum/grade-8-early-united-states-history/"],["Grade 9 · U.S. History","lessons/curriculum/grade-9-united-states-history/"],["Grade 10 · Civics","lessons/curriculum/grade-10-civics-government/"],["Grade 11 · Modern World","lessons/curriculum/grade-11-modern-world-history/"],["Grade 12 · Electives","lessons/curriculum/grade-12-social-studies-electives/"],["Black History · Lessons","lessons/black-history/"],["Black History · Hall","lessons/black-history-heroes/"],["Black History · Games","games/black-history-challenge/"]]]
 ];
 const safeText=t=>String(t).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const groupMarkup=menuGroups.map(([label,icon,links])=>'<details class="etp-mega-group" open><summary><span class="etp-heading-icon" aria-hidden="true">'+icon+'</span><span class="etp-heading-text">'+safeText(label)+'</span><span class="etp-mega-expander" aria-hidden="true">+</span></summary><div class="etp-mega-links">'+links.map(([name,url])=>url==="@install"?'<button type="button" data-etp-action="install">'+safeText(name)+'</button>':'<a href="'+u(url.startsWith("/")?url.slice(1):url)+'">'+safeText(name)+'</a>').join('')+'</div></details>').join('');
+const groupMarkup=menuGroups.map(([label,icon,links])=>'<section class="etp-mega-group" aria-label="'+safeText(label)+'"><h2 class="etp-mega-title"><span class="etp-heading-icon" aria-hidden="true">'+icon+'</span><span class="etp-heading-text">'+safeText(label)+'</span></h2><div class="etp-mega-links">'+links.map(([name,url])=>url==="@install"?'<button type="button" data-etp-action="install">'+safeText(name)+'</button>':'<a href="'+u(url.startsWith("/")?url.slice(1):url)+'">'+safeText(name)+'</a>').join('')+'</div></section>').join('');
 panel.innerHTML='<div class="etp-mega-header"><div><small>EXAMINE THE PAST</small><strong>Explore History</strong><p>Courses, games, tools, and discoveries—all in one place.</p></div><button type="button" class="etp-mega-close" aria-label="Close menu">×</button></div>'+
 '<div class="etp-mobile-list"><div class="etp-mega-grid">'+groupMarkup+'</div>'+
 '<div class="etp-mega-bottom"><button type="button" data-etp-share>Share This Page</button></div></div>';
 panel.querySelector(".etp-mega-close")?.addEventListener("click",()=>{panel.hidden=true;toggle.classList.remove("open");toggle.setAttribute("aria-expanded","false");toggle.focus()});
-header.querySelector(".etp-header-inner").prepend(toggle);header.querySelector(".etp-header-inner").append(panel);
+header.querySelector(".etp-header-inner").append(toggle);header.querySelector(".etp-header-inner").append(panel);
 panel.querySelector('[data-etp-action="install"]')?.addEventListener("click",e=>{e.preventDefault();if(typeof window.siteInstallApp==="function")window.siteInstallApp();else {const b=document.querySelector(".site-app-footer-text");if(b)b.click();}});
 function closeMobile(){panel.hidden=true;toggle.classList.remove("open");toggle.setAttribute("aria-expanded","false");toggle.setAttribute("aria-label","Open navigation")}
 toggle.addEventListener("click",()=>{const open=panel.hidden;panel.hidden=!open;toggle.classList.toggle("open",open);toggle.setAttribute("aria-expanded",String(open));toggle.setAttribute("aria-label",open?"Close navigation":"Open navigation")});panel.querySelectorAll("a").forEach(a=>a.addEventListener("click",closeMobile));document.addEventListener("keydown",e=>{if(e.key==="Escape")closeMobile()});
