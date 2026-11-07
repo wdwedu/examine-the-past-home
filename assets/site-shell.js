@@ -4,11 +4,11 @@ const u=p=>root+p;
 document.body.dataset.etpShell="shared";
 function loadCSS(href,key){if(document.querySelector('link[data-etp-load="'+key+'"]'))return;const l=document.createElement("link");l.rel="stylesheet";l.href=href;l.dataset.etpLoad=key;document.head.appendChild(l)}
 function loadJS(src,key){if([...document.scripts].some(s=>s.src&&new URL(s.src).pathname===new URL(src,location.href).pathname))return;const x=document.createElement("script");x.src=src;x.async=false;x.dataset.etpLoad=key;document.head.appendChild(x)}
-loadCSS(u("assets/site-shell.css?v=20261107-desktop-spacing-v7"),"shell-css");
+loadCSS(u("assets/site-shell.css?v=20261107-sketch-mega-v8"),"shell-css");
 loadCSS(u("assets/etp-transitions.css?v=20261104-cinematic-5-v1"),"transitions-css");loadJS(u("assets/etp-transitions.js?v=20261104-cinematic-5-v1"),"transitions-js");
 loadCSS(u("assets/etp-experience-v50.css?v=20261015-etp-r2"),"experience-css");loadJS(u("assets/etp-experience-v50.js?v=20261102-history-jukebox"),"experience-js");
 loadCSS(u("assets/repair-v63.css?v=20261107-reader-audit-v1"),"repair-css");loadJS(u("assets/repair-v63.js?v=20261107-reader-audit-v1"),"repair-js");
-loadCSS(u("assets/nav-footer-parity.css?v=20261107-desktop-spacing-v7"),"nav-footer-parity");
+loadCSS(u("assets/nav-footer-parity.css?v=20261107-sketch-mega-v8"),"nav-footer-parity");
 if(/\/teacher-tools\/blooms-taxonomy\//.test(location.pathname))loadCSS(u("assets/blooms-dark-levels.css?v=20261107-v1"),"bloom-dark-levels");
 if(![...document.scripts].some(x=>x.src&&x.src.includes("/app-assets/install.js")))loadJS(u("app-assets/install.js?v=20261104-unified-v1"),"install-js");
 const header=document.createElement("header");header.id="etpSiteHeader";
@@ -69,6 +69,10 @@ shareBox.querySelector("[data-etp-native]").addEventListener("click",async()=>{i
 document.addEventListener("keydown",e=>{if(shareBox.hidden)return;if(e.key==="Escape"){e.preventDefault();closeShare()}if(e.key==="Tab"){const focusable=[...shareBox.querySelectorAll("button,a[href]")];if(!focusable.length)return;const first=focusable[0],last=focusable.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}});
 
 const toggle=document.createElement("button");toggle.className="etp-mobile-toggle";toggle.type="button";toggle.setAttribute("aria-label","Open navigation");toggle.setAttribute("aria-expanded","false");toggle.innerHTML="<span></span><span></span><span></span>";
+toggle.classList.add("etp-yellow-menu");
+toggle.style.setProperty("color","#fff200","important");
+for(const bar of toggle.children){bar.style.setProperty("background-color","#fff200","important");bar.style.setProperty("background","#fff200","important");}
+
 const panel=document.createElement("div");panel.className="etp-mobile-panel";panel.hidden=true;
 panel.innerHTML='<div class="etp-mobile-install"><button type="button" data-etp-action="install"><span>⬇️</span><b>Install App</b></button></div>'+
 '<div class="etp-mobile-heading">Navigate</div><div class="etp-mobile-list">'+
@@ -93,17 +97,61 @@ panel.innerHTML='<div class="etp-mobile-install"><button type="button" data-etp-
 '<button type="button" data-etp-action="jukebox"><span>🎵</span><b>History Jukebox</b></button>'+
 '</div>';
 // Unified expanded site menu: desktop and mobile use the same navigation tree.
-const menuGroups=[
- ["Home","⌂",[["About","about/"],["Contact","/#contact-section"],["Install App","@install"]]],
- ["Student / Teacher Tools","▤",[["On This Day in History","today/"],["Maps","maps/"],["Timeline","timeline/"],["Movies in the Classroom","teacher-tools/movies-in-the-classroom/"],["Bloom’s Taxonomy","teacher-tools/blooms-taxonomy/"],["Classroom Management","teacher-tools/classroom-management/"],["Learning Styles","teacher-tools/learning-styles/"],["History Certification Prep","teacher-tools/certification-prep/"]]],
- ["Games","♟",[["History Unlocked","games/"],["Presidential Challenges","games/presidential-challenges/"],["Presidential Portraits","games/presidential-challenges/"],["Presidents Bingo","games/presidential-challenges/"],["Who Am I? · Presidents","games/presidential-challenges/"],["Presidential Connection","games/presidential-challenges/"],["Challenge Board","games/presidential-challenges/"],["Black History","games/black-history-challenge/"],["Black History Legends Hall","lessons/black-history-heroes/"],["Black History Bingo","games/black-history-challenge/"],["Who Am I? · Black History","games/black-history-challenge/"],["Time Shuffle","games/time-rush/"]]],
- ["History Hub","◉",[["All Courses","lessons/"],["Grade 5 · Early American History","lessons/curriculum/grade-5-early-american-history/"],["Grade 6 · Ancient World","lessons/curriculum/grade-6-ancient-world-history/"],["Grade 7 · World Cultures","lessons/curriculum/grade-7-world-cultures-geography/"],["Grade 8 · Early U.S. History","lessons/curriculum/grade-8-early-united-states-history/"],["Grade 9 · U.S. History","lessons/curriculum/grade-9-united-states-history/"],["Grade 10 · Civics","lessons/curriculum/grade-10-civics-government/"],["Grade 11 · Modern World","lessons/curriculum/grade-11-modern-world-history/"],["Grade 12 · Electives","lessons/curriculum/grade-12-social-studies-electives/"],["Black History · Lessons","lessons/black-history/"],["Black History · Hall","lessons/black-history-heroes/"],["Black History · Games","games/black-history-challenge/"]]]
+// Sketch-matched site map: three open columns above a full-width History Hub.
+const menuSections=[
+ {title:"Home",icon:"🏠",href:"",links:[["About","about/"],["Contact","/#contact-section"],["Install App","@install"]]},
+ {title:"Student / Teacher Tools",icon:"💼",href:"teacher-tools/",links:[
+  ["On This Day in History","today/"],["Maps","maps/"],["Timeline","timeline/"],
+  ["Movies in the Classroom","teacher-tools/movies-in-the-classroom/"],
+  ["Bloom’s Taxonomy","teacher-tools/blooms-taxonomy/"],
+  ["Classroom Management","teacher-tools/classroom-management/"],
+  ["Learning Styles","teacher-tools/learning-styles/"],
+  ["History Certification Prep","teacher-tools/certification-prep/"]]},
+ {title:"Games",icon:"🎮",href:"games/",groups:[
+  {title:"History Unlocked",href:"games/",links:[["All Games","games/"]]},
+  {title:"Presidential Challenges",href:"games/presidential-challenges/",links:[
+   ["Presidential Portraits","games/presidential-challenges/"],
+   ["Presidents Bingo","games/presidential-challenges/"],
+   ["Who Am I?","games/presidential-challenges/"],
+   ["Presidential Connection","games/presidential-challenges/"],
+   ["Challenge Board","games/presidential-challenges/"]]},
+  {title:"Black History",href:"games/black-history-challenge/",links:[
+   ["Black History Legends Hall","lessons/black-history-heroes/"],
+   ["Black History Bingo","games/black-history-challenge/"],
+   ["Who Am I?","games/black-history-challenge/"],
+   ["Time Shuffle","games/time-rush/"]]}
+ ]}
+];
+const grades=[
+ ["5th · Early American","lessons/curriculum/grade-5-early-american-history/"],
+ ["6th · Ancient World","lessons/curriculum/grade-6-ancient-world-history/"],
+ ["7th · World Cultures","lessons/curriculum/grade-7-world-cultures-geography/"],
+ ["8th · Early U.S. History","lessons/curriculum/grade-8-early-united-states-history/"],
+ ["9th · U.S. History","lessons/curriculum/grade-9-united-states-history/"],
+ ["10th · Civics & Government","lessons/curriculum/grade-10-civics-government/"],
+ ["11th · Modern World","lessons/curriculum/grade-11-modern-world-history/"],
+ ["12th · Social Studies Electives","lessons/curriculum/grade-12-social-studies-electives/"]
 ];
 const safeText=t=>String(t).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const groupMarkup=menuGroups.map(([label,icon,links])=>'<section class="etp-mega-group" aria-label="'+safeText(label)+'"><h2 class="etp-mega-title"><span class="etp-heading-icon" aria-hidden="true">'+icon+'</span><span class="etp-heading-text">'+safeText(label)+'</span></h2><div class="etp-mega-links">'+links.map(([name,url])=>{const subgroup=label==="Games"&&(name==="Presidential Challenges"||name==="Black History")||label==="History Hub"&&name==="Black History · Lessons";const heading=subgroup?'<h3 class="etp-mega-subheading">'+safeText(label==="Games"&&name==="Black History"?"Black History":label==="Games"?"Presidential Challenges":"Black History")+'</h3>':'';const link=url==="@install"?'<button type="button" data-etp-action="install">'+safeText(name)+'</button>':'<a href="'+u(url.startsWith("/")?url.slice(1):url)+'">'+safeText(name)+'</a>';return heading+link}).join('')+'</div></section>').join('');
-panel.innerHTML='<div class="etp-mega-header"><div><small>EXAMINE THE PAST</small><strong>Explore History</strong><p>Courses, games, tools, and discoveries—all in one place.</p></div><button type="button" class="etp-mega-close" aria-label="Close menu">×</button></div>'+
-'<div class="etp-mobile-list"><div class="etp-mega-grid">'+groupMarkup+'</div>'+
-'<div class="etp-mega-bottom"><button type="button" data-etp-share>Share This Page</button></div></div>';
+const menuLink=([name,path],css="")=>path==="@install"?
+ '<button type="button" class="etp-map-link '+css+'" data-etp-action="install">'+safeText(name)+'</button>':
+ '<a class="etp-map-link '+css+'" href="'+u(path.startsWith("/")?path.slice(1):path)+'">'+safeText(name)+'</a>';
+const topMarkup=menuSections.map(section=>
+ '<section class="etp-map-column" aria-label="'+safeText(section.title)+'">'+
+ '<h2 class="etp-map-title"><a href="'+u(section.href)+'"><span class="etp-map-main-icon" aria-hidden="true">'+section.icon+'</span>'+safeText(section.title)+'</a></h2>'+
+ (section.links?'<div class="etp-map-column-links">'+section.links.map(v=>menuLink(v)).join('')+'</div>':'')+
+ (section.groups?section.groups.map(g=>'<div class="etp-map-subgroup"><h3><a href="'+u(g.href)+'">'+safeText(g.title)+'</a></h3>'+
+ '<div class="etp-map-column-links">'+g.links.map(v=>menuLink(v)).join('')+'</div></div>').join(''):'')+
+ '</section>').join('');
+panel.innerHTML='<div class="etp-map-head"><span>EXAMINE THE PAST · EXPLORE</span><button type="button" class="etp-mega-close" aria-label="Close menu">×</button></div>'+
+ '<div class="etp-map-content"><div class="etp-map-primary">'+topMarkup+'</div>'+
+ '<section class="etp-map-history" aria-label="History Hub courses">'+
+ '<h2 class="etp-map-title"><a href="'+u('lessons/')+'"><span class="etp-map-main-icon" aria-hidden="true">📚</span>History Hub · Courses</a></h2>'+
+ '<div class="etp-map-grades">'+grades.map(v=>menuLink(v,"etp-map-grade")).join('')+'</div>'+
+ '<div class="etp-map-history-bottom"><h3><a href="'+u('lessons/black-history/')+'">Black History</a></h3>'+
+ '<div class="etp-map-history-links">'+
+ menuLink(["Lessons","lessons/black-history/"])+menuLink(["Hall","lessons/black-history-heroes/"])+menuLink(["Games","games/black-history-challenge/"])+
+ '</div></div></section></div>';
 panel.querySelector(".etp-mega-close")?.addEventListener("click",()=>{panel.hidden=true;toggle.classList.remove("open");toggle.setAttribute("aria-expanded","false");toggle.focus()});
 header.querySelector(".etp-header-inner").append(toggle);header.querySelector(".etp-header-inner").append(panel);
 panel.querySelector('[data-etp-action="install"]')?.addEventListener("click",e=>{e.preventDefault();if(typeof window.siteInstallApp==="function")window.siteInstallApp();else {const b=document.querySelector(".site-app-footer-text");if(b)b.click();}});
