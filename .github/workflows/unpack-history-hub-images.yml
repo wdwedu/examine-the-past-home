@@ -4,6 +4,8 @@ on:
     paths:
       - 'History_Hub_Images_Part_1_5_Images.zip'
       - 'History_Hub_Images_Part_2_5_Images.zip'
+      - 'History_Hub_Final_Images_Part_1.zip'
+      - 'History_Hub_Final_Images_Part_2.zip'
       - '.github/workflows/unpack-history-hub-images.yml'
   workflow_dispatch:
 permissions:
@@ -20,6 +22,8 @@ jobs:
           mkdir -p assets/history-hub
           unzip -j -o History_Hub_Images_Part_1_5_Images.zip '*.webp' -d assets/history-hub
           unzip -j -o History_Hub_Images_Part_2_5_Images.zip '*.webp' -d assets/history-hub
+          unzip -j -o History_Hub_Final_Images_Part_1.zip '*.webp' -d assets/history-hub
+          unzip -j -o History_Hub_Final_Images_Part_2.zip '*.webp' -d assets/history-hub
           test "$(find assets/history-hub -maxdepth 1 -type f -name '*.webp' | wc -l)" -ge 10
       - name: Commit course banner assets
         run: |
@@ -27,6 +31,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/history-hub/*.webp
           if ! git diff --cached --quiet; then
-            git commit -m "Extract ten History Hub course banner images"
+            git commit -m "Extract all fifteen History Hub course banner images"
             git push
           fi
