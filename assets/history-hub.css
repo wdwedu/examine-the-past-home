@@ -6,3 +6,52 @@
 @media(max-width:1100px) and (min-width:651px){.etp-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.etp-cards{grid-template-columns:1fr}.etp-card-media{height:auto;aspect-ratio:3 / 1;min-height:115px}}
 .etp-course-banner figure img[src*="assets/history-hub/"]{object-fit:cover;object-position:center;filter:none;opacity:1}
+
+/* Cinematic course introductions: same existing banner image fills the complete header
+   behind the original title, synopsis, essential question and stats. */
+.etp-curriculum .etp-course-banner{
+  position:relative!important;isolation:isolate;
+  display:flex!important;flex-direction:column!important;
+  align-items:stretch!important;justify-content:center!important;
+  min-height:clamp(330px,31vw,465px)!important;
+  padding:clamp(25px,5vw,64px)!important;
+  overflow:hidden!important;
+  background:#06110d!important;
+  border:1px solid rgba(152,255,79,.62)!important;
+  box-shadow:0 14px 42px rgba(0,0,0,.36)!important;
+}
+.etp-curriculum .etp-course-banner>figure{
+  position:absolute!important;inset:0!important;z-index:0!important;
+  margin:0!important;width:100%!important;height:100%!important;
+  overflow:hidden!important;border-radius:inherit!important;
+}
+.etp-curriculum .etp-course-banner>figure img,
+.etp-curriculum .etp-course-banner>figure img[src*="assets/history-hub/"]{
+  display:block!important;width:100%!important;height:100%!important;
+  border-radius:0!important;object-fit:cover!important;
+  object-position:center!important;opacity:1!important;
+  filter:brightness(.68) saturate(.92)!important;
+}
+.etp-curriculum .etp-course-banner:after{
+  content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:linear-gradient(90deg,rgba(1,10,9,.90) 0%,rgba(1,10,9,.78) 38%,rgba(1,10,9,.45) 78%,rgba(1,10,9,.55) 100%),
+  linear-gradient(0deg,rgba(1,10,9,.74) 0%,transparent 24%,transparent 74%,rgba(1,10,9,.48) 100%);
+}
+.etp-curriculum .etp-course-banner>div{
+  position:relative!important;z-index:2!important;
+  max-width:940px!important;width:100%!important;
+  text-shadow:0 2px 8px rgba(0,0,0,.85)!important;
+}
+.etp-curriculum .etp-course-banner h1{color:#fff200!important;max-width:850px}
+.etp-curriculum .etp-course-banner p{color:#f4f7f0!important;max-width:860px;font-size:clamp(15px,1.45vw,18px);line-height:1.65}
+.etp-curriculum .etp-course-banner .etp-overline{color:#aaff62!important;font-weight:700}
+.etp-curriculum .etp-course-banner .etp-stat{background:rgba(3,18,13,.78)!important;backdrop-filter:blur(3px);text-shadow:none}
+.etp-curriculum .etp-course-banner figcaption{display:none!important}
+@media(max-width:650px){
+  .etp-curriculum .etp-course-banner{min-height:375px!important;padding:25px 19px!important}
+  .etp-curriculum .etp-course-banner:after{
+    background:linear-gradient(90deg,rgba(1,10,9,.88),rgba(1,10,9,.65)),
+    linear-gradient(0deg,rgba(1,10,9,.79),transparent 45%,rgba(1,10,9,.45))}
+  .etp-curriculum .etp-course-banner p{font-size:14px;line-height:1.55}
+  .etp-curriculum .etp-course-banner h1{font-size:clamp(28px,7.5vw,42px)}
+}
