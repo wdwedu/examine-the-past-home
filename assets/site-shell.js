@@ -7,8 +7,9 @@ function loadJS(src,key){if([...document.scripts].some(s=>s.src&&new URL(s.src).
 loadCSS(u("assets/site-shell.css?v=20261107-mega-nav-v1"),"shell-css");
 loadCSS(u("assets/etp-transitions.css?v=20261104-cinematic-5-v1"),"transitions-css");loadJS(u("assets/etp-transitions.js?v=20261104-cinematic-5-v1"),"transitions-js");
 loadCSS(u("assets/etp-experience-v50.css?v=20261015-etp-r2"),"experience-css");loadJS(u("assets/etp-experience-v50.js?v=20261102-history-jukebox"),"experience-js");
-loadCSS(u("assets/repair-v63.css?v=20261015-etp-r2"),"repair-css");loadJS(u("assets/repair-v63.js?v=20261104-visual-no-reader-v1"),"repair-js");
+loadCSS(u("assets/repair-v63.css?v=20261107-reader-audit-v1"),"repair-css");loadJS(u("assets/repair-v63.js?v=20261107-reader-audit-v1"),"repair-js");
 loadCSS(u("assets/nav-footer-parity.css?v=20261107-mega-nav-v1"),"nav-footer-parity");
+if(/\/teacher-tools\/blooms-taxonomy\//.test(location.pathname))loadCSS(u("assets/blooms-dark-levels.css?v=20261107-v1"),"bloom-dark-levels");
 if(![...document.scripts].some(x=>x.src&&x.src.includes("/app-assets/install.js")))loadJS(u("app-assets/install.js?v=20261104-unified-v1"),"install-js");
 const header=document.createElement("header");header.id="etpSiteHeader";
 header.innerHTML='<div class="etp-header-inner"><nav class="etp-icon-nav" aria-label="Site navigation">'+
