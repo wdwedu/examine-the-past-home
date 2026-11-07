@@ -88,3 +88,10 @@ body.ie-reader[data-comfort-shade=warm] main p,body.ie-reader[data-comfort-shade
  .banner-tools{min-width:0;flex-wrap:wrap}.banner-tools .filter{min-width:0;max-width:100%}
  .maplibregl-popup-content{max-width:calc(100vw - 40px)!important}
 }
+
+/* Remove unreliable brightness/lightbulb toggle; keep contextual reading controls. */
+#page-tools .light-toggle,#page-tools [data-tooltip="Comfort"],
+#etp-reader-bar .light-toggle,.etp-media-dock [data-etp-action="lights"]{
+ display:none!important;
+}
+body[data-etp-theme="off"],body:not(.ie-reader){color-scheme:dark}
