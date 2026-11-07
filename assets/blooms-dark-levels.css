@@ -1,0 +1,31 @@
+/* Examine the Past · Bloom's Taxonomy brand-color correction.
+   The six levels are cognition categories, not six bright color badges. */
+#etp-blooms-app .ladder button[data-info-level]{
+ border:1px solid rgba(148,255,83,.38)!important;
+ border-radius:13px!important;
+ color:#f7f9f2!important;
+ box-shadow:inset 0 1px 0 rgba(255,255,255,.065),0 10px 22px rgba(0,0,0,.38)!important;
+ font-family:Georgia,"Times New Roman",serif!important;
+ text-shadow:0 2px 5px rgba(0,0,0,.7)!important;
+ transition:transform .22s ease,border-color .22s ease,box-shadow .22s ease!important;
+}
+#etp-blooms-app .ladder button[data-info-level] b,
+#etp-blooms-app .ladder button[data-info-level] small{
+ font-family:Georgia,"Times New Roman",serif!important;
+ color:#f7f9f2!important;
+}
+#etp-blooms-app .ladder button[data-info-level="remember"]{background:linear-gradient(145deg,#142f51,#060f22)!important}
+#etp-blooms-app .ladder button[data-info-level="understand"]{background:linear-gradient(145deg,#19452d,#08180f)!important}
+#etp-blooms-app .ladder button[data-info-level="apply"]{background:linear-gradient(145deg,#432034,#170912)!important}
+#etp-blooms-app .ladder button[data-info-level="analyze"]{background:linear-gradient(145deg,#322449,#120b1f)!important}
+#etp-blooms-app .ladder button[data-info-level="evaluate"]{background:linear-gradient(145deg,#44371a,#151005)!important}
+#etp-blooms-app .ladder button[data-info-level="create"]{background:linear-gradient(145deg,#102f3f,#07111a)!important}
+#etp-blooms-app .ladder button[data-info-level]:hover,
+#etp-blooms-app .ladder button[data-info-level]:focus-visible{
+ transform:translateY(-3px)!important;border-color:#fff200!important;
+ box-shadow:0 0 14px rgba(148,255,83,.18),0 14px 25px rgba(0,0,0,.5)!important;
+}
+#etp-blooms-app .level-btn,#etp-blooms-app .level-detail{
+ font-family:Georgia,"Times New Roman",serif!important;
+}
+#etp-blooms-app .level-btn.active{background:#173725!important;color:#fff200!important;border-color:#94ff53!important}
