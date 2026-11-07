@@ -27,3 +27,43 @@
 #history-hub-v50 .etp-promo-grade{font-size:11px!important}
 @media(max-width:800px){#history-hub-v50 .etp-home-curriculum-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:12px!important}#history-hub-v50 .etp-curriculum-promo{min-height:195px!important}}
 @media(max-width:480px){#history-hub-v50 .etp-home-curriculum-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important}#history-hub-v50 .etp-promo-art{min-height:68px!important}#history-hub-v50 .etp-curriculum-promo{min-height:153px!important}#history-hub-v50 .etp-curriculum-promo h3{font-size:clamp(14px,3.6vw,17px)!important}#history-hub-v50 .etp-promo-content{padding:10px!important}}
+
+/* 2026-11: visual-first History Hub: imagery on RIGHT, text over LEFT.
+   Gradient reveals each card's own existing background shade. */
+#history-hub-v50 .etp-home-curriculum-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:17px!important}
+#history-hub-v50 .etp-curriculum-promo{position:relative!important;display:flex!important;justify-content:center!important;align-items:flex-start!important;height:186px!important;min-height:186px!important;isolation:isolate!important;overflow:hidden!important}
+#history-hub-v50 .etp-curriculum-promo .etp-promo-art{
+ position:absolute!important;inset:0 0 0 auto!important;display:block!important;
+ width:83%!important;height:100%!important;min-height:0!important;
+ aspect-ratio:auto!important;z-index:0!important;pointer-events:none!important;
+ -webkit-mask-image:linear-gradient(to right,transparent 0%,rgba(0,0,0,.2) 17%,rgba(0,0,0,.93) 59%,black 100%)!important;
+ mask-image:linear-gradient(to right,transparent 0%,rgba(0,0,0,.2) 17%,rgba(0,0,0,.93) 59%,black 100%)!important;
+}
+#history-hub-v50 .etp-curriculum-promo .etp-promo-art img{
+ width:100%!important;height:100%!important;object-fit:cover!important;
+ object-position:right center!important;filter:none!important;
+}
+#history-hub-v50 .etp-curriculum-promo .etp-promo-content{
+ position:relative!important;z-index:2!important;width:100%!important;height:100%!important;
+ display:flex!important;flex-direction:column!important;justify-content:center!important;
+ align-items:flex-start!important;max-width:none!important;
+ padding:19px 18px!important;gap:9px!important;pointer-events:none!important;
+ text-shadow:0 2px 6px rgba(0,0,0,.78)!important;
+}
+#history-hub-v50 .etp-curriculum-promo h3{
+ max-width:72%!important;color:#fff200!important;
+ font-size:clamp(16px,1.65vw,22px)!important;line-height:1.14!important;
+ overflow-wrap:normal!important;word-break:normal!important;
+}
+#history-hub-v50 .etp-curriculum-promo .etp-promo-grade{color:#b3ff78!important;font-size:11px!important}
+#history-hub-v50 .etp-curriculum-promo p{display:none!important}
+@media(max-width:850px){
+ #history-hub-v50 .etp-home-curriculum-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+ #history-hub-v50 .etp-curriculum-promo{height:175px!important;min-height:175px!important}
+}
+@media(max-width:480px){
+ #history-hub-v50 .etp-home-curriculum-grid{grid-template-columns:1fr!important}
+ #history-hub-v50 .etp-curriculum-promo{height:155px!important;min-height:155px!important}
+ #history-hub-v50 .etp-curriculum-promo h3{font-size:20px!important;max-width:64%!important}
+ #history-hub-v50 .etp-curriculum-promo .etp-promo-content{padding:16px!important}
+}
