@@ -338,3 +338,24 @@ body.etp-sharing{overflow:hidden}
  max-width:66%!important;max-height:66%!important;object-fit:contain!important;
  margin:auto!important;padding:0!important;
 }
+
+/* 2026-11-07: four-section navigation and icon parity correction */
+#etpSiteHeader .etp-header-inner.etp-header-minimal{justify-content:flex-end!important;gap:10px!important}
+#etpSiteHeader .etp-header-minimal>.etp-icon-nav{margin-left:0!important;margin-right:0!important;justify-content:flex-end!important}
+#etpSiteHeader .etp-header-minimal>.etp-mobile-toggle{border:0!important;border-radius:0!important;box-shadow:none!important;background:transparent!important;outline-offset:3px!important}
+#etpSiteHeader .etp-header-minimal>.etp-mobile-toggle:focus-visible{outline:2px solid #fff200!important}
+#etpSiteHeader .etp-header-minimal>.etp-earth-home{display:grid!important;place-items:center!important;width:38px!important;height:38px!important;margin-right:auto!important;flex:0 0 38px!important;border:0!important;background:transparent!important}
+#etpSiteHeader .etp-earth-home img{display:block;width:33px;height:33px;object-fit:contain}
+#etpSiteHeader .etp-mega-grid{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:14px!important}
+#etpSiteHeader .etp-header-minimal>.etp-mobile-panel{width:min(1480px,calc(100vw - 24px))!important;right:12px!important;max-width:calc(100vw - 24px)!important}
+#etpSiteHeader .etp-mega-group summary{justify-content:flex-start!important;gap:10px!important}
+#etpSiteHeader .etp-heading-icon{font:700 24px/1 Georgia,serif!important;color:#94ff53!important;flex:0 0 28px!important;text-align:center}
+#etpSiteHeader .etp-heading-text{flex:1!important}
+#etpSiteHeader .etp-mega-expander{margin-left:auto}
+#etpSiteHeader .etp-mega-links a,#etpSiteHeader .etp-mega-links button{display:block!important;width:100%!important;background:transparent!important;border:0!important;border-left:2px solid #94ff5345!important;border-radius:3px!important;padding:9px 9px 9px 17px!important;color:#e4eee2!important;text-align:left!important;text-decoration:none!important;font:14px/1.42 Georgia,serif!important;cursor:pointer!important}
+#etpSiteHeader .etp-mega-links a:hover,#etpSiteHeader .etp-mega-links button:hover{color:#fff200!important;background:#94ff5314!important}
+#etpSiteFooter .etp-community-logos a{width:35px!important;height:35px!important;flex:0 0 35px!important;border:1px solid #ffffff50!important;box-shadow:none!important}
+#etpSiteFooter .etp-community-logos a[title="Zazzle"],#etpSiteFooter .etp-community-logos a[title="Etsy"]{width:35px!important;height:35px!important;flex:0 0 35px!important;border:1px solid #ffffff50!important;box-shadow:none!important;background:#080808!important}
+#etpSiteFooter .etp-community-logos a img,#etpSiteFooter .etp-community-logos a[title="Etsy"] img,#etpSiteFooter .etp-community-logos a[title="Zazzle"] img{width:91%!important;height:91%!important;max-width:91%!important;max-height:91%!important;object-fit:contain!important;margin:auto!important;padding:0!important;filter:none!important;opacity:1!important}
+@media(max-width:1050px){#etpSiteHeader .etp-mega-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:620px){#etpSiteHeader .etp-mega-grid{grid-template-columns:1fr!important}#etpSiteHeader .etp-header-minimal>.etp-mobile-panel{right:5px!important;width:calc(100vw - 10px)!important}#etpSiteFooter .etp-community-logos a,#etpSiteFooter .etp-community-logos a[title="Etsy"],#etpSiteFooter .etp-community-logos a[title="Zazzle"]{width:clamp(27px,8vw,34px)!important;height:clamp(27px,8vw,34px)!important;flex-basis:clamp(27px,8vw,34px)!important}}
