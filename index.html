@@ -2209,7 +2209,28 @@ body [class*="headline"]{
  #history-hub-v50 a.etp-curriculum-promo h3{font-size:20px!important;max-width:70%!important}
 }
 </style>
-</head>
+<style id="etp-contact-footer-cleanup-20261107">
+/* Keep the contact role prompt together; preserve legibility at phone widths. */
+#contact-section .contact-form legend{
+ font-family:Georgia,"Times New Roman",serif!important;
+ font-size:clamp(10px,2.4vw,14px)!important;line-height:1.35!important;
+ max-width:100%!important;white-space:nowrap!important;letter-spacing:-.025em!important;
+}
+#contact-section .contact-form fieldset{min-width:0!important}
+@media(max-width:360px){#contact-section .contact-form legend{font-size:10px!important}}
+/* Shrink only Etsy and Zazzle logos, with matching circular frames. */
+footer .footer-social a[aria-label="Etsy"],
+footer .footer-social a[aria-label="Zazzle"]{
+ border-radius:50%!important;overflow:hidden!important;
+ background:#111!important;border:1px solid rgba(255,255,255,.28)!important;
+ display:grid!important;place-items:center!important;
+}
+footer .footer-social a[aria-label="Etsy"] img,
+footer .footer-social a[aria-label="Zazzle"] img{
+ width:66%!important;height:66%!important;max-width:66%!important;max-height:66%!important;
+ object-fit:contain!important;margin:auto!important;padding:0!important;border-radius:50%!important;
+}
+</style></head>
 <body>
 <nav aria-label="Primary navigation" class="site-nav final-nav etp-nav-vnext">
 <div class="final-nav-inner etp-nav-row">
@@ -2545,10 +2566,11 @@ body [class*="headline"]{
 </section>
 <section class="footer-group">
   <h3 class="footer-heading">TEACHER TOOLS</h3>
-  <a class="mega-footer-link" href="sitemap/">Complete Site Map</a>
+  <a class="mega-footer-link" href="sitemap/">Site Map</a>
   <a class="mega-footer-link" href="teacher-tools/blooms-taxonomy/">Bloom's Taxonomy</a>
   <a class="mega-footer-link" href="teacher-tools/classroom-management/">Classroom Management</a>
   <a class="mega-footer-link" href="teacher-tools/movies-in-the-classroom/">Movies in the Classroom</a>
+  <a class="mega-footer-link" href="licensing/">Resource Licensing</a>
   <a class="mega-footer-link" href="teacher-tools/learning-styles/">Learner Supports</a>
   <a class="mega-footer-link" href="teacher-tools/">Curriculum Design</a>
   <a class="mega-footer-link" href="teacher-tools/">AI in Education</a>
@@ -2558,7 +2580,7 @@ body [class*="headline"]{
   <h3 class="footer-heading">LEGAL &amp; SITE</h3>
   <a class="mega-footer-link" href="affiliate-disclosure/">Affiliate Disclosure</a>
   <a class="mega-footer-link" href="careers/">Careers &amp; Partnerships</a>
-  <a class="mega-footer-link" href="licensing/">Resource Licensing</a>
+
   <a class="mega-footer-link" href="copyright/">Copyright Policy</a>
   <a class="mega-footer-link" href="copyright/#rights-concerns">DMCA Notice</a>
   <a class="mega-footer-link" href="privacy/">Privacy Policy</a>
@@ -2566,7 +2588,7 @@ body [class*="headline"]{
   <a class="mega-footer-link" href="digital-products/">Digital Products &amp; Refunds</a>
   <a class="mega-footer-link" href="cookies/">Cookie Policy</a>
   <a class="mega-footer-link" href="about/">About Examine the Past</a>
-  <a class="mega-footer-link" href="sitemap/">Site Map</a>
+
   <a class="mega-footer-link" href="#contact-section">Contact Us</a>
 </section>
 </div>
@@ -2924,8 +2946,8 @@ if(contactForm){
 })();
 </script><script src="assets/etp-transitions.js?v=20261104-cinematic-5-v1"></script>
 <script src="assets/home-expansion.js?v=20261015-etp-r2"></script>
-<script src="assets/site-shell.js?v=20261106-site-info-v7" data-etp-root="./"></script>
-<script src="assets/home-structure-v50.js?v=20261106-final-15-v5"></script>
+<script src="assets/site-shell.js?v=20261107-mega-nav-v1" data-etp-root="./"></script>
+<script src="assets/home-structure-v50.js?v=20261107-audience-v1"></script>
 <script src="assets/home-order-v51.js?v=20261104-games-v54"></script>
 <script src="assets/home-visual-v52.js?v=52"></script>
 <script id="etp-teacher-previews-v2">
