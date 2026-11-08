@@ -4,11 +4,11 @@ const u=p=>root+p;
 document.body.dataset.etpShell="shared";
 function loadCSS(href,key){if(document.querySelector('link[data-etp-load="'+key+'"]'))return;const l=document.createElement("link");l.rel="stylesheet";l.href=href;l.dataset.etpLoad=key;document.head.appendChild(l)}
 function loadJS(src,key){if([...document.scripts].some(s=>s.src&&new URL(s.src).pathname===new URL(src,location.href).pathname))return;const x=document.createElement("script");x.src=src;x.async=false;x.dataset.etpLoad=key;document.head.appendChild(x)}
-loadCSS(u("assets/site-shell.css?v=20261108-warp-click-v12"),"shell-css");
+loadCSS(u("assets/site-shell.css?v=20261108-warp-direct-v13"),"shell-css");
 loadCSS(u("assets/etp-transitions.css?v=20261104-cinematic-5-v1"),"transitions-css");loadJS(u("assets/etp-transitions.js?v=20261104-cinematic-5-v1"),"transitions-js");
 loadCSS(u("assets/etp-experience-v50.css?v=20261015-etp-r2"),"experience-css");loadJS(u("assets/etp-experience-v50.js?v=20261102-history-jukebox"),"experience-js");
 loadCSS(u("assets/repair-v63.css?v=20261107-reader-audit-v1"),"repair-css");loadJS(u("assets/repair-v63.js?v=20261107-reader-audit-v1"),"repair-js");
-loadCSS(u("assets/nav-footer-parity.css?v=20261108-warp-click-v12"),"nav-footer-parity");
+loadCSS(u("assets/nav-footer-parity.css?v=20261108-warp-direct-v13"),"nav-footer-parity");
 if(/\/teacher-tools\/blooms-taxonomy\//.test(location.pathname))loadCSS(u("assets/blooms-dark-levels.css?v=20261107-v1"),"bloom-dark-levels");
 if(![...document.scripts].some(x=>x.src&&x.src.includes("/app-assets/install.js")))loadJS(u("app-assets/install.js?v=20261104-unified-v1"),"install-js");
 const header=document.createElement("header");header.id="etpSiteHeader";
@@ -36,41 +36,36 @@ header.innerHTML='<div class="etp-header-inner etp-header-minimal">'+
 '</nav><nav class="etp-icon-nav" aria-label="Music"><div class="etp-nav-item"><button class="etp-icon-btn" type="button" data-etp-action="jukebox" aria-label="Open History Jukebox"><span class="etp-sound-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span></button><span class="etp-tip">History Jukebox</span></div></nav></div></div>';
 document.body.prepend(header);
 
-/* The four permanent header shortcuts must use the shared cinematic time warp
-   even on pages where another navigation handler handles ordinary anchors. */
+/* Bind the four visible navigation shortcuts directly to the established cinematic
+   engine. Target-level capture avoids ordinary link handlers and preserves sound. */
 const warpShortcuts=header.querySelectorAll('a.etp-top-link[data-etp-transition="warp-tunnel"]');
-warpShortcuts.forEach(link=>link.dataset.etpNavWarp="true");
-let navWarpBusy=false;
-document.addEventListener("click",event=>{
- const link=event.target.closest?.('#etpSiteHeader a[data-etp-nav-warp="true"]');
- if(!link||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||
-    link.target==="_blank"||link.hasAttribute("download"))return;
- if(navWarpBusy){event.preventDefault();event.stopImmediatePropagation();return}
- // Handle this before other page scripts and their delegated click handlers.
- event.preventDefault();
- event.stopImmediatePropagation();
- navWarpBusy=true;
- const destination=link.href;
- const play=()=>{
-  if(window.ETPTransitions?.navigate){
-   window.ETPTransitions.navigate(destination,"warp-tunnel");
-  }else{
-   // Navigation still works if the cinematic script is blocked or unavailable.
-   window.location.assign(destination);
-  }
- };
- if(window.ETPTransitions?.navigate){play();return}
- // If the asynchronously loaded transition engine is still starting, wait for
- // its script to finish instead of navigating before animation can start.
- const script=[...document.scripts].find(node=>node.src&&node.src.includes("/assets/etp-transitions.js"));
- if(script){
-  let handled=false;
-  const finish=()=>{if(handled)return;handled=true;play()};
-  script.addEventListener("load",finish,{once:true});
-  script.addEventListener("error",finish,{once:true});
-  setTimeout(finish,1800);
- }else{play()}
-},true);
+for(const link of warpShortcuts){
+  let locked=false;
+  link.addEventListener("click",event=>{
+    if(event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||
+       link.target==="_blank"||link.hasAttribute("download"))return;
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    if(locked)return;
+    locked=true;
+    const destination=link.href;
+    const navigate=()=>{
+      if(window.ETPTransitions&&typeof window.ETPTransitions.navigate==="function"){
+        window.ETPTransitions.navigate(destination,"warp-tunnel");
+      }else{
+        window.location.assign(destination);
+      }
+    };
+    if(window.ETPTransitions?.navigate){navigate();return}
+    const transScript=[...document.scripts].find(node=>node.src&&node.src.includes("/assets/etp-transitions.js"));
+    if(!transScript){navigate();return}
+    let done=false;
+    const finish=()=>{if(done)return;done=true;navigate()};
+    transScript.addEventListener("load",finish,{once:true});
+    transScript.addEventListener("error",finish,{once:true});
+    setTimeout(finish,2000);
+  },true);
+}
 
 // Handle homepage anchors even when the History Hub is inserted after initial document parsing.
 if(["#teacher-tools","#history-unlocked","#history-hub-v50"].includes(location.hash)){
