@@ -290,7 +290,7 @@ footer .footer-social a img,footer .footer-social a[aria-label="Etsy"] img,foote
  #etpSiteHeader .etp-header-minimal>.etp-mobile-toggle{
   flex:0 0 33px!important;min-width:33px!important;width:33px!important;height:39px!important;
  }
- #etpSiteHeader .etp-header-minimal>.etp-mobile-toggle span{width:24px!important;height:2px!important;background:#fff!important}
+ #etpSiteHeader .etp-header-minimal>.etp-mobile-toggle span{width:24px!important;height:2px!important;background:#fff200!important}
  #etpSiteHeader .etp-top-navigation .etp-top-tip{top:-20px!important;font-size:10px!important}
 }
 @media(max-width:380px){
@@ -358,7 +358,7 @@ footer .footer-social a img,footer .footer-social a[aria-label="Etsy"] img,foote
  #etpSiteHeader .etp-header-minimal>.etp-mobile-toggle{
   width:32px!important;min-width:32px!important;flex-basis:32px!important;height:38px!important;
  }
- #etpSiteHeader .etp-header-minimal>.etp-mobile-toggle span{width:24px!important;background:#fff200!important;height:2px!important}
+ #etpSiteHeader .etp-header-minimal>.etp-mobile-toggle span{width:24px!important;background:#fff200200!important;height:2px!important}
  #etpSiteHeader .etp-header-minimal>.etp-mobile-panel{max-height:calc(100dvh - 48px)!important}
 }
 @media(max-width:380px){
@@ -440,7 +440,7 @@ footer .footer-social a img,footer .footer-social a[aria-label="Etsy"] img,foote
  opacity:1!important;
  transform:translate(-50%,0)!important;
 }
-#etpSiteHeader .etp-header-minimal>.etp-mobile-toggle span{background:#fff200!important}
+#etpSiteHeader .etp-header-minimal>.etp-mobile-toggle span{background:#fff200200!important}
 @media(max-width:759px){
  #etpSiteHeader .etp-header-inner.etp-header-minimal{padding-left:10px!important;padding-right:10px!important}
  #etpSiteHeader .etp-header-minimal>.etp-top-navigation{
@@ -771,7 +771,7 @@ footer .footer-social a img,footer .footer-social a[aria-label="Etsy"] img,foote
  #etpSiteHeader .etp-header-minimal>.etp-mobile-toggle{
   flex:0 0 32px!important;width:32px!important;min-width:32px!important;height:38px!important;margin:0!important;
  }
- #etpSiteHeader .etp-header-minimal>.etp-mobile-toggle span{width:26px!important;height:2px!important;background:#fff200!important}
+ #etpSiteHeader .etp-header-minimal>.etp-mobile-toggle span{width:26px!important;height:2px!important;background:#fff200200!important}
  #etpSiteHeader .etp-map-column-links{padding-left:17px!important}
  #etpSiteHeader .etp-map-subgroup{margin-left:14px!important}
 }
@@ -784,4 +784,24 @@ footer .footer-social a img,footer .footer-social a[aria-label="Etsy"] img,foote
  #etpSiteHeader .etp-middle-cluster>.etp-top-navigation .etp-top-emoji{font-size:21px!important}
  #etpSiteHeader .etp-middle-cluster>.etp-icon-nav{flex-basis:27px!important;width:27px!important;min-width:27px!important}
  #etpSiteHeader .etp-header-minimal>.etp-mobile-toggle{flex-basis:29px!important;width:29px!important;min-width:29px!important}
+}
+
+/* 2026-11-08 stable navigation colors and menu surface */
+#etpSiteHeader .etp-header-inner.etp-header-minimal>.etp-mobile-toggle.etp-yellow-menu,
+#etpSiteHeader .etp-header-inner.etp-header-minimal>.etp-mobile-toggle.etp-yellow-menu:hover,
+#etpSiteHeader .etp-header-inner.etp-header-minimal>.etp-mobile-toggle.etp-yellow-menu.open {
+  color:#fff200!important; background:transparent!important; border:0!important; box-shadow:none!important;
+}
+#etpSiteHeader .etp-header-inner.etp-header-minimal>.etp-mobile-toggle.etp-yellow-menu span,
+#etpSiteHeader .etp-header-inner.etp-header-minimal>.etp-mobile-toggle.etp-yellow-menu.open span {
+  background:#fff200!important; background-color:#fff200!important;
+}
+#etpSiteHeader .etp-map-primary{display:grid!important;grid-template-columns:minmax(150px,.75fr) minmax(240px,1.2fr) minmax(280px,1.35fr)!important}
+#etpSiteHeader .etp-map-title, #etpSiteHeader .etp-map-title a{color:#fff200!important}
+#etpSiteHeader .etp-map-column-links{padding-left:17px!important}
+@media(max-width:950px) and (min-width:621px) {
+  #etpSiteHeader .etp-map-primary{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+}
+@media(max-width:620px) {
+  #etpSiteHeader .etp-map-primary{grid-template-columns:1fr!important}
 }
