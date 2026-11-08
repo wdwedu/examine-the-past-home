@@ -44,7 +44,7 @@
   .etp-header-inner{position:relative;min-height:58px!important;padding:0 14px!important;overflow:visible!important;justify-content:flex-start!important}
   .etp-icon-nav{display:none!important}
   .etp-mobile-toggle{display:flex!important;width:48px;height:48px;margin:5px 0;align-items:center;justify-content:center;flex-direction:column;gap:5px;border:0;background:transparent;color:#fff;cursor:pointer;border-radius:10px}
-  .etp-mobile-toggle span{display:block;width:27px;height:2px;border-radius:3px;background:#f7f7f2;transition:.2s ease;transform-origin:center}
+  .etp-mobile-toggle span{display:block;width:27px;height:2px;border-radius:3px;background:#fff200;transition:.2s ease;transform-origin:center}
   .etp-mobile-toggle.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
   .etp-mobile-toggle.open span:nth-child(2){opacity:0}
   .etp-mobile-toggle.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
@@ -122,7 +122,7 @@ body .resource-title{
   #etpSiteHeader .etp-mobile-toggle span{
     width:25px!important;
     height:2px!important;
-    background:#f7f7f2!important;
+    background:#fff200!important;
   }
   #etpSiteHeader .etp-mobile-panel{
     top:100%!important;
