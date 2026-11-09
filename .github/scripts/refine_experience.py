@@ -83,7 +83,7 @@ if slug=='examine-the-past-home':
 
   # Refresh approved shared curriculum CSS and unit controls on each course page.
   if len(page.parts)>=4 and page.parts[0:2]==('lessons','curriculum') and page.name=='index.html':
-   value=re.sub(r"(assets/history-hub\.css)(?:\?v=[^\"'\s<>]+)?",r"\g<1>?v=20261109-curriculum-design-v7",value)
+   value=re.sub(r"(assets/history-hub\.css)(?:\?v=[^\"'\s<>]+)?",r"\g<1>?v=20261109-curriculum-design-v8",value)
    value=re.sub(r"(assets/history-hub-course\.js)(?:\?v=[^\"'\s<>]+)?",r"\g<1>?v=20261109-unit-labels-v3",value)
   # Repair legacy content pages that do not yet load the shared navigation.
   # Required for the consistent footer, back control, and app-wide transitions.
