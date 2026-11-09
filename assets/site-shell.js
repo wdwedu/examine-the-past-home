@@ -4,11 +4,11 @@ const u=p=>root+p;
 document.body.dataset.etpShell="shared";
 function loadCSS(href,key){if(document.querySelector('link[data-etp-load="'+key+'"]'))return;const l=document.createElement("link");l.rel="stylesheet";l.href=href;l.dataset.etpLoad=key;document.head.appendChild(l)}
 function loadJS(src,key){if([...document.scripts].some(s=>s.src&&new URL(s.src).pathname===new URL(src,location.href).pathname))return;const x=document.createElement("script");x.src=src;x.async=false;x.dataset.etpLoad=key;document.head.appendChild(x)}
-loadCSS(u("assets/site-shell.css?v=20261108-warp-direct-v13"),"shell-css");
+loadCSS(u("assets/site-shell.css?v=20261108-mega-yellow-warp-v14"),"shell-css");
 loadCSS(u("assets/etp-transitions.css?v=20261104-cinematic-5-v1"),"transitions-css");loadJS(u("assets/etp-transitions.js?v=20261104-cinematic-5-v1"),"transitions-js");
 loadCSS(u("assets/etp-experience-v50.css?v=20261015-etp-r2"),"experience-css");loadJS(u("assets/etp-experience-v50.js?v=20261102-history-jukebox"),"experience-js");
 loadCSS(u("assets/repair-v63.css?v=20261107-reader-audit-v1"),"repair-css");loadJS(u("assets/repair-v63.js?v=20261107-reader-audit-v1"),"repair-js");
-loadCSS(u("assets/nav-footer-parity.css?v=20261108-warp-direct-v13"),"nav-footer-parity");
+loadCSS(u("assets/nav-footer-parity.css?v=20261108-mega-yellow-warp-v14"),"nav-footer-parity");
 if(/\/teacher-tools\/blooms-taxonomy\//.test(location.pathname))loadCSS(u("assets/blooms-dark-levels.css?v=20261107-v1"),"bloom-dark-levels");
 if(![...document.scripts].some(x=>x.src&&x.src.includes("/app-assets/install.js")))loadJS(u("app-assets/install.js?v=20261104-unified-v1"),"install-js");
 const header=document.createElement("header");header.id="etpSiteHeader";
@@ -188,7 +188,42 @@ panel.querySelector(".etp-mega-close")?.addEventListener("click",()=>{panel.hidd
 header.querySelector(".etp-header-inner").append(toggle);header.querySelector(".etp-header-inner").append(panel);
 panel.querySelector('[data-etp-action="install"]')?.addEventListener("click",e=>{e.preventDefault();if(typeof window.siteInstallApp==="function")window.siteInstallApp();else {const b=document.querySelector(".site-app-footer-text");if(b)b.click();}});
 function closeMobile(){panel.hidden=true;toggle.classList.remove("open");toggle.setAttribute("aria-expanded","false");toggle.setAttribute("aria-label","Open navigation")}
-toggle.addEventListener("click",()=>{const open=panel.hidden;panel.hidden=!open;toggle.classList.toggle("open",open);toggle.setAttribute("aria-expanded",String(open));toggle.setAttribute("aria-label",open?"Close navigation":"Open navigation")});panel.querySelectorAll("a").forEach(a=>a.addEventListener("click",closeMobile));document.addEventListener("keydown",e=>{if(e.key==="Escape")closeMobile()});
+toggle.addEventListener("click",()=>{const open=panel.hidden;panel.hidden=!open;toggle.classList.toggle("open",open);toggle.setAttribute("aria-expanded",String(open));toggle.setAttribute("aria-label",open?"Close navigation":"Open navigation")});panel.querySelectorAll("a").forEach(a=>a.addEventListener("click",closeMobile));
+// Any destination inside the expanded site map uses the same cinematic warp
+// as the four main header shortcuts. Same-document section links remain instant.
+panel.querySelectorAll("a[href]").forEach(link=>{
+  link.setAttribute("data-etp-transition","warp-tunnel");
+  let travelling=false;
+  link.addEventListener("click",event=>{
+    if(event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||
+       link.target==="_blank"||link.hasAttribute("download"))return;
+    const destination=new URL(link.href,location.href);
+    if(destination.origin!==location.origin)return;
+    if(destination.pathname===location.pathname&&destination.search===location.search&&destination.hash)return;
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    if(travelling)return;
+    travelling=true;
+    // Use the already-proven navigation transition; close the menu only once it runs.
+    if(window.ETPTransitions?.navigate){
+      window.ETPTransitions.navigate(destination.href,"warp-tunnel");
+    }else{
+      const script=[...document.scripts].find(n=>n.src&&n.src.includes("/assets/etp-transitions.js"));
+      let finished=false;
+      const finish=()=>{
+        if(finished)return;
+        finished=true;
+        if(window.ETPTransitions?.navigate)window.ETPTransitions.navigate(destination.href,"warp-tunnel");
+        else location.assign(destination.href);
+      };
+      if(script){
+        script.addEventListener("load",finish,{once:true});
+        script.addEventListener("error",finish,{once:true});
+        setTimeout(finish,2000);
+      }else finish();
+    }
+  },true);
+});document.addEventListener("keydown",e=>{if(e.key==="Escape")closeMobile()});
 if(!noFooter){const footer=document.createElement("footer");footer.id="etpSiteFooter";
 footer.innerHTML='<div class="etp-footer-grid"><div><div class="etp-footer-title">Learn</div><a href="'+u('lessons/us-history/')+'">U.S. History</a><a href="'+u('lessons/world-history/')+'">World History</a><a href="'+u('lessons/civics-government/')+'">Civics & Government</a><a href="'+u('lessons/geography/')+'">Geography</a><a href="'+u('lessons/visual-history/')+'">Visual History</a><a href="'+u('lessons/black-history/')+'">Black History</a><a href="'+u('lessons/world-religions/')+'">World Religions</a><a href="'+u('lessons/')+'">All Lessons</a></div>'+
 '<div><div class="etp-footer-title">Explore</div><a href="'+u('timeline/')+'">Interactive Timeline</a><a href="'+u('maps/')+'">History Maps</a><a href="'+u('today/')+'">Today in History</a><a href="'+u('games/')+'">Games</a><a href="'+u('games/presidential-challenges/')+'">Presidents</a><a href="'+u('lessons/black-history/')+'">Black History</a><a href="'+u('current-events/')+'">Current Events</a><a href="https://www.etsy.com/shop/examinethepast">Shop History</a></div>'+
