@@ -56,7 +56,8 @@ jobs:
           if [ -f sw.js ]; then git add sw.js; fi
           if ! git diff --cached --quiet; then
             git commit -m "Enable branded installable website app support"
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
