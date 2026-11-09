@@ -80,4 +80,14 @@ if slug=='examine-the-past-home':
    if '<header class="topbar">' in value:
     value=value.replace('<header class="topbar">','<section class="topbar etp-learning-toolbar">',1).replace('</header>','</section>',1)
    value=value.replace('<footer class="mega-footer" id="site-footer">','<footer class="mega-footer" id="site-footer" hidden style="display:none!important">')
+
+  # Every public page must include one installer script. Older information pages
+  # can have the shared shell but omit the app script; repair them before QA/deploy.
+  installer=os.path.relpath(root/'app-assets/install.js',page.parent).replace(os.sep,'/')
+  installer_scripts=re.findall(r'<script\\b[^>]*\\bsrc=["\\\'][^"\\\']*app-assets/install\\.js[^"\\\']*["\\\'][^>]*>',value,re.I)
+  if not installer_scripts:
+   install_tag=f'<script defer src="{installer}?v=20261108-native-menu-v17"></script>'
+   if '</head>' in value:value=value.replace('</head>',install_tag+'</head>',1)
+   elif '</body>' in value:value=value.replace('</body>',install_tag+'</body>',1)
+   else:value+=install_tag
   page.write_text(value)
