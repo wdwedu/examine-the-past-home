@@ -84,7 +84,7 @@ if slug=='examine-the-past-home':
   # Every public page must include one installer script. Older information pages
   # can have the shared shell but omit the app script; repair them before QA/deploy.
   installer=os.path.relpath(root/'app-assets/install.js',page.parent).replace(os.sep,'/')
-  installer_scripts=re.findall(r'<script\\b[^>]*\\bsrc=["\\\'][^"\\\']*app-assets/install\\.js[^"\\\']*["\\\'][^>]*>',value,re.I)
+  installer_scripts=re.findall(r'<script[^>]+src=["\x27][^"\x27]*app-assets/install\.js',value,re.I)
   if not installer_scripts:
    install_tag=f'<script defer src="{installer}?v=20261108-native-menu-v17"></script>'
    if '</head>' in value:value=value.replace('</head>',install_tag+'</head>',1)
