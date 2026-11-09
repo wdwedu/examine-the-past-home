@@ -66,7 +66,7 @@ print(slug+': site-specific refinements complete')
 if slug=='examine-the-past-home':
  import os
  for page in root.rglob('*.html'):
-  if 'assets' in page.parts:continue  # HTML fragments are not pages.
+  if set(page.parts) & {'assets','audit','.github','node_modules','backups'}:continue  # Ignore archived and non-public HTML.
   value=page.read_text()
   shell=os.path.relpath(root/'assets/site-shell.js',page.parent).replace(os.sep,'/')
   # Normalize the site shell and installer to the updated native ETP menu.
