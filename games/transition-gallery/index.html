@@ -24,7 +24,7 @@ h1{text-align:center;color:#fff200;font-size:clamp(30px,5vw,55px);margin:9px 0}
 #status{color:#fff200;min-height:22px;font-weight:bold}
 @media(max-width:650px){.cards{grid-template-columns:1fr}.card{min-height:205px}}
 @media(prefers-reduced-motion:reduce){.card{transition:none}}
-</style></head><body>
+</style><script defer src="../../app-assets/install.js?v=20261108-native-menu-v17"></script></head><body>
 <main>
 <a href="../../games/">← Games</a>
 <div class="eyebrow">Examine the Past · Design Preview</div>
@@ -49,4 +49,4 @@ for(const button of document.querySelectorAll("[data-preview]")){button.addEvent
 status.textContent="Playing "+button.closest(".card").querySelector("h2").textContent;window.ETPTransitions.preview(button.dataset.preview)})}
 })();
 </script>
-</body></html>
+<script src="../../assets/site-shell.js?v=20261109-footer-short-labels-v20" data-etp-root="../../"></script></body></html>
