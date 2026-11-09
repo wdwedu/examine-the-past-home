@@ -4,11 +4,11 @@ const u=p=>root+p;
 document.body.dataset.etpShell="shared";
 function loadCSS(href,key){if(document.querySelector('link[data-etp-load="'+key+'"]'))return;const l=document.createElement("link");l.rel="stylesheet";l.href=href;l.dataset.etpLoad=key;document.head.appendChild(l)}
 function loadJS(src,key){if([...document.scripts].some(s=>s.src&&new URL(s.src).pathname===new URL(src,location.href).pathname))return;const x=document.createElement("script");x.src=src;x.async=false;x.dataset.etpLoad=key;document.head.appendChild(x)}
-loadCSS(u("assets/site-shell.css?v=20261109-menu-three-columns-v18"),"shell-css");
+loadCSS(u("assets/site-shell.css?v=20261109-approved-nav-v19"),"shell-css");
 loadCSS(u("assets/etp-transitions.css?v=20261104-cinematic-5-v1"),"transitions-css");loadJS(u("assets/etp-transitions.js?v=20261104-cinematic-5-v1"),"transitions-js");
 loadCSS(u("assets/etp-experience-v50.css?v=20261015-etp-r2"),"experience-css");loadJS(u("assets/etp-experience-v50.js?v=20261102-history-jukebox"),"experience-js");
 loadCSS(u("assets/repair-v63.css?v=20261107-reader-audit-v1"),"repair-css");loadJS(u("assets/repair-v63.js?v=20261108-tools-reader-v16"),"repair-js");
-loadCSS(u("assets/nav-footer-parity.css?v=20261109-menu-three-columns-v18"),"nav-footer-parity");
+loadCSS(u("assets/nav-footer-parity.css?v=20261109-approved-nav-v19"),"nav-footer-parity");
 if(/\/teacher-tools\/blooms-taxonomy\//.test(location.pathname))loadCSS(u("assets/blooms-dark-levels.css?v=20261107-v1"),"bloom-dark-levels");
 if(![...document.scripts].some(x=>x.src&&x.src.includes("/app-assets/install.js")))loadJS(u("app-assets/install.js?v=20261108-native-menu-v17"),"install-js");
 const header=document.createElement("header");header.id="etpSiteHeader";
@@ -28,12 +28,12 @@ header.innerHTML='<div class="etp-header-inner"><nav class="etp-icon-nav" aria-l
 '<div class="etp-nav-item"><button class="etp-icon-btn" type="button" data-etp-action="jukebox" aria-label="Open History Jukebox"><span class="etp-sound-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></button><span class="etp-tip">History Jukebox</span></div>'+
 '</nav></div>';
 header.innerHTML='<div class="etp-header-inner etp-header-minimal">'+
-'<a class="etp-top-link etp-top-home" href="'+u('')+'" data-etp-transition="warp-tunnel" aria-label="Home"><img class="etp-top-logo" src="'+u('app-assets/icon-192.png')+'" alt=""><span class="etp-top-tip">Home</span></a>'+
+'<a class="etp-top-link etp-top-home" href="'+u('')+'" data-etp-transition="warp-tunnel" aria-label="Home"><img class="etp-top-logo" src="'+u('app-assets/icon-192.png')+'" alt=""><span class="etp-nav-label">Home</span><span class="etp-top-tip">Home</span></a>'+
 '<div class="etp-middle-cluster"><nav class="etp-top-navigation" aria-label="Primary site navigation">'+
-'<a class="etp-top-link" href="'+u('teacher-tools/')+'" data-etp-transition="warp-tunnel" aria-label="Tools"><span class="etp-top-emoji" aria-hidden="true">🛠️</span><span class="etp-top-tip">Tools</span></a>'+
-'<a class="etp-top-link" href="'+u('games/')+'" data-etp-transition="warp-tunnel" aria-label="Games"><span class="etp-top-emoji" aria-hidden="true">🎮</span><span class="etp-top-tip">Games</span></a>'+
-'<a class="etp-top-link" href="'+u('lessons/')+'" data-etp-transition="warp-tunnel" aria-label="Courses"><span class="etp-top-emoji" aria-hidden="true">📚</span><span class="etp-top-tip">Courses</span></a>'+
-'</nav><nav class="etp-icon-nav" aria-label="Music"><div class="etp-nav-item"><button class="etp-icon-btn" type="button" data-etp-action="jukebox" aria-label="Open History Jukebox"><span class="etp-sound-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span></button><span class="etp-tip">History Jukebox</span></div></nav></div></div>';
+'<a class="etp-top-link" href="'+u('teacher-tools/')+'" data-etp-transition="warp-tunnel" aria-label="Tools"><span class="etp-top-emoji" aria-hidden="true">🛠️</span><span class="etp-nav-label">Tools</span><span class="etp-top-tip">Tools</span></a>'+
+'<a class="etp-top-link" href="'+u('games/')+'" data-etp-transition="warp-tunnel" aria-label="Games"><span class="etp-top-emoji" aria-hidden="true">🎮</span><span class="etp-nav-label">Games</span><span class="etp-top-tip">Games</span></a>'+
+'<a class="etp-top-link" href="'+u('lessons/')+'" data-etp-transition="warp-tunnel" aria-label="Courses"><span class="etp-top-emoji" aria-hidden="true">📚</span><span class="etp-nav-label">Courses</span><span class="etp-top-tip">Courses</span></a>'+
+'</nav><nav class="etp-icon-nav" aria-label="Jukebox"><div class="etp-nav-item"><button class="etp-icon-btn" type="button" data-etp-action="jukebox" aria-label="Open History Jukebox"><span class="etp-sound-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="etp-nav-label">Jukebox</span></button><span class="etp-tip">Jukebox</span></div></nav></div></div>';
 document.body.prepend(header);
 
 /* Consistent app-friendly back row, placed immediately beneath the shared header,
@@ -185,7 +185,7 @@ const menuSections=[
   ["History Teacher Certification Center","teacher-tools/certification-prep/"]]},
  {title:"Games",icon:"🎮",href:"games/",groups:[
   {title:"History Unlocked",href:"games/history-unlocked/",links:[
-   ["Time Rush","games/time-rush/"],["Map Quest","games/map-quest/"]]},
+   ["Time Rush","games/history-unlocked/#family-time-rush"],["History Case Files","games/history-unlocked/#family-history-case-files"],["Connections","games/history-unlocked/#family-connections"],["Escape the Past","games/history-unlocked/#family-escape-the-past"],["Map Quest","games/history-unlocked/#family-map-quest"],["Who in Time","games/history-unlocked/#family-who-in-time"],["Source Lab","games/history-unlocked/#family-source-lab"],["Build the Past","games/history-unlocked/#family-build-the-past"]]},
   {title:"Presidential Challenges",href:"games/presidential-challenges/",links:[
    ["Presidential Portraits","games/presidential-challenges/"],
    ["Presidential Bingo","games/presidential-challenges/bingo/"],
@@ -290,10 +290,29 @@ panel.querySelectorAll("a[href]").forEach(link=>{
   },true);
 });document.addEventListener("keydown",e=>{if(e.key==="Escape")closeMobile()});
 if(!noFooter){const footer=document.createElement("footer");footer.id="etpSiteFooter";
-footer.innerHTML='<div class="etp-footer-grid"><div><div class="etp-footer-title">Learn</div><a href="'+u('lessons/us-history/')+'">U.S. History</a><a href="'+u('lessons/world-history/')+'">World History</a><a href="'+u('lessons/civics-government/')+'">Civics & Government</a><a href="'+u('lessons/geography/')+'">Geography</a><a href="'+u('lessons/visual-history/')+'">Visual History</a><a href="'+u('lessons/black-history/')+'">Black History</a><a href="'+u('lessons/world-religions/')+'">World Religions</a><a href="'+u('lessons/')+'">All Lessons</a></div>'+
-'<div><div class="etp-footer-title">Explore</div><a href="'+u('timeline/')+'">Interactive Timeline</a><a href="'+u('maps/')+'">History Maps</a><a href="'+u('today/')+'">Today in History</a><a href="'+u('games/')+'">Games</a><a href="'+u('games/presidential-challenges/')+'">Presidents</a><a href="'+u('lessons/black-history/')+'">Black History</a><a href="'+u('current-events/')+'">Current Events</a><a href="https://www.etsy.com/shop/examinethepast">Shop History</a></div>'+
-'<div><div class="etp-footer-title">Teacher Tools</div><a href="'+u('teacher-tools/blooms-taxonomy/')+'">Bloom’s Taxonomy</a><a href="'+u('teacher-tools/classroom-management/')+'">Classroom Management</a><a href="'+u('teacher-tools/movies-in-the-classroom/')+'">Movies in the Classroom</a><a href="'+u('licensing/')+'">Resource Licensing</a><a href="'+u('teacher-tools/learning-styles/')+'">Learner Supports</a><a href="'+u('teacher-tools/')+'">All Teacher Tools</a><a href="'+u('sitemap/')+'">Site Map</a><a href="'+u('faq/')+'">FAQ</a></div>'+
-'<div><div class="etp-footer-title">Legal & Site</div><a href="'+u('affiliate-disclosure/')+'">Affiliate Disclosure</a><a href="'+u('careers/')+'">Careers & Partnerships</a><a href="'+u('copyright/')+'">Copyright Policy</a><a href="'+u('copyright/')+'#rights-concerns">DMCA Notice</a><a href="'+u('privacy/')+'">Privacy Policy</a><a href="'+u('terms/')+'">Terms of Use</a><a href="'+u('cookies/')+'">Cookie Policy</a><a href="'+u('about/')+'">About</a><a href="'+u('')+'#contact-section">Contact Us</a></div></div>'+
+footer.innerHTML='<div class="etp-footer-grid"><div><div class="etp-footer-title">Learn</div>'+
+'<a href="'+u('lessons/curriculum/grade-5-early-american-history/')+'">5th Grade · Early American History</a>'+
+'<a href="'+u('lessons/curriculum/grade-6-ancient-world-history/')+'">6th Grade · Ancient World History</a>'+
+'<a href="'+u('lessons/curriculum/grade-7-world-cultures-geography/')+'">7th Grade · World Cultures</a>'+
+'<a href="'+u('lessons/curriculum/grade-8-early-united-states-history/')+'">8th Grade · Early U.S. History</a>'+
+'<a href="'+u('lessons/curriculum/grade-9-united-states-history/')+'">9th Grade · U.S. History</a>'+
+'<a href="'+u('lessons/curriculum/grade-12-social-studies-electives/')+'">12th Grade · Social Studies Electives</a>'+
+'<a href="'+u('lessons/curriculum/black-history/')+'">Black History</a>'+
+'<a href="'+u('lessons/curriculum/hispanic-american-history/')+'">Hispanic &amp; Latino History</a>'+
+'<a href="'+u('lessons/curriculum/ap-us-history-preparation/')+'">AP U.S. History</a>'+
+'<a href="'+u('lessons/curriculum/ap-world-history-preparation/')+'">AP World History</a>'+
+'<a href="'+u('lessons/curriculum/ap-government-preparation/')+'">AP Government &amp; Politics</a></div>'+
+'<div><div class="etp-footer-title">Explore</div>'+
+'<a href="'+u('timeline/')+'">Interactive Timeline</a>'+
+'<a href="'+u('maps/')+'">History Maps</a>'+
+'<a href="'+u('today/')+'">Today in History</a>'+
+'<a href="'+u('games/')+'">Games</a>'+
+'<a href="'+u('games/presidential-challenges/')+'">Presidents</a>'+
+'<a href="'+u('games/black-history/')+'">Black History Games</a>'+
+'<a href="'+u('current-events/')+'">Current Events</a>'+
+'<button class="etp-footer-install" type="button" data-etp-action="install">Install the App ↓</button></div>'+
+'<div><div class="etp-footer-title">Teacher Tools</div><a href="'+u('teacher-tools/blooms-taxonomy/')+'">Bloom’s Taxonomy</a><a href="'+u('teacher-tools/classroom-management/')+'">Classroom Management</a><a href="'+u('teacher-tools/movies-in-the-classroom/')+'">Movies in the Classroom</a><a href="'+u('licensing/')+'">Resource Licensing</a><a href="'+u('teacher-tools/learning-styles/')+'">Learner Supports</a><a href="'+u('teacher-tools/')+'">Student &amp; Teacher Tools</a><a href="'+u('sitemap/')+'">Site Map</a><a href="'+u('faq/')+'">FAQ</a></div>'+
+'<div><div class="etp-footer-title">Legal &amp; Site</div><a href="'+u('affiliate-disclosure/')+'">Affiliate Disclosure</a><a href="'+u('careers/')+'">Careers &amp; Partnerships</a><a href="'+u('copyright/')+'">Copyright Policy</a><a href="'+u('copyright/')+'#rights-concerns">DMCA Notice</a><a href="'+u('privacy/')+'">Privacy Policy</a><a href="'+u('terms/')+'">Terms of Use</a><a href="'+u('cookies/')+'">Cookie Policy</a><a href="'+u('about/')+'">About</a><a href="'+u('')+'#contact-section">Contact Us</a></div></div>'+
 '<div class="etp-community-wrap" id="community"><div class="etp-community-title">JOIN OUR COMMUNITY</div><div class="etp-community etp-community-logos">'+
 '<a href="https://www.youtube.com/@ExamineThePast" target="_blank" rel="noopener" title="YouTube"><img src="'+u('assets/social/youtube.svg')+'" alt="YouTube"></a>'+
 '<a href="https://www.tiktok.com/@examinethepast" target="_blank" rel="noopener" title="TikTok"><img src="'+u('assets/social/tiktok.svg')+'" alt="TikTok"></a>'+
@@ -306,6 +325,24 @@ footer.innerHTML='<div class="etp-footer-grid"><div><div class="etp-footer-title
 '<a href="https://www.etsy.com/shop/examinethepast" target="_blank" rel="noopener" title="Etsy"><img src="'+u('assets/social/etsy.svg')+'" alt="etsy"></a>'+
 '</div></div><div class="etp-footer-bottom">© 2026 Examine the Past. All Rights Reserved.</div><div class="etp-legal-overlay" hidden aria-hidden="true"><button class="etp-legal-backdrop" aria-label="Close legal notice"></button><article class="etp-legal-card" role="dialog" aria-modal="true"><button class="etp-legal-close" aria-label="Close">×</button><div class="etp-legal-kicker">EXAMINE THE PAST</div><h2 class="etp-legal-title"></h2><div class="etp-legal-copy"></div></article></div>';
 document.body.append(footer);
+
+footer.querySelector(".etp-footer-install")?.addEventListener("click",()=>{
+ if(typeof window.siteInstallApp==="function")window.siteInstallApp();
+ else document.querySelector(".site-app-footer-text")?.click();
+});
+// Keep footer link navigation consistent with the cinematic menu's warp and audio.
+footer.addEventListener("click",event=>{
+ const link=event.target.closest?.("a[href]");
+ if(!link||!footer.contains(link)||event.button!==0||event.metaKey||event.ctrlKey||
+    event.shiftKey||event.altKey||link.target==="_blank"||link.hasAttribute("download"))return;
+ const destination=new URL(link.href,location.href);
+ if(destination.origin!==location.origin)return; // Social and marketplace sites stay native.
+ if(destination.pathname===location.pathname&&destination.search===location.search&&destination.hash)return;
+ event.preventDefault();event.stopImmediatePropagation();
+ if(window.ETPTransitions?.navigate)window.ETPTransitions.navigate(destination.href,"warp-tunnel");
+ else location.assign(destination.href);
+},true);
+
 const legal={privacy:["Privacy Policy","Examine the Past respects your privacy. Information voluntarily provided through forms, purchases, or newsletter signups may be used to operate and improve the site. Third-party services have their own privacy practices."],terms:["Terms of Service","Use Examine the Past and its educational resources lawfully. Original materials may not be copied, resold, republished, or redistributed except where a specific license permits it."],affiliate:["Affiliate Disclosure","Examine the Past may earn a commission from qualifying purchases made through selected affiliate links. Compensation does not determine historical conclusions or instructional recommendations."],copyright:["Copyright Policy","Original Examine the Past text, graphics, games, downloads, and other materials are protected by applicable law. Third-party and public-domain materials are identified where appropriate."],dmca:["DMCA Notice","Examine the Past responds to properly submitted copyright notices identifying the copyrighted work, allegedly infringing material, contact information, and statements required by applicable law."],refund:["Refund / Digital Products","Digital products are handled according to the terms stated at purchase and applicable marketplace policies. Contact Examine the Past with order details when a file is defective, inaccessible, or duplicated."],cookies:["Cookie Policy","Examine the Past and services used to operate the site may use cookies or similar technologies for essential functions, preferences, analytics, security, and embedded services."]};
 const overlay=footer.querySelector(".etp-legal-overlay"),title=footer.querySelector(".etp-legal-title"),copy=footer.querySelector(".etp-legal-copy");function closeLegal(){overlay.hidden=true;overlay.setAttribute("aria-hidden","true");document.body.classList.remove("etp-legal-open")}footer.querySelectorAll(".etp-legal-link").forEach(b=>b.addEventListener("click",()=>{const d=legal[b.dataset.legal]||["Legal","Information will be added here."];title.textContent=d[0];copy.textContent=d[1];overlay.hidden=false;overlay.setAttribute("aria-hidden","false");document.body.classList.add("etp-legal-open")}));footer.querySelector(".etp-legal-close").addEventListener("click",closeLegal);footer.querySelector(".etp-legal-backdrop").addEventListener("click",closeLegal);document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!overlay.hidden)closeLegal()})}
 })();
