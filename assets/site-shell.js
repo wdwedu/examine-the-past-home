@@ -4,11 +4,11 @@ const u=p=>root+p;
 document.body.dataset.etpShell="shared";
 function loadCSS(href,key){if(document.querySelector('link[data-etp-load="'+key+'"]'))return;const l=document.createElement("link");l.rel="stylesheet";l.href=href;l.dataset.etpLoad=key;document.head.appendChild(l)}
 function loadJS(src,key){if([...document.scripts].some(s=>s.src&&new URL(s.src).pathname===new URL(src,location.href).pathname))return;const x=document.createElement("script");x.src=src;x.async=false;x.dataset.etpLoad=key;document.head.appendChild(x)}
-loadCSS(u("assets/site-shell.css?v=20261108-black-history-nav-v15"),"shell-css");
+loadCSS(u("assets/site-shell.css?v=20261108-menu-final-v16"),"shell-css");
 loadCSS(u("assets/etp-transitions.css?v=20261104-cinematic-5-v1"),"transitions-css");loadJS(u("assets/etp-transitions.js?v=20261104-cinematic-5-v1"),"transitions-js");
 loadCSS(u("assets/etp-experience-v50.css?v=20261015-etp-r2"),"experience-css");loadJS(u("assets/etp-experience-v50.js?v=20261102-history-jukebox"),"experience-js");
 loadCSS(u("assets/repair-v63.css?v=20261107-reader-audit-v1"),"repair-css");loadJS(u("assets/repair-v63.js?v=20261107-reader-audit-v1"),"repair-js");
-loadCSS(u("assets/nav-footer-parity.css?v=20261108-black-history-nav-v15"),"nav-footer-parity");
+loadCSS(u("assets/nav-footer-parity.css?v=20261108-menu-final-v16"),"nav-footer-parity");
 if(/\/teacher-tools\/blooms-taxonomy\//.test(location.pathname))loadCSS(u("assets/blooms-dark-levels.css?v=20261107-v1"),"bloom-dark-levels");
 if(![...document.scripts].some(x=>x.src&&x.src.includes("/app-assets/install.js")))loadJS(u("app-assets/install.js?v=20261104-unified-v1"),"install-js");
 const header=document.createElement("header");header.id="etpSiteHeader";
@@ -54,7 +54,7 @@ if(pagePath!==root&&pagePath!==root.replace(/\/$/,"")){
  const links=isGame?
    [['All Games',u("games/")],['Black History Games',u("games/black-history/")]]:
    isLesson?[['History Hub',u("lessons/")],['Black History Courses',u("lessons/curriculum/black-history/")]]:
-   [['Home',u("")]];
+   [];
  pageNav.innerHTML='<button type="button" class="etp-page-back" aria-label="Go to previous page"><span aria-hidden="true">←</span> Back</button>'+
   links.filter(([label,href])=>new URL(href,location.origin).pathname!==pagePath)
     .map(([label,href])=>'<a class="etp-page-nav-link" data-etp-transition="warp-tunnel" href="'+href+'">'+label+'</a>').join('');
@@ -171,38 +171,57 @@ panel.innerHTML='<div class="etp-mobile-install"><button type="button" data-etp-
 // Unified expanded site menu: desktop and mobile use the same navigation tree.
 // Sketch-matched site map: three open columns above a full-width History Hub.
 const menuSections=[
- {title:"Home",icon:"🏠",href:"",links:[["About","about/"],["Contact","/#contact-section"],["Install ↓","@install"]]},
- {title:"Student / Teacher Tools",icon:"🛠️",href:"teacher-tools/",links:[
-  ["On This Day in History","today/"],["Maps","maps/"],["Timeline","timeline/"],
-  ["Movies in the Classroom","teacher-tools/movies-in-the-classroom/"],
-  ["Bloom’s Taxonomy","teacher-tools/blooms-taxonomy/"],
+ {title:"Home",icon:"🌎",href:"",links:[["About","about/"],["Contact","/#contact-section"],["Install App ↓","@install"]]},
+ {title:"Student & Teacher Tools",icon:"🛠️",href:"teacher-tools/",links:[
+  ["On This Day in History","today/"],["History Timeline","timeline/"],["Interactive History Map","maps/"],
   ["Classroom Management","teacher-tools/classroom-management/"],
-  ["Learning Styles","teacher-tools/learning-styles/"],
-  ["History Certification Prep","teacher-tools/certification-prep/"]]},
+  ["Curriculum & Lesson Design","teacher-tools/curriculum-design/"],
+  ["Learner Supports","teacher-tools/learning-styles/"],
+  ["Movies in the Classroom","teacher-tools/movies-in-the-classroom/"],
+  ["AI in Education","teacher-tools/ai-in-education/"],
+  ["Current Event Articles","resources/current-event-article-analysis/"],
+  ["Bloom’s Taxonomy","teacher-tools/blooms-taxonomy/"],
+  ["Complete Site Map","sitemap/"],
+  ["History Teacher Certification Center","teacher-tools/certification-prep/"]]},
  {title:"Games",icon:"🎮",href:"games/",groups:[
-  {title:"History Unlocked",href:"games/",links:[["All Games","games/"]]},
+  {title:"History Unlocked",href:"games/history-unlocked/",links:[
+   ["Time Rush","games/time-rush/"],["Map Quest","games/map-quest/"]]},
   {title:"Presidential Challenges",href:"games/presidential-challenges/",links:[
    ["Presidential Portraits","games/presidential-challenges/"],
-   ["Presidents Bingo","games/presidential-challenges/"],
-   ["Who Am I?","games/presidential-challenges/"],
-   ["Presidential Connection","games/presidential-challenges/"],
-   ["Challenge Board","games/presidential-challenges/"]]},
+   ["Presidential Bingo","games/presidential-challenges/bingo/"],
+   ["Who Am I?","games/presidential-challenges/who-am-i/"],
+   ["Presidential Connections","games/presidential-challenges/connections/"],
+   ["Timeline Shuffle","games/presidential-challenges/timeline-shuffle/"],
+   ["Challenge Board","games/presidential-challenges/challenge-board/"]]},
   {title:"Black History Games",href:"games/black-history/",links:[
    ["Hall of Legends","games/hall-of-legends/"],
    ["Black History Bingo","games/black-history-bingo/"],
    ["Who Am I?","games/black-history-who-am-i/"],
-   ["Timeline Shuffle","games/black-history-timeline-shuffle/"],["Historical Connections","games/black-history-connections/"],["Challenge Board","games/black-history-challenge/"]]}
+   ["Timeline Shuffle","games/black-history-timeline-shuffle/"],
+   ["Historical Connections","games/black-history-connections/"],
+   ["Challenge Board","games/black-history-challenge/"]]}
  ]}
 ];
 const grades=[
- ["5th · Early American","lessons/curriculum/grade-5-early-american-history/"],
- ["6th · Ancient World","lessons/curriculum/grade-6-ancient-world-history/"],
- ["7th · World Cultures","lessons/curriculum/grade-7-world-cultures-geography/"],
+ ["5th · Early American History","lessons/curriculum/grade-5-early-american-history/"],
+ ["6th · Ancient World History","lessons/curriculum/grade-6-ancient-world-history/"],
+ ["7th · World Cultures & Geography","lessons/curriculum/grade-7-world-cultures-geography/"],
  ["8th · Early U.S. History","lessons/curriculum/grade-8-early-united-states-history/"],
  ["9th · U.S. History","lessons/curriculum/grade-9-united-states-history/"],
  ["10th · Civics & Government","lessons/curriculum/grade-10-civics-government/"],
- ["11th · Modern World","lessons/curriculum/grade-11-modern-world-history/"],
+ ["11th · Modern World History","lessons/curriculum/grade-11-modern-world-history/"],
  ["12th · Social Studies Electives","lessons/curriculum/grade-12-social-studies-electives/"]
+];
+const extensions=[
+ ["Black History","lessons/curriculum/black-history/"],
+ ["United States Presidents","lessons/curriculum/united-states-presidents/"],
+ ["Hispanic & Latino History","lessons/curriculum/hispanic-american-history/"],
+ ["World Religions","lessons/curriculum/world-religions-comparative-history/"]
+];
+const advanced=[
+ ["AP U.S. History","lessons/curriculum/ap-us-history-preparation/"],
+ ["AP World History","lessons/curriculum/ap-world-history-preparation/"],
+ ["AP Government & Politics","lessons/curriculum/ap-government-preparation/"]
 ];
 const safeText=t=>String(t).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const menuLink=([name,path],css="")=>path==="@install"?
@@ -210,20 +229,22 @@ const menuLink=([name,path],css="")=>path==="@install"?
  '<a class="etp-map-link '+css+'" href="'+u(path.startsWith("/")?path.slice(1):path)+'">'+safeText(name)+'</a>';
 const topMarkup=menuSections.map(section=>
  '<section class="etp-map-column" aria-label="'+safeText(section.title)+'">'+
- '<h2 class="etp-map-title"><a href="'+u(section.href)+'"><span class="etp-map-main-icon" aria-hidden="true">'+section.icon+'</span>'+safeText(section.title)+'</a></h2>'+
+ '<h2 class="etp-map-title"><a href="'+u(section.href)+'"><span class="etp-map-main-icon" aria-hidden="true">'+
+ (section.title==="Home"?'<img class="etp-map-globe" src="'+u("app-assets/icon-192.png")+'" alt="">':section.icon)+
+ '</span>'+safeText(section.title)+'</a></h2>'+
  (section.links?'<div class="etp-map-column-links">'+section.links.map(v=>menuLink(v)).join('')+'</div>':'')+
  (section.groups?section.groups.map(g=>'<div class="etp-map-subgroup"><h3><a href="'+u(g.href)+'">'+safeText(g.title)+'</a></h3>'+
  '<div class="etp-map-column-links">'+g.links.map(v=>menuLink(v)).join('')+'</div></div>').join(''):'')+
  '</section>').join('');
 panel.innerHTML='<div class="etp-map-head"><span>EXAMINE THE PAST · EXPLORE</span><button type="button" class="etp-mega-close" aria-label="Close menu">×</button></div>'+
  '<div class="etp-map-content"><div class="etp-map-primary">'+topMarkup+'</div>'+
- '<section class="etp-map-history" aria-label="History Hub courses">'+
- '<h2 class="etp-map-title"><a href="'+u('lessons/')+'"><span class="etp-map-main-icon" aria-hidden="true">📚</span>History Hub · Courses</a></h2>'+
- '<div class="etp-map-grades">'+grades.map(v=>menuLink(v,"etp-map-grade")).join('')+'</div>'+
- '<div class="etp-map-history-bottom"><h3><a href="'+u('lessons/curriculum/black-history/')+'">Black History Courses</a></h3>'+
- '<div class="etp-map-history-links">'+
- menuLink(["Lessons","lessons/black-history/"])+menuLink(["Hall","lessons/black-history-heroes/"])+menuLink(["Games","games/black-history/"])+
- '</div></div></section></div>';
+ '<section class="etp-map-history" aria-label="Courses and extended curriculum">'+
+ '<h2 class="etp-map-title"><a href="'+u("lessons/")+'"><span class="etp-map-main-icon" aria-hidden="true">📚</span>Courses · History Hub</a></h2>'+
+ '<div class="etp-map-course-columns">'+
+ '<div class="etp-map-course-group"><h3>Grade 5–12 Courses</h3><div class="etp-map-grades">'+grades.map(v=>menuLink(v,"etp-map-grade")).join('')+'</div></div>'+
+ '<div class="etp-map-course-group"><h3>Extended Curricula</h3><div class="etp-map-extension-links">'+extensions.map(v=>menuLink(v)).join('')+'</div></div>'+
+ '<div class="etp-map-course-group"><h3>Advanced Placement</h3><div class="etp-map-advanced-links">'+advanced.map(v=>menuLink(v)).join('')+'</div></div>'+
+ '</div></section></div>';
 panel.querySelector(".etp-mega-close")?.addEventListener("click",()=>{panel.hidden=true;toggle.classList.remove("open");toggle.setAttribute("aria-expanded","false");toggle.focus()});
 header.querySelector(".etp-header-inner").append(toggle);header.querySelector(".etp-header-inner").append(panel);
 panel.querySelector('[data-etp-action="install"]')?.addEventListener("click",e=>{e.preventDefault();if(typeof window.siteInstallApp==="function")window.siteInstallApp();else {const b=document.querySelector(".site-app-footer-text");if(b)b.click();}});
