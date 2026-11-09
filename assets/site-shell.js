@@ -4,11 +4,11 @@ const u=p=>root+p;
 document.body.dataset.etpShell="shared";
 function loadCSS(href,key){if(document.querySelector('link[data-etp-load="'+key+'"]'))return;const l=document.createElement("link");l.rel="stylesheet";l.href=href;l.dataset.etpLoad=key;document.head.appendChild(l)}
 function loadJS(src,key){if([...document.scripts].some(s=>s.src&&new URL(s.src).pathname===new URL(src,location.href).pathname))return;const x=document.createElement("script");x.src=src;x.async=false;x.dataset.etpLoad=key;document.head.appendChild(x)}
-loadCSS(u("assets/site-shell.css?v=20261108-mega-yellow-warp-v14"),"shell-css");
+loadCSS(u("assets/site-shell.css?v=20261108-black-history-nav-v15"),"shell-css");
 loadCSS(u("assets/etp-transitions.css?v=20261104-cinematic-5-v1"),"transitions-css");loadJS(u("assets/etp-transitions.js?v=20261104-cinematic-5-v1"),"transitions-js");
 loadCSS(u("assets/etp-experience-v50.css?v=20261015-etp-r2"),"experience-css");loadJS(u("assets/etp-experience-v50.js?v=20261102-history-jukebox"),"experience-js");
 loadCSS(u("assets/repair-v63.css?v=20261107-reader-audit-v1"),"repair-css");loadJS(u("assets/repair-v63.js?v=20261107-reader-audit-v1"),"repair-js");
-loadCSS(u("assets/nav-footer-parity.css?v=20261108-mega-yellow-warp-v14"),"nav-footer-parity");
+loadCSS(u("assets/nav-footer-parity.css?v=20261108-black-history-nav-v15"),"nav-footer-parity");
 if(/\/teacher-tools\/blooms-taxonomy\//.test(location.pathname))loadCSS(u("assets/blooms-dark-levels.css?v=20261107-v1"),"bloom-dark-levels");
 if(![...document.scripts].some(x=>x.src&&x.src.includes("/app-assets/install.js")))loadJS(u("app-assets/install.js?v=20261104-unified-v1"),"install-js");
 const header=document.createElement("header");header.id="etpSiteHeader";
@@ -35,6 +35,46 @@ header.innerHTML='<div class="etp-header-inner etp-header-minimal">'+
 '<a class="etp-top-link" href="'+u('lessons/')+'" data-etp-transition="warp-tunnel" aria-label="Courses"><span class="etp-top-emoji" aria-hidden="true">📚</span><span class="etp-top-tip">Courses</span></a>'+
 '</nav><nav class="etp-icon-nav" aria-label="Music"><div class="etp-nav-item"><button class="etp-icon-btn" type="button" data-etp-action="jukebox" aria-label="Open History Jukebox"><span class="etp-sound-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span></button><span class="etp-tip">History Jukebox</span></div></nav></div></div>';
 document.body.prepend(header);
+
+/* Consistent app-friendly back row, placed immediately beneath the shared header,
+   never after page art or the hero. Same layout on desktop and mobile. */
+const pagePath=location.pathname.replace(/\\/g,"/");
+if(pagePath!==root&&pagePath!==root.replace(/\/$/,"")){
+ const pageNav=document.createElement("nav");
+ pageNav.className="etp-page-nav";
+ pageNav.setAttribute("aria-label","Page navigation");
+ const fallback=pagePath.startsWith(root+"games/black-history-")?u("games/black-history/"):
+   pagePath.startsWith(root+"games/black-history/")?u("games/"):
+   pagePath.startsWith(root+"games/presidential-challenges/")&&pagePath!==root+"games/presidential-challenges/"?u("games/presidential-challenges/"):
+   pagePath.startsWith(root+"games/")?u("games/"):
+   pagePath.startsWith(root+"lessons/")?u("lessons/"):
+   pagePath.startsWith(root+"teacher-tools/")?u("teacher-tools/"):u("");
+ const isGame=pagePath.startsWith(root+"games/");
+ const isLesson=pagePath.startsWith(root+"lessons/");
+ const links=isGame?
+   [['All Games',u("games/")],['Black History Games',u("games/black-history/")]]:
+   isLesson?[['History Hub',u("lessons/")],['Black History Courses',u("lessons/curriculum/black-history/")]]:
+   [['Home',u("")]];
+ pageNav.innerHTML='<button type="button" class="etp-page-back" aria-label="Go to previous page"><span aria-hidden="true">←</span> Back</button>'+
+  links.filter(([label,href])=>new URL(href,location.origin).pathname!==pagePath)
+    .map(([label,href])=>'<a class="etp-page-nav-link" data-etp-transition="warp-tunnel" href="'+href+'">'+label+'</a>').join('');
+ pageNav.querySelector(".etp-page-back").addEventListener("click",()=>{
+  let internalPrevious=false;
+  try{
+   if(document.referrer){
+    const prev=new URL(document.referrer);
+    internalPrevious=prev.origin===location.origin&&
+       (prev.pathname!==location.pathname||prev.search!==location.search||prev.hash!==location.hash);
+   }
+  }catch{}
+  if(internalPrevious&&history.length>1)history.back();
+  else if(window.ETPTransitions?.navigate)window.ETPTransitions.navigate(fallback,"warp-tunnel");
+  else location.assign(fallback);
+ });
+ header.insertAdjacentElement("afterend",pageNav);
+ document.body.classList.add("etp-has-page-nav");
+}
+
 
 /* Bind the four visible navigation shortcuts directly to the established cinematic
    engine. Target-level capture avoids ordinary link handlers and preserves sound. */
@@ -147,11 +187,11 @@ const menuSections=[
    ["Who Am I?","games/presidential-challenges/"],
    ["Presidential Connection","games/presidential-challenges/"],
    ["Challenge Board","games/presidential-challenges/"]]},
-  {title:"Black History",href:"games/black-history-challenge/",links:[
-   ["Black History Legends Hall","lessons/black-history-heroes/"],
-   ["Black History Bingo","games/black-history-challenge/"],
-   ["Who Am I?","games/black-history-challenge/"],
-   ["Time Shuffle","games/time-rush/"]]}
+  {title:"Black History Games",href:"games/black-history/",links:[
+   ["Hall of Legends","games/hall-of-legends/"],
+   ["Black History Bingo","games/black-history-bingo/"],
+   ["Who Am I?","games/black-history-who-am-i/"],
+   ["Timeline Shuffle","games/black-history-timeline-shuffle/"],["Historical Connections","games/black-history-connections/"],["Challenge Board","games/black-history-challenge/"]]}
  ]}
 ];
 const grades=[
@@ -180,9 +220,9 @@ panel.innerHTML='<div class="etp-map-head"><span>EXAMINE THE PAST · EXPLORE</sp
  '<section class="etp-map-history" aria-label="History Hub courses">'+
  '<h2 class="etp-map-title"><a href="'+u('lessons/')+'"><span class="etp-map-main-icon" aria-hidden="true">📚</span>History Hub · Courses</a></h2>'+
  '<div class="etp-map-grades">'+grades.map(v=>menuLink(v,"etp-map-grade")).join('')+'</div>'+
- '<div class="etp-map-history-bottom"><h3><a href="'+u('lessons/black-history/')+'">Black History</a></h3>'+
+ '<div class="etp-map-history-bottom"><h3><a href="'+u('lessons/curriculum/black-history/')+'">Black History Courses</a></h3>'+
  '<div class="etp-map-history-links">'+
- menuLink(["Lessons","lessons/black-history/"])+menuLink(["Hall","lessons/black-history-heroes/"])+menuLink(["Games","games/black-history-challenge/"])+
+ menuLink(["Lessons","lessons/black-history/"])+menuLink(["Hall","lessons/black-history-heroes/"])+menuLink(["Games","games/black-history/"])+
  '</div></div></section></div>';
 panel.querySelector(".etp-mega-close")?.addEventListener("click",()=>{panel.hidden=true;toggle.classList.remove("open");toggle.setAttribute("aria-expanded","false");toggle.focus()});
 header.querySelector(".etp-header-inner").append(toggle);header.querySelector(".etp-header-inner").append(panel);
