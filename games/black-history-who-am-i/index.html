@@ -10,4 +10,4 @@ $("next").addEventListener("click",()=>{index++;show();});
 $("restart").addEventListener("click",()=>{if(people.length)begin();});
 Promise.all([fetch("../hall-of-legends/data/death-chronology.json").then(r=>r.json()),...([1,2,3].map(n=>fetch("../hall-of-legends/data/biographies-0"+n+".json").then(r=>r.json())))]).then(([data,...parts])=>{people=data.scenes.flatMap(s=>s.portraits);profiles=new Map(parts.flatMap(x=>x.entries).map(p=>[p.id,p]));if(people.length!==141||profiles.size!==141)throw Error("Incomplete historical collection");begin();}).catch(()=>{$("status").textContent="The historical collection could not be loaded. Refresh to retry.";});
 })();
-</script><script src="../../assets/black-history-game-fx.js?v=20261104-a"></script><script src="../../assets/site-shell.js?v=20261109-footer-short-labels-v20" data-etp-root="../../"></script></body></html>
+</script><script src="../../assets/black-history-game-fx.js?v=20261104-a"></script><script src="../../assets/site-shell.js?v=20261109-footer-legal-install-v21" data-etp-root="../../"></script></body></html>

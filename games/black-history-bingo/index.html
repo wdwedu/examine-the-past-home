@@ -12,4 +12,4 @@ function start(){marked=new Set();won=false;advancing=false;window.BHGameFX?.sou
 Promise.all([fetch("../hall-of-legends/data/death-chronology.json").then(r=>r.json()),...([1,2,3].map(n=>fetch("../hall-of-legends/data/biographies-0"+n+".json").then(r=>r.json())))]).then(([d,...parts])=>{people.push(...d.scenes.flatMap(s=>s.portraits).filter(f=>/^bh-/.test(f.id)));for(const p of parts.flatMap(x=>x.entries))profiles.set(p.id,p);if(people.length!==141||profiles.size!==141)throw Error("Incomplete Hall bank");start();}).catch(()=>{$("clue").textContent="The game data could not be loaded. Please refresh this page.";});
 $("restart").addEventListener("click",()=>{if(people.length)start();});
 })();
-</script><script src="../../assets/black-history-game-fx.js?v=20261104-a"></script><script src="../../assets/site-shell.js?v=20261109-footer-short-labels-v20" data-etp-root="../../"></script></body></html>
+</script><script src="../../assets/black-history-game-fx.js?v=20261104-a"></script><script src="../../assets/site-shell.js?v=20261109-footer-legal-install-v21" data-etp-root="../../"></script></body></html>

@@ -11,4 +11,4 @@ function back(){if(!active)return; if(!used.has(active)){used.add(active);$("fee
 $("return").addEventListener("click",back);$("reset").addEventListener("click",()=>{used=new Set();score=0;active=null;$("question").hidden=true;$("board").hidden=false;board();});
 Promise.all([fetch("./questions.json").then(r=>r.json()),fetch("../hall-of-legends/data/death-chronology.json").then(r=>r.json())]).then(([d,people])=>{categories=d.categories;figures=new Map(people.scenes.flatMap(s=>s.portraits).map(f=>[f.id,f]));if(categories.length!==5||categories.some(c=>c.items.length!==5||c.items.some(i=>!figures.has(i.id))))throw Error("Invalid question bank");board();}).catch(()=>{$("remaining").textContent="Unable to load game questions. Please refresh.";});
 })();
-</script><script src="../../assets/black-history-game-fx.js?v=20261104-a"></script><script src="../../assets/site-shell.js?v=20261109-footer-short-labels-v20" data-etp-root="../../"></script></body></html>
+</script><script src="../../assets/black-history-game-fx.js?v=20261104-a"></script><script src="../../assets/site-shell.js?v=20261109-footer-legal-install-v21" data-etp-root="../../"></script></body></html>

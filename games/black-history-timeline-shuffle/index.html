@@ -27,4 +27,4 @@ $("show").addEventListener("click",()=>{items.sort((a,b)=>a.year-b.year);$("stat
 $("shuffle").addEventListener("click",()=>{if(people.size)start();});
 fetch("../hall-of-legends/data/death-chronology.json").then(r=>r.json()).then(d=>{people=new Map(d.scenes.flatMap(s=>s.portraits).map(f=>[f.id,f]));if(events.some(e=>!people.has(e.id)))throw Error("Missing portrait");start();}).catch(()=>{$("status").textContent="Timeline assets unavailable. Please refresh.";});
 })();
-</script><script src="../../assets/black-history-game-fx.js?v=20261104-a"></script><script src="../../assets/site-shell.js?v=20261109-footer-short-labels-v20" data-etp-root="../../"></script></body></html>
+</script><script src="../../assets/black-history-game-fx.js?v=20261104-a"></script><script src="../../assets/site-shell.js?v=20261109-footer-legal-install-v21" data-etp-root="../../"></script></body></html>

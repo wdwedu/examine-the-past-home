@@ -18,4 +18,4 @@ $("next").addEventListener("click",()=>{round++;selected=[];$("connection").hidd
 $("restart").addEventListener("click",()=>{if(people.size)start();});
 fetch("../hall-of-legends/data/death-chronology.json").then(r=>r.json()).then(d=>{people=new Map(d.scenes.flatMap(s=>s.portraits).map(f=>[f.id,f]));if(pairs.some(p=>p.ids.some(id=>!people.has(id))))throw Error("Missing portrait");start();}).catch(()=>{$("status").textContent="The collection could not be loaded. Please refresh.";});
 })();
-</script><script src="../../assets/black-history-game-fx.js?v=20261104-a"></script><script src="../../assets/site-shell.js?v=20261109-footer-short-labels-v20" data-etp-root="../../"></script></body></html>
+</script><script src="../../assets/black-history-game-fx.js?v=20261104-a"></script><script src="../../assets/site-shell.js?v=20261109-footer-legal-install-v21" data-etp-root="../../"></script></body></html>
