@@ -65,7 +65,7 @@ h1{font-family:Georgia,"Times New Roman",serif;margin:0;color:var(--yellow);font
 }
 .game-card.active:hover .game-desc,.game-card.active:focus-visible .game-desc{color:#fff!important}
 
-</style>
+\n.family{scroll-margin-top:130px}\n</style>
 <link rel="manifest" href="../../manifest.webmanifest" type="application/manifest+json">
 <link rel="apple-touch-icon" sizes="180x180" href="../../app-assets/icon-180.png">
 <meta name="mobile-web-app-capable" content="yes">
@@ -207,7 +207,8 @@ document.getElementById("vault").innerHTML=groups.map(([title,games])=>{
    if(href)return '<a class="game-card active '+t+'" href="'+href+'"><span class="status open">OPEN</span><div class="game-title">'+name+'</div><div class="game-desc">'+desc+'</div></a>';
    return '<div class="game-card closed-card '+t+'" tabindex="0"><span class="status closed">CLOSED</span><div class="game-title">'+name+'</div><div class="game-desc">'+desc+'</div></div>';
  }).join("");
- return '<section class="family"><h2>'+title+'</h2><div class="game-grid">'+cards+'</div></section>';
+ const familyId="family-"+title.toLowerCase().replace(/\?/g,"").replace(/[^a-z0-9]+/g,"-").replace(/-$/,"");return '<section class="family" id="'+familyId+'"><h2>'+title+'</h2><div class="game-grid">'+cards+'</div></section>';
 }).join("");
+if(location.hash&&location.hash.startsWith("#family-"))requestAnimationFrame(()=>{document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView({block:"start"});});
 </script>
 </body></html>
