@@ -291,12 +291,12 @@ panel.querySelectorAll("a[href]").forEach(link=>{
 });document.addEventListener("keydown",e=>{if(e.key==="Escape")closeMobile()});
 if(!noFooter){const footer=document.createElement("footer");footer.id="etpSiteFooter";
 footer.innerHTML='<div class="etp-footer-grid"><div><div class="etp-footer-title">Learn</div>'+
-'<a href="'+u('lessons/curriculum/grade-5-early-american-history/')+'">5th Grade · Early American History</a>'+
-'<a href="'+u('lessons/curriculum/grade-6-ancient-world-history/')+'">6th Grade · Ancient World History</a>'+
+'<a href="'+u('lessons/curriculum/grade-5-early-american-history/')+'">5th Grade · Early American</a>'+
+'<a href="'+u('lessons/curriculum/grade-6-ancient-world-history/')+'">6th Grade · Ancient World</a>'+
 '<a href="'+u('lessons/curriculum/grade-7-world-cultures-geography/')+'">7th Grade · World Cultures</a>'+
-'<a href="'+u('lessons/curriculum/grade-8-early-united-states-history/')+'">8th Grade · Early U.S. History</a>'+
+'<a href="'+u('lessons/curriculum/grade-8-early-united-states-history/')+'">8th Grade · Early U.S.</a>'+
 '<a href="'+u('lessons/curriculum/grade-9-united-states-history/')+'">9th Grade · U.S. History</a>'+
-'<a href="'+u('lessons/curriculum/grade-12-social-studies-electives/')+'">12th Grade · Social Studies Electives</a>'+
+'<a href="'+u('lessons/curriculum/grade-12-social-studies-electives/')+'">12th Grade · Electives</a>'+
 '<a href="'+u('lessons/curriculum/black-history/')+'">Black History</a>'+
 '<a href="'+u('lessons/curriculum/hispanic-american-history/')+'">Hispanic &amp; Latino History</a>'+
 '<a href="'+u('lessons/curriculum/ap-us-history-preparation/')+'">AP U.S. History</a>'+
