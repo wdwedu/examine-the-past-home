@@ -1067,3 +1067,64 @@ body.etp-has-page-nav .etp-page-nav .etp-page-nav-link{
  #etpSiteHeader .etp-mobile-panel .etp-map-course-group:first-child{grid-column:auto!important}
  #etpSiteHeader .etp-mobile-panel .etp-map-grades{grid-template-columns:1fr!important}
 }
+
+/* 2026-11-09: Three clear desktop navigation columns.
+   Left: Home / Student & Teacher Tools. Center: Games. Right: Courses. */
+@media(min-width:951px){
+ #etpSiteHeader .etp-mobile-panel .etp-map-primary.etp-map-three-columns{
+  display:grid!important;grid-template-columns:minmax(0,.92fr) minmax(0,1.04fr) minmax(390px,1.45fr)!important;
+  align-items:start!important;column-gap:clamp(22px,3vw,58px)!important;row-gap:0!important;
+ }
+ #etpSiteHeader .etp-mobile-panel .etp-map-first-column,
+ #etpSiteHeader .etp-mobile-panel .etp-map-games-column,
+ #etpSiteHeader .etp-mobile-panel .etp-map-history{
+  grid-column:auto!important;grid-row:auto!important;min-width:0!important;
+ }
+}
+#etpSiteHeader .etp-mobile-panel .etp-map-first-column{
+ display:flex!important;flex-direction:column!important;gap:27px!important;min-width:0!important;
+}
+#etpSiteHeader .etp-mobile-panel .etp-map-games-column{min-width:0!important}
+#etpSiteHeader .etp-mobile-panel .etp-map-three-columns>.etp-map-history{
+ margin:0!important;padding:0!important;border:0!important;min-width:0!important;
+}
+#etpSiteHeader .etp-mobile-panel .etp-map-three-columns .etp-map-course-columns{
+ display:flex!important;flex-direction:column!important;gap:15px!important;
+ margin:9px 0 0!important;min-width:0!important;
+}
+#etpSiteHeader .etp-mobile-panel .etp-map-three-columns .etp-map-course-group{
+ grid-column:auto!important;min-width:0!important;margin:0!important;padding:0!important;
+}
+#etpSiteHeader .etp-mobile-panel .etp-map-three-columns .etp-map-grades,
+#etpSiteHeader .etp-mobile-panel .etp-map-three-columns .etp-map-extension-links,
+#etpSiteHeader .etp-mobile-panel .etp-map-three-columns .etp-map-advanced-links{
+ display:flex!important;flex-direction:column!important;gap:0!important;
+ margin:0!important;padding:0 0 0 10px!important;
+}
+#etpSiteHeader .etp-mobile-panel .etp-map-three-columns .etp-map-course-group .etp-map-link{
+ white-space:nowrap!important;overflow:visible!important;
+ display:block!important;width:max-content!important;max-width:100%!important;
+ font-size:13px!important;line-height:1.32!important;
+ padding:5px 6px 5px 10px!important;
+}
+@media(max-width:950px){
+ #etpSiteHeader .etp-mobile-panel .etp-map-primary.etp-map-three-columns{
+  display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  gap:22px!important;
+ }
+ #etpSiteHeader .etp-mobile-panel .etp-map-primary.etp-map-three-columns>.etp-map-history{
+  grid-column:1/-1!important;margin:0!important;border-top:1px solid #94ff5355!important;
+  padding-top:15px!important;
+ }
+}
+@media(max-width:620px){
+ #etpSiteHeader .etp-mobile-panel .etp-map-primary.etp-map-three-columns{
+  grid-template-columns:1fr!important;gap:17px!important;
+ }
+ #etpSiteHeader .etp-mobile-panel .etp-map-primary.etp-map-three-columns>.etp-map-history{
+  grid-column:1!important;
+ }
+ #etpSiteHeader .etp-mobile-panel .etp-map-three-columns .etp-map-course-group .etp-map-link{
+  white-space:normal!important;width:100%!important;
+ }
+}
