@@ -81,10 +81,10 @@ if slug=='examine-the-past-home':
     value=value.replace('<header class="topbar">','<section class="topbar etp-learning-toolbar">',1).replace('</header>','</section>',1)
    value=value.replace('<footer class="mega-footer" id="site-footer">','<footer class="mega-footer" id="site-footer" hidden style="display:none!important">')
 
-  # Refresh the shared curriculum design and unit-count formatter sitewide.
+  # Refresh approved shared curriculum CSS and unit controls on each course page.
   if len(page.parts)>=4 and page.parts[0:2]==('lessons','curriculum') and page.name=='index.html':
-   value=re.sub(r'(assets/history-hub\\.css)(?:\\?v=[^\\s\\"\\x27<>]+)?',r'\\g<1>?v=20261109-curriculum-design-v7',value)
-   value=re.sub(r'(assets/history-hub-course\\.js)(?:\\?v=[^\\s\\"\\x27<>]+)?',r'\\g<1>?v=20261109-unit-labels-v3',value)
+   value=re.sub(r"(assets/history-hub\.css)(?:\?v=[^\"'\s<>]+)?",r"\g<1>?v=20261109-curriculum-design-v7",value)
+   value=re.sub(r"(assets/history-hub-course\.js)(?:\?v=[^\"'\s<>]+)?",r"\g<1>?v=20261109-unit-labels-v3",value)
   # Repair legacy content pages that do not yet load the shared navigation.
   # Required for the consistent footer, back control, and app-wide transitions.
   shell_scripts=re.findall(r'<script[^>]+src=["\x27][^"\x27]*assets/site-shell\.js',value,re.I)
