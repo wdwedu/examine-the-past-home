@@ -1329,3 +1329,22 @@ body.etp-has-page-nav .etp-page-nav .etp-page-nav-link{
   min-height:40px!important;padding:4px 2px!important;
  }
 }
+
+/* Footer-only compact install link: match sibling Georgia navigation links exactly. */
+#etpSiteFooter .etp-footer-grid .etp-footer-install{
+ display:block!important;width:100%!important;min-height:0!important;margin:0!important;
+ padding:3px 0!important;border:0!important;border-radius:0!important;
+ background:transparent!important;background-image:none!important;box-shadow:none!important;
+ text-align:left!important;color:#fff!important;-webkit-text-fill-color:#fff!important;
+ font-family:Georgia,"Times New Roman",serif!important;font-size:.92rem!important;
+ font-style:italic!important;font-weight:700!important;line-height:1.45!important;
+ text-transform:none!important;letter-spacing:normal!important;text-decoration:none!important;
+ animation:none!important;transform:none!important;cursor:pointer!important;
+}
+#etpSiteFooter .etp-footer-grid .etp-footer-install:hover,
+#etpSiteFooter .etp-footer-grid .etp-footer-install:focus-visible{
+ color:#fff200!important;-webkit-text-fill-color:#fff200!important;text-decoration:underline!important;
+}
+@media(max-width:560px){
+ #etpSiteFooter .etp-footer-grid .etp-footer-install{font-size:.8rem!important}
+}
