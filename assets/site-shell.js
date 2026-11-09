@@ -10,7 +10,7 @@ loadCSS(u("assets/etp-experience-v50.css?v=20261015-etp-r2"),"experience-css");l
 loadCSS(u("assets/repair-v63.css?v=20261107-reader-audit-v1"),"repair-css");loadJS(u("assets/repair-v63.js?v=20261108-tools-reader-v16"),"repair-js");
 loadCSS(u("assets/nav-footer-parity.css?v=20261108-menu-final-v16"),"nav-footer-parity");
 if(/\/teacher-tools\/blooms-taxonomy\//.test(location.pathname))loadCSS(u("assets/blooms-dark-levels.css?v=20261107-v1"),"bloom-dark-levels");
-if(![...document.scripts].some(x=>x.src&&x.src.includes("/app-assets/install.js")))loadJS(u("app-assets/install.js?v=20261104-unified-v1"),"install-js");
+if(![...document.scripts].some(x=>x.src&&x.src.includes("/app-assets/install.js")))loadJS(u("app-assets/install.js?v=20261108-native-menu-v17"),"install-js");
 const header=document.createElement("header");header.id="etpSiteHeader";
 header.innerHTML='<div class="etp-header-inner"><nav class="etp-icon-nav" aria-label="Site navigation">'+
 '<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('')+'">🏠</a><span class="etp-tip">Home</span></div>'+
