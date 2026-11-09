@@ -69,10 +69,10 @@ if slug=='examine-the-past-home':
   if 'assets' in page.parts:continue  # HTML fragments are not pages.
   value=page.read_text()
   shell=os.path.relpath(root/'assets/site-shell.js',page.parent).replace(os.sep,'/')
-  # Normalize both script URL versions to the native (not legacy white) ETP menu.
-  # This prevents old cached installed-app scripts from replacing the yellow menu.
-  value=re.sub(r'(assets/site-shell\\.js)(?:\\?v=[^\"\\\'\\s<>]+)?',r'\\g<1>?v=20261108-native-menu-v17',value)
-  value=re.sub(r'(app-assets/install\\.js)(?:\\?v=[^\"\\\'\\s<>]+)?',r'\\g<1>?v=20261108-native-menu-v17',value)
+  # Normalize the site shell and installer to the updated native ETP menu.
+  # Older cache keys were loading the white dialog after the yellow menu appeared.
+  value=re.sub(r"(assets/site-shell\.js)(?:\?v=[^\"'\s<>]+)?",r"\g<1>?v=20261108-native-menu-v17",value)
+  value=re.sub(r"(app-assets/install\.js)(?:\?v=[^\"'\s<>]+)?",r"\g<1>?v=20261108-native-menu-v17",value)
   if page.as_posix()=='teacher-tools/learning-styles/index.html':
    if not re.search(r'<script[^>]+src=["\'][^"\']*assets/site-shell\.js',value):
     value=value.replace('</head>',f'<script defer src="{shell}?v=20261015-etp-r2"></script></head>',1)
