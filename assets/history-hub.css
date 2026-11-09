@@ -85,3 +85,141 @@ html body.etp-curriculum .etp-course-banner::after{
     linear-gradient(0deg,rgba(0,8,7,.56),transparent 60%)!important;
   }
 }
+
+/* 2026-11-09 · Curriculum Design Model v7
+   Applies to every etp-curriculum subject/course page. Keep artwork anchored right;
+   reposition ONLY the content on the left and improve unit/lesson hierarchy. */
+html body.etp-curriculum main.etp-layout header.etp-course-banner{
+  padding-left:clamp(17px,2.8vw,38px)!important;
+  padding-right:clamp(22px,3.2vw,45px)!important;
+  justify-content:flex-start!important;
+  align-items:flex-start!important;
+  text-align:left!important;
+}
+html body.etp-curriculum main.etp-layout header.etp-course-banner>.etp-course-intro{
+  display:flex!important;
+  flex-direction:column!important;
+  align-items:flex-start!important;
+  justify-content:center!important;
+  flex:0 1 auto!important;
+  width:min(730px,60%)!important;
+  max-width:min(730px,60%)!important;
+  min-width:0!important;
+  align-self:flex-start!important;
+  margin:0!important;padding:0!important;
+  text-align:left!important;
+}
+html body.etp-curriculum main.etp-layout header.etp-course-banner>.etp-course-intro h1,
+html body.etp-curriculum main.etp-layout header.etp-course-banner>.etp-course-intro p,
+html body.etp-curriculum main.etp-layout header.etp-course-banner>.etp-course-intro .etp-overline{
+  width:100%!important;max-width:100%!important;
+  text-align:left!important;margin-left:0!important;
+  font-family:Georgia,"Times New Roman",serif!important;
+}
+html body.etp-curriculum main.etp-layout header.etp-course-banner>.etp-course-intro .etp-hero-stats{
+  justify-content:flex-start!important;align-self:flex-start!important;
+  margin-left:0!important;padding-left:0!important;
+}
+html body.etp-curriculum details.etp-unit>summary{
+  gap:clamp(12px,2vw,28px)!important;
+  padding:16px clamp(15px,2.3vw,28px)!important;
+  min-height:72px!important;
+  font:700 clamp(17px,1.55vw,22px)/1.36 Georgia,"Times New Roman",serif!important;
+  color:#fff200!important;
+}
+html body.etp-curriculum details.etp-unit>summary .etp-unit-title{
+  font:700 clamp(18px,1.7vw,23px)/1.3 Georgia,"Times New Roman",serif!important;
+  color:#fff200!important;
+  flex:1 1 auto!important;min-width:0!important;
+}
+html body.etp-curriculum details.etp-unit>summary .etp-unit-count{
+  color:#fff!important;
+  font:700 clamp(16px,1.5vw,21px)/1.25 Georgia,"Times New Roman",serif!important;
+  letter-spacing:.015em!important;
+  white-space:nowrap!important;
+  margin-left:auto!important;
+  text-shadow:0 1px 3px #0009!important;
+}
+html body.etp-curriculum details.etp-unit>summary:after{
+  flex:0 0 auto!important;margin-left:3px!important;font-size:24px!important;
+}
+html body.etp-curriculum details.etp-unit>.etp-unit-body{
+  padding:10px clamp(16px,2.5vw,30px) 25px!important;
+}
+html body.etp-curriculum details.etp-unit>.etp-unit-body>p{
+  margin:11px 0!important;line-height:1.7!important;
+  font:400 clamp(15px,1.35vw,18px)/1.72 Georgia,"Times New Roman",serif!important;
+  color:#e9f0e8!important;
+}
+html body.etp-curriculum details.etp-unit>.etp-unit-body>p b{
+  font-weight:800!important;color:#b8ff81!important;
+}
+html body.etp-curriculum .etp-unit-lessons{
+  display:grid!important;grid-template-columns:1fr!important;
+  gap:12px!important;margin:19px 0 10px!important;
+}
+html body.etp-curriculum .etp-unit-lessons>.etp-lesson-link{
+  position:relative!important;display:flex!important;
+  align-items:center!important;justify-content:space-between!important;
+  flex-direction:row!important;flex-wrap:wrap!important;
+  gap:10px 24px!important;min-height:81px!important;
+  margin:0!important;padding:19px clamp(16px,2vw,28px)!important;
+  border:1px solid rgba(161,198,232,.65)!important;border-radius:13px!important;
+  background:linear-gradient(135deg,#1d395b 0%,#102842 55%,#071425 100%)!important;
+  color:#fff!important;text-decoration:none!important;
+  box-shadow:inset 0 1px 0 #ffffff12,0 5px 17px #0003!important;
+  font:700 clamp(17px,1.45vw,21px)/1.35 Georgia,"Times New Roman",serif!important;
+  transition:transform .23s cubic-bezier(.2,.75,.3,1.1),border-color .23s,box-shadow .23s,filter .23s!important;
+}
+html body.etp-curriculum .etp-unit-lessons>.etp-lesson-link:nth-child(4n+2){
+  background:linear-gradient(135deg,#224b36 0%,#123626 53%,#061c15 100%)!important;
+  border-color:#7fba8c9c!important;
+}
+html body.etp-curriculum .etp-unit-lessons>.etp-lesson-link:nth-child(4n+3){
+  background:linear-gradient(135deg,#672a35 0%,#431923 53%,#1d0c15 100%)!important;
+  border-color:#de8a9599!important;
+}
+html body.etp-curriculum .etp-unit-lessons>.etp-lesson-link:nth-child(4n){
+  background:linear-gradient(135deg,#795d22 0%,#514016 55%,#261e0b 100%)!important;
+  border-color:#e4ca6a99!important;
+}
+html body.etp-curriculum .etp-unit-lessons>.etp-lesson-link:hover,
+html body.etp-curriculum .etp-unit-lessons>.etp-lesson-link:focus-visible{
+  transform:translateY(-5px) scale(1.009)!important;
+  border-color:#fff200!important;
+  box-shadow:0 12px 27px #0009,0 0 0 2px #fff20077,0 0 19px #fff20033!important;
+  filter:brightness(1.12)!important;
+  outline:0!important;
+}
+html body.etp-curriculum .etp-unit-lessons>.etp-lesson-link>span{
+  flex:1 1 260px!important;min-width:0!important;
+  font:700 clamp(17px,1.45vw,21px)/1.32 Georgia,"Times New Roman",serif!important;
+}
+html body.etp-curriculum .etp-unit-lessons>.etp-lesson-link small{
+  color:#c3ff95!important;
+  font:700 clamp(13px,1.18vw,17px)/1.35 Georgia,"Times New Roman",serif!important;
+  letter-spacing:0!important;text-transform:none!important;
+  white-space:normal!important;margin-left:auto!important;
+}
+@media(max-width:780px){
+ html body.etp-curriculum main.etp-layout header.etp-course-banner{
+  padding-left:19px!important;padding-right:19px!important;
+ }
+ html body.etp-curriculum main.etp-layout header.etp-course-banner>.etp-course-intro{
+  width:100%!important;max-width:100%!important;
+ }
+ html body.etp-curriculum details.etp-unit>summary{padding:13px 14px!important;gap:10px!important}
+ html body.etp-curriculum details.etp-unit>summary .etp-unit-count{
+  font-size:clamp(14px,3.7vw,19px)!important;
+ }
+ html body.etp-curriculum .etp-unit-lessons>.etp-lesson-link{
+  padding:16px 17px!important;min-height:77px!important;gap:9px!important;
+ }
+ html body.etp-curriculum .etp-unit-lessons>.etp-lesson-link small{
+  flex-basis:100%!important;margin-left:0!important;font-size:15px!important;
+ }
+}
+@media(prefers-reduced-motion:reduce){
+ html body.etp-curriculum .etp-unit-lessons>.etp-lesson-link{transition:none!important}
+ html body.etp-curriculum .etp-unit-lessons>.etp-lesson-link:hover{transform:none!important}
+}
