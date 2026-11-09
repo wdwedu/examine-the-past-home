@@ -887,3 +887,46 @@ footer .footer-social a img,footer .footer-social a[aria-label="Etsy"] img,foote
   grid-template-columns:1fr!important;
  }
 }
+
+/* 2026-11-08 v15: top-of-page return navigation on every inner page. */
+body.etp-has-page-nav .etp-page-nav{
+ box-sizing:border-box!important;position:sticky!important;top:60px!important;
+ z-index:2147480000!important;width:100%!important;max-width:none!important;
+ display:flex!important;flex-direction:row!important;align-items:center!important;
+ justify-content:flex-start!important;gap:clamp(8px,1.5vw,18px)!important;
+ padding:7px clamp(14px,3vw,48px)!important;margin:0!important;
+ background:linear-gradient(90deg,#09120cf5,#050b10f6)!important;
+ border:0!important;border-bottom:1px solid rgba(148,255,83,.32)!important;
+ overflow-x:auto!important;overscroll-behavior-inline:contain!important;
+ scrollbar-width:thin!important;white-space:nowrap!important;
+}
+body.etp-has-page-nav .etp-page-nav>*{
+ box-sizing:border-box!important;flex:0 0 auto!important;
+ display:inline-flex!important;align-items:center!important;justify-content:center!important;
+ min-height:34px!important;margin:0!important;padding:7px 15px!important;
+ border-radius:8px!important;font:700 13px/1.15 Georgia,"Times New Roman",serif!important;
+ text-decoration:none!important;cursor:pointer!important;
+}
+body.etp-has-page-nav .etp-page-nav .etp-page-back{
+ order:-1!important;background:#183f26!important;color:#fff200!important;
+ border:1px solid #94ff53!important;gap:6px!important;
+}
+body.etp-has-page-nav .etp-page-nav .etp-page-nav-link{
+ background:#0b1820!important;color:#f4f7f1!important;
+ border:1px solid rgba(148,255,83,.38)!important;
+}
+body.etp-has-page-nav .etp-page-nav>*:hover,
+body.etp-has-page-nav .etp-page-nav>*:focus-visible{
+ outline:2px solid #fff200!important;outline-offset:2px!important;color:#fff200!important;
+}
+body.etp-has-page-nav .bhg-wrap>.bhg-back,
+body.etp-has-page-nav .bh-wrap>.bh-crumb,
+body.etp-has-page-nav .etp-layout>.etp-path{display:none!important}
+@media(max-width:759px){
+ body.etp-has-page-nav .etp-page-nav{
+  top:45px!important;padding:6px 10px!important;gap:7px!important;
+ }
+ body.etp-has-page-nav .etp-page-nav>*{
+  min-height:32px!important;padding:7px 12px!important;font-size:12px!important;
+ }
+}
