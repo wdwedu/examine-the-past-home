@@ -81,6 +81,13 @@ if slug=='examine-the-past-home':
     value=value.replace('<header class="topbar">','<section class="topbar etp-learning-toolbar">',1).replace('</header>','</section>',1)
    value=value.replace('<footer class="mega-footer" id="site-footer">','<footer class="mega-footer" id="site-footer" hidden style="display:none!important">')
 
+  # Repair legacy content pages that do not yet load the shared navigation.
+  # Required for the consistent footer, back control, and app-wide transitions.
+  shell_scripts=re.findall(r'<script[^>]+src=["\x27][^"\x27]*assets/site-shell\.js',value,re.I)
+  if not shell_scripts:
+   shell_tag=f'<script src="{shell}?v=20261109-footer-short-labels-v20" data-etp-root="{os.path.relpath(root,page.parent).replace(os.sep,"/")}/"></script>'
+   if '</body>' in value:value=value.replace('</body>',shell_tag+'</body>',1)
+   else:value+=shell_tag
   # Every public page must include one installer script. Older information pages
   # can have the shared shell but omit the app script; repair them before QA/deploy.
   installer=os.path.relpath(root/'app-assets/install.js',page.parent).replace(os.sep,'/')
