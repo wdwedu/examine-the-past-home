@@ -69,9 +69,8 @@ if slug=='examine-the-past-home':
   if 'assets' in page.parts:continue  # HTML fragments are not pages.
   value=page.read_text()
   shell=os.path.relpath(root/'assets/site-shell.js',page.parent).replace(os.sep,'/')
-  value=re.sub(r'(<script\b[^>]*\bsrc=["\'])[^"\']*assets/site-shell\.js(?:\?[^"\']*)?(["\'])',lambda m:m[1]+shell+'?v=20261015-etp-r2'+m[2],value)
-  value=re.sub(r'(assets/(?:site-shell\.(?:js|css)|home-expansion\.js|etp-experience-v50\.(?:js|css)|repair-v63\.(?:js|css)|brand-v65\.css))(?:\?v=[^"\s<>]+)?',lambda m:m[1]+'?v=20261015-etp-r2',value)
-  value=re.sub(r'(app-assets/install\.js)(?:\?v=[^"\s<>]+)?',lambda m:m[1]+'?v=20261015-etp-r2',value)
+  # Keep the page's existing asset version URLs. Rewriting them to 20261015
+  # causes stale cached navigation to reappear after every app deployment.
   if page.as_posix()=='teacher-tools/learning-styles/index.html':
    if not re.search(r'<script[^>]+src=["\'][^"\']*assets/site-shell\.js',value):
     value=value.replace('</head>',f'<script defer src="{shell}?v=20261015-etp-r2"></script></head>',1)
