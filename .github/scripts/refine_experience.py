@@ -71,7 +71,7 @@ if slug=='examine-the-past-home':
   shell=os.path.relpath(root/'assets/site-shell.js',page.parent).replace(os.sep,'/')
   # Normalize the site shell and installer to the updated native ETP menu.
   # Older cache keys were loading the white dialog after the yellow menu appeared.
-  value=re.sub(r"(assets/site-shell\.js)(?:\?v=[^\"'\s<>]+)?",r"\g<1>?v=20261109-footer-short-labels-v20",value)
+  value=re.sub(r"(assets/site-shell\.js)(?:\?v=[^\"'\s<>]+)?",r"\g<1>?v=20261109-footer-legal-install-v21",value)
   value=re.sub(r"(app-assets/install\.js)(?:\?v=[^\"'\s<>]+)?",r"\g<1>?v=20261108-native-menu-v17",value)
   if page.as_posix()=='teacher-tools/learning-styles/index.html':
    if not re.search(r'<script[^>]+src=["\'][^"\']*assets/site-shell\.js',value):
@@ -85,7 +85,7 @@ if slug=='examine-the-past-home':
   # Required for the consistent footer, back control, and app-wide transitions.
   shell_scripts=re.findall(r'<script[^>]+src=["\x27][^"\x27]*assets/site-shell\.js',value,re.I)
   if not shell_scripts:
-   shell_tag=f'<script src="{shell}?v=20261109-footer-short-labels-v20" data-etp-root="{os.path.relpath(root,page.parent).replace(os.sep,"/")}/"></script>'
+   shell_tag=f'<script src="{shell}?v=20261109-footer-legal-install-v21" data-etp-root="{os.path.relpath(root,page.parent).replace(os.sep,"/")}/"></script>'
    if '</body>' in value:value=value.replace('</body>',shell_tag+'</body>',1)
    else:value+=shell_tag
   # Every public page must include one installer script. Older information pages
