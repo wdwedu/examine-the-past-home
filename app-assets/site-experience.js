@@ -28,7 +28,7 @@ function etpMenu(){
  row.addEventListener('pointerover',show);row.addEventListener('focusin',show);row.addEventListener('pointerout',hide);row.addEventListener('focusout',hide);addEventListener('scroll',hide,{passive:true});
 }
 function addMenu(){
- if(cfg.slug==='examine-the-past-home'){etpMenu();return;}
+ if(cfg.slug==='examine-the-past-home'){return;} // Preserve the native yellow mega-menu; never replace it with the legacy white dialog.
  if(cfg.slug==='perennial-home-and-gardens')return;
  if(cfg.slug==='ie')return; // i.e. already uses the approved compact dropdown.
  const sources=all(cfg.navSources).filter(n=>!n.closest('.x-menu'));
