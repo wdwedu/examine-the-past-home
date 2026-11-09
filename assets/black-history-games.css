@@ -35,3 +35,34 @@ body{margin:0;background:#030804;color:#f5f8ef;font-family:Georgia,serif}.bhg-wr
 .bhg-tile-message{padding:14px;border-left:4px solid #ffe165;background:#47331555;border-radius:8px;line-height:1.6}
 @media(max-width:650px){.bhg-match-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.bhg-match-grid .bhg-card{min-height:130px}.bhg-timeline-choice{font-size:12px;padding:11px}.bhg-image-stage img{height:235px}.bhg-image-stage{min-height:245px}}
 @media(prefers-reduced-motion:reduce){.bhg-bingo-board .bhg-card.free:hover{animation:none!important}.bhg-confetti-layer{display:none!important}.bhg-image-stage img{transition:none!important}}
+
+/* 2026-11-08: Bingo portrait states — uniform unselected colors and unmistakable correct tiles.
+   Scope to Bingo boards only. The FREE tile retains its black-and-gold treatment. */
+body:not([data-presidential-game]) .bhg-bingo-board .bhg-card:not(.free):not(.marked){
+ background:linear-gradient(145deg,#22543a 0%,#123927 50%,#081d17 100%)!important;
+ border:2px solid #51b879!important;
+}
+body:not([data-presidential-game]) .bhg-bingo-board .bhg-card.marked{
+ background:linear-gradient(145deg,#7d6027 0%,#544019 53%,#2e220e 100%)!important;
+ border:2px solid #d8b45c!important;
+ color:#fff9e7!important;
+}
+body:not([data-presidential-game]) .bhg-bingo-board .bhg-card.marked::after{
+ content:"✓"!important;display:block!important;color:#ffe17a!important;
+ font:900 clamp(18px,3vw,28px)/1.05 Georgia,serif!important;
+ text-shadow:0 1px 2px #241808!important;
+}
+body[data-presidential-game="bingo"] .bhg-bingo-board .bhg-card:not(.free):not(.marked){
+ background:linear-gradient(145deg,#1d497e 0%,#102f59 52%,#09182f 100%)!important;
+ border:2px solid #609fe0!important;
+}
+body[data-presidential-game="bingo"] .bhg-bingo-board .bhg-card.marked{
+ background:linear-gradient(145deg,#a73c43 0%,#742029 53%,#3c101b 100%)!important;
+ border:2px solid #ee8990!important;
+ color:#fff6f5!important;
+}
+body[data-presidential-game="bingo"] .bhg-bingo-board .bhg-card.marked::after{
+ content:"✓"!important;display:block!important;color:#fff1ef!important;
+ font:900 clamp(18px,3vw,28px)/1.05 Georgia,serif!important;
+ text-shadow:0 1px 2px #2c0a10!important;
+}
