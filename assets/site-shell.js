@@ -4,11 +4,11 @@ const u=p=>root+p;
 document.body.dataset.etpShell="shared";
 function loadCSS(href,key){if(document.querySelector('link[data-etp-load="'+key+'"]'))return;const l=document.createElement("link");l.rel="stylesheet";l.href=href;l.dataset.etpLoad=key;document.head.appendChild(l)}
 function loadJS(src,key){if([...document.scripts].some(s=>s.src&&new URL(s.src).pathname===new URL(src,location.href).pathname))return;const x=document.createElement("script");x.src=src;x.async=false;x.dataset.etpLoad=key;document.head.appendChild(x)}
-loadCSS(u("assets/site-shell.css?v=20261108-menu-final-v16"),"shell-css");
+loadCSS(u("assets/site-shell.css?v=20261109-menu-three-columns-v18"),"shell-css");
 loadCSS(u("assets/etp-transitions.css?v=20261104-cinematic-5-v1"),"transitions-css");loadJS(u("assets/etp-transitions.js?v=20261104-cinematic-5-v1"),"transitions-js");
 loadCSS(u("assets/etp-experience-v50.css?v=20261015-etp-r2"),"experience-css");loadJS(u("assets/etp-experience-v50.js?v=20261102-history-jukebox"),"experience-js");
 loadCSS(u("assets/repair-v63.css?v=20261107-reader-audit-v1"),"repair-css");loadJS(u("assets/repair-v63.js?v=20261108-tools-reader-v16"),"repair-js");
-loadCSS(u("assets/nav-footer-parity.css?v=20261108-menu-final-v16"),"nav-footer-parity");
+loadCSS(u("assets/nav-footer-parity.css?v=20261109-menu-three-columns-v18"),"nav-footer-parity");
 if(/\/teacher-tools\/blooms-taxonomy\//.test(location.pathname))loadCSS(u("assets/blooms-dark-levels.css?v=20261107-v1"),"bloom-dark-levels");
 if(![...document.scripts].some(x=>x.src&&x.src.includes("/app-assets/install.js")))loadJS(u("app-assets/install.js?v=20261108-native-menu-v17"),"install-js");
 const header=document.createElement("header");header.id="etpSiteHeader";
@@ -227,7 +227,7 @@ const safeText=t=>String(t).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'
 const menuLink=([name,path],css="")=>path==="@install"?
  '<button type="button" class="etp-map-link '+css+'" data-etp-action="install">'+safeText(name)+'</button>':
  '<a class="etp-map-link '+css+'" href="'+u(path.startsWith("/")?path.slice(1):path)+'">'+safeText(name)+'</a>';
-const topMarkup=menuSections.map(section=>
+const makeMenuSection=section=>
  '<section class="etp-map-column" aria-label="'+safeText(section.title)+'">'+
  '<h2 class="etp-map-title"><a href="'+u(section.href)+'"><span class="etp-map-main-icon" aria-hidden="true">'+
  (section.title==="Home"?'<img class="etp-map-globe" src="'+u("app-assets/icon-192.png")+'" alt="">':section.icon)+
@@ -235,16 +235,20 @@ const topMarkup=menuSections.map(section=>
  (section.links?'<div class="etp-map-column-links">'+section.links.map(v=>menuLink(v)).join('')+'</div>':'')+
  (section.groups?section.groups.map(g=>'<div class="etp-map-subgroup"><h3><a href="'+u(g.href)+'">'+safeText(g.title)+'</a></h3>'+
  '<div class="etp-map-column-links">'+g.links.map(v=>menuLink(v)).join('')+'</div></div>').join(''):'')+
- '</section>').join('');
-panel.innerHTML='<div class="etp-map-head"><span>EXAMINE THE PAST · EXPLORE</span><button type="button" class="etp-mega-close" aria-label="Close menu">×</button></div>'+
- '<div class="etp-map-content"><div class="etp-map-primary">'+topMarkup+'</div>'+
- '<section class="etp-map-history" aria-label="Courses and extended curriculum">'+
+ '</section>';
+const coursesMarkup='<section class="etp-map-history etp-map-column" aria-label="Courses and extended curriculum">'+
  '<h2 class="etp-map-title"><a href="'+u("lessons/")+'"><span class="etp-map-main-icon" aria-hidden="true">📚</span>Courses · History Hub</a></h2>'+
  '<div class="etp-map-course-columns">'+
  '<div class="etp-map-course-group"><h3>Grade 5–12 Courses</h3><div class="etp-map-grades">'+grades.map(v=>menuLink(v,"etp-map-grade")).join('')+'</div></div>'+
  '<div class="etp-map-course-group"><h3>Extended Curricula</h3><div class="etp-map-extension-links">'+extensions.map(v=>menuLink(v)).join('')+'</div></div>'+
  '<div class="etp-map-course-group"><h3>Advanced Placement</h3><div class="etp-map-advanced-links">'+advanced.map(v=>menuLink(v)).join('')+'</div></div>'+
- '</div></section></div>';
+ '</div></section>';
+panel.innerHTML='<div class="etp-map-head"><span>EXAMINE THE PAST · EXPLORE</span><button type="button" class="etp-mega-close" aria-label="Close menu">×</button></div>'+
+ '<div class="etp-map-content"><div class="etp-map-primary etp-map-three-columns">'+
+ '<div class="etp-map-first-column">'+makeMenuSection(menuSections[0])+makeMenuSection(menuSections[1])+'</div>'+
+ '<div class="etp-map-games-column">'+makeMenuSection(menuSections[2])+'</div>'+
+ coursesMarkup+
+ '</div></div>';
 panel.querySelector(".etp-mega-close")?.addEventListener("click",()=>{panel.hidden=true;toggle.classList.remove("open");toggle.setAttribute("aria-expanded","false");toggle.focus()});
 header.querySelector(".etp-header-inner").append(toggle);header.querySelector(".etp-header-inner").append(panel);
 panel.querySelector('[data-etp-action="install"]')?.addEventListener("click",e=>{e.preventDefault();if(typeof window.siteInstallApp==="function")window.siteInstallApp();else {const b=document.querySelector(".site-app-footer-text");if(b)b.click();}});
