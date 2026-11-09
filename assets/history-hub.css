@@ -223,3 +223,32 @@ html body.etp-curriculum .etp-unit-lessons>.etp-lesson-link small{
  html body.etp-curriculum .etp-unit-lessons>.etp-lesson-link{transition:none!important}
  html body.etp-curriculum .etp-unit-lessons>.etp-lesson-link:hover{transform:none!important}
 }
+
+/* Curriculum deep-toned gradient refinement v8 */
+html body.etp-curriculum .etp-unit-lessons>.etp-lesson-link{
+ background:linear-gradient(115deg,#14243b 0%,#0b182a 48%,#040913 100%)!important;
+ border-color:#5073958e!important;
+ background-size:180% 180%!important;
+}
+html body.etp-curriculum .etp-unit-lessons>.etp-lesson-link:nth-child(4n+2){
+ background:linear-gradient(115deg,#152b21 0%,#0a1b15 50%,#030d09 100%)!important;
+ border-color:#4b806c91!important;
+}
+html body.etp-curriculum .etp-unit-lessons>.etp-lesson-link:nth-child(4n+3){
+ background:linear-gradient(115deg,#321720 0%,#210d15 52%,#10050a 100%)!important;
+ border-color:#9657638a!important;
+}
+html body.etp-curriculum .etp-unit-lessons>.etp-lesson-link:nth-child(4n){
+ background:linear-gradient(115deg,#342b15 0%,#211b0c 52%,#0d0a04 100%)!important;
+ border-color:#9c8a4d8f!important;
+}
+html body.etp-curriculum .etp-unit-lessons>.etp-lesson-link::before{
+ content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;
+ background:linear-gradient(118deg,transparent 18%,rgba(255,255,255,.075) 45%,transparent 66%);
+ background-size:230% 100%;background-position:100% 0;opacity:.72;
+ transition:background-position .65s ease;
+}
+html body.etp-curriculum .etp-unit-lessons>.etp-lesson-link:hover::before,
+html body.etp-curriculum .etp-unit-lessons>.etp-lesson-link:focus-visible::before{
+ background-position:0 0;
+}
