@@ -71,7 +71,7 @@ if slug=='examine-the-past-home':
   shell=os.path.relpath(root/'assets/site-shell.js',page.parent).replace(os.sep,'/')
   # Normalize the site shell and installer to the updated native ETP menu.
   # Older cache keys were loading the white dialog after the yellow menu appeared.
-  value=re.sub(r"(assets/site-shell\.js)(?:\?v=[^\"'\s<>]+)?",r"\g<1>?v=20261109-approved-nav-v19",value)
+  value=re.sub(r"(assets/site-shell\.js)(?:\?v=[^\"'\s<>]+)?",r"\g<1>?v=20261109-footer-short-labels-v20",value)
   value=re.sub(r"(app-assets/install\.js)(?:\?v=[^\"'\s<>]+)?",r"\g<1>?v=20261108-native-menu-v17",value)
   if page.as_posix()=='teacher-tools/learning-styles/index.html':
    if not re.search(r'<script[^>]+src=["\'][^"\']*assets/site-shell\.js',value):
