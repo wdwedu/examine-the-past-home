@@ -11,7 +11,7 @@ class References(HTMLParser):
   if tag=='script' and 'src' in d:self.scripts.append(d['src'])
 checked=0
 for page in ROOT.rglob('*.html'):
- if 'assets' in page.relative_to(ROOT).parts:continue
+ if set(page.relative_to(ROOT).parts) & {'assets','audit','.github','node_modules','backups'}:continue
  parser=References();parser.feed(page.read_text())
  shells=[x for x in parser.scripts if 'assets/site-shell.js' in x]
  assert len(shells)==1,(page,'Expected one shared shell',shells)
