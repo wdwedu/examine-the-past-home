@@ -197,7 +197,12 @@
         "oral tradition",
         "community"
       ],
-      "depth": "research-expanded"
+      "depth": "research-expanded",
+      "investigation": [
+        "Identify the Haudenosaunee and one Pueblo community by name and homeland.",
+        "Compare how councils, kinship, agriculture or architecture shaped their communities.",
+        "Explain why this comparison cannot describe every Indigenous nation."
+      ]
     },
     "land-resources-and-systems-of-governance": {
       "title": "Land, Resources, and Systems of Governance",
@@ -225,7 +230,12 @@
         "consensus",
         "territory"
       ],
-      "depth": "research-expanded"
+      "depth": "research-expanded",
+      "investigation": [
+        "Investigate a documented approach to water or seasonal resource management.",
+        "Consider a fictional council proposal and list who benefits or bears costs.",
+        "Compare that hypothetical proposal with an actual nation's governance source."
+      ]
     },
     "why-did-europeans-cross-the-atlantic": {
       "title": "Why Did Europeans Cross the Atlantic?",
@@ -253,7 +263,12 @@
         "sponsorship",
         "colonization"
       ],
-      "depth": "research-expanded"
+      "depth": "research-expanded",
+      "investigation": [
+        "Sort trade, state rivalry and religious ambitions into separate motive categories.",
+        "Connect one motive to a voyage or surviving royal commission.",
+        "Identify which Indigenous perspectives a European charter omits."
+      ]
     },
     "first-encounters-and-competing-perspectives": {
       "title": "First Encounters and Competing Perspectives",
@@ -281,7 +296,12 @@
         "primary source",
         "bias"
       ],
-      "depth": "research-expanded"
+      "depth": "research-expanded",
+      "investigation": [
+        "Identify the audience and purpose of a European encounter narrative.",
+        "List two possible omissions; do not invent a first-person Indigenous quotation.",
+        "Compare with archaeological or Native-community evidence and revise the claim."
+      ]
     },
     "the-columbian-exchange-and-its-consequences": {
       "title": "The Columbian Exchange and Its Consequences",
@@ -309,7 +329,12 @@
         "ecology",
         "consequence"
       ],
-      "depth": "research-expanded"
+      "depth": "research-expanded",
+      "investigation": [
+        "Classify maize, horses, diseases and enslaved people by the direction and circumstances of movement.",
+        "Build a consequence chain for one example and identify unequal impacts.",
+        "Explain why the word exchange does not mean all movements were voluntary."
+      ]
     },
     "life-in-the-thirteen-colonies": {
       "title": "Life in the Thirteen Colonies",
@@ -337,7 +362,12 @@
         "subsistence",
         "inequality"
       ],
-      "depth": "research-expanded"
+      "depth": "research-expanded",
+      "investigation": [
+        "Compare one New England town, a Chesapeake tobacco economy and a colonial port.",
+        "Identify the work of free, indentured and enslaved people without treating conditions as equivalent.",
+        "Decide which two sources would best test a claim about daily life."
+      ]
     },
     "colonial-economies-labor-and-enslavement": {
       "title": "Colonial Economies, Labor, and Enslavement",
@@ -365,7 +395,12 @@
         "plantation",
         "resistance"
       ],
-      "depth": "research-expanded"
+      "depth": "research-expanded",
+      "investigation": [
+        "Study what a plantation inventory records and whose humanity it obscures.",
+        "Separate economic profits from coercive labor and restrictions on freedom.",
+        "Write an ethical source critique without assigning monetary value to a person."
+      ]
     },
     "religion-identity-and-colonial-society": {
       "title": "Religion, Identity, and Colonial Society",
@@ -393,7 +428,12 @@
         "identity",
         "exclusion"
       ],
-      "depth": "research-expanded"
+      "depth": "research-expanded",
+      "investigation": [
+        "Examine who was protected by Maryland's 1649 act and who was not.",
+        "Compare an official promise of toleration with a documented restriction.",
+        "Explain how colonial identity and law affected different communities."
+      ]
     },
     "colonial-maryland-and-the-chesapeake": {
       "title": "Colonial Maryland and the Chesapeake",
@@ -421,7 +461,12 @@
         "tobacco",
         "Piscataway"
       ],
-      "depth": "research-expanded"
+      "depth": "research-expanded",
+      "investigation": [
+        "Locate Indigenous homelands and major Chesapeake waterways.",
+        "Connect tobacco growth to Atlantic commerce, land claims and coerced labor.",
+        "Compare colonial records with Piscataway perspectives to identify gaps."
+      ]
     },
     "competing-empires-in-north-america": {
       "title": "Competing Empires in North America",
@@ -449,7 +494,12 @@
         "territorial claim",
         "diplomacy"
       ],
-      "depth": "research-expanded"
+      "depth": "research-expanded",
+      "investigation": [
+        "Mark British and French claims and major trading waterways on a map.",
+        "Identify the independent aims of an Indigenous nation involved in diplomacy.",
+        "Explain why an imperial map is not proof of direct political control."
+      ]
     },
     "the-french-and-indian-war": {
       "title": "The French and Indian War",
@@ -477,7 +527,12 @@
         "treaty",
         "sovereignty"
       ],
-      "depth": "research-expanded"
+      "depth": "research-expanded",
+      "investigation": [
+        "Sequence conflict in the Ohio Valley, British victory and the 1763 settlement.",
+        "Connect the war's costs to later imperial policy and colonial protests.",
+        "Describe one way Indigenous sovereignty remained contested after the peace."
+      ]
     },
     "taxes-representation-and-colonial-protest": {
       "title": "Taxes, Representation, and Colonial Protest",
@@ -505,7 +560,12 @@
         "representation",
         "petition"
       ],
-      "depth": "research-expanded"
+      "depth": "research-expanded",
+      "investigation": [
+        "Sort Stamp Act, Townshend duties and a colonial petition by date and purpose.",
+        "Distinguish parliamentary arguments from colonial complaints about consent.",
+        "Explain whose political voices were still excluded by colonial protests."
+      ]
     },
     "why-did-the-colonies-declare-independence": {
       "title": "Why Did the Colonies Declare Independence?",
@@ -533,7 +593,12 @@
         "natural rights",
         "Congress"
       ],
-      "depth": "research-expanded"
+      "depth": "research-expanded",
+      "investigation": [
+        "Separate policy grievances from rights claims in the 1776 Declaration.",
+        "Identify its audience and why its authors published the argument.",
+        "Test its equality language against the experiences of people excluded from political power."
+      ]
     },
     "turning-points-of-the-revolutionary-war": {
       "title": "Turning Points of the Revolutionary War",
@@ -561,7 +626,12 @@
         "Saratoga",
         "Yorktown"
       ],
-      "depth": "research-expanded"
+      "depth": "research-expanded",
+      "investigation": [
+        "Place Saratoga (1777), the French alliance (1778) and Yorktown (1781) in order.",
+        "Rank the events using a declared criterion: diplomacy, military effect or public morale.",
+        "Defend your ranking using evidence and explain why another ranking could be reasonable."
+      ]
     },
     "patriots-loyalists-women-and-black-americans": {
       "title": "Patriots, Loyalists, Women, and Black Americans",
@@ -589,7 +659,12 @@
         "agency",
         "emancipation"
       ],
-      "depth": "research-expanded"
+      "depth": "research-expanded",
+      "investigation": [
+        "Gather documented arguments representing Patriots and Loyalists.",
+        "Investigate contributions and constraints affecting women and Black Americans.",
+        "Build a perspective chart without inventing testimony or reenacting enslavement."
+      ]
     },
     "did-the-revolution-deliver-liberty-for-everyone": {
       "title": "Did the Revolution Deliver Liberty for Everyone?",
@@ -617,7 +692,12 @@
         "citizenship",
         "exclusion"
       ],
-      "depth": "research-expanded"
+      "depth": "research-expanded",
+      "investigation": [
+        "Choose a specific right and compare who had access before and after independence.",
+        "Identify both an expansion of rights and a continuing exclusion.",
+        "Present a qualified conclusion supported by two historical examples."
+      ]
     },
     "america-s-first-national-government": {
       "title": "America's First National Government",
@@ -645,7 +725,12 @@
         "ordinance",
         "taxation"
       ],
-      "depth": "research-expanded"
+      "depth": "research-expanded",
+      "investigation": [
+        "Identify what the Articles of Confederation permitted Congress to do.",
+        "Test a fictional funding crisis against Congress's limited power to tax.",
+        "Explain both a weakness and a successful policy of the confederation era."
+      ]
     },
     "debating-the-constitution": {
       "title": "Debating the Constitution",
@@ -673,7 +758,12 @@
         "compromise",
         "representation"
       ],
-      "depth": "research-expanded"
+      "depth": "research-expanded",
+      "investigation": [
+        "Compare proposals for state representation at the 1787 convention.",
+        "Examine Federalist and Anti-Federalist arguments about centralized power.",
+        "Identify whose interests the compromises protected and whose voices were excluded."
+      ]
     },
     "the-bill-of-rights-and-individual-liberty": {
       "title": "The Bill of Rights and Individual Liberty",
@@ -701,7 +791,12 @@
         "petition",
         "due process"
       ],
-      "depth": "research-expanded"
+      "depth": "research-expanded",
+      "investigation": [
+        "Match a fictional restriction to a potentially relevant amendment.",
+        "Distinguish the 1791 ratification from later constitutional interpretation.",
+        "Explain what further facts are needed before determining a legal outcome."
+      ]
     },
     "george-washington-and-the-presidency": {
       "title": "George Washington and the Presidency",
@@ -729,7 +824,12 @@
         "executive",
         "neutrality"
       ],
-      "depth": "research-expanded"
+      "depth": "research-expanded",
+      "investigation": [
+        "Identify a practice begun or shaped by Washington's administration.",
+        "Compare a presidential custom with a later binding constitutional rule.",
+        "Evaluate how a precedent could affect future presidents and the public."
+      ]
     },
     "the-emergence-of-political-parties": {
       "title": "The Emergence of Political Parties",
@@ -757,7 +857,12 @@
         "Democratic-Republican",
         "partisan"
       ],
-      "depth": "research-expanded"
+      "depth": "research-expanded",
+      "investigation": [
+        "Compare arguments over a national bank and the scope of federal power.",
+        "Identify the author, audience and persuasive techniques of a partisan newspaper.",
+        "Corroborate one factual claim rather than accepting a confident headline."
+      ]
     },
     "challenges-facing-the-new-republic": {
       "title": "Challenges Facing the New Republic",
@@ -785,7 +890,12 @@
         "sovereignty",
         "rebellion"
       ],
-      "depth": "research-expanded"
+      "depth": "research-expanded",
+      "investigation": [
+        "Compare responses to the Whiskey Rebellion and questions about federal enforcement.",
+        "Study the 1793 neutrality proclamation and the interests of different groups.",
+        "Evaluate the effect of government decisions on Indigenous nations as well as national leaders."
+      ]
     }
   }
 }
