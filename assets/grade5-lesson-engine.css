@@ -86,3 +86,43 @@ body.etp-curriculum .g5-hero{padding:clamp(24px,4vw,50px);background:linear-grad
 .g5-lab-map #g5-investigation-display{border-left-color:#8ebde3!important}
 .g5-lab-detective #g5-investigation-display{border-left-color:#f0db6a!important}
 @media(max-width:680px){.g5-lab-council .g5-investigation-steps,.g5-lab-gallery .g5-investigation-steps{grid-template-columns:1fr}.g5-lab-gallery .g5-investigation-steps button,.g5-lab-council .g5-investigation-steps button{min-height:61px}}
+
+/* Grade 5 v6 — compact, no-horizontal-scroll lesson toolbar + learning credits. */
+body.etp-curriculum .g5-toolbar{padding:8px 11px!important;margin:12px 0 19px!important}
+body.etp-curriculum .g5-controls{gap:6px 9px!important}
+body.etp-curriculum .g5-meter{flex:1 1 185px!important;min-width:145px!important}
+body.etp-curriculum .g5-meter b{font-size:12px!important}
+body.etp-curriculum .g5-track{height:9px!important}
+body.etp-curriculum .g5-controls button,body.etp-curriculum .g5-controls select{padding:5px 7px!important;min-height:31px!important;font-size:12px!important}
+body.etp-curriculum .g5-controls output{font-size:15px!important}
+body.etp-curriculum .g5-jumps{display:grid!important;grid-template-columns:repeat(8,minmax(0,1fr))!important;gap:3px!important;overflow:visible!important;margin-top:7px!important;padding-top:7px!important}
+body.etp-curriculum .g5-jumps a{font:700 clamp(10px,1.12vw,13px)/1.2 Georgia,serif!important;padding:5px 2px!important;text-align:center!important;white-space:nowrap!important;min-width:0!important}
+body.etp-curriculum .g5-credits{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:6px 12px;margin-top:7px;padding-top:7px;border-top:1px solid #31513d;font:700 12px Georgia,serif}
+body.etp-curriculum .g5-credits-label{color:#d0ebd3;letter-spacing:.06em}
+body.etp-curriculum #g5-credit-total{color:#fff200;font:700 17px Georgia,serif}
+body.etp-curriculum #g5-needs-work{color:#f2d9ce}
+body.etp-curriculum #g5-credits-detail{background:transparent!important;min-height:27px!important;padding:2px 5px!important;color:#b7ff8e!important;border:1px solid #52765c!important;border-radius:6px;font:700 12px Georgia,serif}
+body.etp-curriculum #g5-credits-breakdown{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;margin:8px 0 0}
+body.etp-curriculum #g5-credits-breakdown[hidden]{display:none!important}
+body.etp-curriculum #g5-credits-breakdown span{padding:7px;background:#091e17;border:1px solid #355e47;border-radius:7px;color:#bdd8c8;font:700 12px/1.4 Georgia,serif}
+body.etp-curriculum #g5-credits-breakdown span[data-state="earned"]{color:#baff9b;border-color:#83b572}
+body.etp-curriculum #g5-credits-breakdown span[data-state="review"]{color:#ffdca8;border-color:#8b6b44}
+body.etp-curriculum #g5-credits-breakdown p{grid-column:1/-1;margin:0;color:#d8e4da;font:italic 12px Georgia,serif}
+.g5-visually-hidden{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+body.etp-curriculum .g5-writing,body.etp-curriculum textarea.g5-writing,body.etp-curriculum .g5-panel textarea{background:#fff!important;color:#121b14!important;-webkit-text-fill-color:#121b14!important;font:16px/1.6 Georgia,"Times New Roman",serif!important;padding:16px!important;border:2px solid #aebfb5!important;border-radius:9px!important;min-height:128px!important}
+body.etp-curriculum .g5-writing::placeholder,body.etp-curriculum textarea.g5-writing::placeholder{color:#7b827e!important;-webkit-text-fill-color:#7b827e!important;opacity:1!important}
+body.etp-curriculum textarea.g5-writing:focus{outline:3px solid #fff200!important;outline-offset:2px}
+.g5-time-warning{position:fixed;inset:0;z-index:130;pointer-events:none;opacity:0;visibility:hidden;border:0 solid transparent}
+.g5-time-warning.g5-warning-active{visibility:visible;animation:g5-soft-alert 1s ease-in-out infinite}
+@keyframes g5-soft-alert{0%,100%{opacity:.05;box-shadow:inset 0 0 0 12px #ec4848}50%{opacity:.32;box-shadow:inset 0 0 0 15px #d54444,inset 0 0 75px #9c1b1b}}
+@media(max-width:760px){
+body.etp-curriculum .g5-jumps{grid-template-columns:repeat(4,minmax(0,1fr))!important;row-gap:3px!important}
+body.etp-curriculum .g5-controls label{font-size:12px!important}
+body.etp-curriculum #g5-credits-breakdown{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:420px){
+body.etp-curriculum .g5-toolbar{padding:7px 8px!important}
+body.etp-curriculum .g5-meter{flex-basis:100%!important}
+body.etp-curriculum .g5-credits{justify-content:flex-start}
+}
+@media(prefers-reduced-motion:reduce){.g5-time-warning.g5-warning-active{animation:none!important;visibility:hidden!important;opacity:0!important}}
