@@ -1,0 +1,56 @@
+/* Grade 5 lesson family: dark restrained Georgian interface. */
+body.etp-curriculum .g5-hero{padding:clamp(24px,4vw,50px);background:linear-gradient(125deg,#10291f,#071424 70%,#040908);border:1px solid #476b54;border-radius:20px;margin:15px 0}
+.g5-hero small,.g5-kicker{display:block;font:700 13px/1.55 Georgia,serif;letter-spacing:.065em;text-transform:uppercase;color:#a7f780}
+.g5-hero h1{font:700 clamp(32px,5vw,65px)/1.09 Georgia,serif;color:#fff200;margin:12px 0;max-width:1040px}
+.g5-hero p{font:400 clamp(17px,1.8vw,22px)/1.55 Georgia,serif;color:#e8f3e5;max-width:900px}
+.g5-tag{display:inline-block;border:1px solid #749d71;padding:6px 11px;margin:4px 6px 0 0;border-radius:30px;color:#def8d8;background:#0d241a;font:700 13px Georgia,serif}
+.g5-toolbar{position:sticky;top:var(--g5-top,65px);z-index:65;border:1px solid #789367;border-radius:12px;background:#040c0bf5;backdrop-filter:blur(11px);padding:12px 14px;margin:17px 0 23px;box-shadow:0 9px 26px #0009}
+.g5-controls{display:flex;gap:9px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.g5-controls label{display:flex;align-items:center;gap:7px;font:700 14px Georgia,serif;color:#f2f4e9}
+.g5-controls button,.g5-controls select{color:#f8fbe9;background:#07130f;border:1px solid #60876a;border-radius:7px;min-height:37px;padding:7px 10px;font:700 14px Georgia,serif;cursor:pointer}
+.g5-controls select{background:#040807;color:#fff200}
+.g5-controls output{font:700 17px Georgia,serif;color:#fff200;font-variant-numeric:tabular-nums}
+.g5-meter{display:flex;gap:9px;align-items:center;flex:1 1 260px;min-width:190px}
+.g5-meter b{color:#fff200;font:700 14px Georgia,serif;white-space:nowrap}
+.g5-meter output{min-width:39px;text-align:right;font-size:14px;color:#fff}
+.g5-track{flex:1;height:12px;border:1px solid #5b7a64;border-radius:20px;background:#1b3128;overflow:hidden}
+.g5-track span{display:block;background:linear-gradient(90deg,#94ff53,#fff200);width:0;height:100%;transition:width .25s}
+.g5-jumps{display:flex;gap:5px;overflow-x:auto;border-top:1px solid #3d6047;margin-top:9px;padding-top:9px;scrollbar-width:thin}
+.g5-jumps a{color:#e7f0e2!important;flex:0 0 auto;padding:5px 9px;border-radius:7px;text-decoration:none;font:700 14px Georgia,serif}
+.g5-jumps a[aria-current="step"],.g5-jumps a:hover{color:#fff200!important;background:#19382c}
+#g5-status{display:block;color:#cddfd1;margin-top:6px;font:400 12px Georgia,serif}
+.g5-panel{padding:clamp(20px,3vw,34px);border-radius:18px;border:1px solid #3d6254;margin:20px 0;scroll-margin-top:180px}
+.g5-color-0{background:linear-gradient(110deg,#11281c,#08160f 61%,#040906);border-color:#3e6851}
+.g5-color-1{background:linear-gradient(110deg,#13243e,#091626 61%,#030910);border-color:#385c7d}
+.g5-color-2{background:linear-gradient(110deg,#361820,#1b0b13 61%,#0a0509);border-color:#76505a}
+.g5-color-3{background:linear-gradient(110deg,#392d13,#201809 61%,#0c0904);border-color:#756037}
+.g5-color-4{background:linear-gradient(110deg,#281b3b,#150e26 61%,#08050e);border-color:#624c7c}
+.g5-panel h2{font:700 clamp(25px,2.9vw,38px)/1.18 Georgia,serif;color:#fff200;margin:4px 0 16px}
+.g5-panel h3{font:700 clamp(19px,1.8vw,25px)/1.3 Georgia,serif;color:#baff8e;margin:8px 0 13px}
+.g5-panel p,.g5-panel li{font:400 clamp(16px,1.4vw,18px)/1.7 Georgia,serif;color:#ebf3eb}
+.g5-panel li{margin:6px 0}
+.g5-question{font-weight:bold!important;color:#e4ffcb!important}
+.g5-panel details{border:1px solid #456d59;border-radius:12px;margin:11px 0;overflow:hidden;background:#030b0ae6}
+.g5-panel summary{cursor:pointer;padding:14px 17px;color:#fff200;font:700 18px/1.45 Georgia,serif}
+.g5-detail{padding:5px 18px 18px}
+.g5-detail a,.g5-panel a{color:#b7ff8e}
+.g5-activity,.g5-card{background:#061216d9;border:1px solid #4c6e61;border-radius:12px;padding:18px;margin:14px 0}
+.g5-two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:stretch}
+.g5-two>.g5-card{margin:0;display:flex;flex-direction:column;min-width:0}
+.g5-reading{flex:1;padding:14px;background:#07161bcc;border-left:4px solid #94ff53;border-radius:7px}
+.g5-reading b{color:#b9ff8d}
+.g5-read-menu,.g5-choices,.g5-modes{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 17px}
+.g5-panel button{background:linear-gradient(125deg,#172e29,#071710);color:#f9ec91;border:1px solid #678a6e;border-radius:9px;padding:11px 13px;min-height:43px;font:700 15px Georgia,serif;cursor:pointer;transition:transform .18s,border-color .18s}
+.g5-panel button:hover,.g5-panel button:focus-visible,.g5-controls button:hover{border-color:#fff200;color:#fff200;transform:translateY(-2px)}
+.g5-panel button[aria-pressed="true"]{background:linear-gradient(130deg,#354a21,#142215);border-color:#fff200;color:#fff}
+.g5-light{font-size:14px!important;color:#c6d7ce!important}
+.g5-player{position:relative;aspect-ratio:16/9;background:#000;border-radius:8px;overflow:hidden;margin:10px 0}
+.g5-player iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.g5-writing{display:block;width:100%;box-sizing:border-box;min-height:120px;background:#ebeee9;color:#1a241d;border:1px solid #9cb2a0;border-radius:8px;padding:12px;font:16px/1.5 Georgia,serif}
+.g5-writing:focus{outline:2px solid #fff200}
+.g5-confetti{position:fixed;z-index:99999;pointer-events:none;width:9px;height:12px;border-radius:2px}
+.g5-bottom{display:flex;gap:11px;flex-wrap:wrap;margin:24px 0}
+.g5-bottom a{padding:10px 15px;background:#13291e;border:1px solid #567c59;border-radius:8px;font:700 15px Georgia,serif}
+@media(max-width:850px){.g5-two{grid-template-columns:1fr}.g5-two>.g5-card{height:auto}}
+@media(max-width:600px){.g5-toolbar{padding:10px}.g5-meter{flex-basis:100%;min-width:0}.g5-controls button,.g5-controls select{font-size:12px;padding:6px 8px;min-height:34px}.g5-panel{padding:19px 15px}.g5-jumps a{font-size:12px}.g5-hero{padding:25px 19px}}
+@media(prefers-reduced-motion:reduce){.g5-track span,.g5-panel button{transition:none}.g5-panel button:hover{transform:none}}
