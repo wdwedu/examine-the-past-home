@@ -64,3 +64,25 @@ body.etp-curriculum .g5-hero{padding:clamp(24px,4vw,50px);background:linear-grad
 .g5-card .g5-reading[hidden]{display:none!important}
 .g5-player iframe{max-width:100%}
 @media(max-width:700px){.g5-investigation .g5-investigation-steps button{min-width:0;flex:1 1 90px}.g5-investigation #g5-investigation-display{padding:13px 15px}}
+
+/* Six genuinely different investigation layouts, reused across all 22 lessons. */
+.g5-investigation .g5-stage-complete{display:inline-block;margin:14px 0 0;background:linear-gradient(115deg,#143b28,#07170f);color:#caff9e;border:1px solid #8bbf78}
+.g5-investigation .g5-completed{border-color:#94ff53!important;box-shadow:inset 0 0 0 1px #94ff5366!important}
+.g5-investigation #g5-stage-count{margin:8px 0 14px!important;color:#d7efc9!important}
+.g5-lab-timeline .g5-investigation-steps{position:relative;display:flex;flex-direction:column;align-items:stretch;max-width:620px;padding-left:18px;border-left:3px solid #94ff53}
+.g5-lab-timeline .g5-investigation-steps button{text-align:left;border-radius:4px 11px 11px 4px;background:linear-gradient(110deg,#192d47,#08131e)}
+.g5-lab-council .g5-investigation-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.g5-lab-council .g5-investigation-steps button{min-height:91px;background:linear-gradient(130deg,#332528,#160d16);border-color:#825c63}
+.g5-lab-gallery .g5-investigation-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px}
+.g5-lab-gallery .g5-investigation-steps button{min-height:118px;background:linear-gradient(130deg,#192b26,#071611);border:1px solid #527d63;box-shadow:inset 0 0 20px #294b2533}
+.g5-lab-debate .g5-investigation-steps{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px}
+.g5-lab-debate .g5-investigation-steps button{flex:1 1 180px;min-height:80px;background:linear-gradient(135deg,#2d233f,#100b18);border-color:#8e70ac}
+.g5-lab-map .g5-investigation-steps{display:flex;gap:13px;align-items:stretch;flex-wrap:wrap}
+.g5-lab-map .g5-investigation-steps button{flex:1 1 170px;min-height:80px;border-color:#5b86a6;background:linear-gradient(130deg,#1b3446,#081721)}
+.g5-lab-detective .g5-investigation-steps{display:flex;gap:11px;flex-direction:column;align-items:stretch;max-width:580px}
+.g5-lab-detective .g5-investigation-steps button{text-align:left;padding-left:25px!important;border-left:5px solid #cfbf58;background:linear-gradient(110deg,#332910,#15110b)}
+.g5-lab-council #g5-investigation-display{border-left-color:#cc929d!important}
+.g5-lab-debate #g5-investigation-display{border-left-color:#c3a4e3!important}
+.g5-lab-map #g5-investigation-display{border-left-color:#8ebde3!important}
+.g5-lab-detective #g5-investigation-display{border-left-color:#f0db6a!important}
+@media(max-width:680px){.g5-lab-council .g5-investigation-steps,.g5-lab-gallery .g5-investigation-steps{grid-template-columns:1fr}.g5-lab-gallery .g5-investigation-steps button,.g5-lab-council .g5-investigation-steps button{min-height:61px}}
