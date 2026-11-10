@@ -54,3 +54,13 @@ body.etp-curriculum .g5-hero{padding:clamp(24px,4vw,50px);background:linear-grad
 @media(max-width:850px){.g5-two{grid-template-columns:1fr}.g5-two>.g5-card{height:auto}}
 @media(max-width:600px){.g5-toolbar{padding:10px}.g5-meter{flex-basis:100%;min-width:0}.g5-controls button,.g5-controls select{font-size:12px;padding:6px 8px;min-height:34px}.g5-panel{padding:19px 15px}.g5-jumps a{font-size:12px}.g5-hero{padding:25px 19px}}
 @media(prefers-reduced-motion:reduce){.g5-track span,.g5-panel button{transition:none}.g5-panel button:hover{transform:none}}
+
+/* Grade 5 research activity refinements */
+.g5-investigation .g5-investigation-steps{display:flex;gap:9px;flex-wrap:wrap;margin:14px 0}
+.g5-investigation .g5-investigation-steps button{min-width:92px;background:linear-gradient(130deg,#172b43,#071321);border:1px solid #5d8099;color:#fff}
+.g5-investigation .g5-investigation-steps button[aria-pressed="true"]{background:linear-gradient(130deg,#2c4423,#0f2419);border-color:#fff200;color:#fff200}
+.g5-investigation #g5-investigation-display{padding:17px 19px;min-height:90px;border-left:4px solid #94ff53;background:#061512;font-size:clamp(17px,1.55vw,21px);line-height:1.55}
+.g5-investigation #g5-investigation-notes{margin-top:15px;min-height:116px}
+.g5-card .g5-reading[hidden]{display:none!important}
+.g5-player iframe{max-width:100%}
+@media(max-width:700px){.g5-investigation .g5-investigation-steps button{min-width:0;flex:1 1 90px}.g5-investigation #g5-investigation-display{padding:13px 15px}}
