@@ -1,5 +1,5 @@
 {
-  "version": "20261109-grade5-full-v1",
+  "version": "20261109-grade5-reviewed-v5",
   "units": {
     "5.1": {
       "source": [
@@ -219,11 +219,11 @@
       "activity": "Resource council",
       "task": "Decide how a fictional community might share a limited resource, then compare your reasoning with nation-specific evidence.",
       "options": [
-        "Environment entirely determined one universal Native government.",
         "Political decisions and environmental knowledge interacted in diverse ways.",
-        "No community had rules for shared resources."
+        "No community had rules for shared resources.",
+        "Environment entirely determined one universal Native government."
       ],
-      "correct": 1,
+      "correct": 0,
       "vocabulary": [
         "governance",
         "resource",
@@ -252,11 +252,11 @@
       "activity": "Motive investigation",
       "task": "Rank several possible motives using the viewpoint of a royal sponsor, sailor, and Indigenous community.",
       "options": [
+        "All travelers had exactly the same motive.",
         "Columbus discovered a continent without people.",
-        "European voyages occurred in a world of existing societies and competing interests.",
-        "All travelers had exactly the same motive."
+        "European voyages occurred in a world of existing societies and competing interests."
       ],
-      "correct": 1,
+      "correct": 2,
       "vocabulary": [
         "trade route",
         "navigation",
@@ -285,11 +285,11 @@
       "activity": "Perspective switch",
       "task": "Compare what a sponsor, Indigenous leader, and sailor could each emphasize about the same meeting.",
       "options": [
+        "The first encounter always had a peaceful outcome.",
         "One European journal explains everyone's experience.",
-        "Different sources reveal interests and omissions that must be investigated.",
-        "The first encounter always had a peaceful outcome."
+        "Different sources reveal interests and omissions that must be investigated."
       ],
-      "correct": 1,
+      "correct": 2,
       "vocabulary": [
         "encounter",
         "perspective",
@@ -351,11 +351,11 @@
       "activity": "Colony comparison",
       "task": "Compare two colonial regions using economic activity, geography, and whose labor sustained them.",
       "options": [
-        "Every colony had an identical economy.",
         "Regional differences coexisted with colonial hierarchies and forced labor.",
-        "Everyone in colonial society held equal rights."
+        "Everyone in colonial society held equal rights.",
+        "Every colony had an identical economy."
       ],
-      "correct": 1,
+      "correct": 0,
       "vocabulary": [
         "colony",
         "region",
@@ -384,11 +384,11 @@
       "activity": "Labor ledger inquiry",
       "task": "Examine a hypothetical ledger and annotate which costs and human experiences it hides.",
       "options": [
-        "Enslavement was an ordinary paid employment contract.",
         "Chattel slavery was coercive and often hereditary, distinct from indentured labor.",
-        "Colonial wealth was shared equally among workers."
+        "Colonial wealth was shared equally among workers.",
+        "Enslavement was an ordinary paid employment contract."
       ],
-      "correct": 1,
+      "correct": 0,
       "vocabulary": [
         "enslavement",
         "indenture",
@@ -417,11 +417,11 @@
       "activity": "Tolerance tribunal",
       "task": "Review a simplified historical policy and identify whom it protected and whom it excluded.",
       "options": [
+        "Religion had no influence on colonial politics.",
         "Colonial religious freedom was universal.",
-        "Rules could protect some groups while excluding others.",
-        "Religion had no influence on colonial politics."
+        "Rules could protect some groups while excluding others."
       ],
-      "correct": 1,
+      "correct": 2,
       "vocabulary": [
         "toleration",
         "established church",
@@ -516,11 +516,11 @@
       "activity": "Campaign decision map",
       "task": "Place the war's major turning points on a timeline and explain why 1763 did not resolve every conflict.",
       "options": [
-        "The war affected only European soldiers.",
         "Indigenous nations shaped strategy and faced lasting consequences.",
-        "The 1763 treaty ended every conflict in the region."
+        "The 1763 treaty ended every conflict in the region.",
+        "The war affected only European soldiers."
       ],
-      "correct": 1,
+      "correct": 0,
       "vocabulary": [
         "Seven Years’ War",
         "Ohio Valley",
@@ -549,11 +549,11 @@
       "activity": "Tax policy council",
       "task": "Choose a tax-response strategy and justify it from different historical positions.",
       "options": [
+        "The Stamp Act was passed after independence.",
         "All colonists agreed on independence in 1765.",
-        "Colonists debated policy while facing unequal representation at home.",
-        "The Stamp Act was passed after independence."
+        "Colonists debated policy while facing unequal representation at home."
       ],
-      "correct": 1,
+      "correct": 2,
       "vocabulary": [
         "Stamp Act",
         "boycott",
@@ -582,11 +582,11 @@
       "activity": "Grievance evidence board",
       "task": "Match a grievance to a constitutional idea and ask who was excluded from its promises.",
       "options": [
+        "The Declaration immediately ended slavery.",
         "Independence was declared before fighting began.",
-        "The Declaration followed escalating conflict and advanced contested ideals.",
-        "The Declaration immediately ended slavery."
+        "The Declaration followed escalating conflict and advanced contested ideals."
       ],
-      "correct": 1,
+      "correct": 2,
       "vocabulary": [
         "grievance",
         "independence",
@@ -648,11 +648,11 @@
       "activity": "Perspective roundtable",
       "task": "Compare three historical positions, identifying each person's risks and constraints without treating one as typical of all.",
       "options": [
-        "Every resident supported the Patriot cause.",
         "Political commitments and survival strategies differed widely.",
-        "Black Americans played no role in the conflict."
+        "Black Americans played no role in the conflict.",
+        "Every resident supported the Patriot cause."
       ],
-      "correct": 1,
+      "correct": 0,
       "vocabulary": [
         "Patriot",
         "Loyalist",
@@ -681,11 +681,11 @@
       "activity": "Liberty audit",
       "task": "Compare a revolutionary promise against two concrete historical outcomes and write a qualified verdict.",
       "options": [
-        "The Declaration immediately gave equal rights to everyone.",
         "Ideals helped inspire demands but did not eliminate exclusion.",
-        "Every state abolished slavery in 1776."
+        "Every state abolished slavery in 1776.",
+        "The Declaration immediately gave equal rights to everyone."
       ],
-      "correct": 1,
+      "correct": 0,
       "vocabulary": [
         "liberty",
         "emancipation",
@@ -714,11 +714,11 @@
       "activity": "Confederation challenge",
       "task": "Run a simulated Congress with limited taxing power and discuss trade-offs between state autonomy and national coordination.",
       "options": [
+        "The Articles gave Congress unlimited taxing powers.",
         "The Articles created the presidency as it exists today.",
-        "The Articles produced a weak center amid continuing disputes over authority.",
-        "The Articles gave Congress unlimited taxing powers."
+        "The Articles produced a weak center amid continuing disputes over authority."
       ],
-      "correct": 1,
+      "correct": 2,
       "vocabulary": [
         "confederation",
         "ratification",
@@ -813,11 +813,11 @@
       "activity": "Presidential precedent lab",
       "task": "Distinguish a constitutional requirement from a precedent Washington established, then assess its value.",
       "options": [
-        "The Constitution originally required presidents to serve exactly two terms.",
         "Washington established practices, including voluntary departure, that influenced successors.",
-        "Washington served as president before the Constitution was ratified."
+        "Washington served as president before the Constitution was ratified.",
+        "The Constitution originally required presidents to serve exactly two terms."
       ],
-      "correct": 1,
+      "correct": 0,
       "vocabulary": [
         "precedent",
         "Cabinet",
@@ -846,11 +846,11 @@
       "activity": "Newspaper bias detective",
       "task": "Compare two invented editorial positions against a factual source and identify persuasive wording.",
       "options": [
+        "There were no political disagreements after ratification.",
         "The 1790s parties were exactly the same as today's parties.",
-        "Early factions formed around real disagreements over policy and power.",
-        "There were no political disagreements after ratification."
+        "Early factions formed around real disagreements over policy and power."
       ],
-      "correct": 1,
+      "correct": 2,
       "vocabulary": [
         "faction",
         "Federalist",
@@ -879,11 +879,11 @@
       "activity": "Crisis decision council",
       "task": "Choose among three possible government responses to a crisis and evaluate costs, legality, and whose voices were missing.",
       "options": [
+        "The Whiskey Rebellion was a dispute about the 1776 Declaration.",
         "The early republic had no domestic or foreign challenges.",
-        "Federal authority, fiscal policy, diplomacy, and Indigenous sovereignty were contested.",
-        "The Whiskey Rebellion was a dispute about the 1776 Declaration."
+        "Federal authority, fiscal policy, diplomacy, and Indigenous sovereignty were contested."
       ],
-      "correct": 1,
+      "correct": 2,
       "vocabulary": [
         "excise tax",
         "neutrality",
