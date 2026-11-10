@@ -35,7 +35,7 @@ body.etp-curriculum{font:17px/1.6 Georgia,serif;color:#eff6ef;background:#030a08
 </main>
 <script>
 (()=>{"use strict";const unit=new URLSearchParams(location.search).get("unit")||"5.1",form=document.querySelector("#unit-form"),host=document.querySelector("#unit-questions"),res=document.querySelector("#unit-results");const E=v=>String(v).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-fetch("../../../../assets/grade5-lessons-data.json?v=20261109-grade5-v2").then(x=>x.json()).then(all=>{
+fetch("../../../../assets/grade5-lessons-data.json?v=20261109-grade5-v5").then(x=>x.json()).then(all=>{
 if(!all.units[unit])throw Error("Unknown unit");
 const entries=Object.values(all.lessons).filter(x=>x.unit===unit),unitTitles={"5.1":"Indigenous North America","5.2":"Exploration and Encounters","5.3":"Colonial America","5.4":"Imperial Conflict","5.5":"The American Revolution","5.6":"Creating a Republic","5.7":"The Early Republic"};
 document.querySelector("#assessment-title").textContent="Unit "+unit+" · "+unitTitles[unit];
