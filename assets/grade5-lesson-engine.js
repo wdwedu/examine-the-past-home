@@ -55,7 +55,7 @@ function build(d,all){
  D("Research basis, UDL and evidence of effectiveness",'<p>Learning objectives, evidence comparison, retrieval, branching reading, formative feedback, learner choice and a written performance task support the instructional design. Accessible alternatives include captions, text-first tasks, group roles and no mandatory timer. This specific lesson has not been classroom-tested; no learning-gain statistics are asserted.</p>'+A("https://udlguidelines.cast.org/","CAST UDL guidance")+'</p>');
  page.innerHTML='<a class="etp-path" href="../#unit-'+d.unit.replace(".","-")+'">← Unit '+E(d.unit)+'</a>'+
  '<header class="g5-hero"><small>GRADE 5 · '+E(d.unitTitle)+' · LESSON '+d.seq+' OF '+d.total+'</small><h1>'+E(d.title)+'</h1><p>'+E(d.essential)+'</p><span class="g5-tag">Interactive inquiry</span><span class="g5-tag">45 / 60 / 90 minutes</span><span class="g5-tag">Teacher, group or independent</span></header>'+
- '<nav class="g5-toolbar" aria-label="Lesson progress, timer and sections"><div class="g5-controls"><div class="g5-meter"><b>Progress</b><div class="g5-track" role="progressbar" aria-label="Reading progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"><span></span></div><output>0%</output></div><label>Timer <select id="g5-duration"></select></label><output id="g5-clock">05:00</output><button id="g5-start">Start</button><button id="g5-reset">Reset</button><button id="g5-sound" aria-pressed="true">Sound: On</button></div><div class="g5-jumps"><a href="#goals">Plan</a><a href="#prepare">Start</a><a href="#discover">Discover</a><a href="#lab">Investigate</a><a href="#apply">Apply</a><a href="#quiz">Check</a><a href="#optional">Options</a><a href="#sources">Sources</a></div><small id="g5-status">Optional timer; use it whenever helpful.</small></nav>'+
+ '<nav class="g5-toolbar" aria-label="Lesson progress, timer and sections"><div class="g5-controls"><div class="g5-meter"><b>Progress</b><div class="g5-track" role="progressbar" aria-label="Reading progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"><span></span></div><output>0%</output></div><label>Timer <select id="g5-duration"></select></label><output id="g5-clock">05:00</output><button id="g5-start">Start</button><button id="g5-reset">Reset</button><button id="g5-sound" aria-pressed="true">Sound: On</button></div><div class="g5-jumps"><a href="#goals">Plan</a><a href="#prepare">Start</a><a href="#discover">Read</a><a href="#lab">Lab</a><a href="#apply">Write</a><a href="#quiz">Check</a><a href="#optional">Extras</a><a href="#sources">Sources</a></div><div class="g5-credits" aria-label="Lesson learning credits"><span class="g5-credits-label">HISTORY CREDITS</span><strong id="g5-credit-total">0 / 5</strong><span id="g5-needs-work">0 need work</span><button type="button" id="g5-credits-detail" aria-expanded="false" aria-controls="g5-credits-breakdown">Details ▾</button><span id="g5-status" class="g5-visually-hidden" role="status" aria-live="polite"></span></div><div id="g5-credits-breakdown" hidden aria-label="History credits by category"><span data-credit-category="concept">Historical thinking</span><span data-credit-category="reliability">Source reliability</span><span data-credit-category="fact">Factual evidence</span><span data-credit-category="context">Source context</span><span data-credit-category="argument">Evidence argument</span><p>Lesson credits are a practice self-check, not your final unit grade.</p></div></nav><div class="g5-time-warning" aria-hidden="true"></div>'+
  S("goals",0,"01 · Backward design","What will you learn?",'<p class="g5-question">'+E(d.essential)+'</p>'+teacher)+
  S("prepare",1,"02 · Engage · 5–10 minutes","Before we begin",'<p><b>Pre-check:</b> Which question best helps historians investigate '+E(d.title)+'?</p><div id="g5-pre"><button data-good="false">What familiar explanation is easiest?</button><button data-good="true">Who created this evidence, when and for what purpose?</button><button data-good="false">Which source agrees with me already?</button></div><p id="g5-pre-result" role="status"></p>'+D("Vocabulary · Investigate these terms",'<ul>'+d.vocabulary.map(v=>'<li><strong>'+E(v)+'</strong> — '+E(vocabularyGuide[v.toLowerCase()]||'Use the lesson source to research a precise definition.')+'. <em>Apply:</em> use the term in a historical sentence.</li>').join("")+'</ul>')+'<p><b>Opening inquiry:</b> '+E(d.essential)+' Discuss an initial prediction and name the kind of evidence you would need to test it.</p>')+
  S("discover",2,"03 · Branching reading and video · 12–25 minutes","Explore the history",'<p>Read the three parts in order or revisit a part for closer analysis. The video explores a related topic and may cover more than this particular lesson.</p><div class="g5-two"><div class="g5-card"><div class="g5-read-menu"><button data-part="0" aria-pressed="true">1 · Setting</button><button data-part="1" aria-pressed="false">2 · Changes</button><button data-part="2" aria-pressed="false">3 · Perspectives</button></div>'+reading+'</div><aside class="g5-card"><h3>Watch and compare</h3>'+videoHTML+'</aside></div><div class="g5-activity"><b>Reading checkpoint</b><p>Write one observation, one inference and one question. Note which reading section supplied the evidence.</p><textarea class="g5-writing" aria-label="Reading checkpoint"></textarea></div>')+
@@ -74,19 +74,37 @@ function wire(d){
  top();addEventListener("resize",top);
  function progress(){const pct=Math.round(100*Math.max(0,Math.min(1,scrollY/Math.max(1,document.documentElement.scrollHeight-innerHeight))));bar.firstElementChild.style.width=pct+"%";bar.setAttribute("aria-valuenow",pct);Q(".g5-meter output").textContent=pct+"%";let active=panels[0];for(const p of panels)if(p.getBoundingClientRect().top<sticky.getBoundingClientRect().bottom+24)active=p;QA(".g5-jumps a").forEach(a=>{if(a.hash==="#"+active.id)a.setAttribute("aria-current","step");else a.removeAttribute("aria-current")})}
  addEventListener("scroll",progress,{passive:true});addEventListener("resize",progress);progress();
- const duration=Q("#g5-duration"),clock=Q("#g5-clock"),start=Q("#g5-start"),reset=Q("#g5-reset"),sound=Q("#g5-sound"),status=Q("#g5-status");
+ const duration=Q("#g5-duration"),clock=Q("#g5-clock"),start=Q("#g5-start"),reset=Q("#g5-reset"),sound=Q("#g5-sound"),status=Q("#g5-status"),warning=Q(".g5-time-warning");
  const secs=[15,20,...Array.from({length:10},(_,i)=>(i+1)*60),12*60,15*60,20*60,25*60,30*60,35*60,40*60,45*60];
  secs.forEach(n=>{const o=document.createElement("option");o.value=n;o.textContent=n<60?n+" sec":n/60+" min";duration.append(o)});duration.value=300;
- let left=300,tickId=null,ends=0,playing=true,ctx;
+ let left=300,tickId=null,ends=0,playing=true,ctx,lastWarning=null;
  try{playing=localStorage.getItem("etp-lesson-sound")!=="off"}catch{}
  function refresh(){clock.textContent=String(Math.floor(left/60)).padStart(2,"0")+":"+String(left%60).padStart(2,"0");start.textContent=tickId?"Pause":"Start";sound.textContent=playing?"Sound: On":"Sound: Off";sound.setAttribute("aria-pressed",String(playing))}
  function stop(){if(tickId)clearInterval(tickId);tickId=null}
- function play(ok){if(!playing)return;try{ctx=ctx||new(window.AudioContext||window.webkitAudioContext)();ctx.resume?.();const at=ctx.currentTime;const notes=ok?[523,659,784]:[240,140];notes.forEach((f,i)=>{const o=ctx.createOscillator(),g=ctx.createGain(),t=at+i*.11;o.type=ok?"sine":"triangle";o.frequency.setValueAtTime(f,t);g.gain.setValueAtTime(.001,t);g.gain.linearRampToValueAtTime(.04,t+.016);g.gain.exponentialRampToValueAtTime(.001,t+.16);o.connect(g).connect(ctx.destination);o.start(t);o.stop(t+.18)})}catch{}}
+ function tone(freq,t,dur,type="sine",gain=.04,endFreq=freq){if(!ctx)return;const at=ctx.currentTime+t,o=ctx.createOscillator(),g=ctx.createGain();o.type=type;o.frequency.setValueAtTime(freq,at);if(endFreq!==freq)o.frequency.exponentialRampToValueAtTime(endFreq,at+dur);g.gain.setValueAtTime(.001,at);g.gain.linearRampToValueAtTime(gain,at+.018);g.gain.exponentialRampToValueAtTime(.001,at+dur);o.connect(g).connect(ctx.destination);o.start(at);o.stop(at+dur+.03)}
+ function audioReady(){if(!playing)return false;try{ctx=ctx||new(window.AudioContext||window.webkitAudioContext)();if(ctx.state==="suspended")ctx.resume();return true}catch{return false}}
+ function play(ok){if(!audioReady())return;const notes=ok?[523,659,784]:[240,140];notes.forEach((f,i)=>tone(f,i*.11,.17,ok?"sine":"triangle"))}
+ function finalAlarm(){if(!audioReady())return;[[392,0,.30],[440,.32,.30],[523,.66,.64]].forEach(([f,t,d])=>tone(f,t,d,"triangle",.055,f*.92))}
+ function warningBeep(){if(audioReady())tone(740,0,.09,"sine",.028)}
  function confetti(target){if(matchMedia("(prefers-reduced-motion:reduce)").matches)return;const r=target.getBoundingClientRect();for(let i=0;i<30;i++){const p=document.createElement("i");p.className="g5-confetti";p.setAttribute("aria-hidden","true");p.style.cssText="left:"+(r.left+r.width/2)+"px;top:"+(Math.max(50,Math.min(innerHeight-50,r.top+20)))+"px;background:"+["#94ff53","#fff","#fff200"][i%3];document.body.append(p);let angle=Math.PI*2*i/30,dist=80+Math.random()*135;if(p.animate)p.animate([{transform:"translate(0,0)",opacity:1},{transform:"translate("+Math.cos(angle)*dist+"px,"+(Math.sin(angle)*dist+70)+"px) rotate(540deg)",opacity:0}],{duration:1100,easing:"ease-out"}).onfinish=()=>p.remove();else setTimeout(()=>p.remove(),1100)}}
  function feedback(ok,b){play(ok);if(ok)confetti(b)}
- function step(){left=Math.max(0,Math.ceil((ends-performance.now())/1000));if(!left){stop();status.textContent="Optional timer finished";play(true)}refresh()}
- start.onclick=()=>{if(tickId){stop();status.textContent="Timer paused";refresh();return}if(!left)left=Number(duration.value);ends=performance.now()+left*1000;tickId=setInterval(step,250);status.textContent="Timer running";refresh()};
- reset.onclick=()=>{stop();left=Number(duration.value);status.textContent="Timer reset";refresh()};
+ const motionReduced=matchMedia("(prefers-reduced-motion:reduce)");
+ function clearWarning(){warning.classList.remove("g5-warning-active");document.body.classList.remove("g5-countdown-warning");lastWarning=null}
+ function step(){
+  left=Math.max(0,Math.ceil((ends-performance.now())/1000));
+  if(left>0&&left<=6){
+   if(lastWarning!==left){lastWarning=left;warningBeep()}
+   if(!motionReduced.matches){warning.classList.add("g5-warning-active");document.body.classList.add("g5-countdown-warning")}
+  }else clearWarning();
+  if(left===0){stop();clearWarning();status.textContent="Timer finished";finalAlarm()}
+  refresh();
+ }
+ start.onclick=()=>{
+  if(tickId){left=Math.max(0,Math.ceil((ends-performance.now())/1000));stop();clearWarning();status.textContent="Timer paused";refresh();return}
+  if(!left)left=Number(duration.value);
+  ends=performance.now()+left*1000;tickId=setInterval(step,150);status.textContent="Timer running";audioReady();refresh();
+ };
+ reset.onclick=()=>{stop();clearWarning();left=Number(duration.value);status.textContent="Timer reset";refresh()};
  duration.onchange=reset.onclick;
  sound.onclick=()=>{playing=!playing;try{localStorage.setItem("etp-lesson-sound",playing?"on":"off")}catch{}refresh()};refresh();
  QA("[data-part]").forEach(b=>b.onclick=()=>{QA("[data-part]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));QA("[data-reading]").forEach(x=>x.hidden=x.dataset.reading!==b.dataset.part)});
@@ -101,23 +119,29 @@ function wire(d){
   active?.classList.add("g5-completed");
   const next=QA("[data-investigate]")[i+1];if(next)next.click();
  };
- const scores=new Map();
+ const scores=new Map(),attempts=new Map();
+ const creditNames=["concept","reliability","fact","context","argument"];
+ const creditsButton=Q("#g5-credits-detail"),creditsBreakdown=Q("#g5-credits-breakdown");
+ creditsButton.onclick=()=>{const open=creditsBreakdown.hidden;creditsBreakdown.hidden=!open;creditsButton.setAttribute("aria-expanded",String(open));creditsButton.textContent=open?"Details ▴":"Details ▾"};
  function updateScores(){
-  const answered=scores.size,correct=[...scores.values()].filter(Boolean).length;
+  const answered=scores.size,correct=[...scores.values()].filter(Boolean).length,needs=[...scores.values()].filter(x=>!x).length;
   Q("#g5-mini-score").textContent=correct+" / 5 correct · "+answered+" of 5 answered. "+(answered===5?"Review the feedback and revise any uncertain answers.":"Keep investigating.");
+  Q("#g5-credit-total").textContent=correct+" / 5";
+  Q("#g5-needs-work").textContent=needs+" need work";
+  for(const id of creditNames){const el=Q('[data-credit-category="'+id+'"]');if(!el)continue;const answeredOne=scores.has(id),good=scores.get(id)===true;el.dataset.state=good?"earned":answeredOne?"review":"pending";el.textContent=(good?"✓ ":answeredOne?"↻ ":"○ ")+({concept:"Historical thinking",reliability:"Source reliability",fact:"Factual evidence",context:"Source context",argument:"Evidence argument"}[id])+(answeredOne?" · "+attempts.get(id)+" attempt"+(attempts.get(id)===1?"":"s"):"");}
  }
  function assess(id,ok,button){
-  const previous=scores.get(id);scores.set(id,ok);updateScores();
+  const previous=scores.get(id);attempts.set(id,(attempts.get(id)||0)+1);scores.set(id,ok);updateScores();
   if(!ok||previous!==true)feedback(ok,button);
  }
+ updateScores();
  QA("[data-mini]").forEach(group=>group.querySelectorAll("[data-mini-choice]").forEach(button=>button.onclick=()=>{
   const chosen=Number(button.dataset.miniChoice),ok=chosen===Number(group.dataset.correct);
   group.querySelectorAll("[data-mini-choice]").forEach(x=>x.setAttribute("aria-pressed",String(x===button)));
   group.querySelector(".g5-mini-feedback").textContent=ok?"Correct. This response aligns with the historical context and evidence standards.":"Reconsider the distinction between a sourced explanation and a claim without appropriate evidence.";
   assess(group.dataset.mini,ok,button);
  }));
- let rewarded=false;
- QA("[data-answer]").forEach(b=>b.onclick=()=>{const ok=Number(b.dataset.answer)===d.correct;QA("[data-answer]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));Q("#g5-answer-result").textContent=ok?"Correct. "+d.options[d.correct]+" Support this answer with a reading detail.":"Not quite. Revisit the evidence and try another explanation.";if(ok&&!rewarded){feedback(true,b);rewarded=true}else if(!ok){feedback(false,b);rewarded=false}scores.set("concept",ok);updateScores()});
+ QA("[data-answer]").forEach(b=>b.onclick=()=>{const ok=Number(b.dataset.answer)===d.correct;QA("[data-answer]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));Q("#g5-answer-result").textContent=ok?"Correct. "+d.options[d.correct]+" Support this answer with a reading detail.":"Not quite. Revisit the evidence and try another explanation.";assess("concept",ok,b)});
  QA("[data-source-good]").forEach(b=>b.onclick=()=>{const ok=b.dataset.sourceGood==="true";Q("#g5-source-result").textContent=ok?"Correct. Corroboration and missing perspectives matter.":"Review historical sourcing. Context matters more than confidence.";assess("reliability",ok,b)});
  Q("#g5-copy").onclick=()=>{const txt=Q("#g5-written").value,o=Q("#g5-copy-result");if(!txt.trim()){o.textContent="Write a response first.";return}if(navigator.clipboard&&isSecureContext)navigator.clipboard.writeText(txt).then(()=>o.textContent="Copied.").catch(()=>o.textContent="Select text manually.");else{Q("#g5-written").select();o.textContent="Selected. Copy using your device."}};
 }
