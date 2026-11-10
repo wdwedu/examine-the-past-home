@@ -40,7 +40,7 @@
               "id": "grade-5-early-american-history-51-01",
               "title": "North America Before European Colonization",
               "slug": "north-america-before-european-colonization",
-              "status": "In Development",
+              "status": "Interactive Lesson",
               "unitId": "grade-5-early-american-history-unit-5-1",
               "unitNumber": "5.1",
               "objectives": [
@@ -59,18 +59,27 @@
               "id": "grade-5-early-american-history-51-02",
               "title": "Indigenous Nations, Cultures, and Communities",
               "slug": "indigenous-nations-cultures-and-communities",
-              "status": "In Development",
+              "status": "Interactive Lesson",
               "unitId": "grade-5-early-american-history-unit-5-1",
               "unitNumber": "5.1",
               "objectives": [
-                "Identify relevant people, places, ideas and historical conditions for Indigenous Nations, Cultures, and Communities.",
-                "Analyze evidence and perspectives related to Indigenous Nations, Cultures, and Communities.",
-                "Develop a supported historical interpretation with an explicit limitation."
+                "Explain key developments in Indigenous Nations, Cultures, and Communities.",
+                "Compare credible historical evidence and multiple perspectives.",
+                "Create an evidence-supported argument that acknowledges limitations."
               ],
-              "inquiryQuestion": "How can we use historical evidence to investigate indigenous nations, cultures, and communities?",
-              "overview": "Planned historical inquiry on Indigenous Nations, Cultures, and Communities within Indigenous North America.",
-              "assessmentPlan": "Source-based formative check, evidence-supported response, reflection and teacher-reviewed performance task.",
-              "sourceReferences": [],
+              "inquiryQuestion": "How can comparing particular nations challenge stereotypes about Indigenous North America?",
+              "overview": "The Haudenosaunee Confederacy brought distinct nations together in a political alliance, while Pueblo communities of the Southwest developed other institutions and practices. Neither example stands for all Indigenous peoples. Before colonization, North America contained many languages, governments, spiritual traditions, and trade networks.",
+              "assessmentPlan": "Original branching reading, interactive inquiry, formative feedback, written claim, optional homework, and end-of-unit assessment.",
+              "sourceReferences": [
+                {
+                  "title": "Smithsonian NMAI Native Knowledge 360°",
+                  "url": "https://americanindian.si.edu/nk360/about/essential-understandings"
+                },
+                {
+                  "title": "Colonial Williamsburg: Indigenous Peoples Before the Thirteen Colonies",
+                  "url": "https://www.youtube.com/watch?v=8Vra53Dl2gc"
+                }
+              ],
               "relatedCourses": [],
               "canonicalUrl": "/lessons/curriculum/grade-5-early-american-history/indigenous-nations-cultures-and-communities/"
             },
@@ -78,18 +87,27 @@
               "id": "grade-5-early-american-history-51-03",
               "title": "Land, Resources, and Systems of Governance",
               "slug": "land-resources-and-systems-of-governance",
-              "status": "In Development",
+              "status": "Interactive Lesson",
               "unitId": "grade-5-early-american-history-unit-5-1",
               "unitNumber": "5.1",
               "objectives": [
-                "Identify relevant people, places, ideas and historical conditions for Land, Resources, and Systems of Governance.",
-                "Analyze evidence and perspectives related to Land, Resources, and Systems of Governance.",
-                "Develop a supported historical interpretation with an explicit limitation."
+                "Explain key developments in Land, Resources, and Systems of Governance.",
+                "Compare credible historical evidence and multiple perspectives.",
+                "Create an evidence-supported argument that acknowledges limitations."
               ],
-              "inquiryQuestion": "How can we use historical evidence to investigate land, resources, and systems of governance?",
-              "overview": "Planned historical inquiry on Land, Resources, and Systems of Governance within Indigenous North America.",
-              "assessmentPlan": "Source-based formative check, evidence-supported response, reflection and teacher-reviewed performance task.",
-              "sourceReferences": [],
+              "inquiryQuestion": "How did communities make decisions about resources and responsibilities?",
+              "overview": "Indigenous nations organized relationships to land and resources through systems of knowledge, responsibility, and governance. Some agricultural communities built irrigation or food-storage systems, while other nations used seasonal patterns for fishing, farming, hunting, or exchange.",
+              "assessmentPlan": "Original branching reading, interactive inquiry, formative feedback, written claim, optional homework, and end-of-unit assessment.",
+              "sourceReferences": [
+                {
+                  "title": "Smithsonian NMAI Native Knowledge 360°",
+                  "url": "https://americanindian.si.edu/nk360/about/essential-understandings"
+                },
+                {
+                  "title": "Colonial Williamsburg: Indigenous Peoples Before the Thirteen Colonies",
+                  "url": "https://www.youtube.com/watch?v=8Vra53Dl2gc"
+                }
+              ],
               "relatedCourses": [],
               "canonicalUrl": "/lessons/curriculum/grade-5-early-american-history/land-resources-and-systems-of-governance/"
             }
@@ -116,18 +134,27 @@
               "id": "grade-5-early-american-history-52-01",
               "title": "Why Did Europeans Cross the Atlantic?",
               "slug": "why-did-europeans-cross-the-atlantic",
-              "status": "In Development",
+              "status": "Interactive Lesson",
               "unitId": "grade-5-early-american-history-unit-5-2",
               "unitNumber": "5.2",
               "objectives": [
-                "Identify relevant people, places, ideas and historical conditions for Why Did Europeans Cross the Atlantic?.",
-                "Analyze evidence and perspectives related to Why Did Europeans Cross the Atlantic?.",
-                "Develop a supported historical interpretation with an explicit limitation."
+                "Explain key developments in Why Did Europeans Cross the Atlantic?.",
+                "Compare credible historical evidence and multiple perspectives.",
+                "Create an evidence-supported argument that acknowledges limitations."
               ],
-              "inquiryQuestion": "How can we use historical evidence to investigate why did europeans cross the atlantic?",
-              "overview": "Planned historical inquiry on Why Did Europeans Cross the Atlantic? within Exploration and Encounters.",
-              "assessmentPlan": "Source-based formative check, evidence-supported response, reflection and teacher-reviewed performance task.",
-              "sourceReferences": [],
+              "inquiryQuestion": "How can economic, political, and religious motives explain Atlantic exploration?",
+              "overview": "In the fifteenth and sixteenth centuries, European rulers and merchants sought profitable trade, power, and new routes to goods in Asia and Africa. Navigational techniques, ships, and maritime knowledge developed through exchanges across cultures, enabling longer voyages.",
+              "assessmentPlan": "Original branching reading, interactive inquiry, formative feedback, written claim, optional homework, and end-of-unit assessment.",
+              "sourceReferences": [
+                {
+                  "title": "Smithsonian National Museum of the American Indian",
+                  "url": "https://americanindian.si.edu/nk360/about/essential-understandings"
+                },
+                {
+                  "title": "Crash Course: The Columbian Exchange",
+                  "url": "https://www.youtube.com/watch?v=HQPA5oNpfM4"
+                }
+              ],
               "relatedCourses": [],
               "canonicalUrl": "/lessons/curriculum/grade-5-early-american-history/why-did-europeans-cross-the-atlantic/"
             },
@@ -135,18 +162,27 @@
               "id": "grade-5-early-american-history-52-02",
               "title": "First Encounters and Competing Perspectives",
               "slug": "first-encounters-and-competing-perspectives",
-              "status": "In Development",
+              "status": "Interactive Lesson",
               "unitId": "grade-5-early-american-history-unit-5-2",
               "unitNumber": "5.2",
               "objectives": [
-                "Identify relevant people, places, ideas and historical conditions for First Encounters and Competing Perspectives.",
-                "Analyze evidence and perspectives related to First Encounters and Competing Perspectives.",
-                "Develop a supported historical interpretation with an explicit limitation."
+                "Explain key developments in First Encounters and Competing Perspectives.",
+                "Compare credible historical evidence and multiple perspectives.",
+                "Create an evidence-supported argument that acknowledges limitations."
               ],
-              "inquiryQuestion": "How can we use historical evidence to investigate first encounters and competing perspectives?",
-              "overview": "Planned historical inquiry on First Encounters and Competing Perspectives within Exploration and Encounters.",
-              "assessmentPlan": "Source-based formative check, evidence-supported response, reflection and teacher-reviewed performance task.",
-              "sourceReferences": [],
+              "inquiryQuestion": "How can different accounts of first encounters tell conflicting stories?",
+              "overview": "When European arrivals met Indigenous communities, each side interpreted unfamiliar people and practices through its own experiences. Some encounters involved exchange and diplomacy; others included coercion, misunderstanding, violence, and resistance.",
+              "assessmentPlan": "Original branching reading, interactive inquiry, formative feedback, written claim, optional homework, and end-of-unit assessment.",
+              "sourceReferences": [
+                {
+                  "title": "Smithsonian National Museum of the American Indian",
+                  "url": "https://americanindian.si.edu/nk360/about/essential-understandings"
+                },
+                {
+                  "title": "Crash Course: The Columbian Exchange",
+                  "url": "https://www.youtube.com/watch?v=HQPA5oNpfM4"
+                }
+              ],
               "relatedCourses": [],
               "canonicalUrl": "/lessons/curriculum/grade-5-early-american-history/first-encounters-and-competing-perspectives/"
             },
@@ -154,18 +190,27 @@
               "id": "grade-5-early-american-history-52-03",
               "title": "The Columbian Exchange and Its Consequences",
               "slug": "the-columbian-exchange-and-its-consequences",
-              "status": "In Development",
+              "status": "Interactive Lesson",
               "unitId": "grade-5-early-american-history-unit-5-2",
               "unitNumber": "5.2",
               "objectives": [
-                "Identify relevant people, places, ideas and historical conditions for The Columbian Exchange and Its Consequences.",
-                "Analyze evidence and perspectives related to The Columbian Exchange and Its Consequences.",
-                "Develop a supported historical interpretation with an explicit limitation."
+                "Explain key developments in The Columbian Exchange and Its Consequences.",
+                "Compare credible historical evidence and multiple perspectives.",
+                "Create an evidence-supported argument that acknowledges limitations."
               ],
-              "inquiryQuestion": "How can we use historical evidence to investigate the columbian exchange and its consequences?",
-              "overview": "Planned historical inquiry on The Columbian Exchange and Its Consequences within Exploration and Encounters.",
-              "assessmentPlan": "Source-based formative check, evidence-supported response, reflection and teacher-reviewed performance task.",
-              "sourceReferences": [],
+              "inquiryQuestion": "What changed when living things, ideas, and diseases crossed the Atlantic?",
+              "overview": "After 1492, sustained contact connected plants, animals, pathogens, and peoples across the Atlantic. American crops such as maize and potatoes spread to other continents; horses, cattle, and other organisms moved into the Americas.",
+              "assessmentPlan": "Original branching reading, interactive inquiry, formative feedback, written claim, optional homework, and end-of-unit assessment.",
+              "sourceReferences": [
+                {
+                  "title": "Smithsonian National Museum of the American Indian",
+                  "url": "https://americanindian.si.edu/nk360/about/essential-understandings"
+                },
+                {
+                  "title": "Crash Course: The Columbian Exchange",
+                  "url": "https://www.youtube.com/watch?v=HQPA5oNpfM4"
+                }
+              ],
               "relatedCourses": [],
               "canonicalUrl": "/lessons/curriculum/grade-5-early-american-history/the-columbian-exchange-and-its-consequences/"
             }
@@ -193,18 +238,27 @@
               "id": "grade-5-early-american-history-53-01",
               "title": "Life in the Thirteen Colonies",
               "slug": "life-in-the-thirteen-colonies",
-              "status": "In Development",
+              "status": "Interactive Lesson",
               "unitId": "grade-5-early-american-history-unit-5-3",
               "unitNumber": "5.3",
               "objectives": [
-                "Identify relevant people, places, ideas and historical conditions for Life in the Thirteen Colonies.",
-                "Analyze evidence and perspectives related to Life in the Thirteen Colonies.",
-                "Develop a supported historical interpretation with an explicit limitation."
+                "Explain key developments in Life in the Thirteen Colonies.",
+                "Compare credible historical evidence and multiple perspectives.",
+                "Create an evidence-supported argument that acknowledges limitations."
               ],
-              "inquiryQuestion": "How can we use historical evidence to investigate life in the thirteen colonies?",
-              "overview": "Planned historical inquiry on Life in the Thirteen Colonies within Colonial America.",
-              "assessmentPlan": "Source-based formative check, evidence-supported response, reflection and teacher-reviewed performance task.",
-              "sourceReferences": [],
+              "inquiryQuestion": "How did geography and power shape daily life in Britain's mainland colonies?",
+              "overview": "The thirteen British colonies developed different economies and communities along the Atlantic coast. Chesapeake tobacco production relied increasingly on enslaved African labor, while New England had many towns, farms, and maritime businesses.",
+              "assessmentPlan": "Original branching reading, interactive inquiry, formative feedback, written claim, optional homework, and end-of-unit assessment.",
+              "sourceReferences": [
+                {
+                  "title": "Historic Jamestowne — Educators",
+                  "url": "https://historicjamestowne.org/education/for-educators/"
+                },
+                {
+                  "title": "Jamestown Rediscovery: Finding the Founders of English America",
+                  "url": "https://www.youtube.com/watch?v=pkqmiVU58uw"
+                }
+              ],
               "relatedCourses": [],
               "canonicalUrl": "/lessons/curriculum/grade-5-early-american-history/life-in-the-thirteen-colonies/"
             },
@@ -212,18 +266,27 @@
               "id": "grade-5-early-american-history-53-02",
               "title": "Colonial Economies, Labor, and Enslavement",
               "slug": "colonial-economies-labor-and-enslavement",
-              "status": "In Development",
+              "status": "Interactive Lesson",
               "unitId": "grade-5-early-american-history-unit-5-3",
               "unitNumber": "5.3",
               "objectives": [
-                "Identify relevant people, places, ideas and historical conditions for Colonial Economies, Labor, and Enslavement.",
-                "Analyze evidence and perspectives related to Colonial Economies, Labor, and Enslavement.",
-                "Develop a supported historical interpretation with an explicit limitation."
+                "Explain key developments in Colonial Economies, Labor, and Enslavement.",
+                "Compare credible historical evidence and multiple perspectives.",
+                "Create an evidence-supported argument that acknowledges limitations."
               ],
-              "inquiryQuestion": "How can we use historical evidence to investigate colonial economies, labor, and enslavement?",
-              "overview": "Planned historical inquiry on Colonial Economies, Labor, and Enslavement within Colonial America.",
-              "assessmentPlan": "Source-based formative check, evidence-supported response, reflection and teacher-reviewed performance task.",
-              "sourceReferences": [],
+              "inquiryQuestion": "How did labor systems create wealth and inequality in colonial America?",
+              "overview": "Plantation economies in the Chesapeake and the Lower South produced crops for Atlantic markets. Enslaved Africans and African Americans supplied labor through coercion, with laws increasingly making slavery hereditary and racialized.",
+              "assessmentPlan": "Original branching reading, interactive inquiry, formative feedback, written claim, optional homework, and end-of-unit assessment.",
+              "sourceReferences": [
+                {
+                  "title": "Historic Jamestowne — Educators",
+                  "url": "https://historicjamestowne.org/education/for-educators/"
+                },
+                {
+                  "title": "Jamestown Rediscovery: Finding the Founders of English America",
+                  "url": "https://www.youtube.com/watch?v=pkqmiVU58uw"
+                }
+              ],
               "relatedCourses": [],
               "canonicalUrl": "/lessons/curriculum/grade-5-early-american-history/colonial-economies-labor-and-enslavement/"
             },
@@ -231,18 +294,27 @@
               "id": "grade-5-early-american-history-53-03",
               "title": "Religion, Identity, and Colonial Society",
               "slug": "religion-identity-and-colonial-society",
-              "status": "In Development",
+              "status": "Interactive Lesson",
               "unitId": "grade-5-early-american-history-unit-5-3",
               "unitNumber": "5.3",
               "objectives": [
-                "Identify relevant people, places, ideas and historical conditions for Religion, Identity, and Colonial Society.",
-                "Analyze evidence and perspectives related to Religion, Identity, and Colonial Society.",
-                "Develop a supported historical interpretation with an explicit limitation."
+                "Explain key developments in Religion, Identity, and Colonial Society.",
+                "Compare credible historical evidence and multiple perspectives.",
+                "Create an evidence-supported argument that acknowledges limitations."
               ],
-              "inquiryQuestion": "How can we use historical evidence to investigate religion, identity, and colonial society?",
-              "overview": "Planned historical inquiry on Religion, Identity, and Colonial Society within Colonial America.",
-              "assessmentPlan": "Source-based formative check, evidence-supported response, reflection and teacher-reviewed performance task.",
-              "sourceReferences": [],
+              "inquiryQuestion": "How did religious beliefs shape both opportunity and exclusion?",
+              "overview": "Colonial communities included varied Protestant denominations, Catholics, Jews, Indigenous faith traditions, and African religious practices. Some colonies imposed established churches and limited religious freedom, while others allowed broader forms of worship.",
+              "assessmentPlan": "Original branching reading, interactive inquiry, formative feedback, written claim, optional homework, and end-of-unit assessment.",
+              "sourceReferences": [
+                {
+                  "title": "Historic Jamestowne — Educators",
+                  "url": "https://historicjamestowne.org/education/for-educators/"
+                },
+                {
+                  "title": "Jamestown Rediscovery: Finding the Founders of English America",
+                  "url": "https://www.youtube.com/watch?v=pkqmiVU58uw"
+                }
+              ],
               "relatedCourses": [],
               "canonicalUrl": "/lessons/curriculum/grade-5-early-american-history/religion-identity-and-colonial-society/"
             },
@@ -250,18 +322,27 @@
               "id": "grade-5-early-american-history-53-04",
               "title": "Colonial Maryland and the Chesapeake",
               "slug": "colonial-maryland-and-the-chesapeake",
-              "status": "In Development",
+              "status": "Interactive Lesson",
               "unitId": "grade-5-early-american-history-unit-5-3",
               "unitNumber": "5.3",
               "objectives": [
-                "Identify relevant people, places, ideas and historical conditions for Colonial Maryland and the Chesapeake.",
-                "Analyze evidence and perspectives related to Colonial Maryland and the Chesapeake.",
-                "Develop a supported historical interpretation with an explicit limitation."
+                "Explain key developments in Colonial Maryland and the Chesapeake.",
+                "Compare credible historical evidence and multiple perspectives.",
+                "Create an evidence-supported argument that acknowledges limitations."
               ],
-              "inquiryQuestion": "How can we use historical evidence to investigate colonial maryland and the chesapeake?",
-              "overview": "Planned historical inquiry on Colonial Maryland and the Chesapeake within Colonial America.",
-              "assessmentPlan": "Source-based formative check, evidence-supported response, reflection and teacher-reviewed performance task.",
-              "sourceReferences": [],
+              "inquiryQuestion": "What makes Maryland's colonial history both local and Atlantic?",
+              "overview": "English Maryland was founded as a proprietary colony in 1634, but the region was already home to Indigenous peoples including the Piscataway. Settlement and land expansion transformed relationships, power, and access to resources.",
+              "assessmentPlan": "Original branching reading, interactive inquiry, formative feedback, written claim, optional homework, and end-of-unit assessment.",
+              "sourceReferences": [
+                {
+                  "title": "Historic Jamestowne — Educators",
+                  "url": "https://historicjamestowne.org/education/for-educators/"
+                },
+                {
+                  "title": "Jamestown Rediscovery: Finding the Founders of English America",
+                  "url": "https://www.youtube.com/watch?v=pkqmiVU58uw"
+                }
+              ],
               "relatedCourses": [],
               "canonicalUrl": "/lessons/curriculum/grade-5-early-american-history/colonial-maryland-and-the-chesapeake/"
             }
@@ -288,18 +369,27 @@
               "id": "grade-5-early-american-history-54-01",
               "title": "Competing Empires in North America",
               "slug": "competing-empires-in-north-america",
-              "status": "In Development",
+              "status": "Interactive Lesson",
               "unitId": "grade-5-early-american-history-unit-5-4",
               "unitNumber": "5.4",
               "objectives": [
-                "Identify relevant people, places, ideas and historical conditions for Competing Empires in North America.",
-                "Analyze evidence and perspectives related to Competing Empires in North America.",
-                "Develop a supported historical interpretation with an explicit limitation."
+                "Explain key developments in Competing Empires in North America.",
+                "Compare credible historical evidence and multiple perspectives.",
+                "Create an evidence-supported argument that acknowledges limitations."
               ],
-              "inquiryQuestion": "How can we use historical evidence to investigate competing empires in north america?",
-              "overview": "Planned historical inquiry on Competing Empires in North America within Imperial Conflict.",
-              "assessmentPlan": "Source-based formative check, evidence-supported response, reflection and teacher-reviewed performance task.",
-              "sourceReferences": [],
+              "inquiryQuestion": "Why did rival empires and Native nations contest North America?",
+              "overview": "Britain, France, and Spain sought influence, trade, and territory in North America. Their maps and claims often ignored the political authority and homelands of Indigenous nations.",
+              "assessmentPlan": "Original branching reading, interactive inquiry, formative feedback, written claim, optional homework, and end-of-unit assessment.",
+              "sourceReferences": [
+                {
+                  "title": "American Battlefield Trust — Animated War Map",
+                  "url": "https://www.battlefields.org/learn/maps/americas-wars-1754-1945-animated-map"
+                },
+                {
+                  "title": "American Battlefield Trust: The French and Indian War (chapter)",
+                  "url": "https://www.youtube.com/watch?v=gyJGU8Meeps"
+                }
+              ],
               "relatedCourses": [],
               "canonicalUrl": "/lessons/curriculum/grade-5-early-american-history/competing-empires-in-north-america/"
             },
@@ -307,18 +397,27 @@
               "id": "grade-5-early-american-history-54-02",
               "title": "The French and Indian War",
               "slug": "the-french-and-indian-war",
-              "status": "In Development",
+              "status": "Interactive Lesson",
               "unitId": "grade-5-early-american-history-unit-5-4",
               "unitNumber": "5.4",
               "objectives": [
-                "Identify relevant people, places, ideas and historical conditions for The French and Indian War.",
-                "Analyze evidence and perspectives related to The French and Indian War.",
-                "Develop a supported historical interpretation with an explicit limitation."
+                "Explain key developments in The French and Indian War.",
+                "Compare credible historical evidence and multiple perspectives.",
+                "Create an evidence-supported argument that acknowledges limitations."
               ],
-              "inquiryQuestion": "How can we use historical evidence to investigate the french and indian war?",
-              "overview": "Planned historical inquiry on The French and Indian War within Imperial Conflict.",
-              "assessmentPlan": "Source-based formative check, evidence-supported response, reflection and teacher-reviewed performance task.",
-              "sourceReferences": [],
+              "inquiryQuestion": "How did a regional struggle become part of a global war?",
+              "overview": "The French and Indian War began in North America in 1754 amid competing claims in the Ohio Valley and became part of the wider Seven Years' War. British and French forces fought alongside Indigenous allies whose strategic priorities differed.",
+              "assessmentPlan": "Original branching reading, interactive inquiry, formative feedback, written claim, optional homework, and end-of-unit assessment.",
+              "sourceReferences": [
+                {
+                  "title": "American Battlefield Trust — Animated War Map",
+                  "url": "https://www.battlefields.org/learn/maps/americas-wars-1754-1945-animated-map"
+                },
+                {
+                  "title": "American Battlefield Trust: The French and Indian War (chapter)",
+                  "url": "https://www.youtube.com/watch?v=gyJGU8Meeps"
+                }
+              ],
               "relatedCourses": [],
               "canonicalUrl": "/lessons/curriculum/grade-5-early-american-history/the-french-and-indian-war/"
             },
@@ -326,18 +425,27 @@
               "id": "grade-5-early-american-history-54-03",
               "title": "Taxes, Representation, and Colonial Protest",
               "slug": "taxes-representation-and-colonial-protest",
-              "status": "In Development",
+              "status": "Interactive Lesson",
               "unitId": "grade-5-early-american-history-unit-5-4",
               "unitNumber": "5.4",
               "objectives": [
-                "Identify relevant people, places, ideas and historical conditions for Taxes, Representation, and Colonial Protest.",
-                "Analyze evidence and perspectives related to Taxes, Representation, and Colonial Protest.",
-                "Develop a supported historical interpretation with an explicit limitation."
+                "Explain key developments in Taxes, Representation, and Colonial Protest.",
+                "Compare credible historical evidence and multiple perspectives.",
+                "Create an evidence-supported argument that acknowledges limitations."
               ],
-              "inquiryQuestion": "How can we use historical evidence to investigate taxes, representation, and colonial protest?",
-              "overview": "Planned historical inquiry on Taxes, Representation, and Colonial Protest within Imperial Conflict.",
-              "assessmentPlan": "Source-based formative check, evidence-supported response, reflection and teacher-reviewed performance task.",
-              "sourceReferences": [],
+              "inquiryQuestion": "Why did new British policies provoke colonial resistance?",
+              "overview": "After 1763, Britain sought revenue and tighter imperial administration. The Stamp Act of 1765 taxed certain printed materials, and later policies increased disputes over Parliament's authority.",
+              "assessmentPlan": "Original branching reading, interactive inquiry, formative feedback, written claim, optional homework, and end-of-unit assessment.",
+              "sourceReferences": [
+                {
+                  "title": "American Battlefield Trust — Animated War Map",
+                  "url": "https://www.battlefields.org/learn/maps/americas-wars-1754-1945-animated-map"
+                },
+                {
+                  "title": "American Battlefield Trust: The French and Indian War (chapter)",
+                  "url": "https://www.youtube.com/watch?v=gyJGU8Meeps"
+                }
+              ],
               "relatedCourses": [],
               "canonicalUrl": "/lessons/curriculum/grade-5-early-american-history/taxes-representation-and-colonial-protest/"
             }
@@ -364,18 +472,27 @@
               "id": "grade-5-early-american-history-55-01",
               "title": "Why Did the Colonies Declare Independence?",
               "slug": "why-did-the-colonies-declare-independence",
-              "status": "In Development",
+              "status": "Interactive Lesson",
               "unitId": "grade-5-early-american-history-unit-5-5",
               "unitNumber": "5.5",
               "objectives": [
-                "Identify relevant people, places, ideas and historical conditions for Why Did the Colonies Declare Independence?.",
-                "Analyze evidence and perspectives related to Why Did the Colonies Declare Independence?.",
-                "Develop a supported historical interpretation with an explicit limitation."
+                "Explain key developments in Why Did the Colonies Declare Independence?.",
+                "Compare credible historical evidence and multiple perspectives.",
+                "Create an evidence-supported argument that acknowledges limitations."
               ],
-              "inquiryQuestion": "How can we use historical evidence to investigate why did the colonies declare independence?",
-              "overview": "Planned historical inquiry on Why Did the Colonies Declare Independence? within The American Revolution.",
-              "assessmentPlan": "Source-based formative check, evidence-supported response, reflection and teacher-reviewed performance task.",
-              "sourceReferences": [],
+              "inquiryQuestion": "How did a political dispute become a declaration of separation?",
+              "overview": "Conflict escalated after years of disputes over taxation, representation, parliamentary power, and British military action. Fighting began at Lexington and Concord in April 1775, more than a year before independence was declared.",
+              "assessmentPlan": "Original branching reading, interactive inquiry, formative feedback, written claim, optional homework, and end-of-unit assessment.",
+              "sourceReferences": [
+                {
+                  "title": "American Battlefield Trust — Student Video Questions",
+                  "url": "https://www.battlefields.org/student-video-questions"
+                },
+                {
+                  "title": "American Battlefield Trust: Revolutionary War in the North",
+                  "url": "https://www.youtube.com/watch?v=qKAQ3mvhK-w"
+                }
+              ],
               "relatedCourses": [],
               "canonicalUrl": "/lessons/curriculum/grade-5-early-american-history/why-did-the-colonies-declare-independence/"
             },
@@ -383,18 +500,27 @@
               "id": "grade-5-early-american-history-55-02",
               "title": "Turning Points of the Revolutionary War",
               "slug": "turning-points-of-the-revolutionary-war",
-              "status": "In Development",
+              "status": "Interactive Lesson",
               "unitId": "grade-5-early-american-history-unit-5-5",
               "unitNumber": "5.5",
               "objectives": [
-                "Identify relevant people, places, ideas and historical conditions for Turning Points of the Revolutionary War.",
-                "Analyze evidence and perspectives related to Turning Points of the Revolutionary War.",
-                "Develop a supported historical interpretation with an explicit limitation."
+                "Explain key developments in Turning Points of the Revolutionary War.",
+                "Compare credible historical evidence and multiple perspectives.",
+                "Create an evidence-supported argument that acknowledges limitations."
               ],
-              "inquiryQuestion": "How can we use historical evidence to investigate turning points of the revolutionary war?",
-              "overview": "Planned historical inquiry on Turning Points of the Revolutionary War within The American Revolution.",
-              "assessmentPlan": "Source-based formative check, evidence-supported response, reflection and teacher-reviewed performance task.",
-              "sourceReferences": [],
+              "inquiryQuestion": "Which developments changed the war's prospects and why?",
+              "overview": "The American Revolution included battles, diplomacy, logistics, and civilian hardship. Victories at Trenton and Princeton in late 1776 and early 1777 helped restore morale, while the American victory at Saratoga in 1777 strengthened prospects for a French alliance.",
+              "assessmentPlan": "Original branching reading, interactive inquiry, formative feedback, written claim, optional homework, and end-of-unit assessment.",
+              "sourceReferences": [
+                {
+                  "title": "American Battlefield Trust — Student Video Questions",
+                  "url": "https://www.battlefields.org/student-video-questions"
+                },
+                {
+                  "title": "American Battlefield Trust: Revolutionary War in the North",
+                  "url": "https://www.youtube.com/watch?v=qKAQ3mvhK-w"
+                }
+              ],
               "relatedCourses": [],
               "canonicalUrl": "/lessons/curriculum/grade-5-early-american-history/turning-points-of-the-revolutionary-war/"
             },
@@ -402,18 +528,27 @@
               "id": "grade-5-early-american-history-55-03",
               "title": "Patriots, Loyalists, Women, and Black Americans",
               "slug": "patriots-loyalists-women-and-black-americans",
-              "status": "In Development",
+              "status": "Interactive Lesson",
               "unitId": "grade-5-early-american-history-unit-5-5",
               "unitNumber": "5.5",
               "objectives": [
-                "Identify relevant people, places, ideas and historical conditions for Patriots, Loyalists, Women, and Black Americans.",
-                "Analyze evidence and perspectives related to Patriots, Loyalists, Women, and Black Americans.",
-                "Develop a supported historical interpretation with an explicit limitation."
+                "Explain key developments in Patriots, Loyalists, Women, and Black Americans.",
+                "Compare credible historical evidence and multiple perspectives.",
+                "Create an evidence-supported argument that acknowledges limitations."
               ],
-              "inquiryQuestion": "How can we use historical evidence to investigate patriots, loyalists, women, and black americans?",
-              "overview": "Planned historical inquiry on Patriots, Loyalists, Women, and Black Americans within The American Revolution.",
-              "assessmentPlan": "Source-based formative check, evidence-supported response, reflection and teacher-reviewed performance task.",
-              "sourceReferences": [],
+              "inquiryQuestion": "How did different people experience a revolution about liberty?",
+              "overview": "Not all colonists supported independence. Patriots sought separation, Loyalists remained attached to the Crown, and many others made decisions shaped by family, religion, survival, and local circumstances.",
+              "assessmentPlan": "Original branching reading, interactive inquiry, formative feedback, written claim, optional homework, and end-of-unit assessment.",
+              "sourceReferences": [
+                {
+                  "title": "American Battlefield Trust — Student Video Questions",
+                  "url": "https://www.battlefields.org/student-video-questions"
+                },
+                {
+                  "title": "American Battlefield Trust: Revolutionary War in the North",
+                  "url": "https://www.youtube.com/watch?v=qKAQ3mvhK-w"
+                }
+              ],
               "relatedCourses": [],
               "canonicalUrl": "/lessons/curriculum/grade-5-early-american-history/patriots-loyalists-women-and-black-americans/"
             },
@@ -421,18 +556,27 @@
               "id": "grade-5-early-american-history-55-04",
               "title": "Did the Revolution Deliver Liberty for Everyone?",
               "slug": "did-the-revolution-deliver-liberty-for-everyone",
-              "status": "In Development",
+              "status": "Interactive Lesson",
               "unitId": "grade-5-early-american-history-unit-5-5",
               "unitNumber": "5.5",
               "objectives": [
-                "Identify relevant people, places, ideas and historical conditions for Did the Revolution Deliver Liberty for Everyone?.",
-                "Analyze evidence and perspectives related to Did the Revolution Deliver Liberty for Everyone?.",
-                "Develop a supported historical interpretation with an explicit limitation."
+                "Explain key developments in Did the Revolution Deliver Liberty for Everyone?.",
+                "Compare credible historical evidence and multiple perspectives.",
+                "Create an evidence-supported argument that acknowledges limitations."
               ],
-              "inquiryQuestion": "How can we use historical evidence to investigate did the revolution deliver liberty for everyone?",
-              "overview": "Planned historical inquiry on Did the Revolution Deliver Liberty for Everyone? within The American Revolution.",
-              "assessmentPlan": "Source-based formative check, evidence-supported response, reflection and teacher-reviewed performance task.",
-              "sourceReferences": [],
+              "inquiryQuestion": "How did revolutionary ideals contrast with people's lived rights?",
+              "overview": "The Declaration announced an ideal of equality, but slavery continued, women remained excluded from voting in most states, and Indigenous sovereignty was challenged by expanding settlement.",
+              "assessmentPlan": "Original branching reading, interactive inquiry, formative feedback, written claim, optional homework, and end-of-unit assessment.",
+              "sourceReferences": [
+                {
+                  "title": "American Battlefield Trust — Student Video Questions",
+                  "url": "https://www.battlefields.org/student-video-questions"
+                },
+                {
+                  "title": "American Battlefield Trust: Revolutionary War in the North",
+                  "url": "https://www.youtube.com/watch?v=qKAQ3mvhK-w"
+                }
+              ],
               "relatedCourses": [],
               "canonicalUrl": "/lessons/curriculum/grade-5-early-american-history/did-the-revolution-deliver-liberty-for-everyone/"
             }
@@ -459,18 +603,27 @@
               "id": "grade-5-early-american-history-56-01",
               "title": "America's First National Government",
               "slug": "america-s-first-national-government",
-              "status": "In Development",
+              "status": "Interactive Lesson",
               "unitId": "grade-5-early-american-history-unit-5-6",
               "unitNumber": "5.6",
               "objectives": [
-                "Identify relevant people, places, ideas and historical conditions for America's First National Government.",
-                "Analyze evidence and perspectives related to America's First National Government.",
-                "Develop a supported historical interpretation with an explicit limitation."
+                "Explain key developments in America's First National Government.",
+                "Compare credible historical evidence and multiple perspectives.",
+                "Create an evidence-supported argument that acknowledges limitations."
               ],
-              "inquiryQuestion": "How can we use historical evidence to investigate america's first national government?",
-              "overview": "Planned historical inquiry on America's First National Government within Creating a Republic.",
-              "assessmentPlan": "Source-based formative check, evidence-supported response, reflection and teacher-reviewed performance task.",
-              "sourceReferences": [],
+              "inquiryQuestion": "Why did the Articles of Confederation create both possibilities and problems?",
+              "overview": "The Articles of Confederation were adopted by Congress in 1777 and ratified in 1781. They established a union of states with a national Congress but no separate national executive or federal judicial branch comparable to those created later.",
+              "assessmentPlan": "Original branching reading, interactive inquiry, formative feedback, written claim, optional homework, and end-of-unit assessment.",
+              "sourceReferences": [
+                {
+                  "title": "National Constitution Center — Constitution 101",
+                  "url": "https://constitutioncenter.org/education/constitution-101-curriculum"
+                },
+                {
+                  "title": "National Constitution Center: Constitution Walkthrough",
+                  "url": "https://www.youtube.com/watch?v=XfS-bZ69p0E"
+                }
+              ],
               "relatedCourses": [],
               "canonicalUrl": "/lessons/curriculum/grade-5-early-american-history/america-s-first-national-government/"
             },
@@ -478,18 +631,27 @@
               "id": "grade-5-early-american-history-56-02",
               "title": "Debating the Constitution",
               "slug": "debating-the-constitution",
-              "status": "In Development",
+              "status": "Interactive Lesson",
               "unitId": "grade-5-early-american-history-unit-5-6",
               "unitNumber": "5.6",
               "objectives": [
-                "Identify relevant people, places, ideas and historical conditions for Debating the Constitution.",
-                "Analyze evidence and perspectives related to Debating the Constitution.",
-                "Develop a supported historical interpretation with an explicit limitation."
+                "Explain key developments in Debating the Constitution.",
+                "Compare credible historical evidence and multiple perspectives.",
+                "Create an evidence-supported argument that acknowledges limitations."
               ],
-              "inquiryQuestion": "How can we use historical evidence to investigate debating the constitution?",
-              "overview": "Planned historical inquiry on Debating the Constitution within Creating a Republic.",
-              "assessmentPlan": "Source-based formative check, evidence-supported response, reflection and teacher-reviewed performance task.",
-              "sourceReferences": [],
+              "inquiryQuestion": "How did compromise shape the Constitution, and who was excluded?",
+              "overview": "Delegates met in Philadelphia in 1787 to revise the national system and instead drafted a new Constitution. They argued over representation, federal power, the executive, and the relationship between states and the national government.",
+              "assessmentPlan": "Original branching reading, interactive inquiry, formative feedback, written claim, optional homework, and end-of-unit assessment.",
+              "sourceReferences": [
+                {
+                  "title": "National Constitution Center — Constitution 101",
+                  "url": "https://constitutioncenter.org/education/constitution-101-curriculum"
+                },
+                {
+                  "title": "National Constitution Center: Constitution Walkthrough",
+                  "url": "https://www.youtube.com/watch?v=XfS-bZ69p0E"
+                }
+              ],
               "relatedCourses": [],
               "canonicalUrl": "/lessons/curriculum/grade-5-early-american-history/debating-the-constitution/"
             },
@@ -497,18 +659,27 @@
               "id": "grade-5-early-american-history-56-03",
               "title": "The Bill of Rights and Individual Liberty",
               "slug": "the-bill-of-rights-and-individual-liberty",
-              "status": "In Development",
+              "status": "Interactive Lesson",
               "unitId": "grade-5-early-american-history-unit-5-6",
               "unitNumber": "5.6",
               "objectives": [
-                "Identify relevant people, places, ideas and historical conditions for The Bill of Rights and Individual Liberty.",
-                "Analyze evidence and perspectives related to The Bill of Rights and Individual Liberty.",
-                "Develop a supported historical interpretation with an explicit limitation."
+                "Explain key developments in The Bill of Rights and Individual Liberty.",
+                "Compare credible historical evidence and multiple perspectives.",
+                "Create an evidence-supported argument that acknowledges limitations."
               ],
-              "inquiryQuestion": "How can we use historical evidence to investigate the bill of rights and individual liberty?",
-              "overview": "Planned historical inquiry on The Bill of Rights and Individual Liberty within Creating a Republic.",
-              "assessmentPlan": "Source-based formative check, evidence-supported response, reflection and teacher-reviewed performance task.",
-              "sourceReferences": [],
+              "inquiryQuestion": "What did the Bill of Rights protect, and whom did protections reach?",
+              "overview": "The first ten amendments were ratified in 1791. They recognized protections including religious exercise, speech, press, assembly, petition, and rights connected to criminal procedure and federal power.",
+              "assessmentPlan": "Original branching reading, interactive inquiry, formative feedback, written claim, optional homework, and end-of-unit assessment.",
+              "sourceReferences": [
+                {
+                  "title": "National Constitution Center — Constitution 101",
+                  "url": "https://constitutioncenter.org/education/constitution-101-curriculum"
+                },
+                {
+                  "title": "National Constitution Center: Constitution Walkthrough",
+                  "url": "https://www.youtube.com/watch?v=XfS-bZ69p0E"
+                }
+              ],
               "relatedCourses": [],
               "canonicalUrl": "/lessons/curriculum/grade-5-early-american-history/the-bill-of-rights-and-individual-liberty/"
             }
@@ -535,18 +706,27 @@
               "id": "grade-5-early-american-history-57-01",
               "title": "George Washington and the Presidency",
               "slug": "george-washington-and-the-presidency",
-              "status": "In Development",
+              "status": "Interactive Lesson",
               "unitId": "grade-5-early-american-history-unit-5-7",
               "unitNumber": "5.7",
               "objectives": [
-                "Identify relevant people, places, ideas and historical conditions for George Washington and the Presidency.",
-                "Analyze evidence and perspectives related to George Washington and the Presidency.",
-                "Develop a supported historical interpretation with an explicit limitation."
+                "Explain key developments in George Washington and the Presidency.",
+                "Compare credible historical evidence and multiple perspectives.",
+                "Create an evidence-supported argument that acknowledges limitations."
               ],
-              "inquiryQuestion": "How can we use historical evidence to investigate george washington and the presidency?",
-              "overview": "Planned historical inquiry on George Washington and the Presidency within The Early Republic.",
-              "assessmentPlan": "Source-based formative check, evidence-supported response, reflection and teacher-reviewed performance task.",
-              "sourceReferences": [],
+              "inquiryQuestion": "How did Washington shape the responsibilities and limits of the presidency?",
+              "overview": "George Washington became the first president under the Constitution in 1789. His administration helped establish executive departments, set practices for consultation with advisers, and confronted economic and diplomatic challenges.",
+              "assessmentPlan": "Original branching reading, interactive inquiry, formative feedback, written claim, optional homework, and end-of-unit assessment.",
+              "sourceReferences": [
+                {
+                  "title": "George Washington’s Mount Vernon — Government Resources",
+                  "url": "https://www.mountvernon.org/education/secondary-sources/government-resources"
+                },
+                {
+                  "title": "Mount Vernon: Inventing the Presidency, Episode 2",
+                  "url": "https://www.youtube.com/watch?v=vRctZ5XB1hA"
+                }
+              ],
               "relatedCourses": [],
               "canonicalUrl": "/lessons/curriculum/grade-5-early-american-history/george-washington-and-the-presidency/"
             },
@@ -554,18 +734,27 @@
               "id": "grade-5-early-american-history-57-02",
               "title": "The Emergence of Political Parties",
               "slug": "the-emergence-of-political-parties",
-              "status": "In Development",
+              "status": "Interactive Lesson",
               "unitId": "grade-5-early-american-history-unit-5-7",
               "unitNumber": "5.7",
               "objectives": [
-                "Identify relevant people, places, ideas and historical conditions for The Emergence of Political Parties.",
-                "Analyze evidence and perspectives related to The Emergence of Political Parties.",
-                "Develop a supported historical interpretation with an explicit limitation."
+                "Explain key developments in The Emergence of Political Parties.",
+                "Compare credible historical evidence and multiple perspectives.",
+                "Create an evidence-supported argument that acknowledges limitations."
               ],
-              "inquiryQuestion": "How can we use historical evidence to investigate the emergence of political parties?",
-              "overview": "Planned historical inquiry on The Emergence of Political Parties within The Early Republic.",
-              "assessmentPlan": "Source-based formative check, evidence-supported response, reflection and teacher-reviewed performance task.",
-              "sourceReferences": [],
+              "inquiryQuestion": "Why did political factions appear despite fears about division?",
+              "overview": "During the 1790s, leaders disagreed over national finance, the size and power of the federal government, constitutional interpretation, and relations with France and Britain. Alexander Hamilton and Thomas Jefferson became associated with competing political visions.",
+              "assessmentPlan": "Original branching reading, interactive inquiry, formative feedback, written claim, optional homework, and end-of-unit assessment.",
+              "sourceReferences": [
+                {
+                  "title": "George Washington’s Mount Vernon — Government Resources",
+                  "url": "https://www.mountvernon.org/education/secondary-sources/government-resources"
+                },
+                {
+                  "title": "Mount Vernon: Inventing the Presidency, Episode 2",
+                  "url": "https://www.youtube.com/watch?v=vRctZ5XB1hA"
+                }
+              ],
               "relatedCourses": [],
               "canonicalUrl": "/lessons/curriculum/grade-5-early-american-history/the-emergence-of-political-parties/"
             },
@@ -573,18 +762,27 @@
               "id": "grade-5-early-american-history-57-03",
               "title": "Challenges Facing the New Republic",
               "slug": "challenges-facing-the-new-republic",
-              "status": "In Development",
+              "status": "Interactive Lesson",
               "unitId": "grade-5-early-american-history-unit-5-7",
               "unitNumber": "5.7",
               "objectives": [
-                "Identify relevant people, places, ideas and historical conditions for Challenges Facing the New Republic.",
-                "Analyze evidence and perspectives related to Challenges Facing the New Republic.",
-                "Develop a supported historical interpretation with an explicit limitation."
+                "Explain key developments in Challenges Facing the New Republic.",
+                "Compare credible historical evidence and multiple perspectives.",
+                "Create an evidence-supported argument that acknowledges limitations."
               ],
-              "inquiryQuestion": "How can we use historical evidence to investigate challenges facing the new republic?",
-              "overview": "Planned historical inquiry on Challenges Facing the New Republic within The Early Republic.",
-              "assessmentPlan": "Source-based formative check, evidence-supported response, reflection and teacher-reviewed performance task.",
-              "sourceReferences": [],
+              "inquiryQuestion": "How did the young nation test its laws, finances, and foreign policy?",
+              "overview": "The 1790s government faced public debt, disputes over taxation, and fears about foreign conflict. The Whiskey Rebellion in western Pennsylvania tested federal authority over an excise tax, while Washington's administration pursued neutrality during war between Britain and France.",
+              "assessmentPlan": "Original branching reading, interactive inquiry, formative feedback, written claim, optional homework, and end-of-unit assessment.",
+              "sourceReferences": [
+                {
+                  "title": "George Washington’s Mount Vernon — Government Resources",
+                  "url": "https://www.mountvernon.org/education/secondary-sources/government-resources"
+                },
+                {
+                  "title": "Mount Vernon: Inventing the Presidency, Episode 2",
+                  "url": "https://www.youtube.com/watch?v=vRctZ5XB1hA"
+                }
+              ],
               "relatedCourses": [],
               "canonicalUrl": "/lessons/curriculum/grade-5-early-american-history/challenges-facing-the-new-republic/"
             }
