@@ -1,0 +1,743 @@
+{
+  "version": "20261109-grade5-full-v1",
+  "units": {
+    "5.1": {
+      "source": [
+        "Smithsonian NMAI Native Knowledge 360°",
+        "https://americanindian.si.edu/nk360/about/essential-understandings"
+      ],
+      "video": [
+        "Colonial Williamsburg: Indigenous Peoples Before the Thirteen Colonies",
+        "8Vra53Dl2gc",
+        0
+      ],
+      "trip": [
+        "Smithsonian National Museum of the American Indian",
+        "Heard Museum",
+        "First Americans Museum"
+      ],
+      "book": [
+        "Before Columbus: The Americas of 1491",
+        "We Are Still Here!"
+      ]
+    },
+    "5.2": {
+      "source": [
+        "Smithsonian National Museum of the American Indian",
+        "https://americanindian.si.edu/nk360/about/essential-understandings"
+      ],
+      "video": [
+        "Crash Course: The Columbian Exchange",
+        "HQPA5oNpfM4",
+        70
+      ],
+      "trip": [
+        "Smithsonian National Museum of American History",
+        "Florida Museum of Natural History",
+        "Autry Museum of the American West"
+      ],
+      "book": [
+        "1493 for Young People",
+        "Before Columbus: The Americas of 1491"
+      ]
+    },
+    "5.3": {
+      "source": [
+        "Historic Jamestowne — Educators",
+        "https://historicjamestowne.org/education/for-educators/"
+      ],
+      "video": [
+        "Jamestown Rediscovery: Educational Video Library",
+        "",
+        0,
+        "https://www.youtube.com/@JamestownRediscovery"
+      ],
+      "trip": [
+        "Historic St. Mary's City",
+        "Historic Jamestowne",
+        "Museum of the American Revolution"
+      ],
+      "book": [
+        "A Young People's History of the United States",
+        "The People Could Fly"
+      ]
+    },
+    "5.4": {
+      "source": [
+        "American Battlefield Trust — Animated War Map",
+        "https://www.battlefields.org/learn/maps/americas-wars-1754-1945-animated-map"
+      ],
+      "video": [
+        "American Battlefield Trust: The French and Indian War (chapter)",
+        "gyJGU8Meeps",
+        57
+      ],
+      "trip": [
+        "Fort Frederick State Park",
+        "Fort Necessity National Battlefield",
+        "Fort Ticonderoga"
+      ],
+      "book": [
+        "The French and Indian War",
+        "The War That Made America"
+      ]
+    },
+    "5.5": {
+      "source": [
+        "American Battlefield Trust — Student Video Questions",
+        "https://www.battlefields.org/student-video-questions"
+      ],
+      "video": [
+        "American Battlefield Trust: Revolutionary War in the North",
+        "qKAQ3mvhK-w",
+        0
+      ],
+      "trip": [
+        "Mount Vernon",
+        "Museum of the American Revolution",
+        "Boston National Historical Park"
+      ],
+      "book": [
+        "Chains",
+        "The American Revolution: A Visual History"
+      ]
+    },
+    "5.6": {
+      "source": [
+        "National Constitution Center — Constitution 101",
+        "https://constitutioncenter.org/education/constitution-101-curriculum"
+      ],
+      "video": [
+        "National Constitution Center: Constitution Walkthrough",
+        "XfS-bZ69p0E",
+        0
+      ],
+      "trip": [
+        "National Archives Museum",
+        "National Constitution Center",
+        "Independence National Historical Park"
+      ],
+      "book": [
+        "We the People: The Constitution of the United States",
+        "A More Perfect Union"
+      ]
+    },
+    "5.7": {
+      "source": [
+        "George Washington’s Mount Vernon — Government Resources",
+        "https://www.mountvernon.org/education/secondary-sources/government-resources"
+      ],
+      "video": [
+        "Mount Vernon: Inventing the Presidency",
+        "",
+        0,
+        "https://www.mountvernon.org/education/videos/video-series-inventing-presidency"
+      ],
+      "trip": [
+        "Mount Vernon",
+        "National Constitution Center",
+        "Hamilton Grange National Memorial"
+      ],
+      "book": [
+        "George Washington's World",
+        "The First Four Presidents"
+      ]
+    }
+  },
+  "lessons": {
+    "indigenous-nations-cultures-and-communities": {
+      "title": "Indigenous Nations, Cultures, and Communities",
+      "unit": "5.1",
+      "unitTitle": "Indigenous North America",
+      "seq": 2,
+      "total": 3,
+      "essential": "How can comparing particular nations challenge stereotypes about Indigenous North America?",
+      "paragraphs": [
+        "The Haudenosaunee Confederacy brought distinct nations together in a political alliance, while Pueblo communities of the Southwest developed other institutions and practices. Neither example stands for all Indigenous peoples. Before colonization, North America contained many languages, governments, spiritual traditions, and trade networks.",
+        "A historical account should name a community, its place, its time period, and its source. A photograph of a later powwow, for example, can offer information about a living tradition but cannot be assumed to depict every nation centuries earlier.",
+        "Indigenous communities remain present today, making contemporary tribal perspectives indispensable to understanding their histories."
+      ],
+      "activity": "Nation-specific comparison",
+      "task": "Compare two nation-specific records and identify one meaningful similarity and one difference.",
+      "options": [
+        "One example describes every Indigenous nation.",
+        "Communities varied across regions and periods.",
+        "A single image can prove all pre-contact customs."
+      ],
+      "correct": 1,
+      "vocabulary": [
+        "nation",
+        "confederacy",
+        "oral tradition",
+        "community"
+      ]
+    },
+    "land-resources-and-systems-of-governance": {
+      "title": "Land, Resources, and Systems of Governance",
+      "unit": "5.1",
+      "unitTitle": "Indigenous North America",
+      "seq": 3,
+      "total": 3,
+      "essential": "How did communities make decisions about resources and responsibilities?",
+      "paragraphs": [
+        "Indigenous nations organized relationships to land and resources through systems of knowledge, responsibility, and governance. Some agricultural communities built irrigation or food-storage systems, while other nations used seasonal patterns for fishing, farming, hunting, or exchange.",
+        "The Haudenosaunee Great Law of Peace illustrates an important political tradition, but it should not be presented as the government of every Indigenous people. To understand governance, investigate who could participate, how decisions were made, and what obligations accompanied power.",
+        "A map can show access to waterways and resources. A nation's own account is needed to understand the meaning of its decision-making traditions."
+      ],
+      "activity": "Resource council",
+      "task": "Decide how a fictional community might share a limited resource, then compare your reasoning with nation-specific evidence.",
+      "options": [
+        "Environment entirely determined one universal Native government.",
+        "Political decisions and environmental knowledge interacted in diverse ways.",
+        "No community had rules for shared resources."
+      ],
+      "correct": 1,
+      "vocabulary": [
+        "governance",
+        "resource",
+        "consensus",
+        "territory"
+      ]
+    },
+    "why-did-europeans-cross-the-atlantic": {
+      "title": "Why Did Europeans Cross the Atlantic?",
+      "unit": "5.2",
+      "unitTitle": "Exploration and Encounters",
+      "seq": 1,
+      "total": 3,
+      "essential": "How can economic, political, and religious motives explain Atlantic exploration?",
+      "paragraphs": [
+        "In the fifteenth and sixteenth centuries, European rulers and merchants sought profitable trade, power, and new routes to goods in Asia and Africa. Navigational techniques, ships, and maritime knowledge developed through exchanges across cultures, enabling longer voyages.",
+        "Spain sponsored Christopher Columbus's 1492 Atlantic voyage. He reached Caribbean islands, not an uninhabited continent; Indigenous peoples already lived throughout the Americas. Later expeditions led to colonization, violence, forced labor, and major cultural and environmental change.",
+        "The priorities of sponsoring courts differed from those of sailors and the Indigenous communities whose homelands were affected."
+      ],
+      "activity": "Motive investigation",
+      "task": "Rank several possible motives using the viewpoint of a royal sponsor, sailor, and Indigenous community.",
+      "options": [
+        "Columbus discovered a continent without people.",
+        "European voyages occurred in a world of existing societies and competing interests.",
+        "All travelers had exactly the same motive."
+      ],
+      "correct": 1,
+      "vocabulary": [
+        "trade route",
+        "navigation",
+        "sponsorship",
+        "colonization"
+      ]
+    },
+    "first-encounters-and-competing-perspectives": {
+      "title": "First Encounters and Competing Perspectives",
+      "unit": "5.2",
+      "unitTitle": "Exploration and Encounters",
+      "seq": 2,
+      "total": 3,
+      "essential": "How can different accounts of first encounters tell conflicting stories?",
+      "paragraphs": [
+        "When European arrivals met Indigenous communities, each side interpreted unfamiliar people and practices through its own experiences. Some encounters involved exchange and diplomacy; others included coercion, misunderstanding, violence, and resistance.",
+        "Accounts written by European voyagers often served patrons at home. Indigenous testimony, oral traditions, archaeology, and surviving objects can complicate those descriptions. Scholars ask who created a source, why it was made, and whose voice is not represented.",
+        "A journal that celebrates a voyage may omit the costs faced by people already living in the region."
+      ],
+      "activity": "Perspective switch",
+      "task": "Compare what a sponsor, Indigenous leader, and sailor could each emphasize about the same meeting.",
+      "options": [
+        "One European journal explains everyone's experience.",
+        "Different sources reveal interests and omissions that must be investigated.",
+        "The first encounter always had a peaceful outcome."
+      ],
+      "correct": 1,
+      "vocabulary": [
+        "encounter",
+        "perspective",
+        "primary source",
+        "bias"
+      ]
+    },
+    "the-columbian-exchange-and-its-consequences": {
+      "title": "The Columbian Exchange and Its Consequences",
+      "unit": "5.2",
+      "unitTitle": "Exploration and Encounters",
+      "seq": 3,
+      "total": 3,
+      "essential": "What changed when living things, ideas, and diseases crossed the Atlantic?",
+      "paragraphs": [
+        "After 1492, sustained contact connected plants, animals, pathogens, and peoples across the Atlantic. American crops such as maize and potatoes spread to other continents; horses, cattle, and other organisms moved into the Americas.",
+        "Smallpox and other diseases devastated many Indigenous populations, especially where people lacked previous exposure. Colonization also expanded slavery and forced labor. The consequences varied across regions and populations, and no simple 'benefit' score can capture human losses.",
+        "Historians distinguish an exchange of organisms from the political and coercive systems through which movement occurred."
+      ],
+      "activity": "Exchange impact map",
+      "task": "Sort examples by direction of movement and consider who gained, who suffered, and what evidence supports each claim.",
+      "options": [
+        "The exchange affected everyone equally and positively.",
+        "Movement transformed diets and environments while causing severe unequal harms.",
+        "Disease had no role in the consequences."
+      ],
+      "correct": 1,
+      "vocabulary": [
+        "pathogen",
+        "exchange",
+        "ecology",
+        "consequence"
+      ]
+    },
+    "life-in-the-thirteen-colonies": {
+      "title": "Life in the Thirteen Colonies",
+      "unit": "5.3",
+      "unitTitle": "Colonial America",
+      "seq": 1,
+      "total": 4,
+      "essential": "How did geography and power shape daily life in Britain's mainland colonies?",
+      "paragraphs": [
+        "The thirteen British colonies developed different economies and communities along the Atlantic coast. Chesapeake tobacco production relied increasingly on enslaved African labor, while New England had many towns, farms, and maritime businesses.",
+        "Colonial society included Indigenous nations, European settlers, free and enslaved Africans, and people of mixed backgrounds. Their opportunities were unequal, and colonial laws often protected property and power at the expense of others.",
+        "Comparing tax records, archaeological finds, letters, and laws can reveal both everyday routines and structures of inequality."
+      ],
+      "activity": "Colony comparison",
+      "task": "Compare two colonial regions using economic activity, geography, and whose labor sustained them.",
+      "options": [
+        "Every colony had an identical economy.",
+        "Regional differences coexisted with colonial hierarchies and forced labor.",
+        "Everyone in colonial society held equal rights."
+      ],
+      "correct": 1,
+      "vocabulary": [
+        "colony",
+        "region",
+        "subsistence",
+        "inequality"
+      ]
+    },
+    "colonial-economies-labor-and-enslavement": {
+      "title": "Colonial Economies, Labor, and Enslavement",
+      "unit": "5.3",
+      "unitTitle": "Colonial America",
+      "seq": 2,
+      "total": 4,
+      "essential": "How did labor systems create wealth and inequality in colonial America?",
+      "paragraphs": [
+        "Plantation economies in the Chesapeake and the Lower South produced crops for Atlantic markets. Enslaved Africans and African Americans supplied labor through coercion, with laws increasingly making slavery hereditary and racialized.",
+        "Indentured servants also worked under contracts for limited terms, but their legal conditions differed fundamentally from lifelong hereditary enslavement. Enslaved people built families, communities, and traditions and resisted oppression in many ways.",
+        "To understand colonial profits, historians must consider the people who produced wealth, who controlled it, and whose voices survive in the record."
+      ],
+      "activity": "Labor ledger inquiry",
+      "task": "Examine a hypothetical ledger and annotate which costs and human experiences it hides.",
+      "options": [
+        "Enslavement was an ordinary paid employment contract.",
+        "Chattel slavery was coercive and often hereditary, distinct from indentured labor.",
+        "Colonial wealth was shared equally among workers."
+      ],
+      "correct": 1,
+      "vocabulary": [
+        "enslavement",
+        "indenture",
+        "plantation",
+        "resistance"
+      ]
+    },
+    "religion-identity-and-colonial-society": {
+      "title": "Religion, Identity, and Colonial Society",
+      "unit": "5.3",
+      "unitTitle": "Colonial America",
+      "seq": 3,
+      "total": 4,
+      "essential": "How did religious beliefs shape both opportunity and exclusion?",
+      "paragraphs": [
+        "Colonial communities included varied Protestant denominations, Catholics, Jews, Indigenous faith traditions, and African religious practices. Some colonies imposed established churches and limited religious freedom, while others allowed broader forms of worship.",
+        "Maryland's 1649 Act Concerning Religion protected certain Trinitarian Christians but did not establish modern religious equality. Religious identity influenced political participation, schooling, marriage, and social belonging.",
+        "The beliefs people practiced were not identical to the rights their governments permitted. Primary laws should be read with attention to exclusions."
+      ],
+      "activity": "Tolerance tribunal",
+      "task": "Review a simplified historical policy and identify whom it protected and whom it excluded.",
+      "options": [
+        "Colonial religious freedom was universal.",
+        "Rules could protect some groups while excluding others.",
+        "Religion had no influence on colonial politics."
+      ],
+      "correct": 1,
+      "vocabulary": [
+        "toleration",
+        "established church",
+        "identity",
+        "exclusion"
+      ]
+    },
+    "colonial-maryland-and-the-chesapeake": {
+      "title": "Colonial Maryland and the Chesapeake",
+      "unit": "5.3",
+      "unitTitle": "Colonial America",
+      "seq": 4,
+      "total": 4,
+      "essential": "What makes Maryland's colonial history both local and Atlantic?",
+      "paragraphs": [
+        "English Maryland was founded as a proprietary colony in 1634, but the region was already home to Indigenous peoples including the Piscataway. Settlement and land expansion transformed relationships, power, and access to resources.",
+        "Tobacco tied Maryland to Atlantic markets and increased reliance on enslaved African labor. By the eighteenth century, laws hardened racial slavery. The Chesapeake landscape and waterways supported trade but also shaped conflict over land and labor.",
+        "Maryland history can be investigated through archaeological sites, colonial records, Indigenous accounts, and the lives of people whose names rarely appear in official documents."
+      ],
+      "activity": "Chesapeake evidence route",
+      "task": "Trace a tobacco shipment and identify whose labor, land, and decisions made the trade possible.",
+      "options": [
+        "Maryland began on empty land.",
+        "Colonial settlement involved already-inhabited homelands and unequal power.",
+        "Tobacco played no part in Maryland's economy."
+      ],
+      "correct": 1,
+      "vocabulary": [
+        "proprietary colony",
+        "Chesapeake",
+        "tobacco",
+        "Piscataway"
+      ]
+    },
+    "competing-empires-in-north-america": {
+      "title": "Competing Empires in North America",
+      "unit": "5.4",
+      "unitTitle": "Imperial Conflict",
+      "seq": 1,
+      "total": 3,
+      "essential": "Why did rival empires and Native nations contest North America?",
+      "paragraphs": [
+        "Britain, France, and Spain sought influence, trade, and territory in North America. Their maps and claims often ignored the political authority and homelands of Indigenous nations.",
+        "Native nations pursued diplomacy, trade, alliances, and military strategies to protect their interests. Alliances changed in response to local circumstances, rather than following a single European plan. The Ohio Valley became a major area of competition.",
+        "Maps created by imperial officials reveal ambitions but should not be mistaken for uncontested control on the ground."
+      ],
+      "activity": "Alliance map lab",
+      "task": "Read an imperial claim map and compare it with evidence of Indigenous political power.",
+      "options": [
+        "European maps proved complete control of mapped land.",
+        "Maps often recorded claims rather than the authority people exercised locally.",
+        "Indigenous nations had no role in diplomacy."
+      ],
+      "correct": 1,
+      "vocabulary": [
+        "empire",
+        "alliance",
+        "territorial claim",
+        "diplomacy"
+      ]
+    },
+    "the-french-and-indian-war": {
+      "title": "The French and Indian War",
+      "unit": "5.4",
+      "unitTitle": "Imperial Conflict",
+      "seq": 2,
+      "total": 3,
+      "essential": "How did a regional struggle become part of a global war?",
+      "paragraphs": [
+        "The French and Indian War began in North America in 1754 amid competing claims in the Ohio Valley and became part of the wider Seven Years' War. British and French forces fought alongside Indigenous allies whose strategic priorities differed.",
+        "The 1763 Treaty of Paris ended the war between the major European powers, with Britain gaining major territories from France. Britain's debt and attempts to manage western settlement deepened tensions with colonists and Indigenous nations.",
+        "Victory did not settle Native nations' concerns about lands and sovereignty, and armed resistance continued after 1763."
+      ],
+      "activity": "Campaign decision map",
+      "task": "Place the war's major turning points on a timeline and explain why 1763 did not resolve every conflict.",
+      "options": [
+        "The war affected only European soldiers.",
+        "Indigenous nations shaped strategy and faced lasting consequences.",
+        "The 1763 treaty ended every conflict in the region."
+      ],
+      "correct": 1,
+      "vocabulary": [
+        "Seven Years’ War",
+        "Ohio Valley",
+        "treaty",
+        "sovereignty"
+      ]
+    },
+    "taxes-representation-and-colonial-protest": {
+      "title": "Taxes, Representation, and Colonial Protest",
+      "unit": "5.4",
+      "unitTitle": "Imperial Conflict",
+      "seq": 3,
+      "total": 3,
+      "essential": "Why did new British policies provoke colonial resistance?",
+      "paragraphs": [
+        "After 1763, Britain sought revenue and tighter imperial administration. The Stamp Act of 1765 taxed certain printed materials, and later policies increased disputes over Parliament's authority.",
+        "Colonists organized petitions, boycotts, protests, and other resistance. The slogan 'no taxation without representation' challenged parliamentary taxation without elected colonial representatives at Westminster, although voting and political participation in the colonies were themselves limited.",
+        "Different colonists disagreed about reform, resistance, and loyalty. Analyzing a tax notice alongside a protest broadside reveals competing purposes."
+      ],
+      "activity": "Tax policy council",
+      "task": "Choose a tax-response strategy and justify it from different historical positions.",
+      "options": [
+        "All colonists agreed on independence in 1765.",
+        "Colonists debated policy while facing unequal representation at home.",
+        "The Stamp Act was passed after independence."
+      ],
+      "correct": 1,
+      "vocabulary": [
+        "Stamp Act",
+        "boycott",
+        "representation",
+        "petition"
+      ]
+    },
+    "why-did-the-colonies-declare-independence": {
+      "title": "Why Did the Colonies Declare Independence?",
+      "unit": "5.5",
+      "unitTitle": "The American Revolution",
+      "seq": 1,
+      "total": 4,
+      "essential": "How did a political dispute become a declaration of separation?",
+      "paragraphs": [
+        "Conflict escalated after years of disputes over taxation, representation, parliamentary power, and British military action. Fighting began at Lexington and Concord in April 1775, more than a year before independence was declared.",
+        "The Second Continental Congress adopted the Declaration of Independence on July 4, 1776. Its authors asserted natural rights and listed grievances, but the ideals of equality coexisted with slavery, women's exclusion from formal political power, and violations of Native sovereignty.",
+        "An effective historical explanation distinguishes the Declaration's political arguments from the reality of rights at the time."
+      ],
+      "activity": "Grievance evidence board",
+      "task": "Match a grievance to a constitutional idea and ask who was excluded from its promises.",
+      "options": [
+        "Independence was declared before fighting began.",
+        "The Declaration followed escalating conflict and advanced contested ideals.",
+        "The Declaration immediately ended slavery."
+      ],
+      "correct": 1,
+      "vocabulary": [
+        "grievance",
+        "independence",
+        "natural rights",
+        "Congress"
+      ]
+    },
+    "turning-points-of-the-revolutionary-war": {
+      "title": "Turning Points of the Revolutionary War",
+      "unit": "5.5",
+      "unitTitle": "The American Revolution",
+      "seq": 2,
+      "total": 4,
+      "essential": "Which developments changed the war's prospects and why?",
+      "paragraphs": [
+        "The American Revolution included battles, diplomacy, logistics, and civilian hardship. Victories at Trenton and Princeton in late 1776 and early 1777 helped restore morale, while the American victory at Saratoga in 1777 strengthened prospects for a French alliance.",
+        "France entered the war as an American ally in 1778, expanding the conflict. The combined American and French victory at Yorktown in 1781 effectively ended major fighting, though a peace treaty followed in 1783.",
+        "A battlefield map explains movements but cannot alone show civilian experiences, enslaved people's decisions, or diplomatic negotiations."
+      ],
+      "activity": "Turning-point ranking",
+      "task": "Rank Saratoga, the French alliance, and Yorktown by the kind of change each produced.",
+      "options": [
+        "Yorktown was the peace treaty signed in 1783.",
+        "Saratoga, foreign support, and Yorktown affected the war in different ways.",
+        "France never supported the Americans."
+      ],
+      "correct": 1,
+      "vocabulary": [
+        "alliance",
+        "turning point",
+        "Saratoga",
+        "Yorktown"
+      ]
+    },
+    "patriots-loyalists-women-and-black-americans": {
+      "title": "Patriots, Loyalists, Women, and Black Americans",
+      "unit": "5.5",
+      "unitTitle": "The American Revolution",
+      "seq": 3,
+      "total": 4,
+      "essential": "How did different people experience a revolution about liberty?",
+      "paragraphs": [
+        "Not all colonists supported independence. Patriots sought separation, Loyalists remained attached to the Crown, and many others made decisions shaped by family, religion, survival, and local circumstances.",
+        "Women maintained households and supplied armies; some organized political action. Enslaved African Americans pursued freedom through varied paths, including service or escape to British or Patriot lines. Native nations weighed threats to sovereignty and often faced difficult choices as armies crossed their lands.",
+        "The word 'American' did not describe one uniform perspective. Family letters and military records may offer voices but must be read for their limits."
+      ],
+      "activity": "Perspective roundtable",
+      "task": "Compare three historical positions, identifying each person's risks and constraints without treating one as typical of all.",
+      "options": [
+        "Every resident supported the Patriot cause.",
+        "Political commitments and survival strategies differed widely.",
+        "Black Americans played no role in the conflict."
+      ],
+      "correct": 1,
+      "vocabulary": [
+        "Patriot",
+        "Loyalist",
+        "agency",
+        "emancipation"
+      ]
+    },
+    "did-the-revolution-deliver-liberty-for-everyone": {
+      "title": "Did the Revolution Deliver Liberty for Everyone?",
+      "unit": "5.5",
+      "unitTitle": "The American Revolution",
+      "seq": 4,
+      "total": 4,
+      "essential": "How did revolutionary ideals contrast with people's lived rights?",
+      "paragraphs": [
+        "The Declaration announced an ideal of equality, but slavery continued, women remained excluded from voting in most states, and Indigenous sovereignty was challenged by expanding settlement.",
+        "Some northern states began gradual emancipation, and individual people petitioned for rights and freedom. However, changes varied by place, and many gains were delayed or denied. Freedom's meaning differed for property-owning men, enslaved people, women, and Native nations.",
+        "Historians can judge revolutionary promises by comparing political texts with laws, petitions, and the experiences of those affected."
+      ],
+      "activity": "Liberty audit",
+      "task": "Compare a revolutionary promise against two concrete historical outcomes and write a qualified verdict.",
+      "options": [
+        "The Declaration immediately gave equal rights to everyone.",
+        "Ideals helped inspire demands but did not eliminate exclusion.",
+        "Every state abolished slavery in 1776."
+      ],
+      "correct": 1,
+      "vocabulary": [
+        "liberty",
+        "emancipation",
+        "citizenship",
+        "exclusion"
+      ]
+    },
+    "america-s-first-national-government": {
+      "title": "America's First National Government",
+      "unit": "5.6",
+      "unitTitle": "Creating a Republic",
+      "seq": 1,
+      "total": 3,
+      "essential": "Why did the Articles of Confederation create both possibilities and problems?",
+      "paragraphs": [
+        "The Articles of Confederation were adopted by Congress in 1777 and ratified in 1781. They established a union of states with a national Congress but no separate national executive or federal judicial branch comparable to those created later.",
+        "Congress could conduct diplomacy and manage some national matters, but it lacked power to levy national taxes directly and faced difficulties raising funds and regulating commerce. The Northwest Ordinance of 1787 established an important process for governing territories, while also disregarding Indigenous claims to land.",
+        "The system reflected fears of concentrated power after the experience of British rule; its limitations spurred debate about reform."
+      ],
+      "activity": "Confederation challenge",
+      "task": "Run a simulated Congress with limited taxing power and discuss trade-offs between state autonomy and national coordination.",
+      "options": [
+        "The Articles created the presidency as it exists today.",
+        "The Articles produced a weak center amid continuing disputes over authority.",
+        "The Articles gave Congress unlimited taxing powers."
+      ],
+      "correct": 1,
+      "vocabulary": [
+        "confederation",
+        "ratification",
+        "ordinance",
+        "taxation"
+      ]
+    },
+    "debating-the-constitution": {
+      "title": "Debating the Constitution",
+      "unit": "5.6",
+      "unitTitle": "Creating a Republic",
+      "seq": 2,
+      "total": 3,
+      "essential": "How did compromise shape the Constitution, and who was excluded?",
+      "paragraphs": [
+        "Delegates met in Philadelphia in 1787 to revise the national system and instead drafted a new Constitution. They argued over representation, federal power, the executive, and the relationship between states and the national government.",
+        "The Great Compromise created a House based on population and a Senate with equal state representation. The Three-Fifths Compromise counted three-fifths of enslaved people for apportionment and taxation, strengthening the political power of slaveholding states without granting enslaved people rights.",
+        "Ratification debates divided Federalists and Anti-Federalists. The Bill of Rights was later proposed partly in response to demands for explicit protections."
+      ],
+      "activity": "Constitution convention",
+      "task": "Negotiate a representation plan and write a brief argument about the consequences and exclusions of a compromise.",
+      "options": [
+        "The Constitution was approved without disagreement.",
+        "Delegates compromised, but some compromises entrenched inequality.",
+        "Enslaved people gained voting rights at the convention."
+      ],
+      "correct": 1,
+      "vocabulary": [
+        "federalism",
+        "ratification",
+        "compromise",
+        "representation"
+      ]
+    },
+    "the-bill-of-rights-and-individual-liberty": {
+      "title": "The Bill of Rights and Individual Liberty",
+      "unit": "5.6",
+      "unitTitle": "Creating a Republic",
+      "seq": 3,
+      "total": 3,
+      "essential": "What did the Bill of Rights protect, and whom did protections reach?",
+      "paragraphs": [
+        "The first ten amendments were ratified in 1791. They recognized protections including religious exercise, speech, press, assembly, petition, and rights connected to criminal procedure and federal power.",
+        "The rights were shaped by eighteenth-century debates about government and freedom. Their interpretation changed over time, and early protections did not ensure equal political or civil rights for enslaved people, women, and many others.",
+        "Reading an amendment carefully is different from assuming every modern constitutional debate has an easy or identical historical answer."
+      ],
+      "activity": "Rights-in-context cases",
+      "task": "Match a hypothetical civic problem to an amendment and explain what else you would need to know.",
+      "options": [
+        "The Bill of Rights was ratified in 1776.",
+        "The first ten amendments were ratified in 1791.",
+        "Rights were uniformly enforced for all residents in 1791."
+      ],
+      "correct": 1,
+      "vocabulary": [
+        "amendment",
+        "ratification",
+        "petition",
+        "due process"
+      ]
+    },
+    "george-washington-and-the-presidency": {
+      "title": "George Washington and the Presidency",
+      "unit": "5.7",
+      "unitTitle": "The Early Republic",
+      "seq": 1,
+      "total": 3,
+      "essential": "How did Washington shape the responsibilities and limits of the presidency?",
+      "paragraphs": [
+        "George Washington became the first president under the Constitution in 1789. His administration helped establish executive departments, set practices for consultation with advisers, and confronted economic and diplomatic challenges.",
+        "Washington's decision to leave office after two terms became a precedent, not an original constitutional term limit. His presidency existed alongside slavery and policies affecting Indigenous nations, so a complete evaluation includes both institutional precedents and their human consequences.",
+        "Later leaders and historians debated which precedents should be followed and which choices deserved criticism."
+      ],
+      "activity": "Presidential precedent lab",
+      "task": "Distinguish a constitutional requirement from a precedent Washington established, then assess its value.",
+      "options": [
+        "The Constitution originally required presidents to serve exactly two terms.",
+        "Washington established practices, including voluntary departure, that influenced successors.",
+        "Washington served as president before the Constitution was ratified."
+      ],
+      "correct": 1,
+      "vocabulary": [
+        "precedent",
+        "Cabinet",
+        "executive",
+        "neutrality"
+      ]
+    },
+    "the-emergence-of-political-parties": {
+      "title": "The Emergence of Political Parties",
+      "unit": "5.7",
+      "unitTitle": "The Early Republic",
+      "seq": 2,
+      "total": 3,
+      "essential": "Why did political factions appear despite fears about division?",
+      "paragraphs": [
+        "During the 1790s, leaders disagreed over national finance, the size and power of the federal government, constitutional interpretation, and relations with France and Britain. Alexander Hamilton and Thomas Jefferson became associated with competing political visions.",
+        "Groups that became known as Federalists and Democratic-Republicans developed through newspaper debate, organized supporters, and political networks. These were not identical to today's political parties. The disputes revealed competing ideas about republican government.",
+        "Because partisan newspapers had political purposes, readers should compare claims with other records instead of assuming that every headline was neutral."
+      ],
+      "activity": "Newspaper bias detective",
+      "task": "Compare two invented editorial positions against a factual source and identify persuasive wording.",
+      "options": [
+        "The 1790s parties were exactly the same as today's parties.",
+        "Early factions formed around real disagreements over policy and power.",
+        "There were no political disagreements after ratification."
+      ],
+      "correct": 1,
+      "vocabulary": [
+        "faction",
+        "Federalist",
+        "Democratic-Republican",
+        "partisan"
+      ]
+    },
+    "challenges-facing-the-new-republic": {
+      "title": "Challenges Facing the New Republic",
+      "unit": "5.7",
+      "unitTitle": "The Early Republic",
+      "seq": 3,
+      "total": 3,
+      "essential": "How did the young nation test its laws, finances, and foreign policy?",
+      "paragraphs": [
+        "The 1790s government faced public debt, disputes over taxation, and fears about foreign conflict. The Whiskey Rebellion in western Pennsylvania tested federal authority over an excise tax, while Washington's administration pursued neutrality during war between Britain and France.",
+        "The new republic also confronted continuing conflict over Indigenous lands and treaties. These issues involved nations with their own political authority and interests, not merely a backdrop to federal expansion.",
+        "A balanced account connects the actions of national leaders with farmers, traders, Indigenous nations, and people whose rights remained limited."
+      ],
+      "activity": "Crisis decision council",
+      "task": "Choose among three possible government responses to a crisis and evaluate costs, legality, and whose voices were missing.",
+      "options": [
+        "The early republic had no domestic or foreign challenges.",
+        "Federal authority, fiscal policy, diplomacy, and Indigenous sovereignty were contested.",
+        "The Whiskey Rebellion was a dispute about the 1776 Declaration."
+      ],
+      "correct": 1,
+      "vocabulary": [
+        "excise tax",
+        "neutrality",
+        "sovereignty",
+        "rebellion"
+      ]
+    }
+  }
+}
