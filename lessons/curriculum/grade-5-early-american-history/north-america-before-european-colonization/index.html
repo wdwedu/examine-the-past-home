@@ -107,6 +107,35 @@ body.etp-curriculum .lesson-eyebrow{line-height:1.5!important;letter-spacing:.05
 body.etp-curriculum .lesson-progress:focus-within{outline-offset:2px}
 body.etp-curriculum .lesson-panel:target{scroll-margin-top:clamp(160px,18vw,230px)!important}
 @media(max-width:620px){body.etp-curriculum .lesson-progress .lesson-toolbar-main{gap:7px!important}body.etp-curriculum .lesson-progress .lesson-meter{min-width:0!important;flex-basis:100%!important}body.etp-curriculum .lesson-progress .lesson-timer-controls{gap:5px!important}}
+
+/* Grade 5 first-lesson parity — a compact toolbar, practice credits and accessible timer. */
+body.etp-curriculum .lesson-progress{padding:8px 10px!important;margin:12px 0 18px!important}
+body.etp-curriculum .lesson-toolbar-main{gap:7px!important}
+body.etp-curriculum .lesson-meter strong{font-size:12px!important}
+body.etp-curriculum .lesson-timer-controls button,body.etp-curriculum .lesson-timer-controls select{font-size:12px!important;min-height:31px!important;padding:5px 7px!important}
+body.etp-curriculum .lesson-meter-track{height:9px!important}
+body.etp-curriculum .lesson-jumps{display:grid!important;grid-template-columns:repeat(8,minmax(0,1fr))!important;gap:3px!important;overflow:visible!important;padding-top:6px!important;margin-top:6px!important}
+body.etp-curriculum .lesson-jumps a{font:700 clamp(10px,1.1vw,13px) Georgia,serif!important;min-width:0!important;text-align:center!important;padding:6px 2px!important;white-space:nowrap!important}
+body.etp-curriculum .lesson-credit-row{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:5px 11px;margin-top:6px;padding-top:7px;border-top:1px solid #31513d;font:700 12px Georgia,serif}
+body.etp-curriculum .lesson-credit-row>span:first-child{color:#d1f3d6}
+body.etp-curriculum #lesson-credit-count{font:700 17px Georgia,serif;color:#fff200}
+body.etp-curriculum #lesson-credit-review{color:#e8d6bc}
+body.etp-curriculum #lesson-credit-detail{font:700 12px Georgia,serif;cursor:pointer;background:transparent;color:#bcff91;border:1px solid #4b7852;border-radius:6px;padding:4px 7px}
+body.etp-curriculum #lesson-credit-breakdown{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;padding-top:8px}
+body.etp-curriculum #lesson-credit-breakdown[hidden]{display:none!important}
+body.etp-curriculum #lesson-credit-breakdown span{background:#0a2118;border:1px solid #456652;padding:7px;border-radius:6px;color:#cfe9d0;font:700 12px Georgia,serif}
+body.etp-curriculum #lesson-credit-breakdown span[data-state="earned"]{color:#baff91;border-color:#8bba70}
+body.etp-curriculum #lesson-credit-breakdown span[data-state="retry"]{color:#ffe0a9;border-color:#b38c4c}
+body.etp-curriculum #lesson-credit-breakdown p{grid-column:1/-1;margin:0;font:italic 12px Georgia,serif;color:#e3e9df}
+.lesson-visually-hidden{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+body.etp-curriculum textarea.lesson-writing{background:#fff!important;color:#131e17!important;-webkit-text-fill-color:#131e17!important;font:16px/1.6 Georgia,serif!important;padding:16px!important;border:2px solid #a8b6a9!important;min-height:125px!important}
+body.etp-curriculum textarea.lesson-writing::placeholder{color:#7e8680!important;-webkit-text-fill-color:#7e8680!important;opacity:1!important}
+.lesson-countdown-overlay{position:fixed;inset:0;z-index:130;pointer-events:none;visibility:hidden;opacity:0}
+.lesson-countdown-overlay.lesson-alarm-active{visibility:visible;animation:lesson-soft-alarm 1s ease-in-out infinite}
+@keyframes lesson-soft-alarm{0%,100%{opacity:.04;box-shadow:inset 0 0 0 12px #db3434}50%{opacity:.32;box-shadow:inset 0 0 0 16px #d33838,inset 0 0 90px #ae2222}}
+@media(max-width:760px){body.etp-curriculum .lesson-jumps{grid-template-columns:repeat(4,minmax(0,1fr))!important}body.etp-curriculum #lesson-credit-breakdown{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:420px){body.etp-curriculum .lesson-credit-row{justify-content:flex-start!important}}
+@media(prefers-reduced-motion:reduce){.lesson-countdown-overlay.lesson-alarm-active{visibility:hidden!important;animation:none!important;opacity:0!important}}
 </style>
 <script defer src="../../../../app-assets/install.js?v=20261108-native-menu-v17"></script></head>
 <body class="etp-curriculum">
@@ -118,7 +147,7 @@ body.etp-curriculum .lesson-panel:target{scroll-margin-top:clamp(160px,18vw,230p
 <p>Before European colonization, many different Indigenous nations built communities, made decisions, traded, developed technologies, and cared for their homelands. How can evidence help us see this complex history?</p>
 <div class="lesson-tags"><span>Interactive inquiry</span><span>45 / 60 / 90-minute pacing options</span><span>Solo, partners, or groups</span><span>Evidence → explanation → argument</span></div>
 </header>
-<nav class="lesson-progress" aria-label="Lesson navigation and optional timer"><div class="lesson-toolbar-main"><div class="lesson-meter"><strong>Lesson progress</strong><div class="lesson-meter-track" role="progressbar" aria-label="Reading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="lesson-meter-fill"></span></div><output id="lesson-meter-number">0%</output></div><div class="lesson-timer-controls"><label for="lesson-time">Timer</label><select id="lesson-time" aria-label="Choose optional timer duration"></select><output id="lesson-clock" role="timer">05:00</output><button id="lesson-start" type="button">Start</button><button id="lesson-reset" type="button">Reset</button><button id="lesson-sound" type="button" aria-pressed="true">Sound: On</button></div></div><p class="lesson-status" id="lesson-time-status" aria-live="polite">Optional countdown · Suggested activity times appear in each section.</p><div class="lesson-jumps"><a href="#plan">Plan</a><a href="#launch">Start</a><a href="#discover">Discover</a><a href="#investigate">Investigate</a><a href="#apply">Apply</a><a href="#assess">Check</a><a href="#options">Options</a><a href="#evidence">Sources</a></div></nav>
+<nav class="lesson-progress" aria-label="Lesson navigation and optional timer"><div class="lesson-toolbar-main"><div class="lesson-meter"><strong>Lesson progress</strong><div class="lesson-meter-track" role="progressbar" aria-label="Reading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="lesson-meter-fill"></span></div><output id="lesson-meter-number">0%</output></div><div class="lesson-timer-controls"><label for="lesson-time">Timer</label><select id="lesson-time" aria-label="Choose optional timer duration"></select><output id="lesson-clock" role="timer">05:00</output><button id="lesson-start" type="button">Start</button><button id="lesson-reset" type="button">Reset</button><button id="lesson-sound" type="button" aria-pressed="true">Sound: On</button></div></div><p class="lesson-status lesson-visually-hidden" id="lesson-time-status" aria-live="polite"></p><div class="lesson-jumps"><a href="#plan">Plan</a><a href="#launch">Start</a><a href="#discover">Read</a><a href="#investigate">Lab</a><a href="#apply">Write</a><a href="#assess">Check</a><a href="#options">Extras</a><a href="#evidence">Sources</a></div><div class="lesson-credit-row"><span>HISTORY CREDITS</span><strong id="lesson-credit-count">0 / 5</strong><span id="lesson-credit-review">0 need work</span><button type="button" id="lesson-credit-detail" aria-expanded="false" aria-controls="lesson-credit-breakdown">Details ▾</button></div><div id="lesson-credit-breakdown" hidden><span>1 · Diversity</span><span>2 · Geography</span><span>3 · Native voices</span><span>4 · Claim</span><span>5 · Sources</span><p>Practice credits only. These do not count toward your unit grade.</p></div></nav><div class="lesson-countdown-overlay" aria-hidden="true"></div>
 <section id="plan" class="lesson-panel">
 <div class="lesson-eyebrow">01 · Backward design · Teacher planning and learner goals</div><h2>What will you learn?</h2>
 <p class="lesson-prompt">Essential question: How did different Indigenous nations use their environments, knowledge, and forms of government to shape North America before European colonization?</p>
@@ -227,12 +256,13 @@ document.getElementById("grade-quiz").addEventListener("click",function(){
   f.hidden=false;f.textContent=(ok?"✓ Correct. ":"Not quite. ")+z.why;
   f.style.borderLeftColor=ok?"#94ff53":"#e8a3a3";
  });
+ window.updateLessonCredits?.(quiz.map((z,i)=>{var x=document.querySelector('input[name="q'+i+'"]:checked');return x?Number(x.value)===z.correct:null;}));
  var result=document.getElementById("quiz-result");
  result.textContent="Score: "+n+"/"+quiz.length+(missing?" · "+missing+" unanswered":"")+". "+(n===quiz.length?"All five correct!":"Read the explanations and revisit any uncertain answers.");
  if(newCorrect)window.etpLessonFeedback?.(true,result);
  else if(incorrect)window.etpLessonFeedback?.(false,result);
 });
-document.getElementById("reset-quiz").addEventListener("click",function(){quizCelebrated.clear();document.querySelectorAll('#quiz-questions input').forEach(function(x){x.checked=false;});document.querySelectorAll('#quiz-questions .lesson-feedback').forEach(function(x){x.hidden=true;x.textContent="";});document.getElementById("quiz-result").textContent="";});
+document.getElementById("reset-quiz").addEventListener("click",function(){quizCelebrated.clear();window.updateLessonCredits?.([null,null,null,null,null]);document.querySelectorAll('#quiz-questions input').forEach(function(x){x.checked=false;});document.querySelectorAll('#quiz-questions .lesson-feedback').forEach(function(x){x.hidden=true;x.textContent="";});document.getElementById("quiz-result").textContent="";});
 document.getElementById("copy-claim").addEventListener("click",function(){var v=document.getElementById("claim-text").value,t=document.getElementById("copy-status");if(!v.trim()){t.textContent="Write a claim first.";return;}if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(v).then(function(){t.textContent="Draft copied; paste into your assignment.";}).catch(function(){t.textContent="Select and copy your text manually.";});}else{document.getElementById("claim-text").select();t.textContent="Text selected. Use Copy on your device."; }});
 })();
 
@@ -263,11 +293,20 @@ document.getElementById("copy-claim").addEventListener("click",function(){var v=
  function display(){clock.textContent=fmt(left);start.textContent=running?"Pause":"Start";soundButton.textContent="Sound: "+(enabled?"On":"Off");soundButton.setAttribute("aria-pressed",String(enabled))}
  function stop(){if(handle)clearInterval(handle);handle=null;running=false}
  function cue(type){if(!enabled)return;try{audio=audio||new(window.AudioContext||window.webkitAudioContext)();if(audio.state==="suspended")audio.resume();const now=audio.currentTime,notes=type==="correct"?[[523,0,.13],[659,.12,.14],[784,.25,.19]]:type==="wrong"?[[240,0,.2],[135,.12,.25]]:type==="end"?[[395,0,.18],[525,.16,.24]]:[[600,0,.07]];notes.forEach(([hz,delay,dur])=>{const o=audio.createOscillator(),g=audio.createGain();o.type=type==="wrong"?"sawtooth":"sine";o.frequency.setValueAtTime(hz,now+delay);if(type==="wrong")o.frequency.exponentialRampToValueAtTime(Math.max(70,hz*.65),now+delay+dur);g.gain.setValueAtTime(.001,now+delay);g.gain.linearRampToValueAtTime(.045,now+delay+.018);g.gain.exponentialRampToValueAtTime(.001,now+delay+dur);o.connect(g);g.connect(audio.destination);o.start(now+delay);o.stop(now+delay+dur+.02)})}catch{}}
- function tick(){left=Math.max(0,Math.ceil((ends-performance.now())/1000));if(!left){stop();msg.textContent="Finished · Optional timer complete";cue("end")}display()}
- start.addEventListener("click",()=>{if(running){stop();msg.textContent="Timer paused";display();return}if(!left)left=Number(sel.value);running=true;ends=performance.now()+left*1000;msg.textContent="Optional timer running";handle=setInterval(tick,250);display()});
- reset.addEventListener("click",()=>{stop();left=Number(sel.value);msg.textContent="Timer ready";display()});
- sel.addEventListener("change",()=>{stop();left=Number(sel.value);msg.textContent="Optional timer ready";display()});
+ const overlay=document.querySelector(".lesson-countdown-overlay"),reduced=matchMedia("(prefers-reduced-motion:reduce)");
+ let warningSecond=null;
+ function clearAlarm(){overlay.classList.remove("lesson-alarm-active");warningSecond=null}
+ function timerFinish(){if(!enabled||!audioReady())return;[[392,0,.30],[440,.32,.30],[523,.66,.64]].forEach(([f,t,d])=>tone(f,t,d))}
+ function audioReady(){try{audio=audio||new(window.AudioContext||window.webkitAudioContext)();if(audio.state==="suspended")audio.resume();return true}catch{return false}}
+ function tone(f,t,d){const n=audio.currentTime+t,o=audio.createOscillator(),g=audio.createGain();o.type="triangle";o.frequency.setValueAtTime(f,n);g.gain.setValueAtTime(.001,n);g.gain.linearRampToValueAtTime(.049,n+.018);g.gain.exponentialRampToValueAtTime(.001,n+d);o.connect(g).connect(audio.destination);o.start(n);o.stop(n+d+.03)}
+ function tick(){left=Math.max(0,Math.ceil((ends-performance.now())/1000));if(left<=6&&left>0){if(warningSecond!==left){warningSecond=left;if(enabled&&audioReady())tone(740,0,.09)}if(!reduced.matches)overlay.classList.add("lesson-alarm-active")}else clearAlarm();if(!left){stop();clearAlarm();msg.textContent="Timer finished";timerFinish()}display()}
+ start.addEventListener("click",()=>{if(running){left=Math.max(0,Math.ceil((ends-performance.now())/1000));stop();clearAlarm();msg.textContent="Timer paused";display();return}if(!left)left=Number(sel.value);running=true;ends=performance.now()+left*1000;msg.textContent="Timer running";if(enabled)audioReady();handle=setInterval(tick,150);display()});
+ reset.addEventListener("click",()=>{stop();clearAlarm();left=Number(sel.value);msg.textContent="Timer ready";display()});
+ sel.addEventListener("change",()=>{stop();clearAlarm();left=Number(sel.value);msg.textContent="Timer ready";display()});
  soundButton.addEventListener("click",()=>{enabled=!enabled;try{localStorage.setItem("etp-lesson-sound",enabled?"on":"off")}catch{}display()});display();
+ const creditRows=[...document.querySelectorAll("#lesson-credit-breakdown span")],creditButton=document.getElementById("lesson-credit-detail"),creditDetails=document.getElementById("lesson-credit-breakdown");
+ creditButton.onclick=()=>{const open=creditDetails.hidden;creditDetails.hidden=!open;creditButton.setAttribute("aria-expanded",String(open));creditButton.textContent=open?"Details ▴":"Details ▾"};
+ window.updateLessonCredits=function(states){const earned=states.filter(x=>x===true).length,need=states.filter(x=>x===false).length;document.getElementById("lesson-credit-count").textContent=earned+" / 5";document.getElementById("lesson-credit-review").textContent=need+" need work";creditRows.forEach((row,i)=>{row.dataset.state=states[i]===true?"earned":states[i]===false?"retry":"pending";row.textContent=(states[i]===true?"✓ ":states[i]===false?"↻ ":"○ ")+["Diversity","Geography","Native voices","Claim","Sources"][i]})};
  function celebrate(target){if(matchMedia("(prefers-reduced-motion: reduce)").matches)return;const box=target.getBoundingClientRect();for(let i=0;i<32;i++){const p=document.createElement("span");p.setAttribute("aria-hidden","true");p.style.cssText="position:fixed;z-index:99999;pointer-events:none;width:8px;height:11px;border-radius:2px;left:"+(box.left+box.width/2)+"px;top:"+Math.min(innerHeight-50,Math.max(55,box.top+25))+"px;background:"+["#fff200","#94ff53","#ffffff"][i%3]+";";document.body.append(p);const a=Math.PI*2*i/32,d=70+Math.random()*140;if(p.animate){p.animate([{transform:"translate(0,0) rotate(0)",opacity:1},{transform:"translate("+Math.cos(a)*d+"px,"+(Math.sin(a)*d+70)+"px) rotate("+(Math.random()*720)+"deg)",opacity:0}],{duration:950+Math.random()*300,easing:"ease-out"}).onfinish=()=>p.remove()}else setTimeout(()=>p.remove(),1200)}}
  window.etpLessonFeedback=function(correct,target){cue(correct?"correct":"wrong");if(correct)celebrate(target||start)};
 })();
