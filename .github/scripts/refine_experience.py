@@ -88,8 +88,8 @@ if slug=='examine-the-past-home':
   # Refresh the Grade 5 full-lesson engine across its original lesson URLs.
   # Other grade levels retain the independent-lesson preview engine.
   if len(page.parts)>=5 and page.parts[0:3]==('lessons','curriculum','grade-5-early-american-history') and page.name=='index.html':
-   value=re.sub(r"(assets/history-hub-lesson\.js)(?:\?v=[^\"'\s<>]+)?",r"\g<1>?v=20261109-grade5-v2",value)
-   value=re.sub(r"(assets/grade5-lesson-engine\.css)(?:\?v=[^\"'\s<>]+)?",r"\g<1>?v=20261109-grade5-v2",value)
+   value=re.sub(r"(assets/history-hub-lesson\.js)(?:\?v=[^\"'\s<>]+)?",r"\g<1>?v=20261109-grade5-v5",value)
+   value=re.sub(r"(assets/grade5-lesson-engine\.css)(?:\?v=[^\"'\s<>]+)?",r"\g<1>?v=20261109-grade5-v5",value)
   # Repair legacy content pages that do not yet load the shared navigation.
   # Required for the consistent footer, back control, and app-wide transitions.
   shell_scripts=re.findall(r'<script[^>]+src=["\x27][^"\x27]*assets/site-shell\.js',value,re.I)
