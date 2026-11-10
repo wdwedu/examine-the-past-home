@@ -19,6 +19,10 @@
       "book": [
         "Before Columbus: The Americas of 1491",
         "We Are Still Here!"
+      ],
+      "isbns": [
+        "9781416949008",
+        "9781623541927"
       ]
     },
     "5.2": {
@@ -39,6 +43,10 @@
       "book": [
         "1493 for Young People",
         "Before Columbus: The Americas of 1491"
+      ],
+      "isbns": [
+        "9781609806637",
+        "9781416949008"
       ]
     },
     "5.3": {
@@ -59,6 +67,10 @@
       "book": [
         "A Young People's History of the United States",
         "The People Could Fly"
+      ],
+      "isbns": [
+        "9781583228692",
+        "9780679843368"
       ]
     },
     "5.4": {
@@ -77,8 +89,12 @@
         "Fort Ticonderoga"
       ],
       "book": [
-        "The French and Indian War",
-        "The War That Made America"
+        "The French and Indian War (Carolyn Gard)",
+        "Struggle for a Continent (Betsy Maestro)"
+      ],
+      "isbns": [
+        "9780823945111",
+        "9780688134501"
       ]
     },
     "5.5": {
@@ -99,6 +115,10 @@
       "book": [
         "Chains",
         "The American Revolution: A Visual History"
+      ],
+      "isbns": [
+        "9781408826478",
+        "9781465446077"
       ]
     },
     "5.6": {
@@ -119,6 +139,10 @@
       "book": [
         "We the People: The Constitution of the United States",
         "A More Perfect Union"
+      ],
+      "isbns": [
+        "9780385235891",
+        "9780688101923"
       ]
     },
     "5.7": {
@@ -137,8 +161,12 @@
         "Hamilton Grange National Memorial"
       ],
       "book": [
-        "George Washington's World",
-        "The First Four Presidents"
+        "George Washington's World (Genevieve Foster)",
+        "George Washington, Spymaster (Thomas B. Allen)"
+      ],
+      "isbns": [
+        "9780964380349",
+        "9781426300417"
       ]
     }
   },
