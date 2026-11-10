@@ -1,0 +1,61 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Grade 5 · Auto-Graded Unit Assessments | Examine the Past</title><meta name="description" content="Auto-graded knowledge checks for all seven Early American History units, with explanation feedback and an evidence-based written assessment.">
+<link rel="stylesheet" href="../../../../assets/site-shell.css?v=20261109-footer-legal-install-v21"><link rel="stylesheet" href="../../../../assets/history-hub.css?v=20261109-curriculum-design-v8"><link rel="icon" href="../../../../app-assets/icon-192.png">
+<style>
+body.etp-curriculum{font:17px/1.6 Georgia,serif;color:#eff6ef;background:#030a08}
+.g5-assessment{max-width:1080px;margin:auto}
+.assess-head{padding:clamp(25px,4vw,50px);background:linear-gradient(120deg,#16283b,#081815 70%,#030909);border:1px solid #4e765e;border-radius:20px}
+.assess-head h1{font:700 clamp(32px,4.8vw,58px)/1.1 Georgia,serif;color:#fff200}
+.assess-head small{color:#a8ff7d;font-weight:bold}
+.assess-card{background:linear-gradient(110deg,#10231e,#09111e);border:1px solid #4e765f;border-radius:15px;padding:clamp(18px,3vw,30px);margin:18px 0}
+.assess-card:nth-child(4n){background:linear-gradient(120deg,#211a2e,#0c101a)}
+.assess-card legend{font:700 21px/1.3 Georgia,serif;color:#fff;max-width:100%;margin-bottom:14px}
+.assess-card fieldset{border:0;padding:0;min-width:0}
+.assess-card label{display:block;padding:10px 12px;border-radius:8px;cursor:pointer}
+.assess-card label:hover{background:#1b3428}
+.assess-card input{accent-color:#94ff53;margin-right:8px}
+.assess-card button,.assess-action{padding:11px 18px;background:#173726;border:1px solid #76aa68;border-radius:9px;color:#fff200;font:700 16px Georgia,serif;cursor:pointer;margin:6px 8px 6px 0}
+.assess-card button:hover,.assess-action:hover{border-color:#fff200}
+.assess-card textarea{display:block;width:100%;min-height:155px;padding:14px;background:#e8eee6;color:#183121;border:1px solid #abc4b5;border-radius:9px;font:16px/1.5 Georgia,serif}
+.assess-feedback{margin-top:12px;background:#0c2a20;border-left:3px solid #94ff53;padding:10px 13px;display:none}
+.assess-feedback.show{display:block}
+.assess-results{border:1px solid #7eb76b;background:#0f2c1c;color:#fff200;font:700 21px Georgia,serif;border-radius:12px;padding:20px;margin:17px 0}
+.assess-links{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}
+.assess-links a{padding:10px 13px;background:#102a21;border:1px solid #587c65;border-radius:9px}
+@media(max-width:650px){.assess-card legend{font-size:18px}}
+</style><script defer src="../../../../app-assets/install.js?v=20261108-native-menu-v17"></script></head>
+<body class="etp-curriculum"><main class="etp-layout g5-assessment"><a href="../" class="etp-path">← Grade 5 Curriculum</a>
+<header class="assess-head"><small>GRADE 5 · END-OF-UNIT ASSESSMENT</small><h1 id="assessment-title">Loading unit assessment…</h1><p>Ten auto-graded questions, explanatory feedback, and a separate teacher-scored written historical argument. No account, server submission, or required time limit.</p></header>
+<section class="assess-card"><h2>How this works</h2><p>Complete all ten questions before a proficiency decision is shown. Suggested benchmark: 8/10, plus satisfactory written argument. Sources and answers remain in your browser; no grade is sent to a teacher. These questions are an independent curriculum check and not a standardized exam.</p></section>
+<form id="unit-form"><div id="unit-questions"></div>
+<section class="assess-card"><h2>Historical evidence performance task</h2><p id="unit-written-prompt">Write a claim supported by two historical facts or source details. Include reasoning, a second perspective, and one evidence limitation.</p><textarea id="unit-written" aria-label="Evidence-supported written argument" placeholder="My claim... Evidence one... Evidence two... Reasoning... Limitation..."></textarea><details><summary>Teacher rubric · 0–3 points each</summary><p>Accuracy; relevant evidence; reasoning; acknowledgment of source limitations or missing perspectives. Suggested writing mastery: 9/12 points. Human review required. Alternative oral response permitted with the same criteria.</p></details></section>
+<button class="assess-action" type="submit">Grade 10 answers</button><button type="reset" class="assess-action">Reset assessment</button><p id="unit-results" class="assess-results" hidden aria-live="polite"></p>
+</form><div class="assess-links"><a href="../">← Unit directory</a><a id="unit-return" href="../">Back to lessons</a></div>
+<details class="assess-card"><summary>Assessment sources and design</summary><p>Content is drawn from the unit lessons, their independently curated historical source references, and evidence-reasoning instructional practices. Review each lesson's Sources section for attributed archives and media.</p><p>Teacher scoring note: an auto-graded factual or source-analysis check does not replace historical argument evaluation or classroom discussion.</p></details>
+</main>
+<script>
+(()=>{"use strict";const unit=new URLSearchParams(location.search).get("unit")||"5.1",form=document.querySelector("#unit-form"),host=document.querySelector("#unit-questions"),res=document.querySelector("#unit-results");const E=v=>String(v).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+fetch("../../../../assets/grade5-lessons-data.json?v=20261109-grade5-v2").then(x=>x.json()).then(all=>{
+if(!all.units[unit])throw Error("Unknown unit");
+const entries=Object.values(all.lessons).filter(x=>x.unit===unit),unitTitles={"5.1":"Indigenous North America","5.2":"Exploration and Encounters","5.3":"Colonial America","5.4":"Imperial Conflict","5.5":"The American Revolution","5.6":"Creating a Republic","5.7":"The Early Republic"};
+document.querySelector("#assessment-title").textContent="Unit "+unit+" · "+unitTitles[unit];
+document.querySelector("#unit-written-prompt").textContent="Explain how at least two specific developments in "+unitTitles[unit]+" connect to its historical context. Support your claim with evidence from two different lesson topics, assess a limitation, and acknowledge another perspective.";
+document.querySelector("#unit-return").href="../#unit-"+unit.replace(".","-");
+const q=[];
+for(const lesson of entries){
+ q.push({prompt:lesson.essential,answers:lesson.options,correct:lesson.correct,reason:lesson.options[lesson.correct]+" This conclusion is consistent with the lesson's evidence; review its Sources section."});
+ q.push({prompt:"Which approach would best investigate "+lesson.title+"?",answers:["Accept the shortest summary as proof","Compare relevant sources, their authors and historical contexts","Ignore accounts that challenge the first interpretation"],correct:1,reason:"Sourcing and corroboration make a historical interpretation more defensible."});
+}
+const extras=[
+{prompt:"Which type of historical argument is strongest?",answers:["An unsupported impression","A claim supported by relevant evidence with a noted limitation","A statement based on one unidentified image"],correct:1,reason:"Evidence and limitations make claims accountable."},
+{prompt:"Why should a historian examine different perspectives?",answers:["So every perspective must be treated as equally supported","To understand whose interests and experiences are recorded or missing","To avoid analyzing primary sources"],correct:1,reason:"Perspective analysis helps explain evidence and omissions."},
+{prompt:"What is the strongest reason to identify when a historical source was created?",answers:["A source's date helps place it in the right historical context","Older sources are always correct","Dates do not matter for interpretation"],correct:0,reason:"Chronological context matters to responsible historical inquiry."},
+{prompt:"When historical sources disagree, what should you do?",answers:["Ignore both","Choose whichever is more exciting","Compare provenance, context, evidence and uncertainty"],correct:2,reason:"Disagreement invites corroboration, not dismissal."}
+];
+while(q.length<10)q.push(extras[(q.length-entries.length*2)%extras.length]);q.length=10;
+q.forEach((x,i)=>{const div=document.createElement("section");div.className="assess-card";const field=document.createElement("fieldset");const legend=document.createElement("legend");legend.textContent=(i+1)+". "+x.prompt;field.append(legend);x.answers.forEach((answer,j)=>{const label=document.createElement("label"),radio=document.createElement("input");radio.type="radio";radio.name="q"+i;radio.value=j;label.append(radio,document.createTextNode(answer));field.append(label)});const f=document.createElement("div");f.className="assess-feedback";f.id="feedback-"+i;div.append(field,f);host.append(div)});
+form.addEventListener("submit",e=>{e.preventDefault();let score=0,missing=0;q.forEach((x,i)=>{const selected=form.querySelector('input[name="q'+i+'"]:checked'),feed=document.querySelector("#feedback-"+i);if(!selected){missing++;feed.textContent="Select an answer first; the answer will not be revealed until you try.";feed.style.borderLeftColor="#e4c963";}else if(Number(selected.value)===x.correct){score++;feed.textContent="Correct. "+x.reason;feed.style.borderLeftColor="#94ff53";}else{feed.textContent="Review. "+x.reason;feed.style.borderLeftColor="#e5a1a1";}feed.classList.add("show")});res.hidden=false;res.textContent="Score: "+score+"/10. "+(missing?"Answer all ten questions before proficiency can be decided.":score>=8?"Knowledge proficiency reached. Teacher review of writing still required.":"Review the feedback and retry.")+(missing?" Unanswered: "+missing+".":"");res.scrollIntoView({block:"center",behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"})});
+form.addEventListener("reset",()=>{res.hidden=true;host.querySelectorAll(".assess-feedback").forEach(x=>{x.textContent="";x.classList.remove("show")})});
+}).catch(e=>{document.querySelector("#assessment-title").textContent="Assessment could not load";console.error(e)});
+})();
+</script><script src="../../../../assets/site-shell.js?v=20261109-footer-legal-install-v21" data-etp-root="../../../../"></script></body></html>
