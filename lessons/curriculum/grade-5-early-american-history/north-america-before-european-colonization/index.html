@@ -109,7 +109,7 @@ body.etp-curriculum .lesson-progress{position:sticky!important;top:var(--lesson-
 <div class="lesson-kicker">Grade 5 · Early American History · Unit 5.1 · Lesson 1 of 3</div>
 <h1>North America Before European Colonization</h1>
 <p>Before European colonization, many different Indigenous nations built communities, made decisions, traded, developed technologies, and cared for their homelands. How can evidence help us see this complex history?</p>
-<div class="lesson-tags"><span>Interactive inquiry</span><span>45 / 60 / 90-minute pathways</span><span>Solo, partners, or groups</span><span>Evidence → explanation → argument</span></div>
+<div class="lesson-tags"><span>Interactive inquiry</span><span>45 / 60 / 90-minute pacing options</span><span>Solo, partners, or groups</span><span>Evidence → explanation → argument</span></div>
 </header>
 <nav class="lesson-progress" aria-label="Lesson navigation and optional timer"><div class="lesson-toolbar-main"><div class="lesson-meter"><strong>Lesson progress</strong><div class="lesson-meter-track" role="progressbar" aria-label="Reading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="lesson-meter-fill"></span></div><output id="lesson-meter-number">0%</output></div><div class="lesson-timer-controls"><label for="lesson-time">Timer</label><select id="lesson-time" aria-label="Choose optional timer duration"></select><output id="lesson-clock" role="timer">05:00</output><button id="lesson-start" type="button">Start</button><button id="lesson-reset" type="button">Reset</button><button id="lesson-sound" type="button" aria-pressed="true">Sound: On</button></div></div><p class="lesson-status" id="lesson-time-status" aria-live="polite">Optional countdown · Suggested activity times appear in each section.</p><div class="lesson-jumps"><a href="#plan">Plan</a><a href="#launch">Start</a><a href="#discover">Discover</a><a href="#investigate">Investigate</a><a href="#apply">Apply</a><a href="#assess">Check</a><a href="#options">Options</a><a href="#evidence">Sources</a></div></nav>
 <section id="plan" class="lesson-panel">
@@ -170,7 +170,7 @@ body.etp-curriculum .lesson-progress{position:sticky!important;top:var(--lesson-
 <li><strong>Oklahoma City, Oklahoma — First Americans Museum.</strong> Examine stories of Oklahoma's Tribal Nations, select an object with cultural context, and reflect on continuity into the present. <a href="https://famok.org/schools/" target="_blank" rel="noopener">Official field trips ↗</a></li>
 </ol><p class="lesson-note">Virtual alternative: select two resources from Smithsonian Native Knowledge 360°, compare what each makes visible, and write one respectful source question. Check current museum policies before planning a visit.</p></div></details>
 <details><summary>Outside reading · Two verified books</summary><div><div class="lesson-bkgrid">
-<article class="lesson-book"><img loading="lazy" src="https://covers.openlibrary.org/b/isbn/9781416949008-M.jpg" alt="Book cover: Before Columbus, The Americas of 1491"><div><h4>Before Columbus: The Americas of 1491</h4><p>Charles C. Mann, adapted by Rebecca Stefoff. Accessible research companion; compare evidence about societies before European contact.</p><a href="https://www.amazon.com/s?k=9781416949008" target="_blank" rel="noopener">See more on Amazon ↗</a></div></article>
+<article class="lesson-book"><img loading="lazy" src="https://covers.openlibrary.org/b/isbn/9781416949008-M.jpg" alt="Book cover: Before Columbus, The Americas of 1491"><div><h4>Before Columbus: The Americas of 1491</h4><p>Charles C. Mann. A richly illustrated history companion for younger readers; compare how researchers interpret evidence about societies before European contact.</p><a href="https://www.amazon.com/s?k=9781416949008" target="_blank" rel="noopener">See more on Amazon ↗</a></div></article>
 <article class="lesson-book"><img loading="lazy" src="https://covers.openlibrary.org/b/isbn/9781623541927-M.jpg" alt="Book cover: We Are Still Here!"><div><h4>We Are Still Here! Native American Truths Everyone Should Know</h4><p>Traci Sorell, illustrated by Frané Lessac. Connect past and present, and avoid portraying Native nations as vanished.</p><a href="https://www.amazon.com/s?k=9781623541927" target="_blank" rel="noopener">See more on Amazon ↗</a></div></article>
 </div><p class="lesson-note">Cover availability depends on the external books database. Links search the verified ISBNs rather than claiming a particular price or seller.</p></div></details>
 <details><summary>Related documentary · Trailer / preview</summary><div><p><strong>Native America (PBS), Season 1.</strong> Use the official 30-second preview as a hook, then contrast the film's framing with a Smithsonian resource. The complete series may require access through PBS.</p><a href="https://www.pbs.org/video/official-trailer-1nx77b/" target="_blank" rel="noopener">Watch the verified PBS trailer ↗</a><p><a href="https://www.youtube.com/results?search_query=PBS+Native+America+season+1+official+trailer" target="_blank" rel="noopener">Find a trailer on YouTube ↗</a></p><p class="lesson-note">YouTube search is provided rather than asserting that a particular upload is officially licensed.</p></div></details>
@@ -209,8 +209,23 @@ var quiz=[
 {q:"A museum object lacks a known maker or date. What should a historian do?",opts:["Research the object's provenance and consult community perspectives","Guess from its appearance alone","Describe it as typical of all Native nations"],correct:0,why:"Provenance, context and community interpretation are essential."}
 ];
 var area=document.getElementById("quiz-questions");quiz.forEach(function(z,i){var f=document.createElement("fieldset");f.className="lesson-question";var l=document.createElement("legend");l.textContent=(i+1)+". "+z.q;f.appendChild(l);z.opts.forEach(function(opt,j){var lab=document.createElement("label"),inp=document.createElement("input");inp.type="radio";inp.name="q"+i;inp.value=j;lab.append(inp,document.createTextNode(opt));f.appendChild(lab);});var feed=document.createElement("div");feed.className="lesson-feedback";feed.hidden=true;feed.id="feedback-"+i;f.append(feed);area.append(f);});
-document.getElementById("grade-quiz").addEventListener("click",function(){var n=0,missing=0;quiz.forEach(function(z,i){var x=document.querySelector('input[name="q'+i+'"]:checked'),f=document.getElementById("feedback-"+i);if(!x){f.hidden=false;f.textContent="Select an answer to receive feedback.";missing++;return;}if(Number(x.value)===z.correct)n++;f.hidden=false;f.textContent=(Number(x.value)===z.correct?"Correct. ":"Review: ")+z.why;});window.etpLessonFeedback?.(n===quiz.length,document.getElementById("quiz-result"));document.getElementById("quiz-result").textContent="Score: "+n+"/"+quiz.length+(missing?" ("+missing+" unanswered)":"")+". "+(n===quiz.length?"Ready for the unit challenge.":"Use the explanations to revise your thinking.");});
-document.getElementById("reset-quiz").addEventListener("click",function(){document.querySelectorAll('#quiz-questions input').forEach(function(x){x.checked=false;});document.querySelectorAll('#quiz-questions .lesson-feedback').forEach(function(x){x.hidden=true;x.textContent="";});document.getElementById("quiz-result").textContent="";});
+var quizCelebrated=new Set();
+document.getElementById("grade-quiz").addEventListener("click",function(){
+ var n=0,missing=0,newCorrect=0,incorrect=0;
+ quiz.forEach(function(z,i){
+  var x=document.querySelector('input[name="q'+i+'"]:checked'),f=document.getElementById("feedback-"+i);
+  if(!x){f.hidden=false;f.textContent="Choose an answer for question "+(i+1)+". Feedback appears after you try it.";missing++;return;}
+  var ok=Number(x.value)===z.correct;
+  if(ok){n++;if(!quizCelebrated.has(i)){newCorrect++;quizCelebrated.add(i)}}else{incorrect++;quizCelebrated.delete(i)}
+  f.hidden=false;f.textContent=(ok?"✓ Correct. ":"Not quite. ")+z.why;
+  f.style.borderLeftColor=ok?"#94ff53":"#e8a3a3";
+ });
+ var result=document.getElementById("quiz-result");
+ result.textContent="Score: "+n+"/"+quiz.length+(missing?" · "+missing+" unanswered":"")+". "+(n===quiz.length?"All five correct!":"Read the explanations and revisit any uncertain answers.");
+ if(newCorrect)window.etpLessonFeedback?.(true,result);
+ else if(incorrect)window.etpLessonFeedback?.(false,result);
+});
+document.getElementById("reset-quiz").addEventListener("click",function(){quizCelebrated.clear();document.querySelectorAll('#quiz-questions input').forEach(function(x){x.checked=false;});document.querySelectorAll('#quiz-questions .lesson-feedback').forEach(function(x){x.hidden=true;x.textContent="";});document.getElementById("quiz-result").textContent="";});
 document.getElementById("copy-claim").addEventListener("click",function(){var v=document.getElementById("claim-text").value,t=document.getElementById("copy-status");if(!v.trim()){t.textContent="Write a claim first.";return;}if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(v).then(function(){t.textContent="Draft copied; paste into your assignment.";}).catch(function(){t.textContent="Select and copy your text manually.";});}else{document.getElementById("claim-text").select();t.textContent="Text selected. Use Copy on your device."; }});
 })();
 
@@ -223,8 +238,14 @@ document.getElementById("copy-claim").addEventListener("click",function(){var v=
  function position(){document.documentElement.style.setProperty("--lesson-dock-top",(document.getElementById("etpSiteHeader")?.getBoundingClientRect().height||65)+"px")}
  position();addEventListener("resize",position);
  if(window.ResizeObserver&&document.getElementById("etpSiteHeader"))new ResizeObserver(position).observe(document.getElementById("etpSiteHeader"));
- let most=0;
- function update(){const p=(scrollY+innerHeight*.33)/(document.documentElement.scrollHeight-innerHeight*.4);most=Math.max(most,Math.max(0,Math.min(100,Math.round(p*100))));fill.style.width=most+"%";count.textContent=most+"%";track.setAttribute("aria-valuenow",most);let current=panels[0];for(const el of panels)if(el.getBoundingClientRect().top<200)current=el;jumpLinks.forEach(a=>{if(a.hash==="#"+current.id)a.setAttribute("aria-current","step");else a.removeAttribute("aria-current")});}
+ function update(){
+  const doc=document.documentElement,remaining=Math.max(1,doc.scrollHeight-innerHeight);
+  const percent=Math.round(Math.max(0,Math.min(1,scrollY/remaining))*100);
+  fill.style.width=percent+"%";count.textContent=percent+"%";track.setAttribute("aria-valuenow",String(percent));
+  let current=panels[0],threshold=dock.getBoundingClientRect().bottom+24;
+  for(const el of panels)if(el.getBoundingClientRect().top<=threshold)current=el;
+  jumpLinks.forEach(a=>{if(a.hash==="#"+current.id)a.setAttribute("aria-current","step");else a.removeAttribute("aria-current")});
+ }
  addEventListener("scroll",update,{passive:true});addEventListener("resize",update);update();
  const sel=document.getElementById("lesson-time"),clock=document.getElementById("lesson-clock"),start=document.getElementById("lesson-start"),reset=document.getElementById("lesson-reset"),msg=document.getElementById("lesson-time-status"),soundButton=document.getElementById("lesson-sound");
  const intervals=[15,20,...Array.from({length:10},(_,i)=>(i+1)*60),12*60,15*60,20*60,25*60,30*60,35*60,40*60,45*60];
@@ -240,7 +261,7 @@ document.getElementById("copy-claim").addEventListener("click",function(){var v=
  reset.addEventListener("click",()=>{stop();left=Number(sel.value);msg.textContent="Timer ready";display()});
  sel.addEventListener("change",()=>{stop();left=Number(sel.value);msg.textContent="Optional timer ready";display()});
  soundButton.addEventListener("click",()=>{enabled=!enabled;try{localStorage.setItem("etp-lesson-sound",enabled?"on":"off")}catch{}display()});display();
- function celebrate(target){if(matchMedia("(prefers-reduced-motion: reduce)").matches)return;const box=target.getBoundingClientRect();for(let i=0;i<32;i++){const p=document.createElement("span");p.setAttribute("aria-hidden","true");p.style.cssText="position:fixed;z-index:99999;pointer-events:none;width:8px;height:11px;border-radius:2px;left:"+(box.left+box.width/2)+"px;top:"+Math.min(innerHeight-50,Math.max(55,box.top+25))+"px;background:"+["#fff200","#94ff53","#ffffff"][i%3]+";";document.body.append(p);const a=Math.PI*2*i/32,d=70+Math.random()*140;p.animate([{transform:"translate(0,0) rotate(0)",opacity:1},{transform:"translate("+Math.cos(a)*d+"px,"+(Math.sin(a)*d+70)+"px) rotate("+(Math.random()*720)+"deg)",opacity:0}],{duration:950+Math.random()*300,easing:"ease-out"}).onfinish=()=>p.remove()}}
+ function celebrate(target){if(matchMedia("(prefers-reduced-motion: reduce)").matches)return;const box=target.getBoundingClientRect();for(let i=0;i<32;i++){const p=document.createElement("span");p.setAttribute("aria-hidden","true");p.style.cssText="position:fixed;z-index:99999;pointer-events:none;width:8px;height:11px;border-radius:2px;left:"+(box.left+box.width/2)+"px;top:"+Math.min(innerHeight-50,Math.max(55,box.top+25))+"px;background:"+["#fff200","#94ff53","#ffffff"][i%3]+";";document.body.append(p);const a=Math.PI*2*i/32,d=70+Math.random()*140;if(p.animate){p.animate([{transform:"translate(0,0) rotate(0)",opacity:1},{transform:"translate("+Math.cos(a)*d+"px,"+(Math.sin(a)*d+70)+"px) rotate("+(Math.random()*720)+"deg)",opacity:0}],{duration:950+Math.random()*300,easing:"ease-out"}).onfinish=()=>p.remove()}else setTimeout(()=>p.remove(),1200)}}
  window.etpLessonFeedback=function(correct,target){cue(correct?"correct":"wrong");if(correct)celebrate(target||start)};
 })();
 </script>
