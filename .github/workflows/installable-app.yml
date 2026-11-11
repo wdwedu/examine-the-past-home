@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'app-assets/**'
+      - 'teacher-tools/movies-in-the-classroom/**'
       - 'assets/etp-experience-v50.js'
       - 'assets/repair-v63.js'
       - 'assets/site-shell.js'
@@ -47,6 +48,9 @@ jobs:
           node --check app-assets/site-experience.js
           node --check assets/etp-experience-v50.js
           node --check assets/repair-v63.js
+          node --check teacher-tools/movies-in-the-classroom/film-catalog.js
+          node --check teacher-tools/movies-in-the-classroom/film-finder.js
+          node --check teacher-tools/movies-in-the-classroom/film-planner.js
       - name: Save app support
         run: |
           git config user.name "github-actions[bot]"

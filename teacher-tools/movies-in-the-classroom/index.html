@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="../../assets/site-shell.css?v=20261015-etp-r2">
 <link rel="stylesheet" href="../../assets/etp-transitions.css?v=59">
 <link rel="stylesheet" href="movies-v59.css?v=59">
+<link rel="stylesheet" href="film-finder.css?v=20261111-1">
 <link rel="manifest" href="../../manifest.webmanifest" type="application/manifest+json">
 <link rel="apple-touch-icon" sizes="180x180" href="../../app-assets/icon-180.png">
 <meta name="mobile-web-app-capable" content="yes">
@@ -23,7 +24,8 @@
     <h1>Movies in the Classroom</h1>
     <p>Use film as evidence, interpretation, and historical storytelling—not just as a reward or background activity. This toolkit helps teachers plan purposeful viewing, analyze historical representation, and turn scenes into structured inquiry.</p>
     <div class="movie-actions">
-      <button class="movie-primary" type="button" data-jump="planner">Build a Film Lesson</button>
+      <a class="movie-primary" href="library/">Find a Film or Documentary</a>
+      <button class="movie-secondary" type="button" data-jump="planner">I Already Have a Film</button>
       <button class="movie-secondary" type="button" data-jump="framework">View the Framework</button>
     </div>
   </div>
@@ -58,10 +60,14 @@
   <div class="movie-section-head">
     <div class="movie-kicker">Interactive Teacher Tool</div>
     <h2>Film Lesson Builder</h2>
-    <p>Choose your teaching conditions. The planner will generate a practical viewing structure you can adapt to any historically relevant film, documentary, clip, or scene.</p>
+    <p>Start with a title from the film finder or enter your own. Set your teaching conditions to build an editable viewing plan with an inquiry question, evidence tasks, discussion prompts and assessment guidance.</p>
   </div>
+  <div id="filmSelection" class="film-selection" hidden></div>
   <div class="movie-builder-grid">
     <div class="movie-form">
+      <div class="film-extra"><label>Film / Documentary Title<input id="customTitle" maxlength="160" placeholder="Choose a title in the finder or enter your own"></label></div>
+      <div class="film-extra"><label>Unit Focus / Inquiry Question<input id="unitFocus" maxlength="400" placeholder="What should students investigate?"></label></div>
+      <div class="film-extra"><label>Scene Notes / Start and Stop Times<textarea id="sceneNotes" maxlength="2000" placeholder="After previewing your edition, note the scenes and timestamps you plan to use."></textarea></label></div>
       <label>Grade Band<select id="gradeBand"><option>Grades 6–8</option><option selected>Grades 9–12</option><option>College / Adult</option></select></label>
       <label>Viewing Format<select id="viewFormat"><option>Single Scene / Clip</option><option selected>Multiple Clips</option><option>Full Film</option><option>Documentary Segment</option></select></label>
       <label>Primary Purpose<select id="purpose"><option selected>Historical Accuracy & Interpretation</option><option>Primary Source Comparison</option><option>Perspective & Representation</option><option>Cause & Effect</option><option>Change Over Time</option><option>Geography & Place</option></select></label>
@@ -121,7 +127,9 @@
 </section>
 </main>
 <script src="../../assets/etp-transitions.js?v=65"></script>
-<script src="movies-v59.js?v=59"></script>
+<script src="film-catalog.js?v=20261111-1"></script>
+<script src="movies-v59.js?v=20261111-1"></script>
+<script src="film-planner.js?v=20261111-1"></script>
 <script src="../../assets/site-shell.js?v=20261109-footer-legal-install-v21" data-etp-root="../../"></script>
 </body>
 </html>
