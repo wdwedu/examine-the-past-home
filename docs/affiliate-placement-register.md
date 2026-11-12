@@ -4,7 +4,7 @@ Updated: November 12, 2026. Preserve free access to every public page. This regi
 
 ## Current implementation
 
-- AI in Education contains 40 editorial tool records in `teacher-tools/ai-in-education/ai-tools.js`.
+- AI in Education contains 44 editorial tool records across 11 categories, including field trips and outdoor learning in `teacher-tools/ai-in-education/ai-tools.js`.
 - Each record has an empty `affiliateUrl`. Until an approved tracking URL is supplied, the site uses the official product URL.
 - The directory renderer labels configured affiliate links, uses `rel="sponsored noopener"`, and displays the adjacent affiliate disclosure when at least one such link is present. Ordinary official links use `rel="noopener"`.
 - No applications, contracts, account enrollments, payments, tracking links, or commission claims were created in this build.
