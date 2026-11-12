@@ -1,0 +1,314 @@
+{
+  "reviewed": "2026-11-12",
+  "method": "Official-domain brand icons retrieved through the Google favicon service, visually reviewed. Seek uses its official press-kit app icon; Gemini in Workspace uses the Gemini product icon. Embedded copies prevent runtime requests to an external icon service.",
+  "tools": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "officialSite": "https://chatgpt.com/",
+      "logoSource": "https://chatgpt.com/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fchatgpt.com%2F&sz=128"
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "officialSite": "https://claude.ai/",
+      "logoSource": "https://claude.ai/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fclaude.ai%2F&sz=128"
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "officialSite": "https://gemini.google.com/",
+      "logoSource": "https://gemini.google.com/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fgemini.google.com%2F&sz=128"
+    },
+    {
+      "id": "microsoft-copilot",
+      "name": "Microsoft Copilot",
+      "officialSite": "https://www.microsoft.com/en-us/education/products/copilot-in-education/",
+      "logoSource": "https://copilot.microsoft.com/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fcopilot.microsoft.com%2F&sz=128"
+    },
+    {
+      "id": "gemini-notebook-notebooklm",
+      "name": "Gemini Notebook (NotebookLM)",
+      "officialSite": "https://notebook.google/",
+      "logoSource": "https://notebooklm.google/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fnotebooklm.google%2F&sz=128"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "officialSite": "https://www.perplexity.ai/",
+      "logoSource": "https://www.perplexity.ai/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.perplexity.ai%2F&sz=128"
+    },
+    {
+      "id": "elicit",
+      "name": "Elicit",
+      "officialSite": "https://elicit.com/",
+      "logoSource": "https://elicit.com/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Felicit.com%2F&sz=128"
+    },
+    {
+      "id": "consensus",
+      "name": "Consensus",
+      "officialSite": "https://consensus.app/",
+      "logoSource": "https://consensus.app/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fconsensus.app%2F&sz=128"
+    },
+    {
+      "id": "magicschool",
+      "name": "MagicSchool",
+      "officialSite": "https://www.magicschool.ai/",
+      "logoSource": "https://www.magicschool.ai/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.magicschool.ai%2F&sz=128"
+    },
+    {
+      "id": "eduaide",
+      "name": "Eduaide",
+      "officialSite": "https://www.eduaide.ai/",
+      "logoSource": "https://www.eduaide.ai/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.eduaide.ai%2F&sz=128"
+    },
+    {
+      "id": "diffit",
+      "name": "Diffit",
+      "officialSite": "https://web.diffit.me/",
+      "logoSource": "https://web.diffit.me/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fweb.diffit.me%2F&sz=128"
+    },
+    {
+      "id": "schoolai",
+      "name": "SchoolAI",
+      "officialSite": "https://schoolai.com/",
+      "logoSource": "https://schoolai.com/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fschoolai.com%2F&sz=128"
+    },
+    {
+      "id": "brisk-teaching",
+      "name": "Brisk Teaching",
+      "officialSite": "https://www.briskteaching.com/",
+      "logoSource": "https://www.briskteaching.com/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.briskteaching.com%2F&sz=128"
+    },
+    {
+      "id": "curipod",
+      "name": "Curipod",
+      "officialSite": "https://curipod.com/",
+      "logoSource": "https://curipod.com/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fcuripod.com%2F&sz=128"
+    },
+    {
+      "id": "wayground",
+      "name": "Wayground",
+      "officialSite": "https://wayground.com/",
+      "logoSource": "https://wayground.com/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwayground.com%2F&sz=128"
+    },
+    {
+      "id": "formative",
+      "name": "Formative",
+      "officialSite": "https://www.formative.com/",
+      "logoSource": "https://www.formative.com/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.formative.com%2F&sz=128"
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "officialSite": "https://www.grammarly.com/",
+      "logoSource": "https://www.grammarly.com/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.grammarly.com%2F&sz=128"
+    },
+    {
+      "id": "quillbot",
+      "name": "QuillBot",
+      "officialSite": "https://quillbot.com/",
+      "logoSource": "https://quillbot.com/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fquillbot.com%2F&sz=128"
+    },
+    {
+      "id": "readtheory",
+      "name": "ReadTheory",
+      "officialSite": "https://readtheory.org/",
+      "logoSource": "https://readtheory.org/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Freadtheory.org%2F&sz=128"
+    },
+    {
+      "id": "deepl-write",
+      "name": "DeepL Write",
+      "officialSite": "https://www.deepl.com/en/write",
+      "logoSource": "https://www.deepl.com/en/write",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.deepl.com%2Fen%2Fwrite&sz=128"
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "officialSite": "https://www.canva.com/",
+      "logoSource": "https://www.canva.com/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.canva.com%2F&sz=128"
+    },
+    {
+      "id": "adobe-firefly",
+      "name": "Adobe Firefly",
+      "officialSite": "https://www.adobe.com/products/firefly.html",
+      "logoSource": "https://firefly.adobe.com/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Ffirefly.adobe.com%2F&sz=128"
+    },
+    {
+      "id": "ideogram",
+      "name": "Ideogram",
+      "officialSite": "https://ideogram.ai/",
+      "logoSource": "https://ideogram.ai/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fideogram.ai%2F&sz=128"
+    },
+    {
+      "id": "leonardo-ai",
+      "name": "Leonardo.Ai",
+      "officialSite": "https://leonardo.ai/",
+      "logoSource": "https://leonardo.ai/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fleonardo.ai%2F&sz=128"
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "officialSite": "https://app.runwayml.com/",
+      "logoSource": "https://runwayml.com/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Frunwayml.com%2F&sz=128"
+    },
+    {
+      "id": "synthesia",
+      "name": "Synthesia",
+      "officialSite": "https://www.synthesia.io/",
+      "logoSource": "https://www.synthesia.io/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.synthesia.io%2F&sz=128"
+    },
+    {
+      "id": "heygen",
+      "name": "HeyGen",
+      "officialSite": "https://www.heygen.com/",
+      "logoSource": "https://www.heygen.com/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.heygen.com%2F&sz=128"
+    },
+    {
+      "id": "pictory",
+      "name": "Pictory",
+      "officialSite": "https://pictory.ai/",
+      "logoSource": "https://pictory.ai/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fpictory.ai%2F&sz=128"
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "officialSite": "https://elevenlabs.io/",
+      "logoSource": "https://elevenlabs.io/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Felevenlabs.io%2F&sz=128"
+    },
+    {
+      "id": "descript",
+      "name": "Descript",
+      "officialSite": "https://www.descript.com/",
+      "logoSource": "https://www.descript.com/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.descript.com%2F&sz=128"
+    },
+    {
+      "id": "otter",
+      "name": "Otter",
+      "officialSite": "https://otter.ai/",
+      "logoSource": "https://otter.ai/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fotter.ai%2F&sz=128"
+    },
+    {
+      "id": "adobe-podcast",
+      "name": "Adobe Podcast",
+      "officialSite": "https://podcast.adobe.com/en/enhancespeech",
+      "logoSource": "https://podcast.adobe.com/en/enhancespeech",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fpodcast.adobe.com%2Fen%2Fenhancespeech&sz=128"
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "officialSite": "https://gamma.app/",
+      "logoSource": "https://gamma.app/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fgamma.app%2F&sz=128"
+    },
+    {
+      "id": "beautiful-ai",
+      "name": "Beautiful.ai",
+      "officialSite": "https://www.beautiful.ai/",
+      "logoSource": "https://www.beautiful.ai/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.beautiful.ai%2F&sz=128"
+    },
+    {
+      "id": "plus-ai",
+      "name": "Plus AI",
+      "officialSite": "https://plusai.com/",
+      "logoSource": "https://plusai.com/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fplusai.com%2F&sz=128"
+    },
+    {
+      "id": "slidesai",
+      "name": "SlidesAI",
+      "officialSite": "https://www.slidesai.io/",
+      "logoSource": "https://www.slidesai.io/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.slidesai.io%2F&sz=128"
+    },
+    {
+      "id": "notion-ai",
+      "name": "Notion AI",
+      "officialSite": "https://www.notion.com/product/ai",
+      "logoSource": "https://www.notion.com/product/ai",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.notion.com%2Fproduct%2Fai&sz=128"
+    },
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "officialSite": "https://zapier.com/ai",
+      "logoSource": "https://zapier.com/ai",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fzapier.com%2Fai&sz=128"
+    },
+    {
+      "id": "microsoft-365-copilot",
+      "name": "Microsoft 365 Copilot",
+      "officialSite": "https://www.microsoft.com/en-us/copilot",
+      "logoSource": "https://m365.cloud.microsoft/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fm365.cloud.microsoft%2F&sz=128"
+    },
+    {
+      "id": "gemini-in-google-workspace",
+      "name": "Gemini in Google Workspace",
+      "officialSite": "https://workspace.google.com/solutions/ai/",
+      "logoSource": "https://gemini.google.com/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fgemini.google.com%2F&sz=128"
+    },
+    {
+      "id": "goosechase",
+      "name": "Goosechase",
+      "officialSite": "https://goosechase.com/",
+      "logoSource": "https://goosechase.com/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fgoosechase.com%2F&sz=128"
+    },
+    {
+      "id": "thinglink",
+      "name": "ThingLink",
+      "officialSite": "https://www.thinglink.com/",
+      "logoSource": "https://www.thinglink.com/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fwww.thinglink.com%2F&sz=128"
+    },
+    {
+      "id": "seek-by-inaturalist",
+      "name": "Seek by iNaturalist",
+      "officialSite": "https://www.inaturalist.org/pages/seek_app",
+      "logoSource": "https://www.inaturalist.org/pages/press",
+      "retrievalUrl": "https://static.inaturalist.org/wiki_page_attachments/3153-medium.png"
+    },
+    {
+      "id": "merlin-bird-id",
+      "name": "Merlin Bird ID",
+      "officialSite": "https://merlin.allaboutbirds.org/",
+      "logoSource": "https://merlin.allaboutbirds.org/",
+      "retrievalUrl": "https://www.google.com/s2/favicons?domain_url=https%3A%2F%2Fmerlin.allaboutbirds.org%2F&sz=128"
+    }
+  ]
+}
