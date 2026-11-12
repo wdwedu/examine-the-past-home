@@ -1,48 +1,47 @@
 (() => {
-  'use strict';
-  const films = window.ETP_FILMS || [];
-  const $ = id => document.getElementById(id);
-  const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  $('collectionIntro').textContent = `${films.length} starting selections • ${films.filter(f=>f.type==='Feature films').length} feature films • ${films.filter(f=>f.type==='Documentaries').length} documentaries. Grade suggestions are editorial guidance for teacher planning; preview the film and trailer before classroom use.`;
-  $('filmType').options[0].textContent = `All selections (${films.length})`;
-  let saved = [];
-  try { const data = JSON.parse(localStorage.getItem('etp-saved-films') || '[]'); if(Array.isArray(data)) saved = data.filter(id => films.some(f => f.id === id)); } catch (_) {}
-  for(const [id,key] of [['filmTopic','topics'],['filmEra','era'],['filmRegion','region']]) {
-    [...new Set(films.flatMap(f => f[key]))].sort().forEach(value => $(id).add(new Option(value,value)));
-  }
-  function render() {
-    const query = $('filmSearch').value.trim().toLocaleLowerCase();
-    const found = films.filter(f => (!$('filmType').value || f.type === $('filmType').value) && (!$('filmGrade').value || f.grades.includes($('filmGrade').value)) && (!$('filmTopic').value || f.topics.includes($('filmTopic').value)) && (!$('filmEra').value || f.era === $('filmEra').value) && (!$('filmRegion').value || f.region === $('filmRegion').value) && (!$('savedOnly').checked || saved.includes(f.id)) && (!query || [f.title,f.context,f.region,...f.topics,...f.points].join(' ').toLocaleLowerCase().includes(query)));
-    $('resultCount').textContent = `${found.length} of ${films.length} selections`;
-    $('filmGrid').innerHTML = found.length ? found.map(f => `<article class="finder-card"><button type="button" class="finder-preview" data-trailer="${f.id}" aria-label="Watch ${esc(f.title)} trailer"><img src="https://i.ytimg.com/vi/${f.video}/hqdefault.jpg" alt="${esc(f.title)} YouTube trailer thumbnail" loading="lazy" width="480" height="270"><span>▶ Watch trailer</span></button><div class="finder-card-body"><div class="finder-tags"><span class="finder-tag">${f.type}</span><span class="finder-tag">${f.year}</span></div><h3>${esc(f.title)}</h3><div class="finder-meta">Grades ${f.grades.join(' / ')} • ${f.region}</div><p class="finder-summary">${esc(f.context)}</p><div class="finder-tags">${f.topics.map(t => `<span class="finder-tag">${esc(t)}</span>`).join('')}</div><details><summary>Content &amp; preview notes</summary><p>${esc(f.caution)}</p></details><div class="finder-card-actions"><button type="button" class="finder-select" data-select="${f.id}">Explore &amp; choose</button><button type="button" data-save="${f.id}" aria-label="${saved.includes(f.id)?'Unsave':'Save'} ${esc(f.title)}" aria-pressed="${saved.includes(f.id)}">${saved.includes(f.id)?'★ Saved':'☆ Save'}</button></div></div></article>`).join('') : '<div class="finder-empty"><h3>No matching selections yet</h3><p>Try a broader topic or reset the filters. This growing collection does not cover every era yet.</p><button type="button" id="emptyReset">Reset filters</button></div>';
-    $('emptyReset')?.addEventListener('click', reset);
-    $('filmGrid').querySelectorAll('img').forEach(img => img.addEventListener('error',()=>{img.remove();},{once:true}));
-  }
-  function reset() { for(const id of ['filmSearch','filmType','filmGrade','filmTopic','filmEra','filmRegion']) $(id).value=''; $('savedOnly').checked=false;render(); }
-  function brief(f) {
-    const box = $('filmBrief');box.hidden=false;
-    box.innerHTML = `<div class="finder-brief"><div class="movie-kicker">Your Selected Film • Teaching Brief</div><h2 tabindex="-1">${esc(f.title)}</h2><p>${esc(f.context)}</p><p><strong>Planning guidance:</strong> Grades ${f.grades.join(' / ')} • ${f.era} • ${f.region}. Teacher preview required.</p><h3>Essential question</h3><p>${esc(f.inquiry)}</p><div class="finder-brief-grid"><div><h4>Key teaching points</h4><ul>${f.points.map(p=>`<li>${esc(p)}</li>`).join('')}</ul><h4>Clip planning cue</h4><p>${esc(f.scene)}</p><p class="finder-note">This is a scene-selection cue, not a verified timestamp. Preview your edition and record your chosen start/stop times in the planner.</p></div><div><h4>Questions to take into viewing</h4><ol>${f.questions.map(q=>`<li>${esc(q)}</li>`).join('')}</ol><h4>Preview notes</h4><p>${esc(f.caution)}</p></div></div><p><a href="${esc(f.evidence)}" target="_blank" rel="noopener">${esc(f.evidenceLabel)} ↗</a> • <a href="${esc(f.source)}" target="_blank" rel="noopener">Publisher / title background ↗</a></p><p class="finder-note">These links are starting points for teacher review. A film’s own site explains its account; it is not independent corroboration.</p><div class="movie-actions"><a class="movie-primary" href="../?film=${f.id}#planner">Use This Film in My Lesson</a><button type="button" data-trailer="${f.id}">▶ Preview Trailer</button><a href="#catalog">Back to results ↑</a></div></div>`;
-    box.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});box.querySelector('h2').focus({preventScroll:true});
-    history.replaceState(null,'',`?film=${f.id}#filmBrief`);
-  }
-  const dialog = $('trailerDialog');
-  function trailer(f) {
-    $('trailerTitle').textContent=`${f.title} — Trailer`;
-    $('youtubeFallback').href=`https://www.youtube.com/watch?v=${f.video}`;
-    $('trailerPlayer').innerHTML=`<iframe title="${esc(f.title)} trailer" src="https://www.youtube-nocookie.com/embed/${f.video}?rel=0" allow="encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
-    dialog.showModal();
-  }
-  document.addEventListener('click', event => {
-    const b = event.target.closest('[data-trailer],[data-select],[data-save]');if(!b)return;
-    const f = films.find(f=>f.id===(b.dataset.trailer||b.dataset.select||b.dataset.save));if(!f)return;
-    if(b.dataset.trailer)trailer(f);
-    else if(b.dataset.select)brief(f);
-    else {saved=saved.includes(f.id)?saved.filter(id=>id!==f.id):[...saved,f.id];try{localStorage.setItem('etp-saved-films',JSON.stringify(saved));}catch(_){$('saveNote').textContent='Browser storage is unavailable. Saved films will last only while this page is open.';}const scroll=window.scrollY;render();document.querySelector(`[data-save="${f.id}"]`)?.focus({preventScroll:true});window.scrollTo(0,scroll);}
-  });
-  for(const id of ['filmSearch','filmType','filmGrade','filmTopic','filmEra','filmRegion','savedOnly'])$(id).addEventListener(id==='filmSearch'?'input':'change',render);
-  $('clearFilters').addEventListener('click',reset);
-  $('closeTrailer').addEventListener('click',()=>dialog.close());
-  dialog.addEventListener('close',()=>{$('trailerPlayer').replaceChildren();});
-  render();
-  const selected = films.find(f=>f.id===new URLSearchParams(location.search).get('film'));if(selected)brief(selected);
+ 'use strict';
+ const films=window.ETP_FILMS||[], subjects=window.ETP_FILM_SUBJECTS||[];
+ const $=id=>document.getElementById(id), esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const slug=v=>v.toLowerCase().replace(/[^a-z0-9]+/g,'-');
+ const grades=f=>f.grades.map(g=>g==='Adult'?'Adult':g==='5'?'Grade 5':`Grades ${g}`).join(' · ');
+ let saved=[],limits={},lastTrigger=null;
+ try {const data=JSON.parse(localStorage.getItem('etp-saved-films')||'[]');if(Array.isArray(data))saved=data.filter(id=>films.some(f=>f.id===id));}catch(_){}
+ $('collectionIntro').textContent=`${films.length} films and documentaries • Grade 5 through adult • Browse by subject, preview a trailer, and build your viewing plan. Grade suggestions are editorial planning guidance; preview your selected material.`;
+ $('filmType').options[0].textContent=`All selections (${films.length})`;
+ for(const [id,key] of [['filmTopic','subjects'],['filmEra','era'],['filmRegion','region']]) [...new Set(films.flatMap(f=>f[key]||[]))].sort().forEach(v=>$(id).add(new Option(v,v)));
+ function card(f){return `<article class="finder-card"><button type="button" class="finder-preview" data-trailer="${f.id}" aria-label="Watch ${esc(f.title)} trailer"><img src="https://i.ytimg.com/vi/${f.video}/hqdefault.jpg" alt="${esc(f.title)} trailer" loading="lazy" decoding="async" width="480" height="270"><span>▶ Watch trailer</span></button><div class="finder-card-body"><div class="finder-tags"><span class="finder-tag">${f.type==='Feature films'?'Feature film':'Documentary'}</span><span class="finder-tag">${f.year}</span></div><h4>${esc(f.title)}</h4><div class="finder-meta">${esc(grades(f))}<br>${esc(f.region)}</div><p class="finder-summary">${esc(f.context)}</p><details><summary>Content &amp; preview notes</summary><p>${esc(f.caution)}</p></details><div class="finder-card-actions"><button type="button" class="finder-select" data-select="${f.id}">Explore &amp; choose</button><button type="button" data-save="${f.id}" aria-label="${saved.includes(f.id)?'Unsave':'Save'} ${esc(f.title)}" aria-pressed="${saved.includes(f.id)}">${saved.includes(f.id)?'★ Saved':'☆ Save'}</button></div></div></article>`;}
+ function render(){
+  const query=$('filmSearch').value.trim().toLowerCase();
+  const found=films.filter(f=>(!$('filmType').value||f.type===$('filmType').value)&&(!$('filmGrade').value||f.grades.includes($('filmGrade').value))&&(!$('filmTopic').value||f.subjects.includes($('filmTopic').value))&&(!$('filmEra').value||f.era===$('filmEra').value)&&(!$('filmRegion').value||f.region===$('filmRegion').value)&&(!$('savedOnly').checked||saved.includes(f.id))&&(!query||[f.title,f.context,f.region,...f.topics,...f.subjects,...f.points].join(' ').toLowerCase().includes(query)));
+  const order=$('filmSort').value;
+  found.sort(order==='newest'?(a,b)=>b.year-a.year:order==='oldest'?(a,b)=>a.year-b.year:(a,b)=>a.title.localeCompare(b.title));
+  $('resultCount').textContent=`${found.length} of ${films.length} unique selections · ${saved.length} saved`;
+  const shelves=subjects.filter(s=>!$('filmTopic').value||s.title===$('filmTopic').value).map(s=>({s,items:found.filter(f=>f.subjects.includes(s.title))})).filter(x=>x.items.length);
+  $('subjectNav').innerHTML=shelves.map(({s,items})=>`<a href="#subject-${slug(s.title)}">${s.icon} ${esc(s.title)} <small>(${items.length})</small></a>`).join('');
+  $('filmGrid').innerHTML=found.length?shelves.map(({s,items})=>{const n=Math.min(limits[s.title]||9,items.length);return `<section class="subject-shelf" id="subject-${slug(s.title)}" aria-labelledby="heading-${slug(s.title)}"><div class="subject-heading"><div><h3 id="heading-${slug(s.title)}">${s.icon} ${esc(s.title)}</h3><p>${esc(s.description)}</p></div><span>${items.length} selections</span></div><div class="subject-grid">${items.slice(0,n).map(card).join('')}</div><div class="subject-controls">${n<items.length?`<button type="button" data-expand="${esc(s.title)}">Show ${Math.min(9,items.length-n)} more ↓</button>`:''}${n>9?`<button type="button" data-collapse="${esc(s.title)}">Show fewer ↑</button>`:''}<span>Showing ${n} of ${items.length}</span></div></section>`;}).join(''):`<div class="finder-empty"><h3>${$('savedOnly').checked?'No saved films match these filters':'No matching selections'}</h3><p>${$('savedOnly').checked?'Choose ☆ Save on any film card, then return here to see your saved collection. You can also clear the other filters.':'Try a broader subject, era or grade band.'}</p><button type="button" id="emptyReset">Reset filters</button></div>`;
+  $('emptyReset')?.addEventListener('click',reset);
+  $('filmGrid').querySelectorAll('img').forEach(img=>img.addEventListener('error',()=>{img.parentElement.classList.add('image-unavailable');img.remove();},{once:true}));
+ }
+ function reset(){for(const id of ['filmSearch','filmType','filmGrade','filmTopic','filmEra','filmRegion'])$(id).value='';$('savedOnly').checked=false;limits={};render();}
+ const briefDialog=$('briefDialog'),trailerDialog=$('trailerDialog');
+ function brief(f,trigger){
+  lastTrigger=trigger||document.activeElement;
+  $('filmBrief').innerHTML=`<div class="finder-brief"><div class="movie-kicker">Your Selected Film • Teaching Brief</div><h2 id="briefTitle">${esc(f.title)}</h2><p class="brief-subtitle">${f.year} · ${esc(f.type)} · ${esc(grades(f))}</p><p>${esc(f.context)}</p><h3>Essential question</h3><p>${esc(f.inquiry)}</p><div class="finder-brief-grid"><div><h4>Key teaching points</h4><ul>${f.points.map(p=>`<li>${esc(p)}</li>`).join('')}</ul><h4>Clip planning cue</h4><p>${esc(f.scene)}</p><p class="finder-note">Preview your edition and record the chosen start and stop times in your plan.</p></div><div><h4>Questions for viewing</h4><ol>${f.questions.map(q=>`<li>${esc(q)}</li>`).join('')}</ol><h4>Content &amp; preview notes</h4><p>${esc(f.caution)}</p></div></div><p><a href="${esc(f.evidence)}" target="_blank" rel="noopener">${esc(f.evidenceLabel)} ↗</a><br><a href="${esc(f.source)}" target="_blank" rel="noopener">Film information / publisher ↗</a></p><div class="movie-actions"><a class="movie-primary" href="../?film=${f.id}#planner">Use This Film in My Lesson →</a><button type="button" data-trailer="${f.id}">▶ Preview Trailer</button><button type="button" data-brief-save="${f.id}">${saved.includes(f.id)?'★ Saved':'☆ Save Film'}</button></div></div>`;
+  if(!briefDialog.open)briefDialog.showModal();
+  briefDialog.scrollTop=0;
+  history.replaceState(null,'',`?film=${encodeURIComponent(f.id)}#catalog`);
+ }
+ function trailer(f){$('trailerTitle').textContent=`${f.title} — Trailer`;$('youtubeFallback').href=`https://www.youtube.com/watch?v=${f.video}`;$('trailerPlayer').innerHTML=`<iframe title="${esc(f.title)} trailer" src="https://www.youtube-nocookie.com/embed/${f.video}?rel=0" allow="encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;trailerDialog.showModal();}
+ function save(f){saved=saved.includes(f.id)?saved.filter(id=>id!==f.id):[...saved,f.id];try{localStorage.setItem('etp-saved-films',JSON.stringify(saved));}catch(_){$('saveNote').textContent='Browser saving is unavailable. Saved films will last while this page stays open.';}render();if(briefDialog.open){const btn=$('filmBrief').querySelector('[data-brief-save]');if(btn)btn.textContent=saved.includes(f.id)?'★ Saved':'☆ Save Film';}}
+ document.addEventListener('click',e=>{
+  const paging=e.target.closest('[data-expand],[data-collapse]');if(paging){const name=paging.dataset.expand||paging.dataset.collapse,shelf=paging.closest('.subject-shelf'),top=shelf.getBoundingClientRect().top+scrollY;limits[name]=paging.dataset.expand?(limits[name]||9)+9:Math.max(9,(limits[name]||18)-9);render();const rebuilt=$(`subject-${slug(name)}`);if(paging.dataset.collapse)window.scrollTo({top:top-100,behavior:'auto'});rebuilt.querySelector(`[data-${paging.dataset.expand?'expand':'collapse'}]`)?.focus({preventScroll:true});return;}
+  const b=e.target.closest('[data-trailer],[data-select],[data-save],[data-brief-save]');if(!b)return;const id=b.dataset.trailer||b.dataset.select||b.dataset.save||b.dataset.briefSave,f=films.find(f=>f.id===id);if(!f)return;
+  if(b.dataset.trailer)trailer(f);else if(b.dataset.select)brief(f,b);else{const y=scrollY;save(f);if(!briefDialog.open){document.querySelector(`[data-save="${f.id}"]`)?.focus({preventScroll:true});window.scrollTo(0,y);}}
+ });
+ for(const id of ['filmSearch','filmType','filmGrade','filmTopic','filmEra','filmRegion','savedOnly','filmSort'])$(id).addEventListener(id==='filmSearch'?'input':'change',()=>{limits={};render();});
+ $('clearFilters').addEventListener('click',reset);$('closeBrief').addEventListener('click',()=>briefDialog.close());$('closeTrailer').addEventListener('click',()=>trailerDialog.close());
+ trailerDialog.addEventListener('close',()=>$('trailerPlayer').replaceChildren());
+ briefDialog.addEventListener('close',()=>{history.replaceState(null,'',location.pathname+'#catalog');lastTrigger?.isConnected&&lastTrigger.focus({preventScroll:true});});
+ for(const dialog of [briefDialog,trailerDialog])dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
+ render();const selected=films.find(f=>f.id===new URLSearchParams(location.search).get('film'));if(selected)brief(selected);
 })();
