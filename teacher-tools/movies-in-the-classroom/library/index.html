@@ -3,7 +3,7 @@
 <title>Film & Documentary Finder | Examine the Past</title>
 <meta name="description" content="Find a classroom film or documentary by grade, topic, era and region. Preview trailers and turn your selection into a film-specific inquiry lesson.">
 <link rel="stylesheet" href="../../../assets/site-shell.css?v=20261015-etp-r2">
-<link rel="stylesheet" href="../movies-v59.css?v=59"><link rel="stylesheet" href="../film-finder.css?v=20261111-1">
+<link rel="stylesheet" href="../movies-v59.css?v=20261112-2"><link rel="stylesheet" href="../film-finder.css?v=20261112-2">
 <link rel="manifest" href="../../../manifest.webmanifest"><link rel="apple-touch-icon" href="../../../app-assets/icon-180.png">
 <script defer src="../../../app-assets/install.js?v=20261108-native-menu-v17"></script>
 </head><body>
@@ -20,24 +20,26 @@
 <div class="movie-kicker">A Growing Classroom Collection</div><h2 id="catalogTitle">What are you teaching?</h2>
 <div class="finder-filters">
 <label class="finder-search">Search a title, person or teaching theme<input id="filmSearch" type="search" placeholder="Try NASA, citizenship, education…"></label>
-<label>Collection<select id="filmType"><option value="">All selections (20)</option><option>Feature films</option><option>Documentaries</option></select></label>
-<label>Grade band<select id="filmGrade"><option value="">All grade bands</option><option value="6–8">Grades 6–8</option><option value="9–12">Grades 9–12</option></select></label>
-<label>Topic<select id="filmTopic"><option value="">All topics</option></select></label>
+<label>Film format<select id="filmType"><option value="">All selections</option><option>Feature films</option><option>Documentaries</option></select></label>
+<label>Grade band<select id="filmGrade"><option value="">All grade bands</option><option value="5">Grade 5</option><option value="6–8">Grades 6–8</option><option value="9–12">Grades 9–12</option><option value="Adult">Adult learners</option></select></label>
+<label>Subject collection<select id="filmTopic"><option value="">All topics</option></select></label>
 <label>Era<select id="filmEra"><option value="">All eras</option></select></label>
 <label>Region<select id="filmRegion"><option value="">All regions</option></select></label>
 </div>
-<div class="finder-toolbar"><label><input id="savedOnly" type="checkbox"> My saved films</label><button type="button" id="clearFilters">Reset filters</button><span id="resultCount" role="status" aria-live="polite"></span></div>
+<div class="finder-toolbar"><label><input id="savedOnly" type="checkbox"> My saved films</label><button type="button" id="clearFilters">Reset filters</button><span id="resultCount" role="status" aria-live="polite"></span><label class="finder-sort">Sort<select id="filmSort"><option value="title">Title A–Z</option><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></label></div>
 <p class="finder-note" id="saveNote">Saved films stay in this browser. No account needed.</p>
-<div id="filmGrid" class="finder-grid"></div><noscript><p>Enable JavaScript to browse the collection and select a film. The <a href="../">classroom framework</a> remains available.</p></noscript>
+<nav id="subjectNav" class="finder-subject-nav" aria-label="Browse subject collections"></nav><p class="finder-note">Films can appear in more than one subject collection. Start with nine in each section, then expand to explore more.</p><div id="filmGrid" class="finder-grid"></div><noscript><p>Enable JavaScript to browse the collection and select a film. The <a href="../">classroom framework</a> remains available.</p></noscript>
 </section>
-<section class="movie-wrap finder-section" id="filmBrief" aria-label="Selected film teaching brief" hidden></section>
+
 <section class="movie-wrap finder-section finder-how"><h2>From a title to a teachable question</h2><div class="movie-three">
 <article><span>01</span><h3>Find a connection</h3><p>Choose the unit theme and grade band. Read the content notes and decide whether a film, excerpt or documentary segment fits your class.</p></article>
 <article><span>02</span><h3>Preview with a purpose</h3><p>Trailers introduce a selection; they do not establish its historical accuracy. Use the teaching brief to choose a question and a source to compare.</p></article>
 <article><span>03</span><h3>Build and adapt</h3><p>Send the title to the planner. Set class time and viewing format, add your scene notes, and print the resulting lesson.</p></article>
 </div><p class="finder-note">The embedded previews are trailers, not full films. Use the publisher link for title information and viewing options. Availability and school network access can change.</p></section>
 </main>
+<dialog id="briefDialog" class="finder-brief-dialog" aria-labelledby="briefTitle"><div class="brief-closebar"><span>Film teaching brief</span><button type="button" id="closeBrief" autofocus>Close ✕</button></div><div id="filmBrief"></div></dialog>
 <dialog id="trailerDialog" aria-labelledby="trailerTitle"><div class="trailer-head"><h2 id="trailerTitle">Trailer</h2><button type="button" id="closeTrailer">Close ✕</button></div><div id="trailerPlayer"></div><p><a id="youtubeFallback" target="_blank" rel="noopener">Open trailer on YouTube ↗</a> if the school network or uploader blocks embedded playback.</p></dialog>
-<script src="../film-catalog.js?v=20261111-1"></script><script src="../film-finder.js?v=20261111-1"></script>
+<script src="../film-catalog.js?v=20261112-2"></script><script src="../film-finder.js?v=20261112-2"></script>
 <script src="../../../assets/site-shell.js?v=20261109-footer-legal-install-v21" data-etp-root="../../../"></script>
 </body></html>
+
