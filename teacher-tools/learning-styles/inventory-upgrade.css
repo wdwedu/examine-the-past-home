@@ -1,0 +1,55 @@
+/* Learning Styles & Strategies Lab: scoped inventory usability upgrade */
+#profile{scroll-margin-top:115px}
+#profile .section-head h2{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2rem,4.6vw,3.7rem)}
+.etp-inventory-intro{border:1px solid rgba(166,255,99,.4);border-radius:22px;background:linear-gradient(125deg,#0b2417,#09100b 56%,#172317);padding:clamp(18px,3vw,32px);margin:16px 0 24px;box-shadow:0 12px 38px #0009}
+.etp-inventory-intro h3{font:700 clamp(1.5rem,3vw,2.1rem) Georgia,serif;color:#fff200;letter-spacing:normal}
+.etp-inventory-intro p{max-width:900px}
+.etp-inventory-intro .etp-lab-badges{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}
+.etp-lab-badges span{border:1px solid #456d40;color:#e0f2d9;border-radius:25px;padding:8px 12px;font:700 13px Georgia,serif}
+.etp-lab-choice{display:flex;flex-wrap:wrap;gap:12px;margin:16px 0}
+.etp-lab-choice label{display:flex;align-items:center;gap:9px;border:1px solid #547b48;border-radius:12px;padding:12px 15px;background:#0e1a11;font:700 15px Georgia,serif;cursor:pointer}
+.etp-lab-choice input{accent-color:#fff200;width:18px;height:18px}
+.etp-lab-start,.etp-lab-action{background:linear-gradient(145deg,#fff200,#cbe92d);color:#070c07;border:0;border-radius:12px;padding:14px 25px;font:700 18px Georgia,serif;cursor:pointer;min-height:50px}
+.etp-lab-start:hover,.etp-lab-action:hover{filter:brightness(1.1)}
+.etp-lab-start:focus-visible,.etp-lab-action:focus-visible{outline:3px solid #a1ff65;outline-offset:3px}
+#profile .lab-wrap{border-color:#537f48;background:#080f0a}
+#profile .lab-body{grid-template-columns:minmax(0,1fr)!important}
+#profile .question-side{order:0;min-width:0;padding:clamp(18px,3vw,42px);background:linear-gradient(145deg,#142319,#0a0f0b)}
+#profile .report-side{order:1;min-width:0;border-right:0;border-top:1px solid #375239;padding:clamp(18px,3vw,30px)}
+#profile .report-side .report-lock{display:none!important}
+#profile .question-side h3{color:#fff200;font-family:Georgia,serif;font-size:clamp(1.65rem,3vw,2.4rem);line-height:1.2;letter-spacing:normal}
+#profile .question-side .intro{color:#dae1d4;font:16px/1.6 Georgia,serif}
+#profile .question{border-color:#466048;background:linear-gradient(120deg,#111d15,#0b120d);padding:clamp(14px,2vw,22px)}
+#profile .question p{font:17px/1.52 Georgia,serif;color:#fffaf0}
+#profile .scale{gap:9px}
+#profile .scale label{position:relative}
+#profile .scale input{position:absolute;width:1px;height:1px;opacity:0;overflow:hidden}
+#profile .scale span{font:700 19px Georgia,serif;min-height:49px;background:#233126;border:1px solid #5f795c;border-radius:10px}
+#profile .scale input:checked+span{background:#fff200;color:#0a0d08;border-color:#fff200;box-shadow:0 0 0 2px #d8ef75}
+#profile .scale input:focus-visible+span{outline:3px solid #fff200;outline-offset:3px}
+#profile .scale-labels{font:14px Georgia,serif;color:#d1dbd0}
+#profile .step-actions .btn{min-height:49px;font:700 17px Georgia,serif}
+#profile .lab-top{position:relative!important;top:auto!important;min-height:74px}
+#profile .lab-brand{font-family:Georgia,serif;font-size:17px}
+#profile .page-counter{font-size:15px}
+#profile .timer{display:none}
+.etp-lab-help{border-left:3px solid #fff200;background:#152519;color:#ecf2e4;padding:13px 16px;margin:0 0 20px;font:15px/1.6 Georgia,serif;border-radius:0 9px 9px 0}
+.etp-lab-help strong{color:#fff200}
+.etp-lab-stepnav{display:flex;flex-wrap:wrap;gap:7px;align-items:center;padding:15px 0}
+.etp-lab-stepnav button{font:700 13px Georgia,serif;color:#e6efdf;background:#16221a;border:1px solid #4a7045;padding:8px 11px;min-width:40px;border-radius:9px}
+.etp-lab-stepnav button[aria-current=step]{background:#fff200;color:#10150c;border-color:#fff200}
+.etp-lab-stepnav button:not(:disabled){cursor:pointer}
+.etp-lab-stepnav button:disabled{opacity:.45}
+.etp-lab-feedback{min-height:20px;color:#fff200;margin:12px 0;font:700 15px Georgia,serif}
+#profile .report-placeholder{min-height:unset!important;height:auto!important}
+#profile .report-placeholder h3{font:700 22px Georgia,serif!important;color:#fff200!important}
+#profile:not(.etp-lab-started) .lab-wrap{display:none}
+#profile.etp-lab-started .etp-inventory-intro{display:none}
+#profile .final-report.show{background:linear-gradient(130deg,#0d1b11,#0b100b);border:1px solid #447443;border-radius:15px;padding:clamp(17px,2vw,28px)}
+#profile .final-report.show h3,#profile .final-report.show h4{font-family:Georgia,serif;color:#fff200}
+#profile .final-report.show .report-section{margin-top:20px}
+#profile .final-report.show .report-bars .bar-row{grid-template-columns:minmax(110px,190px) minmax(0,1fr) 42px}
+.etp-report-instructions{color:#deedda;font:15px/1.6 Georgia,serif;margin:14px 0;padding:15px;background:#18251c;border-radius:10px}
+@media(min-width:900px){#profile .question-side .questions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}}
+@media(max-width:600px){#profile .lab-top{flex-wrap:wrap;gap:12px}#profile .scale span{min-height:46px}#profile .question-side,#profile .report-side{padding:16px}#profile .scale{gap:5px}}
+@media(prefers-reduced-motion:reduce){#profile .q-step,#profile .scale span{animation:none!important;transition:none!important}}
