@@ -7,8 +7,8 @@
 <meta name="description" content="Plan purposeful, historically rigorous classroom film use with scene-analysis tools, historical thinking prompts, and a film lesson builder.">
 <link rel="stylesheet" href="../../assets/site-shell.css?v=20261015-etp-r2">
 <link rel="stylesheet" href="../../assets/etp-transitions.css?v=59">
-<link rel="stylesheet" href="movies-v59.css?v=59">
-<link rel="stylesheet" href="film-finder.css?v=20261111-1">
+<link rel="stylesheet" href="movies-v59.css?v=20261112-2">
+<link rel="stylesheet" href="film-finder.css?v=20261112-2">
 <link rel="manifest" href="../../manifest.webmanifest" type="application/manifest+json">
 <link rel="apple-touch-icon" sizes="180x180" href="../../app-assets/icon-180.png">
 <meta name="mobile-web-app-capable" content="yes">
@@ -17,24 +17,26 @@
 <script defer src="../../app-assets/install.js?v=20261108-native-menu-v17"></script>
 <style>.etp-back-link{position:relative;display:inline-flex;align-items:center;gap:9px;margin:16px 0 0 max(4vw,16px);padding:9px 15px;border:1px solid #fff200;border-radius:999px;color:#fff200;background:#0b182c;text-decoration:none;font:700 15px Georgia,"Times New Roman",serif;z-index:3}.etp-back-link:hover,.etp-back-link:focus-visible{background:#fff200;color:#050b15;outline-offset:3px}</style></head>
 <body>
-<main data-etp-reading="true" class="movie-main"><a class="etp-back-link" href="../" onclick="if(history.length>1&&document.referrer&&new URL(document.referrer).origin===location.origin){event.preventDefault();history.back()}">← Back to Teacher Tools</a>
+<main data-etp-reading="true" class="movie-main"><a class="etp-back-link" href="../" >← Back to Teacher Tools</a>
 <section class="movie-hero">
   <div class="movie-wrap">
-    <div class="movie-kicker">Teacher Tools • Historical Film Literacy</div>
+    <div class="movie-kicker">Teaching with Movies • Grade 5 through Adult</div>
     <h1>Movies in the Classroom</h1>
-    <p>Use film as evidence, interpretation, and historical storytelling—not just as a reward or background activity. This toolkit helps teachers plan purposeful viewing, analyze historical representation, and turn scenes into structured inquiry.</p>
+    <p>Press play on a new way to explore the past. Find a story that connects with your topic, discover what to watch for, and turn memorable scenes into questions, evidence and understanding. For teachers, independent learners and adult learning groups.</p>
+    <div class="cinema-strip" aria-hidden="true"><span><b>🎬</b>Discover a story</span><span><b>⏸</b>Pause &amp; question</span><span><b>🔎</b>Examine the evidence</span></div>
     <div class="movie-actions">
       <a class="movie-primary" href="library/">Find a Film or Documentary</a>
       <button class="movie-secondary" type="button" data-jump="planner">I Already Have a Film</button>
-      <button class="movie-secondary" type="button" data-jump="framework">View the Framework</button>
+      <button class="movie-secondary" type="button" data-jump="framework">How to Learn Through a Film</button>
     </div>
   </div>
 </section>
+<nav class="movie-section-nav" aria-label="Teaching with movies sections"><a href="library/">🎬 Film Finder</a><a href="#framework">01 · Viewing Guide</a><a href="#lenses">02 · Analysis Lenses</a><a href="#planner">03 · Lesson Builder</a><a href="#scene-analysis">04 · Scene Analysis</a><a href="#questions">05 · Questions</a></nav>
 
 <section class="movie-wrap movie-principles" id="framework">
   <div class="movie-section-head">
     <div class="movie-kicker">A Better Way to Use Film</div>
-    <h2>Before • During • After</h2>
+    <h2>01 · Your Before, During &amp; After Viewing Guide</h2>
     <p>Film becomes instruction when students know what to notice, what evidence to collect, and what questions to ask.</p>
   </div>
   <div class="movie-three">
@@ -44,8 +46,8 @@
   </div>
 </section>
 
-<section class="movie-wrap movie-lens">
-  <div class="movie-section-head"><div class="movie-kicker">Historical Thinking</div><h2>Six Lenses for Film Analysis</h2></div>
+<section class="movie-wrap movie-lens" id="lenses">
+  <div class="movie-section-head"><div class="movie-kicker">Historical Thinking</div><h2>02 · Six Lenses for Film Analysis</h2></div>
   <div class="movie-lens-grid">
     <article><strong>Sourcing</strong><p>Who made the film, when, for whom, and for what purpose?</p></article>
     <article><strong>Context</strong><p>What background knowledge is needed to understand what the film depicts?</p></article>
@@ -59,16 +61,16 @@
 <section class="movie-builder movie-wrap" id="planner">
   <div class="movie-section-head">
     <div class="movie-kicker">Interactive Teacher Tool</div>
-    <h2>Film Lesson Builder</h2>
+    <h2>03 · Film Lesson Builder</h2>
     <p>Start with a title from the film finder or enter your own. Set your teaching conditions to build an editable viewing plan with an inquiry question, evidence tasks, discussion prompts and assessment guidance.</p>
   </div>
   <div id="filmSelection" class="film-selection" hidden></div>
   <div class="movie-builder-grid">
-    <div class="movie-form">
+    <div class="movie-form"><h3 style="color:#fff200;margin-top:0">Your planning workspace</h3><p class="movie-draft-note" id="draftStatus">Your draft saves in this browser as you work.</p>
       <div class="film-extra"><label>Film / Documentary Title<input id="customTitle" maxlength="160" placeholder="Choose a title in the finder or enter your own"></label></div>
       <div class="film-extra"><label>Unit Focus / Inquiry Question<input id="unitFocus" maxlength="400" placeholder="What should students investigate?"></label></div>
       <div class="film-extra"><label>Scene Notes / Start and Stop Times<textarea id="sceneNotes" maxlength="2000" placeholder="After previewing your edition, note the scenes and timestamps you plan to use."></textarea></label></div>
-      <label>Grade Band<select id="gradeBand"><option>Grades 6–8</option><option selected>Grades 9–12</option><option>College / Adult</option></select></label>
+      <label>Grade Band<select id="gradeBand"><option>Grade 5</option><option>Grades 6–8</option><option selected>Grades 9–12</option><option>College / Adult</option></select></label>
       <label>Viewing Format<select id="viewFormat"><option>Single Scene / Clip</option><option selected>Multiple Clips</option><option>Full Film</option><option>Documentary Segment</option></select></label>
       <label>Primary Purpose<select id="purpose"><option selected>Historical Accuracy & Interpretation</option><option>Primary Source Comparison</option><option>Perspective & Representation</option><option>Cause & Effect</option><option>Change Over Time</option><option>Geography & Place</option></select></label>
       <label>Available Class Time<select id="time"><option>20–30 minutes</option><option selected>45–60 minutes</option><option>90 minutes</option><option>Multi-day lesson</option></select></label>
@@ -83,8 +85,8 @@
   </div>
 </section>
 
-<section class="movie-wrap movie-scene">
-  <div class="movie-section-head"><div class="movie-kicker">Ready-to-Use Protocol</div><h2>Scene Analysis: Observe → Verify → Interpret</h2></div>
+<section class="movie-wrap movie-scene" id="scene-analysis">
+  <div class="movie-section-head"><div class="movie-kicker">Ready-to-Use Protocol</div><h2>04 · Scene Analysis</h2></div>
   <div class="movie-scene-grid">
     <article><span>Observe</span><p>What do you literally see and hear? Record setting, clothing, objects, language, relationships, movement, music, and camera choices before judging accuracy.</p></article>
     <article><span>Verify</span><p>Which details can be checked against primary sources, scholarship, maps, timelines, photographs, laws, statistics, or other evidence?</p></article>
@@ -92,8 +94,8 @@
   </div>
 </section>
 
-<section class="movie-wrap movie-question-bank">
-  <div class="movie-section-head"><div class="movie-kicker">Question Bank</div><h2>Prompts That Move Beyond “Was It Accurate?”</h2></div>
+<section class="movie-wrap movie-question-bank" id="questions">
+  <div class="movie-section-head"><div class="movie-kicker">Question Bank</div><h2>05 · Questions to Explore</h2></div>
   <div class="movie-question-columns">
     <article><h3>Representation</h3><p>Who has agency in this scene? Who is mainly acted upon? Whose voice is missing?</p><p>How are race, class, gender, religion, nationality, or power represented?</p></article>
     <article><h3>Storytelling</h3><p>What conflict has been simplified to make the story clearer or more dramatic?</p><p>How do music, editing, lighting, casting, and pacing shape the viewer’s interpretation?</p></article>
@@ -127,9 +129,10 @@
 </section>
 </main>
 <script src="../../assets/etp-transitions.js?v=65"></script>
-<script src="film-catalog.js?v=20261111-1"></script>
-<script src="movies-v59.js?v=20261111-1"></script>
-<script src="film-planner.js?v=20261111-1"></script>
+<script src="film-catalog.js?v=20261112-2"></script>
+<script src="movies-v59.js?v=20261112-2"></script>
+<script src="film-planner.js?v=20261112-2"></script>
 <script src="../../assets/site-shell.js?v=20261109-footer-legal-install-v21" data-etp-root="../../"></script>
 </body>
 </html>
+
