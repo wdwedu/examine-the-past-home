@@ -178,7 +178,7 @@ const menuSections=[
   ["On This Day in History","today/"],["History Timeline","timeline/"],["Interactive History Map","maps/"],
   ["Classroom Management","teacher-tools/classroom-management/"],
   ["Curriculum & Lesson Design","teacher-tools/curriculum-design/"],
-  ["Learner Supports","teacher-tools/learning-styles/"],
+  ["Learning Styles & Strategies Lab","teacher-tools/learning-styles/"],
   ["Movies in the Classroom","teacher-tools/movies-in-the-classroom/"],
   ["AI in Education","teacher-tools/ai-in-education/"],
   ["Current Event Articles","resources/current-event-article-analysis/"],
@@ -312,7 +312,7 @@ footer.innerHTML='<div class="etp-footer-grid"><div><div class="etp-footer-title
 '<a href="'+u('games/presidential-challenges/')+'">Presidents</a>'+
 '<a href="'+u('games/black-history/')+'">Black History Games</a>'+
 '<a href="'+u('current-events/')+'">Current Events</a></div>'+
-'<div><div class="etp-footer-title">Teacher Tools</div><a href="'+u('teacher-tools/blooms-taxonomy/')+'">Bloom’s Taxonomy</a><a href="'+u('teacher-tools/classroom-management/')+'">Classroom Management</a><a href="'+u('teacher-tools/movies-in-the-classroom/')+'">Movies in the Classroom</a><a href="'+u('licensing/')+'">Resource Licensing</a><a href="'+u('teacher-tools/learning-styles/')+'">Learner Supports</a><a href="'+u('teacher-tools/')+'">Student &amp; Teacher Tools</a><a href="'+u('sitemap/')+'">Site Map</a><a href="'+u('faq/')+'">FAQ</a></div>'+
+'<div><div class="etp-footer-title">Teacher Tools</div><a href="'+u('teacher-tools/blooms-taxonomy/')+'">Bloom’s Taxonomy</a><a href="'+u('teacher-tools/classroom-management/')+'">Classroom Management</a><a href="'+u('teacher-tools/movies-in-the-classroom/')+'">Movies in the Classroom</a><a href="'+u('licensing/')+'">Resource Licensing</a><a href="'+u('teacher-tools/learning-styles/')+'">Learning Styles & Strategies Lab</a><a href="'+u('teacher-tools/')+'">Student &amp; Teacher Tools</a><a href="'+u('sitemap/')+'">Site Map</a><a href="'+u('faq/')+'">FAQ</a></div>'+
 '<div><div class="etp-footer-title">Legal &amp; Site</div><a href="'+u('affiliate-disclosure/')+'">Affiliate Disclosure</a><a href="'+u('careers/')+'">Careers &amp; Partnerships</a><a href="'+u('copyright/')+'">Copyright Policy</a><a href="'+u('copyright/')+'#rights-concerns">DMCA Notice</a><a href="'+u('privacy/')+'">Privacy Policy</a><a href="'+u('terms/')+'">Terms of Use</a><a href="'+u('cookies/')+'">Cookie Policy</a><a href="'+u('about/')+'">About</a><a href="'+u('')+'#contact-section">Contact Us</a>'+
 '<button class="etp-footer-install" type="button" data-etp-action="install">Install the App ↓</button></div></div>'+
 '<div class="etp-community-wrap" id="community"><div class="etp-community-title">JOIN OUR COMMUNITY</div><div class="etp-community etp-community-logos">'+
