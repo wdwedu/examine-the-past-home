@@ -1,0 +1,34 @@
+/* Bloom's Taxonomy scoped improvements. No global styles or transition changes. */
+body:has(#etp-blooms-app) #etp-blooms-app input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]),
+body:has(#etp-blooms-app) #etp-blooms-app textarea,
+body:has(#etp-blooms-app) #etp-blooms-app [contenteditable="true"],
+.etp-bloom-studio input,.etp-bloom-studio textarea{background:#fff!important;color:#111!important;border:2px solid #bdd7a9!important;border-radius:9px!important;font:normal 17px Georgia,serif!important;min-height:44px;box-sizing:border-box;}
+#etp-blooms-app input::placeholder,#etp-blooms-app textarea::placeholder,.etp-bloom-studio input::placeholder{color:#747b73!important;opacity:1!important;font-family:Georgia,serif!important}
+#etp-blooms-app input:focus-visible,#etp-blooms-app textarea:focus-visible,.etp-bloom-studio input:focus-visible{outline:3px solid #fff200!important;outline-offset:2px}
+.etp-bloom-studio select{background:#171d18;color:#f9f9f5;border:1px solid #8bff45;border-radius:9px;padding:11px;font:16px Georgia,serif;width:100%}
+.etp-bloom-studio{font-family:Georgia,serif;color:#f7f7ef;background:linear-gradient(155deg,#0f1b13,#080a08);border:1px solid #85b75c;border-radius:20px;padding:clamp(18px,3vw,34px);margin:30px auto;max-width:1150px;box-shadow:0 14px 38px #0008}
+.etp-bloom-studio h2{font:700 clamp(25px,3vw,34px) Georgia,serif;color:#fff200;margin:0 0 8px}
+.etp-bloom-studio p{line-height:1.6}
+.etp-bloom-studio .etp-controls{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:13px;margin:19px 0}
+.etp-bloom-studio label{display:flex;flex-direction:column;gap:8px;color:#ddf4d4;font-weight:bold}
+.etp-bloom-studio button{cursor:pointer;border-radius:9px;padding:11px 16px;font:700 16px Georgia,serif;background:#1b4c29;color:#fff200;border:1px solid #b6f66a}
+.etp-bloom-studio button:hover,.etp-bloom-studio button:focus-visible{background:#286a3b;outline:2px solid #fff200}
+.etp-bloom-studio .etp-output{margin-top:19px;display:grid;gap:15px}
+.etp-bloom-studio .etp-q{border:1px solid #3f6247;border-radius:12px;background:#101a14;padding:17px}
+.etp-bloom-studio .etp-q strong{color:#fff200;font:700 18px Georgia,serif}
+.etp-bloom-studio .etp-q p{margin:9px 0;color:#f8f8f2}
+.etp-bloom-studio .etp-answer{color:#cde8c5!important;font-size:15px}
+.etp-bloom-studio .etp-copy{background:#235e31;color:#fff200;padding:7px 12px;font-size:13px}
+.etp-bloom-studio .etp-scope{color:#b6d2b4;font-size:14px}
+.etp-bloom-level-extra{padding:16px 18px;margin:12px 0;border:1px solid #527144;border-radius:12px;background:#0c1510;color:#f1f4e8;font:15px/1.6 Georgia,serif}
+.etp-bloom-level-extra h4{margin:0 0 6px;color:#fff200}
+.etp-bloom-divider{display:block;width:100%;overflow:hidden;min-height:145px;margin:24px auto 36px;max-width:1200px}
+.etp-bloom-divider svg{width:100%;height:auto;display:block}
+.etp-bloom-divider .pulse{transform-box:fill-box;transform-origin:center;animation:etpPyramidTurn 6s ease-in-out infinite}
+.etp-bloom-divider .beam{animation:etpBeamMove 4s ease-in-out infinite}
+@keyframes etpPyramidTurn{0%,100%{transform:translateY(0) rotate(0deg)}45%{transform:translateY(-8px) rotate(2deg)}55%{transform:translateY(-8px) rotate(-2deg)}}
+@keyframes etpBeamMove{0%,100%{opacity:.2;transform:translateX(-20px)}50%{opacity:.9;transform:translateX(20px)}}
+.etp-bloom-nav-enhanced{position:sticky!important;top:0!important;z-index:1090!important;background:rgba(9,15,10,.96)!important;backdrop-filter:blur(9px);padding-top:5px!important;padding-bottom:5px!important}
+.etp-bloom-hover-tip{position:fixed;z-index:2147483000;background:#131a13;color:#fff200;border:1px solid #a4e65f;padding:6px 10px;border-radius:8px;font:700 14px Georgia,serif;pointer-events:none;box-shadow:0 7px 18px #000b;white-space:nowrap}
+@media(max-width:760px){.etp-bloom-studio .etp-controls{grid-template-columns:1fr}.etp-bloom-nav-enhanced{top:0!important}}
+@media(prefers-reduced-motion:reduce){.etp-bloom-divider .pulse,.etp-bloom-divider .beam{animation:none!important}}
