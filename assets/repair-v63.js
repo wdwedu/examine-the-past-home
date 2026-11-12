@@ -59,7 +59,19 @@ function boot(){
  document.querySelectorAll('.etp-icon-nav a').forEach(a=>{const label=a.parentElement.querySelector('.etp-tip')?.textContent;if(label)a.setAttribute('aria-label',label)});
  // Old globe routes now resolve to the standalone working pages.
  const aliases={'resources/learning-styles':'teacher-tools/learning-styles/','on-this-day-in-history':'today/','interactive-timeline':'timeline/','resources/blooms-taxonomy':'teacher-tools/blooms-taxonomy/','historical-maps':'maps/','resources/current-event-article-analysis':'current-events/','resources/teaching-movie-lessons':'teacher-tools/movies-in-the-classroom/'};
- document.querySelectorAll('a[href]').forEach(a=>{try{const u=new URL(a.href);if(/^(www\.)?examinethepast\.com$/.test(u.hostname)){const key=u.pathname.replace(/^\//,'').replace(/\/$/,'');const dest=aliases[key]||(/^(games|lessons|maps|timeline|today|teacher-tools)(\/|$)/.test(key)?key+'/':null);if(dest){a.href=url(dest);a.removeAttribute('target')}}}catch{}});
+ document.querySelectorAll('a[href]').forEach(a=>{
+  try{
+    const raw=a.getAttribute('href')||'';
+    // Preserve in-page navigation and downloadable/static resources.
+    if(raw.startsWith('#')||a.hasAttribute('download'))return;
+    const u=new URL(a.href);
+    if(!/^(www\.)?examinethepast\.com$/.test(u.hostname))return;
+    if(/\.[a-z0-9]+\/?$/i.test(u.pathname))return;
+    const key=u.pathname.replace(/^\//,'').replace(/\/$/,'');
+    const dest=aliases[key]||(/^(games|lessons|maps|timeline|today|teacher-tools)(\/|$)/.test(key)?key+'/':null);
+    if(dest){a.href=url(dest)+u.search+u.hash;a.removeAttribute('target');}
+  }catch{}
+ });
  document.querySelectorAll('.nav-star').forEach(a=>{a.setAttribute('data-etp-transition','globe');a.removeAttribute('target');a.addEventListener('click',e=>{if(matchMedia('(hover: none)').matches&&!a.classList.contains('tap-active')){e.preventDefault();document.querySelectorAll('.nav-star').forEach(x=>x.classList.remove('tap-active'));a.classList.add('tap-active')}});a.addEventListener('focus',()=>{if(!matchMedia('(hover: none)').matches)a.classList.add('tap-active')});a.addEventListener('pointerdown',()=>{if(!matchMedia('(hover: none)').matches)a.classList.add('tap-active')})});
  document.querySelectorAll('.globe-stage+*,.globe-hint,.hero-hint').forEach(n=>{if(/hover/i.test(n.textContent)&&n.textContent.length<180)n.textContent='Tap a light to see its label; tap again to explore. You can also select with a keyboard.'});
  // Reserve sticky header height for lesson progress and anchor destinations.
