@@ -1,6 +1,6 @@
 {
   "page": "/timeline/",
-  "artwork": "Approved cinematic batches 1 and 2",
+  "artwork": "Approved cinematic batches 1, 2, and available final-section artwork",
   "images": [
     {
       "number": 1,
@@ -121,6 +121,90 @@
       "title": "Philosophies & Faith Traditions",
       "file": "ETP_Timeline_20_Philosophies_and_Faith_Traditions.webp",
       "bytes": 290100
+    },
+    {
+      "number": 87,
+      "title": "The Web Goes Global",
+      "file": "ETP_Timeline_87_The_Web_Goes_Global.webp",
+      "bytes": 321520
+    },
+    {
+      "number": 88,
+      "title": "September 11 Attacks",
+      "file": "ETP_Timeline_88_September_11_Attacks.webp",
+      "bytes": 243078
+    },
+    {
+      "number": 89,
+      "title": "Mobile & Social Media Age",
+      "file": "ETP_Timeline_89_Mobile_and_Social_Media_Age.webp",
+      "bytes": 334208
+    },
+    {
+      "number": 90,
+      "title": "South Africa\u2019s First Multiracial Election",
+      "file": "ETP_Timeline_90_South_Africas_First_Multiracial_Election.webp",
+      "bytes": 306716
+    },
+    {
+      "number": 91,
+      "title": "Global Financial Crisis",
+      "file": "ETP_Timeline_91_Global_Financial_Crisis.webp",
+      "bytes": 249074
+    },
+    {
+      "number": 92,
+      "title": "Arab Spring",
+      "file": "ETP_Timeline_92_Arab_Spring.webp",
+      "bytes": 295766
+    },
+    {
+      "number": 93,
+      "title": "Paris Climate Agreement",
+      "file": "ETP_Timeline_93_Paris_Climate_Agreement.webp",
+      "bytes": 279004
+    },
+    {
+      "number": 94,
+      "title": "Brexit",
+      "file": "ETP_Timeline_94_Brexit.webp",
+      "bytes": 249648
+    },
+    {
+      "number": 95,
+      "title": "COVID-19 Pandemic",
+      "file": "ETP_Timeline_95_COVID_19_Pandemic.webp",
+      "bytes": 187130
+    },
+    {
+      "number": 96,
+      "title": "Wangari Maathai",
+      "file": "ETP_Timeline_96_Wangari_Maathai.webp",
+      "bytes": 387684
+    },
+    {
+      "number": 97,
+      "title": "Tim Berners-Lee and the World Wide Web",
+      "file": "ETP_Timeline_97_Tim_Berners_Lee_and_the_World_Wide_Web.webp",
+      "bytes": 221342
+    },
+    {
+      "number": 98,
+      "title": "Artificial Intelligence Becomes Everyday Infrastructure",
+      "file": "ETP_Timeline_98_Artificial_Intelligence_Becomes_Everyday_Infrastructure.webp",
+      "bytes": 207402
+    },
+    {
+      "number": 99,
+      "title": "Generative AI Enters Mass Use",
+      "file": "ETP_Timeline_99_Generative_AI_Enters_Mass_Use.webp",
+      "bytes": 298074
+    },
+    {
+      "number": 100,
+      "title": "Examine the Evidence",
+      "file": "ETP_Timeline_100_Examine_the_Evidence.webp",
+      "bytes": 267644
     }
   ]
 }
