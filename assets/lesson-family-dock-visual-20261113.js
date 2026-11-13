@@ -1,6 +1,6 @@
 /* Shared Grade 5/6 sticky dock and Grade 5 history visualization enrichment. */
 (()=>{'use strict';const current=location.pathname;
-if(!/\/lessons\/curriculum\/grade-[567]-/.test(current))return;
+if(!/\/lessons\/curriculum\/grade-[5678]-/.test(current))return;
 const grade5=/\/grade-5-/.test(current),$=s=>document.querySelector(s);
 const diagrams={
 'indigenous-nations-cultures-and-communities':['compare','Haudenosaunee','Community voices','Pueblo communities'],
