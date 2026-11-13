@@ -1,0 +1,74 @@
+/* Grade 6 Ancient World Inquiry · Examine the Past. Scoped to .g6-site */
+body.etp-curriculum{font-family:Georgia,"Times New Roman",serif;background:#020907;color:#edf3ec}
+.g6-site{--lime:#a8f27a;--gold:#fff200;--ink:#eff4e9;--panel:#0a1916;--stroke:#3e6a55;max-width:1350px!important;margin:0 auto}
+.g6-site *{box-sizing:border-box}
+.g6-site button,.g6-site select,.g6-site textarea{font-family:Georgia,"Times New Roman",serif}
+.g6-hero{background:radial-gradient(circle at 93% 18%,#28675055,transparent 36%),linear-gradient(125deg,#142f24,#0b1721 64%,#030908);border:1px solid #497b5b;border-radius:22px;padding:clamp(24px,4vw,46px);margin:12px 0 18px;position:relative;overflow:hidden}
+.g6-kicker{font:700 13px Georgia,serif;color:var(--lime);letter-spacing:.08em;text-transform:uppercase}
+.g6-hero h1{font:700 clamp(34px,5vw,64px)/1.1 Georgia,serif;color:var(--gold);max-width:1100px;margin:13px 0 18px}
+.g6-hero p{font-size:clamp(17px,1.55vw,21px);line-height:1.58;max-width:930px}
+.g6-pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:19px}
+.g6-pills span{font:700 13px Georgia,serif;color:#e3ffd1;background:#163725;border:1px solid #55865c;border-radius:99px;padding:8px 11px}
+.g6-toolbar{position:sticky;top:68px;z-index:35;display:flex;gap:9px;flex-wrap:wrap;align-items:center;background:#08140fee;border:1px solid #568264;border-radius:13px;padding:10px 13px;margin:12px 0 20px;backdrop-filter:blur(10px)}
+.g6-toolbar a,.g6-toolbar button{font:700 13px Georgia,serif;text-decoration:none;color:#fff4b7;border:1px solid #466c52;background:#14251a;border-radius:8px;padding:8px 11px;min-height:37px;cursor:pointer}
+.g6-toolbar a:hover,.g6-toolbar button:hover{background:#245238;color:#fff200}
+.g6-toolbar .g6-progress{margin-left:auto;color:#d9f4d6;font:700 13px Georgia,serif}
+.g6-layout{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(270px,.8fr);gap:22px;align-items:start}
+.g6-main{min-width:0}.g6-aside{min-width:0;position:sticky;top:140px;display:grid;gap:12px}
+.g6-panel{border:1px solid #3b6a56;border-radius:18px;background:linear-gradient(145deg,#0e211d,#08121b);padding:clamp(19px,2.7vw,30px);margin:0 0 19px}
+.g6-panel:nth-child(2n){background:linear-gradient(145deg,#10221b,#101b10)}
+.g6-panel h2{color:#fff200;font:700 clamp(23px,2.5vw,32px)/1.19 Georgia,serif;margin:0 0 14px}
+.g6-panel h3{color:#bcf697;font:700 20px Georgia,serif;margin:16px 0 9px}
+.g6-panel p,.g6-panel li{font:16px/1.7 Georgia,serif;margin:9px 0}
+.g6-panel .g6-small{font-size:14px;color:#c7d8ca}
+.g6-panel a{color:#fff200}
+.g6-visual{border:1px solid #4d7660;border-radius:14px;padding:14px;background:#06130e;overflow:hidden;margin:13px 0}
+.g6-visual svg{width:100%;height:auto;display:block;max-height:330px}
+.g6-visual figcaption{font:italic 13px/1.5 Georgia,serif;color:#cce0cc;padding-top:9px}
+.g6-note{border-left:4px solid #fff200;padding:10px 17px;background:#25311e;border-radius:0 9px 9px 0}
+.g6-keywords{display:flex;gap:7px;flex-wrap:wrap}
+.g6-keywords span{border:1px solid #60956c;border-radius:99px;padding:7px 12px;background:#143524;color:#ddf9d2;font-size:14px}
+.g6-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:15px 0}
+.g6-choices button,.g6-quiz button,.g6-activity button{font:700 15px/1.4 Georgia,serif;min-height:50px;padding:12px;text-align:left;background:linear-gradient(130deg,#1f4130,#0e281a);border:1px solid #628b65;color:#f0f7e9;border-radius:11px;cursor:pointer;transition:transform .16s,background .16s}
+.g6-choices button:hover,.g6-quiz button:hover,.g6-activity button:hover{transform:translateY(-2px);border-color:#fff200}
+.g6-choices button[aria-pressed=true],.g6-quiz button[aria-pressed=true]{background:#beed73!important;color:#10240f!important;border-color:#fff200}
+.g6-activity-result,.g6-feedback{min-height:23px;line-height:1.55;font-size:15px;color:#e6f4d9}
+.g6-quiz{padding:16px 18px;margin:17px 0;border:1px solid #456c53;border-radius:14px;background:linear-gradient(145deg,#1d2928,#10191a)}
+.g6-quiz:nth-child(3n+2){background:linear-gradient(145deg,#153728,#111a16)}
+.g6-quiz:nth-child(3n){background:linear-gradient(145deg,#2e2a1b,#131810)}
+.g6-quiz h3{margin:0 0 11px;font-size:18px;color:#fcf1a6}
+.g6-quiz button{display:block;width:100%;margin:7px 0}
+.g6-quiz[data-style=tiles] .g6-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.g6-quiz[data-style=tiles] button{text-align:center}
+.g6-quiz[data-style=decision] button{border-left:5px solid #dfc15f}
+.g6-quiz[data-style=evidence] button{border-left:5px solid #90c8f5}
+.g6-quiz .g6-response{min-height:26px;font:15px/1.5 Georgia,serif;color:#e6f1d6;margin:10px 0 0}
+.g6-reward{border:1px solid #97c65d;border-radius:13px;padding:15px;background:linear-gradient(145deg,#1a311e,#0a1c12)}
+.g6-reward strong{display:block;font:700 17px Georgia,serif;color:#fff200}
+.g6-reward .g6-seals{display:flex;flex-wrap:wrap;gap:7px;margin:9px 0}
+.g6-reward .g6-seal{font:700 13px Georgia,serif;border:1px solid #6d886b;border-radius:99px;padding:6px 10px;background:#1a241c;color:#a7c1a0}
+.g6-reward .g6-seal.earned{background:#467442;color:#fff7b3;border-color:#fff200}
+.g6-write{width:100%;background:#fff!important;color:#111!important;border:2px solid #abd492!important;border-radius:10px;padding:14px;font:17px/1.55 Georgia,serif!important;min-height:138px;resize:vertical}
+.g6-write::placeholder{color:#6e766c}
+.g6-write:focus-visible,.g6-site button:focus-visible,.g6-site a:focus-visible{outline:3px solid #fff200;outline-offset:3px}
+.g6-action{background:#20573a!important;border:1px solid #a8e778!important;border-radius:10px;color:#fff200!important;padding:11px 17px;min-height:42px;font:700 15px Georgia,serif;cursor:pointer}
+.g6-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:11px}
+.g6-guide summary{color:#fff200;cursor:pointer;padding:11px;border:1px solid #496d53;border-radius:9px;font:700 16px Georgia,serif}
+.g6-guide[open] summary{background:#183d25}
+.g6-guide>div{padding:11px 4px}
+.g6-paths{display:grid;gap:8px}
+.g6-paths span{display:block;padding:9px;background:#17251c;border-radius:8px;border:1px solid #416048;font:14px/1.45 Georgia,serif}
+.g6-source-list{padding-left:22px}
+.g6-source-list li{margin:9px 0}
+.g6-source-list a{color:#fff200;text-decoration:underline}
+.g6-aside .g6-panel{padding:20px;margin:0}
+.g6-aside p,.g6-aside li{font-size:14px}
+.g6-final{border:1px solid #85b977;background:linear-gradient(140deg,#162b23,#0a1720);padding:20px;border-radius:16px;margin-top:23px}
+.g6-final h2{color:#fff200;font:700 26px Georgia,serif}
+.g6-footer{display:flex;gap:10px;flex-wrap:wrap;padding:14px 0 40px}
+.g6-footer a{border:1px solid #57785b;color:#fff200;border-radius:10px;padding:11px 16px;text-decoration:none;background:#172820}
+.g6-status{font:700 14px Georgia,serif;color:#d6ecd7}
+@media(max-width:900px){.g6-layout{grid-template-columns:1fr}.g6-aside{position:static;grid-template-columns:repeat(2,minmax(0,1fr))}.g6-toolbar{top:0}}
+@media(max-width:620px){.g6-aside{grid-template-columns:1fr}.g6-choices{grid-template-columns:1fr}.g6-quiz[data-style=tiles] .g6-options{grid-template-columns:1fr}.g6-toolbar .g6-progress{margin:0}.g6-hero{padding:20px}}
+@media print{.g6-toolbar,.g6-quiz button,.g6-action{display:none!important}.g6-aside{position:static}.g6-panel{break-inside:avoid}}
+@media(prefers-reduced-motion:reduce){.g6-choices button,.g6-quiz button{transition:none}.g6-choices button:hover,.g6-quiz button:hover{transform:none}}
