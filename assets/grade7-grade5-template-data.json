@@ -1,0 +1,1517 @@
+{
+  "version": "2026-11-13 grade7-v1 | seventh-grade source reasoning and accessible independent inquiry",
+  "readingLevelNote": "Grade 7 target: clear, precise prose with contextual vocabulary; a formal readability and classroom-level validation remains required.",
+  "units": {
+    "7.1": {
+      "source": [
+        "National Geographic Education: Geography",
+        "https://education.nationalgeographic.org/resource/geography-article/"
+      ],
+      "video": [
+        "Crash Course Geography: What is Geography?",
+        "vlVVaZhRAEA",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "7.2": {
+      "source": [
+        "United Nations High Commissioner for Refugees: Teaching About Refugees",
+        "https://www.unhcr.org/teaching-about-refugees"
+      ],
+      "video": [
+        "Crash Course Office Hours: Geography (Migration and Displacement)",
+        "jMS-ouZNIzg",
+        3170
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "7.3": {
+      "source": [
+        "UNESCO: Silk Roads",
+        "https://www.unesco.org/en/silk-roads"
+      ],
+      "video": [
+        "Crash Course World History: Indian Ocean Trade",
+        "a6XtBLDmPA0",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "7.4": {
+      "source": [
+        "Library of Congress: Classroom Materials",
+        "https://www.loc.gov/classroom-materials/"
+      ],
+      "video": [
+        "Crash Course Geography: Tyranny of the Map",
+        "xDi-Lo0xOr8",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "7.5": {
+      "source": [
+        "UNESCO: Intangible Cultural Heritage",
+        "https://ich.unesco.org/en/home"
+      ],
+      "video": [
+        "Crash Course Geography: What Are Border Conflicts?",
+        "CgaZGbzFK1s",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "7.6": {
+      "source": [
+        "USGS: Water Science School",
+        "https://www.usgs.gov/special-topics/water-science-school"
+      ],
+      "video": [
+        "Crash Course Geography: What Is Geography?",
+        "vlVVaZhRAEA",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    }
+  },
+  "lessons": {
+    "understanding-world-regions": {
+      "title": "Understanding World Regions",
+      "unit": "7.1",
+      "unitTitle": "World Regions and Cultural Identity",
+      "seq": 1,
+      "total": 3,
+      "essential": "Who decides where one world region ends and another begins?",
+      "paragraphs": [
+        "Geographers divide the world into regions to help compare places. Physical regions may be based on mountain ranges, rainfall, rivers, or landforms. Cultural regions may be defined using languages, shared histories, religions, economic relationships, or political traditions. These boundaries do not always overlap. For example, the Sahara is a broad physical region, while the Sahel south of it includes diverse peoples and landscapes.",
+        "Regional classifications have changed as trade, migration, borders, and scholarship have changed. A map labeled the Middle East, Southwest Asia, or North Africa may organize the same places in different ways. Each label directs attention toward some relationships while making others less noticeable. A region is therefore an analytical tool, not a permanent fact about its inhabitants.",
+        "Consider an atlas that groups Turkey with Europe and another that groups it with Southwest Asia. Both can be useful if the purpose and definitions are explained. Neither map tells the full story of the people living there. A careful geographer identifies the purpose, scale, date, and criteria of any regional map before using it as evidence."
+      ],
+      "activity": "Map classification lab",
+      "task": "Design two ways to group the same six countries, identify each criterion, and explain one problem with each scheme.",
+      "vocabulary": [
+        "region",
+        "scale",
+        "physical geography",
+        "cultural boundary"
+      ],
+      "depth": "Grade 7 historical-geographic inquiry — application and corroboration",
+      "investigation": [
+        "Identify physical and cultural criteria that a map might use.",
+        "Compare two regional labels without treating either as a natural border.",
+        "Defend a classification while admitting which relationships it leaves out."
+      ],
+      "options": [
+        "What makes a regional boundary useful rather than universally true?",
+        "It follows one fixed international rule",
+        "Its criteria are stated and fit a particular question"
+      ],
+      "correct": 1,
+      "checks": [
+        {
+          "prompt": "Which answer best addresses the lesson's historical question?",
+          "options": [
+            "What makes a regional boundary useful rather than universally true?",
+            "It follows one fixed international rule",
+            "Its criteria are stated and fit a particular question"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which method would best strengthen the investigation?",
+          "options": [
+            "This source proves every community experienced the same event.",
+            "A comparison of sources can reveal different interests and missing voices.",
+            "A map alone establishes the intentions of every individual."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What would improve an evidence-based conclusion?",
+          "options": [
+            "Ignore any source that challenges the claim.",
+            "Explain a supported interpretation and its limits.",
+            "Treat an attractive diagram as proof of historical fact."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Physical features",
+          "Cultural relationships",
+          "Analytical regions"
+        ],
+        "descriptions": [
+          "Mountains and climate",
+          "Languages and historical networks",
+          "Purpose-driven groupings"
+        ]
+      },
+      "investigationKind": "map"
+    },
+    "geography-identity-and-cultural-development": {
+      "title": "Geography, Identity, and Cultural Development",
+      "unit": "7.1",
+      "unitTitle": "World Regions and Cultural Identity",
+      "seq": 2,
+      "total": 3,
+      "essential": "How can geography shape identity without determining it?",
+      "paragraphs": [
+        "Places shape experiences through climate, access to water, travel routes, resources, and settlement patterns. Along the Andes, mountain environments affected farming techniques and transportation, while people built terraces, roads, and institutions to adapt. The land posed challenges, but people developed many ways to respond.",
+        "Identity also develops through language, beliefs, memory, education, and exchanges with other groups. Trade and migration connect places that might look far apart on a relief map. The same mountain region can include several languages and traditions, and people who leave a homeland may continue to identify with it.",
+        "Geographic determinism is the mistaken idea that the environment alone explains a society's character or future. Compare an Andean settlement with a coastal city: each responds to different conditions, but neither follows a single inevitable path. Ask what choices and historical events helped create their differences."
+      ],
+      "activity": "Place and identity evidence sorter",
+      "task": "Compare the influence of physical landforms, historical decisions, and human networks without ranking cultures.",
+      "vocabulary": [
+        "identity",
+        "adaptation",
+        "geographic determinism",
+        "cultural geography"
+      ],
+      "depth": "Grade 7 historical-geographic inquiry — application and corroboration",
+      "investigation": [
+        "Locate a specific place and describe its environmental constraints.",
+        "Trace one human adaptation or connection across space.",
+        "Explain why geography is an influence, not a destiny."
+      ],
+      "options": [
+        "Which claim best avoids geographic determinism?",
+        "Mountains always produce one political system",
+        "Culture depends entirely on temperature"
+      ],
+      "correct": 2,
+      "checks": [
+        {
+          "prompt": "Which answer best addresses the lesson's historical question?",
+          "options": [
+            "Which claim best avoids geographic determinism?",
+            "Mountains always produce one political system",
+            "Culture depends entirely on temperature"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which method would best strengthen the investigation?",
+          "options": [
+            "The date, creator, and purpose are unnecessary details.",
+            "A longer source is always more reliable.",
+            "Context and corroboration are needed to assess the claim."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What would improve an evidence-based conclusion?",
+          "options": [
+            "Ignore any source that challenges the claim.",
+            "Explain a supported interpretation and its limits.",
+            "Treat an attractive diagram as proof of historical fact."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Physical setting",
+          "Human decisions",
+          "Cultural identity"
+        ],
+        "descriptions": [
+          "Relief and environment",
+          "Settlement and trade choices",
+          "Language and memory"
+        ]
+      },
+      "investigationKind": "compare"
+    },
+    "comparing-cultural-landscapes": {
+      "title": "Comparing Cultural Landscapes",
+      "unit": "7.1",
+      "unitTitle": "World Regions and Cultural Identity",
+      "seq": 3,
+      "total": 3,
+      "essential": "What can a landscape reveal about its history—and what remains hidden?",
+      "paragraphs": [
+        "A cultural landscape is an environment shaped through the interaction of people and place. Farming terraces, religious buildings, street layouts, fields, and transportation routes can preserve traces of earlier decisions. A city square might show how a community gathered or governed, yet the architecture alone cannot reveal every resident's experience.",
+        "Landscapes change as buildings are reused, neighborhoods expand, people migrate, and governments invest in particular spaces. Historical photographs, land records, oral histories, and archaeological evidence can show different stages of change. If a monument survives, its importance to present-day people may differ from its original purpose.",
+        "Compare a terraced farming landscape with a port neighborhood. Identify what was physically constructed, who might have maintained it, and which voices the visual evidence omits. Be cautious about assuming a prosperous building means every nearby household enjoyed the same resources."
+      ],
+      "activity": "Landscape evidence gallery",
+      "task": "Analyze a hypothetical port plan and a farming terrace diagram; separate observations, inferences, and missing voices.",
+      "vocabulary": [
+        "cultural landscape",
+        "built environment",
+        "continuity",
+        "land use"
+      ],
+      "depth": "Grade 7 historical-geographic inquiry — application and corroboration",
+      "investigation": [
+        "Record visible features without claiming to know their purpose.",
+        "Compare two historical periods using buildings, maps, or testimony.",
+        "State a question that a landscape image alone cannot answer."
+      ],
+      "options": [
+        "What is a limitation of studying one historic building?",
+        "It reveals all residents' beliefs",
+        "It may hide unequal experiences around it"
+      ],
+      "correct": 1,
+      "checks": [
+        {
+          "prompt": "Which answer best addresses the lesson's historical question?",
+          "options": [
+            "What is a limitation of studying one historic building?",
+            "It reveals all residents' beliefs",
+            "It may hide unequal experiences around it"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which method would best strengthen the investigation?",
+          "options": [
+            "One diagram establishes exact historical measurements.",
+            "A clearly labeled diagram can show a relationship without proving a specific journey.",
+            "All schematic maps are authentic artifacts."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What would improve an evidence-based conclusion?",
+          "options": [
+            "Ignore any source that challenges the claim.",
+            "Explain a supported interpretation and its limits.",
+            "Treat an attractive diagram as proof of historical fact."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Buildings",
+          "Historical layers",
+          "Missing voices"
+        ],
+        "descriptions": [
+          "Visible structures",
+          "Changes over time",
+          "People not represented"
+        ]
+      },
+      "investigationKind": "gallery"
+    },
+    "why-do-people-migrate": {
+      "title": "Why Do People Migrate?",
+      "unit": "7.2",
+      "unitTitle": "Migration and Settlement",
+      "seq": 1,
+      "total": 3,
+      "essential": "Why do people leave, stay, or return?",
+      "paragraphs": [
+        "Migration refers to movement between places, temporarily or permanently. Some people move toward work, education, family, or safety; others flee conflict, persecution, or environmental danger. Individual decisions are often shaped by government rules and available resources. A push-pull diagram can organize reasons, but it should not make migration seem simple or entirely voluntary.",
+        "Moving also involves barriers: money, distance, legal restrictions, language access, and obligations to people who remain. Historical records may capture a government's categories rather than migrants' own reasons. Compare shipping lists or censuses with family letters or oral histories when available.",
+        "People who remain in place may face the same pressures as those who leave but lack a safe route or prefer strong community ties. A sensitive analysis avoids treating migrants as a single group. It asks whose choice was possible, whose movement was forced, and how circumstances changed afterward."
+      ],
+      "activity": "Migration decision tree",
+      "task": "Evaluate a fictional household's three choices using stated constraints; distinguish voluntary movement from forced displacement.",
+      "vocabulary": [
+        "migration",
+        "displacement",
+        "push factor",
+        "pull factor"
+      ],
+      "depth": "Grade 7 historical-geographic inquiry — application and corroboration",
+      "investigation": [
+        "Identify possible opportunities and pressures in a documented case.",
+        "Compare the choices available to different people.",
+        "Explain why a single reason rarely explains every move."
+      ],
+      "options": [
+        "Which statement best captures migration decisions?",
+        "They often combine pressures, opportunities, and constraints",
+        "Every move is completely voluntary"
+      ],
+      "correct": 0,
+      "checks": [
+        {
+          "prompt": "Which answer best addresses the lesson's historical question?",
+          "options": [
+            "Which statement best captures migration decisions?",
+            "They often combine pressures, opportunities, and constraints",
+            "Every move is completely voluntary"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would best strengthen the investigation?",
+          "options": [
+            "This source proves every community experienced the same event.",
+            "A comparison of sources can reveal different interests and missing voices.",
+            "A map alone establishes the intentions of every individual."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What would improve an evidence-based conclusion?",
+          "options": [
+            "Ignore any source that challenges the claim.",
+            "Explain a supported interpretation and its limits.",
+            "Treat an attractive diagram as proof of historical fact."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Conditions at origin",
+          "Barriers and decisions",
+          "Arrival and adaptation"
+        ],
+        "descriptions": [
+          "Safety and opportunity",
+          "Routes, laws, resources",
+          "New ties and challenges"
+        ]
+      },
+      "investigationKind": "decision"
+    },
+    "historical-migration-and-population-change": {
+      "title": "Historical Migration and Population Change",
+      "unit": "7.2",
+      "unitTitle": "Migration and Settlement",
+      "seq": 2,
+      "total": 3,
+      "essential": "How can population evidence reveal patterns but still leave people out?",
+      "paragraphs": [
+        "Historians use censuses, tax lists, migration records, settlement maps, and archaeological evidence to estimate population changes. Each record has a purpose and limitations. A census may count households but overlook people whom officials excluded or categorized unfairly. A map of changing settlements can indicate movement without explaining every family's reason.",
+        "Large-scale changes resulted from different causes across history: war, disease, forced labor, trade, changing states, and agricultural opportunities. During the Atlantic slave trade, millions of Africans were forcibly transported; that cannot be described as ordinary voluntary immigration. Distinguish coercion from choice when interpreting demographic data.",
+        "A growing urban population may reflect births, migration, expanded boundaries, or changes in recordkeeping. Before concluding that everyone was better off, compare mortality, labor, housing, and testimony. Reliable analysis asks what a statistic measures and what people might be missing from its categories."
+      ],
+      "activity": "Population evidence audit",
+      "task": "Interpret a clearly fictional bar chart, test two competing explanations, and identify missing data.",
+      "vocabulary": [
+        "population",
+        "census",
+        "demography",
+        "forced migration"
+      ],
+      "depth": "Grade 7 historical-geographic inquiry — application and corroboration",
+      "investigation": [
+        "Identify exactly what a census or chart counts.",
+        "Compare voluntary and forced movements using accurate language.",
+        "Evaluate a claim that population change proves prosperity."
+      ],
+      "options": [
+        "Why might two censuses disagree?",
+        "The larger number is always correct",
+        "Counts always represent every resident"
+      ],
+      "correct": 2,
+      "checks": [
+        {
+          "prompt": "Which answer best addresses the lesson's historical question?",
+          "options": [
+            "Why might two censuses disagree?",
+            "The larger number is always correct",
+            "Counts always represent every resident"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which method would best strengthen the investigation?",
+          "options": [
+            "The date, creator, and purpose are unnecessary details.",
+            "A longer source is always more reliable.",
+            "Context and corroboration are needed to assess the claim."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What would improve an evidence-based conclusion?",
+          "options": [
+            "Ignore any source that challenges the claim.",
+            "Explain a supported interpretation and its limits.",
+            "Treat an attractive diagram as proof of historical fact."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical records",
+          "Population pattern",
+          "Interpretation limits"
+        ],
+        "descriptions": [
+          "Census and tax lists",
+          "Movement and growth",
+          "People left uncounted"
+        ]
+      },
+      "investigationKind": "evidence"
+    },
+    "migration-identity-and-cultural-exchange": {
+      "title": "Migration, Identity, and Cultural Exchange",
+      "unit": "7.2",
+      "unitTitle": "Migration and Settlement",
+      "seq": 3,
+      "total": 3,
+      "essential": "How can people preserve traditions while developing new ones?",
+      "paragraphs": [
+        "People carry languages, religious practices, foodways, music, and memories across distances. Diaspora communities may maintain connections to a homeland while creating new identities in a different setting. Traditions can change through marriage, commerce, adaptation, and the passing of generations. Change does not mean that a culture has disappeared.",
+        "On the Swahili coast, African communities participated in Indian Ocean exchanges and developed urban traditions influenced by many connections. Swahili language and architecture reflect histories that cannot be reduced to a single outside origin. Exchange often involves choices, creativity, and unequal power.",
+        "Compare an object's imported material with the local way it was used. A bead or coin can reveal contact but not the entire story of a person's identity. Ask who described a cultural change, what evidence supports it, and whether descendants understand the tradition differently."
+      ],
+      "activity": "Cultural connections storyboard",
+      "task": "Track how a fictional musical instrument changes through three communities, distinguishing invention from historical proof.",
+      "vocabulary": [
+        "diaspora",
+        "identity",
+        "exchange",
+        "continuity"
+      ],
+      "depth": "Grade 7 historical-geographic inquiry — application and corroboration",
+      "investigation": [
+        "Identify a tradition that communities might carry or adapt.",
+        "Compare evidence of continuity with evidence of change.",
+        "Explain why material objects alone cannot define a community."
+      ],
+      "options": [
+        "What does a diaspora community often maintain?",
+        "Only one unchanged custom",
+        "Some connections to a homeland alongside new experiences"
+      ],
+      "correct": 1,
+      "checks": [
+        {
+          "prompt": "Which answer best addresses the lesson's historical question?",
+          "options": [
+            "What does a diaspora community often maintain?",
+            "Only one unchanged custom",
+            "Some connections to a homeland alongside new experiences"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which method would best strengthen the investigation?",
+          "options": [
+            "One diagram establishes exact historical measurements.",
+            "A clearly labeled diagram can show a relationship without proving a specific journey.",
+            "All schematic maps are authentic artifacts."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What would improve an evidence-based conclusion?",
+          "options": [
+            "Ignore any source that challenges the claim.",
+            "Explain a supported interpretation and its limits.",
+            "Treat an attractive diagram as proof of historical fact."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Homeland ties",
+          "Encounters",
+          "New expressions"
+        ],
+        "descriptions": [
+          "Memory and languages",
+          "Trade and daily life",
+          "Adapted traditions"
+        ]
+      },
+      "investigationKind": "timeline"
+    },
+    "the-silk-roads-and-global-connections": {
+      "title": "The Silk Roads and Global Connections",
+      "unit": "7.3",
+      "unitTitle": "Trade Networks and Connections",
+      "seq": 1,
+      "total": 4,
+      "essential": "Why were the Silk Roads networks rather than a single highway?",
+      "paragraphs": [
+        "The Silk Roads describe overlapping routes that linked communities across parts of Eurasia at different times. Caravans crossed deserts and mountain corridors through oasis towns and market centers. Merchants traded silk, horses, glass, metalwork, and many other products. Few travelers crossed the entire network; goods often changed hands repeatedly.",
+        "Exchange also moved artistic ideas, scientific knowledge, and religious traditions. The significance of an oasis or port could rise or fall with war, rulers, climate, or demand. Routes were not permanently open, and the modern name Silk Roads was created long after many of these exchanges took place.",
+        "A map tracing one neat line can mislead viewers. Compare a network schematic with dated sites and archaeological finds. A distant object shows a connection may have existed, but it rarely proves the identity of every trader or the exact route traveled."
+      ],
+      "activity": "Caravan route network",
+      "task": "Make three route decisions and justify the use of exchange centers, water access, and historical uncertainty.",
+      "vocabulary": [
+        "caravan",
+        "oasis",
+        "network",
+        "intermediary"
+      ],
+      "depth": "Grade 7 historical-geographic inquiry — application and corroboration",
+      "investigation": [
+        "Locate a plausible exchange corridor and its geographic obstacles.",
+        "Explain how goods might move through several intermediaries.",
+        "Assess why a route diagram cannot prove every individual journey."
+      ],
+      "options": [
+        "What makes a network model more accurate?",
+        "Goods often passed through several communities",
+        "Every trader traveled the whole distance"
+      ],
+      "correct": 0,
+      "checks": [
+        {
+          "prompt": "Which answer best addresses the lesson's historical question?",
+          "options": [
+            "What makes a network model more accurate?",
+            "Goods often passed through several communities",
+            "Every trader traveled the whole distance"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would best strengthen the investigation?",
+          "options": [
+            "This source proves every community experienced the same event.",
+            "A comparison of sources can reveal different interests and missing voices.",
+            "A map alone establishes the intentions of every individual."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What would improve an evidence-based conclusion?",
+          "options": [
+            "Ignore any source that challenges the claim.",
+            "Explain a supported interpretation and its limits.",
+            "Treat an attractive diagram as proof of historical fact."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Producers",
+          "Oasis exchange",
+          "Regional markets"
+        ],
+        "descriptions": [
+          "Goods at origins",
+          "Water and intermediaries",
+          "Multiple destinations"
+        ]
+      },
+      "investigationKind": "network"
+    },
+    "indian-ocean-trade-networks": {
+      "title": "Indian Ocean Trade Networks",
+      "unit": "7.3",
+      "unitTitle": "Trade Networks and Connections",
+      "seq": 2,
+      "total": 4,
+      "essential": "How did seasonal winds help connect distant societies?",
+      "paragraphs": [
+        "Monsoon winds change direction seasonally across parts of the Indian Ocean. Sailors learned to plan voyages using patterns of wind and water. Port cities linked East Africa, Arabia, India, Southeast Asia, and China at different times, allowing goods and people to move through maritime exchanges.",
+        "Trade supported communities such as those along the Swahili coast, whose cultures developed through African histories and overseas connections. Cargo included spices, textiles, ceramics, and other goods. Merchant networks were not controlled by one ruler, and port societies had varied languages, beliefs, and institutions.",
+        "The ocean did not erase risk or inequality. Bad weather, political conflict, and distance affected travel. Study a wind-direction diagram alongside port evidence and written accounts; distinguish a possible sailing season from proof of a particular voyage."
+      ],
+      "activity": "Monsoon navigation challenge",
+      "task": "Select outbound and return seasons in a fictional shipping plan, then explain how winds and ports shaped decisions.",
+      "vocabulary": [
+        "monsoon",
+        "maritime",
+        "port",
+        "navigation"
+      ],
+      "depth": "Grade 7 historical-geographic inquiry — application and corroboration",
+      "investigation": [
+        "Identify what seasonal wind shifts made possible.",
+        "Trace a multi-stop trading network across the Indian Ocean.",
+        "Challenge a claim that one empire managed every port."
+      ],
+      "options": [
+        "What helped sailors time many Indian Ocean voyages?",
+        "A constant wind in one direction",
+        "Seasonal monsoon patterns"
+      ],
+      "correct": 1,
+      "checks": [
+        {
+          "prompt": "Which answer best addresses the lesson's historical question?",
+          "options": [
+            "What helped sailors time many Indian Ocean voyages?",
+            "A constant wind in one direction",
+            "Seasonal monsoon patterns"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which method would best strengthen the investigation?",
+          "options": [
+            "The date, creator, and purpose are unnecessary details.",
+            "A longer source is always more reliable.",
+            "Context and corroboration are needed to assess the claim."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What would improve an evidence-based conclusion?",
+          "options": [
+            "Ignore any source that challenges the claim.",
+            "Explain a supported interpretation and its limits.",
+            "Treat an attractive diagram as proof of historical fact."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Seasonal winds",
+          "Ocean crossings",
+          "Port exchanges"
+        ],
+        "descriptions": [
+          "Changing directions",
+          "Planned voyages",
+          "Cultural interactions"
+        ]
+      },
+      "investigationKind": "trade"
+    },
+    "trans-saharan-trade-and-african-kingdoms": {
+      "title": "Trans-Saharan Trade and African Kingdoms",
+      "unit": "7.3",
+      "unitTitle": "Trade Networks and Connections",
+      "seq": 3,
+      "total": 4,
+      "essential": "How did West African states participate in long-distance exchange?",
+      "paragraphs": [
+        "Trans-Saharan routes connected the Sahel and West African communities with North African markets. Caravans used knowledge of desert routes, water sources, and pack animals to transport goods across difficult environments. Salt and gold were important products, but the trade involved more than those two commodities.",
+        "The Mali Empire grew influential in the thirteenth and fourteenth centuries. Mansa Musa's pilgrimage in 1324–1325 reflected links among West Africa, the Islamic world, and Mediterranean economies. Centers such as Timbuktu became known for commerce and scholarship, although their histories varied by period.",
+        "Travel accounts often emphasized powerful leaders and valuable goods while overlooking farmers, artisans, women, and other people sustaining these networks. A careful historian studies local scholarship and archaeological evidence rather than viewing African states only through outside observers."
+      ],
+      "activity": "Sahel market and manuscript inquiry",
+      "task": "Compare a route map with evidence of scholarship in Timbuktu, then address what each source leaves out.",
+      "vocabulary": [
+        "Sahel",
+        "caravan",
+        "Mali Empire",
+        "pilgrimage"
+      ],
+      "depth": "Grade 7 historical-geographic inquiry — application and corroboration",
+      "investigation": [
+        "Identify environmental challenges along trans-Saharan routes.",
+        "Connect state power to commerce without equating wealth with equality.",
+        "Analyze how a traveler's account may differ from local sources."
+      ],
+      "options": [
+        "Which conclusion is best supported by Timbuktu's scholarly history?",
+        "West African cities had important traditions of learning",
+        "Only foreign traders produced knowledge"
+      ],
+      "correct": 0,
+      "checks": [
+        {
+          "prompt": "Which answer best addresses the lesson's historical question?",
+          "options": [
+            "Which conclusion is best supported by Timbuktu's scholarly history?",
+            "West African cities had important traditions of learning",
+            "Only foreign traders produced knowledge"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would best strengthen the investigation?",
+          "options": [
+            "One diagram establishes exact historical measurements.",
+            "A clearly labeled diagram can show a relationship without proving a specific journey.",
+            "All schematic maps are authentic artifacts."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What would improve an evidence-based conclusion?",
+          "options": [
+            "Ignore any source that challenges the claim.",
+            "Explain a supported interpretation and its limits.",
+            "Treat an attractive diagram as proof of historical fact."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Sahel communities",
+          "Caravan routes",
+          "Markets and scholarship"
+        ],
+        "descriptions": [
+          "Local producers",
+          "Desert travel",
+          "West African centers"
+        ]
+      },
+      "investigationKind": "council"
+    },
+    "goods-ideas-and-the-growth-of-cities": {
+      "title": "Goods, Ideas, and the Growth of Cities",
+      "unit": "7.3",
+      "unitTitle": "Trade Networks and Connections",
+      "seq": 4,
+      "total": 4,
+      "essential": "How can trade reshape urban life without benefiting everyone equally?",
+      "paragraphs": [
+        "Cities often developed at river crossings, harbors, and intersections of caravan routes. Markets created opportunities for merchants, craftspeople, interpreters, and service workers. Growing exchanges encouraged storage, credit, transport, and institutions that helped people coordinate activity.",
+        "Ports such as Kilwa and cities such as Timbuktu grew through different networks and local histories. A single map cannot show the uneven effects of commerce: wealthy merchants might gain influence while other residents faced high prices, restricted access, or unequal working conditions.",
+        "Compare a building plan, a commodity list, and a travel account. Each shows a different aspect of urban life. Do not assume that a valuable imported object proves everyone in the city was prosperous or that trade alone explains its culture."
+      ],
+      "activity": "City growth systems lab",
+      "task": "Build a city-services diagram tying transport, market supply, labor, and civic decision-making to a real historical example.",
+      "vocabulary": [
+        "urbanization",
+        "commerce",
+        "intermediary",
+        "inequality"
+      ],
+      "depth": "Grade 7 historical-geographic inquiry — application and corroboration",
+      "investigation": [
+        "Identify connections between location and exchange.",
+        "Compare opportunities and inequalities created by commerce.",
+        "Explain the difference between a trading city's fame and daily life."
+      ],
+      "options": [
+        "What is a defensible conclusion about trade cities?",
+        "Trade always created equal wealth",
+        "Cities could grow while benefits remained unequal"
+      ],
+      "correct": 1,
+      "checks": [
+        {
+          "prompt": "Which answer best addresses the lesson's historical question?",
+          "options": [
+            "What is a defensible conclusion about trade cities?",
+            "Trade always created equal wealth",
+            "Cities could grow while benefits remained unequal"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which method would best strengthen the investigation?",
+          "options": [
+            "This source proves every community experienced the same event.",
+            "A comparison of sources can reveal different interests and missing voices.",
+            "A map alone establishes the intentions of every individual."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What would improve an evidence-based conclusion?",
+          "options": [
+            "Ignore any source that challenges the claim.",
+            "Explain a supported interpretation and its limits.",
+            "Treat an attractive diagram as proof of historical fact."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Transport routes",
+          "Urban services",
+          "People and power"
+        ],
+        "descriptions": [
+          "Goods and travelers",
+          "Storage and markets",
+          "Unequal outcomes"
+        ]
+      },
+      "investigationKind": "map"
+    },
+    "comparing-political-systems": {
+      "title": "Comparing Political Systems",
+      "unit": "7.4",
+      "unitTitle": "Government and Economic Systems",
+      "seq": 1,
+      "total": 3,
+      "essential": "How do political institutions distribute power and responsibility?",
+      "paragraphs": [
+        "Governments make and enforce decisions, but political systems differ in who participates, who holds authority, and how power is limited. Monarchies, republics, councils, and empires have taken different forms across history. A label alone does not explain how a particular government operated.",
+        "Medieval European kingdoms and West African states, for example, developed institutions suited to their histories and relationships. Some rulers consulted advisers or assemblies; other communities used councils and collective processes. Formal rules did not always match how decisions were made in daily practice.",
+        "An effective comparison uses consistent questions: who can decide, who must obey, how are disputes handled, and who is excluded? Avoid ranking societies using a single modern ideal without explaining the historical context and the consequences for different people."
+      ],
+      "activity": "Government council comparison",
+      "task": "Evaluate two simplified historical governance models using power, representation, accountability, and exclusion.",
+      "vocabulary": [
+        "authority",
+        "legitimacy",
+        "institution",
+        "participation"
+      ],
+      "depth": "Grade 7 historical-geographic inquiry — application and corroboration",
+      "investigation": [
+        "Identify an institution's stated responsibilities.",
+        "Compare who participates and how authority is checked.",
+        "Distinguish formal rules from daily enforcement."
+      ],
+      "options": [
+        "Which question best compares different governments?",
+        "How large were their palaces?",
+        "Did rulers wear the same clothing?"
+      ],
+      "correct": 2,
+      "checks": [
+        {
+          "prompt": "Which answer best addresses the lesson's historical question?",
+          "options": [
+            "Which question best compares different governments?",
+            "How large were their palaces?",
+            "Did rulers wear the same clothing?"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which method would best strengthen the investigation?",
+          "options": [
+            "The date, creator, and purpose are unnecessary details.",
+            "A longer source is always more reliable.",
+            "Context and corroboration are needed to assess the claim."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What would improve an evidence-based conclusion?",
+          "options": [
+            "Ignore any source that challenges the claim.",
+            "Explain a supported interpretation and its limits.",
+            "Treat an attractive diagram as proof of historical fact."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Political authority",
+          "Decision process",
+          "Public consequences"
+        ],
+        "descriptions": [
+          "Rulers or councils",
+          "Rules and participation",
+          "Rights and exclusions"
+        ]
+      },
+      "investigationKind": "compare"
+    },
+    "resources-trade-and-economic-decisions": {
+      "title": "Resources, Trade, and Economic Decisions",
+      "unit": "7.4",
+      "unitTitle": "Government and Economic Systems",
+      "seq": 2,
+      "total": 3,
+      "essential": "Why do societies make different choices about scarce resources?",
+      "paragraphs": [
+        "People need water, food, tools, energy, and materials, but resources are unevenly available and their value depends on technology and social conditions. Scarcity means that using a resource one way may limit another use. Trade can expand choices but also create dependencies.",
+        "Historical communities organized labor, land, markets, taxes, and shared resources through different institutions. Along caravan routes, communities traded goods they produced or obtained from nearby regions; elsewhere, governments built facilities for irrigation or transportation. Geography offered opportunities, while political decisions affected who could access them.",
+        "Consider a town choosing between repairing a canal and expanding a road. Both investments could help residents, but costs and benefits would differ. Evidence-based economic history asks whose labor is required, who gains access, and how choices change during shortages."
+      ],
+      "activity": "Resource budget negotiation",
+      "task": "Allocate a hypothetical town budget among irrigation, storage, and trade, then defend a decision using an opportunity-cost explanation.",
+      "vocabulary": [
+        "scarcity",
+        "opportunity cost",
+        "allocation",
+        "interdependence"
+      ],
+      "depth": "Grade 7 historical-geographic inquiry — application and corroboration",
+      "investigation": [
+        "Identify a choice involving limited resources.",
+        "Compare effects on different groups and time periods.",
+        "Explain what is given up by a chosen investment."
+      ],
+      "options": [
+        "What does opportunity cost identify?",
+        "The value of the next-best option given up",
+        "Only the amount of money spent"
+      ],
+      "correct": 0,
+      "checks": [
+        {
+          "prompt": "Which answer best addresses the lesson's historical question?",
+          "options": [
+            "What does opportunity cost identify?",
+            "The value of the next-best option given up",
+            "Only the amount of money spent"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would best strengthen the investigation?",
+          "options": [
+            "One diagram establishes exact historical measurements.",
+            "A clearly labeled diagram can show a relationship without proving a specific journey.",
+            "All schematic maps are authentic artifacts."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What would improve an evidence-based conclusion?",
+          "options": [
+            "Ignore any source that challenges the claim.",
+            "Explain a supported interpretation and its limits.",
+            "Treat an attractive diagram as proof of historical fact."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Resources",
+          "Competing choices",
+          "Consequences"
+        ],
+        "descriptions": [
+          "Water and land",
+          "Budget decisions",
+          "Winners and trade-offs"
+        ]
+      },
+      "investigationKind": "gallery"
+    },
+    "how-geography-influences-power": {
+      "title": "How Geography Influences Power",
+      "unit": "7.4",
+      "unitTitle": "Government and Economic Systems",
+      "seq": 3,
+      "total": 3,
+      "essential": "How can location strengthen or limit political influence?",
+      "paragraphs": [
+        "Rivers, mountain passes, ports, and fertile areas can affect transport, defense, and trade. States may try to control these places because access can influence revenue and military movement. A map showing a strategic position, however, cannot prove that a government will remain powerful.",
+        "Control requires people, institutions, alliances, and knowledge. The same trade route can support merchants and provide a point of tension among states. Over time, changing technologies or trading patterns can reduce a location's advantage.",
+        "Examine two places: a guarded mountain pass and an open seaport. Each has strengths and vulnerabilities. Distinguish the opportunities created by location from the historical choices that turned those opportunities into political power."
+      ],
+      "activity": "Geographic power hearing",
+      "task": "Advise a historical ruler on two strategic places, identify the risks of controlling them, and challenge geographic determinism.",
+      "vocabulary": [
+        "strategic location",
+        "territory",
+        "infrastructure",
+        "geopolitics"
+      ],
+      "depth": "Grade 7 historical-geographic inquiry — application and corroboration",
+      "investigation": [
+        "Find a landform or route important to connections.",
+        "Explain how institutions influence the use of that location.",
+        "Compare short-term advantage with long-term vulnerability."
+      ],
+      "options": [
+        "Why is controlling a port not enough to ensure lasting power?",
+        "The port determines every political outcome",
+        "Power also depends on institutions and changing conditions"
+      ],
+      "correct": 1,
+      "checks": [
+        {
+          "prompt": "Which answer best addresses the lesson's historical question?",
+          "options": [
+            "Why is controlling a port not enough to ensure lasting power?",
+            "The port determines every political outcome",
+            "Power also depends on institutions and changing conditions"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which method would best strengthen the investigation?",
+          "options": [
+            "This source proves every community experienced the same event.",
+            "A comparison of sources can reveal different interests and missing voices.",
+            "A map alone establishes the intentions of every individual."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What would improve an evidence-based conclusion?",
+          "options": [
+            "Ignore any source that challenges the claim.",
+            "Explain a supported interpretation and its limits.",
+            "Treat an attractive diagram as proof of historical fact."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Strategic places",
+          "Political choices",
+          "Changing power"
+        ],
+        "descriptions": [
+          "Ports and passes",
+          "Authority and alliances",
+          "New routes and risks"
+        ]
+      },
+      "investigationKind": "decision"
+    },
+    "world-religions-and-cultural-exchange": {
+      "title": "World Religions and Cultural Exchange",
+      "unit": "7.5",
+      "unitTitle": "Culture, Religion, and Society",
+      "seq": 1,
+      "total": 3,
+      "essential": "How have belief traditions shaped societies while remaining diverse within themselves?",
+      "paragraphs": [
+        "Religious traditions have influenced calendars, architecture, education, art, law, and community life. Buddhism, Christianity, Hindu traditions, Islam, Judaism, and other traditions have histories rooted in particular places and periods. Each contains diverse interpretations and practices; no single monument or individual represents everyone.",
+        "Merchants, migrants, scholars, families, and rulers helped ideas travel across regions. As traditions spread, communities translated texts, built new institutions, and adapted practices to local circumstances. Exchange involved dialogue, creativity, and at times conflict or unequal power.",
+        "Historical study describes people's beliefs respectfully and distinguishes the viewpoints found in sources from the beliefs of the historian or learner. Compare how two communities used a shared tradition differently without declaring one group's present practices invalid."
+      ],
+      "activity": "Respectful sources gallery",
+      "task": "Interpret two religious buildings or texts in their historical settings and identify what cannot be inferred about all believers.",
+      "vocabulary": [
+        "belief tradition",
+        "pilgrimage",
+        "cultural exchange",
+        "diversity"
+      ],
+      "depth": "Grade 7 historical-geographic inquiry — application and corroboration",
+      "investigation": [
+        "Locate the historical origins or diffusion of a tradition.",
+        "Analyze an example of local interpretation or adaptation.",
+        "Explain why religious labels do not eliminate internal diversity."
+      ],
+      "options": [
+        "Which conclusion shows respectful historical analysis?",
+        "Every tradition has only one unchanging form",
+        "A sacred building proves every person's beliefs"
+      ],
+      "correct": 2,
+      "checks": [
+        {
+          "prompt": "Which answer best addresses the lesson's historical question?",
+          "options": [
+            "Which conclusion shows respectful historical analysis?",
+            "Every tradition has only one unchanging form",
+            "A sacred building proves every person's beliefs"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which method would best strengthen the investigation?",
+          "options": [
+            "The date, creator, and purpose are unnecessary details.",
+            "A longer source is always more reliable.",
+            "Context and corroboration are needed to assess the claim."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What would improve an evidence-based conclusion?",
+          "options": [
+            "Ignore any source that challenges the claim.",
+            "Explain a supported interpretation and its limits.",
+            "Treat an attractive diagram as proof of historical fact."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical origins",
+          "Movement and exchange",
+          "Regional traditions"
+        ],
+        "descriptions": [
+          "Specific time and place",
+          "Travelers and scholarship",
+          "Diverse practice"
+        ]
+      },
+      "investigationKind": "evidence"
+    },
+    "cultural-diffusion-across-regions": {
+      "title": "Cultural Diffusion Across Regions",
+      "unit": "7.5",
+      "unitTitle": "Culture, Religion, and Society",
+      "seq": 2,
+      "total": 3,
+      "essential": "How do ideas spread, change, and sometimes meet resistance?",
+      "paragraphs": [
+        "Cultural diffusion is the movement of practices, technologies, languages, and ideas between communities. Exchange can occur through trade, migration, education, conquest, and communication. An idea does not travel unchanged: people can adopt some features, reject others, or combine them with existing traditions.",
+        "Paper-making spread from China to other parts of Eurasia over centuries, with important differences in local production and use. Its history cannot be reduced to one moment when everyone suddenly began using paper. Similar caution applies to art, food, navigation, and mathematical ideas.",
+        "Compare an object made in two different places and periods. Identify what appears related, what was altered, and what evidence supports contact. Similarity alone does not establish who borrowed from whom or whether the exchange was voluntary."
+      ],
+      "activity": "Diffusion path tracker",
+      "task": "Follow paper-making through time and place, distinguishing documented transitions from assumed direct links.",
+      "vocabulary": [
+        "cultural diffusion",
+        "adaptation",
+        "innovation",
+        "evidence"
+      ],
+      "depth": "Grade 7 historical-geographic inquiry — application and corroboration",
+      "investigation": [
+        "Identify the origin and movement of a practice.",
+        "Describe a local change rather than assuming perfect copying.",
+        "Test a diffusion claim against chronology and sources."
+      ],
+      "options": [
+        "What is an accurate description of cultural diffusion?",
+        "Ideas move and may be adapted by different communities",
+        "Every adoption happens through peaceful trade"
+      ],
+      "correct": 0,
+      "checks": [
+        {
+          "prompt": "Which answer best addresses the lesson's historical question?",
+          "options": [
+            "What is an accurate description of cultural diffusion?",
+            "Ideas move and may be adapted by different communities",
+            "Every adoption happens through peaceful trade"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would best strengthen the investigation?",
+          "options": [
+            "One diagram establishes exact historical measurements.",
+            "A clearly labeled diagram can show a relationship without proving a specific journey.",
+            "All schematic maps are authentic artifacts."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What would improve an evidence-based conclusion?",
+          "options": [
+            "Ignore any source that challenges the claim.",
+            "Explain a supported interpretation and its limits.",
+            "Treat an attractive diagram as proof of historical fact."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Earlier practice",
+          "Transmission",
+          "Local adaptation"
+        ],
+        "descriptions": [
+          "Developed techniques",
+          "Travel and contact",
+          "New uses"
+        ]
+      },
+      "investigationKind": "timeline"
+    },
+    "cooperation-conflict-and-historical-change": {
+      "title": "Cooperation, Conflict, and Historical Change",
+      "unit": "7.5",
+      "unitTitle": "Culture, Religion, and Society",
+      "seq": 3,
+      "total": 3,
+      "essential": "Why do relationships between groups include both cooperation and conflict?",
+      "paragraphs": [
+        "Communities and states have cooperated through trade agreements, diplomacy, shared infrastructure, and cultural exchange. They have also competed over land, resources, status, and political authority. The same neighbors can trade during one period and fight during another; relationships change with circumstances.",
+        "Historical sources may describe a conflict from the viewpoint of a ruler, diplomat, merchant, or affected community. A royal account of victory can omit suffering or negotiation. Comparing sources reveals why people understood the same event differently.",
+        "Study a fictional border dispute based on realistic historical questions, without inventing quotations by actual historical people. Evaluate the interests of each party and propose evidence that would help distinguish a disputed claim from a documented fact."
+      ],
+      "activity": "Diplomatic negotiation simulation",
+      "task": "Compare two positions over a trade crossing, seek a shared interest, and identify who is missing from the proposed settlement.",
+      "vocabulary": [
+        "diplomacy",
+        "alliance",
+        "conflict",
+        "perspective"
+      ],
+      "depth": "Grade 7 historical-geographic inquiry — application and corroboration",
+      "investigation": [
+        "Identify incentives for cooperation and causes of tension.",
+        "Distinguish competing claims from corroborated evidence.",
+        "Evaluate likely effects on excluded communities."
+      ],
+      "options": [
+        "What strengthens an interpretation of a historical conflict?",
+        "Reading only the victorious ruler's account",
+        "Comparing sources from different affected groups"
+      ],
+      "correct": 1,
+      "checks": [
+        {
+          "prompt": "Which answer best addresses the lesson's historical question?",
+          "options": [
+            "What strengthens an interpretation of a historical conflict?",
+            "Reading only the victorious ruler's account",
+            "Comparing sources from different affected groups"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which method would best strengthen the investigation?",
+          "options": [
+            "This source proves every community experienced the same event.",
+            "A comparison of sources can reveal different interests and missing voices.",
+            "A map alone establishes the intentions of every individual."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What would improve an evidence-based conclusion?",
+          "options": [
+            "Ignore any source that challenges the claim.",
+            "Explain a supported interpretation and its limits.",
+            "Treat an attractive diagram as proof of historical fact."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Shared interests",
+          "Competing claims",
+          "Negotiated outcomes"
+        ],
+        "descriptions": [
+          "Trade and diplomacy",
+          "Territory or resources",
+          "Effects on communities"
+        ]
+      },
+      "investigationKind": "network"
+    },
+    "how-geography-shapes-daily-life": {
+      "title": "How Geography Shapes Daily Life",
+      "unit": "7.6",
+      "unitTitle": "Human-Environment Relationships",
+      "seq": 1,
+      "total": 3,
+      "essential": "How can people adapt their daily routines to different environments?",
+      "paragraphs": [
+        "Geography affects the choices available to households and communities through seasons, temperature, water, soil, and transportation. People in mountainous areas may terrace hillsides or use routes suited to steep terrain; people in coastal communities may develop fishing and port work. These patterns differ greatly within any broad region.",
+        "Technology and social institutions also shape daily life. Reliable water access can change labor, schooling, travel, and markets. A household's experience depends on resources and power, not just the climate shown on a map.",
+        "Compare a highland agricultural community with a coastal trading town at a specific historical moment. Explain how environments mattered while accounting for work, family traditions, networks, and decisions. Reject claims that all people in one climate behave alike."
+      ],
+      "activity": "Daily life comparison board",
+      "task": "Build parallel schedules for two hypothetical households, clearly separating historical evidence from imagined details.",
+      "vocabulary": [
+        "environment",
+        "livelihood",
+        "adaptation",
+        "settlement"
+      ],
+      "depth": "Grade 7 historical-geographic inquiry — application and corroboration",
+      "investigation": [
+        "Identify conditions in two distinct geographic settings.",
+        "Explain a practical adaptation in each place.",
+        "Evaluate why place alone cannot describe a person's life."
+      ],
+      "options": [
+        "Which explanation is most complete?",
+        "Daily life depends only on temperature",
+        "Everyone near the sea works in trade"
+      ],
+      "correct": 2,
+      "checks": [
+        {
+          "prompt": "Which answer best addresses the lesson's historical question?",
+          "options": [
+            "Which explanation is most complete?",
+            "Daily life depends only on temperature",
+            "Everyone near the sea works in trade"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which method would best strengthen the investigation?",
+          "options": [
+            "The date, creator, and purpose are unnecessary details.",
+            "A longer source is always more reliable.",
+            "Context and corroboration are needed to assess the claim."
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "What would improve an evidence-based conclusion?",
+          "options": [
+            "Ignore any source that challenges the claim.",
+            "Explain a supported interpretation and its limits.",
+            "Treat an attractive diagram as proof of historical fact."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Local environment",
+          "Human adaptations",
+          "Daily routines"
+        ],
+        "descriptions": [
+          "Terrain and climate",
+          "Tools and connections",
+          "Varied livelihoods"
+        ]
+      },
+      "investigationKind": "trade"
+    },
+    "natural-resources-and-human-development": {
+      "title": "Natural Resources and Human Development",
+      "unit": "7.6",
+      "unitTitle": "Human-Environment Relationships",
+      "seq": 2,
+      "total": 3,
+      "essential": "When does a resource become an advantage or a source of conflict?",
+      "paragraphs": [
+        "Resources such as fresh water, forests, metals, soil, and energy sources can support human development. Their usefulness depends on techniques for finding, using, and transporting them. A valuable deposit does not automatically make nearby residents wealthy; ownership, labor, access, and demand affect outcomes.",
+        "Historical societies made different decisions about extraction, trade, conservation, and taxation. Resource use could create work and public investment, but it could also involve forced labor, environmental damage, and competition. Compare people who control a resource with those who do the work.",
+        "A map of mineral deposits shows a physical pattern, not who receives the benefits. To judge development, combine geographic evidence with records about production, living conditions, and decisions. Ask what information a resource map fails to include."
+      ],
+      "activity": "Resource equity council",
+      "task": "Compare two development proposals and create criteria for benefits, labor, environmental costs, and access.",
+      "vocabulary": [
+        "natural resource",
+        "distribution",
+        "extraction",
+        "sustainability"
+      ],
+      "depth": "Grade 7 historical-geographic inquiry — application and corroboration",
+      "investigation": [
+        "Locate the resource and explain how it can be used.",
+        "Compare who owns, works, and benefits from extraction.",
+        "Support an investment choice while identifying uncertainties."
+      ],
+      "options": [
+        "Which claim is supported by a mineral-resource map alone?",
+        "Where deposits are represented, not who benefits",
+        "The income of every household"
+      ],
+      "correct": 0,
+      "checks": [
+        {
+          "prompt": "Which answer best addresses the lesson's historical question?",
+          "options": [
+            "Which claim is supported by a mineral-resource map alone?",
+            "Where deposits are represented, not who benefits",
+            "The income of every household"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would best strengthen the investigation?",
+          "options": [
+            "One diagram establishes exact historical measurements.",
+            "A clearly labeled diagram can show a relationship without proving a specific journey.",
+            "All schematic maps are authentic artifacts."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What would improve an evidence-based conclusion?",
+          "options": [
+            "Ignore any source that challenges the claim.",
+            "Explain a supported interpretation and its limits.",
+            "Treat an attractive diagram as proof of historical fact."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Resource location",
+          "Technology and power",
+          "Community outcomes"
+        ],
+        "descriptions": [
+          "Natural distribution",
+          "Access and extraction",
+          "Benefits and costs"
+        ]
+      },
+      "investigationKind": "council"
+    },
+    "historical-responses-to-environmental-challenges": {
+      "title": "Historical Responses to Environmental Challenges",
+      "unit": "7.6",
+      "unitTitle": "Human-Environment Relationships",
+      "seq": 3,
+      "total": 3,
+      "essential": "Why do some responses to environmental problems help some groups but harm others?",
+      "paragraphs": [
+        "Drought, floods, soil decline, storms, and changing river courses have challenged communities throughout history. People built canals, raised structures, stored food, changed crops, moved settlements, and developed cooperation agreements. Responses depended on knowledge, labor, institutions, and available choices.",
+        "Along the Yellow River, people constructed embankments and other works at different times to manage flooding. Such works could reduce some risks while shifting water or flood danger elsewhere. Environmental projects often needed maintenance, and outcomes changed across decades.",
+        "A responsible historical explanation compares immediate success with longer-term effects. Consider a proposed levee that protects one town but increases risk downstream. Identify what evidence, viewpoints, and alternatives must be considered before calling a project a success."
+      ],
+      "activity": "Flood management systems simulation",
+      "task": "Choose between levees, relocation, and wetland protection, then assess who gains protection and who faces new risks.",
+      "vocabulary": [
+        "hazard",
+        "resilience",
+        "mitigation",
+        "trade-off"
+      ],
+      "depth": "Grade 7 historical-geographic inquiry — application and corroboration",
+      "investigation": [
+        "Explain an environmental challenge and a documented response.",
+        "Evaluate unintended effects and unequal burdens.",
+        "Recommend evidence needed to judge long-term results."
+      ],
+      "options": [
+        "Why might a levee project require more than one measure of success?",
+        "Any wall eliminates every future flood",
+        "It can change risks for other areas and needs maintenance"
+      ],
+      "correct": 1,
+      "checks": [
+        {
+          "prompt": "Which answer best addresses the lesson's historical question?",
+          "options": [
+            "Why might a levee project require more than one measure of success?",
+            "Any wall eliminates every future flood",
+            "It can change risks for other areas and needs maintenance"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which method would best strengthen the investigation?",
+          "options": [
+            "This source proves every community experienced the same event.",
+            "A comparison of sources can reveal different interests and missing voices.",
+            "A map alone establishes the intentions of every individual."
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "What would improve an evidence-based conclusion?",
+          "options": [
+            "Ignore any source that challenges the claim.",
+            "Explain a supported interpretation and its limits.",
+            "Treat an attractive diagram as proof of historical fact."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Environmental hazard",
+          "Human response",
+          "Changed risk"
+        ],
+        "descriptions": [
+          "Flood or drought",
+          "Engineering and planning",
+          "Long-term trade-offs"
+        ]
+      },
+      "investigationKind": "map"
+    }
+  }
+}
