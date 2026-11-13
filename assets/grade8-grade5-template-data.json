@@ -159,20 +159,20 @@
           "answer": 0
         },
         {
-          "prompt": "Which claim about “British Colonial Development” is most historically responsible?",
+          "prompt": "What is a limitation of a seventeenth-century English colony charter?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
+            "It reports English political claims but not Indigenous consent",
+            "It proves all Indigenous nations accepted British rule",
+            "It describes all African communities' views"
           ],
           "answer": 0
         },
         {
-          "prompt": "How should a historian evaluate competing interpretations of british colonial development?",
+          "prompt": "Which two historical forces shaped Jamestown's development?",
           "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "The Great Depression and World War II",
+            "Powhatan diplomacy and conflict alongside English settlement goals",
+            "The Civil War and the Reconstruction Amendments"
           ],
           "answer": 1
         }
@@ -233,22 +233,22 @@
           "answer": 1
         },
         {
-          "prompt": "Which claim about “Colonial Society and Political Institutions” is most historically responsible?",
+          "prompt": "Why is the House of Burgesses not evidence of universal colonial suffrage?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "How should a historian evaluate competing interpretations of colonial society and political institutions?",
-          "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "It did not meet until after independence",
+            "Participation was restricted, excluding many residents",
+            "Every resident voted directly on every law"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Which comparison best reveals political exclusion in colonial society?",
+          "options": [
+            "A single picture of the governor's residence",
+            "The number of ships entering a harbor",
+            "Assembly voting rules alongside population and status records"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -307,22 +307,22 @@
           "answer": 2
         },
         {
-          "prompt": "Which claim about “Slavery and the Atlantic Economy” is most historically responsible?",
+          "prompt": "What additional source helps challenge the viewpoint of an enslaver's ledger?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
+            "A second ledger from the same enslaver only",
+            "An undated drawing of an empty port",
+            "An account by an enslaved person or evidence of community life"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "prompt": "How should a historian evaluate competing interpretations of slavery and the atlantic economy?",
+          "prompt": "How did colonial slavery increasingly become hereditary?",
           "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "Laws tied enslaved status to ancestry and racial categories",
+            "Every child could decide whether to be enslaved",
+            "Colonial law eliminated slaveholders' property claims"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
@@ -381,20 +381,20 @@
           "answer": 0
         },
         {
-          "prompt": "Which claim about “The Road to Revolution” is most historically responsible?",
+          "prompt": "What did the Stamp Act protesters challenge in 1765?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
+            "Taxation imposed without their consent through colonial representation",
+            "The 1787 constitutional compromise",
+            "The 1865 abolition amendment"
           ],
           "answer": 0
         },
         {
-          "prompt": "How should a historian evaluate competing interpretations of the road to revolution?",
+          "prompt": "Why should an imperial crisis timeline include Indigenous perspectives?",
           "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "Only European sailors could influence imperial policy",
+            "Western territorial policies also affected Indigenous nations' sovereignty",
+            "Indigenous nations had no interests in contested lands"
           ],
           "answer": 1
         }
@@ -455,22 +455,22 @@
           "answer": 1
         },
         {
-          "prompt": "Which claim about “The Declaration of Independence” is most historically responsible?",
+          "prompt": "What is the central purpose of the Declaration's grievances?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "How should a historian evaluate competing interpretations of the declaration of independence?",
-          "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "To abolish slavery throughout the new states",
+            "To justify separation by criticizing the king's conduct",
+            "To specify the three branches of the federal government"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Why distinguish the Declaration's ideals from conditions in 1776?",
+          "options": [
+            "Every adult immediately received voting rights",
+            "The Declaration was written after Reconstruction",
+            "Its universal-sounding claims existed alongside political and legal exclusions"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -529,22 +529,22 @@
           "answer": 2
         },
         {
-          "prompt": "Which claim about “Revolutionary War Turning Points” is most historically responsible?",
+          "prompt": "Why is Saratoga frequently described as a diplomatic turning point?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
+            "It ended the war immediately",
+            "It caused Britain to surrender at Yorktown in 1777",
+            "The 1777 victory helped persuade France to ally with the United States"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "prompt": "How should a historian evaluate competing interpretations of revolutionary war turning points?",
+          "prompt": "Which event came last in the independence-war sequence?",
           "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "The 1783 Treaty of Paris",
+            "The 1777 Saratoga campaign",
+            "The 1778 formal French alliance"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
@@ -603,20 +603,20 @@
           "answer": 0
         },
         {
-          "prompt": "Which claim about “Unfinished Promises of the Revolution” is most historically responsible?",
+          "prompt": "Why is 'independence meant liberty for all' historically unsound?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
+            "Slavery and voting exclusions continued after independence",
+            "Every state abolished slavery in 1776",
+            "Women gained universal suffrage at the war's end"
           ],
           "answer": 0
         },
         {
-          "prompt": "How should a historian evaluate competing interpretations of unfinished promises of the revolution?",
+          "prompt": "Which source comparison would best test the revolution's equality claims?",
           "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "An undated modern travel advertisement",
+            "A rights declaration paired with laws affecting enslaved or Indigenous people",
+            "Two patriotic paintings without dates"
           ],
           "answer": 1
         }
@@ -677,22 +677,22 @@
           "answer": 1
         },
         {
-          "prompt": "Which claim about “The Articles of Confederation” is most historically responsible?",
+          "prompt": "Which important national task occurred under the Articles?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "How should a historian evaluate competing interpretations of the articles of confederation?",
-          "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "Congress adopted the Reconstruction Amendments",
+            "Congress enacted the Northwest Ordinance in 1787",
+            "Congress issued the Emancipation Proclamation"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Why was a request for state contributions unreliable?",
+          "options": [
+            "States were forbidden from collecting any taxes",
+            "The national government owned every farm",
+            "The Confederation lacked independent federal taxing power"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -751,22 +751,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which claim about “The Constitutional Convention” is most historically responsible?",
+          "prompt": "How did the Connecticut Compromise address state representation?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
+            "Every state's House delegation became equal",
+            "The presidency was abolished",
+            "Population shaped House seats while states received equal Senate seats"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "prompt": "How should a historian evaluate competing interpretations of the constitutional convention?",
+          "prompt": "What was a major injustice of the Three-Fifths Clause?",
           "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "It increased slaveholding states' political representation without protecting enslaved people's rights",
+            "It required enslaved people to vote",
+            "It immediately prohibited slavery"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
@@ -825,20 +825,20 @@
           "answer": 2
         },
         {
-          "prompt": "Which claim about “Federalists and Anti-Federalists” is most historically responsible?",
+          "prompt": "What did Federalist writings generally argue in 1787–1788?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
+            "The proposed Constitution should be ratified",
+            "The Articles should remain permanently unchanged",
+            "The Bill of Rights had been ratified in 1776"
           ],
           "answer": 0
         },
         {
-          "prompt": "How should a historian evaluate competing interpretations of federalists and anti-federalists?",
+          "prompt": "What promise helped address some ratification concerns?",
           "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "A guarantee that elections would end",
+            "Consideration of amendments protecting individual rights",
+            "Immediate abolition of every state government"
           ],
           "answer": 1
         }
@@ -899,22 +899,22 @@
           "answer": 1
         },
         {
-          "prompt": "Which claim about “Rights, Representation, and Federalism” is most historically responsible?",
+          "prompt": "Which example specifically involves separation of powers?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "How should a historian evaluate competing interpretations of rights, representation, and federalism?",
-          "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "The boundary between two counties",
+            "Congressional lawmaking and presidential execution of laws",
+            "A dispute over state versus federal control of highways"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Which amendment set protects freedoms of speech and religion?",
+          "options": [
+            "The Northwest Ordinance",
+            "The Treaty of Ghent",
+            "The Bill of Rights"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -973,22 +973,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which claim about “Washington's Presidency” is most historically responsible?",
+          "prompt": "Which development is associated with Washington's early executive practice?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
+            "Creation of the Fourteenth Amendment",
+            "Establishment of the Electoral College by executive order",
+            "Consultation with departmental advisers who formed the Cabinet"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "prompt": "How should a historian evaluate competing interpretations of washington's presidency?",
+          "prompt": "Which 1794 event tested federal enforcement power?",
           "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "The Whiskey Rebellion",
+            "The Battle of Gettysburg",
+            "The Kansas–Nebraska Act"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
@@ -1047,20 +1047,20 @@
           "answer": 2
         },
         {
-          "prompt": "Which claim about “Jefferson and the Louisiana Purchase” is most historically responsible?",
+          "prompt": "Why should the Louisiana Purchase not be described as buying vacant land?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
+            "Indigenous nations already lived and governed within the claimed region",
+            "No rivers or settlements existed there",
+            "Every nation had signed the same purchase treaty"
           ],
           "answer": 0
         },
         {
-          "prompt": "How should a historian evaluate competing interpretations of jefferson and the louisiana purchase?",
+          "prompt": "Which expedition followed the 1803 purchase?",
           "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "The 1863 Vicksburg campaign",
+            "Lewis and Clark's 1804–1806 expedition",
+            "Washington's march to Yorktown"
           ],
           "answer": 1
         }
@@ -1121,22 +1121,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which claim about “The War of 1812” is most historically responsible?",
+          "prompt": "Which incident became a prominent U.S. symbol during the 1814 British attack?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "How should a historian evaluate competing interpretations of the war of 1812?",
-          "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "The adoption of the Declaration of Sentiments",
+            "The defense of Fort McHenry",
+            "The Battle of Saratoga"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Why did the Battle of New Orleans occur after peace was signed?",
+          "options": [
+            "Congress had rejected independence",
+            "The battle took place in 1812 before negotiations",
+            "News of the Treaty of Ghent had not yet reached the armies"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -1200,22 +1200,22 @@
           "answer": 1
         },
         {
-          "prompt": "Which claim about “The Development of American Political Parties” is most historically responsible?",
+          "prompt": "Which policy area divided early Federalists and Democratic-Republicans?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
+            "The abolition of all presidential elections",
+            "The construction of the Interstate Highway System",
+            "The national government's financial and economic powers"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "prompt": "How should a historian evaluate competing interpretations of the development of american political parties?",
+          "prompt": "Why is a partisan newspaper not a neutral record by default?",
           "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "Its author sought to persuade readers toward a political position",
+            "It always contained no facts",
+            "It could not have been printed before 1900"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
@@ -1274,20 +1274,20 @@
           "answer": 2
         },
         {
-          "prompt": "Which claim about “Manifest Destiny and Territorial Expansion” is most historically responsible?",
+          "prompt": "What does Manifest Destiny describe?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
+            "An ideology used to justify U.S. territorial expansion",
+            "A treaty protecting every Indigenous nation's sovereignty",
+            "A nineteenth-century amendment abolishing slavery"
           ],
           "answer": 0
         },
         {
-          "prompt": "How should a historian evaluate competing interpretations of manifest destiny and territorial expansion?",
+          "prompt": "Which conflict preceded the 1848 territorial settlement?",
           "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "The War of 1812",
+            "The U.S.–Mexican War",
+            "The American Revolution"
           ],
           "answer": 1
         }
@@ -1348,22 +1348,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which claim about “Indian Removal and Indigenous Resistance” is most historically responsible?",
+          "prompt": "Which Cherokee response challenged removal through U.S. legal institutions?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "How should a historian evaluate competing interpretations of indian removal and indigenous resistance?",
-          "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "Support for the 1863 Emancipation Proclamation",
+            "Legal action culminating in Worcester v. Georgia",
+            "Ratification of the Treaty of Paris in 1783"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Why must accounts of the Trail of Tears describe coercion?",
+          "options": [
+            "All travelers independently chose to relocate",
+            "No deaths or hardship occurred",
+            "Many people were forcibly removed under federal policy"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -1427,22 +1427,22 @@
           "answer": 1
         },
         {
-          "prompt": "Which claim about “Industrialization and Social Reform” is most historically responsible?",
+          "prompt": "Which change is associated with the early Market Revolution?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
+            "Complete abandonment of manufactured goods",
+            "Universal eight-hour workdays by 1810",
+            "Expansion of factories and transport networks"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "prompt": "How should a historian evaluate competing interpretations of industrialization and social reform?",
+          "prompt": "Why compare a mill worker's testimony with an employer's record?",
           "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "They may emphasize different conditions, interests, and experiences",
+            "All employer records are automatically false",
+            "Only factory owners experienced industrialization"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
@@ -1506,20 +1506,20 @@
           "answer": 2
         },
         {
-          "prompt": "Which claim about “Women's Rights and Antebellum Reform” is most historically responsible?",
+          "prompt": "How did the 1848 Declaration of Sentiments make its argument?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
+            "By echoing the Declaration of Independence and demanding equality",
+            "By claiming the Civil War had already ended",
+            "By establishing the first federal public school system"
           ],
           "answer": 0
         },
         {
-          "prompt": "How should a historian evaluate competing interpretations of women's rights and antebellum reform?",
+          "prompt": "Why should historians investigate Black women's reform activity?",
           "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "Reform movements never disagreed about race",
+            "Major convention records may leave important contributors and perspectives out",
+            "Black women were legally barred from speaking anywhere"
           ],
           "answer": 1
         }
@@ -1580,22 +1580,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which claim about “The Expansion of Slavery” is most historically responsible?",
+          "prompt": "What role did the domestic slave trade play in cotton expansion?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "How should a historian evaluate competing interpretations of the expansion of slavery?",
-          "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "It ended plantation slavery",
+            "It forcibly moved enslaved people and separated families",
+            "It provided universal paid migration contracts"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Why can a rising cotton-export chart be misleading alone?",
+          "options": [
+            "It proves all workers consented",
+            "It records every enslaved person's words",
+            "It does not reveal coercion or human well-being"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -1654,22 +1654,22 @@
           "answer": 1
         },
         {
-          "prompt": "Which claim about “Abolitionism and Resistance” is most historically responsible?",
+          "prompt": "What made Frederick Douglass's public writing especially powerful?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
+            "He led the Confederate military",
+            "He authored the 1787 Constitution",
+            "He combined firsthand experience with arguments against slavery"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "prompt": "How should a historian evaluate competing interpretations of abolitionism and resistance?",
+          "prompt": "Which description of Harriet Tubman is historically grounded?",
           "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "An abolitionist who escaped slavery and helped others escape",
+            "The president who signed the Fugitive Slave Act",
+            "A British commander at Yorktown"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
@@ -1728,20 +1728,20 @@
           "answer": 2
         },
         {
-          "prompt": "Which claim about “The Compromise of 1850 and Kansas-Nebraska Act” is most historically responsible?",
+          "prompt": "What was one consequence of the stronger 1850 Fugitive Slave Act?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
+            "Greater danger for people escaping slavery and free Black communities",
+            "Immediate abolition throughout the South",
+            "Removal of every federal enforcement power"
           ],
           "answer": 0
         },
         {
-          "prompt": "How should a historian evaluate competing interpretations of the compromise of 1850 and kansas-nebraska act?",
+          "prompt": "Why did violence increase in Kansas after 1854?",
           "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "No political interest was involved in the territory",
+            "Competing groups fought over whether slavery would expand there",
+            "Kansas had already abolished elections permanently"
           ],
           "answer": 1
         }
@@ -1802,22 +1802,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which claim about “Why Did the United States Divide?” is most historically responsible?",
+          "prompt": "Which 1857 ruling worsened sectional conflict over slavery?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "How should a historian evaluate competing interpretations of why did the united states divide??",
-          "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "Brown v. Board of Education",
+            "Dred Scott v. Sandford",
+            "Worcester v. Georgia"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Why prioritize contemporary secession declarations in explaining secession?",
+          "options": [
+            "They prove every resident agreed with secession",
+            "They are modern secondary interpretations",
+            "They reveal motives leaders publicly stated at the time"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -1876,22 +1876,22 @@
           "answer": 1
         },
         {
-          "prompt": "Which claim about “Secession and the Outbreak of War” is most historically responsible?",
+          "prompt": "Which event occurred in December 1860?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
+            "The Confederate surrender at Appomattox",
+            "The adoption of the Fourteenth Amendment",
+            "South Carolina declared secession"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "prompt": "How should a historian evaluate competing interpretations of secession and the outbreak of war?",
+          "prompt": "What happened at Fort Sumter in April 1861?",
           "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "Confederate forces attacked a federal fort",
+            "The Union captured Vicksburg",
+            "Britain recognized the Confederacy"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
@@ -1950,20 +1950,20 @@
           "answer": 0
         },
         {
-          "prompt": "Which claim about “Turning Points of the Civil War” is most historically responsible?",
+          "prompt": "Why did the Union capture of Vicksburg matter strategically?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
+            "It strengthened Union control of the Mississippi River corridor",
+            "It immediately ended fighting across the country",
+            "It created the Confederate capital"
           ],
           "answer": 0
         },
         {
-          "prompt": "How should a historian evaluate competing interpretations of turning points of the civil war?",
+          "prompt": "Which battles occurred in July 1863?",
           "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "Antietam and Fort Sumter",
+            "Gettysburg and Vicksburg",
+            "Saratoga and Yorktown"
           ],
           "answer": 1
         }
@@ -2024,22 +2024,22 @@
           "answer": 2
         },
         {
-          "prompt": "Which claim about “Emancipation and Black Military Service” is most historically responsible?",
+          "prompt": "What was a key limitation of the Emancipation Proclamation?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "How should a historian evaluate competing interpretations of emancipation and black military service?",
-          "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "It prohibited Black men from military service",
+            "It did not immediately end slavery everywhere in the United States",
+            "It had no connection to wartime policy"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What did Black military service strengthen during the Civil War?",
+          "options": [
+            "The Confederacy's policy of universal voting",
+            "British control of the Mississippi River",
+            "Union military efforts and claims for freedom and citizenship"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -2103,22 +2103,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which claim about “The Civil War Through Civilian Experiences” is most historically responsible?",
+          "prompt": "Why might wartime diaries differ from military reports?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
+            "Only battlefield commanders could write accurately",
+            "All civilians observed the same battles",
+            "Their authors experienced different events and held different purposes"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "prompt": "How should a historian evaluate competing interpretations of the civil war through civilian experiences?",
+          "prompt": "Which example shows changing civilian life during the war?",
           "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "Displacement, shortages, and efforts by freedpeople to rebuild families",
+            "Universal prosperity in every region",
+            "A complete end to farming after 1861"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
@@ -2177,20 +2177,20 @@
           "answer": 1
         },
         {
-          "prompt": "Which claim about “Rebuilding the Nation” is most historically responsible?",
+          "prompt": "Which tasks did the Freedmen's Bureau attempt to support?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
+            "Relief, schools, and some labor and legal assistance",
+            "The creation of the British Parliament",
+            "Military conquest of Europe"
           ],
           "answer": 0
         },
         {
-          "prompt": "How should a historian evaluate competing interpretations of rebuilding the nation?",
+          "prompt": "Why were Reconstruction goals contested?",
           "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "Slavery remained legal throughout the nation after 1865",
+            "Political rights, labor, and government power remained disputed",
+            "Every former Confederate official accepted Black voting rights"
           ],
           "answer": 1
         }
@@ -2251,22 +2251,22 @@
           "answer": 2
         },
         {
-          "prompt": "Which claim about “Reconstruction Amendments and Citizenship” is most historically responsible?",
+          "prompt": "Which amendment abolished slavery with a punishment-for-crime exception?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "How should a historian evaluate competing interpretations of reconstruction amendments and citizenship?",
-          "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "The First Amendment",
+            "The Thirteenth Amendment",
+            "The Fifteenth Amendment"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What did the Fifteenth Amendment prohibit?",
+          "options": [
+            "All restrictions on women's voting in 1870",
+            "State governments from holding elections",
+            "Denial of voting rights based on race, color, or previous servitude"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -2325,22 +2325,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which claim about “Black Political Participation and Resistance” is most historically responsible?",
+          "prompt": "Why were the Enforcement Acts enacted?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
+            "To create the Louisiana Purchase",
+            "To end the American Revolution",
+            "To protect civil and voting rights against intimidation and violence"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "prompt": "How should a historian evaluate competing interpretations of black political participation and resistance?",
+          "prompt": "What does Hiram Revels's Senate service demonstrate?",
           "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "Black political officeholding during Reconstruction",
+            "The absence of anti-Black violence",
+            "Universal Black voting rights after 1870"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
@@ -2399,20 +2399,20 @@
           "answer": 1
         },
         {
-          "prompt": "Which claim about “The End of Reconstruction and Its Legacy” is most historically responsible?",
+          "prompt": "Why is 1877 an important marker in Reconstruction history?",
           "options": [
-            "A source's argument must be tested against its authorship, date, and other evidence.",
-            "An attractive historical map proves all peoples agreed with its borders.",
-            "One public official's statement automatically describes every resident."
+            "Federal military enforcement withdrew from key southern statehouses amid political shifts",
+            "The Thirteenth Amendment was first ratified",
+            "All discriminatory laws were repealed"
           ],
           "answer": 0
         },
         {
-          "prompt": "How should a historian evaluate competing interpretations of the end of reconstruction and its legacy?",
+          "prompt": "What continued after the political end of Reconstruction?",
           "options": [
-            "Select only the version supporting a preferred conclusion.",
-            "Compare relevant primary accounts, context, and material consequences.",
-            "Ignore chronology and source limitations."
+            "The immediate end of white supremacist violence",
+            "Black civic organizing and struggles over equal protection",
+            "The disappearance of the Reconstruction Amendments"
           ],
           "answer": 1
         }
