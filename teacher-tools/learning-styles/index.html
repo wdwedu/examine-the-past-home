@@ -610,7 +610,8 @@ body>nav:not(.etp-icon-nav),main>nav,.tool-nav,.toolbar,.app-nav,.local-nav{posi
 
     function tick(){if(secondsLeft>0)secondsLeft--;const m=Math.floor(secondsLeft/60),s=secondsLeft%60;document.getElementById('timer').textContent=`${m}:${String(s).padStart(2,'0')}`;}
     timerId=setInterval(tick,1000);
-    document.getElementById('year').textContent=new Date().getFullYear();
+    const copyrightYear=document.getElementById('year');
+    if(copyrightYear) copyrightYear.textContent=new Date().getFullYear();
     buildSteps();
   </script>
 <script src="inventory-upgrade.js?v=20261112-v1"></script></body>
