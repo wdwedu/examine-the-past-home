@@ -435,173 +435,34 @@ body>nav:not(.etp-icon-nav),main>nav,.tool-nav,.toolbar,.app-nav,.local-nav{posi
     function reportDocument(){
       const report=document.getElementById('finalReport');
       const clean=report.cloneNode(true);
-      const gate=clean.querySelector('.email-gate'); if(gate) gate.remove();
-      return `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>My Learning Profile | Examine the Past</title><style>body{font-family:Georgia,serif;max-width:850px;margin:40px auto;padding:0 24px;color:#171917;line-height:1.6}h1,h2,h3,h4{font-family:Arial,sans-serif}h3{font-size:32px}.eyebrow{font:bold 11px Arial;letter-spacing:.16em;color:#18783f}.chip{display:inline-block;border:1px solid #bbb;border-radius:99px;padding:7px 10px;margin:4px;font:bold 10px Arial}.report-section{border-top:1px solid #ddd;margin-top:18px;padding-top:14px}.report-bars{display:grid;gap:8px}.bar-row{display:grid;grid-template-columns:130px 1fr 40px;gap:10px;align-items:center;font:bold 11px Arial}.bar-track{height:9px;background:#e8e8e8;border-radius:99px;overflow:hidden}.bar-track i{display:block;height:100%}.muted{color:#555}.profile-chips{margin:12px 0}
-.etp-live-visual{background:#f5f8f2;border:1px solid #d2dbce;padding:16px;border-radius:12px;break-inside:avoid}
-.etp-live-visual svg{display:block;width:100%;height:auto;max-height:350px;background:#17251d;border-radius:8px}
-.etp-live-visual h3{font:700 22px Georgia,serif}
-.etp-live-visual p{font:14px/1.5 Georgia,serif}
-.etp-dimension-list{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
-.etp-dimension-list span{padding:8px;border:1px solid #ccc;border-radius:8px;font:13px Georgia,serif}
-.etp-dimension-list b{display:block;font-weight:700}
-.etp-report-growth{border-top:1px solid #ddd;margin-top:18px;padding-top:12px;break-inside:avoid}
-.etp-report-growth h4{font:700 19px Georgia,serif}
-.etp-report-growth p,.etp-report-growth li{font:15px/1.6 Georgia,serif}
-@media print{body{margin:15mm auto}.etp-report-growth{break-inside:avoid}.etp-live-visual{break-inside:avoid}a{color:#111}}
-
-/* ===== LEARNING STYLES INDEX V4 — POLISH FIXES ===== */
-/* Profile Lab entry card: one true brilliant yellow base, sheen only on hover */
-.profile-entry-card{
-  background:#fff000!important;
-  color:#090909!important;
-  border-color:#fff000!important;
-  box-shadow:0 18px 40px rgba(255,240,0,.14),0 12px 30px rgba(0,0,0,.42),inset 0 1px 0 rgba(255,255,255,.36)!important;
-}
-.profile-entry-card::before{
-  background:linear-gradient(115deg,transparent 38%,rgba(255,255,255,.42) 49%,transparent 60%)!important;
-}
-.profile-entry-card .style-icon{
-  background:rgba(0,0,0,.08)!important;
-  border-color:rgba(0,0,0,.28)!important;
-  color:#080808!important;
-}
-.profile-entry-card:hover,.profile-entry-card:focus-visible{
-  background:#fff000!important;
-  filter:brightness(1.015) saturate(1.04)!important;
-}
-
-/* Profile machine header should live naturally inside the machine, not clip beneath the site nav */
-.lab-top{
-  position:relative!important;
-  top:auto!important;
-  z-index:2!important;
-  min-height:74px!important;
-  overflow:visible!important;
-}
-.lab-wrap{overflow:hidden!important}
-.lab-body{position:relative!important;z-index:1!important}
-.report-side{padding-top:38px!important}
-.report-placeholder{min-height:100%!important;height:auto!important;overflow:visible!important}
-.report-placeholder h3{margin-top:9px!important;line-height:1.08!important}
-
-/* All seven live profile indicators are visible from the first screen */
-.bar-track i{width:25%!important;min-width:18px!important}
-.bar-v i{background:#317dca!important}
-.bar-a i{background:#a64d79!important}
-.bar-r i{background:#7c62c8!important}
-.bar-k i{background:#c47f27!important}
-.bar-l i{background:#138d87!important}
-.bar-s i{background:#a64f2e!important}
-.bar-i i{background:#728b2b!important}
-
-/* Once JS writes an inline width, let that score override the starting 25% */
-.bar-track i[style]{width:var(--score-width,25%)}
-
-/* Homepage footer alignment + button reset: legal items look exactly like text links */
-.mega-footer .footer-master-wrap{
-  width:min(1420px,calc(100% - 44px))!important;
-  margin:0 auto!important;
-  padding:70px 0 26px!important;
-}
-.mega-footer .footer-master-grid{
-  display:grid!important;
-  grid-template-columns:repeat(4,minmax(0,1fr))!important;
-  gap:clamp(42px,6vw,92px)!important;
-  align-items:start!important;
-  padding:0!important;
-}
-.footer-master-grid .footer-group{padding-top:0!important;margin-top:0!important}
-.footer-master-grid .legal-group{padding-top:0!important;margin-top:0!important}
-.footer-master-grid .footer-group h4{
-  margin:0 0 22px!important;
-  color:#fff000!important;
-  font-family:Impact,Haettenschweiler,'Arial Narrow Bold',sans-serif!important;
-  font-size:clamp(1.25rem,1.7vw,1.75rem)!important;
-  font-weight:900!important;
-  letter-spacing:.01em!important;
-  line-height:1!important;
-}
-.footer-master-grid .mega-footer-link{
-  display:block!important;
-  width:auto!important;
-  margin:0 0 14px!important;
-  padding:0!important;
-  border:0!important;
-  border-radius:0!important;
-  background:transparent!important;
-  box-shadow:none!important;
-  appearance:none!important;
-  -webkit-appearance:none!important;
-  color:#efefef!important;
-  text-decoration:none!important;
-  text-align:left!important;
-  font-family:Georgia,'Times New Roman',serif!important;
-  font-size:clamp(.86rem,1.05vw,1rem)!important;
-  font-style:normal!important;
-  font-weight:400!important;
-  line-height:1.35!important;
-  cursor:pointer!important;
-  transition:transform .16s ease,color .16s ease,text-shadow .16s ease!important;
-}
-.footer-master-grid .mega-footer-link:hover,
-.footer-master-grid .mega-footer-link:focus-visible{
-  color:#fff000!important;
-  transform:translateX(4px)!important;
-  text-shadow:0 0 12px rgba(255,240,0,.18)!important;
-  outline:none!important;
-}
-.footer-master-grid .footer-section-link{
-  margin-bottom:18px!important;
-  color:#f5f5f5!important;
-  font-weight:700!important;
-  text-transform:uppercase!important;
-}
-.mega-footer .footer-master-wrap .join-title{margin-top:58px!important}
-
-@media(max-width:980px){
-  .mega-footer .footer-master-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:46px 56px!important}
-}
-@media(max-width:620px){
-  .mega-footer .footer-master-wrap{width:min(94%,620px)!important;padding-top:52px!important}
-  .mega-footer .footer-master-grid{grid-template-columns:1fr!important;gap:38px!important}
-  .footer-master-grid .footer-group{padding-bottom:6px!important;border-bottom:1px solid rgba(255,255,255,.08)!important}
-}
-</style>
-<style id="footer-v6-alignment-fix">
-/* V6: keep all four desktop footer headings on one baseline */
-@media (min-width:901px){
-  .mega-footer .footer-grid.footer-master-grid{
-    grid-template-columns:repeat(4,minmax(0,1fr))!important;
-    align-items:start!important;
-  }
-  .mega-footer .footer-grid.footer-master-grid > .footer-group,
-  .mega-footer .footer-grid.footer-master-grid > .footer-group.legal-group{
-    padding-top:0!important;
-    margin-top:0!important;
-    align-self:start!important;
-    transform:none!important;
-  }
-  .mega-footer .footer-grid.footer-master-grid > .footer-group > h4,
-  .mega-footer .footer-grid.footer-master-grid > .footer-group.legal-group > h4{
-    margin-top:0!important;
-    padding-top:0!important;
-    line-height:1!important;
-  }
-}
-@media (min-width:701px) and (max-width:900px){
-  .mega-footer .footer-grid.footer-master-grid{
-    grid-template-columns:repeat(2,minmax(0,1fr))!important;
-    align-items:start!important;
-  }
-  .mega-footer .footer-grid.footer-master-grid > .footer-group,
-  .mega-footer .footer-grid.footer-master-grid > .footer-group.legal-group{
-    padding-top:0!important;
-    margin-top:0!important;
-    align-self:start!important;
-  }
-}
-</style>
-</head><body><div style="font:bold 13px Arial;letter-spacing:.18em">EXAMINE THE PAST</div>${clean.innerHTML}<p style="margin-top:35px;font:12px Arial;color:#666">Educational self-reflection tool; not a diagnostic assessment. Generated at ExamineThePast.com.</p></body></html>`;
+      clean.querySelectorAll('.email-gate,button,input').forEach(x=>x.remove());
+      const css=`
+        @page{size:auto;margin:16mm}
+        *{box-sizing:border-box}body{font:15px/1.58 Georgia,serif;max-width:900px;margin:0 auto;padding:0 12px;background:#fff;color:#1e291f}
+        .brand-head{border-bottom:4px solid #215839;padding:5px 0 17px;margin-bottom:22px}
+        .brand-head strong{font:700 14px Georgia,serif;letter-spacing:.17em;color:#17472c}
+        .brand-head h1{font:700 30px/1.13 Georgia,serif;color:#17472c;margin:10px 0 6px}
+        .brand-head p{color:#5a695e;margin:0;font-size:13px}
+        h3,h4{font-family:Georgia,serif;color:#1c5635;margin-bottom:9px}h3{font-size:27px;line-height:1.18}h4{font-size:18px}
+        p,li{color:#223029;line-height:1.58}ul{margin:9px 0 12px;padding-left:24px}
+        .eyebrow{font:700 12px Georgia,serif;letter-spacing:.09em;color:#236344}
+        .chip{display:inline-block;background:#eaf3e7;border:1px solid #8ba995;color:#17472c;border-radius:20px;margin:4px;padding:7px 11px;font:700 12px Georgia,serif}
+        .report-section,.etp-report-growth{border-top:1px solid #c5d9c9;margin-top:21px;padding:13px 0 0;break-inside:avoid}
+        .etp-report-instructions{background:#f3f8f2;padding:12px;border-left:3px solid #276844;border-radius:5px}
+        .muted{color:#536358}.report-bars{display:grid;gap:10px}.bar-row{display:grid;grid-template-columns:150px 1fr 42px;gap:12px;align-items:center;font:700 12px Georgia,serif}
+        .bar-track{height:12px;background:#e2ebe1;border-radius:999px;overflow:hidden}.bar-track i{display:block;height:100%;border-radius:99px;min-width:0}
+        .etp-live-visual{border:1px solid #c9dccb;background:#f8faf7;padding:16px;border-radius:11px;break-inside:avoid}
+        .etp-live-visual h3{font-size:23px}.etp-live-visual p{color:#4e6050;font-size:13px}
+        .etp-live-visual svg{display:block;width:100%;height:auto;background:#14261b;border-radius:7px;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+        .etp-dimension-list{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;margin-top:12px}
+        .etp-dimension-list span{border:1px solid #cbdccb;border-radius:7px;padding:8px;font:12px Georgia,serif}
+        .etp-dimension-list b{display:block;color:#225a3c;font-size:15px}
+        .profile-chips{margin:14px 0}.report-actions,.email-gate{display:none!important}
+        .report-note{font:12px Georgia,serif;color:#526658;margin:30px 0 8px;border-top:1px solid #d5e0d5;padding-top:12px}
+        @media print{.etp-live-visual,.etp-report-growth,.report-section{break-inside:avoid}body{margin:0 auto}}
+      `;
+      const head='<header class="brand-head"><strong>EXAMINE THE PAST</strong><h1>Personal Learning Profile</h1><p>Learning Styles &amp; Strategies Lab · Individual strategy and reflection report</p></header>';
+      return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Personal Learning Profile | Examine the Past</title><style>'+css+'</style></head><body>'+head+clean.innerHTML+'<p class="report-note">Educational self-reflection only. Ratings are not validated measures of ability, career aptitude, learning outcomes, personality, or compatibility. Created with ExamineThePast.com.</p></body></html>';
     }
     function downloadReport(){
       const blob=new Blob([reportDocument()],{type:'text/html'});
