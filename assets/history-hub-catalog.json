@@ -1331,7 +1331,7 @@
       "standards": {
         "name": "Independent Curriculum Design",
         "url": "/lessons/#curriculum-design",
-        "note": "Original Examine the Past course plan; course development and historical research remain ongoing."
+        "note": "Original Examine the Past Grade 7 historical-geographic inquiry curriculum. Uses seventh-grade target prose, analysis of sources, three-stage investigations, and evidence argument. Formal readability, history, source, standards and accessibility review is still required before classroom-ready publication."
       },
       "units": [
         {
@@ -1348,7 +1348,7 @@
               "id": "grade-7-world-cultures-geography-71-01",
               "title": "Understanding World Regions",
               "slug": "understanding-world-regions",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-7-world-cultures-geography-unit-7-1",
               "unitNumber": "7.1",
               "objectives": [
@@ -1367,7 +1367,7 @@
               "id": "grade-7-world-cultures-geography-71-02",
               "title": "Geography, Identity, and Cultural Development",
               "slug": "geography-identity-and-cultural-development",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-7-world-cultures-geography-unit-7-1",
               "unitNumber": "7.1",
               "objectives": [
@@ -1386,7 +1386,7 @@
               "id": "grade-7-world-cultures-geography-71-03",
               "title": "Comparing Cultural Landscapes",
               "slug": "comparing-cultural-landscapes",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-7-world-cultures-geography-unit-7-1",
               "unitNumber": "7.1",
               "objectives": [
@@ -1425,7 +1425,7 @@
               "id": "grade-7-world-cultures-geography-72-01",
               "title": "Why Do People Migrate?",
               "slug": "why-do-people-migrate",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-7-world-cultures-geography-unit-7-2",
               "unitNumber": "7.2",
               "objectives": [
@@ -1444,7 +1444,7 @@
               "id": "grade-7-world-cultures-geography-72-02",
               "title": "Historical Migration and Population Change",
               "slug": "historical-migration-and-population-change",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-7-world-cultures-geography-unit-7-2",
               "unitNumber": "7.2",
               "objectives": [
@@ -1463,7 +1463,7 @@
               "id": "grade-7-world-cultures-geography-72-03",
               "title": "Migration, Identity, and Cultural Exchange",
               "slug": "migration-identity-and-cultural-exchange",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-7-world-cultures-geography-unit-7-2",
               "unitNumber": "7.2",
               "objectives": [
@@ -1502,7 +1502,7 @@
               "id": "grade-7-world-cultures-geography-73-01",
               "title": "The Silk Roads and Global Connections",
               "slug": "the-silk-roads-and-global-connections",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-7-world-cultures-geography-unit-7-3",
               "unitNumber": "7.3",
               "objectives": [
@@ -1521,7 +1521,7 @@
               "id": "grade-7-world-cultures-geography-73-02",
               "title": "Indian Ocean Trade Networks",
               "slug": "indian-ocean-trade-networks",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-7-world-cultures-geography-unit-7-3",
               "unitNumber": "7.3",
               "objectives": [
@@ -1540,7 +1540,7 @@
               "id": "grade-7-world-cultures-geography-73-03",
               "title": "Trans-Saharan Trade and African Kingdoms",
               "slug": "trans-saharan-trade-and-african-kingdoms",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-7-world-cultures-geography-unit-7-3",
               "unitNumber": "7.3",
               "objectives": [
@@ -1559,7 +1559,7 @@
               "id": "grade-7-world-cultures-geography-73-04",
               "title": "Goods, Ideas, and the Growth of Cities",
               "slug": "goods-ideas-and-the-growth-of-cities",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-7-world-cultures-geography-unit-7-3",
               "unitNumber": "7.3",
               "objectives": [
@@ -1598,7 +1598,7 @@
               "id": "grade-7-world-cultures-geography-74-01",
               "title": "Comparing Political Systems",
               "slug": "comparing-political-systems",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-7-world-cultures-geography-unit-7-4",
               "unitNumber": "7.4",
               "objectives": [
@@ -1617,7 +1617,7 @@
               "id": "grade-7-world-cultures-geography-74-02",
               "title": "Resources, Trade, and Economic Decisions",
               "slug": "resources-trade-and-economic-decisions",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-7-world-cultures-geography-unit-7-4",
               "unitNumber": "7.4",
               "objectives": [
@@ -1636,7 +1636,7 @@
               "id": "grade-7-world-cultures-geography-74-03",
               "title": "How Geography Influences Power",
               "slug": "how-geography-influences-power",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-7-world-cultures-geography-unit-7-4",
               "unitNumber": "7.4",
               "objectives": [
@@ -1675,7 +1675,7 @@
               "id": "grade-7-world-cultures-geography-75-01",
               "title": "World Religions and Cultural Exchange",
               "slug": "world-religions-and-cultural-exchange",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-7-world-cultures-geography-unit-7-5",
               "unitNumber": "7.5",
               "objectives": [
@@ -1694,7 +1694,7 @@
               "id": "grade-7-world-cultures-geography-75-02",
               "title": "Cultural Diffusion Across Regions",
               "slug": "cultural-diffusion-across-regions",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-7-world-cultures-geography-unit-7-5",
               "unitNumber": "7.5",
               "objectives": [
@@ -1713,7 +1713,7 @@
               "id": "grade-7-world-cultures-geography-75-03",
               "title": "Cooperation, Conflict, and Historical Change",
               "slug": "cooperation-conflict-and-historical-change",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-7-world-cultures-geography-unit-7-5",
               "unitNumber": "7.5",
               "objectives": [
@@ -1752,7 +1752,7 @@
               "id": "grade-7-world-cultures-geography-76-01",
               "title": "How Geography Shapes Daily Life",
               "slug": "how-geography-shapes-daily-life",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-7-world-cultures-geography-unit-7-6",
               "unitNumber": "7.6",
               "objectives": [
@@ -1771,7 +1771,7 @@
               "id": "grade-7-world-cultures-geography-76-02",
               "title": "Natural Resources and Human Development",
               "slug": "natural-resources-and-human-development",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-7-world-cultures-geography-unit-7-6",
               "unitNumber": "7.6",
               "objectives": [
@@ -1790,7 +1790,7 @@
               "id": "grade-7-world-cultures-geography-76-03",
               "title": "Historical Responses to Environmental Challenges",
               "slug": "historical-responses-to-environmental-challenges",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-7-world-cultures-geography-unit-7-6",
               "unitNumber": "7.6",
               "objectives": [
