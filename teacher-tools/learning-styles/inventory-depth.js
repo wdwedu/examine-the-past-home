@@ -41,8 +41,8 @@ const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAt
 wrap.append(svg);const list=el('div','etp-dimension-list');types.forEach(t=>{let item=el('span','',t.name);item.append(el('b','—'));item.dataset.id=t.id;list.append(item)});wrap.append(list);
 return {wrap,svg,list};
 }
-const live=makeChart();const guide=$('.etp-scale-guide',side),help=$('.etp-lab-help',side);
-if(guide)guide.after(live.wrap);else if(help)help.after(live.wrap);else side.prepend(live.wrap);
+addScaleGuide();const live=makeChart();const labBody=$('.lab-body',profile),reportSide=$('.report-side',profile);
+if(labBody&&reportSide)labBody.insertBefore(live.wrap,reportSide);else side.append(live.wrap);
 function hexToRgb(hex){let a=hex.replace('#','');return [parseInt(a.slice(0,2),16),parseInt(a.slice(2,4),16),parseInt(a.slice(4,6),16)]}
 function colorShift(hex,k){return '#'+hexToRgb(hex).map(c=>Math.max(0,Math.min(255,Math.round(c*k))).toString(16).padStart(2,'0')).join('')}
 function polygon(points,fill){return '<polygon points="'+points.map(p=>p.join(',')).join(' ')+'" fill="'+fill+'"/>'}
@@ -61,7 +61,9 @@ lines.push('<text x="420" y="295" text-anchor="middle" font-family="Georgia,seri
 svg.innerHTML=lines.join('');
 if(list)types.forEach(t=>{const node=list.querySelector('[data-id="'+t.id+'"] b');if(node)node.textContent=coverageData.counts[t.id]?Math.round(score[t.id])+'% · '+coverageData.counts[t.id]+'/'+coverageData.possible[t.id]:'Not yet rated'});
 }
-function redraw(){renderChart(live,safeScores())}
+let displayed=Object.fromEntries(types.map(t=>[t.id,0]));let plotId=0;
+function redraw(){const actual=safeScores(),from={...displayed},start=performance.now(),duration=matchMedia('(prefers-reduced-motion:reduce)').matches?0:360;if(plotId)cancelAnimationFrame(plotId);
+function step(now){const t=duration?Math.min(1,(now-start)/duration):1,e=t*t*(3-2*t),v={};types.forEach(type=>{v[type.id]=from[type.id]+((actual[type.id]||0)-from[type.id])*e});renderChart(live,v);if(t<1)plotId=requestAnimationFrame(step);else{displayed={...actual};plotId=0}}plotId=requestAnimationFrame(step)}
 let scheduled=false;function schedule(){if(scheduled)return;scheduled=true;requestAnimationFrame(()=>{scheduled=false;redraw()})}
 document.addEventListener('etp-learning-score-change',schedule);
 side.addEventListener('change',e=>{if(e.target.matches('input[type=radio]'))schedule()});
@@ -110,7 +112,13 @@ const originalDownload=window.downloadReport;
 document.addEventListener('click',e=>{const target=e.target.closest('#etp-save-pdf');if(target){target.dataset.action='browser-print'}});
 const styleNav=$('.nav a.lab-nav');if(styleNav){styleNav.textContent='Take Assessment';styleNav.href='#profile'}
 const heroActions=$('.hero-actions');if(heroActions){const links=heroActions.querySelectorAll('a');if(links.length>1){links[0].textContent='Explore Learning Styles ↓';links[1].textContent='Skip to the Learning Styles Assessment →';links[1].href='#profile';}}
-const historySection=$('#science');if(historySection){historySection.setAttribute('aria-label','History of learning-styles ideas and present-day evidence')}
+const historySection=$('#science');if(historySection){
+historySection.setAttribute('aria-label','History of learning-styles ideas and present-day evidence');
+const historyWrap=historySection.querySelector('.shell');
+if(historyWrap&&!historySection.querySelector('.etp-style-history')){const timeline=el('div','etp-style-history');
+timeline.innerHTML='<h3>How learning-styles thinking changed</h3><ol><li><b>1980s:</b> Experiential learning frameworks, including David Kolb’s 1984 work, helped popularize reflection on different learning approaches.</li><li><b>1987–1992:</b> Neil Fleming developed VARK as a way to prompt reflection on visual, aural, reading/writing, and kinesthetic preferences; Fleming and Colleen Mills published on it in 1992.</li><li><b>2008:</b> A research review by Pashler and colleagues found insufficient evidence that matching instruction to a declared style reliably improves learning.</li><li><b>Today:</b> Evidence-informed teaching emphasizes content-appropriate formats, retrieval, practice, explanation, and flexible strategies—not fixed learner labels.</li></ol><p><a href="https://pubmed.ncbi.nlm.nih.gov/26162104/" target="_blank" rel="noopener">Research review</a> · <a href="https://vark-learn.com/articles/" target="_blank" rel="noopener">History of VARK</a></p>';
+historyWrap.append(timeline)}}
+
 const methods=[...document.querySelectorAll('.method-grid .method')];if(methods.length){const head=methods[0].closest('section')?.querySelector('.section-head h2');if(head)head.textContent='Use learning preferences as a doorway, not a box.'}
 redraw();
 })();
