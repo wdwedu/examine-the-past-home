@@ -1,0 +1,2414 @@
+{
+  "version": "2026-11-13 Grade 8 US History, premium template version 1",
+  "readingLevelNote": "Target grade eight; explicit vocabulary, multi-causal reasoning, chronology, source corroboration; independent adult-friendly. Formal readability testing pending.",
+  "units": {
+    "8.1": {
+      "source": [
+        "Library of Congress — Colonial America and Primary Sources",
+        "https://www.loc.gov/classroom-materials/"
+      ],
+      "video": [
+        "Crash Course U.S. History: The English Colonies",
+        "p47tZLJbdag",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "8.2": {
+      "source": [
+        "National Archives — Declaration of Independence",
+        "https://www.archives.gov/founding-docs/declaration"
+      ],
+      "video": [
+        "Crash Course U.S. History: Who Won the American Revolution?",
+        "3EiSymRrKI4",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "8.3": {
+      "source": [
+        "National Archives — Constitution",
+        "https://www.archives.gov/founding-docs/constitution"
+      ],
+      "video": [
+        "National Archives: United States Constitution",
+        "-d8MCVqBy38",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "8.4": {
+      "source": [
+        "National Archives — Early Republic Records",
+        "https://www.archives.gov/education/lessons"
+      ],
+      "video": [
+        "Crash Course U.S. History: The Early Republic",
+        "r161cLYzuDI",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "8.5": {
+      "source": [
+        "National Park Service — Trail of Tears",
+        "https://www.nps.gov/trte/index.htm"
+      ],
+      "video": [
+        "Crash Course U.S. History: Age of Jackson",
+        "beN4qE-e5O8",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "8.6": {
+      "source": [
+        "National Museum of African American History and Culture",
+        "https://nmaahc.si.edu/"
+      ],
+      "video": [
+        "Crash Course U.S. History: Slavery",
+        "Ajn9g5Gsv98",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "8.7": {
+      "source": [
+        "National Park Service — Civil War",
+        "https://www.nps.gov/civilwar/index.htm"
+      ],
+      "video": [
+        "Crash Course U.S. History: The Civil War",
+        "rY9zHNOjGrs",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "8.8": {
+      "source": [
+        "National Archives — Reconstruction Amendments",
+        "https://www.archives.gov/milestone-documents"
+      ],
+      "video": [
+        "Crash Course U.S. History: Reconstruction",
+        "nowsS7pMApI",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    }
+  },
+  "lessons": {
+    "british-colonial-development": {
+      "title": "British Colonial Development",
+      "unit": "8.1",
+      "unitTitle": "Colonial Foundations",
+      "seq": 1,
+      "total": 3,
+      "essential": "How did geography, imperial policy, and Indigenous power influence British colonial growth?",
+      "paragraphs": [
+        "British settlement in North America developed across existing Indigenous homelands, not an empty continent. English colonies grew in different regions through charters, land claims, and migration. Jamestown began in 1607 in Tsenacommacah, the Powhatan paramount chiefdom's homeland; relations involved trade, diplomacy, conflict, and unequal power.",
+        "The Chesapeake tobacco economy relied first on varied labor arrangements and increasingly on racialized hereditary slavery. New England colonies organized around other agricultural and maritime systems, with their own conflicts and alliances. British authorities tried to govern trade, but colonial institutions and Indigenous nations shaped outcomes locally.",
+        "A colonial charter expresses English claims; it does not prove that the land was unoccupied or that residents consented. Compare a charter with Indigenous historical perspectives and an accurately dated map. Explain which groups claimed authority and how those claims affected people on the ground."
+      ],
+      "vocabulary": [
+        "charter",
+        "imperial policy",
+        "Powhatan",
+        "settlement"
+      ],
+      "activity": "Charter and homeland map hearing",
+      "task": "Compare a British land claim with Indigenous territorial evidence and explain how each source's purpose differs.",
+      "investigation": [
+        "Who held authority in a colony cannot be established by its charter alone",
+        "Regional economies developed differently under geography and labor systems",
+        "Indigenous communities made political choices rather than merely reacting"
+      ],
+      "options": [
+        "Jamestown's founding in 1607",
+        "The ratification of the Fourteenth Amendment",
+        "The Louisiana Purchase"
+      ],
+      "correct": 0,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "Which event is associated with English settlement in Powhatan territory?",
+          "options": [
+            "Jamestown's founding in 1607",
+            "The ratification of the Fourteenth Amendment",
+            "The Louisiana Purchase"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which claim about “British Colonial Development” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of british colonial development?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "Who held authority in a colony cannot be established by its charter alone",
+          "Regional economies developed differently under geography and labor systems",
+          "Indigenous communities made political choices rather than merely reacting"
+        ]
+      }
+    },
+    "colonial-society-and-political-institutions": {
+      "title": "Colonial Society and Political Institutions",
+      "unit": "8.1",
+      "unitTitle": "Colonial Foundations",
+      "seq": 2,
+      "total": 3,
+      "essential": "How representative were colonial political institutions, and for whom?",
+      "paragraphs": [
+        "British mainland colonies developed assemblies, courts, local meetings, and governors with different arrangements. The Virginia House of Burgesses met in 1619, while New England town meetings developed their own traditions. Such bodies offered political experience to some colonists, but voting and officeholding were restricted by status, wealth, race, religion, or gender.",
+        "Colonial societies included Indigenous nations, enslaved Africans and their descendants, indentured servants, and families of diverse backgrounds. Their rights and opportunities were unequal. Religious institutions, trade connections, and laws also influenced daily life; social hierarchy varied by colony and changed across the seventeenth and eighteenth centuries.",
+        "A law announcing representative government is not proof of universal democracy. Compare the rules for participation with information about people excluded from those rules. A historian should ask who could vote, who selected lawmakers, whose labor sustained institutions, and who could challenge a decision."
+      ],
+      "vocabulary": [
+        "assembly",
+        "franchise",
+        "governor",
+        "representation"
+      ],
+      "activity": "Colonial assembly eligibility inquiry",
+      "task": "Use a fictional assembly roll to distinguish residents, voters, representatives, and people without political rights.",
+      "investigation": [
+        "Colonial assemblies represented only certain residents",
+        "Voting rules differed across colonies and time",
+        "Enslaved and Indigenous people were excluded from most colonial legislative power"
+      ],
+      "options": [
+        "The United Nations",
+        "The House of Burgesses",
+        "The U.S. Supreme Court"
+      ],
+      "correct": 1,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "Which institution first met in Virginia in 1619?",
+          "options": [
+            "The United Nations",
+            "The House of Burgesses",
+            "The U.S. Supreme Court"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which claim about “Colonial Society and Political Institutions” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of colonial society and political institutions?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "Colonial assemblies represented only certain residents",
+          "Voting rules differed across colonies and time",
+          "Enslaved and Indigenous people were excluded from most colonial legislative power"
+        ]
+      }
+    },
+    "slavery-and-the-atlantic-economy": {
+      "title": "Slavery and the Atlantic Economy",
+      "unit": "8.1",
+      "unitTitle": "Colonial Foundations",
+      "seq": 3,
+      "total": 3,
+      "essential": "How were Atlantic economies linked to coerced labor and human resistance?",
+      "paragraphs": [
+        "European colonial plantation systems expanded through the forced labor of enslaved Africans and their descendants. The transatlantic slave trade involved kidnapping, trafficking, and brutal ocean crossings. Plantation commodities such as tobacco and sugar entered Atlantic exchange networks, with profits distributed unequally among merchants, investors, and landowners.",
+        "Laws increasingly made slavery hereditary and tied to racial categories in English colonies. Enslaved people were individuals with families, skills, beliefs, and communities who resisted through everyday decisions, escape, organizing, and open rebellion. The economy cannot be understood accurately without acknowledging their labor and their struggle for autonomy.",
+        "A shipping ledger may list people as property or cargo; that language reflects perpetrators' accounting, not human worth. Compare an economic record with testimony from enslaved people where available and with archaeological evidence of community life. Avoid reducing individuals to statistics or treating slavery as simply a labor preference."
+      ],
+      "vocabulary": [
+        "chattel slavery",
+        "Middle Passage",
+        "plantation",
+        "resistance"
+      ],
+      "activity": "Atlantic ledger and testimony investigation",
+      "task": "Annotate what a shipping or plantation record counts, whom it dehumanizes, and which additional voices are necessary.",
+      "investigation": [
+        "The forced transport of Africans was not voluntary migration",
+        "Plantation profits relied on coercion and unequal distribution",
+        "Enslaved people preserved communities and resisted domination"
+      ],
+      "options": [
+        "A colonial legislative meeting",
+        "An overland route to California",
+        "The forced Atlantic voyage of enslaved Africans"
+      ],
+      "correct": 2,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "What does the term Middle Passage refer to?",
+          "options": [
+            "A colonial legislative meeting",
+            "An overland route to California",
+            "The forced Atlantic voyage of enslaved Africans"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which claim about “Slavery and the Atlantic Economy” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of slavery and the atlantic economy?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "The forced transport of Africans was not voluntary migration",
+          "Plantation profits relied on coercion and unequal distribution",
+          "Enslaved people preserved communities and resisted domination"
+        ]
+      }
+    },
+    "the-road-to-revolution": {
+      "title": "The Road to Revolution",
+      "unit": "8.2",
+      "unitTitle": "Revolution and Independence",
+      "seq": 1,
+      "total": 4,
+      "essential": "Why did disputes between Britain and its colonies intensify after 1763?",
+      "paragraphs": [
+        "Britain's victory in the Seven Years' War in 1763 enlarged its North American claims but created substantial debt and new disputes over western lands. Parliament introduced measures such as the Stamp Act in 1765 and the Townshend duties in 1767. Colonial resistance often focused on taxation, representation, and the meaning of imperial authority.",
+        "Petitions, nonimportation campaigns, crowd protests, and political writings shaped an escalating crisis. British officials defended parliamentary sovereignty, while many protesters insisted that taxation required consent through their elected representatives. Indigenous nations faced related but distinct struggles over territory, diplomacy, and imperial expansion.",
+        "The phrase 'no taxation without representation' expresses one colonial argument, not the view of everyone living in North America. Compare the dates and purposes of a parliamentary act, a colonial petition, and an Indigenous diplomatic position. Identify where political rhetoric and material interests converged or conflicted."
+      ],
+      "vocabulary": [
+        "parliamentary sovereignty",
+        "Stamp Act",
+        "nonimportation",
+        "petition"
+      ],
+      "activity": "Imperial crisis timeline hearing",
+      "task": "Arrange 1763, 1765, 1767, and 1773 events; connect policy, response, and competing claims.",
+      "investigation": [
+        "War debt influenced British imperial policy",
+        "Protests used political and economic tactics",
+        "Many colonists remained Loyalists or undecided"
+      ],
+      "options": [
+        "The Stamp Act",
+        "The Homestead Act",
+        "The Sherman Antitrust Act"
+      ],
+      "correct": 0,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "Which British measure required stamps on many printed documents in 1765?",
+          "options": [
+            "The Stamp Act",
+            "The Homestead Act",
+            "The Sherman Antitrust Act"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which claim about “The Road to Revolution” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of the road to revolution?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "War debt influenced British imperial policy",
+          "Protests used political and economic tactics",
+          "Many colonists remained Loyalists or undecided"
+        ]
+      }
+    },
+    "the-declaration-of-independence": {
+      "title": "The Declaration of Independence",
+      "unit": "8.2",
+      "unitTitle": "Revolution and Independence",
+      "seq": 2,
+      "total": 4,
+      "essential": "How did the Declaration frame independence, and where were its claims incomplete?",
+      "paragraphs": [
+        "The Continental Congress adopted the Declaration of Independence on July 4, 1776. Primarily drafted by Thomas Jefferson and revised by Congress, the text argued that governments derive just powers from consent and listed grievances against George III. It was a public justification of separation, not the Constitution that later organized the federal government.",
+        "The Declaration's language about equality and rights became influential, but slavery persisted and women, Indigenous nations, and many others lacked equal political standing. Some enslaved and free Black people drew on revolutionary ideals to argue for liberty. The text therefore provides evidence both of a political aspiration and of profound contradictions.",
+        "Distinguish claims made in a document from conditions in society. Analyze the intended audience, the list of grievances, and the omitted experiences. Explain how later reformers could use revolutionary language to press demands that the founders themselves did not fulfill."
+      ],
+      "vocabulary": [
+        "consent of governed",
+        "grievance",
+        "natural rights",
+        "independence"
+      ],
+      "activity": "Declaration argument annotation",
+      "task": "Group claims into principles, grievances, and proposed consequences, then investigate one exclusion.",
+      "investigation": [
+        "The Declaration was adopted in July 1776",
+        "Its grievances justified separation from Britain",
+        "Its ideals did not immediately end slavery or guarantee universal rights"
+      ],
+      "options": [
+        "The Constitutional Convention",
+        "The Continental Congress",
+        "The U.S. Senate"
+      ],
+      "correct": 1,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "Which body adopted the Declaration of Independence?",
+          "options": [
+            "The Constitutional Convention",
+            "The Continental Congress",
+            "The U.S. Senate"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which claim about “The Declaration of Independence” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of the declaration of independence?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "The Declaration was adopted in July 1776",
+          "Its grievances justified separation from Britain",
+          "Its ideals did not immediately end slavery or guarantee universal rights"
+        ]
+      }
+    },
+    "revolutionary-war-turning-points": {
+      "title": "Revolutionary War Turning Points",
+      "unit": "8.2",
+      "unitTitle": "Revolution and Independence",
+      "seq": 3,
+      "total": 4,
+      "essential": "How did military events and foreign diplomacy change the Revolutionary War?",
+      "paragraphs": [
+        "Early fighting at Lexington and Concord in 1775 began armed conflict before the Declaration was issued. The American victory at Saratoga in 1777 helped persuade France to enter a formal alliance in 1778. French military and naval assistance reshaped the war's international balance, while British forces continued campaigns in several regions.",
+        "The British surrender at Yorktown in 1781 was a major turning point made possible by Continental and French cooperation, but fighting and negotiations continued. The Treaty of Paris in 1783 recognized U.S. independence. Neither victory nor treaty resolved Indigenous sovereignty, slavery, or every disagreement about territory.",
+        "A timeline shows sequence but not automatically causation. Compare a battle report, diplomatic correspondence, and a map of campaigns to judge why each event mattered. Explain how allies, resources, and strategic decisions intersected rather than choosing one 'hero' as the sole cause of independence."
+      ],
+      "vocabulary": [
+        "Saratoga",
+        "alliance",
+        "Yorktown",
+        "Treaty of Paris"
+      ],
+      "activity": "Military and diplomatic turning-point analysis",
+      "task": "Rank Saratoga, French alliance, Yorktown, and the 1783 treaty by different criteria and defend the ranking.",
+      "investigation": [
+        "Saratoga occurred in 1777",
+        "France formally allied with the United States in 1778",
+        "The peace settlement followed Yorktown rather than preceding it"
+      ],
+      "options": [
+        "The immediate end of the war",
+        "The creation of the United Nations",
+        "The formal French alliance in 1778"
+      ],
+      "correct": 2,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "What international change followed the American victory at Saratoga?",
+          "options": [
+            "The immediate end of the war",
+            "The creation of the United Nations",
+            "The formal French alliance in 1778"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which claim about “Revolutionary War Turning Points” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of revolutionary war turning points?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "Saratoga occurred in 1777",
+          "France formally allied with the United States in 1778",
+          "The peace settlement followed Yorktown rather than preceding it"
+        ]
+      }
+    },
+    "unfinished-promises-of-the-revolution": {
+      "title": "Unfinished Promises of the Revolution",
+      "unit": "8.2",
+      "unitTitle": "Revolution and Independence",
+      "seq": 4,
+      "total": 4,
+      "essential": "Who benefited from independence, and whose rights remained restricted?",
+      "paragraphs": [
+        "The Revolution overturned British imperial rule in the thirteen states, but a political victory did not guarantee freedom for all residents. States debated voting requirements, religious freedom, and public obligations. Enslaved people pursued liberation through varied strategies, while Indigenous nations defended their territories in the face of expanding settler claims.",
+        "Northern states began gradual emancipation policies at different times, but slavery remained entrenched in the South. Women contributed politically and materially to the war yet did not gain equal voting rights. Black Americans and Indigenous communities faced laws and practices sharply at odds with proclaimed ideals of liberty.",
+        "Evaluate success by stating a criterion: political independence, legal freedom, voting access, or sovereignty. Then compare the situation before and after the war for at least two groups. A careful answer should identify genuine changes without suggesting that revolutionary promises were fully realized."
+      ],
+      "vocabulary": [
+        "gradual emancipation",
+        "sovereignty",
+        "exclusion",
+        "revolutionary ideals"
+      ],
+      "activity": "Revolutionary promises comparison matrix",
+      "task": "Test the claim 'the Revolution brought liberty' against evidence for enslaved people, women, and Indigenous nations.",
+      "investigation": [
+        "Independence and equal rights are different historical outcomes",
+        "Some northern states adopted gradual emancipation",
+        "Indigenous sovereignty remained contested after independence"
+      ],
+      "options": [
+        "Independence expanded some opportunities while many exclusions remained",
+        "The Declaration immediately ended slavery",
+        "All adults gained equal voting rights"
+      ],
+      "correct": 0,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "Which conclusion best represents the Revolution's unequal outcomes?",
+          "options": [
+            "Independence expanded some opportunities while many exclusions remained",
+            "The Declaration immediately ended slavery",
+            "All adults gained equal voting rights"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which claim about “Unfinished Promises of the Revolution” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of unfinished promises of the revolution?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "Independence and equal rights are different historical outcomes",
+          "Some northern states adopted gradual emancipation",
+          "Indigenous sovereignty remained contested after independence"
+        ]
+      }
+    },
+    "the-articles-of-confederation": {
+      "title": "The Articles of Confederation",
+      "unit": "8.3",
+      "unitTitle": "Constitution and Government",
+      "seq": 1,
+      "total": 4,
+      "essential": "How did the first national government balance state power and national needs?",
+      "paragraphs": [
+        "The Articles of Confederation, ratified in 1781, created a national Congress while leaving substantial authority to the states. Congress could conduct diplomacy and request funds but lacked independent power to levy federal taxes. Under the Articles, the Northwest Ordinance of 1787 organized a framework for territorial government and future statehood.",
+        "Financial shortages, interstate disagreements, and challenges in enforcing decisions prompted debate over national authority. Shays' Rebellion in Massachusetts in 1786–1787 alarmed some leaders, although its meaning was contested. Critics argued that the Confederation needed stronger powers; defenders worried that a powerful central government could threaten liberty.",
+        "Do not call the Articles merely a failed draft. Analyze both achievements and limitations using concrete institutional powers. In a simulation, explain how a government expected to pay debts could operate when it relied on voluntary state contributions."
+      ],
+      "vocabulary": [
+        "confederation",
+        "ratification",
+        "federal taxation",
+        "Northwest Ordinance"
+      ],
+      "activity": "Confederation finance simulation",
+      "task": "Test a congressional spending plan when the national government cannot directly impose a tax.",
+      "investigation": [
+        "The Articles were ratified in 1781",
+        "Congress lacked independent federal taxing power",
+        "The Northwest Ordinance was enacted under the Confederation"
+      ],
+      "options": [
+        "Authority to request money",
+        "Independent power to levy federal taxes",
+        "Authority to conduct diplomacy"
+      ],
+      "correct": 1,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "What major fiscal power did Congress lack under the Articles?",
+          "options": [
+            "Authority to request money",
+            "Independent power to levy federal taxes",
+            "Authority to conduct diplomacy"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which claim about “The Articles of Confederation” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of the articles of confederation?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "The Articles were ratified in 1781",
+          "Congress lacked independent federal taxing power",
+          "The Northwest Ordinance was enacted under the Confederation"
+        ]
+      }
+    },
+    "the-constitutional-convention": {
+      "title": "The Constitutional Convention",
+      "unit": "8.3",
+      "unitTitle": "Constitution and Government",
+      "seq": 2,
+      "total": 4,
+      "essential": "How did compromise and conflict shape the Constitution's design?",
+      "paragraphs": [
+        "Delegates met in Philadelphia in 1787 to address weaknesses in the Confederation. Debates centered on the balance of national and state authority, representation, executive power, and slavery. The Virginia Plan favored representation connected to population, while the New Jersey Plan defended equal state representation in Congress.",
+        "The Connecticut Compromise created a House based on population and a Senate with equal state representation. The Constitution also contained protections for slavery, including the Three-Fifths Clause used to calculate representation and direct taxes. The document reflected bargaining among delegates rather than unanimous agreement on every principle.",
+        "Separate what delegates proposed, what they adopted, and whose interests were excluded from the convention. Use convention records and constitutional text to explain both the function and the moral costs of particular compromises. Avoid describing slavery-related compromises as neutral arithmetic."
+      ],
+      "vocabulary": [
+        "Virginia Plan",
+        "New Jersey Plan",
+        "Connecticut Compromise",
+        "Three-Fifths Clause"
+      ],
+      "activity": "Representation negotiation council",
+      "task": "Compare small- and large-state proposals; evaluate how slavery affected representation debates.",
+      "investigation": [
+        "The convention met in 1787",
+        "The House and Senate used different representation rules",
+        "Compromises protected slaveholding power"
+      ],
+      "options": [
+        "The Connecticut Compromise",
+        "The Missouri Compromise",
+        "The Compromise of 1850"
+      ],
+      "correct": 0,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "Which compromise provided equal Senate representation for each state?",
+          "options": [
+            "The Connecticut Compromise",
+            "The Missouri Compromise",
+            "The Compromise of 1850"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which claim about “The Constitutional Convention” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of the constitutional convention?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "The convention met in 1787",
+          "The House and Senate used different representation rules",
+          "Compromises protected slaveholding power"
+        ]
+      }
+    },
+    "federalists-and-anti-federalists": {
+      "title": "Federalists and Anti-Federalists",
+      "unit": "8.3",
+      "unitTitle": "Constitution and Government",
+      "seq": 3,
+      "total": 4,
+      "essential": "Why did Americans disagree over ratifying the Constitution?",
+      "paragraphs": [
+        "After the 1787 convention, Americans debated whether the proposed Constitution created a necessary stronger union or risked concentrating power. Federalists defended ratification, while Anti-Federalists raised concerns about distant authority, representation, and protection of individual liberties. These were broad coalitions with internal disagreements, not modern political parties.",
+        "Alexander Hamilton, James Madison, and John Jay wrote essays later collected as The Federalist Papers. Opponents published pamphlets and essays under several names. Promises to consider amendments helped secure support in key states, and the Bill of Rights was ratified in 1791 after the new government began.",
+        "Compare two arguments without assuming either author predicted the future perfectly. Identify a concern, the constitutional feature it addresses, and the evidence or reasoning used. Distinguish the debate over ratification from later battles between Federalist and Democratic-Republican parties."
+      ],
+      "vocabulary": [
+        "ratification",
+        "Federalist",
+        "Anti-Federalist",
+        "Bill of Rights"
+      ],
+      "activity": "Ratification pamphlet debate",
+      "task": "Evaluate competing short arguments about federal power, representation, and promised rights amendments.",
+      "investigation": [
+        "Federalists supported ratification",
+        "Anti-Federalists worried about centralized power",
+        "The Bill of Rights was ratified after the Constitution"
+      ],
+      "options": [
+        "The existence of state governments",
+        "A national system with no written document",
+        "A stronger central government without explicit rights protections"
+      ],
+      "correct": 2,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "What did Anti-Federalists often criticize?",
+          "options": [
+            "The existence of state governments",
+            "A national system with no written document",
+            "A stronger central government without explicit rights protections"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which claim about “Federalists and Anti-Federalists” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of federalists and anti-federalists?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "Federalists supported ratification",
+          "Anti-Federalists worried about centralized power",
+          "The Bill of Rights was ratified after the Constitution"
+        ]
+      }
+    },
+    "rights-representation-and-federalism": {
+      "title": "Rights, Representation, and Federalism",
+      "unit": "8.3",
+      "unitTitle": "Constitution and Government",
+      "seq": 4,
+      "total": 4,
+      "essential": "How do federalism and constitutional rights create both powers and limits?",
+      "paragraphs": [
+        "The U.S. Constitution divides authority between the federal government and the states. Its separation of powers distributes responsibilities among legislative, executive, and judicial branches. The Bill of Rights, ratified in 1791, set out protections such as freedoms of speech and religion and limits on government procedures.",
+        "Constitutional rights and the reach of federal powers have changed through amendments, laws, and court interpretation. The original constitutional system did not guarantee equal political participation to every resident. Studying a modern right requires distinguishing the founding text from later developments that expanded or contested its application.",
+        "A constitutional diagram can show how powers are organized, but only close reading can establish what the text actually grants or restricts. Compare an enumerated federal power with a reserved-power question and identify which clause or amendment would need further study."
+      ],
+      "vocabulary": [
+        "federalism",
+        "separation of powers",
+        "Bill of Rights",
+        "enumerated power"
+      ],
+      "activity": "Federal-state powers decision tree",
+      "task": "Sort hypothetical policy disputes among national, state, and shared powers without claiming every case is simple.",
+      "investigation": [
+        "Federalism divides authority among levels of government",
+        "Separation of powers concerns branches of government",
+        "The Bill of Rights was ratified in 1791"
+      ],
+      "options": [
+        "The length of a president's term",
+        "The division of authority between national and state governments",
+        "The power of judges to appoint senators"
+      ],
+      "correct": 1,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "What does federalism primarily describe?",
+          "options": [
+            "The length of a president's term",
+            "The division of authority between national and state governments",
+            "The power of judges to appoint senators"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which claim about “Rights, Representation, and Federalism” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of rights, representation, and federalism?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "Federalism divides authority among levels of government",
+          "Separation of powers concerns branches of government",
+          "The Bill of Rights was ratified in 1791"
+        ]
+      }
+    },
+    "washington-s-presidency": {
+      "title": "Washington's Presidency",
+      "unit": "8.4",
+      "unitTitle": "The Early Republic",
+      "seq": 1,
+      "total": 4,
+      "essential": "How did Washington's presidency shape practices beyond the Constitution's text?",
+      "paragraphs": [
+        "George Washington served as the first president under the Constitution from 1789 to 1797. He organized executive departments and relied on advisers, contributing to practices that developed into the presidential Cabinet. His administration faced questions about federal debt, domestic resistance, and relations with foreign powers.",
+        "The Whiskey Rebellion in 1794 tested federal enforcement, while the 1793 neutrality proclamation addressed wars involving European states. Washington's Farewell Address warned against some political entanglements and divisions. Yet the administration also operated in a nation where slavery continued and Indigenous sovereignty was repeatedly challenged.",
+        "Separate a constitutional requirement from a precedent created by presidential practice. Ask which choices were legally mandated, which were political judgments, and whose interests were affected. A single presidential address reveals Washington's stated views, not all Americans' agreement with them."
+      ],
+      "vocabulary": [
+        "precedent",
+        "Cabinet",
+        "neutrality",
+        "Whiskey Rebellion"
+      ],
+      "activity": "Presidential precedent sorter",
+      "task": "Classify policies and customs as constitutional text, legislation, executive decision, or later precedent.",
+      "investigation": [
+        "Washington's presidency began in 1789",
+        "The neutrality proclamation was issued in 1793",
+        "The Whiskey Rebellion occurred during his administration"
+      ],
+      "options": [
+        "Issuing a neutrality proclamation",
+        "Signing the Emancipation Proclamation",
+        "Negotiating the Treaty of Versailles"
+      ],
+      "correct": 0,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "Which action is associated with Washington in 1793?",
+          "options": [
+            "Issuing a neutrality proclamation",
+            "Signing the Emancipation Proclamation",
+            "Negotiating the Treaty of Versailles"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which claim about “Washington's Presidency” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of washington's presidency?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "Washington's presidency began in 1789",
+          "The neutrality proclamation was issued in 1793",
+          "The Whiskey Rebellion occurred during his administration"
+        ]
+      }
+    },
+    "jefferson-and-the-louisiana-purchase": {
+      "title": "Jefferson and the Louisiana Purchase",
+      "unit": "8.4",
+      "unitTitle": "The Early Republic",
+      "seq": 2,
+      "total": 4,
+      "essential": "How did the Louisiana Purchase expand territory while raising constitutional and Indigenous sovereignty questions?",
+      "paragraphs": [
+        "President Thomas Jefferson's administration negotiated the Louisiana Purchase from France in 1803, dramatically enlarging U.S. territorial claims west of the Mississippi River. The purchase involved diplomacy and questions about the constitutional basis for acquiring territory. The lands were already occupied by diverse Indigenous nations with their own political claims.",
+        "The Lewis and Clark expedition of 1804–1806 gathered geographic information, established contacts, and explored routes, but it did not discover an uninhabited region. Expansion encouraged new commercial opportunities and settler demands. It also increased pressure on Indigenous sovereignty and intensified debates about slavery's geographic future.",
+        "A government purchase map shows claims exchanged between states, not consent from every resident. Compare treaty language with Indigenous historical perspectives and the expedition's records. Distinguish physical exploration from the legal and moral questions of territorial control."
+      ],
+      "vocabulary": [
+        "Louisiana Purchase",
+        "territorial claim",
+        "expedition",
+        "sovereignty"
+      ],
+      "activity": "Territory and treaty map inquiry",
+      "task": "Compare claims on a 1803 map with Indigenous homelands and argue what the purchase did and did not transfer.",
+      "investigation": [
+        "The Louisiana Purchase occurred in 1803",
+        "The Lewis and Clark expedition began in 1804",
+        "Indigenous nations already inhabited the purchased territory"
+      ],
+      "options": [
+        "Britain",
+        "Spain",
+        "France"
+      ],
+      "correct": 2,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "Which country sold Louisiana to the United States in 1803?",
+          "options": [
+            "Britain",
+            "Spain",
+            "France"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which claim about “Jefferson and the Louisiana Purchase” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of jefferson and the louisiana purchase?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "The Louisiana Purchase occurred in 1803",
+          "The Lewis and Clark expedition began in 1804",
+          "Indigenous nations already inhabited the purchased territory"
+        ]
+      }
+    },
+    "the-war-of-1812": {
+      "title": "The War of 1812",
+      "unit": "8.4",
+      "unitTitle": "The Early Republic",
+      "seq": 3,
+      "total": 4,
+      "essential": "What caused the War of 1812, and why do different groups remember it differently?",
+      "paragraphs": [
+        "The United States declared war on Britain in 1812 amid disputes over maritime trade, British impressment of sailors, and frontier conflicts. U.S. expansionists held varied goals. Indigenous nations, including the confederacy associated with Tecumseh, sought to resist U.S. encroachment and faced distinct strategic choices.",
+        "British forces burned public buildings in Washington in 1814, while the defense of Fort McHenry became an important U.S. symbol. The Treaty of Ghent was signed in December 1814 and took effect in 1815. The Battle of New Orleans occurred after the treaty was signed but before news of peace had reached the armies.",
+        "A victory narrative can hide unequal outcomes. Compare American, British, Canadian, and Indigenous interpretations, taking care not to treat each as one uniform opinion. Explain why the war's diplomatic settlement did not restore security or land to all Indigenous nations."
+      ],
+      "vocabulary": [
+        "impressment",
+        "Tecumseh",
+        "Treaty of Ghent",
+        "Fort McHenry"
+      ],
+      "activity": "War of 1812 perspective timeline",
+      "task": "Sequence major events while analyzing the effects on U.S., British, and Indigenous political aims.",
+      "investigation": [
+        "The U.S. declared war in 1812",
+        "Washington was attacked in 1814",
+        "The Battle of New Orleans followed the signing of the peace treaty"
+      ],
+      "options": [
+        "Treaty of Ghent",
+        "Treaty of Paris (1783)",
+        "Treaty of Guadalupe Hidalgo"
+      ],
+      "correct": 0,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "Which treaty ended the War of 1812?",
+          "options": [
+            "Treaty of Ghent",
+            "Treaty of Paris (1783)",
+            "Treaty of Guadalupe Hidalgo"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which claim about “The War of 1812” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of the war of 1812?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "The U.S. declared war in 1812",
+          "Washington was attacked in 1814",
+          "The Battle of New Orleans followed the signing of the peace treaty"
+        ]
+      }
+    },
+    "the-development-of-american-political-parties": {
+      "title": "The Development of American Political Parties",
+      "unit": "8.4",
+      "unitTitle": "The Early Republic",
+      "seq": 4,
+      "total": 4,
+      "essential": "Why did political parties emerge despite warnings against faction?",
+      "paragraphs": [
+        "Political disagreements in the 1790s centered on federal power, debt, economic policy, and foreign relations. Alexander Hamilton supported a national financial program, while Thomas Jefferson and James Madison criticized aspects of this approach. Federalists and Democratic-Republicans developed networks of newspapers, officeholders, and supporters.",
+        "Partisan newspapers expressed competing arguments and sometimes exaggerated opponents' intentions. The election of 1800 marked a significant transfer of national political power from Federalists to Democratic-Republicans. These early parties were not identical to today's Democratic and Republican parties.",
+        "Analyze a political editorial as a persuasive source. Identify the claim, intended audience, and evidence offered. Separate labels and insults from specific policy differences, and explain how party organization could help participation while also deepening division."
+      ],
+      "vocabulary": [
+        "faction",
+        "Federalists",
+        "Democratic-Republicans",
+        "election of 1800"
+      ],
+      "activity": "Partisan newspaper evidence lab",
+      "task": "Annotate two fictional editorials for political claims, evidence, persuasion, and omitted context.",
+      "investigation": [
+        "Hamilton and Jefferson disagreed about national policy",
+        "Federalists and Democratic-Republicans were early party coalitions",
+        "The election of 1800 shifted power"
+      ],
+      "options": [
+        "1788",
+        "1800",
+        "1860"
+      ],
+      "correct": 1,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "Which election is especially associated with an early peaceful transfer of national partisan power?",
+          "options": [
+            "1788",
+            "1800",
+            "1860"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which claim about “The Development of American Political Parties” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of the development of american political parties?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "Hamilton and Jefferson disagreed about national policy",
+          "Federalists and Democratic-Republicans were early party coalitions",
+          "The election of 1800 shifted power"
+        ]
+      }
+    },
+    "manifest-destiny-and-territorial-expansion": {
+      "title": "Manifest Destiny and Territorial Expansion",
+      "unit": "8.5",
+      "unitTitle": "Expansion and Reform",
+      "seq": 1,
+      "total": 4,
+      "essential": "How did the ideology of Manifest Destiny justify expansion, and whose perspectives did it erase?",
+      "paragraphs": [
+        "During the nineteenth century, many U.S. expansionists promoted the belief that the nation was destined to extend across the continent. The phrase Manifest Destiny became prominent in 1845. The ideology frequently treated Indigenous homelands and Mexican territories as available for U.S. control, despite the sovereignty and lives of their inhabitants.",
+        "Texas annexation, the U.S.–Mexican War of 1846–1848, and the Treaty of Guadalupe Hidalgo in 1848 transformed claims to territory. Expansion also fueled arguments over slavery. Maps of these changes reflect governments' boundary claims; they do not depict consent or the experiences of all people affected.",
+        "Compare an expansionist newspaper argument with a map, treaty excerpt, and a Mexican or Indigenous perspective. Explain which claims are ideological, which are geographical, and which require legal or historical evaluation. Avoid presenting conquest as peaceful settlement of empty land."
+      ],
+      "vocabulary": [
+        "Manifest Destiny",
+        "annexation",
+        "Treaty of Guadalupe Hidalgo",
+        "territorial expansion"
+      ],
+      "activity": "Expansion claims and consequences map lab",
+      "task": "Analyze an 1840s territorial map and annotate Indigenous, Mexican, and U.S. positions.",
+      "investigation": [
+        "Manifest Destiny was an expansionist ideology",
+        "The U.S.–Mexican War occurred from 1846 to 1848",
+        "Territorial expansion intensified slavery debates"
+      ],
+      "options": [
+        "1776",
+        "1812",
+        "1848"
+      ],
+      "correct": 2,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "In what year was the Treaty of Guadalupe Hidalgo signed?",
+          "options": [
+            "1776",
+            "1812",
+            "1848"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which claim about “Manifest Destiny and Territorial Expansion” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of manifest destiny and territorial expansion?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "Manifest Destiny was an expansionist ideology",
+          "The U.S.–Mexican War occurred from 1846 to 1848",
+          "Territorial expansion intensified slavery debates"
+        ]
+      }
+    },
+    "indian-removal-and-indigenous-resistance": {
+      "title": "Indian Removal and Indigenous Resistance",
+      "unit": "8.5",
+      "unitTitle": "Expansion and Reform",
+      "seq": 2,
+      "total": 4,
+      "essential": "How did Indian removal policies violate Indigenous sovereignty, and how did Native nations resist?",
+      "paragraphs": [
+        "The Indian Removal Act of 1830 authorized federal policy intended to relocate Native nations from lands east of the Mississippi. The policy reflected settler demands for land and federal coercion. The Cherokee, Muscogee (Creek), Choctaw, Chickasaw, and Seminole peoples faced distinct experiences, policies, and resistance.",
+        "Cherokee leaders challenged removal through courts and diplomacy. In Worcester v. Georgia (1832), the Supreme Court recognized limits on Georgia's authority within Cherokee territory, yet removal still proceeded. The forced Cherokee relocation of 1838–1839 caused widespread suffering and deaths and is known as the Trail of Tears.",
+        "Study removal using Native nations' statements and histories alongside federal records. Explain why the label 'relocation' can obscure coercion. Do not collapse distinct nations into a single group or portray removal as inevitable and uncontested."
+      ],
+      "vocabulary": [
+        "Indian Removal Act",
+        "sovereignty",
+        "Worcester v. Georgia",
+        "Trail of Tears"
+      ],
+      "activity": "Removal policy and Indigenous resistance hearing",
+      "task": "Compare Native petitions, Supreme Court reasoning, and federal action; identify contradictions in authority and rights.",
+      "investigation": [
+        "The Indian Removal Act passed in 1830",
+        "Cherokee leaders pursued legal and diplomatic resistance",
+        "The forced Cherokee removal occurred mainly in 1838–1839"
+      ],
+      "options": [
+        "Worcester v. Georgia",
+        "Brown v. Board of Education",
+        "Dred Scott v. Sandford"
+      ],
+      "correct": 0,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "Which decision recognized limits on Georgia's authority in Cherokee territory?",
+          "options": [
+            "Worcester v. Georgia",
+            "Brown v. Board of Education",
+            "Dred Scott v. Sandford"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which claim about “Indian Removal and Indigenous Resistance” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of indian removal and indigenous resistance?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "The Indian Removal Act passed in 1830",
+          "Cherokee leaders pursued legal and diplomatic resistance",
+          "The forced Cherokee removal occurred mainly in 1838–1839"
+        ]
+      }
+    },
+    "industrialization-and-social-reform": {
+      "title": "Industrialization and Social Reform",
+      "unit": "8.5",
+      "unitTitle": "Expansion and Reform",
+      "seq": 3,
+      "total": 4,
+      "essential": "How did industrialization alter work and encourage organized reform?",
+      "paragraphs": [
+        "Early nineteenth-century manufacturing expanded in parts of the United States through factories, canals, and new transport networks. Textile mills employed wage workers, including young women in Lowell, Massachusetts. Production increased for some goods, but hours, conditions, and opportunities were unequal and changed over time.",
+        "Industrial development affected artisans, farmers, workers, and cities in different ways. Workers protested hours and pay, while reform movements debated public education, prisons, temperance, and treatment of people with disabilities. Reformers did not always agree, and some reforms carried their own exclusions or paternalistic assumptions.",
+        "Compare a factory schedule with a worker's account and an employer's statement. Quantify hours where evidence allows, but do not assume every workplace was identical. Explain how economic changes shaped different demands for reform and why the source's viewpoint matters."
+      ],
+      "vocabulary": [
+        "industrialization",
+        "wage labor",
+        "Lowell mills",
+        "reform"
+      ],
+      "activity": "Industrial workday evidence comparison",
+      "task": "Interpret a sample mill schedule and compare worker, owner, and reformer claims.",
+      "investigation": [
+        "Factories expanded in the early nineteenth century",
+        "Lowell textile mills employed women wage workers",
+        "Industrial gains and working conditions were unequal"
+      ],
+      "options": [
+        "Annapolis",
+        "Lowell",
+        "Santa Fe"
+      ],
+      "correct": 1,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "Which Massachusetts city became well known for early textile mills employing women?",
+          "options": [
+            "Annapolis",
+            "Lowell",
+            "Santa Fe"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which claim about “Industrialization and Social Reform” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of industrialization and social reform?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "Factories expanded in the early nineteenth century",
+          "Lowell textile mills employed women wage workers",
+          "Industrial gains and working conditions were unequal"
+        ]
+      }
+    },
+    "women-s-rights-and-antebellum-reform": {
+      "title": "Women's Rights and Antebellum Reform",
+      "unit": "8.5",
+      "unitTitle": "Expansion and Reform",
+      "seq": 4,
+      "total": 4,
+      "essential": "How did women challenge legal and political exclusions before the Civil War?",
+      "paragraphs": [
+        "Women participated in abolitionism, education reform, religious associations, and other nineteenth-century campaigns. The Seneca Falls Convention of 1848 issued a Declaration of Sentiments demanding greater equality. Reform leaders and participants held differing views on voting, work, property, and the relationship between women's rights and abolition.",
+        "Women of color were central to these debates, including Sojourner Truth, whose public speaking challenged racism and sexism. Records of reform meetings reflect organized arguments, but can overlook women who worked outside prominent organizations. Change was gradual and was not equally available to everyone.",
+        "Analyze the Declaration of Sentiments alongside the 1776 Declaration. Identify borrowed language, new demands, and excluded voices. Explain why the existence of a demand is not proof that the demanded right had already been achieved."
+      ],
+      "vocabulary": [
+        "Seneca Falls",
+        "Declaration of Sentiments",
+        "suffrage",
+        "antebellum"
+      ],
+      "activity": "Rights documents comparison lab",
+      "task": "Compare the Declaration of Sentiments with the Declaration of Independence using criteria and historical context.",
+      "investigation": [
+        "Seneca Falls took place in 1848",
+        "Women's rights organizers made claims about voting and legal equality",
+        "Reform coalitions did not represent all women equally"
+      ],
+      "options": [
+        "The Hartford Convention",
+        "The Congress of Vienna",
+        "The Seneca Falls Convention"
+      ],
+      "correct": 2,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "Which 1848 meeting issued the Declaration of Sentiments?",
+          "options": [
+            "The Hartford Convention",
+            "The Congress of Vienna",
+            "The Seneca Falls Convention"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which claim about “Women's Rights and Antebellum Reform” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of women's rights and antebellum reform?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "Seneca Falls took place in 1848",
+          "Women's rights organizers made claims about voting and legal equality",
+          "Reform coalitions did not represent all women equally"
+        ]
+      }
+    },
+    "the-expansion-of-slavery": {
+      "title": "The Expansion of Slavery",
+      "unit": "8.6",
+      "unitTitle": "Slavery and Sectional Conflict",
+      "seq": 1,
+      "total": 4,
+      "essential": "How did slavery expand and become more entrenched in the antebellum South?",
+      "paragraphs": [
+        "The cotton economy expanded across the Deep South in the early nineteenth century through land seizure, forced migration, and enslaved labor. The invention and spread of cotton-processing technology interacted with global demand, but technology alone did not cause the system. Enslaved people cultivated crops and sustained communities while living under coercion.",
+        "The domestic slave trade forced many enslaved people from the Upper South to regions farther south and west, separating families. Laws restricted mobility, education, and legal standing. Free Black communities also faced discriminatory rules. Resistance took varied forms, including self-emancipation, community support, and the preservation of family and cultural ties.",
+        "A graph of cotton exports is evidence of economic growth, not consent or human well-being. Pair economic figures with accounts by enslaved people and records of forced sales to examine who gained financially and who suffered. Avoid calling enslaved human beings 'labor units' in your own explanation."
+      ],
+      "vocabulary": [
+        "cotton kingdom",
+        "domestic slave trade",
+        "coercion",
+        "self-emancipation"
+      ],
+      "activity": "Cotton economy evidence and ethics lab",
+      "task": "Compare output trends with testimonies, laws, and maps of forced movement.",
+      "investigation": [
+        "Cotton expansion relied on enslaved labor",
+        "The domestic slave trade separated families",
+        "Economic output alone does not reveal human conditions"
+      ],
+      "options": [
+        "Forced sales and relocation within the United States",
+        "Only voluntary contracts",
+        "Travel exclusively across the Atlantic Ocean"
+      ],
+      "correct": 0,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "What did the domestic slave trade often involve?",
+          "options": [
+            "Forced sales and relocation within the United States",
+            "Only voluntary contracts",
+            "Travel exclusively across the Atlantic Ocean"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which claim about “The Expansion of Slavery” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of the expansion of slavery?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "Cotton expansion relied on enslaved labor",
+          "The domestic slave trade separated families",
+          "Economic output alone does not reveal human conditions"
+        ]
+      }
+    },
+    "abolitionism-and-resistance": {
+      "title": "Abolitionism and Resistance",
+      "unit": "8.6",
+      "unitTitle": "Slavery and Sectional Conflict",
+      "seq": 2,
+      "total": 4,
+      "essential": "How did enslaved and free Black Americans challenge slavery?",
+      "paragraphs": [
+        "Abolitionism included many efforts to end slavery, from petitions and lectures to organizing mutual support and political campaigns. Free Black activists, formerly enslaved writers, religious communities, and allies pursued different tactics. Frederick Douglass's speeches and autobiography challenged slavery by documenting violence and demanding equality.",
+        "Harriet Tubman helped enslaved people escape and later served the Union during the Civil War. Resistance also occurred through everyday acts, escapes, and rebellions, each involving grave risks. The Underground Railroad refers to networks of people and routes rather than a literal railroad, and its participants' experiences varied.",
+        "Compare an abolitionist newspaper with an autobiographical account and a law defending slavery. Analyze how the writers used evidence and appealed to audiences. Do not suggest every enslaved person had the same opportunity to escape or that white abolitionists alone brought emancipation."
+      ],
+      "vocabulary": [
+        "abolitionism",
+        "Underground Railroad",
+        "Frederick Douglass",
+        "Harriet Tubman"
+      ],
+      "activity": "Resistance networks and rhetoric investigation",
+      "task": "Analyze abolitionist rhetoric, firsthand testimony, and legal constraints without romanticizing the danger.",
+      "investigation": [
+        "Frederick Douglass wrote and spoke against slavery",
+        "The Underground Railroad was a network, not tracks",
+        "Enslaved people pursued multiple forms of resistance"
+      ],
+      "options": [
+        "A federally funded railroad",
+        "Networks helping some enslaved people reach freedom",
+        "A single secret tunnel"
+      ],
+      "correct": 1,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "What best describes the Underground Railroad?",
+          "options": [
+            "A federally funded railroad",
+            "Networks helping some enslaved people reach freedom",
+            "A single secret tunnel"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which claim about “Abolitionism and Resistance” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of abolitionism and resistance?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "Frederick Douglass wrote and spoke against slavery",
+          "The Underground Railroad was a network, not tracks",
+          "Enslaved people pursued multiple forms of resistance"
+        ]
+      }
+    },
+    "the-compromise-of-1850-and-kansas-nebraska-act": {
+      "title": "The Compromise of 1850 and Kansas-Nebraska Act",
+      "unit": "8.6",
+      "unitTitle": "Slavery and Sectional Conflict",
+      "seq": 3,
+      "total": 4,
+      "essential": "Why did compromises over slavery fail to settle sectional conflict?",
+      "paragraphs": [
+        "After the U.S.–Mexican War, the status of slavery in western territories intensified sectional disagreement. The Compromise of 1850 included California's admission as a free state and a stronger Fugitive Slave Act. The law endangered people escaping slavery and threatened free Black communities through coercive enforcement.",
+        "The Kansas–Nebraska Act of 1854 allowed popular sovereignty in territories and repealed the Missouri Compromise's restriction north of 36°30′ for those territories. Violence in 'Bleeding Kansas' followed competing efforts to determine whether slavery would be permitted. These political arrangements did not address the fundamental human injustice of slavery.",
+        "Build a chronology including the Missouri Compromise, 1850 measures, Kansas–Nebraska Act, and violence in Kansas. Explain how each policy shifted rather than solved the conflict. Consider whose interests the legislative bargaining included and whose rights it ignored."
+      ],
+      "vocabulary": [
+        "Compromise of 1850",
+        "Fugitive Slave Act",
+        "popular sovereignty",
+        "Kansas–Nebraska Act"
+      ],
+      "activity": "Sectional compromise timeline and source analysis",
+      "task": "Sequence policies while explaining how popular sovereignty and enforcement intensified conflict.",
+      "investigation": [
+        "The Compromise of 1850 strengthened fugitive slave enforcement",
+        "Kansas–Nebraska passed in 1854",
+        "Violence followed competing claims in Kansas"
+      ],
+      "options": [
+        "The Indian Removal Act",
+        "The Homestead Act",
+        "The Kansas–Nebraska Act"
+      ],
+      "correct": 2,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "Which 1854 act reopened the slavery issue in Kansas and Nebraska?",
+          "options": [
+            "The Indian Removal Act",
+            "The Homestead Act",
+            "The Kansas–Nebraska Act"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which claim about “The Compromise of 1850 and Kansas-Nebraska Act” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of the compromise of 1850 and kansas-nebraska act?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "The Compromise of 1850 strengthened fugitive slave enforcement",
+          "Kansas–Nebraska passed in 1854",
+          "Violence followed competing claims in Kansas"
+        ]
+      }
+    },
+    "why-did-the-united-states-divide": {
+      "title": "Why Did the United States Divide?",
+      "unit": "8.6",
+      "unitTitle": "Slavery and Sectional Conflict",
+      "seq": 4,
+      "total": 4,
+      "essential": "What made sectional division so difficult to resolve by 1860–1861?",
+      "paragraphs": [
+        "By the 1850s, sectional disagreement centered fundamentally on slavery and its expansion. The Dred Scott decision of 1857 denied national citizenship to people of African descent in the Court's ruling and limited congressional restrictions on slavery in territories. Lincoln's election in 1860 intensified slaveholding leaders' fears that their political influence would decline.",
+        "Southern secession declarations and related documents identify slavery and the preservation of slaveholding interests as central motives. Economic differences and federal-state arguments were part of political debate, but they should not be used to erase the explicit defense of slavery found in secession-era primary sources.",
+        "Compare an official secession declaration with a campaign speech and an abolitionist source. Distinguish actors' stated motives from later interpretations. Explain why carefully reading the documents is more reliable than claiming that the conflict was unrelated to slavery."
+      ],
+      "vocabulary": [
+        "sectionalism",
+        "Dred Scott",
+        "secession declaration",
+        "slavery expansion"
+      ],
+      "activity": "Secession motive primary-source tribunal",
+      "task": "Compare dated declarations and speeches, quoting only verified excerpts, to identify documented motives.",
+      "investigation": [
+        "The Dred Scott decision was issued in 1857",
+        "Lincoln won the 1860 election",
+        "Secession documents explicitly centered slavery"
+      ],
+      "options": [
+        "The protection of slavery",
+        "Compulsory national education",
+        "Transcontinental rail fares"
+      ],
+      "correct": 0,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "Which issue is explicitly central in multiple Southern secession declarations?",
+          "options": [
+            "The protection of slavery",
+            "Compulsory national education",
+            "Transcontinental rail fares"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which claim about “Why Did the United States Divide?” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of why did the united states divide??",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "The Dred Scott decision was issued in 1857",
+          "Lincoln won the 1860 election",
+          "Secession documents explicitly centered slavery"
+        ]
+      }
+    },
+    "secession-and-the-outbreak-of-war": {
+      "title": "Secession and the Outbreak of War",
+      "unit": "8.7",
+      "unitTitle": "The Civil War",
+      "seq": 1,
+      "total": 4,
+      "essential": "How did secession and Fort Sumter transform political crisis into war?",
+      "paragraphs": [
+        "South Carolina declared secession in December 1860 after Lincoln's election, followed by other slaveholding states. Secessionists sought to preserve slavery and establish a separate Confederacy. Lincoln rejected the legality of secession, while the federal government faced the problem of military installations in states claiming to have left the Union.",
+        "Confederate forces fired on Fort Sumter in Charleston Harbor on April 12, 1861. After the fort surrendered, Lincoln called for troops, and additional Upper South states seceded. The border states' responses differed. The war emerged from a political crisis in which slavery and its future were decisive issues.",
+        "A timeline identifies decisions, but it cannot alone explain motives. Read secession declarations, federal communications, and an account of the fort. Separate the date of the first shots from the years of conflict and consider whose perspectives are missing in official proclamations."
+      ],
+      "vocabulary": [
+        "secession",
+        "Confederacy",
+        "Fort Sumter",
+        "border states"
+      ],
+      "activity": "Fort Sumter decision timeline",
+      "task": "Sequence December 1860 through April 1861 and connect declared motives with actions.",
+      "investigation": [
+        "South Carolina seceded in December 1860",
+        "Fort Sumter was attacked April 12, 1861",
+        "Upper South secession followed the outbreak of fighting"
+      ],
+      "options": [
+        "Gettysburg",
+        "Fort Sumter",
+        "Appomattox Court House"
+      ],
+      "correct": 1,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "Where did Confederate forces fire the opening shots of the Civil War?",
+          "options": [
+            "Gettysburg",
+            "Fort Sumter",
+            "Appomattox Court House"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which claim about “Secession and the Outbreak of War” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of secession and the outbreak of war?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "South Carolina seceded in December 1860",
+          "Fort Sumter was attacked April 12, 1861",
+          "Upper South secession followed the outbreak of fighting"
+        ]
+      }
+    },
+    "turning-points-of-the-civil-war": {
+      "title": "Turning Points of the Civil War",
+      "unit": "8.7",
+      "unitTitle": "The Civil War",
+      "seq": 2,
+      "total": 4,
+      "essential": "How did military turning points change the war's strategy and prospects?",
+      "paragraphs": [
+        "Civil War campaigns unfolded across large regions, involving soldiers, civilians, rail networks, rivers, and supply systems. The Battle of Antietam in September 1862 provided the military context for Lincoln's preliminary Emancipation Proclamation. Gettysburg and Vicksburg in July 1863 became major Union successes with different strategic effects.",
+        "Vicksburg gave the Union control of the Mississippi River corridor, while Gettysburg ended Lee's invasion into Pennsylvania. Continued campaigns, including Union advances through Georgia and Virginia, strained Confederate capacity. Military results did not operate separately from slavery, emancipation, foreign diplomacy, and political decisions.",
+        "Rank turning points using distinct criteria: military geography, civilian effects, political impact, or the future of slavery. A victory map must show accurate dates and locations. Explain why one battle should not be represented as single-handedly ending the war."
+      ],
+      "vocabulary": [
+        "Antietam",
+        "Gettysburg",
+        "Vicksburg",
+        "strategy"
+      ],
+      "activity": "Civil War turning-point map and timeline",
+      "task": "Compare Antietam, Gettysburg, and Vicksburg using strategy, geography, and political context.",
+      "investigation": [
+        "Antietam occurred in 1862",
+        "Gettysburg and Vicksburg were major 1863 events",
+        "Control of the Mississippi mattered for Union strategy"
+      ],
+      "options": [
+        "Control of a key Mississippi River corridor",
+        "Capture of Washington, D.C.",
+        "Immediate Confederate surrender"
+      ],
+      "correct": 0,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "What strategic advantage followed the Union victory at Vicksburg?",
+          "options": [
+            "Control of a key Mississippi River corridor",
+            "Capture of Washington, D.C.",
+            "Immediate Confederate surrender"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which claim about “Turning Points of the Civil War” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of turning points of the civil war?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "Antietam occurred in 1862",
+          "Gettysburg and Vicksburg were major 1863 events",
+          "Control of the Mississippi mattered for Union strategy"
+        ]
+      }
+    },
+    "emancipation-and-black-military-service": {
+      "title": "Emancipation and Black Military Service",
+      "unit": "8.7",
+      "unitTitle": "The Civil War",
+      "seq": 3,
+      "total": 4,
+      "essential": "How did emancipation and Black service transform the Civil War?",
+      "paragraphs": [
+        "Lincoln's Emancipation Proclamation took effect on January 1, 1863, declaring enslaved people free in areas then in rebellion under its terms. It did not immediately abolish slavery everywhere. Enslaved people's self-emancipation and Union military advances were crucial to making freedom a reality on the ground.",
+        "The proclamation authorized the enlistment of Black men in Union forces. Approximately 180,000 Black soldiers served in the U.S. Army, with additional men serving in the Navy. Black troops faced discriminatory pay policies at points during the war and risked harsh treatment if captured. Military service contributed to claims for citizenship and equal rights.",
+        "Analyze the proclamation's geographical limits and the experiences of a Black Union regiment. Explain how wartime orders, action by enslaved people, military service, and later constitutional change interacted. Do not treat freedom as a gift delivered by one leader alone."
+      ],
+      "vocabulary": [
+        "Emancipation Proclamation",
+        "United States Colored Troops",
+        "self-emancipation",
+        "citizenship"
+      ],
+      "activity": "Emancipation geography and service inquiry",
+      "task": "Compare the proclamation's terms with an 1863 map and historical evidence of Black military participation.",
+      "investigation": [
+        "The proclamation took effect January 1, 1863",
+        "It applied to designated areas in rebellion",
+        "Black soldiers fought for Union victory and freedom"
+      ],
+      "options": [
+        "July 4, 1776",
+        "April 12, 1861",
+        "January 1, 1863"
+      ],
+      "correct": 2,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "When did the Emancipation Proclamation take effect?",
+          "options": [
+            "July 4, 1776",
+            "April 12, 1861",
+            "January 1, 1863"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which claim about “Emancipation and Black Military Service” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of emancipation and black military service?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "The proclamation took effect January 1, 1863",
+          "It applied to designated areas in rebellion",
+          "Black soldiers fought for Union victory and freedom"
+        ]
+      }
+    },
+    "the-civil-war-through-civilian-experiences": {
+      "title": "The Civil War Through Civilian Experiences",
+      "unit": "8.7",
+      "unitTitle": "The Civil War",
+      "seq": 4,
+      "total": 4,
+      "essential": "How did the Civil War affect civilians in different situations?",
+      "paragraphs": [
+        "The Civil War transformed daily life through military occupation, shortages, displacement, inflation, and the loss of family members. Women maintained households, farms, medical services, and relief networks; experiences differed by region and class. Enslaved people sought freedom under dangerous and changing wartime conditions.",
+        "Civilians in border regions often navigated divided loyalties and military rule. Freedpeople established schools, families sought reunion, and Black communities contributed to relief and survival. Diaries and letters can illuminate emotions and practical decisions, but preserved records do not represent every group equally.",
+        "Compare two civilian sources from different positions, including one by a Black woman or freedperson when available. Identify the date, location, and circumstances of each account. Avoid presenting a single household's experience as representative of an entire region."
+      ],
+      "vocabulary": [
+        "home front",
+        "displacement",
+        "freedpeople",
+        "primary-source diary"
+      ],
+      "activity": "Civilian experiences source gallery",
+      "task": "Compare dated letters, photographs, and Black civilian accounts for evidence of war's varied consequences.",
+      "investigation": [
+        "Civilian experiences differed across communities",
+        "Shortages and displacement affected households",
+        "Freedpeople pursued family, education, and autonomy"
+      ],
+      "options": [
+        "A personal diary from the period",
+        "A modern weather forecast",
+        "A generic map without dates"
+      ],
+      "correct": 0,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "Which source would most directly describe one civilian's daily wartime experience?",
+          "options": [
+            "A personal diary from the period",
+            "A modern weather forecast",
+            "A generic map without dates"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which claim about “The Civil War Through Civilian Experiences” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of the civil war through civilian experiences?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "Civilian experiences differed across communities",
+          "Shortages and displacement affected households",
+          "Freedpeople pursued family, education, and autonomy"
+        ]
+      }
+    },
+    "rebuilding-the-nation": {
+      "title": "Rebuilding the Nation",
+      "unit": "8.8",
+      "unitTitle": "Reconstruction",
+      "seq": 1,
+      "total": 4,
+      "essential": "What did freedom require beyond the end of battlefield fighting?",
+      "paragraphs": [
+        "The Civil War ended with major Confederate surrenders in 1865, but restoring government and determining the rights of formerly enslaved people posed enormous questions. The Freedmen's Bureau, created in 1865, supported some relief, schools, labor arrangements, and legal assistance amid limited resources and intense resistance.",
+        "Southern states and federal officials disagreed over rebuilding political institutions, land, labor, and voting. President Andrew Johnson's policies clashed with congressional Republicans who sought stronger protections. Freedpeople built families, churches, schools, and civic organizations while facing violence and efforts to restrict their freedom.",
+        "Compare a Freedmen's Bureau report with testimony or records from freedpeople. Identify what assistance was promised, what was delivered, and who faced barriers. Reconstruction was not merely rebuilding physical structures; it was a struggle over the meaning and enforcement of citizenship."
+      ],
+      "vocabulary": [
+        "Reconstruction",
+        "Freedmen's Bureau",
+        "freedpeople",
+        "labor contract"
+      ],
+      "activity": "Reconstruction policy and community hearing",
+      "task": "Analyze the goals and limits of Freedmen's Bureau programs against freedpeople's demands.",
+      "investigation": [
+        "The Freedmen's Bureau was established in 1865",
+        "Reconstruction involved rights, labor, and political power",
+        "Freedpeople formed independent institutions"
+      ],
+      "options": [
+        "The Peace Corps",
+        "The Freedmen's Bureau",
+        "The Federal Reserve"
+      ],
+      "correct": 1,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "What organization was established in 1865 to assist formerly enslaved people and others?",
+          "options": [
+            "The Peace Corps",
+            "The Freedmen's Bureau",
+            "The Federal Reserve"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which claim about “Rebuilding the Nation” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of rebuilding the nation?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "The Freedmen's Bureau was established in 1865",
+          "Reconstruction involved rights, labor, and political power",
+          "Freedpeople formed independent institutions"
+        ]
+      }
+    },
+    "reconstruction-amendments-and-citizenship": {
+      "title": "Reconstruction Amendments and Citizenship",
+      "unit": "8.8",
+      "unitTitle": "Reconstruction",
+      "seq": 2,
+      "total": 4,
+      "essential": "How did the Reconstruction Amendments redefine constitutional freedom and citizenship?",
+      "paragraphs": [
+        "The Thirteenth Amendment, ratified in 1865, abolished slavery and involuntary servitude except as punishment for crime. The Fourteenth Amendment, ratified in 1868, established birthright citizenship with specified exceptions and required equal protection and due process. The Fifteenth Amendment, ratified in 1870, prohibited denying voting rights on account of race, color, or previous condition of servitude.",
+        "These amendments profoundly changed constitutional principles, but their promises were contested and unevenly enforced. Voting rules still excluded women in many contexts, and intimidation, violence, and later discriminatory laws undermined Black voting rights. Legal change and lived access to rights must be studied separately.",
+        "Construct an amendment timeline and explain each amendment's central purpose without collapsing them into a single 'freedom law.' Compare the text with evidence of enforcement and resistance. Recognize the Thirteenth Amendment's punishment exception rather than describing it as an unqualified ban on every form of involuntary servitude."
+      ],
+      "vocabulary": [
+        "Thirteenth Amendment",
+        "Fourteenth Amendment",
+        "Fifteenth Amendment",
+        "equal protection"
+      ],
+      "activity": "Amendment text and enforcement lab",
+      "task": "Match rights claims to the three amendments and test the limits of enforcement.",
+      "investigation": [
+        "Thirteenth Amendment ratified in 1865",
+        "Fourteenth Amendment ratified in 1868",
+        "Fifteenth Amendment ratified in 1870"
+      ],
+      "options": [
+        "The Thirteenth",
+        "The Fifteenth",
+        "The Fourteenth"
+      ],
+      "correct": 2,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "Which amendment established constitutional birthright citizenship with specified exceptions?",
+          "options": [
+            "The Thirteenth",
+            "The Fifteenth",
+            "The Fourteenth"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which claim about “Reconstruction Amendments and Citizenship” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of reconstruction amendments and citizenship?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "Thirteenth Amendment ratified in 1865",
+          "Fourteenth Amendment ratified in 1868",
+          "Fifteenth Amendment ratified in 1870"
+        ]
+      }
+    },
+    "black-political-participation-and-resistance": {
+      "title": "Black Political Participation and Resistance",
+      "unit": "8.8",
+      "unitTitle": "Reconstruction",
+      "seq": 3,
+      "total": 4,
+      "essential": "How did Black Americans shape Reconstruction politics despite violent opposition?",
+      "paragraphs": [
+        "During Reconstruction, Black men voted, held public office, served in state legislatures, and organized political associations in the South. Hiram Revels entered the U.S. Senate in 1870, while many local leaders worked through churches, schools, mutual aid, and community organizations. Political participation involved more than nationally famous officeholders.",
+        "White supremacist groups, including the Ku Klux Klan, used violence and intimidation to attack Black voters, teachers, and political leaders. Federal Enforcement Acts sought to protect voting rights, with uneven results. Women contributed as organizers, educators, and community leaders even while largely excluded from voting.",
+        "Compare records of an election or Black legislator's work with documentation of intimidation and federal responses. Explain why an election result alone cannot show whether voting was free from coercion. Include Black community action rather than portraying people solely as victims."
+      ],
+      "vocabulary": [
+        "Black officeholding",
+        "Enforcement Acts",
+        "Ku Klux Klan",
+        "voter intimidation"
+      ],
+      "activity": "Reconstruction election and civic evidence analysis",
+      "task": "Analyze gains in Black political participation alongside violence and enforcement efforts.",
+      "investigation": [
+        "Black politicians held office during Reconstruction",
+        "White supremacist violence attempted to suppress participation",
+        "Federal enforcement measures had variable effects"
+      ],
+      "options": [
+        "Hiram Revels",
+        "Frederick Douglass",
+        "Booker T. Washington"
+      ],
+      "correct": 0,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "Who became a U.S. senator from Mississippi in 1870 during Reconstruction?",
+          "options": [
+            "Hiram Revels",
+            "Frederick Douglass",
+            "Booker T. Washington"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which claim about “Black Political Participation and Resistance” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of black political participation and resistance?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "Black politicians held office during Reconstruction",
+          "White supremacist violence attempted to suppress participation",
+          "Federal enforcement measures had variable effects"
+        ]
+      }
+    },
+    "the-end-of-reconstruction-and-its-legacy": {
+      "title": "The End of Reconstruction and Its Legacy",
+      "unit": "8.8",
+      "unitTitle": "Reconstruction",
+      "seq": 4,
+      "total": 4,
+      "essential": "Why did federal Reconstruction protections weaken, and what continued afterward?",
+      "paragraphs": [
+        "Reconstruction did not end in one simple moment. Federal and state policies shifted as political violence, economic crises, and changes in northern political support affected enforcement. The disputed presidential election of 1876 and the 1877 withdrawal of remaining federal troops from key southern statehouses became important markers of Reconstruction's political end.",
+        "White supremacist violence and discriminatory laws increasingly restricted Black political rights, while Black communities continued organizing schools, churches, economic networks, and campaigns for equality. Later Jim Crow systems drew on these failures to protect rights. The Reconstruction Amendments remained in the Constitution and became vital in later civil rights struggles.",
+        "Compare a federal election timeline with Black community records and accounts of political intimidation. Explain why the end of a particular period of federal intervention did not mean the end of the constitutional struggle over equality. Historical legacies involve both lasting changes and unfinished promises."
+      ],
+      "vocabulary": [
+        "Compromise of 1877",
+        "disenfranchisement",
+        "Jim Crow",
+        "constitutional legacy"
+      ],
+      "activity": "Reconstruction legacy timeline and continuity argument",
+      "task": "Assess political withdrawal, organized violence, enduring amendments, and ongoing Black civic action.",
+      "investigation": [
+        "Reconstruction's political end is often associated with 1877",
+        "Black communities continued organizing after federal withdrawal",
+        "The Reconstruction Amendments remained constitutional law"
+      ],
+      "options": [
+        "The Louisiana Purchase",
+        "Withdrawal of remaining federal troops from key southern statehouses",
+        "Ratification of the Fifteenth Amendment"
+      ],
+      "correct": 1,
+      "depth": "Grade 8: compare evidence, chronology, interpretations, constitutional change, and historical causation.",
+      "checks": [
+        {
+          "prompt": "What is a key historical marker associated with 1877?",
+          "options": [
+            "The Louisiana Purchase",
+            "Withdrawal of remaining federal troops from key southern statehouses",
+            "Ratification of the Fifteenth Amendment"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which claim about “The End of Reconstruction and Its Legacy” is most historically responsible?",
+          "options": [
+            "A source's argument must be tested against its authorship, date, and other evidence.",
+            "An attractive historical map proves all peoples agreed with its borders.",
+            "One public official's statement automatically describes every resident."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should a historian evaluate competing interpretations of the end of reconstruction and its legacy?",
+          "options": [
+            "Select only the version supporting a preferred conclusion.",
+            "Compare relevant primary accounts, context, and material consequences.",
+            "Ignore chronology and source limitations."
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and conflict",
+          "Consequences and limits"
+        ],
+        "descriptions": [
+          "Reconstruction's political end is often associated with 1877",
+          "Black communities continued organizing after federal withdrawal",
+          "The Reconstruction Amendments remained constitutional law"
+        ]
+      }
+    }
+  }
+}
