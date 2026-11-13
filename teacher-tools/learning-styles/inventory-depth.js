@@ -46,12 +46,12 @@ if(guide)guide.after(live.wrap);else if(help)help.after(live.wrap);else side.pre
 function hexToRgb(hex){let a=hex.replace('#','');return [parseInt(a.slice(0,2),16),parseInt(a.slice(2,4),16),parseInt(a.slice(4,6),16)]}
 function colorShift(hex,k){return '#'+hexToRgb(hex).map(c=>Math.max(0,Math.min(255,Math.round(c*k))).toString(16).padStart(2,'0')).join('')}
 function polygon(points,fill){return '<polygon points="'+points.map(p=>p.join(',')).join(' ')+'" fill="'+fill+'"/>'}
-function renderChart(target,score,counts,isReport=false){
+function renderChart(target,score,isReport=false){
 const {svg,list}=target;const baseline=238,x0=57,spacing=94,bar=53,depth=11,dy=9,scale=1.7;
 const coverageData=coverage();const lines=['<rect x="0" y="0" width="840" height="305" fill="transparent"/>'];
 for(let g=0;g<=4;g++){let y=baseline-g*40;lines.push('<line x1="40" x2="818" y1="'+y+'" y2="'+y+'" stroke="#4e6856" stroke-width="1" stroke-dasharray="4 9" opacity=".6"/>')}
 types.forEach((type,i)=>{
-let n=counts[type.id]||0,answered=coverageData.counts[type.id]||0,valid=answered>0,h=valid?Math.max(6,(Number(score[type.id])||0)*scale):5,x=x0+i*spacing,y=baseline-h;
+let answered=coverageData.counts[type.id]||0,valid=answered>0,h=valid?Math.max(6,(Number(score[type.id])||0)*scale):5,x=x0+i*spacing,y=baseline-h;
 let bright=valid?type.color:'#415448';let front=polygon([[x,y],[x+bar,y],[x+bar,baseline],[x,baseline]],bright);
 let top=polygon([[x,y],[x+depth,y-dy],[x+bar+depth,y-dy],[x+bar,y]],colorShift(bright,1.24));
 let right=polygon([[x+bar,y],[x+bar+depth,y-dy],[x+bar+depth,baseline-dy],[x+bar,baseline]],colorShift(bright,.54));
@@ -61,7 +61,7 @@ lines.push('<text x="420" y="295" text-anchor="middle" font-family="Georgia,seri
 svg.innerHTML=lines.join('');
 if(list)types.forEach(t=>{const node=list.querySelector('[data-id="'+t.id+'"] b');if(node)node.textContent=coverageData.counts[t.id]?Math.round(score[t.id])+'% · '+coverageData.counts[t.id]+'/'+coverageData.possible[t.id]:'Not yet rated'});
 }
-function redraw(){renderChart(live,safeScores(),{})}
+function redraw(){renderChart(live,safeScores())}
 let scheduled=false;function schedule(){if(scheduled)return;scheduled=true;requestAnimationFrame(()=>{scheduled=false;redraw()})}
 document.addEventListener('etp-learning-score-change',schedule);
 side.addEventListener('change',e=>{if(e.target.matches('input[type=radio]'))schedule()});
@@ -71,7 +71,7 @@ report.dataset.etpExpanded='yes';const score=safeScores(),ranked=types.filter(t=
 const top=ranked.slice(0,3),social=score.S||0,solitary=score.I||0;
 const reportChart=makeChart();reportChart.wrap.querySelector('h3').textContent='Your eight learning dimensions';
 reportChart.wrap.querySelector('p').textContent='Higher columns represent stronger reported preferences on the 1–5 scale, not higher ability or a prediction of success.';
-renderChart(reportChart,score,{},true);report.prepend(reportChart.wrap);
+renderChart(reportChart,score,true);report.prepend(reportChart.wrap);
 function section(title,paras,items=[]){const box=el('section','etp-report-growth');box.append(el('h4','',title));for(const txt of paras)box.append(el('p','',txt));if(items.length){let ul=el('ul');items.forEach(t=>ul.append(el('li','',t)));box.append(ul)}report.append(box);return box}
 section('How to read your results',[
 'These scores are the averages of your selected 1–5 ratings, shown on a 0–100 display scale. They reflect your self-description at this moment; they are not percent-correct results, cognitive test scores, intelligence, aptitude, or validated personality measures.',
