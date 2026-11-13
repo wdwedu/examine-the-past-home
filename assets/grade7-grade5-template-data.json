@@ -122,7 +122,7 @@
       "correct": 1,
       "checks": [
         {
-          "prompt": "Which answer best addresses the lesson's historical question?",
+          "prompt": "For the inquiry “Who decides where one world region ends and another begins?”, which explanation is most defensible?",
           "options": [
             "What makes a regional boundary useful rather than universally true?",
             "It follows one fixed international rule",
@@ -197,7 +197,7 @@
       "correct": 2,
       "checks": [
         {
-          "prompt": "Which answer best addresses the lesson's historical question?",
+          "prompt": "For the inquiry “How can geography shape identity without determining it?”, which explanation is most defensible?",
           "options": [
             "Which claim best avoids geographic determinism?",
             "Mountains always produce one political system",
@@ -272,7 +272,7 @@
       "correct": 1,
       "checks": [
         {
-          "prompt": "Which answer best addresses the lesson's historical question?",
+          "prompt": "For the inquiry “What can a landscape reveal about its history—and what remains hidden?”, which explanation is most defensible?",
           "options": [
             "What is a limitation of studying one historic building?",
             "It reveals all residents' beliefs",
@@ -347,7 +347,7 @@
       "correct": 0,
       "checks": [
         {
-          "prompt": "Which answer best addresses the lesson's historical question?",
+          "prompt": "For the inquiry “Why do people leave, stay, or return?”, which explanation is most defensible?",
           "options": [
             "Which statement best captures migration decisions?",
             "They often combine pressures, opportunities, and constraints",
@@ -422,7 +422,7 @@
       "correct": 2,
       "checks": [
         {
-          "prompt": "Which answer best addresses the lesson's historical question?",
+          "prompt": "For the inquiry “How can population evidence reveal patterns but still leave people out?”, which explanation is most defensible?",
           "options": [
             "Why might two censuses disagree?",
             "The larger number is always correct",
@@ -497,7 +497,7 @@
       "correct": 1,
       "checks": [
         {
-          "prompt": "Which answer best addresses the lesson's historical question?",
+          "prompt": "For the inquiry “How can people preserve traditions while developing new ones?”, which explanation is most defensible?",
           "options": [
             "What does a diaspora community often maintain?",
             "Only one unchanged custom",
@@ -572,7 +572,7 @@
       "correct": 0,
       "checks": [
         {
-          "prompt": "Which answer best addresses the lesson's historical question?",
+          "prompt": "For the inquiry “Why were the Silk Roads networks rather than a single highway?”, which explanation is most defensible?",
           "options": [
             "What makes a network model more accurate?",
             "Goods often passed through several communities",
@@ -647,7 +647,7 @@
       "correct": 1,
       "checks": [
         {
-          "prompt": "Which answer best addresses the lesson's historical question?",
+          "prompt": "For the inquiry “How did seasonal winds help connect distant societies?”, which explanation is most defensible?",
           "options": [
             "What helped sailors time many Indian Ocean voyages?",
             "A constant wind in one direction",
@@ -722,7 +722,7 @@
       "correct": 0,
       "checks": [
         {
-          "prompt": "Which answer best addresses the lesson's historical question?",
+          "prompt": "For the inquiry “How did West African states participate in long-distance exchange?”, which explanation is most defensible?",
           "options": [
             "Which conclusion is best supported by Timbuktu's scholarly history?",
             "West African cities had important traditions of learning",
@@ -797,7 +797,7 @@
       "correct": 1,
       "checks": [
         {
-          "prompt": "Which answer best addresses the lesson's historical question?",
+          "prompt": "For the inquiry “How can trade reshape urban life without benefiting everyone equally?”, which explanation is most defensible?",
           "options": [
             "What is a defensible conclusion about trade cities?",
             "Trade always created equal wealth",
@@ -872,7 +872,7 @@
       "correct": 2,
       "checks": [
         {
-          "prompt": "Which answer best addresses the lesson's historical question?",
+          "prompt": "For the inquiry “How do political institutions distribute power and responsibility?”, which explanation is most defensible?",
           "options": [
             "Which question best compares different governments?",
             "How large were their palaces?",
@@ -947,7 +947,7 @@
       "correct": 0,
       "checks": [
         {
-          "prompt": "Which answer best addresses the lesson's historical question?",
+          "prompt": "For the inquiry “Why do societies make different choices about scarce resources?”, which explanation is most defensible?",
           "options": [
             "What does opportunity cost identify?",
             "The value of the next-best option given up",
@@ -1022,7 +1022,7 @@
       "correct": 1,
       "checks": [
         {
-          "prompt": "Which answer best addresses the lesson's historical question?",
+          "prompt": "For the inquiry “How can location strengthen or limit political influence?”, which explanation is most defensible?",
           "options": [
             "Why is controlling a port not enough to ensure lasting power?",
             "The port determines every political outcome",
@@ -1097,7 +1097,7 @@
       "correct": 2,
       "checks": [
         {
-          "prompt": "Which answer best addresses the lesson's historical question?",
+          "prompt": "For the inquiry “How have belief traditions shaped societies while remaining diverse within themselves?”, which explanation is most defensible?",
           "options": [
             "Which conclusion shows respectful historical analysis?",
             "Every tradition has only one unchanging form",
@@ -1172,7 +1172,7 @@
       "correct": 0,
       "checks": [
         {
-          "prompt": "Which answer best addresses the lesson's historical question?",
+          "prompt": "For the inquiry “How do ideas spread, change, and sometimes meet resistance?”, which explanation is most defensible?",
           "options": [
             "What is an accurate description of cultural diffusion?",
             "Ideas move and may be adapted by different communities",
@@ -1247,7 +1247,7 @@
       "correct": 1,
       "checks": [
         {
-          "prompt": "Which answer best addresses the lesson's historical question?",
+          "prompt": "For the inquiry “Why do relationships between groups include both cooperation and conflict?”, which explanation is most defensible?",
           "options": [
             "What strengthens an interpretation of a historical conflict?",
             "Reading only the victorious ruler's account",
@@ -1322,7 +1322,7 @@
       "correct": 2,
       "checks": [
         {
-          "prompt": "Which answer best addresses the lesson's historical question?",
+          "prompt": "For the inquiry “How can people adapt their daily routines to different environments?”, which explanation is most defensible?",
           "options": [
             "Which explanation is most complete?",
             "Daily life depends only on temperature",
@@ -1397,7 +1397,7 @@
       "correct": 0,
       "checks": [
         {
-          "prompt": "Which answer best addresses the lesson's historical question?",
+          "prompt": "For the inquiry “When does a resource become an advantage or a source of conflict?”, which explanation is most defensible?",
           "options": [
             "Which claim is supported by a mineral-resource map alone?",
             "Where deposits are represented, not who benefits",
@@ -1472,7 +1472,7 @@
       "correct": 1,
       "checks": [
         {
-          "prompt": "Which answer best addresses the lesson's historical question?",
+          "prompt": "For the inquiry “Why do some responses to environmental problems help some groups but harm others?”, which explanation is most defensible?",
           "options": [
             "Why might a levee project require more than one measure of success?",
             "Any wall eliminates every future flood",
