@@ -533,6 +533,24 @@ body>nav:not(.etp-icon-nav),main>nav,.timeline-nav,.timeline-controls,.toolbar{p
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Examine the Past">
 <script defer src="../app-assets/install.js?v=20261108-native-menu-v17"></script>
+
+<style id="etp-timeline-card-motion">
+/* Lift each timeline card on a mouse hover or keyboard interaction. */
+.timeline .event{transform-origin:center center}
+.timeline .event:focus-within{transform:translate3d(0,-8px,0) scale(1.015);z-index:2;box-shadow:0 28px 65px rgba(0,0,0,.48),0 8px 18px rgba(0,0,0,.20);border-color:rgba(255,232,0,.72)}
+@media (hover:hover) and (pointer:fine){
+ .timeline .event:hover{transform:translate3d(0,-8px,0) scale(1.015);z-index:2;box-shadow:0 28px 65px rgba(0,0,0,.48),0 8px 18px rgba(0,0,0,.20);border-color:rgba(255,232,0,.72);animation:etp-timeline-card-pop .55s cubic-bezier(.22,.68,.25,1) both}
+}
+@keyframes etp-timeline-card-pop{
+ 0%{transform:translate3d(0,0,0) scale(1)}
+ 55%{transform:translate3d(0,-12px,0) scale(1.02)}
+ 78%{transform:translate3d(0,-6px,0) scale(1.012)}
+ 100%{transform:translate3d(0,-8px,0) scale(1.015)}
+}
+@media (prefers-reduced-motion:reduce){
+ .timeline .event,.timeline .event:hover,.timeline .event:focus-within{animation:none;transform:none;transition:none}
+}
+</style>
 </head>
 <body>
 <nav aria-label="Timeline eras" class="topbar">
