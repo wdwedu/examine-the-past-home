@@ -1,0 +1,42 @@
+name: Publish timeline artwork
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'timeline/index.html'
+      - 'assets/images/timeline/**'
+      - '.github/workflows/publish-timeline-art.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: installable-app
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install approved timeline banners from uploaded ZIPs
+        run: python scripts/integrate_timeline_art.py
+      - name: Validate shared shell
+        run: python .github/scripts/check_shell.py
+      - name: Validate shared JavaScript
+        run: |
+          node --check assets/site-shell.js
+          node --check app-assets/install.js
+          node --check app-assets/site-experience.js
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+          name: timeline-pages-${{ github.run_id }}-${{ github.run_attempt }}
+      - uses: actions/deploy-pages@v4
+        id: deploy
+        with:
+          artifact_name: timeline-pages-${{ github.run_id }}-${{ github.run_attempt }}

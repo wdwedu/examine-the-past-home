@@ -40,6 +40,11 @@ jobs:
           test -f manifest.webmanifest || test -f site.webmanifest || python .github/scripts/enable_app.py
       - name: Refine navigation and media experience
         run: python .github/scripts/refine_experience.py
+      - name: Install approved timeline banners when source ZIPs are present
+        run: |
+          if [ -f ETP_Timeline_Batch_01_Part_1_Images_01-05.zip ]; then
+            python scripts/integrate_timeline_art.py
+          fi
       - name: Validate shared shell on every page
         run: python .github/scripts/check_shell.py
       - name: Check installation script syntax
