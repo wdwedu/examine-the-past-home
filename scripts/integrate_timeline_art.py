@@ -25,10 +25,30 @@ for archive in sorted(ROOT.glob('ETP_Timeline_Batch_0[12]_Part_*.zip')):
             (DEST / filename).write_bytes(data)
             records.append({'number': number, 'title': title, 'file': filename, 'bytes': len(data)})
 
+# Batch 3 contains both seven-image folders, each with an exact-title guide.
+final_archive = ROOT / 'ETP_Timeline_Batch_03_All_14_Images_87-100.zip'
+expected_numbers = list(range(1, 21))
+if final_archive.is_file():
+    with zipfile.ZipFile(final_archive) as zipped:
+        guides = sorted(n for n in zipped.namelist() if n.endswith('/placement.json'))
+        assert len(guides) == 2, 'Expected both final-section placement guides'
+        for guide in guides:
+            prefix = guide.rsplit('/', 1)[0] + '/'
+            for row in json.loads(zipped.read(guide)):
+                member = prefix + row['web_file']
+                filename = Path(member).name
+                data = zipped.read(member)
+                assert data[:4] == b'RIFF' and data[8:12] == b'WEBP', filename
+                DEST.mkdir(parents=True, exist_ok=True)
+                (DEST / filename).write_bytes(data)
+                records.append({'number': row['timeline_position'], 'title': row['title'],
+                                'file': filename, 'bytes': len(data)})
+    expected_numbers += list(range(87, 101))
+
 records.sort(key=lambda item: item['number'])
-assert [r['number'] for r in records] == list(range(1, 21)), 'Expected exactly images 1–20'
+assert [r['number'] for r in records] == expected_numbers, 'Missing or duplicate approved timeline artwork'
 by_title = {r['title']: r for r in records}
-assert len(by_title) == 20
+assert len(by_title) == len(expected_numbers)
 source = page.read_text()
 installed = []
 def replace_article(match):
@@ -49,12 +69,12 @@ def replace_article(match):
     return article
 
 source = re.sub(r'<article\b[^>]*>.*?</article>', replace_article, source, flags=re.S)
-assert len(installed) == 20, installed
+assert len(installed) == len(expected_numbers), installed
 css = '''/* Approved cinematic timeline artwork; retain the existing responsive card height. */
 .timeline-illustration img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
 '''
 if css not in source:
     source = source.replace('.event-body{', css + '.event-body{', 1)
 page.write_text(source)
-(DEST / 'placement.json').write_text(json.dumps({'page': '/timeline/', 'artwork': 'Approved cinematic batches 1 and 2', 'images': records}, indent=2) + '\n')
+(DEST / 'placement.json').write_text(json.dumps({'page': '/timeline/', 'artwork': 'Approved cinematic batches 1, 2, and available final-section artwork', 'images': records}, indent=2) + '\n')
 print(f'Installed {len(installed)} banners; total WebP bytes: {sum(r["bytes"] for r in records):,}')

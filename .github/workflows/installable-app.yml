@@ -3,6 +3,8 @@ on:
   push:
     paths:
       - 'app-assets/**'
+      - 'scripts/integrate_timeline_art.py'
+      - 'ETP_Timeline_Batch_03_All_14_Images_87-100.zip'
       - 'teacher-tools/movies-in-the-classroom/**'
       - 'assets/etp-experience-v50.js'
       - 'assets/repair-v63.js'
