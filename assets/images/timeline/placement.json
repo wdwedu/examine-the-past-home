@@ -1,0 +1,126 @@
+{
+  "page": "/timeline/",
+  "artwork": "Approved cinematic batches 1 and 2",
+  "images": [
+    {
+      "number": 1,
+      "title": "Early Homo sapiens",
+      "file": "ETP_Timeline_01_Early_Homo_sapiens.webp",
+      "bytes": 254740
+    },
+    {
+      "number": 2,
+      "title": "Fire, Tools & Adaptation",
+      "file": "ETP_Timeline_02_Fire,_Tools_and_Adaptation.webp",
+      "bytes": 265802
+    },
+    {
+      "number": 3,
+      "title": "Last Known Homo erectus",
+      "file": "ETP_Timeline_03_Last_Known_Homo_erectus.webp",
+      "bytes": 311940
+    },
+    {
+      "number": 4,
+      "title": "Settled Communities Expand",
+      "file": "ETP_Timeline_04_Settled_Communities_Expand.webp",
+      "bytes": 364218
+    },
+    {
+      "number": 5,
+      "title": "Lucy and Australopithecus afarensis",
+      "file": "ETP_Timeline_05_Lucy_and_Australopithecus_afarensis.webp",
+      "bytes": 345592
+    },
+    {
+      "number": 6,
+      "title": "Early Homo sapiens at Jebel Irhoud",
+      "file": "ETP_Timeline_06_Early_Homo_sapiens_at_Jebel_Irhoud.webp",
+      "bytes": 325902
+    },
+    {
+      "number": 7,
+      "title": "Symbolic Culture at Blombos Cave",
+      "file": "ETP_Timeline_07_Symbolic_Culture_at_Blombos_Cave.webp",
+      "bytes": 253668
+    },
+    {
+      "number": 8,
+      "title": "Major Human Migrations Expand",
+      "file": "ETP_Timeline_08_Major_Human_Migrations_Expand.webp",
+      "bytes": 310074
+    },
+    {
+      "number": 9,
+      "title": "Last Glacial Maximum",
+      "file": "ETP_Timeline_09_Last_Glacial_Maximum.webp",
+      "bytes": 412260
+    },
+    {
+      "number": 10,
+      "title": "Agriculture Takes Root",
+      "file": "ETP_Timeline_10_Agriculture_Takes_Root.webp",
+      "bytes": 294002
+    },
+    {
+      "number": 11,
+      "title": "Writing Systems Emerge",
+      "file": "ETP_Timeline_11_Writing_Systems_Emerge.webp",
+      "bytes": 272906
+    },
+    {
+      "number": 12,
+      "title": "Pyramids of Giza",
+      "file": "ETP_Timeline_12_Pyramids_of_Giza.webp",
+      "bytes": 305288
+    },
+    {
+      "number": 13,
+      "title": "Hammurabi\u2019s Judgments",
+      "file": "ETP_Timeline_13_Hammurabis_Judgments.webp",
+      "bytes": 270030
+    },
+    {
+      "number": 14,
+      "title": "Uruk and the Rise of Cities",
+      "file": "ETP_Timeline_14_Uruk_and_the_Rise_of_Cities.webp",
+      "bytes": 394926
+    },
+    {
+      "number": 15,
+      "title": "Indus Valley Urban Civilization",
+      "file": "ETP_Timeline_15_Indus_Valley_Urban_Civilization.webp",
+      "bytes": 344698
+    },
+    {
+      "number": 16,
+      "title": "Kerma and Ancient Nubia",
+      "file": "ETP_Timeline_16_Kerma_and_Ancient_Nubia.webp",
+      "bytes": 341758
+    },
+    {
+      "number": 17,
+      "title": "Ironworking in Africa",
+      "file": "ETP_Timeline_17_Ironworking_in_Africa.webp",
+      "bytes": 270090
+    },
+    {
+      "number": 18,
+      "title": "Hatshepsut",
+      "file": "ETP_Timeline_18_Hatshepsut.webp",
+      "bytes": 308910
+    },
+    {
+      "number": 19,
+      "title": "Democracy in Athens",
+      "file": "ETP_Timeline_19_Democracy_in_Athens.webp",
+      "bytes": 347126
+    },
+    {
+      "number": 20,
+      "title": "Philosophies & Faith Traditions",
+      "file": "ETP_Timeline_20_Philosophies_and_Faith_Traditions.webp",
+      "bytes": 290100
+    }
+  ]
+}
