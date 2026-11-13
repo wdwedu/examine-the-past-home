@@ -107,3 +107,30 @@
 .etp-style-history{border:1px solid #53794a;background:linear-gradient(135deg,#15271a,#09100b);border-radius:14px;padding:20px 24px;margin:22px 0}
 #profile .final-report .etp-live-visual{position:static!important;grid-column:auto!important;grid-row:auto!important;margin:0 0 25px!important;max-width:100%}
 #profile .final-report .etp-live-visual svg{max-height:350px}
+
+/* White-sheet finished profile: the bright reveal after the dark assessment. */
+#profile .final-report.show{background:#ffffff!important;color:#172119!important;border:2px solid #416a48!important;border-radius:18px!important;padding:clamp(20px,3.5vw,43px)!important;box-shadow:0 18px 60px #000a, inset 0 0 0 7px #f4f7f1!important;font:16px/1.65 Georgia,serif!important}
+#profile .final-report.show h3,#profile .final-report.show h4{color:#174a30!important;font-family:Georgia,serif!important;letter-spacing:0!important}
+#profile .final-report.show h3{font-size:clamp(26px,3.3vw,38px)!important;line-height:1.2!important}
+#profile .final-report.show h4{font-size:19px!important}
+#profile .final-report.show p,#profile .final-report.show li,#profile .final-report.show b,#profile .final-report.show strong{color:#18241c!important}
+#profile .final-report.show .muted{color:#526457!important}
+#profile .final-report.show .eyebrow{color:#27573c!important}
+#profile .final-report.show .report-section{border-top:1px solid #cadacf!important;padding-top:19px!important;margin-top:22px!important}
+#profile .final-report.show .chip{color:#164329!important;background:#eaf2e8!important;border:1px solid #87a893!important;padding:9px 13px!important;font:700 13px Georgia,serif!important}
+#profile .final-report.show .report-bars .bar-track{background:#e1e9df!important}
+#profile .final-report.show .report-bars .bar-track i{min-width:0!important}
+#profile .final-report.show .etp-report-instructions,#profile .final-report.show .etp-report-growth{background:#f6f9f5!important;border:1px solid #d2dfd1!important;color:#1e3124!important}
+#profile .final-report.show .etp-report-growth h4{color:#205c39!important}
+#profile .final-report.show .etp-report-growth p,#profile .final-report.show .etp-report-growth li{color:#1b2b1e!important}
+#profile .final-report.show .etp-live-visual{background:#f7faf6!important;border:1px solid #d4e2d5!important}
+#profile .final-report.show .etp-live-visual h3{color:#174a30!important}
+#profile .final-report.show .etp-live-visual p{color:#405747!important}
+#profile .final-report.show .etp-dimension-list span{background:#edf4ec!important;border-color:#c3d7c0!important;color:#1a3824!important}
+#profile .final-report.show .etp-dimension-list b{color:#1c5935!important}
+#profile .final-report.show .email-gate{background:linear-gradient(140deg,#0c1f15,#07120b)!important;color:#f5f7ef!important;border:1px solid #6fa65c!important;border-radius:15px!important;margin-top:27px!important;padding:22px!important}
+#profile .final-report.show .email-gate p,#profile .final-report.show .email-gate b,#profile .final-report.show .email-gate strong{color:#e9f2e6!important}
+#profile .final-report.show .email-gate h4,#profile .final-report.show .email-gate .eyebrow{color:#fff200!important}
+#profile .final-report.show .email-gate button{font-family:Georgia,serif!important}
+#profile .final-report.show .email-gate input{background:#fff!important;color:#111!important;font:17px Georgia,serif!important}
+#profile .final-report.show .etp-print-note{color:#d1e1cb!important}
