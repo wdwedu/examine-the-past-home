@@ -120,5 +120,39 @@ timeline.innerHTML='<h3>How learning-styles thinking changed</h3><ol><li><b>1980
 historyWrap.append(timeline)}}
 
 const methods=[...document.querySelectorAll('.method-grid .method')];if(methods.length){const head=methods[0].closest('section')?.querySelector('.section-head h2');if(head)head.textContent='Use learning preferences as a doorway, not a box.'}
+
+/* Optional real-world scenario choices add reflection without distorting the seven-dimension scores. */
+const reflections=[
+{index:2,prompt:'A group is planning a history exhibit. How would you prefer to begin?',choices:['Sketch a shared timeline or map','Discuss interpretations with teammates','Review sources independently first','Create a small prototype to test an idea']},
+{index:7,prompt:'You are stuck on a difficult historical argument. What would you try next?',choices:['Draw a cause-and-effect diagram','Talk through the evidence aloud','Draft a written claim and revise it','Check the sources and compare the competing explanations']},
+{index:10,prompt:'You receive feedback that challenges your project. Which response would you try?',choices:['Ask the reviewer clarifying questions','Reflect alone, then revisit the work','Test the feedback on a small example','Compare it with the assignment criteria and evidence']},
+{index:12,prompt:'You are joining a new interdisciplinary project. Which task would you enjoy exploring first?',choices:['Organize the visual plan and milestones','Develop the written narrative','Build a demonstration or prototype','Investigate patterns and supporting evidence']}
+];
+const sessionKey='etp-learning-profile-20261113';
+const scenarioKey='etp-learning-scenarios-20261113';
+function getSession(key){try{return JSON.parse(sessionStorage.getItem(key)||'null')}catch{return null}}
+function putSession(key,obj){try{sessionStorage.setItem(key,JSON.stringify(obj))}catch{}}
+function addScenarioCards(){reflections.forEach(item=>{
+const step=side.querySelector('.q-step[data-step="'+item.index+'"]');if(!step||step.querySelector('.etp-scenario'))return;
+const card=el('fieldset','etp-scenario');card.setAttribute('aria-label','Optional scenario reflection');const legend=el('legend','','Optional scenario · Real-world choice');card.append(legend,el('p','',item.prompt));
+const group=el('div','etp-scenario-choices');const saved=getSession(scenarioKey)||{};
+item.choices.forEach((choice,i)=>{const label=el('label');const input=el('input');input.type='radio';input.name='etp-scenario-'+item.index;input.value=String(i);input.checked=saved[item.index]===i;
+const span=el('span','',choice);label.append(input,span);group.append(label)});
+card.append(group,el('small','','This choice is for your reflection and will not alter your learning-preference scores.'));
+step.querySelector('.step-actions')?.before(card);
+})}
+addScenarioCards();
+side.addEventListener('change',event=>{const radio=event.target.closest('input[name^="etp-scenario-"]');if(radio){const key=radio.name.split('-').pop(),saved=getSession(scenarioKey)||{};saved[key]=Number(radio.value);putSession(scenarioKey,saved)}else if(event.target.matches('.q-step input[type="radio"]')){putSession(sessionKey,answers)}});
+document.addEventListener('click',event=>{const b=event.target.closest('button');if(!b||!/retake assessment|restart|start over/i.test(b.textContent))return;try{sessionStorage.removeItem(sessionKey);sessionStorage.removeItem(scenarioKey)}catch{}},true);
+function restoreProfile(){
+const saved=getSession(sessionKey);if(!saved||typeof saved!=='object')return;
+let restored=0;Object.entries(saved).forEach(([key,value])=>{if(!/^q\d+_\d+$/.test(key)||!value||!Number.isInteger(Number(value.value))||Number(value.value)<1||Number(value.value)>5)return;answers[key]=value;restored++});
+if(!restored)return;
+buildSteps();addScenarioCards();updateLive();profile.classList.add('etp-lab-started');
+const firstIncomplete=questions.findIndex((q,i)=>q.items.some((_,j)=>!answers['q'+i+'_'+j]));
+if(firstIncomplete<0){currentStep=questions.length-1;generateReport()}else{currentStep=firstIncomplete;showStep()}
+}
+restoreProfile();
+
 redraw();
 })();
