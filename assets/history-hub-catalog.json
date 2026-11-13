@@ -1831,7 +1831,7 @@
       "standards": {
         "name": "Independent Curriculum Design",
         "url": "/lessons/#curriculum-design",
-        "note": "Original Examine the Past course plan; course development and historical research remain ongoing."
+        "note": "Grade 8 American History original instructional drafts. Evidence-based inquiry, constitutional reasoning, geography and perspective-taking. History, readability, accessibility, sources and local alignment need editorial review before classroom publication."
       },
       "units": [
         {
@@ -1848,7 +1848,7 @@
               "id": "grade-8-early-united-states-history-81-01",
               "title": "British Colonial Development",
               "slug": "british-colonial-development",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-1",
               "unitNumber": "8.1",
               "objectives": [
@@ -1867,7 +1867,7 @@
               "id": "grade-8-early-united-states-history-81-02",
               "title": "Colonial Society and Political Institutions",
               "slug": "colonial-society-and-political-institutions",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-1",
               "unitNumber": "8.1",
               "objectives": [
@@ -1886,7 +1886,7 @@
               "id": "grade-8-early-united-states-history-81-03",
               "title": "Slavery and the Atlantic Economy",
               "slug": "slavery-and-the-atlantic-economy",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-1",
               "unitNumber": "8.1",
               "objectives": [
@@ -1925,7 +1925,7 @@
               "id": "grade-8-early-united-states-history-82-01",
               "title": "The Road to Revolution",
               "slug": "the-road-to-revolution",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-2",
               "unitNumber": "8.2",
               "objectives": [
@@ -1944,7 +1944,7 @@
               "id": "grade-8-early-united-states-history-82-02",
               "title": "The Declaration of Independence",
               "slug": "the-declaration-of-independence",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-2",
               "unitNumber": "8.2",
               "objectives": [
@@ -1963,7 +1963,7 @@
               "id": "grade-8-early-united-states-history-82-03",
               "title": "Revolutionary War Turning Points",
               "slug": "revolutionary-war-turning-points",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-2",
               "unitNumber": "8.2",
               "objectives": [
@@ -1982,7 +1982,7 @@
               "id": "grade-8-early-united-states-history-82-04",
               "title": "Unfinished Promises of the Revolution",
               "slug": "unfinished-promises-of-the-revolution",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-2",
               "unitNumber": "8.2",
               "objectives": [
@@ -2021,7 +2021,7 @@
               "id": "grade-8-early-united-states-history-83-01",
               "title": "The Articles of Confederation",
               "slug": "the-articles-of-confederation",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-3",
               "unitNumber": "8.3",
               "objectives": [
@@ -2040,7 +2040,7 @@
               "id": "grade-8-early-united-states-history-83-02",
               "title": "The Constitutional Convention",
               "slug": "the-constitutional-convention",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-3",
               "unitNumber": "8.3",
               "objectives": [
@@ -2059,7 +2059,7 @@
               "id": "grade-8-early-united-states-history-83-03",
               "title": "Federalists and Anti-Federalists",
               "slug": "federalists-and-anti-federalists",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-3",
               "unitNumber": "8.3",
               "objectives": [
@@ -2078,7 +2078,7 @@
               "id": "grade-8-early-united-states-history-83-04",
               "title": "Rights, Representation, and Federalism",
               "slug": "rights-representation-and-federalism",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-3",
               "unitNumber": "8.3",
               "objectives": [
@@ -2117,7 +2117,7 @@
               "id": "grade-8-early-united-states-history-84-01",
               "title": "Washington's Presidency",
               "slug": "washington-s-presidency",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-4",
               "unitNumber": "8.4",
               "objectives": [
@@ -2136,7 +2136,7 @@
               "id": "grade-8-early-united-states-history-84-02",
               "title": "Jefferson and the Louisiana Purchase",
               "slug": "jefferson-and-the-louisiana-purchase",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-4",
               "unitNumber": "8.4",
               "objectives": [
@@ -2155,7 +2155,7 @@
               "id": "grade-8-early-united-states-history-84-03",
               "title": "The War of 1812",
               "slug": "the-war-of-1812",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-4",
               "unitNumber": "8.4",
               "objectives": [
@@ -2174,7 +2174,7 @@
               "id": "grade-8-early-united-states-history-84-04",
               "title": "The Development of American Political Parties",
               "slug": "the-development-of-american-political-parties",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-4",
               "unitNumber": "8.4",
               "objectives": [
@@ -2213,7 +2213,7 @@
               "id": "grade-8-early-united-states-history-85-01",
               "title": "Manifest Destiny and Territorial Expansion",
               "slug": "manifest-destiny-and-territorial-expansion",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-5",
               "unitNumber": "8.5",
               "objectives": [
@@ -2232,7 +2232,7 @@
               "id": "grade-8-early-united-states-history-85-02",
               "title": "Indian Removal and Indigenous Resistance",
               "slug": "indian-removal-and-indigenous-resistance",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-5",
               "unitNumber": "8.5",
               "objectives": [
@@ -2251,7 +2251,7 @@
               "id": "grade-8-early-united-states-history-85-03",
               "title": "Industrialization and Social Reform",
               "slug": "industrialization-and-social-reform",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-5",
               "unitNumber": "8.5",
               "objectives": [
@@ -2270,7 +2270,7 @@
               "id": "grade-8-early-united-states-history-85-04",
               "title": "Women's Rights and Antebellum Reform",
               "slug": "women-s-rights-and-antebellum-reform",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-5",
               "unitNumber": "8.5",
               "objectives": [
@@ -2309,7 +2309,7 @@
               "id": "grade-8-early-united-states-history-86-01",
               "title": "The Expansion of Slavery",
               "slug": "the-expansion-of-slavery",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-6",
               "unitNumber": "8.6",
               "objectives": [
@@ -2328,7 +2328,7 @@
               "id": "grade-8-early-united-states-history-86-02",
               "title": "Abolitionism and Resistance",
               "slug": "abolitionism-and-resistance",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-6",
               "unitNumber": "8.6",
               "objectives": [
@@ -2347,7 +2347,7 @@
               "id": "grade-8-early-united-states-history-86-03",
               "title": "The Compromise of 1850 and Kansas-Nebraska Act",
               "slug": "the-compromise-of-1850-and-kansas-nebraska-act",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-6",
               "unitNumber": "8.6",
               "objectives": [
@@ -2366,7 +2366,7 @@
               "id": "grade-8-early-united-states-history-86-04",
               "title": "Why Did the United States Divide?",
               "slug": "why-did-the-united-states-divide",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-6",
               "unitNumber": "8.6",
               "objectives": [
@@ -2405,7 +2405,7 @@
               "id": "grade-8-early-united-states-history-87-01",
               "title": "Secession and the Outbreak of War",
               "slug": "secession-and-the-outbreak-of-war",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-7",
               "unitNumber": "8.7",
               "objectives": [
@@ -2424,7 +2424,7 @@
               "id": "grade-8-early-united-states-history-87-02",
               "title": "Turning Points of the Civil War",
               "slug": "turning-points-of-the-civil-war",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-7",
               "unitNumber": "8.7",
               "objectives": [
@@ -2443,7 +2443,7 @@
               "id": "grade-8-early-united-states-history-87-03",
               "title": "Emancipation and Black Military Service",
               "slug": "emancipation-and-black-military-service",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-7",
               "unitNumber": "8.7",
               "objectives": [
@@ -2462,7 +2462,7 @@
               "id": "grade-8-early-united-states-history-87-04",
               "title": "The Civil War Through Civilian Experiences",
               "slug": "the-civil-war-through-civilian-experiences",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-7",
               "unitNumber": "8.7",
               "objectives": [
@@ -2501,7 +2501,7 @@
               "id": "grade-8-early-united-states-history-88-01",
               "title": "Rebuilding the Nation",
               "slug": "rebuilding-the-nation",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-8",
               "unitNumber": "8.8",
               "objectives": [
@@ -2520,7 +2520,7 @@
               "id": "grade-8-early-united-states-history-88-02",
               "title": "Reconstruction Amendments and Citizenship",
               "slug": "reconstruction-amendments-and-citizenship",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-8",
               "unitNumber": "8.8",
               "objectives": [
@@ -2539,7 +2539,7 @@
               "id": "grade-8-early-united-states-history-88-03",
               "title": "Black Political Participation and Resistance",
               "slug": "black-political-participation-and-resistance",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-8",
               "unitNumber": "8.8",
               "objectives": [
@@ -2558,7 +2558,7 @@
               "id": "grade-8-early-united-states-history-88-04",
               "title": "The End of Reconstruction and Its Legacy",
               "slug": "the-end-of-reconstruction-and-its-legacy",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-8-early-united-states-history-unit-8-8",
               "unitNumber": "8.8",
               "objectives": [
