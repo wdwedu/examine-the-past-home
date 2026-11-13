@@ -812,7 +812,7 @@
       "standards": {
         "name": "Independent Curriculum Design",
         "url": "/lessons/#curriculum-design",
-        "note": "Original Examine the Past course plan; course development and historical research remain ongoing."
+        "note": "Original Examine the Past Grade 6 interactive draft. Historical explanations and instructional checks need editorial, accessibility and local-standard alignment review before classroom adoption."
       },
       "units": [
         {
@@ -829,7 +829,7 @@
               "id": "grade-6-ancient-world-history-61-01",
               "title": "Reading Maps Like a Historian",
               "slug": "reading-maps-like-a-historian",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-6-ancient-world-history-unit-6-1",
               "unitNumber": "6.1",
               "objectives": [
@@ -848,7 +848,7 @@
               "id": "grade-6-ancient-world-history-61-02",
               "title": "Geography and Human Settlement",
               "slug": "geography-and-human-settlement",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-6-ancient-world-history-unit-6-1",
               "unitNumber": "6.1",
               "objectives": [
@@ -867,7 +867,7 @@
               "id": "grade-6-ancient-world-history-61-03",
               "title": "Investigating the Ancient World Through Evidence",
               "slug": "investigating-the-ancient-world-through-evidence",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-6-ancient-world-history-unit-6-1",
               "unitNumber": "6.1",
               "objectives": [
@@ -906,7 +906,7 @@
               "id": "grade-6-ancient-world-history-62-01",
               "title": "From Hunting and Gathering to Agriculture",
               "slug": "from-hunting-and-gathering-to-agriculture",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-6-ancient-world-history-unit-6-2",
               "unitNumber": "6.2",
               "objectives": [
@@ -925,7 +925,7 @@
               "id": "grade-6-ancient-world-history-62-02",
               "title": "Why Did Early Cities Develop?",
               "slug": "why-did-early-cities-develop",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-6-ancient-world-history-unit-6-2",
               "unitNumber": "6.2",
               "objectives": [
@@ -944,7 +944,7 @@
               "id": "grade-6-ancient-world-history-62-03",
               "title": "Surplus, Specialization, and Social Organization",
               "slug": "surplus-specialization-and-social-organization",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-6-ancient-world-history-unit-6-2",
               "unitNumber": "6.2",
               "objectives": [
@@ -983,7 +983,7 @@
               "id": "grade-6-ancient-world-history-63-01",
               "title": "Mesopotamia and the First Cities",
               "slug": "mesopotamia-and-the-first-cities",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-6-ancient-world-history-unit-6-3",
               "unitNumber": "6.3",
               "objectives": [
@@ -1002,7 +1002,7 @@
               "id": "grade-6-ancient-world-history-63-02",
               "title": "Ancient Egypt and the Nile",
               "slug": "ancient-egypt-and-the-nile",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-6-ancient-world-history-unit-6-3",
               "unitNumber": "6.3",
               "objectives": [
@@ -1021,7 +1021,7 @@
               "id": "grade-6-ancient-world-history-63-03",
               "title": "The Indus Valley Civilization",
               "slug": "the-indus-valley-civilization",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-6-ancient-world-history-unit-6-3",
               "unitNumber": "6.3",
               "objectives": [
@@ -1040,7 +1040,7 @@
               "id": "grade-6-ancient-world-history-63-04",
               "title": "Early Chinese Civilizations",
               "slug": "early-chinese-civilizations",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-6-ancient-world-history-unit-6-3",
               "unitNumber": "6.3",
               "objectives": [
@@ -1079,7 +1079,7 @@
               "id": "grade-6-ancient-world-history-64-01",
               "title": "Laws and Leadership in Ancient Societies",
               "slug": "laws-and-leadership-in-ancient-societies",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-6-ancient-world-history-unit-6-4",
               "unitNumber": "6.4",
               "objectives": [
@@ -1098,7 +1098,7 @@
               "id": "grade-6-ancient-world-history-64-02",
               "title": "Belief Systems and Cultural Traditions",
               "slug": "belief-systems-and-cultural-traditions",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-6-ancient-world-history-unit-6-4",
               "unitNumber": "6.4",
               "objectives": [
@@ -1117,7 +1117,7 @@
               "id": "grade-6-ancient-world-history-64-03",
               "title": "Ancient Greece and the Origins of Democracy",
               "slug": "ancient-greece-and-the-origins-of-democracy",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-6-ancient-world-history-unit-6-4",
               "unitNumber": "6.4",
               "objectives": [
@@ -1136,7 +1136,7 @@
               "id": "grade-6-ancient-world-history-64-04",
               "title": "Rome: Republic, Empire, and Legacy",
               "slug": "rome-republic-empire-and-legacy",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-6-ancient-world-history-unit-6-4",
               "unitNumber": "6.4",
               "objectives": [
@@ -1175,7 +1175,7 @@
               "id": "grade-6-ancient-world-history-65-01",
               "title": "Ancient Trade Networks",
               "slug": "ancient-trade-networks",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-6-ancient-world-history-unit-6-5",
               "unitNumber": "6.5",
               "objectives": [
@@ -1194,7 +1194,7 @@
               "id": "grade-6-ancient-world-history-65-02",
               "title": "The Silk Roads and Cultural Exchange",
               "slug": "the-silk-roads-and-cultural-exchange",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-6-ancient-world-history-unit-6-5",
               "unitNumber": "6.5",
               "objectives": [
@@ -1213,7 +1213,7 @@
               "id": "grade-6-ancient-world-history-65-03",
               "title": "Migration and the Movement of Ideas",
               "slug": "migration-and-the-movement-of-ideas",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-6-ancient-world-history-unit-6-5",
               "unitNumber": "6.5",
               "objectives": [
@@ -1252,7 +1252,7 @@
               "id": "grade-6-ancient-world-history-66-01",
               "title": "Water and the Development of Civilizations",
               "slug": "water-and-the-development-of-civilizations",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-6-ancient-world-history-unit-6-6",
               "unitNumber": "6.6",
               "objectives": [
@@ -1271,7 +1271,7 @@
               "id": "grade-6-ancient-world-history-66-02",
               "title": "Farming, Technology, and Environmental Change",
               "slug": "farming-technology-and-environmental-change",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-6-ancient-world-history-unit-6-6",
               "unitNumber": "6.6",
               "objectives": [
@@ -1290,7 +1290,7 @@
               "id": "grade-6-ancient-world-history-66-03",
               "title": "Why Civilizations Adapted, Transformed, or Declined",
               "slug": "why-civilizations-adapted-transformed-or-declined",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-6-ancient-world-history-unit-6-6",
               "unitNumber": "6.6",
               "objectives": [
