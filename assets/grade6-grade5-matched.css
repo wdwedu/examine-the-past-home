@@ -1,0 +1,13 @@
+/* Grade 6 faithful Grade 5 template: only additional SVG, neutral standards notes, and editable input contrast. */
+body.etp-curriculum main[data-lesson-course="grade-6-ancient-world-history"] .g6-added-svg{border:1px solid #517d5d;background:linear-gradient(140deg,#10251f,#061515);padding:20px;margin-top:18px}
+body.etp-curriculum main[data-lesson-course="grade-6-ancient-world-history"] .g6-added-svg svg{display:block;width:100%;max-height:260px;height:auto;margin:14px 0;background:#071812;border-radius:12px}
+body.etp-curriculum main[data-lesson-course="grade-6-ancient-world-history"] .g6-svg-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:14px 0}
+body.etp-curriculum main[data-lesson-course="grade-6-ancient-world-history"] .g6-svg-actions button{background:linear-gradient(125deg,#164632,#112c43);border:1px solid #629b74;border-radius:10px;color:#f2f8e8;padding:12px;min-height:48px;cursor:pointer;font:700 15px Georgia,serif}
+body.etp-curriculum main[data-lesson-course="grade-6-ancient-world-history"] .g6-svg-actions button[aria-pressed=true]{background:linear-gradient(135deg,#35713b,#225a42);border-color:#fff200;color:#fff200}
+body.etp-curriculum main[data-lesson-course="grade-6-ancient-world-history"] #g6-svg-explain{font:16px/1.6 Georgia,serif;color:#e4f2e6;min-height:32px}
+body.etp-curriculum main[data-lesson-course="grade-6-ancient-world-history"] textarea,
+body.etp-curriculum main[data-lesson-course="grade-6-ancient-world-history"] input[type=text]{background:#fff!important;color:#111!important;border:2px solid #a6d19c!important;font:17px/1.5 Georgia,serif!important}
+body.etp-curriculum main[data-lesson-course="grade-6-ancient-world-history"] textarea::placeholder{color:#626e63}
+body.etp-curriculum main[data-lesson-course="grade-6-ancient-world-history"] .g5-hero small{font-family:Georgia,serif}
+@media(max-width:640px){body.etp-curriculum main[data-lesson-course="grade-6-ancient-world-history"] .g6-svg-actions{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){body.etp-curriculum main[data-lesson-course="grade-6-ancient-world-history"] .g6-svg-actions button{transition:none}}
