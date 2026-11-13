@@ -551,11 +551,32 @@ body>nav:not(.etp-icon-nav),main>nav,.timeline-nav,.timeline-controls,.toolbar{p
  .timeline .event,.timeline .event:hover,.timeline .event:focus-within{animation:none;transform:none;transition:none}
 }
 </style>
+
+<style id="etp-timeline-sticky-eras">
+/* Keep the era bar beneath the measured shared header and single Back row. */
+body:has(#timeline-era-links){overflow-x:clip}
+nav.topbar[aria-label="Timeline eras"]{position:sticky!important;top:calc(var(--etp-header-height,74px) + var(--etp-page-nav-height,43px))!important;z-index:2147479000!important}
+nav.topbar .navwrap{display:grid;grid-template-columns:38px minmax(0,1fr) 38px;gap:8px;overflow:visible;position:relative}
+nav.topbar .timeline-boundary{padding:0;border:0}
+.timeline-era-links{display:flex;align-items:center;min-width:0;overflow-x:auto;scrollbar-width:thin}
+.timeline-era-toggle{display:none}
+.timeline .era{scroll-margin-top:calc(var(--etp-header-height,74px) + var(--etp-page-nav-height,43px) + 65px)}
+@media(max-width:759px){
+ nav.topbar .navwrap{grid-template-columns:40px minmax(0,1fr) 40px;padding:5px 12px}
+ nav.topbar .home{width:40px;height:40px}
+ .timeline-era-toggle{display:block;justify-self:start;min-height:40px;padding:7px 13px;border:1px solid #ffe80066;border-radius:8px;color:#ffe800;background:#101510;font:700 14px Georgia,serif;cursor:pointer}
+ .timeline-era-links{display:none;position:absolute;left:0;right:0;top:100%;padding:10px;background:#080c09;border-bottom:1px solid #ffe80066;max-height:50dvh;overflow-y:auto;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;box-shadow:0 15px 25px #0008}
+ .eras-open .timeline-era-links{display:grid}
+ .timeline-era-links .era-link{white-space:normal;min-height:44px;text-align:left;padding:9px;font:700 12px Georgia,serif}
+}
+</style>
 </head>
 <body>
 <nav aria-label="Timeline eras" class="topbar">
 <div class="navwrap">
-<div class="brand"><button aria-label="Back to top" class="home" onclick="goTop()" title="Back to top">↑</button></div>
+<div class="brand timeline-boundary"><button aria-label="Back to top" class="home" onclick="goTop()" title="Back to top">↑</button></div>
+<button type="button" class="timeline-era-toggle" aria-expanded="false" aria-controls="timeline-era-links">☰ Eras</button>
+<div class="timeline-era-links" id="timeline-era-links">
 <button class="era-link" data-id="deep">Deep Past</button>
 <button class="era-link" data-id="civilizations">First Civilizations</button>
 <button class="era-link" data-id="classical">Classical</button>
@@ -565,6 +586,8 @@ body>nav:not(.etp-icon-nav),main>nav,.timeline-nav,.timeline-controls,.toolbar{p
 <button class="era-link" data-id="conflict">Global Conflict</button>
 <button class="era-link" data-id="contemporary">Contemporary</button>
 <button class="era-link" data-id="now">Today</button>
+</div>
+<div class="brand timeline-boundary"><button type="button" aria-label="Jump to end of timeline" class="home" onclick="goBottom()" title="Jump to end of timeline">↓</button></div>
 </div>
 </nav>
 <header class="hero" id="top">
@@ -671,6 +694,7 @@ body>nav:not(.etp-icon-nav),main>nav,.timeline-nav,.timeline-controls,.toolbar{p
 <article class="event"><div class="visual"><div class="art">🤖</div></div><div class="event-body"><div class="meta"><span class="date">2022 onward</span><span class="category">Science &amp; Technology</span></div><h3>Generative AI Enters Mass Use</h3><p>Public-facing generative AI systems rapidly expanded the use of machine-generated text, images, audio, and code.</p><button class="explore" data-context="Because the field is developing quickly, the timeline should distinguish established evidence from prediction and avoid treating current claims as settled historical outcomes." data-evidence="Future historians will have an unusually large record: model documentation, regulation, usage data, corporate archives, public debates, educational policies, and digital artifacts." data-source="Source: NIST AI Risk Management Framework; OECD AI resources." data-source-url="https://www.nist.gov/itl/ai-risk-management-framework" data-text="Large language models and other generative systems moved from specialist research environments into everyday products used for writing, coding, design, tutoring, search, and analysis." data-title="Generative AI Enters Mass Use" data-why="The shift is historically significant because it changes how knowledge work is produced and raises unresolved questions about labor, education, copyright, misinformation, energy use, bias, and governance.">Explore Deeper</button></div></article><article class="event"><div class="visual"><div class="art">🔎</div></div><div class="event-body"><div class="meta"><span class="date">Your turn</span><span class="category">Historical Thinking</span></div><h3>Examine the Evidence</h3><p>History is not simply a list of dates. Ask what happened, what changed, whose perspectives survive, and what evidence supports a claim.</p><button class="explore" data-activities="1|Turning Point Challenge|Choose three events from different eras. Rank them from most to least transformative. For each, identify what changed, who was affected, and one piece of evidence that supports your ranking.;2|Same Time, Different World|Choose one date or century and compare two events happening in different regions. Explain one similarity, one difference, and what the comparison reveals about the wider world at that moment.;3|Evidence &amp; Perspective Investigation|Choose one event. Identify whose perspective is easiest to find, whose may be missing, and what additional source you would want. Then write a short claim explaining how the evidence changes or complicates the story." data-context="Teachers can use the activities for independent work, pairs, stations, discussion, exit tickets, enrichment, or assessment." data-evidence="Use event cards, dates, category filters, source links, profiles, and the deeper-learning panels as your evidence base." data-source="Source: Examine the Past learning pathway." data-text="Use the timeline as a historical-thinking lab. Choose an activity below and work directly from the events, dates, themes, evidence, and connections you have explored." data-title="Your Turn — Examine the Evidence" data-why="Historical thinking becomes stronger when learners do more than remember dates. These activities ask you to compare, question, trace change over time, and build claims from evidence.">Investigate Further</button></div></article></div>
 </div></section>
 </main>
+<div id="timeline-end" aria-hidden="true"></div>
 <section aria-label="Examine the Past" class="footer brand-end investigate-further"><div class="eyebrow investigate-eyebrow">HISTORY • EVIDENCE • CONNECTIONS • DISCOVERY</div>
 <h2>INVESTIGATE FURTHER</h2>
 <p>History is not simply a list of dates. Follow the evidence, compare perspectives, and share the journey with someone who loves learning.</p>
@@ -744,8 +768,16 @@ body>nav:not(.etp-icon-nav),main>nav,.timeline-nav,.timeline-controls,.toolbar{p
 </div>
 <script>
 const eraBtns=[...document.querySelectorAll('.era-link')];
-eraBtns.forEach(btn=>btn.addEventListener('click',()=>document.getElementById(btn.dataset.id)?.scrollIntoView({behavior:'smooth'})));
-function goTop(){document.getElementById('top').scrollIntoView({behavior:'smooth'})}
+const timelineNav=document.querySelector('nav[aria-label="Timeline eras"]');
+const eraToggle=timelineNav.querySelector('.timeline-era-toggle');
+const scrollBehavior=()=>matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth';
+function closeEraPicker(){timelineNav.classList.remove('eras-open');eraToggle.setAttribute('aria-expanded','false')}
+eraToggle.addEventListener('click',()=>{const open=timelineNav.classList.toggle('eras-open');eraToggle.setAttribute('aria-expanded',String(open))});
+eraBtns.forEach(btn=>btn.addEventListener('click',()=>{closeEraPicker();document.getElementById(btn.dataset.id)?.scrollIntoView({behavior:scrollBehavior()})}));
+document.addEventListener('keydown',event=>{if(event.key==='Escape'&&timelineNav.classList.contains('eras-open')){closeEraPicker();eraToggle.focus()}});
+document.addEventListener('click',event=>{if(!timelineNav.contains(event.target))closeEraPicker()});
+function goTop(){closeEraPicker();window.scrollTo({top:0,behavior:scrollBehavior()})}
+function goBottom(){closeEraPicker();document.getElementById('timeline-end').scrollIntoView({behavior:scrollBehavior(),block:'end'})}
 const observer=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){eraBtns.forEach(b=>b.classList.toggle('active',b.dataset.id===e.target.id));}})},{rootMargin:'-35% 0px -55% 0px',threshold:0});
 document.querySelectorAll('.era').forEach(s=>observer.observe(s));
 

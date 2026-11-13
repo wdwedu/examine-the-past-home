@@ -890,7 +890,7 @@ footer .footer-social a img,footer .footer-social a[aria-label="Etsy"] img,foote
 
 /* 2026-11-08 v15: top-of-page return navigation on every inner page. */
 body.etp-has-page-nav .etp-page-nav{
- box-sizing:border-box!important;position:sticky!important;top:60px!important;
+ box-sizing:border-box!important;position:sticky!important;top:var(--etp-header-height,60px)!important;
  z-index:2147480000!important;width:100%!important;max-width:none!important;
  display:flex!important;flex-direction:row!important;align-items:center!important;
  justify-content:flex-start!important;gap:clamp(8px,1.5vw,18px)!important;
@@ -924,7 +924,7 @@ body.etp-has-page-nav .bh-wrap>.bh-crumb,
 body.etp-has-page-nav .etp-layout>.etp-path{display:none!important}
 @media(max-width:759px){
  body.etp-has-page-nav .etp-page-nav{
-  top:45px!important;padding:6px 10px!important;gap:7px!important;
+  top:var(--etp-header-height,45px)!important;padding:6px 10px!important;gap:7px!important;
  }
  body.etp-has-page-nav .etp-page-nav>*{
   min-height:32px!important;padding:7px 12px!important;font-size:12px!important;

@@ -8,8 +8,8 @@ loadCSS(u("assets/site-shell.css?v=20261109-approved-nav-v19"),"shell-css");
 loadCSS(u("assets/etp-transitions.css?v=20261104-cinematic-5-v1"),"transitions-css");loadJS(u("assets/etp-transitions.js?v=20261104-cinematic-5-v1"),"transitions-js");
 loadJS(u("assets/etp-movie-cinematics.js?v=20261112-locked-movie-v3-fade"),"movie-cinematics");
 loadCSS(u("assets/etp-experience-v50.css?v=20261015-etp-r2"),"experience-css");loadJS(u("assets/etp-experience-v50.js?v=20261102-history-jukebox"),"experience-js");
-loadCSS(u("assets/repair-v63.css?v=20261107-reader-audit-v1"),"repair-css");loadJS(u("assets/repair-v63.js?v=20261112-links-v17"),"repair-js");
-loadCSS(u("assets/nav-footer-parity.css?v=20261109-approved-nav-v19"),"nav-footer-parity");
+loadCSS(u("assets/repair-v63.css?v=20261107-reader-audit-v1"),"repair-css");loadJS(u("assets/repair-v63.js?v=20261113-single-return-v1"),"repair-js");
+loadCSS(u("assets/nav-footer-parity.css?v=20261113-navigation-offset-v1"),"nav-footer-parity");
 if(/\/lessons\/curriculum\/grade-[567]-[^/]+\/[^/]+\//.test(location.pathname)){
  loadCSS(u("assets/lesson-family-dock-visual-20261113.css?v=4"),"grade5-grade6-dock-visual");
  loadJS(u("assets/lesson-family-dock-visual-20261113.js?v=4"),"grade5-grade6-dock-visual");
@@ -41,6 +41,7 @@ header.innerHTML='<div class="etp-header-inner etp-header-minimal">'+
 '<a class="etp-top-link" href="'+u('lessons/')+'" data-etp-transition="warp-tunnel" aria-label="Courses"><span class="etp-top-emoji" aria-hidden="true">📚</span><span class="etp-nav-label">Courses</span><span class="etp-top-tip">Courses</span></a>'+
 '</nav><nav class="etp-icon-nav" aria-label="Jukebox"><div class="etp-nav-item"><button class="etp-icon-btn" type="button" data-etp-action="jukebox" aria-label="Open History Jukebox"><span class="etp-sound-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="etp-nav-label">Jukebox</span></button><span class="etp-tip">Jukebox</span></div></nav></div></div>';
 document.body.prepend(header);
+loadJS(u("assets/page-navigation-cleanup.js?v=20261113-v1"),"page-navigation-cleanup");
 
 /* Consistent app-friendly back row, placed immediately beneath the shared header,
    never after page art or the hero. Same layout on desktop and mobile. */
@@ -49,12 +50,15 @@ if(pagePath!==root&&pagePath!==root.replace(/\/$/,"")){
  const pageNav=document.createElement("nav");
  pageNav.className="etp-page-nav";
  pageNav.setAttribute("aria-label","Page navigation");
- const fallback=pagePath.startsWith(root+"games/black-history-")?u("games/black-history/"):
+ const originalReturn=[...document.querySelectorAll('a.etp-back-link,a.back-link,a.back')].find(link=>
+  !link.closest('header,footer')&&/^[←‹\s]*back\b/i.test(link.textContent)&&
+  new URL(link.href,location.href).origin===location.origin);
+ const fallback=originalReturn?.href|| (pagePath.startsWith(root+"games/black-history-")?u("games/black-history/"):
    pagePath.startsWith(root+"games/black-history/")?u("games/"):
    pagePath.startsWith(root+"games/presidential-challenges/")&&pagePath!==root+"games/presidential-challenges/"?u("games/presidential-challenges/"):
    pagePath.startsWith(root+"games/")?u("games/"):
    pagePath.startsWith(root+"lessons/")?u("lessons/"):
-   pagePath.startsWith(root+"teacher-tools/")?u("teacher-tools/"):u("");
+   pagePath.startsWith(root+"teacher-tools/")?u("teacher-tools/"):u(""));
  const isGame=pagePath.startsWith(root+"games/");
  const isLesson=pagePath.startsWith(root+"lessons/");
  const links=isGame?

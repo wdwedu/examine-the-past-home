@@ -53,8 +53,8 @@ window.ETPRepair={stopMusic,enableReader,refreshHeader};
 function boot(){
  document.querySelectorAll('audio').forEach(a=>{a.autoplay=false;a.removeAttribute('autoplay');a.pause();a.addEventListener('play',()=>{document.querySelectorAll('audio,video').forEach(other=>{if(other!==a)other.pause()});document.querySelectorAll('.etp-jukebox-overlay iframe').forEach(f=>f.src='')})});
  let previous=null;try{previous=sessionStorage.getItem('etp-last-page');if(previous!==location.href)sessionStorage.setItem('etp-last-page',location.href)}catch{}
- if(/\/(maps|timeline)\/(?:index\.html)?$/.test(location.pathname)){
- const nav=document.createElement('nav');nav.className='etp-return';nav.setAttribute('aria-label','Return navigation');const back=document.createElement('a');back.textContent='‹ Back';back.href=previous&&new URL(previous).origin===location.origin&&previous!==location.href?previous:url('');const home=document.createElement('a');home.textContent='Home';home.href=url('');nav.append(back,home);nav.dataset.etpTransition='none';const header=document.getElementById('etpSiteHeader');if(header)header.after(nav);else document.body.prepend(nav);
+ if(!document.querySelector(".etp-page-nav")&&/\/(maps|timeline)\/(?:index\.html)?$/.test(location.pathname)){
+ const nav=document.createElement('nav');nav.className='etp-return';nav.setAttribute('aria-label','Return navigation');const back=document.createElement('a');back.textContent='‹ Back';back.href=previous&&new URL(previous).origin===location.origin&&previous!==location.href?previous:url('');const home=document.createElement('a');home.textContent='Home';home.href=url('');nav.append(back);nav.dataset.etpTransition='none';const header=document.getElementById('etpSiteHeader');if(header)header.after(nav);else document.body.prepend(nav);
  }
  document.querySelectorAll('.etp-icon-nav a').forEach(a=>{const label=a.parentElement.querySelector('.etp-tip')?.textContent;if(label)a.setAttribute('aria-label',label)});
  // Old globe routes now resolve to the standalone working pages.
