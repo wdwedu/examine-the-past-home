@@ -131,20 +131,20 @@
           "answer": 1
         },
         {
-          "prompt": "Which method would best strengthen the investigation?",
+          "prompt": "Which evidence could justify grouping a set of countries in a physical region?",
           "options": [
-            "This source proves every community experienced the same event.",
-            "A comparison of sources can reveal different interests and missing voices.",
-            "A map alone establishes the intentions of every individual."
+            "A shared river basin or climate pattern",
+            "A claim that every resident speaks the same language",
+            "The age of the mapmaker"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
-          "prompt": "What would improve an evidence-based conclusion?",
+          "prompt": "Why might two atlases define Southwest Asia differently?",
           "options": [
-            "Ignore any source that challenges the claim.",
-            "Explain a supported interpretation and its limits.",
-            "Treat an attractive diagram as proof of historical fact."
+            "Only one cartographer can draw a correct map",
+            "Regional labels depend partly on purpose and criteria",
+            "Physical features cannot cross borders"
           ],
           "answer": 1
         }
@@ -206,22 +206,22 @@
           "answer": 2
         },
         {
-          "prompt": "Which method would best strengthen the investigation?",
+          "prompt": "Which example shows people adapting rather than being determined by terrain?",
           "options": [
-            "The date, creator, and purpose are unnecessary details.",
-            "A longer source is always more reliable.",
-            "Context and corroboration are needed to assess the claim."
+            "A mountain forces a single language",
+            "The climate decides all political rules",
+            "Andean communities developed terraces suited to steep land"
           ],
           "answer": 2
         },
         {
-          "prompt": "What would improve an evidence-based conclusion?",
+          "prompt": "Why might two communities in the same valley have different identities?",
           "options": [
-            "Ignore any source that challenges the claim.",
-            "Explain a supported interpretation and its limits.",
-            "Treat an attractive diagram as proof of historical fact."
+            "Language, experience, and institutions can differ despite shared terrain",
+            "Shared elevation guarantees one culture",
+            "A river erases every historical difference"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
@@ -281,22 +281,22 @@
           "answer": 1
         },
         {
-          "prompt": "Which method would best strengthen the investigation?",
+          "prompt": "Which evidence would help establish how a plaza's meaning changed?",
           "options": [
-            "One diagram establishes exact historical measurements.",
-            "A clearly labeled diagram can show a relationship without proving a specific journey.",
-            "All schematic maps are authentic artifacts."
+            "A single undated photograph",
+            "Maps and testimony from several periods",
+            "A modern building's paint color alone"
           ],
           "answer": 1
         },
         {
-          "prompt": "What would improve an evidence-based conclusion?",
+          "prompt": "What does a historic harbor warehouse most directly reveal?",
           "options": [
-            "Ignore any source that challenges the claim.",
-            "Explain a supported interpretation and its limits.",
-            "Treat an attractive diagram as proof of historical fact."
+            "The wealth of every household",
+            "The religion of every worker",
+            "Part of the place's commercial infrastructure"
           ],
-          "answer": 1
+          "answer": 2
         }
       ],
       "visual": {
@@ -356,20 +356,20 @@
           "answer": 0
         },
         {
-          "prompt": "Which method would best strengthen the investigation?",
+          "prompt": "Which example describes a barrier to migration?",
           "options": [
-            "This source proves every community experienced the same event.",
-            "A comparison of sources can reveal different interests and missing voices.",
-            "A map alone establishes the intentions of every individual."
+            "Legal restrictions and travel costs",
+            "Family connections in another city",
+            "A new opportunity for education"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
-          "prompt": "What would improve an evidence-based conclusion?",
+          "prompt": "Why examine migrants' own letters alongside official lists?",
           "options": [
-            "Ignore any source that challenges the claim.",
-            "Explain a supported interpretation and its limits.",
-            "Treat an attractive diagram as proof of historical fact."
+            "Official lists reveal every motive",
+            "Letters can offer voices missing from government categories",
+            "The two sources always agree"
           ],
           "answer": 1
         }
@@ -431,22 +431,22 @@
           "answer": 2
         },
         {
-          "prompt": "Which method would best strengthen the investigation?",
+          "prompt": "Why should forced Atlantic transportation not be described as ordinary immigration?",
           "options": [
-            "The date, creator, and purpose are unnecessary details.",
-            "A longer source is always more reliable.",
-            "Context and corroboration are needed to assess the claim."
-          ],
-          "answer": 2
-        },
-        {
-          "prompt": "What would improve an evidence-based conclusion?",
-          "options": [
-            "Ignore any source that challenges the claim.",
-            "Explain a supported interpretation and its limits.",
-            "Treat an attractive diagram as proof of historical fact."
+            "The ships were unable to cross oceans",
+            "It involved coercion and loss of freedom",
+            "Its consequences ended immediately"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What else might cause a city's census total to rise besides new arrivals?",
+          "options": [
+            "Changes in boundaries or counting methods",
+            "An unchanged counting system only",
+            "A complete end to births"
+          ],
+          "answer": 0
         }
       ],
       "visual": {
@@ -506,20 +506,20 @@
           "answer": 1
         },
         {
-          "prompt": "Which method would best strengthen the investigation?",
+          "prompt": "What does Swahili coastal history demonstrate?",
           "options": [
-            "One diagram establishes exact historical measurements.",
-            "A clearly labeled diagram can show a relationship without proving a specific journey.",
-            "All schematic maps are authentic artifacts."
+            "Culture has a single imported source",
+            "Trade prevents local traditions",
+            "African histories and overseas contact influenced urban life"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
-          "prompt": "What would improve an evidence-based conclusion?",
+          "prompt": "Which evidence would strengthen a claim about cultural continuity?",
           "options": [
-            "Ignore any source that challenges the claim.",
-            "Explain a supported interpretation and its limits.",
-            "Treat an attractive diagram as proof of historical fact."
+            "A modern stereotype",
+            "Records or community testimony across generations",
+            "One imported bead"
           ],
           "answer": 1
         }
@@ -581,22 +581,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which method would best strengthen the investigation?",
+          "prompt": "Why might a Central Asian oasis town be influential?",
           "options": [
-            "This source proves every community experienced the same event.",
-            "A comparison of sources can reveal different interests and missing voices.",
-            "A map alone establishes the intentions of every individual."
+            "It helped travelers obtain supplies and exchange goods",
+            "Every traveler lived there permanently",
+            "It controlled all of Eurasia"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
-          "prompt": "What would improve an evidence-based conclusion?",
+          "prompt": "What is a limitation of a single object found far from its origin?",
           "options": [
-            "Ignore any source that challenges the claim.",
-            "Explain a supported interpretation and its limits.",
-            "Treat an attractive diagram as proof of historical fact."
+            "Its material never changes",
+            "It proves a trader's full itinerary",
+            "It does not reveal each step of its journey"
           ],
-          "answer": 1
+          "answer": 2
         }
       ],
       "visual": {
@@ -656,22 +656,22 @@
           "answer": 1
         },
         {
-          "prompt": "Which method would best strengthen the investigation?",
+          "prompt": "What did Indian Ocean ports often connect?",
           "options": [
-            "The date, creator, and purpose are unnecessary details.",
-            "A longer source is always more reliable.",
-            "Context and corroboration are needed to assess the claim."
-          ],
-          "answer": 2
-        },
-        {
-          "prompt": "What would improve an evidence-based conclusion?",
-          "options": [
-            "Ignore any source that challenges the claim.",
-            "Explain a supported interpretation and its limits.",
-            "Treat an attractive diagram as proof of historical fact."
+            "Only two neighboring villages",
+            "East Africa, Arabia, India, and wider Asian networks",
+            "Only Roman provinces"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Why could a monsoon route change with the season?",
+          "options": [
+            "Wind direction and sailing conditions varied",
+            "Ports moved every month",
+            "Every vessel used an engine"
+          ],
+          "answer": 0
         }
       ],
       "visual": {
@@ -731,22 +731,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which method would best strengthen the investigation?",
+          "prompt": "Which event links Mali to wider Islamic and trade networks?",
           "options": [
-            "One diagram establishes exact historical measurements.",
-            "A clearly labeled diagram can show a relationship without proving a specific journey.",
-            "All schematic maps are authentic artifacts."
+            "The Roman census",
+            "The first Atlantic steamship",
+            "Mansa Musa's pilgrimage in 1324–1325"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
-          "prompt": "What would improve an evidence-based conclusion?",
+          "prompt": "What does evidence of Timbuktu scholarship challenge?",
           "options": [
-            "Ignore any source that challenges the claim.",
-            "Explain a supported interpretation and its limits.",
-            "Treat an attractive diagram as proof of historical fact."
+            "The view that West African cities lacked learning",
+            "The fact that the Sahara is large",
+            "The possibility of local teachers"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
@@ -806,22 +806,22 @@
           "answer": 1
         },
         {
-          "prompt": "Which method would best strengthen the investigation?",
+          "prompt": "Why were many port cities attractive to merchants?",
           "options": [
-            "This source proves every community experienced the same event.",
-            "A comparison of sources can reveal different interests and missing voices.",
-            "A map alone establishes the intentions of every individual."
+            "They banned exchange",
+            "They connected transportation and market networks",
+            "They had no need for storage"
           ],
           "answer": 1
         },
         {
-          "prompt": "What would improve an evidence-based conclusion?",
+          "prompt": "Which question addresses inequality within a growing city?",
           "options": [
-            "Ignore any source that challenges the claim.",
-            "Explain a supported interpretation and its limits.",
-            "Treat an attractive diagram as proof of historical fact."
+            "How many imported items exist?",
+            "Does the port appear on a map?",
+            "Who controlled access to trade benefits and labor?"
           ],
-          "answer": 1
+          "answer": 2
         }
       ],
       "visual": {
@@ -881,20 +881,20 @@
           "answer": 2
         },
         {
-          "prompt": "Which method would best strengthen the investigation?",
+          "prompt": "Which feature distinguishes a political institution from a building?",
           "options": [
-            "The date, creator, and purpose are unnecessary details.",
-            "A longer source is always more reliable.",
-            "Context and corroboration are needed to assess the claim."
+            "How it organizes decisions and responsibilities",
+            "Whether it is made of stone",
+            "The size of its doorway"
           ],
-          "answer": 2
+          "answer": 0
         },
         {
-          "prompt": "What would improve an evidence-based conclusion?",
+          "prompt": "What might a royal declaration fail to show?",
           "options": [
-            "Ignore any source that challenges the claim.",
-            "Explain a supported interpretation and its limits.",
-            "Treat an attractive diagram as proof of historical fact."
+            "The ruler's public claims",
+            "How ordinary residents experienced enforcement",
+            "The date in the inscription"
           ],
           "answer": 1
         }
@@ -956,22 +956,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which method would best strengthen the investigation?",
+          "prompt": "What is an opportunity cost of building a road instead of a canal?",
           "options": [
-            "One diagram establishes exact historical measurements.",
-            "A clearly labeled diagram can show a relationship without proving a specific journey.",
-            "All schematic maps are authentic artifacts."
+            "No resource is ever scarce",
+            "The canal improvements that could not be funded",
+            "A promise that road builders become wealthy"
           ],
           "answer": 1
         },
         {
-          "prompt": "What would improve an evidence-based conclusion?",
+          "prompt": "Why should a budget plan identify who receives water?",
           "options": [
-            "Ignore any source that challenges the claim.",
-            "Explain a supported interpretation and its limits.",
-            "Treat an attractive diagram as proof of historical fact."
+            "Access can be unequal even with new infrastructure",
+            "Money alone proves fairness",
+            "Irrigation has no maintenance costs"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
@@ -1031,22 +1031,22 @@
           "answer": 1
         },
         {
-          "prompt": "Which method would best strengthen the investigation?",
+          "prompt": "What could make a mountain pass strategically valuable?",
           "options": [
-            "This source proves every community experienced the same event.",
-            "A comparison of sources can reveal different interests and missing voices.",
-            "A map alone establishes the intentions of every individual."
+            "It guarantees political peace",
+            "It always contains gold",
+            "It controls travel through a limited route"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
-          "prompt": "What would improve an evidence-based conclusion?",
+          "prompt": "Why might a port's political advantage decline?",
           "options": [
-            "Ignore any source that challenges the claim.",
-            "Explain a supported interpretation and its limits.",
-            "Treat an attractive diagram as proof of historical fact."
+            "Trade technology and routes can change",
+            "All coastlines remain politically equal",
+            "Ports never need institutions"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
@@ -1106,22 +1106,22 @@
           "answer": 2
         },
         {
-          "prompt": "Which method would best strengthen the investigation?",
+          "prompt": "Which historical method respects diversity within a tradition?",
           "options": [
-            "The date, creator, and purpose are unnecessary details.",
-            "A longer source is always more reliable.",
-            "Context and corroboration are needed to assess the claim."
-          ],
-          "answer": 2
-        },
-        {
-          "prompt": "What would improve an evidence-based conclusion?",
-          "options": [
-            "Ignore any source that challenges the claim.",
-            "Explain a supported interpretation and its limits.",
-            "Treat an attractive diagram as proof of historical fact."
+            "Describing every believer as identical",
+            "Examining regional practices and historical contexts",
+            "Assuming one monument explains all interpretations"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What helped belief traditions spread historically?",
+          "options": [
+            "Only government commands",
+            "Complete isolation",
+            "Travel, scholarship, migration, and trade"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -1181,20 +1181,20 @@
           "answer": 0
         },
         {
-          "prompt": "Which method would best strengthen the investigation?",
+          "prompt": "What happened as paper-making spread?",
           "options": [
-            "One diagram establishes exact historical measurements.",
-            "A clearly labeled diagram can show a relationship without proving a specific journey.",
-            "All schematic maps are authentic artifacts."
+            "Techniques took on new local uses and forms",
+            "Everyone adopted it at one moment",
+            "Every producer used identical materials"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
-          "prompt": "What would improve an evidence-based conclusion?",
+          "prompt": "Why does a similar design in two places require more research?",
           "options": [
-            "Ignore any source that challenges the claim.",
-            "Explain a supported interpretation and its limits.",
-            "Treat an attractive diagram as proof of historical fact."
+            "Similarities always prove war",
+            "Contact, imitation, and separate development are possible",
+            "Design never changes"
           ],
           "answer": 1
         }
@@ -1256,22 +1256,22 @@
           "answer": 1
         },
         {
-          "prompt": "Which method would best strengthen the investigation?",
+          "prompt": "What may encourage cooperation between neighboring states?",
           "options": [
-            "This source proves every community experienced the same event.",
-            "A comparison of sources can reveal different interests and missing voices.",
-            "A map alone establishes the intentions of every individual."
+            "Shared trade or security interests",
+            "The absence of any disagreement",
+            "A requirement that they share one language"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
-          "prompt": "What would improve an evidence-based conclusion?",
+          "prompt": "What is missing from a ruler's triumphal account?",
           "options": [
-            "Ignore any source that challenges the claim.",
-            "Explain a supported interpretation and its limits.",
-            "Treat an attractive diagram as proof of historical fact."
+            "The stated victory claim",
+            "The ruler's title",
+            "Perspectives of defeated or affected communities"
           ],
-          "answer": 1
+          "answer": 2
         }
       ],
       "visual": {
@@ -1331,22 +1331,22 @@
           "answer": 2
         },
         {
-          "prompt": "Which method would best strengthen the investigation?",
+          "prompt": "Which statement accurately compares coastal and highland communities?",
           "options": [
-            "The date, creator, and purpose are unnecessary details.",
-            "A longer source is always more reliable.",
-            "Context and corroboration are needed to assess the claim."
-          ],
-          "answer": 2
-        },
-        {
-          "prompt": "What would improve an evidence-based conclusion?",
-          "options": [
-            "Ignore any source that challenges the claim.",
-            "Explain a supported interpretation and its limits.",
-            "Treat an attractive diagram as proof of historical fact."
+            "Everyone in each region has one job",
+            "Environment and technology shape possible livelihoods",
+            "Highlands prevent all trade"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Why consider social institutions alongside climate?",
+          "options": [
+            "They influence who accesses resources and services",
+            "They have no impact on daily life",
+            "They determine rainfall"
+          ],
+          "answer": 0
         }
       ],
       "visual": {
@@ -1406,20 +1406,20 @@
           "answer": 0
         },
         {
-          "prompt": "Which method would best strengthen the investigation?",
+          "prompt": "Why might residents near a mine not share its profits?",
           "options": [
-            "One diagram establishes exact historical measurements.",
-            "A clearly labeled diagram can show a relationship without proving a specific journey.",
-            "All schematic maps are authentic artifacts."
+            "There is no demand for minerals",
+            "Only mountains create wealth",
+            "Ownership, labor conditions, and policies shape benefits"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
-          "prompt": "What would improve an evidence-based conclusion?",
+          "prompt": "What other evidence improves a resource map analysis?",
           "options": [
-            "Ignore any source that challenges the claim.",
-            "Explain a supported interpretation and its limits.",
-            "Treat an attractive diagram as proof of historical fact."
+            "A list of unrelated monuments",
+            "Production, labor, and household well-being data",
+            "The map's decorative title"
           ],
           "answer": 1
         }
@@ -1481,22 +1481,22 @@
           "answer": 1
         },
         {
-          "prompt": "Which method would best strengthen the investigation?",
+          "prompt": "What unintended effect might a levee produce?",
           "options": [
-            "This source proves every community experienced the same event.",
-            "A comparison of sources can reveal different interests and missing voices.",
-            "A map alone establishes the intentions of every individual."
+            "Flood risk may shift toward another area",
+            "All floods vanish forever",
+            "It makes rivers stop flowing"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
-          "prompt": "What would improve an evidence-based conclusion?",
+          "prompt": "Which evidence helps evaluate a water-management project fairly?",
           "options": [
-            "Ignore any source that challenges the claim.",
-            "Explain a supported interpretation and its limits.",
-            "Treat an attractive diagram as proof of historical fact."
+            "Only the first day's results",
+            "A single leader's praise",
+            "Long-term results and experiences of different communities"
           ],
-          "answer": 1
+          "answer": 2
         }
       ],
       "visual": {
