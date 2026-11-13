@@ -16,10 +16,21 @@ const maps={
 'rome-republic-empire-and-legacy':{title:'Rome • Mediterranean connections',labels:['Italian peninsula','Rome','Mediterranean sea lanes','Empire-wide provinces'],colors:['#a5b7db','#b5c6e6']},
 'geography-and-human-settlement':{title:'Settlement decision map',labels:['Fresh water','Fertile land','Routes','Flood risk'],colors:['#71c9cc','#afd889']}
 };
-const sourceMap={
-0:[4,5],1:[0,5],2:[0,1,2],3:[0,4,5],4:[3,4],5:[0,3,4]
+const sourceMap={0:[4,5],1:[0,5],2:[0,1,2],3:[0,4,5],4:[3,4],5:[0,3,4]};
+const supplementalSources={
+"from-hunting-and-gathering-to-agriculture":[["National Geographic Education · Early Agricultural Communities","https://education.nationalgeographic.org/resource/early-agricultural-communities/6th-grade/"]],
+"why-did-early-cities-develop":[["National Geographic Education · Life in Ancient Cities","https://education.nationalgeographic.org/resource/life-ancient-cities/6th-grade/"]],
+"the-indus-valley-civilization":[["National Geographic Education · Life in Ancient Cities","https://education.nationalgeographic.org/resource/life-ancient-cities/6th-grade/"]],
+"ancient-greece-and-the-origins-of-democracy":[["British Museum · A Question for the People (Ancient Athens)","https://www.britishmuseum.org/sites/default/files/2019-10/BM_Aquestionforthepeople_2019.pdf"]],
+"rome-republic-empire-and-legacy":[["British Museum · The Roman Empire Collections","https://www.britishmuseum.org/sites/default/files/2019-09/british_museum_roman_empire.pdf"]],
+"farming-technology-and-environmental-change":[["National Geographic Education · Early Agricultural Communities","https://education.nationalgeographic.org/resource/early-agricultural-communities/6th-grade/"]]
 };
-const getSources=(unit,data)=>[...new Set([...(sourceMap[unit]||[]),unit===2?1:unit===4?3:4])].map(i=>data.sources[i]);
+function getSources(d,data){
+const common=data.sources[4];
+const direct=supplementalSources[d.slug]||[];
+const selected=/mesopotamia|cities|surplus/.test(d.slug)?[data.sources[0],data.sources[5]]:/egypt|nile/.test(d.slug)?[data.sources[1]]:/chinese|shang/.test(d.slug)?[data.sources[2]]:/silk|trade|migration/.test(d.slug)?[data.sources[3]]:[];
+return [common,...selected,...direct].filter((x,i,a)=>a.findIndex(y=>y[1]===x[1])===i);
+}
 function svgDiagram(d){
 const visual=d.visual;const special=maps[d.slug];const labels=(special?.labels||visual.labels).map(esc);
 const title=esc(special?.title||d.title+' • historical systems diagram');
@@ -56,7 +67,7 @@ const save=getSave(),scores=new Map(),attempts=new Map();
 const store=()=>{try{localStorage.setItem(stateKey,JSON.stringify({answers:Object.fromEntries(scores),essay:Q('#g6-writing')?.value||'',activity:save.activity||-1}))}catch{}};
 page.replaceChildren();
 const back=el('a','etp-path','← Grade 6 Course Directory');back.href='../';page.append(back);
-const hero=el('header','g6-hero');hero.append(el('div','g6-kicker',course+' · Unit '+(d.unit+1)+' · '+unitTitle),h('h1',d.title||d.title===undefined?(d.title||d.slug.replace(/-/g,' ')):d.title),p(d.question));const tags=el('div','g6-pills');
+const hero=el('header','g6-hero');hero.append(el('div','g6-kicker',course+' · Unit '+(d.unit+1)+' · '+unitTitle),h('h1',d.title),p(d.question));const tags=el('div','g6-pills');
 ['Independent or classroom study','Approx. 45–60 minutes','Original history inquiry','Interactive draft · Review'].forEach(t=>tags.append(el('span','',t)));hero.append(tags);page.append(hero);
 document.title=(d.lessonTitle||d.slug.replaceAll('-',' '))+' | '+course+' | Examine the Past';
 const toolbar=el('nav','g6-toolbar');toolbar.setAttribute('aria-label','Lesson quick navigation');
@@ -65,13 +76,13 @@ const timer=el('button','','Start 10-min focus');timer.type='button';let timerId
 timer.onclick=()=>{if(timerId){clearInterval(timerId);timerId=null;timer.textContent='Resume focus';return}timerId=setInterval(()=>{remaining--;timer.textContent='Focus '+Math.floor(remaining/60)+':'+String(remaining%60).padStart(2,'0');if(remaining<=0){clearInterval(timerId);timerId=null;timer.textContent='Focus complete ✓'}},1000);timer.textContent='Focus 10:00'};
 toolbar.append(timer);const progress=el('span','g6-progress','Inquiry seals · 0/3');toolbar.append(progress);page.append(toolbar);
 const wrap=el('div','g6-layout'),main=el('div','g6-main'),aside=el('aside','g6-aside');wrap.append(main,aside);page.append(wrap);
-const read=panel('g6-read','Discover · Historical context');read.append(p(d.reading[0]),p(d.reading[1]));read.append(h('h3','Key vocabulary'));const terms=el('div','g6-keywords');d.terms.forEach(w=>terms.append(el('span','',w)));read.append(terms);main.append(read);
+const read=panel('g6-read','Discover · Historical context');read.append(p(d.reading[0]),p(d.reading[1]));if(d.extension)read.append(h('h3','Look deeper · People, evidence, and change'),p(d.extension[0]));read.append(h('h3','Key vocabulary'));const terms=el('div','g6-keywords');d.terms.forEach(w=>terms.append(el('span','',w)));read.append(terms);main.append(read);
 const vis=panel('g6-visual','Explore · Visual history');vis.append(p('Explore the relationships shown here, then compare them with a dated archaeological or historical source. This is an original instructional schematic, not a geographically scaled historical map or a measured statistical chart.'));
 const fig=el('figure','g6-visual');fig.innerHTML=svgDiagram(d);fig.append(el('figcaption','','Schematic teaching diagram. Relationships and sequence are emphasized; positions, scale, and routes are not evidence of historical distances.'));vis.append(fig);
 const meanings=el('div','g6-choices');const output=el('p','g6-activity-result','Choose a numbered feature to reveal its significance.');
 d.visual.labels.forEach((name,i)=>{const b=el('button','',String(i+1)+' · '+name);b.type='button';b.onclick=()=>{QA('button',meanings).forEach(n=>n.setAttribute('aria-pressed',String(n===b)));output.textContent=d.visual.descriptions[i]};meanings.append(b)});vis.append(meanings,output);main.append(vis);
 const inquiry=panel('g6-investigate','Investigate · History from evidence');inquiry.append(h('h3',getIcon(d.unit)+' '+d.title));const topic=p(d.case,'g6-note');inquiry.append(topic);
-const challenge=p('Historical thinking challenge: '+d.task);inquiry.append(challenge);
+const challenge=p('Historical thinking challenge: '+d.task);inquiry.append(challenge);if(d.extension)inquiry.append(p('Apply it: '+d.extension[1],'g6-note'));
 const evidence=el('div','g6-choices');const views=['What we can observe','What we might infer','What remains uncertain','What further source would help?'];
 const viewResponse=el('p','g6-activity-result','Choose an investigation lens to work through the evidence.');
 views.forEach((name,i)=>{const b=el('button','',name);b.type='button';b.onclick=()=>{QA('button',evidence).forEach(n=>n.setAttribute('aria-pressed',String(n===b)));viewResponse.textContent=[d.case,'Possible interpretation: '+d.reading[1].slice(0,210)+'…','Limitation: '+d.caution,'Investigate: '+d.sourceType+'. Verify chronology and context, and distinguish evidence from inference.'][i]};evidence.append(b)});
@@ -90,7 +101,7 @@ response.textContent=ok?'✓ Correct: '+q.options[q.answer]+'. Explain your evid
 };opts.append(b)});
 area.append(opts,response);checks.append(area);
 });
-const badge=el('div','g6-reward');badge.append(el('strong','','Ancient World Inquiry Seals'));const seals=el('div','g6-seals');
+const badge=el('div','g6-reward');const rewardNames=['Compass Points','Settlement Stones','River Runes','Civic Laurels','Caravan Tokens','Adaptation Leaves'];badge.append(el('strong','','Earn '+rewardNames[d.unit]));const seals=el('div','g6-seals');
 categories.forEach((c,i)=>{const span=el('span','g6-seal','○ '+c);span.dataset.seal=i;seals.append(span)});badge.append(seals,el('small','','Earn up to three seals per lesson. Results are practice feedback; unit assessment is separate.'));checks.append(badge);
 function updateProgress(){let correct=0;categories.forEach((name,i)=>{const s=Q('[data-seal="'+i+'"]',seals);const earned=scores.get(i)===true;if(earned)correct++;s.classList.toggle('earned',earned);s.textContent=(earned?'✓ ':'○ ')+name});progress.textContent='Inquiry seals · '+correct+'/3';store()}
 if(save.answers){Object.entries(save.answers).forEach(([k,v])=>{if(Number(k)<3)scores.set(Number(k),v)})}updateProgress();main.append(checks);
@@ -111,7 +122,7 @@ const paths=el('div','g6-paths');[
 ].forEach(t=>paths.append(el('span','',t)));inside.append(paths);
 inside.append(h('h3','Teacher assessment guidance'),p('Use the three checks as ungraded formative feedback and the writing response as evidence of reasoning. Look for specificity, source context, a defensible claim, and acknowledgment of uncertainty. Align locally to applicable grade-six social-studies standards before teaching.'));
 guide.append(inside);teacher.append(guide);main.append(teacher);
-const sources=panel('g6-sources','Sources, context, and historical responsibility');sources.append(p('Original lesson explanations are educational summaries; the following reputable resources support further investigation. No reconstructed diagram is presented as an original ancient map, and no invented ancient quotation is used.'));const ul=el('ul','g6-source-list');getSources(d.unit,data).forEach(([name,url])=>{const li=el('li');li.append(link(url,name));ul.append(li)});sources.append(ul,p('Lesson topic for additional research: '+d.sourceType+'. Source selection should be checked for date, authorship, cultural context, and grade suitability.','g6-small'));main.append(sources);
+const sources=panel('g6-sources','Sources, context, and historical responsibility');sources.append(p('Original lesson explanations are educational summaries; the following reputable resources support further investigation. No reconstructed diagram is presented as an original ancient map, and no invented ancient quotation is used.'));const ul=el('ul','g6-source-list');getSources(d,data).forEach(([name,url])=>{const li=el('li');li.append(link(url,name));ul.append(li)});sources.append(ul,p('Lesson topic for additional research: '+d.sourceType+'. Source selection should be checked for date, authorship, cultural context, and grade suitability.','g6-small'));main.append(sources);
 if(last){
 const final=el('section','g6-final');final.id='g6-unit';final.append(h('h2','Unit '+(d.unit+1)+' Evidence Challenge'));final.append(p('This checkpoint draws on lessons from the entire unit. It is distinct from the three ungraded inquiry seals in each lesson.'));
 const progressUnit=el('p','g6-status','Answer each question and consider the evidence.');
