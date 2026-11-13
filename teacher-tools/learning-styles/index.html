@@ -437,6 +437,17 @@ body>nav:not(.etp-icon-nav),main>nav,.tool-nav,.toolbar,.app-nav,.local-nav{posi
       const clean=report.cloneNode(true);
       const gate=clean.querySelector('.email-gate'); if(gate) gate.remove();
       return `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>My Learning Profile | Examine the Past</title><style>body{font-family:Georgia,serif;max-width:850px;margin:40px auto;padding:0 24px;color:#171917;line-height:1.6}h1,h2,h3,h4{font-family:Arial,sans-serif}h3{font-size:32px}.eyebrow{font:bold 11px Arial;letter-spacing:.16em;color:#18783f}.chip{display:inline-block;border:1px solid #bbb;border-radius:99px;padding:7px 10px;margin:4px;font:bold 10px Arial}.report-section{border-top:1px solid #ddd;margin-top:18px;padding-top:14px}.report-bars{display:grid;gap:8px}.bar-row{display:grid;grid-template-columns:130px 1fr 40px;gap:10px;align-items:center;font:bold 11px Arial}.bar-track{height:9px;background:#e8e8e8;border-radius:99px;overflow:hidden}.bar-track i{display:block;height:100%}.muted{color:#555}.profile-chips{margin:12px 0}
+.etp-live-visual{background:#f5f8f2;border:1px solid #d2dbce;padding:16px;border-radius:12px;break-inside:avoid}
+.etp-live-visual svg{display:block;width:100%;height:auto;max-height:350px;background:#17251d;border-radius:8px}
+.etp-live-visual h3{font:700 22px Georgia,serif}
+.etp-live-visual p{font:14px/1.5 Georgia,serif}
+.etp-dimension-list{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.etp-dimension-list span{padding:8px;border:1px solid #ccc;border-radius:8px;font:13px Georgia,serif}
+.etp-dimension-list b{display:block;font-weight:700}
+.etp-report-growth{border-top:1px solid #ddd;margin-top:18px;padding-top:12px;break-inside:avoid}
+.etp-report-growth h4{font:700 19px Georgia,serif}
+.etp-report-growth p,.etp-report-growth li{font:15px/1.6 Georgia,serif}
+@media print{body{margin:15mm auto}.etp-report-growth{break-inside:avoid}.etp-live-visual{break-inside:avoid}a{color:#111}}
 
 /* ===== LEARNING STYLES INDEX V4 — POLISH FIXES ===== */
 /* Profile Lab entry card: one true brilliant yellow base, sheen only on hover */
