@@ -31,6 +31,41 @@ const direct=supplementalSources[d.slug]||[];
 const selected=/mesopotamia|cities|surplus/.test(d.slug)?[data.sources[0],data.sources[5]]:/egypt|nile/.test(d.slug)?[data.sources[1]]:/chinese|shang/.test(d.slug)?[data.sources[2]]:/silk|trade|migration/.test(d.slug)?[data.sources[3]]:[];
 return [common,...selected,...direct].filter((x,i,a)=>a.findIndex(y=>y[1]===x[1])===i);
 }
+function svgRegionalMap(d){
+const title=(maps[d.slug]?.title)||d.title;
+const top='<svg viewBox="0 0 840 350" role="img" aria-label="'+esc(title)+' — conceptual geographic orientation, not to scale" xmlns="http://www.w3.org/2000/svg"><rect width="840" height="350" rx="14" fill="#0a1d18"/><path d="M30 310H810" stroke="#4b6454" stroke-width="2"/>';
+const dot=(x,y,label,color='#fff200')=>'<g><circle cx="'+x+'" cy="'+y+'" r="7" fill="'+color+'" stroke="#06110a" stroke-width="2"/><text x="'+(x+13)+'" y="'+(y+5)+'" fill="#f1f4e8" font-size="17" font-family="Georgia,serif">'+esc(label)+'</text></g>';
+const text=(x,y,label,color='#bceec5')=>'<text x="'+x+'" y="'+y+'" font-size="17" fill="'+color+'" font-family="Georgia,serif">'+esc(label)+'</text>';
+let draw='';
+switch(d.slug){
+case 'ancient-egypt-and-the-nile':
+draw='<path d="M375 286Q355 240 380 195T380 115Q332 73 295 47M380 115Q428 72 465 48" stroke="#74c5ee" fill="none" stroke-width="15"/>'+text(290,29,'NORTH ↑ Mediterranean Sea')+dot(375,108,'Nile Delta')+dot(378,208,'Nile Valley')+text(225,291,'Upper Nile · upstream south')+text(524,267,'Eastern Desert')+text(73,183,'Western Desert');
+break;
+case 'mesopotamia-and-the-first-cities':
+draw='<path d="M272 36Q298 101 266 166T300 310M505 33Q470 95 500 174T465 315" stroke="#74c5ee" stroke-width="13" fill="none"/>'+text(88,55,'Tigris')+text(565,55,'Euphrates')+dot(400,232,'Uruk')+dot(420,293,'Ur')+text(328,22,'NORTH ↑')+text(63,306,'Southern alluvial plain');
+break;
+case 'the-indus-valley-civilization':
+draw='<path d="M353 36Q310 100 359 157T334 279L299 312" stroke="#73bfe8" stroke-width="16" fill="none"/>'+dot(353,93,'Harappa')+dot(333,233,'Mohenjo-daro')+text(330,24,'NORTH ↑')+text(330,333,'Arabian Sea ↓')+text(518,157,'Indus region');
+break;
+case 'early-chinese-civilizations':
+draw='<path d="M160 100Q300 65 380 109T590 104Q655 106 725 73" fill="none" stroke="#77c4ee" stroke-width="16"/>'+dot(430,138,'Anyang · Shang center')+text(350,36,'NORTH ↑')+text(86,160,'Yellow River (Huang He)')+text(426,293,'Central and northern China');
+break;
+case 'the-silk-roads-and-cultural-exchange':
+draw='<path d="M85 188Q300 87 420 162T760 182M84 203Q270 281 480 217T754 198" fill="none" stroke="#daa75f" stroke-width="5" stroke-dasharray="14 10"/>'+dot(86,188,'West Asian markets')+dot(286,154,'Iranian plateau')+dot(486,195,'Central Asian oases')+dot(716,184,'East Asia')+text(270,40,'Multiple directions · land and sea connections');
+break;
+case 'ancient-greece-and-the-origins-of-democracy':
+draw='<path d="M325 72Q279 139 314 203T265 290M575 76Q519 137 566 203T539 277" stroke="#6fb2dd" stroke-width="10" fill="none" opacity=".8"/>'+dot(298,181,'Athens')+text(320,27,'Greek mainland and Aegean')+text(610,286,'Islands and poleis')+text(40,300,'Mediterranean connections');
+break;
+case 'rome-republic-empire-and-legacy':
+draw='<ellipse cx="420" cy="170" rx="285" ry="90" fill="#194a5e" opacity=".8" stroke="#78b4cc" stroke-width="4"/>'+dot(349,111,'Rome')+text(245,170,'Mediterranean Sea')+text(170,42,'Europe · north')+text(150,318,'North Africa · south')+text(604,69,'Eastern provinces');
+break;
+case 'geography-and-human-settlement':
+draw='<path d="M330 32Q364 101 336 167T376 311" stroke="#7fc6eb" stroke-width="16" fill="none"/>'+dot(430,115,'High ground')+dot(375,203,'River access')+dot(584,248,'Trade path')+text(65,275,'Floodplain and farmland')+text(90,43,'Environment and settlement choices');
+break;
+default:return '';
+}
+return top+draw+text(252,345,'Schematic · relationships only · not a scaled historical map','#d4e7d8')+'</svg>';
+}
 function svgDiagram(d){
 const visual=d.visual;const special=maps[d.slug];const labels=(special?.labels||visual.labels).map(esc);
 const title=esc(special?.title||d.title+' • historical systems diagram');
@@ -64,7 +99,7 @@ const sequence=lessons.filter(x=>x.unit===d.unit);const last=sequence[sequence.l
 const unitTitle=data.units[d.unit];const stateKey='etp-grade6-'+d.slug;
 const getSave=()=>{try{return JSON.parse(localStorage.getItem(stateKey)||'{}')}catch{return {}}};
 const save=getSave(),scores=new Map(),attempts=new Map();
-const store=()=>{try{localStorage.setItem(stateKey,JSON.stringify({answers:Object.fromEntries(scores),essay:Q('#g6-writing')?.value||'',activity:save.activity||-1}))}catch{}};
+const store=()=>{try{localStorage.setItem(stateKey,JSON.stringify({answers:Object.fromEntries(scores),essay:Q('#g6-writing')?.value??save.essay??'',activity:save.activity||-1}))}catch{}};
 page.replaceChildren();
 const back=el('a','etp-path','← Grade 6 Course Directory');back.href='../';page.append(back);
 const hero=el('header','g6-hero');hero.append(el('div','g6-kicker',course+' · Unit '+(d.unit+1)+' · '+unitTitle),h('h1',d.title),p(d.question));const tags=el('div','g6-pills');
@@ -78,7 +113,7 @@ toolbar.append(timer);const progress=el('span','g6-progress','Inquiry seals · 0
 const wrap=el('div','g6-layout'),main=el('div','g6-main'),aside=el('aside','g6-aside');wrap.append(main,aside);page.append(wrap);
 const read=panel('g6-read','Discover · Historical context');read.append(p(d.reading[0]),p(d.reading[1]));if(d.extension)read.append(h('h3','Look deeper · People, evidence, and change'),p(d.extension[0]));read.append(h('h3','Key vocabulary'));const terms=el('div','g6-keywords');d.terms.forEach(w=>terms.append(el('span','',w)));read.append(terms);main.append(read);
 const vis=panel('g6-visual','Explore · Visual history');vis.append(p('Explore the relationships shown here, then compare them with a dated archaeological or historical source. This is an original instructional schematic, not a geographically scaled historical map or a measured statistical chart.'));
-const fig=el('figure','g6-visual');fig.innerHTML=svgDiagram(d);fig.append(el('figcaption','','Schematic teaching diagram. Relationships and sequence are emphasized; positions, scale, and routes are not evidence of historical distances.'));vis.append(fig);
+const fig=el('figure','g6-visual');fig.innerHTML=maps[d.slug]?svgRegionalMap(d):svgDiagram(d);fig.append(el('figcaption','','Schematic teaching diagram. Relationships and sequence are emphasized; positions, scale, and routes are not evidence of historical distances.'));vis.append(fig);
 const meanings=el('div','g6-choices');const output=el('p','g6-activity-result','Choose a numbered feature to reveal its significance.');
 d.visual.labels.forEach((name,i)=>{const b=el('button','',String(i+1)+' · '+name);b.type='button';b.onclick=()=>{QA('button',meanings).forEach(n=>n.setAttribute('aria-pressed',String(n===b)));output.textContent=d.visual.descriptions[i]};meanings.append(b)});vis.append(meanings,output);main.append(vis);
 const inquiry=panel('g6-investigate','Investigate · History from evidence');inquiry.append(h('h3',getIcon(d.unit)+' '+d.title));const topic=p(d.case,'g6-note');inquiry.append(topic);
@@ -93,7 +128,7 @@ d.checks.forEach((q,i)=>{
 const area=el('div','g6-quiz');area.dataset.style=methods[(index+i)%3];area.dataset.check=i;area.append(h('h3',getIcon(index+i)+' '+categories[i]+' · '+q.prompt));
 const opts=el('div','g6-options');const response=el('p','g6-response','Choose the strongest historical answer.');
 // Rotate the order between questions without introducing randomized grading or changing text.
-const order=i%2===0?[1,0,2]:[2,1,0];
+const order=[[0,2,1],[1,0,2],[2,1,0]][(index+i)%3];
 order.forEach(n=>{const b=el('button','',q.options[n]);b.type='button';b.onclick=()=>{
 QA('button',opts).forEach(k=>k.setAttribute('aria-pressed',String(k===b)));
 const ok=n===q.answer;scores.set(i,ok);attempts.set(i,(attempts.get(i)||0)+1);updateProgress();
@@ -130,7 +165,7 @@ const unitChecks=sequence.map(s=>({slug:s.slug,q:s.checks[0]}));let correct=0;co
 unitChecks.forEach((entry,i)=>{
 const box=el('div','g6-quiz');box.dataset.style=methods[i%3];box.append(h('h3','Unit challenge '+(i+1)+' · '+entry.q.prompt));
 const options=el('div','g6-options'),fb=el('p','g6-response','Select your answer.');
-entry.q.options.forEach((label,n)=>{const b=el('button','',label);b.type='button';b.onclick=()=>{QA('button',options).forEach(x=>x.setAttribute('aria-pressed',String(x===b)));const ok=n===entry.q.answer;unitResults.set(i,ok);fb.textContent=ok?'Correct. Now explain why this evidence fits.':'Review this lesson’s evidence and try again.';progressUnit.textContent='Unit challenge · '+[...unitResults.values()].filter(Boolean).length+' / '+unitChecks.length+' correct';};options.append(b)});box.append(options,fb);final.append(box)});
+const order=[[1,0,2],[2,1,0],[0,2,1]][i%3];order.forEach(n=>{const label=entry.q.options[n];const b=el('button','',label);b.type='button';b.onclick=()=>{QA('button',options).forEach(x=>x.setAttribute('aria-pressed',String(x===b)));const ok=n===entry.q.answer;unitResults.set(i,ok);fb.textContent=ok?'Correct. Now explain why this evidence fits.':'Review this lesson’s evidence and try again.';progressUnit.textContent='Unit challenge · '+[...unitResults.values()].filter(Boolean).length+' / '+unitChecks.length+' correct';};options.append(b)});box.append(options,fb);final.append(box)});
 final.append(progressUnit);main.append(final);
 }
 const reward=panel('g6-learning','Your investigation toolkit');
