@@ -1,0 +1,1676 @@
+{
+  "version": "2026-11-13 Grade 6 faithful Grade 5 lesson template",
+  "units": {
+    "6.1": {
+      "source": [
+        "California Grade Six History–Social Science Framework",
+        "https://www.cde.ca.gov/ci/hs/cf/documents/hssfwchapter10.pdf"
+      ],
+      "video": [
+        "TED-Ed: Why every world map is wrong",
+        "eTYsIePy5zg",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "6.2": {
+      "source": [
+        "California Grade Six History–Social Science Framework",
+        "https://www.cde.ca.gov/ci/hs/cf/documents/hssfwchapter10.pdf"
+      ],
+      "video": [
+        "TED-Ed: Can we create the perfect farm?",
+        "xFqecEtdGZ0",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "6.3": {
+      "source": [
+        "Metropolitan Museum — Ancient Egypt educator guide",
+        "https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_Ancient_Egypt_A_Resource_for_Educators.pdf"
+      ],
+      "video": [
+        "Crash Course: Mesopotamia",
+        "sohXPx_XZ6Y",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "6.4": {
+      "source": [
+        "California Grade Six History–Social Science Framework",
+        "https://www.cde.ca.gov/ci/hs/cf/documents/hssfwchapter10.pdf"
+      ],
+      "video": [
+        "TED-Ed: What did democracy mean in Athens?",
+        "0fivQUlC7-8",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "6.5": {
+      "source": [
+        "UNESCO — Silk Roads networks",
+        "https://www.unesco.org/en/silk-roads/about-silk-roads"
+      ],
+      "video": [
+        "TED-Ed: The Silk Road networks",
+        "vn3e37VWc0k",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "6.6": {
+      "source": [
+        "California Grade Six History–Social Science Framework",
+        "https://www.cde.ca.gov/ci/hs/cf/documents/hssfwchapter10.pdf"
+      ],
+      "video": [
+        "TED-Ed: Can we create the perfect farm?",
+        "xFqecEtdGZ0",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    }
+  },
+  "lessons": {
+    "reading-maps-like-a-historian": {
+      "title": "Reading Maps Like a Historian",
+      "unit": "6.1",
+      "unitTitle": "Geography and Historical Investigation",
+      "seq": 1,
+      "total": 3,
+      "essential": "How can a map communicate accurate history and still leave important things out?",
+      "paragraphs": [
+        "A map is an argument made with symbols, scale, dates, and choices. A coastline may be traced accurately while borders and place names reflect the mapmaker’s politics. Historical maps can reveal routes, settlement patterns, and what people of one period believed about space.",
+        "Compare the title, date, legend, direction, and scale before interpreting any map. Ask who created it, which people or environments it includes, and which are absent. A modern boundary cannot simply be projected back onto ancient societies.\n\nMapmakers make choices: a physical map may emphasize rivers and mountains, while a political map may emphasize claims to territory. A map can be accurate for its intended purpose without answering every historical question. A route line does not tell us how many people traveled or whether movement was voluntary.",
+        "Comparison lab: Put a historical map and a modern physical map side by side. First identify what can be matched by geography; then list political names or borders that must remain within their proper historical period. A map showing a settlement without an agricultural symbol does not prove nobody farmed there."
+      ],
+      "activity": "Map Detective",
+      "task": "Choose a historical map. Identify two useful details and one limitation before making a claim.",
+      "options": [
+        "Legend",
+        "Compass",
+        "Scale"
+      ],
+      "correct": 0,
+      "vocabulary": [
+        "Map key",
+        "scale",
+        "compass",
+        "perspective"
+      ],
+      "depth": "ancient-inquiry",
+      "investigation": [
+        "A classroom sketch of two rivers and three settlement symbols is not evidence that every ancient community lived near a river.",
+        "Choose a historical map. Identify two useful details and one limitation before making a claim.",
+        "Comparison lab: Put a historical map and a modern physical map side by side. First identify what can be matched by geography; then list political names or borders that must remain within their proper historical period."
+      ],
+      "visual": {
+        "labels": [
+          "Compass",
+          "Legend",
+          "Map scale",
+          "Date"
+        ],
+        "descriptions": [
+          "Orientation",
+          "Interpreting symbols",
+          "Estimating distance",
+          "Placing evidence in time"
+        ]
+      },
+      "case": "A classroom sketch of two rivers and three settlement symbols is not evidence that every ancient community lived near a river.",
+      "caution": "A map showing a settlement without an agricultural symbol does not prove nobody farmed there.",
+      "sourceType": "A dated map key and an archaeological site plan",
+      "checks": [
+        {
+          "prompt": "Which feature explains what an ancient map’s small pictures mean?",
+          "options": [
+            "Legend",
+            "Compass",
+            "Scale"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why should a historian ask when a map was made?",
+          "options": [
+            "Boundaries and knowledge change",
+            "Ancient maps are always incorrect",
+            "Maps cannot contain symbols"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which claim is best supported by a route marked on a map?",
+          "options": [
+            "The mapmaker represented a connection between places",
+            "Everyone traveled that route",
+            "The route was free of danger"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "geography-and-human-settlement": {
+      "title": "Geography and Human Settlement",
+      "unit": "6.1",
+      "unitTitle": "Geography and Historical Investigation",
+      "seq": 2,
+      "total": 3,
+      "essential": "Why did people establish communities in some environments and not others?",
+      "paragraphs": [
+        "People often selected places with usable water, food resources, defensible locations, and connections to other groups. Yet a river’s benefits could be offset by floods or disease, while deserts and mountains could protect or isolate communities.",
+        "Human decisions also mattered: farmers adapted land, traders connected routes, and leaders organized work. Geography affects possibilities but does not make people powerless. Compare different settlements rather than claiming every society developed the same way.\n\nCommunities along rivers developed different strategies for protection and food. Fertile floodplains offered agricultural opportunities, but floods, changing river channels, and contested access created uncertainty. People also established communities on coasts, hills, and drylands, adapting their technologies and relationships to different settings.",
+        "Local decision: Imagine two settlements, one close to a seasonally flooding river and the other on higher ground near a trade path. Compare water, crops, movement, safety, and the investments each location would demand. Fertile soil by itself does not guarantee a city; social and political choices matter too."
+      ],
+      "activity": "Settlement Planner",
+      "task": "Defend a settlement location using two advantages and one environmental risk.",
+      "options": [
+        "Reliable access to water and usable soil",
+        "No access to fresh water",
+        "Permanent deep ice"
+      ],
+      "correct": 0,
+      "vocabulary": [
+        "Water",
+        "soil",
+        "access",
+        "risk"
+      ],
+      "depth": "ancient-inquiry",
+      "investigation": [
+        "A fertile floodplain can support crops, but it can also expose homes and fields to damaging floods.",
+        "Defend a settlement location using two advantages and one environmental risk.",
+        "Local decision: Imagine two settlements, one close to a seasonally flooding river and the other on higher ground near a trade path. Compare water, crops, movement, safety, and the investments each location would demand."
+      ],
+      "visual": {
+        "labels": [
+          "Water",
+          "Fertile soil",
+          "Trade access",
+          "Flood risk"
+        ],
+        "descriptions": [
+          "Resources",
+          "Food production",
+          "Connections",
+          "Environmental constraints"
+        ]
+      },
+      "case": "A fertile floodplain can support crops, but it can also expose homes and fields to damaging floods.",
+      "caution": "Fertile soil by itself does not guarantee a city; social and political choices matter too.",
+      "sourceType": "Settlement location plan and environmental evidence",
+      "checks": [
+        {
+          "prompt": "Which location offers an obvious agricultural advantage?",
+          "options": [
+            "Reliable access to water and usable soil",
+            "No access to fresh water",
+            "Permanent deep ice"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What is one disadvantage of settling beside a river?",
+          "options": [
+            "Flooding can damage fields and homes",
+            "People cannot trade by water",
+            "Every river is salty"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which statement avoids geographic determinism?",
+          "options": [
+            "Geography shapes choices; societies also adapt",
+            "Rivers create identical governments",
+            "Mountains prevent all contact"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "investigating-the-ancient-world-through-evidence": {
+      "title": "Investigating the Ancient World Through Evidence",
+      "unit": "6.1",
+      "unitTitle": "Geography and Historical Investigation",
+      "seq": 3,
+      "total": 3,
+      "essential": "How do we know about societies that left limited written records?",
+      "paragraphs": [
+        "Archaeologists study material remains such as tools, pottery, buildings, burials, and discarded food. Historians also analyze inscriptions, later accounts, landscapes, and scientific evidence. Each kind of source answers some questions better than others.",
+        "An object is not self-explanatory. Its layer, findspot, material, and comparison with nearby objects affect interpretation. A clay pot may show technology and trade, but its maker’s intentions are harder to recover. Responsible inquiry separates observations from inferences.\n\nA source can be authentic and still incomplete. A royal inscription reflects an institution’s self-presentation; a burial object reflects a particular context; household remains may reveal routines unavailable in official texts. Archaeologists use stratigraphy and dating methods to understand relationships between finds.",
+        "Evidence comparison: Put an object description, a building plan, and a written inscription into separate evidence columns. What do we learn from each? Which question cannot be answered from any single one? One object rarely describes every person in an ancient community."
+      ],
+      "activity": "Artifact Investigator",
+      "task": "Write an artifact label with an observation, an inference, and a question for further research.",
+      "options": [
+        "The pot was found beside a hearth",
+        "The owner loved cooking",
+        "Every family used the pot"
+      ],
+      "correct": 0,
+      "vocabulary": [
+        "Artifact",
+        "context",
+        "inference",
+        "corroboration"
+      ],
+      "depth": "ancient-inquiry",
+      "investigation": [
+        "A decorated pot was found near a hearth. We can observe where it was found, but identifying its use requires further evidence.",
+        "Write an artifact label with an observation, an inference, and a question for further research.",
+        "Evidence comparison: Put an object description, a building plan, and a written inscription into separate evidence columns. What do we learn from each? Which question cannot be answered from any single one?"
+      ],
+      "visual": {
+        "labels": [
+          "Object",
+          "Findspot",
+          "Date evidence",
+          "Interpretation"
+        ],
+        "descriptions": [
+          "What survives",
+          "Where it was found",
+          "How it is dated",
+          "What we may infer"
+        ]
+      },
+      "case": "A decorated pot was found near a hearth. We can observe where it was found, but identifying its use requires further evidence.",
+      "caution": "One object rarely describes every person in an ancient community.",
+      "sourceType": "Excavation context, pottery record, and artifact comparison",
+      "checks": [
+        {
+          "prompt": "Which detail is an observation rather than a guess?",
+          "options": [
+            "The pot was found beside a hearth",
+            "The owner loved cooking",
+            "Every family used the pot"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why is an artifact’s archaeological context important?",
+          "options": [
+            "Location and associations inform its meaning",
+            "All objects tell complete stories",
+            "Age can be read from color alone"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should two conflicting sources be handled?",
+          "options": [
+            "Compare authorship and other evidence",
+            "Ignore both automatically",
+            "Choose the longer source"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "from-hunting-and-gathering-to-agriculture": {
+      "title": "From Hunting and Gathering to Agriculture",
+      "unit": "6.2",
+      "unitTitle": "Origins of Civilizations",
+      "seq": 1,
+      "total": 3,
+      "essential": "Why did some communities begin farming while others continued gathering and hunting?",
+      "paragraphs": [
+        "For much of human history people met their needs through hunting, fishing, and gathering. Beginning in different regions at different times, some groups domesticated plants and animals. The shift was gradual, uneven, and not a single worldwide invention.",
+        "Cultivation could increase food availability and support permanent buildings, but it also required sustained labor, created crop risks, and could change health and social relationships. Mobile ways of life persisted and could be effective adaptations to local environments.\n\nPeople made decisions across generations as conditions changed. Gathering and hunting knowledge included seasonal plants, animal behavior, landscapes, and toolmaking. Early farmers often combined cultivation with foraging and herding rather than replacing all older activities immediately.",
+        "Argument clinic: Does planting seeds prove a society had adopted full-time farming? No. Look for patterns in tools, plant remains, storage, settlement features, and changing diets before describing a broad economic transition. Do not call farming an automatic improvement for every person in every environment."
+      ],
+      "activity": "Neolithic Choices",
+      "task": "Compare two opportunities and two costs of adopting cultivation in a specific landscape.",
+      "options": [
+        "Human-guided changes in plants or animals over generations",
+        "A single seasonal harvest",
+        "Selling crops in a market"
+      ],
+      "correct": 0,
+      "vocabulary": [
+        "Foraging",
+        "domestication",
+        "cultivation",
+        "adaptation"
+      ],
+      "depth": "ancient-inquiry",
+      "investigation": [
+        "People in Southwest Asia cultivated cereals and kept animals over many generations; domestication elsewhere followed other paths.",
+        "Compare two opportunities and two costs of adopting cultivation in a specific landscape.",
+        "Argument clinic: Does planting seeds prove a society had adopted full-time farming? No. Look for patterns in tools, plant remains, storage, settlement features, and changing diets before describing a broad economic transition."
+      ],
+      "visual": {
+        "labels": [
+          "Foraging",
+          "Experiments",
+          "Cultivation",
+          "Consequences"
+        ],
+        "descriptions": [
+          "Mobile food acquisition",
+          "Trials and knowledge",
+          "Managed crops and herds",
+          "Changing labor and settlement"
+        ]
+      },
+      "case": "People in Southwest Asia cultivated cereals and kept animals over many generations; domestication elsewhere followed other paths.",
+      "caution": "Do not call farming an automatic improvement for every person in every environment.",
+      "sourceType": "Archaeobotanical seeds, grinding stones, and settlement remains",
+      "checks": [
+        {
+          "prompt": "What does domestication mean?",
+          "options": [
+            "Human-guided changes in plants or animals over generations",
+            "A single seasonal harvest",
+            "Selling crops in a market"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which interpretation best fits the archaeological evidence?",
+          "options": [
+            "Farming emerged gradually in several regions",
+            "All humans farmed at once",
+            "Hunting ended when farming began"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What could a failed harvest reveal?",
+          "options": [
+            "Dependence on crops created vulnerabilities",
+            "Farming needed no planning",
+            "Farmers always had surplus"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "why-did-early-cities-develop": {
+      "title": "Why Did Early Cities Develop?",
+      "unit": "6.2",
+      "unitTitle": "Origins of Civilizations",
+      "seq": 2,
+      "total": 3,
+      "essential": "What conditions helped some villages develop into cities?",
+      "paragraphs": [
+        "Cities did not appear because of a single invention. In parts of Southwest Asia, farming, transport, exchange, institutions, and population concentration helped settlements grow. Building canals, maintaining storage, and organizing shared spaces involved many people.",
+        "Urban centers made specialized work and exchange possible but also demanded food supplies, rules, and responses to disease or conflict. Uruk in southern Mesopotamia became a large urban center during the fourth millennium BCE, yet urban paths differed across the world.\n\nSome early urban centers combined dense housing, monumental buildings, exchange areas, and administrative activity. Yet city life differed by occupation, wealth, gender, and political position. The builders and farmers who supported cities are part of the story even when their names do not survive.",
+        "City council challenge: A settlement is growing. Which shared systems must residents maintain first—water, food storage, sanitation, transport, or law? Explain priorities without assuming a single universally correct model. A large population alone does not demonstrate that all residents shared equal power."
+      ],
+      "activity": "City Foundations",
+      "task": "Design a city-services diagram with food supply, water, skilled work, and public decisions.",
+      "options": [
+        "A sustained food supply",
+        "Complete isolation",
+        "No shared decisions"
+      ],
+      "correct": 0,
+      "vocabulary": [
+        "Urbanization",
+        "institutions",
+        "infrastructure",
+        "exchange"
+      ],
+      "depth": "ancient-inquiry",
+      "investigation": [
+        "A settlement with storage buildings, workshops, and distant trade goods provides clues to organized production and exchange.",
+        "Design a city-services diagram with food supply, water, skilled work, and public decisions.",
+        "City council challenge: A settlement is growing. Which shared systems must residents maintain first—water, food storage, sanitation, transport, or law? Explain priorities without assuming a single universally correct model."
+      ],
+      "visual": {
+        "labels": [
+          "Food",
+          "Settlements",
+          "Specialized work",
+          "Institutions"
+        ],
+        "descriptions": [
+          "Farming networks",
+          "Population concentration",
+          "Exchange and craft",
+          "Coordination"
+        ]
+      },
+      "case": "A settlement with storage buildings, workshops, and distant trade goods provides clues to organized production and exchange.",
+      "caution": "A large population alone does not demonstrate that all residents shared equal power.",
+      "sourceType": "Uruk archaeological research and ancient settlement plans",
+      "checks": [
+        {
+          "prompt": "What is one requirement for a growing city?",
+          "options": [
+            "A sustained food supply",
+            "Complete isolation",
+            "No shared decisions"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which evidence could suggest craft specialization?",
+          "options": [
+            "Workshops making different products",
+            "Only one family tool",
+            "A river by itself"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why did early cities face new challenges?",
+          "options": [
+            "Dense settlement required coordination",
+            "All citizens held equal power",
+            "Trade became impossible"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "surplus-specialization-and-social-organization": {
+      "title": "Surplus, Specialization, and Social Organization",
+      "unit": "6.2",
+      "unitTitle": "Origins of Civilizations",
+      "seq": 3,
+      "total": 3,
+      "essential": "How can stored resources change the organization of a community?",
+      "paragraphs": [
+        "When communities produced and stored some food beyond immediate use, more people could take on work besides farming. Craftspeople, builders, administrators, religious specialists, and merchants depended on wider networks of production and exchange.",
+        "Surplus did not guarantee equality. Control over storage and redistribution could strengthen institutions and elites while creating obligations for workers. We should investigate who produced food, who controlled it, and who benefited from shared resources.\n\nStored goods could sustain craft production and public projects; they could also be collected as tribute or redistributed by powerful authorities. The same practice might create collective security for some and unequal burdens for others. Administrative tablets help reveal accounting, but rarely tell us each worker’s personal experience.",
+        "Allocation debate: Consider a season with limited grain. Compare provisions for farmers, craft workers, builders, vulnerable households, and future seed. Which choices reveal assumptions about power, need, and fairness? The existence of stored food does not prove every family was well fed."
+      ],
+      "activity": "Surplus Simulator",
+      "task": "Build a distribution plan for a hypothetical harvest and explain whose work is recognized.",
+      "options": [
+        "Food beyond immediate consumption needs",
+        "A crop failure",
+        "A trade route"
+      ],
+      "correct": 0,
+      "vocabulary": [
+        "Surplus",
+        "specialization",
+        "redistribution",
+        "inequality"
+      ],
+      "depth": "ancient-inquiry",
+      "investigation": [
+        "A granary represents storage, but a labeled administrative record helps explain how goods were counted or assigned.",
+        "Build a distribution plan for a hypothetical harvest and explain whose work is recognized.",
+        "Allocation debate: Consider a season with limited grain. Compare provisions for farmers, craft workers, builders, vulnerable households, and future seed. Which choices reveal assumptions about power, need, and fairness?"
+      ],
+      "visual": {
+        "labels": [
+          "Food production",
+          "Storage",
+          "Skilled work",
+          "Distribution"
+        ],
+        "descriptions": [
+          "Crops and herds",
+          "Managing reserves",
+          "Craft and service roles",
+          "Power and access"
+        ]
+      },
+      "case": "A granary represents storage, but a labeled administrative record helps explain how goods were counted or assigned.",
+      "caution": "The existence of stored food does not prove every family was well fed.",
+      "sourceType": "Grain-storage remains, seals, and early administrative tablets",
+      "checks": [
+        {
+          "prompt": "What is a food surplus?",
+          "options": [
+            "Food beyond immediate consumption needs",
+            "A crop failure",
+            "A trade route"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How might stored food support a craftsperson?",
+          "options": [
+            "Other workers can provide food while they specialize",
+            "It eliminates the need for farmers",
+            "It prevents every conflict"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What question helps analyze inequality?",
+          "options": [
+            "Who controlled and received stored goods?",
+            "Did every building look identical?",
+            "Were all people merchants?"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "mesopotamia-and-the-first-cities": {
+      "title": "Mesopotamia and the First Cities",
+      "unit": "6.3",
+      "unitTitle": "River Valley Civilizations",
+      "seq": 1,
+      "total": 4,
+      "essential": "How did the environment and organized work shape cities in Mesopotamia?",
+      "paragraphs": [
+        "Mesopotamia refers to lands around the Tigris and Euphrates in Southwest Asia. In southern Mesopotamia, irrigation and canal management supported agricultural communities; towns such as Uruk and Ur developed institutions, craft traditions, and long-distance exchanges.",
+        "Clay tablets preserve records, literary texts, and administrative information. Early cuneiform writing developed in this context and changed over time. Written records often reflect institutions more than the experiences of every resident, so archaeologists also study homes and objects.\n\nSouthern Mesopotamia’s environmental challenges included low rainfall and the need to manage river water for agriculture. Networks of canals, fields, towns, and exchanges supported large settlements. Written records from temples and other institutions preserve economic and social details, but different cities had changing political arrangements.",
+        "Tablet workshop: Why might an administrator record the movement of grain or livestock? Compare the evidence provided by a clay tablet with what you could learn from a household hearth or workshop. A modern map of Iraq provides orientation but does not reproduce exact ancient boundaries."
+      ],
+      "activity": "Tigris–Euphrates Archive",
+      "task": "Interpret a recordkeeper’s problem: how could a city track goods, labor, and irrigation?",
+      "options": [
+        "Clay tablets",
+        "Printed paper books",
+        "Plastic sheets"
+      ],
+      "correct": 0,
+      "vocabulary": [
+        "Tigris",
+        "Euphrates",
+        "Uruk",
+        "cuneiform"
+      ],
+      "depth": "ancient-inquiry",
+      "investigation": [
+        "A cuneiform tablet listing goods is evidence of recordkeeping, not proof that every person could read or write.",
+        "Interpret a recordkeeper’s problem: how could a city track goods, labor, and irrigation?",
+        "Tablet workshop: Why might an administrator record the movement of grain or livestock? Compare the evidence provided by a clay tablet with what you could learn from a household hearth or workshop."
+      ],
+      "visual": {
+        "labels": [
+          "Tigris",
+          "Euphrates",
+          "Canals",
+          "City-states"
+        ],
+        "descriptions": [
+          "Two major rivers",
+          "Seasonal water systems",
+          "Managed fields",
+          "Urban communities"
+        ]
+      },
+      "case": "A cuneiform tablet listing goods is evidence of recordkeeping, not proof that every person could read or write.",
+      "caution": "A modern map of Iraq provides orientation but does not reproduce exact ancient boundaries.",
+      "sourceType": "British Museum Mesopotamia education resources and Cambridge Sumer teaching collection",
+      "checks": [
+        {
+          "prompt": "Which material commonly preserved Mesopotamian writing?",
+          "options": [
+            "Clay tablets",
+            "Printed paper books",
+            "Plastic sheets"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which two rivers shaped much of Mesopotamia?",
+          "options": [
+            "Tigris and Euphrates",
+            "Nile and Congo",
+            "Indus and Ganges"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why was irrigation important in parts of southern Mesopotamia?",
+          "options": [
+            "It helped bring water to fields with limited rain",
+            "It eliminated flooding forever",
+            "It created all writing"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "ancient-egypt-and-the-nile": {
+      "title": "Ancient Egypt and the Nile",
+      "unit": "6.3",
+      "unitTitle": "River Valley Civilizations",
+      "seq": 2,
+      "total": 4,
+      "essential": "How did the Nile connect environmental rhythms, work, and power in ancient Egypt?",
+      "paragraphs": [
+        "The Nile runs north through northeastern Africa to the Mediterranean. Ancient communities along its valley and delta depended on river water and fertile floodplain soils. Seasonal flooding, linked to rains farther south, helped replenish fields, although flood levels could vary.",
+        "Egyptian society changed over millennia, with dynasties, periods of central rule and political fragmentation, trade, art, and religious practices. Monumental architecture tells us much about royal power but cannot stand for all Egyptians' lives.\n\nThe Nile linked regions across northeastern Africa and connected Egypt with Nubia and wider trade networks. Egypt’s history included periods of political unity, competing centers, foreign rule, and changing artistic and religious practices. The pyramids are important evidence of some periods, but ordinary villages, farms, and craft sites broaden our picture.",
+        "Seasonal diary: Describe how a farming household might plan around rising water, receding floodwaters, field preparation, and harvesting. Distinguish historically supported patterns from invented personal details. The Nile is represented schematically; do not infer distances or borders from this diagram."
+      ],
+      "activity": "Nile Cycle",
+      "task": "Trace the Nile from south to north, then connect seasonal waters to farming and state organization.",
+      "options": [
+        "North toward the Mediterranean",
+        "West toward the Atlantic",
+        "South toward the Red Sea"
+      ],
+      "correct": 0,
+      "vocabulary": [
+        "Nile",
+        "delta",
+        "floodplain",
+        "kingdom"
+      ],
+      "depth": "ancient-inquiry",
+      "investigation": [
+        "The annual flood cycle helped support planting when water receded; floods could also be inadequate or destructive.",
+        "Trace the Nile from south to north, then connect seasonal waters to farming and state organization.",
+        "Seasonal diary: Describe how a farming household might plan around rising water, receding floodwaters, field preparation, and harvesting. Distinguish historically supported patterns from invented personal details."
+      ],
+      "visual": {
+        "labels": [
+          "Upper Nile",
+          "Nile Valley",
+          "Delta",
+          "Mediterranean"
+        ],
+        "descriptions": [
+          "Upstream areas",
+          "Settlements and fields",
+          "River branching",
+          "Sea trade connections"
+        ]
+      },
+      "case": "The annual flood cycle helped support planting when water receded; floods could also be inadequate or destructive.",
+      "caution": "The Nile is represented schematically; do not infer distances or borders from this diagram.",
+      "sourceType": "Metropolitan Museum of Art educator resource on ancient Egypt",
+      "checks": [
+        {
+          "prompt": "In which general direction does the Nile flow through Egypt?",
+          "options": [
+            "North toward the Mediterranean",
+            "West toward the Atlantic",
+            "South toward the Red Sea"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What did river floods often leave on fields?",
+          "options": [
+            "Nutrient-rich sediment",
+            "Permanent snow",
+            "Volcanic lava"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which claim is most accurate?",
+          "options": [
+            "Egyptian culture and government changed over time",
+            "Egypt stayed identical for 3,000 years",
+            "Only rulers lived along the river"
+          ],
+          "answer": 0
+        }
+      ],
+      "video": [
+        "Ancient Egypt and the Nile River Valley — Khan Academy",
+        "sohXPx_XZ6Y",
+        0
+      ]
+    },
+    "the-indus-valley-civilization": {
+      "title": "The Indus Valley Civilization",
+      "unit": "6.3",
+      "unitTitle": "River Valley Civilizations",
+      "seq": 3,
+      "total": 4,
+      "essential": "What can planned cities tell us when their writing remains undeciphered?",
+      "paragraphs": [
+        "Urban centers such as Harappa and Mohenjo-daro flourished in the Indus region during the third millennium BCE. Archaeological evidence includes planned streets, drains, standardized weights, and craft production. These features suggest coordination, but they do not reveal a complete political system.",
+        "The Indus script remains undeciphered, limiting what scholars can say about language, political leadership, and belief. River shifts, changing environments, economic networks, and settlement patterns require careful analysis rather than a simple story of sudden collapse.\n\nHarappa and Mohenjo-daro are prominent excavated urban centers, but smaller towns and villages formed part of wider systems. Craft goods, weights, water management, and building patterns suggest both coordination and variation. Because the Indus script has not been deciphered, claims about named rulers or precise religious doctrines need special caution.",
+        "Urban evidence hearing: One student argues that standardized weights prove an empire controlled every settlement. Another argues they reveal shared practices without establishing political structure. Which claim is more defensible? Avoid interpreting undeciphered symbols as a readable historical chronicle."
+      ],
+      "activity": "Indus City Planner",
+      "task": "Sketch a city block with drainage and shared space, labeling what evidence supports each feature.",
+      "options": [
+        "Planned drainage systems",
+        "Roman aqueducts",
+        "Modern railways"
+      ],
+      "correct": 0,
+      "vocabulary": [
+        "Harappa",
+        "Mohenjo-daro",
+        "drainage",
+        "uncertainty"
+      ],
+      "depth": "ancient-inquiry",
+      "investigation": [
+        "An excavated drain can reveal civic engineering, but it cannot identify a king or prove exactly how the city was governed.",
+        "Sketch a city block with drainage and shared space, labeling what evidence supports each feature.",
+        "Urban evidence hearing: One student argues that standardized weights prove an empire controlled every settlement. Another argues they reveal shared practices without establishing political structure. Which claim is more defensible?"
+      ],
+      "visual": {
+        "labels": [
+          "Street grids",
+          "Wells",
+          "Drainage",
+          "Weights"
+        ],
+        "descriptions": [
+          "Urban planning",
+          "Water access",
+          "Waste systems",
+          "Exchange standards"
+        ]
+      },
+      "case": "An excavated drain can reveal civic engineering, but it cannot identify a king or prove exactly how the city was governed.",
+      "caution": "Avoid interpreting undeciphered symbols as a readable historical chronicle.",
+      "sourceType": "Indus urban archaeology, town plans and material remains",
+      "checks": [
+        {
+          "prompt": "Which feature is documented at major Indus cities?",
+          "options": [
+            "Planned drainage systems",
+            "Roman aqueducts",
+            "Modern railways"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why are political interpretations of the Indus civilization limited?",
+          "options": [
+            "The Indus script is undeciphered",
+            "No structures survive",
+            "There were no crafts"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which claim is safest?",
+          "options": [
+            "Archaeology shows coordinated urban infrastructure",
+            "All cities had known kings",
+            "Every resident followed identical beliefs"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "early-chinese-civilizations": {
+      "title": "Early Chinese Civilizations",
+      "unit": "6.3",
+      "unitTitle": "River Valley Civilizations",
+      "seq": 4,
+      "total": 4,
+      "essential": "How do inscriptions and objects help us investigate early Chinese societies?",
+      "paragraphs": [
+        "The Shang dynasty, traditionally dated to about 1600–1046 BCE, is supported by inscriptions and archaeological finds. At sites such as Anyang, inscribed oracle bones record questions connected to divination and royal concerns, while bronze vessels reveal specialized craftsmanship and ritual traditions.",
+        "These surviving records reflect particular elite practices; daily life also involved agriculture and many other kinds of labor. Later Chinese societies changed in institutions and culture, so surviving early artifacts should be understood within their own context.\n\nShang elite centers used complex bronze casting, writing, and divination practices, but the archaeological record also documents agriculture and settlements beyond royal sites. Inscribed bones connect questions to particular rituals, while bronze objects illuminate materials, craft skills, and prestige.",
+        "Artifact pairing: A bronze ritual vessel and an inscribed oracle bone reveal different aspects of ancient life. Identify an inference each supports and explain why neither tells the complete story of the wider population. Oracle-bone texts are not modern opinion polls; their context and authorship matter."
+      ],
+      "activity": "Oracle Bone Inquiry",
+      "task": "Describe what an oracle bone reveals and what additional sources would be needed to study farmers.",
+      "options": [
+        "Oracle bones",
+        "Printed newspapers",
+        "Stone age photographs"
+      ],
+      "correct": 0,
+      "vocabulary": [
+        "Shang",
+        "Anyang",
+        "oracle bones",
+        "bronze"
+      ],
+      "depth": "ancient-inquiry",
+      "investigation": [
+        "A recorded divination question can reveal what royal elites considered important, not the views of every person in society.",
+        "Describe what an oracle bone reveals and what additional sources would be needed to study farmers.",
+        "Artifact pairing: A bronze ritual vessel and an inscribed oracle bone reveal different aspects of ancient life. Identify an inference each supports and explain why neither tells the complete story of the wider population."
+      ],
+      "visual": {
+        "labels": [
+          "Bronze vessel",
+          "Oracle bone",
+          "Inscription",
+          "Archaeological layer"
+        ],
+        "descriptions": [
+          "Craft expertise",
+          "Recorded questions",
+          "Early writing evidence",
+          "Context"
+        ]
+      },
+      "case": "A recorded divination question can reveal what royal elites considered important, not the views of every person in society.",
+      "caution": "Oracle-bone texts are not modern opinion polls; their context and authorship matter.",
+      "sourceType": "Smithsonian National Museum of Asian Art Shang dynasty teaching resources",
+      "checks": [
+        {
+          "prompt": "Which object preserves examples of Shang royal divination?",
+          "options": [
+            "Oracle bones",
+            "Printed newspapers",
+            "Stone age photographs"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What was Anyang associated with?",
+          "options": [
+            "A late Shang royal center",
+            "The Roman Senate",
+            "A Nile delta port"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What limitation should be noted about oracle-bone records?",
+          "options": [
+            "They mainly reflect elite contexts",
+            "They contain every person's view",
+            "They prove all events happened as predicted"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "laws-and-leadership-in-ancient-societies": {
+      "title": "Laws and Leadership in Ancient Societies",
+      "unit": "6.4",
+      "unitTitle": "Ancient Government and Culture",
+      "seq": 1,
+      "total": 4,
+      "essential": "How did ancient rulers use law and authority, and whose interests did laws serve?",
+      "paragraphs": [
+        "Written legal collections show that ancient societies tried to define obligations, penalties, and status. The Babylonian king Hammurabi commissioned a famous collection of laws in the eighteenth century BCE, and surviving inscriptions provide evidence of the ideals and inequalities expressed by royal authority.",
+        "A law text is not a complete record of everyday enforcement. Compare rules, categories of people, and royal claims, then ask what other sources could show how law actually operated. Leadership also varied widely among ancient states.\n\nAncient laws often distinguished people by status, occupation, gender, or family relationships. Royal proclamations could emphasize justice while also defending authority. Historians compare legal texts to contracts, letters, and accounts of disputes to investigate how ideals and practices differed.",
+        "Compare two historical questions: What did a ruler want people to believe about order? What would a court record tell us about actual disagreement? Different sources can answer different questions about law. Do not equate a royal code with modern constitutional equality."
+      ],
+      "activity": "Law Code Hearing",
+      "task": "Compare two hypothetical disputes using the idea that legal treatment can vary by status.",
+      "options": [
+        "A Babylonian king associated with a law collection",
+        "An Athenian philosopher",
+        "A Roman emperor"
+      ],
+      "correct": 0,
+      "vocabulary": [
+        "Hammurabi",
+        "status",
+        "rule",
+        "enforcement"
+      ],
+      "depth": "ancient-inquiry",
+      "investigation": [
+        "A law inscription tells us what its authors publicly stated; it does not prove each law was applied in every case.",
+        "Compare two hypothetical disputes using the idea that legal treatment can vary by status.",
+        "Compare two historical questions: What did a ruler want people to believe about order? What would a court record tell us about actual disagreement? Different sources can answer different questions about law."
+      ],
+      "visual": {
+        "labels": [
+          "Royal authority",
+          "Written rules",
+          "Social status",
+          "Enforcement"
+        ],
+        "descriptions": [
+          "Political claims",
+          "Expectations",
+          "Unequal positions",
+          "Daily practice uncertain"
+        ]
+      },
+      "case": "A law inscription tells us what its authors publicly stated; it does not prove each law was applied in every case.",
+      "caution": "Do not equate a royal code with modern constitutional equality.",
+      "sourceType": "Louvre Museum Code of Hammurabi collections and contextual scholarship",
+      "checks": [
+        {
+          "prompt": "Who was Hammurabi?",
+          "options": [
+            "A Babylonian king associated with a law collection",
+            "An Athenian philosopher",
+            "A Roman emperor"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What can a law code reveal?",
+          "options": [
+            "Stated norms and social distinctions",
+            "Every outcome in every court",
+            "The opinions of all residents"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why should historians seek other records?",
+          "options": [
+            "Texts do not show all enforcement practices",
+            "All inscriptions are false",
+            "Rules were never written"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "belief-systems-and-cultural-traditions": {
+      "title": "Belief Systems and Cultural Traditions",
+      "unit": "6.4",
+      "unitTitle": "Ancient Government and Culture",
+      "seq": 2,
+      "total": 4,
+      "essential": "How can we investigate ancient beliefs without assuming every person believed the same thing?",
+      "paragraphs": [
+        "Ancient communities expressed meanings through temples, household objects, burials, festivals, stories, and rituals. Belief traditions changed over time and often differed across regions and social groups. A temple plan can reveal spaces of worship, but cannot tell us precisely what every visitor thought.",
+        "Historians should describe traditions respectfully, interpret objects within context, and avoid imposing modern categories uncritically. Compare evidence from Egypt, Mesopotamia, Greece, or early China while noting that traditions within each region were diverse.\n\nReligious practices could involve households, communities, and institutions; the significance of a monument or object changed by place and time. Comparing evidence does not mean flattening cultural differences. For example, Egyptian funerary practices and Shang divination were distinct historical traditions with different evidence bases.",
+        "Respectful interpretation: Create two object labels for visitors. The first states what can be observed. The second offers a cautious interpretation and explicitly names what is uncertain. A decorated object is not automatic proof of a single belief shared by all."
+      ],
+      "activity": "Ritual Evidence Gallery",
+      "task": "Create a respectful exhibition label distinguishing an observed object from a suggested interpretation.",
+      "options": [
+        "They differed among societies and changed over time",
+        "Every society had identical beliefs",
+        "All beliefs are known from one object"
+      ],
+      "correct": 0,
+      "vocabulary": [
+        "Ritual",
+        "tradition",
+        "interpretation",
+        "diversity"
+      ],
+      "depth": "ancient-inquiry",
+      "investigation": [
+        "A burial object suggests a possible practice or value, but its meaning must be tested against the wider archaeological context.",
+        "Create a respectful exhibition label distinguishing an observed object from a suggested interpretation.",
+        "Respectful interpretation: Create two object labels for visitors. The first states what can be observed. The second offers a cautious interpretation and explicitly names what is uncertain."
+      ],
+      "visual": {
+        "labels": [
+          "Place",
+          "Object",
+          "Practice",
+          "Context"
+        ],
+        "descriptions": [
+          "Sacred space",
+          "Material evidence",
+          "Communal activity",
+          "Historical interpretation"
+        ]
+      },
+      "case": "A burial object suggests a possible practice or value, but its meaning must be tested against the wider archaeological context.",
+      "caution": "A decorated object is not automatic proof of a single belief shared by all.",
+      "sourceType": "Museum collection objects, sanctuary plans, and contextual scholarship",
+      "checks": [
+        {
+          "prompt": "Which statement best describes ancient belief systems?",
+          "options": [
+            "They differed among societies and changed over time",
+            "Every society had identical beliefs",
+            "All beliefs are known from one object"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What source might help study a ritual?",
+          "options": [
+            "Contextualized objects and written accounts",
+            "An unrelated modern advertisement",
+            "A map without labels"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What should museum labels avoid?",
+          "options": [
+            "Presenting uncertain interpretations as facts",
+            "Acknowledging limits",
+            "Describing objects respectfully"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "ancient-greece-and-the-origins-of-democracy": {
+      "title": "Ancient Greece and the Origins of Democracy",
+      "unit": "6.4",
+      "unitTitle": "Ancient Government and Culture",
+      "seq": 3,
+      "total": 4,
+      "essential": "Who could participate in Athenian democracy, and who could not?",
+      "paragraphs": [
+        "Ancient Greek communities were organized as independent poleis, or city-states, with different political traditions. In fifth-century BCE Athens, male citizens could participate directly in public decision-making, while women, enslaved people, and resident foreigners were excluded from citizenship-based political rights.",
+        "Athenian democracy influenced later political thought but differed greatly from modern universal-voting ideals. Comparing institutions also requires attention to other Greek states, where governance could take different forms. The concept of citizenship is central to understanding both participation and exclusion.\n\nAthens developed practices of direct citizen participation, but it was only one of many Greek city-states. Its citizenship rules excluded most residents, including women, enslaved people, and foreigners. Historians therefore explore both the historical significance of citizen assemblies and the limits of their membership.",
+        "Assembly reflection: After a mock vote, identify the perspectives left out by the historical eligibility rules. Compare ancient direct participation with the wider franchise expected in many modern democracies. Do not present ancient Athens as fully inclusive or representative of all Greeks."
+      ],
+      "activity": "Athenian Assembly",
+      "task": "Stage an assembly decision, then analyze which groups were excluded and why that matters.",
+      "options": [
+        "Eligible male citizens",
+        "All adult residents",
+        "Every enslaved person"
+      ],
+      "correct": 0,
+      "vocabulary": [
+        "Polis",
+        "citizenship",
+        "assembly",
+        "exclusion"
+      ],
+      "depth": "ancient-inquiry",
+      "investigation": [
+        "An imagined assembly agenda may illustrate public choices, but who is allowed to decide is the crucial historical question.",
+        "Stage an assembly decision, then analyze which groups were excluded and why that matters.",
+        "Assembly reflection: After a mock vote, identify the perspectives left out by the historical eligibility rules. Compare ancient direct participation with the wider franchise expected in many modern democracies."
+      ],
+      "visual": {
+        "labels": [
+          "Citizens",
+          "Assembly",
+          "Decision",
+          "Exclusion"
+        ],
+        "descriptions": [
+          "Limited membership",
+          "Direct participation",
+          "Public choices",
+          "Rights denied"
+        ]
+      },
+      "case": "An imagined assembly agenda may illustrate public choices, but who is allowed to decide is the crucial historical question.",
+      "caution": "Do not present ancient Athens as fully inclusive or representative of all Greeks.",
+      "sourceType": "Classical Athens civic institutions, archaeological sites and historical scholarship",
+      "checks": [
+        {
+          "prompt": "Who could generally vote in classical Athens' citizen assembly?",
+          "options": [
+            "Eligible male citizens",
+            "All adult residents",
+            "Every enslaved person"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What is a polis?",
+          "options": [
+            "A Greek city-state",
+            "An Egyptian tomb",
+            "A Roman legion"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which comparison is fair?",
+          "options": [
+            "Athenian democracy excluded many residents",
+            "Athens had universal adult suffrage",
+            "All Greek states had identical governments"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "rome-republic-empire-and-legacy": {
+      "title": "Rome: Republic, Empire, and Legacy",
+      "unit": "6.4",
+      "unitTitle": "Ancient Government and Culture",
+      "seq": 4,
+      "total": 4,
+      "essential": "How did Roman government and society change between republic and empire?",
+      "paragraphs": [
+        "Rome evolved from a city-state into a republic with magistrates, assemblies, and a Senate, and later into an empire centered on emperors. The transition was complex, involving expansion, civil conflicts, and political change. Elite institutions operated alongside struggles over class, citizenship, and power.",
+        "Roman roads, law, military organization, and architecture shaped territories around the Mediterranean, while conquered peoples also influenced Rome. Slavery and inequality were major features of Roman society. The Roman past should not be reduced to monuments or claims of uninterrupted progress.\n\nRome’s political expansion connected diverse provinces through roads, administration, and trade but also through military conquest and enslavement. The Republic’s offices and assemblies existed alongside deep inequalities. Emperors later concentrated power, while local customs and identities remained important across the empire.",
+        "Multiple-perspective panel: Compare the possible interests of a senator, a provincial trader, an enslaved laborer, and a soldier. Which kind of source might reveal each experience, and who is missing from the surviving record? The Republic and Empire were not identical political systems."
+      ],
+      "activity": "Roman Power Timeline",
+      "task": "Create a cause-and-consequence timeline of Roman expansion, political change, and imperial connections.",
+      "options": [
+        "The Senate",
+        "A modern parliament",
+        "The United Nations"
+      ],
+      "correct": 0,
+      "vocabulary": [
+        "Republic",
+        "Senate",
+        "empire",
+        "citizenship"
+      ],
+      "depth": "ancient-inquiry",
+      "investigation": [
+        "A road network connected people and resources but also facilitated military power and imperial administration.",
+        "Create a cause-and-consequence timeline of Roman expansion, political change, and imperial connections.",
+        "Multiple-perspective panel: Compare the possible interests of a senator, a provincial trader, an enslaved laborer, and a soldier. Which kind of source might reveal each experience, and who is missing from the surviving record?"
+      ],
+      "visual": {
+        "labels": [
+          "Republic",
+          "Expansion",
+          "Civil conflicts",
+          "Imperial rule"
+        ],
+        "descriptions": [
+          "Shared offices",
+          "Growing territories",
+          "Power struggles",
+          "Emperors and provinces"
+        ]
+      },
+      "case": "A road network connected people and resources but also facilitated military power and imperial administration.",
+      "caution": "The Republic and Empire were not identical political systems.",
+      "sourceType": "Roman archaeological landscapes and historical civic records",
+      "checks": [
+        {
+          "prompt": "Which institution was influential during the Roman Republic?",
+          "options": [
+            "The Senate",
+            "A modern parliament",
+            "The United Nations"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What changed during the transition to empire?",
+          "options": [
+            "Emperors became central to political power",
+            "Rome stopped expanding immediately",
+            "Roman laws disappeared"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which statement recognizes historical complexity?",
+          "options": [
+            "Rome borrowed ideas and depended on unequal labor",
+            "Rome invented every ancient technology",
+            "All conquered people had equal standing"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "ancient-trade-networks": {
+      "title": "Ancient Trade Networks",
+      "unit": "6.5",
+      "unitTitle": "Trade, Migration, and Exchange",
+      "seq": 1,
+      "total": 3,
+      "essential": "How did exchange connect communities before modern transportation?",
+      "paragraphs": [
+        "Ancient exchange moved goods, people, techniques, and ideas by river, land, and sea. Traders relied on seasonal conditions, port towns, caravan routes, trusted relationships, and political security. Different goods traveled different distances, and many traders handled only parts of long networks.",
+        "Trade created opportunities and uneven advantages. Objects found far from where they were produced can suggest exchange, but archaeologists must consider gifting, migration, and reuse as alternative explanations. Routes changed as environments and states changed.\n\nThe movement of goods often followed chains of exchange rather than one person’s complete expedition. Trade could stimulate craft production and cultural contact while depending on unequal power or risky environments. An object found abroad is evidence of connection, but its exact path may remain unknown.",
+        "Trade artifact detective: Consider a bead of imported stone discovered in a settlement. Compare trade, gift exchange, migration, and reuse as possible explanations. Design a plan to investigate the competing possibilities. A schematic network shows potential connections, not a fixed ancient highway."
+      ],
+      "activity": "Market Route Challenge",
+      "task": "Design a two-stage exchange network and explain why middle communities mattered.",
+      "options": [
+        "Possible exchange or movement of people",
+        "A complete travel diary",
+        "No cultural contact"
+      ],
+      "correct": 0,
+      "vocabulary": [
+        "Exchange",
+        "port",
+        "caravan",
+        "evidence"
+      ],
+      "depth": "ancient-inquiry",
+      "investigation": [
+        "A bead made of a nonlocal material may suggest contact, but the exact journey cannot be reconstructed from that single object.",
+        "Design a two-stage exchange network and explain why middle communities mattered.",
+        "Trade artifact detective: Consider a bead of imported stone discovered in a settlement. Compare trade, gift exchange, migration, and reuse as possible explanations. Design a plan to investigate the competing possibilities."
+      ],
+      "visual": {
+        "labels": [
+          "Local makers",
+          "Intermediaries",
+          "Ports or routes",
+          "Consumers"
+        ],
+        "descriptions": [
+          "Craft production",
+          "Exchange hubs",
+          "Transportation",
+          "Changing demand"
+        ]
+      },
+      "case": "A bead made of a nonlocal material may suggest contact, but the exact journey cannot be reconstructed from that single object.",
+      "caution": "A schematic network shows potential connections, not a fixed ancient highway.",
+      "sourceType": "Archaeological trade goods, shipwrecks, and route studies",
+      "checks": [
+        {
+          "prompt": "What can an imported material suggest?",
+          "options": [
+            "Possible exchange or movement of people",
+            "A complete travel diary",
+            "No cultural contact"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which route was important in the ancient Mediterranean?",
+          "options": [
+            "Sea networks linking many ports",
+            "Transatlantic airline routes",
+            "Modern highways only"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why did intermediaries matter?",
+          "options": [
+            "Goods could change hands multiple times",
+            "Every trader traveled the entire route",
+            "Trade required no trust"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "the-silk-roads-and-cultural-exchange": {
+      "title": "The Silk Roads and Cultural Exchange",
+      "unit": "6.5",
+      "unitTitle": "Trade, Migration, and Exchange",
+      "seq": 2,
+      "total": 3,
+      "essential": "Why should we think of the Silk Roads as networks rather than one road?",
+      "paragraphs": [
+        "The Silk Roads name describes interconnected overland and maritime routes across Eurasia, used in different forms over long periods. Travelers and merchants moved silk alongside horses, textiles, metals, glass, and other goods through markets and oasis settlements.",
+        "Ideas, artistic styles, technologies, and religious traditions also traveled, changed, and mixed as people met. Very few individuals traveled the full network; exchanges took place through many intermediaries. Routes were not constant and were shaped by political and environmental conditions.\n\nThe term Silk Roads was coined long after many of the historical routes operated. These networks were not only about silk: different goods and ideas circulated through overlapping communities and eras. Trade and travel changed art, religion, technologies, and tastes, although people adapted what they received rather than copying everything unchanged.",
+        "Oasis diary: Instead of inventing a single merchant who traveled the entire continent, follow an item through several possible exchanges. At each stop, ask how its use or value might change. Avoid assuming every luxury object reached its destination by a single traveler."
+      ],
+      "activity": "Oasis Caravan",
+      "task": "Trace three exchange stages and explain how an idea might change during transmission.",
+      "options": [
+        "Overlapping land and sea routes",
+        "One paved ancient highway",
+        "A single journey taken by all merchants"
+      ],
+      "correct": 0,
+      "vocabulary": [
+        "Oasis",
+        "caravan",
+        "exchange",
+        "diffusion"
+      ],
+      "depth": "ancient-inquiry",
+      "investigation": [
+        "A route from East Asia through Central Asian oases toward western Asian markets illustrates possible stages, not one fixed continuous highway.",
+        "Trace three exchange stages and explain how an idea might change during transmission.",
+        "Oasis diary: Instead of inventing a single merchant who traveled the entire continent, follow an item through several possible exchanges. At each stop, ask how its use or value might change."
+      ],
+      "visual": {
+        "labels": [
+          "East Asia",
+          "Oasis towns",
+          "Central Asia",
+          "West Asian markets"
+        ],
+        "descriptions": [
+          "Production regions",
+          "Water and services",
+          "Exchange corridors",
+          "Multiple destinations"
+        ]
+      },
+      "case": "A route from East Asia through Central Asian oases toward western Asian markets illustrates possible stages, not one fixed continuous highway.",
+      "caution": "Avoid assuming every luxury object reached its destination by a single traveler.",
+      "sourceType": "UNESCO Silk Roads historical overview",
+      "checks": [
+        {
+          "prompt": "How is the Silk Roads network best described?",
+          "options": [
+            "Overlapping land and sea routes",
+            "One paved ancient highway",
+            "A single journey taken by all merchants"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What moved along these networks besides goods?",
+          "options": [
+            "Knowledge, beliefs, and artistic ideas",
+            "Only silk",
+            "Only coins"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why were oasis towns important on some routes?",
+          "options": [
+            "They provided water and places to exchange goods",
+            "They removed all travel risks",
+            "They were always capitals"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "migration-and-the-movement-of-ideas": {
+      "title": "Migration and the Movement of Ideas",
+      "unit": "6.5",
+      "unitTitle": "Trade, Migration, and Exchange",
+      "seq": 3,
+      "total": 3,
+      "essential": "How did people carry and transform cultural practices as they moved?",
+      "paragraphs": [
+        "Migration is movement from one location to another, whether temporary, seasonal, or permanent. Ancient movements could involve environmental change, resource needs, trade, warfare, family ties, or new opportunities. Motivations varied among individuals and communities.",
+        "Languages, crops, technologies, and beliefs could spread through migration and contact, but their histories are not identical. Archaeologists compare settlement patterns, material remains, and genetic or linguistic evidence with care. Material similarities do not automatically identify a single migrating people.\n\nWhen people relocate, they may maintain, modify, or abandon cultural practices. Movement can be voluntary, coerced, seasonal, or linked to changing opportunity. Archaeological traces need careful interpretation because trade and imitation can create patterns similar to migration.",
+        "Identity evidence lab: Two sites contain similar pottery. What additional evidence could distinguish people moving, objects moving, shared learning, or independent invention? Explain the limitations of each proposal. Never infer an entire community’s identity from one decorative pattern."
+      ],
+      "activity": "Migration Storyboard",
+      "task": "Construct two plausible interpretations of shared objects and propose evidence to test each.",
+      "options": [
+        "Movement of people from one place to another",
+        "The manufacture of pottery",
+        "The writing of laws"
+      ],
+      "correct": 0,
+      "vocabulary": [
+        "Migration",
+        "diffusion",
+        "continuity",
+        "change"
+      ],
+      "depth": "ancient-inquiry",
+      "investigation": [
+        "Similar pottery found in two regions might indicate exchange, shared techniques, migration, or independent development.",
+        "Construct two plausible interpretations of shared objects and propose evidence to test each.",
+        "Identity evidence lab: Two sites contain similar pottery. What additional evidence could distinguish people moving, objects moving, shared learning, or independent invention? Explain the limitations of each proposal."
+      ],
+      "visual": {
+        "labels": [
+          "Origins",
+          "Movement",
+          "Encounters",
+          "Adaptation"
+        ],
+        "descriptions": [
+          "Starting contexts",
+          "Many possible causes",
+          "Cultural contact",
+          "Change and continuity"
+        ]
+      },
+      "case": "Similar pottery found in two regions might indicate exchange, shared techniques, migration, or independent development.",
+      "caution": "Never infer an entire community’s identity from one decorative pattern.",
+      "sourceType": "Settlement records and comparative archaeological interpretation",
+      "checks": [
+        {
+          "prompt": "What does migration mean?",
+          "options": [
+            "Movement of people from one place to another",
+            "The manufacture of pottery",
+            "The writing of laws"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which claim needs more evidence?",
+          "options": [
+            "Identical decoration proves one people moved",
+            "People can carry ideas when they move",
+            "Trade can also spread objects"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What could help test a migration hypothesis?",
+          "options": [
+            "Several independent types of evidence",
+            "One unproven legend",
+            "A modern political border alone"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "water-and-the-development-of-civilizations": {
+      "title": "Water and the Development of Civilizations",
+      "unit": "6.6",
+      "unitTitle": "People and Their Environments",
+      "seq": 1,
+      "total": 3,
+      "essential": "Why was water management both an opportunity and a challenge?",
+      "paragraphs": [
+        "Water supported drinking, cultivation, craft work, and travel in many ancient communities. Along the Nile, Indus, Tigris, Euphrates, and Yellow River systems, people adapted to distinct environments; flood patterns, rainfall, channel changes, and management systems differed.",
+        "Irrigation ditches, reservoirs, wells, embankments, and drainage systems could extend settlement possibilities but required knowledge, labor, and maintenance. These technologies were not universal or equally effective. Water disputes and environmental shifts could affect different groups unevenly.\n\nWater-management systems depended on the specific landscape. Nile floodplain farming, Mesopotamian irrigation, Indus urban drainage, and early Chinese river environments posed different challenges. Technology could create new opportunities but also require continued labor and choices about who controlled resources.",
+        "Water-planning hearing: Assign three competing priorities—fields, homes, and transportation—while accounting for unpredictable high water and low water. Which decision criteria seem historically defensible? Do not describe all river civilizations as having identical floods or farming systems."
+      ],
+      "activity": "River Decisions",
+      "task": "Choose a community water plan and defend it against drought, flood, and maintenance risks.",
+      "options": [
+        "Irrigation canals",
+        "Stone theaters",
+        "City walls alone"
+      ],
+      "correct": 0,
+      "vocabulary": [
+        "Water supply",
+        "risk",
+        "labor",
+        "adaptation"
+      ],
+      "depth": "ancient-inquiry",
+      "investigation": [
+        "An irrigation canal can increase access to fields, but it also requires maintenance and decisions about allocation.",
+        "Choose a community water plan and defend it against drought, flood, and maintenance risks.",
+        "Water-planning hearing: Assign three competing priorities—fields, homes, and transportation—while accounting for unpredictable high water and low water. Which decision criteria seem historically defensible?"
+      ],
+      "visual": {
+        "labels": [
+          "Water source",
+          "Infrastructure",
+          "Agriculture",
+          "Risk management"
+        ],
+        "descriptions": [
+          "Rivers and rain",
+          "Channels or wells",
+          "Crop access",
+          "Flood and drought"
+        ]
+      },
+      "case": "An irrigation canal can increase access to fields, but it also requires maintenance and decisions about allocation.",
+      "caution": "Do not describe all river civilizations as having identical floods or farming systems.",
+      "sourceType": "Ancient hydraulic archaeology and river geography sources",
+      "checks": [
+        {
+          "prompt": "Which infrastructure could help direct water toward fields?",
+          "options": [
+            "Irrigation canals",
+            "Stone theaters",
+            "City walls alone"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why could water systems require organized work?",
+          "options": [
+            "Channels needed construction and maintenance",
+            "They functioned without people",
+            "No community depended on water"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which statement avoids oversimplification?",
+          "options": [
+            "Different rivers and communities required different responses",
+            "Every river flooded predictably",
+            "All ancient states used the same canal"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "farming-technology-and-environmental-change": {
+      "title": "Farming, Technology, and Environmental Change",
+      "unit": "6.6",
+      "unitTitle": "People and Their Environments",
+      "seq": 2,
+      "total": 3,
+      "essential": "How did farming tools alter environments, labor, and community choices?",
+      "paragraphs": [
+        "Agricultural technologies changed how people planted, harvested, stored, and irrigated crops. Plows, digging tools, crop selection, animal power, and water-management techniques developed in different forms across regions and centuries.",
+        "These practices could increase production, but clearing vegetation, changing water use, and exhausting soils could also create environmental pressures. Farmers adapted through techniques suited to particular landscapes. Evaluating technology requires attention to who benefits, labor demands, and long-term impacts.\n\nInnovations could alter the relationship between land use and labor: irrigation, plowing, animal husbandry, and crop choices worked differently in different environments. Long-term changes such as soil salinization in irrigated regions demonstrate why a harvest’s immediate success does not tell the whole environmental story.",
+        "Sustainability inquiry: Compare an irrigation strategy’s short-term benefit with potential maintenance and soil effects. What evidence would a historian or environmental archaeologist need across several seasons? Avoid equating one tool with automatic progress or universal adoption."
+      ],
+      "activity": "Farming Systems Lab",
+      "task": "Draw a before-and-after farming system and identify one benefit, cost, and uncertainty.",
+      "options": [
+        "They adapted to local crops, soils, and conditions",
+        "All landscapes were identical",
+        "Farming never changed"
+      ],
+      "correct": 0,
+      "vocabulary": [
+        "Cultivation",
+        "tools",
+        "soil",
+        "sustainability"
+      ],
+      "depth": "ancient-inquiry",
+      "investigation": [
+        "A field that produces well for one season does not prove its soil will remain productive without care.",
+        "Draw a before-and-after farming system and identify one benefit, cost, and uncertainty.",
+        "Sustainability inquiry: Compare an irrigation strategy’s short-term benefit with potential maintenance and soil effects. What evidence would a historian or environmental archaeologist need across several seasons?"
+      ],
+      "visual": {
+        "labels": [
+          "Land",
+          "Tools",
+          "Harvest",
+          "Soil effects"
+        ],
+        "descriptions": [
+          "Local landscape",
+          "Work and innovation",
+          "Food and storage",
+          "Environmental responses"
+        ]
+      },
+      "case": "A field that produces well for one season does not prove its soil will remain productive without care.",
+      "caution": "Avoid equating one tool with automatic progress or universal adoption.",
+      "sourceType": "Archaeobotany, experimental archaeology and historic farming systems",
+      "checks": [
+        {
+          "prompt": "Why did ancient communities develop different farming tools?",
+          "options": [
+            "They adapted to local crops, soils, and conditions",
+            "All landscapes were identical",
+            "Farming never changed"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which can be a long-term concern?",
+          "options": [
+            "Soil depletion or water stress",
+            "Permanent unlimited fertility",
+            "Abolition of seasonal cycles"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What makes a useful comparison?",
+          "options": [
+            "Benefits and costs across time and groups",
+            "Only immediate crop amounts",
+            "A tool’s appearance alone"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "why-civilizations-adapted-transformed-or-declined": {
+      "title": "Why Civilizations Adapted, Transformed, or Declined",
+      "unit": "6.6",
+      "unitTitle": "People and Their Environments",
+      "seq": 3,
+      "total": 3,
+      "essential": "Why is a simple story of a civilization suddenly 'disappearing' often misleading?",
+      "paragraphs": [
+        "Societies are not permanent unchanging blocks. Political centers, settlement networks, languages, institutions, and practices may shift over decades or centuries. Climate variability, conflict, economic changes, disease, decisions, and trade can interact, with different effects in different places.",
+        "The abandonment of one city does not mean all its people vanished. Descendant communities may continue and transform practices elsewhere. Historians assess multiple causes, look for different kinds of evidence, and avoid presenting environmental events as the sole explanation.\n\nA city can shrink while surrounding communities continue, or a political dynasty can end while languages and traditions persist. Archaeologists therefore seek settlement histories, environmental records, exchange networks, and descendant-community knowledge before declaring a civilization gone.",
+        "Change and continuity board: Draw two columns—what changed and what continued—then evaluate whether the evidence supports decline, relocation, transformation, or a combination. Reject single-cause explanations unless evidence warrants them. Never assume an ancient culture ceased to exist because one city was abandoned."
+      ],
+      "activity": "Change Through Time",
+      "task": "Write an evidence-based explanation with two possible causes and one sign of continuity.",
+      "options": [
+        "Use of that site changed or ended",
+        "Every resident died there",
+        "All cultural traditions disappeared"
+      ],
+      "correct": 0,
+      "vocabulary": [
+        "Transformation",
+        "continuity",
+        "resilience",
+        "evidence"
+      ],
+      "depth": "ancient-inquiry",
+      "investigation": [
+        "A reduced population in one archaeological settlement could reflect relocation, changing networks, conflict, or other processes.",
+        "Write an evidence-based explanation with two possible causes and one sign of continuity.",
+        "Change and continuity board: Draw two columns—what changed and what continued—then evaluate whether the evidence supports decline, relocation, transformation, or a combination. Reject single-cause explanations unless evidence warrants them."
+      ],
+      "visual": {
+        "labels": [
+          "Pressure",
+          "Response",
+          "Movement",
+          "Continuity"
+        ],
+        "descriptions": [
+          "Changing conditions",
+          "Human decisions",
+          "Shifting settlements",
+          "Persisting practices"
+        ]
+      },
+      "case": "A reduced population in one archaeological settlement could reflect relocation, changing networks, conflict, or other processes.",
+      "caution": "Never assume an ancient culture ceased to exist because one city was abandoned.",
+      "sourceType": "Archaeological settlement sequences, paleoenvironmental studies and descendant-community perspectives",
+      "checks": [
+        {
+          "prompt": "Which claim is best supported by an abandoned city site?",
+          "options": [
+            "Use of that site changed or ended",
+            "Every resident died there",
+            "All cultural traditions disappeared"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why examine several kinds of evidence?",
+          "options": [
+            "Multiple causes and continuities are possible",
+            "One artifact always reveals everything",
+            "Written records are always complete"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What does cultural continuity mean?",
+          "options": [
+            "Some practices or connections persist through change",
+            "No society ever changes",
+            "All buildings remain standing"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  }
+}
