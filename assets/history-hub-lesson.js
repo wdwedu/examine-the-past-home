@@ -1,6 +1,6 @@
 (()=>{"use strict";const page=document.querySelector("[data-lesson-course]");if(!page)return;const current=page.dataset.lessonSlug,courseId=page.dataset.lessonCourse,root=page.dataset.root||"../../../../";if(courseId==="grade-7-world-cultures-geography"){
  for(const file of ["grade5-lesson-engine.css?v=20261110-grade5-v7","grade7-grade5-matched.css?v=20261113-grade7-v2"]){const css=document.createElement("link");css.rel="stylesheet";css.href=root+"assets/"+file;document.head.append(css);}
- const script=document.createElement("script");script.src=root+"assets/grade7-grade5-matched-engine.js?v=20261113-grade7-v3";script.defer=true;document.head.append(script);return;}
+ const script=document.createElement("script");script.src=root+"assets/grade7-grade5-matched-engine.js?v=20261113-grade7-v4";script.defer=true;document.head.append(script);return;}
 if(courseId==="grade-6-ancient-world-history"){
  for(const file of ["grade5-lesson-engine.css?v=20261110-grade5-v7","grade6-grade5-matched.css?v=20261113-matched-v2"]){const css=document.createElement("link");css.rel="stylesheet";css.href=root+"assets/"+file;document.head.append(css);}
  const script=document.createElement("script");script.src=root+"assets/grade6-grade5-matched-engine.js?v=20261113-matched-v2";script.defer=true;document.head.append(script);return;}
