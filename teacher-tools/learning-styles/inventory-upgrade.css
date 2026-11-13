@@ -102,3 +102,8 @@
 .etp-style-history li{font:15px/1.65 Georgia,serif;color:#eef2e7;margin:9px 0}
 .etp-style-history a{color:#fff200}
 @media(max-width:950px){#profile .lab-body{grid-template-columns:minmax(0,1fr)!important}#profile .question-side{grid-column:1;grid-row:1}#profile .etp-live-visual{grid-column:1;grid-row:2;position:static;margin:12px 18px!important}#profile .report-side{grid-column:1;grid-row:3}}
+
+/* Keep standalone historical chronology and report graph independently styled. */
+.etp-style-history{border:1px solid #53794a;background:linear-gradient(135deg,#15271a,#09100b);border-radius:14px;padding:20px 24px;margin:22px 0}
+#profile .final-report .etp-live-visual{position:static!important;grid-column:auto!important;grid-row:auto!important;margin:0 0 25px!important;max-width:100%}
+#profile .final-report .etp-live-visual svg{max-height:350px}
