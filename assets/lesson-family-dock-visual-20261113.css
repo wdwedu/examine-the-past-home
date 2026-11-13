@@ -1,0 +1,43 @@
+/* Examine the Past · Grade 5/6 shared premium lesson toolbar corrections (2026-11-13). */
+body.etp-curriculum:has(.g5-toolbar) .g5-toolbar{
+ position:sticky!important;
+ top:var(--etp-lesson-dock-top,var(--g5-top,65px))!important;
+ z-index:2147482900!important;
+ overflow:visible!important;
+ width:100%;
+ margin-top:12px!important;
+ box-shadow:0 8px 26px #000b!important;
+ scroll-margin-top:calc(var(--etp-lesson-dock-top,65px) + 8px);
+}
+body.etp-curriculum:has(.g5-toolbar) .g5-panel{
+ scroll-margin-top:calc(var(--etp-lesson-dock-top,65px) + var(--etp-lesson-dock-height,150px) + 16px)!important
+}
+body.etp-curriculum:has(.g5-toolbar) .g5-controls{align-items:center!important;justify-content:flex-start!important;gap:8px 12px!important;min-height:38px!important}
+body.etp-curriculum:has(.g5-toolbar) .g5-meter{flex:1 1 205px!important;min-width:160px!important}
+body.etp-curriculum:has(.g5-toolbar) .g5-controls>label{flex:0 0 auto!important}
+body.etp-curriculum:has(.g5-toolbar) .g5-controls>#g5-clock{white-space:nowrap!important;min-width:51px!important;text-align:center!important}
+body.etp-curriculum:has(.g5-toolbar) .g5-jumps{scrollbar-width:none}
+body.etp-curriculum:has(.g5-toolbar) .g5-jumps::-webkit-scrollbar{height:0}
+body.etp-curriculum:has(.g5-toolbar) .g5-credits{min-height:28px!important}
+body.etp-curriculum .g5-panel :is(textarea,input[type=text]){background:#fff!important;color:#111!important;-webkit-text-fill-color:#111!important;font:17px/1.6 Georgia,serif!important}
+body.etp-curriculum .g5-panel :is(textarea,input[type=text])::placeholder{color:#747c74!important}
+body.etp-curriculum .g5-activity.g5-visual-inquiry{padding:clamp(15px,2.5vw,25px)!important;background:linear-gradient(135deg,#101f20,#061612)!important;border:1px solid #577966!important;margin:22px 0!important;border-radius:16px!important}
+.g5-visual-inquiry h3{color:#fff200!important;font:700 23px Georgia,serif!important}
+.g5-visual-inquiry svg{display:block;width:100%;height:auto;max-height:330px;background:#071711;border:1px solid #5a725f;border-radius:12px;margin:15px 0;overflow:visible}
+.g5-visual-inquiry .g5-viz-choice{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
+.g5-visual-inquiry .g5-viz-choice button{min-height:52px!important;text-align:center;padding:11px!important;background:linear-gradient(130deg,#224334,#111e25)!important;color:#edf6e7!important;border:1px solid #73916b!important;border-radius:9px!important}
+.g5-visual-inquiry .g5-viz-choice button[aria-pressed=true]{background:#386f3e!important;border-color:#fff200!important;color:#fff200!important}
+.g5-visual-inquiry .g5-viz-result{font:16px/1.65 Georgia,serif;color:#e7f6df;min-height:56px;border-left:3px solid #a7ed75;background:#10271b;padding:11px 14px;margin:13px 0}
+.g5-visual-inquiry .g5-viz-disclaimer{font:italic 13px/1.5 Georgia,serif!important;color:#c0d8c7!important;margin:10px 0}
+body.etp-curriculum .lesson-progress{
+ top:var(--etp-lesson-dock-top,var(--lesson-dock-top,65px))!important;
+ scroll-margin-top:calc(var(--etp-lesson-dock-top,65px) + 12px)
+}
+body.etp-curriculum .lesson-panel{scroll-margin-top:calc(var(--etp-lesson-dock-top,65px) + var(--etp-lesson-dock-height,150px) + 16px)!important}
+@media(max-width:650px){
+ body.etp-curriculum:has(.g5-toolbar) .g5-toolbar{padding:8px!important}
+ body.etp-curriculum:has(.g5-toolbar) .g5-meter{flex:1 1 100%!important;min-width:0!important}
+ body.etp-curriculum:has(.g5-toolbar) .g5-controls{gap:5px 7px!important}
+ body.etp-curriculum .g5-visual-inquiry .g5-viz-choice{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){body.etp-curriculum .g5-visual-inquiry *{transition:none!important;animation:none!important}}
