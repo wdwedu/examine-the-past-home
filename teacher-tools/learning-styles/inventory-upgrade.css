@@ -89,3 +89,16 @@
 @media(max-width:760px){#profile .etp-scale-guide{gap:3px}#profile .etp-scale-guide span{font-size:11px;padding:7px 3px}#profile .etp-live-visual .etp-dimension-list{grid-template-columns:repeat(2,minmax(0,1fr))}#profile .question-side .question{padding:17px!important}}
 @media(max-width:420px){#profile .etp-scale-guide span{font-size:10px}#profile .question-side .scale{gap:5px!important}}
 @media print{#profile .etp-live-visual,#profile .etp-report-growth{break-inside:avoid}#profile .etp-live-visual{background:#fff!important;color:#111!important}#profile .etp-live-visual *{color:#111!important}}
+
+/* Side-by-side inventory and dynamic dimensional chart, with results spanning below. */
+#profile .lab-body{display:grid!important;grid-template-columns:minmax(0,1.45fr) minmax(320px,.9fr)!important;align-items:start}
+#profile .question-side{grid-column:1;grid-row:1;order:0}
+#profile .etp-live-visual{grid-column:2;grid-row:1;order:1;position:sticky;top:110px;margin:18px 16px!important;min-width:0}
+#profile .report-side{grid-column:1/-1;grid-row:2;order:2}
+#profile .report-side #liveReport{display:none!important}
+#profile .question-side .questions{grid-template-columns:1fr!important}
+#profile .etp-style-history{border:1px solid #53794a;background:linear-gradient(135deg,#15271a,#09100b);border-radius:14px;padding:20px 24px;margin:22px 0}
+#profile .etp-style-history h3,.etp-style-history h3{font:700 23px Georgia,serif;color:#fff200}
+.etp-style-history li{font:15px/1.65 Georgia,serif;color:#eef2e7;margin:9px 0}
+.etp-style-history a{color:#fff200}
+@media(max-width:950px){#profile .lab-body{grid-template-columns:minmax(0,1fr)!important}#profile .question-side{grid-column:1;grid-row:1}#profile .etp-live-visual{grid-column:1;grid-row:2;position:static;margin:12px 18px!important}#profile .report-side{grid-column:1;grid-row:3}}
