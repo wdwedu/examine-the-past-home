@@ -103,6 +103,13 @@ section('A practical 30-day learning experiment',[
 'Week 3: Discuss or teach the idea to someone else, then check what you can recall independently.',
 'Week 4: Compare retention, motivation and time invested. Keep what works, adapt what does not. Record your own evidence instead of accepting a fixed label.'
 ]);
+const scenarioAnswers=getSession(scenarioKey)||{};
+const selectedScenarios=reflections.map(item=>({item,choice:scenarioAnswers[item.index]})).filter(x=>Number.isInteger(x.choice)&&x.choice>=0&&x.choice<x.item.choices.length);
+if(selectedScenarios.length){
+section('How you approached real-world scenarios',[
+'These were optional preference reflections. They are not right or wrong and were not used to calculate scores. They can help you notice what you enjoy trying in different settings.'
+],selectedScenarios.map(x=>x.item.prompt+' Your selection: '+x.item.choices[x.choice]+'. Consider practicing another option in a future project.'));
+}
 const email=report.querySelector('.email-gate');
 if(email){email.innerHTML='<div class="eyebrow">KEEP YOUR LEARNING PROFILE</div><h4 style="font:700 19px Georgia,serif;margin:8px 0">Print or save your full report</h4><p>Choose <strong>Save as PDF / Print</strong> and select “Save as PDF” in your browser print dialog. You can also download a standalone HTML copy. No email address is needed.</p><div class="report-actions"><button type="button" class="btn btn-primary" id="etp-save-pdf" onclick="printReport()">Save as PDF / Print</button><button type="button" class="btn" onclick="downloadReport()">Download HTML report</button></div><p class="etp-print-note">This inventory is educational self-reflection. Scores are not standardized or validated to diagnose learning abilities.</p>'}
 }
