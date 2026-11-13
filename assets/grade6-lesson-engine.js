@@ -177,7 +177,7 @@ if(lessons[index-1]){const a=el('a','','← Previous lesson');a.href=pathFor(les
 const courseLink=el('a','','Return to Grade 6 units');courseLink.href='../#unit-6-'+(d.unit+1);footer.append(courseLink);
 if(lessons[index+1]){const a=el('a','','Next lesson →');a.href=pathFor(lessons[index+1].slug);footer.append(a)}page.append(footer);
 }
-Promise.all([fetch(root+'assets/grade6-lessons-data.json?v=20261113-build-v1').then(r=>{if(!r.ok)throw Error('Grade 6 content unavailable');return r.json()}),fetch(root+'assets/history-hub-catalog.json').then(r=>{if(!r.ok)throw Error('Course catalog unavailable');return r.json()})]).then(([data,catalog])=>{
+Promise.all([fetch(root+'assets/grade6-lessons-data.json?v=20261113-build-v2').then(r=>{if(!r.ok)throw Error('Grade 6 content unavailable');return r.json()}),fetch(root+'assets/history-hub-catalog.json').then(r=>{if(!r.ok)throw Error('Course catalog unavailable');return r.json()})]).then(([data,catalog])=>{
 const d=data.lessons[slug];if(!d)throw Error('Unknown lesson '+slug);const found=catalog.courses.find(c=>c.id==='grade-6-ancient-world-history');const named=found?.units.flatMap(u=>u.lessons)?.find(l=>l.slug===slug);d.title=named?.title||d.title;build(d,data)
 }).catch(err=>{console.error('Grade 6 lesson error:',err);const panel=Q('.etp-preview-label');if(panel)panel.textContent='Lesson content could not be loaded. Refresh this page or return to the Grade 6 directory.'});
 })();
