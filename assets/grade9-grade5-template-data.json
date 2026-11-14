@@ -1,0 +1,3537 @@
+{
+  "version": "Grade 9 US History high-school inquiry v1",
+  "readingLevelNote": "Target ninth-grade: source provenance, causation, qualified thesis and counterclaims; formal readability validation pending",
+  "units": {
+    "9.1": {
+      "source": [
+        "Library of Congress, U.S. history sources",
+        "https://www.loc.gov/classroom-materials/"
+      ],
+      "video": [
+        "Crash Course U.S. History · Reconstruction and Gilded Age",
+        "nowsS7pMApI",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "9.2": {
+      "source": [
+        "National Archives, historical teaching documents",
+        "https://www.archives.gov/education"
+      ],
+      "video": [
+        "Crash Course U.S. History · Progressive Era",
+        "-6bYBNqS-34",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "9.3": {
+      "source": [
+        "Library of Congress, primary source collections",
+        "https://www.loc.gov/classroom-materials/"
+      ],
+      "video": [
+        "Crash Course U.S. History · American Imperialism",
+        "QfsfoFqsFk4",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "9.4": {
+      "source": [
+        "National Archives, World War I resources",
+        "https://www.archives.gov/research/military/ww1"
+      ],
+      "video": [
+        "Crash Course U.S. History · World War I",
+        "y59wErqg4Xg",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "9.5": {
+      "source": [
+        "Smithsonian National Museum of African American History and Culture",
+        "https://nmaahc.si.edu/"
+      ],
+      "video": [
+        "Crash Course U.S. History · Roaring Twenties",
+        "VfOR1XCMf7A",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "9.6": {
+      "source": [
+        "Library of Congress, Great Depression materials",
+        "https://www.loc.gov/classroom-materials/"
+      ],
+      "video": [
+        "Crash Course U.S. History · Great Depression and New Deal",
+        "GCQfMWAikyU",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "9.7": {
+      "source": [
+        "United States Holocaust Memorial Museum",
+        "https://www.ushmm.org/"
+      ],
+      "video": [
+        "Crash Course U.S. History · World War II",
+        "Objoad6rG6U",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "9.8": {
+      "source": [
+        "National Archives, Cold War records",
+        "https://www.archives.gov/research/foreign-policy/cold-war"
+      ],
+      "video": [
+        "Crash Course U.S. History · Cold War",
+        "9C72ISMF_D0",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "9.9": {
+      "source": [
+        "National Museum of African American History and Culture",
+        "https://nmaahc.si.edu/"
+      ],
+      "video": [
+        "Crash Course U.S. History · Civil Rights Movement",
+        "S64zRnnn4Po",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "9.10": {
+      "source": [
+        "National Archives, presidential libraries",
+        "https://www.archives.gov/presidential-libraries"
+      ],
+      "video": [
+        "Crash Course U.S. History · Late 20th Century",
+        "xRlplp1z9rw",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    },
+    "9.11": {
+      "source": [
+        "National September 11 Memorial & Museum education",
+        "https://www.911memorial.org/learn"
+      ],
+      "video": [
+        "National September 11 Memorial & Museum · Educational resources",
+        "",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": []
+    }
+  },
+  "lessons": {
+    "reconstruction-s-unfinished-legacy": {
+      "title": "Reconstruction's Unfinished Legacy",
+      "unit": "9.1",
+      "unitTitle": "Reconstruction and Industrial Growth",
+      "seq": 1,
+      "total": 4,
+      "essential": "How could Reconstruction transform the Constitution yet leave racial inequality entrenched?",
+      "paragraphs": [
+        "The Thirteenth, Fourteenth, and Fifteenth Amendments reshaped citizenship and freedom between 1865 and 1870. Black communities formed schools, churches, and political organizations while white supremacists employed terror to undermine their rights.",
+        "Federal enforcement weakened over the 1870s; the 1877 political transition is often treated as an endpoint, but constitutional change and Black civic organizing continued. Period labels therefore clarify chronology without explaining every individual's experience.",
+        "Compare the Fourteenth Amendment with a Reconstruction-era report of voting intimidation. Distinguish legal rights from enforcement and explain why the two sources cannot be treated as interchangeable."
+      ],
+      "activity": "Reconstruction's Unfinished Legacy · Evidence Investigation",
+      "task": "Write a claim about Reconstruction's Unfinished Legacy with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Reconstruction's Unfinished Legacy. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Reconstruction's Unfinished Legacy. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Reconstruction's Unfinished Legacy with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "The Fourteenth Amendment",
+        "The Twenty-Sixth Amendment",
+        "The Second Amendment"
+      ],
+      "correct": 0,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "Reconstruction",
+        "equal protection",
+        "disenfranchisement",
+        "federal enforcement"
+      ],
+      "checks": [
+        {
+          "prompt": "Which amendment included an Equal Protection Clause?",
+          "options": [
+            "The Fourteenth Amendment",
+            "The Twenty-Sixth Amendment",
+            "The Second Amendment"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Reconstruction's Unfinished Legacy?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Reconstruction's Unfinished Legacy is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "The Thirteenth, Fourteenth, and Fifteenth Amendments reshaped citizenship and freedom between 1865 and 1870. Black communities formed schools, churches, and political organiza",
+          "Federal enforcement weakened over the 1870s; the 1877 political transition is often treated as an endpoint, but constitutional change and Black civic organizing continued. Per",
+          "Compare the Fourteenth Amendment with a Reconstruction-era report of voting intimidation. Distinguish legal rights from enforcement and explain why the two sources cannot be t"
+        ]
+      },
+      "investigationKind": "timeline"
+    },
+    "the-rise-of-big-business": {
+      "title": "The Rise of Big Business",
+      "unit": "9.1",
+      "unitTitle": "Reconstruction and Industrial Growth",
+      "seq": 2,
+      "total": 4,
+      "essential": "When did industrial efficiency become concentrated private power?",
+      "paragraphs": [
+        "Railroad expansion and mass production enabled national markets after the Civil War. Carnegie's steel businesses and Rockefeller's oil enterprises illustrate the growth of corporate consolidation through different strategies.",
+        "Integration could lower some costs but also give firms significant control over markets, labor, and competitors. The Sherman Antitrust Act of 1890 was an early federal response to concerns about monopolization.",
+        "Contrast the arguments of a corporate executive with worker testimony and competition policy. Separate evidence of output growth from claims about fairness or public benefit."
+      ],
+      "activity": "The Rise of Big Business · Evidence Investigation",
+      "task": "Write a claim about The Rise of Big Business with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on The Rise of Big Business. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of The Rise of Big Business. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about The Rise of Big Business with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Social Security Act",
+        "Sherman Antitrust Act",
+        "Homestead Act"
+      ],
+      "correct": 1,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "vertical integration",
+        "horizontal integration",
+        "trust",
+        "antitrust"
+      ],
+      "checks": [
+        {
+          "prompt": "Which 1890 law targeted monopolization and restraints of trade?",
+          "options": [
+            "Social Security Act",
+            "Sherman Antitrust Act",
+            "Homestead Act"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about The Rise of Big Business?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about The Rise of Big Business is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "Railroad expansion and mass production enabled national markets after the Civil War. Carnegie's steel businesses and Rockefeller's oil enterprises illustrate the growth of cor",
+          "Integration could lower some costs but also give firms significant control over markets, labor, and competitors. The Sherman Antitrust Act of 1890 was an early federal respons",
+          "Contrast the arguments of a corporate executive with worker testimony and competition policy. Separate evidence of output growth from claims about fairness or public benefit."
+        ]
+      },
+      "investigationKind": "cause"
+    },
+    "labor-immigration-and-urban-america": {
+      "title": "Labor, Immigration, and Urban America",
+      "unit": "9.1",
+      "unitTitle": "Reconstruction and Industrial Growth",
+      "seq": 3,
+      "total": 4,
+      "essential": "How did industrial growth expand opportunities while provoking conflict?",
+      "paragraphs": [
+        "Industrial cities attracted migrants and immigrants seeking work. Factory labor, rail construction, and urban services grew, but workers also faced long hours, workplace hazards, and crowded housing.",
+        "The 1894 Pullman Strike exposed conflict over wages, corporate housing, union organizing, and federal intervention. Government decisions sometimes defended public transportation while limiting labor protest.",
+        "Compare wage records, a worker's account, and a newspaper editorial. Ask who produced each source, what details can be corroborated, and whose voice is absent."
+      ],
+      "activity": "Labor, Immigration, and Urban America · Evidence Investigation",
+      "task": "Write a claim about Labor, Immigration, and Urban America with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Labor, Immigration, and Urban America. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Labor, Immigration, and Urban America. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Labor, Immigration, and Urban America with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Boston Tea Party",
+        "Memphis Sanitation Strike",
+        "Pullman Strike"
+      ],
+      "correct": 2,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "collective bargaining",
+        "tenement",
+        "urbanization",
+        "strike"
+      ],
+      "checks": [
+        {
+          "prompt": "Which 1894 strike involved railway workers and federal intervention?",
+          "options": [
+            "Boston Tea Party",
+            "Memphis Sanitation Strike",
+            "Pullman Strike"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Labor, Immigration, and Urban America?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Labor, Immigration, and Urban America is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "Industrial cities attracted migrants and immigrants seeking work. Factory labor, rail construction, and urban services grew, but workers also faced long hours, workplace hazar",
+          "The 1894 Pullman Strike exposed conflict over wages, corporate housing, union organizing, and federal intervention. Government decisions sometimes defended public transportati",
+          "Compare wage records, a worker's account, and a newspaper editorial. Ask who produced each source, what details can be corroborated, and whose voice is absent."
+        ]
+      },
+      "investigationKind": "network"
+    },
+    "the-gilded-age-wealth-and-inequality": {
+      "title": "The Gilded Age: Wealth and Inequality",
+      "unit": "9.1",
+      "unitTitle": "Reconstruction and Industrial Growth",
+      "seq": 4,
+      "total": 4,
+      "essential": "How should historians measure progress when prosperity was uneven?",
+      "paragraphs": [
+        "Industrial fortunes and new markets expanded in the late nineteenth century while many wage earners and tenant farmers experienced insecurity. Political patronage and corporate influence drew criticism.",
+        "Farmers' alliances and Populists demanded changes to credit, transport regulation, and political decision-making. Political cartoons depicted corruption and inequality but were designed to persuade readers.",
+        "Interpret a hypothetical income-distribution chart, then compare it with an authentic Populist platform and a political cartoon. Do not treat visual satire as a statistical source."
+      ],
+      "activity": "The Gilded Age: Wealth and Inequality · Evidence Investigation",
+      "task": "Write a claim about The Gilded Age: Wealth and Inequality with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on The Gilded Age: Wealth and Inequality. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of The Gilded Age: Wealth and Inequality. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about The Gilded Age: Wealth and Inequality with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Populists",
+        "Sons of Liberty",
+        "Anti-Federalists"
+      ],
+      "correct": 0,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "Gilded Age",
+        "patronage",
+        "Populism",
+        "income inequality"
+      ],
+      "checks": [
+        {
+          "prompt": "Which movement attracted farmers challenging concentrated economic power in the 1890s?",
+          "options": [
+            "Populists",
+            "Sons of Liberty",
+            "Anti-Federalists"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about The Gilded Age: Wealth and Inequality?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about The Gilded Age: Wealth and Inequality is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "Industrial fortunes and new markets expanded in the late nineteenth century while many wage earners and tenant farmers experienced insecurity. Political patronage and corporat",
+          "Farmers' alliances and Populists demanded changes to credit, transport regulation, and political decision-making. Political cartoons depicted corruption and inequality but wer",
+          "Interpret a hypothetical income-distribution chart, then compare it with an authentic Populist platform and a political cartoon. Do not treat visual satire as a statistical so"
+        ]
+      },
+      "investigationKind": "compare"
+    },
+    "the-progressive-movement": {
+      "title": "The Progressive Movement",
+      "unit": "9.2",
+      "unitTitle": "Progressivism and Reform",
+      "seq": 1,
+      "total": 4,
+      "essential": "Whose definition of progress influenced early twentieth-century reform?",
+      "paragraphs": [
+        "Progressive-era reformers criticized corruption, unsafe work, and some forms of corporate power. Movements supported sanitation, consumer protection, municipal reform, and workplace standards.",
+        "Progressive programs varied in their treatment of race, immigration, and women's rights; some reformers also embraced discriminatory policies. A single celebratory story of reform hides these contradictions.",
+        "Use one reform law and one affected group's perspective to evaluate both achievement and exclusion. Distinguish a reformer's stated aim from documented results."
+      ],
+      "activity": "The Progressive Movement · Evidence Investigation",
+      "task": "Write a claim about The Progressive Movement with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on The Progressive Movement. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of The Progressive Movement. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about The Progressive Movement with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Improving public health and regulating unsafe practices",
+        "Repealing the Constitution",
+        "Restoring British colonial rule"
+      ],
+      "correct": 0,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "Progressivism",
+        "municipal reform",
+        "social welfare",
+        "exclusion"
+      ],
+      "checks": [
+        {
+          "prompt": "Which goal was associated with many Progressive Era reformers?",
+          "options": [
+            "Improving public health and regulating unsafe practices",
+            "Repealing the Constitution",
+            "Restoring British colonial rule"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about The Progressive Movement?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about The Progressive Movement is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "Progressive-era reformers criticized corruption, unsafe work, and some forms of corporate power. Movements supported sanitation, consumer protection, municipal reform, and wor",
+          "Progressive programs varied in their treatment of race, immigration, and women's rights; some reformers also embraced discriminatory policies. A single celebratory story of re",
+          "Use one reform law and one affected group's perspective to evaluate both achievement and exclusion. Distinguish a reformer's stated aim from documented results."
+        ]
+      },
+      "investigationKind": "source"
+    },
+    "investigative-journalism-and-social-change": {
+      "title": "Investigative Journalism and Social Change",
+      "unit": "9.2",
+      "unitTitle": "Progressivism and Reform",
+      "seq": 2,
+      "total": 4,
+      "essential": "Can journalism change laws without being free of bias?",
+      "paragraphs": [
+        "Investigative journalists and activists exposed abuses in business and urban life. Ida B. Wells's anti-lynching investigations challenged false justifications for racial terror, while Upton Sinclair's The Jungle drew attention to conditions in the meatpacking industry.",
+        "The public response to Sinclair's 1906 novel helped build pressure for federal food-safety laws, but fiction and investigative reporting require different kinds of verification. Wells's use of documented cases demonstrates the importance of source collection and political context.",
+        "Compare a novel excerpt, an investigative report, and a legislative text. Identify genre, claims, supporting evidence, and what reform actually followed."
+      ],
+      "activity": "Investigative Journalism and Social Change · Evidence Investigation",
+      "task": "Write a claim about Investigative Journalism and Social Change with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Investigative Journalism and Social Change. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Investigative Journalism and Social Change. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Investigative Journalism and Social Change with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Sacagawea",
+        "Ida B. Wells",
+        "Betsy Ross"
+      ],
+      "correct": 1,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "muckraker",
+        "investigative reporting",
+        "corroboration",
+        "public opinion"
+      ],
+      "checks": [
+        {
+          "prompt": "Which activist investigated and documented lynching in the United States?",
+          "options": [
+            "Sacagawea",
+            "Ida B. Wells",
+            "Betsy Ross"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Investigative Journalism and Social Change?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Investigative Journalism and Social Change is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "Investigative journalists and activists exposed abuses in business and urban life. Ida B. Wells's anti-lynching investigations challenged false justifications for racial terro",
+          "The public response to Sinclair's 1906 novel helped build pressure for federal food-safety laws, but fiction and investigative reporting require different kinds of verificatio",
+          "Compare a novel excerpt, an investigative report, and a legislative text. Identify genre, claims, supporting evidence, and what reform actually followed."
+        ]
+      },
+      "investigationKind": "rights"
+    },
+    "women-s-suffrage": {
+      "title": "Women's Suffrage",
+      "unit": "9.2",
+      "unitTitle": "Progressivism and Reform",
+      "seq": 3,
+      "total": 4,
+      "essential": "Why did the struggle for voting rights require multiple strategies and generations?",
+      "paragraphs": [
+        "Women's suffrage organizers developed state-level campaigns, marches, petitions, and constitutional lobbying. The National American Woman Suffrage Association and National Woman's Party pursued different strategies over time.",
+        "The Nineteenth Amendment was ratified in 1920, prohibiting denial of voting rights on account of sex. Racist restrictions still prevented many women of color from voting; formal constitutional change did not ensure equal access.",
+        "Compare campaign arguments with voting restrictions affecting Black and Indigenous women. Evaluate the distinction between an amendment's wording and the experiences of different communities."
+      ],
+      "activity": "Women's Suffrage · Evidence Investigation",
+      "task": "Write a claim about Women's Suffrage with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Women's Suffrage. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Women's Suffrage. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Women's Suffrage with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "1865",
+        "1965",
+        "1920"
+      ],
+      "correct": 2,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "suffrage",
+        "Nineteenth Amendment",
+        "franchise",
+        "organizing"
+      ],
+      "checks": [
+        {
+          "prompt": "In which year was the Nineteenth Amendment ratified?",
+          "options": [
+            "1865",
+            "1965",
+            "1920"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Women's Suffrage?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Women's Suffrage is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "Women's suffrage organizers developed state-level campaigns, marches, petitions, and constitutional lobbying. The National American Woman Suffrage Association and National Wom",
+          "The Nineteenth Amendment was ratified in 1920, prohibiting denial of voting rights on account of sex. Racist restrictions still prevented many women of color from voting; form",
+          "Compare campaign arguments with voting restrictions affecting Black and Indigenous women. Evaluate the distinction between an amendment's wording and the experiences of differ"
+        ]
+      },
+      "investigationKind": "data"
+    },
+    "reforming-government-and-industry": {
+      "title": "Reforming Government and Industry",
+      "unit": "9.2",
+      "unitTitle": "Progressivism and Reform",
+      "seq": 4,
+      "total": 4,
+      "essential": "How did reform expand federal and democratic authority?",
+      "paragraphs": [
+        "The Sixteenth and Seventeenth Amendments, ratified in 1913, expanded federal income-tax authority and introduced direct election of U.S. senators. Reformers also advocated stronger oversight of business practices.",
+        "The Federal Reserve System was established in 1913 amid concern over financial instability; the Federal Trade Commission followed in 1914. New institutions reflected growing expectations of federal economic responsibility.",
+        "Build an institutional timeline, then distinguish constitutional amendments from ordinary federal statutes. Evaluate the specific problem each measure addressed and its limits."
+      ],
+      "activity": "Reforming Government and Industry · Evidence Investigation",
+      "task": "Write a claim about Reforming Government and Industry with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Reforming Government and Industry. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Reforming Government and Industry. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Reforming Government and Industry with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Seventeenth Amendment",
+        "Twenty-Second Amendment",
+        "Tenth Amendment"
+      ],
+      "correct": 0,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "Sixteenth Amendment",
+        "Seventeenth Amendment",
+        "Federal Reserve",
+        "Federal Trade Commission"
+      ],
+      "checks": [
+        {
+          "prompt": "Which constitutional amendment established direct popular election of U.S. senators?",
+          "options": [
+            "Seventeenth Amendment",
+            "Twenty-Second Amendment",
+            "Tenth Amendment"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Reforming Government and Industry?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Reforming Government and Industry is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "The Sixteenth and Seventeenth Amendments, ratified in 1913, expanded federal income-tax authority and introduced direct election of U.S. senators. Reformers also advocated str",
+          "The Federal Reserve System was established in 1913 amid concern over financial instability; the Federal Trade Commission followed in 1914. New institutions reflected growing e",
+          "Build an institutional timeline, then distinguish constitutional amendments from ordinary federal statutes. Evaluate the specific problem each measure addressed and its limits"
+        ]
+      },
+      "investigationKind": "map"
+    },
+    "why-did-america-become-an-overseas-power": {
+      "title": "Why Did America Become an Overseas Power?",
+      "unit": "9.3",
+      "unitTitle": "Imperialism and Expansion",
+      "seq": 1,
+      "total": 3,
+      "essential": "What motivated U.S. overseas expansion, and who resisted it?",
+      "paragraphs": [
+        "Late nineteenth-century U.S. advocates of overseas power emphasized commerce, naval strategy, competition, and ideas of national prestige. American involvement extended to Pacific and Caribbean territories.",
+        "Imperial policies often denied self-determination to affected populations. Critics argued that colonial rule contradicted republican claims about consent and liberty.",
+        "Examine an expansionist speech alongside an anti-imperialist argument and a perspective from an affected territory. Compare motives without assuming all Americans or islanders agreed."
+      ],
+      "activity": "Why Did America Become an Overseas Power? · Evidence Investigation",
+      "task": "Write a claim about Why Did America Become an Overseas Power? with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Why Did America Become an Overseas Power?. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Why Did America Become an Overseas Power?. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Why Did America Become an Overseas Power? with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Self-determination of peoples in acquired territories",
+        "Ratification of the Fourteenth Amendment",
+        "Construction of the Interstate Highway System"
+      ],
+      "correct": 0,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "imperialism",
+        "annexation",
+        "self-determination",
+        "naval strategy"
+      ],
+      "checks": [
+        {
+          "prompt": "Which issue was prominent in debates about U.S. overseas expansion?",
+          "options": [
+            "Self-determination of peoples in acquired territories",
+            "Ratification of the Fourteenth Amendment",
+            "Construction of the Interstate Highway System"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Why Did America Become an Overseas Power??",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Why Did America Become an Overseas Power? is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "Late nineteenth-century U.S. advocates of overseas power emphasized commerce, naval strategy, competition, and ideas of national prestige. American involvement extended to Pac",
+          "Imperial policies often denied self-determination to affected populations. Critics argued that colonial rule contradicted republican claims about consent and liberty.",
+          "Examine an expansionist speech alongside an anti-imperialist argument and a perspective from an affected territory. Compare motives without assuming all Americans or islanders"
+        ]
+      },
+      "investigationKind": "debate"
+    },
+    "the-spanish-american-war": {
+      "title": "The Spanish-American War",
+      "unit": "9.3",
+      "unitTitle": "Imperialism and Expansion",
+      "seq": 2,
+      "total": 3,
+      "essential": "How did a short war create long-term imperial questions?",
+      "paragraphs": [
+        "The 1898 Spanish–American War was influenced by Cuban independence struggles, sensational press coverage, and U.S. strategic interests. The explosion of the USS Maine intensified public pressure, but its cause was not definitively established at the time.",
+        "The Treaty of Paris of 1898 transferred Spanish claims over Puerto Rico, Guam, and the Philippines to the United States; Cuba's status followed a distinct path. Filipino nationalists rejected U.S. colonial domination, leading to the Philippine–American War.",
+        "Analyze a newspaper headline, the 1898 treaty, and a Filipino independence statement. Evaluate the gap between a claimed war of liberation and imperial consequences."
+      ],
+      "activity": "The Spanish-American War · Evidence Investigation",
+      "task": "Write a claim about The Spanish-American War with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on The Spanish-American War. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of The Spanish-American War. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about The Spanish-American War with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Treaty of Versailles",
+        "Treaty of Paris (1898)",
+        "Treaty of Ghent"
+      ],
+      "correct": 1,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "yellow journalism",
+        "USS Maine",
+        "Treaty of Paris 1898",
+        "Philippine–American War"
+      ],
+      "checks": [
+        {
+          "prompt": "Which treaty ended the Spanish–American War?",
+          "options": [
+            "Treaty of Versailles",
+            "Treaty of Paris (1898)",
+            "Treaty of Ghent"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about The Spanish-American War?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about The Spanish-American War is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "The 1898 Spanish–American War was influenced by Cuban independence struggles, sensational press coverage, and U.S. strategic interests. The explosion of the USS Maine intensif",
+          "The Treaty of Paris of 1898 transferred Spanish claims over Puerto Rico, Guam, and the Philippines to the United States; Cuba's status followed a distinct path. Filipino natio",
+          "Analyze a newspaper headline, the 1898 treaty, and a Filipino independence statement. Evaluate the gap between a claimed war of liberation and imperial consequences."
+        ]
+      },
+      "investigationKind": "timeline"
+    },
+    "america-s-changing-foreign-policy": {
+      "title": "America's Changing Foreign Policy",
+      "unit": "9.3",
+      "unitTitle": "Imperialism and Expansion",
+      "seq": 3,
+      "total": 3,
+      "essential": "How did U.S. foreign policy combine ideals, investment, and coercion?",
+      "paragraphs": [
+        "The Open Door notes sought equal commercial opportunity in China amid imperial competition. Theodore Roosevelt's 1904 corollary to the Monroe Doctrine justified intervention in parts of Latin America.",
+        "Taft's dollar diplomacy emphasized U.S. investment as a foreign-policy instrument. These strategies reflected shifting means but continuing tension between economic goals, security claims, and other nations' sovereignty.",
+        "Compare a policy statement to a documented intervention. Identify stated justification, available alternatives, and the view of the affected population."
+      ],
+      "activity": "America's Changing Foreign Policy · Evidence Investigation",
+      "task": "Write a claim about America's Changing Foreign Policy with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on America's Changing Foreign Policy. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of America's Changing Foreign Policy. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about America's Changing Foreign Policy with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "George Washington",
+        "Jimmy Carter",
+        "Theodore Roosevelt"
+      ],
+      "correct": 2,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "Open Door Policy",
+        "Roosevelt Corollary",
+        "dollar diplomacy",
+        "sovereignty"
+      ],
+      "checks": [
+        {
+          "prompt": "Which president is associated with the 1904 corollary to the Monroe Doctrine?",
+          "options": [
+            "George Washington",
+            "Jimmy Carter",
+            "Theodore Roosevelt"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about America's Changing Foreign Policy?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about America's Changing Foreign Policy is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "The Open Door notes sought equal commercial opportunity in China amid imperial competition. Theodore Roosevelt's 1904 corollary to the Monroe Doctrine justified intervention i",
+          "Taft's dollar diplomacy emphasized U.S. investment as a foreign-policy instrument. These strategies reflected shifting means but continuing tension between economic goals, sec",
+          "Compare a policy statement to a documented intervention. Identify stated justification, available alternatives, and the view of the affected population."
+        ]
+      },
+      "investigationKind": "cause"
+    },
+    "causes-of-world-war-i": {
+      "title": "Causes of World War I",
+      "unit": "9.4",
+      "unitTitle": "World War I",
+      "seq": 1,
+      "total": 4,
+      "essential": "Why did a regional crisis become a global war in 1914?",
+      "paragraphs": [
+        "European imperial rivalries, militarization, alliance commitments, and nationalism created instability before 1914. The assassination of Archduke Franz Ferdinand in Sarajevo triggered a sequence of diplomatic ultimatums and mobilizations.",
+        "War expanded through state decisions, alliances, empires, and colonial resources. The assassination was a trigger, not an adequate single-cause explanation of the conflict.",
+        "Map the July Crisis sequence and evaluate competing explanations with attention to choices by governments rather than assigning mechanical inevitability to alliances."
+      ],
+      "activity": "Causes of World War I · Evidence Investigation",
+      "task": "Write a claim about Causes of World War I with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Causes of World War I. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Causes of World War I. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Causes of World War I with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Assassination of Archduke Franz Ferdinand",
+        "Fall of the Berlin Wall",
+        "Attack on Pearl Harbor"
+      ],
+      "correct": 0,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "militarism",
+        "alliances",
+        "nationalism",
+        "July Crisis"
+      ],
+      "checks": [
+        {
+          "prompt": "Which 1914 event triggered the July Crisis?",
+          "options": [
+            "Assassination of Archduke Franz Ferdinand",
+            "Fall of the Berlin Wall",
+            "Attack on Pearl Harbor"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Causes of World War I?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Causes of World War I is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "European imperial rivalries, militarization, alliance commitments, and nationalism created instability before 1914. The assassination of Archduke Franz Ferdinand in Sarajevo t",
+          "War expanded through state decisions, alliances, empires, and colonial resources. The assassination was a trigger, not an adequate single-cause explanation of the conflict.",
+          "Map the July Crisis sequence and evaluate competing explanations with attention to choices by governments rather than assigning mechanical inevitability to alliances."
+        ]
+      },
+      "investigationKind": "network"
+    },
+    "why-did-the-united-states-enter-the-war": {
+      "title": "Why Did the United States Enter the War?",
+      "unit": "9.4",
+      "unitTitle": "World War I",
+      "seq": 2,
+      "total": 4,
+      "essential": "Why did U.S. neutrality give way to intervention in 1917?",
+      "paragraphs": [
+        "The United States remained officially neutral when World War I began. German unrestricted submarine warfare endangered shipping, while the Zimmermann Telegram proposed an alliance between Germany and Mexico.",
+        "President Wilson asked Congress for a declaration of war in April 1917. U.S. entry reflected security, diplomacy, economic connections, and debate about international principles, not simply one intercepted message.",
+        "Compare Wilson's address, shipping events, and the Zimmermann Telegram. Distinguish immediate triggers from longer-term pressures."
+      ],
+      "activity": "Why Did the United States Enter the War? · Evidence Investigation",
+      "task": "Write a claim about Why Did the United States Enter the War? with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Why Did the United States Enter the War?. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Why Did the United States Enter the War?. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Why Did the United States Enter the War? with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "1929",
+        "1917",
+        "1914"
+      ],
+      "correct": 1,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "unrestricted submarine warfare",
+        "Zimmermann Telegram",
+        "neutrality",
+        "intervention"
+      ],
+      "checks": [
+        {
+          "prompt": "In which year did the United States enter World War I?",
+          "options": [
+            "1929",
+            "1917",
+            "1914"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Why Did the United States Enter the War??",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Why Did the United States Enter the War? is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "The United States remained officially neutral when World War I began. German unrestricted submarine warfare endangered shipping, while the Zimmermann Telegram proposed an alli",
+          "President Wilson asked Congress for a declaration of war in April 1917. U.S. entry reflected security, diplomacy, economic connections, and debate about international principl",
+          "Compare Wilson's address, shipping events, and the Zimmermann Telegram. Distinguish immediate triggers from longer-term pressures."
+        ]
+      },
+      "investigationKind": "compare"
+    },
+    "americans-on-the-home-front": {
+      "title": "Americans on the Home Front",
+      "unit": "9.4",
+      "unitTitle": "World War I",
+      "seq": 3,
+      "total": 4,
+      "essential": "How did total war change civil liberties and everyday life?",
+      "paragraphs": [
+        "U.S. mobilization for World War I involved military conscription, industrial production, public campaigns, and changing work roles. The Great Migration of Black Americans from the South to northern and western cities accelerated across this era.",
+        "The Espionage Act of 1917 and Sedition Act of 1918 restricted some speech and sparked constitutional debate. Racism, labor disputes, and unequal access to wartime opportunities complicated patriotic appeals.",
+        "Assess a recruitment poster against a dissenting perspective and an actual legal restriction. Explain why government propaganda is historical evidence of persuasion, not neutral proof of consensus."
+      ],
+      "activity": "Americans on the Home Front · Evidence Investigation",
+      "task": "Write a claim about Americans on the Home Front with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Americans on the Home Front. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Americans on the Home Front. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Americans on the Home Front with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Civil Rights Act of 1964",
+        "Sherman Antitrust Act",
+        "Espionage Act"
+      ],
+      "correct": 2,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "conscription",
+        "Great Migration",
+        "Espionage Act",
+        "propaganda"
+      ],
+      "checks": [
+        {
+          "prompt": "Which federal law passed in 1917 restricted certain wartime activities and speech?",
+          "options": [
+            "Civil Rights Act of 1964",
+            "Sherman Antitrust Act",
+            "Espionage Act"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Americans on the Home Front?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Americans on the Home Front is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "U.S. mobilization for World War I involved military conscription, industrial production, public campaigns, and changing work roles. The Great Migration of Black Americans from",
+          "The Espionage Act of 1917 and Sedition Act of 1918 restricted some speech and sparked constitutional debate. Racism, labor disputes, and unequal access to wartime opportunitie",
+          "Assess a recruitment poster against a dissenting perspective and an actual legal restriction. Explain why government propaganda is historical evidence of persuasion, not neutr"
+        ]
+      },
+      "investigationKind": "source"
+    },
+    "the-treaty-of-versailles": {
+      "title": "The Treaty of Versailles",
+      "unit": "9.4",
+      "unitTitle": "World War I",
+      "seq": 4,
+      "total": 4,
+      "essential": "Did the postwar settlement establish a lasting peace?",
+      "paragraphs": [
+        "The 1919 Treaty of Versailles imposed territorial, military, and financial terms on Germany and established the League of Nations framework. President Wilson advocated collective security and self-determination, although the settlement applied those principles unevenly.",
+        "The U.S. Senate rejected ratification of the treaty, and the United States never joined the League. Historians debate how treaty terms, economic crises, and later choices contributed to subsequent instability.",
+        "Compare Wilson's Fourteen Points with the treaty's provisions and a critique from a society excluded from negotiations. Avoid claiming the treaty alone caused World War II."
+      ],
+      "activity": "The Treaty of Versailles · Evidence Investigation",
+      "task": "Write a claim about The Treaty of Versailles with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on The Treaty of Versailles. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of The Treaty of Versailles. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about The Treaty of Versailles with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "No, the Senate did not ratify the Versailles treaty",
+        "Yes, Congress joined in 1945",
+        "Yes, it became the League's founding leader"
+      ],
+      "correct": 0,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "Treaty of Versailles",
+        "League of Nations",
+        "collective security",
+        "self-determination"
+      ],
+      "checks": [
+        {
+          "prompt": "Did the United States join the League of Nations?",
+          "options": [
+            "No, the Senate did not ratify the Versailles treaty",
+            "Yes, Congress joined in 1945",
+            "Yes, it became the League's founding leader"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about The Treaty of Versailles?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about The Treaty of Versailles is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "The 1919 Treaty of Versailles imposed territorial, military, and financial terms on Germany and established the League of Nations framework. President Wilson advocated collect",
+          "The U.S. Senate rejected ratification of the treaty, and the United States never joined the League. Historians debate how treaty terms, economic crises, and later choices cont",
+          "Compare Wilson's Fourteen Points with the treaty's provisions and a critique from a society excluded from negotiations. Avoid claiming the treaty alone caused World War II."
+        ]
+      },
+      "investigationKind": "rights"
+    },
+    "a-changing-american-culture": {
+      "title": "A Changing American Culture",
+      "unit": "9.5",
+      "unitTitle": "The Roaring Twenties",
+      "seq": 1,
+      "total": 4,
+      "essential": "What made the 1920s an era of cultural conflict as well as innovation?",
+      "paragraphs": [
+        "Radio, cinema, automobiles, and mass advertising reshaped leisure and consumption in the 1920s. New forms of popular entertainment reached wider audiences, though access differed by income, geography, and race.",
+        "Religious and scientific disputes, immigration restriction, and debates over gender roles revealed contested ideas about modernity. The Scopes Trial of 1925 exemplified conflicts about public-school teaching and cultural authority.",
+        "Compare an advertisement, radio program schedule, and political speech to distinguish lifestyle claims from actual social conditions."
+      ],
+      "activity": "A Changing American Culture · Evidence Investigation",
+      "task": "Write a claim about A Changing American Culture with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on A Changing American Culture. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of A Changing American Culture. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about A Changing American Culture with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Scopes Trial",
+        "Nuremberg Trials",
+        "Dred Scott case"
+      ],
+      "correct": 0,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "mass culture",
+        "modernity",
+        "Scopes Trial",
+        "consumerism"
+      ],
+      "checks": [
+        {
+          "prompt": "Which 1925 trial concerned teaching evolution in a Tennessee public school?",
+          "options": [
+            "Scopes Trial",
+            "Nuremberg Trials",
+            "Dred Scott case"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about A Changing American Culture?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about A Changing American Culture is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "Radio, cinema, automobiles, and mass advertising reshaped leisure and consumption in the 1920s. New forms of popular entertainment reached wider audiences, though access diffe",
+          "Religious and scientific disputes, immigration restriction, and debates over gender roles revealed contested ideas about modernity. The Scopes Trial of 1925 exemplified confli",
+          "Compare an advertisement, radio program schedule, and political speech to distinguish lifestyle claims from actual social conditions."
+        ]
+      },
+      "investigationKind": "data"
+    },
+    "the-harlem-renaissance": {
+      "title": "The Harlem Renaissance",
+      "unit": "9.5",
+      "unitTitle": "The Roaring Twenties",
+      "seq": 2,
+      "total": 4,
+      "essential": "How did the Harlem Renaissance transform American cultural expression?",
+      "paragraphs": [
+        "The Harlem Renaissance brought influential Black writers, musicians, artists, and intellectuals into national and international conversations during the 1920s. Langston Hughes, Zora Neale Hurston, and other creators explored identity, community, and artistic freedom.",
+        "The movement emerged through the Great Migration and urban cultural networks but was not confined to one neighborhood or one artistic viewpoint. Racism and patronage relationships affected publication and opportunity.",
+        "Interpret a properly attributed short excerpt or artwork using genre, audience, and historical context. Avoid presenting all Black artistic expression as a single movement with one political position."
+      ],
+      "activity": "The Harlem Renaissance · Evidence Investigation",
+      "task": "Write a claim about The Harlem Renaissance with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on The Harlem Renaissance. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of The Harlem Renaissance. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about The Harlem Renaissance with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "John Adams",
+        "Langston Hughes",
+        "Thomas Jefferson"
+      ],
+      "correct": 1,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "Harlem Renaissance",
+        "Great Migration",
+        "cultural expression",
+        "patronage"
+      ],
+      "checks": [
+        {
+          "prompt": "Which writer is associated with the Harlem Renaissance?",
+          "options": [
+            "John Adams",
+            "Langston Hughes",
+            "Thomas Jefferson"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about The Harlem Renaissance?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about The Harlem Renaissance is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "The Harlem Renaissance brought influential Black writers, musicians, artists, and intellectuals into national and international conversations during the 1920s. Langston Hughes",
+          "The movement emerged through the Great Migration and urban cultural networks but was not confined to one neighborhood or one artistic viewpoint. Racism and patronage relations",
+          "Interpret a properly attributed short excerpt or artwork using genre, audience, and historical context. Avoid presenting all Black artistic expression as a single movement wit"
+        ]
+      },
+      "investigationKind": "map"
+    },
+    "prohibition-and-social-conflict": {
+      "title": "Prohibition and Social Conflict",
+      "unit": "9.5",
+      "unitTitle": "The Roaring Twenties",
+      "seq": 3,
+      "total": 4,
+      "essential": "Why did banning alcohol produce consequences reformers did not anticipate?",
+      "paragraphs": [
+        "The Eighteenth Amendment was ratified in 1919, and national Prohibition took effect in 1920 under the Volstead Act. Supporters associated alcohol restriction with family welfare, order, and reform.",
+        "Illegal production and distribution expanded, enforcement varied, and debates about individual liberty and public regulation intensified. The Twenty-First Amendment repealed national Prohibition in 1933.",
+        "Compare reform claims with enforcement reports and crime statistics, noting how reporting categories change. A law's intentions cannot be assumed to equal its measured effects."
+      ],
+      "activity": "Prohibition and Social Conflict · Evidence Investigation",
+      "task": "Write a claim about Prohibition and Social Conflict with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Prohibition and Social Conflict. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Prohibition and Social Conflict. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Prohibition and Social Conflict with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Nineteenth Amendment",
+        "Fourteenth Amendment",
+        "Twenty-First Amendment"
+      ],
+      "correct": 2,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "Prohibition",
+        "Volstead Act",
+        "Eighteenth Amendment",
+        "Twenty-First Amendment"
+      ],
+      "checks": [
+        {
+          "prompt": "Which amendment repealed national Prohibition?",
+          "options": [
+            "Nineteenth Amendment",
+            "Fourteenth Amendment",
+            "Twenty-First Amendment"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Prohibition and Social Conflict?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Prohibition and Social Conflict is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "The Eighteenth Amendment was ratified in 1919, and national Prohibition took effect in 1920 under the Volstead Act. Supporters associated alcohol restriction with family welfa",
+          "Illegal production and distribution expanded, enforcement varied, and debates about individual liberty and public regulation intensified. The Twenty-First Amendment repealed n",
+          "Compare reform claims with enforcement reports and crime statistics, noting how reporting categories change. A law's intentions cannot be assumed to equal its measured effects"
+        ]
+      },
+      "investigationKind": "debate"
+    },
+    "consumer-culture-and-economic-growth": {
+      "title": "Consumer Culture and Economic Growth",
+      "unit": "9.5",
+      "unitTitle": "The Roaring Twenties",
+      "seq": 4,
+      "total": 4,
+      "essential": "How did credit and consumption conceal vulnerability in the 1920s economy?",
+      "paragraphs": [
+        "Automobiles, appliances, and mass advertising expanded consumer markets in the 1920s. Installment credit allowed some families to buy goods over time, while stock speculation drew public attention.",
+        "Rising production did not eliminate uneven wealth, agricultural distress, or risky borrowing. The decade's prosperity was distributed unequally and did not make a severe downturn inevitable from a single factor.",
+        "Read a hypothetical household budget with installment payments and a dated financial advertisement. Distinguish ability to purchase from long-term ability to repay."
+      ],
+      "activity": "Consumer Culture and Economic Growth · Evidence Investigation",
+      "task": "Write a claim about Consumer Culture and Economic Growth with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Consumer Culture and Economic Growth. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Consumer Culture and Economic Growth. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Consumer Culture and Economic Growth with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Buying now while paying through scheduled later payments",
+        "Receiving money without obligation",
+        "Paying only in barter"
+      ],
+      "correct": 0,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "installment credit",
+        "speculation",
+        "mass production",
+        "income inequality"
+      ],
+      "checks": [
+        {
+          "prompt": "What is installment credit?",
+          "options": [
+            "Buying now while paying through scheduled later payments",
+            "Receiving money without obligation",
+            "Paying only in barter"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Consumer Culture and Economic Growth?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Consumer Culture and Economic Growth is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "Automobiles, appliances, and mass advertising expanded consumer markets in the 1920s. Installment credit allowed some families to buy goods over time, while stock speculation ",
+          "Rising production did not eliminate uneven wealth, agricultural distress, or risky borrowing. The decade's prosperity was distributed unequally and did not make a severe downt",
+          "Read a hypothetical household budget with installment payments and a dated financial advertisement. Distinguish ability to purchase from long-term ability to repay."
+        ]
+      },
+      "investigationKind": "timeline"
+    },
+    "the-stock-market-crash-and-economic-crisis": {
+      "title": "The Stock Market Crash and Economic Crisis",
+      "unit": "9.6",
+      "unitTitle": "Great Depression and New Deal",
+      "seq": 1,
+      "total": 4,
+      "essential": "Why did the Great Depression extend beyond the 1929 stock market crash?",
+      "paragraphs": [
+        "Stock prices collapsed in late October 1929 following years of speculation and economic vulnerabilities. Bank failures, falling investment and consumption, deflation, and international economic pressures deepened the crisis.",
+        "The Depression was not caused solely by one day of trading. Government policy, banking structures, and global links shaped the severity and duration, while different communities faced unequal economic hardship.",
+        "Compare an unemployment series with banking data, clearly labeling dates and denominators. Distinguish chronology from proof that one variable alone caused another."
+      ],
+      "activity": "The Stock Market Crash and Economic Crisis · Evidence Investigation",
+      "task": "Write a claim about The Stock Market Crash and Economic Crisis with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on The Stock Market Crash and Economic Crisis. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of The Stock Market Crash and Economic Crisis. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about The Stock Market Crash and Economic Crisis with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "1929",
+        "1945",
+        "1914"
+      ],
+      "correct": 0,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "deflation",
+        "bank failure",
+        "unemployment",
+        "stock speculation"
+      ],
+      "checks": [
+        {
+          "prompt": "In which year did the major Wall Street crash begin?",
+          "options": [
+            "1929",
+            "1945",
+            "1914"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about The Stock Market Crash and Economic Crisis?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about The Stock Market Crash and Economic Crisis is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "Stock prices collapsed in late October 1929 following years of speculation and economic vulnerabilities. Bank failures, falling investment and consumption, deflation, and inte",
+          "The Depression was not caused solely by one day of trading. Government policy, banking structures, and global links shaped the severity and duration, while different communiti",
+          "Compare an unemployment series with banking data, clearly labeling dates and denominators. Distinguish chronology from proof that one variable alone caused another."
+        ]
+      },
+      "investigationKind": "cause"
+    },
+    "living-through-the-great-depression": {
+      "title": "Living Through the Great Depression",
+      "unit": "9.6",
+      "unitTitle": "Great Depression and New Deal",
+      "seq": 2,
+      "total": 4,
+      "essential": "How did families and communities respond to prolonged economic hardship?",
+      "paragraphs": [
+        "The Great Depression involved unemployment, falling incomes, foreclosures, and severe uncertainty. Dust Bowl conditions compounded hardship in parts of the Great Plains during the 1930s, contributing to migration.",
+        "Mutual aid, labor organizing, local relief, and community institutions supported many people. Experiences differed by region, race, gender, and occupation; famous documentary photographs do not represent everyone's life.",
+        "Compare a dated photograph with an oral history and local relief records. Ask whether an image is staged, captioned accurately, and representative before making broad claims."
+      ],
+      "activity": "Living Through the Great Depression · Evidence Investigation",
+      "task": "Write a claim about Living Through the Great Depression with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Living Through the Great Depression. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Living Through the Great Depression. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Living Through the Great Depression with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Hurricane Katrina",
+        "Dust Bowl",
+        "Mount St. Helens eruption of 1980"
+      ],
+      "correct": 1,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "Dust Bowl",
+        "mutual aid",
+        "foreclosure",
+        "oral history"
+      ],
+      "checks": [
+        {
+          "prompt": "Which environmental disaster worsened hardship on the Great Plains in the 1930s?",
+          "options": [
+            "Hurricane Katrina",
+            "Dust Bowl",
+            "Mount St. Helens eruption of 1980"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Living Through the Great Depression?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Living Through the Great Depression is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "The Great Depression involved unemployment, falling incomes, foreclosures, and severe uncertainty. Dust Bowl conditions compounded hardship in parts of the Great Plains during",
+          "Mutual aid, labor organizing, local relief, and community institutions supported many people. Experiences differed by region, race, gender, and occupation; famous documentary ",
+          "Compare a dated photograph with an oral history and local relief records. Ask whether an image is staged, captioned accurately, and representative before making broad claims."
+        ]
+      },
+      "investigationKind": "network"
+    },
+    "franklin-roosevelt-s-new-deal": {
+      "title": "Franklin Roosevelt's New Deal",
+      "unit": "9.6",
+      "unitTitle": "Great Depression and New Deal",
+      "seq": 3,
+      "total": 4,
+      "essential": "How did the New Deal redefine federal responsibility for economic security?",
+      "paragraphs": [
+        "Franklin D. Roosevelt took office in 1933 and pursued banking reforms, emergency relief, public employment, and regulatory changes. Programs such as the Civilian Conservation Corps provided work, while the Social Security Act of 1935 established a national framework for old-age and other protections.",
+        "New Deal policies were debated over cost, constitutionality, and effectiveness. Some occupational exclusions and local discrimination limited benefits for Black Americans and other workers, while many programs expanded the federal government's economic role.",
+        "Compare one program's legislative purpose with implementation records and critiques. Assess a precise outcome rather than assuming every New Deal program worked equally well."
+      ],
+      "activity": "Franklin Roosevelt's New Deal · Evidence Investigation",
+      "task": "Write a claim about Franklin Roosevelt's New Deal with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Franklin Roosevelt's New Deal. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Franklin Roosevelt's New Deal. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Franklin Roosevelt's New Deal with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Civil Rights Act of 1964",
+        "Kansas–Nebraska Act",
+        "Social Security Act"
+      ],
+      "correct": 2,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "New Deal",
+        "CCC",
+        "Social Security Act",
+        "federal relief"
+      ],
+      "checks": [
+        {
+          "prompt": "Which New Deal-era law established a national Social Security framework in 1935?",
+          "options": [
+            "Civil Rights Act of 1964",
+            "Kansas–Nebraska Act",
+            "Social Security Act"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Franklin Roosevelt's New Deal?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Franklin Roosevelt's New Deal is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "Franklin D. Roosevelt took office in 1933 and pursued banking reforms, emergency relief, public employment, and regulatory changes. Programs such as the Civilian Conservation ",
+          "New Deal policies were debated over cost, constitutionality, and effectiveness. Some occupational exclusions and local discrimination limited benefits for Black Americans and ",
+          "Compare one program's legislative purpose with implementation records and critiques. Assess a precise outcome rather than assuming every New Deal program worked equally well."
+        ]
+      },
+      "investigationKind": "compare"
+    },
+    "did-the-new-deal-transform-government": {
+      "title": "Did the New Deal Transform Government?",
+      "unit": "9.6",
+      "unitTitle": "Great Depression and New Deal",
+      "seq": 4,
+      "total": 4,
+      "essential": "Was the New Deal a temporary emergency response or an enduring change?",
+      "paragraphs": [
+        "New Deal legislation expanded regulatory agencies, labor protections, and social insurance. The Wagner Act of 1935 strengthened collective-bargaining protections for many workers, while the Fair Labor Standards Act of 1938 established federal wage and hour standards.",
+        "Critics objected to increased federal power; supporters argued that economic insecurity required structural change. The extent to which federal programs ended the Depression remains debated, with wartime mobilization later reshaping employment.",
+        "Use a before-and-after institutional comparison and distinguish lasting laws from short-lived emergency programs. Weigh continuity, change, and contested impacts."
+      ],
+      "activity": "Did the New Deal Transform Government? · Evidence Investigation",
+      "task": "Write a claim about Did the New Deal Transform Government? with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Did the New Deal Transform Government?. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Did the New Deal Transform Government?. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Did the New Deal Transform Government? with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Fair Labor Standards Act",
+        "Fugitive Slave Act",
+        "Alien and Sedition Acts"
+      ],
+      "correct": 0,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "Wagner Act",
+        "Fair Labor Standards Act",
+        "social insurance",
+        "federal regulation"
+      ],
+      "checks": [
+        {
+          "prompt": "Which 1938 law established federal minimum-wage and overtime standards for covered workers?",
+          "options": [
+            "Fair Labor Standards Act",
+            "Fugitive Slave Act",
+            "Alien and Sedition Acts"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Did the New Deal Transform Government??",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Did the New Deal Transform Government? is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "New Deal legislation expanded regulatory agencies, labor protections, and social insurance. The Wagner Act of 1935 strengthened collective-bargaining protections for many work",
+          "Critics objected to increased federal power; supporters argued that economic insecurity required structural change. The extent to which federal programs ended the Depression r",
+          "Use a before-and-after institutional comparison and distinguish lasting laws from short-lived emergency programs. Weigh continuity, change, and contested impacts."
+        ]
+      },
+      "investigationKind": "source"
+    },
+    "causes-of-world-war-ii": {
+      "title": "Causes of World War II",
+      "unit": "9.7",
+      "unitTitle": "World War II",
+      "seq": 1,
+      "total": 5,
+      "essential": "How did aggression, political crisis, and failed diplomacy contribute to World War II?",
+      "paragraphs": [
+        "The rise of Nazi Germany, Fascist Italy, and militarist expansion in Japan threatened international order in the 1930s. German invasion of Poland in September 1939 prompted Britain and France to declare war.",
+        "The worldwide conflict developed through separate but connected theaters and choices. The effects of the Depression, nationalist ideologies, appeasement, and military planning require careful analysis rather than a single-cause explanation.",
+        "Sequence events in Europe and Asia, compare diplomatic positions, and identify how choices constrained or escalated conflict. Avoid treating war as inevitable."
+      ],
+      "activity": "Causes of World War II · Evidence Investigation",
+      "task": "Write a claim about Causes of World War II with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Causes of World War II. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Causes of World War II. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Causes of World War II with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Germany's invasion of Poland",
+        "D-Day landings",
+        "Attack on Pearl Harbor"
+      ],
+      "correct": 0,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "appeasement",
+        "totalitarianism",
+        "aggression",
+        "invasion of Poland"
+      ],
+      "checks": [
+        {
+          "prompt": "Which event began the European war between Germany, Britain, and France in September 1939?",
+          "options": [
+            "Germany's invasion of Poland",
+            "D-Day landings",
+            "Attack on Pearl Harbor"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Causes of World War II?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Causes of World War II is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "The rise of Nazi Germany, Fascist Italy, and militarist expansion in Japan threatened international order in the 1930s. German invasion of Poland in September 1939 prompted Br",
+          "The worldwide conflict developed through separate but connected theaters and choices. The effects of the Depression, nationalist ideologies, appeasement, and military planning",
+          "Sequence events in Europe and Asia, compare diplomatic positions, and identify how choices constrained or escalated conflict. Avoid treating war as inevitable."
+        ]
+      },
+      "investigationKind": "rights"
+    },
+    "pearl-harbor-and-american-entry": {
+      "title": "Pearl Harbor and American Entry",
+      "unit": "9.7",
+      "unitTitle": "World War II",
+      "seq": 2,
+      "total": 5,
+      "essential": "How did Pearl Harbor alter U.S. participation in World War II?",
+      "paragraphs": [
+        "Japan attacked the U.S. naval base at Pearl Harbor, Hawaii, on December 7, 1941. The United States declared war on Japan on December 8; Germany and Italy declared war on the United States on December 11.",
+        "U.S.–Japanese tensions involved expansion in Asia, trade restrictions, and diplomatic failure. Entry into war required enormous military and industrial mobilization; the attack should not be isolated from its regional context.",
+        "Compare a timeline of U.S.–Japanese diplomacy with a dated report of the attack. Separate verified facts from later myths or exaggerated claims about decision-makers' foreknowledge."
+      ],
+      "activity": "Pearl Harbor and American Entry · Evidence Investigation",
+      "task": "Write a claim about Pearl Harbor and American Entry with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Pearl Harbor and American Entry. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Pearl Harbor and American Entry. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Pearl Harbor and American Entry with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "September 1, 1939",
+        "December 7, 1941",
+        "June 6, 1944"
+      ],
+      "correct": 1,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "Pearl Harbor",
+        "embargo",
+        "mobilization",
+        "declaration of war"
+      ],
+      "checks": [
+        {
+          "prompt": "On what date was Pearl Harbor attacked?",
+          "options": [
+            "September 1, 1939",
+            "December 7, 1941",
+            "June 6, 1944"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Pearl Harbor and American Entry?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Pearl Harbor and American Entry is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "Japan attacked the U.S. naval base at Pearl Harbor, Hawaii, on December 7, 1941. The United States declared war on Japan on December 8; Germany and Italy declared war on the U",
+          "U.S.–Japanese tensions involved expansion in Asia, trade restrictions, and diplomatic failure. Entry into war required enormous military and industrial mobilization; the attac",
+          "Compare a timeline of U.S.–Japanese diplomacy with a dated report of the attack. Separate verified facts from later myths or exaggerated claims about decision-makers' foreknow"
+        ]
+      },
+      "investigationKind": "data"
+    },
+    "the-holocaust-and-human-rights": {
+      "title": "The Holocaust and Human Rights",
+      "unit": "9.7",
+      "unitTitle": "World War II",
+      "seq": 3,
+      "total": 5,
+      "essential": "How did Nazi policy turn persecution into genocide, and why does evidence matter?",
+      "paragraphs": [
+        "Nazi antisemitism, exclusionary laws, and violence intensified after 1933. During World War II, Nazi Germany and collaborators systematically murdered approximately six million Jews in the Holocaust, alongside persecution and mass murder of other groups.",
+        "The Holocaust developed through policies, institutions, decisions, and participation by perpetrators; it was not an accidental byproduct of battle. Jewish resistance and survival took varied forms under extraordinarily dangerous conditions.",
+        "Use verified museum testimony and documented policy chronology. Avoid graphic sensationalism or invented victim dialogue; distinguish antisemitic propaganda from reliable historical evidence and confront denial using corroborated records."
+      ],
+      "activity": "The Holocaust and Human Rights · Evidence Investigation",
+      "task": "Write a claim about The Holocaust and Human Rights with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on The Holocaust and Human Rights. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of The Holocaust and Human Rights. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about The Holocaust and Human Rights with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Sixty thousand",
+        "Six hundred",
+        "Six million"
+      ],
+      "correct": 2,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "antisemitism",
+        "genocide",
+        "Nuremberg Laws",
+        "testimony"
+      ],
+      "checks": [
+        {
+          "prompt": "Approximately how many Jews were murdered during the Holocaust?",
+          "options": [
+            "Sixty thousand",
+            "Six hundred",
+            "Six million"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about The Holocaust and Human Rights?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about The Holocaust and Human Rights is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "Nazi antisemitism, exclusionary laws, and violence intensified after 1933. During World War II, Nazi Germany and collaborators systematically murdered approximately six millio",
+          "The Holocaust developed through policies, institutions, decisions, and participation by perpetrators; it was not an accidental byproduct of battle. Jewish resistance and survi",
+          "Use verified museum testimony and documented policy chronology. Avoid graphic sensationalism or invented victim dialogue; distinguish antisemitic propaganda from reliable hist"
+        ]
+      },
+      "investigationKind": "map"
+    },
+    "war-on-the-home-front": {
+      "title": "War on the Home Front",
+      "unit": "9.7",
+      "unitTitle": "World War II",
+      "seq": 4,
+      "total": 5,
+      "essential": "How did wartime mobilization expand opportunity while limiting rights?",
+      "paragraphs": [
+        "War production transformed employment and industry across the United States. Women entered new jobs in large numbers, and Black Americans organized against discrimination in defense employment and public life.",
+        "Executive Order 9066 in 1942 enabled the forced removal and incarceration of Japanese Americans, a grave civil-liberties violation. The experience exposed tension between national security claims and constitutional protections.",
+        "Compare government statements with testimony from incarcerated Japanese Americans and production data. Identify why a claim of military necessity requires critical evidence rather than acceptance at face value."
+      ],
+      "activity": "War on the Home Front · Evidence Investigation",
+      "task": "Write a claim about War on the Home Front with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on War on the Home Front. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of War on the Home Front. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about War on the Home Front with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Executive Order 9066",
+        "Executive Order 9981",
+        "Emancipation Proclamation"
+      ],
+      "correct": 0,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "Executive Order 9066",
+        "internment",
+        "war production",
+        "civil liberties"
+      ],
+      "checks": [
+        {
+          "prompt": "Which 1942 executive order facilitated the incarceration of Japanese Americans?",
+          "options": [
+            "Executive Order 9066",
+            "Executive Order 9981",
+            "Emancipation Proclamation"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about War on the Home Front?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about War on the Home Front is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "War production transformed employment and industry across the United States. Women entered new jobs in large numbers, and Black Americans organized against discrimination in d",
+          "Executive Order 9066 in 1942 enabled the forced removal and incarceration of Japanese Americans, a grave civil-liberties violation. The experience exposed tension between nati",
+          "Compare government statements with testimony from incarcerated Japanese Americans and production data. Identify why a claim of military necessity requires critical evidence ra"
+        ]
+      },
+      "investigationKind": "debate"
+    },
+    "d-day-the-pacific-war-and-allied-victory": {
+      "title": "D-Day, the Pacific War, and Allied Victory",
+      "unit": "9.7",
+      "unitTitle": "World War II",
+      "seq": 5,
+      "total": 5,
+      "essential": "How did coordinated campaigns and difficult decisions lead to Allied victory?",
+      "paragraphs": [
+        "Allied forces landed in Normandy on June 6, 1944, opening a major Western European offensive. The Soviet military's campaigns on the Eastern Front were also crucial to Germany's defeat in May 1945.",
+        "The Pacific War continued until Japan's surrender in August–September 1945, following devastating campaigns and atomic bombings of Hiroshima and Nagasaki. Historians debate the decisions and alternatives surrounding the bombings, including military and humanitarian consequences.",
+        "Compare maps of European and Pacific campaigns with civilian perspectives. Clearly distinguish military objectives from ethical analysis of wartime actions."
+      ],
+      "activity": "D-Day, the Pacific War, and Allied Victory · Evidence Investigation",
+      "task": "Write a claim about D-Day, the Pacific War, and Allied Victory with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on D-Day, the Pacific War, and Allied Victory. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of D-Day, the Pacific War, and Allied Victory. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about D-Day, the Pacific War, and Allied Victory with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "May 8, 1945",
+        "June 6, 1944",
+        "December 7, 1941"
+      ],
+      "correct": 1,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "D-Day",
+        "Eastern Front",
+        "Hiroshima",
+        "Japanese surrender"
+      ],
+      "checks": [
+        {
+          "prompt": "When did the D-Day landings in Normandy occur?",
+          "options": [
+            "May 8, 1945",
+            "June 6, 1944",
+            "December 7, 1941"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about D-Day, the Pacific War, and Allied Victory?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about D-Day, the Pacific War, and Allied Victory is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "Allied forces landed in Normandy on June 6, 1944, opening a major Western European offensive. The Soviet military's campaigns on the Eastern Front were also crucial to Germany",
+          "The Pacific War continued until Japan's surrender in August–September 1945, following devastating campaigns and atomic bombings of Hiroshima and Nagasaki. Historians debate th",
+          "Compare maps of European and Pacific campaigns with civilian perspectives. Clearly distinguish military objectives from ethical analysis of wartime actions."
+        ]
+      },
+      "investigationKind": "timeline"
+    },
+    "origins-of-the-cold-war": {
+      "title": "Origins of the Cold War",
+      "unit": "9.8",
+      "unitTitle": "The Cold War",
+      "seq": 1,
+      "total": 4,
+      "essential": "Why did wartime allies become ideological and strategic rivals?",
+      "paragraphs": [
+        "After World War II, U.S.–Soviet relations deteriorated over security, political influence, economic systems, and the future of Europe. The Truman Doctrine in 1947 and Marshall Plan reflected U.S. efforts to contain communist influence.",
+        "Soviet policies in Eastern Europe and the division of Germany heightened tension, while both sides perceived threats differently. Historians debate the relative influence of ideology, security fears, and individual decisions.",
+        "Compare a U.S. address with a Soviet statement and a European perspective. Identify claims, omissions, and incentives without treating propaganda as neutral reporting."
+      ],
+      "activity": "Origins of the Cold War · Evidence Investigation",
+      "task": "Write a claim about Origins of the Cold War with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Origins of the Cold War. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Origins of the Cold War. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Origins of the Cold War with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Truman Doctrine",
+        "Open Door Notes",
+        "Roosevelt Corollary"
+      ],
+      "correct": 0,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "containment",
+        "Truman Doctrine",
+        "Marshall Plan",
+        "Iron Curtain"
+      ],
+      "checks": [
+        {
+          "prompt": "Which 1947 policy articulated U.S. support for countries resisting perceived communist pressure?",
+          "options": [
+            "Truman Doctrine",
+            "Open Door Notes",
+            "Roosevelt Corollary"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Origins of the Cold War?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Origins of the Cold War is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "After World War II, U.S.–Soviet relations deteriorated over security, political influence, economic systems, and the future of Europe. The Truman Doctrine in 1947 and Marshall",
+          "Soviet policies in Eastern Europe and the division of Germany heightened tension, while both sides perceived threats differently. Historians debate the relative influence of i",
+          "Compare a U.S. address with a Soviet statement and a European perspective. Identify claims, omissions, and incentives without treating propaganda as neutral reporting."
+        ]
+      },
+      "investigationKind": "cause"
+    },
+    "the-korean-war": {
+      "title": "The Korean War",
+      "unit": "9.8",
+      "unitTitle": "The Cold War",
+      "seq": 2,
+      "total": 4,
+      "essential": "Why did war in Korea become an international Cold War conflict?",
+      "paragraphs": [
+        "Following Japanese rule, Korea was divided near the 38th parallel after 1945. North Korean forces invaded South Korea in June 1950, and a U.S.-led United Nations force intervened; China later entered the war.",
+        "The 1953 armistice halted major fighting but did not establish a permanent peace treaty. Korean civilians experienced enormous losses, and the peninsula remained divided.",
+        "Trace the changing front lines using dated maps and distinguish the United Nations role, U.S. policy, Chinese intervention, and Korean agency."
+      ],
+      "activity": "The Korean War · Evidence Investigation",
+      "task": "Write a claim about The Korean War with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on The Korean War. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of The Korean War. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about The Korean War with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "A peace treaty permanently reunifying Korea",
+        "An armistice",
+        "Treaty of Versailles"
+      ],
+      "correct": 1,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "38th parallel",
+        "armistice",
+        "United Nations Command",
+        "intervention"
+      ],
+      "checks": [
+        {
+          "prompt": "Which agreement halted major fighting in Korea in 1953?",
+          "options": [
+            "A peace treaty permanently reunifying Korea",
+            "An armistice",
+            "Treaty of Versailles"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about The Korean War?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about The Korean War is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "Following Japanese rule, Korea was divided near the 38th parallel after 1945. North Korean forces invaded South Korea in June 1950, and a U.S.-led United Nations force interve",
+          "The 1953 armistice halted major fighting but did not establish a permanent peace treaty. Korean civilians experienced enormous losses, and the peninsula remained divided.",
+          "Trace the changing front lines using dated maps and distinguish the United Nations role, U.S. policy, Chinese intervention, and Korean agency."
+        ]
+      },
+      "investigationKind": "network"
+    },
+    "nuclear-competition-and-the-space-race": {
+      "title": "Nuclear Competition and the Space Race",
+      "unit": "9.8",
+      "unitTitle": "The Cold War",
+      "seq": 3,
+      "total": 4,
+      "essential": "How did technological competition shape Cold War security and public life?",
+      "paragraphs": [
+        "The United States and Soviet Union developed nuclear arsenals and delivery systems, raising fears of catastrophic war. The Soviet launch of Sputnik in 1957 accelerated competition in space science and education.",
+        "The 1962 Cuban Missile Crisis brought the superpowers close to nuclear war, while scientific programs also produced new technologies. Deterrence and arms control evolved amid uncertainty about risk.",
+        "Interpret an arms-race timeline and evaluate public claims with attention to scale, technical limits, and the human consequences of nuclear decisions."
+      ],
+      "activity": "Nuclear Competition and the Space Race · Evidence Investigation",
+      "task": "Write a claim about Nuclear Competition and the Space Race with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Nuclear Competition and the Space Race. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Nuclear Competition and the Space Race. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Nuclear Competition and the Space Race with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Apollo 11",
+        "Space Shuttle Columbia",
+        "Sputnik 1"
+      ],
+      "correct": 2,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "deterrence",
+        "Sputnik",
+        "Cuban Missile Crisis",
+        "arms control"
+      ],
+      "checks": [
+        {
+          "prompt": "What did the Soviet Union launch in 1957 to begin the space age?",
+          "options": [
+            "Apollo 11",
+            "Space Shuttle Columbia",
+            "Sputnik 1"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Nuclear Competition and the Space Race?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Nuclear Competition and the Space Race is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "The United States and Soviet Union developed nuclear arsenals and delivery systems, raising fears of catastrophic war. The Soviet launch of Sputnik in 1957 accelerated competi",
+          "The 1962 Cuban Missile Crisis brought the superpowers close to nuclear war, while scientific programs also produced new technologies. Deterrence and arms control evolved amid ",
+          "Interpret an arms-race timeline and evaluate public claims with attention to scale, technical limits, and the human consequences of nuclear decisions."
+        ]
+      },
+      "investigationKind": "compare"
+    },
+    "the-vietnam-war": {
+      "title": "The Vietnam War",
+      "unit": "9.8",
+      "unitTitle": "The Cold War",
+      "seq": 4,
+      "total": 4,
+      "essential": "How did the Vietnam War challenge U.S. containment policy?",
+      "paragraphs": [
+        "Conflict in Vietnam grew from anticolonial struggle, competing Vietnamese political movements, and Cold War intervention. U.S. military involvement expanded substantially after the 1964 Gulf of Tonkin Resolution.",
+        "The Tet Offensive in 1968 damaged U.S. public confidence despite complex military results; widespread protests reflected disputes over strategy, casualties, and government credibility. Saigon fell to North Vietnamese forces in 1975.",
+        "Compare U.S. official statements with Vietnamese perspectives and documented casualty data. Do not reduce Vietnamese political agency to a conflict between Washington and Moscow."
+      ],
+      "activity": "The Vietnam War · Evidence Investigation",
+      "task": "Write a claim about The Vietnam War with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on The Vietnam War. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of The Vietnam War. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about The Vietnam War with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "1968",
+        "1989",
+        "1950"
+      ],
+      "correct": 0,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "Gulf of Tonkin Resolution",
+        "Tet Offensive",
+        "Vietnamization",
+        "Saigon"
+      ],
+      "checks": [
+        {
+          "prompt": "In which year did the Tet Offensive take place?",
+          "options": [
+            "1968",
+            "1989",
+            "1950"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about The Vietnam War?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about The Vietnam War is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "Conflict in Vietnam grew from anticolonial struggle, competing Vietnamese political movements, and Cold War intervention. U.S. military involvement expanded substantially afte",
+          "The Tet Offensive in 1968 damaged U.S. public confidence despite complex military results; widespread protests reflected disputes over strategy, casualties, and government cre",
+          "Compare U.S. official statements with Vietnamese perspectives and documented casualty data. Do not reduce Vietnamese political agency to a conflict between Washington and Mosc"
+        ]
+      },
+      "investigationKind": "source"
+    },
+    "segregation-and-the-fight-for-equality": {
+      "title": "Segregation and the Fight for Equality",
+      "unit": "9.9",
+      "unitTitle": "Civil Rights and Social Change",
+      "seq": 1,
+      "total": 5,
+      "essential": "How did Black Americans resist Jim Crow before nationally famous victories?",
+      "paragraphs": [
+        "After Reconstruction, Jim Crow laws and racial terror restricted rights across the South. Black organizations, families, churches, educators, and legal advocates challenged inequality through organizing and litigation.",
+        "The NAACP, founded in 1909, pursued legal challenges and advocacy. The Great Migration also changed political and social opportunities, while discrimination persisted outside the South.",
+        "Analyze a segregation law, a Black newspaper account, and a legal challenge. Explain why formal law, enforcement, and community experience must be considered together."
+      ],
+      "activity": "Segregation and the Fight for Equality · Evidence Investigation",
+      "task": "Write a claim about Segregation and the Fight for Equality with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Segregation and the Fight for Equality. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Segregation and the Fight for Equality. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Segregation and the Fight for Equality with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "1909",
+        "1968",
+        "1776"
+      ],
+      "correct": 0,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "Jim Crow",
+        "NAACP",
+        "Great Migration",
+        "racial terror"
+      ],
+      "checks": [
+        {
+          "prompt": "In what year was the NAACP founded?",
+          "options": [
+            "1909",
+            "1968",
+            "1776"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Segregation and the Fight for Equality?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Segregation and the Fight for Equality is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "After Reconstruction, Jim Crow laws and racial terror restricted rights across the South. Black organizations, families, churches, educators, and legal advocates challenged in",
+          "The NAACP, founded in 1909, pursued legal challenges and advocacy. The Great Migration also changed political and social opportunities, while discrimination persisted outside ",
+          "Analyze a segregation law, a Black newspaper account, and a legal challenge. Explain why formal law, enforcement, and community experience must be considered together."
+        ]
+      },
+      "investigationKind": "rights"
+    },
+    "brown-v-board-of-education": {
+      "title": "Brown v. Board of Education",
+      "unit": "9.9",
+      "unitTitle": "Civil Rights and Social Change",
+      "seq": 2,
+      "total": 5,
+      "essential": "Why was Brown v. Board a turning point yet not an immediate end to segregation?",
+      "paragraphs": [
+        "In Brown v. Board of Education (1954), the U.S. Supreme Court ruled that racial segregation in public schools violated the Equal Protection Clause of the Fourteenth Amendment. The decision rejected the constitutional legitimacy of separate public schooling by race.",
+        "Resistance and delayed desegregation followed, including conflicts in Little Rock in 1957. The legal victory required implementation and continuing organizing to affect students' daily lives.",
+        "Compare the Court's reasoning with local implementation records. Distinguish a constitutional ruling from immediate compliance in every school district."
+      ],
+      "activity": "Brown v. Board of Education · Evidence Investigation",
+      "task": "Write a claim about Brown v. Board of Education with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Brown v. Board of Education. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Brown v. Board of Education. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Brown v. Board of Education with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "1964",
+        "1954",
+        "1896"
+      ],
+      "correct": 1,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "Brown v. Board",
+        "equal protection",
+        "desegregation",
+        "implementation"
+      ],
+      "checks": [
+        {
+          "prompt": "In which year was Brown v. Board of Education decided?",
+          "options": [
+            "1964",
+            "1954",
+            "1896"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Brown v. Board of Education?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Brown v. Board of Education is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "In Brown v. Board of Education (1954), the U.S. Supreme Court ruled that racial segregation in public schools violated the Equal Protection Clause of the Fourteenth Amendment.",
+          "Resistance and delayed desegregation followed, including conflicts in Little Rock in 1957. The legal victory required implementation and continuing organizing to affect studen",
+          "Compare the Court's reasoning with local implementation records. Distinguish a constitutional ruling from immediate compliance in every school district."
+        ]
+      },
+      "investigationKind": "data"
+    },
+    "martin-luther-king-jr-and-nonviolent-resistance": {
+      "title": "Martin Luther King Jr. and Nonviolent Resistance",
+      "unit": "9.9",
+      "unitTitle": "Civil Rights and Social Change",
+      "seq": 3,
+      "total": 5,
+      "essential": "How did organized nonviolent action produce political pressure?",
+      "paragraphs": [
+        "Martin Luther King Jr. and many local activists organized boycotts, marches, and campaigns to confront segregation. The Montgomery bus boycott of 1955–1956 depended on sustained participation by Black residents and organizers including women whose work is sometimes overlooked.",
+        "The Birmingham campaign of 1963 and March on Washington helped focus national attention on civil rights. Nonviolence was a disciplined strategy involving training, economic pressure, moral argument, and risk, not merely absence of physical retaliation.",
+        "Compare a campaign plan, local participant testimony, and a government response. Explain how mass participation and political conditions affected outcomes."
+      ],
+      "activity": "Martin Luther King Jr. and Nonviolent Resistance · Evidence Investigation",
+      "task": "Write a claim about Martin Luther King Jr. and Nonviolent Resistance with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Martin Luther King Jr. and Nonviolent Resistance. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Martin Luther King Jr. and Nonviolent Resistance. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Martin Luther King Jr. and Nonviolent Resistance with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Boston, Massachusetts",
+        "Seattle, Washington",
+        "Montgomery, Alabama"
+      ],
+      "correct": 2,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "boycott",
+        "civil disobedience",
+        "Birmingham campaign",
+        "nonviolence"
+      ],
+      "checks": [
+        {
+          "prompt": "In which city did the 1955–1956 bus boycott occur?",
+          "options": [
+            "Boston, Massachusetts",
+            "Seattle, Washington",
+            "Montgomery, Alabama"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Martin Luther King Jr. and Nonviolent Resistance?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Martin Luther King Jr. and Nonviolent Resistance is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "Martin Luther King Jr. and many local activists organized boycotts, marches, and campaigns to confront segregation. The Montgomery bus boycott of 1955–1956 depended on sustain",
+          "The Birmingham campaign of 1963 and March on Washington helped focus national attention on civil rights. Nonviolence was a disciplined strategy involving training, economic pr",
+          "Compare a campaign plan, local participant testimony, and a government response. Explain how mass participation and political conditions affected outcomes."
+        ]
+      },
+      "investigationKind": "map"
+    },
+    "malcolm-x-and-competing-strategies": {
+      "title": "Malcolm X and Competing Strategies",
+      "unit": "9.9",
+      "unitTitle": "Civil Rights and Social Change",
+      "seq": 4,
+      "total": 5,
+      "essential": "How did Malcolm X's evolving ideas broaden debates about civil rights and Black freedom?",
+      "paragraphs": [
+        "Malcolm X criticized white supremacy and called for Black dignity, self-determination, and human rights. His public positions changed over time, especially after leaving the Nation of Islam and traveling internationally in 1964.",
+        "Civil rights leaders held diverse strategies and goals, and simple 'King versus Malcolm' comparisons obscure changes in their positions and the wider organizing landscape. Malcolm X was assassinated in 1965.",
+        "Read statements from different dates to trace change, identifying audience and context. Avoid assigning one fixed slogan to an entire intellectual life."
+      ],
+      "activity": "Malcolm X and Competing Strategies · Evidence Investigation",
+      "task": "Write a claim about Malcolm X and Competing Strategies with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Malcolm X and Competing Strategies. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Malcolm X and Competing Strategies. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Malcolm X and Competing Strategies with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "1965",
+        "1978",
+        "1954"
+      ],
+      "correct": 0,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "self-determination",
+        "human rights",
+        "Nation of Islam",
+        "political evolution"
+      ],
+      "checks": [
+        {
+          "prompt": "In what year was Malcolm X assassinated?",
+          "options": [
+            "1965",
+            "1978",
+            "1954"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Malcolm X and Competing Strategies?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Malcolm X and Competing Strategies is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "Malcolm X criticized white supremacy and called for Black dignity, self-determination, and human rights. His public positions changed over time, especially after leaving the N",
+          "Civil rights leaders held diverse strategies and goals, and simple 'King versus Malcolm' comparisons obscure changes in their positions and the wider organizing landscape. Mal",
+          "Read statements from different dates to trace change, identifying audience and context. Avoid assigning one fixed slogan to an entire intellectual life."
+        ]
+      },
+      "investigationKind": "debate"
+    },
+    "the-civil-rights-movement-s-lasting-impact": {
+      "title": "The Civil Rights Movement's Lasting Impact",
+      "unit": "9.9",
+      "unitTitle": "Civil Rights and Social Change",
+      "seq": 5,
+      "total": 5,
+      "essential": "What did major civil rights laws accomplish, and which struggles continued?",
+      "paragraphs": [
+        "The Civil Rights Act of 1964 prohibited specified forms of discrimination, while the Voting Rights Act of 1965 addressed racial barriers to voting. Grassroots organizers, lawyers, local communities, and national coalitions helped secure these changes.",
+        "Legal change did not end economic inequality, residential segregation, or disputes over enforcement. Later movements broadened claims concerning gender, disability, immigration, and other rights.",
+        "Compare a law's text with a relevant measure of implementation. Evaluate progress without assuming the same outcomes for every community."
+      ],
+      "activity": "The Civil Rights Movement's Lasting Impact · Evidence Investigation",
+      "task": "Write a claim about The Civil Rights Movement's Lasting Impact with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on The Civil Rights Movement's Lasting Impact. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of The Civil Rights Movement's Lasting Impact. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about The Civil Rights Movement's Lasting Impact with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Sherman Antitrust Act",
+        "Voting Rights Act",
+        "Homestead Act"
+      ],
+      "correct": 1,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "Civil Rights Act 1964",
+        "Voting Rights Act 1965",
+        "grassroots organizing",
+        "enforcement"
+      ],
+      "checks": [
+        {
+          "prompt": "Which federal law of 1965 addressed discriminatory barriers to voting?",
+          "options": [
+            "Sherman Antitrust Act",
+            "Voting Rights Act",
+            "Homestead Act"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about The Civil Rights Movement's Lasting Impact?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about The Civil Rights Movement's Lasting Impact is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "The Civil Rights Act of 1964 prohibited specified forms of discrimination, while the Voting Rights Act of 1965 addressed racial barriers to voting. Grassroots organizers, lawy",
+          "Legal change did not end economic inequality, residential segregation, or disputes over enforcement. Later movements broadened claims concerning gender, disability, immigratio",
+          "Compare a law's text with a relevant measure of implementation. Evaluate progress without assuming the same outcomes for every community."
+        ]
+      },
+      "investigationKind": "timeline"
+    },
+    "watergate-and-public-trust": {
+      "title": "Watergate and Public Trust",
+      "unit": "9.10",
+      "unitTitle": "America in the Late Twentieth Century",
+      "seq": 1,
+      "total": 4,
+      "essential": "How did Watergate test constitutional accountability?",
+      "paragraphs": [
+        "The 1972 break-in at Democratic National Committee offices and subsequent cover-up prompted investigations of the Nixon administration. Congressional hearings, investigative reporting, and court rulings exposed abuses of executive power.",
+        "In United States v. Nixon (1974), the Supreme Court required release of White House recordings. President Richard Nixon resigned in August 1974. The crisis prompted debates about transparency, oversight, and public confidence.",
+        "Build a documented chronology and compare congressional, judicial, and media roles. Distinguish investigated claims from verified findings."
+      ],
+      "activity": "Watergate and Public Trust · Evidence Investigation",
+      "task": "Write a claim about Watergate and Public Trust with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Watergate and Public Trust. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Watergate and Public Trust. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Watergate and Public Trust with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "1974",
+        "1989",
+        "1963"
+      ],
+      "correct": 0,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "Watergate",
+        "executive privilege",
+        "congressional oversight",
+        "resignation"
+      ],
+      "checks": [
+        {
+          "prompt": "In which year did President Nixon resign?",
+          "options": [
+            "1974",
+            "1989",
+            "1963"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Watergate and Public Trust?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Watergate and Public Trust is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "The 1972 break-in at Democratic National Committee offices and subsequent cover-up prompted investigations of the Nixon administration. Congressional hearings, investigative r",
+          "In United States v. Nixon (1974), the Supreme Court required release of White House recordings. President Richard Nixon resigned in August 1974. The crisis prompted debates ab",
+          "Build a documented chronology and compare congressional, judicial, and media roles. Distinguish investigated claims from verified findings."
+        ]
+      },
+      "investigationKind": "cause"
+    },
+    "the-reagan-era": {
+      "title": "The Reagan Era",
+      "unit": "9.10",
+      "unitTitle": "America in the Late Twentieth Century",
+      "seq": 2,
+      "total": 4,
+      "essential": "How did policy choices during the 1980s reshape economic and political debates?",
+      "paragraphs": [
+        "Ronald Reagan's presidency began in 1981. His administration pursued tax reductions, deregulation, and a defense buildup, while conservative coalitions influenced debates about government and social policy.",
+        "The decade included recession, later growth, rising federal deficits, and uneven effects across communities. U.S.–Soviet relations shifted from heightened tension toward major arms-control negotiations.",
+        "Compare inflation, unemployment, and deficit series with policy statements. Avoid attributing every economic outcome to one leader without examining wider conditions."
+      ],
+      "activity": "The Reagan Era · Evidence Investigation",
+      "task": "Write a claim about The Reagan Era with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on The Reagan Era. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of The Reagan Era. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about The Reagan Era with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "1993",
+        "1981",
+        "1971"
+      ],
+      "correct": 1,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "supply-side economics",
+        "deregulation",
+        "deficit",
+        "arms control"
+      ],
+      "checks": [
+        {
+          "prompt": "In which year did Ronald Reagan become U.S. president?",
+          "options": [
+            "1993",
+            "1981",
+            "1971"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about The Reagan Era?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about The Reagan Era is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "Ronald Reagan's presidency began in 1981. His administration pursued tax reductions, deregulation, and a defense buildup, while conservative coalitions influenced debates abou",
+          "The decade included recession, later growth, rising federal deficits, and uneven effects across communities. U.S.–Soviet relations shifted from heightened tension toward major",
+          "Compare inflation, unemployment, and deficit series with policy statements. Avoid attributing every economic outcome to one leader without examining wider conditions."
+        ]
+      },
+      "investigationKind": "network"
+    },
+    "the-end-of-the-cold-war": {
+      "title": "The End of the Cold War",
+      "unit": "9.10",
+      "unitTitle": "America in the Late Twentieth Century",
+      "seq": 3,
+      "total": 4,
+      "essential": "What combination of choices and pressures led to the Cold War's end?",
+      "paragraphs": [
+        "Reform efforts under Soviet leader Mikhail Gorbachev, economic pressures, and political movements across Eastern Europe transformed the late 1980s. The Berlin Wall opened in November 1989.",
+        "The Soviet Union dissolved in 1991. The end reflected developments within communist societies as well as international diplomacy; it was not the exclusive achievement of a single U.S. president.",
+        "Compare a chronology of reforms, popular protests, diplomatic negotiations, and state changes. Explain multiple causes rather than a one-person victory narrative."
+      ],
+      "activity": "The End of the Cold War · Evidence Investigation",
+      "task": "Write a claim about The End of the Cold War with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on The End of the Cold War. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of The End of the Cold War. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about The End of the Cold War with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "1945",
+        "2001",
+        "1991"
+      ],
+      "correct": 2,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "glasnost",
+        "perestroika",
+        "Berlin Wall",
+        "Soviet dissolution"
+      ],
+      "checks": [
+        {
+          "prompt": "In which year did the Soviet Union dissolve?",
+          "options": [
+            "1945",
+            "2001",
+            "1991"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about The End of the Cold War?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about The End of the Cold War is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "Reform efforts under Soviet leader Mikhail Gorbachev, economic pressures, and political movements across Eastern Europe transformed the late 1980s. The Berlin Wall opened in N",
+          "The Soviet Union dissolved in 1991. The end reflected developments within communist societies as well as international diplomacy; it was not the exclusive achievement of a sin",
+          "Compare a chronology of reforms, popular protests, diplomatic negotiations, and state changes. Explain multiple causes rather than a one-person victory narrative."
+        ]
+      },
+      "investigationKind": "compare"
+    },
+    "america-and-the-global-economy": {
+      "title": "America and the Global Economy",
+      "unit": "9.10",
+      "unitTitle": "America in the Late Twentieth Century",
+      "seq": 4,
+      "total": 4,
+      "essential": "How did globalization reshape U.S. employment and exchange?",
+      "paragraphs": [
+        "Late twentieth-century advances in transport, communications, and production helped link economies across borders. The North American Free Trade Agreement took effect in 1994, deepening trade integration among the United States, Canada, and Mexico.",
+        "Some consumers and industries benefited from expanded markets while some communities experienced dislocation and changing employment. Trade statistics alone cannot explain the full distribution of benefits and costs.",
+        "Use an indexed trade chart and contrasting regional employment accounts. Explain what the data measure and what would be needed for a causal claim."
+      ],
+      "activity": "America and the Global Economy · Evidence Investigation",
+      "task": "Write a claim about America and the Global Economy with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on America and the Global Economy. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of America and the Global Economy. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about America and the Global Economy with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "1994",
+        "2015",
+        "1974"
+      ],
+      "correct": 0,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "globalization",
+        "NAFTA",
+        "trade integration",
+        "economic dislocation"
+      ],
+      "checks": [
+        {
+          "prompt": "In what year did NAFTA take effect?",
+          "options": [
+            "1994",
+            "2015",
+            "1974"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about America and the Global Economy?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about America and the Global Economy is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "Late twentieth-century advances in transport, communications, and production helped link economies across borders. The North American Free Trade Agreement took effect in 1994,",
+          "Some consumers and industries benefited from expanded markets while some communities experienced dislocation and changing employment. Trade statistics alone cannot explain the",
+          "Use an indexed trade chart and contrasting regional employment accounts. Explain what the data measure and what would be needed for a causal claim."
+        ]
+      },
+      "investigationKind": "source"
+    },
+    "september-11-and-its-consequences": {
+      "title": "September 11 and Its Consequences",
+      "unit": "9.11",
+      "unitTitle": "The United States in the Twenty-First Century",
+      "seq": 1,
+      "total": 4,
+      "essential": "How did September 11 change U.S. security policy and public life?",
+      "paragraphs": [
+        "On September 11, 2001, al-Qaeda terrorists hijacked four passenger aircraft, attacking the World Trade Center and Pentagon; a fourth crashed in Pennsylvania after passengers resisted. Nearly 3,000 people were killed.",
+        "The United States launched military operations in Afghanistan, changed aviation security, and expanded surveillance and counterterrorism powers. The wars and policies raised enduring debates about civil liberties, civilian harm, and international law.",
+        "Analyze verified timelines and official records alongside affected communities' perspectives. Avoid sensational imagery, conspiracy claims, and treating all Muslims as responsible for al-Qaeda's actions."
+      ],
+      "activity": "September 11 and Its Consequences · Evidence Investigation",
+      "task": "Write a claim about September 11 and Its Consequences with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on September 11 and Its Consequences. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of September 11 and Its Consequences. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about September 11 and Its Consequences with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "September 11, 2001",
+        "September 11, 2011",
+        "September 11, 1991"
+      ],
+      "correct": 0,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "September 11",
+        "al-Qaeda",
+        "counterterrorism",
+        "civil liberties"
+      ],
+      "checks": [
+        {
+          "prompt": "On what date did the September 11 attacks occur?",
+          "options": [
+            "September 11, 2001",
+            "September 11, 2011",
+            "September 11, 1991"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about September 11 and Its Consequences?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about September 11 and Its Consequences is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "On September 11, 2001, al-Qaeda terrorists hijacked four passenger aircraft, attacking the World Trade Center and Pentagon; a fourth crashed in Pennsylvania after passengers r",
+          "The United States launched military operations in Afghanistan, changed aviation security, and expanded surveillance and counterterrorism powers. The wars and policies raised e",
+          "Analyze verified timelines and official records alongside affected communities' perspectives. Avoid sensational imagery, conspiracy claims, and treating all Muslims as respons"
+        ]
+      },
+      "investigationKind": "rights"
+    },
+    "technology-and-american-society": {
+      "title": "Technology and American Society",
+      "unit": "9.11",
+      "unitTitle": "The United States in the Twenty-First Century",
+      "seq": 2,
+      "total": 4,
+      "essential": "How has digital technology changed opportunities, privacy, and political participation?",
+      "paragraphs": [
+        "Broadband internet, smartphones, and digital platforms transformed communication, business, education, and news distribution in the twenty-first century. Access remains unequal across income, geography, and disability.",
+        "Digital systems can expand information access and civic organizing while also enabling surveillance, misinformation, and concentrated market power. Rapid technological change makes careful source verification essential.",
+        "Compare the claims of a platform, an independent study, and a user survey. Ask what the available data establish about causation rather than assuming every social change came from one technology."
+      ],
+      "activity": "Technology and American Society · Evidence Investigation",
+      "task": "Write a claim about Technology and American Society with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Technology and American Society. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Technology and American Society. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Technology and American Society with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "The difference between printed and handwritten books",
+        "Unequal access to and effective use of digital technology",
+        "The gap between two computer screens"
+      ],
+      "correct": 1,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "digital divide",
+        "platform economy",
+        "surveillance",
+        "misinformation"
+      ],
+      "checks": [
+        {
+          "prompt": "What does the digital divide describe?",
+          "options": [
+            "The difference between printed and handwritten books",
+            "Unequal access to and effective use of digital technology",
+            "The gap between two computer screens"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Technology and American Society?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Technology and American Society is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "Broadband internet, smartphones, and digital platforms transformed communication, business, education, and news distribution in the twenty-first century. Access remains unequa",
+          "Digital systems can expand information access and civic organizing while also enabling surveillance, misinformation, and concentrated market power. Rapid technological change ",
+          "Compare the claims of a platform, an independent study, and a user survey. Ask what the available data establish about causation rather than assuming every social change came "
+        ]
+      },
+      "investigationKind": "data"
+    },
+    "contemporary-civil-rights-and-civic-movements": {
+      "title": "Contemporary Civil Rights and Civic Movements",
+      "unit": "9.11",
+      "unitTitle": "The United States in the Twenty-First Century",
+      "seq": 3,
+      "total": 4,
+      "essential": "How do contemporary movements build on earlier rights struggles?",
+      "paragraphs": [
+        "Twenty-first-century civic movements have addressed policing, racial inequality, voting access, LGBTQ rights, disability inclusion, and other issues. Participants use community organizing, litigation, elections, and digital communication.",
+        "Strategies and demands vary across organizations and periods. Assessing a movement requires distinguishing its stated goals, methods, policy outcomes, and criticism, rather than assuming every member agrees on every proposal.",
+        "Compare organizational statements with laws and carefully sourced outcomes. Represent competing interpretations fairly while avoiding false equivalence between unsupported claims and established facts."
+      ],
+      "activity": "Contemporary Civil Rights and Civic Movements · Evidence Investigation",
+      "task": "Write a claim about Contemporary Civil Rights and Civic Movements with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on Contemporary Civil Rights and Civic Movements. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of Contemporary Civil Rights and Civic Movements. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about Contemporary Civil Rights and Civic Movements with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Automatic constitutional change without action",
+        "Only private conversations with no public campaigns",
+        "Organizing, litigation, and public advocacy"
+      ],
+      "correct": 2,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "civic movement",
+        "coalition",
+        "policy change",
+        "rights litigation"
+      ],
+      "checks": [
+        {
+          "prompt": "Which method has been used by civil rights movements across different periods?",
+          "options": [
+            "Automatic constitutional change without action",
+            "Only private conversations with no public campaigns",
+            "Organizing, litigation, and public advocacy"
+          ],
+          "answer": 2
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about Contemporary Civil Rights and Civic Movements?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about Contemporary Civil Rights and Civic Movements is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "Twenty-first-century civic movements have addressed policing, racial inequality, voting access, LGBTQ rights, disability inclusion, and other issues. Participants use communit",
+          "Strategies and demands vary across organizations and periods. Assessing a movement requires distinguishing its stated goals, methods, policy outcomes, and criticism, rather th",
+          "Compare organizational statements with laws and carefully sourced outcomes. Represent competing interpretations fairly while avoiding false equivalence between unsupported cla"
+        ]
+      },
+      "investigationKind": "map"
+    },
+    "america-in-a-changing-world": {
+      "title": "America in a Changing World",
+      "unit": "9.11",
+      "unitTitle": "The United States in the Twenty-First Century",
+      "seq": 4,
+      "total": 4,
+      "essential": "How should citizens evaluate America's changing role in global affairs?",
+      "paragraphs": [
+        "The United States participates in international institutions, security relationships, trade networks, and climate negotiations, while domestic debate shapes policy priorities. Global challenges often involve several governments and nonstate actors.",
+        "Assessments of U.S. influence depend on criteria: military resources, economic ties, diplomacy, human rights, or environmental outcomes. Each measure has limits, and major events may alter conditions rapidly.",
+        "Use a dated policy document, independent dataset, and perspective from an affected country. Make a defensible claim that acknowledges uncertainty rather than treating a present-day position as permanent."
+      ],
+      "activity": "America in a Changing World · Evidence Investigation",
+      "task": "Write a claim about America in a Changing World with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "investigation": [
+        "Identify a dated historical document bearing on America in a Changing World. Describe its creator, intended audience, and one limitation.",
+        "Compare two historical explanations of America in a Changing World. Distinguish what the evidence supports from later interpretation.",
+        "Write a claim about America in a Changing World with two corroborating details, a plausible counterargument, and an explicit qualification."
+      ],
+      "options": [
+        "Dated policies, comparable data, and affected countries' perspectives",
+        "A fictional map with no source",
+        "One undated political slogan"
+      ],
+      "correct": 0,
+      "depth": "Grade 9 historical inquiry · primary source analysis, causation, contextualization, counterclaim",
+      "vocabulary": [
+        "multilateralism",
+        "diplomacy",
+        "global interdependence",
+        "policy evaluation"
+      ],
+      "checks": [
+        {
+          "prompt": "Which evidence best supports an argument about contemporary U.S. global influence?",
+          "options": [
+            "Dated policies, comparable data, and affected countries' perspectives",
+            "A fictional map with no source",
+            "One undated political slogan"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which method would strengthen a historical argument about America in a Changing World?",
+          "options": [
+            "Compare dated primary sources with differing perspectives",
+            "Assume the most vivid illustration tells the complete story",
+            "Ignore evidence that conflicts with the first source"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Which conclusion about America in a Changing World is most defensible?",
+          "options": [
+            "A single individual's account establishes every outcome",
+            "Historical interpretations should account for causation, context, and omitted voices",
+            "Events in different years can be treated as simultaneous"
+          ],
+          "answer": 1
+        }
+      ],
+      "visual": {
+        "labels": [
+          "Historical conditions",
+          "Decisions and competing interests",
+          "Consequences and contested legacy"
+        ],
+        "descriptions": [
+          "The United States participates in international institutions, security relationships, trade networks, and climate negotiations, while domestic debate shapes policy priorities.",
+          "Assessments of U.S. influence depend on criteria: military resources, economic ties, diplomacy, human rights, or environmental outcomes. Each measure has limits, and major eve",
+          "Use a dated policy document, independent dataset, and perspective from an affected country. Make a defensible claim that acknowledges uncertainty rather than treating a presen"
+        ]
+      },
+      "investigationKind": "debate"
+    }
+  }
+}
