@@ -167,6 +167,7 @@
 
   async function render(button) {
     const currentToken = ++token; opener = button;
+    window.ETPClassroom?.clear();
     mount.querySelectorAll('iframe').forEach(f => f.remove());
     chart.replaceChildren(); chart.style.display = 'none';
     mount.replaceChildren(heading('Watch and investigate'),el('p','','Loading selected learning resources…'));
@@ -204,18 +205,19 @@
       topic.sources.forEach(s=>sourceBox.append(link(s.title,s.url)));
       sourceBox.append(el('p','media-caption','Videos are selected educational resources, not a view-count ranking. Some are broader context, as labeled above. Choose a question before watching; compare the video’s claims with the source reading.'));
       const oldLink=document.getElementById('modalSourceLink');oldLink.href=topic.sources[0].url;oldLink.textContent='Open source reading ↗';oldLink.style.display='inline-flex';
+      window.ETPClassroom?.render(topic);
     } catch {
       if(currentToken !== token)return;
       mount.replaceChildren(heading('Learning resources'),el('p','','The media list is temporarily unavailable. The historical overview and source reading below are still available.'));
     }
   }
-  function stop() {++token;mount.querySelectorAll('iframe').forEach(f=>f.remove());if(opener?.isConnected)opener.focus();}
+  function stop() {++token;window.ETPClassroom?.clear();mount.querySelectorAll('iframe').forEach(f=>f.remove());if(opener?.isConnected)opener.focus();}
   modal.addEventListener('keydown',event=>{
     if(event.key!=='Tab')return;
-    const focusable=[...modal.querySelectorAll('button,a[href],iframe')].filter(n=>n.getClientRects().length);
+    const focusable=[...modal.querySelectorAll('button:not(:disabled),a[href],iframe,input:not(:disabled),select:not(:disabled),textarea:not(:disabled),summary')].filter(n=>n.getClientRects().length);
     const first=focusable[0],last=focusable.at(-1);
     if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus();}
     else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus();}
   });
-  window.ETPTimelineDetails={render,stop};
+  window.ETPTimelineDetails={render,stop,catalog};
 })();

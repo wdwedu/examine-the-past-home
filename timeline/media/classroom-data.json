@@ -1,0 +1,3605 @@
+{
+  "version": 1,
+  "topics": [
+    {
+      "id": "t001",
+      "number": 1,
+      "title": "Early Homo sapiens",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “How human origins are reconstructed” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "Which continent provides early fossil evidence for Homo sapiens?",
+          "options": [
+            "Africa",
+            "Antarctica",
+            "South America"
+          ],
+          "correct": 0,
+          "explanation": "Africa. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A video makes a claim about Early Homo sapiens. What is the strongest next step?",
+          "options": [
+            "Check the claim against the linked sources and identify the evidence.",
+            "Accept it because the presenter sounds confident.",
+            "Treat the number of views as proof that it is correct."
+          ],
+          "correct": 0,
+          "explanation": "Confidence and popularity do not establish a historical claim. Corroborate it with evidence."
+        }
+      ]
+    },
+    {
+      "id": "t002",
+      "number": 2,
+      "title": "Fire, Tools & Adaptation",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Fire, food, and cooperation” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "How did controlled fire help early communities?",
+          "options": [
+            "It changed food preparation and protection",
+            "It immediately created writing",
+            "It ended the need for tools"
+          ],
+          "correct": 0,
+          "explanation": "It changed food preparation and protection. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "Two accounts of Fire, Tools & Adaptation disagree. What should you investigate?",
+          "options": [
+            "Who made each account, when, why, and what evidence each uses.",
+            "Which account has the most dramatic soundtrack.",
+            "Which account appears first in search results."
+          ],
+          "correct": 0,
+          "explanation": "Different dates, purposes, perspectives, and access to evidence can explain disagreements."
+        }
+      ]
+    },
+    {
+      "id": "t003",
+      "number": 3,
+      "title": "Last Known Homo erectus",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Why is the youngest known fossil different from an exact extinction date?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "Where were the late-surviving Homo erectus fossils discussed here found?",
+          "options": [
+            "Java",
+            "Greenland",
+            "Peru"
+          ],
+          "correct": 0,
+          "explanation": "Java. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What can the banner for Last Known Homo erectus establish by itself?",
+          "options": [
+            "It is a reconstruction to discuss, not independent proof of what happened.",
+            "Every pictured detail is a documented eyewitness observation.",
+            "A realistic appearance guarantees historical accuracy."
+          ],
+          "correct": 0,
+          "explanation": "The timeline’s banners are illustrative reconstructions. Test their details against historical sources."
+        }
+      ]
+    },
+    {
+      "id": "t004",
+      "number": 4,
+      "title": "Settled Communities Expand",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Settlement was a gradual change” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What change does this entry describe?",
+          "options": [
+            "More settled lifeways alongside food production",
+            "A single worldwide switch to cities",
+            "The invention of steam-powered farming"
+          ],
+          "correct": 0,
+          "explanation": "More settled lifeways alongside food production. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "When using a source about Settled Communities Expand, why identify its creator and audience?",
+          "options": [
+            "They help explain its purpose, perspective, and limitations.",
+            "They guarantee the source contains no omissions.",
+            "They make comparison with other sources unnecessary."
+          ],
+          "correct": 0,
+          "explanation": "A source can reveal valuable evidence while also reflecting its creator’s position and purpose."
+        }
+      ]
+    },
+    {
+      "id": "t005",
+      "number": 5,
+      "title": "Lucy and Australopithecus afarensis",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which skeletal features support an inference about upright walking?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What kind of evidence is Lucy?",
+          "options": [
+            "A fossil skeleton",
+            "A written diary",
+            "A royal law code"
+          ],
+          "correct": 0,
+          "explanation": "A fossil skeleton. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "How can you investigate a missing perspective in Lucy and Australopithecus afarensis?",
+          "options": [
+            "Look for other records or material evidence and state what remains uncertain.",
+            "Invent a quotation that would fit the story.",
+            "Assume the missing group had no experience worth recording."
+          ],
+          "correct": 0,
+          "explanation": "Unequal survival of evidence is a limitation to investigate, not permission to invent testimony."
+        }
+      ]
+    },
+    {
+      "id": "t006",
+      "number": 6,
+      "title": "Early Homo sapiens at Jebel Irhoud",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Jebel Irhoud: anatomy plus context” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "Why did Jebel Irhoud matter?",
+          "options": [
+            "It pushed evidence for early Homo sapiens deeper into the past",
+            "It revealed the first printing press",
+            "It proved all human groups migrated at once"
+          ],
+          "correct": 0,
+          "explanation": "It pushed evidence for early Homo sapiens deeper into the past. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What would make a claim about Early Homo sapiens at Jebel Irhoud stronger?",
+          "options": [
+            "Specific evidence plus an explanation of how it supports the claim.",
+            "More emphatic wording without new evidence.",
+            "Repeating the same claim in several fonts."
+          ],
+          "correct": 0,
+          "explanation": "Historical reasoning connects a claim to relevant evidence and explains that connection."
+        }
+      ]
+    },
+    {
+      "id": "t007",
+      "number": 7,
+      "title": "Symbolic Culture at Blombos Cave",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "What makes an interpretation of symbolic behavior stronger than a guess?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What do engraved ochre and shell beads help researchers investigate?",
+          "options": [
+            "Symbolic behavior",
+            "Steam technology",
+            "Imperial taxation"
+          ],
+          "correct": 0,
+          "explanation": "Symbolic behavior. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A broad overview discusses Symbolic Culture at Blombos Cave. What should a careful viewer avoid?",
+          "options": [
+            "Assuming every community experienced the same change in the same way.",
+            "Checking the dates and places discussed.",
+            "Comparing experiences across regions."
+          ],
+          "correct": 0,
+          "explanation": "Broad patterns can hide differences in place, timing, and lived experience. Compare specific cases."
+        }
+      ]
+    },
+    {
+      "id": "t008",
+      "number": 8,
+      "title": "Major Human Migrations Expand",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “How researchers trace migration” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "How should major human migrations be understood?",
+          "options": [
+            "As movements with adaptation and interaction",
+            "As one journey with no interaction",
+            "As travel along modern national borders"
+          ],
+          "correct": 0,
+          "explanation": "As movements with adaptation and interaction. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What should you do if a date or interpretation of Major Human Migrations Expand is uncertain?",
+          "options": [
+            "State the uncertainty and check the sources supporting each interpretation.",
+            "Change the date to the one that makes the story simpler.",
+            "Remove every source that complicates the story."
+          ],
+          "correct": 0,
+          "explanation": "Historical accounts should distinguish well-supported conclusions from uncertainty or debate."
+        }
+      ]
+    },
+    {
+      "id": "t009",
+      "number": 9,
+      "title": "Last Glacial Maximum",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Climate changes the landscape” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What happened during the Last Glacial Maximum?",
+          "options": [
+            "Ice sheets expanded and sea levels fell",
+            "All ice sheets disappeared",
+            "Sea levels stayed unchanged everywhere"
+          ],
+          "correct": 0,
+          "explanation": "Ice sheets expanded and sea levels fell. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A video makes a claim about Last Glacial Maximum. What is the strongest next step?",
+          "options": [
+            "Check the claim against the linked sources and identify the evidence.",
+            "Accept it because the presenter sounds confident.",
+            "Treat the number of views as proof that it is correct."
+          ],
+          "correct": 0,
+          "explanation": "Confidence and popularity do not establish a historical claim. Corroborate it with evidence."
+        }
+      ]
+    },
+    {
+      "id": "t010",
+      "number": 10,
+      "title": "Agriculture Takes Root",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Food production and social change” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "How did agriculture develop?",
+          "options": [
+            "Independently in multiple regions",
+            "Only once in a modern nation-state",
+            "Everywhere on the same date"
+          ],
+          "correct": 0,
+          "explanation": "Independently in multiple regions. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "Two accounts of Agriculture Takes Root disagree. What should you investigate?",
+          "options": [
+            "Who made each account, when, why, and what evidence each uses.",
+            "Which account has the most dramatic soundtrack.",
+            "Which account appears first in search results."
+          ],
+          "correct": 0,
+          "explanation": "Different dates, purposes, perspectives, and access to evidence can explain disagreements."
+        }
+      ]
+    },
+    {
+      "id": "t011",
+      "number": 11,
+      "title": "Writing Systems Emerge",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Whose experience is most likely to appear in an official written record—and whose might be missing?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What was one early use of writing?",
+          "options": [
+            "Recording transactions and institutions",
+            "Broadcasting radio programs",
+            "Operating steam engines"
+          ],
+          "correct": 0,
+          "explanation": "Recording transactions and institutions. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What can the banner for Writing Systems Emerge establish by itself?",
+          "options": [
+            "It is a reconstruction to discuss, not independent proof of what happened.",
+            "Every pictured detail is a documented eyewitness observation.",
+            "A realistic appearance guarantees historical accuracy."
+          ],
+          "correct": 0,
+          "explanation": "The timeline’s banners are illustrative reconstructions. Test their details against historical sources."
+        }
+      ]
+    },
+    {
+      "id": "t012",
+      "number": 12,
+      "title": "Pyramids of Giza",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Building a pyramid required a system” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What did pyramid building require?",
+          "options": [
+            "Organized labor and engineering",
+            "Modern electric cranes",
+            "A society without central authority"
+          ],
+          "correct": 0,
+          "explanation": "Organized labor and engineering. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "When using a source about Pyramids of Giza, why identify its creator and audience?",
+          "options": [
+            "They help explain its purpose, perspective, and limitations.",
+            "They guarantee the source contains no omissions.",
+            "They make comparison with other sources unnecessary."
+          ],
+          "correct": 0,
+          "explanation": "A source can reveal valuable evidence while also reflecting its creator’s position and purpose."
+        }
+      ]
+    },
+    {
+      "id": "t013",
+      "number": 13,
+      "title": "Hammurabi’s Judgments",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "What can a royal law monument tell us about ideals, and what does it leave uncertain about daily practice?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What does Hammurabi’s stela preserve?",
+          "options": [
+            "Royal legal judgments",
+            "A modern constitution with universal equal rights",
+            "The earliest photographs"
+          ],
+          "correct": 0,
+          "explanation": "Royal legal judgments. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "How can you investigate a missing perspective in Hammurabi’s Judgments?",
+          "options": [
+            "Look for other records or material evidence and state what remains uncertain.",
+            "Invent a quotation that would fit the story.",
+            "Assume the missing group had no experience worth recording."
+          ],
+          "correct": 0,
+          "explanation": "Unequal survival of evidence is a limitation to investigate, not permission to invent testimony."
+        }
+      ]
+    },
+    {
+      "id": "t014",
+      "number": 14,
+      "title": "Uruk and the Rise of Cities",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “How an early city worked” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "Why is Uruk significant?",
+          "options": [
+            "It was an early large urban center",
+            "It was a nineteenth-century factory town",
+            "It was the capital of the Inca Empire"
+          ],
+          "correct": 0,
+          "explanation": "It was an early large urban center. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What would make a claim about Uruk and the Rise of Cities stronger?",
+          "options": [
+            "Specific evidence plus an explanation of how it supports the claim.",
+            "More emphatic wording without new evidence.",
+            "Repeating the same claim in several fonts."
+          ],
+          "correct": 0,
+          "explanation": "Historical reasoning connects a claim to relevant evidence and explains that connection."
+        }
+      ]
+    },
+    {
+      "id": "t015",
+      "number": 15,
+      "title": "Indus Valley Urban Civilization",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "How does an undeciphered writing system limit historical interpretation?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What distinguishes Harappan cities in this entry?",
+          "options": [
+            "Planned streets and drainage",
+            "Steam-powered transport",
+            "A fully deciphered script"
+          ],
+          "correct": 0,
+          "explanation": "Planned streets and drainage. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A broad overview discusses Indus Valley Urban Civilization. What should a careful viewer avoid?",
+          "options": [
+            "Assuming every community experienced the same change in the same way.",
+            "Checking the dates and places discussed.",
+            "Comparing experiences across regions."
+          ],
+          "correct": 0,
+          "explanation": "Broad patterns can hide differences in place, timing, and lived experience. Compare specific cases."
+        }
+      ]
+    },
+    {
+      "id": "t016",
+      "number": 16,
+      "title": "Kerma and Ancient Nubia",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Kerma in a connected Nile Valley” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "Where did Kerma develop?",
+          "options": [
+            "Along the Nile south of Egypt",
+            "In northern Europe",
+            "In the central Andes"
+          ],
+          "correct": 0,
+          "explanation": "Along the Nile south of Egypt. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What should you do if a date or interpretation of Kerma and Ancient Nubia is uncertain?",
+          "options": [
+            "State the uncertainty and check the sources supporting each interpretation.",
+            "Change the date to the one that makes the story simpler.",
+            "Remove every source that complicates the story."
+          ],
+          "correct": 0,
+          "explanation": "Historical accounts should distinguish well-supported conclusions from uncertainty or debate."
+        }
+      ]
+    },
+    {
+      "id": "t017",
+      "number": 17,
+      "title": "Ironworking in Africa",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “From ore to a working tool” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "How could ironworking transform communities?",
+          "options": [
+            "By changing tools, farming, and crafts",
+            "By eliminating the need for labor",
+            "By making all societies identical"
+          ],
+          "correct": 0,
+          "explanation": "By changing tools, farming, and crafts. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A video makes a claim about Ironworking in Africa. What is the strongest next step?",
+          "options": [
+            "Check the claim against the linked sources and identify the evidence.",
+            "Accept it because the presenter sounds confident.",
+            "Treat the number of views as proof that it is correct."
+          ],
+          "correct": 0,
+          "explanation": "Confidence and popularity do not establish a historical claim. Corroborate it with evidence."
+        }
+      ]
+    },
+    {
+      "id": "t018",
+      "number": 18,
+      "title": "Hatshepsut",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “How Hatshepsut expressed kingship” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "How did Hatshepsut strengthen her rule?",
+          "options": [
+            "Through trade, building, and royal imagery",
+            "By inventing democratic elections",
+            "By ruling the Roman Empire"
+          ],
+          "correct": 0,
+          "explanation": "Through trade, building, and royal imagery. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "Two accounts of Hatshepsut disagree. What should you investigate?",
+          "options": [
+            "Who made each account, when, why, and what evidence each uses.",
+            "Which account has the most dramatic soundtrack.",
+            "Which account appears first in search results."
+          ],
+          "correct": 0,
+          "explanation": "Different dates, purposes, perspectives, and access to evidence can explain disagreements."
+        }
+      ]
+    },
+    {
+      "id": "t019",
+      "number": 19,
+      "title": "Democracy in Athens",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "How democratic was Athens when participation and exclusion are both considered?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "Who could participate in Athenian democracy?",
+          "options": [
+            "Male citizens, with many residents excluded",
+            "Every resident on equal terms",
+            "Only visiting foreign merchants"
+          ],
+          "correct": 0,
+          "explanation": "Male citizens, with many residents excluded. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What can the banner for Democracy in Athens establish by itself?",
+          "options": [
+            "It is a reconstruction to discuss, not independent proof of what happened.",
+            "Every pictured detail is a documented eyewitness observation.",
+            "A realistic appearance guarantees historical accuracy."
+          ],
+          "correct": 0,
+          "explanation": "The timeline’s banners are illustrative reconstructions. Test their details against historical sources."
+        }
+      ]
+    },
+    {
+      "id": "t020",
+      "number": 20,
+      "title": "Philosophies & Faith Traditions",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Ideas travel through people and institutions” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What does this entry show about philosophical traditions?",
+          "options": [
+            "Influential traditions developed in several regions",
+            "All ethical ideas came from one city",
+            "Religious beliefs ended long-distance exchange"
+          ],
+          "correct": 0,
+          "explanation": "Influential traditions developed in several regions. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "When using a source about Philosophies & Faith Traditions, why identify its creator and audience?",
+          "options": [
+            "They help explain its purpose, perspective, and limitations.",
+            "They guarantee the source contains no omissions.",
+            "They make comparison with other sources unnecessary."
+          ],
+          "correct": 0,
+          "explanation": "A source can reveal valuable evidence while also reflecting its creator’s position and purpose."
+        }
+      ]
+    },
+    {
+      "id": "t021",
+      "number": 21,
+      "title": "Silk Roads Networks",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "How could the same connections carry both new opportunities and new dangers?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What were the Silk Roads?",
+          "options": [
+            "Interconnected overland and maritime networks",
+            "A single paved road owned by one state",
+            "A route used only to transport silk"
+          ],
+          "correct": 0,
+          "explanation": "Interconnected overland and maritime networks. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "How can you investigate a missing perspective in Silk Roads Networks?",
+          "options": [
+            "Look for other records or material evidence and state what remains uncertain.",
+            "Invent a quotation that would fit the story.",
+            "Assume the missing group had no experience worth recording."
+          ],
+          "correct": 0,
+          "explanation": "Unequal survival of evidence is a limitation to investigate, not permission to invent testimony."
+        }
+      ]
+    },
+    {
+      "id": "t022",
+      "number": 22,
+      "title": "Kingdom of Kush at Meroë",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Meroë and regional power” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What connected Meroë to wider networks?",
+          "options": [
+            "Its role in a major Nile Valley state",
+            "Its location in medieval Japan",
+            "Its control of Atlantic steamship routes"
+          ],
+          "correct": 0,
+          "explanation": "Its role in a major Nile Valley state. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What would make a claim about Kingdom of Kush at Meroë stronger?",
+          "options": [
+            "Specific evidence plus an explanation of how it supports the claim.",
+            "More emphatic wording without new evidence.",
+            "Repeating the same claim in several fonts."
+          ],
+          "correct": 0,
+          "explanation": "Historical reasoning connects a claim to relevant evidence and explains that connection."
+        }
+      ]
+    },
+    {
+      "id": "t023",
+      "number": 23,
+      "title": "Mauryan Empire and Ashoka",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Conquest, kingship, and public ethics” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What did Ashoka’s inscriptions connect to government?",
+          "options": [
+            "Buddhist ethics",
+            "Modern parliamentary elections",
+            "Atlantic colonial trade"
+          ],
+          "correct": 0,
+          "explanation": "Buddhist ethics. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A broad overview discusses Mauryan Empire and Ashoka. What should a careful viewer avoid?",
+          "options": [
+            "Assuming every community experienced the same change in the same way.",
+            "Checking the dates and places discussed.",
+            "Comparing experiences across regions."
+          ],
+          "correct": 0,
+          "explanation": "Broad patterns can hide differences in place, timing, and lived experience. Compare specific cases."
+        }
+      ]
+    },
+    {
+      "id": "t024",
+      "number": 24,
+      "title": "Imperial China Unifies",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Unification and durable institutions” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What was an important result of Qin unification and the Han era?",
+          "options": [
+            "Durable institutions and imperial traditions",
+            "The end of all political administration",
+            "A modern nation-state with unchanged borders"
+          ],
+          "correct": 0,
+          "explanation": "Durable institutions and imperial traditions. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What should you do if a date or interpretation of Imperial China Unifies is uncertain?",
+          "options": [
+            "State the uncertainty and check the sources supporting each interpretation.",
+            "Change the date to the one that makes the story simpler.",
+            "Remove every source that complicates the story."
+          ],
+          "correct": 0,
+          "explanation": "Historical accounts should distinguish well-supported conclusions from uncertainty or debate."
+        }
+      ]
+    },
+    {
+      "id": "t025",
+      "number": 25,
+      "title": "Kingdom of Aksum",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Aksum's commercial world” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "Why was Aksum’s location important?",
+          "options": [
+            "It linked the African interior with Red Sea trade",
+            "It isolated the state from exchange",
+            "It made Aksum a Caribbean port"
+          ],
+          "correct": 0,
+          "explanation": "It linked the African interior with Red Sea trade. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A video makes a claim about Kingdom of Aksum. What is the strongest next step?",
+          "options": [
+            "Check the claim against the linked sources and identify the evidence.",
+            "Accept it because the presenter sounds confident.",
+            "Treat the number of views as proof that it is correct."
+          ],
+          "correct": 0,
+          "explanation": "Confidence and popularity do not establish a historical claim. Corroborate it with evidence."
+        }
+      ]
+    },
+    {
+      "id": "t026",
+      "number": 26,
+      "title": "Classic Maya Cities",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Maya cities: several kinds of evidence” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "Which accomplishments belong to Classic Maya cities?",
+          "options": [
+            "Writing, astronomy, and monumental architecture",
+            "Steam railways and telegraphs",
+            "European movable-metal-type printing"
+          ],
+          "correct": 0,
+          "explanation": "Writing, astronomy, and monumental architecture. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "Two accounts of Classic Maya Cities disagree. What should you investigate?",
+          "options": [
+            "Who made each account, when, why, and what evidence each uses.",
+            "Which account has the most dramatic soundtrack.",
+            "Which account appears first in search results."
+          ],
+          "correct": 0,
+          "explanation": "Different dates, purposes, perspectives, and access to evidence can explain disagreements."
+        }
+      ]
+    },
+    {
+      "id": "t027",
+      "number": 27,
+      "title": "Confucius",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Confucian ideas in social relationships” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "Which areas did Confucius’s teaching influence?",
+          "options": [
+            "Ethics, education, family, and government",
+            "Nuclear engineering",
+            "Atlantic navigation"
+          ],
+          "correct": 0,
+          "explanation": "Ethics, education, family, and government. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What can the banner for Confucius establish by itself?",
+          "options": [
+            "It is a reconstruction to discuss, not independent proof of what happened.",
+            "Every pictured detail is a documented eyewitness observation.",
+            "A realistic appearance guarantees historical accuracy."
+          ],
+          "correct": 0,
+          "explanation": "The timeline’s banners are illustrative reconstructions. Test their details against historical sources."
+        }
+      ]
+    },
+    {
+      "id": "t028",
+      "number": 28,
+      "title": "Ashoka",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Ashoka: ideals and evidence” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What change is associated with Ashoka after a major war?",
+          "options": [
+            "Promotion of Buddhist ethics and public welfare",
+            "Creation of a European printing network",
+            "The invention of photography"
+          ],
+          "correct": 0,
+          "explanation": "Promotion of Buddhist ethics and public welfare. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "When using a source about Ashoka, why identify its creator and audience?",
+          "options": [
+            "They help explain its purpose, perspective, and limitations.",
+            "They guarantee the source contains no omissions.",
+            "They make comparison with other sources unnecessary."
+          ],
+          "correct": 0,
+          "explanation": "A source can reveal valuable evidence while also reflecting its creator’s position and purpose."
+        }
+      ]
+    },
+    {
+      "id": "t029",
+      "number": 29,
+      "title": "Hypatia of Alexandria",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "How did intellectual life depend on relationships beyond the classroom?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What fields did Hypatia teach?",
+          "options": [
+            "Mathematics, astronomy, and philosophy",
+            "Steam locomotive engineering",
+            "Modern computer programming"
+          ],
+          "correct": 0,
+          "explanation": "Mathematics, astronomy, and philosophy. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "How can you investigate a missing perspective in Hypatia of Alexandria?",
+          "options": [
+            "Look for other records or material evidence and state what remains uncertain.",
+            "Invent a quotation that would fit the story.",
+            "Assume the missing group had no experience worth recording."
+          ],
+          "correct": 0,
+          "explanation": "Unequal survival of evidence is a limitation to investigate, not permission to invent testimony."
+        }
+      ]
+    },
+    {
+      "id": "t030",
+      "number": 30,
+      "title": "Kingdoms & Courts",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Political authority took several forms” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What does the variety of medieval governments show?",
+          "options": [
+            "Political authority took several forms",
+            "Every region used one identical system",
+            "City-states existed only in modern times"
+          ],
+          "correct": 0,
+          "explanation": "Political authority took several forms. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What would make a claim about Kingdoms & Courts stronger?",
+          "options": [
+            "Specific evidence plus an explanation of how it supports the claim.",
+            "More emphatic wording without new evidence.",
+            "Repeating the same claim in several fonts."
+          ],
+          "correct": 0,
+          "explanation": "Historical reasoning connects a claim to relevant evidence and explains that connection."
+        }
+      ]
+    },
+    {
+      "id": "t031",
+      "number": 31,
+      "title": "Centers of Learning Flourish",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Knowledge across languages” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What did scholars in Islamic centers of learning do?",
+          "options": [
+            "Translate, debate, and extend knowledge",
+            "Only copy texts without adding ideas",
+            "Work without connections to earlier traditions"
+          ],
+          "correct": 0,
+          "explanation": "Translate, debate, and extend knowledge. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A broad overview discusses Centers of Learning Flourish. What should a careful viewer avoid?",
+          "options": [
+            "Assuming every community experienced the same change in the same way.",
+            "Checking the dates and places discussed.",
+            "Comparing experiences across regions."
+          ],
+          "correct": 0,
+          "explanation": "Broad patterns can hide differences in place, timing, and lived experience. Compare specific cases."
+        }
+      ]
+    },
+    {
+      "id": "t032",
+      "number": 32,
+      "title": "Crusading Movements",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Religiously framed warfare and violence.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Several forces shaped crusading” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What were the Crusading Movements?",
+          "options": [
+            "Religiously framed military campaigns",
+            "One peaceful scientific expedition",
+            "A single campaign with no political effects"
+          ],
+          "correct": 0,
+          "explanation": "Religiously framed military campaigns. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What should you do if a date or interpretation of Crusading Movements is uncertain?",
+          "options": [
+            "State the uncertainty and check the sources supporting each interpretation.",
+            "Change the date to the one that makes the story simpler.",
+            "Remove every source that complicates the story."
+          ],
+          "correct": 0,
+          "explanation": "Historical accounts should distinguish well-supported conclusions from uncertainty or debate."
+        }
+      ]
+    },
+    {
+      "id": "t033",
+      "number": 33,
+      "title": "The Black Death",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Mass death and disease.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Pandemic and social change” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What was a major effect of the Black Death?",
+          "options": [
+            "Catastrophic mortality and social and economic change",
+            "The immediate end of all trade everywhere",
+            "A minor event with no demographic effects"
+          ],
+          "correct": 0,
+          "explanation": "Catastrophic mortality and social and economic change. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A video makes a claim about The Black Death. What is the strongest next step?",
+          "options": [
+            "Check the claim against the linked sources and identify the evidence.",
+            "Accept it because the presenter sounds confident.",
+            "Treat the number of views as proof that it is correct."
+          ],
+          "correct": 0,
+          "explanation": "Confidence and popularity do not establish a historical claim. Corroborate it with evidence."
+        }
+      ]
+    },
+    {
+      "id": "t034",
+      "number": 34,
+      "title": "Ghana Empire and Trans-Saharan Trade",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Wagadu/Ghana and trans-Saharan exchange” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What helped Ghana Empire grow wealthy?",
+          "options": [
+            "Control of trans-Saharan trade",
+            "Ownership of Atlantic steamship fleets",
+            "Isolation from neighboring regions"
+          ],
+          "correct": 0,
+          "explanation": "Control of trans-Saharan trade. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "Two accounts of Ghana Empire and Trans-Saharan Trade disagree. What should you investigate?",
+          "options": [
+            "Who made each account, when, why, and what evidence each uses.",
+            "Which account has the most dramatic soundtrack.",
+            "Which account appears first in search results."
+          ],
+          "correct": 0,
+          "explanation": "Different dates, purposes, perspectives, and access to evidence can explain disagreements."
+        }
+      ]
+    },
+    {
+      "id": "t035",
+      "number": 35,
+      "title": "Swahili Coast City-States",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Swahili cities and the Indian Ocean” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What connected Swahili cities to the wider world?",
+          "options": [
+            "Indian Ocean trade",
+            "Only transatlantic railways",
+            "Complete separation from maritime networks"
+          ],
+          "correct": 0,
+          "explanation": "Indian Ocean trade. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What can the banner for Swahili Coast City-States establish by itself?",
+          "options": [
+            "It is a reconstruction to discuss, not independent proof of what happened.",
+            "Every pictured detail is a documented eyewitness observation.",
+            "A realistic appearance guarantees historical accuracy."
+          ],
+          "correct": 0,
+          "explanation": "The timeline’s banners are illustrative reconstructions. Test their details against historical sources."
+        }
+      ]
+    },
+    {
+      "id": "t036",
+      "number": 36,
+      "title": "Great Zimbabwe",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Great Zimbabwe's regional connections” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What does Great Zimbabwe demonstrate?",
+          "options": [
+            "A powerful southern African state with regional and oceanic connections",
+            "A European-built city without African agency",
+            "A settlement without long-distance exchange"
+          ],
+          "correct": 0,
+          "explanation": "A powerful southern African state with regional and oceanic connections. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "When using a source about Great Zimbabwe, why identify its creator and audience?",
+          "options": [
+            "They help explain its purpose, perspective, and limitations.",
+            "They guarantee the source contains no omissions.",
+            "They make comparison with other sources unnecessary."
+          ],
+          "correct": 0,
+          "explanation": "A source can reveal valuable evidence while also reflecting its creator’s position and purpose."
+        }
+      ]
+    },
+    {
+      "id": "t037",
+      "number": 37,
+      "title": "Mali Empire",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Power in the Mali Empire” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What supported Mali’s influence?",
+          "options": [
+            "Gold-producing regions and trade routes",
+            "Control of the Pacific Ocean",
+            "Nineteenth-century steam factories"
+          ],
+          "correct": 0,
+          "explanation": "Gold-producing regions and trade routes. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "How can you investigate a missing perspective in Mali Empire?",
+          "options": [
+            "Look for other records or material evidence and state what remains uncertain.",
+            "Invent a quotation that would fit the story.",
+            "Assume the missing group had no experience worth recording."
+          ],
+          "correct": 0,
+          "explanation": "Unequal survival of evidence is a limitation to investigate, not permission to invent testimony."
+        }
+      ]
+    },
+    {
+      "id": "t038",
+      "number": 38,
+      "title": "Mansa Musa’s Pilgrimage",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "How could a religious journey also influence trade and political reputation?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What did Mansa Musa’s pilgrimage reveal?",
+          "options": [
+            "West Africa’s wealth and wider connections",
+            "That Mali had no links beyond its borders",
+            "That all African states shared one ruler"
+          ],
+          "correct": 0,
+          "explanation": "West Africa’s wealth and wider connections. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What would make a claim about Mansa Musa’s Pilgrimage stronger?",
+          "options": [
+            "Specific evidence plus an explanation of how it supports the claim.",
+            "More emphatic wording without new evidence.",
+            "Repeating the same claim in several fonts."
+          ],
+          "correct": 0,
+          "explanation": "Historical reasoning connects a claim to relevant evidence and explains that connection."
+        }
+      ]
+    },
+    {
+      "id": "t039",
+      "number": 39,
+      "title": "The 1054 Supernova Remembered",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "What changes when a written observation is compared with modern physical evidence?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What is the 1054 guest star associated with today?",
+          "options": [
+            "The Crab Nebula",
+            "The first Moon landing",
+            "An eclipse caused by a modern satellite"
+          ],
+          "correct": 0,
+          "explanation": "The Crab Nebula. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A broad overview discusses The 1054 Supernova Remembered. What should a careful viewer avoid?",
+          "options": [
+            "Assuming every community experienced the same change in the same way.",
+            "Checking the dates and places discussed.",
+            "Comparing experiences across regions."
+          ],
+          "correct": 0,
+          "explanation": "Broad patterns can hide differences in place, timing, and lived experience. Compare specific cases."
+        }
+      ]
+    },
+    {
+      "id": "t040",
+      "number": 40,
+      "title": "Ibn Sina (Avicenna)",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Ibn Sina's intellectual world” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "Why did Ibn Sina’s writings matter?",
+          "options": [
+            "They influenced medicine and philosophy across regions",
+            "They introduced steam power to Japan",
+            "They ended all scientific debate"
+          ],
+          "correct": 0,
+          "explanation": "They influenced medicine and philosophy across regions. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What should you do if a date or interpretation of Ibn Sina (Avicenna) is uncertain?",
+          "options": [
+            "State the uncertainty and check the sources supporting each interpretation.",
+            "Change the date to the one that makes the story simpler.",
+            "Remove every source that complicates the story."
+          ],
+          "correct": 0,
+          "explanation": "Historical accounts should distinguish well-supported conclusions from uncertainty or debate."
+        }
+      ]
+    },
+    {
+      "id": "t041",
+      "number": 41,
+      "title": "Murasaki Shikibu",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “A text gains a long artistic afterlife” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "Which work is associated with Murasaki Shikibu?",
+          "options": [
+            "The Tale of Genji",
+            "The Gutenberg Bible",
+            "Hammurabi’s judgments"
+          ],
+          "correct": 0,
+          "explanation": "The Tale of Genji. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A video makes a claim about Murasaki Shikibu. What is the strongest next step?",
+          "options": [
+            "Check the claim against the linked sources and identify the evidence.",
+            "Accept it because the presenter sounds confident.",
+            "Treat the number of views as proof that it is correct."
+          ],
+          "correct": 0,
+          "explanation": "Confidence and popularity do not establish a historical claim. Corroborate it with evidence."
+        }
+      ]
+    },
+    {
+      "id": "t042",
+      "number": 42,
+      "title": "Tenochtitlan Is Founded",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Engineering a city in a lake” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "Where was Tenochtitlan founded?",
+          "options": [
+            "On an island in Lake Texcoco",
+            "On the banks of the Nile",
+            "On the coast of medieval England"
+          ],
+          "correct": 0,
+          "explanation": "On an island in Lake Texcoco. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "Two accounts of Tenochtitlan Is Founded disagree. What should you investigate?",
+          "options": [
+            "Who made each account, when, why, and what evidence each uses.",
+            "Which account has the most dramatic soundtrack.",
+            "Which account appears first in search results."
+          ],
+          "correct": 0,
+          "explanation": "Different dates, purposes, perspectives, and access to evidence can explain disagreements."
+        }
+      ]
+    },
+    {
+      "id": "t043",
+      "number": 43,
+      "title": "Print Expands",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “From type to circulating ideas” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "How did European printing affect communication?",
+          "options": [
+            "It accelerated the circulation of texts",
+            "It created the world’s first-ever printing tradition",
+            "It stopped religious and scientific debate"
+          ],
+          "correct": 0,
+          "explanation": "It accelerated the circulation of texts. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What can the banner for Print Expands establish by itself?",
+          "options": [
+            "It is a reconstruction to discuss, not independent proof of what happened.",
+            "Every pictured detail is a documented eyewitness observation.",
+            "A realistic appearance guarantees historical accuracy."
+          ],
+          "correct": 0,
+          "explanation": "The timeline’s banners are illustrative reconstructions. Test their details against historical sources."
+        }
+      ]
+    },
+    {
+      "id": "t044",
+      "number": 44,
+      "title": "Oceanic Networks Intensify",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “An unequal Atlantic connection” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What accompanied expanding oceanic networks?",
+          "options": [
+            "Commerce, conquest, colonization, and forced migration",
+            "Only peaceful and equal exchange",
+            "The disappearance of older regional networks"
+          ],
+          "correct": 0,
+          "explanation": "Commerce, conquest, colonization, and forced migration. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "When using a source about Oceanic Networks Intensify, why identify its creator and audience?",
+          "options": [
+            "They help explain its purpose, perspective, and limitations.",
+            "They guarantee the source contains no omissions.",
+            "They make comparison with other sources unnecessary."
+          ],
+          "correct": 0,
+          "explanation": "A source can reveal valuable evidence while also reflecting its creator’s position and purpose."
+        }
+      ]
+    },
+    {
+      "id": "t045",
+      "number": 45,
+      "title": "Scientific Revolution",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Testing explanations of nature” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What helped drive the Scientific Revolution?",
+          "options": [
+            "Observation, mathematics, and instruments",
+            "An end to testing explanations",
+            "Universal agreement with inherited explanations"
+          ],
+          "correct": 0,
+          "explanation": "Observation, mathematics, and instruments. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "How can you investigate a missing perspective in Scientific Revolution?",
+          "options": [
+            "Look for other records or material evidence and state what remains uncertain.",
+            "Invent a quotation that would fit the story.",
+            "Assume the missing group had no experience worth recording."
+          ],
+          "correct": 0,
+          "explanation": "Unequal survival of evidence is a limitation to investigate, not permission to invent testimony."
+        }
+      ]
+    },
+    {
+      "id": "t046",
+      "number": 46,
+      "title": "Kingdom of Benin",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "How does an object’s removal and later display change the questions historians ask?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What is associated with the Kingdom of Benin?",
+          "options": [
+            "Edo court culture and brass and ivory art",
+            "The Maya writing system",
+            "The court of medieval Kyoto"
+          ],
+          "correct": 0,
+          "explanation": "Edo court culture and brass and ivory art. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What would make a claim about Kingdom of Benin stronger?",
+          "options": [
+            "Specific evidence plus an explanation of how it supports the claim.",
+            "More emphatic wording without new evidence.",
+            "Repeating the same claim in several fonts."
+          ],
+          "correct": 0,
+          "explanation": "Historical reasoning connects a claim to relevant evidence and explains that connection."
+        }
+      ]
+    },
+    {
+      "id": "t047",
+      "number": 47,
+      "title": "Kingdom of Kongo",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Kongo and the Atlantic world” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What relationships did Kongo develop?",
+          "options": [
+            "Regional power and connections with Portugal and the Atlantic world",
+            "Only connections to the Arctic",
+            "Rule over all of Europe"
+          ],
+          "correct": 0,
+          "explanation": "Regional power and connections with Portugal and the Atlantic world. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A broad overview discusses Kingdom of Kongo. What should a careful viewer avoid?",
+          "options": [
+            "Assuming every community experienced the same change in the same way.",
+            "Checking the dates and places discussed.",
+            "Comparing experiences across regions."
+          ],
+          "correct": 0,
+          "explanation": "Broad patterns can hide differences in place, timing, and lived experience. Compare specific cases."
+        }
+      ]
+    },
+    {
+      "id": "t048",
+      "number": 48,
+      "title": "Columbian Exchange",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Exchange had unequal consequences” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What moved through the Columbian Exchange?",
+          "options": [
+            "Plants, animals, pathogens, and people",
+            "Only printed books",
+            "Goods without biological or human consequences"
+          ],
+          "correct": 0,
+          "explanation": "Plants, animals, pathogens, and people. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What should you do if a date or interpretation of Columbian Exchange is uncertain?",
+          "options": [
+            "State the uncertainty and check the sources supporting each interpretation.",
+            "Change the date to the one that makes the story simpler.",
+            "Remove every source that complicates the story."
+          ],
+          "correct": 0,
+          "explanation": "Historical accounts should distinguish well-supported conclusions from uncertainty or debate."
+        }
+      ]
+    },
+    {
+      "id": "t049",
+      "number": 49,
+      "title": "Atlantic Slave Trade Expands",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Enslavement, forced migration, and racial violence.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which sources recover the actions and perspectives of enslaved people themselves?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What defines the Atlantic slave trade?",
+          "options": [
+            "The forced transportation of millions of Africans",
+            "Voluntary tourism across the Atlantic",
+            "An exchange limited to manufactured goods"
+          ],
+          "correct": 0,
+          "explanation": "The forced transportation of millions of Africans. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A video makes a claim about Atlantic Slave Trade Expands. What is the strongest next step?",
+          "options": [
+            "Check the claim against the linked sources and identify the evidence.",
+            "Accept it because the presenter sounds confident.",
+            "Treat the number of views as proof that it is correct."
+          ],
+          "correct": 0,
+          "explanation": "Confidence and popularity do not establish a historical claim. Corroborate it with evidence."
+        }
+      ]
+    },
+    {
+      "id": "t050",
+      "number": 50,
+      "title": "Songhai Falls, West African Networks Continue",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Political collapse did not end regional life” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What followed Songhai’s defeat in 1591?",
+          "options": [
+            "West African trade and scholarship continued in changing networks",
+            "All West African intellectual life ended",
+            "The entire region became politically uniform"
+          ],
+          "correct": 0,
+          "explanation": "West African trade and scholarship continued in changing networks. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "Two accounts of Songhai Falls, West African Networks Continue disagree. What should you investigate?",
+          "options": [
+            "Who made each account, when, why, and what evidence each uses.",
+            "Which account has the most dramatic soundtrack.",
+            "Which account appears first in search results."
+          ],
+          "correct": 0,
+          "explanation": "Different dates, purposes, perspectives, and access to evidence can explain disagreements."
+        }
+      ]
+    },
+    {
+      "id": "t051",
+      "number": 51,
+      "title": "Queen Nzinga",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Nzinga's strategies of resistance” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "How did Queen Nzinga resist Portuguese expansion?",
+          "options": [
+            "Diplomacy, warfare, and shifting alliances",
+            "Rule over the Portuguese parliament",
+            "Withdrawal from all regional politics"
+          ],
+          "correct": 0,
+          "explanation": "Diplomacy, warfare, and shifting alliances. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What can the banner for Queen Nzinga establish by itself?",
+          "options": [
+            "It is a reconstruction to discuss, not independent proof of what happened.",
+            "Every pictured detail is a documented eyewitness observation.",
+            "A realistic appearance guarantees historical accuracy."
+          ],
+          "correct": 0,
+          "explanation": "The timeline’s banners are illustrative reconstructions. Test their details against historical sources."
+        }
+      ]
+    },
+    {
+      "id": "t052",
+      "number": 52,
+      "title": "Galileo Galilei",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Observation and authority” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What was central to Galileo’s work?",
+          "options": [
+            "Telescopic observation and mathematical analysis",
+            "Satellite photography",
+            "The rejection of all measurement"
+          ],
+          "correct": 0,
+          "explanation": "Telescopic observation and mathematical analysis. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "When using a source about Galileo Galilei, why identify its creator and audience?",
+          "options": [
+            "They help explain its purpose, perspective, and limitations.",
+            "They guarantee the source contains no omissions.",
+            "They make comparison with other sources unnecessary."
+          ],
+          "correct": 0,
+          "explanation": "A source can reveal valuable evidence while also reflecting its creator’s position and purpose."
+        }
+      ]
+    },
+    {
+      "id": "t053",
+      "number": 53,
+      "title": "Gutenberg Bible Is Printed",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “A printed book is a manufactured object” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "Why was the Gutenberg Bible a landmark?",
+          "options": [
+            "It demonstrated an influential European movable-type printing system",
+            "It was the first printed work anywhere in the world",
+            "It introduced handwritten books to Europe"
+          ],
+          "correct": 0,
+          "explanation": "It demonstrated an influential European movable-type printing system. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "How can you investigate a missing perspective in Gutenberg Bible Is Printed?",
+          "options": [
+            "Look for other records or material evidence and state what remains uncertain.",
+            "Invent a quotation that would fit the story.",
+            "Assume the missing group had no experience worth recording."
+          ],
+          "correct": 0,
+          "explanation": "Unequal survival of evidence is a limitation to investigate, not permission to invent testimony."
+        }
+      ]
+    },
+    {
+      "id": "t054",
+      "number": 54,
+      "title": "American Independence",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "How should historians compare universal rights language with exclusion in practice?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What did the Declaration of Independence do in 1776?",
+          "options": [
+            "Articulate claims about rights and government while war continued",
+            "Immediately end the Revolutionary War",
+            "Extend equal political rights to everyone"
+          ],
+          "correct": 0,
+          "explanation": "Articulate claims about rights and government while war continued. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What would make a claim about American Independence stronger?",
+          "options": [
+            "Specific evidence plus an explanation of how it supports the claim.",
+            "More emphatic wording without new evidence.",
+            "Repeating the same claim in several fonts."
+          ],
+          "correct": 0,
+          "explanation": "Historical reasoning connects a claim to relevant evidence and explains that connection."
+        }
+      ]
+    },
+    {
+      "id": "t055",
+      "number": 55,
+      "title": "Haitian Revolution",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Slavery and revolutionary violence.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Why would a history focused only on European rulers miss the revolution’s main actors?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What resulted from the Haitian Revolution?",
+          "options": [
+            "The overthrow of slavery and colonial rule and the creation of Haiti",
+            "The restoration of French slavery as the final outcome",
+            "The independence of the thirteen British colonies"
+          ],
+          "correct": 0,
+          "explanation": "The overthrow of slavery and colonial rule and the creation of Haiti. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A broad overview discusses Haitian Revolution. What should a careful viewer avoid?",
+          "options": [
+            "Assuming every community experienced the same change in the same way.",
+            "Checking the dates and places discussed.",
+            "Comparing experiences across regions."
+          ],
+          "correct": 0,
+          "explanation": "Broad patterns can hide differences in place, timing, and lived experience. Compare specific cases."
+        }
+      ]
+    },
+    {
+      "id": "t056",
+      "number": 56,
+      "title": "Industrial Transformation",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Energy transforms work” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What changed during industrial transformation?",
+          "options": [
+            "Work and cities through factories, steam power, and mechanization",
+            "Only the names of political rulers",
+            "Production without effects on labor or the environment"
+          ],
+          "correct": 0,
+          "explanation": "Work and cities through factories, steam power, and mechanization. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What should you do if a date or interpretation of Industrial Transformation is uncertain?",
+          "options": [
+            "State the uncertainty and check the sources supporting each interpretation.",
+            "Change the date to the one that makes the story simpler.",
+            "Remove every source that complicates the story."
+          ],
+          "correct": 0,
+          "explanation": "Historical accounts should distinguish well-supported conclusions from uncertainty or debate."
+        }
+      ]
+    },
+    {
+      "id": "t057",
+      "number": 57,
+      "title": "Abolition Expands",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Slavery and racial injustice.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Emancipation was a process” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "Who helped challenge slavery?",
+          "options": [
+            "Enslaved people, free Black activists, and abolitionist movements",
+            "Only slaveholders acting without pressure",
+            "Only one government acting alone"
+          ],
+          "correct": 0,
+          "explanation": "Enslaved people, free Black activists, and abolitionist movements. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A video makes a claim about Abolition Expands. What is the strongest next step?",
+          "options": [
+            "Check the claim against the linked sources and identify the evidence.",
+            "Accept it because the presenter sounds confident.",
+            "Treat the number of views as proof that it is correct."
+          ],
+          "correct": 0,
+          "explanation": "Confidence and popularity do not establish a historical claim. Corroborate it with evidence."
+        }
+      ]
+    },
+    {
+      "id": "t058",
+      "number": 58,
+      "title": "American Revolutionary War",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “A war with international dimensions” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What made the American Revolutionary War international?",
+          "options": [
+            "Foreign involvement and wider imperial rivalries",
+            "Its isolation from all other powers",
+            "Its use of modern United Nations forces"
+          ],
+          "correct": 0,
+          "explanation": "Foreign involvement and wider imperial rivalries. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "Two accounts of American Revolutionary War disagree. What should you investigate?",
+          "options": [
+            "Who made each account, when, why, and what evidence each uses.",
+            "Which account has the most dramatic soundtrack.",
+            "Which account appears first in search results."
+          ],
+          "correct": 0,
+          "explanation": "Different dates, purposes, perspectives, and access to evidence can explain disagreements."
+        }
+      ]
+    },
+    {
+      "id": "t059",
+      "number": 59,
+      "title": "French Revolution",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Revolutionary violence.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Revolution changes institutions” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What did the French Revolution reshape?",
+          "options": [
+            "Institutions, citizenship, and European politics",
+            "Only French cooking traditions",
+            "Only overseas scientific expeditions"
+          ],
+          "correct": 0,
+          "explanation": "Institutions, citizenship, and European politics. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What can the banner for French Revolution establish by itself?",
+          "options": [
+            "It is a reconstruction to discuss, not independent proof of what happened.",
+            "Every pictured detail is a documented eyewitness observation.",
+            "A realistic appearance guarantees historical accuracy."
+          ],
+          "correct": 0,
+          "explanation": "The timeline’s banners are illustrative reconstructions. Test their details against historical sources."
+        }
+      ]
+    },
+    {
+      "id": "t060",
+      "number": 60,
+      "title": "Latin American Independence Movements",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Independence across Latin America” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What did Latin American independence movements challenge?",
+          "options": [
+            "Spanish and Portuguese colonial rule",
+            "The rule of the Han dynasty",
+            "The government of ancient Athens"
+          ],
+          "correct": 0,
+          "explanation": "Spanish and Portuguese colonial rule. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "When using a source about Latin American Independence Movements, why identify its creator and audience?",
+          "options": [
+            "They help explain its purpose, perspective, and limitations.",
+            "They guarantee the source contains no omissions.",
+            "They make comparison with other sources unnecessary."
+          ],
+          "correct": 0,
+          "explanation": "A source can reveal valuable evidence while also reflecting its creator’s position and purpose."
+        }
+      ]
+    },
+    {
+      "id": "t061",
+      "number": 61,
+      "title": "Mount Tambora Erupts",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “An eruption has distant effects” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "How did Tambora’s eruption affect places far away?",
+          "options": [
+            "It contributed to global cooling and the Year Without a Summer",
+            "Its effects stayed entirely within the crater",
+            "It permanently ended all seasonal changes"
+          ],
+          "correct": 0,
+          "explanation": "It contributed to global cooling and the Year Without a Summer. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "How can you investigate a missing perspective in Mount Tambora Erupts?",
+          "options": [
+            "Look for other records or material evidence and state what remains uncertain.",
+            "Invent a quotation that would fit the story.",
+            "Assume the missing group had no experience worth recording."
+          ],
+          "correct": 0,
+          "explanation": "Unequal survival of evidence is a limitation to investigate, not permission to invent testimony."
+        }
+      ]
+    },
+    {
+      "id": "t062",
+      "number": 62,
+      "title": "First Opium War",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Imperial warfare and the opium trade.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Trade backed by military force” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What does the First Opium War reveal?",
+          "options": [
+            "Coercive power behind imperial trade",
+            "Trade without military pressure",
+            "A war between Britain and the Maya city-states"
+          ],
+          "correct": 0,
+          "explanation": "Coercive power behind imperial trade. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What would make a claim about First Opium War stronger?",
+          "options": [
+            "Specific evidence plus an explanation of how it supports the claim.",
+            "More emphatic wording without new evidence.",
+            "Repeating the same claim in several fonts."
+          ],
+          "correct": 0,
+          "explanation": "Historical reasoning connects a claim to relevant evidence and explains that connection."
+        }
+      ]
+    },
+    {
+      "id": "t063",
+      "number": 63,
+      "title": "Indian Rebellion of 1857",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Colonial violence and rebellion.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Several grievances fed the 1857 rebellion” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What changed after the Indian Rebellion of 1857?",
+          "options": [
+            "British governance in South Asia",
+            "The location of the Himalayas",
+            "The founding date of the Mauryan Empire"
+          ],
+          "correct": 0,
+          "explanation": "British governance in South Asia. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A broad overview discusses Indian Rebellion of 1857. What should a careful viewer avoid?",
+          "options": [
+            "Assuming every community experienced the same change in the same way.",
+            "Checking the dates and places discussed.",
+            "Comparing experiences across regions."
+          ],
+          "correct": 0,
+          "explanation": "Broad patterns can hide differences in place, timing, and lived experience. Compare specific cases."
+        }
+      ]
+    },
+    {
+      "id": "t064",
+      "number": 64,
+      "title": "American Civil War",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Slavery, warfare, and loss of life.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “The Civil War's connected dimensions” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What was central to the American Civil War?",
+          "options": [
+            "Slavery, secession, Union, and emancipation",
+            "A dispute only about the price of tea",
+            "A war between the United States and Qing China"
+          ],
+          "correct": 0,
+          "explanation": "Slavery, secession, Union, and emancipation. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What should you do if a date or interpretation of American Civil War is uncertain?",
+          "options": [
+            "State the uncertainty and check the sources supporting each interpretation.",
+            "Change the date to the one that makes the story simpler.",
+            "Remove every source that complicates the story."
+          ],
+          "correct": 0,
+          "explanation": "Historical accounts should distinguish well-supported conclusions from uncertainty or debate."
+        }
+      ]
+    },
+    {
+      "id": "t065",
+      "number": 65,
+      "title": "Emancipation Proclamation",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Enslavement and the limits of wartime emancipation.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Why is it inaccurate to say the proclamation immediately ended slavery everywhere in the United States?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "Where did the Emancipation Proclamation declare enslaved people free?",
+          "options": [
+            "In areas still in rebellion",
+            "Everywhere in the world immediately",
+            "Only in territories outside the United States"
+          ],
+          "correct": 0,
+          "explanation": "In areas still in rebellion. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A video makes a claim about Emancipation Proclamation. What is the strongest next step?",
+          "options": [
+            "Check the claim against the linked sources and identify the evidence.",
+            "Accept it because the presenter sounds confident.",
+            "Treat the number of views as proof that it is correct."
+          ],
+          "correct": 0,
+          "explanation": "Confidence and popularity do not establish a historical claim. Corroborate it with evidence."
+        }
+      ]
+    },
+    {
+      "id": "t066",
+      "number": 66,
+      "title": "Berlin Conference and the Scramble for Africa",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Racism, colonization, and exclusion of African voices.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "What changes when an imperial conference is examined from African perspectives?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "Who was excluded from representation at the Berlin Conference?",
+          "options": [
+            "African representatives",
+            "All European officials",
+            "All diplomats from colonial powers"
+          ],
+          "correct": 0,
+          "explanation": "African representatives. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "Two accounts of Berlin Conference and the Scramble for Africa disagree. What should you investigate?",
+          "options": [
+            "Who made each account, when, why, and what evidence each uses.",
+            "Which account has the most dramatic soundtrack.",
+            "Which account appears first in search results."
+          ],
+          "correct": 0,
+          "explanation": "Different dates, purposes, perspectives, and access to evidence can explain disagreements."
+        }
+      ]
+    },
+    {
+      "id": "t067",
+      "number": 67,
+      "title": "Battle of Adwa",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Colonial invasion and warfare.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Why did Adwa become important beyond Ethiopia?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "Why was the Battle of Adwa significant?",
+          "options": [
+            "Ethiopian forces defeated an Italian invasion and preserved sovereignty",
+            "Italy immediately annexed Ethiopia in 1896",
+            "It ended all colonialism across Africa at once"
+          ],
+          "correct": 0,
+          "explanation": "Ethiopian forces defeated an Italian invasion and preserved sovereignty. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What can the banner for Battle of Adwa establish by itself?",
+          "options": [
+            "It is a reconstruction to discuss, not independent proof of what happened.",
+            "Every pictured detail is a documented eyewitness observation.",
+            "A realistic appearance guarantees historical accuracy."
+          ],
+          "correct": 0,
+          "explanation": "The timeline’s banners are illustrative reconstructions. Test their details against historical sources."
+        }
+      ]
+    },
+    {
+      "id": "t068",
+      "number": 68,
+      "title": "Toussaint Louverture",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Enslavement and revolutionary warfare.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Toussaint Louverture's political world” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What role did Toussaint Louverture play?",
+          "options": [
+            "Central political and military leadership in the Haitian Revolution",
+            "Leadership of the French monarchy",
+            "Authorship of the U.S. Constitution"
+          ],
+          "correct": 0,
+          "explanation": "Central political and military leadership in the Haitian Revolution. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "When using a source about Toussaint Louverture, why identify its creator and audience?",
+          "options": [
+            "They help explain its purpose, perspective, and limitations.",
+            "They guarantee the source contains no omissions.",
+            "They make comparison with other sources unnecessary."
+          ],
+          "correct": 0,
+          "explanation": "A source can reveal valuable evidence while also reflecting its creator’s position and purpose."
+        }
+      ]
+    },
+    {
+      "id": "t069",
+      "number": 69,
+      "title": "Frederick Douglass",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Enslavement and racial violence.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Douglass used several forms of power” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "How did Frederick Douglass challenge slavery?",
+          "options": [
+            "Through writing, speaking, and abolitionist advocacy",
+            "By leading the Kingdom of Kongo",
+            "By inventing the printing press"
+          ],
+          "correct": 0,
+          "explanation": "Through writing, speaking, and abolitionist advocacy. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "How can you investigate a missing perspective in Frederick Douglass?",
+          "options": [
+            "Look for other records or material evidence and state what remains uncertain.",
+            "Invent a quotation that would fit the story.",
+            "Assume the missing group had no experience worth recording."
+          ],
+          "correct": 0,
+          "explanation": "Unequal survival of evidence is a limitation to investigate, not permission to invent testimony."
+        }
+      ]
+    },
+    {
+      "id": "t070",
+      "number": 70,
+      "title": "Meiji Restoration",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “The Meiji transformation” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What did the Meiji Restoration begin?",
+          "options": [
+            "A rapid state-led transformation after Tokugawa rule ended",
+            "The unification of Qin China",
+            "The founding of medieval Kyoto"
+          ],
+          "correct": 0,
+          "explanation": "A rapid state-led transformation after Tokugawa rule ended. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What would make a claim about Meiji Restoration stronger?",
+          "options": [
+            "Specific evidence plus an explanation of how it supports the claim.",
+            "More emphatic wording without new evidence.",
+            "Repeating the same claim in several fonts."
+          ],
+          "correct": 0,
+          "explanation": "Historical reasoning connects a claim to relevant evidence and explains that connection."
+        }
+      ]
+    },
+    {
+      "id": "t071",
+      "number": 71,
+      "title": "First World War",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Warfare and mass casualties.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “How a regional crisis became a world war” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What distinguished the First World War?",
+          "options": [
+            "Industrialized warfare with effects across several regions",
+            "A conflict limited to one local town",
+            "A war fought only with medieval technology"
+          ],
+          "correct": 0,
+          "explanation": "Industrialized warfare with effects across several regions. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A broad overview discusses First World War. What should a careful viewer avoid?",
+          "options": [
+            "Assuming every community experienced the same change in the same way.",
+            "Checking the dates and places discussed.",
+            "Comparing experiences across regions."
+          ],
+          "correct": 0,
+          "explanation": "Broad patterns can hide differences in place, timing, and lived experience. Compare specific cases."
+        }
+      ]
+    },
+    {
+      "id": "t072",
+      "number": 72,
+      "title": "Great Depression",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Depression spread across connected economies” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What was a major effect of the Great Depression?",
+          "options": [
+            "Mass unemployment and competing government responses",
+            "Uninterrupted growth in every country",
+            "The end of all political debate"
+          ],
+          "correct": 0,
+          "explanation": "Mass unemployment and competing government responses. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What should you do if a date or interpretation of Great Depression is uncertain?",
+          "options": [
+            "State the uncertainty and check the sources supporting each interpretation.",
+            "Change the date to the one that makes the story simpler.",
+            "Remove every source that complicates the story."
+          ],
+          "correct": 0,
+          "explanation": "Historical accounts should distinguish well-supported conclusions from uncertainty or debate."
+        }
+      ]
+    },
+    {
+      "id": "t073",
+      "number": 73,
+      "title": "Second World War",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Warfare and mass death.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “A global war involved whole societies” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What was a major consequence of the Second World War?",
+          "options": [
+            "Changes to borders, institutions, states, and the international order",
+            "The restoration of every prewar condition",
+            "The end of all international institutions"
+          ],
+          "correct": 0,
+          "explanation": "Changes to borders, institutions, states, and the international order. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A video makes a claim about Second World War. What is the strongest next step?",
+          "options": [
+            "Check the claim against the linked sources and identify the evidence.",
+            "Accept it because the presenter sounds confident.",
+            "Treat the number of views as proof that it is correct."
+          ],
+          "correct": 0,
+          "explanation": "Confidence and popularity do not establish a historical claim. Corroborate it with evidence."
+        }
+      ]
+    },
+    {
+      "id": "t074",
+      "number": 74,
+      "title": "The Holocaust",
+      "viewing": {
+        "suggestedBand": "9–12; teacher-led adaptation for 6–8",
+        "note": "Genocide, antisemitism, persecution, and mass murder.",
+        "middle": "Use a carefully selected, non-graphic excerpt with teacher-led context; provide an alternate source-based activity.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "How do laws and institutions help explain genocide alongside individual choices?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "Who carried out the Holocaust?",
+          "options": [
+            "Nazi Germany and its collaborators",
+            "The government of ancient Rome",
+            "The United Nations after the war"
+          ],
+          "correct": 0,
+          "explanation": "Nazi Germany and its collaborators. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "Two accounts of The Holocaust disagree. What should you investigate?",
+          "options": [
+            "Who made each account, when, why, and what evidence each uses.",
+            "Which account has the most dramatic soundtrack.",
+            "Which account appears first in search results."
+          ],
+          "correct": 0,
+          "explanation": "Different dates, purposes, perspectives, and access to evidence can explain disagreements."
+        }
+      ]
+    },
+    {
+      "id": "t075",
+      "number": 75,
+      "title": "Cold War",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Cold War competition had many arenas” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "How did the Cold War shape the world?",
+          "options": [
+            "Alliances, proxy wars, nuclear strategy, and ideological rivalry",
+            "Only a direct continuous U.S.–Soviet battlefield war",
+            "A rivalry without effects outside Europe"
+          ],
+          "correct": 0,
+          "explanation": "Alliances, proxy wars, nuclear strategy, and ideological rivalry. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What can the banner for Cold War establish by itself?",
+          "options": [
+            "It is a reconstruction to discuss, not independent proof of what happened.",
+            "Every pictured detail is a documented eyewitness observation.",
+            "A realistic appearance guarantees historical accuracy."
+          ],
+          "correct": 0,
+          "explanation": "The timeline’s banners are illustrative reconstructions. Test their details against historical sources."
+        }
+      ]
+    },
+    {
+      "id": "t076",
+      "number": 76,
+      "title": "Armenian Genocide",
+      "viewing": {
+        "suggestedBand": "9–12; teacher-led adaptation for 6–8",
+        "note": "Genocide, deportation, and mass killing.",
+        "middle": "Use a carefully selected, non-graphic excerpt with teacher-led context; provide an alternate source-based activity.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Documenting the Armenian Genocide” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What happened during the Armenian Genocide?",
+          "options": [
+            "Ottoman authorities carried out mass deportations and killings of Armenians",
+            "A voluntary relocation without coercion",
+            "A medieval conflict in the Americas"
+          ],
+          "correct": 0,
+          "explanation": "Ottoman authorities carried out mass deportations and killings of Armenians. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "When using a source about Armenian Genocide, why identify its creator and audience?",
+          "options": [
+            "They help explain its purpose, perspective, and limitations.",
+            "They guarantee the source contains no omissions.",
+            "They make comparison with other sources unnecessary."
+          ],
+          "correct": 0,
+          "explanation": "A source can reveal valuable evidence while also reflecting its creator’s position and purpose."
+        }
+      ]
+    },
+    {
+      "id": "t077",
+      "number": 77,
+      "title": "Russian Revolution",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Revolution and a new state” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What happened during the Russian Revolution?",
+          "options": [
+            "Imperial rule ended and the Bolsheviks eventually took power",
+            "The Romanov monarchy continued unchanged",
+            "The Soviet Union dissolved immediately in 1917"
+          ],
+          "correct": 0,
+          "explanation": "Imperial rule ended and the Bolsheviks eventually took power. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "How can you investigate a missing perspective in Russian Revolution?",
+          "options": [
+            "Look for other records or material evidence and state what remains uncertain.",
+            "Invent a quotation that would fit the story.",
+            "Assume the missing group had no experience worth recording."
+          ],
+          "correct": 0,
+          "explanation": "Unequal survival of evidence is a limitation to investigate, not permission to invent testimony."
+        }
+      ]
+    },
+    {
+      "id": "t078",
+      "number": 78,
+      "title": "Ghana Gains Independence",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "What would you question about the viewpoint of this colonial-era newsreel?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "Why is Ghana’s 1957 independence a landmark?",
+          "options": [
+            "It was an early landmark in postwar sub-Saharan decolonization",
+            "It ended every African colonial regime that year",
+            "It was the independence of a South American colony"
+          ],
+          "correct": 0,
+          "explanation": "It was an early landmark in postwar sub-Saharan decolonization. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What would make a claim about Ghana Gains Independence stronger?",
+          "options": [
+            "Specific evidence plus an explanation of how it supports the claim.",
+            "More emphatic wording without new evidence.",
+            "Repeating the same claim in several fonts."
+          ],
+          "correct": 0,
+          "explanation": "Historical reasoning connects a claim to relevant evidence and explains that connection."
+        }
+      ]
+    },
+    {
+      "id": "t079",
+      "number": 79,
+      "title": "Year of Africa",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “The Year of Africa changed world politics” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "Why is 1960 called the Year of Africa?",
+          "options": [
+            "Seventeen African countries gained independence",
+            "All African countries became one nation",
+            "Every African country became independent on one day"
+          ],
+          "correct": 0,
+          "explanation": "Seventeen African countries gained independence. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A broad overview discusses Year of Africa. What should a careful viewer avoid?",
+          "options": [
+            "Assuming every community experienced the same change in the same way.",
+            "Checking the dates and places discussed.",
+            "Comparing experiences across regions."
+          ],
+          "correct": 0,
+          "explanation": "Broad patterns can hide differences in place, timing, and lived experience. Compare specific cases."
+        }
+      ]
+    },
+    {
+      "id": "t080",
+      "number": 80,
+      "title": "March on Washington",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Racism and civil-rights struggle.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Why do the words jobs and freedom both matter to understanding this march?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What did the March on Washington demand?",
+          "options": [
+            "Jobs, freedom, and civil rights",
+            "The restoration of legal segregation",
+            "The end of all public protest"
+          ],
+          "correct": 0,
+          "explanation": "Jobs, freedom, and civil rights. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What should you do if a date or interpretation of March on Washington is uncertain?",
+          "options": [
+            "State the uncertainty and check the sources supporting each interpretation.",
+            "Change the date to the one that makes the story simpler.",
+            "Remove every source that complicates the story."
+          ],
+          "correct": 0,
+          "explanation": "Historical accounts should distinguish well-supported conclusions from uncertainty or debate."
+        }
+      ]
+    },
+    {
+      "id": "t081",
+      "number": 81,
+      "title": "Soweto Uprising",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Apartheid and violence against students.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Students challenge apartheid education” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What prompted the Soweto student protests?",
+          "options": [
+            "Apartheid education policies",
+            "The first adoption of universal voting rights",
+            "A dispute about ancient royal succession"
+          ],
+          "correct": 0,
+          "explanation": "Apartheid education policies. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A video makes a claim about Soweto Uprising. What is the strongest next step?",
+          "options": [
+            "Check the claim against the linked sources and identify the evidence.",
+            "Accept it because the presenter sounds confident.",
+            "Treat the number of views as proof that it is correct."
+          ],
+          "correct": 0,
+          "explanation": "Confidence and popularity do not establish a historical claim. Corroborate it with evidence."
+        }
+      ]
+    },
+    {
+      "id": "t082",
+      "number": 82,
+      "title": "Fall of the Berlin Wall",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “A border opens amid wider change” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What helped open the Berlin Wall in 1989?",
+          "options": [
+            "Popular pressure and political change",
+            "A medieval military invasion",
+            "The end of the First World War"
+          ],
+          "correct": 0,
+          "explanation": "Popular pressure and political change. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "Two accounts of Fall of the Berlin Wall disagree. What should you investigate?",
+          "options": [
+            "Who made each account, when, why, and what evidence each uses.",
+            "Which account has the most dramatic soundtrack.",
+            "Which account appears first in search results."
+          ],
+          "correct": 0,
+          "explanation": "Different dates, purposes, perspectives, and access to evidence can explain disagreements."
+        }
+      ]
+    },
+    {
+      "id": "t083",
+      "number": 83,
+      "title": "Mahatma Gandhi",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Colonialism, racial inequality, and political violence.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Nonviolent resistance is organized action” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What strategy is associated with Gandhi?",
+          "options": [
+            "Mass nonviolent resistance",
+            "Reliance only on overseas military conquest",
+            "The introduction of apartheid"
+          ],
+          "correct": 0,
+          "explanation": "Mass nonviolent resistance. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What can the banner for Mahatma Gandhi establish by itself?",
+          "options": [
+            "It is a reconstruction to discuss, not independent proof of what happened.",
+            "Every pictured detail is a documented eyewitness observation.",
+            "A realistic appearance guarantees historical accuracy."
+          ],
+          "correct": 0,
+          "explanation": "The timeline’s banners are illustrative reconstructions. Test their details against historical sources."
+        }
+      ]
+    },
+    {
+      "id": "t084",
+      "number": 84,
+      "title": "Martin Luther King Jr.",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Racism and violence against civil-rights activists.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “King and a larger movement” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What did Martin Luther King Jr. help mobilize?",
+          "options": [
+            "Nonviolent campaigns against segregation and racial injustice",
+            "Campaigns to preserve Jim Crow segregation",
+            "The Meiji Restoration"
+          ],
+          "correct": 0,
+          "explanation": "Nonviolent campaigns against segregation and racial injustice. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "When using a source about Martin Luther King Jr., why identify its creator and audience?",
+          "options": [
+            "They help explain its purpose, perspective, and limitations.",
+            "They guarantee the source contains no omissions.",
+            "They make comparison with other sources unnecessary."
+          ],
+          "correct": 0,
+          "explanation": "A source can reveal valuable evidence while also reflecting its creator’s position and purpose."
+        }
+      ]
+    },
+    {
+      "id": "t085",
+      "number": 85,
+      "title": "Harlem Renaissance",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “A cultural renaissance across media” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What did the Harlem Renaissance transform?",
+          "options": [
+            "Culture and ideas about Black identity and modernity",
+            "Only railway construction",
+            "Only colonial tax collection"
+          ],
+          "correct": 0,
+          "explanation": "Culture and ideas about Black identity and modernity. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "How can you investigate a missing perspective in Harlem Renaissance?",
+          "options": [
+            "Look for other records or material evidence and state what remains uncertain.",
+            "Invent a quotation that would fit the story.",
+            "Assume the missing group had no experience worth recording."
+          ],
+          "correct": 0,
+          "explanation": "Unequal survival of evidence is a limitation to investigate, not permission to invent testimony."
+        }
+      ]
+    },
+    {
+      "id": "t086",
+      "number": 86,
+      "title": "Apollo 11 Moon Landing",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “A mission built from many systems” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What happened during Apollo 11?",
+          "options": [
+            "Humans landed on the Moon for the first time",
+            "The first printing press was built",
+            "Humans first reached Mars"
+          ],
+          "correct": 0,
+          "explanation": "Humans landed on the Moon for the first time. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What would make a claim about Apollo 11 Moon Landing stronger?",
+          "options": [
+            "Specific evidence plus an explanation of how it supports the claim.",
+            "More emphatic wording without new evidence.",
+            "Repeating the same claim in several fonts."
+          ],
+          "correct": 0,
+          "explanation": "Historical reasoning connects a claim to relevant evidence and explains that connection."
+        }
+      ]
+    },
+    {
+      "id": "t087",
+      "number": 87,
+      "title": "The Web Goes Global",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “The web is not the whole internet” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "How did the Web affect everyday life?",
+          "options": [
+            "It changed communication, commerce, education, and public life",
+            "It left information-sharing unchanged",
+            "It existed only as a nineteenth-century technology"
+          ],
+          "correct": 0,
+          "explanation": "It changed communication, commerce, education, and public life. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A broad overview discusses The Web Goes Global. What should a careful viewer avoid?",
+          "options": [
+            "Assuming every community experienced the same change in the same way.",
+            "Checking the dates and places discussed.",
+            "Comparing experiences across regions."
+          ],
+          "correct": 0,
+          "explanation": "Broad patterns can hide differences in place, timing, and lived experience. Compare specific cases."
+        }
+      ]
+    },
+    {
+      "id": "t088",
+      "number": 88,
+      "title": "September 11 Attacks",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Terrorism, deaths, destruction, and traumatic personal accounts.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "How does a precise chronology help distinguish what happened from what people knew at each moment?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What happened on September 11, 2001?",
+          "options": [
+            "Coordinated terrorist attacks struck the United States",
+            "The Berlin Wall opened",
+            "Apollo 11 landed on the Moon"
+          ],
+          "correct": 0,
+          "explanation": "Coordinated terrorist attacks struck the United States. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What should you do if a date or interpretation of September 11 Attacks is uncertain?",
+          "options": [
+            "State the uncertainty and check the sources supporting each interpretation.",
+            "Change the date to the one that makes the story simpler.",
+            "Remove every source that complicates the story."
+          ],
+          "correct": 0,
+          "explanation": "Historical accounts should distinguish well-supported conclusions from uncertainty or debate."
+        }
+      ]
+    },
+    {
+      "id": "t089",
+      "number": 89,
+      "title": "Mobile & Social Media Age",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "What should you verify before treating a widely shared claim as evidence?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What did smartphones and social platforms change?",
+          "options": [
+            "News, relationships, organizing, and public debate",
+            "Only the printing of handwritten books",
+            "Nothing outside military communications"
+          ],
+          "correct": 0,
+          "explanation": "News, relationships, organizing, and public debate. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A video makes a claim about Mobile & Social Media Age. What is the strongest next step?",
+          "options": [
+            "Check the claim against the linked sources and identify the evidence.",
+            "Accept it because the presenter sounds confident.",
+            "Treat the number of views as proof that it is correct."
+          ],
+          "correct": 0,
+          "explanation": "Confidence and popularity do not establish a historical claim. Corroborate it with evidence."
+        }
+      ]
+    },
+    {
+      "id": "t090",
+      "number": 90,
+      "title": "South Africa’s First Multiracial Election",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Apartheid and racial exclusion.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "What changed politically in 1994, and what challenges continued?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What changed in South Africa’s 1994 election?",
+          "options": [
+            "Millions voted in the election ending formal apartheid rule",
+            "Apartheid voting restrictions were first introduced",
+            "The country joined the Roman Empire"
+          ],
+          "correct": 0,
+          "explanation": "Millions voted in the election ending formal apartheid rule. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "Two accounts of South Africa’s First Multiracial Election disagree. What should you investigate?",
+          "options": [
+            "Who made each account, when, why, and what evidence each uses.",
+            "Which account has the most dramatic soundtrack.",
+            "Which account appears first in search results."
+          ],
+          "correct": 0,
+          "explanation": "Different dates, purposes, perspectives, and access to evidence can explain disagreements."
+        }
+      ]
+    },
+    {
+      "id": "t091",
+      "number": 91,
+      "title": "Global Financial Crisis",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Why did unemployment peak after the recession’s June 2009 endpoint?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What helped trigger the Global Financial Crisis?",
+          "options": [
+            "Failures in housing finance and interconnected credit markets",
+            "A nineteenth-century volcanic eruption",
+            "The invention of cuneiform"
+          ],
+          "correct": 0,
+          "explanation": "Failures in housing finance and interconnected credit markets. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What can the banner for Global Financial Crisis establish by itself?",
+          "options": [
+            "It is a reconstruction to discuss, not independent proof of what happened.",
+            "Every pictured detail is a documented eyewitness observation.",
+            "A realistic appearance guarantees historical accuracy."
+          ],
+          "correct": 0,
+          "explanation": "The timeline’s banners are illustrative reconstructions. Test their details against historical sources."
+        }
+      ]
+    },
+    {
+      "id": "t092",
+      "number": 92,
+      "title": "Arab Spring",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "State violence, protest, and conflict.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Shared protests, different outcomes” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What did the Arab Spring show?",
+          "options": [
+            "Protests across several countries had very different outcomes",
+            "Every country experienced an identical result",
+            "The movements were confined to South America"
+          ],
+          "correct": 0,
+          "explanation": "Protests across several countries had very different outcomes. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "When using a source about Arab Spring, why identify its creator and audience?",
+          "options": [
+            "They help explain its purpose, perspective, and limitations.",
+            "They guarantee the source contains no omissions.",
+            "They make comparison with other sources unnecessary."
+          ],
+          "correct": 0,
+          "explanation": "A source can reveal valuable evidence while also reflecting its creator’s position and purpose."
+        }
+      ]
+    },
+    {
+      "id": "t093",
+      "number": 93,
+      "title": "Paris Climate Agreement",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "How is a national commitment different from a measured reduction in emissions?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What is the Paris Climate Agreement?",
+          "options": [
+            "An international framework for reducing emissions and strengthening adaptation",
+            "A treaty about medieval trade routes",
+            "An agreement that instantly eliminated emissions"
+          ],
+          "correct": 0,
+          "explanation": "An international framework for reducing emissions and strengthening adaptation. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "How can you investigate a missing perspective in Paris Climate Agreement?",
+          "options": [
+            "Look for other records or material evidence and state what remains uncertain.",
+            "Invent a quotation that would fit the story.",
+            "Assume the missing group had no experience worth recording."
+          ],
+          "correct": 0,
+          "explanation": "Unequal survival of evidence is a limitation to investigate, not permission to invent testimony."
+        }
+      ]
+    },
+    {
+      "id": "t094",
+      "number": 94,
+      "title": "Brexit",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Brexit: decision and transition” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What does Brexit refer to?",
+          "options": [
+            "The United Kingdom’s withdrawal from the European Union",
+            "The founding of the United Nations",
+            "The unification of Germany in 1871"
+          ],
+          "correct": 0,
+          "explanation": "The United Kingdom’s withdrawal from the European Union. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What would make a claim about Brexit stronger?",
+          "options": [
+            "Specific evidence plus an explanation of how it supports the claim.",
+            "More emphatic wording without new evidence.",
+            "Repeating the same claim in several fonts."
+          ],
+          "correct": 0,
+          "explanation": "Historical reasoning connects a claim to relevant evidence and explains that connection."
+        }
+      ]
+    },
+    {
+      "id": "t095",
+      "number": 95,
+      "title": "COVID-19 Pandemic",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Illness, deaths, bereavement, and disrupted daily life.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Why is ending an emergency designation different from saying a disease has disappeared?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What made COVID-19 a global historical event?",
+          "options": [
+            "Worldwide illness, deaths, and disruption to daily life and institutions",
+            "Its effects being limited to one neighborhood",
+            "Its occurrence before the development of writing"
+          ],
+          "correct": 0,
+          "explanation": "Worldwide illness, deaths, and disruption to daily life and institutions. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A broad overview discusses COVID-19 Pandemic. What should a careful viewer avoid?",
+          "options": [
+            "Assuming every community experienced the same change in the same way.",
+            "Checking the dates and places discussed.",
+            "Comparing experiences across regions."
+          ],
+          "correct": 0,
+          "explanation": "Broad patterns can hide differences in place, timing, and lived experience. Compare specific cases."
+        }
+      ]
+    },
+    {
+      "id": "t096",
+      "number": 96,
+      "title": "Wangari Maathai",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “Maathai linked environmental and civic action” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What did Wangari Maathai connect in her work?",
+          "options": [
+            "Tree planting, women’s leadership, rights, and sustainability",
+            "Only military expansion",
+            "Only steam railway construction"
+          ],
+          "correct": 0,
+          "explanation": "Tree planting, women’s leadership, rights, and sustainability. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What should you do if a date or interpretation of Wangari Maathai is uncertain?",
+          "options": [
+            "State the uncertainty and check the sources supporting each interpretation.",
+            "Change the date to the one that makes the story simpler.",
+            "Remove every source that complicates the story."
+          ],
+          "correct": 0,
+          "explanation": "Historical accounts should distinguish well-supported conclusions from uncertainty or debate."
+        }
+      ]
+    },
+    {
+      "id": "t097",
+      "number": 97,
+      "title": "Tim Berners-Lee and the World Wide Web",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which connection in “From a proposal to a public information system” is best supported by the sources, and what would you check next?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "Where did the World Wide Web begin to develop?",
+          "options": [
+            "CERN",
+            "Ancient Uruk",
+            "The court of Mansa Musa"
+          ],
+          "correct": 0,
+          "explanation": "CERN. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "A video makes a claim about Tim Berners-Lee and the World Wide Web. What is the strongest next step?",
+          "options": [
+            "Check the claim against the linked sources and identify the evidence.",
+            "Accept it because the presenter sounds confident.",
+            "Treat the number of views as proof that it is correct."
+          ],
+          "correct": 0,
+          "explanation": "Confidence and popularity do not establish a historical claim. Corroborate it with evidence."
+        }
+      ]
+    },
+    {
+      "id": "t098",
+      "number": 98,
+      "title": "Artificial Intelligence Becomes Everyday Infrastructure",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Where do human decisions enter an apparently automated system?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "How can AI influence society?",
+          "options": [
+            "Through work, learning, research, creativity, and public policy",
+            "Only through nineteenth-century railways",
+            "Without any unresolved social questions"
+          ],
+          "correct": 0,
+          "explanation": "Through work, learning, research, creativity, and public policy. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "Two accounts of Artificial Intelligence Becomes Everyday Infrastructure disagree. What should you investigate?",
+          "options": [
+            "Who made each account, when, why, and what evidence each uses.",
+            "Which account has the most dramatic soundtrack.",
+            "Which account appears first in search results."
+          ],
+          "correct": 0,
+          "explanation": "Different dates, purposes, perspectives, and access to evidence can explain disagreements."
+        }
+      ]
+    },
+    {
+      "id": "t099",
+      "number": 99,
+      "title": "Generative AI Enters Mass Use",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "What evidence would you need before trusting a generated historical claim?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What distinguishes generative AI’s recent expansion?",
+          "options": [
+            "Public use of systems producing text, images, audio, and code",
+            "The invention of every form of computing at once",
+            "The end of the need to evaluate information"
+          ],
+          "correct": 0,
+          "explanation": "Public use of systems producing text, images, audio, and code. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "What can the banner for Generative AI Enters Mass Use establish by itself?",
+          "options": [
+            "It is a reconstruction to discuss, not independent proof of what happened.",
+            "Every pictured detail is a documented eyewitness observation.",
+            "A realistic appearance guarantees historical accuracy."
+          ],
+          "correct": 0,
+          "explanation": "The timeline’s banners are illustrative reconstructions. Test their details against historical sources."
+        }
+      ]
+    },
+    {
+      "id": "t100",
+      "number": 100,
+      "title": "Examine the Evidence",
+      "viewing": {
+        "suggestedBand": "6–8 guided; 9–12 extension",
+        "note": "Preview vocabulary, pacing, historical context, and the specific clips you plan to use.",
+        "middle": "Choose a short excerpt. Preteach key vocabulary, pause to restate the claim, and discuss one piece of evidence.",
+        "upper": "Compare the video’s interpretation with the linked sources. Ask whose perspective is represented or missing.",
+        "focus": "Which independent source would most strengthen—or challenge—your claim?"
+      },
+      "checks": [
+        {
+          "kind": "Knowledge",
+          "prompt": "What is a central historical-thinking task?",
+          "options": [
+            "Build a claim supported by evidence and compare perspectives",
+            "Memorize dates without examining evidence",
+            "Treat the first account found as the final truth"
+          ],
+          "correct": 0,
+          "explanation": "Build a claim supported by evidence and compare perspectives. Compare this answer with the overview and linked source reading."
+        },
+        {
+          "kind": "Evidence",
+          "prompt": "When using a source about Examine the Evidence, why identify its creator and audience?",
+          "options": [
+            "They help explain its purpose, perspective, and limitations.",
+            "They guarantee the source contains no omissions.",
+            "They make comparison with other sources unnecessary."
+          ],
+          "correct": 0,
+          "explanation": "A source can reveal valuable evidence while also reflecting its creator’s position and purpose."
+        }
+      ]
+    }
+  ]
+}
