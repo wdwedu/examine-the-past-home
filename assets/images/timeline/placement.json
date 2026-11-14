@@ -1,6 +1,6 @@
 {
   "page": "/timeline/",
-  "artwork": "Approved cinematic batches 1–4; exact-title placement",
+  "artwork": "Approved cinematic batches 1–5; exact-title placement",
   "images": [
     {
       "number": 1,
@@ -121,6 +121,138 @@
       "title": "Philosophies & Faith Traditions",
       "file": "ETP_Timeline_20_Philosophies_and_Faith_Traditions.webp",
       "bytes": 290100
+    },
+    {
+      "number": 21,
+      "title": "Silk Roads Networks",
+      "file": "021_Silk_Roads_Networks.webp",
+      "bytes": 395224
+    },
+    {
+      "number": 22,
+      "title": "Kingdom of Kush at Meroë",
+      "file": "022_Kingdom_of_Kush_at_Meroe.webp",
+      "bytes": 372456
+    },
+    {
+      "number": 23,
+      "title": "Mauryan Empire and Ashoka",
+      "file": "023_Mauryan_Empire_and_Ashoka.webp",
+      "bytes": 424988
+    },
+    {
+      "number": 24,
+      "title": "Imperial China Unifies",
+      "file": "024_Imperial_China_Unifies.webp",
+      "bytes": 319514
+    },
+    {
+      "number": 25,
+      "title": "Kingdom of Aksum",
+      "file": "025_Kingdom_of_Aksum.webp",
+      "bytes": 445418
+    },
+    {
+      "number": 26,
+      "title": "Classic Maya Cities",
+      "file": "026_Classic_Maya_Cities.webp",
+      "bytes": 397664
+    },
+    {
+      "number": 27,
+      "title": "Confucius",
+      "file": "027_Confucius.webp",
+      "bytes": 305032
+    },
+    {
+      "number": 28,
+      "title": "Ashoka",
+      "file": "028_Ashoka.webp",
+      "bytes": 380522
+    },
+    {
+      "number": 29,
+      "title": "Hypatia of Alexandria",
+      "file": "029_Hypatia_of_Alexandria.webp",
+      "bytes": 356520
+    },
+    {
+      "number": 30,
+      "title": "Kingdoms & Courts",
+      "file": "030_Kingdoms_Courts.webp",
+      "bytes": 364046
+    },
+    {
+      "number": 31,
+      "title": "Centers of Learning Flourish",
+      "file": "031_Centers_of_Learning_Flourish.webp",
+      "bytes": 417952
+    },
+    {
+      "number": 32,
+      "title": "Crusading Movements",
+      "file": "032_Crusading_Movements.webp",
+      "bytes": 426768
+    },
+    {
+      "number": 33,
+      "title": "The Black Death",
+      "file": "033_The_Black_Death.webp",
+      "bytes": 358426
+    },
+    {
+      "number": 34,
+      "title": "Ghana Empire and Trans-Saharan Trade",
+      "file": "034_Ghana_Empire_and_Trans_Saharan_Trade.webp",
+      "bytes": 470800
+    },
+    {
+      "number": 35,
+      "title": "Swahili Coast City-States",
+      "file": "035_Swahili_Coast_City_States.webp",
+      "bytes": 452936
+    },
+    {
+      "number": 36,
+      "title": "Great Zimbabwe",
+      "file": "036_Great_Zimbabwe.webp",
+      "bytes": 493184
+    },
+    {
+      "number": 37,
+      "title": "Mali Empire",
+      "file": "037_Mali_Empire.webp",
+      "bytes": 428200
+    },
+    {
+      "number": 38,
+      "title": "Mansa Musa’s Pilgrimage",
+      "file": "038_Mansa_Musas_Pilgrimage.webp",
+      "bytes": 309864
+    },
+    {
+      "number": 39,
+      "title": "The 1054 Supernova Remembered",
+      "file": "039_The_1054_Supernova_Remembered.webp",
+      "bytes": 265534
+    },
+    {
+      "number": 40,
+      "title": "Ibn Sina (Avicenna)",
+      "file": "040_Ibn_Sina_Avicenna.webp",
+      "bytes": 381232
+    },
+    {
+      "number": 41,
+      "title": "Murasaki Shikibu",
+      "file": "041_Murasaki_Shikibu.webp",
+      "bytes": 317154
+    },
+    {
+      "number": 42,
+      "title": "Tenochtitlan Is Founded",
+      "file": "042_Tenochtitlan_Is_Founded.webp",
+      "bytes": 399926
     },
     {
       "number": 71,
