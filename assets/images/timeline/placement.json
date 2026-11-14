@@ -1,6 +1,6 @@
 {
   "page": "/timeline/",
-  "artwork": "Approved cinematic batches 1, 2, and available final-section artwork",
+  "artwork": "Approved cinematic banners; exact-title placement",
   "images": [
     {
       "number": 1,
@@ -121,6 +121,174 @@
       "title": "Philosophies & Faith Traditions",
       "file": "ETP_Timeline_20_Philosophies_and_Faith_Traditions.webp",
       "bytes": 290100
+    },
+    {
+      "number": 43,
+      "title": "Print Expands",
+      "file": "043_Print_Expands.webp",
+      "bytes": 404420
+    },
+    {
+      "number": 44,
+      "title": "Oceanic Networks Intensify",
+      "file": "044_Oceanic_Networks_Intensify.webp",
+      "bytes": 453492
+    },
+    {
+      "number": 45,
+      "title": "Scientific Revolution",
+      "file": "045_Scientific_Revolution.webp",
+      "bytes": 340580
+    },
+    {
+      "number": 46,
+      "title": "Kingdom of Benin",
+      "file": "046_Kingdom_of_Benin.webp",
+      "bytes": 469986
+    },
+    {
+      "number": 47,
+      "title": "Kingdom of Kongo",
+      "file": "047_Kingdom_of_Kongo.webp",
+      "bytes": 487382
+    },
+    {
+      "number": 48,
+      "title": "Columbian Exchange",
+      "file": "048_Columbian_Exchange.webp",
+      "bytes": 454046
+    },
+    {
+      "number": 49,
+      "title": "Atlantic Slave Trade Expands",
+      "file": "049_Atlantic_Slave_Trade_Expands.webp",
+      "bytes": 302746
+    },
+    {
+      "number": 50,
+      "title": "Songhai Falls, West African Networks Continue",
+      "file": "050_Songhai_Falls_West_African_Networks_Continue.webp",
+      "bytes": 438756
+    },
+    {
+      "number": 51,
+      "title": "Queen Nzinga",
+      "file": "051_Queen_Nzinga.webp",
+      "bytes": 359444
+    },
+    {
+      "number": 52,
+      "title": "Galileo Galilei",
+      "file": "052_Galileo_Galilei.webp",
+      "bytes": 325896
+    },
+    {
+      "number": 53,
+      "title": "Gutenberg Bible Is Printed",
+      "file": "053_Gutenberg_Bible_Is_Printed.webp",
+      "bytes": 368566
+    },
+    {
+      "number": 54,
+      "title": "American Independence",
+      "file": "054_American_Independence.webp",
+      "bytes": 292048
+    },
+    {
+      "number": 55,
+      "title": "Haitian Revolution",
+      "file": "055_Haitian_Revolution.webp",
+      "bytes": 404156
+    },
+    {
+      "number": 56,
+      "title": "Industrial Transformation",
+      "file": "056_Industrial_Transformation.webp",
+      "bytes": 374952
+    },
+    {
+      "number": 57,
+      "title": "Abolition Expands",
+      "file": "057_Abolition_Expands.webp",
+      "bytes": 361628
+    },
+    {
+      "number": 58,
+      "title": "American Revolutionary War",
+      "file": "058_American_Revolutionary_War.webp",
+      "bytes": 377290
+    },
+    {
+      "number": 59,
+      "title": "French Revolution",
+      "file": "059_French_Revolution.webp",
+      "bytes": 384832
+    },
+    {
+      "number": 60,
+      "title": "Latin American Independence Movements",
+      "file": "060_Latin_American_Independence_Movements.webp",
+      "bytes": 401980
+    },
+    {
+      "number": 61,
+      "title": "Mount Tambora Erupts",
+      "file": "061_Mount_Tambora_Erupts.webp",
+      "bytes": 404776
+    },
+    {
+      "number": 62,
+      "title": "First Opium War",
+      "file": "062_First_Opium_War.webp",
+      "bytes": 378044
+    },
+    {
+      "number": 63,
+      "title": "Indian Rebellion of 1857",
+      "file": "063_Indian_Rebellion_of_1857.webp",
+      "bytes": 374582
+    },
+    {
+      "number": 64,
+      "title": "American Civil War",
+      "file": "064_American_Civil_War.webp",
+      "bytes": 289640
+    },
+    {
+      "number": 65,
+      "title": "Emancipation Proclamation",
+      "file": "065_Emancipation_Proclamation.webp",
+      "bytes": 281264
+    },
+    {
+      "number": 66,
+      "title": "Berlin Conference and the Scramble for Africa",
+      "file": "066_Berlin_Conference_and_the_Scramble_for_Africa.webp",
+      "bytes": 271126
+    },
+    {
+      "number": 67,
+      "title": "Battle of Adwa",
+      "file": "067_Battle_of_Adwa.webp",
+      "bytes": 481984
+    },
+    {
+      "number": 68,
+      "title": "Toussaint Louverture",
+      "file": "068_Toussaint_Louverture.webp",
+      "bytes": 355246
+    },
+    {
+      "number": 69,
+      "title": "Frederick Douglass",
+      "file": "069_Frederick_Douglass.webp",
+      "bytes": 238494
+    },
+    {
+      "number": 70,
+      "title": "Meiji Restoration",
+      "file": "070_Meiji_Restoration.webp",
+      "bytes": 370876
     },
     {
       "number": 87,
