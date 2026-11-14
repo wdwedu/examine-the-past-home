@@ -1,6 +1,6 @@
 {
   "page": "/timeline/",
-  "artwork": "Approved cinematic batches 1, 2, and available final-section artwork",
+  "artwork": "Approved cinematic batches 1–4; exact-title placement",
   "images": [
     {
       "number": 1,
@@ -76,7 +76,7 @@
     },
     {
       "number": 13,
-      "title": "Hammurabi\u2019s Judgments",
+      "title": "Hammurabi’s Judgments",
       "file": "ETP_Timeline_13_Hammurabis_Judgments.webp",
       "bytes": 270030
     },
@@ -123,6 +123,102 @@
       "bytes": 290100
     },
     {
+      "number": 71,
+      "title": "First World War",
+      "file": "071_First_World_War.webp",
+      "bytes": 345948
+    },
+    {
+      "number": 72,
+      "title": "Great Depression",
+      "file": "072_Great_Depression.webp",
+      "bytes": 252346
+    },
+    {
+      "number": 73,
+      "title": "Second World War",
+      "file": "073_Second_World_War.webp",
+      "bytes": 294490
+    },
+    {
+      "number": 74,
+      "title": "The Holocaust",
+      "file": "074_The_Holocaust.webp",
+      "bytes": 250764
+    },
+    {
+      "number": 75,
+      "title": "Cold War",
+      "file": "075_Cold_War.webp",
+      "bytes": 262780
+    },
+    {
+      "number": 76,
+      "title": "Armenian Genocide",
+      "file": "076_Armenian_Genocide.webp",
+      "bytes": 324648
+    },
+    {
+      "number": 77,
+      "title": "Russian Revolution",
+      "file": "077_Russian_Revolution.webp",
+      "bytes": 285808
+    },
+    {
+      "number": 78,
+      "title": "Ghana Gains Independence",
+      "file": "078_Ghana_Gains_Independence.webp",
+      "bytes": 248664
+    },
+    {
+      "number": 79,
+      "title": "Year of Africa",
+      "file": "079_Year_of_Africa.webp",
+      "bytes": 259022
+    },
+    {
+      "number": 80,
+      "title": "March on Washington",
+      "file": "080_March_on_Washington.webp",
+      "bytes": 249602
+    },
+    {
+      "number": 81,
+      "title": "Soweto Uprising",
+      "file": "081_Soweto_Uprising.webp",
+      "bytes": 256118
+    },
+    {
+      "number": 82,
+      "title": "Fall of the Berlin Wall",
+      "file": "082_Fall_of_the_Berlin_Wall.webp",
+      "bytes": 291776
+    },
+    {
+      "number": 83,
+      "title": "Mahatma Gandhi",
+      "file": "083_Mahatma_Gandhi.webp",
+      "bytes": 341616
+    },
+    {
+      "number": 84,
+      "title": "Martin Luther King Jr.",
+      "file": "084_Martin_Luther_King_Jr.webp",
+      "bytes": 196986
+    },
+    {
+      "number": 85,
+      "title": "Harlem Renaissance",
+      "file": "085_Harlem_Renaissance.webp",
+      "bytes": 281578
+    },
+    {
+      "number": 86,
+      "title": "Apollo 11 Moon Landing",
+      "file": "086_Apollo_11_Moon_Landing.webp",
+      "bytes": 278926
+    },
+    {
       "number": 87,
       "title": "The Web Goes Global",
       "file": "ETP_Timeline_87_The_Web_Goes_Global.webp",
@@ -142,7 +238,7 @@
     },
     {
       "number": 90,
-      "title": "South Africa\u2019s First Multiracial Election",
+      "title": "South Africa’s First Multiracial Election",
       "file": "ETP_Timeline_90_South_Africas_First_Multiracial_Election.webp",
       "bytes": 306716
     },
