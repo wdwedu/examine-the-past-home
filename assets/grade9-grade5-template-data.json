@@ -166,9 +166,9 @@
       "total": 4,
       "essential": "How could Reconstruction transform the Constitution yet leave racial inequality entrenched?",
       "paragraphs": [
-        "The Thirteenth, Fourteenth, and Fifteenth Amendments reshaped citizenship and freedom between 1865 and 1870. Black communities formed schools, churches, and political organizations while white supremacists employed terror to undermine their rights.",
-        "Federal enforcement weakened over the 1870s; the 1877 political transition is often treated as an endpoint, but constitutional change and Black civic organizing continued. Period labels therefore clarify chronology without explaining every individual's experience.",
-        "Compare the Fourteenth Amendment with a Reconstruction-era report of voting intimidation. Distinguish legal rights from enforcement and explain why the two sources cannot be treated as interchangeable."
+        "The Thirteenth, Fourteenth, and Fifteenth Amendments reshaped citizenship and freedom between 1865 and 1870. Black communities formed schools, churches, and political organizations while white supremacists employed terror to undermine their rights. Federal troops and federal courts could sometimes protect voting rights, but local officials and paramilitary groups often resisted enforcement. Legal equality cannot be measured solely by the existence of an amendment. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "Federal enforcement weakened over the 1870s; the 1877 political transition is often treated as an endpoint, but constitutional change and Black civic organizing continued. Period labels therefore clarify chronology without explaining every individual's experience. The economic situation of many freedpeople remained constrained by landownership, labor contracts, and debt. Analyze the relationship between political rights and material power instead of assuming that one automatically produced the other. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare the Fourteenth Amendment with a Reconstruction-era report of voting intimidation. Distinguish legal rights from enforcement and explain why the two sources cannot be treated as interchangeable. The chronology extends beyond 1877: later court decisions, segregation laws, and campaigns for voting access show how constitutional protections were repeatedly contested. A well-supported thesis should recognize both constitutional change and retreat. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Reconstruction's Unfinished Legacy · Evidence Investigation",
       "task": "Write a claim about Reconstruction's Unfinished Legacy with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -203,18 +203,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Reconstruction's Unfinished Legacy?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing Reconstruction and equal protection.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Reconstruction's Unfinished Legacy is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of disenfranchisement.",
+            "Interpret Reconstruction in historical context and weigh competing evidence concerning federal enforcement.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -241,9 +241,9 @@
       "total": 4,
       "essential": "When did industrial efficiency become concentrated private power?",
       "paragraphs": [
-        "Railroad expansion and mass production enabled national markets after the Civil War. Carnegie's steel businesses and Rockefeller's oil enterprises illustrate the growth of corporate consolidation through different strategies.",
-        "Integration could lower some costs but also give firms significant control over markets, labor, and competitors. The Sherman Antitrust Act of 1890 was an early federal response to concerns about monopolization.",
-        "Contrast the arguments of a corporate executive with worker testimony and competition policy. Separate evidence of output growth from claims about fairness or public benefit."
+        "Railroad expansion and mass production enabled national markets after the Civil War. Carnegie's steel businesses and Rockefeller's oil enterprises illustrate the growth of corporate consolidation through different strategies. Steel production relied on ore, fuel, transportation, capital, and labor; controlling multiple links in that chain differed from buying competing mills. These business structures are not interchangeable, and their effects varied by industry. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "Integration could lower some costs but also give firms significant control over markets, labor, and competitors. The Sherman Antitrust Act of 1890 was an early federal response to concerns about monopolization. A low retail price can benefit consumers while restrictive practices harm competitors or employees. Evaluate more than one outcome before interpreting consolidation, and ask whether claims about efficiency relied on independent measurements. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Contrast the arguments of a corporate executive with worker testimony and competition policy. Separate evidence of output growth from claims about fairness or public benefit. Economic evidence can be distorted by selective periods. If an executive reports higher production, check wages, profits, market share, and safety across a comparable time span before using the number to defend a broad conclusion. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "The Rise of Big Business · Evidence Investigation",
       "task": "Write a claim about The Rise of Big Business with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -278,18 +278,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about The Rise of Big Business?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing vertical integration and horizontal integration.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about The Rise of Big Business is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of trust.",
+            "Interpret vertical integration in historical context and weigh competing evidence concerning antitrust.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -316,9 +316,9 @@
       "total": 4,
       "essential": "How did industrial growth expand opportunities while provoking conflict?",
       "paragraphs": [
-        "Industrial cities attracted migrants and immigrants seeking work. Factory labor, rail construction, and urban services grew, but workers also faced long hours, workplace hazards, and crowded housing.",
-        "The 1894 Pullman Strike exposed conflict over wages, corporate housing, union organizing, and federal intervention. Government decisions sometimes defended public transportation while limiting labor protest.",
-        "Compare wage records, a worker's account, and a newspaper editorial. Ask who produced each source, what details can be corroborated, and whose voice is absent."
+        "Industrial cities attracted migrants and immigrants seeking work. Factory labor, rail construction, and urban services grew, but workers also faced long hours, workplace hazards, and crowded housing. Urban industrialization did not create one immigrant experience. Job access, legal status, race, gender, language, and established family networks affected the possibilities available to newcomers. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "The 1894 Pullman Strike exposed conflict over wages, corporate housing, union organizing, and federal intervention. Government decisions sometimes defended public transportation while limiting labor protest. A labor dispute could involve private management, organized workers, state officials, and the national government. Each participant might describe the same strike differently because wages, property, public transportation, and political legitimacy were at stake. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare wage records, a worker's account, and a newspaper editorial. Ask who produced each source, what details can be corroborated, and whose voice is absent. When working with immigration statistics, distinguish total arrivals from the proportion of the population that was foreign-born. Compare evidence from a particular city before generalizing to the entire nation. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Labor, Immigration, and Urban America · Evidence Investigation",
       "task": "Write a claim about Labor, Immigration, and Urban America with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -353,18 +353,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Labor, Immigration, and Urban America?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing collective bargaining and tenement.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Labor, Immigration, and Urban America is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of urbanization.",
+            "Interpret collective bargaining in historical context and weigh competing evidence concerning strike.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -391,9 +391,9 @@
       "total": 4,
       "essential": "How should historians measure progress when prosperity was uneven?",
       "paragraphs": [
-        "Industrial fortunes and new markets expanded in the late nineteenth century while many wage earners and tenant farmers experienced insecurity. Political patronage and corporate influence drew criticism.",
-        "Farmers' alliances and Populists demanded changes to credit, transport regulation, and political decision-making. Political cartoons depicted corruption and inequality but were designed to persuade readers.",
-        "Interpret a hypothetical income-distribution chart, then compare it with an authentic Populist platform and a political cartoon. Do not treat visual satire as a statistical source."
+        "Industrial fortunes and new markets expanded in the late nineteenth century while many wage earners and tenant farmers experienced insecurity. Political patronage and corporate influence drew criticism. The term 'gilded' suggests a glittering surface with less attractive conditions underneath. This metaphor encourages questions about whose prosperity is visible in newspaper headlines and whose insecurity remains hidden. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "Farmers' alliances and Populists demanded changes to credit, transport regulation, and political decision-making. Political cartoons depicted corruption and inequality but were designed to persuade readers. Railroad rate disputes and access to credit shaped farmers' complaints. Examine whether a party platform sought a particular remedy rather than assuming every reformer had the same explanation of inequality. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Interpret a hypothetical income-distribution chart, then compare it with an authentic Populist platform and a political cartoon. Do not treat visual satire as a statistical source. A cartoon of a wealthy industrialist standing above lawmakers communicates a criticism through exaggeration. Identify the artistic claim, then search for corroborating evidence before repeating it as fact. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "The Gilded Age: Wealth and Inequality · Evidence Investigation",
       "task": "Write a claim about The Gilded Age: Wealth and Inequality with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -428,18 +428,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about The Gilded Age: Wealth and Inequality?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing Gilded Age and patronage.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about The Gilded Age: Wealth and Inequality is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of Populism.",
+            "Interpret Gilded Age in historical context and weigh competing evidence concerning income inequality.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -466,9 +466,9 @@
       "total": 4,
       "essential": "Whose definition of progress influenced early twentieth-century reform?",
       "paragraphs": [
-        "Progressive-era reformers criticized corruption, unsafe work, and some forms of corporate power. Movements supported sanitation, consumer protection, municipal reform, and workplace standards.",
-        "Progressive programs varied in their treatment of race, immigration, and women's rights; some reformers also embraced discriminatory policies. A single celebratory story of reform hides these contradictions.",
-        "Use one reform law and one affected group's perspective to evaluate both achievement and exclusion. Distinguish a reformer's stated aim from documented results."
+        "Progressive-era reformers criticized corruption, unsafe work, and some forms of corporate power. Movements supported sanitation, consumer protection, municipal reform, and workplace standards. Progressive campaigns often relied on local organizations, settlement workers, labor activists, and journalists rather than presidents alone. They disagreed about whether government should regulate business, directly provide services, or change democratic procedures. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "Progressive programs varied in their treatment of race, immigration, and women's rights; some reformers also embraced discriminatory policies. A single celebratory story of reform hides these contradictions. Municipal sanitation initiatives could reduce disease, but urban conditions also reflected overcrowded housing and uneven public investment. An assessment should consider measurable outcomes and whose neighborhoods benefited. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Use one reform law and one affected group's perspective to evaluate both achievement and exclusion. Distinguish a reformer's stated aim from documented results. Some reformers defended racial segregation or coercive theories of social improvement, which means 'reform' should not automatically be read as equality. Historians evaluate particular policies rather than giving an entire movement a single moral label. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "The Progressive Movement · Evidence Investigation",
       "task": "Write a claim about The Progressive Movement with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -503,18 +503,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about The Progressive Movement?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing Progressivism and municipal reform.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about The Progressive Movement is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of social welfare.",
+            "Interpret Progressivism in historical context and weigh competing evidence concerning exclusion.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -541,9 +541,9 @@
       "total": 4,
       "essential": "Can journalism change laws without being free of bias?",
       "paragraphs": [
-        "Investigative journalists and activists exposed abuses in business and urban life. Ida B. Wells's anti-lynching investigations challenged false justifications for racial terror, while Upton Sinclair's The Jungle drew attention to conditions in the meatpacking industry.",
-        "The public response to Sinclair's 1906 novel helped build pressure for federal food-safety laws, but fiction and investigative reporting require different kinds of verification. Wells's use of documented cases demonstrates the importance of source collection and political context.",
-        "Compare a novel excerpt, an investigative report, and a legislative text. Identify genre, claims, supporting evidence, and what reform actually followed."
+        "Investigative journalists and activists exposed abuses in business and urban life. Ida B. Wells's anti-lynching investigations challenged false justifications for racial terror, while Upton Sinclair's The Jungle drew attention to conditions in the meatpacking industry. Wells examined specific cases and challenged public narratives that excused anti-Black violence. Her reporting demonstrated why naming victims, investigating alleged motives, and comparing accounts mattered for exposing organized terror. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "The public response to Sinclair's 1906 novel helped build pressure for federal food-safety laws, but fiction and investigative reporting require different kinds of verification. Wells's use of documented cases demonstrates the importance of source collection and political context. Sinclair's novel used fictional characters to portray labor and food-industry conditions. A historical claim about inspection laws is strongest when supported with the actual statutes and regulatory records, not solely a literary scene. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare a novel excerpt, an investigative report, and a legislative text. Identify genre, claims, supporting evidence, and what reform actually followed. Investigative journalism can influence public opinion, but a sequence of publication followed by legislation does not automatically prove a single cause. Consider activism, political negotiations, and prior proposals. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Investigative Journalism and Social Change · Evidence Investigation",
       "task": "Write a claim about Investigative Journalism and Social Change with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -578,18 +578,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Investigative Journalism and Social Change?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing muckraker and investigative reporting.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Investigative Journalism and Social Change is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of corroboration.",
+            "Interpret muckraker in historical context and weigh competing evidence concerning public opinion.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -616,9 +616,9 @@
       "total": 4,
       "essential": "Why did the struggle for voting rights require multiple strategies and generations?",
       "paragraphs": [
-        "Women's suffrage organizers developed state-level campaigns, marches, petitions, and constitutional lobbying. The National American Woman Suffrage Association and National Woman's Party pursued different strategies over time.",
-        "The Nineteenth Amendment was ratified in 1920, prohibiting denial of voting rights on account of sex. Racist restrictions still prevented many women of color from voting; formal constitutional change did not ensure equal access.",
-        "Compare campaign arguments with voting restrictions affecting Black and Indigenous women. Evaluate the distinction between an amendment's wording and the experiences of different communities."
+        "Women's suffrage organizers developed state-level campaigns, marches, petitions, and constitutional lobbying. The National American Woman Suffrage Association and National Woman's Party pursued different strategies over time. Suffrage victories occurred in different states before the national amendment. These earlier campaigns supplied organizers with experience in lobbying, public persuasion, and coalition building. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "The Nineteenth Amendment was ratified in 1920, prohibiting denial of voting rights on account of sex. Racist restrictions still prevented many women of color from voting; formal constitutional change did not ensure equal access. Women's voting rights were not distributed equally after 1920. Poll taxes, literacy tests, intimidation, and citizenship restrictions continued to prevent numerous women from voting, particularly in communities already targeted by racial exclusion. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare campaign arguments with voting restrictions affecting Black and Indigenous women. Evaluate the distinction between an amendment's wording and the experiences of different communities. A historical timeline should separate state suffrage laws, congressional passage, ratification, and actual access to registration. This distinction demonstrates why a legal milestone can be essential without being a complete history. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Women's Suffrage · Evidence Investigation",
       "task": "Write a claim about Women's Suffrage with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -653,18 +653,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Women's Suffrage?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing suffrage and Nineteenth Amendment.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Women's Suffrage is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of franchise.",
+            "Interpret suffrage in historical context and weigh competing evidence concerning organizing.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -691,9 +691,9 @@
       "total": 4,
       "essential": "How did reform expand federal and democratic authority?",
       "paragraphs": [
-        "The Sixteenth and Seventeenth Amendments, ratified in 1913, expanded federal income-tax authority and introduced direct election of U.S. senators. Reformers also advocated stronger oversight of business practices.",
-        "The Federal Reserve System was established in 1913 amid concern over financial instability; the Federal Trade Commission followed in 1914. New institutions reflected growing expectations of federal economic responsibility.",
-        "Build an institutional timeline, then distinguish constitutional amendments from ordinary federal statutes. Evaluate the specific problem each measure addressed and its limits."
+        "The Sixteenth and Seventeenth Amendments, ratified in 1913, expanded federal income-tax authority and introduced direct election of U.S. senators. Reformers also advocated stronger oversight of business practices. The direct election of senators changed how federal representation was selected, while income-tax authority expanded federal revenue capacity. Both amendments reshaped government, but they addressed different problems. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "The Federal Reserve System was established in 1913 amid concern over financial instability; the Federal Trade Commission followed in 1914. New institutions reflected growing expectations of federal economic responsibility. Financial regulation sought greater stability in a banking system vulnerable to panic and credit disruption. Consumer protection and antitrust enforcement involved separate institutions and legal authorities. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Build an institutional timeline, then distinguish constitutional amendments from ordinary federal statutes. Evaluate the specific problem each measure addressed and its limits. Compare the date a reform was adopted with the date it began affecting practice. A stronger evaluation identifies institutional power, its intended problem, and at least one limitation of the measure. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Reforming Government and Industry · Evidence Investigation",
       "task": "Write a claim about Reforming Government and Industry with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -728,18 +728,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Reforming Government and Industry?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing Sixteenth Amendment and Seventeenth Amendment.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Reforming Government and Industry is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of Federal Reserve.",
+            "Interpret Sixteenth Amendment in historical context and weigh competing evidence concerning Federal Trade Commission.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -766,9 +766,9 @@
       "total": 3,
       "essential": "What motivated U.S. overseas expansion, and who resisted it?",
       "paragraphs": [
-        "Late nineteenth-century U.S. advocates of overseas power emphasized commerce, naval strategy, competition, and ideas of national prestige. American involvement extended to Pacific and Caribbean territories.",
-        "Imperial policies often denied self-determination to affected populations. Critics argued that colonial rule contradicted republican claims about consent and liberty.",
-        "Examine an expansionist speech alongside an anti-imperialist argument and a perspective from an affected territory. Compare motives without assuming all Americans or islanders agreed."
+        "Late nineteenth-century U.S. advocates of overseas power emphasized commerce, naval strategy, competition, and ideas of national prestige. American involvement extended to Pacific and Caribbean territories. Commercial expansion, strategic coaling stations, naval planning, and ideological claims about national destiny worked together in late-nineteenth-century debates. An overseas possession could be described as both a market opportunity and a military asset. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "Imperial policies often denied self-determination to affected populations. Critics argued that colonial rule contradicted republican claims about consent and liberty. Anti-imperialists warned that governing a population without its consent undermined principles invoked during U.S. independence. In occupied territories, local organizations and leaders pursued their own goals and should not be portrayed only as recipients of U.S. policy. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Examine an expansionist speech alongside an anti-imperialist argument and a perspective from an affected territory. Compare motives without assuming all Americans or islanders agreed. Compare a U.S. political cartoon with an affected community's statement. Define whose 'interest' is being defended, then decide whether the image supplies historical evidence or primarily expresses propaganda. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Why Did America Become an Overseas Power? · Evidence Investigation",
       "task": "Write a claim about Why Did America Become an Overseas Power? with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -803,18 +803,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Why Did America Become an Overseas Power??",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing imperialism and annexation.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Why Did America Become an Overseas Power? is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of self-determination.",
+            "Interpret imperialism in historical context and weigh competing evidence concerning naval strategy.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -841,9 +841,9 @@
       "total": 3,
       "essential": "How did a short war create long-term imperial questions?",
       "paragraphs": [
-        "The 1898 Spanish–American War was influenced by Cuban independence struggles, sensational press coverage, and U.S. strategic interests. The explosion of the USS Maine intensified public pressure, but its cause was not definitively established at the time.",
-        "The Treaty of Paris of 1898 transferred Spanish claims over Puerto Rico, Guam, and the Philippines to the United States; Cuba's status followed a distinct path. Filipino nationalists rejected U.S. colonial domination, leading to the Philippine–American War.",
-        "Analyze a newspaper headline, the 1898 treaty, and a Filipino independence statement. Evaluate the gap between a claimed war of liberation and imperial consequences."
+        "The 1898 Spanish–American War was influenced by Cuban independence struggles, sensational press coverage, and U.S. strategic interests. The explosion of the USS Maine intensified public pressure, but its cause was not definitively established at the time. Cuban independence activists had struggled against Spanish colonial rule before U.S. intervention. A U.S.-centered account can wrongly make Cubans disappear from the origins of the conflict. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "The Treaty of Paris of 1898 transferred Spanish claims over Puerto Rico, Guam, and the Philippines to the United States; Cuba's status followed a distinct path. Filipino nationalists rejected U.S. colonial domination, leading to the Philippine–American War. The transfer of Spanish territorial claims affected Puerto Ricans, Chamorros in Guam, and Filipinos in different ways. The Philippine–American War shows that an end to one interstate war did not end struggles over sovereignty. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Analyze a newspaper headline, the 1898 treaty, and a Filipino independence statement. Evaluate the gap between a claimed war of liberation and imperial consequences. Newspaper accounts of the USS Maine must be read with the uncertainty that existed about the explosion. An allegation presented confidently by a newspaper is not the same as a verified finding. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "The Spanish-American War · Evidence Investigation",
       "task": "Write a claim about The Spanish-American War with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -878,18 +878,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about The Spanish-American War?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing yellow journalism and USS Maine.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about The Spanish-American War is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of Treaty of Paris 1898.",
+            "Interpret yellow journalism in historical context and weigh competing evidence concerning Philippine–American War.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -916,9 +916,9 @@
       "total": 3,
       "essential": "How did U.S. foreign policy combine ideals, investment, and coercion?",
       "paragraphs": [
-        "The Open Door notes sought equal commercial opportunity in China amid imperial competition. Theodore Roosevelt's 1904 corollary to the Monroe Doctrine justified intervention in parts of Latin America.",
-        "Taft's dollar diplomacy emphasized U.S. investment as a foreign-policy instrument. These strategies reflected shifting means but continuing tension between economic goals, security claims, and other nations' sovereignty.",
-        "Compare a policy statement to a documented intervention. Identify stated justification, available alternatives, and the view of the affected population."
+        "The Open Door notes sought equal commercial opportunity in China amid imperial competition. Theodore Roosevelt's 1904 corollary to the Monroe Doctrine justified intervention in parts of Latin America. The Roosevelt Corollary framed intervention as a way of preventing European interference, but its application increased U.S. power over neighboring countries' affairs. Stated security aims and actual power relations may be different. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "Taft's dollar diplomacy emphasized U.S. investment as a foreign-policy instrument. These strategies reflected shifting means but continuing tension between economic goals, security claims, and other nations' sovereignty. Investment-led policy could protect U.S. commercial interests while leaving other countries exposed to financial pressure. Examine who received loans, who controlled decisions, and whose interests governments claimed to protect. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare a policy statement to a documented intervention. Identify stated justification, available alternatives, and the view of the affected population. A policy statement is evidence of what leaders wanted audiences to believe. Compare it with the actions taken in a specific country before judging the policy's consequences. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "America's Changing Foreign Policy · Evidence Investigation",
       "task": "Write a claim about America's Changing Foreign Policy with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -953,18 +953,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about America's Changing Foreign Policy?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing Open Door Policy and Roosevelt Corollary.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about America's Changing Foreign Policy is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of dollar diplomacy.",
+            "Interpret Open Door Policy in historical context and weigh competing evidence concerning sovereignty.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -991,9 +991,9 @@
       "total": 4,
       "essential": "Why did a regional crisis become a global war in 1914?",
       "paragraphs": [
-        "European imperial rivalries, militarization, alliance commitments, and nationalism created instability before 1914. The assassination of Archduke Franz Ferdinand in Sarajevo triggered a sequence of diplomatic ultimatums and mobilizations.",
-        "War expanded through state decisions, alliances, empires, and colonial resources. The assassination was a trigger, not an adequate single-cause explanation of the conflict.",
-        "Map the July Crisis sequence and evaluate competing explanations with attention to choices by governments rather than assigning mechanical inevitability to alliances."
+        "European imperial rivalries, militarization, alliance commitments, and nationalism created instability before 1914. The assassination of Archduke Franz Ferdinand in Sarajevo triggered a sequence of diplomatic ultimatums and mobilizations. The July Crisis involved decisions by Austria-Hungary, Serbia, Russia, Germany, France, and Britain under severe uncertainty. Alliances affected calculations but did not erase the agency of political leaders. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "War expanded through state decisions, alliances, empires, and colonial resources. The assassination was a trigger, not an adequate single-cause explanation of the conflict. Imperial networks connected troops and resources from colonies to the conflict. Describing the war solely as a contest among European states misses the global effects of empire. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Map the July Crisis sequence and evaluate competing explanations with attention to choices by governments rather than assigning mechanical inevitability to alliances. Build a causal diagram separating long-term conditions from the immediate trigger. A satisfactory explanation should show pathways through which militarization and diplomatic choices made escalation more likely. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Causes of World War I · Evidence Investigation",
       "task": "Write a claim about Causes of World War I with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -1028,18 +1028,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Causes of World War I?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing militarism and alliances.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Causes of World War I is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of nationalism.",
+            "Interpret militarism in historical context and weigh competing evidence concerning July Crisis.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -1066,9 +1066,9 @@
       "total": 4,
       "essential": "Why did U.S. neutrality give way to intervention in 1917?",
       "paragraphs": [
-        "The United States remained officially neutral when World War I began. German unrestricted submarine warfare endangered shipping, while the Zimmermann Telegram proposed an alliance between Germany and Mexico.",
-        "President Wilson asked Congress for a declaration of war in April 1917. U.S. entry reflected security, diplomacy, economic connections, and debate about international principles, not simply one intercepted message.",
-        "Compare Wilson's address, shipping events, and the Zimmermann Telegram. Distinguish immediate triggers from longer-term pressures."
+        "The United States remained officially neutral when World War I began. German unrestricted submarine warfare endangered shipping, while the Zimmermann Telegram proposed an alliance between Germany and Mexico. Germany resumed unrestricted submarine warfare in 1917 after prior confrontations over attacks on ships. These maritime events interacted with American commercial relationships and public debate. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "President Wilson asked Congress for a declaration of war in April 1917. U.S. entry reflected security, diplomacy, economic connections, and debate about international principles, not simply one intercepted message. The Zimmermann Telegram proposed German support for Mexico recovering U.S. territory if Mexico joined a conflict against the United States. It was a diplomatic proposal, not evidence that Mexico accepted the offer. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare Wilson's address, shipping events, and the Zimmermann Telegram. Distinguish immediate triggers from longer-term pressures. Wilson's public argument for war used ideals about international order. Compare those claims with congressional dissent and economic records to evaluate motives and their relative weight. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Why Did the United States Enter the War? · Evidence Investigation",
       "task": "Write a claim about Why Did the United States Enter the War? with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -1103,18 +1103,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Why Did the United States Enter the War??",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing unrestricted submarine warfare and Zimmermann Telegram.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Why Did the United States Enter the War? is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of neutrality.",
+            "Interpret unrestricted submarine warfare in historical context and weigh competing evidence concerning intervention.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -1141,9 +1141,9 @@
       "total": 4,
       "essential": "How did total war change civil liberties and everyday life?",
       "paragraphs": [
-        "U.S. mobilization for World War I involved military conscription, industrial production, public campaigns, and changing work roles. The Great Migration of Black Americans from the South to northern and western cities accelerated across this era.",
-        "The Espionage Act of 1917 and Sedition Act of 1918 restricted some speech and sparked constitutional debate. Racism, labor disputes, and unequal access to wartime opportunities complicated patriotic appeals.",
-        "Assess a recruitment poster against a dissenting perspective and an actual legal restriction. Explain why government propaganda is historical evidence of persuasion, not neutral proof of consensus."
+        "U.S. mobilization for World War I involved military conscription, industrial production, public campaigns, and changing work roles. The Great Migration of Black Americans from the South to northern and western cities accelerated across this era. War mobilization increased demand in certain industries while heightening disputes about wages, migration, and racial discrimination. Women took on jobs outside previous expectations, but these changes differed by occupation. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "The Espionage Act of 1917 and Sedition Act of 1918 restricted some speech and sparked constitutional debate. Racism, labor disputes, and unequal access to wartime opportunities complicated patriotic appeals. Propaganda posters portrayed desirable behavior and national unity. Their images cannot be treated as surveys showing that everyone supported the conflict. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Assess a recruitment poster against a dissenting perspective and an actual legal restriction. Explain why government propaganda is historical evidence of persuasion, not neutral proof of consensus. Examine a government poster alongside the Espionage Act and a dissenting statement. Distinguish propaganda's persuasive purpose from enforceable law and its effect on civil liberties. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Americans on the Home Front · Evidence Investigation",
       "task": "Write a claim about Americans on the Home Front with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -1178,18 +1178,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Americans on the Home Front?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing conscription and Great Migration.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Americans on the Home Front is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of Espionage Act.",
+            "Interpret conscription in historical context and weigh competing evidence concerning propaganda.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -1216,9 +1216,9 @@
       "total": 4,
       "essential": "Did the postwar settlement establish a lasting peace?",
       "paragraphs": [
-        "The 1919 Treaty of Versailles imposed territorial, military, and financial terms on Germany and established the League of Nations framework. President Wilson advocated collective security and self-determination, although the settlement applied those principles unevenly.",
-        "The U.S. Senate rejected ratification of the treaty, and the United States never joined the League. Historians debate how treaty terms, economic crises, and later choices contributed to subsequent instability.",
-        "Compare Wilson's Fourteen Points with the treaty's provisions and a critique from a society excluded from negotiations. Avoid claiming the treaty alone caused World War II."
+        "The 1919 Treaty of Versailles imposed territorial, military, and financial terms on Germany and established the League of Nations framework. President Wilson advocated collective security and self-determination, although the settlement applied those principles unevenly. The treaty included the League of Nations covenant, but its other provisions addressed reparations, territory, and military limitations. The agreement was more complex than a single punishment clause. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "The U.S. Senate rejected ratification of the treaty, and the United States never joined the League. Historians debate how treaty terms, economic crises, and later choices contributed to subsequent instability. Wilson's ideals about national self-determination were applied unevenly in a world of colonial empires. Peoples whose futures were shaped by the settlement were not always directly represented. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare Wilson's Fourteen Points with the treaty's provisions and a critique from a society excluded from negotiations. Avoid claiming the treaty alone caused World War II. Compare the treaty text with the U.S. Senate debate. A claim that the treaty 'failed' needs an explicit standard such as U.S. ratification, stability in Europe, or the treatment of colonized populations. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "The Treaty of Versailles · Evidence Investigation",
       "task": "Write a claim about The Treaty of Versailles with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -1253,18 +1253,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about The Treaty of Versailles?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing Treaty of Versailles and League of Nations.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about The Treaty of Versailles is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of collective security.",
+            "Interpret Treaty of Versailles in historical context and weigh competing evidence concerning self-determination.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -1291,9 +1291,9 @@
       "total": 4,
       "essential": "What made the 1920s an era of cultural conflict as well as innovation?",
       "paragraphs": [
-        "Radio, cinema, automobiles, and mass advertising reshaped leisure and consumption in the 1920s. New forms of popular entertainment reached wider audiences, though access differed by income, geography, and race.",
-        "Religious and scientific disputes, immigration restriction, and debates over gender roles revealed contested ideas about modernity. The Scopes Trial of 1925 exemplified conflicts about public-school teaching and cultural authority.",
-        "Compare an advertisement, radio program schedule, and political speech to distinguish lifestyle claims from actual social conditions."
+        "Radio, cinema, automobiles, and mass advertising reshaped leisure and consumption in the 1920s. New forms of popular entertainment reached wider audiences, though access differed by income, geography, and race. Technologies such as radio encouraged shared national experiences while local communities continued to follow different values and practices. A popular image of a fashionable young city resident does not describe every woman in the 1920s. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "Religious and scientific disputes, immigration restriction, and debates over gender roles revealed contested ideas about modernity. The Scopes Trial of 1925 exemplified conflicts about public-school teaching and cultural authority. Immigration restrictions and the revival of organized racial intolerance existed alongside cultural innovation. These developments challenge a simple narrative of universal freedom and progress. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare an advertisement, radio program schedule, and political speech to distinguish lifestyle claims from actual social conditions. Analyze the intended audience of an advertisement or magazine cover. Consider whether it documents how people lived or primarily how advertisers wanted them to live. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "A Changing American Culture · Evidence Investigation",
       "task": "Write a claim about A Changing American Culture with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -1328,18 +1328,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about A Changing American Culture?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing mass culture and modernity.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about A Changing American Culture is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of Scopes Trial.",
+            "Interpret mass culture in historical context and weigh competing evidence concerning consumerism.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -1366,9 +1366,9 @@
       "total": 4,
       "essential": "How did the Harlem Renaissance transform American cultural expression?",
       "paragraphs": [
-        "The Harlem Renaissance brought influential Black writers, musicians, artists, and intellectuals into national and international conversations during the 1920s. Langston Hughes, Zora Neale Hurston, and other creators explored identity, community, and artistic freedom.",
-        "The movement emerged through the Great Migration and urban cultural networks but was not confined to one neighborhood or one artistic viewpoint. Racism and patronage relationships affected publication and opportunity.",
-        "Interpret a properly attributed short excerpt or artwork using genre, audience, and historical context. Avoid presenting all Black artistic expression as a single movement with one political position."
+        "The Harlem Renaissance brought influential Black writers, musicians, artists, and intellectuals into national and international conversations during the 1920s. Langston Hughes, Zora Neale Hurston, and other creators explored identity, community, and artistic freedom. The movement included poetry, visual art, theater, music, and political debate. Creators differed in how directly they addressed racial inequality and whether artistic independence should serve explicit political goals. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "The movement emerged through the Great Migration and urban cultural networks but was not confined to one neighborhood or one artistic viewpoint. Racism and patronage relationships affected publication and opportunity. Publishers and patrons could expand opportunity while also imposing expectations on Black artists. Migration and urban institutions made Harlem a prominent center without limiting Black creativity to New York. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Interpret a properly attributed short excerpt or artwork using genre, audience, and historical context. Avoid presenting all Black artistic expression as a single movement with one political position. Read an artist's own description of a work, if available, before interpreting the work solely through a textbook summary. Distinguish the author's stated purpose from a reader's defensible interpretation. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "The Harlem Renaissance · Evidence Investigation",
       "task": "Write a claim about The Harlem Renaissance with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -1403,18 +1403,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about The Harlem Renaissance?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing Harlem Renaissance and Great Migration.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about The Harlem Renaissance is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of cultural expression.",
+            "Interpret Harlem Renaissance in historical context and weigh competing evidence concerning patronage.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -1441,9 +1441,9 @@
       "total": 4,
       "essential": "Why did banning alcohol produce consequences reformers did not anticipate?",
       "paragraphs": [
-        "The Eighteenth Amendment was ratified in 1919, and national Prohibition took effect in 1920 under the Volstead Act. Supporters associated alcohol restriction with family welfare, order, and reform.",
-        "Illegal production and distribution expanded, enforcement varied, and debates about individual liberty and public regulation intensified. The Twenty-First Amendment repealed national Prohibition in 1933.",
-        "Compare reform claims with enforcement reports and crime statistics, noting how reporting categories change. A law's intentions cannot be assumed to equal its measured effects."
+        "The Eighteenth Amendment was ratified in 1919, and national Prohibition took effect in 1920 under the Volstead Act. Supporters associated alcohol restriction with family welfare, order, and reform. Support for Prohibition included reform organizations with different religious, public-health, and gender-related concerns. Opposition also drew on liberty, employment, and doubts about enforceability. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "Illegal production and distribution expanded, enforcement varied, and debates about individual liberty and public regulation intensified. The Twenty-First Amendment repealed national Prohibition in 1933. Illegal markets and organized crime became widely associated with the period, but not every increase in reported offenses can be attributed to Prohibition alone. Enforcement methods and definitions changed. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare reform claims with enforcement reports and crime statistics, noting how reporting categories change. A law's intentions cannot be assumed to equal its measured effects. Compare a temperance campaign poster to an enforcement report and the amendment's text. Evaluate intentions, measurable effects, and reasons the policy was ultimately repealed. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Prohibition and Social Conflict · Evidence Investigation",
       "task": "Write a claim about Prohibition and Social Conflict with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -1478,18 +1478,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Prohibition and Social Conflict?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing Prohibition and Volstead Act.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Prohibition and Social Conflict is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of Eighteenth Amendment.",
+            "Interpret Prohibition in historical context and weigh competing evidence concerning Twenty-First Amendment.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -1516,9 +1516,9 @@
       "total": 4,
       "essential": "How did credit and consumption conceal vulnerability in the 1920s economy?",
       "paragraphs": [
-        "Automobiles, appliances, and mass advertising expanded consumer markets in the 1920s. Installment credit allowed some families to buy goods over time, while stock speculation drew public attention.",
-        "Rising production did not eliminate uneven wealth, agricultural distress, or risky borrowing. The decade's prosperity was distributed unequally and did not make a severe downturn inevitable from a single factor.",
-        "Read a hypothetical household budget with installment payments and a dated financial advertisement. Distinguish ability to purchase from long-term ability to repay."
+        "Automobiles, appliances, and mass advertising expanded consumer markets in the 1920s. Installment credit allowed some families to buy goods over time, while stock speculation drew public attention. A family purchasing an automobile on credit might enjoy mobility while accepting monthly financial obligations. Low down payments could expand access but also make households vulnerable when income declined. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "Rising production did not eliminate uneven wealth, agricultural distress, or risky borrowing. The decade's prosperity was distributed unequally and did not make a severe downturn inevitable from a single factor. Agricultural regions experienced serious difficulties during parts of the decade, contradicting advertisements celebrating endless prosperity. Differences by sector matter as much as national averages. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Read a hypothetical household budget with installment payments and a dated financial advertisement. Distinguish ability to purchase from long-term ability to repay. Analyze a fictional installment contract and a dated economic trend. State clearly which figures are constructed classroom examples and which derive from real historical series. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Consumer Culture and Economic Growth · Evidence Investigation",
       "task": "Write a claim about Consumer Culture and Economic Growth with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -1553,18 +1553,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Consumer Culture and Economic Growth?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing installment credit and speculation.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Consumer Culture and Economic Growth is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of mass production.",
+            "Interpret installment credit in historical context and weigh competing evidence concerning income inequality.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -1591,9 +1591,9 @@
       "total": 4,
       "essential": "Why did the Great Depression extend beyond the 1929 stock market crash?",
       "paragraphs": [
-        "Stock prices collapsed in late October 1929 following years of speculation and economic vulnerabilities. Bank failures, falling investment and consumption, deflation, and international economic pressures deepened the crisis.",
-        "The Depression was not caused solely by one day of trading. Government policy, banking structures, and global links shaped the severity and duration, while different communities faced unequal economic hardship.",
-        "Compare an unemployment series with banking data, clearly labeling dates and denominators. Distinguish chronology from proof that one variable alone caused another."
+        "Stock prices collapsed in late October 1929 following years of speculation and economic vulnerabilities. Bank failures, falling investment and consumption, deflation, and international economic pressures deepened the crisis. The 1929 crash occurred amid a financial system with vulnerable banks and uneven economic conditions. Falling stock prices hurt investor confidence, but the broader depression spread through banking, consumer spending, production, and global trade. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "The Depression was not caused solely by one day of trading. Government policy, banking structures, and global links shaped the severity and duration, while different communities faced unequal economic hardship. Different historians emphasize monetary policy, international financial obligations, and weaknesses in demand or banking. A rigorous explanation compares these hypotheses rather than declaring one trading day the complete cause. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare an unemployment series with banking data, clearly labeling dates and denominators. Distinguish chronology from proof that one variable alone caused another. If unemployment and bank failures rose together, that pattern alone does not prove the direction of causation. Use dates, mechanisms, and corroborating evidence to make a more defensible argument. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "The Stock Market Crash and Economic Crisis · Evidence Investigation",
       "task": "Write a claim about The Stock Market Crash and Economic Crisis with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -1628,18 +1628,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about The Stock Market Crash and Economic Crisis?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing deflation and bank failure.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about The Stock Market Crash and Economic Crisis is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of unemployment.",
+            "Interpret deflation in historical context and weigh competing evidence concerning stock speculation.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -1666,9 +1666,9 @@
       "total": 4,
       "essential": "How did families and communities respond to prolonged economic hardship?",
       "paragraphs": [
-        "The Great Depression involved unemployment, falling incomes, foreclosures, and severe uncertainty. Dust Bowl conditions compounded hardship in parts of the Great Plains during the 1930s, contributing to migration.",
-        "Mutual aid, labor organizing, local relief, and community institutions supported many people. Experiences differed by region, race, gender, and occupation; famous documentary photographs do not represent everyone's life.",
-        "Compare a dated photograph with an oral history and local relief records. Ask whether an image is staged, captioned accurately, and representative before making broad claims."
+        "The Great Depression involved unemployment, falling incomes, foreclosures, and severe uncertainty. Dust Bowl conditions compounded hardship in parts of the Great Plains during the 1930s, contributing to migration. Conditions varied sharply among agricultural families, industrial workers, Black communities, Mexican Americans, and people who retained steady employment. National unemployment estimates can obscure those differences. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "Mutual aid, labor organizing, local relief, and community institutions supported many people. Experiences differed by region, race, gender, and occupation; famous documentary photographs do not represent everyone's life. The Dust Bowl resulted from severe drought interacting with land-use patterns in portions of the Great Plains. Migration stories should distinguish environmental pressure from economic conditions and unequal treatment along routes. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare a dated photograph with an oral history and local relief records. Ask whether an image is staged, captioned accurately, and representative before making broad claims. Compare a documentary photograph and testimony with attention to framing, selection, and survival of records. Avoid turning one visually memorable image into a claim about the entire nation. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Living Through the Great Depression · Evidence Investigation",
       "task": "Write a claim about Living Through the Great Depression with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -1703,18 +1703,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Living Through the Great Depression?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing Dust Bowl and mutual aid.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Living Through the Great Depression is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of foreclosure.",
+            "Interpret Dust Bowl in historical context and weigh competing evidence concerning oral history.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -1741,9 +1741,9 @@
       "total": 4,
       "essential": "How did the New Deal redefine federal responsibility for economic security?",
       "paragraphs": [
-        "Franklin D. Roosevelt took office in 1933 and pursued banking reforms, emergency relief, public employment, and regulatory changes. Programs such as the Civilian Conservation Corps provided work, while the Social Security Act of 1935 established a national framework for old-age and other protections.",
-        "New Deal policies were debated over cost, constitutionality, and effectiveness. Some occupational exclusions and local discrimination limited benefits for Black Americans and other workers, while many programs expanded the federal government's economic role.",
-        "Compare one program's legislative purpose with implementation records and critiques. Assess a precise outcome rather than assuming every New Deal program worked equally well."
+        "Franklin D. Roosevelt took office in 1933 and pursued banking reforms, emergency relief, public employment, and regulatory changes. Programs such as the Civilian Conservation Corps provided work, while the Social Security Act of 1935 established a national framework for old-age and other protections. The federal government pursued relief for immediate hardship, recovery of economic activity, and structural reform. These goals were related but not interchangeable, and programs met different criteria for success. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "New Deal policies were debated over cost, constitutionality, and effectiveness. Some occupational exclusions and local discrimination limited benefits for Black Americans and other workers, while many programs expanded the federal government's economic role. Federal rules interacted with local officials, sometimes allowing racial discrimination. A program's national title tells little about who gained access in a particular community. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare one program's legislative purpose with implementation records and critiques. Assess a precise outcome rather than assuming every New Deal program worked equally well. Create a matrix linking programs to goals, legal authority, outcomes, and exclusions. Explain why one measure of employment or spending cannot establish the effectiveness of the entire New Deal. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Franklin Roosevelt's New Deal · Evidence Investigation",
       "task": "Write a claim about Franklin Roosevelt's New Deal with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -1778,18 +1778,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Franklin Roosevelt's New Deal?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing New Deal and CCC.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Franklin Roosevelt's New Deal is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of Social Security Act.",
+            "Interpret New Deal in historical context and weigh competing evidence concerning federal relief.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -1816,9 +1816,9 @@
       "total": 4,
       "essential": "Was the New Deal a temporary emergency response or an enduring change?",
       "paragraphs": [
-        "New Deal legislation expanded regulatory agencies, labor protections, and social insurance. The Wagner Act of 1935 strengthened collective-bargaining protections for many workers, while the Fair Labor Standards Act of 1938 established federal wage and hour standards.",
-        "Critics objected to increased federal power; supporters argued that economic insecurity required structural change. The extent to which federal programs ended the Depression remains debated, with wartime mobilization later reshaping employment.",
-        "Use a before-and-after institutional comparison and distinguish lasting laws from short-lived emergency programs. Weigh continuity, change, and contested impacts."
+        "New Deal legislation expanded regulatory agencies, labor protections, and social insurance. The Wagner Act of 1935 strengthened collective-bargaining protections for many workers, while the Fair Labor Standards Act of 1938 established federal wage and hour standards. Permanent changes to regulation, labor law, and social insurance outlasted individual emergency programs. The Social Security framework and labor standards affected later generations beyond the immediate crisis. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "Critics objected to increased federal power; supporters argued that economic insecurity required structural change. The extent to which federal programs ended the Depression remains debated, with wartime mobilization later reshaping employment. New Deal opponents warned about federal power or expense, while supporters argued that market instability required public responsibility. Both arguments should be examined using legal and economic evidence. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Use a before-and-after institutional comparison and distinguish lasting laws from short-lived emergency programs. Weigh continuity, change, and contested impacts. A balanced conclusion must specify a dimension of transformation—government size, legal authority, labor relations, or expectations of security—and test it across the decades after the 1930s. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Did the New Deal Transform Government? · Evidence Investigation",
       "task": "Write a claim about Did the New Deal Transform Government? with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -1853,18 +1853,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Did the New Deal Transform Government??",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing Wagner Act and Fair Labor Standards Act.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Did the New Deal Transform Government? is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of social insurance.",
+            "Interpret Wagner Act in historical context and weigh competing evidence concerning federal regulation.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -1891,9 +1891,9 @@
       "total": 5,
       "essential": "How did aggression, political crisis, and failed diplomacy contribute to World War II?",
       "paragraphs": [
-        "The rise of Nazi Germany, Fascist Italy, and militarist expansion in Japan threatened international order in the 1930s. German invasion of Poland in September 1939 prompted Britain and France to declare war.",
-        "The worldwide conflict developed through separate but connected theaters and choices. The effects of the Depression, nationalist ideologies, appeasement, and military planning require careful analysis rather than a single-cause explanation.",
-        "Sequence events in Europe and Asia, compare diplomatic positions, and identify how choices constrained or escalated conflict. Avoid treating war as inevitable."
+        "The rise of Nazi Germany, Fascist Italy, and militarist expansion in Japan threatened international order in the 1930s. German invasion of Poland in September 1939 prompted Britain and France to declare war. Germany's expansion in Europe interacted with Japan's aggressive war in Asia; their trajectories should be studied with attention to different regional histories rather than one interchangeable narrative. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "The worldwide conflict developed through separate but connected theaters and choices. The effects of the Depression, nationalist ideologies, appeasement, and military planning require careful analysis rather than a single-cause explanation. The invasion of Poland in 1939 followed previous territorial demands and concessions. The choices of governments and the failure of diplomatic deterrence are crucial to explanation. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Sequence events in Europe and Asia, compare diplomatic positions, and identify how choices constrained or escalated conflict. Avoid treating war as inevitable. Distinguish strategic actions from ideology and economic conditions. A cause-and-effect chart should show sequences, alternatives, and decisions rather than implying the war was predetermined. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Causes of World War II · Evidence Investigation",
       "task": "Write a claim about Causes of World War II with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -1928,18 +1928,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Causes of World War II?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing appeasement and totalitarianism.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Causes of World War II is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of aggression.",
+            "Interpret appeasement in historical context and weigh competing evidence concerning invasion of Poland.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -1966,9 +1966,9 @@
       "total": 5,
       "essential": "How did Pearl Harbor alter U.S. participation in World War II?",
       "paragraphs": [
-        "Japan attacked the U.S. naval base at Pearl Harbor, Hawaii, on December 7, 1941. The United States declared war on Japan on December 8; Germany and Italy declared war on the United States on December 11.",
-        "U.S.–Japanese tensions involved expansion in Asia, trade restrictions, and diplomatic failure. Entry into war required enormous military and industrial mobilization; the attack should not be isolated from its regional context.",
-        "Compare a timeline of U.S.–Japanese diplomacy with a dated report of the attack. Separate verified facts from later myths or exaggerated claims about decision-makers' foreknowledge."
+        "Japan attacked the U.S. naval base at Pearl Harbor, Hawaii, on December 7, 1941. The United States declared war on Japan on December 8; Germany and Italy declared war on the United States on December 11. Japanese expansion in China and Southeast Asia created conflict with U.S. diplomatic and trade policy. Restrictions on oil exports played a role in the worsening relationship. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "U.S.–Japanese tensions involved expansion in Asia, trade restrictions, and diplomatic failure. Entry into war required enormous military and industrial mobilization; the attack should not be isolated from its regional context. The attack had immediate military consequences and transformed American public and congressional decisions. However, wartime mobilization had already been underway in several forms before December 1941. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare a timeline of U.S.–Japanese diplomacy with a dated report of the attack. Separate verified facts from later myths or exaggerated claims about decision-makers' foreknowledge. Use a chronology connecting regional expansion, negotiations, restrictions, and war decisions. Avoid claiming that any single policy made the attack inevitable. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Pearl Harbor and American Entry · Evidence Investigation",
       "task": "Write a claim about Pearl Harbor and American Entry with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -2003,18 +2003,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Pearl Harbor and American Entry?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing Pearl Harbor and embargo.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Pearl Harbor and American Entry is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of mobilization.",
+            "Interpret Pearl Harbor in historical context and weigh competing evidence concerning declaration of war.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -2041,9 +2041,9 @@
       "total": 5,
       "essential": "How did Nazi policy turn persecution into genocide, and why does evidence matter?",
       "paragraphs": [
-        "Nazi antisemitism, exclusionary laws, and violence intensified after 1933. During World War II, Nazi Germany and collaborators systematically murdered approximately six million Jews in the Holocaust, alongside persecution and mass murder of other groups.",
-        "The Holocaust developed through policies, institutions, decisions, and participation by perpetrators; it was not an accidental byproduct of battle. Jewish resistance and survival took varied forms under extraordinarily dangerous conditions.",
-        "Use verified museum testimony and documented policy chronology. Avoid graphic sensationalism or invented victim dialogue; distinguish antisemitic propaganda from reliable historical evidence and confront denial using corroborated records."
+        "Nazi antisemitism, exclusionary laws, and violence intensified after 1933. During World War II, Nazi Germany and collaborators systematically murdered approximately six million Jews in the Holocaust, alongside persecution and mass murder of other groups. Nazi persecution developed through laws excluding Jews from public life, organized violence, deportations, ghettos, shootings, and killing centers. Chronology matters: not every instrument of persecution appeared at the same time. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "The Holocaust developed through policies, institutions, decisions, and participation by perpetrators; it was not an accidental byproduct of battle. Jewish resistance and survival took varied forms under extraordinarily dangerous conditions. Documents, physical remains, photographs, perpetrator records, and survivor testimony provide extensive corroborated evidence. Responsible history does not require reproducing graphic images or inventing the words of victims. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Use verified museum testimony and documented policy chronology. Avoid graphic sensationalism or invented victim dialogue; distinguish antisemitic propaganda from reliable historical evidence and confront denial using corroborated records. Investigate how state institutions, collaborators, and individuals participated or resisted, using museum-vetted sources. Explain why genocide is a purposeful process involving decisions rather than an anonymous disaster. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "The Holocaust and Human Rights · Evidence Investigation",
       "task": "Write a claim about The Holocaust and Human Rights with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -2078,18 +2078,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about The Holocaust and Human Rights?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing antisemitism and genocide.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about The Holocaust and Human Rights is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of Nuremberg Laws.",
+            "Interpret antisemitism in historical context and weigh competing evidence concerning testimony.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -2116,9 +2116,9 @@
       "total": 5,
       "essential": "How did wartime mobilization expand opportunity while limiting rights?",
       "paragraphs": [
-        "War production transformed employment and industry across the United States. Women entered new jobs in large numbers, and Black Americans organized against discrimination in defense employment and public life.",
-        "Executive Order 9066 in 1942 enabled the forced removal and incarceration of Japanese Americans, a grave civil-liberties violation. The experience exposed tension between national security claims and constitutional protections.",
-        "Compare government statements with testimony from incarcerated Japanese Americans and production data. Identify why a claim of military necessity requires critical evidence rather than acceptance at face value."
+        "War production transformed employment and industry across the United States. Women entered new jobs in large numbers, and Black Americans organized against discrimination in defense employment and public life. Wartime production drew workers into factories and brought demographic changes to cities. The Double V campaign connected calls for victory against fascism abroad with demands for civil rights at home. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "Executive Order 9066 in 1942 enabled the forced removal and incarceration of Japanese Americans, a grave civil-liberties violation. The experience exposed tension between national security claims and constitutional protections. Japanese American incarceration involved the forced removal of families from their homes without individualized proof of wrongdoing. Government claims about military necessity deserve scrutiny against civil-liberties standards and later historical findings. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare government statements with testimony from incarcerated Japanese Americans and production data. Identify why a claim of military necessity requires critical evidence rather than acceptance at face value. Compare a patriotic recruitment poster with personal accounts and the legal order authorizing removals. Explain the tension between national mobilization and the rights of targeted communities. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "War on the Home Front · Evidence Investigation",
       "task": "Write a claim about War on the Home Front with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -2153,18 +2153,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about War on the Home Front?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing Executive Order 9066 and internment.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about War on the Home Front is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of war production.",
+            "Interpret Executive Order 9066 in historical context and weigh competing evidence concerning civil liberties.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -2191,9 +2191,9 @@
       "total": 5,
       "essential": "How did coordinated campaigns and difficult decisions lead to Allied victory?",
       "paragraphs": [
-        "Allied forces landed in Normandy on June 6, 1944, opening a major Western European offensive. The Soviet military's campaigns on the Eastern Front were also crucial to Germany's defeat in May 1945.",
-        "The Pacific War continued until Japan's surrender in August–September 1945, following devastating campaigns and atomic bombings of Hiroshima and Nagasaki. Historians debate the decisions and alternatives surrounding the bombings, including military and humanitarian consequences.",
-        "Compare maps of European and Pacific campaigns with civilian perspectives. Clearly distinguish military objectives from ethical analysis of wartime actions."
+        "Allied forces landed in Normandy on June 6, 1944, opening a major Western European offensive. The Soviet military's campaigns on the Eastern Front were also crucial to Germany's defeat in May 1945. Normandy depended on coordination among Allied forces, air and naval support, deception, and logistics. The Soviet Union's enormous military role in defeating Germany must also be considered. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "The Pacific War continued until Japan's surrender in August–September 1945, following devastating campaigns and atomic bombings of Hiroshima and Nagasaki. Historians debate the decisions and alternatives surrounding the bombings, including military and humanitarian consequences. In the Pacific, battles, blockade, bombing, and diplomatic decisions shaped the final months. The atomic bombings caused mass civilian deaths and remain central to ethical historical debate. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare maps of European and Pacific campaigns with civilian perspectives. Clearly distinguish military objectives from ethical analysis of wartime actions. Separate claims about leaders' intentions from evidence about alternatives and outcomes. A responsible analysis addresses both strategy and human consequences without reducing civilians to military statistics. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "D-Day, the Pacific War, and Allied Victory · Evidence Investigation",
       "task": "Write a claim about D-Day, the Pacific War, and Allied Victory with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -2228,18 +2228,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about D-Day, the Pacific War, and Allied Victory?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing D-Day and Eastern Front.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about D-Day, the Pacific War, and Allied Victory is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of Hiroshima.",
+            "Interpret D-Day in historical context and weigh competing evidence concerning Japanese surrender.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -2266,9 +2266,9 @@
       "total": 4,
       "essential": "Why did wartime allies become ideological and strategic rivals?",
       "paragraphs": [
-        "After World War II, U.S.–Soviet relations deteriorated over security, political influence, economic systems, and the future of Europe. The Truman Doctrine in 1947 and Marshall Plan reflected U.S. efforts to contain communist influence.",
-        "Soviet policies in Eastern Europe and the division of Germany heightened tension, while both sides perceived threats differently. Historians debate the relative influence of ideology, security fears, and individual decisions.",
-        "Compare a U.S. address with a Soviet statement and a European perspective. Identify claims, omissions, and incentives without treating propaganda as neutral reporting."
+        "After World War II, U.S.–Soviet relations deteriorated over security, political influence, economic systems, and the future of Europe. The Truman Doctrine in 1947 and Marshall Plan reflected U.S. efforts to contain communist influence. The future of Germany and Eastern Europe created disagreements among former allies. Ideological competition intersected with security fears developed through devastating wartime experience. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "Soviet policies in Eastern Europe and the division of Germany heightened tension, while both sides perceived threats differently. Historians debate the relative influence of ideology, security fears, and individual decisions. U.S. containment policy was justified publicly as defending freedom; Soviet leaders emphasized security and their view of socialism. Each government interpreted the other through political fears and strategic interests. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare a U.S. address with a Soviet statement and a European perspective. Identify claims, omissions, and incentives without treating propaganda as neutral reporting. Compare speeches, aid programs, and actions on the ground. Avoid treating rhetoric as proof that every policy perfectly reflected its claimed purpose. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Origins of the Cold War · Evidence Investigation",
       "task": "Write a claim about Origins of the Cold War with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -2303,18 +2303,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Origins of the Cold War?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing containment and Truman Doctrine.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Origins of the Cold War is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of Marshall Plan.",
+            "Interpret containment in historical context and weigh competing evidence concerning Iron Curtain.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -2341,9 +2341,9 @@
       "total": 4,
       "essential": "Why did war in Korea become an international Cold War conflict?",
       "paragraphs": [
-        "Following Japanese rule, Korea was divided near the 38th parallel after 1945. North Korean forces invaded South Korea in June 1950, and a U.S.-led United Nations force intervened; China later entered the war.",
-        "The 1953 armistice halted major fighting but did not establish a permanent peace treaty. Korean civilians experienced enormous losses, and the peninsula remained divided.",
-        "Trace the changing front lines using dated maps and distinguish the United Nations role, U.S. policy, Chinese intervention, and Korean agency."
+        "Following Japanese rule, Korea was divided near the 38th parallel after 1945. North Korean forces invaded South Korea in June 1950, and a U.S.-led United Nations force intervened; China later entered the war. Korean political movements had their own objectives within a world divided by superpower competition. Civilian experiences and Korean agency should not disappear behind maps labeled only U.S., Soviet, or Chinese. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "The 1953 armistice halted major fighting but did not establish a permanent peace treaty. Korean civilians experienced enormous losses, and the peninsula remained divided. After China's intervention, the front changed repeatedly and negotiations continued amid fighting. An armistice established a military halt, not reconciliation or the disappearance of the division. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Trace the changing front lines using dated maps and distinguish the United Nations role, U.S. policy, Chinese intervention, and Korean agency. Evaluate a dated sequence of front lines alongside an account from a Korean civilian. Distinguish diplomatic goals, military control, and the human costs of conflict. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "The Korean War · Evidence Investigation",
       "task": "Write a claim about The Korean War with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -2378,18 +2378,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about The Korean War?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing 38th parallel and armistice.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about The Korean War is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of United Nations Command.",
+            "Interpret 38th parallel in historical context and weigh competing evidence concerning intervention.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -2416,9 +2416,9 @@
       "total": 4,
       "essential": "How did technological competition shape Cold War security and public life?",
       "paragraphs": [
-        "The United States and Soviet Union developed nuclear arsenals and delivery systems, raising fears of catastrophic war. The Soviet launch of Sputnik in 1957 accelerated competition in space science and education.",
-        "The 1962 Cuban Missile Crisis brought the superpowers close to nuclear war, while scientific programs also produced new technologies. Deterrence and arms control evolved amid uncertainty about risk.",
-        "Interpret an arms-race timeline and evaluate public claims with attention to scale, technical limits, and the human consequences of nuclear decisions."
+        "The United States and Soviet Union developed nuclear arsenals and delivery systems, raising fears of catastrophic war. The Soviet launch of Sputnik in 1957 accelerated competition in space science and education. Deterrence depends on an opponent believing a response would impose unacceptable costs. This strategic logic shaped planning but could not remove the risks of accidents, miscalculation, or uncontrolled escalation. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "The 1962 Cuban Missile Crisis brought the superpowers close to nuclear war, while scientific programs also produced new technologies. Deterrence and arms control evolved amid uncertainty about risk. Space achievements offered military and symbolic advantages while also advancing research and communication technology. Public celebrations of innovation often coexisted with fear of nuclear conflict. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Interpret an arms-race timeline and evaluate public claims with attention to scale, technical limits, and the human consequences of nuclear decisions. Use a timeline of major launches and crises, then distinguish what technology made possible from how governments chose to use it. Avoid assuming every new invention improved international security. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Nuclear Competition and the Space Race · Evidence Investigation",
       "task": "Write a claim about Nuclear Competition and the Space Race with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -2453,18 +2453,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Nuclear Competition and the Space Race?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing deterrence and Sputnik.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Nuclear Competition and the Space Race is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of Cuban Missile Crisis.",
+            "Interpret deterrence in historical context and weigh competing evidence concerning arms control.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -2491,9 +2491,9 @@
       "total": 4,
       "essential": "How did the Vietnam War challenge U.S. containment policy?",
       "paragraphs": [
-        "Conflict in Vietnam grew from anticolonial struggle, competing Vietnamese political movements, and Cold War intervention. U.S. military involvement expanded substantially after the 1964 Gulf of Tonkin Resolution.",
-        "The Tet Offensive in 1968 damaged U.S. public confidence despite complex military results; widespread protests reflected disputes over strategy, casualties, and government credibility. Saigon fell to North Vietnamese forces in 1975.",
-        "Compare U.S. official statements with Vietnamese perspectives and documented casualty data. Do not reduce Vietnamese political agency to a conflict between Washington and Moscow."
+        "Conflict in Vietnam grew from anticolonial struggle, competing Vietnamese political movements, and Cold War intervention. U.S. military involvement expanded substantially after the 1964 Gulf of Tonkin Resolution. French colonial rule and Vietnamese independence movements preceded major U.S. military escalation. Vietnamese communists and noncommunists pursued distinct goals, and the conflict cannot be explained only as a superpower contest. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "The Tet Offensive in 1968 damaged U.S. public confidence despite complex military results; widespread protests reflected disputes over strategy, casualties, and government credibility. Saigon fell to North Vietnamese forces in 1975. Images and televised reports shaped U.S. debate, but the public received incomplete and sometimes conflicting information. The Tet Offensive's military outcome and political impact should be analyzed separately. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare U.S. official statements with Vietnamese perspectives and documented casualty data. Do not reduce Vietnamese political agency to a conflict between Washington and Moscow. Compare a U.S. policy document with Vietnamese perspectives and a dated account of the war's effects. Show how changes in public support interacted with political and military decisions. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "The Vietnam War · Evidence Investigation",
       "task": "Write a claim about The Vietnam War with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -2528,18 +2528,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about The Vietnam War?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing Gulf of Tonkin Resolution and Tet Offensive.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about The Vietnam War is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of Vietnamization.",
+            "Interpret Gulf of Tonkin Resolution in historical context and weigh competing evidence concerning Saigon.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -2566,9 +2566,9 @@
       "total": 5,
       "essential": "How did Black Americans resist Jim Crow before nationally famous victories?",
       "paragraphs": [
-        "After Reconstruction, Jim Crow laws and racial terror restricted rights across the South. Black organizations, families, churches, educators, and legal advocates challenged inequality through organizing and litigation.",
-        "The NAACP, founded in 1909, pursued legal challenges and advocacy. The Great Migration also changed political and social opportunities, while discrimination persisted outside the South.",
-        "Analyze a segregation law, a Black newspaper account, and a legal challenge. Explain why formal law, enforcement, and community experience must be considered together."
+        "After Reconstruction, Jim Crow laws and racial terror restricted rights across the South. Black organizations, families, churches, educators, and legal advocates challenged inequality through organizing and litigation. Jim Crow was maintained not just by written segregation laws but by economic pressure, intimidation, and unequal access to institutions. Organizations challenged those patterns long before the best-known national marches. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "The NAACP, founded in 1909, pursued legal challenges and advocacy. The Great Migration also changed political and social opportunities, while discrimination persisted outside the South. Black communities formed strategies through churches, unions, political clubs, schools, and legal groups. An account centered only on national leaders can erase extensive local organizing. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Analyze a segregation law, a Black newspaper account, and a legal challenge. Explain why formal law, enforcement, and community experience must be considered together. Use a local case study to connect a specific law to practical enforcement and organized resistance. Assess what the record reveals and whose experiences remain absent. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Segregation and the Fight for Equality · Evidence Investigation",
       "task": "Write a claim about Segregation and the Fight for Equality with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -2603,18 +2603,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Segregation and the Fight for Equality?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing Jim Crow and NAACP.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Segregation and the Fight for Equality is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of Great Migration.",
+            "Interpret Jim Crow in historical context and weigh competing evidence concerning racial terror.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -2641,9 +2641,9 @@
       "total": 5,
       "essential": "Why was Brown v. Board a turning point yet not an immediate end to segregation?",
       "paragraphs": [
-        "In Brown v. Board of Education (1954), the U.S. Supreme Court ruled that racial segregation in public schools violated the Equal Protection Clause of the Fourteenth Amendment. The decision rejected the constitutional legitimacy of separate public schooling by race.",
-        "Resistance and delayed desegregation followed, including conflicts in Little Rock in 1957. The legal victory required implementation and continuing organizing to affect students' daily lives.",
-        "Compare the Court's reasoning with local implementation records. Distinguish a constitutional ruling from immediate compliance in every school district."
+        "In Brown v. Board of Education (1954), the U.S. Supreme Court ruled that racial segregation in public schools violated the Equal Protection Clause of the Fourteenth Amendment. The decision rejected the constitutional legitimacy of separate public schooling by race. The Brown ruling addressed state-imposed segregation in public schools under the Equal Protection Clause. It overturned the application of 'separate but equal' to public education rather than immediately desegregating every school. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "Resistance and delayed desegregation followed, including conflicts in Little Rock in 1957. The legal victory required implementation and continuing organizing to affect students' daily lives. Brown II in 1955 called for implementation with 'all deliberate speed,' a phrase that became the focus of disputes about delay. In some districts officials resisted fiercely. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare the Court's reasoning with local implementation records. Distinguish a constitutional ruling from immediate compliance in every school district. Compare the Court's reasoning with school-board actions and student experiences. Do not equate a legal declaration with the lived reality of integrated classrooms. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Brown v. Board of Education · Evidence Investigation",
       "task": "Write a claim about Brown v. Board of Education with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -2678,18 +2678,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Brown v. Board of Education?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing Brown v. Board and equal protection.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Brown v. Board of Education is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of desegregation.",
+            "Interpret Brown v. Board in historical context and weigh competing evidence concerning implementation.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -2716,9 +2716,9 @@
       "total": 5,
       "essential": "How did organized nonviolent action produce political pressure?",
       "paragraphs": [
-        "Martin Luther King Jr. and many local activists organized boycotts, marches, and campaigns to confront segregation. The Montgomery bus boycott of 1955–1956 depended on sustained participation by Black residents and organizers including women whose work is sometimes overlooked.",
-        "The Birmingham campaign of 1963 and March on Washington helped focus national attention on civil rights. Nonviolence was a disciplined strategy involving training, economic pressure, moral argument, and risk, not merely absence of physical retaliation.",
-        "Compare a campaign plan, local participant testimony, and a government response. Explain how mass participation and political conditions affected outcomes."
+        "Martin Luther King Jr. and many local activists organized boycotts, marches, and campaigns to confront segregation. The Montgomery bus boycott of 1955–1956 depended on sustained participation by Black residents and organizers including women whose work is sometimes overlooked. Montgomery's boycott drew on local networks, fundraising, transportation alternatives, and sustained commitment. Rosa Parks and other women activists were part of a much wider organizing history. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "The Birmingham campaign of 1963 and March on Washington helped focus national attention on civil rights. Nonviolence was a disciplined strategy involving training, economic pressure, moral argument, and risk, not merely absence of physical retaliation. Nonviolent direct action exposed injustice by creating public moral and political confrontation. Its effectiveness depended partly on institutions, media, local participation, and willingness to bear serious risks. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare a campaign plan, local participant testimony, and a government response. Explain how mass participation and political conditions affected outcomes. Analyze a campaign's stated goals, strategic actions, public response, and later policy changes. Avoid claiming that a single speech or figure accomplished the movement alone. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Martin Luther King Jr. and Nonviolent Resistance · Evidence Investigation",
       "task": "Write a claim about Martin Luther King Jr. and Nonviolent Resistance with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -2753,18 +2753,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Martin Luther King Jr. and Nonviolent Resistance?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing boycott and civil disobedience.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Martin Luther King Jr. and Nonviolent Resistance is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of Birmingham campaign.",
+            "Interpret boycott in historical context and weigh competing evidence concerning nonviolence.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -2791,9 +2791,9 @@
       "total": 5,
       "essential": "How did Malcolm X's evolving ideas broaden debates about civil rights and Black freedom?",
       "paragraphs": [
-        "Malcolm X criticized white supremacy and called for Black dignity, self-determination, and human rights. His public positions changed over time, especially after leaving the Nation of Islam and traveling internationally in 1964.",
-        "Civil rights leaders held diverse strategies and goals, and simple 'King versus Malcolm' comparisons obscure changes in their positions and the wider organizing landscape. Malcolm X was assassinated in 1965.",
-        "Read statements from different dates to trace change, identifying audience and context. Avoid assigning one fixed slogan to an entire intellectual life."
+        "Malcolm X criticized white supremacy and called for Black dignity, self-determination, and human rights. His public positions changed over time, especially after leaving the Nation of Islam and traveling internationally in 1964. Malcolm X's positions changed significantly after his break with the Nation of Islam. His international travel contributed to his emphasis on human rights and solidarity beyond U.S. borders. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "Civil rights leaders held diverse strategies and goals, and simple 'King versus Malcolm' comparisons obscure changes in their positions and the wider organizing landscape. Malcolm X was assassinated in 1965. Comparisons with King often freeze both men at a single moment and overlook the range of activists, organizations, and strategies involved in Black freedom struggles. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Read statements from different dates to trace change, identifying audience and context. Avoid assigning one fixed slogan to an entire intellectual life. Read statements from more than one date and identify the audience, purpose, and historical setting. Explain an evolution rather than reducing a political thinker to one quotation. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Malcolm X and Competing Strategies · Evidence Investigation",
       "task": "Write a claim about Malcolm X and Competing Strategies with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -2828,18 +2828,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Malcolm X and Competing Strategies?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing self-determination and human rights.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Malcolm X and Competing Strategies is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of Nation of Islam.",
+            "Interpret self-determination in historical context and weigh competing evidence concerning political evolution.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -2866,9 +2866,9 @@
       "total": 5,
       "essential": "What did major civil rights laws accomplish, and which struggles continued?",
       "paragraphs": [
-        "The Civil Rights Act of 1964 prohibited specified forms of discrimination, while the Voting Rights Act of 1965 addressed racial barriers to voting. Grassroots organizers, lawyers, local communities, and national coalitions helped secure these changes.",
-        "Legal change did not end economic inequality, residential segregation, or disputes over enforcement. Later movements broadened claims concerning gender, disability, immigration, and other rights.",
-        "Compare a law's text with a relevant measure of implementation. Evaluate progress without assuming the same outcomes for every community."
+        "The Civil Rights Act of 1964 prohibited specified forms of discrimination, while the Voting Rights Act of 1965 addressed racial barriers to voting. Grassroots organizers, lawyers, local communities, and national coalitions helped secure these changes. Civil rights legislation emerged from sustained pressure by local organizers, litigators, religious institutions, and national coalitions. Passage and enforcement involved political bargaining and continued challenges. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "Legal change did not end economic inequality, residential segregation, or disputes over enforcement. Later movements broadened claims concerning gender, disability, immigration, and other rights. Voting access, education, housing, and economic opportunity changed in different ways and at different rates. A single law could establish crucial legal protection without eliminating structural inequality. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare a law's text with a relevant measure of implementation. Evaluate progress without assuming the same outcomes for every community. Use a legal milestone, local implementation evidence, and a longer-term indicator. A strong historical argument distinguishes immediate victory from enduring consequences. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "The Civil Rights Movement's Lasting Impact · Evidence Investigation",
       "task": "Write a claim about The Civil Rights Movement's Lasting Impact with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -2903,18 +2903,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about The Civil Rights Movement's Lasting Impact?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing Civil Rights Act 1964 and Voting Rights Act 1965.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about The Civil Rights Movement's Lasting Impact is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of grassroots organizing.",
+            "Interpret Civil Rights Act 1964 in historical context and weigh competing evidence concerning enforcement.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -2941,9 +2941,9 @@
       "total": 4,
       "essential": "How did Watergate test constitutional accountability?",
       "paragraphs": [
-        "The 1972 break-in at Democratic National Committee offices and subsequent cover-up prompted investigations of the Nixon administration. Congressional hearings, investigative reporting, and court rulings exposed abuses of executive power.",
-        "In United States v. Nixon (1974), the Supreme Court required release of White House recordings. President Richard Nixon resigned in August 1974. The crisis prompted debates about transparency, oversight, and public confidence.",
-        "Build a documented chronology and compare congressional, judicial, and media roles. Distinguish investigated claims from verified findings."
+        "The 1972 break-in at Democratic National Committee offices and subsequent cover-up prompted investigations of the Nixon administration. Congressional hearings, investigative reporting, and court rulings exposed abuses of executive power. The investigations involved journalists, congressional committees, courts, and officials within the executive branch. These institutions did not all perform the same function or operate on the same timeline. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "In United States v. Nixon (1974), the Supreme Court required release of White House recordings. President Richard Nixon resigned in August 1974. The crisis prompted debates about transparency, oversight, and public confidence. The Supreme Court's ruling on recordings tested claims of executive confidentiality against judicial process. Nixon's resignation resulted from accumulated evidence and political loss of support, not one isolated headline. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Build a documented chronology and compare congressional, judicial, and media roles. Distinguish investigated claims from verified findings. Build an evidence trail from the break-in to the court decision and resignation. Explain which institutions supplied independent checks and what the episode suggests about constitutional accountability. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Watergate and Public Trust · Evidence Investigation",
       "task": "Write a claim about Watergate and Public Trust with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -2978,18 +2978,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Watergate and Public Trust?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing Watergate and executive privilege.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Watergate and Public Trust is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of congressional oversight.",
+            "Interpret Watergate in historical context and weigh competing evidence concerning resignation.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -3016,9 +3016,9 @@
       "total": 4,
       "essential": "How did policy choices during the 1980s reshape economic and political debates?",
       "paragraphs": [
-        "Ronald Reagan's presidency began in 1981. His administration pursued tax reductions, deregulation, and a defense buildup, while conservative coalitions influenced debates about government and social policy.",
-        "The decade included recession, later growth, rising federal deficits, and uneven effects across communities. U.S.–Soviet relations shifted from heightened tension toward major arms-control negotiations.",
-        "Compare inflation, unemployment, and deficit series with policy statements. Avoid attributing every economic outcome to one leader without examining wider conditions."
+        "Ronald Reagan's presidency began in 1981. His administration pursued tax reductions, deregulation, and a defense buildup, while conservative coalitions influenced debates about government and social policy. Tax cuts and regulatory changes reflected a political philosophy that prioritized private investment and a smaller economic role for some federal programs. At the same time, defense spending remained a large public commitment. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "The decade included recession, later growth, rising federal deficits, and uneven effects across communities. U.S.–Soviet relations shifted from heightened tension toward major arms-control negotiations. Some economic indicators improved after the early-1980s recession, while income trends and federal borrowing generated debate. U.S.–Soviet diplomacy changed substantially later in the decade. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare inflation, unemployment, and deficit series with policy statements. Avoid attributing every economic outcome to one leader without examining wider conditions. Compare economic trends using the same units and time spans; avoid deciding policy effectiveness on the basis of one presidential speech or one year's numbers. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "The Reagan Era · Evidence Investigation",
       "task": "Write a claim about The Reagan Era with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -3053,18 +3053,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about The Reagan Era?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing supply-side economics and deregulation.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about The Reagan Era is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of deficit.",
+            "Interpret supply-side economics in historical context and weigh competing evidence concerning arms control.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -3091,9 +3091,9 @@
       "total": 4,
       "essential": "What combination of choices and pressures led to the Cold War's end?",
       "paragraphs": [
-        "Reform efforts under Soviet leader Mikhail Gorbachev, economic pressures, and political movements across Eastern Europe transformed the late 1980s. The Berlin Wall opened in November 1989.",
-        "The Soviet Union dissolved in 1991. The end reflected developments within communist societies as well as international diplomacy; it was not the exclusive achievement of a single U.S. president.",
-        "Compare a chronology of reforms, popular protests, diplomatic negotiations, and state changes. Explain multiple causes rather than a one-person victory narrative."
+        "Reform efforts under Soviet leader Mikhail Gorbachev, economic pressures, and political movements across Eastern Europe transformed the late 1980s. The Berlin Wall opened in November 1989. Popular protests and reform movements in Eastern Europe were independent historical forces. Treating people in those countries merely as objects of U.S.–Soviet diplomacy leaves out decisive local agency. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "The Soviet Union dissolved in 1991. The end reflected developments within communist societies as well as international diplomacy; it was not the exclusive achievement of a single U.S. president. Soviet reforms loosened political controls and intensified debates over the union's future. Economic difficulties, nationalism, and institutional decisions contributed to the 1991 dissolution. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare a chronology of reforms, popular protests, diplomatic negotiations, and state changes. Explain multiple causes rather than a one-person victory narrative. Create a multi-causal timeline including internal reforms, public protest, international negotiations, and state decisions. Test whether a one-leader explanation can account for the evidence. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "The End of the Cold War · Evidence Investigation",
       "task": "Write a claim about The End of the Cold War with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -3128,18 +3128,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about The End of the Cold War?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing glasnost and perestroika.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about The End of the Cold War is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of Berlin Wall.",
+            "Interpret glasnost in historical context and weigh competing evidence concerning Soviet dissolution.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -3166,9 +3166,9 @@
       "total": 4,
       "essential": "How did globalization reshape U.S. employment and exchange?",
       "paragraphs": [
-        "Late twentieth-century advances in transport, communications, and production helped link economies across borders. The North American Free Trade Agreement took effect in 1994, deepening trade integration among the United States, Canada, and Mexico.",
-        "Some consumers and industries benefited from expanded markets while some communities experienced dislocation and changing employment. Trade statistics alone cannot explain the full distribution of benefits and costs.",
-        "Use an indexed trade chart and contrasting regional employment accounts. Explain what the data measure and what would be needed for a causal claim."
+        "Late twentieth-century advances in transport, communications, and production helped link economies across borders. The North American Free Trade Agreement took effect in 1994, deepening trade integration among the United States, Canada, and Mexico. Production increasingly crossed national borders, with goods assembled through supply chains involving labor and investment in several countries. Consumers could benefit from lower prices while some workers faced job displacement. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "Some consumers and industries benefited from expanded markets while some communities experienced dislocation and changing employment. Trade statistics alone cannot explain the full distribution of benefits and costs. Trade agreements established rules but did not determine every national economic outcome. Currency movements, technology, corporate decisions, and education also influenced employment. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Use an indexed trade chart and contrasting regional employment accounts. Explain what the data measure and what would be needed for a causal claim. Compare a trade-flow graph with regional employment data; explain why simultaneous change does not prove a direct single cause. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "America and the Global Economy · Evidence Investigation",
       "task": "Write a claim about America and the Global Economy with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -3203,18 +3203,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about America and the Global Economy?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing globalization and NAFTA.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about America and the Global Economy is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of trade integration.",
+            "Interpret globalization in historical context and weigh competing evidence concerning economic dislocation.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -3241,9 +3241,9 @@
       "total": 4,
       "essential": "How did September 11 change U.S. security policy and public life?",
       "paragraphs": [
-        "On September 11, 2001, al-Qaeda terrorists hijacked four passenger aircraft, attacking the World Trade Center and Pentagon; a fourth crashed in Pennsylvania after passengers resisted. Nearly 3,000 people were killed.",
-        "The United States launched military operations in Afghanistan, changed aviation security, and expanded surveillance and counterterrorism powers. The wars and policies raised enduring debates about civil liberties, civilian harm, and international law.",
-        "Analyze verified timelines and official records alongside affected communities' perspectives. Avoid sensational imagery, conspiracy claims, and treating all Muslims as responsible for al-Qaeda's actions."
+        "On September 11, 2001, al-Qaeda terrorists hijacked four passenger aircraft, attacking the World Trade Center and Pentagon; a fourth crashed in Pennsylvania after passengers resisted. Nearly 3,000 people were killed. The attack's history includes the people killed, survivors, first responders, and communities affected by long-term health and social consequences. Responsible teaching prioritizes verified testimony over repeated dramatic images. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "The United States launched military operations in Afghanistan, changed aviation security, and expanded surveillance and counterterrorism powers. The wars and policies raised enduring debates about civil liberties, civilian harm, and international law. Subsequent policy choices involved surveillance, military force, airport security, and changing legal standards. Their effects differed among U.S. residents and people overseas, and they remain subject to historical and civic evaluation. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Analyze verified timelines and official records alongside affected communities' perspectives. Avoid sensational imagery, conspiracy claims, and treating all Muslims as responsible for al-Qaeda's actions. Compare the 9/11 Commission Report's findings with a dated policy and an affected community's account. Separate the terrorist attack from debates over the effectiveness and legality of later decisions. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "September 11 and Its Consequences · Evidence Investigation",
       "task": "Write a claim about September 11 and Its Consequences with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -3278,18 +3278,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about September 11 and Its Consequences?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing September 11 and al-Qaeda.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about September 11 and Its Consequences is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of counterterrorism.",
+            "Interpret September 11 in historical context and weigh competing evidence concerning civil liberties.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -3316,9 +3316,9 @@
       "total": 4,
       "essential": "How has digital technology changed opportunities, privacy, and political participation?",
       "paragraphs": [
-        "Broadband internet, smartphones, and digital platforms transformed communication, business, education, and news distribution in the twenty-first century. Access remains unequal across income, geography, and disability.",
-        "Digital systems can expand information access and civic organizing while also enabling surveillance, misinformation, and concentrated market power. Rapid technological change makes careful source verification essential.",
-        "Compare the claims of a platform, an independent study, and a user survey. Ask what the available data establish about causation rather than assuming every social change came from one technology."
+        "Broadband internet, smartphones, and digital platforms transformed communication, business, education, and news distribution in the twenty-first century. Access remains unequal across income, geography, and disability. Technology adoption differs by age, disability, income, and geography. Online access is not the same as the skills, devices, or trustworthy information needed to benefit from digital systems. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "Digital systems can expand information access and civic organizing while also enabling surveillance, misinformation, and concentrated market power. Rapid technological change makes careful source verification essential. Platform companies influence work, advertising, and access to public debate. Researchers investigate the effects of algorithms and information networks, but causal claims require careful study designs. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare the claims of a platform, an independent study, and a user survey. Ask what the available data establish about causation rather than assuming every social change came from one technology. Evaluate a chart about internet use by inspecting its sample and date. Distinguish a company claim, an independent finding, and an individual's experience. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Technology and American Society · Evidence Investigation",
       "task": "Write a claim about Technology and American Society with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -3353,18 +3353,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Technology and American Society?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing digital divide and platform economy.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Technology and American Society is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of surveillance.",
+            "Interpret digital divide in historical context and weigh competing evidence concerning misinformation.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -3391,9 +3391,9 @@
       "total": 4,
       "essential": "How do contemporary movements build on earlier rights struggles?",
       "paragraphs": [
-        "Twenty-first-century civic movements have addressed policing, racial inequality, voting access, LGBTQ rights, disability inclusion, and other issues. Participants use community organizing, litigation, elections, and digital communication.",
-        "Strategies and demands vary across organizations and periods. Assessing a movement requires distinguishing its stated goals, methods, policy outcomes, and criticism, rather than assuming every member agrees on every proposal.",
-        "Compare organizational statements with laws and carefully sourced outcomes. Represent competing interpretations fairly while avoiding false equivalence between unsupported claims and established facts."
+        "Twenty-first-century civic movements have addressed policing, racial inequality, voting access, LGBTQ rights, disability inclusion, and other issues. Participants use community organizing, litigation, elections, and digital communication. Civic movements use tactics familiar from earlier reform struggles but face new communication environments and legal contexts. A hashtag or demonstration is not the whole movement. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "Strategies and demands vary across organizations and periods. Assessing a movement requires distinguishing its stated goals, methods, policy outcomes, and criticism, rather than assuming every member agrees on every proposal. Organizations disagree over priorities and methods, and effects are difficult to measure solely through media attention. Historians distinguish the movement's stated demands from law, practice, and wider social change. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Compare organizational statements with laws and carefully sourced outcomes. Represent competing interpretations fairly while avoiding false equivalence between unsupported claims and established facts. Choose a dated civic campaign and identify its explicit goal, actions, responses, and measurable results. Examine competing views without treating factually unsupported assertions as equivalent to documented evidence. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "Contemporary Civil Rights and Civic Movements · Evidence Investigation",
       "task": "Write a claim about Contemporary Civil Rights and Civic Movements with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -3428,18 +3428,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about Contemporary Civil Rights and Civic Movements?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing civic movement and coalition.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about Contemporary Civil Rights and Civic Movements is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of policy change.",
+            "Interpret civic movement in historical context and weigh competing evidence concerning rights litigation.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
@@ -3466,9 +3466,9 @@
       "total": 4,
       "essential": "How should citizens evaluate America's changing role in global affairs?",
       "paragraphs": [
-        "The United States participates in international institutions, security relationships, trade networks, and climate negotiations, while domestic debate shapes policy priorities. Global challenges often involve several governments and nonstate actors.",
-        "Assessments of U.S. influence depend on criteria: military resources, economic ties, diplomacy, human rights, or environmental outcomes. Each measure has limits, and major events may alter conditions rapidly.",
-        "Use a dated policy document, independent dataset, and perspective from an affected country. Make a defensible claim that acknowledges uncertainty rather than treating a present-day position as permanent."
+        "The United States participates in international institutions, security relationships, trade networks, and climate negotiations, while domestic debate shapes policy priorities. Global challenges often involve several governments and nonstate actors. International influence includes economics, technology, cultural exchange, diplomacy, and military resources. These measures may point in different directions, so the word 'power' requires a clear definition. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
+        "Assessments of U.S. influence depend on criteria: military resources, economic ties, diplomacy, human rights, or environmental outcomes. Each measure has limits, and major events may alter conditions rapidly. Modern developments change rapidly and historical summaries need a date. Analysts should distinguish well-established institutions from the contested effects of current policies. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
+        "Use a dated policy document, independent dataset, and perspective from an affected country. Make a defensible claim that acknowledges uncertainty rather than treating a present-day position as permanent. Build a short evidence dossier with a policy document, an independently defined metric, and a perspective from another country. Qualify conclusions according to the time period and the limits of available information. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
       ],
       "activity": "America in a Changing World · Evidence Investigation",
       "task": "Write a claim about America in a Changing World with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -3503,18 +3503,18 @@
         {
           "prompt": "Which method would strengthen a historical argument about America in a Changing World?",
           "options": [
-            "Compare dated primary sources with differing perspectives",
-            "Assume the most vivid illustration tells the complete story",
-            "Ignore evidence that conflicts with the first source"
+            "Compare two contextualized sources addressing multilateralism and diplomacy.",
+            "Use only a persuasive image without confirming its date or author.",
+            "Ignore a source if it complicates the preferred conclusion."
           ],
           "answer": 0
         },
         {
           "prompt": "Which conclusion about America in a Changing World is most defensible?",
           "options": [
-            "A single individual's account establishes every outcome",
-            "Historical interpretations should account for causation, context, and omitted voices",
-            "Events in different years can be treated as simultaneous"
+            "Only one participant's account can establish all effects of global interdependence.",
+            "Interpret multilateralism in historical context and weigh competing evidence concerning policy evaluation.",
+            "Chronology is irrelevant once a dramatic event is identified."
           ],
           "answer": 1
         }
