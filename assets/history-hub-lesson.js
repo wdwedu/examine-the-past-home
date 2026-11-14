@@ -1,4 +1,7 @@
-(()=>{"use strict";const page=document.querySelector("[data-lesson-course]");if(!page)return;const current=page.dataset.lessonSlug,courseId=page.dataset.lessonCourse,root=page.dataset.root||"../../../../";if(courseId==="grade-8-early-united-states-history"){
+(()=>{"use strict";const page=document.querySelector("[data-lesson-course]");if(!page)return;const current=page.dataset.lessonSlug,courseId=page.dataset.lessonCourse,root=page.dataset.root||"../../../../";if(courseId==="grade-9-united-states-history"){
+ for(const file of ["grade5-lesson-engine.css?v=20261110-grade5-v7","grade9-grade5-matched.css?v=20261114-v1"]){const css=document.createElement("link");css.rel="stylesheet";css.href=root+"assets/"+file;document.head.append(css);}
+ const script=document.createElement("script");script.src=root+"assets/grade9-grade5-matched-engine.js?v=20261114-v1";script.defer=true;document.head.append(script);return;}
+if(courseId==="grade-8-early-united-states-history"){
  for(const file of ["grade5-lesson-engine.css?v=20261110-grade5-v7","grade8-grade5-matched.css?v=20261113-grade8-v1"]){const css=document.createElement("link");css.rel="stylesheet";css.href=root+"assets/"+file;document.head.append(css);}
  const script=document.createElement("script");script.src=root+"assets/grade8-grade5-matched-engine.js?v=20261113-grade8-final-v3";script.defer=true;document.head.append(script);return;}
 if(courseId==="grade-7-world-cultures-geography"){
