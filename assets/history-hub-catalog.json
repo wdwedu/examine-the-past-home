@@ -2599,7 +2599,7 @@
       "standards": {
         "name": "Independent Curriculum Design",
         "url": "/lessons/#curriculum-design",
-        "note": "Original Examine the Past course plan; course development and historical research remain ongoing."
+        "note": "Grade 9 high-school history lessons target historical analysis, corroboration, cause/effect and qualified argument. Formal standards and readability alignment, historical review, media checks and classroom testing pending."
       },
       "units": [
         {
@@ -2616,7 +2616,7 @@
               "id": "grade-9-united-states-history-91-01",
               "title": "Reconstruction's Unfinished Legacy",
               "slug": "reconstruction-s-unfinished-legacy",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-1",
               "unitNumber": "9.1",
               "objectives": [
@@ -2635,7 +2635,7 @@
               "id": "grade-9-united-states-history-91-02",
               "title": "The Rise of Big Business",
               "slug": "the-rise-of-big-business",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-1",
               "unitNumber": "9.1",
               "objectives": [
@@ -2654,7 +2654,7 @@
               "id": "grade-9-united-states-history-91-03",
               "title": "Labor, Immigration, and Urban America",
               "slug": "labor-immigration-and-urban-america",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-1",
               "unitNumber": "9.1",
               "objectives": [
@@ -2673,7 +2673,7 @@
               "id": "grade-9-united-states-history-91-04",
               "title": "The Gilded Age: Wealth and Inequality",
               "slug": "the-gilded-age-wealth-and-inequality",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-1",
               "unitNumber": "9.1",
               "objectives": [
@@ -2712,7 +2712,7 @@
               "id": "grade-9-united-states-history-92-01",
               "title": "The Progressive Movement",
               "slug": "the-progressive-movement",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-2",
               "unitNumber": "9.2",
               "objectives": [
@@ -2731,7 +2731,7 @@
               "id": "grade-9-united-states-history-92-02",
               "title": "Investigative Journalism and Social Change",
               "slug": "investigative-journalism-and-social-change",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-2",
               "unitNumber": "9.2",
               "objectives": [
@@ -2750,7 +2750,7 @@
               "id": "grade-9-united-states-history-92-03",
               "title": "Women's Suffrage",
               "slug": "women-s-suffrage",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-2",
               "unitNumber": "9.2",
               "objectives": [
@@ -2769,7 +2769,7 @@
               "id": "grade-9-united-states-history-92-04",
               "title": "Reforming Government and Industry",
               "slug": "reforming-government-and-industry",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-2",
               "unitNumber": "9.2",
               "objectives": [
@@ -2808,7 +2808,7 @@
               "id": "grade-9-united-states-history-93-01",
               "title": "Why Did America Become an Overseas Power?",
               "slug": "why-did-america-become-an-overseas-power",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-3",
               "unitNumber": "9.3",
               "objectives": [
@@ -2827,7 +2827,7 @@
               "id": "grade-9-united-states-history-93-02",
               "title": "The Spanish-American War",
               "slug": "the-spanish-american-war",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-3",
               "unitNumber": "9.3",
               "objectives": [
@@ -2846,7 +2846,7 @@
               "id": "grade-9-united-states-history-93-03",
               "title": "America's Changing Foreign Policy",
               "slug": "america-s-changing-foreign-policy",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-3",
               "unitNumber": "9.3",
               "objectives": [
@@ -2885,7 +2885,7 @@
               "id": "grade-9-united-states-history-94-01",
               "title": "Causes of World War I",
               "slug": "causes-of-world-war-i",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-4",
               "unitNumber": "9.4",
               "objectives": [
@@ -2904,7 +2904,7 @@
               "id": "grade-9-united-states-history-94-02",
               "title": "Why Did the United States Enter the War?",
               "slug": "why-did-the-united-states-enter-the-war",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-4",
               "unitNumber": "9.4",
               "objectives": [
@@ -2923,7 +2923,7 @@
               "id": "grade-9-united-states-history-94-03",
               "title": "Americans on the Home Front",
               "slug": "americans-on-the-home-front",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-4",
               "unitNumber": "9.4",
               "objectives": [
@@ -2942,7 +2942,7 @@
               "id": "grade-9-united-states-history-94-04",
               "title": "The Treaty of Versailles",
               "slug": "the-treaty-of-versailles",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-4",
               "unitNumber": "9.4",
               "objectives": [
@@ -2981,7 +2981,7 @@
               "id": "grade-9-united-states-history-95-01",
               "title": "A Changing American Culture",
               "slug": "a-changing-american-culture",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-5",
               "unitNumber": "9.5",
               "objectives": [
@@ -3000,7 +3000,7 @@
               "id": "grade-9-united-states-history-95-02",
               "title": "The Harlem Renaissance",
               "slug": "the-harlem-renaissance",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-5",
               "unitNumber": "9.5",
               "objectives": [
@@ -3020,7 +3020,7 @@
               "id": "grade-9-united-states-history-95-03",
               "title": "Prohibition and Social Conflict",
               "slug": "prohibition-and-social-conflict",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-5",
               "unitNumber": "9.5",
               "objectives": [
@@ -3039,7 +3039,7 @@
               "id": "grade-9-united-states-history-95-04",
               "title": "Consumer Culture and Economic Growth",
               "slug": "consumer-culture-and-economic-growth",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-5",
               "unitNumber": "9.5",
               "objectives": [
@@ -3078,7 +3078,7 @@
               "id": "grade-9-united-states-history-96-01",
               "title": "The Stock Market Crash and Economic Crisis",
               "slug": "the-stock-market-crash-and-economic-crisis",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-6",
               "unitNumber": "9.6",
               "objectives": [
@@ -3097,7 +3097,7 @@
               "id": "grade-9-united-states-history-96-02",
               "title": "Living Through the Great Depression",
               "slug": "living-through-the-great-depression",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-6",
               "unitNumber": "9.6",
               "objectives": [
@@ -3116,7 +3116,7 @@
               "id": "grade-9-united-states-history-96-03",
               "title": "Franklin Roosevelt's New Deal",
               "slug": "franklin-roosevelt-s-new-deal",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-6",
               "unitNumber": "9.6",
               "objectives": [
@@ -3135,7 +3135,7 @@
               "id": "grade-9-united-states-history-96-04",
               "title": "Did the New Deal Transform Government?",
               "slug": "did-the-new-deal-transform-government",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-6",
               "unitNumber": "9.6",
               "objectives": [
@@ -3174,7 +3174,7 @@
               "id": "grade-9-united-states-history-97-01",
               "title": "Causes of World War II",
               "slug": "causes-of-world-war-ii",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-7",
               "unitNumber": "9.7",
               "objectives": [
@@ -3193,7 +3193,7 @@
               "id": "grade-9-united-states-history-97-02",
               "title": "Pearl Harbor and American Entry",
               "slug": "pearl-harbor-and-american-entry",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-7",
               "unitNumber": "9.7",
               "objectives": [
@@ -3212,7 +3212,7 @@
               "id": "grade-9-united-states-history-97-03",
               "title": "The Holocaust and Human Rights",
               "slug": "the-holocaust-and-human-rights",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-7",
               "unitNumber": "9.7",
               "objectives": [
@@ -3231,7 +3231,7 @@
               "id": "grade-9-united-states-history-97-04",
               "title": "War on the Home Front",
               "slug": "war-on-the-home-front",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-7",
               "unitNumber": "9.7",
               "objectives": [
@@ -3250,7 +3250,7 @@
               "id": "grade-9-united-states-history-97-05",
               "title": "D-Day, the Pacific War, and Allied Victory",
               "slug": "d-day-the-pacific-war-and-allied-victory",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-7",
               "unitNumber": "9.7",
               "objectives": [
@@ -3289,7 +3289,7 @@
               "id": "grade-9-united-states-history-98-01",
               "title": "Origins of the Cold War",
               "slug": "origins-of-the-cold-war",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-8",
               "unitNumber": "9.8",
               "objectives": [
@@ -3308,7 +3308,7 @@
               "id": "grade-9-united-states-history-98-02",
               "title": "The Korean War",
               "slug": "the-korean-war",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-8",
               "unitNumber": "9.8",
               "objectives": [
@@ -3327,7 +3327,7 @@
               "id": "grade-9-united-states-history-98-03",
               "title": "Nuclear Competition and the Space Race",
               "slug": "nuclear-competition-and-the-space-race",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-8",
               "unitNumber": "9.8",
               "objectives": [
@@ -3346,7 +3346,7 @@
               "id": "grade-9-united-states-history-98-04",
               "title": "The Vietnam War",
               "slug": "the-vietnam-war",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-8",
               "unitNumber": "9.8",
               "objectives": [
@@ -3385,7 +3385,7 @@
               "id": "grade-9-united-states-history-99-01",
               "title": "Segregation and the Fight for Equality",
               "slug": "segregation-and-the-fight-for-equality",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-9",
               "unitNumber": "9.9",
               "objectives": [
@@ -3404,7 +3404,7 @@
               "id": "grade-9-united-states-history-99-02",
               "title": "Brown v. Board of Education",
               "slug": "brown-v-board-of-education",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-9",
               "unitNumber": "9.9",
               "objectives": [
@@ -3423,7 +3423,7 @@
               "id": "grade-9-united-states-history-99-03",
               "title": "Martin Luther King Jr. and Nonviolent Resistance",
               "slug": "martin-luther-king-jr-and-nonviolent-resistance",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-9",
               "unitNumber": "9.9",
               "objectives": [
@@ -3442,7 +3442,7 @@
               "id": "grade-9-united-states-history-99-04",
               "title": "Malcolm X and Competing Strategies",
               "slug": "malcolm-x-and-competing-strategies",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-9",
               "unitNumber": "9.9",
               "objectives": [
@@ -3461,7 +3461,7 @@
               "id": "grade-9-united-states-history-99-05",
               "title": "The Civil Rights Movement's Lasting Impact",
               "slug": "the-civil-rights-movement-s-lasting-impact",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-9",
               "unitNumber": "9.9",
               "objectives": [
@@ -3500,7 +3500,7 @@
               "id": "grade-9-united-states-history-910-01",
               "title": "Watergate and Public Trust",
               "slug": "watergate-and-public-trust",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-10",
               "unitNumber": "9.10",
               "objectives": [
@@ -3519,7 +3519,7 @@
               "id": "grade-9-united-states-history-910-02",
               "title": "The Reagan Era",
               "slug": "the-reagan-era",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-10",
               "unitNumber": "9.10",
               "objectives": [
@@ -3538,7 +3538,7 @@
               "id": "grade-9-united-states-history-910-03",
               "title": "The End of the Cold War",
               "slug": "the-end-of-the-cold-war",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-10",
               "unitNumber": "9.10",
               "objectives": [
@@ -3557,7 +3557,7 @@
               "id": "grade-9-united-states-history-910-04",
               "title": "America and the Global Economy",
               "slug": "america-and-the-global-economy",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-10",
               "unitNumber": "9.10",
               "objectives": [
@@ -3596,7 +3596,7 @@
               "id": "grade-9-united-states-history-911-01",
               "title": "September 11 and Its Consequences",
               "slug": "september-11-and-its-consequences",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-11",
               "unitNumber": "9.11",
               "objectives": [
@@ -3615,7 +3615,7 @@
               "id": "grade-9-united-states-history-911-02",
               "title": "Technology and American Society",
               "slug": "technology-and-american-society",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-11",
               "unitNumber": "9.11",
               "objectives": [
@@ -3634,7 +3634,7 @@
               "id": "grade-9-united-states-history-911-03",
               "title": "Contemporary Civil Rights and Civic Movements",
               "slug": "contemporary-civil-rights-and-civic-movements",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-11",
               "unitNumber": "9.11",
               "objectives": [
@@ -3653,7 +3653,7 @@
               "id": "grade-9-united-states-history-911-04",
               "title": "America in a Changing World",
               "slug": "america-in-a-changing-world",
-              "status": "In Development",
+              "status": "Ready for Review",
               "unitId": "grade-9-united-states-history-unit-9-11",
               "unitNumber": "9.11",
               "objectives": [
