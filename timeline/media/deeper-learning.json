@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": "20261114-2",
   "checkedOn": "2026-11-13",
   "selectionNote": "Selected for educational relevance and established publishers. Not a ranking of all YouTube videos by views. Availability and school-network access can change.",
   "videos": {
@@ -641,6 +641,22 @@
       "publisher": "BBC Newsround",
       "channel": "https://www.youtube.com/@BBCNewsroundOfficial",
       "verified_on": "2026-11-13"
+    },
+    "V-Ki1rLcD9Y": {
+      "id": "V-Ki1rLcD9Y",
+      "title": "Kilwa Kisiwani, Tanzania",
+      "publisher": "Smarthistory",
+      "watchUrl": "https://www.youtube.com/watch?v=V-Ki1rLcD9Y",
+      "sourceUrl": "https://smarthistory.org/kilwa-kisiwani-tanzania/",
+      "verified_on": "2026-11-14"
+    },
+    "Dv7YhVKFqbQ": {
+      "id": "Dv7YhVKFqbQ",
+      "title": "The breathtaking courage of Harriet Tubman - Janell Hobson",
+      "publisher": "TED-Ed",
+      "watchUrl": "https://www.youtube.com/watch?v=Dv7YhVKFqbQ",
+      "sourceUrl": "https://ed.ted.com/lessons/the-courage-of-harriet-tubman-janell-hobson",
+      "verified_on": "2026-11-14"
     }
   },
   "topics": [
@@ -1944,9 +1960,9 @@
       "number": 35,
       "cardTitle": "Swahili Coast City-States",
       "videoIds": [
-        "jvnU0v6hcUo"
+        "V-Ki1rLcD9Y"
       ],
-      "videoFit": "West and East African trade overview, including Swahili cities.",
+      "videoFit": "A close look at Kilwa’s surviving architecture and evidence of Indian Ocean exchange, rather than a West African overview.",
       "visual": {
         "kind": "network",
         "title": "Swahili cities and the Indian Ocean",
@@ -2303,9 +2319,10 @@
       "number": 44,
       "cardTitle": "Oceanic Networks Intensify",
       "videoIds": [
-        "HQPA5oNpfM4"
+        "HQPA5oNpfM4",
+        "V-Ki1rLcD9Y"
       ],
-      "videoFit": "Selected educational video for this topic.",
+      "videoFit": "Compare an overview of Atlantic connections with material evidence from Kilwa, an East African port in long-established Indian Ocean networks.",
       "visual": {
         "kind": "network",
         "title": "An unequal Atlantic connection",
@@ -2771,9 +2788,10 @@
       "number": 57,
       "cardTitle": "Abolition Expands",
       "videoIds": [
-        "3NXC4Q_4JVg"
+        "3NXC4Q_4JVg",
+        "Dv7YhVKFqbQ"
       ],
-      "videoFit": "Atlantic slavery and resistance: background for the longer emancipation process.",
+      "videoFit": "Start with the Atlantic slave trade’s context, then examine Harriet Tubman’s resistance and work for liberation. These are selected examples, not a complete history of abolition.",
       "visual": {
         "kind": "compare",
         "title": "Emancipation was a process",

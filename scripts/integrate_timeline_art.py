@@ -45,6 +45,29 @@ if final_archive.is_file():
                                 'file': filename, 'bytes': len(data)})
     expected_numbers += list(range(87, 101))
 
+# Final approved Early Modern / Revolutions banners (uploaded as three ZIPs).
+# Match both the stable display position and the exact title-derived filename.
+catalog = json.loads((ROOT / 'timeline/media/deeper-learning.json').read_text())
+for first, last, batch in [(43, 52, 1), (53, 62, 2), (63, 70, 3)]:
+    archive = ROOT / f'ETP_Timeline_Batch_{batch:02}_{first:03}-{last:03}.zip'
+    if not archive.is_file():
+        continue
+    with zipfile.ZipFile(archive) as zipped:
+        members = [n for n in zipped.namelist() if n.endswith('.webp')]
+        assert len(members) == last - first + 1, archive
+        for number in range(first, last + 1):
+            title = catalog['topics'][number - 1]['cardTitle']
+            slug = re.sub(r'[^A-Za-z0-9]+', '_', title).strip('_')
+            filename = f'{number:03}_{slug}.webp'
+            member = next(n for n in members if Path(n).name == filename)
+            data = zipped.read(member)
+            assert data[:4] == b'RIFF' and data[8:12] == b'WEBP' and len(data) < 1_000_000, filename
+            DEST.mkdir(parents=True, exist_ok=True)
+            (DEST / filename).write_bytes(data)
+            records.append({'number': number, 'title': title, 'file': filename, 'bytes': len(data)})
+    expected_numbers += list(range(first, last + 1))
+expected_numbers.sort()
+
 records.sort(key=lambda item: item['number'])
 assert [r['number'] for r in records] == expected_numbers, 'Missing or duplicate approved timeline artwork'
 by_title = {r['title']: r for r in records}
@@ -76,5 +99,9 @@ css = '''/* Approved cinematic timeline artwork; retain the existing responsive 
 if css not in source:
     source = source.replace('.event-body{', css + '.event-body{', 1)
 page.write_text(source)
-(DEST / 'placement.json').write_text(json.dumps({'page': '/timeline/', 'artwork': 'Approved cinematic batches 1, 2, and available final-section artwork', 'images': records}, indent=2) + '\n')
+placement = DEST / 'placement.json'
+previous = json.loads(placement.read_text())['images'] if placement.exists() else []
+merged = {r['number']: r for r in previous}
+merged.update({r['number']: r for r in records})
+placement.write_text(json.dumps({'page': '/timeline/', 'artwork': 'Approved cinematic banners; exact-title placement', 'images': sorted(merged.values(), key=lambda r: r['number'])}, indent=2) + '\n')
 print(f'Installed {len(installed)} banners; total WebP bytes: {sum(r["bytes"] for r in records):,}')

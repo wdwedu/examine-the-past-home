@@ -4,7 +4,7 @@
   const chart = document.getElementById('modalChart');
   const buttons = [...document.querySelectorAll('main.timeline .explore')];
   let token = 0, opener = null, coastline;
-  const catalog = fetch('media/deeper-learning.json?v=20261113-1').then(r => {
+  const catalog = fetch('media/deeper-learning.json?v=20261114-2').then(r => {
     if (!r.ok) throw new Error('Media catalog unavailable');
     return r.json();
   });
@@ -25,6 +25,57 @@
   const mount = el('section', 'deeper-media');
   mount.setAttribute('aria-label', 'Watch and investigate');
   document.getElementById('modalText').after(mount);
+
+  const hero = el('figure', 'detail-hero');
+  document.getElementById('modalText').before(hero);
+  const stepper = el('nav', 'detail-stepper');
+  stepper.setAttribute('aria-label', 'Timeline detail navigation');
+  const previous = el('button', '', '← Previous');
+  const position = el('span', 'detail-position');
+  const next = el('button', '', 'Next →');
+  previous.type = next.type = 'button';
+  stepper.append(previous, position, next);
+  mount.before(stepper);
+  const visibleButtons = () => buttons.filter(b => !b.closest('.event').hidden);
+  function step(direction) {
+    const visible = visibleButtons();
+    const target = visible[visible.indexOf(opener) + direction];
+    if (target) target.click();
+  }
+  previous.addEventListener('click', () => step(-1));
+  next.addEventListener('click', () => step(1));
+
+  const searchBox = el('section', 'timeline-search');
+  searchBox.setAttribute('aria-label', 'Find a timeline moment');
+  const label = el('label', '', 'Find a moment, person, or idea');
+  label.htmlFor = 'timelineSearch';
+  const search = el('input');
+  search.type = 'search'; search.id = 'timelineSearch'; search.placeholder = 'Try Nzinga, printing, or independence';
+  const reset = el('button', '', 'Clear'); reset.type = 'button';
+  const status = el('p', 'search-status'); status.setAttribute('role', 'status');
+  const fields = el('div', 'search-fields'); fields.append(search, reset);
+  searchBox.append(label, fields, status);
+  document.querySelector('main.timeline').before(searchBox);
+  const normalize = text => text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  const searchable = buttons.map(b => normalize(b.closest('.event').textContent));
+  function filter() {
+    const terms = normalize(search.value).trim().split(/\s+/).filter(Boolean);
+    let count = 0;
+    buttons.forEach((b, i) => {
+      const hit = terms.every(term => searchable[i].includes(term));
+      b.closest('.event').hidden = !hit; if (hit) count++;
+    });
+    document.querySelectorAll('main.timeline .era').forEach(era => {
+      era.hidden = !era.querySelector('.event:not([hidden])');
+      const jump = document.querySelector('.era-link[data-id="' + era.id + '"]');
+      if (jump) jump.disabled = era.hidden;
+    });
+    status.textContent = count ? count + ' of ' + buttons.length + ' moments · Open a card to watch and investigate.' : 'No matching moments. Try another word or clear the search.';
+    reset.disabled = !search.value;
+  }
+  search.addEventListener('input', filter);
+  reset.addEventListener('click', () => { search.value = ''; filter(); search.focus(); });
+  filter();
 
   function videoCard(record, index) {
     const card = el('article', 'learning-video');
@@ -116,8 +167,19 @@
 
   async function render(button) {
     const currentToken = ++token; opener = button;
+    mount.querySelectorAll('iframe').forEach(f => f.remove());
+    chart.replaceChildren(); chart.style.display = 'none';
     mount.replaceChildren(heading('Watch and investigate'),el('p','','Loading selected learning resources…'));
     const card = button.closest('.event');
+    hero.replaceChildren();
+    const banner = card.querySelector('.visual img');
+    if (banner) {
+      const image = banner.cloneNode(); image.loading = 'eager';
+      hero.append(image, el('figcaption', '', 'Historical reconstruction · Illustrative artwork, not a primary source.'));
+    }
+    const visible = visibleButtons(), index = visible.indexOf(button);
+    previous.disabled = index <= 0; next.disabled = index === visible.length - 1;
+    position.textContent = (index + 1) + ' of ' + visible.length + ' moments';
     document.getElementById('modalTitle').textContent = card.querySelector('h3').textContent;
     document.getElementById('modalVideoWrap').style.display='none';
     document.getElementById('modalVideo').removeAttribute('src');
@@ -126,10 +188,11 @@
     try {
       const data = await catalog;
       if (currentToken !== token) return;
-      const topic = data.topics[buttons.indexOf(button)];
+      const topic = data.topics.find(t => t.cardTitle === card.querySelector('h3').textContent);
       if (!topic || topic.cardTitle !== card.querySelector('h3').textContent) throw new Error('Topic mismatch');
       mount.replaceChildren(heading('Watch and investigate'),el('p','video-fit',topic.videoFit));
       const grid = el('div','learning-video-grid');topic.videoIds.forEach((id,i)=>grid.append(videoCard(data.videos[id],i)));mount.append(grid);
+      mount.append(el('p', 'media-caption', 'Use the player’s CC control for available captions. If an embed is unavailable, use the publisher link below it.'));
       if (topic.lead) document.getElementById('modalText').textContent=topic.lead;
       document.getElementById('modalWhy').textContent=topic.why;
       document.getElementById('modalEvidence').textContent=topic.evidence;
