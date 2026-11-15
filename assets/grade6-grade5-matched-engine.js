@@ -58,7 +58,7 @@ function build(d,all){
  S("optional",1,"07 · Optional enrichment","Continue the investigation",options)+
  S("sources",2,"08 · Methods and references","Sources and instructional rationale",source)+
  '<nav class="g5-bottom"><a href="../#unit-'+d.unit.replace(".","-")+'">← Unit '+E(d.unit)+'</a>'+(nextSlug?'<a href="../'+E(nextSlug)+'/">Next lesson →</a>':'')+'<a href="../unit-assessments/?unit='+E(d.unit)+'">Unit assessment</a></nav>';
- document.title=d.title+" | Grade 6 | Examine the Past";wire(d);
+ document.title=d.title+" | Grade 6 | Examine the Past";import(new URL(root+"assets/approved-lesson-template.js?v=20261115-1",location.href).href).then(module=>{module.applyApprovedLesson(page,d,6);wire(d)}).catch(error=>{console.error(error);page.insertAdjacentHTML("afterbegin","<p role=alert>Lesson template could not load. Please refresh.</p>")});
 }
 function wire(d){
  const Q=s=>page.querySelector(s),QA=s=>[...page.querySelectorAll(s)];
@@ -139,5 +139,5 @@ function wire(d){
  QA("[data-source-good]").forEach(b=>b.onclick=()=>{const ok=b.dataset.sourceGood==="true";Q("#g5-source-result").textContent=ok?"Correct. Corroboration and missing perspectives matter.":"Review historical sourcing. Context matters more than confidence.";assess("reliability",ok,b)});
  Q("#g5-copy").onclick=()=>{const txt=Q("#g5-written").value,o=Q("#g5-copy-result");if(!txt.trim()){o.textContent="Write a response first.";return}if(navigator.clipboard&&isSecureContext)navigator.clipboard.writeText(txt).then(()=>o.textContent="Copied.").catch(()=>o.textContent="Select text manually.");else{Q("#g5-written").select();o.textContent="Selected. Copy using your device."}};
 }
-fetch(root+"assets/grade6-grade5-template-data.json?v=20261113-matched-v1").then(r=>{if(!r.ok)throw Error("Data unavailable");return r.json()}).then(all=>{if(!all.lessons[slug])throw Error("Lesson missing");build(all.lessons[slug],all)}).catch(err=>{console.error(err);const target=page.querySelector(".etp-preview-label");if(target)target.textContent="Lesson content unavailable. Refresh or return to course.";});
+fetch(root+"assets/grade6-grade5-template-data.json?v=20261115-approved-1").then(r=>{if(!r.ok)throw Error("Data unavailable");return r.json()}).then(all=>{if(!all.lessons[slug])throw Error("Lesson missing");build(all.lessons[slug],all)}).catch(err=>{console.error(err);const target=page.querySelector(".etp-preview-label");if(target)target.textContent="Lesson content unavailable. Refresh or return to course.";});
 })();

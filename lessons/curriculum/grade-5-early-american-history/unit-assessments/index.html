@@ -1,61 +1,116 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Grade 5 · Auto-Graded Unit Assessments | Examine the Past</title><meta name="description" content="Auto-graded knowledge checks for all seven Early American History units, with explanation feedback and an evidence-based written assessment.">
-<link rel="stylesheet" href="../../../../assets/site-shell.css?v=20261109-footer-legal-install-v21"><link rel="stylesheet" href="../../../../assets/history-hub.css?v=20261109-curriculum-design-v8"><link rel="icon" href="../../../../app-assets/icon-192.png">
+<title>Unit Assessment | Examine the Past</title><meta name="description" content="Self-graded Indigenous North America Unit 5.1 assessment with reasoning feedback and an evidence-based writing task.">
+<link rel="stylesheet" href="../../../../assets/site-shell.css?v=20261109-footer-legal-install-v21"><link rel="stylesheet" href="../../../../assets/history-hub.css?v=20261109-curriculum-design-v8">
+<link rel="icon" href="../../../../app-assets/icon-192.png">
 <style>
-body.etp-curriculum{font:17px/1.6 Georgia,serif;color:#eff6ef;background:#030a08}
-.g5-assessment{max-width:1080px;margin:auto}
-.assess-head{padding:clamp(25px,4vw,50px);background:linear-gradient(120deg,#16283b,#081815 70%,#030909);border:1px solid #4e765e;border-radius:20px}
-.assess-head h1{font:700 clamp(32px,4.8vw,58px)/1.1 Georgia,serif;color:#fff200}
-.assess-head small{color:#a8ff7d;font-weight:bold}
-.assess-card{background:linear-gradient(110deg,#10231e,#09111e);border:1px solid #4e765f;border-radius:15px;padding:clamp(18px,3vw,30px);margin:18px 0}
-.assess-card:nth-child(4n){background:linear-gradient(120deg,#211a2e,#0c101a)}
-.assess-card legend{font:700 21px/1.3 Georgia,serif;color:#fff;max-width:100%;margin-bottom:14px}
-.assess-card fieldset{border:0;padding:0;min-width:0}
-.assess-card label{display:block;padding:10px 12px;border-radius:8px;cursor:pointer}
-.assess-card label:hover{background:#1b3428}
-.assess-card input{accent-color:#94ff53;margin-right:8px}
-.assess-card button,.assess-action{padding:11px 18px;background:#173726;border:1px solid #76aa68;border-radius:9px;color:#fff200;font:700 16px Georgia,serif;cursor:pointer;margin:6px 8px 6px 0}
-.assess-card button:hover,.assess-action:hover{border-color:#fff200}
-.assess-card textarea{display:block;width:100%;min-height:155px;box-sizing:border-box;padding:16px;background:#fff;color:#111b14;border:2px solid #a8b9ad;border-radius:9px;font:16px/1.6 Georgia,serif}.assess-card textarea::placeholder{color:#7d857e;opacity:1}.assess-card textarea:focus{outline:3px solid #fff200;outline-offset:2px}
-.assess-feedback{margin-top:12px;background:#0c2a20;border-left:3px solid #94ff53;padding:10px 13px;display:none}
-.assess-feedback.show{display:block}
-.assess-results{border:1px solid #7eb76b;background:#0f2c1c;color:#fff200;font:700 21px Georgia,serif;border-radius:12px;padding:20px;margin:17px 0}
-.assess-links{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}
-.assess-links a{padding:10px 13px;background:#102a21;border:1px solid #587c65;border-radius:9px}
-@media(max-width:650px){.assess-card legend{font-size:18px}}
-</style><script defer src="../../../../app-assets/install.js?v=20261108-native-menu-v17"></script></head>
-<body class="etp-curriculum"><main class="etp-layout g5-assessment"><a href="../" class="etp-path">← Grade 5 Curriculum</a>
-<header class="assess-head"><small>GRADE 5 · END-OF-UNIT ASSESSMENT</small><h1 id="assessment-title">Loading unit assessment…</h1><p>Ten auto-graded questions, explanatory feedback, and a separate teacher-scored written historical argument. No account, server submission, or required time limit.</p></header>
-<section class="assess-card"><h2>How this works</h2><p>Complete all ten questions before a proficiency decision is shown. Suggested benchmark: 8/10, plus satisfactory written argument. Sources and answers remain in your browser; no grade is sent to a teacher. These questions are an independent curriculum check and not a standardized exam.</p></section>
-<form id="unit-form"><div id="unit-questions"></div>
-<section class="assess-card"><h2>Historical evidence performance task</h2><p id="unit-written-prompt">Write a claim supported by two historical facts or source details. Include reasoning, a second perspective, and one evidence limitation.</p><textarea id="unit-written" aria-label="Evidence-supported written argument" placeholder="My claim... Evidence one... Evidence two... Reasoning... Limitation..."></textarea><details><summary>Teacher rubric · 0–3 points each</summary><p>Accuracy; relevant evidence; reasoning; acknowledgment of source limitations or missing perspectives. Suggested writing mastery: 9/12 points. Human review required. Alternative oral response permitted with the same criteria.</p></details></section>
-<button class="assess-action" type="submit">Grade 10 answers</button><button type="reset" class="assess-action">Reset assessment</button><p id="unit-results" class="assess-results" hidden aria-live="polite"></p>
-</form><div class="assess-links"><a href="../">← Unit directory</a><a id="unit-return" href="../">Back to lessons</a></div>
-<details class="assess-card"><summary>Assessment sources and design</summary><p>Content is drawn from the unit lessons, their independently curated historical source references, and evidence-reasoning instructional practices. Review each lesson's Sources section for attributed archives and media.</p><p>Teacher scoring note: an auto-graded factual or source-analysis check does not replace historical argument evaluation or classroom discussion.</p></details>
-</main>
+:root{--green:#94ff53;--yellow:#fff200}
+body.etp-curriculum{background:#020907;color:#f4f7f0;font:17px/1.6 Georgia,serif}
+.exam-head{padding:clamp(23px,4vw,48px);background:linear-gradient(130deg,#0d2730,#071915 65%,#030708);border:1px solid #486d5c;border-radius:20px}
+.exam-head h1{font:700 clamp(34px,5vw,63px)/1.08 Georgia,serif;color:var(--yellow);margin:12px 0}
+.exam-head p{max-width:850px}
+.exam-tag{color:var(--green);font-weight:700}
+.exam-main{max-width:1000px;margin:26px auto}
+.exam-card{padding:clamp(20px,3vw,31px);margin:16px 0;border-radius:15px;border:1px solid #49705f;background:linear-gradient(140deg,#0b2225,#07121b)}
+.exam-card h2{color:#fff200;font-size:25px;margin:0 0 15px}
+.exam-card fieldset{margin:0;padding:0;border:0}
+.exam-card legend{font-size:20px;color:#fff;line-height:1.4;font-weight:700;margin:0 0 17px}
+.exam-card label{display:flex;gap:12px;align-items:baseline;padding:11px 13px;margin:7px 0;border-radius:9px;border:1px solid transparent;cursor:pointer}
+.exam-card label:hover{border-color:#5c9c73;background:#143027}
+.exam-card input{accent-color:var(--green)}
+.exam-card .feedback{display:none;background:#102b20;padding:14px;border-left:3px solid var(--green);margin-top:12px}
+.exam-card .feedback.visible{display:block}
+.exam-button{font:700 18px Georgia,serif;padding:12px 20px;color:#fff200;background:linear-gradient(115deg,#243e24,#0a1911);border:1px solid #a0cd65;border-radius:10px;cursor:pointer}
+.exam-button:hover,.exam-button:focus-visible{box-shadow:0 0 0 2px #fff20077;border-color:#fff200}
+.exam-result{padding:23px;margin:20px 0;border:1px solid #97b66f;border-radius:12px;background:#0c2618;font:700 21px Georgia,serif}
+.exam-result strong{color:#fff200}
+.exam-note{color:#d0e3d3;font-size:14px}
+.exam-writing{width:100%;height:160px;background:#fff;color:#121c15;border:2px solid #aabbaa;border-radius:10px;padding:16px;font:16px/1.6 Georgia,serif;box-sizing:border-box}.exam-writing::placeholder{color:#7c857f;opacity:1}.exam-writing:focus{outline:3px solid #fff200;outline-offset:2px}
+.exam-nav{display:flex;flex-wrap:wrap;gap:14px;margin:26px 0}.exam-nav a{background:#142b23;border:1px solid #64836d;border-radius:9px;padding:11px 16px}
+@media(max-width:650px){.exam-card{padding:17px}.exam-card legend{font-size:17px}}
+
+body.etp-curriculum .exam-head,body.etp-curriculum .exam-card{background:linear-gradient(130deg,#153c27,#0b2116 65%,#030b07)!important;border-color:#537c60!important;box-sizing:border-box;width:100%}
+body.etp-curriculum #questions{display:block!important}body.etp-curriculum #questions>.exam-card{width:100%!important;min-height:300px}
+body.etp-curriculum textarea.exam-writing{background:#fff!important;color:#111!important;-webkit-text-fill-color:#111!important;font:17px/1.6 Georgia,serif!important}
+.exam-card select{background:#fff;color:#111;font:16px Georgia,serif;padding:9px;max-width:100%;border-radius:7px}.rubric-row{padding:16px 0;border-bottom:1px solid #537c60}.rubric-row label{display:block}.level-help{padding:12px;background:#030b07;border-left:3px solid #94ff53}summary{color:#fff200;font-weight:bold;cursor:pointer}.format-feedback{color:#fff200} .exam-card label{flex-wrap:wrap}
+
+.blueprint-wrap{overflow-x:auto}.blueprint-wrap table{width:100%;border-collapse:collapse;text-align:left}.blueprint-wrap th,.blueprint-wrap td{padding:12px;border-bottom:1px solid #537c60}.blueprint-wrap thead,.blueprint-wrap tfoot{color:#fff200}.blueprint-wrap tbody th{font-weight:normal}
+body.etp-curriculum .etp-page-nav .etp-page-nav-link{display:none!important}
+</style><script defer src="../../../../app-assets/install.js?v=20261108-native-menu-v17"></script></head><body class="etp-curriculum">
+<main class="etp-layout"><a href="../#unit-5-1" class="etp-path">← Unit 5.1</a>
+<header class="exam-head"><div class="exam-tag">GRADE 5 · UNIT 5.1 · CUMULATIVE CHECK</div><h1>Indigenous North America</h1><p>End-of-unit knowledge and evidence assessment. Six multiple-choice questions, source matching, an inquiry sequence, an evidence-selection task, and a written explanation assess the unit objectives.</p><p class="exam-note">Complete after Lessons 5.1.1–5.1.3. No student response is transmitted or stored on a server.</p></header>
+<section class="exam-main"><div class="exam-card"><h2>Assessment expectations</h2><p><strong>27 possible points:</strong> multiple choice (6), source matching (3), inquiry sequence (3), evidence selection (3), and writing (12). Suggested proficiency: 80%. There is no timer, no account and no automatic submission to a teacher.</p><p>Focus: regional diversity, geography, governance, historical evidence, primary-source limits and Indigenous continuity. Writing receives a provisional checklist-based estimate. Review the suggested rubric ratings: automated checks cannot verify historical accuracy or the quality of cited evidence.</p></div>
+<form id="formal" novalidate><div id="questions"></div>
+<section class="exam-card"><h2>7. Match Sources to Questions · 3 points</h2><p>Select the best source for each question. Each correct match earns 1 point.</p><div id="matching"></div><p id="match-feedback" class="format-feedback"></p></section>
+<section class="exam-card"><h2>8. Put an Inquiry in Order · 3 points</h2><p>Assign a different position to each step: 1 is first, 3 is last. Each correct position earns 1 point.</p><div id="sequence"></div><p id="sequence-feedback" class="format-feedback"></p></section>
+<section class="exam-card"><h2>9. Select Supported Conclusions · 3 points</h2><p><strong>Evidence:</strong> The Eastern Woodlands reading describes rivers, agriculture, and Haudenosaunee longhouses. The Southwest reading describes Ancestral Pueblo agriculture and water management. These are regional examples, not descriptions of every nation.</p><p>Select all conclusions supported by this evidence. Earn 1 point for each supported conclusion selected and each unsupported conclusion correctly left unselected. Leaving everything unchecked counts as unanswered.</p><div id="evidence-options"></div><p id="evidence-feedback" class="format-feedback"></p></section><div class="exam-card"><h2>Written Performance Task · 12 points</h2><p>Compare how <strong>two Indigenous societies or regions</strong> developed practices suited to their homelands. Identify at least two kinds of evidence and explain one limitation of the evidence. Do not generalize about all Indigenous nations.</p><textarea class="exam-writing" aria-label="Unit written argument" placeholder="My claim... Evidence from one source... Evidence from another... Limitation or missing perspective..."></textarea><details open><summary>Interactive Writing Rubric · Four criteria, 0–3 points each</summary><p>Select a level for each criterion to see what it means. Writing estimates are suggestions; a teacher can change each rating after reviewing the response.</p><div id="rubric"></div><button type="button" class="exam-button" id="estimate">Suggest writing ratings</button><p id="writing-note" role="status"></p></details></div>
+<button type="submit" class="exam-button">Grade my answers</button> <button type="reset" class="exam-button">Reset responses</button>
+<div id="result" class="exam-result" role="status" aria-live="polite" hidden></div>
+</form>
+<details class="exam-card"><summary>Teacher notes and alignment</summary><div><h2>Assessment Blueprint</h2><p>Use the score breakdown to identify which skills need another example or more practice.</p><div class="blueprint-wrap"><table><thead><tr><th scope="col">Part</th><th scope="col">What it assesses</th><th scope="col">Points</th></tr></thead><tbody><tr><th scope="row">Questions 1–3</th><td>Diversity, geography, and resources</td><td>3</td></tr><tr><th scope="row">Questions 4–6</th><td>Governance, Native voices, source context</td><td>3</td></tr><tr><th scope="row">Source matching</th><td>Choose a source suited to an inquiry</td><td>3</td></tr><tr><th scope="row">Inquiry sequence</th><td>Organize questions, investigation, and conclusions</td><td>3</td></tr><tr><th scope="row">Evidence selection</th><td>Distinguish supported conclusions from generalizations</td><td>3</td></tr><tr><th scope="row">Written explanation</th><td>Accuracy, evidence, reasoning, source limits</td><td>12</td></tr></tbody><tfoot><tr><th scope="row" colspan="2">Total</th><td>27</td></tr></tfoot></table></div><h3>Reading the score</h3><p>The first four formats provide 15 automatically checked points. Writing contributes up to 12 points through four separate rubric ratings. A score of at least 22/27 reaches 80%; the overall result remains provisional until writing is reviewed.</p><p><strong>Standards:</strong> thematic alignment with Maryland social studies Standards 2, 3, 5 and 6. Specific district indicator alignment should be confirmed before formal use. Not an official Maryland or psychometrically validated test.</p><p><strong>Adjustments:</strong> read questions aloud, allow additional time, provide a print transcript or score the written response orally using the same rubric. Maintain the outcome, not one mandated response medium.</p></div></details>
+<details class="exam-card"><summary>Sources informing the assessment</summary><div><p><a href="https://americanindian.si.edu/nk360/about/essential-understandings" target="_blank" rel="noopener">Smithsonian NMAI — Essential Understandings</a></p><p><a href="https://americanindian.si.edu/nk360/resources/Haudenosaunee-Guide-for-Educators" target="_blank" rel="noopener">Smithsonian Haudenosaunee Guide</a></p><p><a href="https://msde.maryland.gov/academics-0/curriculum-academic-standards/social-studies" target="_blank" rel="noopener">Maryland standards and frameworks</a></p></div></details>
+<nav class="exam-nav"><a href="../north-america-before-european-colonization/">← Lesson 1</a><a href="../#unit-5-1">Back to Unit 5.1</a></nav>
+</section></main>
 <script>
-(()=>{"use strict";const unit=new URLSearchParams(location.search).get("unit")||"5.1",form=document.querySelector("#unit-form"),host=document.querySelector("#unit-questions"),res=document.querySelector("#unit-results");const E=v=>String(v).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-fetch("../../../../assets/grade5-lessons-data.json?v=20261109-grade5-v5").then(x=>x.json()).then(all=>{
-if(!all.units[unit])throw Error("Unknown unit");
-const entries=Object.values(all.lessons).filter(x=>x.unit===unit),unitTitles={"5.1":"Indigenous North America","5.2":"Exploration and Encounters","5.3":"Colonial America","5.4":"Imperial Conflict","5.5":"The American Revolution","5.6":"Creating a Republic","5.7":"The Early Republic"};
-document.querySelector("#assessment-title").textContent="Unit "+unit+" · "+unitTitles[unit];
-document.querySelector("#unit-written-prompt").textContent="Explain how at least two specific developments in "+unitTitles[unit]+" connect to its historical context. Support your claim with evidence from two different lesson topics, assess a limitation, and acknowledge another perspective.";
-document.querySelector("#unit-return").href="../#unit-"+unit.replace(".","-");
-const q=[];
-for(const lesson of entries){
- q.push({prompt:lesson.essential,answers:lesson.options,correct:lesson.correct,reason:lesson.options[lesson.correct]+" This conclusion is consistent with the lesson's evidence; review its Sources section."});
- q.push({prompt:"Which approach would best investigate "+lesson.title+"?",answers:["Accept the shortest summary as proof","Compare relevant sources, their authors and historical contexts","Ignore accounts that challenge the first interpretation"],correct:1,reason:"Sourcing and corroboration make a historical interpretation more defensible."});
-}
-const extras=[
-{prompt:"Which type of historical argument is strongest?",answers:["An unsupported impression","A claim supported by relevant evidence with a noted limitation","A statement based on one unidentified image"],correct:1,reason:"Evidence and limitations make claims accountable."},
-{prompt:"Why should a historian examine different perspectives?",answers:["So every perspective must be treated as equally supported","To understand whose interests and experiences are recorded or missing","To avoid analyzing primary sources"],correct:1,reason:"Perspective analysis helps explain evidence and omissions."},
-{prompt:"What is the strongest reason to identify when a historical source was created?",answers:["A source's date helps place it in the right historical context","Older sources are always correct","Dates do not matter for interpretation"],correct:0,reason:"Chronological context matters to responsible historical inquiry."},
-{prompt:"When historical sources disagree, what should you do?",answers:["Ignore both","Choose whichever is more exciting","Compare provenance, context, evidence and uncertainty"],correct:2,reason:"Disagreement invites corroboration, not dismissal."}
-];
-while(q.length<10)q.push(extras[(q.length-entries.length*2)%extras.length]);q.length=10;
-q.forEach((x,i)=>{const div=document.createElement("section");div.className="assess-card";const field=document.createElement("fieldset");const legend=document.createElement("legend");legend.textContent=(i+1)+". "+x.prompt;field.append(legend);x.answers.forEach((answer,j)=>{const label=document.createElement("label"),radio=document.createElement("input");radio.type="radio";radio.name="q"+i;radio.value=j;label.append(radio,document.createTextNode(answer));field.append(label)});const f=document.createElement("div");f.className="assess-feedback";f.id="feedback-"+i;div.append(field,f);host.append(div)});
-form.addEventListener("submit",e=>{e.preventDefault();let score=0,missing=0;q.forEach((x,i)=>{const selected=form.querySelector('input[name="q'+i+'"]:checked'),feed=document.querySelector("#feedback-"+i);if(!selected){missing++;feed.textContent="Select an answer first; the answer will not be revealed until you try.";feed.style.borderLeftColor="#e4c963";}else if(Number(selected.value)===x.correct){score++;feed.textContent="Correct. "+x.reason;feed.style.borderLeftColor="#94ff53";}else{feed.textContent="Review. "+x.reason;feed.style.borderLeftColor="#e5a1a1";}feed.classList.add("show")});res.hidden=false;res.textContent="Score: "+score+"/10. "+(missing?"Answer all ten questions before proficiency can be decided.":score>=8?"Knowledge proficiency reached. Teacher review of writing still required.":"Review the feedback and retry.")+(missing?" Unanswered: "+missing+".":"");res.scrollIntoView({block:"center",behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"})});
-form.addEventListener("reset",()=>{res.hidden=true;host.querySelectorAll(".assess-feedback").forEach(x=>{x.textContent="";x.classList.remove("show")})});
-}).catch(e=>{document.querySelector("#assessment-title").textContent="Assessment could not load";console.error(e)});
-})();
+(async function(){
+"use strict";
+const grade=5;
+const dataset=await fetch('../../../../assets/grade5-lessons-data.json?v=20261115-approved-1').then(r=>{if(!r.ok)throw Error('Assessment data unavailable');return r.json()});
+const params=new URL(location.href).searchParams;const unit=dataset.units[params.get('unit')]?params.get('unit'):Object.keys(dataset.units)[0];
+const entries=Object.values(dataset.lessons).filter(d=>d.unit===unit);const unitName=entries[0]?.unitTitle||unit;
+if(grade===5&&unit==='5.1'){location.replace('../unit-5-1-assessment/');return;}
+const E=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+document.title='Unit '+unit+' Assessment · '+unitName+' | Examine the Past';
+document.querySelector('.exam-tag').textContent='GRADE '+grade+' · UNIT '+unit+' · CUMULATIVE CHECK';document.querySelector('h1').textContent=unitName;
+document.querySelector('.exam-head .exam-note').textContent='Complete after all '+entries.length+' lessons in Unit '+unit+'. Responses remain in this page; they are not submitted to a teacher.';
+const chooser=document.createElement('label');chooser.textContent='Choose a unit ';const select=document.createElement('select');select.setAttribute('aria-label','Choose a unit');Object.keys(dataset.units).forEach(id=>{const option=document.createElement('option');option.value=id;option.textContent='Unit '+id+' · '+Object.values(dataset.lessons).find(d=>d.unit===id)?.unitTitle;select.append(option)});select.value=unit;select.onchange=()=>{const url=new URL(location.href);url.searchParams.set('unit',select.value);location.href=url.href};chooser.append(select);document.querySelector('.exam-head').append(chooser);
+const bank=[];entries.forEach(d=>{bank.push([d.essential,d.options,d.correct,d.options[d.correct]]);if(d.checks)for(const c of d.checks)bank.push([c.prompt,c.options,c.answer,c.options[c.answer]]);else{const fact=d.paragraphs[0].match(/[^.!?]+[.!?]/)?.[0]||d.paragraphs[0];bank.push(['Which detail appears in the reading about '+d.title+'?',[fact,'The text establishes that every community had identical experiences.','The text removes the need to consult historical sources.'],0,'The reading states: '+fact])}});
+const chosenQuestions=[];const seen=new Set();for(const item of bank){if(!seen.has(item[0])){chosenQuestions.push(item);seen.add(item[0])}if(chosenQuestions.length===6)break;}
+// Include the breadth of the unit, not just the earliest lesson's questions.
+if(entries.length>=3){for(let i=0;i<3;i++){const d=entries[Math.floor(i*(entries.length-1)/2)];chosenQuestions[i]=[d.essential,d.options,d.correct,d.options[d.correct]];}}
+const broad=entries.map(d=>[d.essential,d.options,d.correct,d.options[d.correct]]); for(const item of bank){if(broad.length>=6)break;if(!broad.some(x=>x[0]===item[0]))broad.push(item)} chosenQuestions.splice(0,chosenQuestions.length,...broad.slice(0,6));
+const selected=[entries[0],entries[Math.floor(entries.length/2)],entries[entries.length-1]];
+const matchingOptions=selected.map(d=>d.title),matchingPrompts=selected.map(d=>'Which lesson explains this detail? '+(d.paragraphs[0].match(/[^.!?]+[.!?]/)?.[0]||d.paragraphs[0]));
+const excerpts=selected.slice(0,2).map(d=>(d.paragraphs[0].match(/[^.!?]+[.!?]/)?.[0]||d.paragraphs[0]));
+document.querySelector('#evidence-options').closest('section').querySelector('p').textContent='Evidence from the unit readings: '+excerpts.map((t,i)=>selected[i].title+': '+t).join(' ');
+const writingCard=document.querySelector('textarea').closest('.exam-card');writingCard.querySelector('p').textContent='Answer a major inquiry from '+unitName+'. Compare evidence from at least two different lesson topics. Use '+(grade>=8?'three':'two')+' identified sources, explain how the evidence supports your claim, and '+(grade>=8?'weigh a competing explanation and a source limitation.':'identify a limitation or missing perspective.');
+const notes=[...document.querySelectorAll('details.exam-card')];notes[0].querySelector('div').innerHTML='<h2>Assessment Blueprint</h2><ul><li>Six multiple-choice questions: 6 points, checking lesson content and interpretation.</li><li>Match lesson details: 3 points, connecting evidence to context.</li><li>Inquiry sequence: 3 points, organizing source investigation.</li><li>Evaluate conclusions from the supplied readings: 3 points.</li><li>Written synthesis across lesson topics: 12 points, scored with four criteria.</li></ul><p>Total: 27 points. At least 22/27 reaches 80%. Writing ratings remain provisional until reviewed; partial credit is described with each format.</p><h3>Alignment and review</h3><p>Use the unit lessons’ essential questions and objectives to interpret results. '+(grade===5?'Grade 5 RI.5.3 / 9 and W.5.2 / 9':'RH.6-8.1 / 2 / 9 and WHST.6-8.1 / 9')+' support evidence-based reading and writing. NCSS C3 inquiry practices support source evaluation and communicating conclusions.</p><p>Read directions aloud, allow extended time, or accept an oral response with evidence notes using the same rubric. Lesson practice credits are separate from this unit assessment.</p>';
+notes[1].querySelector('div').innerHTML='<p><a target="_blank" rel="noopener" href="'+E(dataset.units[unit].source[1])+'">'+E(dataset.units[unit].source[0])+'</a></p><p><a href="https://www.socialstudies.org/standards/c3" target="_blank" rel="noopener">NCSS C3 Framework</a></p><p>Consult the sources linked in each unit lesson when reviewing factual claims.</p>';
+document.querySelector('.exam-nav').innerHTML='<a href="../#unit-'+unit.replace('.','-')+'">Back to Unit '+unit+'</a>';
+
+const items=chosenQuestions;
+const host=document.getElementById('questions');
+items.splice(6);
+items.forEach((it,i)=>{const box=document.createElement('section');box.className='exam-card';box.innerHTML='<fieldset><legend>'+(i+1)+'. '+it[0]+'</legend>'+it[1].map((v,j)=>'<label><input type="radio" name="question'+i+'" value="'+j+'">'+v+'</label>').join('')+'</fieldset><p id="feedback'+i+'" class="format-feedback"></p>';host.append(box)});
+const options=matchingOptions;
+const prompts=matchingPrompts;
+const steps=['Compare sources and note their limits','Develop a focused inquiry question','Support a conclusion with evidence'];
+function selects(id,labels,choices){document.getElementById(id).innerHTML=labels.map((p,i)=>'<label>'+p+'<select aria-label="'+p+'"><option value="">Choose…</option>'+choices.map((x,j)=>'<option value="'+j+'">'+x+'</option>').join('')+'</select></label>').join('')}
+selects('matching',prompts,options);selects('sequence',steps,['1 · First','2 · Next','3 · Last']);
+const conclusions=[excerpts[0],excerpts[1],'These two accounts alone establish the experiences of every person and community in the unit.'];
+document.getElementById('evidence-options').innerHTML=conclusions.map((x,i)=>'<label><input type="checkbox" value="'+i+'">'+x+'</label>').join('');
+const criteria=['Historical accuracy and specificity','Relevant evidence','Clear reasoning','Source limits and diversity'];
+const levels=[['Missing or unrelated claim.','Claim is vague or overgeneralizes.','Accurate explanation naming specific people, places, events, or communities.','Precise explanation with well-chosen context.'],['No source details.','One detail, or sources unclear.','Two relevant details with sources identified.','Specific, well-chosen details from different source types.'],['No explanation connecting evidence to claim.','Connection asserted but not explained.','Explains how evidence supports the comparison.','Explains relationships clearly and addresses complexity.'],['No attention to limits or diversity.','Mentions diversity or limits without explanation.','Names a source limitation and avoids broad generalizations.','Explains how missing perspectives affect the conclusion.']];
+document.getElementById('rubric').innerHTML=criteria.map((c,i)=>'<div class="rubric-row"><label>'+c+'<select id="rating'+i+'" aria-label="'+c+'"><option value="">Not rated</option>'+levels[i].map((l,j)=>'<option value="'+j+'">'+j+' · '+['Not yet evident','Developing','Proficient','Strong'][j]+'</option>').join('')+'</select></label><p class="level-help" id="level'+i+'">Choose a level to read the descriptor.</p></div>').join('');
+function paint(){criteria.forEach((c,i)=>{const v=document.getElementById('rating'+i).value;document.getElementById('level'+i).textContent=v===''?'Choose a level to read the descriptor.':levels[i][Number(v)]})}
+document.querySelectorAll('#rubric select').forEach(x=>x.addEventListener('change',paint));
+function estimate(onlyUnrated=false){const t=document.querySelector('textarea').value.trim(),n=t.split(/\s+/).filter(Boolean).length;const values=!t?[0,0,0,0]:[n>60?2:1,/source|reading|map|museum|guide/i.test(t)?2:1,/because|therefore|suggests|shows/i.test(t)?2:1,/limit|cannot|unanswered|not all|different nations/i.test(t)?2:1];values.forEach((v,i)=>{const rating=document.getElementById('rating'+i);if(!onlyUnrated||rating.value==='')rating.value=v});paint();document.getElementById('writing-note').textContent='Provisional estimate from response length and language cues only. A teacher must verify facts, evidence, and reasoning; select any level to revise the ratings.'}
+document.getElementById('estimate').onclick=()=>estimate();
+const form=document.getElementById('formal'),result=document.getElementById('result');
+form.addEventListener('input',()=>{result.hidden=true});form.addEventListener('change',()=>{result.hidden=true});
+document.querySelector('textarea').addEventListener('input',()=>{document.querySelectorAll('#rubric select').forEach(x=>x.value='');paint();document.getElementById('writing-note').textContent='Response changed. Review the writing ratings before grading again.'});
+function celebrate(){if(!matchMedia('(prefers-reduced-motion:reduce)').matches)for(let i=0;i<65;i++){const p=document.createElement('span');p.style.cssText='position:fixed;pointer-events:none;z-index:99999;top:20%;left:50%;width:9px;height:12px;background:'+['#fff200','#94ff53','#fff'][i%3];document.body.append(p);p.animate([{transform:'translate(0,0)',opacity:1},{transform:'translate('+(Math.random()*900-450)+'px,'+(Math.random()*650)+'px) rotate(600deg)',opacity:0}],{duration:1500}).onfinish=()=>p.remove()}try{const a=new(window.AudioContext||window.webkitAudioContext)();[523,659,784].forEach((f,i)=>{let o=a.createOscillator(),g=a.createGain();o.frequency.value=f;g.gain.value=.04;o.connect(g).connect(a.destination);o.start(a.currentTime+i*.16);o.stop(a.currentTime+i*.16+.15)});setTimeout(()=>a.close(),1200)}catch{}}
+form.onsubmit=e=>{e.preventDefault();let mc=0,missing=0;items.forEach((it,i)=>{let x=form.querySelector('input[name="question'+i+'"]:checked');if(!x)missing++;const ok=x&&Number(x.value)===it[2];if(ok)mc++;document.getElementById('feedback'+i).textContent=!x?'Unanswered':(ok?'Correct. ':'Review: ')+it[3]});
+const scoreSelect=(id,answers)=>[...document.querySelectorAll('#'+id+' select')].reduce((n,x,i)=>{if(x.value==='')missing++;return n+(x.value!==''&&Number(x.value)===answers[i]?1:0)},0);
+const matching=scoreSelect('matching',[0,1,2]),sequence=scoreSelect('sequence',[1,0,2]);
+const chosen=[...document.querySelectorAll('#evidence-options input')].map(x=>x.checked);if(!chosen.some(Boolean))missing++;
+const ev=chosen.some(Boolean)?chosen.reduce((n,x,i)=>n+(x===(i!==2)?1:0),0):0;
+if([...document.querySelectorAll('#rubric select')].some(x=>x.value===''))estimate(true);
+const writing=criteria.reduce((n,c,i)=>n+Number(document.getElementById('rating'+i).value),0),blank=!document.querySelector('textarea').value.trim();if(blank)missing++;
+const total=mc+matching+sequence+ev+writing,percent=Math.round(total/27*100);
+document.getElementById('match-feedback').textContent=matching+'/3. Match location to maps, governance to community accounts, and tools to documented objects.';
+document.getElementById('sequence-feedback').textContent=sequence+'/3. Ask a question → compare sources → support a conclusion.';
+document.getElementById('evidence-feedback').textContent=ev+'/3. The first two conclusions are supported; the universal claim is not.';
+result.hidden=false;result.textContent=(missing?'Incomplete · ':total/27>=.8?'Yahoo! Great job! ':'Keep investigating! ')+total+'/27 points · '+percent+'%. Multiple choice '+mc+'/6; matching '+matching+'/3; sequence '+sequence+'/3; evidence '+ev+'/3; writing '+writing+'/12. '+(missing?missing+' unanswered items. ':'')+'Overall score is provisional until a teacher reviews writing ratings.';if(!missing&&total/27>=.8)celebrate();result.scrollIntoView({block:'center',behavior:'smooth'})};
+form.onreset=()=>{result.hidden=true;setTimeout(()=>{paint();document.querySelectorAll('.format-feedback').forEach(x=>x.textContent='');document.getElementById('writing-note').textContent=''},0)};
+})().catch(error=>{console.error(error);document.querySelector('h1').textContent='Assessment unavailable. Please refresh or return to the course.'});
 </script><script src="../../../../assets/site-shell.js?v=20261115-names-1" data-etp-root="../../../../"></script></body></html>

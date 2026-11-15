@@ -115,20 +115,20 @@
         "Defend a classification while admitting which relationships it leaves out."
       ],
       "options": [
-        "What makes a regional boundary useful rather than universally true?",
-        "It follows one fixed international rule",
-        "Its criteria are stated and fit a particular question"
+        "Its criteria are stated and fit a particular question",
+        "Regional boundaries never change",
+        "It follows one fixed international rule"
       ],
-      "correct": 1,
+      "correct": 0,
       "checks": [
         {
-          "prompt": "For the inquiry “Who decides where one world region ends and another begins?”, which explanation is most defensible?",
+          "prompt": "What makes a regional boundary useful rather than universally true?",
           "options": [
-            "What makes a regional boundary useful rather than universally true?",
-            "It follows one fixed international rule",
-            "Its criteria are stated and fit a particular question"
+            "Its criteria are stated and fit a particular question",
+            "Regional boundaries never change",
+            "It follows one fixed international rule"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "prompt": "Which evidence could justify grouping a set of countries in a physical region?",
@@ -190,20 +190,20 @@
         "Explain why geography is an influence, not a destiny."
       ],
       "options": [
-        "Which claim best avoids geographic determinism?",
+        "Culture develops through interactions among environment, history, and human choices",
         "Mountains always produce one political system",
         "Culture depends entirely on temperature"
       ],
-      "correct": 2,
+      "correct": 0,
       "checks": [
         {
-          "prompt": "For the inquiry “How can geography shape identity without determining it?”, which explanation is most defensible?",
+          "prompt": "Which claim best avoids geographic determinism?",
           "options": [
-            "Which claim best avoids geographic determinism?",
+            "Culture develops through interactions among environment, history, and human choices",
             "Mountains always produce one political system",
             "Culture depends entirely on temperature"
           ],
-          "answer": 2
+          "answer": 0
         },
         {
           "prompt": "Which example shows people adapting rather than being determined by terrain?",
@@ -265,20 +265,20 @@
         "State a question that a landscape image alone cannot answer."
       ],
       "options": [
-        "What is a limitation of studying one historic building?",
-        "It reveals all residents' beliefs",
-        "It may hide unequal experiences around it"
+        "It may hide unequal experiences around it",
+        "It reveals all residents’ beliefs",
+        "One building represents every historical era"
       ],
-      "correct": 1,
+      "correct": 0,
       "checks": [
         {
-          "prompt": "For the inquiry “What can a landscape reveal about its history—and what remains hidden?”, which explanation is most defensible?",
+          "prompt": "What is a limitation of studying one historic building?",
           "options": [
-            "What is a limitation of studying one historic building?",
-            "It reveals all residents' beliefs",
-            "It may hide unequal experiences around it"
+            "It may hide unequal experiences around it",
+            "It reveals all residents’ beliefs",
+            "One building represents every historical era"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "prompt": "Which evidence would help establish how a plaza's meaning changed?",
@@ -340,18 +340,18 @@
         "Explain why a single reason rarely explains every move."
       ],
       "options": [
-        "Which statement best captures migration decisions?",
         "They often combine pressures, opportunities, and constraints",
-        "Every move is completely voluntary"
+        "Every move is completely voluntary",
+        "One cause explains every migration"
       ],
       "correct": 0,
       "checks": [
         {
-          "prompt": "For the inquiry “Why do people leave, stay, or return?”, which explanation is most defensible?",
+          "prompt": "Which statement best captures migration decisions?",
           "options": [
-            "Which statement best captures migration decisions?",
             "They often combine pressures, opportunities, and constraints",
-            "Every move is completely voluntary"
+            "Every move is completely voluntary",
+            "One cause explains every migration"
           ],
           "answer": 0
         },
@@ -415,20 +415,20 @@
         "Evaluate a claim that population change proves prosperity."
       ],
       "options": [
-        "Why might two censuses disagree?",
+        "Counting methods, dates, or populations covered may differ",
         "The larger number is always correct",
         "Counts always represent every resident"
       ],
-      "correct": 2,
+      "correct": 0,
       "checks": [
         {
-          "prompt": "For the inquiry “How can population evidence reveal patterns but still leave people out?”, which explanation is most defensible?",
+          "prompt": "Why might two censuses disagree?",
           "options": [
-            "Why might two censuses disagree?",
+            "Counting methods, dates, or populations covered may differ",
             "The larger number is always correct",
             "Counts always represent every resident"
           ],
-          "answer": 2
+          "answer": 0
         },
         {
           "prompt": "Why should forced Atlantic transportation not be described as ordinary immigration?",
@@ -490,20 +490,20 @@
         "Explain why material objects alone cannot define a community."
       ],
       "options": [
-        "What does a diaspora community often maintain?",
+        "Some connections to a homeland alongside new experiences",
         "Only one unchanged custom",
-        "Some connections to a homeland alongside new experiences"
+        "All cultural connections disappear"
       ],
-      "correct": 1,
+      "correct": 0,
       "checks": [
         {
-          "prompt": "For the inquiry “How can people preserve traditions while developing new ones?”, which explanation is most defensible?",
+          "prompt": "What does a diaspora community often maintain?",
           "options": [
-            "What does a diaspora community often maintain?",
+            "Some connections to a homeland alongside new experiences",
             "Only one unchanged custom",
-            "Some connections to a homeland alongside new experiences"
+            "All cultural connections disappear"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "prompt": "What does Swahili coastal history demonstrate?",
@@ -565,18 +565,18 @@
         "Assess why a route diagram cannot prove every individual journey."
       ],
       "options": [
-        "What makes a network model more accurate?",
         "Goods often passed through several communities",
-        "Every trader traveled the whole distance"
+        "Every trader traveled the whole distance",
+        "A network had only one unchanging route"
       ],
       "correct": 0,
       "checks": [
         {
-          "prompt": "For the inquiry “Why were the Silk Roads networks rather than a single highway?”, which explanation is most defensible?",
+          "prompt": "What makes a network model more accurate?",
           "options": [
-            "What makes a network model more accurate?",
             "Goods often passed through several communities",
-            "Every trader traveled the whole distance"
+            "Every trader traveled the whole distance",
+            "A network had only one unchanging route"
           ],
           "answer": 0
         },
@@ -640,20 +640,20 @@
         "Challenge a claim that one empire managed every port."
       ],
       "options": [
-        "What helped sailors time many Indian Ocean voyages?",
+        "Seasonal monsoon patterns",
         "A constant wind in one direction",
-        "Seasonal monsoon patterns"
+        "Wind had no effect on sailing"
       ],
-      "correct": 1,
+      "correct": 0,
       "checks": [
         {
-          "prompt": "For the inquiry “How did seasonal winds help connect distant societies?”, which explanation is most defensible?",
+          "prompt": "What helped sailors time many Indian Ocean voyages?",
           "options": [
-            "What helped sailors time many Indian Ocean voyages?",
+            "Seasonal monsoon patterns",
             "A constant wind in one direction",
-            "Seasonal monsoon patterns"
+            "Wind had no effect on sailing"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "prompt": "What did Indian Ocean ports often connect?",
@@ -715,18 +715,18 @@
         "Analyze how a traveler's account may differ from local sources."
       ],
       "options": [
-        "Which conclusion is best supported by Timbuktu's scholarly history?",
         "West African cities had important traditions of learning",
-        "Only foreign traders produced knowledge"
+        "Only foreign traders produced knowledge",
+        "Trade prevented all scholarship"
       ],
       "correct": 0,
       "checks": [
         {
-          "prompt": "For the inquiry “How did West African states participate in long-distance exchange?”, which explanation is most defensible?",
+          "prompt": "Which conclusion is best supported by Timbuktu's scholarly history?",
           "options": [
-            "Which conclusion is best supported by Timbuktu's scholarly history?",
             "West African cities had important traditions of learning",
-            "Only foreign traders produced knowledge"
+            "Only foreign traders produced knowledge",
+            "Trade prevented all scholarship"
           ],
           "answer": 0
         },
@@ -790,20 +790,20 @@
         "Explain the difference between a trading city's fame and daily life."
       ],
       "options": [
-        "What is a defensible conclusion about trade cities?",
+        "Cities could grow while benefits remained unequal",
         "Trade always created equal wealth",
-        "Cities could grow while benefits remained unequal"
+        "Every city benefited in the same way"
       ],
-      "correct": 1,
+      "correct": 0,
       "checks": [
         {
-          "prompt": "For the inquiry “How can trade reshape urban life without benefiting everyone equally?”, which explanation is most defensible?",
+          "prompt": "What is a defensible conclusion about trade cities?",
           "options": [
-            "What is a defensible conclusion about trade cities?",
+            "Cities could grow while benefits remained unequal",
             "Trade always created equal wealth",
-            "Cities could grow while benefits remained unequal"
+            "Every city benefited in the same way"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "prompt": "Why were many port cities attractive to merchants?",
@@ -865,20 +865,20 @@
         "Distinguish formal rules from daily enforcement."
       ],
       "options": [
-        "Which question best compares different governments?",
+        "Who held authority, how decisions were made, and who could participate",
         "How large were their palaces?",
         "Did rulers wear the same clothing?"
       ],
-      "correct": 2,
+      "correct": 0,
       "checks": [
         {
-          "prompt": "For the inquiry “How do political institutions distribute power and responsibility?”, which explanation is most defensible?",
+          "prompt": "Which question best compares different governments?",
           "options": [
-            "Which question best compares different governments?",
+            "Who held authority, how decisions were made, and who could participate",
             "How large were their palaces?",
             "Did rulers wear the same clothing?"
           ],
-          "answer": 2
+          "answer": 0
         },
         {
           "prompt": "Which feature distinguishes a political institution from a building?",
@@ -940,18 +940,18 @@
         "Explain what is given up by a chosen investment."
       ],
       "options": [
-        "What does opportunity cost identify?",
         "The value of the next-best option given up",
-        "Only the amount of money spent"
+        "Only the amount of money spent",
+        "Every possible benefit at once"
       ],
       "correct": 0,
       "checks": [
         {
-          "prompt": "For the inquiry “Why do societies make different choices about scarce resources?”, which explanation is most defensible?",
+          "prompt": "What does opportunity cost identify?",
           "options": [
-            "What does opportunity cost identify?",
             "The value of the next-best option given up",
-            "Only the amount of money spent"
+            "Only the amount of money spent",
+            "Every possible benefit at once"
           ],
           "answer": 0
         },
@@ -1015,20 +1015,20 @@
         "Compare short-term advantage with long-term vulnerability."
       ],
       "options": [
-        "Why is controlling a port not enough to ensure lasting power?",
+        "Power also depends on institutions and changing conditions",
         "The port determines every political outcome",
-        "Power also depends on institutions and changing conditions"
+        "Ports never influence political choices"
       ],
-      "correct": 1,
+      "correct": 0,
       "checks": [
         {
-          "prompt": "For the inquiry “How can location strengthen or limit political influence?”, which explanation is most defensible?",
+          "prompt": "Why is controlling a port not enough to ensure lasting power?",
           "options": [
-            "Why is controlling a port not enough to ensure lasting power?",
+            "Power also depends on institutions and changing conditions",
             "The port determines every political outcome",
-            "Power also depends on institutions and changing conditions"
+            "Ports never influence political choices"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "prompt": "What could make a mountain pass strategically valuable?",
@@ -1090,20 +1090,20 @@
         "Explain why religious labels do not eliminate internal diversity."
       ],
       "options": [
-        "Which conclusion shows respectful historical analysis?",
+        "Religious practices vary across places and change through historical interactions",
         "Every tradition has only one unchanging form",
-        "A sacred building proves every person's beliefs"
+        "A sacred building proves every person’s beliefs"
       ],
-      "correct": 2,
+      "correct": 0,
       "checks": [
         {
-          "prompt": "For the inquiry “How have belief traditions shaped societies while remaining diverse within themselves?”, which explanation is most defensible?",
+          "prompt": "Which conclusion shows respectful historical analysis?",
           "options": [
-            "Which conclusion shows respectful historical analysis?",
+            "Religious practices vary across places and change through historical interactions",
             "Every tradition has only one unchanging form",
-            "A sacred building proves every person's beliefs"
+            "A sacred building proves every person’s beliefs"
           ],
-          "answer": 2
+          "answer": 0
         },
         {
           "prompt": "Which historical method respects diversity within a tradition?",
@@ -1165,18 +1165,18 @@
         "Test a diffusion claim against chronology and sources."
       ],
       "options": [
-        "What is an accurate description of cultural diffusion?",
         "Ideas move and may be adapted by different communities",
-        "Every adoption happens through peaceful trade"
+        "Every adoption happens through peaceful trade",
+        "Borrowed ideas always remain unchanged"
       ],
       "correct": 0,
       "checks": [
         {
-          "prompt": "For the inquiry “How do ideas spread, change, and sometimes meet resistance?”, which explanation is most defensible?",
+          "prompt": "What is an accurate description of cultural diffusion?",
           "options": [
-            "What is an accurate description of cultural diffusion?",
             "Ideas move and may be adapted by different communities",
-            "Every adoption happens through peaceful trade"
+            "Every adoption happens through peaceful trade",
+            "Borrowed ideas always remain unchanged"
           ],
           "answer": 0
         },
@@ -1240,20 +1240,20 @@
         "Evaluate likely effects on excluded communities."
       ],
       "options": [
-        "What strengthens an interpretation of a historical conflict?",
-        "Reading only the victorious ruler's account",
-        "Comparing sources from different affected groups"
+        "Comparing sources from different affected groups",
+        "Reading only the victorious ruler’s account",
+        "Ignoring evidence that challenges a claim"
       ],
-      "correct": 1,
+      "correct": 0,
       "checks": [
         {
-          "prompt": "For the inquiry “Why do relationships between groups include both cooperation and conflict?”, which explanation is most defensible?",
+          "prompt": "What strengthens an interpretation of a historical conflict?",
           "options": [
-            "What strengthens an interpretation of a historical conflict?",
-            "Reading only the victorious ruler's account",
-            "Comparing sources from different affected groups"
+            "Comparing sources from different affected groups",
+            "Reading only the victorious ruler’s account",
+            "Ignoring evidence that challenges a claim"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "prompt": "What may encourage cooperation between neighboring states?",
@@ -1315,20 +1315,20 @@
         "Evaluate why place alone cannot describe a person's life."
       ],
       "options": [
-        "Which explanation is most complete?",
+        "Environment, resources, institutions, and community choices interact",
         "Daily life depends only on temperature",
         "Everyone near the sea works in trade"
       ],
-      "correct": 2,
+      "correct": 0,
       "checks": [
         {
-          "prompt": "For the inquiry “How can people adapt their daily routines to different environments?”, which explanation is most defensible?",
+          "prompt": "Which explanation is most complete?",
           "options": [
-            "Which explanation is most complete?",
+            "Environment, resources, institutions, and community choices interact",
             "Daily life depends only on temperature",
             "Everyone near the sea works in trade"
           ],
-          "answer": 2
+          "answer": 0
         },
         {
           "prompt": "Which statement accurately compares coastal and highland communities?",
@@ -1390,18 +1390,18 @@
         "Support an investment choice while identifying uncertainties."
       ],
       "options": [
-        "Which claim is supported by a mineral-resource map alone?",
         "Where deposits are represented, not who benefits",
-        "The income of every household"
+        "The income of every household",
+        "How resources must be distributed"
       ],
       "correct": 0,
       "checks": [
         {
-          "prompt": "For the inquiry “When does a resource become an advantage or a source of conflict?”, which explanation is most defensible?",
+          "prompt": "Which claim is supported by a mineral-resource map alone?",
           "options": [
-            "Which claim is supported by a mineral-resource map alone?",
             "Where deposits are represented, not who benefits",
-            "The income of every household"
+            "The income of every household",
+            "How resources must be distributed"
           ],
           "answer": 0
         },
@@ -1465,20 +1465,20 @@
         "Recommend evidence needed to judge long-term results."
       ],
       "options": [
-        "Why might a levee project require more than one measure of success?",
+        "It can change risks for other areas and needs maintenance",
         "Any wall eliminates every future flood",
-        "It can change risks for other areas and needs maintenance"
+        "Only its height matters"
       ],
-      "correct": 1,
+      "correct": 0,
       "checks": [
         {
-          "prompt": "For the inquiry “Why do some responses to environmental problems help some groups but harm others?”, which explanation is most defensible?",
+          "prompt": "Why might a levee project require more than one measure of success?",
           "options": [
-            "Why might a levee project require more than one measure of success?",
+            "It can change risks for other areas and needs maintenance",
             "Any wall eliminates every future flood",
-            "It can change risks for other areas and needs maintenance"
+            "Only its height matters"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "prompt": "What unintended effect might a levee produce?",

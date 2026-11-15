@@ -1,0 +1,51 @@
+/* First-lesson template: each section owns its cards and navigation color. */
+body.etp-approved-lessons #goals.g5-panel,body.etp-approved-lessons .g5-jumps a[href="#goals"]{--section-top:#153c27;--section-mid:#0b2116;--section-deep:#030b07;--section-line:#537c60;--section-active:#213f2c;}
+body.etp-approved-lessons #prepare.g5-panel,body.etp-approved-lessons .g5-jumps a[href="#prepare"]{--section-top:#152e50;--section-mid:#0a1b32;--section-deep:#030911;--section-line:#506e96;--section-active:#203e66;}
+body.etp-approved-lessons #discover.g5-panel,body.etp-approved-lessons .g5-jumps a[href="#discover"]{--section-top:#461d29;--section-mid:#250e17;--section-deep:#0b0407;--section-line:#8a4c5e;--section-active:#592536;}
+body.etp-approved-lessons #apply.g5-panel,body.etp-approved-lessons .g5-jumps a[href="#apply"]{--section-top:#34204f;--section-mid:#1b102b;--section-deep:#08040f;--section-line:#796098;--section-active:#4b3269;}
+body.etp-approved-lessons #quiz.g5-panel,body.etp-approved-lessons .g5-jumps a[href="#quiz"]{--section-top:#153c27;--section-mid:#0b2116;--section-deep:#030b07;--section-line:#537c60;--section-active:#213f2c;}
+body.etp-approved-lessons #closure.g5-panel,body.etp-approved-lessons .g5-jumps a[href="#closure"]{--section-top:#493714;--section-mid:#281d09;--section-deep:#0d0902;--section-line:#9a7b38;--section-active:#624a1c;}
+body.etp-approved-lessons #optional.g5-panel,body.etp-approved-lessons .g5-jumps a[href="#optional"]{--section-top:#152e50;--section-mid:#0a1b32;--section-deep:#030911;--section-line:#506e96;--section-active:#203e66;}
+body.etp-approved-lessons #sources.g5-panel,body.etp-approved-lessons .g5-jumps a[href="#sources"]{--section-top:#303236;--section-mid:#181a1d;--section-deep:#070809;--section-line:#777b83;--section-active:#44474d;}
+
+body.etp-approved-lessons :is(#goals,#prepare,#discover,#apply,#quiz,#closure,#optional,#sources).g5-panel{background:linear-gradient(115deg,var(--section-top),var(--section-mid) 62%,var(--section-deep))!important;border-color:var(--section-line)!important}
+body.etp-approved-lessons .g5-panel :is(.g5-card,.g5-activity,.g5-question-box,.g5-columns>article,.g5-book,details){background:linear-gradient(145deg,var(--section-mid),#050506 88%)!important;border-color:var(--section-line)!important}
+body.etp-approved-lessons .g5-panel :is(.g5-activity-display,.g5-mini-feedback){background:#050506!important;border-left-color:var(--section-line)!important}
+body.etp-approved-lessons .g5-panel :is(.g5-button,.g5-choice,.g5-action){background:linear-gradient(130deg,var(--section-top),var(--section-deep))!important;border-color:var(--section-line)!important}
+body.etp-approved-lessons .g5-panel .g5-choice[aria-pressed="true"]{background:linear-gradient(130deg,var(--section-active),var(--section-mid))!important;border-color:#fff200!important}
+body.etp-approved-lessons .g5-panel .g5-question-box label:hover{background:var(--section-active)!important}
+body.etp-approved-lessons #discover .lesson-grid>.g5-card{background:linear-gradient(145deg,#2c111b,#10060b)!important;border-color:#8a4c5e!important}
+body.etp-approved-lessons #discover .approved-lab{background:#050506!important;border-color:#8a4c5e!important}
+body.etp-approved-lessons #discover .approved-lab .g5-activity{background:linear-gradient(130deg,#35141f,#170910)!important}
+body.etp-approved-lessons #apply :is(.g5-activity,details),body.etp-approved-lessons #closure :is(.g5-activity,details){background:#050506!important}
+/* The generated history diagram stays inside Guided Practice's red / black family. */
+body.etp-approved-lessons #discover .g5-activity.g5-visual-inquiry{background:linear-gradient(130deg,#2c111b,#090407)!important;border-color:#8a4c5e!important}
+body.etp-approved-lessons #discover .g5-visual-inquiry svg{background:#080407!important;border-color:#754353!important}
+body.etp-approved-lessons #discover .g5-visual-inquiry svg>rect{fill:#080407!important}
+body.etp-approved-lessons #discover .g5-visual-inquiry svg circle{fill:#391520!important;stroke:#c98499!important}
+body.etp-approved-lessons #discover .g5-viz-choice button{background:linear-gradient(130deg,#3b1724,#0c0509)!important;border-color:#9b5e71!important}
+body.etp-approved-lessons #discover .g5-viz-choice button[aria-pressed="true"]{background:#592536!important;border-color:#fff200!important}
+body.etp-approved-lessons #discover .g5-viz-result{background:#080407!important;border-left-color:#c98499!important}
+/* Keep entry fields white, with black Georgia answers, in every section. */
+body.etp-approved-lessons .g5-panel textarea.g5-writing{background:#fff!important;color:#111!important;-webkit-text-fill-color:#111!important;font-family:Georgia,"Times New Roman",serif!important;border-color:#b5bdb8!important}
+body.etp-approved-lessons .g5-panel textarea.g5-writing::placeholder{color:#59645c!important;-webkit-text-fill-color:#59645c!important}
+body.etp-approved-lessons .g5-response-label{display:block;margin:12px 0 6px;font-weight:bold;color:#fff200}
+body.etp-approved-lessons .g5-jumps a{border:1px solid transparent!important;transition:background .18s,border-color .18s,box-shadow .18s}
+body.etp-approved-lessons .g5-jumps a:is([aria-current="step"],:hover,:focus-visible){background:linear-gradient(130deg,var(--section-active),var(--section-mid))!important;border-color:var(--section-line)!important;color:#fff200!important;box-shadow:inset 0 0 10px #ffffff08}
+body.etp-approved-lessons .g5-jumps a:focus-visible{outline:2px solid #fff200;outline-offset:2px}
+/* The pilot lesson's return bar contains Back and the existing right-aligned Share. */
+body.etp-approved-lessons .etp-page-nav .etp-page-nav-link{display:none!important}
+@media(prefers-reduced-motion:reduce){body.etp-approved-lessons .g5-jumps a{transition:none}}
+
+body.etp-approved-lessons .g5-jumps{display:grid!important;grid-template-columns:1.15fr 1fr 1.1fr 1.8fr .95fr .7fr .85fr .7fr!important;gap:4px!important;overflow:visible!important}
+body.etp-approved-lessons .g5-jumps a{white-space:normal!important;line-height:1.25!important;padding:7px 4px!important;display:flex;align-items:center;justify-content:center;text-align:center;min-width:0}
+body.etp-approved-lessons .approved-lab{margin-top:24px;padding:20px;border:1px solid #8a4c5e;border-radius:14px;background:#050506}
+body.etp-approved-lessons .g5-panel :is(.g5-card,.g5-activity,.g5-activity-display,details){background:linear-gradient(145deg,var(--section-mid),#050506)!important;border-color:var(--section-line)!important}
+body.etp-approved-lessons #apply :is(.g5-activity,#g5-mode-info),body.etp-approved-lessons #closure .g5-activity{background:#050506!important}
+body.etp-approved-lessons .g5-panel button{background:linear-gradient(130deg,var(--section-top),var(--section-deep))!important;border-color:var(--section-line)!important}
+body.etp-approved-lessons .g5-panel button[aria-pressed=true]{background:var(--section-active)!important;border-color:#fff200!important}
+body.etp-approved-lessons .g5-reading p{max-width:75ch;line-height:1.8}
+body.etp-approved-lessons .approved-reading-help{padding:14px;border-left:3px solid var(--section-line);background:#050506;margin:16px 0}
+.approved-pacing{width:100%;border-collapse:collapse}.approved-pacing th,.approved-pacing td{padding:9px;border-bottom:1px solid #537c60;text-align:left}.approved-pacing-wrap{overflow:auto}
+@media(max-width:900px){body.etp-approved-lessons .g5-jumps{grid-template-columns:repeat(4,minmax(0,1fr))!important}}
+@media(max-width:600px){body.etp-approved-lessons .g5-jumps a{font-size:11px!important}.approved-lab{padding:14px!important}}

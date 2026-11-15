@@ -1,0 +1,734 @@
+{
+  "reference": "Grade 5 Lesson 1: North America Before European Colonization",
+  "date": "2026-11-15",
+  "grades": {
+    "5": {
+      "lessons": 23,
+      "units": 7,
+      "existing_reading_words_range": [
+        140,
+        185
+      ],
+      "reference_pilot_preserved": true
+    },
+    "6": {
+      "lessons": 20,
+      "units": 6,
+      "existing_reading_words_range": [
+        150,
+        182
+      ],
+      "reference_pilot_preserved": false
+    },
+    "7": {
+      "lessons": 19,
+      "units": 6,
+      "existing_reading_words_range": [
+        225,
+        307
+      ],
+      "reference_pilot_preserved": false
+    },
+    "8": {
+      "lessons": 31,
+      "units": 8,
+      "existing_reading_words_range": [
+        226,
+        268
+      ],
+      "reference_pilot_preserved": false
+    }
+  },
+  "errors": [],
+  "repairs": [
+    "19 malformed Grade 7 question sets and their answer keys",
+    "Grade 8 renderer referenced undefined g7Type variable"
+  ],
+  "reading_basis": [
+    "https://www.thecorestandards.org/ELA-Literacy/RI/5/",
+    "https://www.thecorestandards.org/ELA-Literacy/RH/6-8/",
+    "https://www.thecorestandards.org/ELA-Literacy/WHST/6-8/",
+    "https://www.thecorestandards.org/ELA-Literacy/standard-10-range-quality-complexity/measuring-text-complexity-three-factors/"
+  ],
+  "limits": "Structural and functional checks do not constitute a new scholarly fact-check of every historical claim or a certified Lexile measurement.",
+  "lesson_browser_checks": [
+    {
+      "ok": true,
+      "title": "Understanding World Regions | Grade 7 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Geography, Identity, and Cultural Development | Grade 7 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Comparing Cultural Landscapes | Grade 7 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Why Do People Migrate? | Grade 7 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Historical Migration and Population Change | Grade 7 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Migration, Identity, and Cultural Exchange | Grade 7 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "The Silk Roads and Global Connections | Grade 7 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Indian Ocean Trade Networks | Grade 7 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Trans-Saharan Trade and African Kingdoms | Grade 7 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Goods, Ideas, and the Growth of Cities | Grade 7 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Comparing Political Systems | Grade 7 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Resources, Trade, and Economic Decisions | Grade 7 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "How Geography Influences Power | Grade 7 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "World Religions and Cultural Exchange | Grade 7 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Cultural Diffusion Across Regions | Grade 7 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Cooperation, Conflict, and Historical Change | Grade 7 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "How Geography Shapes Daily Life | Grade 7 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Natural Resources and Human Development | Grade 7 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Historical Responses to Environmental Challenges | Grade 7 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "British Colonial Development | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Colonial Society and Political Institutions | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Slavery and the Atlantic Economy | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "The Road to Revolution | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "The Declaration of Independence | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Revolutionary War Turning Points | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Unfinished Promises of the Revolution | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "The Articles of Confederation | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "The Constitutional Convention | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Federalists and Anti-Federalists | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Rights, Representation, and Federalism | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Washington's Presidency | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Jefferson and the Louisiana Purchase | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "The War of 1812 | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "The Development of American Political Parties | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Manifest Destiny and Territorial Expansion | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Indian Removal and Indigenous Resistance | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Industrialization and Social Reform | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Women's Rights and Antebellum Reform | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "The Expansion of Slavery | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Abolitionism and Resistance | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "The Compromise of 1850 and Kansas-Nebraska Act | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Why Did the United States Divide? | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Secession and the Outbreak of War | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Turning Points of the Civil War | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Emancipation and Black Military Service | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "The Civil War Through Civilian Experiences | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Rebuilding the Nation | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Reconstruction Amendments and Citizenship | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Black Political Participation and Resistance | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "The End of Reconstruction and Its Legacy | Grade 8 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Indigenous Nations, Cultures, and Communities | Grade 5 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Land, Resources, and Systems of Governance | Grade 5 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Why Did Europeans Cross the Atlantic? | Grade 5 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "First Encounters and Competing Perspectives | Grade 5 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "The Columbian Exchange and Its Consequences | Grade 5 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Life in the Thirteen Colonies | Grade 5 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Colonial Economies, Labor, and Enslavement | Grade 5 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Religion, Identity, and Colonial Society | Grade 5 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Colonial Maryland and the Chesapeake | Grade 5 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Competing Empires in North America | Grade 5 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "The French and Indian War | Grade 5 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Taxes, Representation, and Colonial Protest | Grade 5 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Why Did the Colonies Declare Independence? | Grade 5 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Turning Points of the Revolutionary War | Grade 5 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Patriots, Loyalists, Women, and Black Americans | Grade 5 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Did the Revolution Deliver Liberty for Everyone? | Grade 5 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "America's First National Government | Grade 5 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Debating the Constitution | Grade 5 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "The Bill of Rights and Individual Liberty | Grade 5 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "George Washington and the Presidency | Grade 5 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "The Emergence of Political Parties | Grade 5 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Challenges Facing the New Republic | Grade 5 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Reading Maps Like a Historian | Grade 6 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Geography and Human Settlement | Grade 6 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Investigating the Ancient World Through Evidence | Grade 6 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "From Hunting and Gathering to Agriculture | Grade 6 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Why Did Early Cities Develop? | Grade 6 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Surplus, Specialization, and Social Organization | Grade 6 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Mesopotamia and the First Cities | Grade 6 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Ancient Egypt and the Nile | Grade 6 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "The Indus Valley Civilization | Grade 6 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Early Chinese Civilizations | Grade 6 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Laws and Leadership in Ancient Societies | Grade 6 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Belief Systems and Cultural Traditions | Grade 6 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Ancient Greece and the Origins of Democracy | Grade 6 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Rome: Republic, Empire, and Legacy | Grade 6 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Ancient Trade Networks | Grade 6 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "The Silk Roads and Cultural Exchange | Grade 6 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Migration and the Movement of Ideas | Grade 6 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Water and the Development of Civilizations | Grade 6 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Farming, Technology, and Environmental Change | Grade 6 | Examine the Past",
+      "white": true
+    },
+    {
+      "ok": true,
+      "title": "Why Civilizations Adapted, Transformed, or Declined | Grade 6 | Examine the Past",
+      "white": true
+    }
+  ],
+  "unit_browser_checks": [
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 5.1 Assessment — Indigenous North America | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 5.2 Assessment · Exploration and Encounters | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 5.3 Assessment · Colonial America | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 5.4 Assessment · Imperial Conflict | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 5.5 Assessment · The American Revolution | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 5.6 Assessment · Creating a Republic | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 5.7 Assessment · The Early Republic | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 6.1 Assessment · Geography and Historical Investigation | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 6.2 Assessment · Origins of Civilizations | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 6.3 Assessment · River Valley Civilizations | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 6.4 Assessment · Ancient Government and Culture | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 6.5 Assessment · Trade, Migration, and Exchange | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 6.6 Assessment · People and Their Environments | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 7.1 Assessment · World Regions and Cultural Identity | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 7.2 Assessment · Migration and Settlement | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 7.3 Assessment · Trade Networks and Connections | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 7.4 Assessment · Government and Economic Systems | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 7.5 Assessment · Culture, Religion, and Society | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 7.6 Assessment · Human-Environment Relationships | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 8.1 Assessment · Colonial Foundations | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 8.2 Assessment · Revolution and Independence | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 8.3 Assessment · Constitution and Government | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 8.4 Assessment · The Early Republic | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 8.5 Assessment · Expansion and Reform | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 8.6 Assessment · Slavery and Sectional Conflict | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 8.7 Assessment · The Civil War | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    },
+    {
+      "matching": 3,
+      "mc": 6,
+      "rubric": 4,
+      "sequence": 3,
+      "title": "Unit 8.8 Assessment · Reconstruction | Examine the Past",
+      "white": "rgb(255, 255, 255)"
+    }
+  ]
+}
