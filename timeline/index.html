@@ -577,10 +577,10 @@ nav.topbar .timeline-boundary{padding:0;border:0}
 #contemporary .event .explore{border-color:#173f2b}
 #now .event .explore{border-color:#30343b}
 </style>
-<link rel="stylesheet" href="deeper-learning.css?v=20261115-icons-2"/>
-<script defer src="deeper-learning.js?v=20261115-icons-2"></script>
-<link rel="stylesheet" href="classroom.css?v=20261114-classroom-1"/>
-<script defer src="classroom.js?v=20261114-classroom-1"></script>
+<link rel="stylesheet" href="deeper-learning.css?v=20261115-compact-3"/>
+<script defer src="deeper-learning.js?v=20261115-compact-3"></script>
+<link rel="stylesheet" href="classroom.css?v=20261115-journey-2"/>
+<script defer src="classroom.js?v=20261115-journey-2"></script>
 </head>
 <body>
 <nav aria-label="Timeline eras" class="topbar">
@@ -597,6 +597,7 @@ nav.topbar .timeline-boundary{padding:0;border:0}
 <button class="era-link" data-id="conflict">Global Conflict</button>
 <button class="era-link" data-id="contemporary">Contemporary</button>
 <button class="era-link" data-id="now">Today</button>
+<button type="button" class="timeline-journey-toggle" aria-expanded="false" aria-controls="timelineJourney">Build a Learning Journey</button>
 </div>
 <div class="brand timeline-boundary"><button type="button" aria-label="Jump to end of timeline" class="home" onclick="goBottom()" title="Jump to end of timeline">↓</button></div>
 </div>
@@ -605,27 +606,16 @@ nav.topbar .timeline-boundary{padding:0;border:0}
 <div class="hero-inner">
 <div class="site-label">EXAMINE THE PAST</div>
 <div class="eyebrow">History • Education • Technology • Discovery</div>
-<h1><span>Interactive</span><br/>History Timeline</h1>
+<h1><span>Interactive</span><br/>Historical Timeline</h1>
 <p>A visual journey through history. Use the bar above to jump across time, then open moments for deeper exploration.</p>
 <div class="guide">
 <div class="guide-card"><strong>01 • Jump</strong><span>Choose any era from the sticky timeline menu.</span></div>
 <div class="guide-card"><strong>02 • Scan</strong><span>Follow the center line and visual milestones downward.</span></div>
-<div class="guide-card"><strong>03 • Decode</strong><span>Use the category key to recognize recurring themes.</span></div>
+<div class="guide-card"><strong>03 • Decode</strong><span>Connect each moment through dates, places, and evidence.</span></div>
 <div class="guide-card"><strong>04 • Explore</strong><span>Selected events open a clean deeper-learning panel.</span></div>
 </div>
 </div>
 </header>
-<section aria-label="Timeline key" class="key">
-<div class="key-title">Timeline Key</div><div aria-pressed="true" class="chip show-all-chip active" data-key="all" role="button" tabindex="0" title="Show all timeline events"><i class="dot cat-all"></i>Show All</div>
-<div aria-pressed="false" class="chip" data-key="humanity" role="button" tabindex="0" title="Highlight Humanity events"><i class="dot cat-humanity"></i>Humanity</div>
-<div aria-pressed="false" class="chip" data-key="society" role="button" tabindex="0" title="Highlight Society events"><i class="dot cat-society"></i>Society</div>
-<div aria-pressed="false" class="chip" data-key="war" role="button" tabindex="0" title="Highlight War &amp; Conflict events"><i class="dot cat-war"></i>War &amp; Conflict</div>
-<div aria-pressed="false" class="chip" data-key="politics" role="button" tabindex="0" title="Highlight Politics &amp; Law events"><i class="dot cat-politics"></i>Politics &amp; Law</div>
-<div aria-pressed="false" class="chip" data-key="science" role="button" tabindex="0" title="Highlight Science &amp; Technology events"><i class="dot cat-science"></i>Science &amp; Technology</div>
-<div aria-pressed="false" class="chip" data-key="art" role="button" tabindex="0" title="Highlight Art &amp; Ideas events"><i class="dot cat-art"></i>Art &amp; Ideas</div>
-<div aria-pressed="false" class="chip" data-key="faith" role="button" tabindex="0" title="Highlight Faith &amp; Belief events"><i class="dot cat-faith"></i>Faith &amp; Belief</div>
-<div aria-pressed="false" class="chip" data-key="economy" role="button" tabindex="0" title="Highlight Economy &amp; Exchange events"><i class="dot cat-economy"></i>Economy &amp; Exchange</div>
-<div class="key-hint">Hover to preview • Click to highlight a theme • Click again to show all</div></section>
 <main class="timeline">
 <section class="era" id="deep"><div class="era-wrap">
 <div class="era-head"><div><div class="era-kicker">Era 01</div><h2>Deep Past</h2><div class="era-summary">Human origins in Africa, migration, adaptation, climate, tools, symbolic culture, and the long path toward settled communities.</div></div><div class="range">c. 3.2 million years ago–10,000 BCE</div></div>
@@ -775,50 +765,6 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
 
 
 // ===== V7 INTERACTIVE TIMELINE KEY =====
-const themeMatchers={
- humanity:/humanity|disease|climate|environment|human origins/i,
- society:/society|social|revolution|genocide|rights|law/i,
- war:/war|conflict|military|genocide/i,
- politics:/politics|law|government|empire|revolution|political/i,
- science:/science|technology|medicine|climate|environment/i,
- art:/art|ideas|culture|literature|philosophy/i,
- faith:/faith|religion|belief/i,
- economy:/economy|exchange|trade|industry|economic/i
-};
-const timelineEvents=[...document.querySelectorAll('.event')];
-function classifyEvents(){timelineEvents.forEach(ev=>{const cat=ev.querySelector('.category')?.textContent||'';const themes=Object.entries(themeMatchers).filter(([,re])=>re.test(cat)).map(([key])=>key);ev.dataset.themes=(themes.length?themes:['society']).join(',');});}
-classifyEvents();
-let lockedTheme=null;
-function applyTheme(theme,lock=false){
-  const chips=[...document.querySelectorAll('.chip[data-key]')];
-  const showAll=!theme || theme==='all';
-  chips.forEach(c=>{
-    const active=(showAll && c.dataset.key==='all') || (!showAll && c.dataset.key===theme);
-    c.classList.toggle('active',active);
-    c.setAttribute('aria-pressed',active?'true':'false');
-  });
-  timelineEvents.forEach(ev=>{
-    const hit=showAll || ev.dataset.themes.split(',').includes(theme);
-    ev.classList.toggle('theme-hit',!showAll&&hit);
-    ev.classList.toggle('theme-dim',!showAll&&!hit);
-  });
-}
-document.querySelectorAll('.chip[data-key]').forEach(chip=>{
-  chip.addEventListener('mouseenter',()=>{
-    if(lockedTheme) return;
-    if(chip.dataset.key==='all') applyTheme(null);
-    else applyTheme(chip.dataset.key);
-  });
-  chip.addEventListener('mouseleave',()=>{if(!lockedTheme)applyTheme(null)});
-  chip.addEventListener('click',()=>{
-    if(chip.dataset.key==='all'){lockedTheme=null;applyTheme(null,true);return;}
-    lockedTheme=lockedTheme===chip.dataset.key?null:chip.dataset.key;
-    applyTheme(lockedTheme,true);
-  });
-  chip.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();chip.click();}});
-});
-applyTheme(null,true);
-
 // ===== V8 HOME-FOOTER LEGAL MODALS =====
 (() => {
   let savedScroll = 0;

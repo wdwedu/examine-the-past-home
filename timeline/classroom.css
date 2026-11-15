@@ -23,3 +23,37 @@
 .timeline-print-plan{display:none}
 @media(max-width:650px){.classroom-workspace{margin:18px 12px;padding:16px}.collection-editor{grid-template-columns:1fr}.token-era-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.classroom-intro>div{font-size:23px}.moment-collector,.moment-self-check{padding:12px}.collection-actions{align-items:stretch}.collection-actions select{width:100%;min-width:0}.check-question{padding:12px}.check-option{font-size:15px}}
 @media print{body.printing-timeline-plan>*{display:none!important}body.printing-timeline-plan>.timeline-print-plan{display:block!important;color:#000!important;background:#fff!important;font:12pt/1.5 Georgia,serif;padding:12mm}body.printing-timeline-plan .timeline-print-plan *{color:#000!important;background:transparent!important;text-shadow:none!important}body.printing-timeline-plan .timeline-print-plan li{break-inside:avoid;margin:16pt 0}body.printing-timeline-plan .timeline-print-plan h1{font-size:21pt}body.printing-timeline-plan .timeline-print-plan h2{font-size:16pt}}
+
+/* Compact introduction: the historical story begins immediately below it. */
+header.hero{min-height:0!important;height:auto!important;padding:28px 20px 24px!important}
+header.hero .hero-inner{width:100%;max-width:920px}
+header.hero h1{font-size:clamp(28px,5vw,66px)!important;line-height:.98;margin:16px 0!important}
+header.hero h1 span{margin-bottom:.08em}
+header.hero p{font-size:16px!important;line-height:1.5;margin:0 auto 14px!important;max-width:720px}
+header.hero .guide{margin:16px auto 0!important;gap:8px;grid-template-columns:repeat(4,minmax(0,1fr))}
+header.hero .guide-card{padding:11px 12px;border-radius:10px}
+header.hero .guide-card span{font-size:12px;line-height:1.4;margin-top:5px}
+main.timeline>#deep{padding-top:30px!important}
+#deep .era-head{margin-bottom:24px}
+.timeline-era-links .era-link,.timeline-journey-toggle{font-size:11px!important;padding:8px 8px!important;letter-spacing:.035em!important}
+.timeline-journey-toggle{flex:0 0 auto;border:0;background:transparent;color:#d5d5d5;font-family:Arial,sans-serif;text-transform:uppercase;border-radius:999px;cursor:pointer;white-space:nowrap;min-height:34px}
+.timeline-journey-toggle:hover,.timeline-journey-toggle[aria-expanded=true]{background:#ffe800;color:#000}
+.timeline-journey-toggle:focus-visible{outline:2px solid #ffe800;outline-offset:-2px}
+#timelineJourney{position:fixed;left:50%;transform:translateX(-50%);z-index:2147479500;width:min(920px,calc(100% - 24px));max-height:calc(100dvh - var(--etp-header-height,74px) - var(--etp-page-nav-height,43px) - 82px);overflow-y:auto;overscroll-behavior:contain;margin:0;box-sizing:border-box;padding:24px;background:#101b13;box-shadow:0 18px 45px #000b;scrollbar-width:thin}
+#timelineJourney[hidden]{display:none!important}
+#timelineJourney .classroom-intro{padding-right:42px}
+#timelineJourney .classroom-intro>div{font-size:23px}
+#timelineJourney .journey-close{position:absolute;top:14px;right:14px;width:36px;height:36px;border:0;border-radius:50%;background:#ffe800;color:#111;font:25px/1 Georgia,serif;cursor:pointer}
+@media(max-width:760px){header.hero{padding:22px 14px 20px!important}header.hero h1{font-size:clamp(26px,7vw,38px)!important}header.hero .eyebrow{font-size:10px;letter-spacing:.11em}header.hero .guide{grid-template-columns:repeat(2,minmax(0,1fr))!important}header.hero .guide-card{padding:9px 10px}header.hero p{font-size:14px!important}.timeline-era-links .timeline-journey-toggle{white-space:normal;min-height:44px;text-align:left;font:700 12px Georgia,serif!important;padding:9px!important;grid-column:1/-1}#timelineJourney{padding:18px;width:calc(100% - 20px)}#timelineJourney .classroom-intro>div{font-size:20px}main.timeline>#deep{padding-top:24px!important}}
+
+/* Four informational guide cards retain their lift, with the old key's color energy. */
+header.hero .guide-card{position:relative;isolation:isolate;overflow:hidden;border-color:var(--guide-edge);background:var(--guide-fill);box-shadow:inset 0 1px 0 #ffffff18;transition:transform .24s ease,border-color .24s ease,box-shadow .24s ease}
+header.hero .guide-card:nth-child(1){--guide-fill:linear-gradient(135deg,#163f28,#0b2517);--guide-edge:#43885b}
+header.hero .guide-card:nth-child(2){--guide-fill:linear-gradient(135deg,#705112,#372707);--guide-edge:#b28a31}
+header.hero .guide-card:nth-child(3){--guide-fill:linear-gradient(135deg,#153e72,#0b203e);--guide-edge:#447fb4}
+header.hero .guide-card:nth-child(4){--guide-fill:linear-gradient(135deg,#701e27,#350e16);--guide-edge:#b44f58}
+header.hero .guide-card strong{color:#fff1aa}header.hero .guide-card span{color:#f5f1e4}
+header.hero .guide-card::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(115deg,transparent 15%,#ffffff08 30%,#ffffff70 49%,#ffffff0a 67%,transparent 83%);transform:translateX(-150%);transition:transform .65s ease}
+header.hero .guide-card:hover{transform:translateY(-5px) scale(1.025);border-color:#fff;box-shadow:0 0 0 1px #ffffffb3,0 0 22px #ffffff75,0 12px 26px #0008;background:var(--guide-fill)}
+header.hero .guide-card:hover::before{transform:translateX(150%)}
+@media(prefers-reduced-motion:reduce){header.hero .guide-card,header.hero .guide-card::before{transition:none}header.hero .guide-card:hover{transform:none}header.hero .guide-card::before{display:none}}

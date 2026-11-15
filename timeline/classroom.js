@@ -32,7 +32,22 @@
   const announcement=el('p','classroom-status');announcement.setAttribute('role','status');
   const shareBox=el('div','collection-share');shareBox.hidden=true;
   workspace.append(intro,board,teacher,storageNote,announcement,shareBox);
-  document.querySelector('.timeline-search').after(workspace);
+  workspace.id='timelineJourney';workspace.hidden=true;workspace.setAttribute('role','dialog');
+  const journeyToggle=document.querySelector('.timeline-journey-toggle');
+  const journeyNav=document.querySelector('nav[aria-label="Timeline eras"]');
+  const closeJourney=action('×',()=>setJourney(false,true),'journey-close');closeJourney.setAttribute('aria-label','Close learning journey');
+  workspace.prepend(closeJourney);document.body.append(workspace);
+  function positionJourney(){workspace.style.top=(journeyNav.getBoundingClientRect().bottom+6)+'px';}
+  function setJourney(open,restore=false){
+    if(open){journeyNav.classList.remove('eras-open');journeyNav.querySelector('.timeline-era-toggle').setAttribute('aria-expanded','false');}
+    workspace.hidden=!open;journeyToggle.setAttribute('aria-expanded',String(open));
+    if(open){positionJourney();closeJourney.focus({preventScroll:true});}
+    else if(restore){(journeyToggle.getClientRects().length?journeyToggle:journeyNav.querySelector('.timeline-era-toggle')).focus({preventScroll:true});}
+  }
+  journeyToggle.addEventListener('click',()=>setJourney(workspace.hidden));
+  document.addEventListener('click',event=>{if(!workspace.hidden&&!workspace.contains(event.target)&&!journeyToggle.contains(event.target))setJourney(false);});
+  document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!workspace.hidden){event.preventDefault();setJourney(false,true);}});
+  window.addEventListener('resize',()=>{if(!workspace.hidden)positionJourney();});
   const tools=el('section','moment-classroom');tools.setAttribute('aria-label','Collection and self-check');
   document.getElementById('modalChart').after(tools);
   const active=()=>state.collections.find(c=>c.id===state.active);
@@ -98,7 +113,7 @@
     const list=el('ol','collection-list');
     c.items.forEach((id,index)=>{
       const m=byId.get(id),li=el('li');
-      const open=action(m.title,()=>{const search=document.getElementById('timelineSearch');search.value='';search.dispatchEvent(new Event('input'));m.button.click();},'collection-open');
+      const open=action(m.title,()=>{setJourney(false);m.button.click();},'collection-open');
       const up=action('↑',()=>{[c.items[index-1],c.items[index]]=[c.items[index],c.items[index-1]];save();renderCollections();tell('Moved '+m.title+' earlier.');});up.setAttribute('aria-label','Move '+m.title+' earlier');up.disabled=index===0;
       const down=action('↓',()=>{[c.items[index+1],c.items[index]]=[c.items[index],c.items[index+1]];save();renderCollections();tell('Moved '+m.title+' later.');});down.setAttribute('aria-label','Move '+m.title+' later');down.disabled=index===c.items.length-1;
       const remove=action('Remove',()=>{c.items=c.items.filter(v=>v!==id);save();renderCollections();refreshCollector();tell('Removed '+m.title+' from this collection.');});remove.setAttribute('aria-label','Remove '+m.title);
@@ -131,7 +146,7 @@
       const list=el('ol');for(const id of [...new Set(c.items)])list.append(el('li','',byId.get(id).title));banner.append(list);
       banner.append(action('Save shared collection in this browser',()=>{
         const local=makeCollection();if(!local)return;local.name=c.name;local.grade=c.grade;local.aim=c.aim;local.items=[...new Set(c.items)];save();renderCollections();refreshCollector();teacher.open=true;banner.remove();tell('Shared collection saved. Open it in the collection creator.');
-      }));workspace.prepend(banner);
+      }));workspace.prepend(banner);if(!new URLSearchParams(location.hash.slice(1)).has('moment'))setJourney(true);
     }catch {tell('This shared collection link is invalid or incomplete. Ask the teacher for a new link.');}
   }
   const data=()=>dataPromise||=(fetch('media/classroom-data.json?v='+VERSION).then(r=>{if(!r.ok)throw Error('Classroom resources unavailable');return r.json();}));

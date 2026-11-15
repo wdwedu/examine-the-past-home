@@ -48,38 +48,6 @@
   previous.addEventListener('click', () => step(-1));
   next.addEventListener('click', () => step(1));
 
-  const searchBox = el('section', 'timeline-search');
-  searchBox.setAttribute('aria-label', 'Find a timeline moment');
-  const label = el('label', '', 'Find a moment, person, or idea');
-  label.htmlFor = 'timelineSearch';
-  const search = el('input');
-  search.type = 'search'; search.id = 'timelineSearch'; search.placeholder = 'Try Nzinga, printing, or independence';
-  const reset = el('button', '', 'Clear'); reset.type = 'button';
-  const status = el('p', 'search-status'); status.setAttribute('role', 'status');
-  const fields = el('div', 'search-fields'); fields.append(search, reset);
-  searchBox.append(label, fields, status);
-  document.querySelector('main.timeline').before(searchBox);
-  const normalize = text => text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-  const searchable = buttons.map(b => normalize(b.closest('.event').textContent));
-  function filter() {
-    const terms = normalize(search.value).trim().split(/\s+/).filter(Boolean);
-    let count = 0;
-    buttons.forEach((b, i) => {
-      const hit = terms.every(term => searchable[i].includes(term));
-      b.closest('.event').hidden = !hit; if (hit) count++;
-    });
-    document.querySelectorAll('main.timeline .era').forEach(era => {
-      era.hidden = !era.querySelector('.event:not([hidden])');
-      const jump = document.querySelector('.era-link[data-id="' + era.id + '"]');
-      if (jump) jump.disabled = era.hidden;
-    });
-    status.textContent = count ? count + ' of ' + buttons.length + ' moments · Open a card to watch and investigate.' : 'No matching moments. Try another word or clear the search.';
-    reset.disabled = !search.value;
-  }
-  search.addEventListener('input', filter);
-  reset.addEventListener('click', () => { search.value = ''; filter(); search.focus(); });
-  filter();
-
   function momentHash(slug) {
     const url=new URL(location.href),params=new URLSearchParams(url.hash.slice(1));
     params.set('moment',slug);url.hash=params.toString();history.replaceState(history.state,'',url.href);
@@ -110,7 +78,6 @@
   function routeMoment(){
     const slug=new URLSearchParams(location.hash.slice(1)).get('moment');if(!slug)return;
     const target=buttons.find(b=>b.closest('.event').dataset.moment===slug);if(!target)return;
-    search.value='';filter();
     target.closest('.event').scrollIntoView({block:'center',behavior:'auto'});target.click();
   }
   window.addEventListener('hashchange',routeMoment);
