@@ -45,7 +45,7 @@
     else if(restore){(journeyToggle.getClientRects().length?journeyToggle:journeyNav.querySelector('.timeline-era-toggle')).focus({preventScroll:true});}
   }
   journeyToggle.addEventListener('click',()=>setJourney(workspace.hidden));
-  document.addEventListener('click',event=>{if(!workspace.hidden&&!workspace.contains(event.target)&&!journeyToggle.contains(event.target))setJourney(false);});
+  document.addEventListener('click',event=>{if(!workspace.hidden&&!event.composedPath().includes(workspace)&&!event.composedPath().includes(journeyToggle))setJourney(false);});
   document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!workspace.hidden){event.preventDefault();setJourney(false,true);}});
   window.addEventListener('resize',()=>{if(!workspace.hidden)positionJourney();});
   const tools=el('section','moment-classroom');tools.setAttribute('aria-label','Collection and self-check');
