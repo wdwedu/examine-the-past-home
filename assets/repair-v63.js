@@ -26,7 +26,7 @@ function stopMusic(){window.ETPExperience?.stopPlayer();document.querySelectorAl
 let readerLoading=false;
 function enableReader(){
  const main=document.querySelector('main');
- if((document.body.classList.contains('hall-visual-demo')||document.body.classList.contains('vh-cinematic'))||readerLoading||!main||document.getElementById('page-tools')||location.pathname===root||location.pathname===root+'index.html'||document.body.dataset.home==='true')return;
+ if((document.body.classList.contains('hall-visual-demo')||document.body.classList.contains('vh-cinematic'))||readerLoading||!main||main.matches('.faq-page')||document.getElementById('page-tools')||location.pathname===root||location.pathname===root+'index.html'||document.body.dataset.home==='true')return;
  // Reading controls belong on substantial narrative pages, not games, maps, menus or dashboards.
  const path=location.pathname;
  const interactive=/\/(?:games|maps|timeline|today)\/(?:|.*)$|\/teacher-tools\/(?:certification-prep\/)?$/i.test(path);
