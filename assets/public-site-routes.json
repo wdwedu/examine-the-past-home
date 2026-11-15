@@ -3745,13 +3745,513 @@
     "group": "Teacher Tools"
   },
   {
+    "url": "/timeline/moments/abolition-expands/",
+    "title": "Abolition Expands",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/agriculture-takes-root/",
+    "title": "Agriculture Takes Root",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/american-civil-war/",
+    "title": "American Civil War",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/american-independence/",
+    "title": "American Independence",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/american-revolutionary-war/",
+    "title": "American Revolutionary War",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/apollo-11-moon-landing/",
+    "title": "Apollo 11 Moon Landing",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/arab-spring/",
+    "title": "Arab Spring",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/armenian-genocide/",
+    "title": "Armenian Genocide",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/artificial-intelligence-becomes-everyday-infrastructure/",
+    "title": "Artificial Intelligence Becomes Everyday Infrastructure",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/ashoka/",
+    "title": "Ashoka",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/atlantic-slave-trade-expands/",
+    "title": "Atlantic Slave Trade Expands",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/battle-of-adwa/",
+    "title": "Battle of Adwa",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/berlin-conference-and-the-scramble-for-africa/",
+    "title": "Berlin Conference and the Scramble for Africa",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/brexit/",
+    "title": "Brexit",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/centers-of-learning-flourish/",
+    "title": "Centers of Learning Flourish",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/classic-maya-cities/",
+    "title": "Classic Maya Cities",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/cold-war/",
+    "title": "Cold War",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/columbian-exchange/",
+    "title": "Columbian Exchange",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/confucius/",
+    "title": "Confucius",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/covid-19-pandemic/",
+    "title": "COVID-19 Pandemic",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/crusading-movements/",
+    "title": "Crusading Movements",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/democracy-in-athens/",
+    "title": "Democracy in Athens",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/early-homo-sapiens/",
+    "title": "Early Homo sapiens",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/early-homo-sapiens-at-jebel-irhoud/",
+    "title": "Early Homo sapiens at Jebel Irhoud",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/emancipation-proclamation/",
+    "title": "Emancipation Proclamation",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/examine-the-evidence/",
+    "title": "Examine the Evidence",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/fall-of-the-berlin-wall/",
+    "title": "Fall of the Berlin Wall",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/fire-tools-adaptation/",
+    "title": "Fire, Tools & Adaptation",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/first-opium-war/",
+    "title": "First Opium War",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/first-world-war/",
+    "title": "First World War",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/frederick-douglass/",
+    "title": "Frederick Douglass",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/french-revolution/",
+    "title": "French Revolution",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/galileo-galilei/",
+    "title": "Galileo Galilei",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/generative-ai-enters-mass-use/",
+    "title": "Generative AI Enters Mass Use",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/ghana-empire-and-trans-saharan-trade/",
+    "title": "Ghana Empire and Trans-Saharan Trade",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/ghana-gains-independence/",
+    "title": "Ghana Gains Independence",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/global-financial-crisis/",
+    "title": "Global Financial Crisis",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/great-depression/",
+    "title": "Great Depression",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/great-zimbabwe/",
+    "title": "Great Zimbabwe",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/gutenberg-bible-is-printed/",
+    "title": "Gutenberg Bible Is Printed",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/haitian-revolution/",
+    "title": "Haitian Revolution",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/hammurabis-judgments/",
+    "title": "Hammurabi’s Judgments",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/harlem-renaissance/",
+    "title": "Harlem Renaissance",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/hatshepsut/",
+    "title": "Hatshepsut",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/hypatia-of-alexandria/",
+    "title": "Hypatia of Alexandria",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/ibn-sina-avicenna/",
+    "title": "Ibn Sina (Avicenna)",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/imperial-china-unifies/",
+    "title": "Imperial China Unifies",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/indian-rebellion-of-1857/",
+    "title": "Indian Rebellion of 1857",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/indus-valley-urban-civilization/",
+    "title": "Indus Valley Urban Civilization",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/industrial-transformation/",
+    "title": "Industrial Transformation",
+    "group": "Timeline"
+  },
+  {
     "url": "/timeline/",
     "title": "Interactive Historical Timeline",
     "group": "Timeline"
   },
   {
+    "url": "/timeline/moments/ironworking-in-africa/",
+    "title": "Ironworking in Africa",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/kerma-and-ancient-nubia/",
+    "title": "Kerma and Ancient Nubia",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/kingdom-of-aksum/",
+    "title": "Kingdom of Aksum",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/kingdom-of-benin/",
+    "title": "Kingdom of Benin",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/kingdom-of-kongo/",
+    "title": "Kingdom of Kongo",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/kingdom-of-kush-at-meroe/",
+    "title": "Kingdom of Kush at Meroë",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/kingdoms-courts/",
+    "title": "Kingdoms & Courts",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/last-glacial-maximum/",
+    "title": "Last Glacial Maximum",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/last-known-homo-erectus/",
+    "title": "Last Known Homo erectus",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/latin-american-independence-movements/",
+    "title": "Latin American Independence Movements",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/lucy-and-australopithecus-afarensis/",
+    "title": "Lucy and Australopithecus afarensis",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/mahatma-gandhi/",
+    "title": "Mahatma Gandhi",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/major-human-migrations-expand/",
+    "title": "Major Human Migrations Expand",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/mali-empire/",
+    "title": "Mali Empire",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/mansa-musas-pilgrimage/",
+    "title": "Mansa Musa’s Pilgrimage",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/march-on-washington/",
+    "title": "March on Washington",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/martin-luther-king-jr/",
+    "title": "Martin Luther King Jr.",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/mauryan-empire-and-ashoka/",
+    "title": "Mauryan Empire and Ashoka",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/meiji-restoration/",
+    "title": "Meiji Restoration",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/mobile-social-media-age/",
+    "title": "Mobile & Social Media Age",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/mount-tambora-erupts/",
+    "title": "Mount Tambora Erupts",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/murasaki-shikibu/",
+    "title": "Murasaki Shikibu",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/oceanic-networks-intensify/",
+    "title": "Oceanic Networks Intensify",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/paris-climate-agreement/",
+    "title": "Paris Climate Agreement",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/philosophies-faith-traditions/",
+    "title": "Philosophies & Faith Traditions",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/print-expands/",
+    "title": "Print Expands",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/pyramids-of-giza/",
+    "title": "Pyramids of Giza",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/queen-nzinga/",
+    "title": "Queen Nzinga",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/russian-revolution/",
+    "title": "Russian Revolution",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/scientific-revolution/",
+    "title": "Scientific Revolution",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/second-world-war/",
+    "title": "Second World War",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/september-11-attacks/",
+    "title": "September 11 Attacks",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/settled-communities-expand/",
+    "title": "Settled Communities Expand",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/silk-roads-networks/",
+    "title": "Silk Roads Networks",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/songhai-falls-west-african-networks-continue/",
+    "title": "Songhai Falls, West African Networks Continue",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/south-africas-first-multiracial-election/",
+    "title": "South Africa’s First Multiracial Election",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/soweto-uprising/",
+    "title": "Soweto Uprising",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/swahili-coast-city-states/",
+    "title": "Swahili Coast City-States",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/symbolic-culture-at-blombos-cave/",
+    "title": "Symbolic Culture at Blombos Cave",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/tenochtitlan-is-founded/",
+    "title": "Tenochtitlan Is Founded",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/the-1054-supernova-remembered/",
+    "title": "The 1054 Supernova Remembered",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/the-black-death/",
+    "title": "The Black Death",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/the-holocaust/",
+    "title": "The Holocaust",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/the-web-goes-global/",
+    "title": "The Web Goes Global",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/tim-berners-lee-and-the-world-wide-web/",
+    "title": "Tim Berners-Lee and the World Wide Web",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/toussaint-louverture/",
+    "title": "Toussaint Louverture",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/uruk-and-the-rise-of-cities/",
+    "title": "Uruk and the Rise of Cities",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/wangari-maathai/",
+    "title": "Wangari Maathai",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/writing-systems-emerge/",
+    "title": "Writing Systems Emerge",
+    "group": "Timeline"
+  },
+  {
+    "url": "/timeline/moments/year-of-africa/",
+    "title": "Year of Africa",
+    "group": "Timeline"
+  },
+  {
     "url": "/today/",
     "title": "On This Day in History",
-    "group": "On This Day in History"
+    "group": "Today in History"
   }
 ]
