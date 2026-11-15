@@ -5,6 +5,8 @@ document.body.dataset.etpShell="shared";
 function loadCSS(href,key){if(document.querySelector('link[data-etp-load="'+key+'"]'))return;const l=document.createElement("link");l.rel="stylesheet";l.href=href;l.dataset.etpLoad=key;document.head.appendChild(l)}
 function loadJS(src,key){if([...document.scripts].some(s=>s.src&&new URL(s.src).pathname===new URL(src,location.href).pathname))return;const x=document.createElement("script");x.src=src;x.async=false;x.dataset.etpLoad=key;document.head.appendChild(x)}
 loadCSS(u("assets/site-shell.css?v=20261109-approved-nav-v19"),"shell-css");
+loadCSS(u("assets/sharing.css?v=20261115-icons-1"),"sharing-css");
+loadJS(u("assets/page-sharing.js?v=20261115-icons-1"),"page-sharing");
 loadCSS(u("assets/newsletter.css?v=20261115-1"),"newsletter-css");
 loadJS(u("assets/newsletter-policy.js?v=20261115-1"),"newsletter-policy");
 loadJS(u("assets/newsletter.js?v=20261115-1"),"newsletter-js");
@@ -129,29 +131,7 @@ if(["#teacher-tools","#history-unlocked","#history-hub-v50"].includes(location.h
 }
 
 
-const shareBox=document.createElement("div");shareBox.className="etp-share-overlay";shareBox.hidden=true;
-shareBox.innerHTML='<div class="etp-share-shade" data-etp-share-close></div><section class="etp-share-dialog" role="dialog" aria-modal="true" aria-label="Share Examine the Past"><button type="button" class="etp-share-close" data-etp-share-close aria-label="Close sharing">×</button><div class="etp-share-kicker">EXAMINE THE PAST</div><h2>Share Historical Discovery</h2><p>Invite someone to explore Examine the Past.</p><div class="etp-share-social"></div><div class="etp-share-controls"><button type="button" data-etp-copy>Copy Page Link</button><button type="button" data-etp-native>More Sharing Options</button></div><small class="etp-share-status" role="status"></small></section>';
-document.body.append(shareBox);
-const shareTarget=()=>location.origin+location.pathname+location.search;
-const buildShareLinks=()=>{
- const link=encodeURIComponent(shareTarget()),title=encodeURIComponent("Explore Examine the Past — History Built to Be Explored.");
- const links=[
- ["Facebook","https://www.facebook.com/sharer/sharer.php?u="+link,u("assets/social/facebook.svg")],
- ["Pinterest","https://pinterest.com/pin/create/button/?url="+link+"&description="+title,u("assets/social/pinterest.svg")],
- ["X","https://twitter.com/intent/tweet?url="+link+"&text="+title,u("assets/social/x.svg")],
- ["LinkedIn","https://www.linkedin.com/sharing/share-offsite/?url="+link,u("assets/social/linkedin.svg")],
- ["Email","mailto:?subject="+title+"&body="+link,u("assets/social/email.svg")]
- ];
- const area=shareBox.querySelector(".etp-share-social");area.replaceChildren();
- for(const [label,href,logo] of links){const a=document.createElement("a");a.href=href;a.target=label==="Email"?"_self":"_blank";a.rel="noopener noreferrer";a.setAttribute("aria-label","Share on "+label);if(logo){const img=document.createElement("img");img.src=logo;img.alt="";a.append(img)}else{a.textContent=label}const span=document.createElement("span");span.textContent=label;a.append(span);area.append(a)}
-};
-let sharePreviousFocus=null;
-function closeShare(){if(shareBox.hidden)return;shareBox.hidden=true;document.body.classList.remove("etp-sharing");sharePreviousFocus?.focus?.()}
-function openShare(){sharePreviousFocus=document.activeElement;buildShareLinks();shareBox.hidden=false;document.body.classList.add("etp-sharing");shareBox.querySelector(".etp-share-close")?.focus()}
-document.addEventListener("click",e=>{if(e.target.closest("[data-etp-share]")){e.preventDefault();openShare()}if(e.target.closest("[data-etp-share-close]"))closeShare()});
-shareBox.querySelector("[data-etp-copy]").addEventListener("click",async()=>{try{await navigator.clipboard.writeText(shareTarget());shareBox.querySelector(".etp-share-status").textContent="Page link copied."}catch{shareBox.querySelector(".etp-share-status").textContent="Copy this link: "+shareTarget()}});
-shareBox.querySelector("[data-etp-native]").addEventListener("click",async()=>{if(navigator.share){try{await navigator.share({title:"Examine the Past",text:"Explore history through interactive lessons and games.",url:shareTarget()})}catch{}}else{shareBox.querySelector(".etp-share-status").textContent="Choose a social network or Copy Page Link."}});
-document.addEventListener("keydown",e=>{if(shareBox.hidden)return;if(e.key==="Escape"){e.preventDefault();closeShare()}if(e.key==="Tab"){const focusable=[...shareBox.querySelectorAll("button,a[href]")];if(!focusable.length)return;const first=focusable[0],last=focusable.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}});
+
 
 const toggle=document.createElement("button");toggle.className="etp-mobile-toggle";toggle.type="button";toggle.setAttribute("aria-label","Open navigation");toggle.setAttribute("aria-expanded","false");toggle.innerHTML="<span></span><span></span><span></span>";
 toggle.classList.add("etp-yellow-menu");
@@ -184,7 +164,7 @@ panel.innerHTML='<div class="etp-mobile-install"><button type="button" data-etp-
 // Unified expanded site menu: desktop and mobile use the same navigation tree.
 // Sketch-matched site map: three open columns above a full-width History Hub.
 const menuSections=[
- {title:"Home",icon:"🌎",href:"",links:[["About","about/"],["Contact","/#contact-section"],["Install App ↓","@install"]]},
+ {title:"Home",icon:"🌎",href:"",links:[["About","about/"],["Frequently Asked Questions","faq/"],["Contact","/#contact-section"],["Install App ↓","@install"]]},
  {title:"Student & Teacher Tools",icon:"🛠️",href:"teacher-tools/",links:[
   ["On This Day in History","today/"],["History Timeline","timeline/"],["Interactive History Map","maps/"],
   ["Classroom Management","teacher-tools/classroom-management/"],

@@ -99,7 +99,7 @@
       ['Pinterest','pinterest','https://www.pinterest.com/pin/create/button/?url='+encode(url)+'&media='+encode(image)+'&description='+encode(title+' — '+text)],
       ['Email','email','mailto:?subject='+encode(title+' | Examine the Past')+'&body='+encode(text+'\n\nExplore this moment in history: '+url)]
     ];
-    function content(node,name,icon){const img=el('img');img.src=new URL('assets/social/'+icon+'.svg',siteRoot).href;img.alt='';img.width=32;img.height=32;node.append(img,el('span','',name));node.title=name;}
+    function content(node,name,icon){const img=el('img');img.src=new URL('assets/social/'+icon+'.svg',siteRoot).href;img.alt='';img.width=32;img.height=32;node.append(img);node.title=name;}
     targets.forEach(([name,icon,href])=>{const a=el('a','moment-share-control');a.href=href;a.setAttribute('aria-label','Share '+title+' '+(name==='Email'?'by email':'on '+name));if(name!=='Email'){a.target='_blank';a.rel='noopener noreferrer';}content(a,name,icon);row.append(a);});
     const copy=el('button','moment-share-control');copy.type='button';copy.setAttribute('aria-label','Copy link to '+title);content(copy,'Copy link','copy');row.append(copy);
     const status=el('p','moment-share-status');status.setAttribute('role','status');

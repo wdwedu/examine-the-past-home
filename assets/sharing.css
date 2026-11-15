@@ -1,0 +1,22 @@
+/* One unboxed icon treatment for page and timeline sharing. */
+#modal .moment-share{margin:22px 0;padding:0;border:0;background:transparent;border-radius:0}
+#modal .moment-share h4{color:#fff200;font:700 16px/1.5 Georgia,serif;text-transform:none;letter-spacing:0;margin:0 0 9px}
+.moment-share-row,.etp-page-share-icons{display:flex;align-items:center;flex-wrap:nowrap;gap:clamp(3px,1.2vw,12px)}
+#modal .moment-share-control,.etp-page-share-panel .etp-share-icon{box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;flex:0 0 44px;min-width:44px;min-height:44px;width:44px;height:44px;padding:6px;gap:0;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;text-decoration:none;cursor:pointer;transition:transform .18s ease,filter .18s ease;line-height:1}
+#modal .moment-share-control img,.etp-page-share-panel .etp-share-icon img{display:block;width:30px!important;height:30px!important;object-fit:contain;filter:none!important}
+#modal .moment-share-control:hover,.etp-page-share-panel .etp-share-icon:hover{transform:translateY(-3px) scale(1.12);filter:drop-shadow(0 0 7px #a4ff6680)}
+#modal .moment-share-control:focus-visible,.etp-page-share-panel .etp-share-icon:focus-visible{outline:2px solid #fff200!important;outline-offset:2px!important;transform:translateY(-2px)}
+#modal .moment-share-status,.etp-page-share-panel .etp-share-status{font:13px/1.5 Georgia,serif;color:#d7f4b4;margin:8px 0 0;max-width:100%;overflow-wrap:anywhere}
+.moment-share-status:empty,.etp-share-status:empty{display:none}
+#modal .moment-share-copy,.etp-page-share-panel textarea{width:100%;box-sizing:border-box;background:#fff7df;color:#182010;padding:10px;font:14px/1.5 Georgia,serif;margin-top:10px;overflow-wrap:anywhere}
+.moment-share [hidden],.etp-page-share-panel[hidden],.etp-page-share-panel [hidden]{display:none!important}
+body.etp-has-page-nav .etp-page-nav .etp-page-path{display:flex!important;align-items:center!important;justify-content:flex-start!important;flex:1 1 auto!important;min-width:0!important;padding:0!important;margin:0!important;border:0!important;border-radius:0!important;overflow-x:auto!important;scrollbar-width:none;gap:10px!important;cursor:default!important}
+body.etp-has-page-nav .etp-page-nav .etp-page-path:hover,body.etp-has-page-nav .etp-page-nav .etp-page-path:focus-visible{outline:none!important}
+.etp-page-path>*{flex:0 0 auto;min-height:34px;box-sizing:border-box;padding:7px 15px;border-radius:8px;font:700 13px/1.15 Georgia,serif;text-decoration:none;cursor:pointer}
+body.etp-has-page-nav .etp-page-nav>.etp-page-share-toggle{margin-left:auto!important;flex:0 0 auto!important;gap:7px!important;border:0!important;background:transparent!important;color:#fff200!important;padding:7px 8px!important;border-radius:0!important;min-height:36px!important}
+.etp-page-share-toggle svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.etp-page-share-toggle[aria-expanded=true]{color:#b9ff82!important}
+.etp-page-share-panel{position:fixed;z-index:2147483646;box-sizing:border-box;width:340px;max-width:calc(100vw - 20px);padding:15px 12px;background:#0b140e;color:#f4efdc;border:1px solid #4e6642;border-radius:12px;box-shadow:0 12px 35px #0008;font-family:Georgia,serif}
+.etp-page-share-icons{justify-content:space-between;gap:0}
+.etp-page-share-panel .etp-share-context{font:13px/1.5 Georgia,serif;color:#f3eddb;margin:0 5px 10px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media(max-width:600px){body.etp-has-page-nav .etp-page-nav .etp-page-path{gap:6px!important}.etp-page-path>*{font-size:12px;padding:7px 10px}.moment-share-row{gap:1px;justify-content:space-between}#modal .moment-share-control{flex:0 1 44px;min-width:36px;width:44px}.etp-page-share-panel{padding:13px 10px}#modal .moment-share{padding:0}}
+@media(prefers-reduced-motion:reduce){#modal .moment-share-control,.etp-page-share-panel .etp-share-icon{transition:none}#modal .moment-share-control:hover,.etp-page-share-panel .etp-share-icon:hover{transform:none}}
