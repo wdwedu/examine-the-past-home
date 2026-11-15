@@ -33,7 +33,7 @@ jobs:
           import re,json,html,xml.etree.ElementTree as ET
           base='https://www.examinethepast.com'
           skip={'lessons/curriculum/history-technology-ai/index.html'}
-          groups={'lessons/curriculum':'History Hub · Courses and Lessons','teacher-tools':'Teacher Tools','games':'History Unlocked Games','maps':'Maps','timeline':'Timeline','today':'Today in History','lessons':'History Hub · Courses and Lessons','about':'Site Information','privacy':'Site Information','terms':'Site Information','cookies':'Site Information','affiliate-disclosure':'Site Information','copyright':'Site Information','digital-products':'Site Information','sitemap':'Site Information','faq':'Site Information','careers':'Site Information','licensing':'Site Information'}
+          groups={'lessons/curriculum':'History Hub · Courses and Lessons','teacher-tools':'Teacher Tools','games':'History Unlocked Games','maps':'Maps','timeline':'Timeline','today':'On This Day in History','lessons':'History Hub · Courses and Lessons','about':'Site Information','privacy':'Site Information','terms':'Site Information','cookies':'Site Information','affiliate-disclosure':'Site Information','copyright':'Site Information','digital-products':'Site Information','sitemap':'Site Information','faq':'Site Information','careers':'Site Information','licensing':'Site Information'}
           routes=[]
           for p in sorted(Path('.').rglob('index.html')):
             rel=p.as_posix()
