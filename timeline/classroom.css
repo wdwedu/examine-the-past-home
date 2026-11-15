@@ -25,12 +25,12 @@
 @media print{body.printing-timeline-plan>*{display:none!important}body.printing-timeline-plan>.timeline-print-plan{display:block!important;color:#000!important;background:#fff!important;font:12pt/1.5 Georgia,serif;padding:12mm}body.printing-timeline-plan .timeline-print-plan *{color:#000!important;background:transparent!important;text-shadow:none!important}body.printing-timeline-plan .timeline-print-plan li{break-inside:avoid;margin:16pt 0}body.printing-timeline-plan .timeline-print-plan h1{font-size:21pt}body.printing-timeline-plan .timeline-print-plan h2{font-size:16pt}}
 
 /* Compact introduction: the historical story begins immediately below it. */
-header.hero{min-height:0!important;height:auto!important;padding:28px 20px 24px!important}
-header.hero .hero-inner{width:100%;max-width:1000px}
-header.hero h1{font-size:clamp(44px,7vw,88px)!important;line-height:.98;margin:16px 0!important}
+header.hero{min-height:0!important;height:auto!important;padding:20px 20px 20px!important}
+header.hero .hero-inner{width:100%;max-width:1140px}
+header.hero h1{font-size:clamp(44px,7.5vw,96px)!important;line-height:.98;margin:16px 0!important}
 header.hero h1 span{margin-bottom:.08em}
-header.hero p{font-size:16px!important;line-height:1.5;margin:0 auto 14px!important;max-width:1000px}
-header.hero .guide{margin:16px auto 0!important;max-width:1000px;gap:8px;grid-template-columns:repeat(4,minmax(0,1fr))}
+header.hero p{font-size:16px!important;line-height:1.5;margin:0 auto 14px!important;max-width:1140px}
+header.hero .guide{margin:16px auto 0!important;max-width:1140px;gap:20px;grid-template-columns:repeat(4,minmax(0,1fr))}
 header.hero .guide-card{padding:11px 12px;border-radius:10px}
 header.hero .guide-card span{font-size:12px;line-height:1.4;margin-top:5px}
 main.timeline>#deep{padding-top:30px!important}
@@ -59,3 +59,14 @@ header.hero .guide-card:hover::before{transform:translateX(150%)}
 @media(prefers-reduced-motion:reduce){header.hero .guide-card,header.hero .guide-card::before{transition:none}header.hero .guide-card:hover{transform:none}header.hero .guide-card::before{display:none}}
 
 @media(min-width:1100px){header.hero .hero-inner>p{white-space:nowrap}}
+
+/* Full-width oval guide pills echo the retired category key. */
+header.hero .guide-card{border-radius:999px;padding:18px 24px;min-height:108px;display:flex;flex-direction:column;justify-content:center}
+header.hero .guide-card strong{display:flex;align-items:center;gap:9px}
+header.hero .guide-card .guide-dot{display:inline-block;flex:0 0 10px;width:10px;height:10px;border-radius:50%;background:var(--guide-dot);box-shadow:0 0 12px var(--guide-dot)}
+header.hero .guide-card:nth-child(1){--guide-dot:#67b8ff}header.hero .guide-card:nth-child(2){--guide-dot:#78ed97}header.hero .guide-card:nth-child(3){--guide-dot:#ff7c89}header.hero .guide-card:nth-child(4){--guide-dot:#ffd55d}
+@media(max-width:760px){header.hero .guide{gap:12px}header.hero .guide-card{padding:16px 20px;min-height:112px}}
+@media(max-width:480px){header.hero .guide{grid-template-columns:1fr!important}header.hero .guide-card{min-height:88px;padding:16px 25px}}
+
+header.hero h1 .timeline-title-line{white-space:nowrap;margin-bottom:0}
+@media(min-width:761px){header.hero h1 .timeline-title-line{letter-spacing:.01em}}
