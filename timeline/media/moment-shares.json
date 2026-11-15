@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "moments": [
+    {
+      "number": 1,
+      "slug": "early-homo-sapiens",
+      "title": "Early Homo sapiens",
+      "description": "Fossil evidence places early members of our species in Africa hundreds of thousands of years ago.",
+      "date": "c. 300,000 years ago",
+      "image": "assets/images/timeline/ETP_Timeline_01_Early_Homo_sapiens.webp"
+    },
+    {
+      "number": 2,
+      "slug": "fire-tools-adaptation",
+      "title": "Fire, Tools & Adaptation",
+      "description": "Controlled fire and increasingly specialized tools transformed food preparation, protection, and social life.",
+      "date": "Deep prehistory",
+      "image": "assets/images/timeline/ETP_Timeline_02_Fire,_Tools_and_Adaptation.webp"
+    },
+    {
+      "number": 3,
+      "slug": "last-known-homo-erectus",
+      "title": "Last Known Homo erectus",
+      "description": "New dating of fossils from Java indicates Homo erectus survived there until roughly 108,000–117,000 years ago.",
+      "date": "c. 117,000–108,000 years ago",
+      "image": "assets/images/timeline/ETP_Timeline_03_Last_Known_Homo_erectus.webp"
+    },
+    {
+      "number": 4,
+      "slug": "settled-communities-expand",
+      "title": "Settled Communities Expand",
+      "description": "In several regions, people increasingly combined hunting and gathering with more settled lifeways and food production.",
+      "date": "c. 12,000–10,000 BCE",
+      "image": "assets/images/timeline/ETP_Timeline_04_Settled_Communities_Expand.webp"
+    },
+    {
+      "number": 5,
+      "slug": "lucy-and-australopithecus-afarensis",
+      "title": "Lucy and Australopithecus afarensis",
+      "description": "The fossil skeleton known as Lucy became one of the most famous windows into early human evolution.",
+      "date": "c. 3.2 million years ago",
+      "image": "assets/images/timeline/ETP_Timeline_05_Lucy_and_Australopithecus_afarensis.webp"
+    },
+    {
+      "number": 6,
+      "slug": "early-homo-sapiens-at-jebel-irhoud",
+      "title": "Early Homo sapiens at Jebel Irhoud",
+      "description": "Fossils from Morocco pushed evidence for early Homo sapiens far deeper into Africa’s past.",
+      "date": "c. 315,000 years ago",
+      "image": "assets/images/timeline/ETP_Timeline_06_Early_Homo_sapiens_at_Jebel_Irhoud.webp"
+    },
+    {
+      "number": 7,
+      "slug": "symbolic-culture-at-blombos-cave",
+      "title": "Symbolic Culture at Blombos Cave",
+      "description": "Engraved ochre, shell beads, and toolmaking evidence reveal complex symbolic behavior in southern Africa.",
+      "date": "c. 100,000–70,000 years ago",
+      "image": "assets/images/timeline/ETP_Timeline_07_Symbolic_Culture_at_Blombos_Cave.webp"
+    },
+    {
+      "number": 8,
+      "slug": "major-human-migrations-expand",
+      "title": "Major Human Migrations Expand",
+      "description": "Homo sapiens populations spread into new regions, interacting with other human groups and adapting to varied environments.",
+      "date": "c. 70,000–50,000 years ago",
+      "image": "assets/images/timeline/ETP_Timeline_08_Major_Human_Migrations_Expand.webp"
+    },
+    {
+      "number": 9,
+      "slug": "last-glacial-maximum",
+      "title": "Last Glacial Maximum",
+      "description": "Ice sheets expanded, sea levels fell, and human communities adapted to colder and drier environments.",
+      "date": "c. 26,500–19,000 years ago",
+      "image": "assets/images/timeline/ETP_Timeline_09_Last_Glacial_Maximum.webp"
+    },
+    {
+      "number": 10,
+      "slug": "agriculture-takes-root",
+      "title": "Agriculture Takes Root",
+      "description": "Domestication of plants and animals developed independently in multiple regions and helped support larger settlements.",
+      "date": "c. 10,000 BCE onward",
+      "image": "assets/images/timeline/ETP_Timeline_10_Agriculture_Takes_Root.webp"
+    },
+    {
+      "number": 11,
+      "slug": "writing-systems-emerge",
+      "title": "Writing Systems Emerge",
+      "description": "Early writing systems developed to record transactions, institutions, stories, and political power.",
+      "date": "4th millennium BCE",
+      "image": "assets/images/timeline/ETP_Timeline_11_Writing_Systems_Emerge.webp"
+    },
+    {
+      "number": 12,
+      "slug": "pyramids-of-giza",
+      "title": "Pyramids of Giza",
+      "description": "Monumental building in Old Kingdom Egypt reflected centralized authority, religious beliefs, labor organization, and engineering.",
+      "date": "c. 26th century BCE",
+      "image": "assets/images/timeline/ETP_Timeline_12_Pyramids_of_Giza.webp"
+    },
+    {
+      "number": 13,
+      "slug": "hammurabis-judgments",
+      "title": "Hammurabi’s Judgments",
+      "description": "The famous Babylonian stela preserves a large collection of royal legal judgments and principles.",
+      "date": "c. 1750 BCE",
+      "image": "assets/images/timeline/ETP_Timeline_13_Hammurabis_Judgments.webp"
+    },
+    {
+      "number": 14,
+      "slug": "uruk-and-the-rise-of-cities",
+      "title": "Uruk and the Rise of Cities",
+      "description": "Large urban centers in Mesopotamia concentrated labor, administration, temples, trade, and political authority.",
+      "date": "c. 3500–3000 BCE",
+      "image": "assets/images/timeline/ETP_Timeline_14_Uruk_and_the_Rise_of_Cities.webp"
+    },
+    {
+      "number": 15,
+      "slug": "indus-valley-urban-civilization",
+      "title": "Indus Valley Urban Civilization",
+      "description": "Harappa and Mohenjo-daro featured planned streets, drainage, craft production, and far-reaching trade.",
+      "date": "c. 2600–1900 BCE",
+      "image": "assets/images/timeline/ETP_Timeline_15_Indus_Valley_Urban_Civilization.webp"
+    },
+    {
+      "number": 16,
+      "slug": "kerma-and-ancient-nubia",
+      "title": "Kerma and Ancient Nubia",
+      "description": "Powerful Nubian states developed along the Nile south of Egypt, controlling trade routes and regional resources.",
+      "date": "c. 2500–1500 BCE",
+      "image": "assets/images/timeline/ETP_Timeline_16_Kerma_and_Ancient_Nubia.webp"
+    },
+    {
+      "number": 17,
+      "slug": "ironworking-in-africa",
+      "title": "Ironworking in Africa",
+      "description": "Iron production developed in parts of Africa and supported new tools, farming systems, crafts, and political growth.",
+      "date": "c. 1200–400 BCE",
+      "image": "assets/images/timeline/ETP_Timeline_17_Ironworking_in_Africa.webp"
+    },
+    {
+      "number": 18,
+      "slug": "hatshepsut",
+      "title": "Hatshepsut",
+      "description": "One of ancient Egypt’s most successful female pharaohs used trade, monumental building, and royal imagery to strengthen her rule.",
+      "date": "c. 1479–1458 BCE",
+      "image": "assets/images/timeline/ETP_Timeline_18_Hatshepsut.webp"
+    },
+    {
+      "number": 19,
+      "slug": "democracy-in-athens",
+      "title": "Democracy in Athens",
+      "description": "Athenian political institutions expanded direct participation for male citizens while excluding many residents.",
+      "date": "5th century BCE",
+      "image": "assets/images/timeline/ETP_Timeline_19_Democracy_in_Athens.webp"
+    },
+    {
+      "number": 20,
+      "slug": "philosophies-faith-traditions",
+      "title": "Philosophies & Faith Traditions",
+      "description": "Influential traditions across South Asia, East Asia, the Mediterranean, and Southwest Asia shaped ethics and social life.",
+      "date": "1st millennium BCE",
+      "image": "assets/images/timeline/ETP_Timeline_20_Philosophies_and_Faith_Traditions.webp"
+    },
+    {
+      "number": 21,
+      "slug": "silk-roads-networks",
+      "title": "Silk Roads Networks",
+      "description": "Overland and maritime routes linked merchants, states, travelers, technologies, religions, and disease across Eurasia.",
+      "date": "2nd century BCE onward",
+      "image": "assets/images/timeline/021_Silk_Roads_Networks.webp"
+    },
+    {
+      "number": 22,
+      "slug": "kingdom-of-kush-at-meroe",
+      "title": "Kingdom of Kush at Meroë",
+      "description": "Kushite rulers governed a major Nile Valley state centered farther south at Meroë.",
+      "date": "c. 300 BCE–350 CE",
+      "image": "assets/images/timeline/022_Kingdom_of_Kush_at_Meroe.webp"
+    },
+    {
+      "number": 23,
+      "slug": "mauryan-empire-and-ashoka",
+      "title": "Mauryan Empire and Ashoka",
+      "description": "A vast South Asian empire promoted imperial administration and, under Ashoka, inscriptions tied to Buddhist ethics.",
+      "date": "c. 3rd century BCE–3rd century CE",
+      "image": "assets/images/timeline/023_Mauryan_Empire_and_Ashoka.webp"
+    },
+    {
+      "number": 24,
+      "slug": "imperial-china-unifies",
+      "title": "Imperial China Unifies",
+      "description": "Qin unification and the long Han era created durable institutions, infrastructure, and imperial traditions.",
+      "date": "221 BCE onward",
+      "image": "assets/images/timeline/024_Imperial_China_Unifies.webp"
+    },
+    {
+      "number": 25,
+      "slug": "kingdom-of-aksum",
+      "title": "Kingdom of Aksum",
+      "description": "Aksum became a Red Sea power linking the African interior, Arabia, the Mediterranean, and Indian Ocean trade.",
+      "date": "1st–7th centuries CE",
+      "image": "assets/images/timeline/025_Kingdom_of_Aksum.webp"
+    },
+    {
+      "number": 26,
+      "slug": "classic-maya-cities",
+      "title": "Classic Maya Cities",
+      "description": "Maya city-states developed monumental architecture, writing, astronomy, calendars, and complex political networks.",
+      "date": "c. 250–900 CE",
+      "image": "assets/images/timeline/026_Classic_Maya_Cities.webp"
+    },
+    {
+      "number": 27,
+      "slug": "confucius",
+      "title": "Confucius",
+      "description": "A Chinese teacher and thinker whose ideas about ethics, education, family, and government shaped East Asian societies for centuries.",
+      "date": "551–479 BCE",
+      "image": "assets/images/timeline/027_Confucius.webp"
+    },
+    {
+      "number": 28,
+      "slug": "ashoka",
+      "title": "Ashoka",
+      "description": "The Mauryan emperor promoted Buddhist ethics and public welfare after a brutal war of conquest.",
+      "date": "c. 268–232 BCE",
+      "image": "assets/images/timeline/028_Ashoka.webp"
+    },
+    {
+      "number": 29,
+      "slug": "hypatia-of-alexandria",
+      "title": "Hypatia of Alexandria",
+      "description": "A mathematician, astronomer, and philosopher who taught in one of the ancient Mediterranean’s great intellectual centers.",
+      "date": "c. 355–415 CE",
+      "image": "assets/images/timeline/029_Hypatia_of_Alexandria.webp"
+    },
+    {
+      "number": 30,
+      "slug": "kingdoms-courts",
+      "title": "Kingdoms & Courts",
+      "description": "Political authority took many forms, from kingdoms and empires to city-states and decentralized lordships.",
+      "date": "c. 500–1500",
+      "image": "assets/images/timeline/030_Kingdoms_Courts.webp"
+    },
+    {
+      "number": 31,
+      "slug": "centers-of-learning-flourish",
+      "title": "Centers of Learning Flourish",
+      "description": "Scholars across the Islamic world translated, preserved, debated, and extended knowledge in mathematics, medicine, astronomy, and philosophy.",
+      "date": "8th–13th centuries",
+      "image": "assets/images/timeline/031_Centers_of_Learning_Flourish.webp"
+    },
+    {
+      "number": 32,
+      "slug": "crusading-movements",
+      "title": "Crusading Movements",
+      "description": "A series of religiously framed military campaigns transformed politics, trade, and relations across the Mediterranean world.",
+      "date": "1096–1291",
+      "image": "assets/images/timeline/032_Crusading_Movements.webp"
+    },
+    {
+      "number": 33,
+      "slug": "the-black-death",
+      "title": "The Black Death",
+      "description": "Pandemic plague caused catastrophic mortality across Eurasia and North Africa and reshaped economies and communities.",
+      "date": "14th century",
+      "image": "assets/images/timeline/033_The_Black_Death.webp"
+    },
+    {
+      "number": 34,
+      "slug": "ghana-empire-and-trans-saharan-trade",
+      "title": "Ghana Empire and Trans-Saharan Trade",
+      "description": "West African states grew wealthy by controlling trade in gold, salt, and other goods across the Sahara.",
+      "date": "c. 700–1200",
+      "image": "assets/images/timeline/034_Ghana_Empire_and_Trans_Saharan_Trade.webp"
+    },
+    {
+      "number": 35,
+      "slug": "swahili-coast-city-states",
+      "title": "Swahili Coast City-States",
+      "description": "African port cities linked the East African coast to Arabia, Persia, India, and the wider Indian Ocean.",
+      "date": "c. 1000–1500",
+      "image": "assets/images/timeline/035_Swahili_Coast_City_States.webp"
+    },
+    {
+      "number": 36,
+      "slug": "great-zimbabwe",
+      "title": "Great Zimbabwe",
+      "description": "A major stone-built city became the center of a powerful southern African state tied to regional and Indian Ocean trade.",
+      "date": "c. 1100–1450",
+      "image": "assets/images/timeline/036_Great_Zimbabwe.webp"
+    },
+    {
+      "number": 37,
+      "slug": "mali-empire",
+      "title": "Mali Empire",
+      "description": "Mali became one of medieval West Africa’s most influential states, controlling gold-producing regions and trade routes.",
+      "date": "c. 1235–1600",
+      "image": "assets/images/timeline/037_Mali_Empire.webp"
+    },
+    {
+      "number": 38,
+      "slug": "mansa-musas-pilgrimage",
+      "title": "Mansa Musa’s Pilgrimage",
+      "description": "The ruler of Mali traveled to Mecca with a famous caravan that advertised West Africa’s wealth and connections.",
+      "date": "1324–1325",
+      "image": "assets/images/timeline/038_Mansa_Musas_Pilgrimage.webp"
+    },
+    {
+      "number": 39,
+      "slug": "the-1054-supernova-remembered",
+      "title": "The 1054 Supernova Remembered",
+      "description": "Centuries before the Black Death, skywatchers recorded a brilliant “guest star” later linked to the Crab Nebula.",
+      "date": "1054 CE",
+      "image": "assets/images/timeline/039_The_1054_Supernova_Remembered.webp"
+    },
+    {
+      "number": 40,
+      "slug": "ibn-sina-avicenna",
+      "title": "Ibn Sina (Avicenna)",
+      "description": "A Persian polymath whose works on medicine and philosophy influenced scholarship from the Islamic world to Europe.",
+      "date": "980–1037",
+      "image": "assets/images/timeline/040_Ibn_Sina_Avicenna.webp"
+    },
+    {
+      "number": 41,
+      "slug": "murasaki-shikibu",
+      "title": "Murasaki Shikibu",
+      "description": "A Japanese court writer associated with The Tale of Genji, often described as one of the world’s earliest great novels.",
+      "date": "c. 973–1014",
+      "image": "assets/images/timeline/041_Murasaki_Shikibu.webp"
+    },
+    {
+      "number": 42,
+      "slug": "tenochtitlan-is-founded",
+      "title": "Tenochtitlan Is Founded",
+      "description": "The Mexica established Tenochtitlan on an island in Lake Texcoco, laying the foundation for one of the largest cities in the Americas.",
+      "date": "1325",
+      "image": "assets/images/timeline/042_Tenochtitlan_Is_Founded.webp"
+    },
+    {
+      "number": 43,
+      "slug": "print-expands",
+      "title": "Print Expands",
+      "description": "Movable-type printing in Europe accelerated the circulation of texts; printing traditions elsewhere had much earlier histories.",
+      "date": "15th century",
+      "image": "assets/images/timeline/043_Print_Expands.webp"
+    },
+    {
+      "number": 44,
+      "slug": "oceanic-networks-intensify",
+      "title": "Oceanic Networks Intensify",
+      "description": "European maritime expansion connected existing regional worlds through conquest, commerce, colonization, and forced migration.",
+      "date": "15th–17th centuries",
+      "image": "assets/images/timeline/044_Oceanic_Networks_Intensify.webp"
+    },
+    {
+      "number": 45,
+      "slug": "scientific-revolution",
+      "title": "Scientific Revolution",
+      "description": "Observation, mathematics, instruments, and debate challenged inherited explanations of the natural world.",
+      "date": "16th–17th centuries",
+      "image": "assets/images/timeline/045_Scientific_Revolution.webp"
+    },
+    {
+      "number": 46,
+      "slug": "kingdom-of-benin",
+      "title": "Kingdom of Benin",
+      "description": "Benin developed a powerful court culture, urban center, regional trade, and extraordinary brass and ivory art.",
+      "date": "c. 1400–1600",
+      "image": "assets/images/timeline/046_Kingdom_of_Benin.webp"
+    },
+    {
+      "number": 47,
+      "slug": "kingdom-of-kongo",
+      "title": "Kingdom of Kongo",
+      "description": "A Central African kingdom built regional power and later maintained diplomatic and religious connections with Portugal and the Atlantic world.",
+      "date": "c. 1390–1914",
+      "image": "assets/images/timeline/047_Kingdom_of_Kongo.webp"
+    },
+    {
+      "number": 48,
+      "slug": "columbian-exchange",
+      "title": "Columbian Exchange",
+      "description": "Plants, animals, pathogens, and people moved between Afro-Eurasia and the Americas on an unprecedented scale.",
+      "date": "1492 onward",
+      "image": "assets/images/timeline/048_Columbian_Exchange.webp"
+    },
+    {
+      "number": 49,
+      "slug": "atlantic-slave-trade-expands",
+      "title": "Atlantic Slave Trade Expands",
+      "description": "Millions of Africans were forcibly transported across the Atlantic in one of history’s largest coerced migrations.",
+      "date": "c. 1500s–1800s",
+      "image": "assets/images/timeline/049_Atlantic_Slave_Trade_Expands.webp"
+    },
+    {
+      "number": 50,
+      "slug": "songhai-falls-west-african-networks-continue",
+      "title": "Songhai Falls, West African Networks Continue",
+      "description": "Moroccan forces defeated Songhai at Tondibi, but West African trade, scholarship, and political life continued through new states and networks.",
+      "date": "1591 onward",
+      "image": "assets/images/timeline/050_Songhai_Falls_West_African_Networks_Continue.webp"
+    },
+    {
+      "number": 51,
+      "slug": "queen-nzinga",
+      "title": "Queen Nzinga",
+      "description": "The ruler of Ndongo and Matamba used diplomacy, warfare, and shifting alliances to resist Portuguese expansion in Central Africa.",
+      "date": "1583–1663",
+      "image": "assets/images/timeline/051_Queen_Nzinga.webp"
+    },
+    {
+      "number": 52,
+      "slug": "galileo-galilei",
+      "title": "Galileo Galilei",
+      "description": "Telescopic observation and mathematical analysis helped transform astronomy and debates about how knowledge should be tested.",
+      "date": "1564–1642",
+      "image": "assets/images/timeline/052_Galileo_Galilei.webp"
+    },
+    {
+      "number": 53,
+      "slug": "gutenberg-bible-is-printed",
+      "title": "Gutenberg Bible Is Printed",
+      "description": "Movable metal type and the printing press helped accelerate the circulation of books in Europe.",
+      "date": "c. 1455",
+      "image": "assets/images/timeline/053_Gutenberg_Bible_Is_Printed.webp"
+    },
+    {
+      "number": 54,
+      "slug": "american-independence",
+      "title": "American Independence",
+      "description": "The Declaration of Independence articulated claims about rights and government while the Revolutionary War continued.",
+      "date": "1776",
+      "image": "assets/images/timeline/054_American_Independence.webp"
+    },
+    {
+      "number": 55,
+      "slug": "haitian-revolution",
+      "title": "Haitian Revolution",
+      "description": "Enslaved and free people in Saint-Domingue overthrew slavery and colonial rule, creating independent Haiti.",
+      "date": "1791–1804",
+      "image": "assets/images/timeline/055_Haitian_Revolution.webp"
+    },
+    {
+      "number": 56,
+      "slug": "industrial-transformation",
+      "title": "Industrial Transformation",
+      "description": "Steam power, factories, railways, and mechanized production changed work, cities, consumption, and the environment.",
+      "date": "19th century",
+      "image": "assets/images/timeline/056_Industrial_Transformation.webp"
+    },
+    {
+      "number": 57,
+      "slug": "abolition-expands",
+      "title": "Abolition Expands",
+      "description": "Enslaved people, free Black activists, abolitionists, and political movements challenged slavery across the Atlantic world.",
+      "date": "19th century",
+      "image": "assets/images/timeline/057_Abolition_Expands.webp"
+    },
+    {
+      "number": 58,
+      "slug": "american-revolutionary-war",
+      "title": "American Revolutionary War",
+      "description": "Colonial rebellion against Britain became a war for independence with international dimensions.",
+      "date": "1760s–1783",
+      "image": "assets/images/timeline/058_American_Revolutionary_War.webp"
+    },
+    {
+      "number": 59,
+      "slug": "french-revolution",
+      "title": "French Revolution",
+      "description": "Revolutionary upheaval dismantled old institutions, redefined citizenship, and reshaped European politics.",
+      "date": "1789–1799",
+      "image": "assets/images/timeline/059_French_Revolution.webp"
+    },
+    {
+      "number": 60,
+      "slug": "latin-american-independence-movements",
+      "title": "Latin American Independence Movements",
+      "description": "Revolutions and wars ended Spanish and Portuguese colonial rule across much of the Americas.",
+      "date": "1804–1826",
+      "image": "assets/images/timeline/060_Latin_American_Independence_Movements.webp"
+    },
+    {
+      "number": 61,
+      "slug": "mount-tambora-erupts",
+      "title": "Mount Tambora Erupts",
+      "description": "A massive Indonesian eruption cooled global temperatures and contributed to the “Year Without a Summer.”",
+      "date": "1815",
+      "image": "assets/images/timeline/061_Mount_Tambora_Erupts.webp"
+    },
+    {
+      "number": 62,
+      "slug": "first-opium-war",
+      "title": "First Opium War",
+      "description": "War between Britain and Qing China exposed the coercive power behind nineteenth-century imperial trade.",
+      "date": "1839–1842",
+      "image": "assets/images/timeline/062_First_Opium_War.webp"
+    },
+    {
+      "number": 63,
+      "slug": "indian-rebellion-of-1857",
+      "title": "Indian Rebellion of 1857",
+      "description": "A major uprising against East India Company rule transformed British governance in South Asia.",
+      "date": "1857–1858",
+      "image": "assets/images/timeline/063_Indian_Rebellion_of_1857.webp"
+    },
+    {
+      "number": 64,
+      "slug": "american-civil-war",
+      "title": "American Civil War",
+      "description": "The United States fought a devastating civil war centered on slavery, secession, Union, and emancipation.",
+      "date": "1861–1865",
+      "image": "assets/images/timeline/064_American_Civil_War.webp"
+    },
+    {
+      "number": 65,
+      "slug": "emancipation-proclamation",
+      "title": "Emancipation Proclamation",
+      "description": "Lincoln’s wartime proclamation declared enslaved people free in areas still in rebellion and authorized Black military service.",
+      "date": "1863",
+      "image": "assets/images/timeline/065_Emancipation_Proclamation.webp"
+    },
+    {
+      "number": 66,
+      "slug": "berlin-conference-and-the-scramble-for-africa",
+      "title": "Berlin Conference and the Scramble for Africa",
+      "description": "European powers formalized rules for imperial claims while excluding African representatives from the conference.",
+      "date": "1884–1885",
+      "image": "assets/images/timeline/066_Berlin_Conference_and_the_Scramble_for_Africa.webp"
+    },
+    {
+      "number": 67,
+      "slug": "battle-of-adwa",
+      "title": "Battle of Adwa",
+      "description": "Ethiopian forces defeated an invading Italian army and preserved Ethiopian sovereignty.",
+      "date": "1896",
+      "image": "assets/images/timeline/067_Battle_of_Adwa.webp"
+    },
+    {
+      "number": 68,
+      "slug": "toussaint-louverture",
+      "title": "Toussaint Louverture",
+      "description": "A formerly enslaved leader whose political and military leadership was central to the Haitian Revolution.",
+      "date": "1743–1803",
+      "image": "assets/images/timeline/068_Toussaint_Louverture.webp"
+    },
+    {
+      "number": 69,
+      "slug": "frederick-douglass",
+      "title": "Frederick Douglass",
+      "description": "After escaping slavery, Douglass became one of the nineteenth century’s most influential abolitionists, writers, and advocates for equal citizenship.",
+      "date": "1818–1895",
+      "image": "assets/images/timeline/069_Frederick_Douglass.webp"
+    },
+    {
+      "number": 70,
+      "slug": "meiji-restoration",
+      "title": "Meiji Restoration",
+      "description": "Political change in Japan ended Tokugawa rule and began a rapid state-led transformation.",
+      "date": "1868",
+      "image": "assets/images/timeline/070_Meiji_Restoration.webp"
+    },
+    {
+      "number": 71,
+      "slug": "first-world-war",
+      "title": "First World War",
+      "description": "Industrialized warfare devastated Europe and other regions and accelerated political upheaval and imperial change.",
+      "date": "1914–1918",
+      "image": "assets/images/timeline/071_First_World_War.webp"
+    },
+    {
+      "number": 72,
+      "slug": "great-depression",
+      "title": "Great Depression",
+      "description": "A global economic crisis produced mass unemployment, political instability, and competing responses from governments.",
+      "date": "1929 onward",
+      "image": "assets/images/timeline/072_Great_Depression.webp"
+    },
+    {
+      "number": 73,
+      "slug": "second-world-war",
+      "title": "Second World War",
+      "description": "The deadliest war in history transformed states, societies, technologies, borders, and the international order.",
+      "date": "1939–1945",
+      "image": "assets/images/timeline/073_Second_World_War.webp"
+    },
+    {
+      "number": 74,
+      "slug": "the-holocaust",
+      "title": "The Holocaust",
+      "description": "Nazi Germany and its collaborators persecuted and murdered six million Jews and millions of other victims.",
+      "date": "1933–1945",
+      "image": "assets/images/timeline/074_The_Holocaust.webp"
+    },
+    {
+      "number": 75,
+      "slug": "cold-war",
+      "title": "Cold War",
+      "description": "U.S.–Soviet rivalry shaped alliances, proxy wars, nuclear strategy, space exploration, and politics around the world.",
+      "date": "1945–1991",
+      "image": "assets/images/timeline/075_Cold_War.webp"
+    },
+    {
+      "number": 76,
+      "slug": "armenian-genocide",
+      "title": "Armenian Genocide",
+      "description": "Ottoman authorities carried out mass deportations and killings of Armenians during World War I.",
+      "date": "1915–1917",
+      "image": "assets/images/timeline/076_Armenian_Genocide.webp"
+    },
+    {
+      "number": 77,
+      "slug": "russian-revolution",
+      "title": "Russian Revolution",
+      "description": "Revolution ended imperial rule and eventually brought the Bolsheviks to power.",
+      "date": "1917",
+      "image": "assets/images/timeline/077_Russian_Revolution.webp"
+    },
+    {
+      "number": 78,
+      "slug": "ghana-gains-independence",
+      "title": "Ghana Gains Independence",
+      "description": "Ghana became the first sub-Saharan African colony to gain independence from European rule in the postwar wave of decolonization.",
+      "date": "1957",
+      "image": "assets/images/timeline/078_Ghana_Gains_Independence.webp"
+    },
+    {
+      "number": 79,
+      "slug": "year-of-africa",
+      "title": "Year of Africa",
+      "description": "Seventeen African countries gained independence in 1960, dramatically reshaping the United Nations and world politics.",
+      "date": "1960",
+      "image": "assets/images/timeline/079_Year_of_Africa.webp"
+    },
+    {
+      "number": 80,
+      "slug": "march-on-washington",
+      "title": "March on Washington",
+      "description": "Hundreds of thousands gathered in Washington, D.C., demanding jobs, freedom, and civil rights.",
+      "date": "1963",
+      "image": "assets/images/timeline/080_March_on_Washington.webp"
+    },
+    {
+      "number": 81,
+      "slug": "soweto-uprising",
+      "title": "Soweto Uprising",
+      "description": "Black South African students protested apartheid education, and police violence triggered nationwide resistance.",
+      "date": "1976",
+      "image": "assets/images/timeline/081_Soweto_Uprising.webp"
+    },
+    {
+      "number": 82,
+      "slug": "fall-of-the-berlin-wall",
+      "title": "Fall of the Berlin Wall",
+      "description": "Popular pressure and political change opened the Berlin Wall and accelerated the collapse of communist governments in Eastern Europe.",
+      "date": "1989",
+      "image": "assets/images/timeline/082_Fall_of_the_Berlin_Wall.webp"
+    },
+    {
+      "number": 83,
+      "slug": "mahatma-gandhi",
+      "title": "Mahatma Gandhi",
+      "description": "Gandhi developed mass nonviolent resistance strategies that shaped India’s independence movement and influenced later civil-rights campaigns.",
+      "date": "1869–1948",
+      "image": "assets/images/timeline/083_Mahatma_Gandhi.webp"
+    },
+    {
+      "number": 84,
+      "slug": "martin-luther-king-jr",
+      "title": "Martin Luther King Jr.",
+      "description": "A Baptist minister and civil-rights leader who helped mobilize nonviolent campaigns against segregation and racial injustice in the United States.",
+      "date": "1929–1968",
+      "image": "assets/images/timeline/084_Martin_Luther_King_Jr.webp"
+    },
+    {
+      "number": 85,
+      "slug": "harlem-renaissance",
+      "title": "Harlem Renaissance",
+      "description": "Black writers, musicians, artists, and intellectuals transformed American culture and reshaped global ideas about Black identity and modernity.",
+      "date": "1920s–1930s",
+      "image": "assets/images/timeline/085_Harlem_Renaissance.webp"
+    },
+    {
+      "number": 86,
+      "slug": "apollo-11-moon-landing",
+      "title": "Apollo 11 Moon Landing",
+      "description": "Humans landed on the Moon for the first time during NASA's Apollo 11 mission.",
+      "date": "July 20, 1969",
+      "image": "assets/images/timeline/086_Apollo_11_Moon_Landing.webp"
+    },
+    {
+      "number": 87,
+      "slug": "the-web-goes-global",
+      "title": "The Web Goes Global",
+      "description": "Internet access and the World Wide Web increasingly transformed communication, commerce, education, and public life.",
+      "date": "1990s onward",
+      "image": "assets/images/timeline/ETP_Timeline_87_The_Web_Goes_Global.webp"
+    },
+    {
+      "number": 88,
+      "slug": "september-11-attacks",
+      "title": "September 11 Attacks",
+      "description": "Coordinated terrorist attacks in the United States killed nearly 3,000 people and profoundly affected U.S. and global policy.",
+      "date": "September 11, 2001",
+      "image": "assets/images/timeline/ETP_Timeline_88_September_11_Attacks.webp"
+    },
+    {
+      "number": 89,
+      "slug": "mobile-social-media-age",
+      "title": "Mobile & Social Media Age",
+      "description": "Smartphones and social platforms altered news, relationships, organizing, entertainment, and public debate.",
+      "date": "2000s–2010s",
+      "image": "assets/images/timeline/ETP_Timeline_89_Mobile_and_Social_Media_Age.webp"
+    },
+    {
+      "number": 90,
+      "slug": "south-africas-first-multiracial-election",
+      "title": "South Africa’s First Multiracial Election",
+      "description": "Millions voted in the election that ended formal apartheid rule and brought Nelson Mandela to the presidency.",
+      "date": "1994",
+      "image": "assets/images/timeline/ETP_Timeline_90_South_Africas_First_Multiracial_Election.webp"
+    },
+    {
+      "number": 91,
+      "slug": "global-financial-crisis",
+      "title": "Global Financial Crisis",
+      "description": "Failures in housing finance and interconnected credit markets triggered a severe global recession.",
+      "date": "2008–2009",
+      "image": "assets/images/timeline/ETP_Timeline_91_Global_Financial_Crisis.webp"
+    },
+    {
+      "number": 92,
+      "slug": "arab-spring",
+      "title": "Arab Spring",
+      "description": "Protest movements challenged governments across North Africa and the Middle East, producing very different outcomes.",
+      "date": "2010–2012",
+      "image": "assets/images/timeline/ETP_Timeline_92_Arab_Spring.webp"
+    },
+    {
+      "number": 93,
+      "slug": "paris-climate-agreement",
+      "title": "Paris Climate Agreement",
+      "description": "Nearly every nation adopted a framework to reduce greenhouse-gas emissions and strengthen climate adaptation.",
+      "date": "2015",
+      "image": "assets/images/timeline/ETP_Timeline_93_Paris_Climate_Agreement.webp"
+    },
+    {
+      "number": 94,
+      "slug": "brexit",
+      "title": "Brexit",
+      "description": "The United Kingdom voted to leave the European Union and formally exited in 2020.",
+      "date": "2016–2020",
+      "image": "assets/images/timeline/ETP_Timeline_94_Brexit.webp"
+    },
+    {
+      "number": 95,
+      "slug": "covid-19-pandemic",
+      "title": "COVID-19 Pandemic",
+      "description": "A novel coronavirus spread globally, causing mass illness and death and disrupting everyday life, economies, education, and politics.",
+      "date": "2020 onward",
+      "image": "assets/images/timeline/ETP_Timeline_95_COVID_19_Pandemic.webp"
+    },
+    {
+      "number": 96,
+      "slug": "wangari-maathai",
+      "title": "Wangari Maathai",
+      "description": "The Kenyan environmentalist and democracy advocate linked tree planting, women’s leadership, human rights, and sustainable development.",
+      "date": "1940–2011",
+      "image": "assets/images/timeline/ETP_Timeline_96_Wangari_Maathai.webp"
+    },
+    {
+      "number": 97,
+      "slug": "tim-berners-lee-and-the-world-wide-web",
+      "title": "Tim Berners-Lee and the World Wide Web",
+      "description": "A proposal at CERN evolved into the World Wide Web, transforming how people publish, link, and access information.",
+      "date": "1989–1991",
+      "image": "assets/images/timeline/ETP_Timeline_97_Tim_Berners_Lee_and_the_World_Wide_Web.webp"
+    },
+    {
+      "number": 98,
+      "slug": "artificial-intelligence-becomes-everyday-infrastructure",
+      "title": "Artificial Intelligence Becomes Everyday Infrastructure",
+      "description": "AI systems increasingly influence work, learning, medicine, logistics, creativity, research, and public policy.",
+      "date": "21st century",
+      "image": "assets/images/timeline/ETP_Timeline_98_Artificial_Intelligence_Becomes_Everyday_Infrastructure.webp"
+    },
+    {
+      "number": 99,
+      "slug": "generative-ai-enters-mass-use",
+      "title": "Generative AI Enters Mass Use",
+      "description": "Public-facing generative AI systems rapidly expanded the use of machine-generated text, images, audio, and code.",
+      "date": "2022 onward",
+      "image": "assets/images/timeline/ETP_Timeline_99_Generative_AI_Enters_Mass_Use.webp"
+    },
+    {
+      "number": 100,
+      "slug": "examine-the-evidence",
+      "title": "Examine the Evidence",
+      "description": "History is not simply a list of dates. Ask what happened, what changed, whose perspectives survive, and what evidence supports a claim.",
+      "date": "Your turn",
+      "image": "assets/images/timeline/ETP_Timeline_100_Examine_the_Evidence.webp"
+    }
+  ]
+}

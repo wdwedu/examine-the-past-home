@@ -1,0 +1,17 @@
+const assert=require('node:assert/strict');
+const p=require('../assets/newsletter-policy.js');
+const start=1700000000000,minute=60000,week=7*24*60*minute;
+let s=p.initial();
+s=p.advance(s,minute-1,start);assert.equal(p.eligible(s,start),false,'Do not prompt before one active minute');
+s=p.advance(s,1,start);assert.equal(p.eligible(s,start),true);
+s=p.opened(s,start);assert.equal(s.shows,1);assert.equal(p.eligible(s,start),false,'No immediate second invitation');
+s=p.dismissed(s,start);s=p.normalize(JSON.parse(JSON.stringify(s)),start+minute);
+s=p.advance(s,10*minute-1,start+10*minute);assert.equal(p.eligible(s,start+10*minute),false);
+s=p.advance(s,1,start+10*minute);assert.equal(p.eligible(s,start+10*minute),true);
+s=p.opened(s,start+10*minute);s=p.dismissed(s,start+10*minute);assert.equal(s.shows,2);
+assert.equal(p.eligible(s,start+week-1),false,'Respect the seven-day cooldown');
+s=p.normalize(s,start+10*minute+week);assert.equal(s.shows,0);assert.equal(p.eligible(s,start+10*minute+week),false,'Begin a fresh browsing minute after cooldown');
+s=p.suppress(s,start+week);s=p.advance(s,100*minute,start+10*week);assert.equal(p.eligible(s,start+10*week),false,'Already subscribed suppresses future automatic invitations');
+assert.equal(p.normalize({version:1,shows:2},start).cooldownUntil,start+week,'Interrupted second invitation remains capped');
+assert.deepEqual(p.normalize(null,start),p.initial());
+console.log('PASS: 60-second first invitation; one retry after 10 active minutes; seven-day cooldown; persisted suppression; interrupted-session recovery.');

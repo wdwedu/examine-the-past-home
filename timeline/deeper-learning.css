@@ -65,3 +65,16 @@ main.timeline .event[hidden],main.timeline .era[hidden]{display:none!important}
 @media(max-width:650px){.timeline-search{margin:18px 12px;padding:16px}.detail-stepper{gap:8px}.detail-stepper button{padding:12px 10px;font-size:13px}.detail-position{font-size:12px}}
 
 #modal .close{background:#ffe800!important;color:#111!important;border-color:#ffe800!important}
+
+/* Sharing belongs to the selected historical moment, beneath its overview. */
+#modal .moment-share{margin:22px 0;padding:18px;border:1px solid #456144;background:#111d15;border-radius:12px}
+#modal .moment-share h4{color:#ffe800;font:700 17px/1.5 Georgia,serif;text-transform:none;letter-spacing:0;margin:0 0 14px}
+.moment-share-row{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}
+#modal .moment-share-control{min-width:0;min-height:74px;box-sizing:border-box;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;padding:10px 4px;border:1px solid #51664b;border-radius:9px;background:#0b110d;color:#f4f0dc!important;text-decoration:none;font:13px/1.3 Georgia,serif;cursor:pointer;text-align:center}
+#modal .moment-share-control img{display:block;width:32px!important;height:32px!important;object-fit:contain;filter:none!important}
+#modal .moment-share-control:hover{border-color:#ffe800;background:#23301c}
+#modal .moment-share-control:focus-visible{outline:3px solid #a4ff3b;outline-offset:3px}
+#modal .moment-share-status{font:13px/1.5 Georgia,serif!important;color:#d7f4b4!important;margin:10px 0 0!important}.moment-share-status:empty{display:none}
+#modal .moment-share-copy{width:100%;box-sizing:border-box;background:#fff7df;color:#182010;padding:10px;font:14px/1.5 Georgia,serif;margin-top:12px;overflow-wrap:anywhere}
+.moment-share [hidden]{display:none!important}
+@media(max-width:600px){.moment-share-row{grid-template-columns:repeat(3,minmax(0,1fr))}#modal .moment-share{padding:14px}#modal .moment-share-control{min-height:76px;font-size:13px}}

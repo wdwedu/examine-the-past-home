@@ -4,6 +4,9 @@
   const chart = document.getElementById('modalChart');
   const buttons = [...document.querySelectorAll('main.timeline .explore')];
   let token = 0, opener = null, coastline;
+  const siteRoot=new URL('../',document.currentScript.src);
+  const shareMount=document.createElement('section');shareMount.className='moment-share';shareMount.setAttribute('aria-label','Share this moment in history');
+  document.getElementById('modalText').after(shareMount);
   const catalog = fetch('media/deeper-learning.json?v=20261114-2').then(r => {
     if (!r.ok) throw new Error('Media catalog unavailable');
     return r.json();
@@ -24,7 +27,7 @@
   const heading = text => el('h4', '', text);
   const mount = el('section', 'deeper-media');
   mount.setAttribute('aria-label', 'Watch and investigate');
-  document.getElementById('modalText').after(mount);
+  shareMount.after(mount);
 
   const hero = el('figure', 'detail-hero');
   document.getElementById('modalText').before(hero);
@@ -76,6 +79,41 @@
   search.addEventListener('input', filter);
   reset.addEventListener('click', () => { search.value = ''; filter(); search.focus(); });
   filter();
+
+  function momentHash(slug) {
+    const url=new URL(location.href),params=new URLSearchParams(url.hash.slice(1));
+    params.set('moment',slug);url.hash=params.toString();history.replaceState(history.state,'',url.href);
+  }
+  function renderSharing(card) {
+    const slug=card.dataset.moment,title=card.querySelector('h3').textContent;
+    const text=card.querySelector('.event-body>p').textContent;
+    const url=new URL('timeline/moments/'+slug+'/',siteRoot).href;
+    const image=new URL(card.querySelector('.visual img').getAttribute('src'),location.href).href;
+    const encode=encodeURIComponent;
+    shareMount.replaceChildren(heading('Share this moment in history'));
+    const row=el('div','moment-share-row');
+    const targets=[
+      ['Facebook','facebook','https://www.facebook.com/sharer/sharer.php?u='+encode(url)],
+      ['X','x','https://twitter.com/intent/tweet?url='+encode(url)+'&text='+encode(title)],
+      ['LinkedIn','linkedin','https://www.linkedin.com/sharing/share-offsite/?url='+encode(url)],
+      ['Pinterest','pinterest','https://www.pinterest.com/pin/create/button/?url='+encode(url)+'&media='+encode(image)+'&description='+encode(title+' — '+text)],
+      ['Email','email','mailto:?subject='+encode(title+' | Examine the Past')+'&body='+encode(text+'\n\nExplore this moment in history: '+url)]
+    ];
+    function content(node,name,icon){const img=el('img');img.src=new URL('assets/social/'+icon+'.svg',siteRoot).href;img.alt='';img.width=32;img.height=32;node.append(img,el('span','',name));node.title=name;}
+    targets.forEach(([name,icon,href])=>{const a=el('a','moment-share-control');a.href=href;a.setAttribute('aria-label','Share '+title+' '+(name==='Email'?'by email':'on '+name));if(name!=='Email'){a.target='_blank';a.rel='noopener noreferrer';}content(a,name,icon);row.append(a);});
+    const copy=el('button','moment-share-control');copy.type='button';copy.setAttribute('aria-label','Copy link to '+title);content(copy,'Copy link','copy');row.append(copy);
+    const status=el('p','moment-share-status');status.setAttribute('role','status');
+    const field=el('textarea','moment-share-copy');field.value=url;field.readOnly=true;field.hidden=true;field.rows=2;field.setAttribute('aria-label','Moment share link');
+    copy.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(url);status.textContent='Link copied to '+title+'.';}catch{field.hidden=false;field.focus();field.select();status.textContent='Copy the selected link below.';}});
+    shareMount.append(row,status,field);momentHash(slug);
+  }
+  function routeMoment(){
+    const slug=new URLSearchParams(location.hash.slice(1)).get('moment');if(!slug)return;
+    const target=buttons.find(b=>b.closest('.event').dataset.moment===slug);if(!target)return;
+    search.value='';filter();
+    target.closest('.event').scrollIntoView({block:'center',behavior:'auto'});target.click();
+  }
+  window.addEventListener('hashchange',routeMoment);
 
   function videoCard(record, index) {
     const card = el('article', 'learning-video');
@@ -172,6 +210,7 @@
     chart.replaceChildren(); chart.style.display = 'none';
     mount.replaceChildren(heading('Watch and investigate'),el('p','','Loading selected learning resources…'));
     const card = button.closest('.event');
+    renderSharing(card);
     hero.replaceChildren();
     const banner = card.querySelector('.visual img');
     if (banner) {
@@ -211,7 +250,7 @@
       mount.replaceChildren(heading('Learning resources'),el('p','','The media list is temporarily unavailable. The historical overview and source reading below are still available.'));
     }
   }
-  function stop() {++token;window.ETPClassroom?.clear();mount.querySelectorAll('iframe').forEach(f=>f.remove());if(opener?.isConnected)opener.focus();}
+  function stop() {const u=new URL(location.href),p=new URLSearchParams(u.hash.slice(1));p.delete('moment');u.hash=p.toString();history.replaceState(history.state,'',u.href);++token;window.ETPClassroom?.clear();mount.querySelectorAll('iframe').forEach(f=>f.remove());if(opener?.isConnected)opener.focus();}
   modal.addEventListener('keydown',event=>{
     if(event.key!=='Tab')return;
     const focusable=[...modal.querySelectorAll('button:not(:disabled),a[href],iframe,input:not(:disabled),select:not(:disabled),textarea:not(:disabled),summary')].filter(n=>n.getClientRects().length);
@@ -220,4 +259,5 @@
     else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus();}
   });
   window.ETPTimelineDetails={render,stop,catalog};
+  if(document.readyState==='complete')routeMoment();else document.addEventListener('DOMContentLoaded',routeMoment,{once:true});
 })();
