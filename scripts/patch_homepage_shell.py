@@ -43,7 +43,7 @@ nav='''<nav aria-label="Primary navigation" class="site-nav final-nav etp-nav-vn
 
   <a class="nav-item image-nav" href="#timeline"><span class="nav-label">Timeline</span><span class="emoji-icon">⏳</span></a>
   <a class="nav-item image-nav" href="#history-maps"><span class="nav-label">History Maps</span><span class="emoji-icon">🗺️</span></a>
-  <a class="nav-item image-nav" href="#today-history"><span class="nav-label">Today in History</span><span class="emoji-icon">📅</span></a>
+  <a class="nav-item image-nav" href="#today-history"><span class="nav-label">On This Day in History</span><span class="emoji-icon">📅</span></a>
   <a class="nav-item image-nav" href="#history-unlocked"><span class="nav-label">History Unlocked</span><span class="emoji-icon">🎮</span></a>
 
   <div class="nav-drop">
@@ -82,11 +82,11 @@ directory='''<div class="etp-directory" id="etp-directory">
 
 <section class="etp-appetizer" id="world-religions"><div class="etp-appetizer-inner"><div><div class="etp-appetizer-kicker">History Hub</div><h2>🕊️ World Religions</h2><p>Study belief systems historically and respectfully, including origins, texts, practices, institutions, change, and relationships with society and power.</p><div class="etp-appetizer-actions"><a class="etp-appetizer-btn" href="lessons/world-religions/" data-etp-transition="mosaic">Explore World Religions</a></div></div><div class="etp-appetizer-card"><h3>Existing progression preserved</h3><ul class="etp-appetizer-list"><li>Start Here through V8</li><li>Interactive Mini Labs and deeper lessons</li><li>Comparative historical inquiry</li></ul></div></div></section>
 
-<section class="etp-appetizer" id="timeline"><div class="etp-appetizer-inner"><div><div class="etp-appetizer-kicker">Explore</div><h2>⏳ Interactive Timeline</h2><p>Trace chronology, turning points, cause and effect, and connections across eras.</p><div class="etp-appetizer-actions"><a class="etp-appetizer-btn" href="timeline/" data-etp-transition="timeline">Open the Timeline</a></div></div><div class="etp-appetizer-card"><h3>Build chronological thinking</h3><ul class="etp-appetizer-list"><li>Events in context</li><li>Cause and consequence</li><li>Links into lessons and games</li></ul></div></div></section>
+<section class="etp-appetizer" id="timeline"><div class="etp-appetizer-inner"><div><div class="etp-appetizer-kicker">Explore</div><h2>⏳ Historical Timeline</h2><p>Trace chronology, turning points, cause and effect, and connections across eras.</p><div class="etp-appetizer-actions"><a class="etp-appetizer-btn" href="timeline/" data-etp-transition="timeline">Open the Timeline</a></div></div><div class="etp-appetizer-card"><h3>Build chronological thinking</h3><ul class="etp-appetizer-list"><li>Events in context</li><li>Cause and consequence</li><li>Links into lessons and games</li></ul></div></div></section>
 
 <section class="etp-appetizer" id="history-maps"><div class="etp-appetizer-inner"><div><div class="etp-appetizer-kicker">Explore</div><h2>🗺️ History Maps</h2><p>Investigate borders, movement, migration, trade, conflict, empire, and change through interactive historical geography.</p><div class="etp-appetizer-actions"><a class="etp-appetizer-btn" href="maps/" data-etp-transition="map">Explore History Maps</a></div></div><div class="etp-appetizer-card"><h3>Map the past</h3><ul class="etp-appetizer-list"><li>Historical geography</li><li>Spatial evidence</li><li>Connections to Geography and Map Quest</li></ul></div></div></section>
 
-<section class="etp-appetizer" id="today-history"><div class="etp-appetizer-inner"><div><div class="etp-appetizer-kicker">Explore</div><h2>📅 Today in History</h2><p>Use today's date as a doorway into people, events, themes, maps, timelines, and related lessons.</p><div class="etp-appetizer-actions"><a class="etp-appetizer-btn" href="today/" data-etp-transition="timeline">See Today in History</a></div></div><div class="etp-appetizer-card"><h3>A daily history doorway</h3><ul class="etp-appetizer-list"><li>Events and anniversaries</li><li>Related learning paths</li><li>Connections across the site</li></ul></div></div></section>
+<section class="etp-appetizer" id="today-history"><div class="etp-appetizer-inner"><div><div class="etp-appetizer-kicker">Explore</div><h2>📅 On This Day in History</h2><p>Use today's date as a doorway into people, events, themes, maps, timelines, and related lessons.</p><div class="etp-appetizer-actions"><a class="etp-appetizer-btn" href="today/" data-etp-transition="timeline">See On This Day in History</a></div></div><div class="etp-appetizer-card"><h3>A daily history doorway</h3><ul class="etp-appetizer-list"><li>Events and anniversaries</li><li>Related learning paths</li><li>Connections across the site</li></ul></div></div></section>
 
 <section class="etp-appetizer" id="history-unlocked"><div class="etp-appetizer-inner"><div><div class="etp-appetizer-kicker">Interactive Games</div><h2>🎮 History Unlocked</h2><p>Turn historical thinking into challenges, mysteries, maps, source analysis, chronology, and immersive games.</p><div class="etp-appetizer-actions"><a class="etp-appetizer-btn" href="games/" data-etp-transition="time">Enter History Unlocked</a></div></div><div class="etp-appetizer-card"><h3>Learn by doing</h3><ul class="etp-appetizer-list"><li>Time Rush and Map Quest</li><li>Case Files and Source Lab</li><li>Escape and Build the Past experiences</li></ul></div></div></section>
 
@@ -123,9 +123,9 @@ grid='''<div class="footer-grid footer-master-grid">
 </section>
 <section class="footer-group">
   <h3 class="footer-heading">EXPLORE</h3>
-  <a class="mega-footer-link" href="timeline/">Interactive Timeline</a>
+  <a class="mega-footer-link" href="timeline/">Historical Timeline</a>
   <a class="mega-footer-link" href="maps/">History Maps</a>
-  <a class="mega-footer-link" href="today/">Today in History</a>
+  <a class="mega-footer-link" href="today/">On This Day in History</a>
   <a class="mega-footer-link" href="games/">History Unlocked</a>
   <a class="mega-footer-link" href="#current-events">Current Events</a>
   <a class="mega-footer-link" href="teacher-tools/movies-in-the-classroom/">Historical Movies</a>

@@ -22,4 +22,4 @@ if "site-shell.js" not in s:
 # Remove old hard-coded GitHub preview prefix if it appears in links generated inside the timeline.
 s=s.replace('https://wdwedu.github.io/examine-the-past-home/','https://examinethepast.com/')
 p.write_text(s,encoding="utf-8")
-print("Integrated existing Interactive Timeline into Examine the Past universal shell.")
+print("Integrated existing Historical Timeline into Examine the Past universal shell.")

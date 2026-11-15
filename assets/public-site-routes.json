@@ -3736,7 +3736,7 @@
   },
   {
     "url": "/teacher-tools/",
-    "title": "Student and Teacher Tools",
+    "title": "Teacher and Student Tools",
     "group": "Teacher Tools"
   },
   {
@@ -3746,12 +3746,12 @@
   },
   {
     "url": "/timeline/",
-    "title": "History Timeline",
+    "title": "Interactive Historical Timeline",
     "group": "Timeline"
   },
   {
     "url": "/today/",
     "title": "On This Day in History",
-    "group": "Today in History"
+    "group": "On This Day in History"
   }
 ]

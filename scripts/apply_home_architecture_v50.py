@@ -31,7 +31,7 @@ nav.write_text('''<nav class="icon-nav etp-final-nav" aria-label="Examine the Pa
 <a class="nav-item" href="/examine-the-past-home/lessons/" target="_top"><span class="nav-label">History Hub</span><span class="nav-icon">🎓</span></a>
 <a class="nav-item" href="/examine-the-past-home/timeline/" target="_top"><span class="nav-label">Timeline</span><span class="nav-icon">⏳</span></a>
 <a class="nav-item" href="/examine-the-past-home/maps/" target="_top"><span class="nav-label">History Maps</span><span class="nav-icon">🗺️</span></a>
-<a class="nav-item" href="/examine-the-past-home/today/" target="_top"><span class="nav-label">Today in History</span><span class="nav-icon">📅</span></a>
+<a class="nav-item" href="/examine-the-past-home/today/" target="_top"><span class="nav-label">On This Day in History</span><span class="nav-icon">📅</span></a>
 <a class="nav-item" href="/examine-the-past-home/games/" target="_top"><span class="nav-label">History Unlocked</span><span class="nav-icon">🎮</span></a>
 <a class="nav-item" href="/examine-the-past-home/teacher-tools/" target="_top"><span class="nav-label">Teacher Tools</span><span class="nav-icon">🧰</span></a>
 <a class="nav-item" href="https://www.etsy.com/shop/examinethepast"><span class="nav-label">Shop History</span><span class="nav-icon">🛍️</span></a>

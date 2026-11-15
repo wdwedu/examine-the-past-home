@@ -29,7 +29,7 @@ header.innerHTML='<div class="etp-header-inner"><nav class="etp-icon-nav" aria-l
 '<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('lessons/')+'" data-etp-transition="archive">🎓</a><span class="etp-tip">History Hub</span></div>'+
 '<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('timeline/')+'" data-etp-transition="timeline">⏳</a><span class="etp-tip">Timeline</span></div>'+
 '<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('maps/')+'" data-etp-transition="map">🗺️</a><span class="etp-tip">History Maps</span></div>'+
-'<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('today/')+'" data-etp-transition="stamp">📅</a><span class="etp-tip">Today in History</span></div>'+
+'<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('today/')+'" data-etp-transition="stamp">📅</a><span class="etp-tip">On This Day in History</span></div>'+
 '<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('games/')+'" data-etp-transition="time">🎮</a><span class="etp-tip">Games</span></div>'+
 '<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('teacher-tools/')+'" data-etp-transition="page">🧰</a><span class="etp-tip">Teacher Tools</span></div>'+
 '<div class="etp-nav-item"><a class="etp-icon-btn" href="'+u('games/presidential-challenges/')+'" data-etp-transition="page" aria-label="Presidents"><img class="etp-nav-flag" src="'+u('assets/us-flag.svg')+'" alt=""></a><span class="etp-tip">Presidents</span></div>'+
@@ -154,7 +154,7 @@ panel.innerHTML='<div class="etp-mobile-install"><button type="button" data-etp-
 '<a href="'+u('lessons/world-religions/')+'" data-etp-transition="mosaic"><span>🕊️</span><b>World Religions</b></a>'+
 '<a href="'+u('timeline/')+'" data-etp-transition="timeline"><span>⏳</span><b>Timeline</b></a>'+
 '<a href="'+u('maps/')+'" data-etp-transition="map"><span>🗺️</span><b>History Maps</b></a>'+
-'<a href="'+u('today/')+'" data-etp-transition="stamp"><span>📅</span><b>Today in History</b></a>'+
+'<a href="'+u('today/')+'" data-etp-transition="stamp"><span>📅</span><b>On This Day in History</b></a>'+
 '<a href="'+u('games/')+'" data-etp-transition="time"><span>🎮</span><b>Games</b></a>'+
 '<a href="'+u('teacher-tools/')+'" data-etp-transition="page"><span>🧰</span><b>Teacher Tools</b></a>'+
 '<button type="button" data-etp-share><span>↗</span><b>Share</b></button>'+
@@ -165,8 +165,8 @@ panel.innerHTML='<div class="etp-mobile-install"><button type="button" data-etp-
 // Sketch-matched site map: three open columns above a full-width History Hub.
 const menuSections=[
  {title:"Home",icon:"🌎",href:"",links:[["About","about/"],["Frequently Asked Questions","faq/"],["Contact","/#contact-section"],["Install App ↓","@install"]]},
- {title:"Student & Teacher Tools",icon:"🛠️",href:"teacher-tools/",links:[
-  ["On This Day in History","today/"],["History Timeline","timeline/"],["Interactive History Map","maps/"],
+ {title:"Teacher and Student Tools",icon:"🛠️",href:"teacher-tools/",links:[
+  ["On This Day in History","today/"],["Interactive Historical Timeline","timeline/"],["Interactive History Map","maps/"],
   ["Classroom Management","teacher-tools/classroom-management/"],
   ["Curriculum & Lesson Design","teacher-tools/curriculum-design/"],
   ["Learning Styles & Strategies Lab","teacher-tools/learning-styles/"],
@@ -208,7 +208,7 @@ const grades=[
 const extensions=[
  ["Black History","lessons/curriculum/black-history/"],
  ["United States Presidents","lessons/curriculum/united-states-presidents/"],
- ["Hispanic & Latino History","lessons/curriculum/hispanic-american-history/"],
+ ["Hispanic American History","lessons/curriculum/hispanic-american-history/"],
  ["World Religions","lessons/curriculum/world-religions-comparative-history/"]
 ];
 const advanced=[
@@ -291,19 +291,19 @@ footer.innerHTML='<div class="etp-footer-grid"><div><div class="etp-footer-title
 '<a href="'+u('lessons/curriculum/grade-9-united-states-history/')+'">9th Grade · U.S. History</a>'+
 '<a href="'+u('lessons/curriculum/grade-12-social-studies-electives/')+'">12th Grade · Electives</a>'+
 '<a href="'+u('lessons/curriculum/black-history/')+'">Black History</a>'+
-'<a href="'+u('lessons/curriculum/hispanic-american-history/')+'">Hispanic &amp; Latino History</a>'+
+'<a href="'+u('lessons/curriculum/hispanic-american-history/')+'">Hispanic American History</a>'+
 '<a href="'+u('lessons/curriculum/ap-us-history-preparation/')+'">AP U.S. History</a>'+
 '<a href="'+u('lessons/curriculum/ap-world-history-preparation/')+'">AP World History</a>'+
 '<a href="'+u('lessons/curriculum/ap-government-preparation/')+'">AP Government &amp; Politics</a></div>'+
 '<div><div class="etp-footer-title">Explore</div>'+
-'<a href="'+u('timeline/')+'">Interactive Timeline</a>'+
+'<a href="'+u('timeline/')+'">Historical Timeline</a>'+
 '<a href="'+u('maps/')+'">History Maps</a>'+
-'<a href="'+u('today/')+'">Today in History</a>'+
+'<a href="'+u('today/')+'">On This Day in History</a>'+
 '<a href="'+u('games/')+'">Games</a>'+
 '<a href="'+u('games/presidential-challenges/')+'">Presidents</a>'+
 '<a href="'+u('games/black-history/')+'">Black History Games</a>'+
 '<a href="'+u('current-events/')+'">Current Events</a></div>'+
-'<div><div class="etp-footer-title">Teacher Tools</div><a href="'+u('teacher-tools/blooms-taxonomy/')+'">Bloom’s Taxonomy</a><a href="'+u('teacher-tools/classroom-management/')+'">Classroom Management</a><a href="'+u('teacher-tools/movies-in-the-classroom/')+'">Movies in the Classroom</a><a href="'+u('licensing/')+'">Resource Licensing</a><a href="'+u('teacher-tools/learning-styles/')+'">Learning Styles & Strategies Lab</a><a href="'+u('teacher-tools/')+'">Student &amp; Teacher Tools</a><a href="'+u('sitemap/')+'">Site Map</a><a href="'+u('faq/')+'">FAQ</a></div>'+
+'<div><div class="etp-footer-title">Teacher Tools</div><a href="'+u('teacher-tools/blooms-taxonomy/')+'">Bloom’s Taxonomy</a><a href="'+u('teacher-tools/classroom-management/')+'">Classroom Management</a><a href="'+u('teacher-tools/movies-in-the-classroom/')+'">Movies in the Classroom</a><a href="'+u('licensing/')+'">Resource Licensing</a><a href="'+u('teacher-tools/learning-styles/')+'">Learning Styles & Strategies</a><a href="'+u('teacher-tools/')+'">Teacher and Student Tools</a><a href="'+u('sitemap/')+'">Site Map</a><a href="'+u('faq/')+'">FAQ</a></div>'+
 '<div><div class="etp-footer-title">Legal &amp; Site</div><a href="'+u('affiliate-disclosure/')+'">Affiliate Disclosure</a><a href="'+u('careers/')+'">Careers &amp; Partnerships</a><a href="'+u('copyright/')+'">Copyright Policy</a><a href="'+u('copyright/')+'#rights-concerns">DMCA Notice</a><a href="'+u('privacy/')+'">Privacy Policy</a><a href="'+u('terms/')+'">Terms of Use</a><a href="'+u('cookies/')+'">Cookie Policy</a><a href="'+u('about/')+'">About</a><a href="'+u('')+'#contact-section">Contact Us</a>'+
 '<button class="etp-footer-install" type="button" data-etp-action="install">Install the App ↓</button></div></div>'+
 '<div class="etp-community-wrap" id="community"><div class="etp-community-title">JOIN OUR COMMUNITY</div><div class="etp-community etp-community-logos">'+

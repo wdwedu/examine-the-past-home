@@ -2,7 +2,7 @@
 (()=>{
 const root=document.getElementById("site-route-groups"),field=document.getElementById("site-search"),status=document.getElementById("site-count");
 const featured=[
-["Main destinations",[["Home","/"],["History Hub — All Courses","/lessons/"],["Teacher Tools","/teacher-tools/"],["History Unlocked Games","/games/"],["Maps","/maps/"],["Interactive Timeline","/timeline/"],["Today in History","/today/"],["FAQ","/faq/"]]],
+["Main destinations",[["Home","/"],["History Hub — All Courses","/lessons/"],["Teacher and Student Tools","/teacher-tools/"],["Games","/games/"],["Maps","/maps/"],["Historical Timeline","/timeline/"],["On This Day in History","/today/"],["FAQ","/faq/"]]],
 ["Site Information",[["About Examine the Past","/about/"],["Privacy Policy","/privacy/"],["Terms of Use","/terms/"],["Cookie Policy","/cookies/"],["Affiliate Disclosure","/affiliate-disclosure/"],["Copyright Policy","/copyright/"],["Digital Products & Refunds","/digital-products/"],["Resource Licensing","/licensing/"],["Careers and Partnerships","/careers/"],["Contact","/#contact-section"]]]
 ];
 let records=featured.flatMap(([group,items])=>items.map(([title,url])=>({title,url,group})));

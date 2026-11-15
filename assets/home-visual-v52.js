@@ -3,14 +3,14 @@ const qs=s=>document.querySelector(s);
 const hero=[...document.querySelectorAll("h1,h2")].find(n=>/EXAMINE THE PAST/i.test((n.textContent||"").trim()));if(hero)hero.classList.add("etp-main-hero-title");
 const contact=qs("#contact-section h1,#contact-section h2");if(contact)contact.textContent="Contact";
 const toolCopy=[
-["Interactive Timeline","Travel across eras, compare turning points, and see how events connect across centuries rather than in isolation."],
+["Historical Timeline","Travel across eras, compare turning points, and see how events connect across centuries rather than in isolation."],
 ["History Maps","Use location, borders, movement, resources, trade, and terrain as historical evidence."],
-["Today in History","Choose a date and uncover the people, events, inventions, conflicts, and cultural moments tied to it."],
+["On This Day in History","Choose a date and uncover the people, events, inventions, conflicts, and cultural moments tied to it."],
 ["History Unlocked","Enter interactive games and challenges built around chronology, evidence, geography, and historical reasoning."],
 ["Bloom’s Taxonomy","Build stronger questions, objectives, tasks, and assessments across increasing levels of thinking."],
 ["Movies in the Classroom","Turn historical film into structured observation, sourcing, comparison, discussion, and evidence-based writing."],
 ["Classroom Management","Use practical classroom systems, routines, planning tools, and organization strategies that support learning."],
-["Learner Supports","Build access through scaffolds, UDL-informed supports, flexible pathways, and learner-centered instructional choices."]
+["Learning Styles & Strategies","Build access through scaffolds, UDL-informed supports, flexible pathways, and learner-centered instructional choices."]
 ];
 document.querySelectorAll("#teacher-tools-v50 .etp-tool-card").forEach((card,i)=>{if(toolCopy[i]){const h=card.querySelector("h3"),p=card.querySelector("p");if(h)h.textContent=toolCopy[i][0];if(p)p.textContent=toolCopy[i][1]}});
 const hubCopy=[

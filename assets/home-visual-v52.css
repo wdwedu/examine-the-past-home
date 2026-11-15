@@ -98,3 +98,12 @@ body>#etpSiteFooter+*{background:#000!important}
 #home-games-v54 .etp-home-game-blue{background:linear-gradient(145deg,#163856,#08121e)}
 #home-games-v54 .etp-home-game-coming:hover{transform:translateY(-5px) scale(1.008)}
 @media(max-width:800px){#home-games-v54 .etp-home-game-card{min-height:225px}#home-games-v54 .etp-home-game-portrait{width:47%;height:80%}}
+
+/* Consistent title-case homepage section headings; the brand H1 stays uppercase. */
+:is(#teacher-tools-v50,#home-games-v54,#testimonials,#history-hub-v50,#shops,#about-us,#contact-section) h2:is(.etp-v50-title,.section-title,.etp-appetizer-title),
+#about-us .etp-appetizer-inner>div>h2,#contact-section .contact-wrap>h2,
+#contact-section h2{
+ font:700 clamp(1.9rem,6.8vw,5rem)/1.12 Georgia,"Times New Roman",serif!important;
+ text-transform:none!important;letter-spacing:normal!important;white-space:normal!important;
+ max-width:100%;overflow-wrap:normal;text-wrap:balance;
+}
