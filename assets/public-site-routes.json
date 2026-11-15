@@ -1180,26 +1180,6 @@
     "group": "History Hub · Courses and Lessons"
   },
   {
-    "url": "/lessons/curriculum/grade-5-early-american-history/unit-assessments/",
-    "title": "Grade 5 · Auto-Graded Unit Assessments",
-    "group": "History Hub · Courses and Lessons"
-  },
-  {
-    "url": "/lessons/curriculum/grade-6-ancient-world-history/unit-assessments/",
-    "title": "Grade 6 Ancient World — Unit Assessments",
-    "group": "History Hub · Courses and Lessons"
-  },
-  {
-    "url": "/lessons/curriculum/grade-7-world-cultures-geography/unit-assessments/",
-    "title": "Grade 7 World Cultures — Unit Assessments",
-    "group": "History Hub · Courses and Lessons"
-  },
-  {
-    "url": "/lessons/curriculum/grade-8-early-united-states-history/unit-assessments/",
-    "title": "Grade 8 United States History — Unit Assessments",
-    "group": "History Hub · Courses and Lessons"
-  },
-  {
     "url": "/lessons/curriculum/grade-9-united-states-history/unit-assessments/",
     "title": "Grade 9 United States History — Unit Assessments",
     "group": "History Hub · Courses and Lessons"
@@ -2962,6 +2942,26 @@
   {
     "url": "/lessons/curriculum/grade-5-early-american-history/unit-5-1-assessment/",
     "title": "Unit 5.1 Assessment — Indigenous North America",
+    "group": "History Hub · Courses and Lessons"
+  },
+  {
+    "url": "/lessons/curriculum/grade-5-early-american-history/unit-assessments/",
+    "title": "Unit Assessment",
+    "group": "History Hub · Courses and Lessons"
+  },
+  {
+    "url": "/lessons/curriculum/grade-6-ancient-world-history/unit-assessments/",
+    "title": "Unit Assessment",
+    "group": "History Hub · Courses and Lessons"
+  },
+  {
+    "url": "/lessons/curriculum/grade-7-world-cultures-geography/unit-assessments/",
+    "title": "Unit Assessment",
+    "group": "History Hub · Courses and Lessons"
+  },
+  {
+    "url": "/lessons/curriculum/grade-8-early-united-states-history/unit-assessments/",
+    "title": "Unit Assessment",
     "group": "History Hub · Courses and Lessons"
   },
   {
