@@ -190,20 +190,20 @@
         "Explain why geography is an influence, not a destiny."
       ],
       "options": [
-        "Culture develops through interactions among environment, history, and human choices",
         "Mountains always produce one political system",
+        "Culture develops through interactions among environment, history, and human choices",
         "Culture depends entirely on temperature"
       ],
-      "correct": 0,
+      "correct": 1,
       "checks": [
         {
           "prompt": "Which claim best avoids geographic determinism?",
           "options": [
-            "Culture develops through interactions among environment, history, and human choices",
             "Mountains always produce one political system",
+            "Culture develops through interactions among environment, history, and human choices",
             "Culture depends entirely on temperature"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "prompt": "Which example shows people adapting rather than being determined by terrain?",
@@ -265,20 +265,20 @@
         "State a question that a landscape image alone cannot answer."
       ],
       "options": [
-        "It may hide unequal experiences around it",
         "It reveals all residents’ beliefs",
-        "One building represents every historical era"
+        "One building represents every historical era",
+        "It may hide unequal experiences around it"
       ],
-      "correct": 0,
+      "correct": 2,
       "checks": [
         {
           "prompt": "What is a limitation of studying one historic building?",
           "options": [
-            "It may hide unequal experiences around it",
             "It reveals all residents’ beliefs",
-            "One building represents every historical era"
+            "One building represents every historical era",
+            "It may hide unequal experiences around it"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "prompt": "Which evidence would help establish how a plaza's meaning changed?",
@@ -415,20 +415,20 @@
         "Evaluate a claim that population change proves prosperity."
       ],
       "options": [
-        "Counting methods, dates, or populations covered may differ",
         "The larger number is always correct",
+        "Counting methods, dates, or populations covered may differ",
         "Counts always represent every resident"
       ],
-      "correct": 0,
+      "correct": 1,
       "checks": [
         {
           "prompt": "Why might two censuses disagree?",
           "options": [
-            "Counting methods, dates, or populations covered may differ",
             "The larger number is always correct",
+            "Counting methods, dates, or populations covered may differ",
             "Counts always represent every resident"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "prompt": "Why should forced Atlantic transportation not be described as ordinary immigration?",
@@ -490,20 +490,20 @@
         "Explain why material objects alone cannot define a community."
       ],
       "options": [
-        "Some connections to a homeland alongside new experiences",
         "Only one unchanged custom",
-        "All cultural connections disappear"
+        "All cultural connections disappear",
+        "Some connections to a homeland alongside new experiences"
       ],
-      "correct": 0,
+      "correct": 2,
       "checks": [
         {
           "prompt": "What does a diaspora community often maintain?",
           "options": [
-            "Some connections to a homeland alongside new experiences",
             "Only one unchanged custom",
-            "All cultural connections disappear"
+            "All cultural connections disappear",
+            "Some connections to a homeland alongside new experiences"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "prompt": "What does Swahili coastal history demonstrate?",
@@ -640,20 +640,20 @@
         "Challenge a claim that one empire managed every port."
       ],
       "options": [
-        "Seasonal monsoon patterns",
         "A constant wind in one direction",
+        "Seasonal monsoon patterns",
         "Wind had no effect on sailing"
       ],
-      "correct": 0,
+      "correct": 1,
       "checks": [
         {
           "prompt": "What helped sailors time many Indian Ocean voyages?",
           "options": [
-            "Seasonal monsoon patterns",
             "A constant wind in one direction",
+            "Seasonal monsoon patterns",
             "Wind had no effect on sailing"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "prompt": "What did Indian Ocean ports often connect?",
@@ -715,20 +715,20 @@
         "Analyze how a traveler's account may differ from local sources."
       ],
       "options": [
-        "West African cities had important traditions of learning",
         "Only foreign traders produced knowledge",
-        "Trade prevented all scholarship"
+        "Trade prevented all scholarship",
+        "West African cities had important traditions of learning"
       ],
-      "correct": 0,
+      "correct": 2,
       "checks": [
         {
           "prompt": "Which conclusion is best supported by Timbuktu's scholarly history?",
           "options": [
-            "West African cities had important traditions of learning",
             "Only foreign traders produced knowledge",
-            "Trade prevented all scholarship"
+            "Trade prevented all scholarship",
+            "West African cities had important traditions of learning"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "prompt": "Which event links Mali to wider Islamic and trade networks?",
@@ -865,20 +865,20 @@
         "Distinguish formal rules from daily enforcement."
       ],
       "options": [
-        "Who held authority, how decisions were made, and who could participate",
         "How large were their palaces?",
+        "Who held authority, how decisions were made, and who could participate",
         "Did rulers wear the same clothing?"
       ],
-      "correct": 0,
+      "correct": 1,
       "checks": [
         {
           "prompt": "Which question best compares different governments?",
           "options": [
-            "Who held authority, how decisions were made, and who could participate",
             "How large were their palaces?",
+            "Who held authority, how decisions were made, and who could participate",
             "Did rulers wear the same clothing?"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "prompt": "Which feature distinguishes a political institution from a building?",
@@ -940,20 +940,20 @@
         "Explain what is given up by a chosen investment."
       ],
       "options": [
-        "The value of the next-best option given up",
         "Only the amount of money spent",
-        "Every possible benefit at once"
+        "Every possible benefit at once",
+        "The value of the next-best option given up"
       ],
-      "correct": 0,
+      "correct": 2,
       "checks": [
         {
           "prompt": "What does opportunity cost identify?",
           "options": [
-            "The value of the next-best option given up",
             "Only the amount of money spent",
-            "Every possible benefit at once"
+            "Every possible benefit at once",
+            "The value of the next-best option given up"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "prompt": "What is an opportunity cost of building a road instead of a canal?",
@@ -1090,20 +1090,20 @@
         "Explain why religious labels do not eliminate internal diversity."
       ],
       "options": [
-        "Religious practices vary across places and change through historical interactions",
         "Every tradition has only one unchanging form",
+        "Religious practices vary across places and change through historical interactions",
         "A sacred building proves every person’s beliefs"
       ],
-      "correct": 0,
+      "correct": 1,
       "checks": [
         {
           "prompt": "Which conclusion shows respectful historical analysis?",
           "options": [
-            "Religious practices vary across places and change through historical interactions",
             "Every tradition has only one unchanging form",
+            "Religious practices vary across places and change through historical interactions",
             "A sacred building proves every person’s beliefs"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "prompt": "Which historical method respects diversity within a tradition?",
@@ -1165,20 +1165,20 @@
         "Test a diffusion claim against chronology and sources."
       ],
       "options": [
-        "Ideas move and may be adapted by different communities",
         "Every adoption happens through peaceful trade",
-        "Borrowed ideas always remain unchanged"
+        "Borrowed ideas always remain unchanged",
+        "Ideas move and may be adapted by different communities"
       ],
-      "correct": 0,
+      "correct": 2,
       "checks": [
         {
           "prompt": "What is an accurate description of cultural diffusion?",
           "options": [
-            "Ideas move and may be adapted by different communities",
             "Every adoption happens through peaceful trade",
-            "Borrowed ideas always remain unchanged"
+            "Borrowed ideas always remain unchanged",
+            "Ideas move and may be adapted by different communities"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "prompt": "What happened as paper-making spread?",
@@ -1315,20 +1315,20 @@
         "Evaluate why place alone cannot describe a person's life."
       ],
       "options": [
-        "Environment, resources, institutions, and community choices interact",
         "Daily life depends only on temperature",
+        "Environment, resources, institutions, and community choices interact",
         "Everyone near the sea works in trade"
       ],
-      "correct": 0,
+      "correct": 1,
       "checks": [
         {
           "prompt": "Which explanation is most complete?",
           "options": [
-            "Environment, resources, institutions, and community choices interact",
             "Daily life depends only on temperature",
+            "Environment, resources, institutions, and community choices interact",
             "Everyone near the sea works in trade"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "prompt": "Which statement accurately compares coastal and highland communities?",
@@ -1390,20 +1390,20 @@
         "Support an investment choice while identifying uncertainties."
       ],
       "options": [
-        "Where deposits are represented, not who benefits",
         "The income of every household",
-        "How resources must be distributed"
+        "How resources must be distributed",
+        "Where deposits are represented, not who benefits"
       ],
-      "correct": 0,
+      "correct": 2,
       "checks": [
         {
           "prompt": "Which claim is supported by a mineral-resource map alone?",
           "options": [
-            "Where deposits are represented, not who benefits",
             "The income of every household",
-            "How resources must be distributed"
+            "How resources must be distributed",
+            "Where deposits are represented, not who benefits"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "prompt": "Why might residents near a mine not share its profits?",
