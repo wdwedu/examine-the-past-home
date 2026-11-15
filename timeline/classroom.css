@@ -26,11 +26,11 @@
 
 /* Compact introduction: the historical story begins immediately below it. */
 header.hero{min-height:0!important;height:auto!important;padding:28px 20px 24px!important}
-header.hero .hero-inner{width:100%;max-width:920px}
-header.hero h1{font-size:clamp(28px,5vw,66px)!important;line-height:.98;margin:16px 0!important}
+header.hero .hero-inner{width:100%;max-width:1000px}
+header.hero h1{font-size:clamp(44px,7vw,88px)!important;line-height:.98;margin:16px 0!important}
 header.hero h1 span{margin-bottom:.08em}
-header.hero p{font-size:16px!important;line-height:1.5;margin:0 auto 14px!important;max-width:720px}
-header.hero .guide{margin:16px auto 0!important;gap:8px;grid-template-columns:repeat(4,minmax(0,1fr))}
+header.hero p{font-size:16px!important;line-height:1.5;margin:0 auto 14px!important;max-width:1000px}
+header.hero .guide{margin:16px auto 0!important;max-width:1000px;gap:8px;grid-template-columns:repeat(4,minmax(0,1fr))}
 header.hero .guide-card{padding:11px 12px;border-radius:10px}
 header.hero .guide-card span{font-size:12px;line-height:1.4;margin-top:5px}
 main.timeline>#deep{padding-top:30px!important}
@@ -48,12 +48,14 @@ main.timeline>#deep{padding-top:30px!important}
 
 /* Four informational guide cards retain their lift, with the old key's color energy. */
 header.hero .guide-card{position:relative;isolation:isolate;overflow:hidden;border-color:var(--guide-edge);background:var(--guide-fill);box-shadow:inset 0 1px 0 #ffffff18;transition:transform .24s ease,border-color .24s ease,box-shadow .24s ease}
-header.hero .guide-card:nth-child(1){--guide-fill:linear-gradient(135deg,#163f28,#0b2517);--guide-edge:#43885b}
-header.hero .guide-card:nth-child(2){--guide-fill:linear-gradient(135deg,#705112,#372707);--guide-edge:#b28a31}
-header.hero .guide-card:nth-child(3){--guide-fill:linear-gradient(135deg,#153e72,#0b203e);--guide-edge:#447fb4}
-header.hero .guide-card:nth-child(4){--guide-fill:linear-gradient(135deg,#701e27,#350e16);--guide-edge:#b44f58}
+header.hero .guide-card:nth-child(1){--guide-fill:linear-gradient(135deg,#0b192d,#030910);--guide-edge:#29476a}
+header.hero .guide-card:nth-child(2){--guide-fill:linear-gradient(135deg,#0c2415,#030c07);--guide-edge:#2d593b}
+header.hero .guide-card:nth-child(3){--guide-fill:linear-gradient(135deg,#2b0e15,#0f0408);--guide-edge:#63303b}
+header.hero .guide-card:nth-child(4){--guide-fill:linear-gradient(135deg,#30230c,#100b03);--guide-edge:#715925}
 header.hero .guide-card strong{color:#fff1aa}header.hero .guide-card span{color:#f5f1e4}
 header.hero .guide-card::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(115deg,transparent 15%,#ffffff08 30%,#ffffff70 49%,#ffffff0a 67%,transparent 83%);transform:translateX(-150%);transition:transform .65s ease}
 header.hero .guide-card:hover{transform:translateY(-5px) scale(1.025);border-color:#fff;box-shadow:0 0 0 1px #ffffffb3,0 0 22px #ffffff75,0 12px 26px #0008;background:var(--guide-fill)}
 header.hero .guide-card:hover::before{transform:translateX(150%)}
 @media(prefers-reduced-motion:reduce){header.hero .guide-card,header.hero .guide-card::before{transition:none}header.hero .guide-card:hover{transform:none}header.hero .guide-card::before{display:none}}
+
+@media(min-width:1100px){header.hero .hero-inner>p{white-space:nowrap}}
