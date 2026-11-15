@@ -2167,6 +2167,9 @@
     <loc>https://www.examinethepast.com/maps/</loc>
   </url>
   <url>
+    <loc>https://www.examinethepast.com/today/</loc>
+  </url>
+  <url>
     <loc>https://www.examinethepast.com/current-events/</loc>
   </url>
   <url>
@@ -2549,8 +2552,5 @@
   </url>
   <url>
     <loc>https://www.examinethepast.com/timeline/moments/year-of-africa/</loc>
-  </url>
-  <url>
-    <loc>https://www.examinethepast.com/today/</loc>
   </url>
 </urlset>

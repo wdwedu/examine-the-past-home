@@ -3610,6 +3610,11 @@
     "group": "Maps"
   },
   {
+    "url": "/today/",
+    "title": "On This Day in History",
+    "group": "On This Day in History"
+  },
+  {
     "url": "/current-events/",
     "title": "Current Events",
     "group": "Other History Resources"
@@ -4248,10 +4253,5 @@
     "url": "/timeline/moments/year-of-africa/",
     "title": "Year of Africa",
     "group": "Timeline"
-  },
-  {
-    "url": "/today/",
-    "title": "On This Day in History",
-    "group": "Today in History"
   }
 ]
