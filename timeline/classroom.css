@@ -72,3 +72,6 @@ header.hero h1 .timeline-title-line{white-space:nowrap;margin-bottom:0}
 @media(min-width:761px){header.hero h1 .timeline-title-line{letter-spacing:-.015em}}
 
 header.hero h1 .timeline-title-line{display:block;width:max-content;max-width:100%;margin-inline:auto}
+
+/* Optical alignment of the heading stack; guide and event edges stay fixed. */
+@media(min-width:761px){header.hero .hero-inner>.site-label,header.hero .hero-inner>.eyebrow,header.hero .hero-inner>h1,header.hero .hero-inner>p{transform:translateX(clamp(-24px,-1.8vw,-12px))}}
