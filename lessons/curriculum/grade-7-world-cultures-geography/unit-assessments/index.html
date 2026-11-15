@@ -52,5 +52,5 @@ form.addEventListener('reset',()=>{summary.hidden=true;form.querySelectorAll('.g
 fetch('../../../../assets/grade7-grade5-template-data.json?v=20261113-grade7-v4').then(r=>{if(!r.ok)throw Error('Data unavailable');return r.json()}).then(d=>{data=d;Object.keys(d.units).forEach(id=>{const opt=document.createElement('option');opt.value=id;opt.textContent=id+' · '+id.slice(2)+' / 6 — World Cultures';picker.append(opt)});const url=new URL(location.href),unit=url.searchParams.get('unit');picker.value=data.units[unit]?unit:'7.1';picker.addEventListener('change',()=>{const u=new URL(location.href);u.searchParams.set('unit',picker.value);history.replaceState(null,'',u);render()});render()}).catch(e=>{host.textContent='Assessment unavailable. Return to the course and try refreshing.';console.error(e)});
 })();
 </script>
-<script src="../../../../assets/site-shell.js?v=20261109-footer-legal-install-v21" data-etp-root="../../../../"></script>
+<script src="../../../../assets/site-shell.js?v=20261115-names-1" data-etp-root="../../../../"></script>
 </body></html>
