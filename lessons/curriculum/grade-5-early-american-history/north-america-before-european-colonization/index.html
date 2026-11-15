@@ -146,9 +146,48 @@ body.etp-curriculum #closure.lesson-panel{background:linear-gradient(110deg,#122
 .lesson-table-wrap{overflow-x:auto}.lesson-pacing{width:100%;border-collapse:collapse;font-size:15px;text-align:left}.lesson-pacing caption{text-align:left;color:#c7edb4;margin-bottom:9px}.lesson-pacing th,.lesson-pacing td{padding:9px 10px;border-bottom:1px solid #385543}.lesson-pacing thead th{color:#fff200}.lesson-pacing tbody th{font-weight:normal}
 @media(max-width:900px){body.etp-curriculum .lesson-jumps{grid-template-columns:repeat(4,minmax(0,1fr))!important}}
 @media(max-width:650px){body.etp-curriculum .lesson-jumps a{font-size:11px!important;padding:6px 3px!important}.lesson-guided-lab{padding:16px 12px}.lesson-pacing{font-size:13px}.lesson-pacing th,.lesson-pacing td{padding:7px 5px}}
+
+/* First-lesson template: each section owns its cards and navigation color. */
+body.etp-lesson-pilot #plan.lesson-panel,body.etp-lesson-pilot .lesson-jumps a[href="#plan"]{--section-top:#153c27;--section-mid:#0b2116;--section-deep:#030b07;--section-line:#537c60;--section-active:#213f2c;}
+body.etp-lesson-pilot #launch.lesson-panel,body.etp-lesson-pilot .lesson-jumps a[href="#launch"]{--section-top:#152e50;--section-mid:#0a1b32;--section-deep:#030911;--section-line:#506e96;--section-active:#203e66;}
+body.etp-lesson-pilot #discover.lesson-panel,body.etp-lesson-pilot .lesson-jumps a[href="#discover"]{--section-top:#461d29;--section-mid:#250e17;--section-deep:#0b0407;--section-line:#8a4c5e;--section-active:#592536;}
+body.etp-lesson-pilot #apply.lesson-panel,body.etp-lesson-pilot .lesson-jumps a[href="#apply"]{--section-top:#34204f;--section-mid:#1b102b;--section-deep:#08040f;--section-line:#796098;--section-active:#4b3269;}
+body.etp-lesson-pilot #assess.lesson-panel,body.etp-lesson-pilot .lesson-jumps a[href="#assess"]{--section-top:#153c27;--section-mid:#0b2116;--section-deep:#030b07;--section-line:#537c60;--section-active:#213f2c;}
+body.etp-lesson-pilot #closure.lesson-panel,body.etp-lesson-pilot .lesson-jumps a[href="#closure"]{--section-top:#493714;--section-mid:#281d09;--section-deep:#0d0902;--section-line:#9a7b38;--section-active:#624a1c;}
+body.etp-lesson-pilot #options.lesson-panel,body.etp-lesson-pilot .lesson-jumps a[href="#options"]{--section-top:#152e50;--section-mid:#0a1b32;--section-deep:#030911;--section-line:#506e96;--section-active:#203e66;}
+body.etp-lesson-pilot #evidence.lesson-panel,body.etp-lesson-pilot .lesson-jumps a[href="#evidence"]{--section-top:#303236;--section-mid:#181a1d;--section-deep:#070809;--section-line:#777b83;--section-active:#44474d;}
+
+body.etp-lesson-pilot :is(#plan,#launch,#discover,#apply,#assess,#closure,#options,#evidence).lesson-panel{background:linear-gradient(115deg,var(--section-top),var(--section-mid) 62%,var(--section-deep))!important;border-color:var(--section-line)!important}
+body.etp-lesson-pilot .lesson-panel :is(.lesson-resource,.lesson-activity,.lesson-question,.lesson-columns>article,.lesson-book,details){background:linear-gradient(145deg,var(--section-mid),#050506 88%)!important;border-color:var(--section-line)!important}
+body.etp-lesson-pilot .lesson-panel :is(.lesson-scenario,.lesson-feedback){background:#050506!important;border-left-color:var(--section-line)!important}
+body.etp-lesson-pilot .lesson-panel :is(.lesson-btn,.lesson-choice,.lesson-action){background:linear-gradient(130deg,var(--section-top),var(--section-deep))!important;border-color:var(--section-line)!important}
+body.etp-lesson-pilot .lesson-panel .lesson-choice[aria-pressed="true"]{background:linear-gradient(130deg,var(--section-active),var(--section-mid))!important;border-color:#fff200!important}
+body.etp-lesson-pilot .lesson-panel .lesson-question label:hover{background:var(--section-active)!important}
+body.etp-lesson-pilot #discover .lesson-grid>.lesson-resource{background:linear-gradient(145deg,#2c111b,#10060b)!important;border-color:#8a4c5e!important}
+body.etp-lesson-pilot #discover .lesson-guided-lab{background:#050506!important;border-color:#8a4c5e!important}
+body.etp-lesson-pilot #discover .lesson-guided-lab .lesson-activity{background:linear-gradient(130deg,#35141f,#170910)!important}
+body.etp-lesson-pilot #apply :is(.lesson-activity,details),body.etp-lesson-pilot #closure :is(.lesson-activity,details){background:#050506!important}
+/* The generated history diagram stays inside Guided Practice's red / black family. */
+body.etp-lesson-pilot #discover .g5-activity.g5-visual-inquiry{background:linear-gradient(130deg,#2c111b,#090407)!important;border-color:#8a4c5e!important}
+body.etp-lesson-pilot #discover .g5-visual-inquiry svg{background:#080407!important;border-color:#754353!important}
+body.etp-lesson-pilot #discover .g5-visual-inquiry svg>rect{fill:#080407!important}
+body.etp-lesson-pilot #discover .g5-visual-inquiry svg circle{fill:#391520!important;stroke:#c98499!important}
+body.etp-lesson-pilot #discover .g5-viz-choice button{background:linear-gradient(130deg,#3b1724,#0c0509)!important;border-color:#9b5e71!important}
+body.etp-lesson-pilot #discover .g5-viz-choice button[aria-pressed="true"]{background:#592536!important;border-color:#fff200!important}
+body.etp-lesson-pilot #discover .g5-viz-result{background:#080407!important;border-left-color:#c98499!important}
+/* Keep entry fields white, with black Georgia answers, in every section. */
+body.etp-lesson-pilot .lesson-panel textarea.lesson-writing{background:#fff!important;color:#111!important;-webkit-text-fill-color:#111!important;font-family:Georgia,"Times New Roman",serif!important;border-color:#b5bdb8!important}
+body.etp-lesson-pilot .lesson-panel textarea.lesson-writing::placeholder{color:#59645c!important;-webkit-text-fill-color:#59645c!important}
+body.etp-lesson-pilot .lesson-response-label{display:block;margin:12px 0 6px;font-weight:bold;color:#fff200}
+body.etp-lesson-pilot .lesson-jumps a{border:1px solid transparent!important;transition:background .18s,border-color .18s,box-shadow .18s}
+body.etp-lesson-pilot .lesson-jumps a:is([aria-current="step"],:hover,:focus-visible){background:linear-gradient(130deg,var(--section-active),var(--section-mid))!important;border-color:var(--section-line)!important;color:#fff200!important;box-shadow:inset 0 0 10px #ffffff08}
+body.etp-lesson-pilot .lesson-jumps a:focus-visible{outline:2px solid #fff200;outline-offset:2px}
+/* The pilot lesson's return bar contains Back and the existing right-aligned Share. */
+body.etp-lesson-pilot .etp-page-nav .etp-page-nav-link{display:none!important}
+@media(prefers-reduced-motion:reduce){body.etp-lesson-pilot .lesson-jumps a{transition:none}}
 </style>
 <script defer src="../../../../app-assets/install.js?v=20261108-native-menu-v17"></script></head>
-<body class="etp-curriculum">
+<body class="etp-curriculum etp-lesson-pilot">
 <main class="etp-layout">
 <a class="etp-path" href="../#unit-5-1">← Grade 5 · Unit 5.1</a>
 <header class="lesson-hero">
@@ -192,6 +231,7 @@ body.etp-curriculum #closure.lesson-panel{background:linear-gradient(110deg,#122
 <div class="lesson-activity"><h3>Quick pre-check</h3><fieldset class="lesson-question" id="precheck"><legend>Which statement is best supported by historians and Native communities?</legend><label><input type="radio" name="pre" value="0">All Native peoples lived in the same way.</label><label><input type="radio" name="pre" value="1">Many Indigenous nations had distinct cultures, governments, and ways of life.</label><label><input type="radio" name="pre" value="2">Communities began to develop only after Europeans arrived.</label></fieldset><button class="lesson-btn" type="button" id="check-pre">Check my thinking</button><div id="pre-result" class="lesson-feedback" hidden aria-live="polite"></div></div>
 <details><summary>Vocabulary · Open before reading</summary><div><p><strong>Indigenous:</strong> originating in and connected to a place over generations. <strong>Nation:</strong> a people with shared political and cultural identity. <strong>Homeland:</strong> a place to which a community has long-standing relationships and responsibilities. <strong>Evidence:</strong> information used to support a historical explanation. <strong>Oral history:</strong> knowledge passed down through spoken accounts. <strong>Governance:</strong> how communities organize decisions and responsibilities. <strong>Adaptation:</strong> changing practices in response to circumstances.</p><p><strong>Say it:</strong> Choose any two words, explain them in your own terms, and use one in a sentence.</p></div></details>
 <p class="lesson-prompt">Launch prompt: Imagine you are asked to describe every community in North America using just one photograph. What information might you miss?</p>
+<label class="lesson-response-label" for="opening-response">Your opening thought</label><textarea id="opening-response" class="lesson-writing" placeholder="One photograph might leave out..."></textarea>
 </section>
 <section id="discover" class="lesson-panel">
 <div class="lesson-eyebrow">03 · Read · Watch · Model · Investigate</div><h2>Guided Practice</h2><h3>One continent. Many histories.</h3>
@@ -212,6 +252,7 @@ body.etp-curriculum #closure.lesson-panel{background:linear-gradient(110deg,#122
 <article><h3>Evidence C · Native voices</h3><p>Tribal community knowledge, oral histories and nation-created resources provide essential perspectives for interpreting the past and understanding living communities today.</p><p class="lesson-note"><strong>Ask:</strong> Who is explaining this history, and whose voice is missing?</p></article>
 </div>
 <div class="lesson-activity"><h3>Source-study extension · Native perspectives and artifacts</h3><p>Open the Smithsonian’s Haudenosaunee educator guide. Choose one specific item from <strong>Haudenosaunee Territory Through Time Maps</strong>, <strong>Wampum</strong>, or <strong>Longhouses and Village Life</strong>. Record its creator or community context, what it helps explain, and one question it cannot answer on its own. Compare this evidence with one of the three lesson cards above.</p><p><a href="https://americanindian.si.edu/nk360/resources/Haudenosaunee-Guide-for-Educators" target="_blank" rel="noopener">Open the Smithsonian’s nation-informed educator guide ↗</a></p></div>
+<div class="lesson-activity"><h3>Record your source comparison</h3><p>Choose two kinds of sources from the museum guide and readings. Name each source, explain what it helps you learn, and identify a question it leaves unanswered.</p><label class="lesson-response-label" for="source-comparison">Your evidence notes</label><textarea id="source-comparison" class="lesson-writing" placeholder="Source 1 is... It helps explain... It cannot tell me... Source 2 is... Together they suggest..."></textarea></div>
 <div class="lesson-activity"><h3>Mini game · The source detective</h3><p>Choose the strongest next move. You find an unfamiliar object labeled “Native American” with no tribe, date, or location.</p><div class="lesson-choice-group"><button type="button" class="lesson-choice detective" data-answer="0">Assume it represents every Native nation</button><button type="button" class="lesson-choice detective" data-answer="1">Look for its maker, place, date and community interpretation</button><button type="button" class="lesson-choice detective" data-answer="2">Use the oldest-looking description as the answer</button></div><p id="detective-feedback" class="lesson-feedback" aria-live="polite" hidden></p></div>
 </div>
 </section>
