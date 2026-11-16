@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-16",
+  "scope": {
+    "lessons": 93,
+    "unitAssessments": 27
+  },
+  "browserChecks": {
+    "convertedLessons": 92,
+    "failed": 0,
+    "assessmentVariants": 27,
+    "failedAssessments": 0,
+    "scoring": "15/15 objective points with unscored writing; 27/27 after explicit teacher review; reset clears all responses and ratings"
+  },
+  "changes": [
+    "NCSS first in source credits",
+    "Direct official C3 PDF in Standards",
+    "Objective-practice-evidence connections",
+    "Reader-facing extension headings",
+    "Additional regional and online museum possibilities",
+    "Embedded extension video and official PBS trailer",
+    "Separated automatic question scoring from teacher-reviewed writing"
+  ],
+  "limits": [
+    "Existing historical readings and videos retained; not all were independently revalidated in this refinement.",
+    "Additional extension players reuse the existing relevant lesson video; distinct documentary trailers have not been sourced for every topic.",
+    "Self-check rubric ratings are not verified grades."
+  ]
+}

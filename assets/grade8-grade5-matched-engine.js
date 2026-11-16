@@ -66,7 +66,7 @@ function build(d,all){
  S("optional",1,"07 · Optional enrichment","Continue the investigation",options)+
  S("sources",2,"08 · Methods and references","Sources and instructional rationale",source)+
  '<nav class="g5-bottom"><a href="../#unit-'+d.unit.replace(".","-")+'">← Unit '+E(d.unit)+'</a>'+(nextSlug?'<a href="../'+E(nextSlug)+'/">Next lesson →</a>':'')+'<a href="../unit-assessments/?unit='+E(d.unit)+'">Unit assessment</a></nav>';
- document.title=d.title+" | Grade 8 | Examine the Past";import(new URL(root+"assets/approved-lesson-template.js?v=20261115-1",location.href).href).then(module=>{module.applyApprovedLesson(page,d,8);wire(d)}).catch(error=>{console.error(error);page.insertAdjacentHTML("afterbegin","<p role=alert>Lesson template could not load. Please refresh.</p>")});
+ document.title=d.title+" | Grade 8 | Examine the Past";import(new URL(root+"assets/approved-lesson-template.js?v=20261116-1",location.href).href).then(module=>{module.applyApprovedLesson(page,d,8);wire(d)}).catch(error=>{console.error(error);page.insertAdjacentHTML("afterbegin","<p role=alert>Lesson template could not load. Please refresh.</p>")});
 }
 function wire(d){
  const Q=s=>page.querySelector(s),QA=s=>[...page.querySelectorAll(s)];
