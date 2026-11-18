@@ -1,0 +1,113 @@
+
+:root{--green:#94ff53;--yellow:#fff200}
+body.etp-curriculum{background:#020907;color:#f4f7f0;font:17px/1.6 Georgia,serif}
+.exam-head{padding:clamp(23px,4vw,48px);background:linear-gradient(130deg,#0d2730,#071915 65%,#030708);border:1px solid #486d5c;border-radius:20px}
+.exam-head h1{font:700 clamp(34px,5vw,63px)/1.08 Georgia,serif;color:var(--yellow);margin:12px 0}
+.exam-head p{max-width:850px}
+.exam-tag{color:var(--green);font-weight:700}
+.exam-main{max-width:1000px;margin:26px auto}
+.exam-card{padding:clamp(20px,3vw,31px);margin:16px 0;border-radius:15px;border:1px solid #49705f;background:linear-gradient(140deg,#0b2225,#07121b)}
+.exam-card h2{color:#fff200;font-size:25px;margin:0 0 15px}
+.exam-card fieldset{margin:0;padding:0;border:0}
+.exam-card legend{font-size:20px;color:#fff;line-height:1.4;font-weight:700;margin:0 0 17px}
+.exam-card label{display:flex;gap:12px;align-items:baseline;padding:11px 13px;margin:7px 0;border-radius:9px;border:1px solid transparent;cursor:pointer}
+.exam-card label:hover{border-color:#5c9c73;background:#143027}
+.exam-card input{accent-color:var(--green)}
+.exam-card .feedback{display:none;background:#102b20;padding:14px;border-left:3px solid var(--green);margin-top:12px}
+.exam-card .feedback.visible{display:block}
+.exam-button{font:700 18px Georgia,serif;padding:12px 20px;color:#fff200;background:linear-gradient(115deg,#243e24,#0a1911);border:1px solid #a0cd65;border-radius:10px;cursor:pointer}
+.exam-button:hover,.exam-button:focus-visible{box-shadow:0 0 0 2px #fff20077;border-color:#fff200}
+.exam-result{padding:23px;margin:20px 0;border:1px solid #97b66f;border-radius:12px;background:#0c2618;font:700 21px Georgia,serif}
+.exam-result strong{color:#fff200}
+.exam-note{color:#d0e3d3;font-size:14px}
+.exam-writing{width:100%;height:330px;min-height:260px;resize:vertical;background:#fff;color:#121c15;border:2px solid #aabbaa;border-radius:10px;padding:16px;font:16px/1.6 Georgia,serif;box-sizing:border-box}.exam-writing::placeholder{color:#7c857f;opacity:1}.exam-writing:focus{outline:3px solid #fff200;outline-offset:2px}
+.exam-nav{display:flex;flex-wrap:wrap;gap:14px;margin:26px 0}.exam-nav a{background:#142b23;border:1px solid #64836d;border-radius:9px;padding:11px 16px}
+@media(max-width:650px){.exam-card{padding:17px}.exam-card legend{font-size:17px}.exam-writing{height:280px}}
+
+body.etp-curriculum .exam-head,body.etp-curriculum .exam-card{background:linear-gradient(130deg,#153c27,#0b2116 65%,#030b07)!important;border-color:#537c60!important;box-sizing:border-box;width:100%}
+body.etp-curriculum #questions{display:block!important}body.etp-curriculum #questions>.exam-card{width:100%!important;min-height:300px}
+body.etp-curriculum textarea.exam-writing{background:#fff!important;color:#111!important;-webkit-text-fill-color:#111!important;font:17px/1.6 Georgia,serif!important}
+.exam-card select{background:#fff;color:#111;font:16px Georgia,serif;padding:9px;max-width:100%;border-radius:7px}.rubric-row{padding:16px 0;border-bottom:1px solid #537c60}.rubric-row label{display:block}.level-help{padding:12px;background:#030b07;border-left:3px solid #94ff53}summary{color:#fff200;font-weight:bold;cursor:pointer}.format-feedback{color:#fff200} .exam-card label{flex-wrap:wrap}
+
+.blueprint-wrap{overflow-x:auto}.blueprint-wrap table{width:100%;border-collapse:collapse;text-align:left}.blueprint-wrap th,.blueprint-wrap td{padding:12px;border-bottom:1px solid #537c60}.blueprint-wrap thead,.blueprint-wrap tfoot{color:#fff200}.blueprint-wrap tbody th{font-weight:normal}
+body.etp-curriculum .etp-page-nav .etp-page-nav-link{display:none!important}
+
+/* Unit 5.1 refinement: contrasting green questions and clearer section hierarchy. */
+.assessment-start{margin:28px 2px 13px;color:#fff200;font:bold clamp(29px,4vw,39px)/1.18 Georgia,serif}
+.assessment-intro{margin:0 2px 22px;color:#d5ecd7}
+.assessment-section-title{color:#fff200;font:bold clamp(21px,3vw,27px)/1.25 Georgia,serif;margin:22px 2px 10px}
+body.etp-curriculum #questions>.exam-card:nth-child(even){background:linear-gradient(130deg,#07180f,#020a07 65%,#010403)!important;border-color:#315941!important}
+.question-prompt{color:#fff;font-weight:700;font-size:19px;line-height:1.5}
+.writing-hint-link{border:0;background:none;padding:3px 1px;color:#d8ff96;text-decoration:underline;text-underline-offset:3px;font:italic 15px Georgia,serif;cursor:pointer}
+.writing-hint-link:hover,.writing-hint-link:focus-visible{color:#fff200}
+.writing-tools{display:flex;align-items:center;flex-wrap:wrap;gap:14px;margin:8px 0 12px}
+.writing-tools .writing-hint-link{font-size:14px}
+.writing-tool-status{font-size:13px;color:#dcf7dc}
+.writing-hints-dialog{max-width:min(720px,calc(100vw - 30px));max-height:85vh;overflow:auto;border:2px solid #a9db8f;border-radius:16px;background:#0b2116;color:#f4f7f0;padding:clamp(20px,4vw,32px);box-shadow:0 20px 80px #000c;font:17px/1.6 Georgia,serif}
+.writing-hints-dialog::backdrop{background:#000b}
+.writing-hints-dialog h2{color:#fff200;margin:0 40px 12px 0}
+.writing-hints-dialog h3{color:#d8ff96;margin-bottom:5px}
+.writing-hints-dialog p{margin:7px 0 14px}
+.hints-close{float:right;background:#163c29;border:1px solid #a9db8f;color:#fff200;border-radius:7px;padding:3px 11px;font-size:24px;cursor:pointer}
+@media print{body.print-writing-only *{visibility:hidden!important}body.print-writing-only #writing-print-sheet,body.print-writing-only #writing-print-sheet *{visibility:visible!important}body.print-writing-only #writing-print-sheet{position:absolute;left:0;top:0;width:100%;background:#fff;color:#111;padding:18px;white-space:pre-wrap;font:14pt/1.5 Georgia,serif}}
+.source-packet{padding:20px;margin:16px 0 24px;background:#081c13;border:1px solid #608d68;border-radius:13px}
+.source-packet h3{color:#fff200;margin:0 0 10px}.source-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.source-tile{padding:16px;background:#153624;border:1px solid #4f8059;border-radius:10px}
+.source-tile h4{color:#d8ffa8;margin:0 0 7px}.source-tile p{margin:7px 0}.source-tile small{color:#d0dfce}
+.evidence-toolkit{border-top:1px solid #608d68;padding-top:15px;margin-top:17px}
+.evidence-toolkit h4{color:#d8ffa8;font-size:19px;margin:0 0 8px}
+.evidence-toolkit a,.source-tile a{color:#fff200;text-decoration:underline}
+@media(max-width:650px){.source-grid{grid-template-columns:1fr}}
+/* Assessment pilot: unified canvas, score pathways and readable rubric. */
+body.etp-curriculum main.etp-layout{max-width:1100px;margin:auto;padding:24px clamp(12px,3vw,30px)}
+body.etp-curriculum .exam-head{padding:26px;text-align:center;border-radius:15px;margin-bottom:18px}
+.exam-head h1{font-size:clamp(28px,4vw,44px);text-wrap:balance}.exam-head p{margin:10px auto}.exam-main{max-width:none;margin:0}
+body.etp-curriculum #questions>.exam-card{min-height:280px}.exam-card{scroll-margin-top:155px}.exam-card label{padding:14px;line-height:1.55}
+.score-path{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin:22px 0}.score-path a{display:flex;flex-direction:column;justify-content:center;min-height:90px;padding:12px 8px;border-radius:30px;background:linear-gradient(130deg,#133962,#061222);color:#fff!important;text-align:center;text-decoration:none;font-size:15px;transition:transform .2s,box-shadow .2s}.score-path a:nth-child(2){background:linear-gradient(130deg,#1c5332,#071b10)}.score-path a:nth-child(3){background:linear-gradient(130deg,#662020,#200708)}.score-path a:nth-child(4){background:linear-gradient(130deg,#50316e,#190b27)}.score-path a:nth-child(5){background:linear-gradient(130deg,#69501c,#241b06)}.score-path strong{font-size:20px}.score-path a:hover,.score-path a:focus-visible{transform:translateY(-4px);box-shadow:0 0 22px #fff7;outline:2px solid #fff}
+#performance-rubric{margin-top:22px}
+#performance-rubric>summary{position:relative;overflow:hidden;background:linear-gradient(115deg,#1a4c94,#0a2453)!important;border:2px solid #9cc9ff!important;color:#fff!important;animation:rubric-bounce 3s ease-in-out 2}
+#performance-rubric>summary::after{content:'✦';position:absolute;right:20px;top:16px;color:#e5f4ff;animation:rubric-shimmer 4s ease-in-out infinite}
+#performance-rubric>summary:hover,#performance-rubric>summary:focus-visible{box-shadow:0 0 0 2px #fff20066,0 6px 22px #102c5c}
+@keyframes rubric-bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+@keyframes rubric-shimmer{0%,100%{opacity:.25}50%{opacity:1}}
+@media(prefers-reduced-motion:reduce){#performance-rubric>summary,#performance-rubric>summary::after{animation:none}}
+.sample-tools{margin:18px 0 0;padding:14px;border:1px solid #709377;background:#10271b;border-radius:10px}
+.sample-tools[hidden],.sample-tools [hidden]{display:none!important}
+.sample-tools button{color:#fff;border:1px solid #b7d589;background:#214b31;padding:10px 15px;font:bold 15px Georgia,serif;border-radius:8px;cursor:pointer}
+#sample-answer{padding:17px;margin-top:15px;background:#071c12;border-left:4px solid #fff200}
+#sample-answer h3{color:#fff200}
+.challenge-card{border-color:#b79b65!important}
+.challenge-actions button{color:#fff;border:1px solid #b7d589;background:#214b31;padding:10px 15px;font:bold 15px Georgia,serif;border-radius:8px;cursor:pointer}#performance-rubric summary{padding:18px;background:#163b26;border:1px solid #91bb69;border-radius:10px}.rubric-scroll{overflow:auto;margin-top:20px}.rubric-table{width:100%;min-width:760px;border-collapse:collapse;table-layout:fixed}.rubric-table th,.rubric-table td{border:1px solid #668674;padding:10px;text-align:left;vertical-align:top;font-size:15px}.rubric-table th{background:#102c1c;color:#fff200}.rubric-table caption{padding:15px;font-weight:bold}.rubric-table label{display:block;margin:0;padding:8px;cursor:pointer}.rubric-table input{display:block;margin:0 0 10px}.rubric-table .selected{background:#245334;box-shadow:inset 0 0 0 2px #baff70}.writing-total{padding:18px;background:#020b06;border-left:4px solid #94ff53;color:#fff200;font-weight:bold;font-size:22px}
+.exam-result{scroll-margin-top:150px;font-size:18px;font-weight:normal}.result-banner{text-align:center;padding:20px;border-radius:12px;background:linear-gradient(135deg,#142f48,#071b20)}.result-banner.passed{background:linear-gradient(135deg,#24572e,#122415);border:1px solid #c9e66c}.result-symbol{font-size:34px}.result-score{font-size:clamp(28px,4vw,42px);font-weight:bold;color:#fff200;margin:10px}.results-table{width:100%;border-collapse:collapse;margin:20px 0;text-align:left}.results-table caption{padding:15px;font-weight:bold}.results-table th,.results-table td{padding:14px 10px;border-bottom:1px solid #5e8167}.results-table td{font-size:23px;font-weight:bold}.results-table thead,.results-table tfoot{background:#153c27;color:#fff200}.results-table tbody tr:nth-child(even){background:#ffffff08}
+@media(max-width:700px){.score-path{grid-template-columns:repeat(2,minmax(0,1fr))}.score-path a:last-child{grid-column:1/-1}.exam-head{padding:20px!important}.exam-result{padding:15px}.results-table th,.results-table td{font-size:16px;padding:12px 6px}}
+@media(prefers-reduced-motion:reduce){.score-path a{transition:none}.score-path a:hover{transform:none}}
+
+
+.assessment-start{font-size:clamp(28px,4vw,38px);color:#fff200}
+.assessment-section-title{color:#fff200;font:700 26px Georgia,serif;margin:26px 0 13px}
+.question-prompt{color:#fff;font-weight:bold;font-size:19px}
+.source-tile{min-width:0}.source-tile p{white-space:pre-line}
+.source-tile blockquote{margin:8px 0;font-size:16px}
+#questions>.exam-card:nth-child(even){background:linear-gradient(130deg,#06180d,#020805 75%,#010403)!important;border-color:#336443!important}
+#questions>.exam-card:nth-child(odd){background:linear-gradient(130deg,#153c27,#0b2116 65%,#030b07)!important}
+.exam-card a{color:#fff200}.exam-card select{width:min(100%,650px);display:block;margin-top:8px}.exam-card label{flex-wrap:wrap}
+.writing-hint-link{background:none;border:0;color:#d8ff9d;text-decoration:underline;font:italic 15px Georgia,serif;cursor:pointer;margin:7px 10px 9px 0}
+.writing-hints-dialog{background:#0a2316;color:#fff;border:2px solid #9ccc77;border-radius:14px;padding:25px;width:min(700px,94vw);max-height:85vh;overflow:auto}
+.writing-hints-dialog::backdrop{background:#000b}.writing-hints-dialog h2,.writing-hints-dialog h3{color:#fff200}
+.hints-close{float:right;background:#173e29;border:1px solid #fff200;color:#fff;padding:5px 12px;border-radius:7px;cursor:pointer}
+.source-packet{padding:20px;margin:20px 0;border:1px solid #568968;border-radius:12px;background:#091b11}
+.source-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.source-tile{padding:15px;border:1px solid #4d8459;border-radius:10px;background:#103222}
+.source-tile h3{color:#fff200;margin:0 0 7px;font-size:19px}.source-tile p{margin:7px 0}
+.source-tile .exam-note{font-size:12px}
+.source-packet a{color:#fff200}.assessment-status{color:#daffcc}
+.sample-tools[hidden],.sample-tools [hidden]{display:none!important}
+.sample-tools{background:#0b2115;padding:15px;border:1px solid #71926e;border-radius:12px;margin-top:20px}
+.sample-tools button,.challenge-actions button{padding:10px;border:1px solid #afd17c;background:#245332;color:#fff;border-radius:8px;cursor:pointer;font:700 15px Georgia,serif}
+#sample-answer{padding:15px;border-left:4px solid #fff200;background:#061b0d;margin-top:14px}
+#performance-rubric>summary{background:linear-gradient(110deg,#174f9d,#071e4c)!important;border:2px solid #8abaff!important;color:#fff!important;animation:rubric-bounce 3s ease-in-out 2}
+#performance-rubric>summary::after{content:' ✦';color:#fff}
+@keyframes rubric-bounce{50%{transform:translateY(-3px)}}
+@media(max-width:700px){.source-grid{grid-template-columns:1fr}.score-path{grid-template-columns:repeat(2,minmax(0,1fr))}.exam-writing{height:300px}}
+@media(prefers-reduced-motion:reduce){#performance-rubric>summary{animation:none!important}}
+@media print{body.print-response *{visibility:hidden!important}body.print-response #print-response,body.print-response #print-response *{visibility:visible!important}body.print-response #print-response{position:absolute;top:0;left:0;color:#111;background:#fff;width:100%;padding:20px;white-space:pre-wrap;font:14pt/1.5 Georgia,serif}}
