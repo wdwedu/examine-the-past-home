@@ -54,7 +54,7 @@ function render(d){
  var matches=aa("#matching select"),sequenceEls=aa("#sequence-card select");missing+=matches.filter(function(x){return x.value===""}).length;missing+=sequenceEls.filter(function(x){return x.value===""}).length;
  var matching=selectScore(matches,d.matchingPrompts.map(function(x){return x.answer})),sequence=selectScore(sequenceEls,d.inquiryAnswers);
  var choices=aa("#evidence-options input").map(function(x){return x.checked});if(!choices.some(Boolean))missing++;
- var evidence=choices.some(Boolean)?choices.reduce(function(n,v,i){return n+(v===(i!==2)?1:0)},0):0;
+ var evidence=choices.some(Boolean)?choices.reduce(function(n,v,i){return n+(v===d.conclusionKey[i]?1:0)},0):0;
  var rs=ratings(),rated=rs.every(Boolean),blank=!textarea.value.trim();if(blank)missing++;
  var writingPts=rs.reduce(function(n,x){return n+Number(x?x.value:0)},0),total=mc+matching+sequence+evidence+writingPts,complete=!missing&&rated,passed=complete&&total>=22;
  a("#matching-feedback").textContent=matching+"/3";a("#sequence-feedback").textContent=sequence+"/3";a("#evidence-feedback").textContent=evidence+"/3";
