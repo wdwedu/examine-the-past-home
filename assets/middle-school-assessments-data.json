@@ -151,9 +151,9 @@
         0
       ],
       "conclusions": [
-        "A map is an argument made with symbols, scale, dates, and choices.",
         "People often selected places with usable water, food resources, defensible locations, and connections to other groups.",
-        "These sources prove that every society and community across all periods experienced geography and historical investigation in exactly the same way."
+        "These sources prove that every society and community across all periods experienced geography and historical investigation in exactly the same way.",
+        "A map is an argument made with symbols, scale, dates, and choices."
       ],
       "writing": "Compare the historical explanations in two unit lessons: \"Reading Maps Like a Historian\" and \"Geography and Human Settlement\". Develop a clear claim, support it with at least two specific pieces of evidence from different sources or evidence types, explain how the evidence supports your claim, and discuss one limitation or alternative interpretation.",
       "challenge": "Design an evidence-based mini exhibit about geography and historical investigation. Use information from at least two lessons, evaluate a source limitation, and pose a new research question.",
@@ -167,6 +167,11 @@
         "context",
         "source-evaluation",
         "reasoning"
+      ],
+      "conclusionKey": [
+        true,
+        false,
+        true
       ]
     },
     "6.2": {
@@ -319,9 +324,9 @@
         1
       ],
       "conclusions": [
+        "These sources prove that every society and community across all periods experienced origins of civilizations in exactly the same way.",
         "For much of human history people met their needs through hunting, fishing, and gathering.",
-        "Cities did not appear because of a single invention.",
-        "These sources prove that every society and community across all periods experienced origins of civilizations in exactly the same way."
+        "Cities did not appear because of a single invention."
       ],
       "writing": "Compare the historical explanations in two unit lessons: \"From Hunting and Gathering to Agriculture\" and \"Why Did Early Cities Develop?\". Develop a clear claim, support it with at least two specific pieces of evidence from different sources or evidence types, explain how the evidence supports your claim, and discuss one limitation or alternative interpretation.",
       "challenge": "Design an evidence-based mini exhibit about origins of civilizations. Use information from at least two lessons, evaluate a source limitation, and pose a new research question.",
@@ -335,6 +340,11 @@
         "context",
         "source-evaluation",
         "reasoning"
+      ],
+      "conclusionKey": [
+        false,
+        true,
+        true
       ]
     },
     "6.3": {
@@ -517,6 +527,11 @@
         "context",
         "source-evaluation",
         "reasoning"
+      ],
+      "conclusionKey": [
+        true,
+        true,
+        false
       ]
     },
     "6.4": {
@@ -683,9 +698,9 @@
         0
       ],
       "conclusions": [
-        "Written legal collections show that ancient societies tried to define obligations, penalties, and status.",
         "Ancient communities expressed meanings through temples, household objects, burials, festivals, stories, and rituals.",
-        "These sources prove that every society and community across all periods experienced ancient government and culture in exactly the same way."
+        "These sources prove that every society and community across all periods experienced ancient government and culture in exactly the same way.",
+        "Written legal collections show that ancient societies tried to define obligations, penalties, and status."
       ],
       "writing": "Compare the historical explanations in two unit lessons: \"Laws and Leadership in Ancient Societies\" and \"Belief Systems and Cultural Traditions\". Develop a clear claim, support it with at least two specific pieces of evidence from different sources or evidence types, explain how the evidence supports your claim, and discuss one limitation or alternative interpretation.",
       "challenge": "Design an evidence-based mini exhibit about ancient government and culture. Use information from at least two lessons, evaluate a source limitation, and pose a new research question.",
@@ -699,6 +714,11 @@
         "context",
         "source-evaluation",
         "reasoning"
+      ],
+      "conclusionKey": [
+        true,
+        false,
+        true
       ]
     },
     "6.5": {
@@ -851,9 +871,9 @@
         1
       ],
       "conclusions": [
+        "These sources prove that every society and community across all periods experienced trade, migration, and exchange in exactly the same way.",
         "Ancient exchange moved goods, people, techniques, and ideas by river, land, and sea.",
-        "The Silk Roads name describes interconnected overland and maritime routes across Eurasia, used in different forms over long periods.",
-        "These sources prove that every society and community across all periods experienced trade, migration, and exchange in exactly the same way."
+        "The Silk Roads name describes interconnected overland and maritime routes across Eurasia, used in different forms over long periods."
       ],
       "writing": "Compare the historical explanations in two unit lessons: \"Ancient Trade Networks\" and \"The Silk Roads and Cultural Exchange\". Develop a clear claim, support it with at least two specific pieces of evidence from different sources or evidence types, explain how the evidence supports your claim, and discuss one limitation or alternative interpretation.",
       "challenge": "Design an evidence-based mini exhibit about trade, migration, and exchange. Use information from at least two lessons, evaluate a source limitation, and pose a new research question.",
@@ -867,6 +887,11 @@
         "context",
         "source-evaluation",
         "reasoning"
+      ],
+      "conclusionKey": [
+        false,
+        true,
+        true
       ]
     },
     "6.6": {
@@ -1035,6 +1060,11 @@
         "context",
         "source-evaluation",
         "reasoning"
+      ],
+      "conclusionKey": [
+        true,
+        true,
+        false
       ]
     },
     "7.1": {
@@ -1187,9 +1217,9 @@
         0
       ],
       "conclusions": [
+        "These sources prove that every society and community across all periods experienced world regions and cultural identity in exactly the same way.",
         "Geographers divide the world into regions to help compare places.",
-        "Places shape experiences through climate, access to water, travel routes, resources, and settlement patterns.",
-        "These sources prove that every society and community across all periods experienced world regions and cultural identity in exactly the same way."
+        "Places shape experiences through climate, access to water, travel routes, resources, and settlement patterns."
       ],
       "writing": "Compare the historical explanations in two unit lessons: \"Understanding World Regions\" and \"Geography, Identity, and Cultural Development\". Develop a clear claim, support it with at least two specific pieces of evidence from different sources or evidence types, explain how the evidence supports your claim, and discuss one limitation or alternative interpretation.",
       "challenge": "Design an evidence-based mini exhibit about world regions and cultural identity. Use information from at least two lessons, evaluate a source limitation, and pose a new research question.",
@@ -1203,6 +1233,11 @@
         "context",
         "source-evaluation",
         "reasoning"
+      ],
+      "conclusionKey": [
+        false,
+        true,
+        true
       ]
     },
     "7.2": {
@@ -1371,6 +1406,11 @@
         "context",
         "source-evaluation",
         "reasoning"
+      ],
+      "conclusionKey": [
+        true,
+        true,
+        false
       ]
     },
     "7.3": {
@@ -1537,9 +1577,9 @@
         2
       ],
       "conclusions": [
-        "The Silk Roads describe overlapping routes that linked communities across parts of Eurasia at different times.",
         "Monsoon winds change direction seasonally across parts of the Indian Ocean.",
-        "These sources prove that every society and community across all periods experienced trade networks and connections in exactly the same way."
+        "These sources prove that every society and community across all periods experienced trade networks and connections in exactly the same way.",
+        "The Silk Roads describe overlapping routes that linked communities across parts of Eurasia at different times."
       ],
       "writing": "Compare the historical explanations in two unit lessons: \"The Silk Roads and Global Connections\" and \"Indian Ocean Trade Networks\". Develop a clear claim, support it with at least two specific pieces of evidence from different sources or evidence types, explain how the evidence supports your claim, and discuss one limitation or alternative interpretation.",
       "challenge": "Design an evidence-based mini exhibit about trade networks and connections. Use information from at least two lessons, evaluate a source limitation, and pose a new research question.",
@@ -1553,6 +1593,11 @@
         "context",
         "source-evaluation",
         "reasoning"
+      ],
+      "conclusionKey": [
+        true,
+        false,
+        true
       ]
     },
     "7.4": {
@@ -1705,9 +1750,9 @@
         0
       ],
       "conclusions": [
+        "These sources prove that every society and community across all periods experienced government and economic systems in exactly the same way.",
         "Governments make and enforce decisions, but political systems differ in who participates, who holds authority, and how power is limited.",
-        "People need water, food, tools, energy, and materials, but resources are unevenly available and their value depends on technology and social conditions.",
-        "These sources prove that every society and community across all periods experienced government and economic systems in exactly the same way."
+        "People need water, food, tools, energy, and materials, but resources are unevenly available and their value depends on technology and social conditions."
       ],
       "writing": "Compare the historical explanations in two unit lessons: \"Comparing Political Systems\" and \"Resources, Trade, and Economic Decisions\". Develop a clear claim, support it with at least two specific pieces of evidence from different sources or evidence types, explain how the evidence supports your claim, and discuss one limitation or alternative interpretation.",
       "challenge": "Design an evidence-based mini exhibit about government and economic systems. Use information from at least two lessons, evaluate a source limitation, and pose a new research question.",
@@ -1721,6 +1766,11 @@
         "context",
         "source-evaluation",
         "reasoning"
+      ],
+      "conclusionKey": [
+        false,
+        true,
+        true
       ]
     },
     "7.5": {
@@ -1889,6 +1939,11 @@
         "context",
         "source-evaluation",
         "reasoning"
+      ],
+      "conclusionKey": [
+        true,
+        true,
+        false
       ]
     },
     "7.6": {
@@ -2041,9 +2096,9 @@
         2
       ],
       "conclusions": [
-        "Geography affects the choices available to households and communities through seasons, temperature, water, soil, and transportation.",
         "Resources such as fresh water, forests, metals, soil, and energy sources can support human development.",
-        "These sources prove that every society and community across all periods experienced human-environment relationships in exactly the same way."
+        "These sources prove that every society and community across all periods experienced human-environment relationships in exactly the same way.",
+        "Geography affects the choices available to households and communities through seasons, temperature, water, soil, and transportation."
       ],
       "writing": "Compare the historical explanations in two unit lessons: \"How Geography Shapes Daily Life\" and \"Natural Resources and Human Development\". Develop a clear claim, support it with at least two specific pieces of evidence from different sources or evidence types, explain how the evidence supports your claim, and discuss one limitation or alternative interpretation.",
       "challenge": "Design an evidence-based mini exhibit about human-environment relationships. Use information from at least two lessons, evaluate a source limitation, and pose a new research question.",
@@ -2057,6 +2112,11 @@
         "context",
         "source-evaluation",
         "reasoning"
+      ],
+      "conclusionKey": [
+        true,
+        false,
+        true
       ]
     },
     "8.1": {
@@ -2225,6 +2285,11 @@
         "context",
         "source-evaluation",
         "reasoning"
+      ],
+      "conclusionKey": [
+        true,
+        true,
+        false
       ]
     },
     "8.2": {
@@ -2391,9 +2456,9 @@
         1
       ],
       "conclusions": [
-        "Britain's victory in the Seven Years' War in 1763 enlarged its North American claims but created substantial debt and new disputes over western lands.",
         "The Continental Congress adopted the Declaration of Independence on July 4, 1776.",
-        "These sources prove that every society and community across all periods experienced revolution and independence in exactly the same way."
+        "These sources prove that every society and community across all periods experienced revolution and independence in exactly the same way.",
+        "Britain's victory in the Seven Years' War in 1763 enlarged its North American claims but created substantial debt and new disputes over western lands."
       ],
       "writing": "Compare the historical explanations in two unit lessons: \"The Road to Revolution\" and \"The Declaration of Independence\". Develop a clear claim, support it with at least two specific pieces of evidence from different sources or evidence types, explain how the evidence supports your claim, and discuss one limitation or alternative interpretation.",
       "challenge": "Design an evidence-based mini exhibit about revolution and independence. Use information from at least two lessons, evaluate a source limitation, and pose a new research question.",
@@ -2407,6 +2472,11 @@
         "context",
         "source-evaluation",
         "reasoning"
+      ],
+      "conclusionKey": [
+        true,
+        false,
+        true
       ]
     },
     "8.3": {
@@ -2573,9 +2643,9 @@
         2
       ],
       "conclusions": [
+        "These sources prove that every society and community across all periods experienced constitution and government in exactly the same way.",
         "The Articles of Confederation, ratified in 1781, created a national Congress while leaving substantial authority to the states.",
-        "Delegates met in Philadelphia in 1787 to address weaknesses in the Confederation.",
-        "These sources prove that every society and community across all periods experienced constitution and government in exactly the same way."
+        "Delegates met in Philadelphia in 1787 to address weaknesses in the Confederation."
       ],
       "writing": "Compare the historical explanations in two unit lessons: \"The Articles of Confederation\" and \"The Constitutional Convention\". Develop a clear claim, support it with at least two specific pieces of evidence from different sources or evidence types, explain how the evidence supports your claim, and discuss one limitation or alternative interpretation.",
       "challenge": "Design an evidence-based mini exhibit about constitution and government. Use information from at least two lessons, evaluate a source limitation, and pose a new research question.",
@@ -2589,6 +2659,11 @@
         "context",
         "source-evaluation",
         "reasoning"
+      ],
+      "conclusionKey": [
+        false,
+        true,
+        true
       ]
     },
     "8.4": {
@@ -2771,6 +2846,11 @@
         "context",
         "source-evaluation",
         "reasoning"
+      ],
+      "conclusionKey": [
+        true,
+        true,
+        false
       ]
     },
     "8.5": {
@@ -2937,9 +3017,9 @@
         1
       ],
       "conclusions": [
-        "During the nineteenth century, many U.S.",
         "The Indian Removal Act of 1830 authorized federal policy intended to relocate Native nations from lands east of the Mississippi.",
-        "These sources prove that every society and community across all periods experienced expansion and reform in exactly the same way."
+        "These sources prove that every society and community across all periods experienced expansion and reform in exactly the same way.",
+        "During the nineteenth century, many U.S."
       ],
       "writing": "Compare the historical explanations in two unit lessons: \"Manifest Destiny and Territorial Expansion\" and \"Indian Removal and Indigenous Resistance\". Develop a clear claim, support it with at least two specific pieces of evidence from different sources or evidence types, explain how the evidence supports your claim, and discuss one limitation or alternative interpretation.",
       "challenge": "Design an evidence-based mini exhibit about expansion and reform. Use information from at least two lessons, evaluate a source limitation, and pose a new research question.",
@@ -2953,6 +3033,11 @@
         "context",
         "source-evaluation",
         "reasoning"
+      ],
+      "conclusionKey": [
+        true,
+        false,
+        true
       ]
     },
     "8.6": {
@@ -3119,9 +3204,9 @@
         2
       ],
       "conclusions": [
+        "These sources prove that every society and community across all periods experienced slavery and sectional conflict in exactly the same way.",
         "The cotton economy expanded across the Deep South in the early nineteenth century through land seizure, forced migration, and enslaved labor.",
-        "Abolitionism included many efforts to end slavery, from petitions and lectures to organizing mutual support and political campaigns.",
-        "These sources prove that every society and community across all periods experienced slavery and sectional conflict in exactly the same way."
+        "Abolitionism included many efforts to end slavery, from petitions and lectures to organizing mutual support and political campaigns."
       ],
       "writing": "Compare the historical explanations in two unit lessons: \"The Expansion of Slavery\" and \"Abolitionism and Resistance\". Develop a clear claim, support it with at least two specific pieces of evidence from different sources or evidence types, explain how the evidence supports your claim, and discuss one limitation or alternative interpretation.",
       "challenge": "Design an evidence-based mini exhibit about slavery and sectional conflict. Use information from at least two lessons, evaluate a source limitation, and pose a new research question.",
@@ -3135,6 +3220,11 @@
         "context",
         "source-evaluation",
         "reasoning"
+      ],
+      "conclusionKey": [
+        false,
+        true,
+        true
       ]
     },
     "8.7": {
@@ -3317,6 +3407,11 @@
         "context",
         "source-evaluation",
         "reasoning"
+      ],
+      "conclusionKey": [
+        true,
+        true,
+        false
       ]
     },
     "8.8": {
@@ -3483,9 +3578,9 @@
         1
       ],
       "conclusions": [
-        "The Civil War ended with major Confederate surrenders in 1865, but restoring government and determining the rights of formerly enslaved people posed enormous questions.",
         "The Thirteenth Amendment, ratified in 1865, abolished slavery and involuntary servitude except as punishment for crime.",
-        "These sources prove that every society and community across all periods experienced reconstruction in exactly the same way."
+        "These sources prove that every society and community across all periods experienced reconstruction in exactly the same way.",
+        "The Civil War ended with major Confederate surrenders in 1865, but restoring government and determining the rights of formerly enslaved people posed enormous questions."
       ],
       "writing": "Compare the historical explanations in two unit lessons: \"Rebuilding the Nation\" and \"Reconstruction Amendments and Citizenship\". Develop a clear claim, support it with at least two specific pieces of evidence from different sources or evidence types, explain how the evidence supports your claim, and discuss one limitation or alternative interpretation.",
       "challenge": "Design an evidence-based mini exhibit about reconstruction. Use information from at least two lessons, evaluate a source limitation, and pose a new research question.",
@@ -3499,6 +3594,11 @@
         "context",
         "source-evaluation",
         "reasoning"
+      ],
+      "conclusionKey": [
+        true,
+        false,
+        true
       ]
     }
   }
