@@ -482,64 +482,64 @@
       ],
       "questions": [
         {
-          "prompt": "For Imperialism and Expansion, which document is best for analyzing the official policy or position in 1898?",
+          "prompt": "The de Lôme letter was written by a Spanish diplomat, then published in a U.S. newspaper. What most needs consideration before interpreting U.S. reaction?",
           "choices": [
-            "Document C — Roosevelt Corollary",
-            "Document A — De Lôme Letter",
-            "Document B — Hawaiian Annexation Resolution"
+            "Whether all readers understood the translation in exactly the same way",
+            "The letter's original purpose and how publication changed its audience",
+            "Whether the Spanish diplomat represented the opinion of every Cuban resident"
           ],
           "answer": 1,
-          "explain": "Document A dates to 1898 and records primary source: diplomatic correspondence."
+          "explain": "A privately addressed diplomatic letter acquired a new purpose and audience through publication."
         },
         {
-          "prompt": "A student treats Document B (Hawaiian Annexation Resolution) as proof that a policy produced the same result everywhere. What is the most defensible response?",
+          "prompt": "Congress approved Hawaii's annexation in 1898. What additional evidence is needed to investigate consent?",
           "choices": [
-            "Official documents contain no useful evidence about historical goals.",
-            "A policy's declared objective proves that all social conditions changed accordingly.",
-            "A policy's intended purpose must be tested against enforcement and independent evidence."
-          ],
-          "answer": 2,
-          "explain": "Distinguish what a primary text states from how events unfolded in different communities."
-        },
-        {
-          "prompt": "Which evidence would best corroborate the effects of Roosevelt Corollary beyond its author's stated position?",
-          "choices": [
-            "Contemporary records from affected communities plus independently dated results",
-            "Another copy of the exact same statement with different page formatting",
-            "A general summary without a creator or dates"
+            "Statements and petitions by Native Hawaiian people at the time",
+            "An 1898 U.S. congressional vote alone",
+            "American naval maps that omit Indigenous political organizations"
           ],
           "answer": 0,
-          "explain": "Independent, dated evidence from people experiencing effects can test official claims."
+          "explain": "Congressional approval is not evidence of consent by the population whose sovereignty was affected."
         },
         {
-          "prompt": "Documents A and B reflect different historical contexts. What is the strongest comparison?",
+          "prompt": "Roosevelt's corollary defended possible U.S. intervention in the hemisphere. Which question best evaluates its effects?",
           "choices": [
-            "They provide identical evidence because both are from the same unit.",
-            "They reveal positions shaped by their creators and dates; their claims need context.",
-            "The later document automatically gives a more accurate account of all earlier events."
+            "Was the document longer than the original Monroe Doctrine?",
+            "Did all interventions result from identical economic causes?",
+            "How did intervention affect local governments, and how did communities respond?"
+          ],
+          "answer": 2,
+          "explain": "Impacts need local perspectives and actual records."
+        },
+        {
+          "prompt": "One account describes U.S. expansion as protection of independence; another describes it as imperial rule. What is the strongest investigative approach?",
+          "choices": [
+            "Treat one source as invalid merely because its author was affected",
+            "Compare who wrote each source, what authority was claimed, and who could decide the outcome",
+            "Assume the two accounts must describe different events"
           ],
           "answer": 1,
-          "explain": "Sourcing and contextualizing precede comparison; a document's date alone does not establish truth."
+          "explain": "Competing interpretations require contextual evidence and comparison of political power."
         },
         {
-          "prompt": "The unit includes \"Why Did America Become an Overseas Power?\" and \"The Spanish-American War\". Which inquiry method best joins these lessons?",
+          "prompt": "Which combination most directly tests whether U.S. overseas expansion served commercial interests?",
           "choices": [
-            "Copy the first source's conclusion as the answer to both lessons.",
-            "Treat every difference in wording as proof that one author's facts are false.",
-            "Make a precise comparative claim, test it against both lessons' evidence and consider an alternative."
-          ],
-          "answer": 2,
-          "explain": "Compare evidence and explain a plausible alternative interpretation."
-        },
-        {
-          "prompt": "A historian argues that did overseas expansion advance American ideals or contradict self-government? Which step most strengthens the final judgment?",
-          "choices": [
-            "Use source provenance, multiple independent records, and a qualified counterargument.",
-            "Select the source that sounds most confident and omit contradictory records.",
-            "Avoid taking a position because historians cannot evaluate evidence."
+            "Trade and investment records alongside government policy statements",
+            "Only a map of the Pacific without dates or ports",
+            "Only a diplomat's opinion of the president's personality"
           ],
           "answer": 0,
-          "explain": "A defensible argument supports a position and weighs opposing evidence."
+          "explain": "Economic and political records together help evaluate commercial motivations."
+        },
+        {
+          "prompt": "Which claim is most consistent with the three linked documents?",
+          "choices": [
+            "The 1898 war settled all debates about Cuban and Hawaiian independence",
+            "Roosevelt's policy guaranteed no U.S. interference in nearby nations",
+            "Overseas expansion involved public justification, contested sovereignty, and changing U.S. authority"
+          ],
+          "answer": 2,
+          "explain": "The documents address diplomatic pressure, annexation, and intervention rationales."
         }
       ],
       "matchingOptions": [
@@ -672,64 +672,64 @@
       ],
       "questions": [
         {
-          "prompt": "For World War I, which document is best for analyzing the official policy or position in 1917?",
+          "prompt": "The Zimmermann Telegram and Wilson's April 1917 address relate to U.S. entry into war. What does the telegram establish most directly?",
           "choices": [
-            "Document A — Zimmermann Telegram",
-            "Document B — Wilson's War Message",
-            "Document C — Wilson's Fourteen Points"
-          ],
-          "answer": 0,
-          "explain": "Document A dates to 1917 and records primary source: diplomatic telegram."
-        },
-        {
-          "prompt": "A student treats Document B (Wilson's War Message) as proof that a policy produced the same result everywhere. What is the most defensible response?",
-          "choices": [
-            "A policy's declared objective proves that all social conditions changed accordingly.",
-            "A policy's intended purpose must be tested against enforcement and independent evidence.",
-            "Official documents contain no useful evidence about historical goals."
+            "That every American supported intervention",
+            "A German proposal involving Mexico during the war",
+            "That the treaty ending the war was already agreed"
           ],
           "answer": 1,
-          "explain": "Distinguish what a primary text states from how events unfolded in different communities."
+          "explain": "The telegram is evidence of one diplomatic proposal, not of universal U.S. opinion."
         },
         {
-          "prompt": "Which evidence would best corroborate the effects of Wilson's Fourteen Points beyond its author's stated position?",
+          "prompt": "Wilson described U.S. entry as a defense of rights and peace. How should a historian test that explanation?",
           "choices": [
-            "Another copy of the exact same statement with different page formatting",
-            "A general summary without a creator or dates",
-            "Contemporary records from affected communities plus independently dated results"
-          ],
-          "answer": 2,
-          "explain": "Independent, dated evidence from people experiencing effects can test official claims."
-        },
-        {
-          "prompt": "Documents A and B reflect different historical contexts. What is the strongest comparison?",
-          "choices": [
-            "They reveal positions shaped by their creators and dates; their claims need context.",
-            "The later document automatically gives a more accurate account of all earlier events.",
-            "They provide identical evidence because both are from the same unit."
+            "Compare his address with submarine-warfare reports, diplomatic records, and dissenting voices",
+            "Treat the address as a complete record of every motive",
+            "Use the 1919 peace settlement to determine all causes in 1914"
           ],
           "answer": 0,
-          "explain": "Sourcing and contextualizing precede comparison; a document's date alone does not establish truth."
+          "explain": "Policy speeches need context and corroboration."
         },
         {
-          "prompt": "The unit includes \"Causes of World War I\" and \"Why Did the United States Enter the War?\". Which inquiry method best joins these lessons?",
+          "prompt": "The Fourteen Points proposed principles for peace. What additional source best tests their implementation?",
           "choices": [
-            "Treat every difference in wording as proof that one author's facts are false.",
-            "Make a precise comparative claim, test it against both lessons' evidence and consider an alternative.",
-            "Copy the first source's conclusion as the answer to both lessons."
-          ],
-          "answer": 1,
-          "explain": "Compare evidence and explain a plausible alternative interpretation."
-        },
-        {
-          "prompt": "A historian argues that why did the United States enter World War I and how far did war change democracy at home and abroad? Which step most strengthens the final judgment?",
-          "choices": [
-            "Select the source that sounds most confident and omit contradictory records.",
-            "Avoid taking a position because historians cannot evaluate evidence.",
-            "Use source provenance, multiple independent records, and a qualified counterargument."
+            "A map of prewar alliances only",
+            "A 1917 U.S. military recruitment poster",
+            "The Treaty of Versailles terms and records of negotiations"
           ],
           "answer": 2,
-          "explain": "A defensible argument supports a position and weighs opposing evidence."
+          "explain": "Compare proposed principles with negotiated outcomes."
+        },
+        {
+          "prompt": "Source A is a secret telegram; Source B is a public address. What is the most important difference for interpretation?",
+          "choices": [
+            "The telegram cannot include any valid facts because it was secret",
+            "They were created for different audiences and political purposes",
+            "Public statements are always more reliable than private messages"
+          ],
+          "answer": 1,
+          "explain": "Purpose and audience influence what each text reveals."
+        },
+        {
+          "prompt": "A classmate claims that the assassination in Sarajevo alone caused the global war. What evidence challenges that explanation?",
+          "choices": [
+            "Earlier alliance commitments, militarization, and imperial rivalry",
+            "Only a biography of the assassin without international context",
+            "A battle photograph from 1918 without source information"
+          ],
+          "answer": 0,
+          "explain": "Multiple long-term causes helped turn a regional crisis into wider conflict."
+        },
+        {
+          "prompt": "Which is the strongest qualified conclusion about Wilson's wartime and postwar goals?",
+          "choices": [
+            "His public goals were identical to all Allied and defeated governments' goals",
+            "The Fourteen Points removed future international conflicts automatically",
+            "His stated goals influenced debate, but the peace settlement reflected negotiations and competing interests"
+          ],
+          "answer": 2,
+          "explain": "Policy proposals were shaped by conflict and compromise."
         }
       ],
       "matchingOptions": [
@@ -862,64 +862,64 @@
       ],
       "questions": [
         {
-          "prompt": "For The Roaring Twenties, which document is best for analyzing the official policy or position in 1920s–1930s?",
+          "prompt": "The Library of Congress Harlem Renaissance source collection includes work by different creators. Why does that matter?",
           "choices": [
-            "Document B — Nineteenth Amendment",
-            "Document C — Boulder Canyon Project Act",
-            "Document A — Harlem Renaissance Primary-Source Collection"
-          ],
-          "answer": 2,
-          "explain": "Document A dates to 1920s–1930s and records primary-source collection: historical images, writings, and recordings."
-        },
-        {
-          "prompt": "A student treats Document B (Nineteenth Amendment) as proof that a policy produced the same result everywhere. What is the most defensible response?",
-          "choices": [
-            "A policy's intended purpose must be tested against enforcement and independent evidence.",
-            "Official documents contain no useful evidence about historical goals.",
-            "A policy's declared objective proves that all social conditions changed accordingly."
-          ],
-          "answer": 0,
-          "explain": "Distinguish what a primary text states from how events unfolded in different communities."
-        },
-        {
-          "prompt": "Which evidence would best corroborate the effects of Boulder Canyon Project Act beyond its author's stated position?",
-          "choices": [
-            "A general summary without a creator or dates",
-            "Contemporary records from affected communities plus independently dated results",
-            "Another copy of the exact same statement with different page formatting"
+            "All artists represented the same views because they lived in the same era",
+            "Each work's creator, medium, audience and date shape the claim it can support",
+            "Artistic work cannot provide historical evidence about public culture"
           ],
           "answer": 1,
-          "explain": "Independent, dated evidence from people experiencing effects can test official claims."
+          "explain": "Cultural evidence requires attention to authorship and medium."
         },
         {
-          "prompt": "Documents A and B reflect different historical contexts. What is the strongest comparison?",
+          "prompt": "A student uses the Nineteenth Amendment to claim women had full ballot access in 1920. What is missing?",
           "choices": [
-            "The later document automatically gives a more accurate account of all earlier events.",
-            "They provide identical evidence because both are from the same unit.",
-            "They reveal positions shaped by their creators and dates; their claims need context."
-          ],
-          "answer": 2,
-          "explain": "Sourcing and contextualizing precede comparison; a document's date alone does not establish truth."
-        },
-        {
-          "prompt": "The unit includes \"A Changing American Culture\" and \"The Harlem Renaissance\". Which inquiry method best joins these lessons?",
-          "choices": [
-            "Make a precise comparative claim, test it against both lessons' evidence and consider an alternative.",
-            "Copy the first source's conclusion as the answer to both lessons.",
-            "Treat every difference in wording as proof that one author's facts are false."
+            "Evidence about state and local enforcement and other discriminatory voting barriers",
+            "The amendment's exact ratification year alone",
+            "A list of political cartoons unrelated to voting"
           ],
           "answer": 0,
-          "explain": "Compare evidence and explain a plausible alternative interpretation."
+          "explain": "Legal guarantees and actual access are different historical claims."
         },
         {
-          "prompt": "A historian argues that how did cultural innovation and changing consumer life coexist with conflict and inequality in the 1920s? Which step most strengthens the final judgment?",
+          "prompt": "The Boulder Canyon Project Act is evidence of federal support for an infrastructure project. What cannot be inferred from it alone?",
           "choices": [
-            "Avoid taking a position because historians cannot evaluate evidence.",
-            "Use source provenance, multiple independent records, and a qualified counterargument.",
-            "Select the source that sounds most confident and omit contradictory records."
+            "That Congress debated and authorized federal infrastructure policy",
+            "That governments were making economic decisions in the 1920s",
+            "That every region and family benefited equally from resulting projects"
+          ],
+          "answer": 2,
+          "explain": "Authorization is not a nationwide equality measure."
+        },
+        {
+          "prompt": "Which source combination most directly tests claims about uneven prosperity in the 1920s?",
+          "choices": [
+            "Only magazine advertisements for consumer products",
+            "Household wages, credit obligations and employment records from comparable years",
+            "A single product catalog with no price dates"
           ],
           "answer": 1,
-          "explain": "A defensible argument supports a position and weighs opposing evidence."
+          "explain": "Prosperity requires measures beyond advertising."
+        },
+        {
+          "prompt": "How should a historian relate Harlem Renaissance art to the era's racial inequalities?",
+          "choices": [
+            "Interpret cultural innovation alongside legal, social and economic evidence",
+            "Assume artistic success meant discrimination had disappeared",
+            "Exclude cultural evidence when investigating political power"
+          ],
+          "answer": 0,
+          "explain": "Cultural achievement and unequal rights could coexist."
+        },
+        {
+          "prompt": "What is the strongest conclusion about the 1920s drawn from the unit's different kinds of evidence?",
+          "choices": [
+            "A single unified national culture replaced all local differences",
+            "Consumer expansion ensured long-term financial security for households",
+            "Innovation and expanded opportunities coexisted with political, racial and economic tensions"
+          ],
+          "answer": 2,
+          "explain": "The evidence describes overlapping change and conflict."
         }
       ],
       "matchingOptions": [
@@ -1052,64 +1052,64 @@
       ],
       "questions": [
         {
-          "prompt": "For Great Depression and New Deal, which document is best for analyzing the official policy or position in 1933?",
+          "prompt": "The Tennessee Valley Authority Act authorized a federal regional program. What would best show its actual impact?",
           "choices": [
-            "Document C — Social Security Act",
-            "Document A — Tennessee Valley Authority Act",
-            "Document B — National Labor Relations Act"
+            "The act's title without implementation records",
+            "Regional electricity access, environmental effects and community testimony over time",
+            "An unrelated national campaign slogan"
           ],
           "answer": 1,
-          "explain": "Document A dates to 1933 and records primary source: federal law."
+          "explain": "Implementation evidence measures effects more directly than enabling legislation."
         },
         {
-          "prompt": "A student treats Document B (National Labor Relations Act) as proof that a policy produced the same result everywhere. What is the most defensible response?",
+          "prompt": "The National Labor Relations Act protected bargaining for many workers. Which question best identifies a limitation of the original law?",
           "choices": [
-            "Official documents contain no useful evidence about historical goals.",
-            "A policy's declared objective proves that all social conditions changed accordingly.",
-            "A policy's intended purpose must be tested against enforcement and independent evidence."
-          ],
-          "answer": 2,
-          "explain": "Distinguish what a primary text states from how events unfolded in different communities."
-        },
-        {
-          "prompt": "Which evidence would best corroborate the effects of Social Security Act beyond its author's stated position?",
-          "choices": [
-            "Contemporary records from affected communities plus independently dated results",
-            "Another copy of the exact same statement with different page formatting",
-            "A general summary without a creator or dates"
+            "Which workers and occupations were excluded from its protections?",
+            "Did every employer immediately approve of all unions?",
+            "Was the statute shorter than the Social Security Act?"
           ],
           "answer": 0,
-          "explain": "Independent, dated evidence from people experiencing effects can test official claims."
+          "explain": "Legal exclusions and enforcement affect who benefited."
         },
         {
-          "prompt": "Documents A and B reflect different historical contexts. What is the strongest comparison?",
+          "prompt": "A student claims Social Security eliminated poverty immediately in 1935. Which evidence best tests that?",
           "choices": [
-            "They provide identical evidence because both are from the same unit.",
-            "They reveal positions shaped by their creators and dates; their claims need context.",
-            "The later document automatically gives a more accurate account of all earlier events."
+            "The law's opening paragraph by itself",
+            "A 1932 photograph of a bank building",
+            "Coverage requirements, benefit-payment data and poverty measures after enactment"
+          ],
+          "answer": 2,
+          "explain": "Legal intent and results are separate issues."
+        },
+        {
+          "prompt": "Why does the 1929 stock crash not by itself fully explain the Great Depression?",
+          "choices": [
+            "The crash had no connection to financial conditions",
+            "Banking weakness, demand changes, debt and international problems also shaped the downturn",
+            "Stock prices had never changed before October 1929"
           ],
           "answer": 1,
-          "explain": "Sourcing and contextualizing precede comparison; a document's date alone does not establish truth."
+          "explain": "The lesson teaches interacting causes."
         },
         {
-          "prompt": "The unit includes \"The Stock Market Crash and Economic Crisis\" and \"Living Through the Great Depression\". Which inquiry method best joins these lessons?",
+          "prompt": "Two accounts disagree on whether New Deal programs were effective. What should a historian compare?",
           "choices": [
-            "Copy the first source's conclusion as the answer to both lessons.",
-            "Treat every difference in wording as proof that one author's facts are false.",
-            "Make a precise comparative claim, test it against both lessons' evidence and consider an alternative."
-          ],
-          "answer": 2,
-          "explain": "Compare evidence and explain a plausible alternative interpretation."
-        },
-        {
-          "prompt": "A historian argues that to what extent did New Deal policies expand government responsibility while leaving major needs unmet? Which step most strengthens the final judgment?",
-          "choices": [
-            "Use source provenance, multiple independent records, and a qualified counterargument.",
-            "Select the source that sounds most confident and omit contradictory records.",
-            "Avoid taking a position because historians cannot evaluate evidence."
+            "Comparable employment, recovery and relief data alongside different affected groups' experiences",
+            "Which writer uses more forceful adjectives",
+            "Only one national statistic without dates"
           ],
           "answer": 0,
-          "explain": "A defensible argument supports a position and weighs opposing evidence."
+          "explain": "Comparisons require context, effects and multiple measures."
+        },
+        {
+          "prompt": "Which conclusion best combines Documents A–C?",
+          "choices": [
+            "All programs served exactly the same population and economic problem",
+            "The new federal programs ended disagreement about the government's proper role",
+            "Federal responsibilities expanded in several distinct ways, but coverage and effects differed"
+          ],
+          "answer": 2,
+          "explain": "Regional development, labor bargaining and social insurance were not identical programs."
         }
       ],
       "matchingOptions": [
@@ -1248,64 +1248,64 @@
       ],
       "questions": [
         {
-          "prompt": "For World War II, which document is best for analyzing the official policy or position in December 8, 1941?",
+          "prompt": "Roosevelt's December 1941 address is a primary source. What does it establish most directly?",
           "choices": [
-            "Document A — Roosevelt's War Message after Pearl Harbor",
-            "Document B — Executive Order 9066",
-            "Document C — Executive Order 8802"
-          ],
-          "answer": 0,
-          "explain": "Document A dates to December 8, 1941 and records primary source: presidential address."
-        },
-        {
-          "prompt": "A student treats Document B (Executive Order 9066) as proof that a policy produced the same result everywhere. What is the most defensible response?",
-          "choices": [
-            "A policy's declared objective proves that all social conditions changed accordingly.",
-            "A policy's intended purpose must be tested against enforcement and independent evidence.",
-            "Official documents contain no useful evidence about historical goals."
+            "All U.S. citizens agreed on every wartime policy",
+            "The administration's publicly stated case for war after Pearl Harbor",
+            "The full experiences of civilians in occupied Europe"
           ],
           "answer": 1,
-          "explain": "Distinguish what a primary text states from how events unfolded in different communities."
+          "explain": "The president's address records the government's public argument."
         },
         {
-          "prompt": "Which evidence would best corroborate the effects of Executive Order 8802 beyond its author's stated position?",
+          "prompt": "Executive Order 9066 enabled exclusion policies. What would best evaluate its consequences?",
           "choices": [
-            "Another copy of the exact same statement with different page formatting",
-            "A general summary without a creator or dates",
-            "Contemporary records from affected communities plus independently dated results"
-          ],
-          "answer": 2,
-          "explain": "Independent, dated evidence from people experiencing effects can test official claims."
-        },
-        {
-          "prompt": "Documents A and B reflect different historical contexts. What is the strongest comparison?",
-          "choices": [
-            "They reveal positions shaped by their creators and dates; their claims need context.",
-            "The later document automatically gives a more accurate account of all earlier events.",
-            "They provide identical evidence because both are from the same unit."
+            "Incarcerated people's testimony, court records and government implementation files",
+            "A defense-industry wage table with no connection to forced removal",
+            "The order's printed title without historical context"
           ],
           "answer": 0,
-          "explain": "Sourcing and contextualizing precede comparison; a document's date alone does not establish truth."
+          "explain": "Exclusion and incarceration effects demand specific community and administrative evidence."
         },
         {
-          "prompt": "The unit includes \"Causes of World War II\" and \"Pearl Harbor and American Entry\". Which inquiry method best joins these lessons?",
+          "prompt": "Executive Order 8802 addressed discrimination in defense work. Which claim would require more proof?",
           "choices": [
-            "Treat every difference in wording as proof that one author's facts are false.",
-            "Make a precise comparative claim, test it against both lessons' evidence and consider an alternative.",
-            "Copy the first source's conclusion as the answer to both lessons."
-          ],
-          "answer": 1,
-          "explain": "Compare evidence and explain a plausible alternative interpretation."
-        },
-        {
-          "prompt": "A historian argues that how did wartime choices shape military victory while transforming rights and obligations at home? Which step most strengthens the final judgment?",
-          "choices": [
-            "Select the source that sounds most confident and omit contradictory records.",
-            "Avoid taking a position because historians cannot evaluate evidence.",
-            "Use source provenance, multiple independent records, and a qualified counterargument."
+            "The order announced a federal policy concerning employment",
+            "The government recognized discriminatory employment as an issue",
+            "The order eliminated discriminatory practices in every wartime factory"
           ],
           "answer": 2,
-          "explain": "A defensible argument supports a position and weighs opposing evidence."
+          "explain": "Announced policy is not proof of complete enforcement."
+        },
+        {
+          "prompt": "How did the Allied war effort complicate the meaning of freedom at home?",
+          "choices": [
+            "Civil rights debates disappeared during mobilization",
+            "Anti-discrimination efforts coexisted with Japanese American incarceration and other inequalities",
+            "All groups experienced wartime policies in the same way"
+          ],
+          "answer": 1,
+          "explain": "Wartime actions included both expanded opportunities and major rights restrictions."
+        },
+        {
+          "prompt": "What would best support a historical explanation of the Holocaust beyond its occurrence during wartime?",
+          "choices": [
+            "Nazi policy records, survivor testimony and evidence of organized persecution and murder",
+            "Only a map of postwar Allied borders",
+            "A single anonymous claim without place or date"
+          ],
+          "answer": 0,
+          "explain": "The Holocaust requires careful, corroborated evidence and attention to victims."
+        },
+        {
+          "prompt": "Which argument about World War II avoids oversimplification?",
+          "choices": [
+            "Victory resulted only from one battle and one country",
+            "All economic gains were shared equally by civilians",
+            "Military coordination and domestic mobilization shaped victory while rights and experiences varied"
+          ],
+          "answer": 2,
+          "explain": "Both international campaigns and unequal domestic conditions matter."
         }
       ],
       "matchingOptions": [
@@ -1438,64 +1438,64 @@
       ],
       "questions": [
         {
-          "prompt": "For The Cold War, which document is best for analyzing the official policy or position in 1947?",
+          "prompt": "The Truman Doctrine and Marshall Plan both addressed the postwar world. What was a major distinction?",
           "choices": [
-            "Document B — Marshall Plan",
-            "Document C — Tonkin Gulf Resolution",
-            "Document A — Truman Doctrine"
-          ],
-          "answer": 2,
-          "explain": "Document A dates to 1947 and records primary source: presidential address."
-        },
-        {
-          "prompt": "A student treats Document B (Marshall Plan) as proof that a policy produced the same result everywhere. What is the most defensible response?",
-          "choices": [
-            "A policy's intended purpose must be tested against enforcement and independent evidence.",
-            "Official documents contain no useful evidence about historical goals.",
-            "A policy's declared objective proves that all social conditions changed accordingly."
-          ],
-          "answer": 0,
-          "explain": "Distinguish what a primary text states from how events unfolded in different communities."
-        },
-        {
-          "prompt": "Which evidence would best corroborate the effects of Tonkin Gulf Resolution beyond its author's stated position?",
-          "choices": [
-            "A general summary without a creator or dates",
-            "Contemporary records from affected communities plus independently dated results",
-            "Another copy of the exact same statement with different page formatting"
+            "They were identical military orders",
+            "One emphasized assistance in political-security crises; the other emphasized economic recovery",
+            "The Marshall Plan formally ended the Korean War"
           ],
           "answer": 1,
-          "explain": "Independent, dated evidence from people experiencing effects can test official claims."
+          "explain": "Different policies addressed interconnected but distinct goals."
         },
         {
-          "prompt": "Documents A and B reflect different historical contexts. What is the strongest comparison?",
+          "prompt": "What evidence would best test whether Marshall Plan assistance helped European recovery?",
           "choices": [
-            "The later document automatically gives a more accurate account of all earlier events.",
-            "They provide identical evidence because both are from the same unit.",
-            "They reveal positions shaped by their creators and dates; their claims need context."
-          ],
-          "answer": 2,
-          "explain": "Sourcing and contextualizing precede comparison; a document's date alone does not establish truth."
-        },
-        {
-          "prompt": "The unit includes \"Origins of the Cold War\" and \"The Korean War\". Which inquiry method best joins these lessons?",
-          "choices": [
-            "Make a precise comparative claim, test it against both lessons' evidence and consider an alternative.",
-            "Copy the first source's conclusion as the answer to both lessons.",
-            "Treat every difference in wording as proof that one author's facts are false."
+            "Economic indicators and recipient-country records over several years",
+            "Only a U.S. speech requesting aid",
+            "A current photograph of a postwar monument"
           ],
           "answer": 0,
-          "explain": "Compare evidence and explain a plausible alternative interpretation."
+          "explain": "Outcomes should be tested through time-series and recipient records."
         },
         {
-          "prompt": "A historian argues that how did containment policies seek security while creating new conflicts and costs? Which step most strengthens the final judgment?",
+          "prompt": "The Tonkin Gulf Resolution is a congressional action. Which claim exceeds what its text alone can establish?",
           "choices": [
-            "Avoid taking a position because historians cannot evaluate evidence.",
-            "Use source provenance, multiple independent records, and a qualified counterargument.",
-            "Select the source that sounds most confident and omit contradictory records."
+            "Congress expanded authorization for presidential action",
+            "The resolution shaped U.S. war policy",
+            "All reported naval incidents happened precisely as described by officials"
+          ],
+          "answer": 2,
+          "explain": "A resolution expresses authority but does not independently corroborate event reports."
+        },
+        {
+          "prompt": "Why did the Korean conflict involve more than disputes between North and South Korea?",
+          "choices": [
+            "It occurred without any international intervention",
+            "Cold War alliances and competing powers helped shape intervention",
+            "No decisions made after 1945 affected the peninsula"
           ],
           "answer": 1,
-          "explain": "A defensible argument supports a position and weighs opposing evidence."
+          "explain": "The conflict was linked to division and international power."
+        },
+        {
+          "prompt": "A student argues Sputnik caused every change in U.S. science education. What is the best inquiry strategy?",
+          "choices": [
+            "Compare education policy, prior programs, funding and Soviet/U.S. competition over time",
+            "Accept the simple cause because launch dates are precise",
+            "Ignore public reaction and government decisions"
+          ],
+          "answer": 0,
+          "explain": "A triggering event rarely explains all policy changes."
+        },
+        {
+          "prompt": "Which is the strongest evidence-based judgment about U.S. containment?",
+          "choices": [
+            "Containment policies produced uniform peace in every region",
+            "Every Cold War conflict began for exactly the same reason",
+            "Strategies intended to limit Soviet-aligned influence had different consequences across regions"
+          ],
+          "answer": 2,
+          "explain": "The effects of containment require case-specific comparisons."
         }
       ],
       "matchingOptions": [
@@ -1634,64 +1634,64 @@
       ],
       "questions": [
         {
-          "prompt": "For Civil Rights and Social Change, which document is best for analyzing the official policy or position in 1954?",
+          "prompt": "The Brown decision ruled segregation in public schools unconstitutional. What other evidence tests implementation?",
           "choices": [
-            "Document C — Voting Rights Act",
-            "Document A — Brown v. Board of Education",
-            "Document B — Civil Rights Act"
+            "Only the case's reported title and date",
+            "District desegregation records, resistance and student experiences after 1954",
+            "A contemporary map of highways unrelated to schools"
           ],
           "answer": 1,
-          "explain": "Document A dates to 1954 and records primary source: supreme court opinion."
+          "explain": "Legal change and institutional change can differ."
         },
         {
-          "prompt": "A student treats Document B (Civil Rights Act) as proof that a policy produced the same result everywhere. What is the most defensible response?",
+          "prompt": "What is the strongest way to evaluate civil rights movement strategies beyond prominent speeches?",
           "choices": [
-            "Official documents contain no useful evidence about historical goals.",
-            "A policy's declared objective proves that all social conditions changed accordingly.",
-            "A policy's intended purpose must be tested against enforcement and independent evidence."
-          ],
-          "answer": 2,
-          "explain": "Distinguish what a primary text states from how events unfolded in different communities."
-        },
-        {
-          "prompt": "Which evidence would best corroborate the effects of Voting Rights Act beyond its author's stated position?",
-          "choices": [
-            "Contemporary records from affected communities plus independently dated results",
-            "Another copy of the exact same statement with different page formatting",
-            "A general summary without a creator or dates"
+            "Compare local organizing records, boycotts, legal cases and firsthand testimony",
+            "Assume national leaders acted without support from local communities",
+            "Rely on one retrospective biography without context"
           ],
           "answer": 0,
-          "explain": "Independent, dated evidence from people experiencing effects can test official claims."
+          "explain": "Movement history depends on distributed organizers and multiple kinds of evidence."
         },
         {
-          "prompt": "Documents A and B reflect different historical contexts. What is the strongest comparison?",
+          "prompt": "Which is an unsupported conclusion from the Civil Rights Act alone?",
           "choices": [
-            "They provide identical evidence because both are from the same unit.",
-            "They reveal positions shaped by their creators and dates; their claims need context.",
-            "The later document automatically gives a more accurate account of all earlier events."
+            "Federal law prohibited specified kinds of discrimination",
+            "Lawmakers addressed unequal treatment through legislation",
+            "Every barrier affecting Black Americans ended upon the act's signing"
+          ],
+          "answer": 2,
+          "explain": "Laws require implementation and do not remove all structural inequalities."
+        },
+        {
+          "prompt": "Why compare the Civil Rights Act with the Voting Rights Act?",
+          "choices": [
+            "Both statutes had exactly the same legal scope",
+            "They addressed overlapping inequalities using different legal mechanisms and protections",
+            "Voting access had never been disputed before 1965"
           ],
           "answer": 1,
-          "explain": "Sourcing and contextualizing precede comparison; a document's date alone does not establish truth."
+          "explain": "The laws addressed distinct but related issues."
         },
         {
-          "prompt": "The unit includes \"Segregation and the Fight for Equality\" and \"Brown v. Board of Education\". Which inquiry method best joins these lessons?",
+          "prompt": "How could a researcher investigate Malcolm X's changing perspectives?",
           "choices": [
-            "Copy the first source's conclusion as the answer to both lessons.",
-            "Treat every difference in wording as proof that one author's facts are false.",
-            "Make a precise comparative claim, test it against both lessons' evidence and consider an alternative."
-          ],
-          "answer": 2,
-          "explain": "Compare evidence and explain a plausible alternative interpretation."
-        },
-        {
-          "prompt": "A historian argues that how far did legal victories change civil rights, and why did activism continue? Which step most strengthens the final judgment?",
-          "choices": [
-            "Use source provenance, multiple independent records, and a qualified counterargument.",
-            "Select the source that sounds most confident and omit contradictory records.",
-            "Avoid taking a position because historians cannot evaluate evidence."
+            "Compare speeches and interviews from different years in historical context",
+            "Treat one early statement as his permanently fixed views",
+            "Infer beliefs from others' reactions without reading his words"
           ],
           "answer": 0,
-          "explain": "A defensible argument supports a position and weighs opposing evidence."
+          "explain": "Intellectual change requires chronological evidence."
+        },
+        {
+          "prompt": "What does the evidence suggest about legal victories and continuing civic movements?",
+          "choices": [
+            "Legal victories ended the need for any further organizing",
+            "National laws erased all local differences in enforcement",
+            "Rights expanded through law and activism, but enforcement and broader inequalities remained contested"
+          ],
+          "answer": 2,
+          "explain": "Historic change involved achievements and continued struggles."
         }
       ],
       "matchingOptions": [
@@ -1824,64 +1824,64 @@
       ],
       "questions": [
         {
-          "prompt": "For America in the Late Twentieth Century, which document is best for analyzing the official policy or position in 1972–1974?",
+          "prompt": "The Watergate tapes are presidential records. What is their main value for studying political accountability?",
           "choices": [
-            "Document A — Watergate Presidential Tape Records",
-            "Document B — Reagan's Brandenburg Gate Address",
-            "Document C — Clinton's Remarks on NAFTA"
-          ],
-          "answer": 0,
-          "explain": "Document A dates to 1972–1974 and records primary-source collection: recorded presidential conversations."
-        },
-        {
-          "prompt": "A student treats Document B (Reagan's Brandenburg Gate Address) as proof that a policy produced the same result everywhere. What is the most defensible response?",
-          "choices": [
-            "A policy's declared objective proves that all social conditions changed accordingly.",
-            "A policy's intended purpose must be tested against enforcement and independent evidence.",
-            "Official documents contain no useful evidence about historical goals."
+            "They capture every public reaction to Watergate",
+            "They document particular recorded conversations that can be checked against other evidence",
+            "They prove all accusations without needing context or dates"
           ],
           "answer": 1,
-          "explain": "Distinguish what a primary text states from how events unfolded in different communities."
+          "explain": "Recordings are specific evidence and should be corroborated."
         },
         {
-          "prompt": "Which evidence would best corroborate the effects of Clinton's Remarks on NAFTA beyond its author's stated position?",
+          "prompt": "What further evidence would help evaluate the effects of Reagan-era tax policy?",
           "choices": [
-            "Another copy of the exact same statement with different page formatting",
-            "A general summary without a creator or dates",
-            "Contemporary records from affected communities plus independently dated results"
-          ],
-          "answer": 2,
-          "explain": "Independent, dated evidence from people experiencing effects can test official claims."
-        },
-        {
-          "prompt": "Documents A and B reflect different historical contexts. What is the strongest comparison?",
-          "choices": [
-            "They reveal positions shaped by their creators and dates; their claims need context.",
-            "The later document automatically gives a more accurate account of all earlier events.",
-            "They provide identical evidence because both are from the same unit."
+            "Comparable tax, budget, employment and income data across affected groups",
+            "Only a presidential speech arguing for the policy",
+            "A later film dramatization of the administration"
           ],
           "answer": 0,
-          "explain": "Sourcing and contextualizing precede comparison; a document's date alone does not establish truth."
+          "explain": "Economic outcomes require empirical comparison."
         },
         {
-          "prompt": "The unit includes \"Watergate and Public Trust\" and \"The Reagan Era\". Which inquiry method best joins these lessons?",
+          "prompt": "Reagan's 1987 Berlin speech argued for change. What cannot be concluded from it alone?",
           "choices": [
-            "Treat every difference in wording as proof that one author's facts are false.",
-            "Make a precise comparative claim, test it against both lessons' evidence and consider an alternative.",
-            "Copy the first source's conclusion as the answer to both lessons."
-          ],
-          "answer": 1,
-          "explain": "Compare evidence and explain a plausible alternative interpretation."
-        },
-        {
-          "prompt": "A historian argues that how did challenges to public trust, Cold War change and globalization reshape American politics? Which step most strengthens the final judgment?",
-          "choices": [
-            "Select the source that sounds most confident and omit contradictory records.",
-            "Avoid taking a position because historians cannot evaluate evidence.",
-            "Use source provenance, multiple independent records, and a qualified counterargument."
+            "The speech articulated a public U.S. policy position",
+            "The speech formed part of Cold War political rhetoric",
+            "The speech by itself caused the opening of the Berlin Wall in 1989"
           ],
           "answer": 2,
-          "explain": "A defensible argument supports a position and weighs opposing evidence."
+          "explain": "Historical change resulted from multiple forces and choices."
+        },
+        {
+          "prompt": "Clinton's NAFTA remarks predicted economic gains. What should historians examine to evaluate those predictions?",
+          "choices": [
+            "Whether the speech was delivered before a large audience",
+            "Trade, employment and wage data from after implementation, separated by sector and region",
+            "Only the number of pages in the trade agreement"
+          ],
+          "answer": 1,
+          "explain": "Predictions and realized outcomes should be tested separately."
+        },
+        {
+          "prompt": "What can compare Watergate and late-Cold-War foreign policy without treating them as identical?",
+          "choices": [
+            "How public claims, evidence and institutional decisions were scrutinized in different contexts",
+            "Whether both events occurred during exactly the same presidency",
+            "A single interpretation that ignores chronology"
+          ],
+          "answer": 0,
+          "explain": "Shared historical skills do not erase important differences."
+        },
+        {
+          "prompt": "Which conclusion about late-twentieth-century U.S. policy is most defensible?",
+          "choices": [
+            "All economic policies produced equally distributed gains",
+            "Every Cold War change resulted directly from one speech",
+            "Political accountability, diplomatic change and global trade had different causes and contested effects"
+          ],
+          "answer": 2,
+          "explain": "The unit covers distinct yet connected transformations."
         }
       ],
       "matchingOptions": [
@@ -2014,64 +2014,64 @@
       ],
       "questions": [
         {
-          "prompt": "For The United States in the Twenty-First Century, which document is best for analyzing the official policy or position in September 20, 2001?",
+          "prompt": "What is the greatest evidentiary strength of a 9/11 survivor oral-history interview?",
           "choices": [
-            "Document B — 9/11 Oral History Collection",
-            "Document C — 9/11 Commission Interview Records",
-            "Document A — September 20 Joint Address"
-          ],
-          "answer": 2,
-          "explain": "Document A dates to September 20, 2001 and records primary source: presidential speech."
-        },
-        {
-          "prompt": "A student treats Document B (9/11 Oral History Collection) as proof that a policy produced the same result everywhere. What is the most defensible response?",
-          "choices": [
-            "A policy's intended purpose must be tested against enforcement and independent evidence.",
-            "Official documents contain no useful evidence about historical goals.",
-            "A policy's declared objective proves that all social conditions changed accordingly."
-          ],
-          "answer": 0,
-          "explain": "Distinguish what a primary text states from how events unfolded in different communities."
-        },
-        {
-          "prompt": "Which evidence would best corroborate the effects of 9/11 Commission Interview Records beyond its author's stated position?",
-          "choices": [
-            "A general summary without a creator or dates",
-            "Contemporary records from affected communities plus independently dated results",
-            "Another copy of the exact same statement with different page formatting"
+            "It reveals every cause of the attacks and all policy consequences",
+            "It preserves a person's firsthand experience and perspective",
+            "It replaces the need to know when and where the events occurred"
           ],
           "answer": 1,
-          "explain": "Independent, dated evidence from people experiencing effects can test official claims."
+          "explain": "First-person accounts offer valuable but necessarily situated evidence."
         },
         {
-          "prompt": "Documents A and B reflect different historical contexts. What is the strongest comparison?",
+          "prompt": "President Bush's September 20, 2001 address presents a government response. What is necessary to evaluate its long-term effects?",
           "choices": [
-            "The later document automatically gives a more accurate account of all earlier events.",
-            "They provide identical evidence because both are from the same unit.",
-            "They reveal positions shaped by their creators and dates; their claims need context."
-          ],
-          "answer": 2,
-          "explain": "Sourcing and contextualizing precede comparison; a document's date alone does not establish truth."
-        },
-        {
-          "prompt": "The unit includes \"September 11 and Its Consequences\" and \"Technology and American Society\". Which inquiry method best joins these lessons?",
-          "choices": [
-            "Make a precise comparative claim, test it against both lessons' evidence and consider an alternative.",
-            "Copy the first source's conclusion as the answer to both lessons.",
-            "Treat every difference in wording as proof that one author's facts are false."
+            "Compare later policy records and experiences of affected communities",
+            "Treat the address as a complete prediction of every later decision",
+            "Use the speech alone to establish whether security measures worked"
           ],
           "answer": 0,
-          "explain": "Compare evidence and explain a plausible alternative interpretation."
+          "explain": "Speech content differs from policy implementation and long-term outcomes."
         },
         {
-          "prompt": "A historian argues that how have security decisions and digital change reshaped freedom, civic life and public evidence? Which step most strengthens the final judgment?",
+          "prompt": "The 9/11 Commission records include interviews and analysis. What must students distinguish?",
           "choices": [
-            "Avoid taking a position because historians cannot evaluate evidence.",
-            "Use source provenance, multiple independent records, and a qualified counterargument.",
-            "Select the source that sounds most confident and omit contradictory records."
+            "All interviews were made before the attacks",
+            "Government analysis is the same as eyewitness memory",
+            "Contemporary documents, later interviews and conclusions reached by investigators"
+          ],
+          "answer": 2,
+          "explain": "Different dates and source types answer different questions."
+        },
+        {
+          "prompt": "How should a historian compare public claims about digital technology and privacy?",
+          "choices": [
+            "Use the most popular post as proof of the social effect",
+            "Corroborate with relevant data, laws, firsthand experiences and time period",
+            "Avoid asking about platform ownership or data collection"
           ],
           "answer": 1,
-          "explain": "A defensible argument supports a position and weighs opposing evidence."
+          "explain": "Technology claims require credible, contextual evidence."
+        },
+        {
+          "prompt": "A student says a contemporary civic movement has the same goals as every movement from the 1960s. What improves the claim?",
+          "choices": [
+            "Compare stated goals, participants and strategies in each historical context",
+            "Assume similar protest symbols establish identical demands",
+            "Choose the movement with the larger media audience"
+          ],
+          "answer": 0,
+          "explain": "Historical comparisons should recognize continuity and difference."
+        },
+        {
+          "prompt": "What is a qualified conclusion about policy after September 11?",
+          "choices": [
+            "The attacks explain every subsequent U.S. security decision without other causes",
+            "All affected communities experienced security policy in the same way",
+            "Security priorities changed, while consequences for rights, global relationships and communities need separate evidence"
+          ],
+          "answer": 2,
+          "explain": "Avoid single-cause, universal claims about complex policy consequences."
         }
       ],
       "matchingOptions": [
