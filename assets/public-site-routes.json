@@ -470,11 +470,6 @@
     "group": "History Hub · Courses and Lessons"
   },
   {
-    "url": "/lessons/curriculum/grade-10-civics-government/",
-    "title": "Civics & Government",
-    "group": "History Hub · Courses and Lessons"
-  },
-  {
     "url": "/lessons/curriculum/ap-government-preparation/civil-liberties/",
     "title": "Civil Liberties",
     "group": "History Hub · Courses and Lessons"
@@ -1177,6 +1172,11 @@
   {
     "url": "/lessons/curriculum/grade-12-social-studies-electives/government-and-the-economy/",
     "title": "Government and the Economy",
+    "group": "History Hub · Courses and Lessons"
+  },
+  {
+    "url": "/lessons/curriculum/grade-10-civics-government/",
+    "title": "Grade 10 Civics & Government · Complete Course",
     "group": "History Hub · Courses and Lessons"
   },
   {
