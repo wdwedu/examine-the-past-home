@@ -494,21 +494,21 @@
         {
           "prompt": "Congress approved Hawaii's annexation in 1898. What additional evidence is needed to investigate consent?",
           "choices": [
-            "Statements and petitions by Native Hawaiian people at the time",
             "An 1898 U.S. congressional vote alone",
-            "American naval maps that omit Indigenous political organizations"
+            "American naval maps that omit Indigenous political organizations",
+            "Statements and petitions by Native Hawaiian people at the time"
           ],
-          "answer": 0,
+          "answer": 2,
           "explain": "Congressional approval is not evidence of consent by the population whose sovereignty was affected."
         },
         {
           "prompt": "Roosevelt's corollary defended possible U.S. intervention in the hemisphere. Which question best evaluates its effects?",
           "choices": [
+            "How did intervention affect local governments, and how did communities respond?",
             "Was the document longer than the original Monroe Doctrine?",
-            "Did all interventions result from identical economic causes?",
-            "How did intervention affect local governments, and how did communities respond?"
+            "Did all interventions result from identical economic causes?"
           ],
-          "answer": 2,
+          "answer": 0,
           "explain": "Impacts need local perspectives and actual records."
         },
         {
@@ -524,21 +524,21 @@
         {
           "prompt": "Which combination most directly tests whether U.S. overseas expansion served commercial interests?",
           "choices": [
-            "Trade and investment records alongside government policy statements",
             "Only a map of the Pacific without dates or ports",
-            "Only a diplomat's opinion of the president's personality"
+            "Only a diplomat's opinion of the president's personality",
+            "Trade and investment records alongside government policy statements"
           ],
-          "answer": 0,
+          "answer": 2,
           "explain": "Economic and political records together help evaluate commercial motivations."
         },
         {
           "prompt": "Which claim is most consistent with the three linked documents?",
           "choices": [
+            "Overseas expansion involved public justification, contested sovereignty, and changing U.S. authority",
             "The 1898 war settled all debates about Cuban and Hawaiian independence",
-            "Roosevelt's policy guaranteed no U.S. interference in nearby nations",
-            "Overseas expansion involved public justification, contested sovereignty, and changing U.S. authority"
+            "Roosevelt's policy guaranteed no U.S. interference in nearby nations"
           ],
-          "answer": 2,
+          "answer": 0,
           "explain": "The documents address diplomatic pressure, annexation, and intervention rationales."
         }
       ],
@@ -674,21 +674,21 @@
         {
           "prompt": "The Zimmermann Telegram and Wilson's April 1917 address relate to U.S. entry into war. What does the telegram establish most directly?",
           "choices": [
-            "That every American supported intervention",
             "A German proposal involving Mexico during the war",
-            "That the treaty ending the war was already agreed"
+            "That the treaty ending the war was already agreed",
+            "That every American supported intervention"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "The telegram is evidence of one diplomatic proposal, not of universal U.S. opinion."
         },
         {
           "prompt": "Wilson described U.S. entry as a defense of rights and peace. How should a historian test that explanation?",
           "choices": [
+            "Use the 1919 peace settlement to determine all causes in 1914",
             "Compare his address with submarine-warfare reports, diplomatic records, and dissenting voices",
-            "Treat the address as a complete record of every motive",
-            "Use the 1919 peace settlement to determine all causes in 1914"
+            "Treat the address as a complete record of every motive"
           ],
-          "answer": 0,
+          "answer": 1,
           "explain": "Policy speeches need context and corroboration."
         },
         {
@@ -704,21 +704,21 @@
         {
           "prompt": "Source A is a secret telegram; Source B is a public address. What is the most important difference for interpretation?",
           "choices": [
-            "The telegram cannot include any valid facts because it was secret",
             "They were created for different audiences and political purposes",
-            "Public statements are always more reliable than private messages"
+            "Public statements are always more reliable than private messages",
+            "The telegram cannot include any valid facts because it was secret"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Purpose and audience influence what each text reveals."
         },
         {
           "prompt": "A classmate claims that the assassination in Sarajevo alone caused the global war. What evidence challenges that explanation?",
           "choices": [
+            "A battle photograph from 1918 without source information",
             "Earlier alliance commitments, militarization, and imperial rivalry",
-            "Only a biography of the assassin without international context",
-            "A battle photograph from 1918 without source information"
+            "Only a biography of the assassin without international context"
           ],
-          "answer": 0,
+          "answer": 1,
           "explain": "Multiple long-term causes helped turn a regional crisis into wider conflict."
         },
         {
@@ -864,11 +864,11 @@
         {
           "prompt": "The Library of Congress Harlem Renaissance source collection includes work by different creators. Why does that matter?",
           "choices": [
+            "Artistic work cannot provide historical evidence about public culture",
             "All artists represented the same views because they lived in the same era",
-            "Each work's creator, medium, audience and date shape the claim it can support",
-            "Artistic work cannot provide historical evidence about public culture"
+            "Each work's creator, medium, audience and date shape the claim it can support"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "Cultural evidence requires attention to authorship and medium."
         },
         {
@@ -884,21 +884,21 @@
         {
           "prompt": "The Boulder Canyon Project Act is evidence of federal support for an infrastructure project. What cannot be inferred from it alone?",
           "choices": [
-            "That Congress debated and authorized federal infrastructure policy",
             "That governments were making economic decisions in the 1920s",
-            "That every region and family benefited equally from resulting projects"
+            "That every region and family benefited equally from resulting projects",
+            "That Congress debated and authorized federal infrastructure policy"
           ],
-          "answer": 2,
+          "answer": 1,
           "explain": "Authorization is not a nationwide equality measure."
         },
         {
           "prompt": "Which source combination most directly tests claims about uneven prosperity in the 1920s?",
           "choices": [
+            "A single product catalog with no price dates",
             "Only magazine advertisements for consumer products",
-            "Household wages, credit obligations and employment records from comparable years",
-            "A single product catalog with no price dates"
+            "Household wages, credit obligations and employment records from comparable years"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "Prosperity requires measures beyond advertising."
         },
         {
@@ -914,11 +914,11 @@
         {
           "prompt": "What is the strongest conclusion about the 1920s drawn from the unit's different kinds of evidence?",
           "choices": [
-            "A single unified national culture replaced all local differences",
             "Consumer expansion ensured long-term financial security for households",
-            "Innovation and expanded opportunities coexisted with political, racial and economic tensions"
+            "Innovation and expanded opportunities coexisted with political, racial and economic tensions",
+            "A single unified national culture replaced all local differences"
           ],
-          "answer": 2,
+          "answer": 1,
           "explain": "The evidence describes overlapping change and conflict."
         }
       ],
@@ -1064,21 +1064,21 @@
         {
           "prompt": "The National Labor Relations Act protected bargaining for many workers. Which question best identifies a limitation of the original law?",
           "choices": [
-            "Which workers and occupations were excluded from its protections?",
             "Did every employer immediately approve of all unions?",
-            "Was the statute shorter than the Social Security Act?"
+            "Was the statute shorter than the Social Security Act?",
+            "Which workers and occupations were excluded from its protections?"
           ],
-          "answer": 0,
+          "answer": 2,
           "explain": "Legal exclusions and enforcement affect who benefited."
         },
         {
           "prompt": "A student claims Social Security eliminated poverty immediately in 1935. Which evidence best tests that?",
           "choices": [
+            "Coverage requirements, benefit-payment data and poverty measures after enactment",
             "The law's opening paragraph by itself",
-            "A 1932 photograph of a bank building",
-            "Coverage requirements, benefit-payment data and poverty measures after enactment"
+            "A 1932 photograph of a bank building"
           ],
-          "answer": 2,
+          "answer": 0,
           "explain": "Legal intent and results are separate issues."
         },
         {
@@ -1094,21 +1094,21 @@
         {
           "prompt": "Two accounts disagree on whether New Deal programs were effective. What should a historian compare?",
           "choices": [
-            "Comparable employment, recovery and relief data alongside different affected groups' experiences",
             "Which writer uses more forceful adjectives",
-            "Only one national statistic without dates"
+            "Only one national statistic without dates",
+            "Comparable employment, recovery and relief data alongside different affected groups' experiences"
           ],
-          "answer": 0,
+          "answer": 2,
           "explain": "Comparisons require context, effects and multiple measures."
         },
         {
           "prompt": "Which conclusion best combines Documents A–C?",
           "choices": [
+            "Federal responsibilities expanded in several distinct ways, but coverage and effects differed",
             "All programs served exactly the same population and economic problem",
-            "The new federal programs ended disagreement about the government's proper role",
-            "Federal responsibilities expanded in several distinct ways, but coverage and effects differed"
+            "The new federal programs ended disagreement about the government's proper role"
           ],
-          "answer": 2,
+          "answer": 0,
           "explain": "Regional development, labor bargaining and social insurance were not identical programs."
         }
       ],
@@ -1250,21 +1250,21 @@
         {
           "prompt": "Roosevelt's December 1941 address is a primary source. What does it establish most directly?",
           "choices": [
-            "All U.S. citizens agreed on every wartime policy",
             "The administration's publicly stated case for war after Pearl Harbor",
-            "The full experiences of civilians in occupied Europe"
+            "The full experiences of civilians in occupied Europe",
+            "All U.S. citizens agreed on every wartime policy"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "The president's address records the government's public argument."
         },
         {
           "prompt": "Executive Order 9066 enabled exclusion policies. What would best evaluate its consequences?",
           "choices": [
+            "The order's printed title without historical context",
             "Incarcerated people's testimony, court records and government implementation files",
-            "A defense-industry wage table with no connection to forced removal",
-            "The order's printed title without historical context"
+            "A defense-industry wage table with no connection to forced removal"
           ],
-          "answer": 0,
+          "answer": 1,
           "explain": "Exclusion and incarceration effects demand specific community and administrative evidence."
         },
         {
@@ -1280,21 +1280,21 @@
         {
           "prompt": "How did the Allied war effort complicate the meaning of freedom at home?",
           "choices": [
-            "Civil rights debates disappeared during mobilization",
             "Anti-discrimination efforts coexisted with Japanese American incarceration and other inequalities",
-            "All groups experienced wartime policies in the same way"
+            "All groups experienced wartime policies in the same way",
+            "Civil rights debates disappeared during mobilization"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Wartime actions included both expanded opportunities and major rights restrictions."
         },
         {
           "prompt": "What would best support a historical explanation of the Holocaust beyond its occurrence during wartime?",
           "choices": [
+            "A single anonymous claim without place or date",
             "Nazi policy records, survivor testimony and evidence of organized persecution and murder",
-            "Only a map of postwar Allied borders",
-            "A single anonymous claim without place or date"
+            "Only a map of postwar Allied borders"
           ],
-          "answer": 0,
+          "answer": 1,
           "explain": "The Holocaust requires careful, corroborated evidence and attention to victims."
         },
         {
@@ -1440,11 +1440,11 @@
         {
           "prompt": "The Truman Doctrine and Marshall Plan both addressed the postwar world. What was a major distinction?",
           "choices": [
+            "The Marshall Plan formally ended the Korean War",
             "They were identical military orders",
-            "One emphasized assistance in political-security crises; the other emphasized economic recovery",
-            "The Marshall Plan formally ended the Korean War"
+            "One emphasized assistance in political-security crises; the other emphasized economic recovery"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "Different policies addressed interconnected but distinct goals."
         },
         {
@@ -1460,21 +1460,21 @@
         {
           "prompt": "The Tonkin Gulf Resolution is a congressional action. Which claim exceeds what its text alone can establish?",
           "choices": [
-            "Congress expanded authorization for presidential action",
             "The resolution shaped U.S. war policy",
-            "All reported naval incidents happened precisely as described by officials"
+            "All reported naval incidents happened precisely as described by officials",
+            "Congress expanded authorization for presidential action"
           ],
-          "answer": 2,
+          "answer": 1,
           "explain": "A resolution expresses authority but does not independently corroborate event reports."
         },
         {
           "prompt": "Why did the Korean conflict involve more than disputes between North and South Korea?",
           "choices": [
+            "No decisions made after 1945 affected the peninsula",
             "It occurred without any international intervention",
-            "Cold War alliances and competing powers helped shape intervention",
-            "No decisions made after 1945 affected the peninsula"
+            "Cold War alliances and competing powers helped shape intervention"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "The conflict was linked to division and international power."
         },
         {
@@ -1490,11 +1490,11 @@
         {
           "prompt": "Which is the strongest evidence-based judgment about U.S. containment?",
           "choices": [
-            "Containment policies produced uniform peace in every region",
             "Every Cold War conflict began for exactly the same reason",
-            "Strategies intended to limit Soviet-aligned influence had different consequences across regions"
+            "Strategies intended to limit Soviet-aligned influence had different consequences across regions",
+            "Containment policies produced uniform peace in every region"
           ],
-          "answer": 2,
+          "answer": 1,
           "explain": "The effects of containment require case-specific comparisons."
         }
       ],
@@ -1646,21 +1646,21 @@
         {
           "prompt": "What is the strongest way to evaluate civil rights movement strategies beyond prominent speeches?",
           "choices": [
-            "Compare local organizing records, boycotts, legal cases and firsthand testimony",
             "Assume national leaders acted without support from local communities",
-            "Rely on one retrospective biography without context"
+            "Rely on one retrospective biography without context",
+            "Compare local organizing records, boycotts, legal cases and firsthand testimony"
           ],
-          "answer": 0,
+          "answer": 2,
           "explain": "Movement history depends on distributed organizers and multiple kinds of evidence."
         },
         {
           "prompt": "Which is an unsupported conclusion from the Civil Rights Act alone?",
           "choices": [
+            "Every barrier affecting Black Americans ended upon the act's signing",
             "Federal law prohibited specified kinds of discrimination",
-            "Lawmakers addressed unequal treatment through legislation",
-            "Every barrier affecting Black Americans ended upon the act's signing"
+            "Lawmakers addressed unequal treatment through legislation"
           ],
-          "answer": 2,
+          "answer": 0,
           "explain": "Laws require implementation and do not remove all structural inequalities."
         },
         {
@@ -1676,21 +1676,21 @@
         {
           "prompt": "How could a researcher investigate Malcolm X's changing perspectives?",
           "choices": [
-            "Compare speeches and interviews from different years in historical context",
             "Treat one early statement as his permanently fixed views",
-            "Infer beliefs from others' reactions without reading his words"
+            "Infer beliefs from others' reactions without reading his words",
+            "Compare speeches and interviews from different years in historical context"
           ],
-          "answer": 0,
+          "answer": 2,
           "explain": "Intellectual change requires chronological evidence."
         },
         {
           "prompt": "What does the evidence suggest about legal victories and continuing civic movements?",
           "choices": [
+            "Rights expanded through law and activism, but enforcement and broader inequalities remained contested",
             "Legal victories ended the need for any further organizing",
-            "National laws erased all local differences in enforcement",
-            "Rights expanded through law and activism, but enforcement and broader inequalities remained contested"
+            "National laws erased all local differences in enforcement"
           ],
-          "answer": 2,
+          "answer": 0,
           "explain": "Historic change involved achievements and continued struggles."
         }
       ],
@@ -1826,21 +1826,21 @@
         {
           "prompt": "The Watergate tapes are presidential records. What is their main value for studying political accountability?",
           "choices": [
-            "They capture every public reaction to Watergate",
             "They document particular recorded conversations that can be checked against other evidence",
-            "They prove all accusations without needing context or dates"
+            "They prove all accusations without needing context or dates",
+            "They capture every public reaction to Watergate"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Recordings are specific evidence and should be corroborated."
         },
         {
           "prompt": "What further evidence would help evaluate the effects of Reagan-era tax policy?",
           "choices": [
+            "A later film dramatization of the administration",
             "Comparable tax, budget, employment and income data across affected groups",
-            "Only a presidential speech arguing for the policy",
-            "A later film dramatization of the administration"
+            "Only a presidential speech arguing for the policy"
           ],
-          "answer": 0,
+          "answer": 1,
           "explain": "Economic outcomes require empirical comparison."
         },
         {
@@ -1856,21 +1856,21 @@
         {
           "prompt": "Clinton's NAFTA remarks predicted economic gains. What should historians examine to evaluate those predictions?",
           "choices": [
-            "Whether the speech was delivered before a large audience",
             "Trade, employment and wage data from after implementation, separated by sector and region",
-            "Only the number of pages in the trade agreement"
+            "Only the number of pages in the trade agreement",
+            "Whether the speech was delivered before a large audience"
           ],
-          "answer": 1,
+          "answer": 0,
           "explain": "Predictions and realized outcomes should be tested separately."
         },
         {
           "prompt": "What can compare Watergate and late-Cold-War foreign policy without treating them as identical?",
           "choices": [
+            "A single interpretation that ignores chronology",
             "How public claims, evidence and institutional decisions were scrutinized in different contexts",
-            "Whether both events occurred during exactly the same presidency",
-            "A single interpretation that ignores chronology"
+            "Whether both events occurred during exactly the same presidency"
           ],
-          "answer": 0,
+          "answer": 1,
           "explain": "Shared historical skills do not erase important differences."
         },
         {
@@ -2016,11 +2016,11 @@
         {
           "prompt": "What is the greatest evidentiary strength of a 9/11 survivor oral-history interview?",
           "choices": [
+            "It replaces the need to know when and where the events occurred",
             "It reveals every cause of the attacks and all policy consequences",
-            "It preserves a person's firsthand experience and perspective",
-            "It replaces the need to know when and where the events occurred"
+            "It preserves a person's firsthand experience and perspective"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "First-person accounts offer valuable but necessarily situated evidence."
         },
         {
@@ -2036,21 +2036,21 @@
         {
           "prompt": "The 9/11 Commission records include interviews and analysis. What must students distinguish?",
           "choices": [
-            "All interviews were made before the attacks",
             "Government analysis is the same as eyewitness memory",
-            "Contemporary documents, later interviews and conclusions reached by investigators"
+            "Contemporary documents, later interviews and conclusions reached by investigators",
+            "All interviews were made before the attacks"
           ],
-          "answer": 2,
+          "answer": 1,
           "explain": "Different dates and source types answer different questions."
         },
         {
           "prompt": "How should a historian compare public claims about digital technology and privacy?",
           "choices": [
+            "Avoid asking about platform ownership or data collection",
             "Use the most popular post as proof of the social effect",
-            "Corroborate with relevant data, laws, firsthand experiences and time period",
-            "Avoid asking about platform ownership or data collection"
+            "Corroborate with relevant data, laws, firsthand experiences and time period"
           ],
-          "answer": 1,
+          "answer": 2,
           "explain": "Technology claims require credible, contextual evidence."
         },
         {
@@ -2066,11 +2066,11 @@
         {
           "prompt": "What is a qualified conclusion about policy after September 11?",
           "choices": [
-            "The attacks explain every subsequent U.S. security decision without other causes",
             "All affected communities experienced security policy in the same way",
-            "Security priorities changed, while consequences for rights, global relationships and communities need separate evidence"
+            "Security priorities changed, while consequences for rights, global relationships and communities need separate evidence",
+            "The attacks explain every subsequent U.S. security decision without other causes"
           ],
-          "answer": 2,
+          "answer": 1,
           "explain": "Avoid single-cause, universal claims about complex policy consequences."
         }
       ],
