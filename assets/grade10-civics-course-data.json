@@ -67,11 +67,11 @@
           ],
           "caseQuestion": "Which research method best evaluates a tension between the Declaration's ideals and society in 1776?",
           "choices": [
-            "Compare its stated principles with contemporary law and experiences of people excluded from political rights.",
             "Infer that every adult could vote immediately after July 1776.",
-            "Dismiss the political text as useless because its promises were not universally fulfilled."
+            "Dismiss the political text as useless because its promises were not universally fulfilled.",
+            "Compare its stated principles with contemporary law and experiences of people excluded from political rights."
           ],
-          "answer": 0,
+          "answer": 2,
           "answerExplanation": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof.",
           "essential": "How can we use credible sources and constitutional reasoning to investigate the declaration of independence?",
           "skill": [
@@ -117,11 +117,11 @@
           ],
           "caseQuestion": "A city council passes a popular ordinance that conflicts with constitutional protections. Which conclusion is strongest?",
           "choices": [
+            "Only judges determine every policy choice regardless of elections.",
             "Majority support matters but cannot alone authorize government to violate constitutional rights.",
-            "A popular ordinance cannot face court review.",
-            "Only judges determine every policy choice regardless of elections."
+            "A popular ordinance cannot face court review."
           ],
-          "answer": 0,
+          "answer": 1,
           "answerExplanation": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof.",
           "essential": "How can we use credible sources and constitutional reasoning to investigate the principles of democratic government?",
           "skill": [
@@ -250,11 +250,11 @@
           ],
           "caseQuestion": "A state and federal rule conflict over a regulated issue. What must a student establish first?",
           "choices": [
-            "Identify the constitutional authority for each rule and whether the federal rule is valid in the relevant field.",
             "Assume state policy automatically wins because schools are local.",
-            "Assume every federal announcement overrides the Constitution."
+            "Assume every federal announcement overrides the Constitution.",
+            "Identify the constitutional authority for each rule and whether the federal rule is valid in the relevant field."
           ],
-          "answer": 0,
+          "answer": 2,
           "answerExplanation": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof.",
           "essential": "How can we use credible sources and constitutional reasoning to investigate federalism and separation of powers?",
           "skill": [
@@ -300,11 +300,11 @@
           ],
           "caseQuestion": "Congress wants to enact a bill despite a presidential veto. What demonstrates the constitutional check?",
           "choices": [
+            "The vice president alone can sign the vetoed bill into law.",
             "Both houses can attempt a two-thirds override under Article I.",
-            "The Supreme Court must rewrite the bill before a vote.",
-            "The vice president alone can sign the vetoed bill into law."
+            "The Supreme Court must rewrite the bill before a vote."
           ],
-          "answer": 0,
+          "answer": 1,
           "answerExplanation": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof.",
           "essential": "How can we use credible sources and constitutional reasoning to investigate checks and balances?",
           "skill": [
@@ -433,11 +433,11 @@
           ],
           "caseQuestion": "A bill concerns a specialized federal transportation policy. Which procedural explanation is strongest?",
           "choices": [
-            "A committee may study and revise it, but passage still requires both chambers and applicable constitutional steps.",
             "A committee vote alone makes it federal law.",
-            "Only senators can introduce all federal legislation."
+            "Only senators can introduce all federal legislation.",
+            "A committee may study and revise it, but passage still requires both chambers and applicable constitutional steps."
           ],
-          "answer": 0,
+          "answer": 2,
           "answerExplanation": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof.",
           "essential": "How can we use credible sources and constitutional reasoning to investigate how congress is organized?",
           "skill": [
@@ -483,11 +483,11 @@
           ],
           "caseQuestion": "A news headline says the House passed a bill. What fact is still needed before stating it became law?",
           "choices": [
+            "Check only whether the bill has an attractive title.",
             "Check Senate action, agreement on text and the constitutionally required presidential stage.",
-            "Assume the House vote itself creates a federal statute.",
-            "Check only whether the bill has an attractive title."
+            "Assume the House vote itself creates a federal statute."
           ],
-          "answer": 0,
+          "answer": 1,
           "answerExplanation": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof.",
           "essential": "How can we use credible sources and constitutional reasoning to investigate how a bill becomes law?",
           "skill": [
@@ -616,11 +616,11 @@
           ],
           "caseQuestion": "A president announces a permanent new federal tax in a speech. What must be evaluated?",
           "choices": [
-            "Whether Congress enacted legal tax authority; a presidential speech alone is not a federal tax statute.",
             "Whether the speech is longer than a congressional debate.",
-            "Whether the president's announcement means courts no longer have jurisdiction."
+            "Whether the president's announcement means courts no longer have jurisdiction.",
+            "Whether Congress enacted legal tax authority; a presidential speech alone is not a federal tax statute."
           ],
-          "answer": 0,
+          "answer": 2,
           "answerExplanation": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof.",
           "essential": "How can we use credible sources and constitutional reasoning to investigate the powers of the president?",
           "skill": [
@@ -666,11 +666,11 @@
           ],
           "caseQuestion": "An agency posts a proposed regulation. Which conclusion follows?",
           "choices": [
+            "Congress has lost all oversight authority for that agency.",
             "The proposal begins or continues a rulemaking process; it is not necessarily a binding final rule.",
-            "The agency has amended the Constitution.",
-            "Congress has lost all oversight authority for that agency."
+            "The agency has amended the Constitution."
           ],
-          "answer": 0,
+          "answer": 1,
           "answerExplanation": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof.",
           "essential": "How can we use credible sources and constitutional reasoning to investigate executive departments and federal agencies?",
           "skill": [
@@ -799,11 +799,11 @@
           ],
           "caseQuestion": "A witness disputes facts in a federal case. Which court ordinarily hears testimony and develops a trial record?",
           "choices": [
-            "A federal district court with jurisdiction.",
             "The Supreme Court in every case.",
-            "A congressional committee acting as the final criminal court."
+            "A congressional committee acting as the final criminal court.",
+            "A federal district court with jurisdiction."
           ],
-          "answer": 0,
+          "answer": 2,
           "answerExplanation": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof.",
           "essential": "How can we use credible sources and constitutional reasoning to investigate understanding the federal court system?",
           "skill": [
@@ -849,11 +849,11 @@
           ],
           "caseQuestion": "A court rules a statute unconstitutional in a properly presented case. What principle does this illustrate?",
           "choices": [
+            "The president's power to nullify any judicial decision.",
             "Judicial review, subject to jurisdiction and constitutional reasoning.",
-            "The court's authority to amend Article V on its own.",
-            "The president's power to nullify any judicial decision."
+            "The court's authority to amend Article V on its own."
           ],
-          "answer": 0,
+          "answer": 1,
           "answerExplanation": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof.",
           "essential": "How can we use credible sources and constitutional reasoning to investigate judicial review?",
           "skill": [
@@ -982,11 +982,11 @@
           ],
           "caseQuestion": "A government action raises a possible First Amendment issue. Which starting evidence is most useful?",
           "choices": [
-            "The text of the relevant amendment and cases governing the particular type of government action.",
             "A student's personal view alone.",
-            "The number of words in the Bill of Rights."
+            "The number of words in the Bill of Rights.",
+            "The text of the relevant amendment and cases governing the particular type of government action."
           ],
-          "answer": 0,
+          "answer": 2,
           "answerExplanation": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof.",
           "essential": "How can we use credible sources and constitutional reasoning to investigate the bill of rights?",
           "skill": [
@@ -1032,11 +1032,11 @@
           ],
           "caseQuestion": "A student expresses a political view peacefully at a public school. Which analysis is most appropriate?",
           "choices": [
+            "Assume students lose all constitutional protection at school.",
             "Check whether the school restriction is supported by relevant student-speech law and the actual facts.",
-            "Assume all school rules are unconstitutional.",
-            "Assume students lose all constitutional protection at school."
+            "Assume all school rules are unconstitutional."
           ],
-          "answer": 0,
+          "answer": 1,
           "answerExplanation": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof.",
           "essential": "How can we use credible sources and constitutional reasoning to investigate freedom of speech and religion?",
           "skill": [
@@ -1132,11 +1132,11 @@
           ],
           "caseQuestion": "A rights amendment is ratified but discrimination continues. Which conclusion is historically sound?",
           "choices": [
-            "Legal guarantees can reshape rights even when enforcement and access remain contested.",
             "An unenforced right has no legal importance.",
-            "A constitutional amendment automatically changes every practice immediately."
+            "A constitutional amendment automatically changes every practice immediately.",
+            "Legal guarantees can reshape rights even when enforcement and access remain contested."
           ],
-          "answer": 0,
+          "answer": 2,
           "answerExplanation": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof.",
           "essential": "How can we use credible sources and constitutional reasoning to investigate civil rights through constitutional change?",
           "skill": [
@@ -1215,11 +1215,11 @@
           ],
           "caseQuestion": "A website gives conflicting registration deadlines. Which action is most responsible?",
           "choices": [
+            "Treat a historical deadline as applicable to every election.",
             "Check the appropriate official state or local election authority for current rules.",
-            "Choose the date shared most often on social media.",
-            "Treat a historical deadline as applicable to every election."
+            "Choose the date shared most often on social media."
           ],
-          "answer": 0,
+          "answer": 1,
           "answerExplanation": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof.",
           "essential": "How can we use credible sources and constitutional reasoning to investigate how american elections work?",
           "skill": [
@@ -1315,11 +1315,11 @@
           ],
           "caseQuestion": "A viral chart claims a new law doubled crime overnight. What should the learner check?",
           "choices": [
-            "The original dataset, definitions, date range, denominator and whether the law was in effect.",
             "Only how many times the chart was shared.",
-            "Whether the chart uses red or blue colors."
+            "Whether the chart uses red or blue colors.",
+            "The original dataset, definitions, date range, denominator and whether the law was in effect."
           ],
-          "answer": 0,
+          "answer": 2,
           "answerExplanation": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof.",
           "essential": "How can we use credible sources and constitutional reasoning to investigate media literacy and political information?",
           "skill": [
@@ -1365,11 +1365,11 @@
           ],
           "caseQuestion": "A neighborhood group wants safer crosswalks. Which is the most effective initial civic plan?",
           "choices": [
+            "Assume only national government can address road design.",
             "Collect location-specific safety evidence and identify the public agency responsible before proposing action.",
-            "Send anonymous accusations without identifying an intersection.",
-            "Assume only national government can address road design."
+            "Send anonymous accusations without identifying an intersection."
           ],
-          "answer": 0,
+          "answer": 1,
           "answerExplanation": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof.",
           "essential": "How can we use credible sources and constitutional reasoning to investigate citizen participation beyond voting?",
           "skill": [
@@ -1498,11 +1498,11 @@
           ],
           "caseQuestion": "A county proposes expanding library hours. Which evidence best evaluates the proposal?",
           "choices": [
-            "The adopted budget, staffing needs, usage records and community accessibility data.",
             "The proposal's title alone.",
-            "One undated photograph of a library."
+            "One undated photograph of a library.",
+            "The adopted budget, staffing needs, usage records and community accessibility data."
           ],
-          "answer": 0,
+          "answer": 2,
           "answerExplanation": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof.",
           "essential": "How can we use credible sources and constitutional reasoning to investigate local government and public services?",
           "skill": [
@@ -1548,11 +1548,11 @@
           ],
           "caseQuestion": "A new road may reduce traffic downtown but increase it near a school. What is the strongest evaluation?",
           "choices": [
+            "Treat the plan's stated purpose as proof it cannot cause harm.",
             "Compare traffic forecasts, safety data, costs and experiences of both areas before choosing a policy.",
-            "Count only downtown drivers who favor the proposal.",
-            "Treat the plan's stated purpose as proof it cannot cause harm."
+            "Count only downtown drivers who favor the proposal."
           ],
-          "answer": 0,
+          "answer": 1,
           "answerExplanation": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof.",
           "essential": "How can we use credible sources and constitutional reasoning to investigate how local policies affect communities?",
           "skill": [
@@ -1681,11 +1681,11 @@
           ],
           "caseQuestion": "A county has funds for only one of two projects. Which analysis best supports a defensible budget recommendation?",
           "choices": [
-            "Compare costs, expected outcomes, equity, legal duties and the forgone benefits of the alternative.",
             "Choose whichever project has a shorter title.",
-            "Assume the cheaper project must always be more effective."
+            "Assume the cheaper project must always be more effective.",
+            "Compare costs, expected outcomes, equity, legal duties and the forgone benefits of the alternative."
           ],
-          "answer": 0,
+          "answer": 2,
           "answerExplanation": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof.",
           "essential": "How can we use credible sources and constitutional reasoning to investigate taxes, budgets, and public priorities?",
           "skill": [
@@ -1731,11 +1731,11 @@
           ],
           "caseQuestion": "Two groups disagree about a school transportation proposal. Which response is strongest?",
           "choices": [
+            "Treat any uncertainty as a reason no policy can ever be chosen.",
             "Compare route data, costs, access and safety, and state which criteria justify the recommendation.",
-            "Accept whichever group has the louder presentation.",
-            "Treat any uncertainty as a reason no policy can ever be chosen."
+            "Accept whichever group has the louder presentation."
           ],
-          "answer": 0,
+          "answer": 1,
           "answerExplanation": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof.",
           "essential": "How can we use credible sources and constitutional reasoning to investigate evaluating a public policy debate?",
           "skill": [
