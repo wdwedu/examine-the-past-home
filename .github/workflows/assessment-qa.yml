@@ -1,0 +1,23 @@
+name: Historical Assessment Data QA
+on:
+  push:
+    paths:
+      - "assets/middle-school-assessments-data.json"
+      - "assets/high-school-assessments-data.json"
+      - "tests/assessment-data.test.cjs"
+      - ".github/workflows/assessment-qa.yml"
+  pull_request:
+    paths:
+      - "assets/middle-school-assessments-data.json"
+      - "assets/high-school-assessments-data.json"
+      - "tests/assessment-data.test.cjs"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate-assessments:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate middle and high school assessment structure and answer keys
+        run: node tests/assessment-data.test.cjs
