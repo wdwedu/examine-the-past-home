@@ -2477,6 +2477,16 @@
         true,
         false,
         true
+      ],
+      "verifiedArchiveRecords": [
+        {
+          "title": "Declaration of Independence",
+          "creator": "Continental Congress",
+          "date": "1776",
+          "type": "Federal founding document",
+          "url": "https://www.archives.gov/founding-docs/declaration-transcript",
+          "limitation": "Examine the document's author, purpose, context and whose perspective it may omit. It does not by itself establish every effect or experience."
+        }
       ]
     },
     "8.3": {
@@ -2664,6 +2674,16 @@
         false,
         true,
         true
+      ],
+      "verifiedArchiveRecords": [
+        {
+          "title": "U.S. Constitution",
+          "creator": "Constitutional Convention",
+          "date": "1787",
+          "type": "Federal constitutional text",
+          "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+          "limitation": "Examine the document's author, purpose, context and whose perspective it may omit. It does not by itself establish every effect or experience."
+        }
       ]
     },
     "8.4": {
@@ -2851,6 +2871,16 @@
         true,
         true,
         false
+      ],
+      "verifiedArchiveRecords": [
+        {
+          "title": "Louisiana Purchase Treaty",
+          "creator": "U.S. and French representatives",
+          "date": "1803",
+          "type": "Treaty",
+          "url": "https://www.archives.gov/milestone-documents/louisiana-purchase-treaty",
+          "limitation": "Examine the document's author, purpose, context and whose perspective it may omit. It does not by itself establish every effect or experience."
+        }
       ]
     },
     "8.5": {
@@ -3038,6 +3068,16 @@
         true,
         false,
         true
+      ],
+      "verifiedArchiveRecords": [
+        {
+          "title": "Andrew Jackson's Message on Indian Removal",
+          "creator": "President Andrew Jackson",
+          "date": "1830",
+          "type": "Executive message / advocacy",
+          "url": "https://www.archives.gov/milestone-documents/jacksons-message-to-congress-on-indian-removal",
+          "limitation": "Examine the document's author, purpose, context and whose perspective it may omit. It does not by itself establish every effect or experience."
+        }
       ]
     },
     "8.6": {
@@ -3225,6 +3265,16 @@
         false,
         true,
         true
+      ],
+      "verifiedArchiveRecords": [
+        {
+          "title": "Fugitive from Labor Cases",
+          "creator": "Federal court records",
+          "date": "1850–1860",
+          "type": "Court records / cases",
+          "url": "https://www.archives.gov/education/lessons/fugitive-cases",
+          "limitation": "Examine the document's author, purpose, context and whose perspective it may omit. It does not by itself establish every effect or experience."
+        }
       ]
     },
     "8.7": {
@@ -3412,6 +3462,16 @@
         true,
         true,
         false
+      ],
+      "verifiedArchiveRecords": [
+        {
+          "title": "Emancipation Proclamation",
+          "creator": "President Abraham Lincoln",
+          "date": "1863",
+          "type": "Presidential proclamation",
+          "url": "https://www.archives.gov/milestone-documents/emancipation-proclamation",
+          "limitation": "Examine the document's author, purpose, context and whose perspective it may omit. It does not by itself establish every effect or experience."
+        }
       ]
     },
     "8.8": {
@@ -3599,6 +3659,16 @@
         true,
         false,
         true
+      ],
+      "verifiedArchiveRecords": [
+        {
+          "title": "Thirteenth Amendment",
+          "creator": "U.S. Congress and ratifying states",
+          "date": "1865",
+          "type": "Constitutional amendment",
+          "url": "https://www.archives.gov/milestone-documents/13th-amendment",
+          "limitation": "Examine the document's author, purpose, context and whose perspective it may omit. It does not by itself establish every effect or experience."
+        }
       ]
     }
   }
