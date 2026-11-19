@@ -1,0 +1,23 @@
+name: Grade 10 Civics Assessment QA
+on:
+  push:
+    paths:
+      - "assets/grade10-civics-course-data.json"
+      - "assets/grade10-civics-assessments-data.json"
+      - "tests/grade10-civics.test.cjs"
+      - ".github/workflows/grade10-civics-qa.yml"
+  pull_request:
+    paths:
+      - "assets/grade10-civics-course-data.json"
+      - "assets/grade10-civics-assessments-data.json"
+      - "tests/grade10-civics.test.cjs"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate-civics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate lesson and assessment data
+        run: node tests/grade10-civics.test.cjs
