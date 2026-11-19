@@ -1,0 +1,1577 @@
+{
+  "version": "grade10-civic-nine-units-20261119",
+  "units": {
+    "10.1": {
+      "id": "10.1",
+      "grade": 10,
+      "title": "Foundations of Democracy",
+      "course": "grade-10-civics-government",
+      "lessons": [
+        {
+          "title": "Enlightenment Ideas and Natural Rights",
+          "slug": "enlightenment-ideas-and-natural-rights",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate enlightenment ideas and natural rights?",
+          "task": "Build a source-backed civic argument"
+        },
+        {
+          "title": "The Declaration of Independence",
+          "slug": "the-declaration-of-independence",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate the declaration of independence?",
+          "task": "Build a source-backed civic argument"
+        },
+        {
+          "title": "The Principles of Democratic Government",
+          "slug": "the-principles-of-democratic-government",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate the principles of democratic government?",
+          "task": "Build a source-backed civic argument"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Document A · Declaration of Independence",
+          "title": "Declaration of Independence",
+          "creator": "Second Continental Congress",
+          "date": "1776",
+          "url": "https://www.archives.gov/founding-docs/declaration-transcript",
+          "sourceUrl": "https://www.archives.gov/founding-docs/declaration-transcript",
+          "sourceType": "Primary source: Primary",
+          "excerpt": "The Declaration argues that governments derive just powers from consent; it announces political ideals and independence, not an enforceable federal constitution. Locke's social-contract arguments challenged unlimited monarchy by asking why political authority is legitimate. Natural-rights reasoning holds that certain rights do not depend on a ruler's gift, while consent of the governed requires government to answer to the people. Enlightenment authors disagreed about representation, property, religion and who qualified as a political member. Their arguments should be studied in their historical context, including exclusions they did not remedy.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        },
+        {
+          "label": "Document B · Constitution",
+          "title": "Constitution",
+          "creator": "Constitutional Convention",
+          "date": "1787",
+          "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+          "sourceUrl": "https://www.archives.gov/founding-docs/constitution-transcript",
+          "sourceType": "Primary source: Primary",
+          "excerpt": "The Preamble and articles establish a proposed structure of government. Compare the document's promises with rules about representation and ratification. The Declaration of Independence was adopted by the Second Continental Congress in 1776. It states political principles concerning equality, rights, consent and the right to alter a destructive government. Its list of grievances makes an argument against British rule and addresses audiences at home and abroad. Unlike the Constitution, it did not create the operating branches of the later federal government.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        },
+        {
+          "label": "Document C · Maryland Government Framework",
+          "title": "Maryland Government Framework",
+          "creator": "Maryland State Department of Education",
+          "date": "2025",
+          "url": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
+          "sourceUrl": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
+          "sourceType": "Secondary",
+          "excerpt": "The state framework provides inquiry and assessment expectations, not an original founding-period document. Popular sovereignty places ultimate political authority in the people. Republican government uses representatives selected through established political rules, while constitutionalism limits the powers of public officials. The rule of law requires government action to follow legal constraints; it does not mean every law or decision is automatically fair. These principles can reinforce one another or come into tension.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Which evidence would best support an analysis of natural-rights ideas influencing later government?",
+          "choices": [
+            "Assume every Enlightenment writer supported identical voting rights.",
+            "Use only a modern slogan without examining its historical meaning.",
+            "Compare a dated Enlightenment argument with passages of a later founding document and identify both agreement and limits."
+          ],
+          "answer": 2,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "Which research method best evaluates a tension between the Declaration's ideals and society in 1776?",
+          "choices": [
+            "Dismiss the political text as useless because its promises were not universally fulfilled.",
+            "Compare its stated principles with contemporary law and experiences of people excluded from political rights.",
+            "Infer that every adult could vote immediately after July 1776."
+          ],
+          "answer": 1,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A city council passes a popular ordinance that conflicts with constitutional protections. Which conclusion is strongest?",
+          "choices": [
+            "Majority support matters but cannot alone authorize government to violate constitutional rights.",
+            "A popular ordinance cannot face court review.",
+            "Only judges determine every policy choice regardless of elections."
+          ],
+          "answer": 0,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A representative claims their authority comes only from birthright. Which founding principle challenges that claim?",
+          "choices": [
+            "Hereditary power is a constitutional requirement for every office.",
+            "The rule of law permits officeholders to ignore ordinary legal limits.",
+            "Consent of the governed requires political power to be justified to the people."
+          ],
+          "answer": 2,
+          "explain": "Consent-based government does not treat heredity as sufficient political legitimacy."
+        },
+        {
+          "prompt": "The Declaration argues for independence while the Constitution establishes federal institutions. Which comparison is defensible?",
+          "choices": [
+            "The Constitution was adopted before the Declaration was written.",
+            "The Declaration creates the three modern federal branches.",
+            "They are different kinds of documents, one announcing reasons for separation and one structuring federal government."
+          ],
+          "answer": 2,
+          "explain": "Their purposes and legal roles differ."
+        },
+        {
+          "prompt": "Why might a political principle receive broad public support but still require constitutional limits?",
+          "choices": [
+            "Because popularity always creates legal authority.",
+            "Because the Constitution has no relationship to the public.",
+            "Because elected institutions must also respect individual rights and valid law."
+          ],
+          "answer": 2,
+          "explain": "Majorities and constitutional protections are both relevant."
+        }
+      ],
+      "matchingOptions": [
+        "Declaration of Independence",
+        "Constitution",
+        "Maryland Government Framework"
+      ],
+      "matchingPrompts": [
+        {
+          "prompt": "Which reference provides evidence for examining Declaration of Independence and its legal or historical context?",
+          "answer": 0
+        },
+        {
+          "prompt": "Which reference provides evidence for examining Constitution and its legal or historical context?",
+          "answer": 1
+        },
+        {
+          "prompt": "Which reference provides evidence for examining Maryland Government Framework and its legal or historical context?",
+          "answer": 2
+        }
+      ],
+      "inquiryPrompt": "How should constitutional principles and credible evidence guide decisions about foundations of democracy?",
+      "inquirySteps": [
+        "Compare the identified public institutions, original texts and their limitations.",
+        "Develop an inquiry question about a specific civic decision, right or policy.",
+        "Defend a qualified conclusion using evidence, limits and a possible counterargument."
+      ],
+      "inquiryAnswers": [
+        1,
+        0,
+        2
+      ],
+      "conclusions": [
+        "A credible civic argument should identify the governing rule, affected people and evidence that could test its impact.",
+        "Because a government source states a goal, the goal must already have been achieved equally in every community.",
+        "The foundations of democracy unit requires distinguishing source claims from evidence of real-world effects."
+      ],
+      "conclusionKey": [
+        true,
+        false,
+        true
+      ],
+      "writing": "Evaluate a civic dispute or constitutional question connected to Foundations of Democracy. Develop a qualified thesis using at least two relevant documents or authoritative references. Explain which level or branch of government has authority, which rights or public values are at issue, the evidence supporting your interpretation, a counterargument and one significant evidence limitation.",
+      "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about Foundations of Democracy. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
+      "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
+      "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
+      "sourceAudit": "Three linked original constitutional/legal records or official interpretive resources. Source summaries are educational paraphrases and do not substitute for document excerpts.",
+      "sampleAnswer": "The civic question in Foundations of Democracy involves who has legitimate authority and what limits that authority. A strong answer identifies a specific governmental act, legal principle and affected community, rather than assuming a popular decision is automatically constitutional.\n\nSource A, Declaration of Independence, provides the starting rule or historical context. Source B, Constitution, adds another institutional perspective. These records must be read with their creators and dates in mind; the fact that an institution announced a goal does not prove the goal was achieved.\n\nA third source, Maryland Government Framework, can help clarify the competing obligations, evidence or limits of the case. An informed conclusion should test stated intentions against official records and relevant outcomes, while recognizing that some sources represent officials more directly than ordinary residents.\n\nA reasonable counterargument may prioritize another constitutional value, public benefit or interpretation. The strongest recommendation considers that opposing claim, explains why some evidence is more persuasive and identifies what new information could change the decision."
+    },
+    "10.2": {
+      "id": "10.2",
+      "grade": 10,
+      "title": "The Constitution",
+      "course": "grade-10-civics-government",
+      "lessons": [
+        {
+          "title": "The Constitutional Convention",
+          "slug": "the-constitutional-convention",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate the constitutional convention?",
+          "task": "Build a source-backed civic argument"
+        },
+        {
+          "title": "Federalism and Separation of Powers",
+          "slug": "federalism-and-separation-of-powers",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate federalism and separation of powers?",
+          "task": "Build a source-backed civic argument"
+        },
+        {
+          "title": "Checks and Balances",
+          "slug": "checks-and-balances",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate checks and balances?",
+          "task": "Build a source-backed civic argument"
+        },
+        {
+          "title": "Constitutional Change and Interpretation",
+          "slug": "constitutional-change-and-interpretation",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate constitutional change and interpretation?",
+          "task": "Build a source-backed civic argument"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Document A · Constitution — Articles I–III",
+          "title": "Constitution — Articles I–III",
+          "creator": "Constitutional Convention",
+          "date": "1787",
+          "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+          "sourceUrl": "https://www.archives.gov/founding-docs/constitution-transcript",
+          "sourceType": "Primary source: Primary",
+          "excerpt": "The articles distribute legislative, executive and judicial powers; constitutional powers and actual institutional influence should be examined separately. Delegates met in Philadelphia in 1787 after difficulties under the Articles of Confederation. They debated representation, federal powers, slavery and the balance between national and state authority. The Connecticut Compromise helped create different representation rules for the House and Senate, while the Three-Fifths Clause strengthened slaveholding states' representation without granting enslaved people political rights.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        },
+        {
+          "label": "Document B · Federalist No. 51",
+          "title": "Federalist No. 51",
+          "creator": "James Madison (under the name Publius)",
+          "date": "1788",
+          "url": "https://guides.loc.gov/federalist-papers/text-51-60",
+          "sourceUrl": "https://guides.loc.gov/federalist-papers/text-51-60",
+          "sourceType": "Primary source: Primary",
+          "excerpt": "Madison defended checks among branches; this is an argument for ratification, not proof that checks always work as designed. Federalism divides responsibilities between national and state governments, while separation of powers distributes federal authority among legislative, executive and judicial branches. These are different arrangements. Congress legislates within constitutional authority; the president executes federal law; federal courts resolve cases within their jurisdiction.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        },
+        {
+          "label": "Document C · Bill of Rights",
+          "title": "Bill of Rights",
+          "creator": "U.S. Congress / ratifying states",
+          "date": "1789–1791",
+          "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+          "sourceUrl": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+          "sourceType": "Primary source: Primary",
+          "excerpt": "The first ten amendments set protections and constraints on federal power; later amendments and case law shaped their application. Checks and balances give institutions ways to limit other institutions while performing their own assigned responsibilities. The president may veto legislation; Congress may override a veto by the required supermajority; the Senate exercises advice-and-consent powers for certain appointments and treaties. Courts may review governmental actions in cases properly before them.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Which evidence best supports a nuanced evaluation of the Constitutional Convention?",
+          "choices": [
+            "Read only a modern summary of the word compromise.",
+            "Compare proposed plans, convention debates and the final compromises, noting who had no seat in the debates.",
+            "Treat the finished Constitution as proof that delegates never disagreed."
+          ],
+          "answer": 1,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A state and federal rule conflict over a regulated issue. What must a student establish first?",
+          "choices": [
+            "Identify the constitutional authority for each rule and whether the federal rule is valid in the relevant field.",
+            "Assume state policy automatically wins because schools are local.",
+            "Assume every federal announcement overrides the Constitution."
+          ],
+          "answer": 0,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "Congress wants to enact a bill despite a presidential veto. What demonstrates the constitutional check?",
+          "choices": [
+            "The Supreme Court must rewrite the bill before a vote.",
+            "The vice president alone can sign the vetoed bill into law.",
+            "Both houses can attempt a two-thirds override under Article I."
+          ],
+          "answer": 2,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A proposal would directly change the constitutional text. Which path is appropriate?",
+          "choices": [
+            "Require only a presidential press release and no ratification.",
+            "Follow the amendment procedures in Article V rather than treating an ordinary statute as a textual amendment.",
+            "Have one federal judge rewrite the Constitution without a case."
+          ],
+          "answer": 1,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A proposed reform changes the actual words of the federal Constitution. Which action is required?",
+          "choices": [
+            "A presidential order that is published once.",
+            "Article V proposal and ratification procedures.",
+            "A simple committee vote in the House."
+          ],
+          "answer": 1,
+          "explain": "Formal amendment is distinct from legislation or interpretation."
+        },
+        {
+          "prompt": "Which fact best distinguishes federalism from separation of powers?",
+          "choices": [
+            "They are names for the same power held by judges alone.",
+            "Federalism means the president controls all state legislatures.",
+            "Federalism divides authority between national and state levels; separation allocates roles among branches."
+          ],
+          "answer": 2,
+          "explain": "The arrangements distribute power in different directions."
+        }
+      ],
+      "matchingOptions": [
+        "Constitution — Articles I–III",
+        "Federalist No. 51",
+        "Bill of Rights"
+      ],
+      "matchingPrompts": [
+        {
+          "prompt": "Which reference provides evidence for examining Constitution — Articles I–III and its legal or historical context?",
+          "answer": 0
+        },
+        {
+          "prompt": "Which reference provides evidence for examining Federalist No. 51 and its legal or historical context?",
+          "answer": 1
+        },
+        {
+          "prompt": "Which reference provides evidence for examining Bill of Rights and its legal or historical context?",
+          "answer": 2
+        }
+      ],
+      "inquiryPrompt": "How should constitutional principles and credible evidence guide decisions about the constitution?",
+      "inquirySteps": [
+        "Compare the identified public institutions, original texts and their limitations.",
+        "Develop an inquiry question about a specific civic decision, right or policy.",
+        "Defend a qualified conclusion using evidence, limits and a possible counterargument."
+      ],
+      "inquiryAnswers": [
+        1,
+        0,
+        2
+      ],
+      "conclusions": [
+        "Because a government source states a goal, the goal must already have been achieved equally in every community.",
+        "The the constitution unit requires distinguishing source claims from evidence of real-world effects.",
+        "A credible civic argument should identify the governing rule, affected people and evidence that could test its impact."
+      ],
+      "conclusionKey": [
+        false,
+        true,
+        true
+      ],
+      "writing": "Evaluate a civic dispute or constitutional question connected to The Constitution. Develop a qualified thesis using at least two relevant documents or authoritative references. Explain which level or branch of government has authority, which rights or public values are at issue, the evidence supporting your interpretation, a counterargument and one significant evidence limitation.",
+      "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about The Constitution. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
+      "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
+      "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
+      "sourceAudit": "Three linked original constitutional/legal records or official interpretive resources. Source summaries are educational paraphrases and do not substitute for document excerpts.",
+      "sampleAnswer": "The civic question in The Constitution involves who has legitimate authority and what limits that authority. A strong answer identifies a specific governmental act, legal principle and affected community, rather than assuming a popular decision is automatically constitutional.\n\nSource A, Constitution — Articles I–III, provides the starting rule or historical context. Source B, Federalist No. 51, adds another institutional perspective. These records must be read with their creators and dates in mind; the fact that an institution announced a goal does not prove the goal was achieved.\n\nA third source, Bill of Rights, can help clarify the competing obligations, evidence or limits of the case. An informed conclusion should test stated intentions against official records and relevant outcomes, while recognizing that some sources represent officials more directly than ordinary residents.\n\nA reasonable counterargument may prioritize another constitutional value, public benefit or interpretation. The strongest recommendation considers that opposing claim, explains why some evidence is more persuasive and identifies what new information could change the decision."
+    },
+    "10.3": {
+      "id": "10.3",
+      "grade": 10,
+      "title": "The Legislative Branch",
+      "course": "grade-10-civics-government",
+      "lessons": [
+        {
+          "title": "How Congress Is Organized",
+          "slug": "how-congress-is-organized",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate how congress is organized?",
+          "task": "Build a source-backed civic argument"
+        },
+        {
+          "title": "How a Bill Becomes Law",
+          "slug": "how-a-bill-becomes-law",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate how a bill becomes law?",
+          "task": "Build a source-backed civic argument"
+        },
+        {
+          "title": "Congressional Representation and Oversight",
+          "slug": "congressional-representation-and-oversight",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate congressional representation and oversight?",
+          "task": "Build a source-backed civic argument"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Document A · Constitution Article I",
+          "title": "Constitution Article I",
+          "creator": "Constitutional Convention",
+          "date": "1787",
+          "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+          "sourceUrl": "https://www.archives.gov/founding-docs/constitution-transcript",
+          "sourceType": "Primary source: Primary",
+          "excerpt": "Article I gives legislative power to a bicameral Congress; a law's passage requires multiple institutional stages. Congress has two chambers: the House of Representatives, apportioned among states by population, and the Senate, with two senators per state. House members have two-year terms; senators have six-year staggered terms. Committees specialize in subjects, hold hearings, draft bills and conduct oversight, but they do not enact laws on their own.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        },
+        {
+          "label": "Document B · How Our Laws Are Made",
+          "title": "How Our Laws Are Made",
+          "creator": "U.S. House of Representatives",
+          "date": "Modern guide",
+          "url": "https://www.house.gov/the-house-explained/the-legislative-process",
+          "sourceUrl": "https://www.house.gov/the-house-explained/the-legislative-process",
+          "sourceType": "Secondary",
+          "excerpt": "The House explains committee, chamber, reconciliation and presentation procedures; a guide describes legal procedure but not why any specific bill passes. Most proposed federal laws are introduced as bills, referred for committee consideration and voted on by the House and Senate. Both chambers must generally agree to the same text before a bill is presented to the president. The president may sign or veto; a veto can be overridden by two-thirds of each chamber. Other constitutional outcomes include a bill becoming law without signature in defined circumstances and the pocket veto.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        },
+        {
+          "label": "Document C · Congressional Oversight",
+          "title": "Congressional Oversight",
+          "creator": "Congressional Research Service / Congress",
+          "date": "Modern research",
+          "url": "https://www.congress.gov/crs-products",
+          "sourceUrl": "https://www.congress.gov/crs-products",
+          "sourceType": "Secondary",
+          "excerpt": "Oversight can involve hearings, investigations and information demands. Congress's authority is subject to constitutional and statutory limits. Congress represents constituents through lawmaking, appropriations, oversight and casework. Committees may hold hearings and request information from executive agencies. Oversight investigates whether public programs follow law and use resources appropriately; it is not automatically evidence of misconduct.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "A bill concerns a specialized federal transportation policy. Which procedural explanation is strongest?",
+          "choices": [
+            "A committee may study and revise it, but passage still requires both chambers and applicable constitutional steps.",
+            "A committee vote alone makes it federal law.",
+            "Only senators can introduce all federal legislation."
+          ],
+          "answer": 0,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A news headline says the House passed a bill. What fact is still needed before stating it became law?",
+          "choices": [
+            "Assume the House vote itself creates a federal statute.",
+            "Check only whether the bill has an attractive title.",
+            "Check Senate action, agreement on text and the constitutionally required presidential stage."
+          ],
+          "answer": 2,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A hearing witness alleges misuse of funds. What is the best next step?",
+          "choices": [
+            "Assume oversight hearings themselves rewrite the funding statute.",
+            "Compare testimony with audited records and agency responses before reaching a conclusion.",
+            "Treat one allegation as a final judicial judgment."
+          ],
+          "answer": 1,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "The House approves a bill and the Senate passes a different version. What follows before final presentation?",
+          "choices": [
+            "The House version is automatically enrolled.",
+            "Both chambers must generally agree to identical final text.",
+            "A committee chairman can issue the final statute unilaterally."
+          ],
+          "answer": 1,
+          "explain": "Bicameral agreement is required."
+        },
+        {
+          "prompt": "An oversight hearing includes a disputed witness claim. Which next evidence is strongest?",
+          "choices": [
+            "The witness's volume and speaking speed.",
+            "The number of news clips repeating the accusation.",
+            "Agency records, documentary evidence and responses from multiple involved parties."
+          ],
+          "answer": 2,
+          "explain": "Hearings require corroboration of allegations."
+        },
+        {
+          "prompt": "Which claim about congressional committees is best supported?",
+          "choices": [
+            "Committees can investigate and revise bills, while enactment requires further constitutional steps.",
+            "A single committee can enact binding federal laws without either chamber.",
+            "Committees are part of the judiciary."
+          ],
+          "answer": 0,
+          "explain": "Committees support, but do not replace, congressional procedure."
+        }
+      ],
+      "matchingOptions": [
+        "Constitution Article I",
+        "How Our Laws Are Made",
+        "Congressional Oversight"
+      ],
+      "matchingPrompts": [
+        {
+          "prompt": "Which reference provides evidence for examining Constitution Article I and its legal or historical context?",
+          "answer": 0
+        },
+        {
+          "prompt": "Which reference provides evidence for examining How Our Laws Are Made and its legal or historical context?",
+          "answer": 1
+        },
+        {
+          "prompt": "Which reference provides evidence for examining Congressional Oversight and its legal or historical context?",
+          "answer": 2
+        }
+      ],
+      "inquiryPrompt": "How should constitutional principles and credible evidence guide decisions about the legislative branch?",
+      "inquirySteps": [
+        "Compare the identified public institutions, original texts and their limitations.",
+        "Develop an inquiry question about a specific civic decision, right or policy.",
+        "Defend a qualified conclusion using evidence, limits and a possible counterargument."
+      ],
+      "inquiryAnswers": [
+        1,
+        0,
+        2
+      ],
+      "conclusions": [
+        "The the legislative branch unit requires distinguishing source claims from evidence of real-world effects.",
+        "A credible civic argument should identify the governing rule, affected people and evidence that could test its impact.",
+        "Because a government source states a goal, the goal must already have been achieved equally in every community."
+      ],
+      "conclusionKey": [
+        true,
+        true,
+        false
+      ],
+      "writing": "Evaluate a civic dispute or constitutional question connected to The Legislative Branch. Develop a qualified thesis using at least two relevant documents or authoritative references. Explain which level or branch of government has authority, which rights or public values are at issue, the evidence supporting your interpretation, a counterargument and one significant evidence limitation.",
+      "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about The Legislative Branch. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
+      "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
+      "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
+      "sourceAudit": "Three linked original constitutional/legal records or official interpretive resources. Source summaries are educational paraphrases and do not substitute for document excerpts.",
+      "sampleAnswer": "The civic question in The Legislative Branch involves who has legitimate authority and what limits that authority. A strong answer identifies a specific governmental act, legal principle and affected community, rather than assuming a popular decision is automatically constitutional.\n\nSource A, Constitution Article I, provides the starting rule or historical context. Source B, How Our Laws Are Made, adds another institutional perspective. These records must be read with their creators and dates in mind; the fact that an institution announced a goal does not prove the goal was achieved.\n\nA third source, Congressional Oversight, can help clarify the competing obligations, evidence or limits of the case. An informed conclusion should test stated intentions against official records and relevant outcomes, while recognizing that some sources represent officials more directly than ordinary residents.\n\nA reasonable counterargument may prioritize another constitutional value, public benefit or interpretation. The strongest recommendation considers that opposing claim, explains why some evidence is more persuasive and identifies what new information could change the decision."
+    },
+    "10.4": {
+      "id": "10.4",
+      "grade": 10,
+      "title": "The Executive Branch",
+      "course": "grade-10-civics-government",
+      "lessons": [
+        {
+          "title": "The Powers of the President",
+          "slug": "the-powers-of-the-president",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate the powers of the president?",
+          "task": "Build a source-backed civic argument"
+        },
+        {
+          "title": "Executive Departments and Federal Agencies",
+          "slug": "executive-departments-and-federal-agencies",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate executive departments and federal agencies?",
+          "task": "Build a source-backed civic argument"
+        },
+        {
+          "title": "Executive Orders and Constitutional Limits",
+          "slug": "executive-orders-and-constitutional-limits",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate executive orders and constitutional limits?",
+          "task": "Build a source-backed civic argument"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Document A · Constitution Article II",
+          "title": "Constitution Article II",
+          "creator": "Constitutional Convention",
+          "date": "1787",
+          "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+          "sourceUrl": "https://www.archives.gov/founding-docs/constitution-transcript",
+          "sourceType": "Primary source: Primary",
+          "excerpt": "The Constitution specifies the presidency's executive role and powers including veto and commander-in-chief duties; statutory and judicial constraints also apply. Article II vests federal executive power in the presidency, including executing laws, certain appointment and treaty roles, veto powers described in Article I, and commander-in-chief duties. Congress controls legislation and appropriations; courts hear legal challenges in appropriate cases. The president does not create ordinary federal statutes alone.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        },
+        {
+          "label": "Document B · Federal Register: Executive Orders",
+          "title": "Federal Register: Executive Orders",
+          "creator": "Office of the Federal Register",
+          "date": "Historical and current records",
+          "url": "https://www.federalregister.gov/presidential-documents/executive-orders",
+          "sourceUrl": "https://www.federalregister.gov/presidential-documents/executive-orders",
+          "sourceType": "Primary source: Primary collection",
+          "excerpt": "Executive orders are published presidential directives within asserted legal authority; they cannot override the Constitution or valid federal statutes. Cabinet departments and agencies implement programs established by law, carry out enforcement and provide public services. Congress authorizes agency responsibilities and funds operations. Agencies may issue rules under delegated authority through procedures established by law; they do not possess unlimited power simply because they belong to the executive branch.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        },
+        {
+          "label": "Document C · Executive Branch",
+          "title": "Executive Branch",
+          "creator": "USAGov",
+          "date": "Modern reference",
+          "url": "https://www.usa.gov/branches-of-government",
+          "sourceUrl": "https://www.usa.gov/branches-of-government",
+          "sourceType": "Secondary",
+          "excerpt": "Federal executive agencies implement authorized programs; their rules and decisions remain subject to other governmental checks. An executive order directs federal executive operations under an asserted source of constitutional or statutory authority. Orders are recorded in the Federal Register; their legal reach depends on underlying powers and may be challenged in court. Orders cannot override the Constitution or repeal statutes passed by Congress.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "A president announces a permanent new federal tax in a speech. What must be evaluated?",
+          "choices": [
+            "Whether the speech is longer than a congressional debate.",
+            "Whether the president's announcement means courts no longer have jurisdiction.",
+            "Whether Congress enacted legal tax authority; a presidential speech alone is not a federal tax statute."
+          ],
+          "answer": 2,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "An agency posts a proposed regulation. Which conclusion follows?",
+          "choices": [
+            "Congress has lost all oversight authority for that agency.",
+            "The proposal begins or continues a rulemaking process; it is not necessarily a binding final rule.",
+            "The agency has amended the Constitution."
+          ],
+          "answer": 1,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "An executive order conflicts with a valid federal statute. Which assessment is strongest?",
+          "choices": [
+            "An order cannot displace a valid statute; legal authority and judicial review are relevant.",
+            "Any executive order always prevails over congressional enactments.",
+            "An executive order is identical to a ratified constitutional amendment."
+          ],
+          "answer": 0,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A president directs an agency to act without mentioning a legal source of authority. What should a student check?",
+          "choices": [
+            "The Constitution or statute authorizing the action and any applicable limits.",
+            "Whether the president has appeared on a popular quiz.",
+            "Whether the announcement contains a national flag."
+          ],
+          "answer": 0,
+          "explain": "Executive authority must rest on legal sources."
+        },
+        {
+          "prompt": "Why does a Federal Register notice matter when analyzing an executive order?",
+          "choices": [
+            "It automatically changes every state statute.",
+            "It provides dated official text that can be compared with the underlying law.",
+            "It proves courts cannot review the order."
+          ],
+          "answer": 1,
+          "explain": "The published text is evidence of the directive, not its unlimited legality."
+        },
+        {
+          "prompt": "Congress declines to fund a proposed executive program. What does this illustrate?",
+          "choices": [
+            "The president's power to appropriate funds without law.",
+            "Federal courts' sole authority over budgets.",
+            "Congressional appropriations as a constraint on executive implementation."
+          ],
+          "answer": 2,
+          "explain": "Appropriations are a legislative check."
+        }
+      ],
+      "matchingOptions": [
+        "Constitution Article II",
+        "Federal Register: Executive Orders",
+        "Executive Branch"
+      ],
+      "matchingPrompts": [
+        {
+          "prompt": "Which reference provides evidence for examining Constitution Article II and its legal or historical context?",
+          "answer": 0
+        },
+        {
+          "prompt": "Which reference provides evidence for examining Federal Register: Executive Orders and its legal or historical context?",
+          "answer": 1
+        },
+        {
+          "prompt": "Which reference provides evidence for examining Executive Branch and its legal or historical context?",
+          "answer": 2
+        }
+      ],
+      "inquiryPrompt": "How should constitutional principles and credible evidence guide decisions about the executive branch?",
+      "inquirySteps": [
+        "Compare the identified public institutions, original texts and their limitations.",
+        "Develop an inquiry question about a specific civic decision, right or policy.",
+        "Defend a qualified conclusion using evidence, limits and a possible counterargument."
+      ],
+      "inquiryAnswers": [
+        1,
+        0,
+        2
+      ],
+      "conclusions": [
+        "A credible civic argument should identify the governing rule, affected people and evidence that could test its impact.",
+        "Because a government source states a goal, the goal must already have been achieved equally in every community.",
+        "The the executive branch unit requires distinguishing source claims from evidence of real-world effects."
+      ],
+      "conclusionKey": [
+        true,
+        false,
+        true
+      ],
+      "writing": "Evaluate a civic dispute or constitutional question connected to The Executive Branch. Develop a qualified thesis using at least two relevant documents or authoritative references. Explain which level or branch of government has authority, which rights or public values are at issue, the evidence supporting your interpretation, a counterargument and one significant evidence limitation.",
+      "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about The Executive Branch. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
+      "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
+      "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
+      "sourceAudit": "Three linked original constitutional/legal records or official interpretive resources. Source summaries are educational paraphrases and do not substitute for document excerpts.",
+      "sampleAnswer": "The civic question in The Executive Branch involves who has legitimate authority and what limits that authority. A strong answer identifies a specific governmental act, legal principle and affected community, rather than assuming a popular decision is automatically constitutional.\n\nSource A, Constitution Article II, provides the starting rule or historical context. Source B, Federal Register: Executive Orders, adds another institutional perspective. These records must be read with their creators and dates in mind; the fact that an institution announced a goal does not prove the goal was achieved.\n\nA third source, Executive Branch, can help clarify the competing obligations, evidence or limits of the case. An informed conclusion should test stated intentions against official records and relevant outcomes, while recognizing that some sources represent officials more directly than ordinary residents.\n\nA reasonable counterargument may prioritize another constitutional value, public benefit or interpretation. The strongest recommendation considers that opposing claim, explains why some evidence is more persuasive and identifies what new information could change the decision."
+    },
+    "10.5": {
+      "id": "10.5",
+      "grade": 10,
+      "title": "The Judicial Branch",
+      "course": "grade-10-civics-government",
+      "lessons": [
+        {
+          "title": "Understanding the Federal Court System",
+          "slug": "understanding-the-federal-court-system",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate understanding the federal court system?",
+          "task": "Build a source-backed civic argument"
+        },
+        {
+          "title": "Judicial Review",
+          "slug": "judicial-review",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate judicial review?",
+          "task": "Build a source-backed civic argument"
+        },
+        {
+          "title": "Landmark Supreme Court Decisions",
+          "slug": "landmark-supreme-court-decisions",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate landmark supreme court decisions?",
+          "task": "Build a source-backed civic argument"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Document A · Constitution Article III",
+          "title": "Constitution Article III",
+          "creator": "Constitutional Convention",
+          "date": "1787",
+          "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+          "sourceUrl": "https://www.archives.gov/founding-docs/constitution-transcript",
+          "sourceType": "Primary source: Primary",
+          "excerpt": "Article III creates the Supreme Court and authorizes a federal judiciary; Congress establishes and structures lower federal courts. The Constitution creates a Supreme Court and authorizes Congress to establish lower federal courts. Federal district courts typically conduct trials and develop case records; courts of appeals review legal issues and lower-court decisions; the Supreme Court has appellate and limited original jurisdiction.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        },
+        {
+          "label": "Document B · Marbury v. Madison",
+          "title": "Marbury v. Madison",
+          "creator": "U.S. Supreme Court",
+          "date": "1803",
+          "url": "https://supreme.justia.com/cases/federal/us/5/137/",
+          "sourceUrl": "https://supreme.justia.com/cases/federal/us/5/137/",
+          "sourceType": "Primary source: Primary opinion",
+          "excerpt": "Chief Justice Marshall's opinion is a foundational articulation of judicial review; the decision has a particular dispute and procedural context. Judicial review is the power of courts, in cases properly before them, to evaluate whether governmental actions conflict with the Constitution. Marbury v. Madison (1803) famously articulated the Supreme Court's role in refusing to enforce unconstitutional federal law in the case before it.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        },
+        {
+          "label": "Document C · Supreme Court Landmarks",
+          "title": "Supreme Court Landmarks",
+          "creator": "Administrative Office of the U.S. Courts",
+          "date": "Modern reference",
+          "url": "https://www.uscourts.gov/about-federal-courts/educational-resources/supreme-court-landmarks",
+          "sourceUrl": "https://www.uscourts.gov/about-federal-courts/educational-resources/supreme-court-landmarks",
+          "sourceType": "Secondary",
+          "excerpt": "Case examples illustrate how facts, questions, holdings and later interpretations differ. Landmark cases are best studied through facts, constitutional question, holding and consequences. Brown v. Board of Education (1954) rejected state-mandated racial segregation in public schools, while Tinker v. Des Moines (1969) addressed student political expression at school. These cases concern different rights and different contexts.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "A witness disputes facts in a federal case. Which court ordinarily hears testimony and develops a trial record?",
+          "choices": [
+            "A congressional committee acting as the final criminal court.",
+            "A federal district court with jurisdiction.",
+            "The Supreme Court in every case."
+          ],
+          "answer": 1,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A court rules a statute unconstitutional in a properly presented case. What principle does this illustrate?",
+          "choices": [
+            "Judicial review, subject to jurisdiction and constitutional reasoning.",
+            "The court's authority to amend Article V on its own.",
+            "The president's power to nullify any judicial decision."
+          ],
+          "answer": 0,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A student claims Tinker means schools may never regulate student expression. What should the student do?",
+          "choices": [
+            "Rely on the word freedom without reading the opinion.",
+            "Apply Brown's school-segregation holding as the direct rule on every speech issue.",
+            "Read the case holding and circumstances, including the substantial-disruption standard and later relevant decisions."
+          ],
+          "answer": 2,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A student cites a Supreme Court ruling but ignores what question the Court decided. What should be reviewed?",
+          "choices": [
+            "Whether an unrelated statute is popular.",
+            "The case's holding, facts, procedural posture and relevant constitutional rule.",
+            "Only which justice wrote the longest opinion."
+          ],
+          "answer": 1,
+          "explain": "Case analysis requires the holding in context."
+        },
+        {
+          "prompt": "A dispute falls outside the federal courts' jurisdiction. Which statement is accurate?",
+          "choices": [
+            "Federal courts can always decide any political question.",
+            "Jurisdictional rules limit which disputes may be heard in federal court.",
+            "All disputes must begin at the Supreme Court."
+          ],
+          "answer": 1,
+          "explain": "Federal courts have defined jurisdiction."
+        },
+        {
+          "prompt": "Which distinction is accurate about trial and appellate courts?",
+          "choices": [
+            "Appeals courts decide all facts through new witness trials as a rule.",
+            "District courts generally develop trial records; appellate courts review decisions through applicable review standards.",
+            "Trial courts never evaluate evidence."
+          ],
+          "answer": 1,
+          "explain": "The levels serve different procedural purposes."
+        }
+      ],
+      "matchingOptions": [
+        "Constitution Article III",
+        "Marbury v. Madison",
+        "Supreme Court Landmarks"
+      ],
+      "matchingPrompts": [
+        {
+          "prompt": "Which reference provides evidence for examining Constitution Article III and its legal or historical context?",
+          "answer": 0
+        },
+        {
+          "prompt": "Which reference provides evidence for examining Marbury v. Madison and its legal or historical context?",
+          "answer": 1
+        },
+        {
+          "prompt": "Which reference provides evidence for examining Supreme Court Landmarks and its legal or historical context?",
+          "answer": 2
+        }
+      ],
+      "inquiryPrompt": "How should constitutional principles and credible evidence guide decisions about the judicial branch?",
+      "inquirySteps": [
+        "Compare the identified public institutions, original texts and their limitations.",
+        "Develop an inquiry question about a specific civic decision, right or policy.",
+        "Defend a qualified conclusion using evidence, limits and a possible counterargument."
+      ],
+      "inquiryAnswers": [
+        1,
+        0,
+        2
+      ],
+      "conclusions": [
+        "Because a government source states a goal, the goal must already have been achieved equally in every community.",
+        "The the judicial branch unit requires distinguishing source claims from evidence of real-world effects.",
+        "A credible civic argument should identify the governing rule, affected people and evidence that could test its impact."
+      ],
+      "conclusionKey": [
+        false,
+        true,
+        true
+      ],
+      "writing": "Evaluate a civic dispute or constitutional question connected to The Judicial Branch. Develop a qualified thesis using at least two relevant documents or authoritative references. Explain which level or branch of government has authority, which rights or public values are at issue, the evidence supporting your interpretation, a counterargument and one significant evidence limitation.",
+      "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about The Judicial Branch. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
+      "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
+      "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
+      "sourceAudit": "Three linked original constitutional/legal records or official interpretive resources. Source summaries are educational paraphrases and do not substitute for document excerpts.",
+      "sampleAnswer": "The civic question in The Judicial Branch involves who has legitimate authority and what limits that authority. A strong answer identifies a specific governmental act, legal principle and affected community, rather than assuming a popular decision is automatically constitutional.\n\nSource A, Constitution Article III, provides the starting rule or historical context. Source B, Marbury v. Madison, adds another institutional perspective. These records must be read with their creators and dates in mind; the fact that an institution announced a goal does not prove the goal was achieved.\n\nA third source, Supreme Court Landmarks, can help clarify the competing obligations, evidence or limits of the case. An informed conclusion should test stated intentions against official records and relevant outcomes, while recognizing that some sources represent officials more directly than ordinary residents.\n\nA reasonable counterargument may prioritize another constitutional value, public benefit or interpretation. The strongest recommendation considers that opposing claim, explains why some evidence is more persuasive and identifies what new information could change the decision."
+    },
+    "10.6": {
+      "id": "10.6",
+      "grade": 10,
+      "title": "Civil Rights and Liberties",
+      "course": "grade-10-civics-government",
+      "lessons": [
+        {
+          "title": "The Bill of Rights",
+          "slug": "the-bill-of-rights",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate the bill of rights?",
+          "task": "Build a source-backed civic argument"
+        },
+        {
+          "title": "Freedom of Speech and Religion",
+          "slug": "freedom-of-speech-and-religion",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate freedom of speech and religion?",
+          "task": "Build a source-backed civic argument"
+        },
+        {
+          "title": "Due Process and Equal Protection",
+          "slug": "due-process-and-equal-protection",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate due process and equal protection?",
+          "task": "Build a source-backed civic argument"
+        },
+        {
+          "title": "Civil Rights Through Constitutional Change",
+          "slug": "civil-rights-through-constitutional-change",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate civil rights through constitutional change?",
+          "task": "Build a source-backed civic argument"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Document A · Bill of Rights",
+          "title": "Bill of Rights",
+          "creator": "U.S. Congress / ratifying states",
+          "date": "1791",
+          "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+          "sourceUrl": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+          "sourceType": "Primary source: Primary",
+          "excerpt": "The First Amendment protects speech, religion, press, petition and peaceful assembly; most Bill of Rights protections also apply to states through later doctrine. The first ten amendments, ratified in 1791, protect important liberties and set limits on federal governmental power. They address religious practice, expression, criminal procedure, privacy-related protections, jury rights and other issues. Most of these protections later became applicable to states through interpretation of the Fourteenth Amendment.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        },
+        {
+          "label": "Document B · Fourteenth Amendment",
+          "title": "Fourteenth Amendment",
+          "creator": "U.S. Congress / ratifying states",
+          "date": "1868",
+          "url": "https://www.archives.gov/milestone-documents/14th-amendment",
+          "sourceUrl": "https://www.archives.gov/milestone-documents/14th-amendment",
+          "sourceType": "Primary source: Primary",
+          "excerpt": "Due process and equal protection constrain state government; rights disputes often require examining government action and relevant case law. The First Amendment protects free speech and religious exercise while prohibiting governmental establishment of religion. These protections apply to governmental conduct, not every action by a private individual. Specific contexts, such as public schools or public employment, can involve legal standards shaped by court decisions.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        },
+        {
+          "label": "Document C · Tinker v. Des Moines",
+          "title": "Tinker v. Des Moines",
+          "creator": "U.S. Supreme Court",
+          "date": "1969",
+          "url": "https://supreme.justia.com/cases/federal/us/393/503/",
+          "sourceUrl": "https://supreme.justia.com/cases/federal/us/393/503/",
+          "sourceType": "Primary source: Primary opinion",
+          "excerpt": "The Court protected student expression in a particular public-school context; later student-speech cases and school circumstances must be distinguished. The Fifth and Fourteenth Amendments contain due-process guarantees, while the Fourteenth Amendment also prohibits states from denying equal protection of the laws. Due process concerns fair legal procedures and, in particular contexts, substantive limits; equal protection concerns government's unequal treatment under constitutional standards.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "A government action raises a possible First Amendment issue. Which starting evidence is most useful?",
+          "choices": [
+            "The text of the relevant amendment and cases governing the particular type of government action.",
+            "A student's personal view alone.",
+            "The number of words in the Bill of Rights."
+          ],
+          "answer": 0,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A student expresses a political view peacefully at a public school. Which analysis is most appropriate?",
+          "choices": [
+            "Assume all school rules are unconstitutional.",
+            "Assume students lose all constitutional protection at school.",
+            "Check whether the school restriction is supported by relevant student-speech law and the actual facts."
+          ],
+          "answer": 2,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A public agency removes a benefit without notice or a meaningful opportunity to respond. Which legal concern is most directly raised?",
+          "choices": [
+            "A presidential veto of an agency decision.",
+            "Procedural due process, depending on the protected interest and applicable rules.",
+            "The requirement that all laws use identical language."
+          ],
+          "answer": 1,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A rights amendment is ratified but discrimination continues. Which conclusion is historically sound?",
+          "choices": [
+            "Legal guarantees can reshape rights even when enforcement and access remain contested.",
+            "An unenforced right has no legal importance.",
+            "A constitutional amendment automatically changes every practice immediately."
+          ],
+          "answer": 0,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A school restricts political armbands but cannot show disruption. Which source would most directly help analyze the issue?",
+          "choices": [
+            "A state sales-tax chart.",
+            "The presidential veto clause.",
+            "Tinker v. Des Moines and its specific public-school speech context."
+          ],
+          "answer": 2,
+          "explain": "Tinker is relevant to student political expression."
+        },
+        {
+          "prompt": "A government rule treats similarly situated people differently. Which constitutional provision may be implicated?",
+          "choices": [
+            "Article I's term length for senators.",
+            "The treaty-making clause alone.",
+            "The Fourteenth Amendment's Equal Protection Clause, with the relevant legal standards."
+          ],
+          "answer": 2,
+          "explain": "Equal protection may apply to governmental classifications."
+        }
+      ],
+      "matchingOptions": [
+        "Bill of Rights",
+        "Fourteenth Amendment",
+        "Tinker v. Des Moines"
+      ],
+      "matchingPrompts": [
+        {
+          "prompt": "Which reference provides evidence for examining Bill of Rights and its legal or historical context?",
+          "answer": 0
+        },
+        {
+          "prompt": "Which reference provides evidence for examining Fourteenth Amendment and its legal or historical context?",
+          "answer": 1
+        },
+        {
+          "prompt": "Which reference provides evidence for examining Tinker v. Des Moines and its legal or historical context?",
+          "answer": 2
+        }
+      ],
+      "inquiryPrompt": "How should constitutional principles and credible evidence guide decisions about civil rights and liberties?",
+      "inquirySteps": [
+        "Compare the identified public institutions, original texts and their limitations.",
+        "Develop an inquiry question about a specific civic decision, right or policy.",
+        "Defend a qualified conclusion using evidence, limits and a possible counterargument."
+      ],
+      "inquiryAnswers": [
+        1,
+        0,
+        2
+      ],
+      "conclusions": [
+        "The civil rights and liberties unit requires distinguishing source claims from evidence of real-world effects.",
+        "A credible civic argument should identify the governing rule, affected people and evidence that could test its impact.",
+        "Because a government source states a goal, the goal must already have been achieved equally in every community."
+      ],
+      "conclusionKey": [
+        true,
+        true,
+        false
+      ],
+      "writing": "Evaluate a civic dispute or constitutional question connected to Civil Rights and Liberties. Develop a qualified thesis using at least two relevant documents or authoritative references. Explain which level or branch of government has authority, which rights or public values are at issue, the evidence supporting your interpretation, a counterargument and one significant evidence limitation.",
+      "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about Civil Rights and Liberties. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
+      "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
+      "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
+      "sourceAudit": "Three linked original constitutional/legal records or official interpretive resources. Source summaries are educational paraphrases and do not substitute for document excerpts.",
+      "sampleAnswer": "The civic question in Civil Rights and Liberties involves who has legitimate authority and what limits that authority. A strong answer identifies a specific governmental act, legal principle and affected community, rather than assuming a popular decision is automatically constitutional.\n\nSource A, Bill of Rights, provides the starting rule or historical context. Source B, Fourteenth Amendment, adds another institutional perspective. These records must be read with their creators and dates in mind; the fact that an institution announced a goal does not prove the goal was achieved.\n\nA third source, Tinker v. Des Moines, can help clarify the competing obligations, evidence or limits of the case. An informed conclusion should test stated intentions against official records and relevant outcomes, while recognizing that some sources represent officials more directly than ordinary residents.\n\nA reasonable counterargument may prioritize another constitutional value, public benefit or interpretation. The strongest recommendation considers that opposing claim, explains why some evidence is more persuasive and identifies what new information could change the decision."
+    },
+    "10.7": {
+      "id": "10.7",
+      "grade": 10,
+      "title": "Elections and Political Participation",
+      "course": "grade-10-civics-government",
+      "lessons": [
+        {
+          "title": "How American Elections Work",
+          "slug": "how-american-elections-work",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate how american elections work?",
+          "task": "Build a source-backed civic argument"
+        },
+        {
+          "title": "Political Parties and Interest Groups",
+          "slug": "political-parties-and-interest-groups",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate political parties and interest groups?",
+          "task": "Build a source-backed civic argument"
+        },
+        {
+          "title": "Media Literacy and Political Information",
+          "slug": "media-literacy-and-political-information",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate media literacy and political information?",
+          "task": "Build a source-backed civic argument"
+        },
+        {
+          "title": "Citizen Participation Beyond Voting",
+          "slug": "citizen-participation-beyond-voting",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate citizen participation beyond voting?",
+          "task": "Build a source-backed civic argument"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Document A · Constitution Article II / Twelfth Amendment",
+          "title": "Constitution Article II / Twelfth Amendment",
+          "creator": "Constitutional Convention / ratifying states",
+          "date": "1787 / 1804",
+          "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+          "sourceUrl": "https://www.archives.gov/founding-docs/constitution-transcript",
+          "sourceType": "Primary source: Primary",
+          "excerpt": "Presidential selection uses the Electoral College; state administration, federal statutes and constitutional amendments affect procedures. U.S. elections take place under overlapping federal, state and local rules. Voters choose members of Congress directly; presidential selection uses state-administered elections for electors under constitutional and legal rules. Eligibility, voter registration, polling and ballot procedures vary by jurisdiction and can change with law or court decisions.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        },
+        {
+          "label": "Document B · Voting Rights Act",
+          "title": "Voting Rights Act",
+          "creator": "U.S. Congress",
+          "date": "1965",
+          "url": "https://www.archives.gov/milestone-documents/voting-rights-act",
+          "sourceUrl": "https://www.archives.gov/milestone-documents/voting-rights-act",
+          "sourceType": "Primary source: Primary",
+          "excerpt": "Federal voting-rights protections responded to discrimination; effects and contemporary law require dated evidence. Political parties organize candidates, campaign messages and legislative coalitions. Interest groups seek to influence policy through advocacy, education, lobbying and sometimes election-related activities. Parties and groups are not branches of government, and their internal priorities may change over time.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        },
+        {
+          "label": "Document C · Federal Election Commission",
+          "title": "Federal Election Commission",
+          "creator": "Federal Election Commission",
+          "date": "Modern reference",
+          "url": "https://www.fec.gov/introduction-campaign-finance/",
+          "sourceUrl": "https://www.fec.gov/introduction-campaign-finance/",
+          "sourceType": "Secondary",
+          "excerpt": "Campaign finance disclosures explain some funding; they do not reveal every form of influence or guarantee impartial information. Political information appears in reporting, official records, advocacy, advertisements, satire and personal posts. Different genres have different purposes. A headline can summarize facts accurately or omit essential context; a viral image may be authentic yet miscaptioned.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "A website gives conflicting registration deadlines. Which action is most responsible?",
+          "choices": [
+            "Choose the date shared most often on social media.",
+            "Treat a historical deadline as applicable to every election.",
+            "Check the appropriate official state or local election authority for current rules."
+          ],
+          "answer": 2,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A group funds advertisements for a proposal. What can this establish without further evidence?",
+          "choices": [
+            "Every voter exposed to the advertisement changed opinions.",
+            "The group devoted resources to advocacy; its actual effect on votes requires additional evidence.",
+            "The proposal must have become law."
+          ],
+          "answer": 1,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A viral chart claims a new law doubled crime overnight. What should the learner check?",
+          "choices": [
+            "The original dataset, definitions, date range, denominator and whether the law was in effect.",
+            "Only how many times the chart was shared.",
+            "Whether the chart uses red or blue colors."
+          ],
+          "answer": 0,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A neighborhood group wants safer crosswalks. Which is the most effective initial civic plan?",
+          "choices": [
+            "Send anonymous accusations without identifying an intersection.",
+            "Assume only national government can address road design.",
+            "Collect location-specific safety evidence and identify the public agency responsible before proposing action."
+          ],
+          "answer": 2,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "Two campaign charts show different conclusions from the same dataset. What should be checked?",
+          "choices": [
+            "Which campaign shared the chart first.",
+            "Whether the charts use identical colors.",
+            "Scale, axes, time period, population and original dataset."
+          ],
+          "answer": 2,
+          "explain": "Visual display choices can distort comparisons."
+        },
+        {
+          "prompt": "A source claims a bill will change every voter's eligibility next week. What should students verify?",
+          "choices": [
+            "Whether the proposal became law, what it actually says and which election authority administers it.",
+            "Whether the claim is repeated by a celebrity.",
+            "How often it appears in online advertisements."
+          ],
+          "answer": 0,
+          "explain": "Bills are not automatically enacted and legal specifics matter."
+        }
+      ],
+      "matchingOptions": [
+        "Constitution Article II / Twelfth Amendment",
+        "Voting Rights Act",
+        "Federal Election Commission"
+      ],
+      "matchingPrompts": [
+        {
+          "prompt": "Which reference provides evidence for examining Constitution Article II / Twelfth Amendment and its legal or historical context?",
+          "answer": 0
+        },
+        {
+          "prompt": "Which reference provides evidence for examining Voting Rights Act and its legal or historical context?",
+          "answer": 1
+        },
+        {
+          "prompt": "Which reference provides evidence for examining Federal Election Commission and its legal or historical context?",
+          "answer": 2
+        }
+      ],
+      "inquiryPrompt": "How should constitutional principles and credible evidence guide decisions about elections and political participation?",
+      "inquirySteps": [
+        "Compare the identified public institutions, original texts and their limitations.",
+        "Develop an inquiry question about a specific civic decision, right or policy.",
+        "Defend a qualified conclusion using evidence, limits and a possible counterargument."
+      ],
+      "inquiryAnswers": [
+        1,
+        0,
+        2
+      ],
+      "conclusions": [
+        "A credible civic argument should identify the governing rule, affected people and evidence that could test its impact.",
+        "Because a government source states a goal, the goal must already have been achieved equally in every community.",
+        "The elections and political participation unit requires distinguishing source claims from evidence of real-world effects."
+      ],
+      "conclusionKey": [
+        true,
+        false,
+        true
+      ],
+      "writing": "Evaluate a civic dispute or constitutional question connected to Elections and Political Participation. Develop a qualified thesis using at least two relevant documents or authoritative references. Explain which level or branch of government has authority, which rights or public values are at issue, the evidence supporting your interpretation, a counterargument and one significant evidence limitation.",
+      "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about Elections and Political Participation. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
+      "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
+      "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
+      "sourceAudit": "Three linked original constitutional/legal records or official interpretive resources. Source summaries are educational paraphrases and do not substitute for document excerpts.",
+      "sampleAnswer": "The civic question in Elections and Political Participation involves who has legitimate authority and what limits that authority. A strong answer identifies a specific governmental act, legal principle and affected community, rather than assuming a popular decision is automatically constitutional.\n\nSource A, Constitution Article II / Twelfth Amendment, provides the starting rule or historical context. Source B, Voting Rights Act, adds another institutional perspective. These records must be read with their creators and dates in mind; the fact that an institution announced a goal does not prove the goal was achieved.\n\nA third source, Federal Election Commission, can help clarify the competing obligations, evidence or limits of the case. An informed conclusion should test stated intentions against official records and relevant outcomes, while recognizing that some sources represent officials more directly than ordinary residents.\n\nA reasonable counterargument may prioritize another constitutional value, public benefit or interpretation. The strongest recommendation considers that opposing claim, explains why some evidence is more persuasive and identifies what new information could change the decision."
+    },
+    "10.8": {
+      "id": "10.8",
+      "grade": 10,
+      "title": "State and Local Government",
+      "course": "grade-10-civics-government",
+      "lessons": [
+        {
+          "title": "State Government and Federalism",
+          "slug": "state-government-and-federalism",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate state government and federalism?",
+          "task": "Build a source-backed civic argument"
+        },
+        {
+          "title": "Local Government and Public Services",
+          "slug": "local-government-and-public-services",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate local government and public services?",
+          "task": "Build a source-backed civic argument"
+        },
+        {
+          "title": "How Local Policies Affect Communities",
+          "slug": "how-local-policies-affect-communities",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate how local policies affect communities?",
+          "task": "Build a source-backed civic argument"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Document A · Maryland Constitution",
+          "title": "Maryland Constitution",
+          "creator": "State of Maryland",
+          "date": "1867; amended",
+          "url": "https://msa.maryland.gov/msa/mdmanual/43const/html/const.html",
+          "sourceUrl": "https://msa.maryland.gov/msa/mdmanual/43const/html/const.html",
+          "sourceType": "Primary source: Primary legal text",
+          "excerpt": "Maryland's constitution structures state government; its provisions and amendments should be read alongside current statutes. Maryland operates under its state constitution, which creates executive, legislative and judicial institutions. State laws cover many matters such as education and transportation, subject to federal constitutional constraints. A state bill is not the same as an enacted law; legislative records allow students to follow each stage.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        },
+        {
+          "label": "Document B · Maryland General Assembly",
+          "title": "Maryland General Assembly",
+          "creator": "State of Maryland",
+          "date": "Modern legislative record",
+          "url": "https://mgaleg.maryland.gov/mgawebsite/",
+          "sourceUrl": "https://mgaleg.maryland.gov/mgawebsite/",
+          "sourceType": "Primary source: Primary/secondary public records",
+          "excerpt": "Bills, hearings and voting records document state lawmaking; proposals must be distinguished from laws in force. Local governments carry out responsibilities permitted by state law. In Maryland, counties and municipalities have different structures and powers. Charles County manages various local services and public processes; municipalities within the county may have additional authority in their boundaries.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        },
+        {
+          "label": "Document C · Charles County Government",
+          "title": "Charles County Government",
+          "creator": "Charles County, Maryland",
+          "date": "Modern local reference",
+          "url": "https://www.charlescountymd.gov/government",
+          "sourceUrl": "https://www.charlescountymd.gov/government",
+          "sourceType": "Secondary government information",
+          "excerpt": "County services, budgets and public participation provide local civic examples; verify current procedures with the official county site. Local policies concerning zoning, roads, water, parks and public safety can affect communities differently. A planning decision may benefit one neighborhood while shifting costs or traffic elsewhere. Residents can participate through hearings, written comments and local boards according to applicable rules.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "A Maryland policy proposal concerns a state-regulated issue. Which source best establishes its legislative status?",
+          "choices": [
+            "A screenshot that omits the bill number.",
+            "The Maryland General Assembly's official bill history and enrolled law records.",
+            "An undated campaign flyer."
+          ],
+          "answer": 1,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A county proposes expanding library hours. Which evidence best evaluates the proposal?",
+          "choices": [
+            "The adopted budget, staffing needs, usage records and community accessibility data.",
+            "The proposal's title alone.",
+            "One undated photograph of a library."
+          ],
+          "answer": 0,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A new road may reduce traffic downtown but increase it near a school. What is the strongest evaluation?",
+          "choices": [
+            "Count only downtown drivers who favor the proposal.",
+            "Treat the plan's stated purpose as proof it cannot cause harm.",
+            "Compare traffic forecasts, safety data, costs and experiences of both areas before choosing a policy."
+          ],
+          "answer": 2,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A county announces a road project but no budget has been adopted. What should a student conclude?",
+          "choices": [
+            "The federal government necessarily runs all county roads.",
+            "The announcement proves that the funds are legally spent.",
+            "It is a proposal or plan until the relevant approval steps occur."
+          ],
+          "answer": 2,
+          "explain": "Proposals and enacted appropriations differ."
+        },
+        {
+          "prompt": "A state and federal rule may conflict. What is needed for a legal assessment?",
+          "choices": [
+            "The scope and validity of both laws, federal authority and any preemption question.",
+            "Only a list of newspaper headlines.",
+            "A map showing the state capital."
+          ],
+          "answer": 0,
+          "explain": "Federalism disputes require legal authority and facts."
+        },
+        {
+          "prompt": "An environmental decision benefits one district and harms another. What evidence best supports equitable review?",
+          "choices": [
+            "A slogan about progress.",
+            "Maps, environmental and cost data and testimony from both affected districts.",
+            "Only endorsements from the winning district."
+          ],
+          "answer": 1,
+          "explain": "Distribution and tradeoffs require diverse evidence."
+        }
+      ],
+      "matchingOptions": [
+        "Maryland Constitution",
+        "Maryland General Assembly",
+        "Charles County Government"
+      ],
+      "matchingPrompts": [
+        {
+          "prompt": "Which reference provides evidence for examining Maryland Constitution and its legal or historical context?",
+          "answer": 0
+        },
+        {
+          "prompt": "Which reference provides evidence for examining Maryland General Assembly and its legal or historical context?",
+          "answer": 1
+        },
+        {
+          "prompt": "Which reference provides evidence for examining Charles County Government and its legal or historical context?",
+          "answer": 2
+        }
+      ],
+      "inquiryPrompt": "How should constitutional principles and credible evidence guide decisions about state and local government?",
+      "inquirySteps": [
+        "Compare the identified public institutions, original texts and their limitations.",
+        "Develop an inquiry question about a specific civic decision, right or policy.",
+        "Defend a qualified conclusion using evidence, limits and a possible counterargument."
+      ],
+      "inquiryAnswers": [
+        1,
+        0,
+        2
+      ],
+      "conclusions": [
+        "Because a government source states a goal, the goal must already have been achieved equally in every community.",
+        "The state and local government unit requires distinguishing source claims from evidence of real-world effects.",
+        "A credible civic argument should identify the governing rule, affected people and evidence that could test its impact."
+      ],
+      "conclusionKey": [
+        false,
+        true,
+        true
+      ],
+      "writing": "Evaluate a civic dispute or constitutional question connected to State and Local Government. Develop a qualified thesis using at least two relevant documents or authoritative references. Explain which level or branch of government has authority, which rights or public values are at issue, the evidence supporting your interpretation, a counterargument and one significant evidence limitation.",
+      "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about State and Local Government. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
+      "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
+      "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
+      "sourceAudit": "Three linked original constitutional/legal records or official interpretive resources. Source summaries are educational paraphrases and do not substitute for document excerpts.",
+      "sampleAnswer": "The civic question in State and Local Government involves who has legitimate authority and what limits that authority. A strong answer identifies a specific governmental act, legal principle and affected community, rather than assuming a popular decision is automatically constitutional.\n\nSource A, Maryland Constitution, provides the starting rule or historical context. Source B, Maryland General Assembly, adds another institutional perspective. These records must be read with their creators and dates in mind; the fact that an institution announced a goal does not prove the goal was achieved.\n\nA third source, Charles County Government, can help clarify the competing obligations, evidence or limits of the case. An informed conclusion should test stated intentions against official records and relevant outcomes, while recognizing that some sources represent officials more directly than ordinary residents.\n\nA reasonable counterargument may prioritize another constitutional value, public benefit or interpretation. The strongest recommendation considers that opposing claim, explains why some evidence is more persuasive and identifies what new information could change the decision."
+    },
+    "10.9": {
+      "id": "10.9",
+      "grade": 10,
+      "title": "Public Policy and Civic Action",
+      "course": "grade-10-civics-government",
+      "lessons": [
+        {
+          "title": "How Public Policy Is Developed",
+          "slug": "how-public-policy-is-developed",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate how public policy is developed?",
+          "task": "Build a source-backed civic argument"
+        },
+        {
+          "title": "Taxes, Budgets, and Public Priorities",
+          "slug": "taxes-budgets-and-public-priorities",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate taxes, budgets, and public priorities?",
+          "task": "Build a source-backed civic argument"
+        },
+        {
+          "title": "Evaluating a Public Policy Debate",
+          "slug": "evaluating-a-public-policy-debate",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate evaluating a public policy debate?",
+          "task": "Build a source-backed civic argument"
+        },
+        {
+          "title": "Designing a Community Civic Action Project",
+          "slug": "designing-a-community-civic-action-project",
+          "essential": "How can we use credible sources and constitutional reasoning to investigate designing a community civic action project?",
+          "task": "Build a source-backed civic argument"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Document A · Maryland General Assembly Bill Search",
+          "title": "Maryland General Assembly Bill Search",
+          "creator": "State of Maryland",
+          "date": "Public records",
+          "url": "https://mgaleg.maryland.gov/mgawebsite/",
+          "sourceUrl": "https://mgaleg.maryland.gov/mgawebsite/",
+          "sourceType": "Primary source: Primary legislative records",
+          "excerpt": "Bills show proposals, sponsors, amendments, committee action and voting history; introduced bills are not automatically enacted. Public policy starts with a defined problem and competing ideas about goals, costs, authority and fairness. Proposals can be developed through legislation, regulations, executive decisions or local government processes depending on jurisdiction. Interested groups can disagree reasonably over values while relying on different evidence.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        },
+        {
+          "label": "Document B · Congressional Budget Office",
+          "title": "Congressional Budget Office",
+          "creator": "U.S. Congressional Budget Office",
+          "date": "Modern nonpartisan analyses",
+          "url": "https://www.cbo.gov/",
+          "sourceUrl": "https://www.cbo.gov/",
+          "sourceType": "Secondary policy analysis",
+          "excerpt": "Budget estimates examine assumptions and possible effects; projections carry uncertainty. Government budgets allocate limited revenues among competing public needs. Taxes are one revenue source, while expenditures fund programs, operations and capital projects. Students should distinguish an annual budget from long-term debt, and a proposal from an adopted appropriation. Different communities can experience costs and services unevenly.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        },
+        {
+          "label": "Document C · Maryland Open Data",
+          "title": "Maryland Open Data",
+          "creator": "State of Maryland",
+          "date": "Current datasets",
+          "url": "https://opendata.maryland.gov/",
+          "sourceUrl": "https://opendata.maryland.gov/",
+          "sourceType": "Government data collection",
+          "excerpt": "Official datasets can inform policy evaluation but require attention to units, dates, missing values and causal limits. Policy disputes often mix empirical claims with competing public values. One speaker may prioritize cost, another equity or liberty, while a third emphasizes effectiveness. Students should identify each argument's claim, supporting data, assumptions and possible unintended consequences.",
+          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
+          "documentExcerpt": ""
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "A city considers regulating stormwater runoff. Which policy-analysis question is strongest?",
+          "choices": [
+            "What legal authority exists, who bears costs and benefits, and how will flood outcomes be measured?",
+            "Which speaker uses the most confident tone?",
+            "Can the government skip public information and outcome review?"
+          ],
+          "answer": 0,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A county has funds for only one of two projects. Which analysis best supports a defensible budget recommendation?",
+          "choices": [
+            "Choose whichever project has a shorter title.",
+            "Assume the cheaper project must always be more effective.",
+            "Compare costs, expected outcomes, equity, legal duties and the forgone benefits of the alternative."
+          ],
+          "answer": 2,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "Two groups disagree about a school transportation proposal. Which response is strongest?",
+          "choices": [
+            "Treat any uncertainty as a reason no policy can ever be chosen.",
+            "Compare route data, costs, access and safety, and state which criteria justify the recommendation.",
+            "Accept whichever group has the louder presentation."
+          ],
+          "answer": 1,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A student group proposes adding shade at bus stops. What makes the project assessable?",
+          "choices": [
+            "A defined location, authority, baseline conditions, proposed action, outcome measure and individual roles.",
+            "A promise that every resident will approve the project.",
+            "A poster with no sources, costs or success measures."
+          ],
+          "answer": 0,
+          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+        },
+        {
+          "prompt": "A city plans a new transit service. Which criterion can best measure success?",
+          "choices": [
+            "Rider access, travel times, actual cost and use before and after implementation.",
+            "Whether the proposal has a patriotic logo.",
+            "How many positive adjectives appear in the plan."
+          ],
+          "answer": 0,
+          "explain": "A measurable outcome requires baseline and follow-up data."
+        },
+        {
+          "prompt": "A policy brief quotes a projection as a guaranteed result. What correction is needed?",
+          "choices": [
+            "Remove the date and source of the projection.",
+            "State the model assumptions, uncertainties and alternative scenarios.",
+            "Treat projections as accomplished facts."
+          ],
+          "answer": 1,
+          "explain": "Forecasts are conditional."
+        }
+      ],
+      "matchingOptions": [
+        "Maryland General Assembly Bill Search",
+        "Congressional Budget Office",
+        "Maryland Open Data"
+      ],
+      "matchingPrompts": [
+        {
+          "prompt": "Which reference provides evidence for examining Maryland General Assembly Bill Search and its legal or historical context?",
+          "answer": 0
+        },
+        {
+          "prompt": "Which reference provides evidence for examining Congressional Budget Office and its legal or historical context?",
+          "answer": 1
+        },
+        {
+          "prompt": "Which reference provides evidence for examining Maryland Open Data and its legal or historical context?",
+          "answer": 2
+        }
+      ],
+      "inquiryPrompt": "How should constitutional principles and credible evidence guide decisions about public policy and civic action?",
+      "inquirySteps": [
+        "Compare the identified public institutions, original texts and their limitations.",
+        "Develop an inquiry question about a specific civic decision, right or policy.",
+        "Defend a qualified conclusion using evidence, limits and a possible counterargument."
+      ],
+      "inquiryAnswers": [
+        1,
+        0,
+        2
+      ],
+      "conclusions": [
+        "The public policy and civic action unit requires distinguishing source claims from evidence of real-world effects.",
+        "A credible civic argument should identify the governing rule, affected people and evidence that could test its impact.",
+        "Because a government source states a goal, the goal must already have been achieved equally in every community."
+      ],
+      "conclusionKey": [
+        true,
+        true,
+        false
+      ],
+      "writing": "Evaluate a civic dispute or constitutional question connected to Public Policy and Civic Action. Develop a qualified thesis using at least two relevant documents or authoritative references. Explain which level or branch of government has authority, which rights or public values are at issue, the evidence supporting your interpretation, a counterargument and one significant evidence limitation.",
+      "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about Public Policy and Civic Action. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
+      "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
+      "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
+      "sourceAudit": "Three linked original constitutional/legal records or official interpretive resources. Source summaries are educational paraphrases and do not substitute for document excerpts.",
+      "sampleAnswer": "The civic question in Public Policy and Civic Action involves who has legitimate authority and what limits that authority. A strong answer identifies a specific governmental act, legal principle and affected community, rather than assuming a popular decision is automatically constitutional.\n\nSource A, Maryland General Assembly Bill Search, provides the starting rule or historical context. Source B, Congressional Budget Office, adds another institutional perspective. These records must be read with their creators and dates in mind; the fact that an institution announced a goal does not prove the goal was achieved.\n\nA third source, Maryland Open Data, can help clarify the competing obligations, evidence or limits of the case. An informed conclusion should test stated intentions against official records and relevant outcomes, while recognizing that some sources represent officials more directly than ordinary residents.\n\nA reasonable counterargument may prioritize another constitutional value, public benefit or interpretation. The strongest recommendation considers that opposing claim, explains why some evidence is more persuasive and identifies what new information could change the decision."
+    }
+  }
+}
