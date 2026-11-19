@@ -91,3 +91,12 @@ High-school assessments are not required to keep the middle-school 27-point allo
 - 2025 Grades 6–7 Framework: https://msde.maryland.gov/media/17925
 - 2025 Middle School U.S. History Framework: https://msde.maryland.gov/media/17918
 - Maryland Social Studies Standards Index (Modern World History link): https://msde.maryland.gov/academics-0/curriculum-academic-standards/social-studies
+
+
+## Pilot expansion addendum — 2026-11-18
+- Grade 9.2 **Progressivism and Reform** also published at `lessons/curriculum/grade-9-united-states-history/unit-9-2-assessment/`, linked from the course directory. It reflects Maryland's first formal high school history unit on reform.
+- Four lesson topics covered: Progressive Movement, Investigative Journalism and Social Change, Women's Suffrage, Reforming Government and Industry.
+- Three traceable original primary records: Ida B. Wells-Barnett 1899 pamphlet (Library of Congress), Seventeenth Amendment (1913; National Archives), Nineteenth Amendment (1920; National Archives). Triangle Shirtwaist Factory history (NPS) is labeled a secondary account.
+- Includes six source-based reasoning items, document matching, inquiry/evidence judgment and an extended written historical argument with a post-completion four-paragraph model answer.
+- Grade 9.1 and 9.2 each have pilot pages and link-backed sources. Neither pilot has received deployed browser or independent classroom evaluation.
+- Grade 10–12 lesson samples remain 'planned inquiry' shells rather than completed historical readings. Summative tests should not be generated from those previews without developing lessons first.
