@@ -69,3 +69,13 @@ After following links from the live History Hub, the public Grade 6, Grade 7 and
 - Grade 12 Social Studies Electives: 5 units, 20 lesson links. Distinct assessment blueprints by subject, research depth and performance task.
 - Total high school inventory presently indexed: **36 units, 136 lessons**.
 - Preserve the core approved visual identity but increase document complexity, source corroboration, argument/counterargument, DBQs, civic simulations, and original research. Do not blindly duplicate the 27-point middle-school quiz for high school.
+
+
+## Release-candidate improvement addendum — 2026-11-18
+- Replaced all **36 Grade 6 multiple-choice questions** with new source-referenced reasoning prompts tied to the already-authored unit passages and maintained six one-point questions per unit.
+- Replaced the trivial unsupported evidence claim in all 20 units with contextual, historically specific claims requiring closer source evaluation.
+- Added seven source registers of directly verified National Archives primary records to Grade 8 Units 8.2–8.8 and updated the shared renderer to present archive links with creator/date/type/limitation metadata. Grade 8.1 and Grade 6/7 unit-by-unit original-source integration remain incomplete.
+- Published and linked a **Grade 8 Industrial and Urban America (1877–1890) bridge source lab** using the National Archives Sherman Act and Chinese Exclusion Act and the 1890 Library of Congress population map. This is supplemental source practice, not a complete replacement for a standards-aligned Bridge Unit.
+- Added a dependency-free repository QA script at `tests/assessment-data.test.cjs`; it can be run with `node tests/assessment-data.test.cjs` in a GitHub checkout. The connector-based audit checked structural rules, but the script was not executed as a hosted CI workflow.
+- Refreshed all Grade 6–8 assessment HTML files to use the latest shared script version m3.
+- Classroom-ready signoff is **still withheld** until the remaining source, item-quality, exact indicators/assessment limits, validated teacher scoring and real browser checks are complete.
