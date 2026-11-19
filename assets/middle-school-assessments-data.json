@@ -172,6 +172,16 @@
         true,
         false,
         true
+      ],
+      "verifiedArchiveRecords": [
+        {
+          "title": "Map Scale",
+          "creator": "National Geographic Education",
+          "date": "2020s",
+          "type": "Secondary reference: geographic methods",
+          "url": "https://education.nationalgeographic.org/resource/map-scale/",
+          "limitation": "Check the original object, date, cultural context, and collection metadata. Secondary references and teaching materials are not primary-source quotations. This is supplementary investigation material."
+        }
       ]
     },
     "6.2": {
@@ -345,6 +355,16 @@
         false,
         true,
         true
+      ],
+      "verifiedArchiveRecords": [
+        {
+          "title": "Neolithic and Early Agriculture Chronology",
+          "creator": "Metropolitan Museum of Art",
+          "date": "Ancient evidence, modern catalog",
+          "type": "Museum chronology and collection context",
+          "url": "https://www.metmuseum.org/it/toah/ht/02/nc",
+          "limitation": "Check the original object, date, cultural context, and collection metadata. Secondary references and teaching materials are not primary-source quotations. This is supplementary investigation material."
+        }
       ]
     },
     "6.3": {
@@ -532,6 +552,16 @@
         true,
         true,
         false
+      ],
+      "verifiedArchiveRecords": [
+        {
+          "title": "Inscribed Oracle Bone",
+          "creator": "Smithsonian National Museum of Asian Art",
+          "date": "Late Shang dynasty",
+          "type": "Primary artifact: inscribed bone",
+          "url": "https://www.si.edu/object/oracle-bones-fragments-inscribed%3Afsg_FSC-O-1a-e",
+          "limitation": "Check the original object, date, cultural context, and collection metadata. Secondary references and teaching materials are not primary-source quotations. This is supplementary investigation material."
+        }
       ]
     },
     "6.4": {
@@ -719,6 +749,16 @@
         true,
         false,
         true
+      ],
+      "verifiedArchiveRecords": [
+        {
+          "title": "Hammurabi Law Stele Fragment",
+          "creator": "Louvre Collections",
+          "date": "Old Babylonian period",
+          "type": "Primary artifact: legal inscription",
+          "url": "https://collections.louvre.fr/en/ark%3A/53355/cl010208241",
+          "limitation": "Check the original object, date, cultural context, and collection metadata. Secondary references and teaching materials are not primary-source quotations. This is supplementary investigation material."
+        }
       ]
     },
     "6.5": {
@@ -892,6 +932,16 @@
         false,
         true,
         true
+      ],
+      "verifiedArchiveRecords": [
+        {
+          "title": "Silk Roads Historic Route Network",
+          "creator": "UNESCO World Heritage Centre",
+          "date": "Ancient networks, cataloged 2014",
+          "type": "Secondary archaeological landscape catalog",
+          "url": "https://whc.unesco.org/en/list/1442",
+          "limitation": "Check the original object, date, cultural context, and collection metadata. Secondary references and teaching materials are not primary-source quotations. This is supplementary investigation material."
+        }
       ]
     },
     "6.6": {
@@ -1065,6 +1115,16 @@
         true,
         true,
         false
+      ],
+      "verifiedArchiveRecords": [
+        {
+          "title": "Cultural Landscapes",
+          "creator": "UNESCO World Heritage Centre",
+          "date": "Multiperiod, modern catalog",
+          "type": "Secondary heritage reference",
+          "url": "https://whc.unesco.org/en/culturallandscape",
+          "limitation": "Check the original object, date, cultural context, and collection metadata. Secondary references and teaching materials are not primary-source quotations. This is supplementary investigation material."
+        }
       ]
     },
     "7.1": {
@@ -1238,6 +1298,16 @@
         false,
         true,
         true
+      ],
+      "verifiedArchiveRecords": [
+        {
+          "title": "Geography Standard 5 — Regions",
+          "creator": "National Geographic Education",
+          "date": "2020s",
+          "type": "Secondary geographic criteria reference",
+          "url": "https://education.nationalgeographic.org/resource/geography-standard-5/",
+          "limitation": "Check the original object, date, cultural context, and collection metadata. Secondary references and teaching materials are not primary-source quotations. This is supplementary investigation material."
+        }
       ]
     },
     "7.2": {
@@ -1411,6 +1481,16 @@
         true,
         true,
         false
+      ],
+      "verifiedArchiveRecords": [
+        {
+          "title": "Teaching about Refugees: Primary Testimony Resources",
+          "creator": "UNHCR",
+          "date": "Modern conflicts; modern compilation",
+          "type": "Mixed: testimony and teaching resources",
+          "url": "https://www.unhcr.org/us/what-we-do/build-better-futures/education/teaching-about-refugees",
+          "limitation": "Check the original object, date, cultural context, and collection metadata. Secondary references and teaching materials are not primary-source quotations. This is supplementary investigation material."
+        }
       ]
     },
     "7.3": {
@@ -1598,6 +1678,16 @@
         true,
         false,
         true
+      ],
+      "verifiedArchiveRecords": [
+        {
+          "title": "Silk Roads Heritage Corridor",
+          "creator": "UNESCO World Heritage Centre",
+          "date": "Ancient networks, cataloged 2014",
+          "type": "Secondary research from historical sites",
+          "url": "https://whc.unesco.org/en/list/1442",
+          "limitation": "Check the original object, date, cultural context, and collection metadata. Secondary references and teaching materials are not primary-source quotations. This is supplementary investigation material."
+        }
       ]
     },
     "7.4": {
@@ -1771,6 +1861,16 @@
         false,
         true,
         true
+      ],
+      "verifiedArchiveRecords": [
+        {
+          "title": "Geography Standard 5 — Boundaries and Regions",
+          "creator": "National Geographic Education",
+          "date": "2020s",
+          "type": "Secondary framework for geographic comparisons",
+          "url": "https://education.nationalgeographic.org/resource/geography-standard-5/",
+          "limitation": "Check the original object, date, cultural context, and collection metadata. Secondary references and teaching materials are not primary-source quotations. This is supplementary investigation material."
+        }
       ]
     },
     "7.5": {
@@ -1944,6 +2044,16 @@
         true,
         true,
         false
+      ],
+      "verifiedArchiveRecords": [
+        {
+          "title": "Harlem Renaissance Primary-Source Set (comparative culture methodology)",
+          "creator": "Library of Congress",
+          "date": "1920s–1930s",
+          "type": "Primary-source collection: cultural expression example",
+          "url": "https://www.loc.gov/classroom-materials/harlem-renaissance/",
+          "limitation": "Check the original object, date, cultural context, and collection metadata. Secondary references and teaching materials are not primary-source quotations. This is supplementary investigation material."
+        }
       ]
     },
     "7.6": {
@@ -2117,6 +2227,16 @@
         true,
         false,
         true
+      ],
+      "verifiedArchiveRecords": [
+        {
+          "title": "Cultural Landscapes",
+          "creator": "UNESCO World Heritage Centre",
+          "date": "Multiperiod, modern catalog",
+          "type": "Secondary heritage research",
+          "url": "https://whc.unesco.org/en/culturallandscape",
+          "limitation": "Check the original object, date, cultural context, and collection metadata. Secondary references and teaching materials are not primary-source quotations. This is supplementary investigation material."
+        }
       ]
     },
     "8.1": {
