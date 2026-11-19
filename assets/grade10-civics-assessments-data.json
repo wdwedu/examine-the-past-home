@@ -35,9 +35,10 @@
           "url": "https://www.archives.gov/founding-docs/declaration-transcript",
           "sourceUrl": "https://www.archives.gov/founding-docs/declaration-transcript",
           "sourceType": "Primary source: Primary",
-          "excerpt": "The Declaration argues that governments derive just powers from consent; it announces political ideals and independence, not an enforceable federal constitution. Locke's social-contract arguments challenged unlimited monarchy by asking why political authority is legitimate. Natural-rights reasoning holds that certain rights do not depend on a ruler's gift, while consent of the governed requires government to answer to the people. Enlightenment authors disagreed about representation, property, religion and who qualified as a political member. Their arguments should be studied in their historical context, including exclusions they did not remedy.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "The Declaration argues that governments derive just powers from consent; it announces political ideals and independence, not an enforceable federal constitution.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "Locke's social-contract arguments challenged unlimited monarchy by asking why political authority is legitimate. Natural-rights reasoning holds that certain rights do not depend on a ruler's gift, while consent of the governed requires government to answer to the people. Enlightenment authors disagreed about representation, property, religion and who qualified as a political member. Their arguments should be studied in their historical context, including exclusions they did not remedy."
         },
         {
           "label": "Document B · Constitution",
@@ -47,9 +48,10 @@
           "url": "https://www.archives.gov/founding-docs/constitution-transcript",
           "sourceUrl": "https://www.archives.gov/founding-docs/constitution-transcript",
           "sourceType": "Primary source: Primary",
-          "excerpt": "The Preamble and articles establish a proposed structure of government. Compare the document's promises with rules about representation and ratification. The Declaration of Independence was adopted by the Second Continental Congress in 1776. It states political principles concerning equality, rights, consent and the right to alter a destructive government. Its list of grievances makes an argument against British rule and addresses audiences at home and abroad. Unlike the Constitution, it did not create the operating branches of the later federal government.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "The Preamble and articles establish a proposed structure of government. Compare the document's promises with rules about representation and ratification.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "The Declaration of Independence was adopted by the Second Continental Congress in 1776. It states political principles concerning equality, rights, consent and the right to alter a destructive government. Its list of grievances makes an argument against British rule and addresses audiences at home and abroad. Unlike the Constitution, it did not create the operating branches of the later federal government."
         },
         {
           "label": "Document C · Maryland Government Framework",
@@ -59,9 +61,10 @@
           "url": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
           "sourceUrl": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
           "sourceType": "Secondary",
-          "excerpt": "The state framework provides inquiry and assessment expectations, not an original founding-period document. Popular sovereignty places ultimate political authority in the people. Republican government uses representatives selected through established political rules, while constitutionalism limits the powers of public officials. The rule of law requires government action to follow legal constraints; it does not mean every law or decision is automatically fair. These principles can reinforce one another or come into tension.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "The state framework provides inquiry and assessment expectations, not an original founding-period document.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "Popular sovereignty places ultimate political authority in the people. Republican government uses representatives selected through established political rules, while constitutionalism limits the powers of public officials. The rule of law requires government action to follow legal constraints; it does not mean every law or decision is automatically fair. These principles can reinforce one another or come into tension."
         }
       ],
       "questions": [
@@ -133,15 +136,15 @@
       ],
       "matchingPrompts": [
         {
-          "prompt": "Which reference provides evidence for examining Declaration of Independence and its legal or historical context?",
+          "prompt": "Which founding document argues that political independence is justified by violations of rights and consent?",
           "answer": 0
         },
         {
-          "prompt": "Which reference provides evidence for examining Constitution and its legal or historical context?",
+          "prompt": "Which founding document establishes the later federal government's constitutional structure?",
           "answer": 1
         },
         {
-          "prompt": "Which reference provides evidence for examining Maryland Government Framework and its legal or historical context?",
+          "prompt": "Which source describes the state's current inquiry and assessment expectations rather than eighteenth-century ideas?",
           "answer": 2
         }
       ],
@@ -213,9 +216,10 @@
           "url": "https://www.archives.gov/founding-docs/constitution-transcript",
           "sourceUrl": "https://www.archives.gov/founding-docs/constitution-transcript",
           "sourceType": "Primary source: Primary",
-          "excerpt": "The articles distribute legislative, executive and judicial powers; constitutional powers and actual institutional influence should be examined separately. Delegates met in Philadelphia in 1787 after difficulties under the Articles of Confederation. They debated representation, federal powers, slavery and the balance between national and state authority. The Connecticut Compromise helped create different representation rules for the House and Senate, while the Three-Fifths Clause strengthened slaveholding states' representation without granting enslaved people political rights.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "The articles distribute legislative, executive and judicial powers; constitutional powers and actual institutional influence should be examined separately.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "Delegates met in Philadelphia in 1787 after difficulties under the Articles of Confederation. They debated representation, federal powers, slavery and the balance between national and state authority. The Connecticut Compromise helped create different representation rules for the House and Senate, while the Three-Fifths Clause strengthened slaveholding states' representation without granting enslaved people political rights."
         },
         {
           "label": "Document B · Federalist No. 51",
@@ -225,9 +229,10 @@
           "url": "https://guides.loc.gov/federalist-papers/text-51-60",
           "sourceUrl": "https://guides.loc.gov/federalist-papers/text-51-60",
           "sourceType": "Primary source: Primary",
-          "excerpt": "Madison defended checks among branches; this is an argument for ratification, not proof that checks always work as designed. Federalism divides responsibilities between national and state governments, while separation of powers distributes federal authority among legislative, executive and judicial branches. These are different arrangements. Congress legislates within constitutional authority; the president executes federal law; federal courts resolve cases within their jurisdiction.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "Madison defended checks among branches; this is an argument for ratification, not proof that checks always work as designed.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "Federalism divides responsibilities between national and state governments, while separation of powers distributes federal authority among legislative, executive and judicial branches. These are different arrangements. Congress legislates within constitutional authority; the president executes federal law; federal courts resolve cases within their jurisdiction."
         },
         {
           "label": "Document C · Bill of Rights",
@@ -237,9 +242,10 @@
           "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
           "sourceUrl": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
           "sourceType": "Primary source: Primary",
-          "excerpt": "The first ten amendments set protections and constraints on federal power; later amendments and case law shaped their application. Checks and balances give institutions ways to limit other institutions while performing their own assigned responsibilities. The president may veto legislation; Congress may override a veto by the required supermajority; the Senate exercises advice-and-consent powers for certain appointments and treaties. Courts may review governmental actions in cases properly before them.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "The first ten amendments set protections and constraints on federal power; later amendments and case law shaped their application.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "Checks and balances give institutions ways to limit other institutions while performing their own assigned responsibilities. The president may veto legislation; Congress may override a veto by the required supermajority; the Senate exercises advice-and-consent powers for certain appointments and treaties. Courts may review governmental actions in cases properly before them."
         }
       ],
       "questions": [
@@ -311,15 +317,15 @@
       ],
       "matchingPrompts": [
         {
-          "prompt": "Which reference provides evidence for examining Constitution — Articles I–III and its legal or historical context?",
+          "prompt": "Which original text assigns legislative, executive and judicial authority?",
           "answer": 0
         },
         {
-          "prompt": "Which reference provides evidence for examining Federalist No. 51 and its legal or historical context?",
+          "prompt": "Which essay defends institutional checks against concentrations of power during the ratification debate?",
           "answer": 1
         },
         {
-          "prompt": "Which reference provides evidence for examining Bill of Rights and its legal or historical context?",
+          "prompt": "Which adopted amendments provide early explicit protections against federal governmental action?",
           "answer": 2
         }
       ],
@@ -385,9 +391,10 @@
           "url": "https://www.archives.gov/founding-docs/constitution-transcript",
           "sourceUrl": "https://www.archives.gov/founding-docs/constitution-transcript",
           "sourceType": "Primary source: Primary",
-          "excerpt": "Article I gives legislative power to a bicameral Congress; a law's passage requires multiple institutional stages. Congress has two chambers: the House of Representatives, apportioned among states by population, and the Senate, with two senators per state. House members have two-year terms; senators have six-year staggered terms. Committees specialize in subjects, hold hearings, draft bills and conduct oversight, but they do not enact laws on their own.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "Article I gives legislative power to a bicameral Congress; a law's passage requires multiple institutional stages.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "Congress has two chambers: the House of Representatives, apportioned among states by population, and the Senate, with two senators per state. House members have two-year terms; senators have six-year staggered terms. Committees specialize in subjects, hold hearings, draft bills and conduct oversight, but they do not enact laws on their own."
         },
         {
           "label": "Document B · How Our Laws Are Made",
@@ -397,9 +404,10 @@
           "url": "https://www.house.gov/the-house-explained/the-legislative-process",
           "sourceUrl": "https://www.house.gov/the-house-explained/the-legislative-process",
           "sourceType": "Secondary",
-          "excerpt": "The House explains committee, chamber, reconciliation and presentation procedures; a guide describes legal procedure but not why any specific bill passes. Most proposed federal laws are introduced as bills, referred for committee consideration and voted on by the House and Senate. Both chambers must generally agree to the same text before a bill is presented to the president. The president may sign or veto; a veto can be overridden by two-thirds of each chamber. Other constitutional outcomes include a bill becoming law without signature in defined circumstances and the pocket veto.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "The House explains committee, chamber, reconciliation and presentation procedures; a guide describes legal procedure but not why any specific bill passes.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "Most proposed federal laws are introduced as bills, referred for committee consideration and voted on by the House and Senate. Both chambers must generally agree to the same text before a bill is presented to the president. The president may sign or veto; a veto can be overridden by two-thirds of each chamber. Other constitutional outcomes include a bill becoming law without signature in defined circumstances and the pocket veto."
         },
         {
           "label": "Document C · Congressional Oversight",
@@ -409,9 +417,10 @@
           "url": "https://www.congress.gov/crs-products",
           "sourceUrl": "https://www.congress.gov/crs-products",
           "sourceType": "Secondary",
-          "excerpt": "Oversight can involve hearings, investigations and information demands. Congress's authority is subject to constitutional and statutory limits. Congress represents constituents through lawmaking, appropriations, oversight and casework. Committees may hold hearings and request information from executive agencies. Oversight investigates whether public programs follow law and use resources appropriately; it is not automatically evidence of misconduct.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "Oversight can involve hearings, investigations and information demands. Congress's authority is subject to constitutional and statutory limits.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "Congress represents constituents through lawmaking, appropriations, oversight and casework. Committees may hold hearings and request information from executive agencies. Oversight investigates whether public programs follow law and use resources appropriately; it is not automatically evidence of misconduct."
         }
       ],
       "questions": [
@@ -483,15 +492,15 @@
       ],
       "matchingPrompts": [
         {
-          "prompt": "Which reference provides evidence for examining Constitution Article I and its legal or historical context?",
+          "prompt": "Which original constitutional article gives Congress lawmaking powers?",
           "answer": 0
         },
         {
-          "prompt": "Which reference provides evidence for examining How Our Laws Are Made and its legal or historical context?",
+          "prompt": "Which official guide describes committee review, bicameral action and presidential presentation?",
           "answer": 1
         },
         {
-          "prompt": "Which reference provides evidence for examining Congressional Oversight and its legal or historical context?",
+          "prompt": "Which research collection explains the scope and limits of congressional investigations?",
           "answer": 2
         }
       ],
@@ -557,9 +566,10 @@
           "url": "https://www.archives.gov/founding-docs/constitution-transcript",
           "sourceUrl": "https://www.archives.gov/founding-docs/constitution-transcript",
           "sourceType": "Primary source: Primary",
-          "excerpt": "The Constitution specifies the presidency's executive role and powers including veto and commander-in-chief duties; statutory and judicial constraints also apply. Article II vests federal executive power in the presidency, including executing laws, certain appointment and treaty roles, veto powers described in Article I, and commander-in-chief duties. Congress controls legislation and appropriations; courts hear legal challenges in appropriate cases. The president does not create ordinary federal statutes alone.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "The Constitution specifies the presidency's executive role and powers including veto and commander-in-chief duties; statutory and judicial constraints also apply.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "Article II vests federal executive power in the presidency, including executing laws, certain appointment and treaty roles, veto powers described in Article I, and commander-in-chief duties. Congress controls legislation and appropriations; courts hear legal challenges in appropriate cases. The president does not create ordinary federal statutes alone."
         },
         {
           "label": "Document B · Federal Register: Executive Orders",
@@ -569,9 +579,10 @@
           "url": "https://www.federalregister.gov/presidential-documents/executive-orders",
           "sourceUrl": "https://www.federalregister.gov/presidential-documents/executive-orders",
           "sourceType": "Primary source: Primary collection",
-          "excerpt": "Executive orders are published presidential directives within asserted legal authority; they cannot override the Constitution or valid federal statutes. Cabinet departments and agencies implement programs established by law, carry out enforcement and provide public services. Congress authorizes agency responsibilities and funds operations. Agencies may issue rules under delegated authority through procedures established by law; they do not possess unlimited power simply because they belong to the executive branch.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "Executive orders are published presidential directives within asserted legal authority; they cannot override the Constitution or valid federal statutes.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "Cabinet departments and agencies implement programs established by law, carry out enforcement and provide public services. Congress authorizes agency responsibilities and funds operations. Agencies may issue rules under delegated authority through procedures established by law; they do not possess unlimited power simply because they belong to the executive branch."
         },
         {
           "label": "Document C · Executive Branch",
@@ -581,9 +592,10 @@
           "url": "https://www.usa.gov/branches-of-government",
           "sourceUrl": "https://www.usa.gov/branches-of-government",
           "sourceType": "Secondary",
-          "excerpt": "Federal executive agencies implement authorized programs; their rules and decisions remain subject to other governmental checks. An executive order directs federal executive operations under an asserted source of constitutional or statutory authority. Orders are recorded in the Federal Register; their legal reach depends on underlying powers and may be challenged in court. Orders cannot override the Constitution or repeal statutes passed by Congress.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "Federal executive agencies implement authorized programs; their rules and decisions remain subject to other governmental checks.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "An executive order directs federal executive operations under an asserted source of constitutional or statutory authority. Orders are recorded in the Federal Register; their legal reach depends on underlying powers and may be challenged in court. Orders cannot override the Constitution or repeal statutes passed by Congress."
         }
       ],
       "questions": [
@@ -655,15 +667,15 @@
       ],
       "matchingPrompts": [
         {
-          "prompt": "Which reference provides evidence for examining Constitution Article II and its legal or historical context?",
+          "prompt": "Which original text is the basis for analyzing the president's enumerated responsibilities?",
           "answer": 0
         },
         {
-          "prompt": "Which reference provides evidence for examining Federal Register: Executive Orders and its legal or historical context?",
+          "prompt": "Which official collection lets investigators compare dated presidential directives and their asserted authority?",
           "answer": 1
         },
         {
-          "prompt": "Which reference provides evidence for examining Executive Branch and its legal or historical context?",
+          "prompt": "Which government reference identifies the functions of executive agencies?",
           "answer": 2
         }
       ],
@@ -729,9 +741,10 @@
           "url": "https://www.archives.gov/founding-docs/constitution-transcript",
           "sourceUrl": "https://www.archives.gov/founding-docs/constitution-transcript",
           "sourceType": "Primary source: Primary",
-          "excerpt": "Article III creates the Supreme Court and authorizes a federal judiciary; Congress establishes and structures lower federal courts. The Constitution creates a Supreme Court and authorizes Congress to establish lower federal courts. Federal district courts typically conduct trials and develop case records; courts of appeals review legal issues and lower-court decisions; the Supreme Court has appellate and limited original jurisdiction.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "Article III creates the Supreme Court and authorizes a federal judiciary; Congress establishes and structures lower federal courts.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "The Constitution creates a Supreme Court and authorizes Congress to establish lower federal courts. Federal district courts typically conduct trials and develop case records; courts of appeals review legal issues and lower-court decisions; the Supreme Court has appellate and limited original jurisdiction."
         },
         {
           "label": "Document B · Marbury v. Madison",
@@ -741,9 +754,10 @@
           "url": "https://supreme.justia.com/cases/federal/us/5/137/",
           "sourceUrl": "https://supreme.justia.com/cases/federal/us/5/137/",
           "sourceType": "Primary source: Primary opinion",
-          "excerpt": "Chief Justice Marshall's opinion is a foundational articulation of judicial review; the decision has a particular dispute and procedural context. Judicial review is the power of courts, in cases properly before them, to evaluate whether governmental actions conflict with the Constitution. Marbury v. Madison (1803) famously articulated the Supreme Court's role in refusing to enforce unconstitutional federal law in the case before it.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "Chief Justice Marshall's opinion is a foundational articulation of judicial review; the decision has a particular dispute and procedural context.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "Judicial review is the power of courts, in cases properly before them, to evaluate whether governmental actions conflict with the Constitution. Marbury v. Madison (1803) famously articulated the Supreme Court's role in refusing to enforce unconstitutional federal law in the case before it."
         },
         {
           "label": "Document C · Supreme Court Landmarks",
@@ -753,9 +767,10 @@
           "url": "https://www.uscourts.gov/about-federal-courts/educational-resources/supreme-court-landmarks",
           "sourceUrl": "https://www.uscourts.gov/about-federal-courts/educational-resources/supreme-court-landmarks",
           "sourceType": "Secondary",
-          "excerpt": "Case examples illustrate how facts, questions, holdings and later interpretations differ. Landmark cases are best studied through facts, constitutional question, holding and consequences. Brown v. Board of Education (1954) rejected state-mandated racial segregation in public schools, while Tinker v. Des Moines (1969) addressed student political expression at school. These cases concern different rights and different contexts.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "Case examples illustrate how facts, questions, holdings and later interpretations differ.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "Landmark cases are best studied through facts, constitutional question, holding and consequences. Brown v. Board of Education (1954) rejected state-mandated racial segregation in public schools, while Tinker v. Des Moines (1969) addressed student political expression at school. These cases concern different rights and different contexts."
         }
       ],
       "questions": [
@@ -827,15 +842,15 @@
       ],
       "matchingPrompts": [
         {
-          "prompt": "Which reference provides evidence for examining Constitution Article III and its legal or historical context?",
+          "prompt": "Which constitutional text establishes the federal judicial branch?",
           "answer": 0
         },
         {
-          "prompt": "Which reference provides evidence for examining Marbury v. Madison and its legal or historical context?",
+          "prompt": "Which judicial opinion is used to explain judicial review of federal law?",
           "answer": 1
         },
         {
-          "prompt": "Which reference provides evidence for examining Supreme Court Landmarks and its legal or historical context?",
+          "prompt": "Which court-system resource summarizes how landmark rulings apply in distinct factual settings?",
           "answer": 2
         }
       ],
@@ -907,9 +922,10 @@
           "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
           "sourceUrl": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
           "sourceType": "Primary source: Primary",
-          "excerpt": "The First Amendment protects speech, religion, press, petition and peaceful assembly; most Bill of Rights protections also apply to states through later doctrine. The first ten amendments, ratified in 1791, protect important liberties and set limits on federal governmental power. They address religious practice, expression, criminal procedure, privacy-related protections, jury rights and other issues. Most of these protections later became applicable to states through interpretation of the Fourteenth Amendment.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "The First Amendment protects speech, religion, press, petition and peaceful assembly; most Bill of Rights protections also apply to states through later doctrine.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "The first ten amendments, ratified in 1791, protect important liberties and set limits on federal governmental power. They address religious practice, expression, criminal procedure, privacy-related protections, jury rights and other issues. Most of these protections later became applicable to states through interpretation of the Fourteenth Amendment."
         },
         {
           "label": "Document B · Fourteenth Amendment",
@@ -919,9 +935,10 @@
           "url": "https://www.archives.gov/milestone-documents/14th-amendment",
           "sourceUrl": "https://www.archives.gov/milestone-documents/14th-amendment",
           "sourceType": "Primary source: Primary",
-          "excerpt": "Due process and equal protection constrain state government; rights disputes often require examining government action and relevant case law. The First Amendment protects free speech and religious exercise while prohibiting governmental establishment of religion. These protections apply to governmental conduct, not every action by a private individual. Specific contexts, such as public schools or public employment, can involve legal standards shaped by court decisions.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "Due process and equal protection constrain state government; rights disputes often require examining government action and relevant case law.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "The First Amendment protects free speech and religious exercise while prohibiting governmental establishment of religion. These protections apply to governmental conduct, not every action by a private individual. Specific contexts, such as public schools or public employment, can involve legal standards shaped by court decisions."
         },
         {
           "label": "Document C · Tinker v. Des Moines",
@@ -931,9 +948,10 @@
           "url": "https://supreme.justia.com/cases/federal/us/393/503/",
           "sourceUrl": "https://supreme.justia.com/cases/federal/us/393/503/",
           "sourceType": "Primary source: Primary opinion",
-          "excerpt": "The Court protected student expression in a particular public-school context; later student-speech cases and school circumstances must be distinguished. The Fifth and Fourteenth Amendments contain due-process guarantees, while the Fourteenth Amendment also prohibits states from denying equal protection of the laws. Due process concerns fair legal procedures and, in particular contexts, substantive limits; equal protection concerns government's unequal treatment under constitutional standards.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "The Court protected student expression in a particular public-school context; later student-speech cases and school circumstances must be distinguished.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "The Fifth and Fourteenth Amendments contain due-process guarantees, while the Fourteenth Amendment also prohibits states from denying equal protection of the laws. Due process concerns fair legal procedures and, in particular contexts, substantive limits; equal protection concerns government's unequal treatment under constitutional standards."
         }
       ],
       "questions": [
@@ -1005,15 +1023,15 @@
       ],
       "matchingPrompts": [
         {
-          "prompt": "Which reference provides evidence for examining Bill of Rights and its legal or historical context?",
+          "prompt": "Which ratified amendments protect expression and other liberties from federal encroachment?",
           "answer": 0
         },
         {
-          "prompt": "Which reference provides evidence for examining Fourteenth Amendment and its legal or historical context?",
+          "prompt": "Which amendment directly provides equal protection and due process constraints on state government?",
           "answer": 1
         },
         {
-          "prompt": "Which reference provides evidence for examining Tinker v. Des Moines and its legal or historical context?",
+          "prompt": "Which Supreme Court opinion concerns student political expression in a public-school setting?",
           "answer": 2
         }
       ],
@@ -1085,9 +1103,10 @@
           "url": "https://www.archives.gov/founding-docs/constitution-transcript",
           "sourceUrl": "https://www.archives.gov/founding-docs/constitution-transcript",
           "sourceType": "Primary source: Primary",
-          "excerpt": "Presidential selection uses the Electoral College; state administration, federal statutes and constitutional amendments affect procedures. U.S. elections take place under overlapping federal, state and local rules. Voters choose members of Congress directly; presidential selection uses state-administered elections for electors under constitutional and legal rules. Eligibility, voter registration, polling and ballot procedures vary by jurisdiction and can change with law or court decisions.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "Presidential selection uses the Electoral College; state administration, federal statutes and constitutional amendments affect procedures.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "U.S. elections take place under overlapping federal, state and local rules. Voters choose members of Congress directly; presidential selection uses state-administered elections for electors under constitutional and legal rules. Eligibility, voter registration, polling and ballot procedures vary by jurisdiction and can change with law or court decisions."
         },
         {
           "label": "Document B · Voting Rights Act",
@@ -1097,9 +1116,10 @@
           "url": "https://www.archives.gov/milestone-documents/voting-rights-act",
           "sourceUrl": "https://www.archives.gov/milestone-documents/voting-rights-act",
           "sourceType": "Primary source: Primary",
-          "excerpt": "Federal voting-rights protections responded to discrimination; effects and contemporary law require dated evidence. Political parties organize candidates, campaign messages and legislative coalitions. Interest groups seek to influence policy through advocacy, education, lobbying and sometimes election-related activities. Parties and groups are not branches of government, and their internal priorities may change over time.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "Federal voting-rights protections responded to discrimination; effects and contemporary law require dated evidence.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "Political parties organize candidates, campaign messages and legislative coalitions. Interest groups seek to influence policy through advocacy, education, lobbying and sometimes election-related activities. Parties and groups are not branches of government, and their internal priorities may change over time."
         },
         {
           "label": "Document C · Federal Election Commission",
@@ -1109,9 +1129,10 @@
           "url": "https://www.fec.gov/introduction-campaign-finance/",
           "sourceUrl": "https://www.fec.gov/introduction-campaign-finance/",
           "sourceType": "Secondary",
-          "excerpt": "Campaign finance disclosures explain some funding; they do not reveal every form of influence or guarantee impartial information. Political information appears in reporting, official records, advocacy, advertisements, satire and personal posts. Different genres have different purposes. A headline can summarize facts accurately or omit essential context; a viral image may be authentic yet miscaptioned.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "Campaign finance disclosures explain some funding; they do not reveal every form of influence or guarantee impartial information.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "Political information appears in reporting, official records, advocacy, advertisements, satire and personal posts. Different genres have different purposes. A headline can summarize facts accurately or omit essential context; a viral image may be authentic yet miscaptioned."
         }
       ],
       "questions": [
@@ -1183,15 +1204,15 @@
       ],
       "matchingPrompts": [
         {
-          "prompt": "Which reference provides evidence for examining Constitution Article II / Twelfth Amendment and its legal or historical context?",
+          "prompt": "Which original constitutional text and amendment help explain presidential selection by electors?",
           "answer": 0
         },
         {
-          "prompt": "Which reference provides evidence for examining Voting Rights Act and its legal or historical context?",
+          "prompt": "Which federal statute provides a record of action against racial voting discrimination?",
           "answer": 1
         },
         {
-          "prompt": "Which reference provides evidence for examining Federal Election Commission and its legal or historical context?",
+          "prompt": "Which official agency's records help investigate campaign financing and disclosure?",
           "answer": 2
         }
       ],
@@ -1257,9 +1278,10 @@
           "url": "https://msa.maryland.gov/msa/mdmanual/43const/html/const.html",
           "sourceUrl": "https://msa.maryland.gov/msa/mdmanual/43const/html/const.html",
           "sourceType": "Primary source: Primary legal text",
-          "excerpt": "Maryland's constitution structures state government; its provisions and amendments should be read alongside current statutes. Maryland operates under its state constitution, which creates executive, legislative and judicial institutions. State laws cover many matters such as education and transportation, subject to federal constitutional constraints. A state bill is not the same as an enacted law; legislative records allow students to follow each stage.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "Maryland's constitution structures state government; its provisions and amendments should be read alongside current statutes.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "Maryland operates under its state constitution, which creates executive, legislative and judicial institutions. State laws cover many matters such as education and transportation, subject to federal constitutional constraints. A state bill is not the same as an enacted law; legislative records allow students to follow each stage."
         },
         {
           "label": "Document B · Maryland General Assembly",
@@ -1269,9 +1291,10 @@
           "url": "https://mgaleg.maryland.gov/mgawebsite/",
           "sourceUrl": "https://mgaleg.maryland.gov/mgawebsite/",
           "sourceType": "Primary source: Primary/secondary public records",
-          "excerpt": "Bills, hearings and voting records document state lawmaking; proposals must be distinguished from laws in force. Local governments carry out responsibilities permitted by state law. In Maryland, counties and municipalities have different structures and powers. Charles County manages various local services and public processes; municipalities within the county may have additional authority in their boundaries.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "Bills, hearings and voting records document state lawmaking; proposals must be distinguished from laws in force.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "Local governments carry out responsibilities permitted by state law. In Maryland, counties and municipalities have different structures and powers. Charles County manages various local services and public processes; municipalities within the county may have additional authority in their boundaries."
         },
         {
           "label": "Document C · Charles County Government",
@@ -1281,9 +1304,10 @@
           "url": "https://www.charlescountymd.gov/government",
           "sourceUrl": "https://www.charlescountymd.gov/government",
           "sourceType": "Secondary government information",
-          "excerpt": "County services, budgets and public participation provide local civic examples; verify current procedures with the official county site. Local policies concerning zoning, roads, water, parks and public safety can affect communities differently. A planning decision may benefit one neighborhood while shifting costs or traffic elsewhere. Residents can participate through hearings, written comments and local boards according to applicable rules.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "County services, budgets and public participation provide local civic examples; verify current procedures with the official county site.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "Local policies concerning zoning, roads, water, parks and public safety can affect communities differently. A planning decision may benefit one neighborhood while shifting costs or traffic elsewhere. Residents can participate through hearings, written comments and local boards according to applicable rules."
         }
       ],
       "questions": [
@@ -1355,15 +1379,15 @@
       ],
       "matchingPrompts": [
         {
-          "prompt": "Which reference provides evidence for examining Maryland Constitution and its legal or historical context?",
+          "prompt": "Which state constitutional document defines Maryland's basic government structure?",
           "answer": 0
         },
         {
-          "prompt": "Which reference provides evidence for examining Maryland General Assembly and its legal or historical context?",
+          "prompt": "Which official legislative website can verify whether a Maryland proposal actually passed?",
           "answer": 1
         },
         {
-          "prompt": "Which reference provides evidence for examining Charles County Government and its legal or historical context?",
+          "prompt": "Which local government resource describes Charles County services and participation?",
           "answer": 2
         }
       ],
@@ -1435,9 +1459,10 @@
           "url": "https://mgaleg.maryland.gov/mgawebsite/",
           "sourceUrl": "https://mgaleg.maryland.gov/mgawebsite/",
           "sourceType": "Primary source: Primary legislative records",
-          "excerpt": "Bills show proposals, sponsors, amendments, committee action and voting history; introduced bills are not automatically enacted. Public policy starts with a defined problem and competing ideas about goals, costs, authority and fairness. Proposals can be developed through legislation, regulations, executive decisions or local government processes depending on jurisdiction. Interested groups can disagree reasonably over values while relying on different evidence.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "Bills show proposals, sponsors, amendments, committee action and voting history; introduced bills are not automatically enacted.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "Public policy starts with a defined problem and competing ideas about goals, costs, authority and fairness. Proposals can be developed through legislation, regulations, executive decisions or local government processes depending on jurisdiction. Interested groups can disagree reasonably over values while relying on different evidence."
         },
         {
           "label": "Document B · Congressional Budget Office",
@@ -1447,9 +1472,10 @@
           "url": "https://www.cbo.gov/",
           "sourceUrl": "https://www.cbo.gov/",
           "sourceType": "Secondary policy analysis",
-          "excerpt": "Budget estimates examine assumptions and possible effects; projections carry uncertainty. Government budgets allocate limited revenues among competing public needs. Taxes are one revenue source, while expenditures fund programs, operations and capital projects. Students should distinguish an annual budget from long-term debt, and a proposal from an adopted appropriation. Different communities can experience costs and services unevenly.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "Budget estimates examine assumptions and possible effects; projections carry uncertainty.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "Government budgets allocate limited revenues among competing public needs. Taxes are one revenue source, while expenditures fund programs, operations and capital projects. Students should distinguish an annual budget from long-term debt, and a proposal from an adopted appropriation. Different communities can experience costs and services unevenly."
         },
         {
           "label": "Document C · Maryland Open Data",
@@ -1459,9 +1485,10 @@
           "url": "https://opendata.maryland.gov/",
           "sourceUrl": "https://opendata.maryland.gov/",
           "sourceType": "Government data collection",
-          "excerpt": "Official datasets can inform policy evaluation but require attention to units, dates, missing values and causal limits. Policy disputes often mix empirical claims with competing public values. One speaker may prioritize cost, another equity or liberty, while a third emphasizes effectiveness. Students should identify each argument's claim, supporting data, assumptions and possible unintended consequences.",
-          "limitation": "This is an instructional summary. The official document or interpretive reference must be examined in full and in context.",
-          "documentExcerpt": ""
+          "excerpt": "Official datasets can inform policy evaluation but require attention to units, dates, missing values and causal limits.",
+          "limitation": "This summary describes the linked source's scope; consult the document itself for exact language, date and purpose. Context readings are separate instructional interpretations.",
+          "documentExcerpt": "",
+          "lessonContext": "Policy disputes often mix empirical claims with competing public values. One speaker may prioritize cost, another equity or liberty, while a third emphasizes effectiveness. Students should identify each argument's claim, supporting data, assumptions and possible unintended consequences."
         }
       ],
       "questions": [
@@ -1533,15 +1560,15 @@
       ],
       "matchingPrompts": [
         {
-          "prompt": "Which reference provides evidence for examining Maryland General Assembly Bill Search and its legal or historical context?",
+          "prompt": "Which state record can distinguish a proposed bill from an enacted Maryland statute?",
           "answer": 0
         },
         {
-          "prompt": "Which reference provides evidence for examining Congressional Budget Office and its legal or historical context?",
+          "prompt": "Which nonpartisan federal analysis office publishes estimates and economic projections for Congress?",
           "answer": 1
         },
         {
-          "prompt": "Which reference provides evidence for examining Maryland Open Data and its legal or historical context?",
+          "prompt": "Which Maryland dataset portal could be used to examine public service measures over time?",
           "answer": 2
         }
       ],
