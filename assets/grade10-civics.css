@@ -1,0 +1,36 @@
+/* Civics & Government — Grade 10, navy/red on Examine the Past black */
+body.etp-civics,body.etp-civics-assessment{background:#02060d!important;color:#eef4ff;font-family:Georgia,"Times New Roman",serif}
+body.etp-civics .etp-layout,body.etp-civics-assessment .etp-layout{color:#f4f6fc}
+body.etp-civics .etp-course-banner,body.etp-civics .etp-hero,body.etp-civics .civic-hero,body.etp-civics-assessment .exam-head{background:linear-gradient(115deg,#071426,#102c56 52%,#52141f 100%)!important;border:1px solid #9d3a48!important;border-radius:18px}
+body.etp-civics .civic-section,body.etp-civics .etp-section,body.etp-civics .etp-unit-body{background:linear-gradient(125deg,#0a182a,#081021 62%,#170d15)!important;border:1px solid #365b86!important;border-radius:14px;padding:22px;margin:16px 0}
+body.etp-civics .etp-unit{border:1px solid #49668d!important;background:#071426!important}
+body.etp-civics .etp-unit>summary{background:linear-gradient(90deg,#102d56,#501c28)!important;border-left:4px solid #d23a47!important}
+body.etp-civics .etp-unit-lessons a,body.etp-civics .etp-lesson-link{background:#102644!important;border-color:#41608e!important;color:#eef5ff!important}
+body.etp-civics h1,body.etp-civics h2,body.etp-civics h3,body.etp-civics-assessment h1,body.etp-civics-assessment h2,body.etp-civics-assessment h3{color:#ffdf39}
+.civic-hero{padding:clamp(23px,5vw,46px);margin:18px 0;box-shadow:0 12px 32px #0007}
+.civic-hero h1{font-size:clamp(30px,4vw,46px);margin:10px 0}
+.civic-eyebrow{font-size:13px;letter-spacing:.13em;font-weight:bold;color:#ffecb2}
+.civic-stripe{height:5px;border-radius:99px;background:linear-gradient(90deg,#a42d41 0 33%,#f8f9ff 33% 67%,#204c8d 67%);margin:14px 0 22px}
+.civic-source-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,245px),1fr));gap:12px}
+.civic-source{background:#102a4b;border-left:4px solid #c23d50;border-radius:10px;padding:16px;min-width:0}
+.civic-source strong{color:#fff8be}.civic-source p{font-size:15px;line-height:1.6}.civic-source a,.civic-section a{color:#fff096}
+.civic-button{display:inline-block;background:#194f93;color:#fff!important;border:1px solid #9fc7ff;padding:11px 16px;border-radius:9px;font:700 15px Georgia,serif;text-decoration:none;cursor:pointer}
+.civic-button.red{background:#88293d;border-color:#eaa2a9}
+.civic-section{line-height:1.7}.civic-section p{font-size:17px}.civic-section h2{font-size:24px}
+.civic-answer label{display:block;border:1px solid #43618d;background:#0b2038;border-radius:8px;padding:12px;margin:8px 0;cursor:pointer}
+.civic-answer label:has(input:checked){outline:2px solid #f8e88b}
+.civic-answer input{margin-right:8px}.civic-feedback{color:#e8f6e0;font-weight:bold;margin:14px 0}
+.civic-nav{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
+.civic-compare{padding:17px;background:#301322;border:1px solid #b84752;border-radius:12px}
+.civic-compare label{display:block;margin:10px 0}.civic-compare textarea{display:block;width:100%;min-height:135px;padding:14px;box-sizing:border-box;border-radius:9px;background:#fffaf0;color:#121827;font:16px/1.6 Georgia,serif}
+body.etp-civics-assessment .exam-card{background:linear-gradient(135deg,#081b34,#0d1830)!important;border-color:#4c75a6!important}
+body.etp-civics-assessment #questions>.exam-card:nth-child(even){background:linear-gradient(135deg,#2d101c,#140a13)!important;border-color:#88475c!important}
+body.etp-civics-assessment .source-packet{background:#06172c;border-color:#335c8e}
+body.etp-civics-assessment .source-tile{background:#102746;border-color:#506d98}
+body.etp-civics-assessment .source-tile:nth-child(even){background:#351724;border-color:#86525c}
+body.etp-civics-assessment .exam-button{background:linear-gradient(110deg,#143c76,#8b2e42)!important;color:white!important}
+body.etp-civics-assessment #performance-rubric>summary{background:linear-gradient(110deg,#194d92,#102449)!important}
+body.etp-civics-assessment .exam-writing{min-height:340px;resize:vertical}
+body.etp-civics-assessment a{color:#ffe58e}
+@media(max-width:700px){.civic-source-list{grid-template-columns:1fr}.civic-section{padding:17px!important}body.etp-civics-assessment .exam-writing{min-height:280px}}
+@media(prefers-reduced-motion:reduce){body.etp-civics-assessment *{scroll-behavior:auto!important}}
