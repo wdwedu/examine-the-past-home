@@ -38,10 +38,17 @@ for(const [key,unit] of Object.entries(all)){
  }
  const mc=unit.questions.length,match=unit.matchingPrompts.length,inquiry=unit.inquirySteps.length,claims=unit.conclusionKey.length,writing=4*3;
  assert.equal(mc+match+inquiry+claims+writing,27,key+": total");
- const full=unit.questions.reduce((v,q,i)=>v+(q.answer===q.answer?1:0),0)+match+inquiry+claims+writing;
+ const selectedCorrect=unit.questions.map(q=>q.answer);
+ const selectedIncorrect=unit.questions.map(q=>(q.answer+1)%3);
+ const scoreMultipleChoice=selections=>selections.reduce((sum,choice,i)=>sum+(choice===unit.questions[i].answer?1:0),0);
+ assert.equal(scoreMultipleChoice(selectedCorrect),6,key+": full MC score");
+ assert.equal(scoreMultipleChoice(selectedIncorrect),0,key+": all-wrong MC score");
+ const full=scoreMultipleChoice(selectedCorrect)+match+inquiry+claims+writing;
  assert.equal(full,27,key+": max scoring case");
- const zero=0+0+0+0+0;
+ const zero=scoreMultipleChoice(selectedIncorrect);
  assert.equal(zero,0,key+": min scoring case");
+ if(unit.grade===6)assert.ok(new Set(unit.questions.map(q=>q.answer)).size>=2,key+": Grade 6 answer distribution");
+ assert.equal(new Set(unit.questions.map(q=>q.prompt)).size,6,key+": duplicate questions");
  if(unit.grade===9){
   assert.ok(unit.sources.filter(s=>s.sourceType.startsWith("Primary")).length>=3,"9.1 primary source count");
   assert.ok(unit.sources.every(s=>s.creator&&s.date&&s.url),"9.1 provenance");
