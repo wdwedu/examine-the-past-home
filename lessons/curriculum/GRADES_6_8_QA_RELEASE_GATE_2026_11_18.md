@@ -29,7 +29,7 @@ The final result combines 15 automatically scored points and 12 student-entered 
 Maryland's 2025 Grade 6–7 Framework integrates inquiry across thematic study; it is not simply a fixed ancient-world/World Cultures sequence. The 2025 Middle School U.S. History framework and released 8th-grade items set individual indicators and assessment limits. Current Grade 8 unit 8.1 includes colonial history before 1763 (background, not the core 1763–1890 tested window), while the Grade 8 catalog ends with Reconstruction and does not clearly supply the complete industrial/urban 1877–1890 bridge emphasized in Maryland's middle/high school frameworks. Complete a unit-to-indicator crosswalk and resolve any missing bridge content before calling it Maryland-assessment-aligned.
 
 **BLOCKER 5 — deployed interactive QA**
-The public assessment pages and JS could not be fetched through available web access; attempted public-site fetches did not work. The GitHub repository is verified, but the live deployment, print/copy functionality, focus handling, responsive layout, reset, scoring DOM interactions and keyboard behavior have not been exercised in a real browser. Run desktop/mobile E2E tests on the actual deployed pages before signing off.
+After following links from the live History Hub, the public Grade 6, Grade 7 and Grade 8 course directories were reachable, and three assessment HTML routes (6.1, 7.1 and 8.8) returned their expected page shells. Because the assessment content is injected by JavaScript, the available web viewer shows only "Loading historical thinking assessment…" and does not execute or verify the questions or interface. The public JS/data assets could not be retrieved directly through that viewer. Thus live HTML routes are **partially verified**, but print/copy, keyboard/focus, responsive layout, scoring, reset, sample gating and dynamic rendering have **not** been tested in a real interactive browser. Complete E2E tests before sign-off.
 
 ## Release decision
 - **Repository infrastructure:** PASS.
@@ -40,7 +40,8 @@ The public assessment pages and JS could not be fetched through available web ac
 - **Strong enough assessment rigor:** NOT YET.
 - **Teacher-verified proficiency reporting:** NOT YET.
 - **Exact 2025 Maryland indicator/assessment limit crosswalk:** NOT YET.
-- **Deployed browser/interaction validation:** NOT VERIFIED.
+- **Live page shells and course directory links:** PARTIALLY VERIFIED (sample Grade 6/7/8 routes).
+- **Deployed browser/interaction validation:** NOT VERIFIED (JavaScript not executed).
 - **Classroom-ready approval:** WITHHELD.
 
 ## Final acceptance work before release
