@@ -1180,15 +1180,14 @@
       ],
       "questions": [
         {
-          "lesson": "Understanding World Regions",
-          "prompt": "Which evidence could justify grouping a set of countries in a physical region?",
+          "prompt": "Two atlases disagree on whether countries belong in one physical region. What evidence would most strongly support one classification?",
           "choices": [
-            "The age of the mapmaker",
-            "A shared river basin or climate pattern",
-            "A claim that every resident speaks the same language"
+            "The mapmaker's preference for a familiar label",
+            "An explanation of shared climate or watershed criteria, with dated maps",
+            "The amount of territory shaded on the larger printed page"
           ],
           "answer": 1,
-          "explain": "From Understanding World Regions. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Regional definitions depend on evidence and stated criteria."
         },
         {
           "lesson": "Understanding World Regions",
@@ -1224,15 +1223,14 @@
           "explain": "From Geography, Identity, and Cultural Development. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "Comparing Cultural Landscapes",
-          "prompt": "Which evidence would help establish how a plaza's meaning changed?",
+          "prompt": "Source C describes landscapes whose meanings changed. Which evidence best evaluates that change?",
           "choices": [
-            "A single undated photograph",
-            "Maps and testimony from several periods",
-            "A modern building's paint color alone"
+            "Maps and accounts from different periods, including people who used the place",
+            "One aerial image taken today",
+            "A map legend that describes only current roads"
           ],
-          "answer": 1,
-          "explain": "From Comparing Cultural Landscapes. Revisit the lesson evidence and compare each claim with its context."
+          "answer": 0,
+          "explain": "Time-separated sources and community perspectives help trace changing meanings."
         },
         {
           "lesson": "Comparing Cultural Landscapes",
@@ -1363,15 +1361,14 @@
       ],
       "questions": [
         {
-          "lesson": "Why Do People Migrate?",
-          "prompt": "Which example describes a barrier to migration?",
+          "prompt": "A migration chart shows fewer arrivals in one year. What is an essential question before calling this a decline in people's desire to migrate?",
           "choices": [
-            "Legal restrictions and travel costs",
-            "Family connections in another city",
-            "A new opportunity for education"
+            "Which routes had the greatest physical distance?",
+            "Did migrants from every country use the same transportation?",
+            "Did laws, conflict, counting categories or transportation costs change?"
           ],
-          "answer": 0,
-          "explain": "From Why Do People Migrate?. Revisit the lesson evidence and compare each claim with its context."
+          "answer": 2,
+          "explain": "A statistical change may reflect multiple factors, not just motivation."
         },
         {
           "lesson": "Why Do People Migrate?",
@@ -1396,15 +1393,14 @@
           "explain": "From Historical Migration and Population Change. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "Historical Migration and Population Change",
-          "prompt": "What else might cause a city's census total to rise besides new arrivals?",
+          "prompt": "A city's population rises after new boundary lines are drawn. What is the most careful conclusion?",
           "choices": [
-            "Changes in boundaries or counting methods",
-            "An unchanged counting system only",
-            "A complete end to births"
+            "The population increase proves new immigrants arrived",
+            "Part of the change could reflect geographic reclassification rather than migration",
+            "The new boundary proves the city gained more births than deaths"
           ],
-          "answer": 0,
-          "explain": "From Historical Migration and Population Change. Revisit the lesson evidence and compare each claim with its context."
+          "answer": 1,
+          "explain": "Census boundaries affect comparisons of counts."
         },
         {
           "lesson": "Migration, Identity, and Cultural Exchange",
@@ -1571,15 +1567,14 @@
           "explain": "From The Silk Roads and Global Connections. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "The Silk Roads and Global Connections",
-          "prompt": "What is a limitation of a single object found far from its origin?",
+          "prompt": "An imported object is found at a Central Asian site. A student claims its maker traveled there. What is the strongest response?",
           "choices": [
-            "It does not reveal each step of its journey",
-            "Its material never changes",
-            "It proves a trader's full itinerary"
+            "The object indicates exchange, but its route and movement through intermediaries require corroboration",
+            "The object's presence proves the maker traveled directly",
+            "Its decorative style proves a conquest occurred at the site"
           ],
           "answer": 0,
-          "explain": "From The Silk Roads and Global Connections. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Goods can move without their makers."
         },
         {
           "lesson": "Indian Ocean Trade Networks",
@@ -1604,15 +1599,14 @@
           "explain": "From Indian Ocean Trade Networks. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "Trans-Saharan Trade and African Kingdoms",
-          "prompt": "Which event links Mali to wider Islamic and trade networks?",
+          "prompt": "Mansa Musa's pilgrimage drew attention to Mali. Which source set best places it within trade and religious networks?",
           "choices": [
-            "Mansa Musa's pilgrimage in 1324–1325",
-            "The Roman census",
-            "The first Atlantic steamship"
+            "Only a modern map of national borders",
+            "Only the title of a later biography",
+            "Dated accounts and evidence of Sahara trade routes, cities and Islamic scholarship"
           ],
-          "answer": 0,
-          "explain": "From Trans-Saharan Trade and African Kingdoms. Revisit the lesson evidence and compare each claim with its context."
+          "answer": 2,
+          "explain": "The pilgrimage should be studied with dated trade and cultural sources."
         },
         {
           "lesson": "Goods, Ideas, and the Growth of Cities",
@@ -1754,15 +1748,14 @@
           "explain": "From Comparing Political Systems. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "Comparing Political Systems",
-          "prompt": "What might a royal declaration fail to show?",
+          "prompt": "A royal declaration says a new law protects merchants. What can this document alone establish?",
           "choices": [
-            "The ruler's public claims",
-            "How ordinary residents experienced enforcement",
-            "The date in the inscription"
+            "All merchants experienced equal protection",
+            "What royal authorities claimed or ordered, but not necessarily its enforcement",
+            "Trade became free of tariffs across every region"
           ],
           "answer": 1,
-          "explain": "From Comparing Political Systems. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "An official declaration states goals rather than measuring outcomes."
         },
         {
           "lesson": "Resources, Trade, and Economic Decisions",
@@ -1776,15 +1769,14 @@
           "explain": "From Resources, Trade, and Economic Decisions. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "Resources, Trade, and Economic Decisions",
-          "prompt": "Why should a budget plan identify who receives water?",
+          "prompt": "Two communities build canals but allocate irrigation water differently. Which investigation best tests why?",
           "choices": [
-            "Irrigation has no maintenance costs",
-            "Access can be unequal even with new infrastructure",
-            "Money alone proves fairness"
+            "Compare water rules, land ownership, labor and affected households",
+            "Measure only the length of the longest canal",
+            "Assume identical technology produces identical political institutions"
           ],
-          "answer": 1,
-          "explain": "From Resources, Trade, and Economic Decisions. Revisit the lesson evidence and compare each claim with its context."
+          "answer": 0,
+          "explain": "Distribution depends on institutions and choices."
         },
         {
           "lesson": "How Geography Influences Power",
@@ -1926,15 +1918,14 @@
       ],
       "questions": [
         {
-          "lesson": "World Religions and Cultural Exchange",
-          "prompt": "Which historical method respects diversity within a tradition?",
+          "prompt": "Two communities share a religious tradition but practice it differently. Which historical explanation is strongest?",
           "choices": [
-            "Describing every believer as identical",
-            "Examining regional practices and historical contexts",
-            "Assuming one monument explains all interpretations"
+            "They must have separate unrelated religions",
+            "One community's practices are therefore incorrect",
+            "Regional histories, texts, and community decisions shaped diverse practices within a tradition"
           ],
-          "answer": 1,
-          "explain": "From World Religions and Cultural Exchange. Revisit the lesson evidence and compare each claim with its context."
+          "answer": 2,
+          "explain": "Respectful comparison accounts for internal diversity."
         },
         {
           "lesson": "World Religions and Cultural Exchange",
@@ -1959,15 +1950,14 @@
           "explain": "From Cultural Diffusion Across Regions. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "Cultural Diffusion Across Regions",
-          "prompt": "Why does a similar design in two places require more research?",
+          "prompt": "Similar artistic motifs appear at distant sites. Which research method best tests whether diffusion occurred?",
           "choices": [
-            "Similarities always prove war",
-            "Contact, imitation, and separate development are possible",
-            "Design never changes"
+            "Assume the older site instructed every later artist",
+            "Compare chronology, networks of contact, techniques and local meanings",
+            "Count the colors without locating or dating either object"
           ],
           "answer": 1,
-          "explain": "From Cultural Diffusion Across Regions. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Similarity alone does not prove cultural borrowing."
         },
         {
           "lesson": "Cooperation, Conflict, and Historical Change",
@@ -2131,15 +2121,14 @@
           "explain": "From How Geography Shapes Daily Life. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "Natural Resources and Human Development",
-          "prompt": "Why might residents near a mine not share its profits?",
+          "prompt": "A map marks mineral deposits but residents near one mine report poverty. What does the contrast suggest?",
           "choices": [
-            "There is no demand for minerals",
-            "Only mountains create wealth",
-            "Ownership, labor conditions, and policies shape benefits"
+            "Ownership, policy, labor and distribution must be investigated alongside deposits",
+            "The mineral map must be inaccurate",
+            "Every mine creates the same income for surrounding households"
           ],
-          "answer": 2,
-          "explain": "From Natural Resources and Human Development. Revisit the lesson evidence and compare each claim with its context."
+          "answer": 0,
+          "explain": "Resources do not determine equally shared benefits."
         },
         {
           "lesson": "Natural Resources and Human Development",
@@ -2153,15 +2142,14 @@
           "explain": "From Natural Resources and Human Development. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "Historical Responses to Environmental Challenges",
-          "prompt": "What unintended effect might a levee produce?",
+          "prompt": "A levee protects one settlement from flooding. Which new evidence would best examine possible unintended consequences?",
           "choices": [
-            "It makes rivers stop flowing",
-            "Flood risk may shift toward another area",
-            "All floods vanish forever"
+            "A photo of the levee's opening ceremony only",
+            "A count of the construction vehicles",
+            "Upstream and downstream flood records and residents' accounts across several years"
           ],
-          "answer": 1,
-          "explain": "From Historical Responses to Environmental Challenges. Revisit the lesson evidence and compare each claim with its context."
+          "answer": 2,
+          "explain": "Infrastructure can shift risk; longitudinal and spatial data are needed."
         },
         {
           "lesson": "Historical Responses to Environmental Challenges",
@@ -2292,15 +2280,14 @@
       ],
       "questions": [
         {
-          "lesson": "British Colonial Development",
-          "prompt": "What is a limitation of a seventeenth-century English colony charter?",
+          "prompt": "An English colonial charter claims land already inhabited by Indigenous nations. Which interpretation is supported?",
           "choices": [
-            "It reports English political claims but not Indigenous consent",
-            "It proves all Indigenous nations accepted British rule",
-            "It describes all African communities' views"
+            "The charter proves residents consented to the colonial government",
+            "It shows English political claims but cannot establish Indigenous consent or sovereignty",
+            "The absence of Indigenous names shows no communities lived there"
           ],
-          "answer": 0,
-          "explain": "From British Colonial Development. Revisit the lesson evidence and compare each claim with its context."
+          "answer": 1,
+          "explain": "A colonial claim does not independently establish Indigenous consent."
         },
         {
           "lesson": "British Colonial Development",
@@ -2336,15 +2323,14 @@
           "explain": "From Colonial Society and Political Institutions. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "Slavery and the Atlantic Economy",
-          "prompt": "What additional source helps challenge the viewpoint of an enslaver's ledger?",
+          "prompt": "A planter's ledger records enslaved workers as property. Which addition improves historians' understanding of lived experiences?",
           "choices": [
-            "An undated drawing of an empty port",
-            "An account by an enslaved person or evidence of community life",
-            "A second ledger from the same enslaver only"
+            "Testimony by enslaved people and evidence of family, resistance and community life",
+            "A second copy of the same ledger with a different binding",
+            "The plantation's acreage alone"
           ],
-          "answer": 1,
-          "explain": "From Slavery and the Atlantic Economy. Revisit the lesson evidence and compare each claim with its context."
+          "answer": 0,
+          "explain": "Ledgers reflect an enslaver's accounting viewpoint, not the whole human experience."
         },
         {
           "lesson": "Slavery and the Atlantic Economy",
@@ -2501,15 +2487,14 @@
           "explain": "From The Road to Revolution. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "The Declaration of Independence",
-          "prompt": "What is the central purpose of the Declaration's grievances?",
+          "prompt": "The Declaration lists grievances against the king. What does that suggest about the document's purpose?",
           "choices": [
-            "To abolish slavery throughout the new states",
-            "To justify separation by criticizing the king's conduct",
-            "To specify the three branches of the federal government"
+            "It was primarily a neutral census of colonial residents",
+            "It promised immediate voting rights to every resident",
+            "It sought to justify separation through arguments about British government conduct"
           ],
-          "answer": 1,
-          "explain": "From The Declaration of Independence. Revisit the lesson evidence and compare each claim with its context."
+          "answer": 2,
+          "explain": "The grievance list is part of a political argument."
         },
         {
           "lesson": "The Declaration of Independence",
@@ -2534,15 +2519,14 @@
           "explain": "From Revolutionary War Turning Points. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "Unfinished Promises of the Revolution",
-          "prompt": "Which source comparison would best test the revolution's equality claims?",
+          "prompt": "How should a historian evaluate the Declaration's equality ideals in 1776?",
           "choices": [
-            "An undated modern travel advertisement",
-            "A rights declaration paired with laws affecting enslaved or Indigenous people",
-            "Two patriotic paintings without dates"
+            "Treat the text as proof everyone exercised equal rights",
+            "Compare its language with contemporary laws and experiences of enslaved and Indigenous peoples",
+            "Ignore the document because its ideals were imperfectly applied"
           ],
           "answer": 1,
-          "explain": "From Unfinished Promises of the Revolution. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Source comparison reveals tensions between ideals and practice."
         }
       ],
       "matchingPrompts": [
@@ -2687,15 +2671,14 @@
           "explain": "From The Articles of Confederation. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "The Articles of Confederation",
-          "prompt": "Why was a request for state contributions unreliable?",
+          "prompt": "The Articles of Confederation asked states to contribute revenue. What makes this distinct from a federal taxing power?",
           "choices": [
-            "States were forbidden from collecting any taxes",
-            "The national government owned every farm",
-            "The Confederation lacked independent federal taxing power"
+            "The central government could request contributions but could not directly compel ordinary federal taxes",
+            "The Articles required states to pay equal amounts regardless of population",
+            "Congress prohibited every state from collecting taxes"
           ],
-          "answer": 2,
-          "explain": "From The Articles of Confederation. Revisit the lesson evidence and compare each claim with its context."
+          "answer": 0,
+          "explain": "Requests were structurally different from independently administered national taxes."
         },
         {
           "lesson": "The Constitutional Convention",
@@ -2709,15 +2692,14 @@
           "explain": "From The Constitutional Convention. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "The Constitutional Convention",
-          "prompt": "What was a major injustice of the Three-Fifths Clause?",
+          "prompt": "The Three-Fifths Clause counted enslaved people for representation without granting political rights. Which interpretation is supported?",
           "choices": [
-            "It immediately prohibited slavery",
-            "It increased slaveholding states' political representation without protecting enslaved people's rights",
-            "It required enslaved people to vote"
+            "It ended disputes over representation in every later Congress",
+            "It offered equal voting rights to enslaved residents",
+            "It increased representation for slaveholding states while preserving severe exclusions"
           ],
-          "answer": 1,
-          "explain": "From The Constitutional Convention. Revisit the lesson evidence and compare each claim with its context."
+          "answer": 2,
+          "explain": "Representation was increased without enfranchisement."
         },
         {
           "lesson": "Federalists and Anti-Federalists",
@@ -2895,15 +2877,14 @@
           "explain": "From Washington's Presidency. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "Jefferson and the Louisiana Purchase",
-          "prompt": "Why should the Louisiana Purchase not be described as buying vacant land?",
+          "prompt": "An 1803 treaty records a U.S. purchase from France. What evidence is missing if someone claims all inhabitants agreed?",
           "choices": [
-            "Every nation had signed the same purchase treaty",
-            "Indigenous nations already lived and governed within the claimed region",
-            "No rivers or settlements existed there"
+            "A map of New Orleans alone",
+            "Records and perspectives from Indigenous nations living within the claimed territory",
+            "A congressional description of the purchase's size"
           ],
           "answer": 1,
-          "explain": "From Jefferson and the Louisiana Purchase. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Treaty signatories did not represent every Indigenous sovereign nation."
         },
         {
           "lesson": "Jefferson and the Louisiana Purchase",
@@ -2928,15 +2909,14 @@
           "explain": "From The War of 1812. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "The Development of American Political Parties",
-          "prompt": "Why is a partisan newspaper not a neutral record by default?",
+          "prompt": "A party newspaper praises one candidate while criticizing another. What should a historian examine before treating it as neutral evidence?",
           "choices": [
-            "It could not have been printed before 1900",
-            "Its author sought to persuade readers toward a political position",
-            "It always contained no facts"
+            "Its publisher, intended audience, political purpose and competing reporting",
+            "Only whether its paper was printed in black ink",
+            "Whether the article contained the candidate's full name"
           ],
-          "answer": 1,
-          "explain": "From The Development of American Political Parties. Revisit the lesson evidence and compare each claim with its context."
+          "answer": 0,
+          "explain": "Political publications are historically valuable when sourced and contextualized."
         }
       ],
       "matchingPrompts": [
@@ -3092,15 +3072,14 @@
           "explain": "From Manifest Destiny and Territorial Expansion. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "Indian Removal and Indigenous Resistance",
-          "prompt": "Which Cherokee response challenged removal through U.S. legal institutions?",
+          "prompt": "Cherokee leaders brought legal challenges to U.S. removal policies. What does this demonstrate?",
           "choices": [
-            "Support for the 1863 Emancipation Proclamation",
-            "Legal action culminating in Worcester v. Georgia",
-            "Ratification of the Treaty of Paris in 1783"
+            "Every court decision was fully enforced",
+            "Removal took place without any political or legal resistance",
+            "Indigenous nations defended sovereignty using legal and political strategies"
           ],
-          "answer": 1,
-          "explain": "From Indian Removal and Indigenous Resistance. Revisit the lesson evidence and compare each claim with its context."
+          "answer": 2,
+          "explain": "Court cases show resistance, not automatic enforcement of favorable decisions."
         },
         {
           "lesson": "Indian Removal and Indigenous Resistance",
@@ -3125,15 +3104,14 @@
           "explain": "From Industrialization and Social Reform. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "Women's Rights and Antebellum Reform",
-          "prompt": "Why should historians investigate Black women's reform activity?",
+          "prompt": "A nineteenth-century convention record includes few Black women, although they organized for reform. What conclusion is most appropriate?",
           "choices": [
-            "Reform movements never disagreed about race",
-            "Major convention records may leave important contributors and perspectives out",
-            "Black women were legally barred from speaking anywhere"
+            "The surviving convention record proves they did not participate",
+            "The source may exclude contributors and must be read alongside other organizing records",
+            "The convention record can tell us everything about the movement"
           ],
           "answer": 1,
-          "explain": "From Women's Rights and Antebellum Reform. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Archival representation may differ from actual participation."
         }
       ],
       "matchingPrompts": [
@@ -3278,15 +3256,14 @@
           "explain": "From The Expansion of Slavery. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "The Expansion of Slavery",
-          "prompt": "Why can a rising cotton-export chart be misleading alone?",
+          "prompt": "A chart shows cotton exports rising in the 1840s. What is a major limitation if it is used to describe slavery?",
           "choices": [
-            "It proves all workers consented",
-            "It records every enslaved person's words",
-            "It does not reveal coercion or human well-being"
+            "It measures commercial activity but not coercion, family separation or the well-being of enslaved people",
+            "It directly records all enslaved workers' wishes",
+            "It proves mechanization eliminated forced labor"
           ],
-          "answer": 2,
-          "explain": "From The Expansion of Slavery. Revisit the lesson evidence and compare each claim with its context."
+          "answer": 0,
+          "explain": "Economic output does not describe lived human experiences."
         },
         {
           "lesson": "Abolitionism and Resistance",
@@ -3322,15 +3299,14 @@
           "explain": "From The Compromise of 1850 and Kansas-Nebraska Act. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "Why Did the United States Divide?",
-          "prompt": "Why prioritize contemporary secession declarations in explaining secession?",
+          "prompt": "A secession convention publicly justifies leaving the Union. How should its declaration be used?",
           "choices": [
-            "They are modern secondary interpretations",
-            "They reveal motives leaders publicly stated at the time",
-            "They prove every resident agreed with secession"
+            "As proof every resident agreed with the decision",
+            "As an unchanging description of every cause of the war",
+            "As evidence of leaders' stated motives, compared with other sources and actions"
           ],
-          "answer": 1,
-          "explain": "From Why Did the United States Divide?. Revisit the lesson evidence and compare each claim with its context."
+          "answer": 2,
+          "explain": "Public declarations provide primary evidence of arguments, not unanimity."
         }
       ],
       "matchingPrompts": [
@@ -3486,15 +3462,14 @@
           "explain": "From Secession and the Outbreak of War. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "Turning Points of the Civil War",
-          "prompt": "Why did the Union capture of Vicksburg matter strategically?",
+          "prompt": "The Union capture of Vicksburg in July 1863 was strategically important. Which evidence explains why?",
           "choices": [
-            "It created the Confederate capital",
-            "It strengthened Union control of the Mississippi River corridor",
-            "It immediately ended fighting across the country"
+            "A portrait of the Union commander alone",
+            "Maps of Mississippi River transport routes and Confederate supply lines",
+            "A 1900 newspaper unrelated to the campaign"
           ],
           "answer": 1,
-          "explain": "From Turning Points of the Civil War. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Control of transport corridors affected movement and supply."
         },
         {
           "lesson": "Turning Points of the Civil War",
@@ -3508,15 +3483,14 @@
           "explain": "From Turning Points of the Civil War. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "Emancipation and Black Military Service",
-          "prompt": "What was a key limitation of the Emancipation Proclamation?",
+          "prompt": "The Emancipation Proclamation declared freedom in specified rebel-held areas. Which claim is most accurate?",
           "choices": [
-            "It did not immediately end slavery everywhere in the United States",
-            "It had no connection to wartime policy",
-            "It prohibited Black men from military service"
+            "It changed federal wartime policy but did not immediately free every enslaved person across the nation",
+            "It applied the same way to every slaveholding state immediately",
+            "It ended the Civil War when issued in January 1863"
           ],
           "answer": 0,
-          "explain": "From Emancipation and Black Military Service. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Its legal scope and practical enforcement were limited and changed over time."
         },
         {
           "lesson": "The Civil War Through Civilian Experiences",
@@ -3672,15 +3646,14 @@
           "explain": "From Rebuilding the Nation. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "Rebuilding the Nation",
-          "prompt": "Why were Reconstruction goals contested?",
+          "prompt": "The federal government expanded constitutional rights during Reconstruction. Why were the results still contested?",
           "choices": [
-            "Every former Confederate official accepted Black voting rights",
-            "Slavery remained legal throughout the nation after 1865",
-            "Political rights, labor, and government power remained disputed"
+            "The amendments were never ratified",
+            "States immediately enforced every right without opposition",
+            "Violence, labor relations, political resistance and uneven federal enforcement shaped experiences"
           ],
           "answer": 2,
-          "explain": "From Rebuilding the Nation. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "The presence of rights did not guarantee equal enforcement."
         },
         {
           "lesson": "Reconstruction Amendments and Citizenship",
@@ -3716,15 +3689,14 @@
           "explain": "From Black Political Participation and Resistance. Revisit the lesson evidence and compare each claim with its context."
         },
         {
-          "lesson": "The End of Reconstruction and Its Legacy",
-          "prompt": "What continued after the political end of Reconstruction?",
+          "prompt": "A historian studying the period after 1877 reads only official federal reports. What might that miss?",
           "choices": [
-            "The immediate end of white supremacist violence",
-            "Black civic organizing and struggles over equal protection",
-            "The disappearance of the Reconstruction Amendments"
+            "The exact year the Thirteenth Amendment was ratified",
+            "Continuing Black civic organizing and community experiences that official reports overlooked",
+            "The existence of a federal government after the Civil War"
           ],
           "answer": 1,
-          "explain": "From The End of Reconstruction and Its Legacy. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Additional community records and perspectives help illuminate continuities."
         }
       ],
       "matchingPrompts": [
