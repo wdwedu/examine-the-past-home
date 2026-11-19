@@ -111,3 +111,5 @@ body.etp-curriculum #questions>.exam-card{min-height:280px}.exam-card{scroll-mar
 @media(max-width:700px){.source-grid{grid-template-columns:1fr}.score-path{grid-template-columns:repeat(2,minmax(0,1fr))}.exam-writing{height:300px}}
 @media(prefers-reduced-motion:reduce){#performance-rubric>summary{animation:none!important}}
 @media print{body.print-response *{visibility:hidden!important}body.print-response #print-response,body.print-response #print-response *{visibility:visible!important}body.print-response #print-response{position:absolute;top:0;left:0;color:#111;background:#fff;width:100%;padding:20px;white-space:pre-wrap;font:14pt/1.5 Georgia,serif}}
+
+.archive-source-links{border-top:1px solid #608c6a;margin-top:18px;padding:18px 10px 2px}.archive-source-links h3{color:#fff200}.archive-source-links li{padding:10px 0}.archive-source-links a{color:#fff200;text-decoration:underline}.archive-source-links .exam-note{margin:4px 0 0}
