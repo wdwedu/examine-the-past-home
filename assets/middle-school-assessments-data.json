@@ -54,70 +54,70 @@
       ],
       "questions": [
         {
-          "lesson": "Reading Maps Like a Historian",
-          "prompt": "Why should a historian ask when a map was made?",
+          "prompt": "Source A warns that political borders on a map may reflect the mapmaker's choices. Two maps of the same place show different borders. What should you check first?",
           "choices": [
-            "Ancient maps are always incorrect",
-            "Maps cannot contain symbols",
-            "Boundaries and knowledge change"
-          ],
-          "answer": 2,
-          "explain": "From Reading Maps Like a Historian. Revisit the lesson evidence and compare each claim with its context."
-        },
-        {
-          "lesson": "Reading Maps Like a Historian",
-          "prompt": "Which claim is best supported by a route marked on a map?",
-          "choices": [
-            "The route was free of danger",
-            "The mapmaker represented a connection between places",
-            "Everyone traveled that route"
+            "Whether the coastline moved as much as the borders",
+            "The dates and purposes of both maps",
+            "Which map includes more decorative symbols"
           ],
           "answer": 1,
-          "explain": "From Reading Maps Like a Historian. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Dates and purposes help explain why political lines may differ even when physical geography remains similar.",
+          "skill": "source-evaluation"
         },
         {
-          "lesson": "Geography and Human Settlement",
-          "prompt": "What is one disadvantage of settling beside a river?",
+          "prompt": "Source B says river settlements offered benefits but also risks. Which explanation uses both parts of the evidence?",
           "choices": [
-            "Flooding can damage fields and homes",
-            "People cannot trade by water",
-            "Every river is salty"
+            "Rivers could help travel and food production while also posing flood risks",
+            "River travel always mattered more than flood damage",
+            "Settling near a river proves people had no other choices"
           ],
           "answer": 0,
-          "explain": "From Geography and Human Settlement. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "A balanced explanation considers both opportunities and hazards.",
+          "skill": "analysis"
         },
         {
-          "lesson": "Geography and Human Settlement",
-          "prompt": "Which statement avoids geographic determinism?",
+          "prompt": "Source C describes an ancient clay pot without a maker's name. What evidence would most improve a claim about its use?",
           "choices": [
-            "Rivers create identical governments",
-            "Mountains prevent all contact",
-            "Geography shapes choices; societies also adapt"
+            "A modern illustration showing a similar-looking pot",
+            "The price of a modern copy",
+            "Its findspot, layer, and objects discovered nearby"
           ],
           "answer": 2,
-          "explain": "From Geography and Human Settlement. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Archaeological context is necessary before interpreting an object's past uses.",
+          "skill": "source-evaluation"
         },
         {
-          "lesson": "Investigating the Ancient World Through Evidence",
-          "prompt": "Why is an artifact’s archaeological context important?",
+          "prompt": "A historical map shows a route between two settlements. A student claims the route carried grain every year. What would best test that claim?",
           "choices": [
-            "Age can be read from color alone",
-            "Location and associations inform its meaning",
-            "All objects tell complete stories"
+            "A recent street map that shows the same road",
+            "Dated trade records or grain remains connected to the route",
+            "A picture of a grain plant without a location"
           ],
           "answer": 1,
-          "explain": "From Investigating the Ancient World Through Evidence. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "A mapped connection does not by itself establish cargo or frequency.",
+          "skill": "evidence"
         },
         {
-          "lesson": "Investigating the Ancient World Through Evidence",
-          "prompt": "How should two conflicting sources be handled?",
+          "prompt": "Two settlements faced similar dry conditions but built different water systems. Which explanation avoids assuming geography controls every choice?",
           "choices": [
-            "Compare authorship and other evidence",
-            "Ignore both automatically",
-            "Choose the longer source"
+            "The societies must have had exactly the same technology",
+            "One settlement must have misunderstood its environment",
+            "Local knowledge, choices, and resources could produce different solutions"
+          ],
+          "answer": 2,
+          "explain": "Environment shapes options, but communities make historical decisions.",
+          "skill": "reasoning"
+        },
+        {
+          "prompt": "Two archaeologists disagree about the age of an object. Which action would help resolve the disagreement?",
+          "choices": [
+            "Compare the object's context and dating evidence, explaining any uncertainty",
+            "Choose whichever explanation appeared online most recently",
+            "Accept whichever archaeologist gave a more confident answer"
           ],
           "answer": 0,
-          "explain": "From Investigating the Ancient World Through Evidence. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Corroboration is stronger than confidence or publication order.",
+          "skill": "inquiry"
         }
       ],
       "matchingPrompts": [
@@ -227,70 +227,70 @@
       ],
       "questions": [
         {
-          "lesson": "From Hunting and Gathering to Agriculture",
-          "prompt": "Which interpretation best fits the archaeological evidence?",
+          "prompt": "Source A says domestication happened gradually in different places. Which claim best follows?",
           "choices": [
-            "Hunting ended when farming began",
-            "Farming emerged gradually in several regions",
-            "All humans farmed at once"
+            "The first farming communities immediately ended hunting everywhere",
+            "Some communities farmed while others continued hunting and gathering",
+            "Farming had the same effects on health and work in every region"
           ],
           "answer": 1,
-          "explain": "From From Hunting and Gathering to Agriculture. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "The lesson describes varied and overlapping ways of obtaining food.",
+          "skill": "context"
         },
         {
-          "lesson": "From Hunting and Gathering to Agriculture",
-          "prompt": "What could a failed harvest reveal?",
+          "prompt": "A settlement grows more crops but suffers when one harvest fails. What does this show about agricultural change?",
           "choices": [
-            "Dependence on crops created vulnerabilities",
-            "Farming needed no planning",
-            "Farmers always had surplus"
-          ],
-          "answer": 0,
-          "explain": "From From Hunting and Gathering to Agriculture. Revisit the lesson evidence and compare each claim with its context."
-        },
-        {
-          "lesson": "Why Did Early Cities Develop?",
-          "prompt": "Which evidence could suggest craft specialization?",
-          "choices": [
-            "Only one family tool",
-            "A river by itself",
-            "Workshops making different products"
+            "Higher crop output removed the need for food planning",
+            "Farming benefits meant communities could not face shortages",
+            "Farming created opportunities alongside new dependence and risks"
           ],
           "answer": 2,
-          "explain": "From Why Did Early Cities Develop?. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "An evidence-based explanation weighs benefits and vulnerabilities.",
+          "skill": "analysis"
         },
         {
-          "lesson": "Why Did Early Cities Develop?",
-          "prompt": "Why did early cities face new challenges?",
+          "prompt": "Source B describes early city growth. Which explanation best accounts for why cities developed?",
           "choices": [
-            "Trade became impossible",
-            "Dense settlement required coordination",
-            "All citizens held equal power"
+            "Farming, exchange, shared work, and institutions interacted over time",
+            "One new invention alone explains all ancient cities",
+            "A city needed no coordination once farming began"
+          ],
+          "answer": 0,
+          "explain": "Several linked developments supported urban growth.",
+          "skill": "causation"
+        },
+        {
+          "prompt": "Archaeologists discover workshops for pottery, tools, and textiles in a town. Which conclusion is most supported?",
+          "choices": [
+            "Every worker received the same share of stored food",
+            "The town may have supported specialized kinds of work",
+            "Only religious leaders produced goods in the town"
           ],
           "answer": 1,
-          "explain": "From Why Did Early Cities Develop?. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Different workshops can indicate specialized labor without proving equality or exclusive control.",
+          "skill": "evidence"
         },
         {
-          "lesson": "Surplus, Specialization, and Social Organization",
-          "prompt": "How might stored food support a craftsperson?",
+          "prompt": "A group maintains canals and shared food stores. What additional evidence would clarify how the community organized this work?",
           "choices": [
-            "Other workers can provide food while they specialize",
-            "It eliminates the need for farmers",
-            "It prevents every conflict"
-          ],
-          "answer": 0,
-          "explain": "From Surplus, Specialization, and Social Organization. Revisit the lesson evidence and compare each claim with its context."
-        },
-        {
-          "lesson": "Surplus, Specialization, and Social Organization",
-          "prompt": "What question helps analyze inequality?",
-          "choices": [
-            "Did every building look identical?",
-            "Were all people merchants?",
-            "Who controlled and received stored goods?"
+            "Whether a nearby mountain has the same height today",
+            "A drawing of a canal from an unrelated modern village",
+            "Records or artifacts showing labor assignments, storage, and decisions"
           ],
           "answer": 2,
-          "explain": "From Surplus, Specialization, and Social Organization. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Social organization is best investigated through records and material evidence about actual practices.",
+          "skill": "inquiry"
+        },
+        {
+          "prompt": "Source C explains that surplus could support craftspeople but also increase inequality. What question would help evaluate that tension?",
+          "choices": [
+            "Who produced, controlled, and received stored food?",
+            "How many decorative colors appeared on pottery?",
+            "Did every family use identical buildings?"
+          ],
+          "answer": 0,
+          "explain": "Control and distribution are central to testing the effects of surplus.",
+          "skill": "evaluation"
         }
       ],
       "matchingPrompts": [
@@ -414,70 +414,70 @@
       ],
       "questions": [
         {
-          "lesson": "Mesopotamia and the First Cities",
-          "prompt": "Which two rivers shaped much of Mesopotamia?",
+          "prompt": "Source A describes clay tablets from Mesopotamia. What is an important limit when using administrative tablets to explain daily life?",
           "choices": [
-            "Tigris and Euphrates",
-            "Nile and Congo",
-            "Indus and Ganges"
-          ],
-          "answer": 0,
-          "explain": "From Mesopotamia and the First Cities. Revisit the lesson evidence and compare each claim with its context."
-        },
-        {
-          "lesson": "Mesopotamia and the First Cities",
-          "prompt": "Why was irrigation important in parts of southern Mesopotamia?",
-          "choices": [
-            "It eliminated flooding forever",
-            "It created all writing",
-            "It helped bring water to fields with limited rain"
-          ],
-          "answer": 2,
-          "explain": "From Mesopotamia and the First Cities. Revisit the lesson evidence and compare each claim with its context."
-        },
-        {
-          "lesson": "Ancient Egypt and the Nile",
-          "prompt": "What did river floods often leave on fields?",
-          "choices": [
-            "Volcanic lava",
-            "Nutrient-rich sediment",
-            "Permanent snow"
+            "They always record the thoughts of everyone in the city",
+            "They often preserve institutional concerns more than all people's experiences",
+            "They prove government institutions never changed"
           ],
           "answer": 1,
-          "explain": "From Ancient Egypt and the Nile. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Institutional texts are valuable but provide a partial viewpoint.",
+          "skill": "source-evaluation"
         },
         {
-          "lesson": "Ancient Egypt and the Nile",
-          "prompt": "Which claim is most accurate?",
+          "prompt": "Source B says Nile floods helped farming but flood levels varied. What is the strongest interpretation?",
           "choices": [
-            "Egyptian culture and government changed over time",
-            "Egypt stayed identical for 3,000 years",
-            "Only rulers lived along the river"
+            "Egyptian farmers could gain fertile soils while facing uncertain flood conditions",
+            "Egyptian agriculture never depended on human decisions",
+            "Nile floods occurred at identical levels in all years"
           ],
           "answer": 0,
-          "explain": "From Ancient Egypt and the Nile. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Both benefits and variable conditions matter.",
+          "skill": "analysis"
         },
         {
-          "lesson": "The Indus Valley Civilization",
-          "prompt": "Why are political interpretations of the Indus civilization limited?",
+          "prompt": "Source C describes planned streets and standard weights in Indus settlements. What can historians conclude?",
           "choices": [
-            "No structures survive",
-            "There were no crafts",
-            "The Indus script is undeciphered"
+            "Those features establish the names of every political ruler",
+            "They prove the settlements copied Mesopotamian governments",
+            "They suggest coordination but do not reveal the complete political system"
           ],
           "answer": 2,
-          "explain": "From The Indus Valley Civilization. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Material patterns suggest organization while leaving political questions open.",
+          "skill": "evidence"
         },
         {
-          "lesson": "Early Chinese Civilizations",
-          "prompt": "What limitation should be noted about oracle-bone records?",
+          "prompt": "Source D describes Shang oracle-bone inscriptions tied to royal concerns. Why would archaeologists also study ordinary homes and tools?",
           "choices": [
-            "They prove all events happened as predicted",
-            "They mainly reflect elite contexts",
-            "They contain every person's view"
+            "Those objects can reveal experiences missing from elite inscriptions",
+            "Ordinary objects make the inscriptions historically useless",
+            "Only palace artifacts can establish when people lived"
+          ],
+          "answer": 0,
+          "explain": "Different source types help recover different perspectives.",
+          "skill": "corroboration"
+        },
+        {
+          "prompt": "A student says irrigation in Mesopotamia and Nile farming prove both regions had the same government. Which response is most defensible?",
+          "choices": [
+            "The similar use of rivers means governments were necessarily identical",
+            "Shared environmental challenges do not establish identical political institutions",
+            "Both regions lacked written records about leadership"
           ],
           "answer": 1,
-          "explain": "From Early Chinese Civilizations. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Geographic similarities alone cannot determine political structure.",
+          "skill": "reasoning"
+        },
+        {
+          "prompt": "Historians compare tablets from Mesopotamia with drains and weights from the Indus region. What is the main benefit of comparing these different source types?",
+          "choices": [
+            "It allows historians to avoid using dates or locations",
+            "It guarantees that both societies used the same language",
+            "It reveals different aspects of society while also exposing gaps in the record"
+          ],
+          "answer": 2,
+          "explain": "Written and material evidence can answer different historical questions.",
+          "skill": "evaluation"
         }
       ],
       "matchingPrompts": [
@@ -601,70 +601,70 @@
       ],
       "questions": [
         {
-          "lesson": "Laws and Leadership in Ancient Societies",
-          "prompt": "What can a law code reveal?",
+          "prompt": "Source A describes Hammurabi's written laws. Which evidence best tests whether judges followed those rules consistently?",
           "choices": [
-            "Every outcome in every court",
-            "The opinions of all residents",
-            "Stated norms and social distinctions"
-          ],
-          "answer": 2,
-          "explain": "From Laws and Leadership in Ancient Societies. Revisit the lesson evidence and compare each claim with its context."
-        },
-        {
-          "lesson": "Laws and Leadership in Ancient Societies",
-          "prompt": "Why should historians seek other records?",
-          "choices": [
-            "Rules were never written",
-            "Texts do not show all enforcement practices",
-            "All inscriptions are false"
-          ],
-          "answer": 1,
-          "explain": "From Laws and Leadership in Ancient Societies. Revisit the lesson evidence and compare each claim with its context."
-        },
-        {
-          "lesson": "Belief Systems and Cultural Traditions",
-          "prompt": "What source might help study a ritual?",
-          "choices": [
-            "Contextualized objects and written accounts",
-            "An unrelated modern advertisement",
-            "A map without labels"
+            "Actual cases, records, or disputes from the society",
+            "Only a modern photograph of the stele",
+            "The size of the stele compared with nearby objects"
           ],
           "answer": 0,
-          "explain": "From Belief Systems and Cultural Traditions. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Published rules and everyday enforcement are different claims.",
+          "skill": "source-evaluation"
         },
         {
-          "lesson": "Belief Systems and Cultural Traditions",
-          "prompt": "What should museum labels avoid?",
+          "prompt": "Source B describes ancient temples. Why can't a temple plan alone prove what every worshipper believed?",
           "choices": [
-            "Acknowledging limits",
-            "Describing objects respectfully",
-            "Presenting uncertain interpretations as facts"
-          ],
-          "answer": 2,
-          "explain": "From Belief Systems and Cultural Traditions. Revisit the lesson evidence and compare each claim with its context."
-        },
-        {
-          "lesson": "Ancient Greece and the Origins of Democracy",
-          "prompt": "What is a polis?",
-          "choices": [
-            "A Roman legion",
-            "A Greek city-state",
-            "An Egyptian tomb"
+            "Plans are useful only for measuring river locations",
+            "A building's layout cannot fully reveal individual beliefs or practices",
+            "Ancient builders never left written records"
           ],
           "answer": 1,
-          "explain": "From Ancient Greece and the Origins of Democracy. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Architecture reveals spaces but not every person's convictions.",
+          "skill": "source-limits"
         },
         {
-          "lesson": "Rome: Republic, Empire, and Legacy",
-          "prompt": "Which statement recognizes historical complexity?",
+          "prompt": "Source C describes democracy in ancient Athens. Which comparison is historically responsible?",
           "choices": [
-            "Rome borrowed ideas and depended on unequal labor",
-            "Rome invented every ancient technology",
-            "All conquered people had equal standing"
+            "Athens granted voting rights to all people who lived there",
+            "Athenian assemblies gave the same rights as modern democracies",
+            "Some male citizens participated directly, while many residents were excluded"
+          ],
+          "answer": 2,
+          "explain": "The nature and limits of ancient citizenship both matter.",
+          "skill": "context"
+        },
+        {
+          "prompt": "Source D says Rome changed from republic to empire. Which statement best explains why this matters?",
+          "choices": [
+            "Roman institutions and the location of political power changed over time",
+            "The Senate remained the only source of political authority throughout Roman history",
+            "All Roman citizens exercised equal influence under emperors"
           ],
           "answer": 0,
-          "explain": "From Rome: Republic, Empire, and Legacy. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Rome's history includes institutional transitions, not one unchanging government.",
+          "skill": "change"
+        },
+        {
+          "prompt": "A student compares Hammurabi's law collection with Athenian citizenship rules. What is the strongest research question?",
+          "choices": [
+            "Which text has the longest surviving inscriptions?",
+            "How did each society define legal status and who held political rights?",
+            "Were the buildings where each law was displayed the same height?"
+          ],
+          "answer": 1,
+          "explain": "The question connects evidence to social and political institutions.",
+          "skill": "inquiry"
+        },
+        {
+          "prompt": "A historian finds similar building features in Rome and Greece. What else is needed to support a claim of cultural influence?",
+          "choices": [
+            "A drawing that makes the buildings appear the same size",
+            "A statement that all similar buildings share a single creator",
+            "Chronology, contacts between communities, and additional contextual sources"
+          ],
+          "answer": 2,
+          "explain": "Similarity is not proof of direct borrowing without historical context.",
+          "skill": "corroboration"
         }
       ],
       "matchingPrompts": [
@@ -774,70 +774,70 @@
       ],
       "questions": [
         {
-          "lesson": "Ancient Trade Networks",
-          "prompt": "Which route was important in the ancient Mediterranean?",
+          "prompt": "Source A says artifacts may move by trade, gifting, or migration. An object is found far from where it was made. Which claim is strongest?",
           "choices": [
-            "Modern highways only",
-            "Sea networks linking many ports",
-            "Transatlantic airline routes"
-          ],
-          "answer": 1,
-          "explain": "From Ancient Trade Networks. Revisit the lesson evidence and compare each claim with its context."
-        },
-        {
-          "lesson": "Ancient Trade Networks",
-          "prompt": "Why did intermediaries matter?",
-          "choices": [
-            "Goods could change hands multiple times",
-            "Every trader traveled the entire route",
-            "Trade required no trust"
+            "The find suggests movement or exchange, but the route and reason need investigation",
+            "The person who made it must have traveled with it",
+            "The artifact establishes that merchants used a single direct route"
           ],
           "answer": 0,
-          "explain": "From Ancient Trade Networks. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Multiple processes can move an object, so route and motive require more evidence.",
+          "skill": "evidence"
         },
         {
-          "lesson": "The Silk Roads and Cultural Exchange",
-          "prompt": "What moved along these networks besides goods?",
+          "prompt": "Source B describes the Silk Roads as connected networks. What does this suggest about a piece of silk found far from its origin?",
           "choices": [
-            "Only silk",
-            "Only coins",
-            "Knowledge, beliefs, and artistic ideas"
-          ],
-          "answer": 2,
-          "explain": "From The Silk Roads and Cultural Exchange. Revisit the lesson evidence and compare each claim with its context."
-        },
-        {
-          "lesson": "The Silk Roads and Cultural Exchange",
-          "prompt": "Why were oasis towns important on some routes?",
-          "choices": [
-            "They were always capitals",
-            "They provided water and places to exchange goods",
-            "They removed all travel risks"
+            "One merchant necessarily crossed the entire distance",
+            "It may have passed through several exchanges and intermediaries",
+            "It proves all communities along the routes shared one language"
           ],
           "answer": 1,
-          "explain": "From The Silk Roads and Cultural Exchange. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Trade goods often moved through many hands.",
+          "skill": "causation"
         },
         {
-          "lesson": "Migration and the Movement of Ideas",
-          "prompt": "Which claim needs more evidence?",
+          "prompt": "Source C lists several reasons people migrated. Which evidence would best investigate migration caused by conflict?",
           "choices": [
-            "Identical decoration proves one people moved",
-            "People can carry ideas when they move",
-            "Trade can also spread objects"
-          ],
-          "answer": 0,
-          "explain": "From Migration and the Movement of Ideas. Revisit the lesson evidence and compare each claim with its context."
-        },
-        {
-          "lesson": "Migration and the Movement of Ideas",
-          "prompt": "What could help test a migration hypothesis?",
-          "choices": [
-            "One unproven legend",
-            "A modern political border alone",
-            "Several independent types of evidence"
+            "A decorative image that has no date",
+            "A modern map without historical information",
+            "Dated accounts and settlement changes connected to a conflict"
           ],
           "answer": 2,
-          "explain": "From Migration and the Movement of Ideas. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Specific dates and multiple types of records help test causes.",
+          "skill": "inquiry"
+        },
+        {
+          "prompt": "Two distant ports contain similar pottery. A student says this proves one community moved to the other. What is missing?",
+          "choices": [
+            "Evidence distinguishing trade, gifting, imitation, and migration",
+            "A list of present-day city names near both ports",
+            "A statement that pottery was used everywhere"
+          ],
+          "answer": 0,
+          "explain": "Similar objects can result from several kinds of contact.",
+          "skill": "source-evaluation"
+        },
+        {
+          "prompt": "Source B says beliefs and artistic styles moved along trade routes. What conclusion best respects historical diversity?",
+          "choices": [
+            "Cultural exchange always erased previous local traditions",
+            "Ideas could be adopted and changed differently in different communities",
+            "All travelers practiced one shared religion"
+          ],
+          "answer": 1,
+          "explain": "Exchange does not mean identical adoption.",
+          "skill": "evaluation"
+        },
+        {
+          "prompt": "Two communities use related words but different tools. What would best help investigate whether people migrated or ideas spread through contact?",
+          "choices": [
+            "Only the number of letters in each word",
+            "One undated object found near a trade route",
+            "Linguistic evidence compared with dated settlement and material records"
+          ],
+          "answer": 2,
+          "explain": "Combined evidence helps distinguish movement of people from exchange of ideas.",
+          "skill": "corroboration"
         }
       ],
       "matchingPrompts": [
@@ -947,70 +947,70 @@
       ],
       "questions": [
         {
-          "lesson": "Water and the Development of Civilizations",
-          "prompt": "Why could water systems require organized work?",
+          "prompt": "Source A describes irrigation systems needing work. What can this suggest about ancient settlements?",
           "choices": [
-            "Channels needed construction and maintenance",
-            "They functioned without people",
-            "No community depended on water"
-          ],
-          "answer": 0,
-          "explain": "From Water and the Development of Civilizations. Revisit the lesson evidence and compare each claim with its context."
-        },
-        {
-          "lesson": "Water and the Development of Civilizations",
-          "prompt": "Which statement avoids oversimplification?",
-          "choices": [
-            "Every river flooded predictably",
-            "All ancient states used the same canal",
-            "Different rivers and communities required different responses"
-          ],
-          "answer": 2,
-          "explain": "From Water and the Development of Civilizations. Revisit the lesson evidence and compare each claim with its context."
-        },
-        {
-          "lesson": "Farming, Technology, and Environmental Change",
-          "prompt": "Which can be a long-term concern?",
-          "choices": [
-            "Abolition of seasonal cycles",
-            "Soil depletion or water stress",
-            "Permanent unlimited fertility"
+            "The systems operated without planning once built",
+            "Communities may have organized construction and maintenance responsibilities",
+            "All settlements developed the same government because they used water"
           ],
           "answer": 1,
-          "explain": "From Farming, Technology, and Environmental Change. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Large systems often required planning and work, but political forms could differ.",
+          "skill": "analysis"
         },
         {
-          "lesson": "Farming, Technology, and Environmental Change",
-          "prompt": "What makes a useful comparison?",
+          "prompt": "Source B describes technologies that increased crops but created environmental pressure. Which claim best uses that evidence?",
           "choices": [
-            "Benefits and costs across time and groups",
-            "Only immediate crop amounts",
-            "A tool’s appearance alone"
-          ],
-          "answer": 0,
-          "explain": "From Farming, Technology, and Environmental Change. Revisit the lesson evidence and compare each claim with its context."
-        },
-        {
-          "lesson": "Why Civilizations Adapted, Transformed, or Declined",
-          "prompt": "Why examine several kinds of evidence?",
-          "choices": [
-            "One artifact always reveals everything",
-            "Written records are always complete",
-            "Multiple causes and continuities are possible"
+            "Agricultural technology always increased soil fertility",
+            "Farming techniques were identical across ancient regions",
+            "A technique could improve production while also creating long-term costs"
           ],
           "answer": 2,
-          "explain": "From Why Civilizations Adapted, Transformed, or Declined. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Evaluation must consider benefits and environmental tradeoffs.",
+          "skill": "evaluation"
         },
         {
-          "lesson": "Why Civilizations Adapted, Transformed, or Declined",
-          "prompt": "What does cultural continuity mean?",
+          "prompt": "Source C describes an abandoned city. What is the most careful interpretation?",
           "choices": [
-            "All buildings remain standing",
-            "Some practices or connections persist through change",
-            "No society ever changes"
+            "The settlement changed, but its people may have moved or continued traditions elsewhere",
+            "All residents must have disappeared immediately",
+            "The society could not have had descendant communities"
+          ],
+          "answer": 0,
+          "explain": "Settlement abandonment does not equal disappearance of a people.",
+          "skill": "evidence"
+        },
+        {
+          "prompt": "Sources A and B describe rivers and farming in several regions. Which research approach avoids oversimplification?",
+          "choices": [
+            "Use one flood pattern as a rule for every river valley",
+            "Compare local rainfall, water systems, and decisions in each place",
+            "Assume identical water systems always produce identical communities"
           ],
           "answer": 1,
-          "explain": "From Why Civilizations Adapted, Transformed, or Declined. Revisit the lesson evidence and compare each claim with its context."
+          "explain": "Distinct environments and choices require contextual comparison.",
+          "skill": "reasoning"
+        },
+        {
+          "prompt": "An irrigation project appears to have raised crop production. What evidence is needed to judge its longer-term effects?",
+          "choices": [
+            "Only an illustration of the project's first day",
+            "A date of construction without any later records",
+            "Harvest data combined with soil, water, and settlement evidence over time"
+          ],
+          "answer": 2,
+          "explain": "Long-term evaluation needs multiple measures and times.",
+          "skill": "source-evaluation"
+        },
+        {
+          "prompt": "Source C lists climate, trade, conflict, and decisions as possible causes of change. Which conclusion is best?",
+          "choices": [
+            "Multiple factors may interact, so historians should test more than one explanation",
+            "A single drought always explains political transformation",
+            "A decline in one city proves the loss of an entire culture"
+          ],
+          "answer": 0,
+          "explain": "Complex change should be investigated with more than one cause and source.",
+          "skill": "causation"
         }
       ],
       "matchingPrompts": [
