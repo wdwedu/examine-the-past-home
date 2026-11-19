@@ -1,0 +1,200 @@
+{
+  "version": "high-school-pilot-2026-11-18",
+  "units": {
+    "9.1": {
+      "id": "9.1",
+      "grade": 9,
+      "title": "Reconstruction and Industrial Growth",
+      "course": "grade-9-united-states-history",
+      "lessons": [
+        {
+          "slug": "reconstruction-s-unfinished-legacy",
+          "title": "Reconstruction's Unfinished Legacy",
+          "essential": "How could Reconstruction transform the Constitution yet leave racial inequality entrenched?",
+          "task": "Write a claim about Reconstruction's Unfinished Legacy with two corroborating details, a plausible counterargument, and an explicit qualification."
+        },
+        {
+          "slug": "the-rise-of-big-business",
+          "title": "The Rise of Big Business",
+          "essential": "When did industrial efficiency become concentrated private power?",
+          "task": "Write a claim about The Rise of Big Business with two corroborating details, a plausible counterargument, and an explicit qualification."
+        },
+        {
+          "slug": "labor-immigration-and-urban-america",
+          "title": "Labor, Immigration, and Urban America",
+          "essential": "How did industrial growth expand opportunities while provoking conflict?",
+          "task": "Write a claim about Labor, Immigration, and Urban America with two corroborating details, a plausible counterargument, and an explicit qualification."
+        },
+        {
+          "slug": "the-gilded-age-wealth-and-inequality",
+          "title": "The Gilded Age: Wealth and Inequality",
+          "essential": "How should historians measure progress when prosperity was uneven?",
+          "task": "Write a claim about The Gilded Age: Wealth and Inequality with two corroborating details, a plausible counterargument, and an explicit qualification."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Document A · Equal Protection (1868)",
+          "title": "Fourteenth Amendment — Rights and Enforcement",
+          "creator": "United States Congress and ratifying states",
+          "date": "1866–1868",
+          "sourceType": "Primary source: constitutional amendment",
+          "url": "https://www.archives.gov/milestone-documents/14th-amendment",
+          "excerpt": "The Fourteenth Amendment, ratified in 1868, defined national citizenship and prohibited states from denying equal protection of the laws. Its language set a constitutional standard, but neither the text nor its ratification proves that those protections were equally enforced. After the Civil War, Black voters and officeholders helped reshape political life; white-supremacist violence and resistance to federal enforcement limited those gains. When evaluating Reconstruction, historians must distinguish between legal guarantees, the actions of officials, and the experiences of people whose rights were contested.",
+          "lens": "Legal promise versus enforcement",
+          "limitation": "The amendment establishes legal rules; it cannot independently reveal how a particular community experienced enforcement.",
+          "sourceUrl": "https://www.archives.gov/milestone-documents/14th-amendment"
+        },
+        {
+          "label": "Document B · Antitrust (1890)",
+          "title": "Sherman Antitrust Act — Industrial Regulation",
+          "creator": "United States Congress",
+          "date": "July 2, 1890",
+          "sourceType": "Primary source: federal law",
+          "url": "https://www.archives.gov/milestone-documents/sherman-anti-trust-act",
+          "excerpt": "The Sherman Antitrust Act of 1890 prohibited certain restraints of interstate trade and monopolization. Lawmakers responded to concerns about concentrated corporate power in a rapidly industrializing economy. The existence of an antitrust law shows that Congress addressed the issue; it does not, on its own, tell us how effectively the law was enforced, whether prices fell, or whether factory workers gained protections. Comparing the law with company records, wage data, and court decisions helps historians test competing claims about industrial growth, market efficiency, and inequality.",
+          "lens": "Regulation versus measurable economic effects",
+          "limitation": "A statute cannot by itself prove that competition increased or working conditions improved.",
+          "sourceUrl": "https://www.archives.gov/milestone-documents/sherman-anti-trust-act"
+        },
+        {
+          "label": "Document C · Population map (1890)",
+          "title": "Population Density Map — Geographic Evidence",
+          "creator": "Rand, McNally & Co.; based on 1890 U.S. census",
+          "date": "1890",
+          "sourceType": "Primary source: statistical map",
+          "url": "https://www.loc.gov/resource/g3701e.mf000043/",
+          "excerpt": "An 1890 map of population density shows how its publishers represented the distribution of people across the United States in the late nineteenth century. Census-based mapping helps investigate settlement patterns and potential urban concentration, but it does not directly measure wages, worker safety, political power, or every migration experience. To connect population patterns to industrial growth, historians must check the map's legend, categories, date, and geographic scale, then compare it with data on factories, migration, labor, and housing. The map is evidence of measured population distribution, not proof of a single cause.",
+          "lens": "Population distribution versus inferred causes",
+          "limitation": "Density does not measure prosperity or prove why people moved.",
+          "sourceUrl": "https://www.loc.gov/resource/g3701e.mf000043/"
+        },
+        {
+          "label": "Document D · Labor dispute (1894)",
+          "title": "Pullman Strike — Work and Conflict",
+          "creator": "National Park Service historical interpretation drawing on 1894 records",
+          "date": "1894 (event); modern interpretation",
+          "sourceType": "Secondary source linked to historical labor records",
+          "url": "https://www.nps.gov/pull/learn/historyculture/the-strike-of-1894.htm",
+          "excerpt": "The Pullman Strike of 1894 exposed conflicts over pay, company-controlled housing, union organization, and federal intervention. Workers, corporate managers, and government officials framed events from different positions. A historian should distinguish contemporary evidence from later interpretation and examine testimony, wage records, newspaper reports, and official actions before judging responsibility or effects. The strike illustrates that industrial growth created opportunity alongside unequal bargaining power and conflict. A later National Park Service account helps contextualize the event, but it should be used alongside actual contemporary documents when making a strong evidence-based argument.",
+          "lens": "Perspective, conflict, and corroboration",
+          "limitation": "Modern secondary interpretation cannot substitute for examination of contemporary worker and management records.",
+          "sourceUrl": "https://www.nps.gov/pull/learn/historyculture/the-strike-of-1894.htm"
+        }
+      ],
+      "questions": [
+        {
+          "lesson": "Reconstruction's Unfinished Legacy",
+          "prompt": "Document A guarantees equal protection. Which additional evidence would best test whether that protection was enforced in a particular county in 1872?",
+          "choices": [
+            "A map showing state boundaries in 1820",
+            "Local court records and testimony about voting-rights enforcement in 1872",
+            "An 1890 national census total with no county information"
+          ],
+          "answer": 1,
+          "explain": "The constitutional text states a legal guarantee; local enforcement records help test how it operated in a particular time and place."
+        },
+        {
+          "lesson": "Reconstruction's Unfinished Legacy",
+          "prompt": "Which interpretation most carefully distinguishes the Fourteenth Amendment from Reconstruction's lived effects?",
+          "choices": [
+            "Because the amendment was ratified, all people received equal protection immediately.",
+            "The amendment had no historical consequence because discrimination continued.",
+            "The amendment expanded constitutional protection, while enforcement and access to those rights remained contested."
+          ],
+          "answer": 2,
+          "explain": "Legal change and social experience must be examined together, not assumed to be identical."
+        },
+        {
+          "lesson": "The Rise of Big Business",
+          "prompt": "Document B is evidence that Congress acted in 1890. What additional source best tests whether antitrust policy changed corporate behavior?",
+          "choices": [
+            "Court decisions and company records from the years following the act",
+            "An unrelated portrait of a railroad executive",
+            "The act's title repeated in a modern textbook"
+          ],
+          "answer": 0,
+          "explain": "Enforcement decisions and records of business practices help test results, which the law's text alone cannot establish."
+        },
+        {
+          "lesson": "The Rise of Big Business",
+          "prompt": "A company executive says larger firms lowered prices. Which response best evaluates that claim?",
+          "choices": [
+            "Reject it automatically because the executive has an interest in the outcome.",
+            "Accept it because the executive managed a large company.",
+            "Compare prices over time, competitors, wages and other relevant evidence before judging its broader effects."
+          ],
+          "answer": 2,
+          "explain": "Economic claims require corroborated measures and attention to differing effects."
+        },
+        {
+          "lesson": "Labor, Immigration, and Urban America",
+          "prompt": "What conclusion can an 1890 population-density map reasonably support without other records?",
+          "choices": [
+            "The precise reasons every immigrant family chose a city",
+            "How population was distributed across mapped areas under the mapmaker's categories",
+            "That every urban worker earned more than rural workers"
+          ],
+          "answer": 1,
+          "explain": "A population-density map displays distribution, not individual motives or wages."
+        },
+        {
+          "lesson": "The Gilded Age: Wealth and Inequality",
+          "prompt": "A worker testimony and a company statement disagree about the Pullman Strike. What should a historian do next?",
+          "choices": [
+            "Compare each account's purpose with wages, records and independent reporting",
+            "Treat the company's statement as accurate because it was printed formally",
+            "Choose the worker's account without examining its date or context"
+          ],
+          "answer": 0,
+          "explain": "Corroboration requires considering each source's context and comparing it with other evidence."
+        }
+      ],
+      "matchingPrompts": [
+        {
+          "prompt": "Which document gives the clearest legal text for studying federal citizenship and equal protection?",
+          "answer": 0
+        },
+        {
+          "prompt": "Which document reveals how Congress addressed restraints of trade?",
+          "answer": 1
+        },
+        {
+          "prompt": "Which document is most directly suited to measuring population distribution in 1890?",
+          "answer": 2
+        }
+      ],
+      "matchingOptions": [
+        "Fourteenth Amendment (1868)",
+        "Sherman Antitrust Act (1890)",
+        "Population density map (1890)"
+      ],
+      "inquiryPrompt": "How did national policies shape opportunities and inequalities after the Civil War?",
+      "inquirySteps": [
+        "Use the sources and assess each one's purpose and limits.",
+        "Develop a focused question about federal power and economic or political change.",
+        "Compare findings and write a qualified claim that considers counterevidence."
+      ],
+      "inquiryAnswers": [
+        1,
+        0,
+        2
+      ],
+      "conclusions": [
+        "Because the Fourteenth Amendment existed, equal protection was always enforced equally across every U.S. community.",
+        "Document B shows federal action against some restraints of trade; it cannot independently establish the policy's effects.",
+        "Document C can help describe population distribution, but must be paired with other records to explain migration or wages."
+      ],
+      "conclusionKey": [
+        false,
+        true,
+        true
+      ],
+      "writing": "How far did federal power improve opportunity and equality between Reconstruction and the rise of industrial America (1865–1900)? Develop a qualified thesis using at least three specific details from at least two different source types, including one primary source from Documents A–C. Explain the context and limits of your sources, consider a plausible counterargument, and explain why your conclusion remains justified.",
+      "challenge": "Design a digital museum exhibit called 'Progress for Whom? 1865–1900'. Include four captioned sources from at least two perspectives, provenance labels, a verified timeline, a chart or map with interpretation, and a curator statement defending a qualified thesis.",
+      "standards": "Maryland 2025 High School U.S. History Framework — Bridge Unit and historical inquiry; assess source provenance, historical causation, industrialization, civic change, and argumentation",
+      "framework": "https://msde.maryland.gov/media/17926",
+      "sourceAudit": "Document A (National Archives, Fourteenth Amendment, ratified 1868); Document B (National Archives, Sherman Antitrust Act, 1890); Document C (Library of Congress, 1890 population map); Document D is a clearly labeled National Park Service secondary interpretation of the 1894 Pullman Strike. Descriptions are paraphrases, NOT transcribed document text. Students must open original document links to inspect artifacts before claiming firsthand analysis."
+    }
+  }
+}
