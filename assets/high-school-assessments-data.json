@@ -43,7 +43,9 @@
           "excerpt": "The Fourteenth Amendment, ratified in 1868, defined national citizenship and prohibited states from denying equal protection of the laws. Its language set a constitutional standard, but neither the text nor its ratification proves that those protections were equally enforced. After the Civil War, Black voters and officeholders helped reshape political life; white-supremacist violence and resistance to federal enforcement limited those gains. When evaluating Reconstruction, historians must distinguish between legal guarantees, the actions of officials, and the experiences of people whose rights were contested.",
           "lens": "Legal promise versus enforcement",
           "limitation": "The amendment establishes legal rules; it cannot independently reveal how a particular community experienced enforcement.",
-          "sourceUrl": "https://www.archives.gov/milestone-documents/14th-amendment"
+          "sourceUrl": "https://www.archives.gov/milestone-documents/14th-amendment",
+          "documentExcerpt": "nor deny to any person within its jurisdiction the equal protection of the laws.",
+          "excerptLabel": "Selected original language from Section 1 of the Fourteenth Amendment."
         },
         {
           "label": "Document B · Antitrust (1890)",
@@ -55,7 +57,9 @@
           "excerpt": "The Sherman Antitrust Act of 1890 prohibited certain restraints of interstate trade and monopolization. Lawmakers responded to concerns about concentrated corporate power in a rapidly industrializing economy. The existence of an antitrust law shows that Congress addressed the issue; it does not, on its own, tell us how effectively the law was enforced, whether prices fell, or whether factory workers gained protections. Comparing the law with company records, wage data, and court decisions helps historians test competing claims about industrial growth, market efficiency, and inequality.",
           "lens": "Regulation versus measurable economic effects",
           "limitation": "A statute cannot by itself prove that competition increased or working conditions improved.",
-          "sourceUrl": "https://www.archives.gov/milestone-documents/sherman-anti-trust-act"
+          "sourceUrl": "https://www.archives.gov/milestone-documents/sherman-anti-trust-act",
+          "documentExcerpt": "Every contract, combination in the form of trust or otherwise, or conspiracy, in restraint of trade",
+          "excerptLabel": "Opening language from Section 1 of the Sherman Antitrust Act (short excerpt)."
         },
         {
           "label": "Document C · Population map (1890)",
@@ -67,7 +71,8 @@
           "excerpt": "An 1890 map of population density shows how its publishers represented the distribution of people across the United States in the late nineteenth century. Census-based mapping helps investigate settlement patterns and potential urban concentration, but it does not directly measure wages, worker safety, political power, or every migration experience. To connect population patterns to industrial growth, historians must check the map's legend, categories, date, and geographic scale, then compare it with data on factories, migration, labor, and housing. The map is evidence of measured population distribution, not proof of a single cause.",
           "lens": "Population distribution versus inferred causes",
           "limitation": "Density does not measure prosperity or prove why people moved.",
-          "sourceUrl": "https://www.loc.gov/resource/g3701e.mf000043/"
+          "sourceUrl": "https://www.loc.gov/resource/g3701e.mf000043/",
+          "documentExcerpt": ""
         },
         {
           "label": "Document D · Labor dispute (1894)",
@@ -79,7 +84,8 @@
           "excerpt": "The Pullman Strike of 1894 exposed conflicts over pay, company-controlled housing, union organization, and federal intervention. Workers, corporate managers, and government officials framed events from different positions. A historian should distinguish contemporary evidence from later interpretation and examine testimony, wage records, newspaper reports, and official actions before judging responsibility or effects. The strike illustrates that industrial growth created opportunity alongside unequal bargaining power and conflict. A later National Park Service account helps contextualize the event, but it should be used alongside actual contemporary documents when making a strong evidence-based argument.",
           "lens": "Perspective, conflict, and corroboration",
           "limitation": "Modern secondary interpretation cannot substitute for examination of contemporary worker and management records.",
-          "sourceUrl": "https://www.nps.gov/pull/learn/historyculture/the-strike-of-1894.htm"
+          "sourceUrl": "https://www.nps.gov/pull/learn/historyculture/the-strike-of-1894.htm",
+          "documentExcerpt": ""
         }
       ],
       "questions": [
