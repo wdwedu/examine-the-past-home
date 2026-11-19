@@ -1,5 +1,5 @@
 # Examine the Past — High School Assessment Rollout and Readiness Gate
-Status: Grade 9 Unit 9.1 pilot committed; Grades 10–12 remain **curriculum content first**. This is the project-wide rollout blueprint, not a claim that 36 assessments are complete.
+Status updated November 19, 2026: **All 11 Grade 9 assessment units built and repository-verified.** Grade 9 assessment source/code locked as a release candidate (deployed browser and independent classroom certification pending). Grades 10–12 remain **curriculum-content first**; 25 assessment units have not been built.
 
 ## Foundation: what remains locked
 - The approved Grade 5 Unit 5.1 / Grades 6–8 **visual design** stays the standard: Georgia text; yellow section headings; alternating forest and near-black green question cards; top assessment navigation; 27-point middle-school assessments; white larger response area; blue animated **Check My Writing** trigger; expandable gray rubric directly below the writing box; student copy/print; gated sample after self-review; teacher notes, sources and return links.
@@ -30,17 +30,17 @@ High-school assessments are not required to keep the middle-school 27-point allo
 ## Unit rollout inventory (36 units, 136 lessons)
 | Unit | Lessons | Proposed advanced assessment format | Status |
 | --- | ---: | --- | --- |
-| 9.1 · Reconstruction and Industrial Growth | 4 | Primary-source interpretation + cause/consequence and DBQ | Pilot assessment built; live QA pending |
-| 9.2 · Progressivism and Reform | 4 | Primary-source interpretation + cause/consequence and DBQ | Lessons substantive; assessment drafting queued |
-| 9.3 · Imperialism and Expansion | 3 | Primary-source interpretation + cause/consequence and DBQ | Lessons substantive; assessment drafting queued |
-| 9.4 · World War I | 4 | Primary-source interpretation + cause/consequence and DBQ | Lessons substantive; assessment drafting queued |
-| 9.5 · The Roaring Twenties | 4 | Primary-source interpretation + cause/consequence and DBQ | Lessons substantive; assessment drafting queued |
-| 9.6 · Great Depression and New Deal | 4 | Primary-source interpretation + cause/consequence and DBQ | Lessons substantive; assessment drafting queued |
-| 9.7 · World War II | 5 | Primary-source interpretation + cause/consequence and DBQ | Lessons substantive; assessment drafting queued |
-| 9.8 · The Cold War | 4 | Primary-source interpretation + cause/consequence and DBQ | Lessons substantive; assessment drafting queued |
-| 9.9 · Civil Rights and Social Change | 5 | Primary-source interpretation + cause/consequence and DBQ | Lessons substantive; assessment drafting queued |
-| 9.10 · America in the Late Twentieth Century | 4 | Primary-source interpretation + cause/consequence and DBQ | Pilot assessment built; live QA pending |
-| 9.11 · The United States in the Twenty-First Century | 4 | Primary-source interpretation + cause/consequence and DBQ | Pilot assessment built; live QA pending |
+| 9.1 · Reconstruction and Industrial Growth | 4 | Primary-source interpretation + cause/consequence and DBQ | Assessment built; repository QA passed; classroom verification pending |
+| 9.2 · Progressivism and Reform | 4 | Primary-source interpretation + cause/consequence and DBQ | Assessment built; repository QA passed; classroom verification pending |
+| 9.3 · Imperialism and Expansion | 3 | Primary-source interpretation + cause/consequence and DBQ | Assessment built; repository QA passed; classroom verification pending |
+| 9.4 · World War I | 4 | Primary-source interpretation + cause/consequence and DBQ | Assessment built; repository QA passed; classroom verification pending |
+| 9.5 · The Roaring Twenties | 4 | Primary-source interpretation + cause/consequence and DBQ | Assessment built; repository QA passed; classroom verification pending |
+| 9.6 · Great Depression and New Deal | 4 | Primary-source interpretation + cause/consequence and DBQ | Assessment built; repository QA passed; classroom verification pending |
+| 9.7 · World War II | 5 | Primary-source interpretation + cause/consequence and DBQ | Assessment built; repository QA passed; classroom verification pending |
+| 9.8 · The Cold War | 4 | Primary-source interpretation + cause/consequence and DBQ | Assessment built; repository QA passed; classroom verification pending |
+| 9.9 · Civil Rights and Social Change | 5 | Primary-source interpretation + cause/consequence and DBQ | Assessment built; repository QA passed; classroom verification pending |
+| 9.10 · America in the Late Twentieth Century | 4 | Primary-source interpretation + cause/consequence and DBQ | Assessment built; repository QA passed; classroom verification pending |
+| 9.11 · The United States in the Twenty-First Century | 4 | Primary-source interpretation + cause/consequence and DBQ | Assessment built; repository QA passed; classroom verification pending |
 | 10.1 · Foundations of Democracy | 3 | Constitutional/civic scenario + policy evidence | Lesson shells/previews; develop lesson content before summative assessment |
 | 10.2 · The Constitution | 4 | Constitutional/civic scenario + policy evidence | Lesson shells/previews; develop lesson content before summative assessment |
 | 10.3 · The Legislative Branch | 3 | Constitutional/civic scenario + policy evidence | Lesson shells/previews; develop lesson content before summative assessment |
@@ -100,3 +100,6 @@ High-school assessments are not required to keep the middle-school 27-point allo
 - Includes six source-based reasoning items, document matching, inquiry/evidence judgment and an extended written historical argument with a post-completion four-paragraph model answer.
 - Grade 9.1 and 9.2 each have pilot pages and link-backed sources. Neither pilot has received deployed browser or independent classroom evaluation.
 - Grade 10–12 lesson samples remain 'planned inquiry' shells rather than completed historical readings. Summative tests should not be generated from those previews without developing lessons first.
+
+## November 19, 2026 — Definitive current status
+**Grade 9.1–9.11: 11/11 assessment builds and navigation links complete.** All 66 Grade 9 multiple-choice items, 44 source records/contexts, 45 lesson references, and the 27-point scoring configurations passed static data validation. The nine units after 9.2 have unique source-based question banks, not copies of the pilot. Grade 8 bridge lab remains separate. The frozen review baseline is `ASSESSMENTS_GRADES_6_TO_9_LOCKED_BASELINE_2026_11_19.md`. Do not describe Grade 9 as 'two pilots only' in future handoffs. Classroom summative approval remains contingent on live browser E2E and independent rubric/content assessment.
