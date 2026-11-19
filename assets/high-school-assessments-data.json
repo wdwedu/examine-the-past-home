@@ -201,6 +201,207 @@
       "standards": "Maryland 2025 High School U.S. History Framework — Bridge Unit and historical inquiry; assess source provenance, historical causation, industrialization, civic change, and argumentation",
       "framework": "https://msde.maryland.gov/media/17926",
       "sourceAudit": "Document A (National Archives, Fourteenth Amendment, ratified 1868); Document B (National Archives, Sherman Antitrust Act, 1890); Document C (Library of Congress, 1890 population map); Document D is a clearly labeled National Park Service secondary interpretation of the 1894 Pullman Strike. Descriptions are paraphrases, NOT transcribed document text. Students must open original document links to inspect artifacts before claiming firsthand analysis."
+    },
+    "9.2": {
+      "id": "9.2",
+      "grade": 9,
+      "title": "Progressivism and Reform",
+      "course": "grade-9-united-states-history",
+      "lessons": [
+        {
+          "slug": "the-progressive-movement",
+          "title": "The Progressive Movement",
+          "essential": "Whose definition of progress influenced early twentieth-century reform?",
+          "task": "Write a claim about The Progressive Movement with two corroborating details, a plausible counterargument, and an explicit qualification."
+        },
+        {
+          "slug": "investigative-journalism-and-social-change",
+          "title": "Investigative Journalism and Social Change",
+          "essential": "Can journalism change laws without being free of bias?",
+          "task": "Write a claim about Investigative Journalism and Social Change with two corroborating details, a plausible counterargument, and an explicit qualification."
+        },
+        {
+          "slug": "women-s-suffrage",
+          "title": "Women's Suffrage",
+          "essential": "Why did the struggle for voting rights require multiple strategies and generations?",
+          "task": "Write a claim about Women's Suffrage with two corroborating details, a plausible counterargument, and an explicit qualification."
+        },
+        {
+          "slug": "reforming-government-and-industry",
+          "title": "Reforming Government and Industry",
+          "essential": "How did reform expand federal and democratic authority?",
+          "task": "Write a claim about Reforming Government and Industry with two corroborating details, a plausible counterargument, and an explicit qualification."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Document A · Investigative Reporting (1899)",
+          "title": "Lynch Law in Georgia",
+          "creator": "Ida B. Wells-Barnett and publishers",
+          "date": "1899",
+          "sourceType": "Primary source: investigative pamphlet",
+          "url": "https://www.loc.gov/item/91898209/",
+          "excerpt": "Ida B. Wells-Barnett challenged false claims used to excuse racial violence and investigated specific cases and records. Her pamphlets and reporting demonstrated how journalists could document injustice and dispute narratives presented as common knowledge. The work also shows why evidence and historical context matter: a report has an author, purpose, audience, date, and sources, and its claims should be checked against additional records. The document addresses violence directly and should be approached thoughtfully.",
+          "lens": "Investigative journalism and racial justice",
+          "limitation": "The pamphlet offers a forceful investigative perspective; corroborate individual details and recognize voices missing from surviving records.",
+          "documentExcerpt": "",
+          "sourceUrl": "https://www.loc.gov/item/91898209/"
+        },
+        {
+          "label": "Document B · Senate Elections (1913)",
+          "title": "Seventeenth Amendment",
+          "creator": "United States Congress and ratifying states",
+          "date": "1912–1913",
+          "sourceType": "Primary source: constitutional amendment",
+          "url": "https://www.archives.gov/milestone-documents/17th-amendment",
+          "excerpt": "The Seventeenth Amendment, ratified in 1913, changed the method of electing United States senators from selection by state legislatures to direct election by eligible voters. It reflected a reform debate about political influence and democratic accountability. The amendment tells historians what the Constitution required after ratification, but it does not by itself demonstrate whether political campaigns became fairer or which communities enjoyed full voting access.",
+          "lens": "Political reform and democratic participation",
+          "limitation": "Constitutional language cannot alone establish local participation, campaign influence, or equal access to voting.",
+          "documentExcerpt": "The Senate of the United States shall be composed of two Senators from each State, elected by the people thereof",
+          "excerptLabel": "Short excerpt from the Seventeenth Amendment.",
+          "sourceUrl": "https://www.archives.gov/milestone-documents/17th-amendment"
+        },
+        {
+          "label": "Document C · Women's Voting Rights (1920)",
+          "title": "Nineteenth Amendment",
+          "creator": "United States Congress and ratifying states",
+          "date": "1919–1920",
+          "sourceType": "Primary source: constitutional amendment",
+          "url": "https://www.archives.gov/milestone-documents/19th-amendment",
+          "excerpt": "The Nineteenth Amendment was ratified in 1920 following decades of organizing, petitions, speeches, and political pressure. It prohibited denial or abridgment of voting rights on account of sex. That constitutional change was significant, but other restrictions—including discriminatory practices affecting many women of color—could still limit access to the ballot. Historians should distinguish legal rights established by a document from enforcement and real voter experiences.",
+          "lens": "Constitutional change and barriers to equality",
+          "limitation": "The amendment states a legal protection but cannot describe every woman's voting experience after 1920.",
+          "documentExcerpt": "The right of citizens of the United States to vote shall not be denied or abridged",
+          "excerptLabel": "Short excerpt from the Nineteenth Amendment.",
+          "sourceUrl": "https://www.archives.gov/milestone-documents/19th-amendment"
+        },
+        {
+          "label": "Document D · Workplace Safety (1911)",
+          "title": "Triangle Shirtwaist Factory",
+          "creator": "National Park Service historical interpretation",
+          "date": "March 25, 1911 (event); modern account",
+          "sourceType": "Secondary source: historical-site account",
+          "url": "https://www.nps.gov/places/triangle-shirtwaist-factory-brown-building.htm",
+          "excerpt": "The 1911 Triangle Shirtwaist Factory fire killed 146 garment workers, many of them young immigrant women. The disaster attracted attention to unsafe working conditions and strengthened calls for reform. The National Park Service's account links the event with advocates for workplace protections. A historian using this secondary interpretation should also examine contemporary photographs, fire investigations, worker testimony, newspaper reports, and legislation to distinguish what happened from later interpretations.",
+          "lens": "Labor reform, workplace safety and historical evidence",
+          "limitation": "A modern site interpretation provides historical context but does not substitute for original 1911 testimony or investigations.",
+          "documentExcerpt": "",
+          "sourceUrl": "https://www.nps.gov/places/triangle-shirtwaist-factory-brown-building.htm"
+        }
+      ],
+      "questions": [
+        {
+          "lesson": "Investigative Journalism and Social Change",
+          "prompt": "Document A was written to challenge accounts of racial violence. Which research step would best test a specific claim in Wells-Barnett's investigation?",
+          "choices": [
+            "Accept it without checking because the author's cause was important",
+            "Compare the specific case with contemporary records, dates, and independent reporting",
+            "Discard the pamphlet because investigative writing always has a viewpoint"
+          ],
+          "answer": 1,
+          "explain": "A historically responsible researcher considers source purpose and corroborates factual claims without dismissing the source."
+        },
+        {
+          "lesson": "The Progressive Movement",
+          "prompt": "Which conclusion about Progressive reform is supported by Documents A and D together?",
+          "choices": [
+            "Reform was carried out only by presidents acting through Congress",
+            "All reformers pursued the same priorities and helped every group equally",
+            "Journalists and activists exposed different injustices and sought public action"
+          ],
+          "answer": 2,
+          "explain": "Wells-Barnett's investigations and workplace-safety advocates illustrate different forms of reform agency."
+        },
+        {
+          "lesson": "Reforming Government and Industry",
+          "prompt": "What evidence would best test whether the Seventeenth Amendment changed participation in Senate elections?",
+          "choices": [
+            "Voter-turnout and state election records before and after 1913, with attention to exclusions",
+            "Only the amendment's title, because it reports its own results",
+            "The text of the Nineteenth Amendment by itself"
+          ],
+          "answer": 0,
+          "explain": "Direct-election rules require separate electoral evidence to assess their practical effects."
+        },
+        {
+          "lesson": "Women's Suffrage",
+          "prompt": "Document C prohibits voting discrimination based on sex. Which conclusion best accounts for conditions in 1920?",
+          "choices": [
+            "All voting restrictions ceased in 1920",
+            "The amendment broadened constitutional protection but did not eliminate every barrier to voting",
+            "The amendment addressed only Senate election procedures"
+          ],
+          "answer": 1,
+          "explain": "Constitutional prohibition and actual access must be studied separately."
+        },
+        {
+          "lesson": "The Progressive Movement",
+          "prompt": "How should historians connect the Triangle Shirtwaist fire with reform without assuming it caused every later law?",
+          "choices": [
+            "Claim the fire independently produced every workplace protection",
+            "Ignore the fire because it cannot prove all reform outcomes",
+            "Compare the event's evidence with subsequent investigations, organizers, and legislative records"
+          ],
+          "answer": 2,
+          "explain": "A change-over-time causal argument needs multiple sources and a qualified conclusion."
+        },
+        {
+          "lesson": "Reforming Government and Industry",
+          "prompt": "A student claims that political reform and workplace reform were identical. Which evidence best challenges the claim?",
+          "choices": [
+            "Documents B and D address different institutions and problems, even though both concern reform",
+            "Any document written in 1913 automatically explains the 1911 fire",
+            "The Seventeenth Amendment proves all factories became safer"
+          ],
+          "answer": 0,
+          "explain": "Political representation and factory safety are different dimensions of Progressive-era reform."
+        }
+      ],
+      "matchingPrompts": [
+        {
+          "prompt": "Which source directly examines racial violence through an activist's investigative reporting?",
+          "answer": 0
+        },
+        {
+          "prompt": "Which source changed the constitutional method for selecting United States senators?",
+          "answer": 1
+        },
+        {
+          "prompt": "Which source prohibits denying the vote on account of sex?",
+          "answer": 2
+        }
+      ],
+      "matchingOptions": [
+        "Wells-Barnett investigation (1899)",
+        "Seventeenth Amendment (1913)",
+        "Nineteenth Amendment (1920)"
+      ],
+      "inquiryPrompt": "How much did Progressive reform change the distribution of power and opportunity?",
+      "inquirySteps": [
+        "Compare constitutional texts, investigative reporting, and workplace records, checking their purpose and limits.",
+        "Develop a question specifying a reform, an affected group, and the years to examine.",
+        "Defend a qualified conclusion that considers persistent barriers and other explanations."
+      ],
+      "inquiryAnswers": [
+        1,
+        0,
+        2
+      ],
+      "conclusions": [
+        "The Seventeenth Amendment is evidence that the method of selecting U.S. senators changed, but it cannot establish voting equality by itself.",
+        "The Nineteenth Amendment instantly removed every barrier that prevented women from voting in the United States.",
+        "Wells-Barnett's reporting and accounts of the Triangle fire show that advocacy for reform extended beyond elected officials."
+      ],
+      "conclusionKey": [
+        true,
+        false,
+        true
+      ],
+      "writing": "To what extent did Progressive-era reform expand democracy and protect people in the United States, c. 1890–1920? Develop a qualified thesis using at least three specific details from at least two primary sources and one additional contextual source. Compare the experiences or goals of at least two groups. Discuss limits of the evidence, consider a plausible counterargument, and explain why your interpretation is justified.",
+      "challenge": "Create a source-based digital exhibit, 'Who Benefited from Progressive Reform?' Include at least four attributed sources, a timeline, evidence of one success and one limitation, two contrasting perspectives, and a curator's argument.",
+      "standards": "Maryland 2025 High School U.S. History Framework Unit 1: Progressivism and Imperialism — reform and historical inquiry (USH.1.1)",
+      "framework": "https://msde.maryland.gov/media/17926",
+      "sourceAudit": "Document A: LOC, Ida B. Wells-Barnett 1899 pamphlet (primary); B: National Archives Seventeenth Amendment 1913 (primary); C: National Archives Nineteenth Amendment 1920 (primary); D: National Park Service Triangle Fire site history (secondary). Short direct legal excerpts are identified separately from original educational summaries. Primary sources include descriptions of racial terror and discrimination; teachers should provide contextual and trauma-aware instruction."
     }
   }
 }
