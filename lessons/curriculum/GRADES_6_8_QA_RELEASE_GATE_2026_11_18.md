@@ -4,7 +4,7 @@
 
 ## What was audited and verified
 - 20 grade 6–8 assessment configurations: Grade 6 (6), Grade 7 (6), Grade 8 (8).
-- All 120 multiple-choice prompts matched an existing question in their source lesson data; all 120 correct-answer strings matched the original source-lesson answer keys after reordering.
+- Original baseline (before current revision): 120 multiple-choice prompts matched existing lesson checks and answer keys. Current build: **36 Grade 6 questions are newly rewritten, source-based items**, while the other **84 Grade 7–8 items** retain their lesson-derived checks. All 120 current answer indices are structurally valid; an independent teacher/historian must still review the newly written keys and remaining distractors before summative approval.
 - All 70 assessment passages were traced to the corresponding unit lesson reading text. The passages were expanded to complete sentences with a grade progression (approx. 100 words at G6, 120–130 at G7, 150–170 at G8).
 - An earlier Grade 6 flaw (all 36 correct answers in option A) was repaired by deterministic choice reordering with keys updated.
 - Evidence selection claims were rebuilt as complete source-grounded sentences and answer positions varied; every set has 2 supported claims and 1 unsupported universal assertion.
@@ -72,10 +72,16 @@ After following links from the live History Hub, the public Grade 6, Grade 7 and
 
 
 ## Release-candidate improvement addendum — 2026-11-18
-- Replaced all **36 Grade 6 multiple-choice questions** with new source-referenced reasoning prompts tied to the already-authored unit passages and maintained six one-point questions per unit.
+- Replaced all **36 Grade 6 multiple-choice questions** with new source-referenced reasoning prompts tied to the already-authored unit passages and maintained six one-point questions per unit. These questions must not be reported as the original lesson-check prompts.
 - Replaced the trivial unsupported evidence claim in all 20 units with contextual, historically specific claims requiring closer source evaluation.
 - Added seven source registers of directly verified National Archives primary records to Grade 8 Units 8.2–8.8 and updated the shared renderer to present archive links with creator/date/type/limitation metadata. Grade 8.1 and Grade 6/7 unit-by-unit original-source integration remain incomplete.
 - Published and linked a **Grade 8 Industrial and Urban America (1877–1890) bridge source lab** using the National Archives Sherman Act and Chinese Exclusion Act and the 1890 Library of Congress population map. This is supplemental source practice, not a complete replacement for a standards-aligned Bridge Unit.
 - Added a dependency-free repository QA script at `tests/assessment-data.test.cjs`; it can be run with `node tests/assessment-data.test.cjs` in a GitHub checkout. The connector-based audit checked structural rules, but the script was not executed as a hosted CI workflow.
 - Refreshed all Grade 6–8 assessment HTML files to use the latest shared script version m3.
 - Classroom-ready signoff is **still withheld** until the remaining source, item-quality, exact indicators/assessment limits, validated teacher scoring and real browser checks are complete.
+
+## Latest cross-grade scope (post-pilot)
+- Grades 6–8: 20 assessments, 120 MC items, 70 source passages. Seven Grade 8 packets now offer attributed original-record links.
+- Grades 9.1 and 9.2: two separate high-school pilot assessments using three traceable primary documents each plus a labeled secondary historical source, with post-review four-paragraph model answers. These are pilots, not yet summative-certified.
+- Shared QA script: `node tests/assessment-data.test.cjs`; workflow: `.github/workflows/assessment-qa.yml`. Syntactic checks have passed via connector; no completed hosted workflow run is asserted.
+- Grade 8 1877–1890 supplemental source bridge lab added and linked. Full state-framework crosswalk and live browser testing remain open.
