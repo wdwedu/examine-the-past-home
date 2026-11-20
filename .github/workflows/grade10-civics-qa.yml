@@ -3,6 +3,11 @@ on:
   push:
     paths:
       - "assets/grade10-civics-course-data.json"
+      - "assets/grade10-grade5-matched-data.json"
+      - "assets/grade10-grade5-matched-engine.js"
+      - "assets/grade10-grade5-matched.css"
+      - "assets/history-hub-lesson.js"
+      - "lessons/curriculum/grade-10-civics-government/**"
       - "assets/grade10-civics-assessments-data.json"
       - "tests/grade10-civics.test.cjs"
       - "tests/grade10-template-parity.test.cjs"
@@ -10,6 +15,11 @@ on:
   pull_request:
     paths:
       - "assets/grade10-civics-course-data.json"
+      - "assets/grade10-grade5-matched-data.json"
+      - "assets/grade10-grade5-matched-engine.js"
+      - "assets/grade10-grade5-matched.css"
+      - "assets/history-hub-lesson.js"
+      - "lessons/curriculum/grade-10-civics-government/**"
       - "assets/grade10-civics-assessments-data.json"
       - "tests/grade10-civics.test.cjs"
   workflow_dispatch:
