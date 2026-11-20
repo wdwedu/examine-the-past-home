@@ -1,0 +1,40 @@
+/* Grade 10 Civics: EXACT Grade 5 lesson mechanics, differentiated navy/red visual layer. */
+body.etp-civics-lesson {background:#02060d!important;color:#f5f6fa}
+body.etp-civics-lesson .g5-hero{background:linear-gradient(115deg,#071326,#112e58 56%,#4b1828)!important;border-color:#5274a2!important}
+body.etp-civics-lesson .g5-hero h1,body.etp-civics-lesson .g5-panel h2{color:#fff200!important}
+body.etp-civics-lesson .g5-hero small,body.etp-civics-lesson .g5-kicker{color:#f4dce4!important}
+body.etp-civics-lesson .g5-tag{background:#112947!important;border-color:#5f83af!important;color:#f3f5ff!important}
+body.etp-civics-lesson .g5-toolbar{position:sticky!important;top:var(--g5-top,65px)!important;background:#040f22f5!important;border-color:#5076ab!important;box-shadow:0 9px 26px #000b}
+body.etp-civics-lesson .g5-track{background:#1b2b43!important;border-color:#53729b!important}
+body.etp-civics-lesson .g5-track>span{background:linear-gradient(90deg,#1d67b6 0%,#f1f2f7 54%,#cc3b53 100%)!important}
+body.etp-civics-lesson .g5-controls button,body.etp-civics-lesson .g5-controls select{background:#102948!important;border-color:#6284b3!important;color:white!important}
+body.etp-civics-lesson #g5-clock,body.etp-civics-lesson .g5-meter b{color:#fff200!important}
+body.etp-civics-lesson .g5-jumps a{color:#f7f8fd!important;white-space:nowrap}
+body.etp-civics-lesson .g5-jumps a[aria-current=step],body.etp-civics-lesson .g5-jumps a:hover{background:#542039!important;color:#fff200!important}
+body.etp-civics-lesson .g5-credits{background:#0c2039;border-color:#55759c}
+body.etp-civics-lesson .g5-panel{border-color:#4e6e99!important}
+body.etp-civics-lesson .g5-color-0{background:linear-gradient(115deg,#0f2b52,#081b36 58%,#040e1e)!important;border-color:#456d9f!important}
+body.etp-civics-lesson .g5-color-1{background:linear-gradient(115deg,#3e1728,#250d19 65%,#140910)!important;border-color:#805064!important}
+body.etp-civics-lesson .g5-color-2{background:linear-gradient(115deg,#132943,#071a35 64%,#060d19)!important;border-color:#5273a4!important}
+body.etp-civics-lesson .g5-color-3{background:linear-gradient(115deg,#371626,#1c101b 65%,#100a11)!important;border-color:#82505b!important}
+body.etp-civics-lesson .g5-color-4{background:linear-gradient(115deg,#122b4a,#101d32 65%,#050d1c)!important;border-color:#526e96!important}
+body.etp-civics-lesson .g5-panel h3{color:#e7efff!important}
+body.etp-civics-lesson .g5-card,body.etp-civics-lesson .g5-activity,body.etp-civics-lesson .g5-reading{background:#0e2444!important;border-color:#536c91!important}
+body.etp-civics-lesson .g5-choices button,body.etp-civics-lesson .g5-modes button,body.etp-civics-lesson .g5-read-menu button{background:#173961!important;border-color:#5e8bc0!important;color:white!important}
+body.etp-civics-lesson .g5-choices button[aria-pressed=true],body.etp-civics-lesson .g5-modes button[aria-pressed=true],body.etp-civics-lesson .g5-read-menu button[aria-pressed=true]{background:#6f263b!important;border-color:#fff200!important;color:#fff200!important}
+body.etp-civics-lesson .g5-activity button[data-investigate],body.etp-civics-lesson .g6-svg-actions button{background:#19385b!important;border-color:#5684b3!important;color:#f9f9ff!important}
+body.etp-civics-lesson .g6-added-svg{background:#071a31!important;border:1px solid #5371a1;border-radius:14px;padding:16px}
+body.etp-civics-lesson .g6-added-svg svg{display:block;width:100%;height:auto;max-height:260px;background:#091629;border-radius:12px}
+body.etp-civics-lesson .g6-svg-actions{display:flex;flex-wrap:wrap;gap:9px}
+body.etp-civics-lesson .g6-svg-actions button{padding:9px 12px;border-radius:8px;cursor:pointer}
+body.etp-civics-lesson .g6-svg-actions button[aria-pressed=true]{border-color:#fff200!important;color:#fff200!important}
+body.etp-civics-lesson .g5-panel a{color:#fff0a4!important}
+body.etp-civics-lesson .g5-writing{background:#fffaf2!important;color:#101927!important;border-color:#789bc2!important}
+body.etp-civics-lesson .g5-time-warning{border-color:#be3b53}
+body.etp-civics-lesson .g5-toolbar .g5-credits strong{color:#fff200!important}
+body.etp-civics-lesson .g5-panel details>summary{color:#fff200!important}
+body.etp-civics-lesson .g5-player iframe{border:0;max-width:100%;display:block}
+body.etp-civics-lesson .g5-jumps{scrollbar-color:#748cb1 transparent}
+body.etp-civics-lesson .g5-bottom a{color:#fff200}
+@media(max-width:700px){body.etp-civics-lesson .g5-toolbar{padding:9px}body.etp-civics-lesson .g5-jumps{overflow-x:auto;flex-wrap:nowrap}body.etp-civics-lesson .g5-controls{gap:7px}body.etp-civics-lesson .g5-panel{padding:17px}}
+@media(prefers-reduced-motion:reduce){body.etp-civics-lesson .g5-track>span{transition:none!important}}
