@@ -39,7 +39,10 @@ body.etp-civics-assessment a{color:#ffe58e}
 html body.etp-curriculum.etp-civics header.etp-course-banner{background:linear-gradient(115deg,#050e20 5%,#183e70 57%,#561a2a 100%)!important;border:1px solid #bf6673!important}
 html body.etp-curriculum.etp-civics header.etp-course-banner::after{background:linear-gradient(90deg,#010817 0%,rgba(3,20,45,.95) 18%,rgba(9,28,58,.75) 46%,rgba(78,15,31,.42) 82%,rgba(12,8,21,.18) 100%)!important}
 html body.etp-curriculum.etp-civics .etp-unit summary{color:#fff2d2!important}
-html body.etp-curriculum.etp-civics .etp-course-banner .etp-course-intro h1{color:#ffdc35!important}
+html body.etp-curriculum.etp-civics .etp-course-banner .etp-course-intro h1{color:#fff200!important}
 html body.etp-curriculum.etp-civics .etp-course-banner .etp-course-intro p{color:#edf1fc!important}
 body.etp-civics-assessment .source-lesson-context{background:#102743;padding:12px;border:1px solid #6381a6;border-radius:9px}
 body.etp-civics-assessment .source-lesson-context>summary{color:#ffe585;font-weight:bold;cursor:pointer}
+
+/* Keep Grade 10 course title in the locked Examine the Past yellow. */
+body.etp-civics .etp-course-banner h1,body.etp-civics-lesson .g5-hero h1{color:#fff200!important}
