@@ -29,8 +29,8 @@ body.etp-civics-lesson .g5-panel p,body.etp-civics-lesson .g5-panel li,body.etp-
 body.etp-civics-lesson .g5-panel a{color:#fff200!important}
 body.etp-civics-lesson .g5-writing{background:#fff!important;color:#111c27!important;border:1px solid #b7c0c7!important;min-height:145px;line-height:1.65}
 body.etp-civics-lesson .civic-independent-writing .g5-writing,body.etp-civics-lesson #g5-written{min-height:250px}
-body.etp-civics-lesson .g5-jumps.civic-lesson-jumps{display:grid;grid-template-columns:1.15fr 1fr 1.1fr 1.8fr .95fr .7fr .85fr .7fr;gap:4px;overflow-x:auto;align-items:stretch}
-body.etp-civics-lesson .g5-jumps.civic-lesson-jumps a{--nav-top:#18352a;--nav-deep:#09160f;--nav-line:#4b785d;--nav-active:#1f402c;display:flex;align-items:center;justify-content:center;text-align:center;white-space:normal;line-height:1.25;font:700 12px/1.25 Georgia,serif;overflow-wrap:normal;background:linear-gradient(135deg,var(--nav-top),var(--nav-deep));border:1px solid var(--nav-line);color:#fff!important;padding:9px 5px;border-radius:7px;text-decoration:none;min-width:0}
+body.etp-civics-lesson .g5-jumps.civic-lesson-jumps{display:flex;flex-wrap:nowrap;gap:5px;overflow-x:auto;overflow-y:hidden;align-items:stretch;max-width:100%;scrollbar-width:thin;-webkit-overflow-scrolling:touch}
+body.etp-civics-lesson .g5-jumps.civic-lesson-jumps a{--nav-top:#18352a;--nav-deep:#09160f;--nav-line:#4b785d;--nav-active:#1f402c;display:flex;align-items:center;justify-content:center;text-align:center;white-space:normal;line-height:1.25;font:700 12px/1.25 Georgia,serif;overflow-wrap:normal;background:linear-gradient(135deg,var(--nav-top),var(--nav-deep));border:1px solid var(--nav-line);color:#fff!important;padding:9px 5px;border-radius:7px;text-decoration:none;flex:0 0 auto;min-width:max-content;max-width:190px;box-sizing:border-box}
 body.etp-civics-lesson .g5-jumps a[href="#plan"]{--nav-top:#153c27;--nav-deep:#030b07;--nav-line:#537c60;--nav-active:#213f2c}
 body.etp-civics-lesson .g5-jumps a[href="#launch"]{--nav-top:#152e50;--nav-deep:#030911;--nav-line:#506e96;--nav-active:#203e66}
 body.etp-civics-lesson .g5-jumps a[href="#discover"]{--nav-top:#461d29;--nav-deep:#0b0407;--nav-line:#8a4c5e;--nav-active:#592536}
@@ -52,6 +52,6 @@ body.etp-civics-lesson .g5-player iframe{display:block;width:100%;height:100%;bo
 body.etp-civics-lesson .g6-added-svg svg{display:block;width:100%;max-height:280px;height:auto}
 body.etp-civics-lesson .g6-svg-actions{display:flex;flex-wrap:wrap;gap:8px}
 body.etp-civics-lesson .g6-svg-actions button{padding:9px 12px;border-radius:8px;cursor:pointer}
-@media(max-width:900px){body.etp-civics-lesson .g5-jumps.civic-lesson-jumps{grid-template-columns:repeat(4,minmax(0,1fr))}}
-@media(max-width:640px){body.etp-civics-lesson .g5-jumps.civic-lesson-jumps{grid-template-columns:repeat(4,minmax(0,1fr));gap:3px}body.etp-civics-lesson .g5-jumps.civic-lesson-jumps a{font-size:11px;padding:7px 3px}body.etp-civics-lesson .g5-toolbar{padding:8px}body.etp-civics-lesson .g5-panel{padding:17px}}
+@media(max-width:900px){body.etp-civics-lesson .g5-jumps.civic-lesson-jumps{gap:4px}}
+@media(max-width:640px){body.etp-civics-lesson .g5-jumps.civic-lesson-jumps{gap:3px}body.etp-civics-lesson .g5-jumps.civic-lesson-jumps a{font-size:11px;padding:7px 3px}body.etp-civics-lesson .g5-toolbar{padding:8px}body.etp-civics-lesson .g5-panel{padding:17px}}
 @media(prefers-reduced-motion:reduce){body.etp-civics-lesson .g5-track>span{transition:none!important}}
