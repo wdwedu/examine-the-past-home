@@ -42,3 +42,22 @@
 1. Verify the live deployment of selected lesson and assessment routes; test desktop/mobile, keyboard, source links, scoring, reset, modal, copy and print.
 2. Review all nine unit questions against exact Maryland American Government indicators and limits and verify source provenance.
 3. Mark Grade 10 as classroom-certified only after verified independent review; then begin Grade 11 Modern World History.
+
+
+## Mandatory corrective build — November 20, 2026
+
+**The November 19 simplified lesson layout was NOT compliant with the approved Grade 5 template and is superseded.** The previous report's lesson presentation approval is replaced by this corrected baseline. The authored civics data, unit assessments and course colors were preserved.
+
+- **New production renderer:** `assets/grade10-grade5-matched-engine.js`, derived from the existing Grade 5/Grade 9 family of approved lesson mechanics, not the simplified `grade10-civics-lesson.js`.
+- **Template-aligned content:** `assets/grade10-grade5-matched-data.json`, retaining 9 units / 31 lesson topics, developed into three-stage readings and investigative tasks.
+- **Styling:** inherited `grade5-lesson-engine.css` + existing civics theme + `grade10-grade5-matched.css` (navy/red, white accents, black background, bright #fff200 headings).
+- **Universal required toolbar:** sticky timer with selectable 15-second–45-minute durations, countdown, start/pause/reset, sound toggle, responsive sticky progress meter, and icon section navigation.
+- **Full lesson sections:** plan and pacing; opening pre-check; vocabulary and lesson reading; embedded contextual educational video with source-comparison prompt; three-stage inquiry lab; independent/pair/group choices; five formative learning credits; civic writing and rubric; knowledge check; optional enrichment; documented source references and assessment link.
+- **Media:** all 31 lessons have a verified topical Crash Course Government & Politics video assignment, with a YouTube-nocookie embed and external watch link. Video is contextual instruction, NOT primary evidence. Episode selections are unit-based and may be shared by multiple lessons; every embed's live playback has not been confirmed.
+- **Presidents Challenge:** four suitable lessons retain an optional brain break and evidence-based return prompt.
+- **Template regression test:** `tests/grade10-template-parity.test.cjs` checks 18 required IDs/controls against the Grade 5 baseline, nine units, 31 lessons, 31 video assignments, four game connections, and updated lesson script versions. GitHub Actions QA workflow now includes it.
+- **QA performed:** All 31 lessons rendered with the full template in a synthetic DOM harness without exceptions; all 31 lesson HTML routes confirmed to request `history-hub-lesson.js?v=20261120-civics-template-v1`. 31/31 have key required toolbar, player, pre-check, inquiry, check and writing elements in their rendered markup. JavaScript syntax passes.
+- **Unchanged:** Nine unit assessment data sets and their existing 27-point scoring structure; the original Grade 5 lessons and other grades were not modified by this repair.
+- **Release distinction:** technical template and repository validation passed; actual deployed Chrome/mobile operation, external video playback, accessibility testing and independent classroom content certification are not represented as tested.
+
+**Current status:** GRADE 10 LESSON TEMPLATE REPAIR COMPLETE IN REPOSITORY; preserve this working model for future grades, with a required template-parity test before approval.
