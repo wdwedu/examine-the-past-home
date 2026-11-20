@@ -1,0 +1,1783 @@
+{
+  "version": "2026-11-20-upper-secondary-structure-v1",
+  "readingLevelNote": "Grade 12 inquiry. Editorial drafts require historical/source/video QA before classroom release.",
+  "units": {
+    "12.1": {
+      "source": [
+        "Library of Congress classroom primary sources",
+        "https://www.loc.gov/classroom-materials/primary-source-analysis-tool/"
+      ],
+      "video": [
+        "Topic-specific video: verification pending",
+        "",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": [],
+      "additionalSources": []
+    },
+    "12.2": {
+      "source": [
+        "Federal Reserve education resources",
+        "https://www.federalreserveeducation.org/"
+      ],
+      "video": [
+        "Topic-specific video: verification pending",
+        "",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": [],
+      "additionalSources": []
+    },
+    "12.3": {
+      "source": [
+        "Constitute Project constitutional texts",
+        "https://www.constituteproject.org/"
+      ],
+      "video": [
+        "Topic-specific video: verification pending",
+        "",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": [],
+      "additionalSources": []
+    },
+    "12.4": {
+      "source": [
+        "United States Census Bureau",
+        "https://www.census.gov/"
+      ],
+      "video": [
+        "Topic-specific video: verification pending",
+        "",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": [],
+      "additionalSources": []
+    },
+    "12.5": {
+      "source": [
+        "Smithsonian National Museum of American History",
+        "https://americanhistory.si.edu/"
+      ],
+      "video": [
+        "Topic-specific video: verification pending",
+        "",
+        0
+      ],
+      "trip": [],
+      "book": [],
+      "isbns": [],
+      "additionalSources": []
+    }
+  },
+  "lessons": {
+    "what-do-historians-actually-do": {
+      "title": "What Do Historians Actually Do?",
+      "unit": "12.1",
+      "unitTitle": "Historical Research and Historiography",
+      "seq": 1,
+      "total": 4,
+      "essential": "How can we use historical evidence to investigate what do historians actually do?",
+      "paragraphs": [
+        "Historians construct explanations from incomplete traces of the past. Primary sources, secondary arguments and archival silences demand separate kinds of scrutiny. This lesson focuses on what do historians actually do? within historical research and historiography. Begin by establishing the relevant time, place, actors, and the terms used in the inquiry. Ask which parts of the historical account are supported by contemporaneous evidence and which are later interpretations.",
+        "Evaluate provenance, competing interpretations and methodological choices before reaching a defensible historiographical judgment. For what do historians actually do?, compare at least two independently produced records or explanations. Document each creator, date, audience, purpose and geographic scope. If those details are unavailable, do not treat an unattributed claim as established evidence. Consider how discipline-specific frameworks, data selection and conceptual definitions influence the interpretation.",
+        "Interpretive challenge: How can we use historical evidence to investigate what do historians actually do? Assemble a provisional thesis, distinguish a source's statement from your inference, and test the thesis against counterevidence. Describe a methodological limitation, challenge an alternative explanation and propose a stronger research design. A responsible conclusion is open to revision when new records or perspectives emerge."
+      ],
+      "activity": "What Do Historians Actually Do? · Document comparison",
+      "task": "Develop a defensible analysis of what do historians actually do?, comparing contrasting evidence, testing one methodological assumption, and writing a qualified interpretation.",
+      "investigation": [
+        "Source study: select a dated, attributable primary record or dataset connected to What Do Historians Actually Do?. Record creator, origin, intended audience and one limitation. Cite the exact passage, image or observation.",
+        "Contrast: find an independent source or scholarly interpretation. Explain what it corroborates or disputes and how the historical setting shapes interpretation. Evaluate the research method or data design.",
+        "Synthesis: answer \"How can we use historical evidence to investigate what do historians actually do?\" using two pieces of evidence, one counterargument and a meaningful qualification. Propose what additional evidence could falsify your position."
+      ],
+      "options": [
+        "Compare contextualized sources about what do historians actually do? and explain where interpretations differ.",
+        "Assume all accounts of what do historians actually do? are equally reliable without checking authorship.",
+        "Use one undated image to prove every consequence of what do historians actually do?."
+      ],
+      "correct": 0,
+      "depth": "Grade 12 disciplinary inquiry · historiography, research evaluation, conceptual precision and policy/interpretive synthesis",
+      "vocabulary": [
+        "historiography",
+        "corroboration",
+        "methodology",
+        "interpretation"
+      ],
+      "checks": [
+        {
+          "prompt": "Which approach best supports a claim about What Do Historians Actually Do??",
+          "options": [
+            "Compare contextualized sources about what do historians actually do? and explain where interpretations differ.",
+            "Assume all accounts of what do historians actually do? are equally reliable without checking authorship.",
+            "Use one undated image to prove every consequence of what do historians actually do?."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should evidence about What Do Historians Actually Do? be checked?",
+          "options": [
+            "Compare dates, authors, purposes and independent corroboration.",
+            "Accept the most persuasive-sounding account without documentation.",
+            "Ignore evidence that complicates the initial claim."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What makes a conclusion about What Do Historians Actually Do? appropriately qualified?",
+          "options": [
+            "It declares that all historians agree.",
+            "It distinguishes verified evidence, alternative interpretations and unresolved limits.",
+            "It treats a modern illustration as a direct eyewitness record."
+          ],
+          "answer": 1
+        }
+      ],
+      "investigationKind": "compare",
+      "visual": {
+        "labels": [
+          "Historical context",
+          "Evidence and interpretations",
+          "Consequences and limitations"
+        ],
+        "descriptions": [
+          "Historians construct explanations from incomplete traces of the past. Primary sources, secondary arguments and archival silences demand",
+          "Evaluate provenance, competing interpretations and methodological choices before reaching a defensible historiographical judgment. For ",
+          "Interpretive challenge: How can we use historical evidence to investigate what do historians actually do? Assemble a provisional thesis"
+        ]
+      },
+      "references": [
+        {
+          "title": "Library of Congress classroom primary sources",
+          "creator": "Library of Congress classroom primary sources",
+          "date": "Reference collection",
+          "type": "Research gateway",
+          "url": "https://www.loc.gov/classroom-materials/primary-source-analysis-tool/",
+          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
+        }
+      ]
+    },
+    "evaluating-primary-and-secondary-sources": {
+      "title": "Evaluating Primary and Secondary Sources",
+      "unit": "12.1",
+      "unitTitle": "Historical Research and Historiography",
+      "seq": 2,
+      "total": 4,
+      "essential": "How can we use historical evidence to investigate evaluating primary and secondary sources?",
+      "paragraphs": [
+        "Historians construct explanations from incomplete traces of the past. Primary sources, secondary arguments and archival silences demand separate kinds of scrutiny. This lesson focuses on evaluating primary and secondary sources within historical research and historiography. Begin by establishing the relevant time, place, actors, and the terms used in the inquiry. Ask which parts of the historical account are supported by contemporaneous evidence and which are later interpretations.",
+        "Evaluate provenance, competing interpretations and methodological choices before reaching a defensible historiographical judgment. For evaluating primary and secondary sources, compare at least two independently produced records or explanations. Document each creator, date, audience, purpose and geographic scope. If those details are unavailable, do not treat an unattributed claim as established evidence. Consider how discipline-specific frameworks, data selection and conceptual definitions influence the interpretation.",
+        "Interpretive challenge: How can we use historical evidence to investigate evaluating primary and secondary sources? Assemble a provisional thesis, distinguish a source's statement from your inference, and test the thesis against counterevidence. Describe a methodological limitation, challenge an alternative explanation and propose a stronger research design. A responsible conclusion is open to revision when new records or perspectives emerge."
+      ],
+      "activity": "Evaluating Primary and Secondary Sources · Historical decision council",
+      "task": "Develop a defensible analysis of evaluating primary and secondary sources, comparing contrasting evidence, testing one methodological assumption, and writing a qualified interpretation.",
+      "investigation": [
+        "Source study: select a dated, attributable primary record or dataset connected to Evaluating Primary and Secondary Sources. Record creator, origin, intended audience and one limitation. Cite the exact passage, image or observation.",
+        "Contrast: find an independent source or scholarly interpretation. Explain what it corroborates or disputes and how the historical setting shapes interpretation. Evaluate the research method or data design.",
+        "Synthesis: answer \"How can we use historical evidence to investigate evaluating primary and secondary sources?\" using two pieces of evidence, one counterargument and a meaningful qualification. Propose what additional evidence could falsify your position."
+      ],
+      "options": [
+        "Compare contextualized sources about evaluating primary and secondary sources and explain where interpretations differ.",
+        "Assume all accounts of evaluating primary and secondary sources are equally reliable without checking authorship.",
+        "Use one undated image to prove every consequence of evaluating primary and secondary sources."
+      ],
+      "correct": 0,
+      "depth": "Grade 12 disciplinary inquiry · historiography, research evaluation, conceptual precision and policy/interpretive synthesis",
+      "vocabulary": [
+        "historiography",
+        "corroboration",
+        "methodology",
+        "interpretation"
+      ],
+      "checks": [
+        {
+          "prompt": "Which approach best supports a claim about Evaluating Primary and Secondary Sources?",
+          "options": [
+            "Compare contextualized sources about evaluating primary and secondary sources and explain where interpretations differ.",
+            "Assume all accounts of evaluating primary and secondary sources are equally reliable without checking authorship.",
+            "Use one undated image to prove every consequence of evaluating primary and secondary sources."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should evidence about Evaluating Primary and Secondary Sources be checked?",
+          "options": [
+            "Compare dates, authors, purposes and independent corroboration.",
+            "Accept the most persuasive-sounding account without documentation.",
+            "Ignore evidence that complicates the initial claim."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What makes a conclusion about Evaluating Primary and Secondary Sources appropriately qualified?",
+          "options": [
+            "It declares that all historians agree.",
+            "It distinguishes verified evidence, alternative interpretations and unresolved limits.",
+            "It treats a modern illustration as a direct eyewitness record."
+          ],
+          "answer": 1
+        }
+      ],
+      "investigationKind": "flow",
+      "visual": {
+        "labels": [
+          "Historical context",
+          "Evidence and interpretations",
+          "Consequences and limitations"
+        ],
+        "descriptions": [
+          "Historians construct explanations from incomplete traces of the past. Primary sources, secondary arguments and archival silences demand",
+          "Evaluate provenance, competing interpretations and methodological choices before reaching a defensible historiographical judgment. For ",
+          "Interpretive challenge: How can we use historical evidence to investigate evaluating primary and secondary sources? Assemble a provisio"
+        ]
+      },
+      "references": [
+        {
+          "title": "Library of Congress classroom primary sources",
+          "creator": "Library of Congress classroom primary sources",
+          "date": "Reference collection",
+          "type": "Research gateway",
+          "url": "https://www.loc.gov/classroom-materials/primary-source-analysis-tool/",
+          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
+        }
+      ]
+    },
+    "historical-interpretation-and-competing-narratives": {
+      "title": "Historical Interpretation and Competing Narratives",
+      "unit": "12.1",
+      "unitTitle": "Historical Research and Historiography",
+      "seq": 3,
+      "total": 4,
+      "essential": "How can we use historical evidence to investigate historical interpretation and competing narratives?",
+      "paragraphs": [
+        "Historians construct explanations from incomplete traces of the past. Primary sources, secondary arguments and archival silences demand separate kinds of scrutiny. This lesson focuses on historical interpretation and competing narratives within historical research and historiography. Begin by establishing the relevant time, place, actors, and the terms used in the inquiry. Ask which parts of the historical account are supported by contemporaneous evidence and which are later interpretations.",
+        "Evaluate provenance, competing interpretations and methodological choices before reaching a defensible historiographical judgment. For historical interpretation and competing narratives, compare at least two independently produced records or explanations. Document each creator, date, audience, purpose and geographic scope. If those details are unavailable, do not treat an unattributed claim as established evidence. Consider how discipline-specific frameworks, data selection and conceptual definitions influence the interpretation.",
+        "Interpretive challenge: How can we use historical evidence to investigate historical interpretation and competing narratives? Assemble a provisional thesis, distinguish a source's statement from your inference, and test the thesis against counterevidence. Describe a methodological limitation, challenge an alternative explanation and propose a stronger research design. A responsible conclusion is open to revision when new records or perspectives emerge."
+      ],
+      "activity": "Historical Interpretation and Competing Narratives · Visual evidence investigation",
+      "task": "Develop a defensible analysis of historical interpretation and competing narratives, comparing contrasting evidence, testing one methodological assumption, and writing a qualified interpretation.",
+      "investigation": [
+        "Source study: select a dated, attributable primary record or dataset connected to Historical Interpretation and Competing Narratives. Record creator, origin, intended audience and one limitation. Cite the exact passage, image or observation.",
+        "Contrast: find an independent source or scholarly interpretation. Explain what it corroborates or disputes and how the historical setting shapes interpretation. Evaluate the research method or data design.",
+        "Synthesis: answer \"How can we use historical evidence to investigate historical interpretation and competing narratives?\" using two pieces of evidence, one counterargument and a meaningful qualification. Propose what additional evidence could falsify your position."
+      ],
+      "options": [
+        "Compare contextualized sources about historical interpretation and competing narratives and explain where interpretations differ.",
+        "Assume all accounts of historical interpretation and competing narratives are equally reliable without checking authorship.",
+        "Use one undated image to prove every consequence of historical interpretation and competing narratives."
+      ],
+      "correct": 0,
+      "depth": "Grade 12 disciplinary inquiry · historiography, research evaluation, conceptual precision and policy/interpretive synthesis",
+      "vocabulary": [
+        "historiography",
+        "corroboration",
+        "methodology",
+        "interpretation"
+      ],
+      "checks": [
+        {
+          "prompt": "Which approach best supports a claim about Historical Interpretation and Competing Narratives?",
+          "options": [
+            "Compare contextualized sources about historical interpretation and competing narratives and explain where interpretations differ.",
+            "Assume all accounts of historical interpretation and competing narratives are equally reliable without checking authorship.",
+            "Use one undated image to prove every consequence of historical interpretation and competing narratives."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should evidence about Historical Interpretation and Competing Narratives be checked?",
+          "options": [
+            "Compare dates, authors, purposes and independent corroboration.",
+            "Accept the most persuasive-sounding account without documentation.",
+            "Ignore evidence that complicates the initial claim."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What makes a conclusion about Historical Interpretation and Competing Narratives appropriately qualified?",
+          "options": [
+            "It declares that all historians agree.",
+            "It distinguishes verified evidence, alternative interpretations and unresolved limits.",
+            "It treats a modern illustration as a direct eyewitness record."
+          ],
+          "answer": 1
+        }
+      ],
+      "investigationKind": "gallery",
+      "visual": {
+        "labels": [
+          "Historical context",
+          "Evidence and interpretations",
+          "Consequences and limitations"
+        ],
+        "descriptions": [
+          "Historians construct explanations from incomplete traces of the past. Primary sources, secondary arguments and archival silences demand",
+          "Evaluate provenance, competing interpretations and methodological choices before reaching a defensible historiographical judgment. For ",
+          "Interpretive challenge: How can we use historical evidence to investigate historical interpretation and competing narratives? Assemble "
+        ]
+      },
+      "references": [
+        {
+          "title": "Library of Congress classroom primary sources",
+          "creator": "Library of Congress classroom primary sources",
+          "date": "Reference collection",
+          "type": "Research gateway",
+          "url": "https://www.loc.gov/classroom-materials/primary-source-analysis-tool/",
+          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
+        }
+      ]
+    },
+    "designing-an-independent-historical-investigation": {
+      "title": "Designing an Independent Historical Investigation",
+      "unit": "12.1",
+      "unitTitle": "Historical Research and Historiography",
+      "seq": 4,
+      "total": 4,
+      "essential": "How can we use historical evidence to investigate designing an independent historical investigation?",
+      "paragraphs": [
+        "Historians construct explanations from incomplete traces of the past. Primary sources, secondary arguments and archival silences demand separate kinds of scrutiny. This lesson focuses on designing an independent historical investigation within historical research and historiography. Begin by establishing the relevant time, place, actors, and the terms used in the inquiry. Ask which parts of the historical account are supported by contemporaneous evidence and which are later interpretations.",
+        "Evaluate provenance, competing interpretations and methodological choices before reaching a defensible historiographical judgment. For designing an independent historical investigation, compare at least two independently produced records or explanations. Document each creator, date, audience, purpose and geographic scope. If those details are unavailable, do not treat an unattributed claim as established evidence. Consider how discipline-specific frameworks, data selection and conceptual definitions influence the interpretation.",
+        "Interpretive challenge: How can we use historical evidence to investigate designing an independent historical investigation? Assemble a provisional thesis, distinguish a source's statement from your inference, and test the thesis against counterevidence. Describe a methodological limitation, challenge an alternative explanation and propose a stronger research design. A responsible conclusion is open to revision when new records or perspectives emerge."
+      ],
+      "activity": "Designing an Independent Historical Investigation · Perspective hearing",
+      "task": "Develop a defensible analysis of designing an independent historical investigation, comparing contrasting evidence, testing one methodological assumption, and writing a qualified interpretation.",
+      "investigation": [
+        "Source study: select a dated, attributable primary record or dataset connected to Designing an Independent Historical Investigation. Record creator, origin, intended audience and one limitation. Cite the exact passage, image or observation.",
+        "Contrast: find an independent source or scholarly interpretation. Explain what it corroborates or disputes and how the historical setting shapes interpretation. Evaluate the research method or data design.",
+        "Synthesis: answer \"How can we use historical evidence to investigate designing an independent historical investigation?\" using two pieces of evidence, one counterargument and a meaningful qualification. Propose what additional evidence could falsify your position."
+      ],
+      "options": [
+        "Compare contextualized sources about designing an independent historical investigation and explain where interpretations differ.",
+        "Assume all accounts of designing an independent historical investigation are equally reliable without checking authorship.",
+        "Use one undated image to prove every consequence of designing an independent historical investigation."
+      ],
+      "correct": 0,
+      "depth": "Grade 12 disciplinary inquiry · historiography, research evaluation, conceptual precision and policy/interpretive synthesis",
+      "vocabulary": [
+        "historiography",
+        "corroboration",
+        "methodology",
+        "interpretation"
+      ],
+      "checks": [
+        {
+          "prompt": "Which approach best supports a claim about Designing an Independent Historical Investigation?",
+          "options": [
+            "Compare contextualized sources about designing an independent historical investigation and explain where interpretations differ.",
+            "Assume all accounts of designing an independent historical investigation are equally reliable without checking authorship.",
+            "Use one undated image to prove every consequence of designing an independent historical investigation."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should evidence about Designing an Independent Historical Investigation be checked?",
+          "options": [
+            "Compare dates, authors, purposes and independent corroboration.",
+            "Accept the most persuasive-sounding account without documentation.",
+            "Ignore evidence that complicates the initial claim."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What makes a conclusion about Designing an Independent Historical Investigation appropriately qualified?",
+          "options": [
+            "It declares that all historians agree.",
+            "It distinguishes verified evidence, alternative interpretations and unresolved limits.",
+            "It treats a modern illustration as a direct eyewitness record."
+          ],
+          "answer": 1
+        }
+      ],
+      "investigationKind": "debate",
+      "visual": {
+        "labels": [
+          "Historical context",
+          "Evidence and interpretations",
+          "Consequences and limitations"
+        ],
+        "descriptions": [
+          "Historians construct explanations from incomplete traces of the past. Primary sources, secondary arguments and archival silences demand",
+          "Evaluate provenance, competing interpretations and methodological choices before reaching a defensible historiographical judgment. For ",
+          "Interpretive challenge: How can we use historical evidence to investigate designing an independent historical investigation? Assemble a"
+        ]
+      },
+      "references": [
+        {
+          "title": "Library of Congress classroom primary sources",
+          "creator": "Library of Congress classroom primary sources",
+          "date": "Reference collection",
+          "type": "Research gateway",
+          "url": "https://www.loc.gov/classroom-materials/primary-source-analysis-tool/",
+          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
+        }
+      ]
+    },
+    "scarcity-choice-and-opportunity-cost": {
+      "title": "Scarcity, Choice, and Opportunity Cost",
+      "unit": "12.2",
+      "unitTitle": "Economics and Society",
+      "seq": 1,
+      "total": 4,
+      "essential": "How can we use historical evidence to investigate scarcity, choice, and opportunity cost?",
+      "paragraphs": [
+        "Economic systems distribute scarce resources through institutions, incentives and choices. Models can clarify tradeoffs but may omit historical and unequal distributions of power. This lesson focuses on scarcity, choice, and opportunity cost within economics and society. Begin by establishing the relevant time, place, actors, and the terms used in the inquiry. Ask which parts of the historical account are supported by contemporaneous evidence and which are later interpretations.",
+        "Test a model's assumptions with evidence and distinguish positive claims from value judgments and policy prescriptions. For scarcity, choice, and opportunity cost, compare at least two independently produced records or explanations. Document each creator, date, audience, purpose and geographic scope. If those details are unavailable, do not treat an unattributed claim as established evidence. Consider how discipline-specific frameworks, data selection and conceptual definitions influence the interpretation.",
+        "Interpretive challenge: How can we use historical evidence to investigate scarcity, choice, and opportunity cost? Assemble a provisional thesis, distinguish a source's statement from your inference, and test the thesis against counterevidence. Describe a methodological limitation, challenge an alternative explanation and propose a stronger research design. A responsible conclusion is open to revision when new records or perspectives emerge."
+      ],
+      "activity": "Scarcity, Choice, and Opportunity Cost · Timeline and causation lab",
+      "task": "Develop a defensible analysis of scarcity, choice, and opportunity cost, comparing contrasting evidence, testing one methodological assumption, and writing a qualified interpretation.",
+      "investigation": [
+        "Source study: select a dated, attributable primary record or dataset connected to Scarcity, Choice, and Opportunity Cost. Record creator, origin, intended audience and one limitation. Cite the exact passage, image or observation.",
+        "Contrast: find an independent source or scholarly interpretation. Explain what it corroborates or disputes and how the historical setting shapes interpretation. Evaluate the research method or data design.",
+        "Synthesis: answer \"How can we use historical evidence to investigate scarcity, choice, and opportunity cost?\" using two pieces of evidence, one counterargument and a meaningful qualification. Propose what additional evidence could falsify your position."
+      ],
+      "options": [
+        "Compare contextualized sources about scarcity, choice, and opportunity cost and explain where interpretations differ.",
+        "Assume all accounts of scarcity, choice, and opportunity cost are equally reliable without checking authorship.",
+        "Use one undated image to prove every consequence of scarcity, choice, and opportunity cost."
+      ],
+      "correct": 0,
+      "depth": "Grade 12 disciplinary inquiry · historiography, research evaluation, conceptual precision and policy/interpretive synthesis",
+      "vocabulary": [
+        "historiography",
+        "corroboration",
+        "methodology",
+        "interpretation"
+      ],
+      "checks": [
+        {
+          "prompt": "Which approach best supports a claim about Scarcity, Choice, and Opportunity Cost?",
+          "options": [
+            "Compare contextualized sources about scarcity, choice, and opportunity cost and explain where interpretations differ.",
+            "Assume all accounts of scarcity, choice, and opportunity cost are equally reliable without checking authorship.",
+            "Use one undated image to prove every consequence of scarcity, choice, and opportunity cost."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should evidence about Scarcity, Choice, and Opportunity Cost be checked?",
+          "options": [
+            "Compare dates, authors, purposes and independent corroboration.",
+            "Accept the most persuasive-sounding account without documentation.",
+            "Ignore evidence that complicates the initial claim."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What makes a conclusion about Scarcity, Choice, and Opportunity Cost appropriately qualified?",
+          "options": [
+            "It declares that all historians agree.",
+            "It distinguishes verified evidence, alternative interpretations and unresolved limits.",
+            "It treats a modern illustration as a direct eyewitness record."
+          ],
+          "answer": 1
+        }
+      ],
+      "investigationKind": "timeline",
+      "visual": {
+        "labels": [
+          "Historical context",
+          "Evidence and interpretations",
+          "Consequences and limitations"
+        ],
+        "descriptions": [
+          "Economic systems distribute scarce resources through institutions, incentives and choices. Models can clarify tradeoffs but may omit hi",
+          "Test a model's assumptions with evidence and distinguish positive claims from value judgments and policy prescriptions. For scarcity, c",
+          "Interpretive challenge: How can we use historical evidence to investigate scarcity, choice, and opportunity cost? Assemble a provisiona"
+        ]
+      },
+      "references": [
+        {
+          "title": "Federal Reserve education resources",
+          "creator": "Federal Reserve education resources",
+          "date": "Reference collection",
+          "type": "Research gateway",
+          "url": "https://www.federalreserveeducation.org/",
+          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
+        }
+      ]
+    },
+    "markets-and-economic-systems": {
+      "title": "Markets and Economic Systems",
+      "unit": "12.2",
+      "unitTitle": "Economics and Society",
+      "seq": 2,
+      "total": 4,
+      "essential": "How can we use historical evidence to investigate markets and economic systems?",
+      "paragraphs": [
+        "Economic systems distribute scarce resources through institutions, incentives and choices. Models can clarify tradeoffs but may omit historical and unequal distributions of power. This lesson focuses on markets and economic systems within economics and society. Begin by establishing the relevant time, place, actors, and the terms used in the inquiry. Ask which parts of the historical account are supported by contemporaneous evidence and which are later interpretations.",
+        "Test a model's assumptions with evidence and distinguish positive claims from value judgments and policy prescriptions. For markets and economic systems, compare at least two independently produced records or explanations. Document each creator, date, audience, purpose and geographic scope. If those details are unavailable, do not treat an unattributed claim as established evidence. Consider how discipline-specific frameworks, data selection and conceptual definitions influence the interpretation.",
+        "Interpretive challenge: How can we use historical evidence to investigate markets and economic systems? Assemble a provisional thesis, distinguish a source's statement from your inference, and test the thesis against counterevidence. Describe a methodological limitation, challenge an alternative explanation and propose a stronger research design. A responsible conclusion is open to revision when new records or perspectives emerge."
+      ],
+      "activity": "Markets and Economic Systems · Data and map critique",
+      "task": "Develop a defensible analysis of markets and economic systems, comparing contrasting evidence, testing one methodological assumption, and writing a qualified interpretation.",
+      "investigation": [
+        "Source study: select a dated, attributable primary record or dataset connected to Markets and Economic Systems. Record creator, origin, intended audience and one limitation. Cite the exact passage, image or observation.",
+        "Contrast: find an independent source or scholarly interpretation. Explain what it corroborates or disputes and how the historical setting shapes interpretation. Evaluate the research method or data design.",
+        "Synthesis: answer \"How can we use historical evidence to investigate markets and economic systems?\" using two pieces of evidence, one counterargument and a meaningful qualification. Propose what additional evidence could falsify your position."
+      ],
+      "options": [
+        "Compare contextualized sources about markets and economic systems and explain where interpretations differ.",
+        "Assume all accounts of markets and economic systems are equally reliable without checking authorship.",
+        "Use one undated image to prove every consequence of markets and economic systems."
+      ],
+      "correct": 0,
+      "depth": "Grade 12 disciplinary inquiry · historiography, research evaluation, conceptual precision and policy/interpretive synthesis",
+      "vocabulary": [
+        "historiography",
+        "corroboration",
+        "methodology",
+        "interpretation"
+      ],
+      "checks": [
+        {
+          "prompt": "Which approach best supports a claim about Markets and Economic Systems?",
+          "options": [
+            "Compare contextualized sources about markets and economic systems and explain where interpretations differ.",
+            "Assume all accounts of markets and economic systems are equally reliable without checking authorship.",
+            "Use one undated image to prove every consequence of markets and economic systems."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should evidence about Markets and Economic Systems be checked?",
+          "options": [
+            "Compare dates, authors, purposes and independent corroboration.",
+            "Accept the most persuasive-sounding account without documentation.",
+            "Ignore evidence that complicates the initial claim."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What makes a conclusion about Markets and Economic Systems appropriately qualified?",
+          "options": [
+            "It declares that all historians agree.",
+            "It distinguishes verified evidence, alternative interpretations and unresolved limits.",
+            "It treats a modern illustration as a direct eyewitness record."
+          ],
+          "answer": 1
+        }
+      ],
+      "investigationKind": "map",
+      "visual": {
+        "labels": [
+          "Historical context",
+          "Evidence and interpretations",
+          "Consequences and limitations"
+        ],
+        "descriptions": [
+          "Economic systems distribute scarce resources through institutions, incentives and choices. Models can clarify tradeoffs but may omit hi",
+          "Test a model's assumptions with evidence and distinguish positive claims from value judgments and policy prescriptions. For markets and",
+          "Interpretive challenge: How can we use historical evidence to investigate markets and economic systems? Assemble a provisional thesis, "
+        ]
+      },
+      "references": [
+        {
+          "title": "Federal Reserve education resources",
+          "creator": "Federal Reserve education resources",
+          "date": "Reference collection",
+          "type": "Research gateway",
+          "url": "https://www.federalreserveeducation.org/",
+          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
+        }
+      ]
+    },
+    "government-and-the-economy": {
+      "title": "Government and the Economy",
+      "unit": "12.2",
+      "unitTitle": "Economics and Society",
+      "seq": 3,
+      "total": 4,
+      "essential": "How can we use historical evidence to investigate government and the economy?",
+      "paragraphs": [
+        "Economic systems distribute scarce resources through institutions, incentives and choices. Models can clarify tradeoffs but may omit historical and unequal distributions of power. This lesson focuses on government and the economy within economics and society. Begin by establishing the relevant time, place, actors, and the terms used in the inquiry. Ask which parts of the historical account are supported by contemporaneous evidence and which are later interpretations.",
+        "Test a model's assumptions with evidence and distinguish positive claims from value judgments and policy prescriptions. For government and the economy, compare at least two independently produced records or explanations. Document each creator, date, audience, purpose and geographic scope. If those details are unavailable, do not treat an unattributed claim as established evidence. Consider how discipline-specific frameworks, data selection and conceptual definitions influence the interpretation.",
+        "Interpretive challenge: How can we use historical evidence to investigate government and the economy? Assemble a provisional thesis, distinguish a source's statement from your inference, and test the thesis against counterevidence. Describe a methodological limitation, challenge an alternative explanation and propose a stronger research design. A responsible conclusion is open to revision when new records or perspectives emerge."
+      ],
+      "activity": "Government and the Economy · Claim–counterclaim seminar",
+      "task": "Develop a defensible analysis of government and the economy, comparing contrasting evidence, testing one methodological assumption, and writing a qualified interpretation.",
+      "investigation": [
+        "Source study: select a dated, attributable primary record or dataset connected to Government and the Economy. Record creator, origin, intended audience and one limitation. Cite the exact passage, image or observation.",
+        "Contrast: find an independent source or scholarly interpretation. Explain what it corroborates or disputes and how the historical setting shapes interpretation. Evaluate the research method or data design.",
+        "Synthesis: answer \"How can we use historical evidence to investigate government and the economy?\" using two pieces of evidence, one counterargument and a meaningful qualification. Propose what additional evidence could falsify your position."
+      ],
+      "options": [
+        "Compare contextualized sources about government and the economy and explain where interpretations differ.",
+        "Assume all accounts of government and the economy are equally reliable without checking authorship.",
+        "Use one undated image to prove every consequence of government and the economy."
+      ],
+      "correct": 0,
+      "depth": "Grade 12 disciplinary inquiry · historiography, research evaluation, conceptual precision and policy/interpretive synthesis",
+      "vocabulary": [
+        "historiography",
+        "corroboration",
+        "methodology",
+        "interpretation"
+      ],
+      "checks": [
+        {
+          "prompt": "Which approach best supports a claim about Government and the Economy?",
+          "options": [
+            "Compare contextualized sources about government and the economy and explain where interpretations differ.",
+            "Assume all accounts of government and the economy are equally reliable without checking authorship.",
+            "Use one undated image to prove every consequence of government and the economy."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should evidence about Government and the Economy be checked?",
+          "options": [
+            "Compare dates, authors, purposes and independent corroboration.",
+            "Accept the most persuasive-sounding account without documentation.",
+            "Ignore evidence that complicates the initial claim."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What makes a conclusion about Government and the Economy appropriately qualified?",
+          "options": [
+            "It declares that all historians agree.",
+            "It distinguishes verified evidence, alternative interpretations and unresolved limits.",
+            "It treats a modern illustration as a direct eyewitness record."
+          ],
+          "answer": 1
+        }
+      ],
+      "investigationKind": "venn",
+      "visual": {
+        "labels": [
+          "Historical context",
+          "Evidence and interpretations",
+          "Consequences and limitations"
+        ],
+        "descriptions": [
+          "Economic systems distribute scarce resources through institutions, incentives and choices. Models can clarify tradeoffs but may omit hi",
+          "Test a model's assumptions with evidence and distinguish positive claims from value judgments and policy prescriptions. For government ",
+          "Interpretive challenge: How can we use historical evidence to investigate government and the economy? Assemble a provisional thesis, di"
+        ]
+      },
+      "references": [
+        {
+          "title": "Federal Reserve education resources",
+          "creator": "Federal Reserve education resources",
+          "date": "Reference collection",
+          "type": "Research gateway",
+          "url": "https://www.federalreserveeducation.org/",
+          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
+        }
+      ]
+    },
+    "economic-decisions-in-historical-context": {
+      "title": "Economic Decisions in Historical Context",
+      "unit": "12.2",
+      "unitTitle": "Economics and Society",
+      "seq": 4,
+      "total": 4,
+      "essential": "How can we use historical evidence to investigate economic decisions in historical context?",
+      "paragraphs": [
+        "Economic systems distribute scarce resources through institutions, incentives and choices. Models can clarify tradeoffs but may omit historical and unequal distributions of power. This lesson focuses on economic decisions in historical context within economics and society. Begin by establishing the relevant time, place, actors, and the terms used in the inquiry. Ask which parts of the historical account are supported by contemporaneous evidence and which are later interpretations.",
+        "Test a model's assumptions with evidence and distinguish positive claims from value judgments and policy prescriptions. For economic decisions in historical context, compare at least two independently produced records or explanations. Document each creator, date, audience, purpose and geographic scope. If those details are unavailable, do not treat an unattributed claim as established evidence. Consider how discipline-specific frameworks, data selection and conceptual definitions influence the interpretation.",
+        "Interpretive challenge: How can we use historical evidence to investigate economic decisions in historical context? Assemble a provisional thesis, distinguish a source's statement from your inference, and test the thesis against counterevidence. Describe a methodological limitation, challenge an alternative explanation and propose a stronger research design. A responsible conclusion is open to revision when new records or perspectives emerge."
+      ],
+      "activity": "Economic Decisions in Historical Context · Source reliability tribunal",
+      "task": "Develop a defensible analysis of economic decisions in historical context, comparing contrasting evidence, testing one methodological assumption, and writing a qualified interpretation.",
+      "investigation": [
+        "Source study: select a dated, attributable primary record or dataset connected to Economic Decisions in Historical Context. Record creator, origin, intended audience and one limitation. Cite the exact passage, image or observation.",
+        "Contrast: find an independent source or scholarly interpretation. Explain what it corroborates or disputes and how the historical setting shapes interpretation. Evaluate the research method or data design.",
+        "Synthesis: answer \"How can we use historical evidence to investigate economic decisions in historical context?\" using two pieces of evidence, one counterargument and a meaningful qualification. Propose what additional evidence could falsify your position."
+      ],
+      "options": [
+        "Compare contextualized sources about economic decisions in historical context and explain where interpretations differ.",
+        "Assume all accounts of economic decisions in historical context are equally reliable without checking authorship.",
+        "Use one undated image to prove every consequence of economic decisions in historical context."
+      ],
+      "correct": 0,
+      "depth": "Grade 12 disciplinary inquiry · historiography, research evaluation, conceptual precision and policy/interpretive synthesis",
+      "vocabulary": [
+        "historiography",
+        "corroboration",
+        "methodology",
+        "interpretation"
+      ],
+      "checks": [
+        {
+          "prompt": "Which approach best supports a claim about Economic Decisions in Historical Context?",
+          "options": [
+            "Compare contextualized sources about economic decisions in historical context and explain where interpretations differ.",
+            "Assume all accounts of economic decisions in historical context are equally reliable without checking authorship.",
+            "Use one undated image to prove every consequence of economic decisions in historical context."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should evidence about Economic Decisions in Historical Context be checked?",
+          "options": [
+            "Compare dates, authors, purposes and independent corroboration.",
+            "Accept the most persuasive-sounding account without documentation.",
+            "Ignore evidence that complicates the initial claim."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What makes a conclusion about Economic Decisions in Historical Context appropriately qualified?",
+          "options": [
+            "It declares that all historians agree.",
+            "It distinguishes verified evidence, alternative interpretations and unresolved limits.",
+            "It treats a modern illustration as a direct eyewitness record."
+          ],
+          "answer": 1
+        }
+      ],
+      "investigationKind": "network",
+      "visual": {
+        "labels": [
+          "Historical context",
+          "Evidence and interpretations",
+          "Consequences and limitations"
+        ],
+        "descriptions": [
+          "Economic systems distribute scarce resources through institutions, incentives and choices. Models can clarify tradeoffs but may omit hi",
+          "Test a model's assumptions with evidence and distinguish positive claims from value judgments and policy prescriptions. For economic de",
+          "Interpretive challenge: How can we use historical evidence to investigate economic decisions in historical context? Assemble a provisio"
+        ]
+      },
+      "references": [
+        {
+          "title": "Federal Reserve education resources",
+          "creator": "Federal Reserve education resources",
+          "date": "Reference collection",
+          "type": "Research gateway",
+          "url": "https://www.federalreserveeducation.org/",
+          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
+        }
+      ]
+    },
+    "democracy-and-authoritarianism": {
+      "title": "Democracy and Authoritarianism",
+      "unit": "12.3",
+      "unitTitle": "Comparative Government",
+      "seq": 1,
+      "total": 4,
+      "essential": "How can we use historical evidence to investigate democracy and authoritarianism?",
+      "paragraphs": [
+        "Political systems vary in the distribution and exercise of authority, rights protections, participation and accountability. Formal constitutional provisions do not alone establish how power operates. This lesson focuses on democracy and authoritarianism within comparative government. Begin by establishing the relevant time, place, actors, and the terms used in the inquiry. Ask which parts of the historical account are supported by contemporaneous evidence and which are later interpretations.",
+        "Compare institutions, policy implementation and lived experiences using current and historical evidence; avoid equating formal labels with outcomes. For democracy and authoritarianism, compare at least two independently produced records or explanations. Document each creator, date, audience, purpose and geographic scope. If those details are unavailable, do not treat an unattributed claim as established evidence. Consider how discipline-specific frameworks, data selection and conceptual definitions influence the interpretation.",
+        "Interpretive challenge: How can we use historical evidence to investigate democracy and authoritarianism? Assemble a provisional thesis, distinguish a source's statement from your inference, and test the thesis against counterevidence. Describe a methodological limitation, challenge an alternative explanation and propose a stronger research design. A responsible conclusion is open to revision when new records or perspectives emerge."
+      ],
+      "activity": "Democracy and Authoritarianism · Document comparison",
+      "task": "Develop a defensible analysis of democracy and authoritarianism, comparing contrasting evidence, testing one methodological assumption, and writing a qualified interpretation.",
+      "investigation": [
+        "Source study: select a dated, attributable primary record or dataset connected to Democracy and Authoritarianism. Record creator, origin, intended audience and one limitation. Cite the exact passage, image or observation.",
+        "Contrast: find an independent source or scholarly interpretation. Explain what it corroborates or disputes and how the historical setting shapes interpretation. Evaluate the research method or data design.",
+        "Synthesis: answer \"How can we use historical evidence to investigate democracy and authoritarianism?\" using two pieces of evidence, one counterargument and a meaningful qualification. Propose what additional evidence could falsify your position."
+      ],
+      "options": [
+        "Compare contextualized sources about democracy and authoritarianism and explain where interpretations differ.",
+        "Assume all accounts of democracy and authoritarianism are equally reliable without checking authorship.",
+        "Use one undated image to prove every consequence of democracy and authoritarianism."
+      ],
+      "correct": 0,
+      "depth": "Grade 12 disciplinary inquiry · historiography, research evaluation, conceptual precision and policy/interpretive synthesis",
+      "vocabulary": [
+        "historiography",
+        "corroboration",
+        "methodology",
+        "interpretation"
+      ],
+      "checks": [
+        {
+          "prompt": "Which approach best supports a claim about Democracy and Authoritarianism?",
+          "options": [
+            "Compare contextualized sources about democracy and authoritarianism and explain where interpretations differ.",
+            "Assume all accounts of democracy and authoritarianism are equally reliable without checking authorship.",
+            "Use one undated image to prove every consequence of democracy and authoritarianism."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should evidence about Democracy and Authoritarianism be checked?",
+          "options": [
+            "Compare dates, authors, purposes and independent corroboration.",
+            "Accept the most persuasive-sounding account without documentation.",
+            "Ignore evidence that complicates the initial claim."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What makes a conclusion about Democracy and Authoritarianism appropriately qualified?",
+          "options": [
+            "It declares that all historians agree.",
+            "It distinguishes verified evidence, alternative interpretations and unresolved limits.",
+            "It treats a modern illustration as a direct eyewitness record."
+          ],
+          "answer": 1
+        }
+      ],
+      "investigationKind": "compare",
+      "visual": {
+        "labels": [
+          "Historical context",
+          "Evidence and interpretations",
+          "Consequences and limitations"
+        ],
+        "descriptions": [
+          "Political systems vary in the distribution and exercise of authority, rights protections, participation and accountability. Formal cons",
+          "Compare institutions, policy implementation and lived experiences using current and historical evidence; avoid equating formal labels w",
+          "Interpretive challenge: How can we use historical evidence to investigate democracy and authoritarianism? Assemble a provisional thesis"
+        ]
+      },
+      "references": [
+        {
+          "title": "Constitute Project constitutional texts",
+          "creator": "Constitute Project constitutional texts",
+          "date": "Reference collection",
+          "type": "Research gateway",
+          "url": "https://www.constituteproject.org/",
+          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
+        }
+      ]
+    },
+    "comparing-political-institutions": {
+      "title": "Comparing Political Institutions",
+      "unit": "12.3",
+      "unitTitle": "Comparative Government",
+      "seq": 2,
+      "total": 4,
+      "essential": "How can we use historical evidence to investigate comparing political institutions?",
+      "paragraphs": [
+        "Political systems vary in the distribution and exercise of authority, rights protections, participation and accountability. Formal constitutional provisions do not alone establish how power operates. This lesson focuses on comparing political institutions within comparative government. Begin by establishing the relevant time, place, actors, and the terms used in the inquiry. Ask which parts of the historical account are supported by contemporaneous evidence and which are later interpretations.",
+        "Compare institutions, policy implementation and lived experiences using current and historical evidence; avoid equating formal labels with outcomes. For comparing political institutions, compare at least two independently produced records or explanations. Document each creator, date, audience, purpose and geographic scope. If those details are unavailable, do not treat an unattributed claim as established evidence. Consider how discipline-specific frameworks, data selection and conceptual definitions influence the interpretation.",
+        "Interpretive challenge: How can we use historical evidence to investigate comparing political institutions? Assemble a provisional thesis, distinguish a source's statement from your inference, and test the thesis against counterevidence. Describe a methodological limitation, challenge an alternative explanation and propose a stronger research design. A responsible conclusion is open to revision when new records or perspectives emerge."
+      ],
+      "activity": "Comparing Political Institutions · Historical decision council",
+      "task": "Develop a defensible analysis of comparing political institutions, comparing contrasting evidence, testing one methodological assumption, and writing a qualified interpretation.",
+      "investigation": [
+        "Source study: select a dated, attributable primary record or dataset connected to Comparing Political Institutions. Record creator, origin, intended audience and one limitation. Cite the exact passage, image or observation.",
+        "Contrast: find an independent source or scholarly interpretation. Explain what it corroborates or disputes and how the historical setting shapes interpretation. Evaluate the research method or data design.",
+        "Synthesis: answer \"How can we use historical evidence to investigate comparing political institutions?\" using two pieces of evidence, one counterargument and a meaningful qualification. Propose what additional evidence could falsify your position."
+      ],
+      "options": [
+        "Compare contextualized sources about comparing political institutions and explain where interpretations differ.",
+        "Assume all accounts of comparing political institutions are equally reliable without checking authorship.",
+        "Use one undated image to prove every consequence of comparing political institutions."
+      ],
+      "correct": 0,
+      "depth": "Grade 12 disciplinary inquiry · historiography, research evaluation, conceptual precision and policy/interpretive synthesis",
+      "vocabulary": [
+        "historiography",
+        "corroboration",
+        "methodology",
+        "interpretation"
+      ],
+      "checks": [
+        {
+          "prompt": "Which approach best supports a claim about Comparing Political Institutions?",
+          "options": [
+            "Compare contextualized sources about comparing political institutions and explain where interpretations differ.",
+            "Assume all accounts of comparing political institutions are equally reliable without checking authorship.",
+            "Use one undated image to prove every consequence of comparing political institutions."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should evidence about Comparing Political Institutions be checked?",
+          "options": [
+            "Compare dates, authors, purposes and independent corroboration.",
+            "Accept the most persuasive-sounding account without documentation.",
+            "Ignore evidence that complicates the initial claim."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What makes a conclusion about Comparing Political Institutions appropriately qualified?",
+          "options": [
+            "It declares that all historians agree.",
+            "It distinguishes verified evidence, alternative interpretations and unresolved limits.",
+            "It treats a modern illustration as a direct eyewitness record."
+          ],
+          "answer": 1
+        }
+      ],
+      "investigationKind": "flow",
+      "visual": {
+        "labels": [
+          "Historical context",
+          "Evidence and interpretations",
+          "Consequences and limitations"
+        ],
+        "descriptions": [
+          "Political systems vary in the distribution and exercise of authority, rights protections, participation and accountability. Formal cons",
+          "Compare institutions, policy implementation and lived experiences using current and historical evidence; avoid equating formal labels w",
+          "Interpretive challenge: How can we use historical evidence to investigate comparing political institutions? Assemble a provisional thes"
+        ]
+      },
+      "references": [
+        {
+          "title": "Constitute Project constitutional texts",
+          "creator": "Constitute Project constitutional texts",
+          "date": "Reference collection",
+          "type": "Research gateway",
+          "url": "https://www.constituteproject.org/",
+          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
+        }
+      ]
+    },
+    "rights-and-citizenship-around-the-world": {
+      "title": "Rights and Citizenship Around the World",
+      "unit": "12.3",
+      "unitTitle": "Comparative Government",
+      "seq": 3,
+      "total": 4,
+      "essential": "How can we use historical evidence to investigate rights and citizenship around the world?",
+      "paragraphs": [
+        "Political systems vary in the distribution and exercise of authority, rights protections, participation and accountability. Formal constitutional provisions do not alone establish how power operates. This lesson focuses on rights and citizenship around the world within comparative government. Begin by establishing the relevant time, place, actors, and the terms used in the inquiry. Ask which parts of the historical account are supported by contemporaneous evidence and which are later interpretations.",
+        "Compare institutions, policy implementation and lived experiences using current and historical evidence; avoid equating formal labels with outcomes. For rights and citizenship around the world, compare at least two independently produced records or explanations. Document each creator, date, audience, purpose and geographic scope. If those details are unavailable, do not treat an unattributed claim as established evidence. Consider how discipline-specific frameworks, data selection and conceptual definitions influence the interpretation.",
+        "Interpretive challenge: How can we use historical evidence to investigate rights and citizenship around the world? Assemble a provisional thesis, distinguish a source's statement from your inference, and test the thesis against counterevidence. Describe a methodological limitation, challenge an alternative explanation and propose a stronger research design. A responsible conclusion is open to revision when new records or perspectives emerge."
+      ],
+      "activity": "Rights and Citizenship Around the World · Visual evidence investigation",
+      "task": "Develop a defensible analysis of rights and citizenship around the world, comparing contrasting evidence, testing one methodological assumption, and writing a qualified interpretation.",
+      "investigation": [
+        "Source study: select a dated, attributable primary record or dataset connected to Rights and Citizenship Around the World. Record creator, origin, intended audience and one limitation. Cite the exact passage, image or observation.",
+        "Contrast: find an independent source or scholarly interpretation. Explain what it corroborates or disputes and how the historical setting shapes interpretation. Evaluate the research method or data design.",
+        "Synthesis: answer \"How can we use historical evidence to investigate rights and citizenship around the world?\" using two pieces of evidence, one counterargument and a meaningful qualification. Propose what additional evidence could falsify your position."
+      ],
+      "options": [
+        "Compare contextualized sources about rights and citizenship around the world and explain where interpretations differ.",
+        "Assume all accounts of rights and citizenship around the world are equally reliable without checking authorship.",
+        "Use one undated image to prove every consequence of rights and citizenship around the world."
+      ],
+      "correct": 0,
+      "depth": "Grade 12 disciplinary inquiry · historiography, research evaluation, conceptual precision and policy/interpretive synthesis",
+      "vocabulary": [
+        "historiography",
+        "corroboration",
+        "methodology",
+        "interpretation"
+      ],
+      "checks": [
+        {
+          "prompt": "Which approach best supports a claim about Rights and Citizenship Around the World?",
+          "options": [
+            "Compare contextualized sources about rights and citizenship around the world and explain where interpretations differ.",
+            "Assume all accounts of rights and citizenship around the world are equally reliable without checking authorship.",
+            "Use one undated image to prove every consequence of rights and citizenship around the world."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should evidence about Rights and Citizenship Around the World be checked?",
+          "options": [
+            "Compare dates, authors, purposes and independent corroboration.",
+            "Accept the most persuasive-sounding account without documentation.",
+            "Ignore evidence that complicates the initial claim."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What makes a conclusion about Rights and Citizenship Around the World appropriately qualified?",
+          "options": [
+            "It declares that all historians agree.",
+            "It distinguishes verified evidence, alternative interpretations and unresolved limits.",
+            "It treats a modern illustration as a direct eyewitness record."
+          ],
+          "answer": 1
+        }
+      ],
+      "investigationKind": "gallery",
+      "visual": {
+        "labels": [
+          "Historical context",
+          "Evidence and interpretations",
+          "Consequences and limitations"
+        ],
+        "descriptions": [
+          "Political systems vary in the distribution and exercise of authority, rights protections, participation and accountability. Formal cons",
+          "Compare institutions, policy implementation and lived experiences using current and historical evidence; avoid equating formal labels w",
+          "Interpretive challenge: How can we use historical evidence to investigate rights and citizenship around the world? Assemble a provision"
+        ]
+      },
+      "references": [
+        {
+          "title": "Constitute Project constitutional texts",
+          "creator": "Constitute Project constitutional texts",
+          "date": "Reference collection",
+          "type": "Research gateway",
+          "url": "https://www.constituteproject.org/",
+          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
+        }
+      ]
+    },
+    "political-systems-and-contemporary-challenges": {
+      "title": "Political Systems and Contemporary Challenges",
+      "unit": "12.3",
+      "unitTitle": "Comparative Government",
+      "seq": 4,
+      "total": 4,
+      "essential": "How can we use historical evidence to investigate political systems and contemporary challenges?",
+      "paragraphs": [
+        "Political systems vary in the distribution and exercise of authority, rights protections, participation and accountability. Formal constitutional provisions do not alone establish how power operates. This lesson focuses on political systems and contemporary challenges within comparative government. Begin by establishing the relevant time, place, actors, and the terms used in the inquiry. Ask which parts of the historical account are supported by contemporaneous evidence and which are later interpretations.",
+        "Compare institutions, policy implementation and lived experiences using current and historical evidence; avoid equating formal labels with outcomes. For political systems and contemporary challenges, compare at least two independently produced records or explanations. Document each creator, date, audience, purpose and geographic scope. If those details are unavailable, do not treat an unattributed claim as established evidence. Consider how discipline-specific frameworks, data selection and conceptual definitions influence the interpretation.",
+        "Interpretive challenge: How can we use historical evidence to investigate political systems and contemporary challenges? Assemble a provisional thesis, distinguish a source's statement from your inference, and test the thesis against counterevidence. Describe a methodological limitation, challenge an alternative explanation and propose a stronger research design. A responsible conclusion is open to revision when new records or perspectives emerge."
+      ],
+      "activity": "Political Systems and Contemporary Challenges · Perspective hearing",
+      "task": "Develop a defensible analysis of political systems and contemporary challenges, comparing contrasting evidence, testing one methodological assumption, and writing a qualified interpretation.",
+      "investigation": [
+        "Source study: select a dated, attributable primary record or dataset connected to Political Systems and Contemporary Challenges. Record creator, origin, intended audience and one limitation. Cite the exact passage, image or observation.",
+        "Contrast: find an independent source or scholarly interpretation. Explain what it corroborates or disputes and how the historical setting shapes interpretation. Evaluate the research method or data design.",
+        "Synthesis: answer \"How can we use historical evidence to investigate political systems and contemporary challenges?\" using two pieces of evidence, one counterargument and a meaningful qualification. Propose what additional evidence could falsify your position."
+      ],
+      "options": [
+        "Compare contextualized sources about political systems and contemporary challenges and explain where interpretations differ.",
+        "Assume all accounts of political systems and contemporary challenges are equally reliable without checking authorship.",
+        "Use one undated image to prove every consequence of political systems and contemporary challenges."
+      ],
+      "correct": 0,
+      "depth": "Grade 12 disciplinary inquiry · historiography, research evaluation, conceptual precision and policy/interpretive synthesis",
+      "vocabulary": [
+        "historiography",
+        "corroboration",
+        "methodology",
+        "interpretation"
+      ],
+      "checks": [
+        {
+          "prompt": "Which approach best supports a claim about Political Systems and Contemporary Challenges?",
+          "options": [
+            "Compare contextualized sources about political systems and contemporary challenges and explain where interpretations differ.",
+            "Assume all accounts of political systems and contemporary challenges are equally reliable without checking authorship.",
+            "Use one undated image to prove every consequence of political systems and contemporary challenges."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should evidence about Political Systems and Contemporary Challenges be checked?",
+          "options": [
+            "Compare dates, authors, purposes and independent corroboration.",
+            "Accept the most persuasive-sounding account without documentation.",
+            "Ignore evidence that complicates the initial claim."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What makes a conclusion about Political Systems and Contemporary Challenges appropriately qualified?",
+          "options": [
+            "It declares that all historians agree.",
+            "It distinguishes verified evidence, alternative interpretations and unresolved limits.",
+            "It treats a modern illustration as a direct eyewitness record."
+          ],
+          "answer": 1
+        }
+      ],
+      "investigationKind": "debate",
+      "visual": {
+        "labels": [
+          "Historical context",
+          "Evidence and interpretations",
+          "Consequences and limitations"
+        ],
+        "descriptions": [
+          "Political systems vary in the distribution and exercise of authority, rights protections, participation and accountability. Formal cons",
+          "Compare institutions, policy implementation and lived experiences using current and historical evidence; avoid equating formal labels w",
+          "Interpretive challenge: How can we use historical evidence to investigate political systems and contemporary challenges? Assemble a pro"
+        ]
+      },
+      "references": [
+        {
+          "title": "Constitute Project constitutional texts",
+          "creator": "Constitute Project constitutional texts",
+          "date": "Reference collection",
+          "type": "Research gateway",
+          "url": "https://www.constituteproject.org/",
+          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
+        }
+      ]
+    },
+    "population-and-migration-patterns": {
+      "title": "Population and Migration Patterns",
+      "unit": "12.4",
+      "unitTitle": "Human Geography",
+      "seq": 1,
+      "total": 4,
+      "essential": "How can we use historical evidence to investigate population and migration patterns?",
+      "paragraphs": [
+        "Human geography studies the changing patterns of settlement, migration, urbanization and place-based inequality. Maps and statistics require careful attention to scale and definition. This lesson focuses on population and migration patterns within human geography. Begin by establishing the relevant time, place, actors, and the terms used in the inquiry. Ask which parts of the historical account are supported by contemporaneous evidence and which are later interpretations.",
+        "Interpret spatial evidence critically, consider whose boundaries and categories the data use, and separate associations from explanations. For population and migration patterns, compare at least two independently produced records or explanations. Document each creator, date, audience, purpose and geographic scope. If those details are unavailable, do not treat an unattributed claim as established evidence. Consider how discipline-specific frameworks, data selection and conceptual definitions influence the interpretation.",
+        "Interpretive challenge: How can we use historical evidence to investigate population and migration patterns? Assemble a provisional thesis, distinguish a source's statement from your inference, and test the thesis against counterevidence. Describe a methodological limitation, challenge an alternative explanation and propose a stronger research design. A responsible conclusion is open to revision when new records or perspectives emerge."
+      ],
+      "activity": "Population and Migration Patterns · Timeline and causation lab",
+      "task": "Develop a defensible analysis of population and migration patterns, comparing contrasting evidence, testing one methodological assumption, and writing a qualified interpretation.",
+      "investigation": [
+        "Source study: select a dated, attributable primary record or dataset connected to Population and Migration Patterns. Record creator, origin, intended audience and one limitation. Cite the exact passage, image or observation.",
+        "Contrast: find an independent source or scholarly interpretation. Explain what it corroborates or disputes and how the historical setting shapes interpretation. Evaluate the research method or data design.",
+        "Synthesis: answer \"How can we use historical evidence to investigate population and migration patterns?\" using two pieces of evidence, one counterargument and a meaningful qualification. Propose what additional evidence could falsify your position."
+      ],
+      "options": [
+        "Compare contextualized sources about population and migration patterns and explain where interpretations differ.",
+        "Assume all accounts of population and migration patterns are equally reliable without checking authorship.",
+        "Use one undated image to prove every consequence of population and migration patterns."
+      ],
+      "correct": 0,
+      "depth": "Grade 12 disciplinary inquiry · historiography, research evaluation, conceptual precision and policy/interpretive synthesis",
+      "vocabulary": [
+        "historiography",
+        "corroboration",
+        "methodology",
+        "interpretation"
+      ],
+      "checks": [
+        {
+          "prompt": "Which approach best supports a claim about Population and Migration Patterns?",
+          "options": [
+            "Compare contextualized sources about population and migration patterns and explain where interpretations differ.",
+            "Assume all accounts of population and migration patterns are equally reliable without checking authorship.",
+            "Use one undated image to prove every consequence of population and migration patterns."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should evidence about Population and Migration Patterns be checked?",
+          "options": [
+            "Compare dates, authors, purposes and independent corroboration.",
+            "Accept the most persuasive-sounding account without documentation.",
+            "Ignore evidence that complicates the initial claim."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What makes a conclusion about Population and Migration Patterns appropriately qualified?",
+          "options": [
+            "It declares that all historians agree.",
+            "It distinguishes verified evidence, alternative interpretations and unresolved limits.",
+            "It treats a modern illustration as a direct eyewitness record."
+          ],
+          "answer": 1
+        }
+      ],
+      "investigationKind": "timeline",
+      "visual": {
+        "labels": [
+          "Historical context",
+          "Evidence and interpretations",
+          "Consequences and limitations"
+        ],
+        "descriptions": [
+          "Human geography studies the changing patterns of settlement, migration, urbanization and place-based inequality. Maps and statistics re",
+          "Interpret spatial evidence critically, consider whose boundaries and categories the data use, and separate associations from explanatio",
+          "Interpretive challenge: How can we use historical evidence to investigate population and migration patterns? Assemble a provisional the"
+        ]
+      },
+      "references": [
+        {
+          "title": "United States Census Bureau",
+          "creator": "United States Census Bureau",
+          "date": "Reference collection",
+          "type": "Research gateway",
+          "url": "https://www.census.gov/",
+          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
+        }
+      ]
+    },
+    "urbanization-and-global-cities": {
+      "title": "Urbanization and Global Cities",
+      "unit": "12.4",
+      "unitTitle": "Human Geography",
+      "seq": 2,
+      "total": 4,
+      "essential": "How can we use historical evidence to investigate urbanization and global cities?",
+      "paragraphs": [
+        "Human geography studies the changing patterns of settlement, migration, urbanization and place-based inequality. Maps and statistics require careful attention to scale and definition. This lesson focuses on urbanization and global cities within human geography. Begin by establishing the relevant time, place, actors, and the terms used in the inquiry. Ask which parts of the historical account are supported by contemporaneous evidence and which are later interpretations.",
+        "Interpret spatial evidence critically, consider whose boundaries and categories the data use, and separate associations from explanations. For urbanization and global cities, compare at least two independently produced records or explanations. Document each creator, date, audience, purpose and geographic scope. If those details are unavailable, do not treat an unattributed claim as established evidence. Consider how discipline-specific frameworks, data selection and conceptual definitions influence the interpretation.",
+        "Interpretive challenge: How can we use historical evidence to investigate urbanization and global cities? Assemble a provisional thesis, distinguish a source's statement from your inference, and test the thesis against counterevidence. Describe a methodological limitation, challenge an alternative explanation and propose a stronger research design. A responsible conclusion is open to revision when new records or perspectives emerge."
+      ],
+      "activity": "Urbanization and Global Cities · Data and map critique",
+      "task": "Develop a defensible analysis of urbanization and global cities, comparing contrasting evidence, testing one methodological assumption, and writing a qualified interpretation.",
+      "investigation": [
+        "Source study: select a dated, attributable primary record or dataset connected to Urbanization and Global Cities. Record creator, origin, intended audience and one limitation. Cite the exact passage, image or observation.",
+        "Contrast: find an independent source or scholarly interpretation. Explain what it corroborates or disputes and how the historical setting shapes interpretation. Evaluate the research method or data design.",
+        "Synthesis: answer \"How can we use historical evidence to investigate urbanization and global cities?\" using two pieces of evidence, one counterargument and a meaningful qualification. Propose what additional evidence could falsify your position."
+      ],
+      "options": [
+        "Compare contextualized sources about urbanization and global cities and explain where interpretations differ.",
+        "Assume all accounts of urbanization and global cities are equally reliable without checking authorship.",
+        "Use one undated image to prove every consequence of urbanization and global cities."
+      ],
+      "correct": 0,
+      "depth": "Grade 12 disciplinary inquiry · historiography, research evaluation, conceptual precision and policy/interpretive synthesis",
+      "vocabulary": [
+        "historiography",
+        "corroboration",
+        "methodology",
+        "interpretation"
+      ],
+      "checks": [
+        {
+          "prompt": "Which approach best supports a claim about Urbanization and Global Cities?",
+          "options": [
+            "Compare contextualized sources about urbanization and global cities and explain where interpretations differ.",
+            "Assume all accounts of urbanization and global cities are equally reliable without checking authorship.",
+            "Use one undated image to prove every consequence of urbanization and global cities."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should evidence about Urbanization and Global Cities be checked?",
+          "options": [
+            "Compare dates, authors, purposes and independent corroboration.",
+            "Accept the most persuasive-sounding account without documentation.",
+            "Ignore evidence that complicates the initial claim."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What makes a conclusion about Urbanization and Global Cities appropriately qualified?",
+          "options": [
+            "It declares that all historians agree.",
+            "It distinguishes verified evidence, alternative interpretations and unresolved limits.",
+            "It treats a modern illustration as a direct eyewitness record."
+          ],
+          "answer": 1
+        }
+      ],
+      "investigationKind": "map",
+      "visual": {
+        "labels": [
+          "Historical context",
+          "Evidence and interpretations",
+          "Consequences and limitations"
+        ],
+        "descriptions": [
+          "Human geography studies the changing patterns of settlement, migration, urbanization and place-based inequality. Maps and statistics re",
+          "Interpret spatial evidence critically, consider whose boundaries and categories the data use, and separate associations from explanatio",
+          "Interpretive challenge: How can we use historical evidence to investigate urbanization and global cities? Assemble a provisional thesis"
+        ]
+      },
+      "references": [
+        {
+          "title": "United States Census Bureau",
+          "creator": "United States Census Bureau",
+          "date": "Reference collection",
+          "type": "Research gateway",
+          "url": "https://www.census.gov/",
+          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
+        }
+      ]
+    },
+    "cultural-landscapes": {
+      "title": "Cultural Landscapes",
+      "unit": "12.4",
+      "unitTitle": "Human Geography",
+      "seq": 3,
+      "total": 4,
+      "essential": "How can we use historical evidence to investigate cultural landscapes?",
+      "paragraphs": [
+        "Human geography studies the changing patterns of settlement, migration, urbanization and place-based inequality. Maps and statistics require careful attention to scale and definition. This lesson focuses on cultural landscapes within human geography. Begin by establishing the relevant time, place, actors, and the terms used in the inquiry. Ask which parts of the historical account are supported by contemporaneous evidence and which are later interpretations.",
+        "Interpret spatial evidence critically, consider whose boundaries and categories the data use, and separate associations from explanations. For cultural landscapes, compare at least two independently produced records or explanations. Document each creator, date, audience, purpose and geographic scope. If those details are unavailable, do not treat an unattributed claim as established evidence. Consider how discipline-specific frameworks, data selection and conceptual definitions influence the interpretation.",
+        "Interpretive challenge: How can we use historical evidence to investigate cultural landscapes? Assemble a provisional thesis, distinguish a source's statement from your inference, and test the thesis against counterevidence. Describe a methodological limitation, challenge an alternative explanation and propose a stronger research design. A responsible conclusion is open to revision when new records or perspectives emerge."
+      ],
+      "activity": "Cultural Landscapes · Claim–counterclaim seminar",
+      "task": "Develop a defensible analysis of cultural landscapes, comparing contrasting evidence, testing one methodological assumption, and writing a qualified interpretation.",
+      "investigation": [
+        "Source study: select a dated, attributable primary record or dataset connected to Cultural Landscapes. Record creator, origin, intended audience and one limitation. Cite the exact passage, image or observation.",
+        "Contrast: find an independent source or scholarly interpretation. Explain what it corroborates or disputes and how the historical setting shapes interpretation. Evaluate the research method or data design.",
+        "Synthesis: answer \"How can we use historical evidence to investigate cultural landscapes?\" using two pieces of evidence, one counterargument and a meaningful qualification. Propose what additional evidence could falsify your position."
+      ],
+      "options": [
+        "Compare contextualized sources about cultural landscapes and explain where interpretations differ.",
+        "Assume all accounts of cultural landscapes are equally reliable without checking authorship.",
+        "Use one undated image to prove every consequence of cultural landscapes."
+      ],
+      "correct": 0,
+      "depth": "Grade 12 disciplinary inquiry · historiography, research evaluation, conceptual precision and policy/interpretive synthesis",
+      "vocabulary": [
+        "historiography",
+        "corroboration",
+        "methodology",
+        "interpretation"
+      ],
+      "checks": [
+        {
+          "prompt": "Which approach best supports a claim about Cultural Landscapes?",
+          "options": [
+            "Compare contextualized sources about cultural landscapes and explain where interpretations differ.",
+            "Assume all accounts of cultural landscapes are equally reliable without checking authorship.",
+            "Use one undated image to prove every consequence of cultural landscapes."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should evidence about Cultural Landscapes be checked?",
+          "options": [
+            "Compare dates, authors, purposes and independent corroboration.",
+            "Accept the most persuasive-sounding account without documentation.",
+            "Ignore evidence that complicates the initial claim."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What makes a conclusion about Cultural Landscapes appropriately qualified?",
+          "options": [
+            "It declares that all historians agree.",
+            "It distinguishes verified evidence, alternative interpretations and unresolved limits.",
+            "It treats a modern illustration as a direct eyewitness record."
+          ],
+          "answer": 1
+        }
+      ],
+      "investigationKind": "venn",
+      "visual": {
+        "labels": [
+          "Historical context",
+          "Evidence and interpretations",
+          "Consequences and limitations"
+        ],
+        "descriptions": [
+          "Human geography studies the changing patterns of settlement, migration, urbanization and place-based inequality. Maps and statistics re",
+          "Interpret spatial evidence critically, consider whose boundaries and categories the data use, and separate associations from explanatio",
+          "Interpretive challenge: How can we use historical evidence to investigate cultural landscapes? Assemble a provisional thesis, distingui"
+        ]
+      },
+      "references": [
+        {
+          "title": "United States Census Bureau",
+          "creator": "United States Census Bureau",
+          "date": "Reference collection",
+          "type": "Research gateway",
+          "url": "https://www.census.gov/",
+          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
+        }
+      ]
+    },
+    "geography-development-and-inequality": {
+      "title": "Geography, Development, and Inequality",
+      "unit": "12.4",
+      "unitTitle": "Human Geography",
+      "seq": 4,
+      "total": 4,
+      "essential": "How can we use historical evidence to investigate geography, development, and inequality?",
+      "paragraphs": [
+        "Human geography studies the changing patterns of settlement, migration, urbanization and place-based inequality. Maps and statistics require careful attention to scale and definition. This lesson focuses on geography, development, and inequality within human geography. Begin by establishing the relevant time, place, actors, and the terms used in the inquiry. Ask which parts of the historical account are supported by contemporaneous evidence and which are later interpretations.",
+        "Interpret spatial evidence critically, consider whose boundaries and categories the data use, and separate associations from explanations. For geography, development, and inequality, compare at least two independently produced records or explanations. Document each creator, date, audience, purpose and geographic scope. If those details are unavailable, do not treat an unattributed claim as established evidence. Consider how discipline-specific frameworks, data selection and conceptual definitions influence the interpretation.",
+        "Interpretive challenge: How can we use historical evidence to investigate geography, development, and inequality? Assemble a provisional thesis, distinguish a source's statement from your inference, and test the thesis against counterevidence. Describe a methodological limitation, challenge an alternative explanation and propose a stronger research design. A responsible conclusion is open to revision when new records or perspectives emerge."
+      ],
+      "activity": "Geography, Development, and Inequality · Source reliability tribunal",
+      "task": "Develop a defensible analysis of geography, development, and inequality, comparing contrasting evidence, testing one methodological assumption, and writing a qualified interpretation.",
+      "investigation": [
+        "Source study: select a dated, attributable primary record or dataset connected to Geography, Development, and Inequality. Record creator, origin, intended audience and one limitation. Cite the exact passage, image or observation.",
+        "Contrast: find an independent source or scholarly interpretation. Explain what it corroborates or disputes and how the historical setting shapes interpretation. Evaluate the research method or data design.",
+        "Synthesis: answer \"How can we use historical evidence to investigate geography, development, and inequality?\" using two pieces of evidence, one counterargument and a meaningful qualification. Propose what additional evidence could falsify your position."
+      ],
+      "options": [
+        "Compare contextualized sources about geography, development, and inequality and explain where interpretations differ.",
+        "Assume all accounts of geography, development, and inequality are equally reliable without checking authorship.",
+        "Use one undated image to prove every consequence of geography, development, and inequality."
+      ],
+      "correct": 0,
+      "depth": "Grade 12 disciplinary inquiry · historiography, research evaluation, conceptual precision and policy/interpretive synthesis",
+      "vocabulary": [
+        "historiography",
+        "corroboration",
+        "methodology",
+        "interpretation"
+      ],
+      "checks": [
+        {
+          "prompt": "Which approach best supports a claim about Geography, Development, and Inequality?",
+          "options": [
+            "Compare contextualized sources about geography, development, and inequality and explain where interpretations differ.",
+            "Assume all accounts of geography, development, and inequality are equally reliable without checking authorship.",
+            "Use one undated image to prove every consequence of geography, development, and inequality."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should evidence about Geography, Development, and Inequality be checked?",
+          "options": [
+            "Compare dates, authors, purposes and independent corroboration.",
+            "Accept the most persuasive-sounding account without documentation.",
+            "Ignore evidence that complicates the initial claim."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What makes a conclusion about Geography, Development, and Inequality appropriately qualified?",
+          "options": [
+            "It declares that all historians agree.",
+            "It distinguishes verified evidence, alternative interpretations and unresolved limits.",
+            "It treats a modern illustration as a direct eyewitness record."
+          ],
+          "answer": 1
+        }
+      ],
+      "investigationKind": "network",
+      "visual": {
+        "labels": [
+          "Historical context",
+          "Evidence and interpretations",
+          "Consequences and limitations"
+        ],
+        "descriptions": [
+          "Human geography studies the changing patterns of settlement, migration, urbanization and place-based inequality. Maps and statistics re",
+          "Interpret spatial evidence critically, consider whose boundaries and categories the data use, and separate associations from explanatio",
+          "Interpretive challenge: How can we use historical evidence to investigate geography, development, and inequality? Assemble a provisiona"
+        ]
+      },
+      "references": [
+        {
+          "title": "United States Census Bureau",
+          "creator": "United States Census Bureau",
+          "date": "Reference collection",
+          "type": "Research gateway",
+          "url": "https://www.census.gov/",
+          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
+        }
+      ]
+    },
+    "understanding-history-through-everyday-life": {
+      "title": "Understanding History Through Everyday Life",
+      "unit": "12.5",
+      "unitTitle": "Social and Cultural History",
+      "seq": 1,
+      "total": 4,
+      "essential": "How can we use historical evidence to investigate understanding history through everyday life?",
+      "paragraphs": [
+        "Social and cultural histories investigate everyday life, identity, institutions, communities and cultural expression. The available record is often uneven across groups. This lesson focuses on understanding history through everyday life within social and cultural history. Begin by establishing the relevant time, place, actors, and the terms used in the inquiry. Ask which parts of the historical account are supported by contemporaneous evidence and which are later interpretations.",
+        "Combine oral histories, objects, visual sources and written records; analyze agency and differences within communities without generalizing from a single example. For understanding history through everyday life, compare at least two independently produced records or explanations. Document each creator, date, audience, purpose and geographic scope. If those details are unavailable, do not treat an unattributed claim as established evidence. Consider how discipline-specific frameworks, data selection and conceptual definitions influence the interpretation.",
+        "Interpretive challenge: How can we use historical evidence to investigate understanding history through everyday life? Assemble a provisional thesis, distinguish a source's statement from your inference, and test the thesis against counterevidence. Describe a methodological limitation, challenge an alternative explanation and propose a stronger research design. A responsible conclusion is open to revision when new records or perspectives emerge."
+      ],
+      "activity": "Understanding History Through Everyday Life · Document comparison",
+      "task": "Develop a defensible analysis of understanding history through everyday life, comparing contrasting evidence, testing one methodological assumption, and writing a qualified interpretation.",
+      "investigation": [
+        "Source study: select a dated, attributable primary record or dataset connected to Understanding History Through Everyday Life. Record creator, origin, intended audience and one limitation. Cite the exact passage, image or observation.",
+        "Contrast: find an independent source or scholarly interpretation. Explain what it corroborates or disputes and how the historical setting shapes interpretation. Evaluate the research method or data design.",
+        "Synthesis: answer \"How can we use historical evidence to investigate understanding history through everyday life?\" using two pieces of evidence, one counterargument and a meaningful qualification. Propose what additional evidence could falsify your position."
+      ],
+      "options": [
+        "Compare contextualized sources about understanding history through everyday life and explain where interpretations differ.",
+        "Assume all accounts of understanding history through everyday life are equally reliable without checking authorship.",
+        "Use one undated image to prove every consequence of understanding history through everyday life."
+      ],
+      "correct": 0,
+      "depth": "Grade 12 disciplinary inquiry · historiography, research evaluation, conceptual precision and policy/interpretive synthesis",
+      "vocabulary": [
+        "historiography",
+        "corroboration",
+        "methodology",
+        "interpretation"
+      ],
+      "checks": [
+        {
+          "prompt": "Which approach best supports a claim about Understanding History Through Everyday Life?",
+          "options": [
+            "Compare contextualized sources about understanding history through everyday life and explain where interpretations differ.",
+            "Assume all accounts of understanding history through everyday life are equally reliable without checking authorship.",
+            "Use one undated image to prove every consequence of understanding history through everyday life."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should evidence about Understanding History Through Everyday Life be checked?",
+          "options": [
+            "Compare dates, authors, purposes and independent corroboration.",
+            "Accept the most persuasive-sounding account without documentation.",
+            "Ignore evidence that complicates the initial claim."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What makes a conclusion about Understanding History Through Everyday Life appropriately qualified?",
+          "options": [
+            "It declares that all historians agree.",
+            "It distinguishes verified evidence, alternative interpretations and unresolved limits.",
+            "It treats a modern illustration as a direct eyewitness record."
+          ],
+          "answer": 1
+        }
+      ],
+      "investigationKind": "compare",
+      "visual": {
+        "labels": [
+          "Historical context",
+          "Evidence and interpretations",
+          "Consequences and limitations"
+        ],
+        "descriptions": [
+          "Social and cultural histories investigate everyday life, identity, institutions, communities and cultural expression. The available rec",
+          "Combine oral histories, objects, visual sources and written records; analyze agency and differences within communities without generali",
+          "Interpretive challenge: How can we use historical evidence to investigate understanding history through everyday life? Assemble a provi"
+        ]
+      },
+      "references": [
+        {
+          "title": "Smithsonian National Museum of American History",
+          "creator": "Smithsonian National Museum of American History",
+          "date": "Reference collection",
+          "type": "Research gateway",
+          "url": "https://americanhistory.si.edu/",
+          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
+        }
+      ]
+    },
+    "sports-entertainment-and-social-change": {
+      "title": "Sports, Entertainment, and Social Change",
+      "unit": "12.5",
+      "unitTitle": "Social and Cultural History",
+      "seq": 2,
+      "total": 4,
+      "essential": "How can we use historical evidence to investigate sports, entertainment, and social change?",
+      "paragraphs": [
+        "Social and cultural histories investigate everyday life, identity, institutions, communities and cultural expression. The available record is often uneven across groups. This lesson focuses on sports, entertainment, and social change within social and cultural history. Begin by establishing the relevant time, place, actors, and the terms used in the inquiry. Ask which parts of the historical account are supported by contemporaneous evidence and which are later interpretations.",
+        "Combine oral histories, objects, visual sources and written records; analyze agency and differences within communities without generalizing from a single example. For sports, entertainment, and social change, compare at least two independently produced records or explanations. Document each creator, date, audience, purpose and geographic scope. If those details are unavailable, do not treat an unattributed claim as established evidence. Consider how discipline-specific frameworks, data selection and conceptual definitions influence the interpretation.",
+        "Interpretive challenge: How can we use historical evidence to investigate sports, entertainment, and social change? Assemble a provisional thesis, distinguish a source's statement from your inference, and test the thesis against counterevidence. Describe a methodological limitation, challenge an alternative explanation and propose a stronger research design. A responsible conclusion is open to revision when new records or perspectives emerge."
+      ],
+      "activity": "Sports, Entertainment, and Social Change · Historical decision council",
+      "task": "Develop a defensible analysis of sports, entertainment, and social change, comparing contrasting evidence, testing one methodological assumption, and writing a qualified interpretation.",
+      "investigation": [
+        "Source study: select a dated, attributable primary record or dataset connected to Sports, Entertainment, and Social Change. Record creator, origin, intended audience and one limitation. Cite the exact passage, image or observation.",
+        "Contrast: find an independent source or scholarly interpretation. Explain what it corroborates or disputes and how the historical setting shapes interpretation. Evaluate the research method or data design.",
+        "Synthesis: answer \"How can we use historical evidence to investigate sports, entertainment, and social change?\" using two pieces of evidence, one counterargument and a meaningful qualification. Propose what additional evidence could falsify your position."
+      ],
+      "options": [
+        "Compare contextualized sources about sports, entertainment, and social change and explain where interpretations differ.",
+        "Assume all accounts of sports, entertainment, and social change are equally reliable without checking authorship.",
+        "Use one undated image to prove every consequence of sports, entertainment, and social change."
+      ],
+      "correct": 0,
+      "depth": "Grade 12 disciplinary inquiry · historiography, research evaluation, conceptual precision and policy/interpretive synthesis",
+      "vocabulary": [
+        "historiography",
+        "corroboration",
+        "methodology",
+        "interpretation"
+      ],
+      "checks": [
+        {
+          "prompt": "Which approach best supports a claim about Sports, Entertainment, and Social Change?",
+          "options": [
+            "Compare contextualized sources about sports, entertainment, and social change and explain where interpretations differ.",
+            "Assume all accounts of sports, entertainment, and social change are equally reliable without checking authorship.",
+            "Use one undated image to prove every consequence of sports, entertainment, and social change."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should evidence about Sports, Entertainment, and Social Change be checked?",
+          "options": [
+            "Compare dates, authors, purposes and independent corroboration.",
+            "Accept the most persuasive-sounding account without documentation.",
+            "Ignore evidence that complicates the initial claim."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What makes a conclusion about Sports, Entertainment, and Social Change appropriately qualified?",
+          "options": [
+            "It declares that all historians agree.",
+            "It distinguishes verified evidence, alternative interpretations and unresolved limits.",
+            "It treats a modern illustration as a direct eyewitness record."
+          ],
+          "answer": 1
+        }
+      ],
+      "investigationKind": "flow",
+      "visual": {
+        "labels": [
+          "Historical context",
+          "Evidence and interpretations",
+          "Consequences and limitations"
+        ],
+        "descriptions": [
+          "Social and cultural histories investigate everyday life, identity, institutions, communities and cultural expression. The available rec",
+          "Combine oral histories, objects, visual sources and written records; analyze agency and differences within communities without generali",
+          "Interpretive challenge: How can we use historical evidence to investigate sports, entertainment, and social change? Assemble a provisio"
+        ]
+      },
+      "references": [
+        {
+          "title": "Smithsonian National Museum of American History",
+          "creator": "Smithsonian National Museum of American History",
+          "date": "Reference collection",
+          "type": "Research gateway",
+          "url": "https://americanhistory.si.edu/",
+          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
+        }
+      ]
+    },
+    "media-identity-and-historical-memory": {
+      "title": "Media, Identity, and Historical Memory",
+      "unit": "12.5",
+      "unitTitle": "Social and Cultural History",
+      "seq": 3,
+      "total": 4,
+      "essential": "How can we use historical evidence to investigate media, identity, and historical memory?",
+      "paragraphs": [
+        "Social and cultural histories investigate everyday life, identity, institutions, communities and cultural expression. The available record is often uneven across groups. This lesson focuses on media, identity, and historical memory within social and cultural history. Begin by establishing the relevant time, place, actors, and the terms used in the inquiry. Ask which parts of the historical account are supported by contemporaneous evidence and which are later interpretations.",
+        "Combine oral histories, objects, visual sources and written records; analyze agency and differences within communities without generalizing from a single example. For media, identity, and historical memory, compare at least two independently produced records or explanations. Document each creator, date, audience, purpose and geographic scope. If those details are unavailable, do not treat an unattributed claim as established evidence. Consider how discipline-specific frameworks, data selection and conceptual definitions influence the interpretation.",
+        "Interpretive challenge: How can we use historical evidence to investigate media, identity, and historical memory? Assemble a provisional thesis, distinguish a source's statement from your inference, and test the thesis against counterevidence. Describe a methodological limitation, challenge an alternative explanation and propose a stronger research design. A responsible conclusion is open to revision when new records or perspectives emerge."
+      ],
+      "activity": "Media, Identity, and Historical Memory · Visual evidence investigation",
+      "task": "Develop a defensible analysis of media, identity, and historical memory, comparing contrasting evidence, testing one methodological assumption, and writing a qualified interpretation.",
+      "investigation": [
+        "Source study: select a dated, attributable primary record or dataset connected to Media, Identity, and Historical Memory. Record creator, origin, intended audience and one limitation. Cite the exact passage, image or observation.",
+        "Contrast: find an independent source or scholarly interpretation. Explain what it corroborates or disputes and how the historical setting shapes interpretation. Evaluate the research method or data design.",
+        "Synthesis: answer \"How can we use historical evidence to investigate media, identity, and historical memory?\" using two pieces of evidence, one counterargument and a meaningful qualification. Propose what additional evidence could falsify your position."
+      ],
+      "options": [
+        "Compare contextualized sources about media, identity, and historical memory and explain where interpretations differ.",
+        "Assume all accounts of media, identity, and historical memory are equally reliable without checking authorship.",
+        "Use one undated image to prove every consequence of media, identity, and historical memory."
+      ],
+      "correct": 0,
+      "depth": "Grade 12 disciplinary inquiry · historiography, research evaluation, conceptual precision and policy/interpretive synthesis",
+      "vocabulary": [
+        "historiography",
+        "corroboration",
+        "methodology",
+        "interpretation"
+      ],
+      "checks": [
+        {
+          "prompt": "Which approach best supports a claim about Media, Identity, and Historical Memory?",
+          "options": [
+            "Compare contextualized sources about media, identity, and historical memory and explain where interpretations differ.",
+            "Assume all accounts of media, identity, and historical memory are equally reliable without checking authorship.",
+            "Use one undated image to prove every consequence of media, identity, and historical memory."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should evidence about Media, Identity, and Historical Memory be checked?",
+          "options": [
+            "Compare dates, authors, purposes and independent corroboration.",
+            "Accept the most persuasive-sounding account without documentation.",
+            "Ignore evidence that complicates the initial claim."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What makes a conclusion about Media, Identity, and Historical Memory appropriately qualified?",
+          "options": [
+            "It declares that all historians agree.",
+            "It distinguishes verified evidence, alternative interpretations and unresolved limits.",
+            "It treats a modern illustration as a direct eyewitness record."
+          ],
+          "answer": 1
+        }
+      ],
+      "investigationKind": "gallery",
+      "visual": {
+        "labels": [
+          "Historical context",
+          "Evidence and interpretations",
+          "Consequences and limitations"
+        ],
+        "descriptions": [
+          "Social and cultural histories investigate everyday life, identity, institutions, communities and cultural expression. The available rec",
+          "Combine oral histories, objects, visual sources and written records; analyze agency and differences within communities without generali",
+          "Interpretive challenge: How can we use historical evidence to investigate media, identity, and historical memory? Assemble a provisiona"
+        ]
+      },
+      "references": [
+        {
+          "title": "Smithsonian National Museum of American History",
+          "creator": "Smithsonian National Museum of American History",
+          "date": "Reference collection",
+          "type": "Research gateway",
+          "url": "https://americanhistory.si.edu/",
+          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
+        }
+      ]
+    },
+    "oral-history-and-community-storytelling": {
+      "title": "Oral History and Community Storytelling",
+      "unit": "12.5",
+      "unitTitle": "Social and Cultural History",
+      "seq": 4,
+      "total": 4,
+      "essential": "How can we use historical evidence to investigate oral history and community storytelling?",
+      "paragraphs": [
+        "Social and cultural histories investigate everyday life, identity, institutions, communities and cultural expression. The available record is often uneven across groups. This lesson focuses on oral history and community storytelling within social and cultural history. Begin by establishing the relevant time, place, actors, and the terms used in the inquiry. Ask which parts of the historical account are supported by contemporaneous evidence and which are later interpretations.",
+        "Combine oral histories, objects, visual sources and written records; analyze agency and differences within communities without generalizing from a single example. For oral history and community storytelling, compare at least two independently produced records or explanations. Document each creator, date, audience, purpose and geographic scope. If those details are unavailable, do not treat an unattributed claim as established evidence. Consider how discipline-specific frameworks, data selection and conceptual definitions influence the interpretation.",
+        "Interpretive challenge: How can we use historical evidence to investigate oral history and community storytelling? Assemble a provisional thesis, distinguish a source's statement from your inference, and test the thesis against counterevidence. Describe a methodological limitation, challenge an alternative explanation and propose a stronger research design. A responsible conclusion is open to revision when new records or perspectives emerge."
+      ],
+      "activity": "Oral History and Community Storytelling · Perspective hearing",
+      "task": "Develop a defensible analysis of oral history and community storytelling, comparing contrasting evidence, testing one methodological assumption, and writing a qualified interpretation.",
+      "investigation": [
+        "Source study: select a dated, attributable primary record or dataset connected to Oral History and Community Storytelling. Record creator, origin, intended audience and one limitation. Cite the exact passage, image or observation.",
+        "Contrast: find an independent source or scholarly interpretation. Explain what it corroborates or disputes and how the historical setting shapes interpretation. Evaluate the research method or data design.",
+        "Synthesis: answer \"How can we use historical evidence to investigate oral history and community storytelling?\" using two pieces of evidence, one counterargument and a meaningful qualification. Propose what additional evidence could falsify your position."
+      ],
+      "options": [
+        "Compare contextualized sources about oral history and community storytelling and explain where interpretations differ.",
+        "Assume all accounts of oral history and community storytelling are equally reliable without checking authorship.",
+        "Use one undated image to prove every consequence of oral history and community storytelling."
+      ],
+      "correct": 0,
+      "depth": "Grade 12 disciplinary inquiry · historiography, research evaluation, conceptual precision and policy/interpretive synthesis",
+      "vocabulary": [
+        "historiography",
+        "corroboration",
+        "methodology",
+        "interpretation"
+      ],
+      "checks": [
+        {
+          "prompt": "Which approach best supports a claim about Oral History and Community Storytelling?",
+          "options": [
+            "Compare contextualized sources about oral history and community storytelling and explain where interpretations differ.",
+            "Assume all accounts of oral history and community storytelling are equally reliable without checking authorship.",
+            "Use one undated image to prove every consequence of oral history and community storytelling."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "How should evidence about Oral History and Community Storytelling be checked?",
+          "options": [
+            "Compare dates, authors, purposes and independent corroboration.",
+            "Accept the most persuasive-sounding account without documentation.",
+            "Ignore evidence that complicates the initial claim."
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "What makes a conclusion about Oral History and Community Storytelling appropriately qualified?",
+          "options": [
+            "It declares that all historians agree.",
+            "It distinguishes verified evidence, alternative interpretations and unresolved limits.",
+            "It treats a modern illustration as a direct eyewitness record."
+          ],
+          "answer": 1
+        }
+      ],
+      "investigationKind": "debate",
+      "visual": {
+        "labels": [
+          "Historical context",
+          "Evidence and interpretations",
+          "Consequences and limitations"
+        ],
+        "descriptions": [
+          "Social and cultural histories investigate everyday life, identity, institutions, communities and cultural expression. The available rec",
+          "Combine oral histories, objects, visual sources and written records; analyze agency and differences within communities without generali",
+          "Interpretive challenge: How can we use historical evidence to investigate oral history and community storytelling? Assemble a provision"
+        ]
+      },
+      "references": [
+        {
+          "title": "Smithsonian National Museum of American History",
+          "creator": "Smithsonian National Museum of American History",
+          "date": "Reference collection",
+          "type": "Research gateway",
+          "url": "https://americanhistory.si.edu/",
+          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
+        }
+      ]
+    }
+  }
+}
