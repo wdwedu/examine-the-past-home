@@ -5,6 +5,7 @@ on:
       - "assets/grade10-civics-course-data.json"
       - "assets/grade10-civics-assessments-data.json"
       - "tests/grade10-civics.test.cjs"
+      - "tests/grade10-template-parity.test.cjs"
       - ".github/workflows/grade10-civics-qa.yml"
   pull_request:
     paths:
@@ -20,4 +21,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Validate lesson and assessment data
-        run: node tests/grade10-civics.test.cjs
+        run: |
+          node tests/grade10-civics.test.cjs
+          node tests/grade10-template-parity.test.cjs
