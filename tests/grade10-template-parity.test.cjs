@@ -39,7 +39,7 @@ for(const [slug,l] of Object.entries(data.lessons)){
  if(l.isPresidentsGame)game++;
  const file="lessons/curriculum/grade-10-civics-government/"+slug+"/index.html";
  const html=read(file);
- assert.ok(html.includes("history-hub-lesson.js?v=20261120-civics-eight-stage-v2"),slug+" must load approved lesson router");
+ assert.ok(html.includes("history-hub-lesson.js?v=20261120-grade10-final-v3"),slug+" must load approved lesson router");
 }
 assert.equal(game,4);
 const index=read("lessons/curriculum/grade-10-civics-government/index.html");
