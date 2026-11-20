@@ -13,6 +13,17 @@ const invariants=["g5-toolbar","g5-track","g5-duration","g5-clock","g5-start","g
 for(const id of invariants){assert.ok(base.includes(id),"Grade 5 baseline missing "+id);assert.ok(engine.includes(id),"Grade 10 regression: missing "+id)}
 assert.ok(router.includes("grade10-grade5-matched-engine.js"),"Grade 10 must use approved shared lesson structure");
 assert.ok(!router.includes("grade10-civics-lesson.js"),"Grade 10 must not revert to simplified renderer");
+const stages=["plan","launch","discover","apply","assess","closure","options","evidence"];
+for(const stage of stages){assert.ok(engine.includes("civic-stage-"+stage),"Missing canonical Grade 5 stage "+stage);}
+for(const name of ["Goals for Learning","Introduction","Guided Practice","Independent / Group Practice","Assessment","Closure","Extensions","Sources"]){assert.ok(engine.includes(name),"Missing original Grade 5 lesson heading "+name);}
+for(const dropdown of ["Standards","Essential Questions","Objectives","Pacing Options"]){assert.ok(engine.includes("<summary>"+dropdown+"</summary>"),"Missing original Grade 5 goals dropdown "+dropdown);}
+assert.ok(engine.includes("Preview the Unit"),"Final assessment must be previewable before completion");
+assert.ok(engine.includes("civic-exit-ticket"),"Closure must include an exit ticket");
+assert.ok(engine.includes("reframe(d);wire(d)"),"Original Grade 5 structure must be installed before event wiring");
+const theme=read("assets/grade10-grade5-matched.css");
+for(const stage of stages){assert.ok(theme.includes(".civic-stage-"+stage),"Missing grade 5 color stage "+stage);}
+assert.ok(theme.includes("background:#fff!important"),"Student writing inputs must be white");
+
 new Function(engine);
 new Function(router);
 let media=0,game=0;
@@ -33,4 +44,4 @@ for(const [slug,l] of Object.entries(data.lessons)){
 assert.equal(game,4);
 const index=read("lessons/curriculum/grade-10-civics-government/index.html");
 for(let i=1;i<=9;i++)assert.ok(index.includes("./unit-10-"+i+"-assessment/"),"missing assessment link 10."+i);
-console.log("PASS Grade 10: 31 lessons, 9 units, 18 approved Grade 5 controls, 31 embedded media configurations, 4 Presidents game connections.");
+console.log("PASS Grade 10: all 8 canonical lesson stages, 4 goals dropdowns, 31 lessons, 9 units, 18 timer/progress controls, 31 embedded media configurations.");
