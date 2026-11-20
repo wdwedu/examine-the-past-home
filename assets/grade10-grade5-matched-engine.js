@@ -104,6 +104,7 @@ function reframe(d){
  const writing=parts.apply.replace(/^<section[^>]*>/,'').replace(/<\/section>$/,'');
  independent=independent.replace('</section>','<div class="g5-activity civic-independent-writing">'+writing+'</div></section>');
  let assess=reshape("quiz","assess","assess","Assessment","05 · Check Understanding · Review Your Learning");
+ assess=assess.replace(/<div class="g5-activity"><h3>Exit ticket<\/h3>[\s\S]*?<\/div>/,"");
  const unitHref='../unit-'+d.unit.replace(".","-")+'-assessment/';
  const preview='<details class="civic-final-preview"><summary>Preview the Unit '+E(d.unit)+' Final Assessment</summary><div class="g5-detail"><p>The unit assessment is available to inspect before you finish the lesson. It includes evidence-based questions, an inquiry sequence, and a rubric for your written argument.</p><p><a href="'+E(unitHref)+'">Open the full Unit '+E(d.unit)+' Assessment</a></p><p>Lesson checks are separate from your final unit score. Writing self-ratings require teacher review.</p></div></details>';
  assess=assess.replace('</section>',preview+'</section>');
@@ -193,5 +194,5 @@ function wire(d){
  QA("[data-source-good]").forEach(b=>b.onclick=()=>{const ok=b.dataset.sourceGood==="true";Q("#g5-source-result").textContent=ok?"Correct. Corroboration and missing perspectives matter.":"Review historical sourcing. Context matters more than confidence.";assess("reliability",ok,b)});
  Q("#g5-copy").onclick=()=>{const txt=Q("#g5-written").value,o=Q("#g5-copy-result");if(!txt.trim()){o.textContent="Write a response first.";return}if(navigator.clipboard&&isSecureContext)navigator.clipboard.writeText(txt).then(()=>o.textContent="Copied.").catch(()=>o.textContent="Select text manually.");else{Q("#g5-written").select();o.textContent="Selected. Copy using your device."}};
 }
-fetch(root+"assets/grade10-grade5-matched-data.json?v=20261120-template-v1").then(r=>{if(!r.ok)throw Error("Data unavailable");return r.json()}).then(all=>{if(!all.lessons[slug])throw Error("Lesson missing");build(all.lessons[slug],all)}).catch(err=>{console.error(err);const target=page.querySelector(".etp-preview-label");if(target)target.textContent="Lesson content unavailable. Refresh or return to course.";});
+fetch(root+"assets/grade10-grade5-matched-data.json?v=20261120-template-v2").then(r=>{if(!r.ok)throw Error("Data unavailable");return r.json()}).then(all=>{if(!all.lessons[slug])throw Error("Lesson missing");build(all.lessons[slug],all)}).catch(err=>{console.error(err);const target=page.querySelector(".etp-preview-label");if(target)target.textContent="Lesson content unavailable. Refresh or return to course.";});
 })();
