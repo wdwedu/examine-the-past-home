@@ -61,3 +61,27 @@
 - **Release distinction:** technical template and repository validation passed; actual deployed Chrome/mobile operation, external video playback, accessibility testing and independent classroom content certification are not represented as tested.
 
 **Current status:** GRADE 10 LESSON TEMPLATE REPAIR COMPLETE IN REPOSITORY; preserve this working model for future grades, with a required template-parity test before approval.
+
+## Corrected canonical lesson-plan presentation — November 20, 2026 (v2)
+
+The earlier November 20 template repair restored the timer and progress mechanics but **did not** reproduce the original Grade 5 eight instructional stages and color plan. Its presentation approval is superseded by this v2.
+
+Original lesson-plan reference: `lessons/curriculum/grade-5-early-american-history/north-america-before-european-colonization/index.html`. The Grade 5 French and Indian War page is a different generic lesson engine; the original first lesson uses the user's authored eight-stage instructional structure.
+
+**Canonical stages and matching sticky navigation**
+1. Goals for Learning — dark green; **Standards, Essential Questions, Objectives, Pacing Options** dropdowns.
+2. Introduction — dark blue; formative pre-check, vocabulary, opening note-taking.
+3. Guided Practice — dark red; three-stage reading, embedded relevant YouTube video, source verification and modeled checks.
+4. Independent / Group Practice — purple; solo/partner/group choice, civic-source investigation, written argument and 3-stage inquiry.
+5. Assessment — dark green; five formative lesson credits, independent unit assessment link and expandable **preview** regardless of lesson completion.
+6. Closure — brownish gold; essential-question revisit and a written evidence-based exit ticket.
+7. Extensions — dark blue; optional deeper sources, media and Presidents Challenge in four relevant lessons.
+8. Sources — dark gray; documented government records, primary/secondary source labels and instructional reference links.
+
+Design: original ETP dark surfaces and #fff200 yellow title/highlight, white note inputs. Grade 10's actual curriculum content, age-appropriate legal/civic reasoning and nine unit assessments unchanged.
+
+**Technical version:** `history-hub-lesson.js?v=20261120-civics-eight-stage-v2` in all 31 lesson pages. This loads `grade10-grade5-matched-engine.js?v=20261120-civics-v2`, `grade10-grade5-matched.css?v=20261120-civics-v2`, and `grade10-grade5-matched-data.json?v=20261120-template-v2`.
+
+**QA executed:** Synthetic renderer produced all eight sections in correct order for 31/31 lessons; all 31 included four dropdowns, 31 embedded players, 31 assessment previews, 31 writing/closure response fields, and no renderer errors in synthetic checks. Shared timer/progress controls retained from approved Grade 5 family; 15 lesson-specific video choices selected against identifiable Crash Course content, remaining lesson videos assigned by unit and should continue receiving topic-level review. CI parity test strengthened to require original eight stages and color rules. This is code/render QA, NOT independent classroom or actual browser playback verification.
+
+**Next grade requirement:** Grade 11 and Grade 12 must use this original eight-stage lesson-plan contract (not a separate, simplified engine), preserving color and universal controls while increasing historical sophistication and activity variation.
