@@ -3248,8 +3248,8 @@
       "activity": "September 11 and Its Consequences · Evidence Investigation",
       "task": "Write a claim about September 11 and Its Consequences with two corroborating details, a plausible counterargument, and an explicit qualification.",
       "investigation": [
-        "Identify a dated historical document bearing on September 11 and Its Consequences. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of September 11 and Its Consequences. Distinguish what the evidence supports from later interpretation.",
+        "Select one dated, attributed item relevant to September 11 and Its Consequences from September 11 Memorial & Museum Collections. Record the creator, its publication or creation date, the audience and a concrete claim it supports.",
+        "Corroborate the selected record with another independent source and distinguish information documented at the time from later interpretation about September 11 and Its Consequences.",
         "Write a claim about September 11 and Its Consequences with two corroborating details, a plausible counterargument, and an explicit qualification."
       ],
       "options": [
@@ -3306,7 +3306,17 @@
           "Analyze verified timelines and official records alongside affected communities' perspectives. Avoid sensational imagery, conspiracy claims, and treating all Muslims as respons"
         ]
       },
-      "investigationKind": "rights"
+      "investigationKind": "rights",
+      "references": [
+        {
+          "title": "September 11 Memorial & Museum Collections",
+          "creator": "September 11 Memorial & Museum Collections",
+          "date": "Research collection",
+          "type": "Research gateway",
+          "url": "https://www.911memorial.org/learn/resources",
+          "summary": "Use this institution's collection to select and verify individual historical records; the collection link is not itself proof for a specific lesson claim."
+        }
+      ]
     },
     "technology-and-american-society": {
       "title": "Technology and American Society",
@@ -3323,8 +3333,8 @@
       "activity": "Technology and American Society · Evidence Investigation",
       "task": "Write a claim about Technology and American Society with two corroborating details, a plausible counterargument, and an explicit qualification.",
       "investigation": [
-        "Identify a dated historical document bearing on Technology and American Society. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of Technology and American Society. Distinguish what the evidence supports from later interpretation.",
+        "Select one dated, attributed item relevant to Technology and American Society from Smithsonian National Museum of American History. Record the creator, its publication or creation date, the audience and a concrete claim it supports.",
+        "Corroborate the selected record with another independent source and distinguish information documented at the time from later interpretation about Technology and American Society.",
         "Write a claim about Technology and American Society with two corroborating details, a plausible counterargument, and an explicit qualification."
       ],
       "options": [
@@ -3381,7 +3391,17 @@
           "Compare the claims of a platform, an independent study, and a user survey. Ask what the available data establish about causation rather than assuming every social change came "
         ]
       },
-      "investigationKind": "data"
+      "investigationKind": "data",
+      "references": [
+        {
+          "title": "Smithsonian National Museum of American History",
+          "creator": "Smithsonian National Museum of American History",
+          "date": "Research collection",
+          "type": "Research gateway",
+          "url": "https://americanhistory.si.edu/",
+          "summary": "Use this institution's collection to select and verify individual historical records; the collection link is not itself proof for a specific lesson claim."
+        }
+      ]
     },
     "contemporary-civil-rights-and-civic-movements": {
       "title": "Contemporary Civil Rights and Civic Movements",
@@ -3398,8 +3418,8 @@
       "activity": "Contemporary Civil Rights and Civic Movements · Evidence Investigation",
       "task": "Write a claim about Contemporary Civil Rights and Civic Movements with two corroborating details, a plausible counterargument, and an explicit qualification.",
       "investigation": [
-        "Identify a dated historical document bearing on Contemporary Civil Rights and Civic Movements. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of Contemporary Civil Rights and Civic Movements. Distinguish what the evidence supports from later interpretation.",
+        "Select one dated, attributed item relevant to Contemporary Civil Rights and Civic Movements from Library of Congress Civil Rights History Project. Record the creator, its publication or creation date, the audience and a concrete claim it supports.",
+        "Corroborate the selected record with another independent source and distinguish information documented at the time from later interpretation about Contemporary Civil Rights and Civic Movements.",
         "Write a claim about Contemporary Civil Rights and Civic Movements with two corroborating details, a plausible counterargument, and an explicit qualification."
       ],
       "options": [
@@ -3456,7 +3476,17 @@
           "Compare organizational statements with laws and carefully sourced outcomes. Represent competing interpretations fairly while avoiding false equivalence between unsupported cla"
         ]
       },
-      "investigationKind": "map"
+      "investigationKind": "map",
+      "references": [
+        {
+          "title": "Library of Congress Civil Rights History Project",
+          "creator": "Library of Congress Civil Rights History Project",
+          "date": "Research collection",
+          "type": "Research gateway",
+          "url": "https://www.loc.gov/collections/civil-rights-history-project/",
+          "summary": "Use this institution's collection to select and verify individual historical records; the collection link is not itself proof for a specific lesson claim."
+        }
+      ]
     },
     "america-in-a-changing-world": {
       "title": "America in a Changing World",
@@ -3473,8 +3503,8 @@
       "activity": "America in a Changing World · Evidence Investigation",
       "task": "Write a claim about America in a Changing World with two corroborating details, a plausible counterargument, and an explicit qualification.",
       "investigation": [
-        "Identify a dated historical document bearing on America in a Changing World. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of America in a Changing World. Distinguish what the evidence supports from later interpretation.",
+        "Select one dated, attributed item relevant to America in a Changing World from National Archives Educator Resources. Record the creator, its publication or creation date, the audience and a concrete claim it supports.",
+        "Corroborate the selected record with another independent source and distinguish information documented at the time from later interpretation about America in a Changing World.",
         "Write a claim about America in a Changing World with two corroborating details, a plausible counterargument, and an explicit qualification."
       ],
       "options": [
@@ -3531,7 +3561,17 @@
           "Use a dated policy document, independent dataset, and perspective from an affected country. Make a defensible claim that acknowledges uncertainty rather than treating a presen"
         ]
       },
-      "investigationKind": "debate"
+      "investigationKind": "debate",
+      "references": [
+        {
+          "title": "National Archives Educator Resources",
+          "creator": "National Archives Educator Resources",
+          "date": "Research collection",
+          "type": "Research gateway",
+          "url": "https://www.archives.gov/education",
+          "summary": "Use this institution's collection to select and verify individual historical records; the collection link is not itself proof for a specific lesson claim."
+        }
+      ]
     }
   }
 }
