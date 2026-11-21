@@ -103,6 +103,17 @@ function reframe(d){
  let independent=reshape("lab","apply","apply","Independent / Group Practice","04 · Collaborate · Investigate · Create");
  const writing=parts.apply.replace(/^<section[^>]*>/,'').replace(/<\/section>$/,'');
  independent=independent.replace('</section>','<div class="g5-activity civic-independent-writing">'+writing+'</div></section>');
+ const workshop=d.researchWorkshop;
+ if(workshop){
+  const list=(items)=>'<ol>'+items.map(x=>'<li>'+E(x)+'</li>').join('')+'</ol>';
+  const sourceLink=workshop.source?.url?'<p><strong>Research resource:</strong> '+A(workshop.source.url,workshop.source.title)+'</p>':'';
+  const prompt='<div class="g5-activity g5-research-workshop"><h3>'+ (grade===12?'Senior Research Workshop':'Historical Evidence Workshop')+'</h3><p>'+E(workshop.focus)+'</p>'+sourceLink+
+   '<h4>Required deliverables</h4>'+list(workshop.deliverables||[])+
+   '<details><summary>Research quality rubric</summary><div class="g5-detail">'+list(workshop.rubric||[])+'</div></details>'+
+   '<label for="g5-research-plan">Research plan, source notes, and evidence</label><textarea class="g5-writing" id="g5-research-plan" rows="7" placeholder="Research question… Source and date… Evidence… Counterevidence… Limitation…"></textarea><p>Work stays in this browser session unless copied. Check each cited item directly; an institutional gateway is not evidence for a particular claim.</p></div>';
+  independent=independent.replace('</section>',prompt+'</section>');
+ }
+
  let assess=reshape("quiz","assess","assess","Assessment","05 · Check Understanding · Review Your Learning");
  assess=assess.replace(/<div class="g5-activity"><h3>Exit ticket<\/h3>[\s\S]*?<\/div>/,"");
  const unitHref='../unit-'+d.unit.replace(".","-")+'-assessment/';
@@ -194,5 +205,5 @@ function wire(d){
  QA("[data-source-good]").forEach(b=>b.onclick=()=>{const ok=b.dataset.sourceGood==="true";Q("#g5-source-result").textContent=ok?"Correct. Corroboration and missing perspectives matter.":"Review historical sourcing. Context matters more than confidence.";assess("reliability",ok,b)});
  Q("#g5-copy").onclick=()=>{const txt=Q("#g5-written").value,o=Q("#g5-copy-result");if(!txt.trim()){o.textContent="Write a response first.";return}if(navigator.clipboard&&isSecureContext)navigator.clipboard.writeText(txt).then(()=>o.textContent="Copied.").catch(()=>o.textContent="Select text manually.");else{Q("#g5-written").select();o.textContent="Selected. Copy using your device."}};
 }
-fetch(root+(grade===11?"assets/grade11-grade5-matched-data.json?v=20261120-upper-v1":"assets/grade12-grade5-matched-data.json?v=20261120-upper-v1")).then(r=>{if(!r.ok)throw Error("Data unavailable");return r.json()}).then(all=>{if(!all.lessons[slug])throw Error("Lesson missing");build(all.lessons[slug],all)}).catch(err=>{console.error(err);const target=page.querySelector(".etp-preview-label");if(target)target.textContent="Lesson content unavailable. Refresh or return to course.";});
+fetch(root+(grade===11?"assets/grade11-grade5-matched-data.json?v=20261121-content-v2":"assets/grade12-grade5-matched-data.json?v=20261121-research-v2")).then(r=>{if(!r.ok)throw Error("Data unavailable");return r.json()}).then(all=>{if(!all.lessons[slug])throw Error("Lesson missing");build(all.lessons[slug],all)}).catch(err=>{console.error(err);const target=page.querySelector(".etp-preview-label");if(target)target.textContent="Lesson content unavailable. Refresh or return to course.";});
 })();
