@@ -4,13 +4,13 @@ const u=p=>root+p;
 document.body.dataset.etpShell="shared";
 function loadCSS(href,key){if(document.querySelector('link[data-etp-load="'+key+'"]'))return;const l=document.createElement("link");l.rel="stylesheet";l.href=href;l.dataset.etpLoad=key;document.head.appendChild(l)}
 function loadJS(src,key){if([...document.scripts].some(s=>s.src&&new URL(s.src).pathname===new URL(src,location.href).pathname))return;const x=document.createElement("script");x.src=src;x.async=false;x.dataset.etpLoad=key;document.head.appendChild(x)}
-loadCSS(u("assets/site-shell.css?v=20261109-approved-nav-v19"),"shell-css");
+loadCSS(u("assets/site-shell.css?v=20261121-lesson-entry-v2"),"shell-css");
 loadCSS(u("assets/sharing.css?v=20261115-icons-1"),"sharing-css");
 loadJS(u("assets/page-sharing.js?v=20261115-icons-1"),"page-sharing");
 loadCSS(u("assets/newsletter.css?v=20261115-1"),"newsletter-css");
 loadJS(u("assets/newsletter-policy.js?v=20261115-1"),"newsletter-policy");
 loadJS(u("assets/newsletter.js?v=20261115-1"),"newsletter-js");
-loadCSS(u("assets/etp-transitions.css?v=20261104-cinematic-5-v1"),"transitions-css");loadJS(u("assets/etp-transitions.js?v=20261104-cinematic-5-v1"),"transitions-js");
+loadCSS(u("assets/etp-transitions.css?v=20261104-cinematic-5-v1"),"transitions-css");loadJS(u("assets/etp-transitions.js?v=20261121-curriculum-navigation-v2"),"transitions-js");
 loadJS(u("assets/etp-movie-cinematics.js?v=20261112-locked-movie-v3-fade"),"movie-cinematics");
 loadCSS(u("assets/etp-experience-v50.css?v=20261015-etp-r2"),"experience-css");loadJS(u("assets/etp-experience-v50.js?v=20261102-history-jukebox"),"experience-js");
 loadCSS(u("assets/repair-v63.css?v=20261107-reader-audit-v1"),"repair-css");loadJS(u("assets/repair-v63.js?v=20261113-single-return-v1"),"repair-js");
@@ -82,7 +82,7 @@ if(pagePath!==root&&pagePath!==root.replace(/\/$/,"")){
        (prev.pathname!==location.pathname||prev.search!==location.search||prev.hash!==location.hash);
    }
   }catch{}
-  if(internalPrevious&&history.length>1)history.back();
+  if(internalPrevious&&history.length>1){if(window.ETPTransitions?.back)window.ETPTransitions.back('warp-tunnel');else history.back();}
   else if(window.ETPTransitions?.navigate)window.ETPTransitions.navigate(fallback,"warp-tunnel");
   else location.assign(fallback);
  });
