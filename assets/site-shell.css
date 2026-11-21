@@ -359,3 +359,51 @@ body.etp-sharing{overflow:hidden}
 #etpSiteFooter .etp-community-logos a img,#etpSiteFooter .etp-community-logos a[title="Etsy"] img,#etpSiteFooter .etp-community-logos a[title="Zazzle"] img{width:91%!important;height:91%!important;max-width:91%!important;max-height:91%!important;object-fit:contain!important;margin:auto!important;padding:0!important;filter:none!important;opacity:1!important}
 @media(max-width:1050px){#etpSiteHeader .etp-mega-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
 @media(max-width:620px){#etpSiteHeader .etp-mega-grid{grid-template-columns:1fr!important}#etpSiteHeader .etp-header-minimal>.etp-mobile-panel{right:5px!important;width:calc(100vw - 10px)!important}#etpSiteFooter .etp-community-logos a,#etpSiteFooter .etp-community-logos a[title="Etsy"],#etpSiteFooter .etp-community-logos a[title="Zazzle"]{width:clamp(27px,8vw,34px)!important;height:clamp(27px,8vw,34px)!important;flex-basis:clamp(27px,8vw,34px)!important}}
+
+/* Shared lesson navigation QA: same neutral buttons and contextual section highlighting, Grades 5–12. */
+html body.etp-curriculum main[data-lesson-course] nav.g5-toolbar .g5-jumps{
+  display:flex!important;grid-template-columns:none!important;align-items:stretch!important;
+  justify-content:space-between!important;gap:clamp(3px,.48vw,9px)!important;
+  width:100%!important;max-width:100%!important;box-sizing:border-box!important;
+  overflow-x:auto!important;overflow-y:hidden!important;flex-wrap:nowrap!important;
+  padding:8px 0 3px!important;scrollbar-width:thin;
+}
+html body.etp-curriculum main[data-lesson-course] nav.g5-toolbar .g5-jumps a{
+  --lesson-nav-color:#2e7048;
+  box-sizing:border-box!important;display:flex!important;align-items:center!important;
+  justify-content:center!important;flex:1 1 auto!important;
+  min-width:max-content!important;width:auto!important;max-width:none!important;
+  padding:8px clamp(5px,.66vw,12px)!important;margin:0!important;
+  background:#0c1715!important;color:#edf3eb!important;
+  border:1px solid #3c5550!important;border-radius:7px!important;
+  font:700 clamp(11px,.9vw,14px)/1.24 Georgia,serif!important;
+  text-align:center!important;text-decoration:none!important;
+  white-space:normal!important;word-break:normal!important;overflow-wrap:normal!important;
+  transition:background-color .16s ease,border-color .16s ease,color .16s ease!important;
+}
+html body.etp-curriculum main[data-lesson-course] nav.g5-toolbar .g5-jumps a:is([href="#goals"],[href="#plan"]){--lesson-nav-color:#266c3b}
+html body.etp-curriculum main[data-lesson-course] nav.g5-toolbar .g5-jumps a:is([href="#prepare"],[href="#launch"]){--lesson-nav-color:#1d5591}
+html body.etp-curriculum main[data-lesson-course] nav.g5-toolbar .g5-jumps a[href="#discover"]{--lesson-nav-color:#8e2f3d}
+html body.etp-curriculum main[data-lesson-course] nav.g5-toolbar .g5-jumps a:is([href="#lab"],[href="#apply"]){--lesson-nav-color:#62418e}
+html body.etp-curriculum main[data-lesson-course] nav.g5-toolbar .g5-jumps a:is([href="#quiz"],[href="#assess"]){--lesson-nav-color:#266c3b}
+html body.etp-curriculum main[data-lesson-course] nav.g5-toolbar .g5-jumps a[href="#closure"]{--lesson-nav-color:#91701e}
+html body.etp-curriculum main[data-lesson-course] nav.g5-toolbar .g5-jumps a:is([href="#optional"],[href="#options"]){--lesson-nav-color:#1d5591}
+html body.etp-curriculum main[data-lesson-course] nav.g5-toolbar .g5-jumps a:is([href="#sources"],[href="#evidence"]){--lesson-nav-color:#575e66}
+html body.etp-curriculum main[data-lesson-course] nav.g5-toolbar .g5-jumps a:is(:hover,:focus-visible,[aria-current="step"]){
+  background:var(--lesson-nav-color)!important;border-color:#e6e7c2!important;
+  color:#fff!important;box-shadow:inset 0 -3px 0 #fff200!important;
+}
+@media(max-width:1000px){
+  html body.etp-curriculum main[data-lesson-course] nav.g5-toolbar .g5-jumps{justify-content:flex-start!important}
+  html body.etp-curriculum main[data-lesson-course] nav.g5-toolbar .g5-jumps a{flex:0 0 auto!important;font-size:12px!important}
+}
+/* Hide the old placeholder only while the interactive lesson replaces it. */
+html body.etp-curriculum main[data-lesson-course]:has(.etp-preview-label:not(.etp-load-error)) > *{visibility:hidden!important}
+html body.etp-curriculum main[data-lesson-course]:has(.etp-preview-label:not(.etp-load-error))::before{
+ content:"Loading your interactive history lesson…";display:block;visibility:visible;
+ padding:28px 22px;margin:20px 0;border-radius:12px;border:1px solid #426e50;
+ background:#092016;color:#e9f7e6;font:700 18px/1.5 Georgia,serif;
+}
+@media(prefers-reduced-motion:reduce){
+ html body.etp-curriculum main[data-lesson-course] nav.g5-toolbar .g5-jumps a{transition:none!important}
+}
