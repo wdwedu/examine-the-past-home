@@ -397,12 +397,11 @@ html body.etp-curriculum main[data-lesson-course] nav.g5-toolbar .g5-jumps a:is(
   html body.etp-curriculum main[data-lesson-course] nav.g5-toolbar .g5-jumps{justify-content:flex-start!important}
   html body.etp-curriculum main[data-lesson-course] nav.g5-toolbar .g5-jumps a{flex:0 0 auto!important;font-size:12px!important}
 }
-/* Preserve the lesson heading during hydration instead of displaying a blocking loading banner.
-   If hydration fails, .etp-load-error reveals the fallback page. */
-html body.etp-curriculum main[data-lesson-course]:has(.etp-preview-label:not(.etp-load-error))>.etp-section,
-html body.etp-curriculum main[data-lesson-course]:has(.etp-preview-label:not(.etp-load-error))>.etp-bottom-nav{display:none!important}
-html body.etp-curriculum main[data-lesson-course]:has(.etp-preview-label:not(.etp-load-error)) .etp-preview-label,
-html body.etp-curriculum main[data-lesson-course]:has(.etp-preview-label:not(.etp-load-error))>.etp-hero>p{display:none!important}
+/* Lesson pages render from data: never flash the stale static header before the eight-section plan. */
+html body.etp-curriculum main[data-lesson-course]:has(.etp-preview-label:not(.etp-load-error)){opacity:0!important;visibility:hidden!important;pointer-events:none!important}
+html body.etp-curriculum main[data-lesson-course]:not(:has(.etp-preview-label)){animation:etpLessonArrival .32s ease-out both}
+@keyframes etpLessonArrival{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){html body.etp-curriculum main[data-lesson-course]:not(:has(.etp-preview-label)){animation:none!important}}
 @media(prefers-reduced-motion:reduce){
  html body.etp-curriculum main[data-lesson-course] nav.g5-toolbar .g5-jumps a{transition:none!important}
 }
