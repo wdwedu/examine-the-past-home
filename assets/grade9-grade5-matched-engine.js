@@ -71,8 +71,47 @@ function build(d,all){
  S("optional",1,"07 · Optional enrichment","Continue the investigation",options)+
  S("sources",2,"08 · Methods and references","Sources and instructional rationale",source)+
  '<nav class="g5-bottom"><a href="../#unit-'+d.unit.replace(".","-")+'">← Unit '+E(d.unit)+'</a>'+(nextSlug?'<a href="../'+E(nextSlug)+'/">Next lesson →</a>':'')+'<a href="../unit-assessments/?unit='+E(d.unit)+'">Unit assessment</a></nav>';
- document.title=d.title+" | Grade 9 | Examine the Past";wire(d);
+ document.title=d.title+" | Grade 9 | Examine the Past";reframe(d);wire(d);
 }
+function reframe(d){
+ const old=page.innerHTML,rx=/<section class="g5-panel[^"]*" id="([^"]+)">[\s\S]*?<\/section>/g;
+ const matches=[...old.matchAll(rx)];
+ if(matches.length!==8)throw Error("Eight-stage lesson template lost: "+matches.length);
+ const parts=Object.fromEntries(matches.map(m=>[m[1],m[0]]));
+ const head=old.slice(0,matches[0].index);
+ const last=matches[matches.length-1],tail=old.slice(last.index+last[0].length);
+ const reshape=(id,newId,cls,heading,eyebrow)=>{
+  let v=parts[id].replace(/class="g5-panel g5-color-\d+"/,'class="g5-panel civic-stage-'+cls+'"');
+  v=v.replace('id="'+id+'"','id="'+newId+'"');
+  v=v.replace(/<div class="g5-kicker">[^<]*<\/div><h2>[^<]*<\/h2>/,'<div class="g5-kicker">'+eyebrow+'</div><h2>'+heading+'</h2>');
+  return v;
+ };
+ const planExtra='<div class="civic-goal-dropdowns">'+
+ '<details><summary>Standards</summary><div class="g5-detail"><p><strong>Grade 9 United States History:</strong> historical inquiry, chronological reasoning, primary and secondary evidence, and supported writing. Check adopted district expectations for specific alignment; this draft is not certified state-standards alignment.</p><p><strong>Grade 9–10 Literacy:</strong> RI.9-10.1 — cite textual evidence; RI.9-10.9 — analyze accounts; W.9-10.1 — write arguments; W.9-10.8 — evaluate and cite credible evidence.</p><p>'+A("https://www.socialstudies.org/sites/default/files/c3/C3-Framework-for-Social-Studies.pdf","NCSS C3 Framework")+'</p></div></details>'+
+ '<details><summary>Essential Questions</summary><div class="g5-detail"><p><strong>Primary inquiry:</strong> '+E(d.essential)+'</p><ol><li>Which historical actors and circumstances shaped this development?</li><li>How do historical sources differ in date, purpose, perspective, and reliability?</li><li>What evidence supports or challenges the historical interpretation?</li></ol></div></details>'+
+ '<details><summary>Objectives</summary><div class="g5-detail"><p>By the end of this lesson, students will be able to:</p><ol><li><strong>Explain</strong> the relevant historical development and its chronology using accurate vocabulary.</li><li><strong>Evaluate</strong> two sourced documents by their origin, date, purpose and limits.</li><li><strong>Construct and defend</strong> a historical interpretation using two relevant details, a counterargument and a reasonable qualification.</li></ol><p><strong>Success criteria:</strong> accurate context, appropriate evidence, consideration of different experiences, and a justified conclusion.</p></div></details>'+
+ '<details><summary>Pacing Options</summary><div class="g5-detail"><p>Choose a flexible 45-, 60- or 90-minute lesson. The timer is optional and does not affect scores.</p><div class="civic-pacing-wrap"><table class="civic-pacing"><thead><tr><th>Lesson stage</th><th>45 min</th><th>60 min</th><th>90 min</th></tr></thead><tbody><tr><th>Goals</th><td>3</td><td>4</td><td>5</td></tr><tr><th>Introduction</th><td>5</td><td>8</td><td>10</td></tr><tr><th>Guided Practice</th><td>13</td><td>18</td><td>31</td></tr><tr><th>Independent / Group</th><td>12</td><td>16</td><td>25</td></tr><tr><th>Assessment</th><td>7</td><td>9</td><td>12</td></tr><tr><th>Closure</th><td>5</td><td>5</td><td>7</td></tr></tbody></table></div><p>For 90 minutes, add close viewing of the media, source corroboration and peer discussion. Students may write, speak or present with equivalent source-evidence expectations.</p></div></details></div>';
+ let plan=reshape("goals","plan","plan","Goals for Learning","01 · Standards · Essential Questions · Objectives · Pacing");
+ plan=plan.replace(/(<h2>Goals for Learning<\/h2>)/,'$1'+planExtra);
+ let intro=reshape("prepare","launch","launch","Introduction","02 · Pre-check · Vocabulary · Opening Inquiry");
+ intro=intro.replace('</section>','<div class="g5-activity"><h3>Your opening thought</h3><label for="g9-opening-notes">What do you already think about this historical question, and what evidence could change your view?</label><textarea class="g5-writing" id="g9-opening-notes" placeholder="Initial thinking… Evidence I need…"></textarea></div></section>');
+ let guided=reshape("discover","discover","discover","Guided Practice","03 · Read · Watch · Model · Investigate");
+ let independent=reshape("lab","apply","apply","Independent / Group Practice","04 · Collaborate · Investigate · Create");
+ const writing=parts.apply.replace(/^<section[^>]*>/,'').replace(/<\/section>$/,'');
+ independent=independent.replace('</section>','<div class="g5-activity civic-independent-writing">'+writing+'</div></section>');
+ let assess=reshape("quiz","assess","assess","Assessment","05 · Check Understanding · Review Your Learning");
+ assess=assess.replace(/<div class="g5-activity"><h3>Exit ticket<\/h3>[\s\S]*?<\/div>/,"");
+ const unitHref='../unit-assessments/?unit='+encodeURIComponent(d.unit);
+ const preview='<details class="civic-final-preview"><summary>Preview the Unit '+E(d.unit)+' Final Assessment</summary><div class="g5-detail"><p>Preview evidence-based questions, inquiry and written argument expectations at any point in this lesson.</p><p><a href="'+E(unitHref)+'">Open the full Unit '+E(d.unit)+' Assessment</a></p><p>Lesson checks are separate from your final unit score. Writing self-ratings require teacher review.</p></div></details>';
+ assess=assess.replace('</section>',preview+'</section>');
+ const closure='<section class="g5-panel civic-stage-closure" id="closure"><div class="g5-kicker">06 · Summarize · Reflect · Exit Ticket</div><h2>Closure</h2><p><strong>Return to the essential question:</strong> '+E(d.essential)+'</p><div class="g5-activity"><h3>Exit ticket · Connect the lesson to a broader historical question</h3><p>Identify the relevant historical actor, event, or process, cite one credible piece of evidence, and explain a limitation or perspective you would investigate next.</p><label for="g9-exit-ticket">My evidence-based reflection</label><textarea class="g5-writing" id="g9-exit-ticket" placeholder="I learned… The document shows… Another viewpoint or question is…"></textarea></div><p>Check the assessment preview above whenever you want to see what the unit evaluates. Your written reflections remain on this page unless you copy them.</p></section>';
+ let extensions=reshape("optional","options","options","Extensions","07 · Optional Inquiry · Explore More");
+ let sources=reshape("sources","evidence","evidence","Sources","08 · References · Credits · Source Quality");
+ let newHead=head.replace(/<div class="g5-jumps">[\s\S]*?<\/div>/,
+ '<div class="g5-jumps civic-lesson-jumps"><a href="#plan">Goals for Learning</a><a href="#launch">Introduction</a><a href="#discover">Guided Practice</a><a href="#apply">Independent / Group Practice</a><a href="#assess">Assessment</a><a href="#closure">Closure</a><a href="#options">Extensions</a><a href="#evidence">Sources</a></div>');
+ page.innerHTML=newHead+[plan,intro,guided,independent,assess,closure,extensions,sources].join("")+tail;
+}
+
 function wire(d){
  const Q=s=>page.querySelector(s),QA=s=>[...page.querySelectorAll(s)];
  const panels=QA(".g5-panel"),bar=Q(".g5-track"),sticky=Q(".g5-toolbar");
