@@ -4,7 +4,7 @@ const u=p=>root+p;
 document.body.dataset.etpShell="shared";
 function loadCSS(href,key){if(document.querySelector('link[data-etp-load="'+key+'"]'))return;const l=document.createElement("link");l.rel="stylesheet";l.href=href;l.dataset.etpLoad=key;document.head.appendChild(l)}
 function loadJS(src,key){if([...document.scripts].some(s=>s.src&&new URL(s.src).pathname===new URL(src,location.href).pathname))return;const x=document.createElement("script");x.src=src;x.async=false;x.dataset.etpLoad=key;document.head.appendChild(x)}
-loadCSS(u("assets/site-shell.css?v=20261121-lesson-entry-v2"),"shell-css");
+loadCSS(u("assets/site-shell.css?v=20261121-lesson-entry-v3"),"shell-css");
 loadCSS(u("assets/sharing.css?v=20261115-icons-1"),"sharing-css");
 loadJS(u("assets/page-sharing.js?v=20261115-icons-1"),"page-sharing");
 loadCSS(u("assets/newsletter.css?v=20261115-1"),"newsletter-css");
