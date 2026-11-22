@@ -280,6 +280,14 @@
           "type": "Research resource",
           "url": "https://www.archives.gov/education/lessons/worksheets",
           "summary": "Institutional source or methodological gateway. Select and cite a specific record or dataset before making historical claims."
+        },
+        {
+          "title": "Library of Congress · Primary Source Analysis Guides",
+          "url": "https://www.loc.gov/programs/teachers/getting-started-with-primary-sources/guides/",
+          "creator": "Library of Congress",
+          "date": "Institutional reference; select a dated item",
+          "type": "Research method reference",
+          "summary": "Use the observe–reflect–question method on a specific primary document and record provenance."
         }
       ],
       "researchWorkshop": {
@@ -391,6 +399,14 @@
           "type": "Research resource",
           "url": "https://guides.loc.gov/",
           "summary": "Institutional source or methodological gateway. Select and cite a specific record or dataset before making historical claims."
+        },
+        {
+          "title": "Library of Congress · Primary Source Analysis Guides",
+          "url": "https://www.loc.gov/programs/teachers/getting-started-with-primary-sources/guides/",
+          "creator": "Library of Congress",
+          "date": "Institutional reference; select a dated item",
+          "type": "Research method reference",
+          "summary": "Use the observe–reflect–question method on a specific primary document and record provenance."
         }
       ],
       "researchWorkshop": {
@@ -502,6 +518,14 @@
           "type": "Research resource",
           "url": "https://catalog.archives.gov/",
           "summary": "Institutional source or methodological gateway. Select and cite a specific record or dataset before making historical claims."
+        },
+        {
+          "title": "Library of Congress · Primary Source Analysis Guides",
+          "url": "https://www.loc.gov/programs/teachers/getting-started-with-primary-sources/guides/",
+          "creator": "Library of Congress",
+          "date": "Institutional reference; select a dated item",
+          "type": "Research method reference",
+          "summary": "Use the observe–reflect–question method on a specific primary document and record provenance."
         }
       ],
       "researchWorkshop": {
@@ -613,6 +637,14 @@
           "type": "Research resource",
           "url": "https://www.federalreserveeducation.org/",
           "summary": "Institutional source or methodological gateway. Select and cite a specific record or dataset before making historical claims."
+        },
+        {
+          "title": "World Bank · GDP Per Capita, Constant 2015 US$",
+          "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD",
+          "creator": "World Bank",
+          "date": "Institutional reference; select a dated item",
+          "type": "Quantitative dataset",
+          "summary": "Define inflation-adjusted unit, country coverage and period; never equate GDP per capita with median household income."
         }
       ],
       "researchWorkshop": {
@@ -724,6 +756,14 @@
           "type": "Research resource",
           "url": "https://www.federalreserveeducation.org/",
           "summary": "Institutional source or methodological gateway. Select and cite a specific record or dataset before making historical claims."
+        },
+        {
+          "title": "World Bank · GDP Per Capita, Constant 2015 US$",
+          "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD",
+          "creator": "World Bank",
+          "date": "Institutional reference; select a dated item",
+          "type": "Quantitative dataset",
+          "summary": "Define inflation-adjusted unit, country coverage and period; never equate GDP per capita with median household income."
         }
       ],
       "researchWorkshop": {
@@ -835,6 +875,14 @@
           "type": "Research resource",
           "url": "https://www.cbo.gov/",
           "summary": "Institutional source or methodological gateway. Select and cite a specific record or dataset before making historical claims."
+        },
+        {
+          "title": "World Bank · GDP Per Capita, Constant 2015 US$",
+          "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD",
+          "creator": "World Bank",
+          "date": "Institutional reference; select a dated item",
+          "type": "Quantitative dataset",
+          "summary": "Define inflation-adjusted unit, country coverage and period; never equate GDP per capita with median household income."
         }
       ],
       "researchWorkshop": {
@@ -946,6 +994,14 @@
           "type": "Research resource",
           "url": "https://www.federalreservehistory.org/",
           "summary": "Institutional source or methodological gateway. Select and cite a specific record or dataset before making historical claims."
+        },
+        {
+          "title": "World Bank · GDP Per Capita, Constant 2015 US$",
+          "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD",
+          "creator": "World Bank",
+          "date": "Institutional reference; select a dated item",
+          "type": "Quantitative dataset",
+          "summary": "Define inflation-adjusted unit, country coverage and period; never equate GDP per capita with median household income."
         }
       ],
       "researchWorkshop": {
@@ -1057,6 +1113,14 @@
           "type": "Research resource",
           "url": "https://www.idea.int/",
           "summary": "Institutional source or methodological gateway. Select and cite a specific record or dataset before making historical claims."
+        },
+        {
+          "title": "International IDEA · Global State of Democracy Indices",
+          "url": "https://www.idea.int/data-tools/tools/global-state-democracy-indices",
+          "creator": "International IDEA",
+          "date": "Institutional reference; select a dated item",
+          "type": "Comparative indicators",
+          "summary": "Record year and indicator definition before comparing two countries; indexes are operationalized measures, not self-evident rankings."
         }
       ],
       "researchWorkshop": {
@@ -1168,6 +1232,14 @@
           "type": "Research resource",
           "url": "https://www.idea.int/",
           "summary": "Institutional source or methodological gateway. Select and cite a specific record or dataset before making historical claims."
+        },
+        {
+          "title": "International IDEA · Global State of Democracy Indices",
+          "url": "https://www.idea.int/data-tools/tools/global-state-democracy-indices",
+          "creator": "International IDEA",
+          "date": "Institutional reference; select a dated item",
+          "type": "Comparative indicators",
+          "summary": "Record year and indicator definition before comparing two countries; indexes are operationalized measures, not self-evident rankings."
         }
       ],
       "researchWorkshop": {
@@ -1279,6 +1351,14 @@
           "type": "Research resource",
           "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
           "summary": "Institutional source or methodological gateway. Select and cite a specific record or dataset before making historical claims."
+        },
+        {
+          "title": "International IDEA · Global State of Democracy Indices",
+          "url": "https://www.idea.int/data-tools/tools/global-state-democracy-indices",
+          "creator": "International IDEA",
+          "date": "Institutional reference; select a dated item",
+          "type": "Comparative indicators",
+          "summary": "Record year and indicator definition before comparing two countries; indexes are operationalized measures, not self-evident rankings."
         }
       ],
       "researchWorkshop": {
@@ -1390,6 +1470,14 @@
           "type": "Research resource",
           "url": "https://sdgs.un.org/goals",
           "summary": "Institutional source or methodological gateway. Select and cite a specific record or dataset before making historical claims."
+        },
+        {
+          "title": "International IDEA · Global State of Democracy Indices",
+          "url": "https://www.idea.int/data-tools/tools/global-state-democracy-indices",
+          "creator": "International IDEA",
+          "date": "Institutional reference; select a dated item",
+          "type": "Comparative indicators",
+          "summary": "Record year and indicator definition before comparing two countries; indexes are operationalized measures, not self-evident rankings."
         }
       ],
       "researchWorkshop": {
@@ -1501,6 +1589,14 @@
           "type": "Research resource",
           "url": "https://population.un.org/wpp/",
           "summary": "Institutional source or methodological gateway. Select and cite a specific record or dataset before making historical claims."
+        },
+        {
+          "title": "UN · World Population Prospects",
+          "url": "https://population.un.org/wpp",
+          "creator": "UN",
+          "date": "Institutional reference; select a dated item",
+          "type": "Demographic statistical dataset",
+          "summary": "Select consistent dates, unit and denominator; investigate definition changes and projection uncertainty."
         }
       ],
       "researchWorkshop": {
@@ -1612,6 +1708,14 @@
           "type": "Research resource",
           "url": "https://data.unhabitat.org/",
           "summary": "Institutional source or methodological gateway. Select and cite a specific record or dataset before making historical claims."
+        },
+        {
+          "title": "UN · World Population Prospects",
+          "url": "https://population.un.org/wpp",
+          "creator": "UN",
+          "date": "Institutional reference; select a dated item",
+          "type": "Demographic statistical dataset",
+          "summary": "Select consistent dates, unit and denominator; investigate definition changes and projection uncertainty."
         }
       ],
       "researchWorkshop": {
@@ -1723,6 +1827,14 @@
           "type": "Research resource",
           "url": "https://www.loc.gov/maps/",
           "summary": "Institutional source or methodological gateway. Select and cite a specific record or dataset before making historical claims."
+        },
+        {
+          "title": "UN · World Population Prospects",
+          "url": "https://population.un.org/wpp",
+          "creator": "UN",
+          "date": "Institutional reference; select a dated item",
+          "type": "Demographic statistical dataset",
+          "summary": "Select consistent dates, unit and denominator; investigate definition changes and projection uncertainty."
         }
       ],
       "researchWorkshop": {
@@ -1834,6 +1946,14 @@
           "type": "Research resource",
           "url": "https://data.worldbank.org/",
           "summary": "Institutional source or methodological gateway. Select and cite a specific record or dataset before making historical claims."
+        },
+        {
+          "title": "UN · World Population Prospects",
+          "url": "https://population.un.org/wpp",
+          "creator": "UN",
+          "date": "Institutional reference; select a dated item",
+          "type": "Demographic statistical dataset",
+          "summary": "Select consistent dates, unit and denominator; investigate definition changes and projection uncertainty."
         }
       ],
       "researchWorkshop": {
@@ -1945,6 +2065,14 @@
           "type": "Research resource",
           "url": "https://www.si.edu/openaccess",
           "summary": "Institutional source or methodological gateway. Select and cite a specific record or dataset before making historical claims."
+        },
+        {
+          "title": "Oral History Association · Core Principles",
+          "url": "https://oralhistory.org/oha-core-principles/",
+          "creator": "Oral History Association",
+          "date": "Institutional reference; select a dated item",
+          "type": "Research ethics guidance",
+          "summary": "Secure ongoing informed consent, clarify access restrictions and distinguish personal recollection from independent corroboration."
         }
       ],
       "researchWorkshop": {
@@ -2056,6 +2184,14 @@
           "type": "Research resource",
           "url": "https://nmaahc.si.edu/",
           "summary": "Institutional source or methodological gateway. Select and cite a specific record or dataset before making historical claims."
+        },
+        {
+          "title": "Oral History Association · Core Principles",
+          "url": "https://oralhistory.org/oha-core-principles/",
+          "creator": "Oral History Association",
+          "date": "Institutional reference; select a dated item",
+          "type": "Research ethics guidance",
+          "summary": "Secure ongoing informed consent, clarify access restrictions and distinguish personal recollection from independent corroboration."
         }
       ],
       "researchWorkshop": {
@@ -2167,6 +2303,14 @@
           "type": "Research resource",
           "url": "https://www.loc.gov/film-and-videos/",
           "summary": "Institutional source or methodological gateway. Select and cite a specific record or dataset before making historical claims."
+        },
+        {
+          "title": "Oral History Association · Core Principles",
+          "url": "https://oralhistory.org/oha-core-principles/",
+          "creator": "Oral History Association",
+          "date": "Institutional reference; select a dated item",
+          "type": "Research ethics guidance",
+          "summary": "Secure ongoing informed consent, clarify access restrictions and distinguish personal recollection from independent corroboration."
         }
       ],
       "researchWorkshop": {
