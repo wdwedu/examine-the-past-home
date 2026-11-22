@@ -1,0 +1,518 @@
+{
+  "version": "2026-11-22-editorial-v1",
+  "status": "Educator-authored draft questions requiring final classroom review",
+  "units": {
+    "11.1": [
+      {
+        "prompt": "Which comparison best challenges a Europe-centered picture of the world around 1300?",
+        "options": [
+          "European kingdoms alone controlled most interregional exchange.",
+          "Mali, Yuan China, and the Mamluk Sultanate were important centers of political and commercial life.",
+          "Oceanic networks did not exist before European Atlantic voyages."
+        ],
+        "answer": 1,
+        "explanation": "Trade and state power extended across several regions independent of Western European political development."
+      },
+      {
+        "prompt": "Why did monsoon knowledge matter in Indian Ocean commerce?",
+        "options": [
+          "It helped sailors plan voyages around seasonal wind patterns.",
+          "It eliminated the need for port cities.",
+          "It guaranteed that every voyage was safe."
+        ],
+        "answer": 0,
+        "explanation": "Seasonal wind systems were important to sailing schedules, although risk and negotiation remained."
+      },
+      {
+        "prompt": "What limitation must accompany the term Pax Mongolica?",
+        "options": [
+          "It describes a single national government lasting into the twentieth century.",
+          "It means conquest caused no civilian suffering.",
+          "Protection on some routes coexisted with conquest, coercion and unequal experiences."
+        ],
+        "answer": 2,
+        "explanation": "Exchange and violence existed simultaneously within the Mongol world."
+      }
+    ],
+    "11.2": [
+      {
+        "prompt": "Which factor helped reform arguments spread rapidly in sixteenth-century Europe?",
+        "options": [
+          "The commercial printing press",
+          "The telegraph",
+          "A universal religious agreement"
+        ],
+        "answer": 0,
+        "explanation": "Printing circulated texts more widely, although political power and local networks also mattered."
+      },
+      {
+        "prompt": "Why is patronage important when analyzing Renaissance art?",
+        "options": [
+          "It establishes that every viewer understood a painting identically.",
+          "It helps explain who financed the work and what messages patrons sought to communicate.",
+          "It makes the artwork independent of historical context."
+        ],
+        "answer": 1,
+        "explanation": "Patron funding and audience are important to artistic interpretation."
+      },
+      {
+        "prompt": "Which statement best explains the Thirty Years' War?",
+        "options": [
+          "It had no connection to dynastic politics.",
+          "It was confined to religious debates without military action.",
+          "Religious, territorial and dynastic interests interacted."
+        ],
+        "answer": 2,
+        "explanation": "The war cannot be reduced to one cause."
+      }
+    ],
+    "11.3": [
+      {
+        "prompt": "Which historical process is specifically associated with the Columbian Exchange?",
+        "options": [
+          "The movement of crops, animals and diseases after sustained Atlantic contact",
+          "The formation of the United Nations",
+          "The spread of railroads across Europe in 1848"
+        ],
+        "answer": 0,
+        "explanation": "Biological and agricultural changes accompanied Atlantic colonization."
+      },
+      {
+        "prompt": "What can an Atlantic slave-trade shipping register establish most directly?",
+        "options": [
+          "Every captive person's emotions and life history",
+          "Recorded voyages, quantities and transactions within the register's scope",
+          "That all African societies responded identically"
+        ],
+        "answer": 1,
+        "explanation": "Records quantify parts of forced movement but do not replace individual narratives."
+      },
+      {
+        "prompt": "Why compare colonial regulations with Indigenous accounts?",
+        "options": [
+          "Both were always written by the same author.",
+          "Regulations automatically reveal how every law was enforced.",
+          "They offer different viewpoints on administration, negotiation, coercion and resistance."
+        ],
+        "answer": 2,
+        "explanation": "Comparative sourcing helps expose administrative perspectives and omissions."
+      }
+    ],
+    "11.4": [
+      {
+        "prompt": "Which method most directly strengthened early modern scientific arguments?",
+        "options": [
+          "Authority based on reputation alone",
+          "Repeatable observations, mathematical modeling and reasoned argument",
+          "Refusing to record contradictory findings"
+        ],
+        "answer": 1,
+        "explanation": "Different investigators combined observations, models and criticism to challenge prior explanations."
+      },
+      {
+        "prompt": "Which question best distinguishes Locke from Montesquieu?",
+        "options": [
+          "How legitimacy through consent relates to institutional division of powers",
+          "Whether both invented the electric telegraph",
+          "Whether either wrote the Treaty of Versailles"
+        ],
+        "answer": 0,
+        "explanation": "Locke focused on legitimate political authority; Montesquieu's institutional argument emphasized separated powers."
+      },
+      {
+        "prompt": "How should students evaluate Enlightenment claims to universal rights?",
+        "options": [
+          "Assume everyone had identical political rights in practice.",
+          "Ignore slavery and imperialism as unrelated.",
+          "Compare ideals with historical exclusions and legal implementation."
+        ],
+        "answer": 2,
+        "explanation": "Enlightenment texts and institutions frequently differed in who was protected."
+      }
+    ],
+    "11.5": [
+      {
+        "prompt": "What distinguished the Haitian Revolution?",
+        "options": [
+          "It permanently restored plantation slavery under French rule.",
+          "Enslaved and free people fought for emancipation and independence, leading to Haiti in 1804.",
+          "It was a European conflict without Atlantic implications."
+        ],
+        "answer": 1,
+        "explanation": "The revolution challenged slavery and colonial sovereignty."
+      },
+      {
+        "prompt": "Which event occurred at the start of the French Revolution in 1789?",
+        "options": [
+          "The meeting of the Estates-General",
+          "The creation of the United Nations",
+          "The dissolution of the Soviet Union"
+        ],
+        "answer": 0,
+        "explanation": "The Estates-General convened amid a fiscal and political crisis."
+      },
+      {
+        "prompt": "What is the strongest way to compare Atlantic revolutions?",
+        "options": [
+          "Describe every revolution as identical.",
+          "Compare only famous leaders.",
+          "Use shared criteria for ideals, citizenship, exclusions and institutional outcomes."
+        ],
+        "answer": 2,
+        "explanation": "Explicit criteria make comparisons meaningful."
+      }
+    ],
+    "11.6": [
+      {
+        "prompt": "Which combination helps explain industrialization in Britain?",
+        "options": [
+          "Coal, capital, labor, transport and technological development",
+          "Only the invention of one machine",
+          "The sudden end of all overseas commerce"
+        ],
+        "answer": 0,
+        "explanation": "Industrialization resulted from interacting conditions."
+      },
+      {
+        "prompt": "Which pairing best checks a factory owner's claim that life improved for all workers?",
+        "options": [
+          "The owner's claims alone",
+          "Worker accounts alongside wages, housing and safety records",
+          "A map of unrelated overseas colonies"
+        ],
+        "answer": 1,
+        "explanation": "Independent evidence can reveal uneven social outcomes."
+      },
+      {
+        "prompt": "Why should a global commodity chain include labor and transport?",
+        "options": [
+          "Only the final sale price matters.",
+          "Production has no regional differences.",
+          "Costs, value and social burdens are distributed across multiple locations."
+        ],
+        "answer": 2,
+        "explanation": "Global production networks distribute benefits and harms unevenly."
+      }
+    ],
+    "11.7": [
+      {
+        "prompt": "What did the Berlin Conference of 1884–1885 principally involve?",
+        "options": [
+          "European diplomatic rules over territorial claims in Africa",
+          "A representative vote by all African nations",
+          "The abolition of imperial rule worldwide"
+        ],
+        "answer": 0,
+        "explanation": "European governments negotiated among themselves without obtaining general African consent."
+      },
+      {
+        "prompt": "What is a limitation of an imperial political map?",
+        "options": [
+          "It identifies every community's political preference.",
+          "It often obscures local governance, resistance and people within claimed boundaries.",
+          "It proves that colonial administration was universally accepted."
+        ],
+        "answer": 1,
+        "explanation": "Maps reveal claims of territorial power, not all lived experiences."
+      },
+      {
+        "prompt": "Which evidence best illustrates resistance to colonial rule?",
+        "options": [
+          "Only speeches by colonial governors",
+          "Only twentieth-century European textbooks",
+          "Local petitions, organized protests, labor action and accounts of armed resistance"
+        ],
+        "answer": 2,
+        "explanation": "Resistance took different forms and should be investigated through varied sources."
+      }
+    ],
+    "11.8": [
+      {
+        "prompt": "What immediately triggered the July Crisis in 1914?",
+        "options": [
+          "The attack on Pearl Harbor",
+          "The assassination of Archduke Franz Ferdinand",
+          "The signing of the Treaty of Versailles"
+        ],
+        "answer": 1,
+        "explanation": "The assassination set off a crisis shaped by alliance and policy choices."
+      },
+      {
+        "prompt": "Why is describing World War I only as trench warfare incomplete?",
+        "options": [
+          "It ignores other theaters, naval conflict, colonies and civilian mobilization.",
+          "Trenches were not used during World War I.",
+          "It ignores the invention of the internet."
+        ],
+        "answer": 0,
+        "explanation": "The war affected multiple societies and forms of conflict."
+      },
+      {
+        "prompt": "What is a sound approach to evaluating the Treaty of Versailles?",
+        "options": [
+          "Attribute all later events to a single treaty.",
+          "Ignore other postwar settlements.",
+          "Distinguish actual treaty provisions, contemporary responses and later interpretations."
+        ],
+        "answer": 2,
+        "explanation": "Causation needs sources and broader context."
+      }
+    ],
+    "11.9": [
+      {
+        "prompt": "Which event is strongly associated with the beginning of the global economic crisis?",
+        "options": [
+          "The founding of NATO",
+          "The economic crash beginning in 1929",
+          "The 1804 independence of Haiti"
+        ],
+        "answer": 1,
+        "explanation": "The downturn spread internationally through varied financial and trade mechanisms."
+      },
+      {
+        "prompt": "Which statement most accurately describes the Holocaust?",
+        "options": [
+          "Nazi Germany and its collaborators systematically persecuted and murdered six million Jews.",
+          "All victims of World War II died exclusively in combat.",
+          "It was a single event confined to one camp."
+        ],
+        "answer": 0,
+        "explanation": "The Holocaust was a state-sponsored genocide across Nazi-controlled Europe."
+      },
+      {
+        "prompt": "Why use timelines for World War II beyond Europe?",
+        "options": [
+          "Other regions played no role.",
+          "Asia and Africa entered the war only after 1945.",
+          "The war developed across several theaters with different starting points and participants."
+        ],
+        "answer": 2,
+        "explanation": "An exclusively European chronology excludes much of the war's context."
+      }
+    ],
+    "11.10": [
+      {
+        "prompt": "Which event marked the dissolution of the Soviet Union?",
+        "options": [
+          "The Congress of Vienna in 1815",
+          "The 1991 collapse of the USSR",
+          "The Berlin Conference in 1884"
+        ],
+        "answer": 1,
+        "explanation": "The USSR dissolved in 1991 after multiple political and national struggles."
+      },
+      {
+        "prompt": "Which two countries provide contrasting African decolonization pathways?",
+        "options": [
+          "Ghana and Algeria",
+          "Spain and Portugal",
+          "Japan and Thailand"
+        ],
+        "answer": 0,
+        "explanation": "Ghana and Algeria achieved independence by different routes."
+      },
+      {
+        "prompt": "Why is a Cold War map of two blocs incomplete?",
+        "options": [
+          "No countries remained independent.",
+          "It proves countries had no agency.",
+          "Nonaligned and newly independent states pursued their own interests."
+        ],
+        "answer": 2,
+        "explanation": "Many states refused simple alignment and shaped global diplomacy."
+      }
+    ],
+    "11.11": [
+      {
+        "prompt": "Which United Nations organ gives certain states veto power over substantive decisions?",
+        "options": [
+          "The General Assembly",
+          "The Security Council",
+          "The Secretariat alone"
+        ],
+        "answer": 1,
+        "explanation": "Permanent Security Council members possess veto powers under UN rules."
+      },
+      {
+        "prompt": "What is a common misuse of development data?",
+        "options": [
+          "Inferring everyone's experience from national averages",
+          "Comparing figures with consistent units",
+          "Recording year and source"
+        ],
+        "answer": 0,
+        "explanation": "Aggregates can conceal regional and social inequalities."
+      },
+      {
+        "prompt": "How should the Universal Declaration of Human Rights be used?",
+        "options": [
+          "As proof that every country enforces all its provisions identically",
+          "As a list of historical wars",
+          "As a statement of principles to compare against enforceable law and lived reality"
+        ],
+        "answer": 2,
+        "explanation": "Implementation and enforceability require separate investigation."
+      }
+    ],
+    "12.1": [
+      {
+        "prompt": "Which characteristic by itself makes a source primary?",
+        "options": [
+          "It is reliable and unbiased.",
+          "It was created within the period or context being studied by a direct participant or observer.",
+          "It is written by a university historian."
+        ],
+        "answer": 1,
+        "explanation": "Primary status indicates a source relationship to the event, not automatic truthfulness."
+      },
+      {
+        "prompt": "Which research question is more practicable?",
+        "options": [
+          "How did one city's transport network change between specified census years?",
+          "Why does everything in history happen?",
+          "How did all societies evolve equally?"
+        ],
+        "answer": 0,
+        "explanation": "A bounded question permits evidence collection."
+      },
+      {
+        "prompt": "What is a credible response when archival evidence is missing?",
+        "options": [
+          "Invent a plausible eyewitness account.",
+          "State that the absence proves nothing happened.",
+          "Document the gap and seek independent types of evidence."
+        ],
+        "answer": 2,
+        "explanation": "Archival silence must be acknowledged, not filled by invention."
+      }
+    ],
+    "12.2": [
+      {
+        "prompt": "What does opportunity cost mean?",
+        "options": [
+          "Every rejected alternative combined",
+          "The value of the next-best alternative forgone",
+          "Only the money paid out immediately"
+        ],
+        "answer": 1,
+        "explanation": "Opportunity cost refers to the next-best feasible alternative."
+      },
+      {
+        "prompt": "Which step is needed before comparing economic dollar values decades apart?",
+        "options": [
+          "Check whether nominal amounts require inflation adjustment.",
+          "Always subtract the dates from the values.",
+          "Assume a dollar had identical purchasing power in all years."
+        ],
+        "answer": 0,
+        "explanation": "Inflation and units can alter apparent trends."
+      },
+      {
+        "prompt": "Why compare distributional impacts of a public spending decision?",
+        "options": [
+          "Only the average result matters.",
+          "Distribution has no connection to policy.",
+          "Benefits and costs can fall on different households or neighborhoods."
+        ],
+        "answer": 2,
+        "explanation": "Averages may hide who gains and who bears burdens."
+      }
+    ],
+    "12.3": [
+      {
+        "prompt": "Which distinction is central to comparing parliamentary and presidential systems?",
+        "options": [
+          "Only the number of political parties matters.",
+          "Whether executive leadership depends on legislative confidence or has a separately elected mandate.",
+          "Whether citizens live in cities."
+        ],
+        "answer": 1,
+        "explanation": "Executive selection and accountability differ across institutional models."
+      },
+      {
+        "prompt": "Why can elections alone not prove a political system is democratic?",
+        "options": [
+          "Freedom of opposition, courts and basic rights also matter.",
+          "Election results automatically show freedom of expression.",
+          "A system with elections cannot have authoritarian practices."
+        ],
+        "answer": 0,
+        "explanation": "Meaningful competition and institutional restraints matter."
+      },
+      {
+        "prompt": "What is required to compare rights in different countries?",
+        "options": [
+          "Rely only on flags and national slogans.",
+          "Assume international declarations are directly enforceable everywhere.",
+          "Compare legal guarantees, jurisdiction, enforcement and social outcomes."
+        ],
+        "answer": 2,
+        "explanation": "Formal rights and practical protection differ."
+      }
+    ],
+    "12.4": [
+      {
+        "prompt": "Which expression properly represents a population rate?",
+        "options": [
+          "A total without specifying who is counted",
+          "A numerator relative to a stated denominator and time period",
+          "A color-coded map without a scale"
+        ],
+        "answer": 1,
+        "explanation": "Rates require denominators and time frames."
+      },
+      {
+        "prompt": "Why might urbanization figures for two countries be hard to compare?",
+        "options": [
+          "National definitions of urban areas may differ.",
+          "Population data never change.",
+          "Cities cannot expand administrative boundaries."
+        ],
+        "answer": 0,
+        "explanation": "Urban boundaries and classifications vary."
+      },
+      {
+        "prompt": "What is a limitation of per-capita income alone as a development measure?",
+        "options": [
+          "It reveals every household's wealth.",
+          "It automatically measures environmental costs.",
+          "It can obscure income distribution, health and education differences."
+        ],
+        "answer": 2,
+        "explanation": "Multiple indicators are needed for fuller comparisons."
+      }
+    ],
+    "12.5": [
+      {
+        "prompt": "Which practice is necessary before recording an oral-history interview?",
+        "options": [
+          "Assume agreement because a person agreed to meet.",
+          "Obtain informed consent for recording and access.",
+          "Publish the interview immediately."
+        ],
+        "answer": 1,
+        "explanation": "Ethical oral history requires informed consent."
+      },
+      {
+        "prompt": "How should a sports or entertainment photograph be interpreted?",
+        "options": [
+          "Ask who created it, for which audience, and what it omits.",
+          "Treat it as a complete measure of social equality.",
+          "Assume no staging or selection was involved."
+        ],
+        "answer": 0,
+        "explanation": "Public imagery may be promotional or incomplete."
+      },
+      {
+        "prompt": "Why compare accounts of an event created decades apart?",
+        "options": [
+          "Only the newest account can be historical evidence.",
+          "All depictions are identical.",
+          "Different representations may reveal changing historical memory and intended audiences."
+        ],
+        "answer": 2,
+        "explanation": "Historical memory involves selection and reinterpretation."
+      }
+    ]
+  }
+}
