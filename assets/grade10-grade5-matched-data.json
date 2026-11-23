@@ -714,11 +714,11 @@
         "Civic investigation: Which evidence best supports a nuanced evaluation of the Constitutional Convention? Use Constitution — Articles I–III (1787) to identify the governing rule, then compare it with Federalist No. 51. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "The Constitutional Convention · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of The Constitutional Convention, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Compare the final Article I apportionment rules with evidence of the convention's competing proposals. Explain both the representative structure created and the political advantage slaveholding states obtained.",
       "investigation": [
-        "Read the relevant governing text or official record for The Constitutional Convention and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about The Constitutional Convention. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Constitution — Articles I–III and identify the specific provision, institution or claim most relevant to the constitutional convention.",
+        "Test the first source against Federalist No. 51, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Compare the final Article I apportionment rules with evidence of the convention's competing proposals. Explain both the representative structure created and the political advantage slaveholding states obtained."
       ],
       "options": [
         "Compare proposed plans, convention debates and the final compromises, noting who had no seat in the debates.",
@@ -744,22 +744,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "What was the central representation compromise of 1787?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
-          "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "A directly elected president for life",
+            "Equal Senate seats by state and population-based House representation",
+            "One state voting equally in both chambers"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Which claim correctly describes the Three-Fifths Clause?",
+          "options": [
+            "It granted enslaved people three-fifths of a vote",
+            "It ended slavery in 1787",
+            "It counted three-fifths of enslaved persons for apportionment without granting their political rights"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -821,11 +821,11 @@
         "Civic investigation: A state and federal rule conflict over a regulated issue. What must a student establish first? Use Constitution — Articles I–III (1787) to identify the governing rule, then compare it with Federalist No. 51. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "Federalism and Separation of Powers · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of Federalism and Separation of Powers, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Map one hypothetical environmental dispute by federal/state jurisdiction and by the branch taking action. Use Articles I–III, VI and the Tenth Amendment, then distinguish a valid legal conflict from a policy disagreement.",
       "investigation": [
-        "Read the relevant governing text or official record for Federalism and Separation of Powers and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about Federalism and Separation of Powers. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Constitution — Articles I–III and identify the specific provision, institution or claim most relevant to federalism and separation of powers.",
+        "Test the first source against Federalist No. 51, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Map one hypothetical environmental dispute by federal/state jurisdiction and by the branch taking action. Use Articles I–III, VI and the Tenth Amendment, then distinguish a valid legal conflict from a policy disagreement."
       ],
       "options": [
         "Assume state policy automatically wins because schools are local.",
@@ -851,20 +851,20 @@
           "answer": 2
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "Which Constitution provision makes valid federal law supreme over conflicting state law?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
+            "Article VI Supremacy Clause",
+            "Article V amendment clause",
+            "First Amendment"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
+          "prompt": "Which distinction is accurate?",
           "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "Federalism separates only executive and judicial officials",
+            "Federalism concerns national/state power; separation of powers concerns branches",
+            "Both terms mean exactly the same institutional design"
           ],
           "answer": 1
         }
@@ -928,11 +928,11 @@
         "Civic investigation: Congress wants to enact a bill despite a presidential veto. What demonstrates the constitutional check? Use Constitution — Articles I–III (1787) to identify the governing rule, then compare it with Federalist No. 51. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "Checks and Balances · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of Checks and Balances, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Trace a bill through a presidential veto and possible override using Article I, Section 7. Explain why checks and balances create independent institutional roles rather than guaranteeing conflict-free policymaking.",
       "investigation": [
-        "Read the relevant governing text or official record for Checks and Balances and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about Checks and Balances. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Constitution — Articles I–III and identify the specific provision, institution or claim most relevant to checks and balances.",
+        "Test the first source against Federalist No. 51, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Trace a bill through a presidential veto and possible override using Article I, Section 7. Explain why checks and balances create independent institutional roles rather than guaranteeing conflict-free policymaking."
       ],
       "options": [
         "The vice president alone can sign the vetoed bill into law.",
@@ -958,22 +958,22 @@
           "answer": 1
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "What fraction of votes is needed in each house to override a presidential veto?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
+            "A simple majority of one house",
+            "Unanimity in the Senate only",
+            "Two-thirds in both House and Senate"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
+          "prompt": "What is the Senate's role regarding many presidential appointments?",
           "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "Advice and consent under Article II",
+            "Automatic selection of every executive officer",
+            "Rewriting the Constitution without states"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
@@ -1035,11 +1035,11 @@
         "Civic investigation: A proposal would directly change the constitutional text. Which path is appropriate? Use Constitution — Articles I–III (1787) to identify the governing rule, then compare it with Federalist No. 51. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "Constitutional Change and Interpretation · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of Constitutional Change and Interpretation, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Compare an actual amendment's proposal/ratification record with a court's interpretation of an existing clause. Identify why changing the written Constitution differs from applying existing language.",
       "investigation": [
-        "Read the relevant governing text or official record for Constitutional Change and Interpretation and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about Constitutional Change and Interpretation. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Constitution — Articles I–III and identify the specific provision, institution or claim most relevant to constitutional change and interpretation.",
+        "Test the first source against Federalist No. 51, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Compare an actual amendment's proposal/ratification record with a court's interpretation of an existing clause. Identify why changing the written Constitution differs from applying existing language."
       ],
       "options": [
         "Follow the amendment procedures in Article V rather than treating an ordinary statute as a textual amendment.",
@@ -1065,22 +1065,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "Which article governs amendments to the U.S. Constitution?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
-          "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "Article I",
+            "Article V",
+            "Article III"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Which requirement applies to a proposed federal constitutional amendment under the ordinary congressional route?",
+          "options": [
+            "Approval by one federal judge",
+            "Signature of all governors",
+            "Proposal by two-thirds of each house and ratification by three-fourths of states"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -1142,11 +1142,11 @@
         "Civic investigation: A bill concerns a specialized federal transportation policy. Which procedural explanation is strongest? Use Constitution Article I (1787) to identify the governing rule, then compare it with How Our Laws Are Made. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "How Congress Is Organized · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of How Congress Is Organized, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Use the House and Senate committee pages to follow a hypothetical infrastructure bill. Identify which chamber's committee would examine it and why a committee action is not enactment.",
       "investigation": [
-        "Read the relevant governing text or official record for How Congress Is Organized and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about How Congress Is Organized. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Constitution Article I and identify the specific provision, institution or claim most relevant to how congress is organized.",
+        "Test the first source against How Our Laws Are Made, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Use the House and Senate committee pages to follow a hypothetical infrastructure bill. Identify which chamber's committee would examine it and why a committee action is not enactment."
       ],
       "options": [
         "A committee vote alone makes it federal law.",
@@ -1172,20 +1172,20 @@
           "answer": 2
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "Which congressional chamber has representation allocated by state population?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
+            "House of Representatives",
+            "Senate",
+            "Supreme Court"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
+          "prompt": "What is a standing committee's typical role?",
           "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "Vetoing presidential orders",
+            "Studying measures and conducting oversight within its jurisdiction",
+            "Approving amendments without either chamber"
           ],
           "answer": 1
         }
@@ -1249,11 +1249,11 @@
         "Civic investigation: A news headline says the House passed a bill. What fact is still needed before stating it became law? Use Constitution Article I (1787) to identify the governing rule, then compare it with How Our Laws Are Made. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "How a Bill Becomes Law · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of How a Bill Becomes Law, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Trace the same introduced bill through House passage, Senate revision, agreement on text, and presentment. Indicate where it could fail, and distinguish a bill's progress from the status of an enacted public law.",
       "investigation": [
-        "Read the relevant governing text or official record for How a Bill Becomes Law and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about How a Bill Becomes Law. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Constitution Article I and identify the specific provision, institution or claim most relevant to how a bill becomes law.",
+        "Test the first source against How Our Laws Are Made, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Trace the same introduced bill through House passage, Senate revision, agreement on text, and presentment. Indicate where it could fail, and distinguish a bill's progress from the status of an enacted public law."
       ],
       "options": [
         "Check only whether the bill has an attractive title.",
@@ -1279,22 +1279,22 @@
           "answer": 1
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "When the two houses pass different versions of a bill, what is generally necessary?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
+            "Only the House version matters",
+            "The president selects any sentence to sign",
+            "Agreement on the same final text before presentment"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
+          "prompt": "Where does the Constitution set out presidential presentment and veto procedures?",
           "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "Article I, Section 7",
+            "Article III, Section 1",
+            "The Tenth Amendment"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
@@ -1356,11 +1356,11 @@
         "Civic investigation: A hearing witness alleges misuse of funds. What is the best next step? Use Constitution Article I (1787) to identify the governing rule, then compare it with How Our Laws Are Made. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "Congressional Representation and Oversight · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of Congressional Representation and Oversight, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Select an actual congressional committee hearing and identify witnesses, sworn or unsworn evidence, and oversight jurisdiction. Compare testimony with a separate agency or audit record before judging the claim.",
       "investigation": [
-        "Read the relevant governing text or official record for Congressional Representation and Oversight and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about Congressional Representation and Oversight. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Constitution Article I and identify the specific provision, institution or claim most relevant to congressional representation and oversight.",
+        "Test the first source against How Our Laws Are Made, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Select an actual congressional committee hearing and identify witnesses, sworn or unsworn evidence, and oversight jurisdiction. Compare testimony with a separate agency or audit record before judging the claim."
       ],
       "options": [
         "Compare testimony with audited records and agency responses before reaching a conclusion.",
@@ -1386,22 +1386,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "Which congressional action is oversight rather than passing legislation?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
-          "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "Enacting a tax statute",
+            "Investigating an agency's spending at a hearing",
+            "Ratifying a constitutional amendment alone"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What does committee testimony alone establish?",
+          "options": [
+            "That a witness spoke and made stated claims, not that all allegations are proved",
+            "A final criminal conviction",
+            "A new statute effective immediately"
+          ],
+          "answer": 0
         }
       ],
       "visual": {
@@ -1463,11 +1463,11 @@
         "Civic investigation: A president announces a permanent new federal tax in a speech. What must be evaluated? Use Constitution Article II (1787) to identify the governing rule, then compare it with Federal Register: Executive Orders. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "The Powers of the President · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of The Powers of the President, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Contrast a president's commander-in-chief responsibilities with Congress's lawmaking and war powers. Use Articles I and II to analyze a hypothetical military decision without assuming the powers are unlimited.",
       "investigation": [
-        "Read the relevant governing text or official record for The Powers of the President and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about The Powers of the President. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Constitution Article II and identify the specific provision, institution or claim most relevant to the powers of the president.",
+        "Test the first source against Federal Register: Executive Orders, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Contrast a president's commander-in-chief responsibilities with Congress's lawmaking and war powers. Use Articles I and II to analyze a hypothetical military decision without assuming the powers are unlimited."
       ],
       "options": [
         "Whether the speech is longer than a congressional debate.",
@@ -1493,22 +1493,22 @@
           "answer": 2
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "Under Article II, who is commander in chief of U.S. armed forces?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
+            "The chief justice",
+            "The House speaker",
+            "The president"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
+          "prompt": "Who generally has constitutional power to declare war?",
           "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "Congress",
+            "The president acting alone in all cases",
+            "The Supreme Court"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
@@ -1570,11 +1570,11 @@
         "Civic investigation: An agency posts a proposed regulation. Which conclusion follows? Use Constitution Article II (1787) to identify the governing rule, then compare it with Federal Register: Executive Orders. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "Executive Departments and Federal Agencies · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of Executive Departments and Federal Agencies, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Choose a real Federal Register proposed rule and find its statutory authority, comment deadline, and later status. Distinguish the agency's proposal from any final rule.",
       "investigation": [
-        "Read the relevant governing text or official record for Executive Departments and Federal Agencies and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about Executive Departments and Federal Agencies. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Constitution Article II and identify the specific provision, institution or claim most relevant to executive departments and federal agencies.",
+        "Test the first source against Federal Register: Executive Orders, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Choose a real Federal Register proposed rule and find its statutory authority, comment deadline, and later status. Distinguish the agency's proposal from any final rule."
       ],
       "options": [
         "Congress has lost all oversight authority for that agency.",
@@ -1600,22 +1600,22 @@
           "answer": 1
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "What ordinarily gives a federal agency authority to regulate?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
-          "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "A popular online petition alone",
+            "Federal statutes and delegated legal authority",
+            "A statement from another country's cabinet"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What is usually the status of a notice of proposed rulemaking?",
+          "options": [
+            "A proposed step soliciting comment, not automatically a final binding rule",
+            "A ratified constitutional amendment",
+            "A final Supreme Court judgment"
+          ],
+          "answer": 0
         }
       ],
       "visual": {
@@ -1677,11 +1677,11 @@
         "Civic investigation: An executive order conflicts with a valid federal statute. Which assessment is strongest? Use Constitution Article II (1787) to identify the governing rule, then compare it with Federal Register: Executive Orders. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "Executive Orders and Constitutional Limits · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of Executive Orders and Constitutional Limits, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Locate an executive order and identify its stated legal authority, implementing agency and possible limits. Contrast its text with any applicable statute rather than treating all presidential directions as unrestricted law.",
       "investigation": [
-        "Read the relevant governing text or official record for Executive Orders and Constitutional Limits and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about Executive Orders and Constitutional Limits. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Constitution Article II and identify the specific provision, institution or claim most relevant to executive orders and constitutional limits.",
+        "Test the first source against Federal Register: Executive Orders, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Locate an executive order and identify its stated legal authority, implementing agency and possible limits. Contrast its text with any applicable statute rather than treating all presidential directions as unrestricted law."
       ],
       "options": [
         "An order cannot displace a valid statute; legal authority and judicial review are relevant.",
@@ -1707,22 +1707,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "Where can presidential executive orders be officially published?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
+            "An undocumented social-media feed",
+            "A private advertisement",
+            "The Federal Register"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
+          "prompt": "Which statement about executive orders is accurate?",
           "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "They can operate within constitutional and statutory authority but are legally reviewable",
+            "They always override federal statutes",
+            "They amend the Constitution when signed"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
@@ -1784,11 +1784,11 @@
         "Civic investigation: A witness disputes facts in a federal case. Which court ordinarily hears testimony and develops a trial record? Use Constitution Article III (1787) to identify the governing rule, then compare it with Marbury v. Madison. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "Understanding the Federal Court System · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of Understanding the Federal Court System, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Follow a hypothetical federal civil case from district court through an appeal. Explain what is in the trial record and what an appellate panel generally reviews.",
       "investigation": [
-        "Read the relevant governing text or official record for Understanding the Federal Court System and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about Understanding the Federal Court System. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Constitution Article III and identify the specific provision, institution or claim most relevant to understanding the federal court system.",
+        "Test the first source against Marbury v. Madison, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Follow a hypothetical federal civil case from district court through an appeal. Explain what is in the trial record and what an appellate panel generally reviews."
       ],
       "options": [
         "The Supreme Court in every case.",
@@ -1814,22 +1814,22 @@
           "answer": 2
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "What generally distinguishes trial from appellate courts?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
-          "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "Appeals courts routinely retry all witnesses from the beginning",
+            "Trial courts develop factual records; appellate courts generally review law and process",
+            "Trial courts alone may amend Article V"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Which constitutional article establishes the judicial branch?",
+          "options": [
+            "Article I",
+            "Article II",
+            "Article III"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -1891,11 +1891,11 @@
         "Civic investigation: A court rules a statute unconstitutional in a properly presented case. What principle does this illustrate? Use Constitution Article III (1787) to identify the governing rule, then compare it with Marbury v. Madison. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "Judicial Review · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of Judicial Review, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Read the key reasoning in Marbury v. Madison. Identify the legal question, what the Court held, and why judicial review does not mean judges may issue unlimited advisory commands.",
       "investigation": [
-        "Read the relevant governing text or official record for Judicial Review and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about Judicial Review. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Constitution Article III and identify the specific provision, institution or claim most relevant to judicial review.",
+        "Test the first source against Marbury v. Madison, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Read the key reasoning in Marbury v. Madison. Identify the legal question, what the Court held, and why judicial review does not mean judges may issue unlimited advisory commands."
       ],
       "options": [
         "The president's power to nullify any judicial decision.",
@@ -1921,20 +1921,20 @@
           "answer": 1
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "Which 1803 case is commonly associated with judicial review?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
+            "Marbury v. Madison",
+            "Brown v. Board of Education",
+            "Plessy v. Ferguson"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
+          "prompt": "Which statement avoids overstating judicial power?",
           "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "The Court can issue any policy without a case",
+            "Courts decide properly presented cases under jurisdictional limits",
+            "Judges formally ratify all constitutional amendments"
           ],
           "answer": 1
         }
@@ -1998,11 +1998,11 @@
         "Civic investigation: A student claims Tinker means schools may never regulate student expression. What should the student do? Use Constitution Article III (1787) to identify the governing rule, then compare it with Marbury v. Madison. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "Landmark Supreme Court Decisions · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of Landmark Supreme Court Decisions, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Compare Brown and Tinker by right at issue, material facts, and the Court's holding. Explain why precedent must be matched to its factual and legal context.",
       "investigation": [
-        "Read the relevant governing text or official record for Landmark Supreme Court Decisions and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about Landmark Supreme Court Decisions. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Constitution Article III and identify the specific provision, institution or claim most relevant to landmark supreme court decisions.",
+        "Test the first source against Marbury v. Madison, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Compare Brown and Tinker by right at issue, material facts, and the Court's holding. Explain why precedent must be matched to its factual and legal context."
       ],
       "options": [
         "Read the case holding and circumstances, including the substantial-disruption standard and later relevant decisions.",
@@ -2028,22 +2028,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "Which 1954 case addressed state-imposed segregation in public schools?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
+            "United States v. Nixon",
+            "Miranda v. Arizona",
+            "Brown v. Board of Education"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
+          "prompt": "Which 1969 case is associated with public-school students' symbolic speech rights?",
           "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "Tinker v. Des Moines",
+            "Dred Scott v. Sandford",
+            "Gibbons v. Ogden"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
@@ -2105,11 +2105,11 @@
         "Civic investigation: A government action raises a possible First Amendment issue. Which starting evidence is most useful? Use Bill of Rights (1791) to identify the governing rule, then compare it with Fourteenth Amendment. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "The Bill of Rights · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of The Bill of Rights, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Read a Bill of Rights protection and a related Fourteenth Amendment decision. Explain why the original federal text and its later application against state action have different historical timelines.",
       "investigation": [
-        "Read the relevant governing text or official record for The Bill of Rights and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about The Bill of Rights. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Bill of Rights and identify the specific provision, institution or claim most relevant to the bill of rights.",
+        "Test the first source against Fourteenth Amendment, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Read a Bill of Rights protection and a related Fourteenth Amendment decision. Explain why the original federal text and its later application against state action have different historical timelines."
       ],
       "options": [
         "A student's personal view alone.",
@@ -2135,22 +2135,22 @@
           "answer": 2
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "How many amendments comprise the original Bill of Rights ratified in 1791?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
-          "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "Seven",
+            "Ten",
+            "Twelve"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What is a crucial question when applying the Bill of Rights to state government?",
+          "options": [
+            "Whether a newspaper likes a policy",
+            "Whether the judge supports a candidate",
+            "How the Fourteenth Amendment and incorporation doctrine apply"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -2212,11 +2212,11 @@
         "Civic investigation: A student expresses a political view peacefully at a public school. Which analysis is most appropriate? Use Bill of Rights (1791) to identify the governing rule, then compare it with Fourteenth Amendment. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "Freedom of Speech and Religion · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of Freedom of Speech and Religion, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Analyze two distinct hypotheticals—student political expression and school sponsorship of religious activity. Identify the specific First Amendment issue and avoid treating speech and establishment as the same rule.",
       "investigation": [
-        "Read the relevant governing text or official record for Freedom of Speech and Religion and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about Freedom of Speech and Religion. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Bill of Rights and identify the specific provision, institution or claim most relevant to freedom of speech and religion.",
+        "Test the first source against Fourteenth Amendment, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Analyze two distinct hypotheticals—student political expression and school sponsorship of religious activity. Identify the specific First Amendment issue and avoid treating speech and establishment as the same rule."
       ],
       "options": [
         "Assume students lose all constitutional protection at school.",
@@ -2242,20 +2242,20 @@
           "answer": 1
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "Which First Amendment clause concerns government establishing a religion?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
+            "Establishment Clause",
+            "Commerce Clause",
+            "Supremacy Clause"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
+          "prompt": "Which claim about protected speech in public schools is too broad?",
           "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "Facts and context determine the test",
+            "Any student expression is protected from every possible restriction",
+            "Tinker involved black armbands protesting the Vietnam War"
           ],
           "answer": 1
         }
@@ -2319,11 +2319,11 @@
         "Civic investigation: A public agency removes a benefit without notice or a meaningful opportunity to respond. Which legal concern is most directly raised? Use Bill of Rights (1791) to identify the governing rule, then compare it with Fourteenth Amendment. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "Due Process and Equal Protection · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of Due Process and Equal Protection, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Compare the Fourteenth Amendment's due-process and equal-protection clauses using two contrasting hypothetical government actions. Identify the different legal questions each raises.",
       "investigation": [
-        "Read the relevant governing text or official record for Due Process and Equal Protection and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about Due Process and Equal Protection. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Bill of Rights and identify the specific provision, institution or claim most relevant to due process and equal protection.",
+        "Test the first source against Fourteenth Amendment, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Compare the Fourteenth Amendment's due-process and equal-protection clauses using two contrasting hypothetical government actions. Identify the different legal questions each raises."
       ],
       "options": [
         "Procedural due process, depending on the protected interest and applicable rules.",
@@ -2349,22 +2349,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "Which amendment explicitly applies an Equal Protection Clause to states?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
+            "Fifth Amendment",
+            "Tenth Amendment",
+            "Fourteenth Amendment"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
+          "prompt": "What is due process centrally concerned with?",
           "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "Procedural fairness and lawful deprivation under the relevant legal standard",
+            "Guaranteeing every litigant wins a case",
+            "Automatically barring all government regulation"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
@@ -2426,11 +2426,11 @@
         "Civic investigation: A rights amendment is ratified but discrimination continues. Which conclusion is historically sound? Use Bill of Rights (1791) to identify the governing rule, then compare it with Fourteenth Amendment. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "Civil Rights Through Constitutional Change · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of Civil Rights Through Constitutional Change, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Create an evidence sequence for the Thirteenth, Fourteenth and Fifteenth Amendments. For each distinguish its legal rule from later obstacles to enforcement.",
       "investigation": [
-        "Read the relevant governing text or official record for Civil Rights Through Constitutional Change and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about Civil Rights Through Constitutional Change. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Bill of Rights and identify the specific provision, institution or claim most relevant to civil rights through constitutional change.",
+        "Test the first source against Fourteenth Amendment, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Create an evidence sequence for the Thirteenth, Fourteenth and Fifteenth Amendments. For each distinguish its legal rule from later obstacles to enforcement."
       ],
       "options": [
         "An unenforced right has no legal importance.",
@@ -2456,22 +2456,22 @@
           "answer": 2
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "Which amendment abolished slavery except as punishment for crime following conviction?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
-          "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "Tenth Amendment",
+            "Thirteenth Amendment",
+            "Twenty-Second Amendment"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What did the Fifteenth Amendment restrict?",
+          "options": [
+            "All voter registration requirements",
+            "Congressional elections by popular vote alone",
+            "Denial of voting on account of race, color or previous servitude"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -2533,11 +2533,11 @@
         "Civic investigation: A website gives conflicting registration deadlines. Which action is most responsible? Use Constitution Article II / Twelfth Amendment (1787 / 1804) to identify the governing rule, then compare it with Voting Rights Act. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "How American Elections Work · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of How American Elections Work, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Use an official state election page to locate a dated election rule and compare it with the constitutional Electoral College text. Explain why federal constitutional structures and state administration should not be confused.",
       "investigation": [
-        "Read the relevant governing text or official record for How American Elections Work and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about How American Elections Work. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Constitution Article II / Twelfth Amendment and identify the specific provision, institution or claim most relevant to how american elections work.",
+        "Test the first source against Voting Rights Act, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Use an official state election page to locate a dated election rule and compare it with the constitutional Electoral College text. Explain why federal constitutional structures and state administration should not be confused."
       ],
       "options": [
         "Treat a historical deadline as applicable to every election.",
@@ -2563,20 +2563,20 @@
           "answer": 1
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "Who primarily administers U.S. elections under state law?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
+            "State and local election authorities",
+            "The Federal Reserve",
+            "The Supreme Court in every county"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
+          "prompt": "What is the purpose of the Twelfth Amendment?",
           "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "To establish the minimum wage",
+            "To revise Electoral College voting procedures for president and vice president",
+            "To create political parties"
           ],
           "answer": 1
         }
@@ -2640,11 +2640,11 @@
         "Civic investigation: A group funds advertisements for a proposal. What can this establish without further evidence? Use Constitution Article II / Twelfth Amendment (1787 / 1804) to identify the governing rule, then compare it with Voting Rights Act. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "Political Parties and Interest Groups · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of Political Parties and Interest Groups, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Examine a dated Federal Election Commission disclosure and an advocacy group's stated goals. Explain what the spending record proves and what additional evidence would be required to measure electoral effects.",
       "investigation": [
-        "Read the relevant governing text or official record for Political Parties and Interest Groups and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about Political Parties and Interest Groups. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Constitution Article II / Twelfth Amendment and identify the specific provision, institution or claim most relevant to political parties and interest groups.",
+        "Test the first source against Voting Rights Act, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Examine a dated Federal Election Commission disclosure and an advocacy group's stated goals. Explain what the spending record proves and what additional evidence would be required to measure electoral effects."
       ],
       "options": [
         "The group devoted resources to advocacy; its actual effect on votes requires additional evidence.",
@@ -2670,22 +2670,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "Which description best distinguishes an interest group from a political party?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
+            "Interest groups always run candidates",
+            "Political parties cannot advocate policy",
+            "Parties commonly nominate candidates; interest groups primarily advocate interests or policy"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
+          "prompt": "What must a campaign finance record be checked against?",
           "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "The filing period, disclosure category and transaction details",
+            "A candidate's favorite slogan",
+            "The number of colors in an advertisement"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
@@ -2747,11 +2747,11 @@
         "Civic investigation: A viral chart claims a new law doubled crime overnight. What should the learner check? Use Constitution Article II / Twelfth Amendment (1787 / 1804) to identify the governing rule, then compare it with Voting Rights Act. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "Media Literacy and Political Information · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of Media Literacy and Political Information, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Audit a hypothetical graphic against a real official data series. Identify the original publication date, denominator and relevant policy implementation date before drawing any conclusion.",
       "investigation": [
-        "Read the relevant governing text or official record for Media Literacy and Political Information and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about Media Literacy and Political Information. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Constitution Article II / Twelfth Amendment and identify the specific provision, institution or claim most relevant to media literacy and political information.",
+        "Test the first source against Voting Rights Act, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Audit a hypothetical graphic against a real official data series. Identify the original publication date, denominator and relevant policy implementation date before drawing any conclusion."
       ],
       "options": [
         "Only how many times the chart was shared.",
@@ -2777,22 +2777,22 @@
           "answer": 2
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "What should a reader inspect before trusting a viral crime-rate graph?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
-          "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "The number of shares",
+            "Original data, denominator, time span and definitions",
+            "Whether a graphic uses appealing colors"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Which condition most weakens a causal claim about a new policy?",
+          "options": [
+            "A direct controlled comparison",
+            "Transparent original data",
+            "An outcome began changing before the policy took effect"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -2854,11 +2854,11 @@
         "Civic investigation: A neighborhood group wants safer crosswalks. Which is the most effective initial civic plan? Use Constitution Article II / Twelfth Amendment (1787 / 1804) to identify the governing rule, then compare it with Voting Rights Act. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "Citizen Participation Beyond Voting · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of Citizen Participation Beyond Voting, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Design a realistic safer-crosswalk request using county meeting rules, crash/location data and an agency contact. State an achievable outcome and how residents would measure follow-up.",
       "investigation": [
-        "Read the relevant governing text or official record for Citizen Participation Beyond Voting and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about Citizen Participation Beyond Voting. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Constitution Article II / Twelfth Amendment and identify the specific provision, institution or claim most relevant to citizen participation beyond voting.",
+        "Test the first source against Voting Rights Act, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Design a realistic safer-crosswalk request using county meeting rules, crash/location data and an agency contact. State an achievable outcome and how residents would measure follow-up."
       ],
       "options": [
         "Assume only national government can address road design.",
@@ -2884,20 +2884,20 @@
           "answer": 1
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "Which civic activity can affect policy between elections?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
+            "Testifying at a public hearing",
+            "Waiting until the next national census only",
+            "Refusing all contact with public bodies"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
+          "prompt": "Before filing a request for safer crossings, what should residents find?",
           "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "A foreign ministry's trade figures",
+            "The responsible local road authority and incident/location evidence",
+            "A national presidential campaign platform"
           ],
           "answer": 1
         }
@@ -2961,11 +2961,11 @@
         "Civic investigation: A Maryland policy proposal concerns a state-regulated issue. Which source best establishes its legislative status? Use Maryland Constitution (1867; amended) to identify the governing rule, then compare it with Maryland General Assembly. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "State Government and Federalism · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of State Government and Federalism, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Trace a Maryland bill using the General Assembly's history tools and compare it with a Maryland constitutional amendment procedure. Identify where voters, legislators and the governor have distinct roles.",
       "investigation": [
-        "Read the relevant governing text or official record for State Government and Federalism and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about State Government and Federalism. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Maryland Constitution and identify the specific provision, institution or claim most relevant to state government and federalism.",
+        "Test the first source against Maryland General Assembly, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Trace a Maryland bill using the General Assembly's history tools and compare it with a Maryland constitutional amendment procedure. Identify where voters, legislators and the governor have distinct roles."
       ],
       "options": [
         "The Maryland General Assembly's official bill history and enrolled law records.",
@@ -2991,22 +2991,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "What is Maryland's state legislative body called?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
+            "The federal Senate",
+            "The county council",
+            "The Maryland General Assembly"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
+          "prompt": "How do Maryland constitutional amendments normally reach adoption?",
           "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "Legislative proposal followed by voter ratification",
+            "A presidential executive order",
+            "A federal jury vote"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
@@ -3068,11 +3068,11 @@
         "Civic investigation: A county proposes expanding library hours. Which evidence best evaluates the proposal? Use Maryland Constitution (1867; amended) to identify the governing rule, then compare it with Maryland General Assembly. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "Local Government and Public Services · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of Local Government and Public Services, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Consult a county budget and public meeting agenda about one local service. Identify who authorizes funds, who administers the service, and whose needs appear absent.",
       "investigation": [
-        "Read the relevant governing text or official record for Local Government and Public Services and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about Local Government and Public Services. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Maryland Constitution and identify the specific provision, institution or claim most relevant to local government and public services.",
+        "Test the first source against Maryland General Assembly, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Consult a county budget and public meeting agenda about one local service. Identify who authorizes funds, who administers the service, and whose needs appear absent."
       ],
       "options": [
         "The proposal's title alone.",
@@ -3098,22 +3098,22 @@
           "answer": 2
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "Which task is generally a county-level public-service question?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
-          "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "Ratifying U.S. foreign treaties",
+            "Allocating local library staffing and operating hours",
+            "Appointing Supreme Court justices"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What would help determine whether new library hours are equitable?",
+          "options": [
+            "A campaign slogan",
+            "An undated photo alone",
+            "Use data, travel access, staffing costs and residents' needs"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -3175,11 +3175,11 @@
         "Civic investigation: A new road may reduce traffic downtown but increase it near a school. What is the strongest evaluation? Use Maryland Constitution (1867; amended) to identify the governing rule, then compare it with Maryland General Assembly. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "How Local Policies Affect Communities · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of How Local Policies Affect Communities, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Use a hypothetical school-zone redesign plus real county transportation-data categories. Compare students' walking safety, bus travel times, costs and neighboring streets before recommending a change.",
       "investigation": [
-        "Read the relevant governing text or official record for How Local Policies Affect Communities and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about How Local Policies Affect Communities. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Maryland Constitution and identify the specific provision, institution or claim most relevant to how local policies affect communities.",
+        "Test the first source against Maryland General Assembly, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Use a hypothetical school-zone redesign plus real county transportation-data categories. Compare students' walking safety, bus travel times, costs and neighboring streets before recommending a change."
       ],
       "options": [
         "Treat the plan's stated purpose as proof it cannot cause harm.",
@@ -3205,20 +3205,20 @@
           "answer": 1
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "What is a plausible tradeoff in changing school-zone traffic circulation?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
+            "Less congestion on one road but possible new hazards on another",
+            "A new local road automatically changes the Constitution",
+            "Traffic can never affect pedestrian safety"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
+          "prompt": "What must a local impact study distinguish?",
           "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "Only what the sponsors hoped would happen",
+            "Forecast effects from measured outcomes after implementation",
+            "The size of the press release"
           ],
           "answer": 1
         }
@@ -3282,11 +3282,11 @@
         "Civic investigation: A city considers regulating stormwater runoff. Which policy-analysis question is strongest? Use Maryland General Assembly Bill Search (Public records) to identify the governing rule, then compare it with Congressional Budget Office. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "How Public Policy Is Developed · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of How Public Policy Is Developed, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Outline a stormwater policy process: local legal authority, affected drainage area, alternative designs, costs, public comment and post-adoption flood measures.",
       "investigation": [
-        "Read the relevant governing text or official record for How Public Policy Is Developed and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about How Public Policy Is Developed. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Maryland General Assembly Bill Search and identify the specific provision, institution or claim most relevant to how public policy is developed.",
+        "Test the first source against Congressional Budget Office, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Outline a stormwater policy process: local legal authority, affected drainage area, alternative designs, costs, public comment and post-adoption flood measures."
       ],
       "options": [
         "What legal authority exists, who bears costs and benefits, and how will flood outcomes be measured?",
@@ -3312,22 +3312,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "Which step comes after defining a concrete local policy problem?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
+            "Declare success without evidence",
+            "Choose the loudest spokesperson",
+            "Identify feasible alternatives and criteria for comparing them"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
+          "prompt": "Which question establishes whether a city can act on stormwater runoff?",
           "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "Which public body has legal jurisdiction and authority?",
+            "How popular is the policy slogan?",
+            "Which poster looks best?"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
@@ -3389,11 +3389,11 @@
         "Civic investigation: A county has funds for only one of two projects. Which analysis best supports a defensible budget recommendation? Use Maryland General Assembly Bill Search (Public records) to identify the governing rule, then compare it with Congressional Budget Office. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "Taxes, Budgets, and Public Priorities · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of Taxes, Budgets, and Public Priorities, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Compare two fictional county capital projects using a clearly labeled sample budget, then identify the real budget documents needed before making an authentic local recommendation.",
       "investigation": [
-        "Read the relevant governing text or official record for Taxes, Budgets, and Public Priorities and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about Taxes, Budgets, and Public Priorities. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Maryland General Assembly Bill Search and identify the specific provision, institution or claim most relevant to taxes, budgets, and public priorities.",
+        "Test the first source against Congressional Budget Office, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Compare two fictional county capital projects using a clearly labeled sample budget, then identify the real budget documents needed before making an authentic local recommendation."
       ],
       "options": [
         "Choose whichever project has a shorter title.",
@@ -3419,22 +3419,22 @@
           "answer": 2
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "What is an opportunity cost in local budgeting?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
-          "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "A cost that never needs to be estimated",
+            "The benefit forgone when funding one option instead of another",
+            "An income tax required by the Constitution"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Which evidence is most useful when evaluating two budget options?",
+          "options": [
+            "Only their promotional titles",
+            "One anecdote chosen in advance",
+            "Comparable cost, population served, legal requirements and expected outcomes"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -3496,11 +3496,11 @@
         "Civic investigation: Two groups disagree about a school transportation proposal. Which response is strongest? Use Maryland General Assembly Bill Search (Public records) to identify the governing rule, then compare it with Congressional Budget Office. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "Evaluating a Public Policy Debate · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of Evaluating a Public Policy Debate, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Compare two position statements about school transportation using a shared table of route times, cost assumptions, accessibility and safety. Flag which figures are hypothetical.",
       "investigation": [
-        "Read the relevant governing text or official record for Evaluating a Public Policy Debate and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about Evaluating a Public Policy Debate. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Maryland General Assembly Bill Search and identify the specific provision, institution or claim most relevant to evaluating a public policy debate.",
+        "Test the first source against Congressional Budget Office, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Compare two position statements about school transportation using a shared table of route times, cost assumptions, accessibility and safety. Flag which figures are hypothetical."
       ],
       "options": [
         "Treat any uncertainty as a reason no policy can ever be chosen.",
@@ -3526,20 +3526,20 @@
           "answer": 1
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "What should an evidence-based debate identify before judging opposing arguments?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
+            "The criteria and measurable outcomes for the policy question",
+            "The color of each group's presentation",
+            "Whether a spokesperson is famous"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
+          "prompt": "How should conflicting transportation estimates be handled?",
           "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "Choose the highest estimate automatically",
+            "Compare methods, assumptions and data periods",
+            "Treat both estimates as meaningless"
           ],
           "answer": 1
         }
@@ -3603,11 +3603,11 @@
         "Civic investigation: A student group proposes adding shade at bus stops. What makes the project assessable? Use Maryland General Assembly Bill Search (Public records) to identify the governing rule, then compare it with Congressional Budget Office. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
       ],
       "activity": "Designing a Community Civic Action Project · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of Designing a Community Civic Action Project, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Draft a one-page project for shade at local bus stops: name sites, identify the transit authority, gather heat/accessibility observations, estimate costs and select a follow-up metric.",
       "investigation": [
-        "Read the relevant governing text or official record for Designing a Community Civic Action Project and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about Designing a Community Civic Action Project. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Examine Maryland General Assembly Bill Search and identify the specific provision, institution or claim most relevant to designing a community civic action project.",
+        "Test the first source against Congressional Budget Office, identifying whether the latter is an original legal record, an institutional explanation or a collection gateway.",
+        "Draft a one-page project for shade at local bus stops: name sites, identify the transit authority, gather heat/accessibility observations, estimate costs and select a follow-up metric."
       ],
       "options": [
         "A defined location, authority, baseline conditions, proposed action, outcome measure and individual roles.",
@@ -3633,22 +3633,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "What makes a civic project measurable?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
+            "An impressive slogan",
+            "No assigned roles",
+            "A baseline, target, timeline, responsible authority and outcome measures"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
+          "prompt": "Which action best demonstrates responsible public engagement?",
           "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "Submit a specific evidence-backed proposal to the appropriate decision-making body",
+            "Post unverified allegations about officials",
+            "Claim public approval without consulting residents"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
       "visual": {
