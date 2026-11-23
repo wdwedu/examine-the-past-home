@@ -2698,6 +2698,14 @@
           "type": "Secondary",
           "url": "https://www.fec.gov/introduction-campaign-finance/",
           "summary": "Campaign finance disclosures explain some funding; they do not reveal every form of influence or guarantee impartial information."
+        },
+        {
+          "title": "Twelfth Amendment to the U.S. Constitution",
+          "creator": "United States Congress and ratifying states",
+          "date": "Ratified 1804",
+          "type": "Primary constitutional amendment",
+          "url": "https://www.archives.gov/founding-docs/amendments-11-27",
+          "summary": "The Twelfth Amendment revised the voting process for presidential electors. Read it separately from the original Article II text."
         }
       ],
       "isPresidentsGame": true,
