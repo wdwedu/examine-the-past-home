@@ -910,16 +910,16 @@
       "total": 3,
       "essential": "What motivated U.S. overseas expansion, and who resisted it?",
       "paragraphs": [
-        "Late nineteenth-century U.S. advocates of overseas power emphasized commerce, naval strategy, competition, and ideas of national prestige. American involvement extended to Pacific and Caribbean territories. Commercial expansion, strategic coaling stations, naval planning, and ideological claims about national destiny worked together in late-nineteenth-century debates. An overseas possession could be described as both a market opportunity and a military asset. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "Imperial policies often denied self-determination to affected populations. Critics argued that colonial rule contradicted republican claims about consent and liberty. Anti-imperialists warned that governing a population without its consent undermined principles invoked during U.S. independence. In occupied territories, local organizations and leaders pursued their own goals and should not be portrayed only as recipients of U.S. policy. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Examine an expansionist speech alongside an anti-imperialist argument and a perspective from an affected territory. Compare motives without assuming all Americans or islanders agreed. Compare a U.S. political cartoon with an affected community's statement. Define whose 'interest' is being defended, then decide whether the image supplies historical evidence or primarily expresses propaganda. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "At the end of the nineteenth century, Americans disagreed over whether the United States should exercise power overseas. Supporters pointed to trade, naval stations, strategic competition, and national standing. Critics asked a different question: could a republic founded on consent govern people who had not consented? These were arguments over both national interests and political principles, not a single national consensus.",
+        "Cuban and Filipino independence movements had their own histories and leaders before U.S. military intervention against Spain in 1898. José Martí and Máximo Gómez issued the Montecristi Manifesto in 1895; Filipino revolutionaries proclaimed independence in June 1898. A U.S. congressional promise regarding Cuba, recorded in the Teller Amendment, did not apply in the same way to the Philippines. Nor can all experiences of Puerto Ricans, Cubans, Filipinos, and Chamorros be combined into one colonial story.",
+        "Place three voices on the table: a Cuban revolutionary manifesto from 1895, the U.S. Teller Amendment from 1898, and the Philippine declaration of June 1898. Who claims political authority in each document, and for whom? The comparison lets students distinguish an American claim about the purposes of intervention from demands by people seeking independence. A law or proclamation describes a political position; additional records are needed to establish how that position was carried out."
       ],
-      "activity": "Why Did America Become an Overseas Power? · Evidence Investigation",
-      "task": "Write a claim about Why Did America Become an Overseas Power? with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "Why Did America Become an Overseas Power? · Historical evidence investigation",
+      "task": "Write an evidence-based answer to whether U.S. overseas expansion matched the principle of government by consent. Use two named documents and explain whose position is missing.",
       "investigation": [
-        "Identify a dated historical document bearing on Why Did America Become an Overseas Power?. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of Why Did America Become an Overseas Power?. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about Why Did America Become an Overseas Power? with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Locate the Montecristi Manifesto's March 1895 date and authors. Identify what it tells us about Cuban independence before U.S. intervention; record the language or translation being used.",
+        "Read the Teller Amendment and the June 1898 Philippine declaration. Compare which peoples each text discusses and what kind of political control it accepts or rejects.",
+        "Write an evidence-based answer to whether U.S. overseas expansion matched the principle of government by consent. Use two named documents and explain whose position is missing."
       ],
       "options": [
         "Self-determination of peoples in acquired territories",
@@ -936,31 +936,31 @@
       ],
       "checks": [
         {
-          "prompt": "Which issue was prominent in debates about U.S. overseas expansion?",
+          "prompt": "What does the Teller Amendment help establish about U.S. policy toward Cuba in 1898?",
           "options": [
-            "Self-determination of peoples in acquired territories",
-            "Ratification of the Fourteenth Amendment",
-            "Construction of the Interstate Highway System"
+            "Congress stated that the United States would not annex Cuba",
+            "Congress granted Cuba statehood",
+            "Congress recognized Philippine independence"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which method would strengthen a historical argument about Why Did America Become an Overseas Power??",
+          "prompt": "Why is the Philippine declaration of June 1898 important to this inquiry?",
           "options": [
-            "Compare two contextualized sources addressing imperialism and annexation.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion about Why Did America Become an Overseas Power? is most defensible?",
-          "options": [
-            "Only one participant's account can establish all effects of self-determination.",
-            "Interpret imperialism in historical context and weigh competing evidence concerning naval strategy.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "It shows Filipinos had no political movement before U.S. arrival",
+            "It records a Philippine claim to independence made by Filipino revolutionaries",
+            "It establishes that every Filipino supported one leader"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What is the strongest conclusion from reading the Cuban manifesto and the Teller Amendment together?",
+          "options": [
+            "They prove U.S. policy fully carried out Cuban goals",
+            "They show Cubans had no independence movement",
+            "They reflect different authors and political interests that require comparison"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -975,7 +975,33 @@
           "Examine an expansionist speech alongside an anti-imperialist argument and a perspective from an affected territory. Compare motives without assuming all Americans or islanders"
         ]
       },
-      "investigationKind": "debate"
+      "investigationKind": "debate",
+      "references": [
+        {
+          "title": "Teller Amendment, H.J. Res. 233",
+          "creator": "United States Congress",
+          "date": "April 1898",
+          "type": "Primary",
+          "url": "https://www.visitthecapitol.gov/artifact/hj-res-233-teller-amendment-april-16-1898",
+          "summary": "U.S. congressional pledge against annexing Cuba; compare its stated intention with later U.S.–Cuban relations. Capitol exhibit gives the contemporaneous document and its historical setting."
+        },
+        {
+          "title": "Act of the Proclamation of Independence of the Filipino People",
+          "creator": "Ambrosio Rianzares Bautista and Philippine revolutionary government",
+          "date": "June 12, 1898",
+          "type": "Primary",
+          "url": "https://ncca.gov.ph/wp-content/uploads/2021/09/PHILIPPINE-HISTORY-SOURCE-BOOK-FINAL-SEP022021.pdf",
+          "summary": "The National Commission for Culture and the Arts publishes a translated Philippine declaration within a sourcebook. Use its exact document section, not the entire PDF as if it were a single primary source. Translation requires attribution."
+        },
+        {
+          "title": "Manifiesto de Montecristi (Montecristi Manifesto)",
+          "creator": "José Martí and Máximo Gómez",
+          "date": "March 25, 1895",
+          "type": "Primary",
+          "url": "https://colecciones.agn.gob.do/opac/ficha.php?codopac=OPPUB&idpag=1431151555&informatico=00094750PI",
+          "summary": "Dominican national-archives catalog record for Cuban revolutionary manifesto; Spanish original and the archive's bibliographic description require guided translation for English-language readers."
+        }
+      ]
     },
     "the-spanish-american-war": {
       "title": "The Spanish-American War",
@@ -985,16 +1011,16 @@
       "total": 3,
       "essential": "How did a short war create long-term imperial questions?",
       "paragraphs": [
-        "The 1898 Spanish–American War was influenced by Cuban independence struggles, sensational press coverage, and U.S. strategic interests. The explosion of the USS Maine intensified public pressure, but its cause was not definitively established at the time. Cuban independence activists had struggled against Spanish colonial rule before U.S. intervention. A U.S.-centered account can wrongly make Cubans disappear from the origins of the conflict. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "The Treaty of Paris of 1898 transferred Spanish claims over Puerto Rico, Guam, and the Philippines to the United States; Cuba's status followed a distinct path. Filipino nationalists rejected U.S. colonial domination, leading to the Philippine–American War. The transfer of Spanish territorial claims affected Puerto Ricans, Chamorros in Guam, and Filipinos in different ways. The Philippine–American War shows that an end to one interstate war did not end struggles over sovereignty. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Analyze a newspaper headline, the 1898 treaty, and a Filipino independence statement. Evaluate the gap between a claimed war of liberation and imperial consequences. Newspaper accounts of the USS Maine must be read with the uncertainty that existed about the explosion. An allegation presented confidently by a newspaper is not the same as a verified finding. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "The war between the United States and Spain in 1898 did not begin the Cuban struggle for independence. Cuban revolutionaries had fought Spain for years. U.S. public debate intensified after reports of Spanish repression and the February 1898 explosion of the USS Maine. Sensational reporting mattered, but a newspaper headline cannot establish who caused the explosion, and historians should not reduce the decision for war to the press alone.",
+        "U.S. forces fought Spain in the Caribbean and Pacific. The December 1898 Treaty of Paris ended the interstate war, yet it did not settle the political aspirations of everyone affected. Spain relinquished sovereignty over Cuba, while Puerto Rico, Guam, and the Philippines were ceded to the United States. Filipino revolutionaries had already proclaimed independence in June. The subsequent Philippine–American War makes clear that an international peace treaty could coincide with another struggle over sovereignty.",
+        "Ask students to read the treaty alongside the Filipino independence declaration and the Teller Amendment. Who negotiated the treaty, and who was not at the table? Why does the agreement describe the Philippines differently from Cuba? The lesson should distinguish what the treaty legally provided from whether its terms were accepted by the people living under the resulting systems. Avoid presenting the U.S. as the only historical actor in this story."
       ],
-      "activity": "The Spanish-American War · Evidence Investigation",
-      "task": "Write a claim about The Spanish-American War with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "The Spanish-American War · Historical evidence investigation",
+      "task": "Explain why the end of the Spanish–American War did not end conflict in the Philippines. Use the 1898 documents and one clearly labeled later event in your argument.",
       "investigation": [
-        "Identify a dated historical document bearing on The Spanish-American War. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of The Spanish-American War. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about The Spanish-American War with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Read the April 1898 congressional resolution and identify what it said about Cuba's future; distinguish this promise from Spain's position.",
+        "Compare the Philippine independence declaration of June 1898 with the December Treaty of Paris. Identify the competing assertions of sovereignty, and note that a translated source may carry translation choices.",
+        "Explain why the end of the Spanish–American War did not end conflict in the Philippines. Use the 1898 documents and one clearly labeled later event in your argument."
       ],
       "options": [
         "Treaty of Versailles",
@@ -1011,31 +1037,31 @@
       ],
       "checks": [
         {
-          "prompt": "Which treaty ended the Spanish–American War?",
+          "prompt": "Under the 1898 Treaty of Paris, how did Spain's treatment of Cuba differ from its treatment of the Philippines?",
           "options": [
-            "Treaty of Versailles",
-            "Treaty of Paris (1898)",
-            "Treaty of Ghent"
+            "Spain ceded both Cuba and the Philippines to the United States as states",
+            "Spain relinquished sovereignty over Cuba but ceded the Philippines to the United States",
+            "Spain retained both territories"
           ],
           "answer": 1
         },
         {
-          "prompt": "Which method would strengthen a historical argument about The Spanish-American War?",
+          "prompt": "What had Filipino revolutionaries proclaimed before the Treaty of Paris was signed?",
           "options": [
-            "Compare two contextualized sources addressing yellow journalism and USS Maine.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
+            "Independence in June 1898",
+            "A request for Spanish annexation",
+            "Membership in the U.S. Congress"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion about The Spanish-American War is most defensible?",
+          "prompt": "What would be an unwarranted conclusion from a sensational 1898 newspaper headline about the USS Maine?",
           "options": [
-            "Only one participant's account can establish all effects of Treaty of Paris 1898.",
-            "Interpret yellow journalism in historical context and weigh competing evidence concerning Philippine–American War.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "The report shaped public discussion",
+            "The ship's destruction became politically important",
+            "The newspaper's allegation proves the cause of the explosion"
           ],
-          "answer": 1
+          "answer": 2
         }
       ],
       "visual": {
@@ -1067,6 +1093,30 @@
           "type": "Primary",
           "url": "https://docsteach.org/document/act-of-april-25-1898-public-law-5569-30-stat-364-which-declared-war-between-the-united-states-and-spain/",
           "summary": "Compare the legal declaration with McKinley's request; identify what the act establishes and what it does not reveal about colonial subjects' experiences."
+        },
+        {
+          "title": "Treaty of Peace Between the United States and Spain (Treaty of Paris)",
+          "creator": "United States and Spanish diplomatic representatives",
+          "date": "December 10, 1898",
+          "type": "Primary",
+          "url": "https://history.state.gov/historicaldocuments/frus1898/d863",
+          "summary": "U.S. Department of State publication of the treaty terms. Distinguish Spain's relinquishment of sovereignty in Cuba from cession of Puerto Rico, Guam, and the Philippines."
+        },
+        {
+          "title": "Act of the Proclamation of Independence of the Filipino People",
+          "creator": "Ambrosio Rianzares Bautista and Philippine revolutionary government",
+          "date": "June 12, 1898",
+          "type": "Primary",
+          "url": "https://ncca.gov.ph/wp-content/uploads/2021/09/PHILIPPINE-HISTORY-SOURCE-BOOK-FINAL-SEP022021.pdf",
+          "summary": "Official Philippine cultural agency sourcebook reproduces a translation of the contemporary declaration; this perspective is not represented by the U.S.–Spain treaty signatories."
+        },
+        {
+          "title": "Joint Resolution for the Recognition of the Independence of Cuba (Teller Amendment)",
+          "creator": "United States Congress",
+          "date": "April 20, 1898",
+          "type": "Primary",
+          "url": "https://history.state.gov/historicaldocuments/frus1898/d627",
+          "summary": "State Department publication of the joint resolution's text. Contrast the U.S. pledge against annexation with the later 1901 Platt Amendment and 1903 treaty."
         }
       ],
       "video": [
@@ -1083,16 +1133,16 @@
       "total": 3,
       "essential": "How did U.S. foreign policy combine ideals, investment, and coercion?",
       "paragraphs": [
-        "The Open Door notes sought equal commercial opportunity in China amid imperial competition. Theodore Roosevelt's 1904 corollary to the Monroe Doctrine justified intervention in parts of Latin America. The Roosevelt Corollary framed intervention as a way of preventing European interference, but its application increased U.S. power over neighboring countries' affairs. Stated security aims and actual power relations may be different. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "Taft's dollar diplomacy emphasized U.S. investment as a foreign-policy instrument. These strategies reflected shifting means but continuing tension between economic goals, security claims, and other nations' sovereignty. Investment-led policy could protect U.S. commercial interests while leaving other countries exposed to financial pressure. Examine who received loans, who controlled decisions, and whose interests governments claimed to protect. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Compare a policy statement to a documented intervention. Identify stated justification, available alternatives, and the view of the affected population. A policy statement is evidence of what leaders wanted audiences to believe. Compare it with the actions taken in a specific country before judging the policy's consequences. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "In 1899–1900, Secretary of State John Hay circulated Open Door notes about commercial access in China. They were a response to competition among powers claiming spheres of influence, not a declaration that Chinese people had invited foreign control. Ask whose trading opportunities the policy prioritized and whether a promise of equal access for outside powers meant political equality for China.",
+        "President Theodore Roosevelt's December 1904 message expanded the Monroe Doctrine by asserting a U.S. role in intervening under certain conditions in the Western Hemisphere. A 1904 policy statement was not automatically welcomed by Caribbean or Latin American governments. Later policies associated with William Howard Taft relied more openly on the use of U.S. investment and finance. These approaches differed in method but continued to raise questions about national sovereignty.",
+        "Read the Open Door historical record and Roosevelt's actual annual message. Separate three things: what officials said they intended, what powers they claimed for the United States, and what happened to the people affected. Choose a concrete example before judging success or harm. A policy declaration is strong evidence for its author's priorities, but it is not sufficient evidence for the consequences of intervention."
       ],
-      "activity": "America's Changing Foreign Policy · Evidence Investigation",
-      "task": "Write a claim about America's Changing Foreign Policy with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "America's Changing Foreign Policy · Historical evidence investigation",
+      "task": "Compare the commercial and intervention-oriented policies. Explain why stated security or trade goals do not by themselves establish that a foreign population accepted the policy.",
       "investigation": [
-        "Identify a dated historical document bearing on America's Changing Foreign Policy. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of America's Changing Foreign Policy. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about America's Changing Foreign Policy with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Use the Department of State's Open Door chronology to identify Hay's 1899–1900 diplomatic goal. Mark the official summary as secondary, not as the original note.",
+        "Read Roosevelt's December 1904 message as a primary statement. Identify the specific justification for asserting an intervention role and one group not speaking in the document.",
+        "Compare the commercial and intervention-oriented policies. Explain why stated security or trade goals do not by themselves establish that a foreign population accepted the policy."
       ],
       "options": [
         "George Washington",
@@ -1109,31 +1159,31 @@
       ],
       "checks": [
         {
-          "prompt": "Which president is associated with the 1904 corollary to the Monroe Doctrine?",
+          "prompt": "What did the Open Door notes chiefly address?",
           "options": [
-            "George Washington",
-            "Jimmy Carter",
-            "Theodore Roosevelt"
-          ],
-          "answer": 2
-        },
-        {
-          "prompt": "Which method would strengthen a historical argument about America's Changing Foreign Policy?",
-          "options": [
-            "Compare two contextualized sources addressing Open Door Policy and Roosevelt Corollary.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
+            "Foreign commercial access in China",
+            "The creation of NATO",
+            "The purchase of Alaska"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion about America's Changing Foreign Policy is most defensible?",
+          "prompt": "When did Roosevelt articulate the corollary in his annual message to Congress?",
           "options": [
-            "Only one participant's account can establish all effects of dollar diplomacy.",
-            "Interpret Open Door Policy in historical context and weigh competing evidence concerning sovereignty.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "1898",
+            "December 1904",
+            "1917"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What is missing if students only read Roosevelt's justification for intervention?",
+          "options": [
+            "A claim made by the U.S. president",
+            "The intended U.S. policy",
+            "Evidence of affected countries' responses and the intervention's consequences"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -1148,7 +1198,33 @@
           "Compare a policy statement to a documented intervention. Identify stated justification, available alternatives, and the view of the affected population."
         ]
       },
-      "investigationKind": "cause"
+      "investigationKind": "cause",
+      "references": [
+        {
+          "title": "Secretary of State John Hay and the Open Door in China, 1899–1900",
+          "creator": "United States Department of State, Office of the Historian",
+          "date": "1899–1900 (contextual presentation)",
+          "type": "Secondary institutional history",
+          "url": "https://history.state.gov/milestones/1899-1913/hay-and-china",
+          "summary": "Official historical explanation containing identifiable dates and policy context; classify as a secondary institutional account, not the original diplomatic note."
+        },
+        {
+          "title": "Theodore Roosevelt's Annual Message to Congress (Roosevelt Corollary)",
+          "creator": "President Theodore Roosevelt",
+          "date": "December 6, 1904",
+          "type": "Primary",
+          "url": "https://1898exhibition.si.edu/node/226",
+          "summary": "Smithsonian reproduction of a named presidential primary statement. A U.S. policy justification does not document Latin American approval or policy outcomes."
+        },
+        {
+          "title": "Roosevelt Corollary to the Monroe Doctrine",
+          "creator": "National Archives, presentation of Roosevelt's presidential message",
+          "date": "1904 message; NARA exhibit titled 1905",
+          "type": "Primary excerpt and archival context",
+          "url": "https://www.archives.gov/milestone-documents/roosevelt-corollary",
+          "summary": "NARA's exhibition heading uses 1905 while the corollary was articulated in the 1904 annual message. Preserve this distinction rather than silently changing the date."
+        }
+      ]
     },
     "causes-of-world-war-i": {
       "title": "Causes of World War I",
@@ -1158,16 +1234,16 @@
       "total": 4,
       "essential": "Why did a regional crisis become a global war in 1914?",
       "paragraphs": [
-        "European imperial rivalries, militarization, alliance commitments, and nationalism created instability before 1914. The assassination of Archduke Franz Ferdinand in Sarajevo triggered a sequence of diplomatic ultimatums and mobilizations. The July Crisis involved decisions by Austria-Hungary, Serbia, Russia, Germany, France, and Britain under severe uncertainty. Alliances affected calculations but did not erase the agency of political leaders. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "War expanded through state decisions, alliances, empires, and colonial resources. The assassination was a trigger, not an adequate single-cause explanation of the conflict. Imperial networks connected troops and resources from colonies to the conflict. Describing the war solely as a contest among European states misses the global effects of empire. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Map the July Crisis sequence and evaluate competing explanations with attention to choices by governments rather than assigning mechanical inevitability to alliances. Build a causal diagram separating long-term conditions from the immediate trigger. A satisfactory explanation should show pathways through which militarization and diplomatic choices made escalation more likely. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "The assassination of Archduke Franz Ferdinand in Sarajevo on June 28, 1914, was the immediate crisis that helped set events in motion, not a sufficient explanation of a world war. Nationalism, imperial competition, military planning, and alliances made the political environment volatile. Yet governments still made decisions. A careful account names those decisions instead of treating war as the automatic result of a map of alliances.",
+        "Austria-Hungary delivered an ultimatum to Serbia on July 23, 1914. Serbia's reply did not prevent the diplomatic breakdown, and Austria-Hungary declared war on July 28. Mobilizations and further declarations widened the conflict. Historians should ask both what the ultimatum demanded and why other governments treated the crisis as a threat to their interests. The war's European origins must also be placed in the context of colonial soldiers, resources, and affected populations across empires.",
+        "Build a three-part timeline: assassination, ultimatum and reply, escalation into war. Read a portion of the actual ultimatum, then compare its demands with a contemporaneous chronology. Which actions were choices by governments? Which pressures had been building for years? Support a causal explanation with dates and actions, and acknowledge that understanding those choices does not require claiming the conflict was inevitable."
       ],
-      "activity": "Causes of World War I · Evidence Investigation",
-      "task": "Write a claim about Causes of World War I with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "Causes of World War I · Historical evidence investigation",
+      "task": "Argue whether the assassination alone explains the widening war. Explain how at least two government decisions contributed to escalation while separating those choices from longer-term conditions.",
       "investigation": [
-        "Identify a dated historical document bearing on Causes of World War I. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of Causes of World War I. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about Causes of World War I with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Use the Library of Congress chronology to distinguish June 28, July 23 and July 28, 1914. Identify what occurred on each date.",
+        "Read the Austro-Hungarian ultimatum. Select a specific demand and explain how its language asserts state authority. Distinguish an accusation from independently established guilt.",
+        "Argue whether the assassination alone explains the widening war. Explain how at least two government decisions contributed to escalation while separating those choices from longer-term conditions."
       ],
       "options": [
         "Assassination of Archduke Franz Ferdinand",
@@ -1184,31 +1260,31 @@
       ],
       "checks": [
         {
-          "prompt": "Which 1914 event triggered the July Crisis?",
+          "prompt": "What immediately set off the diplomatic crisis in summer 1914?",
           "options": [
-            "Assassination of Archduke Franz Ferdinand",
-            "Fall of the Berlin Wall",
-            "Attack on Pearl Harbor"
+            "The assassination of Archduke Franz Ferdinand",
+            "The German invasion of Poland",
+            "The bombing of Pearl Harbor"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which method would strengthen a historical argument about Causes of World War I?",
+          "prompt": "What did Austria-Hungary deliver to Serbia on July 23, 1914?",
           "options": [
-            "Compare two contextualized sources addressing militarism and alliances.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion about Causes of World War I is most defensible?",
-          "options": [
-            "Only one participant's account can establish all effects of nationalism.",
-            "Interpret militarism in historical context and weigh competing evidence concerning July Crisis.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "A finalized peace treaty",
+            "An ultimatum containing demands",
+            "A League of Nations membership form"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Why is it misleading to say alliances made World War I entirely inevitable?",
+          "options": [
+            "All alliances had been dissolved",
+            "No leaders made decisions in 1914",
+            "Governments still chose how to respond to the crisis"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -1223,7 +1299,33 @@
           "Map the July Crisis sequence and evaluate competing explanations with attention to choices by governments rather than assigning mechanical inevitability to alliances."
         ]
       },
-      "investigationKind": "network"
+      "investigationKind": "network",
+      "references": [
+        {
+          "title": "Origin of the War: Documents and Timeline from World War I Rotogravures",
+          "creator": "Library of Congress (reprinting contemporary material)",
+          "date": "1914 events; contemporaneous compilation",
+          "type": "Contemporary documents with institutional context",
+          "url": "https://www.loc.gov/collections/world-war-i-rotogravures/articles-and-essays/events-and-statistics/origin-of-the-war/",
+          "summary": "Library of Congress page supplies timelines and period documents including Austria-Hungary's declaration. Distinguish editorial narrative from the reproduced original texts."
+        },
+        {
+          "title": "Austro-Hungarian Ultimatum to Serbia",
+          "creator": "Government of Austria-Hungary",
+          "date": "July 23, 1914",
+          "type": "Primary",
+          "url": "https://www.firstworldwar.com/source/austrianultimatum.htm",
+          "summary": "English-language transcription of the ultimatum at a historical primary-source site. A demand is evidence of a government's position, not proof that every allegation in it was true."
+        },
+        {
+          "title": "The Ultimatum",
+          "creator": "Austrian National Library partnership historical exhibition",
+          "date": "July 1914 (historical context)",
+          "type": "Secondary institutional history",
+          "url": "https://ww1.habsburger.net/en/chapters/ultimatum",
+          "summary": "Institutional analysis explaining the ultimatum and mobilization. It is an interpretation, not a substitute for the original diplomatic text."
+        }
+      ]
     },
     "why-did-the-united-states-enter-the-war": {
       "title": "Why Did the United States Enter the War?",
@@ -1233,16 +1335,16 @@
       "total": 4,
       "essential": "Why did U.S. neutrality give way to intervention in 1917?",
       "paragraphs": [
-        "The United States remained officially neutral when World War I began. German unrestricted submarine warfare endangered shipping, while the Zimmermann Telegram proposed an alliance between Germany and Mexico. Germany resumed unrestricted submarine warfare in 1917 after prior confrontations over attacks on ships. These maritime events interacted with American commercial relationships and public debate. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "President Wilson asked Congress for a declaration of war in April 1917. U.S. entry reflected security, diplomacy, economic connections, and debate about international principles, not simply one intercepted message. The Zimmermann Telegram proposed German support for Mexico recovering U.S. territory if Mexico joined a conflict against the United States. It was a diplomatic proposal, not evidence that Mexico accepted the offer. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Compare Wilson's address, shipping events, and the Zimmermann Telegram. Distinguish immediate triggers from longer-term pressures. Wilson's public argument for war used ideals about international order. Compare those claims with congressional dissent and economic records to evaluate motives and their relative weight. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "American neutrality during World War I became increasingly difficult to maintain as German unrestricted submarine warfare put ships and passengers at risk and economic ties connected the United States with belligerents. These pressures did not produce an immediate unanimous decision. Americans disagreed about intervention, the nature of neutrality, and the consequences of staying out.",
+        "German Foreign Secretary Arthur Zimmermann sent a coded diplomatic proposal in January 1917 contemplating an alliance with Mexico if the United States entered the war against Germany. British intelligence intercepted the message; its public disclosure inflamed opinion in the United States. The proposal was not an agreement accepted by Mexico. On April 2, President Woodrow Wilson asked Congress to declare war. Congress acted on April 6. German submarine policy, diplomacy, political arguments and strategic calculations all belong in the explanation.",
+        "Ask students to place the Zimmermann Telegram beside Wilson's April 2 address. One is a German diplomatic proposal; the other is a U.S. president's case for war. What does each author want, and what can each source prove? A good conclusion distinguishes the evidence of German intentions from the evidence of how Wilson justified intervention, while recognizing that Americans who opposed war must be investigated separately."
       ],
-      "activity": "Why Did the United States Enter the War? · Evidence Investigation",
-      "task": "Write a claim about Why Did the United States Enter the War? with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "Why Did the United States Enter the War? · Historical evidence investigation",
+      "task": "Explain U.S. entry in April 1917 using submarine warfare, the diplomatic proposal, and congressional action; distinguish a trigger from the president's broader justification.",
       "investigation": [
-        "Identify a dated historical document bearing on Why Did the United States Enter the War?. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of Why Did the United States Enter the War?. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about Why Did the United States Enter the War? with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Read the dated Zimmermann Telegram through the National Archives. Identify its sender, proposed recipient and conditional nature.",
+        "Read Wilson's April 2, 1917 address. Identify one stated reason for war and decide whether the address provides evidence of every American's opinion.",
+        "Explain U.S. entry in April 1917 using submarine warfare, the diplomatic proposal, and congressional action; distinguish a trigger from the president's broader justification."
       ],
       "options": [
         "1929",
@@ -1259,31 +1361,31 @@
       ],
       "checks": [
         {
-          "prompt": "In which year did the United States enter World War I?",
+          "prompt": "What did the Zimmermann Telegram propose?",
           "options": [
-            "1929",
-            "1917",
-            "1914"
-          ],
-          "answer": 1
-        },
-        {
-          "prompt": "Which method would strengthen a historical argument about Why Did the United States Enter the War??",
-          "options": [
-            "Compare two contextualized sources addressing unrestricted submarine warfare and Zimmermann Telegram.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
+            "A conditional German alliance with Mexico if the United States entered the war",
+            "A formal Mexican declaration of war against the United States",
+            "A peace settlement accepted by every combatant"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion about Why Did the United States Enter the War? is most defensible?",
+          "prompt": "On what date did Wilson ask Congress to declare war against Germany?",
           "options": [
-            "Only one participant's account can establish all effects of neutrality.",
-            "Interpret unrestricted submarine warfare in historical context and weigh competing evidence concerning intervention.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "August 4, 1914",
+            "April 2, 1917",
+            "November 11, 1918"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Which conclusion cannot be drawn from the telegram itself?",
+          "options": [
+            "Germany considered a diplomatic approach to Mexico",
+            "The proposal could affect American opinion",
+            "Mexico accepted the proposal and attacked the United States"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -1298,7 +1400,33 @@
           "Compare Wilson's address, shipping events, and the Zimmermann Telegram. Distinguish immediate triggers from longer-term pressures."
         ]
       },
-      "investigationKind": "compare"
+      "investigationKind": "compare",
+      "references": [
+        {
+          "title": "Zimmermann Telegram",
+          "creator": "Arthur Zimmermann, German Foreign Secretary; encoded transmission and diplomatic translations",
+          "date": "January 16, 1917",
+          "type": "Primary",
+          "url": "https://www.archives.gov/milestone-documents/zimmermann-telegram",
+          "summary": "Primary diplomatic proposal to Mexico, intercepted and decoded by British intelligence. Do not present it as an accepted alliance or the sole cause of U.S. intervention."
+        },
+        {
+          "title": "President Woodrow Wilson's Joint Address Requesting War Against Germany",
+          "creator": "President Woodrow Wilson",
+          "date": "April 2, 1917",
+          "type": "Primary",
+          "url": "https://www.archives.gov/milestone-documents/address-to-congress-declaration-of-war-against-germany",
+          "summary": "Wilson's presidential argument for war, not an impartial investigation of all motives or the positions of dissenting lawmakers."
+        },
+        {
+          "title": "Joint Resolution Declaring War on Germany",
+          "creator": "United States Congress",
+          "date": "April 6, 1917",
+          "type": "Primary record identified through NARA collection",
+          "url": "https://www.archives.gov/topics/wwi",
+          "summary": "National Archives World War I document portal identifies the April 6 formal resolution. This link is a collection portal and should not be misrepresented as a document-specific transcription."
+        }
+      ]
     },
     "americans-on-the-home-front": {
       "title": "Americans on the Home Front",
@@ -1308,16 +1436,16 @@
       "total": 4,
       "essential": "How did total war change civil liberties and everyday life?",
       "paragraphs": [
-        "U.S. mobilization for World War I involved military conscription, industrial production, public campaigns, and changing work roles. The Great Migration of Black Americans from the South to northern and western cities accelerated across this era. War mobilization increased demand in certain industries while heightening disputes about wages, migration, and racial discrimination. Women took on jobs outside previous expectations, but these changes differed by occupation. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "The Espionage Act of 1917 and Sedition Act of 1918 restricted some speech and sparked constitutional debate. Racism, labor disputes, and unequal access to wartime opportunities complicated patriotic appeals. Propaganda posters portrayed desirable behavior and national unity. Their images cannot be treated as surveys showing that everyone supported the conflict. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Assess a recruitment poster against a dissenting perspective and an actual legal restriction. Explain why government propaganda is historical evidence of persuasion, not neutral proof of consensus. Examine a government poster alongside the Espionage Act and a dissenting statement. Distinguish propaganda's persuasive purpose from enforceable law and its effect on civil liberties. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "War mobilization changed American work, family life, and public language. Conscription, factories, bond drives, and recruitment campaigns asked people to take part in national mobilization. Black migration from the South continued and accelerated through the war years, shaped by both the demand for industrial labor and the conditions people wanted to leave behind. Women entered or expanded work in various fields, but the opportunities and obstacles differed by race, occupation, and community.",
+        "Not every American supported the war or understood patriotism in the same way. James Montgomery Flagg's 1917 recruiting poster is a powerful example of government-sponsored persuasion. The Espionage Act of June 15, 1917, imposed restrictions connected to wartime operations, military service, and national security. The later Sedition Act of 1918 expanded restrictions. Treating a poster as proof of public consensus or a law as proof that dissent disappeared would misread the sources.",
+        "Examine the poster and the actual 1917 statute. What behavior does the image seek to encourage? What behavior does the law prohibit? These sources speak in different voices: one recruits through visual urgency, the other defines punishable acts. Add a dissenting account or worker testimony to ask how wartime citizenship was experienced outside the government's preferred message. Students should decide what those records demonstrate and whose experiences remain absent."
       ],
-      "activity": "Americans on the Home Front · Evidence Investigation",
-      "task": "Write a claim about Americans on the Home Front with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "Americans on the Home Front · Historical evidence investigation",
+      "task": "Compare persuasion, legal restrictions, and one underrepresented home-front experience. Explain why wartime unity should not be inferred from an official poster alone.",
       "investigation": [
-        "Identify a dated historical document bearing on Americans on the Home Front. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of Americans on the Home Front. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about Americans on the Home Front with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Identify the intended audience and visual techniques in James Montgomery Flagg's 1917 recruiting poster. Explain why the image cannot establish public opinion percentages.",
+        "Read a teacher-selected section of the Espionage Act, preserving exact legal language and distinguishing its 1917 provisions from the later 1918 Sedition Act.",
+        "Compare persuasion, legal restrictions, and one underrepresented home-front experience. Explain why wartime unity should not be inferred from an official poster alone."
       ],
       "options": [
         "Civil Rights Act of 1964",
@@ -1334,31 +1462,31 @@
       ],
       "checks": [
         {
-          "prompt": "Which federal law passed in 1917 restricted certain wartime activities and speech?",
+          "prompt": "What was the chief purpose of Flagg's 1917 Uncle Sam poster?",
           "options": [
-            "Civil Rights Act of 1964",
-            "Sherman Antitrust Act",
-            "Espionage Act"
-          ],
-          "answer": 2
-        },
-        {
-          "prompt": "Which method would strengthen a historical argument about Americans on the Home Front?",
-          "options": [
-            "Compare two contextualized sources addressing conscription and Great Migration.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
+            "Recruitment into the U.S. Army",
+            "Announcing peace negotiations",
+            "Reporting a scientific study of public opinion"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion about Americans on the Home Front is most defensible?",
+          "prompt": "Which federal law was enacted on June 15, 1917?",
           "options": [
-            "Only one participant's account can establish all effects of Espionage Act.",
-            "Interpret conscription in historical context and weigh competing evidence concerning propaganda.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "The Civil Rights Act",
+            "The Espionage Act",
+            "The Social Security Act"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What does a wartime recruitment poster not establish by itself?",
+          "options": [
+            "The government's desired behavior",
+            "The use of patriotic imagery",
+            "How many people actually supported the war"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -1373,7 +1501,33 @@
           "Assess a recruitment poster against a dissenting perspective and an actual legal restriction. Explain why government propaganda is historical evidence of persuasion, not neutr"
         ]
       },
-      "investigationKind": "source"
+      "investigationKind": "source",
+      "references": [
+        {
+          "title": "I Want You for U.S. Army: Nearest Recruiting Station",
+          "creator": "James Montgomery Flagg",
+          "date": "1917 (published poster)",
+          "type": "Primary",
+          "url": "https://www.loc.gov/pictures/item/96507165/",
+          "summary": "Library of Congress item-level catalog of a recruitment poster. It reveals the intended persuasive appeal, not the actual views of all Americans."
+        },
+        {
+          "title": "Act of June 15, 1917 (Espionage Act)",
+          "creator": "United States Congress",
+          "date": "June 15, 1917",
+          "type": "Primary",
+          "url": "https://docsteach.org/document/espionage-act/",
+          "summary": "National Archives DocsTeach reproduction of the federal statute. Examine specific provisions rather than assuming it outlawed any criticism of war."
+        },
+        {
+          "title": "World War I Poster Collection",
+          "creator": "Library of Congress",
+          "date": "1917–1918 (collection)",
+          "type": "Research collection",
+          "url": "https://www.loc.gov/collections/world-war-i-posters/about-this-collection/",
+          "summary": "Supplementary collection containing multiple authors and dates; the collection page itself is not a singular period document."
+        }
+      ]
     },
     "the-treaty-of-versailles": {
       "title": "The Treaty of Versailles",
@@ -1383,16 +1537,16 @@
       "total": 4,
       "essential": "Did the postwar settlement establish a lasting peace?",
       "paragraphs": [
-        "The 1919 Treaty of Versailles imposed territorial, military, and financial terms on Germany and established the League of Nations framework. President Wilson advocated collective security and self-determination, although the settlement applied those principles unevenly. The treaty included the League of Nations covenant, but its other provisions addressed reparations, territory, and military limitations. The agreement was more complex than a single punishment clause. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "The U.S. Senate rejected ratification of the treaty, and the United States never joined the League. Historians debate how treaty terms, economic crises, and later choices contributed to subsequent instability. Wilson's ideals about national self-determination were applied unevenly in a world of colonial empires. Peoples whose futures were shaped by the settlement were not always directly represented. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Compare Wilson's Fourteen Points with the treaty's provisions and a critique from a society excluded from negotiations. Avoid claiming the treaty alone caused World War II. Compare the treaty text with the U.S. Senate debate. A claim that the treaty 'failed' needs an explicit standard such as U.S. ratification, stability in Europe, or the treatment of colonized populations. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "The Treaty of Versailles, signed on June 28, 1919, set peace terms between Germany and the Allied and Associated Powers. It contained territorial adjustments, military restrictions, financial obligations and the Covenant of the League of Nations. It is misleading to treat this complex agreement as nothing more than one penalty, or to imply that every state and community affected had an equal role in negotiations.",
+        "President Wilson's Fourteen Points speech in January 1918 offered principles for a future peace; it was a proposal, not the final treaty. The settlement included a League covenant, but applied national self-determination unevenly, particularly in colonial settings. In the United States, treaty ratification required Senate consent. The Senate rejected the treaty in 1919 and 1920, and the United States did not join the League of Nations.",
+        "Compare an actual passage from the League covenant with Wilson's earlier Fourteen Points. Then use the Senate's documented ratification history to understand why the United States stayed outside the League. Were American and European objectives identical? How might colonized peoples view a settlement negotiated without their full participation? Claims that the treaty inevitably caused World War II go beyond what these documents can prove; they require investigation of later economic and political developments."
       ],
-      "activity": "The Treaty of Versailles · Evidence Investigation",
-      "task": "Write a claim about The Treaty of Versailles with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "The Treaty of Versailles · Historical evidence investigation",
+      "task": "Use U.S. Senate history to explain why the United States did not join the League. Write a qualified conclusion that avoids saying the treaty alone caused World War II.",
       "investigation": [
-        "Identify a dated historical document bearing on The Treaty of Versailles. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of The Treaty of Versailles. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about The Treaty of Versailles with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Read the January 1918 Fourteen Points and select one principle Wilson wanted included in a peace settlement.",
+        "Read Part I of the Treaty of Versailles and explain what the League covenant created. Distinguish the treaty from Wilson's earlier speech.",
+        "Use U.S. Senate history to explain why the United States did not join the League. Write a qualified conclusion that avoids saying the treaty alone caused World War II."
       ],
       "options": [
         "No, the Senate did not ratify the Versailles treaty",
@@ -1409,31 +1563,31 @@
       ],
       "checks": [
         {
-          "prompt": "Did the United States join the League of Nations?",
+          "prompt": "When was the Treaty of Versailles signed?",
           "options": [
-            "No, the Senate did not ratify the Versailles treaty",
-            "Yes, Congress joined in 1945",
-            "Yes, it became the League's founding leader"
+            "June 28, 1919",
+            "April 6, 1917",
+            "September 1, 1939"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which method would strengthen a historical argument about The Treaty of Versailles?",
+          "prompt": "What was Part I of the Treaty of Versailles?",
           "options": [
-            "Compare two contextualized sources addressing Treaty of Versailles and League of Nations.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion about The Treaty of Versailles is most defensible?",
-          "options": [
-            "Only one participant's account can establish all effects of collective security.",
-            "Interpret Treaty of Versailles in historical context and weigh competing evidence concerning self-determination.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "A treaty annexing Mexico",
+            "The Covenant of the League of Nations",
+            "The Nineteenth Amendment"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Why did the United States not become a member of the League of Nations?",
+          "options": [
+            "Wilson never proposed a League",
+            "The League rejected the United States after WWII",
+            "The Senate did not consent to ratification of the treaty"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -1448,7 +1602,33 @@
           "Compare Wilson's Fourteen Points with the treaty's provisions and a critique from a society excluded from negotiations. Avoid claiming the treaty alone caused World War II."
         ]
       },
-      "investigationKind": "rights"
+      "investigationKind": "rights",
+      "references": [
+        {
+          "title": "Treaty of Versailles, Part I (Covenant of the League of Nations)",
+          "creator": "Allied and Associated Powers and Germany; treaty signatories",
+          "date": "June 28, 1919",
+          "type": "Primary",
+          "url": "https://avalon.law.yale.edu/imt/parti.asp",
+          "summary": "Yale Law School's transcription of Part I. The League covenant is one part of the treaty, not the complete settlement; examine other numbered treaty provisions separately."
+        },
+        {
+          "title": "Wilson's Fourteen Points Address",
+          "creator": "President Woodrow Wilson",
+          "date": "January 8, 1918",
+          "type": "Primary",
+          "url": "https://www.archives.gov/milestone-documents/president-woodrow-wilsons-14-points",
+          "summary": "Contemporary presidential statement of proposed peace principles; do not treat proposals as agreed treaty articles."
+        },
+        {
+          "title": "Senate Rejects the Treaty of Versailles",
+          "creator": "United States Senate Historical Office",
+          "date": "1919 and 1920 decisions, historical narrative",
+          "type": "Secondary institutional history",
+          "url": "https://www.senate.gov/about/powers-procedures/treaties/senate-rejects-treaty-of-versailles.htm",
+          "summary": "Official retrospective Senate history documenting debates and votes; institutional secondary source, not an original 1919 floor transcript."
+        }
+      ]
     },
     "a-changing-american-culture": {
       "title": "A Changing American Culture",
