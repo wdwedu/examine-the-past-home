@@ -691,7 +691,17 @@
           "Compare campaign arguments with voting restrictions affecting Black and Indigenous women. Evaluate the distinction between an amendment's wording and the experiences of differ"
         ]
       },
-      "investigationKind": "data"
+      "investigationKind": "data",
+      "references": [
+        {
+          "title": "Nineteenth Amendment to the U.S. Constitution",
+          "creator": "United States Congress and ratifying states",
+          "date": "1920",
+          "type": "Primary",
+          "url": "https://www.archives.gov/milestone-documents/19th-amendment",
+          "summary": "Compare the constitutional ban on voting discrimination by sex against evidence of continuing barriers for women of color."
+        }
+      ]
     },
     "reforming-government-and-industry": {
       "title": "Reforming Government and Industry",
@@ -2209,7 +2219,17 @@
           "Compare government statements with testimony from incarcerated Japanese Americans and production data. Identify why a claim of military necessity requires critical evidence ra"
         ]
       },
-      "investigationKind": "debate"
+      "investigationKind": "debate",
+      "references": [
+        {
+          "title": "Executive Order 9066",
+          "creator": "President Franklin D. Roosevelt",
+          "date": "February 19, 1942",
+          "type": "Primary",
+          "url": "https://www.archives.gov/milestone-documents/executive-order-9066",
+          "summary": "Examine wartime executive authority and its relationship to Japanese American incarceration; the order alone does not document the experiences of incarcerated families."
+        }
+      ]
     },
     "d-day-the-pacific-war-and-allied-victory": {
       "title": "D-Day, the Pacific War, and Allied Victory",
@@ -2734,7 +2754,17 @@
           "Compare the Court's reasoning with local implementation records. Distinguish a constitutional ruling from immediate compliance in every school district."
         ]
       },
-      "investigationKind": "data"
+      "investigationKind": "data",
+      "references": [
+        {
+          "title": "Brown v. Board of Education, Supreme Court Opinion",
+          "creator": "United States Supreme Court",
+          "date": "May 17, 1954",
+          "type": "Primary",
+          "url": "https://www.archives.gov/milestone-documents/brown-v-board-of-education",
+          "summary": "Use the majority opinion to analyze why the Court rejected segregated public schooling, distinguishing the decision from its implementation."
+        }
+      ]
     },
     "martin-luther-king-jr-and-nonviolent-resistance": {
       "title": "Martin Luther King Jr. and Nonviolent Resistance",
@@ -2959,7 +2989,17 @@
           "Compare a law's text with a relevant measure of implementation. Evaluate progress without assuming the same outcomes for every community."
         ]
       },
-      "investigationKind": "timeline"
+      "investigationKind": "timeline",
+      "references": [
+        {
+          "title": "Civil Rights Act of 1964",
+          "creator": "United States Congress",
+          "date": "July 2, 1964",
+          "type": "Primary",
+          "url": "https://www.archives.gov/milestone-documents/civil-rights-act",
+          "summary": "Identify specific legal protections and distinguish the statutory text from evidence about enforcement or later outcomes."
+        }
+      ]
     },
     "watergate-and-public-trust": {
       "title": "Watergate and Public Trust",
