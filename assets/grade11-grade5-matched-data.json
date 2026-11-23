@@ -1650,6 +1650,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "Primary historical document",
           "summary": "Use as a comparative Atlantic revolutionary claim; avoid using U.S. documents as direct evidence of events in Haiti or France."
+        },
+        {
+          "title": "Declaration of the Rights of Man and of the Citizen",
+          "creator": "National Constituent Assembly (France)",
+          "date": "1789",
+          "type": "Primary",
+          "url": "https://avalon.law.yale.edu/18th_century/rightsof.asp",
+          "summary": "Compare the rights proclaimed in 1789 with exclusions and later political practice. Yale provides a translated historical text."
         }
       ],
       "researchWorkshop": {
@@ -3469,6 +3477,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "Museum historical reference",
           "summary": "Use verified chronology and definitions; distinguish museum synthesis from survivor testimony and original documents."
+        },
+        {
+          "title": "Convention on the Prevention and Punishment of the Crime of Genocide",
+          "creator": "United Nations General Assembly",
+          "date": "December 9, 1948",
+          "type": "Primary",
+          "url": "https://www.un.org/en/genocide-prevention/1948-convention",
+          "summary": "Postwar legal response to genocide; label explicitly as a 1948 retrospective legal instrument, not an eyewitness Holocaust record."
         }
       ],
       "researchWorkshop": {
@@ -4218,6 +4234,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "International historical document",
           "summary": "Compare adopted principles to a dated implementation record or national legislation."
+        },
+        {
+          "title": "Charter of the United Nations",
+          "creator": "Delegates of the founding United Nations member governments",
+          "date": "June 26, 1945",
+          "type": "Primary",
+          "url": "https://www.un.org/en/about-us/un-charter/full-text",
+          "summary": "Analyze the purposes and institutional powers of the UN; the charter does not itself prove the organization was effective."
         }
       ],
       "researchWorkshop": {
