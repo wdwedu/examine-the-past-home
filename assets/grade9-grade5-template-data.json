@@ -700,11 +700,11 @@
       "references": [
         {
           "title": "Lynch Law in Georgia: A Six-Weeks' Record",
-          "creator": "Ida B. Wells-Barnett",
+          "creator": "Ida B. Wells-Barnett; includes Louis P. Le Vin's investigative report",
           "date": "1899",
           "type": "Primary",
           "url": "https://www.loc.gov/item/91898209/",
-          "summary": "Wells's contemporary investigation records anti-Black lynchings and examines press accounts. Contains graphic descriptions of racial violence; educators should provide a content advisory and select short, suitable passages."
+          "summary": "Contemporary pamphlet reprinting newspaper accounts and an investigator's report to challenge lynching narratives. It is an advocacy source with identifiable contributors, not a government statistical dataset; contains graphic descriptions of racial violence. Assign short, age-appropriate excerpts."
         },
         {
           "title": "The Jungle",
@@ -804,8 +804,8 @@
           "creator": "New York State Association Opposed to Woman Suffrage",
           "date": "June 26, 1918",
           "type": "Primary",
-          "url": "https://www.archives.gov/legislative/resources/education/womans-place-in-america",
-          "summary": "The National Archives presents this named petition within an educational document collection. It is a primary document selected through a collection page, not a separate item-level landing page; compare the opposition's stated arguments with the amendment."
+          "url": "https://catalog.archives.gov/id/23914362",
+          "summary": "Specific opposition petition linked from the National Archives' Woman's Place in America document list. Compare the petition's stated argument with the 1920 amendment and with the records of suffrage supporters."
         }
       ]
     },
