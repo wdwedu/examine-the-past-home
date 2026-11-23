@@ -372,16 +372,16 @@
       "total": 3,
       "essential": "How can we use credible sources and constitutional reasoning to investigate enlightenment ideas and natural rights?",
       "paragraphs": [
-        "Locke's social-contract arguments challenged unlimited monarchy by asking why political authority is legitimate. Natural-rights reasoning holds that certain rights do not depend on a ruler's gift, while consent of the governed requires government to answer to the people. Enlightenment authors disagreed about representation, property, religion and who qualified as a political member. Their arguments should be studied in their historical context, including exclusions they did not remedy.",
-        "John Locke argued that legitimate government should protect life, liberty and property and depend on consent. Montesquieu's analysis of separated powers addressed a different problem: how government institutions can constrain abuses. These theories came from unequal societies and did not guarantee universal political membership. Students should compare a named passage from a philosopher with a later constitutional or revolutionary text, not merely claim that both documents 'support freedom.' In an eighteenth-century petition, a community claims its ruler may tax them without considering their views. Compare this position with a consent-based argument: what would each side call a legitimate law? Distinguish Locke's ideas from the later government designed under the U.S. Constitution.",
-        "Civic investigation: Which evidence would best support an analysis of natural-rights ideas influencing later government? Use Declaration of Independence (1776) to identify the governing rule, then compare it with Constitution. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
+        "John Locke asked what makes political power legitimate. In his Second Treatise, he argued that people form political society to protect their rights and that rulers must answer to the people rather than claim unlimited authority. The history matters: Locke's arguments emerged in a world of restricted political membership and colonial power, not one of universal democratic equality.",
+        "The Declaration of Independence echoes ideas about rights and government by consent; the Constitution later established federal institutions and legal procedures. These documents are not interchangeable. A political argument can influence later writers without supplying every rule in their government. Students should compare specific passages and trace both similarities and important omissions.",
+        "Read a section of Locke's Second Treatise alongside the Declaration's statement about government by consent. What principle connects them? What questions about political participation, enslavement and women's rights do the documents leave unanswered? The goal is to examine influence without claiming all Enlightenment thinkers agreed or that founding-era institutions fully practiced the ideals they announced."
       ],
       "activity": "Enlightenment Ideas and Natural Rights · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of Enlightenment Ideas and Natural Rights, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Explain why an influential political ideal is not evidence that everyone enjoyed equal legal rights in 1776. Identify a source from an excluded group that would test the claim.",
       "investigation": [
-        "Read the relevant governing text or official record for Enlightenment Ideas and Natural Rights and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about Enlightenment Ideas and Natural Rights. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Read an attributed passage from Locke's Second Treatise and identify the argument about why people form governments.",
+        "Compare Locke's argument with the Declaration of Independence's language about consent. Mark one similarity and one important difference of purpose.",
+        "Explain why an influential political ideal is not evidence that everyone enjoyed equal legal rights in 1776. Identify a source from an excluded group that would test the claim."
       ],
       "options": [
         "Compare a dated Enlightenment argument with passages of a later founding document and identify both agreement and limits.",
@@ -398,31 +398,31 @@
       ],
       "checks": [
         {
-          "prompt": "Which evidence would best support an analysis of natural-rights ideas influencing later government?",
+          "prompt": "According to Locke's Second Treatise, what provides an important basis for legitimate political government?",
           "options": [
-            "Compare a dated Enlightenment argument with passages of a later founding document and identify both agreement and limits.",
-            "Assume every Enlightenment writer supported identical voting rights.",
-            "Use only a modern slogan without examining its historical meaning."
+            "Consent and protection of rights",
+            "A ruler's unlimited hereditary power",
+            "Permanent suspension of all law"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
+          "prompt": "What is the Declaration of Independence primarily doing?",
           "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
-          "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "Creating the three branches of the federal government",
+            "Making an argument for political independence and explaining grievances",
+            "Ratifying the Bill of Rights"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Which claim goes beyond these texts?",
+          "options": [
+            "Consent appears in founding-era political reasoning",
+            "Founding documents had different purposes",
+            "All adults possessed equal political rights after 1776"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -462,6 +462,14 @@
           "type": "Secondary",
           "url": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
           "summary": "The state framework provides inquiry and assessment expectations, not an original founding-period document."
+        },
+        {
+          "title": "Second Treatise of Government",
+          "creator": "John Locke",
+          "date": "Published 1689/1690 (edition dating varies); modern digital transcription",
+          "type": "Primary philosophical text",
+          "url": "https://www.gutenberg.org/ebooks/7370",
+          "summary": "Read Locke's own arguments about political consent and preserving rights. The text was not the U.S. Constitution and did not by itself establish modern equal rights."
         }
       ],
       "isPresidentsGame": false,
@@ -479,16 +487,16 @@
       "total": 3,
       "essential": "How can we use credible sources and constitutional reasoning to investigate the declaration of independence?",
       "paragraphs": [
-        "The Declaration of Independence was adopted by the Second Continental Congress in 1776. It states political principles concerning equality, rights, consent and the right to alter a destructive government. Its list of grievances makes an argument against British rule and addresses audiences at home and abroad. Unlike the Constitution, it did not create the operating branches of the later federal government.",
-        "The Declaration was adopted in July 1776 as an argument justifying independence to multiple audiences. Its natural-rights language and catalogue of grievances are rhetorical and political claims, not the operating articles of the federal government. The document's ideals coexisted with enslavement and restricted participation. Compare the Declaration's principles with one eighteenth-century account from a person excluded from full political power. Its broad language also existed alongside enslavement, unequal political participation and dispossession of Indigenous nations. A historian can recognize the significance of the Declaration's claims while investigating whose rights were protected in practice and whose perspectives were absent from the document.",
-        "Civic investigation: Which research method best evaluates a tension between the Declaration's ideals and society in 1776? Use Declaration of Independence (1776) to identify the governing rule, then compare it with Constitution. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
+        "The Continental Congress adopted the Declaration of Independence on July 4, 1776. Its opening principles asserted equality, rights and the legitimacy of government based on consent. Its list of grievances made a case against the British king. It was an argument explaining separation from Britain, not the later framework of federal offices and powers.",
+        "Those words mattered enormously, but they were written in a society that enslaved people and restricted the political participation of women, Indigenous peoples and many others. Abigail Adams urged her husband John to consider women's position months before the Declaration was adopted. Her letter makes the conflict between broad political ideals and unequal power visible in the words of a contemporary participant.",
+        "Read the Declaration and Abigail Adams's March 31, 1776 letter. What did each author want political leaders to recognize? Compare intended audiences and the authority each speaker possessed. You can acknowledge the Declaration's lasting importance while asking whether those outside formal political power saw its principles applied in their lives."
       ],
       "activity": "The Declaration of Independence · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of The Declaration of Independence, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Explain one tension between independence-era ideals and participation. Cite the original documents and distinguish an argument for equality from evidence of actual legal rights.",
       "investigation": [
-        "Read the relevant governing text or official record for The Declaration of Independence and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about The Declaration of Independence. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Locate the Declaration's adoption date, authoring body and statement about political authority.",
+        "Read Abigail Adams's March 31 letter. Identify her audience and the concern she raises about women's place in the new political order.",
+        "Explain one tension between independence-era ideals and participation. Cite the original documents and distinguish an argument for equality from evidence of actual legal rights."
       ],
       "options": [
         "Infer that every adult could vote immediately after July 1776.",
@@ -505,31 +513,31 @@
       ],
       "checks": [
         {
-          "prompt": "Which research method best evaluates a tension between the Declaration's ideals and society in 1776?",
+          "prompt": "Which body adopted the Declaration on July 4, 1776?",
           "options": [
-            "Infer that every adult could vote immediately after July 1776.",
-            "Dismiss the political text as useless because its promises were not universally fulfilled.",
-            "Compare its stated principles with contemporary law and experiences of people excluded from political rights."
-          ],
-          "answer": 2
-        },
-        {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
-          "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
+            "Second Continental Congress",
+            "Federal Constitutional Convention",
+            "Supreme Court"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
+          "prompt": "Whom did Abigail Adams address in her March 31, 1776 letter?",
           "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "George Washington",
+            "John Adams",
+            "King George III"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Which claim cannot be inferred from the Declaration alone?",
+          "options": [
+            "It asserted certain rights as political principles",
+            "It gave reasons for independence",
+            "It immediately secured equal voting rights for all residents"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -569,6 +577,14 @@
           "type": "Secondary",
           "url": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
           "summary": "The state framework provides inquiry and assessment expectations, not an original founding-period document."
+        },
+        {
+          "title": "Letter from Abigail Adams to John Adams",
+          "creator": "Abigail Adams",
+          "date": "March 31, 1776",
+          "type": "Primary correspondence",
+          "url": "https://founders.archives.gov/documents/Adams/04-01-02-0241",
+          "summary": "A contemporary woman challenged the exclusion of women's interests from emerging political arrangements. The letter does not represent every woman's view."
         }
       ],
       "isPresidentsGame": false,
@@ -586,16 +602,16 @@
       "total": 3,
       "essential": "How can we use credible sources and constitutional reasoning to investigate the principles of democratic government?",
       "paragraphs": [
-        "Popular sovereignty places ultimate political authority in the people. Republican government uses representatives selected through established political rules, while constitutionalism limits the powers of public officials. The rule of law requires government action to follow legal constraints; it does not mean every law or decision is automatically fair. These principles can reinforce one another or come into tension.",
-        "Popular sovereignty identifies the people as the source of political authority; constitutionalism sets rules and limits for exercising it. Majority rule and protection of minority rights can generate tension. Electoral competition, public debate, equal protection and institutional accountability are different tests of democracy, not synonyms. Analyze a hypothetical law supported by a majority that nonetheless restricts a protected right. For example, a legislature might enact a popular policy that restricts a protected liberty. A constitutional democracy requires more than counting votes: students must ask about rights, jurisdiction, judicial review and accountable procedures. Examine the difference between a principle proclaimed in a document and its implementation.",
-        "Civic investigation: A city council passes a popular ordinance that conflicts with constitutional protections. Which conclusion is strongest? Use Declaration of Independence (1776) to identify the governing rule, then compare it with Constitution. Explain what these documents can establish, which group or institution is affected, and what additional evidence would test the results. A defensible civic conclusion identifies relevant authority, separates claims from proof, and addresses a plausible counterargument."
+        "Popular sovereignty holds that legitimate political authority comes from the people. Republican government uses representatives selected under law, while constitutionalism places limits on public officials. These principles can reinforce one another, but they raise different questions. Winning an election does not give officeholders unlimited power.",
+        "Imagine a city council passing an ordinance that most voters favor but that interferes with a constitutionally protected liberty. The issue cannot be decided by a popularity contest alone. Students must identify the right involved, which government is acting, what authority it has and how courts could review the action. A modern example should be framed as a hypothetical unless a dated real case is provided.",
+        "Compare the Constitution's structure with the Declaration's claim about consent. Then analyze the hypothetical ordinance. Which principle supports elected decision-making and which limits it? A strong answer identifies the relevant legal protection instead of announcing that all majority decisions are automatically fair or all court review is anti-democratic."
       ],
       "activity": "The Principles of Democratic Government · Civic Evidence and Decision Lab",
-      "task": "Create a claim-evidence-reasoning analysis of The Principles of Democratic Government, including a specific civic scenario, the applicable constitutional or statutory authority, two attributed sources, an opposing interpretation and an implementation limitation.",
+      "task": "Explain how popular sovereignty and constitutional limits can operate together. Distinguish constitutional rules from the imagined facts of the scenario.",
       "investigation": [
-        "Read the relevant governing text or official record for The Principles of Democratic Government and identify the date, issuing authority, legal or historical context, and one precise proposition supported by the text.",
-        "Apply the source to a specific scenario about The Principles of Democratic Government. Identify affected people, a competing argument, the institutional actor empowered to decide, and what additional evidence would resolve uncertainty.",
-        "Write an evidence-based explanation that distinguishes what a rule says, how it is interpreted, and what can be observed about its implementation. Cite at least two attributed sources."
+        "Find a constitutional provision distributing power or limiting federal action; cite its article or amendment rather than a slogan.",
+        "Analyze a clearly hypothetical majority-supported ordinance. Identify the level of government, the claimed authority and the protected right potentially affected.",
+        "Explain how popular sovereignty and constitutional limits can operate together. Distinguish constitutional rules from the imagined facts of the scenario."
       ],
       "options": [
         "Only judges determine every policy choice regardless of elections.",
@@ -612,31 +628,31 @@
       ],
       "checks": [
         {
-          "prompt": "A city council passes a popular ordinance that conflicts with constitutional protections. Which conclusion is strongest?",
+          "prompt": "What does popular sovereignty mean?",
           "options": [
-            "Only judges determine every policy choice regardless of elections.",
-            "Majority support matters but cannot alone authorize government to violate constitutional rights.",
-            "A popular ordinance cannot face court review."
-          ],
-          "answer": 1
-        },
-        {
-          "prompt": "Which approach most carefully verifies the constitutional or civic claim in this lesson?",
-          "options": [
-            "Compare dated primary or official sources, the applicable rule, and a relevant alternative interpretation.",
-            "Assume a government announcement proves its policy succeeded for every person.",
-            "Choose the interpretation most compatible with a preferred political position."
+            "Political authority ultimately rests with the people",
+            "Judges must draft all legislation",
+            "The military controls elections"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion is most defensible when using this lesson's civic sources?",
+          "prompt": "Why might a majority-supported ordinance still fail constitutional review?",
           "options": [
-            "A single document is sufficient to establish every long-term policy effect.",
-            "Evaluate source purpose, responsible institutions, evidence limits and affected communities before reaching a conclusion.",
-            "Any political disagreement proves the Constitution has no enforceable rules."
+            "Election results have no legal relevance",
+            "Government action remains subject to constitutional limits",
+            "Every local rule automatically overrides federal rights"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Which information is essential before judging the hypothetical ordinance?",
+          "options": [
+            "Whether the policy is fashionable",
+            "Only the number of signatures supporting it",
+            "The legal authority, facts and specific constitutional protection"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
