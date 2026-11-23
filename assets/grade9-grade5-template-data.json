@@ -3689,16 +3689,16 @@
       "total": 4,
       "essential": "How did Watergate test constitutional accountability?",
       "paragraphs": [
-        "The 1972 break-in at Democratic National Committee offices and subsequent cover-up prompted investigations of the Nixon administration. Congressional hearings, investigative reporting, and court rulings exposed abuses of executive power. The investigations involved journalists, congressional committees, courts, and officials within the executive branch. These institutions did not all perform the same function or operate on the same timeline. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "In United States v. Nixon (1974), the Supreme Court required release of White House recordings. President Richard Nixon resigned in August 1974. The crisis prompted debates about transparency, oversight, and public confidence. The Supreme Court's ruling on recordings tested claims of executive confidentiality against judicial process. Nixon's resignation resulted from accumulated evidence and political loss of support, not one isolated headline. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Build a documented chronology and compare congressional, judicial, and media roles. Distinguish investigated claims from verified findings. Build an evidence trail from the break-in to the court decision and resignation. Explain which institutions supplied independent checks and what the episode suggests about constitutional accountability. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "The Watergate scandal began with a June 1972 break-in at the Democratic National Committee headquarters, but the constitutional crisis developed as investigators uncovered efforts to obstruct the inquiry. Reporters, Congress, prosecutors, and courts each had different responsibilities. Their evidence should not be merged into one undifferentiated account.",
+        "In July 1974 the Supreme Court decided United States v. Nixon, rejecting an absolute claim of presidential confidentiality against a criminal-trial subpoena. The ruling helped compel disclosure of recordings. Facing the consequences of the investigation and the loss of congressional support, Richard Nixon resigned on August 9. The Court did not itself remove him from office.",
+        "Read the Court's 1974 decision and identify exactly what evidence it ordered produced. Then inspect the National Archives' collection of presidential recordings and choose one dated record. How did a legal ruling and an actual recorded conversation play different roles in establishing what happened? Judge public trust through documented actions rather than assuming a president's resignation proves every allegation ever made."
       ],
-      "activity": "Watergate and Public Trust · Evidence Investigation",
-      "task": "Write a claim about Watergate and Public Trust with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "Watergate and Public Trust · Evidence investigation",
+      "task": "Explain how courts, investigators, and the political process constrained executive power, distinguishing the court's order from Nixon's August 9 resignation.",
       "investigation": [
-        "Identify a dated historical document bearing on Watergate and Public Trust. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of Watergate and Public Trust. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about Watergate and Public Trust with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Read United States v. Nixon and identify the Court's holding about the subpoena and executive confidentiality.",
+        "Find a specific dated presidential recording or associated record in the National Archives guide. Identify the speaker, recording date, and what can actually be established.",
+        "Explain how courts, investigators, and the political process constrained executive power, distinguishing the court's order from Nixon's August 9 resignation."
       ],
       "options": [
         "1974",
@@ -3715,31 +3715,31 @@
       ],
       "checks": [
         {
-          "prompt": "In which year did President Nixon resign?",
+          "prompt": "In United States v. Nixon, what did the Supreme Court reject?",
           "options": [
-            "1974",
-            "1989",
-            "1963"
+            "An absolute presidential privilege withholding subpoenaed evidence in a criminal case",
+            "The authority of all federal courts",
+            "The existence of presidential recordings"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which method would strengthen a historical argument about Watergate and Public Trust?",
+          "prompt": "When did Nixon resign the presidency?",
           "options": [
-            "Compare two contextualized sources addressing Watergate and executive privilege.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion about Watergate and Public Trust is most defensible?",
-          "options": [
-            "Only one participant's account can establish all effects of congressional oversight.",
-            "Interpret Watergate in historical context and weigh competing evidence concerning resignation.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "June 1972",
+            "August 9, 1974",
+            "January 1981"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Which evidence would best test what participants actually said?",
+          "options": [
+            "A modern fictional film",
+            "A campaign slogan",
+            "A properly authenticated, dated presidential recording"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -3754,7 +3754,25 @@
           "Build a documented chronology and compare congressional, judicial, and media roles. Distinguish investigated claims from verified findings."
         ]
       },
-      "investigationKind": "cause"
+      "investigationKind": "cause",
+      "references": [
+        {
+          "title": "United States v. Nixon, Supreme Court decision",
+          "creator": "Supreme Court of the United States",
+          "date": "July 24, 1974",
+          "type": "Primary",
+          "url": "https://supreme.justia.com/cases/federal/us/418/683/",
+          "summary": "Transcription of the Court's ruling requiring compliance with a subpoena for presidential tapes; judicial decision, not a complete history of the scandal."
+        },
+        {
+          "title": "Records on Presidential Tapes",
+          "creator": "National Archives",
+          "date": "1972–1974 original records; modern research page",
+          "type": "Primary records within archival collection",
+          "url": "https://www.archives.gov/research/investigations/watergate/presidential-tape-recordings.html",
+          "summary": "Archival guide to tape records and investigation documents; choose and date a specific tape for analysis."
+        }
+      ]
     },
     "the-reagan-era": {
       "title": "The Reagan Era",
@@ -3764,16 +3782,16 @@
       "total": 4,
       "essential": "How did policy choices during the 1980s reshape economic and political debates?",
       "paragraphs": [
-        "Ronald Reagan's presidency began in 1981. His administration pursued tax reductions, deregulation, and a defense buildup, while conservative coalitions influenced debates about government and social policy. Tax cuts and regulatory changes reflected a political philosophy that prioritized private investment and a smaller economic role for some federal programs. At the same time, defense spending remained a large public commitment. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "The decade included recession, later growth, rising federal deficits, and uneven effects across communities. U.S.–Soviet relations shifted from heightened tension toward major arms-control negotiations. Some economic indicators improved after the early-1980s recession, while income trends and federal borrowing generated debate. U.S.–Soviet diplomacy changed substantially later in the decade. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Compare inflation, unemployment, and deficit series with policy statements. Avoid attributing every economic outcome to one leader without examining wider conditions. Compare economic trends using the same units and time spans; avoid deciding policy effectiveness on the basis of one presidential speech or one year's numbers. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "Ronald Reagan took office in January 1981 amid inflation, weak economic conditions, and political debates over federal authority. His administration backed tax reductions, deregulation, domestic spending restraint in selected areas, and substantial defense expenditure. Those choices were not the same policy, and claims about a 'smaller government' require examining what actually changed.",
+        "In September 1981 Reagan publicly defended his economic recovery program. Congress had enacted the Economic Recovery Tax Act in August. A presidential address documents what the administration promised; an enacted statute documents what law changed. Neither source, by itself, proves the causes of inflation changes, employment growth, deficits, or the early-1980s recession and later recovery.",
+        "Read the 1981 address alongside the actual tax legislation. Identify an asserted benefit, then locate the legal provision intended to achieve it. To test the outcome, students would need comparable economic data over multiple years and explanations of Federal Reserve monetary policy and wider conditions. Avoid treating agreement or disagreement with Reagan as a substitute for economic evidence."
       ],
-      "activity": "The Reagan Era · Evidence Investigation",
-      "task": "Write a claim about The Reagan Era with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "The Reagan Era · Evidence investigation",
+      "task": "Explain how to evaluate the effects of 1980s economic policy without assigning every improvement or problem to a single leader.",
       "investigation": [
-        "Identify a dated historical document bearing on The Reagan Era. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of The Reagan Era. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about The Reagan Era with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Read Reagan's September 1981 address and identify one promised economic effect and its intended audience.",
+        "Examine a selected provision of Public Law 97-34 to distinguish an enacted tax change from a campaign claim.",
+        "Explain how to evaluate the effects of 1980s economic policy without assigning every improvement or problem to a single leader."
       ],
       "options": [
         "1993",
@@ -3790,31 +3808,31 @@
       ],
       "checks": [
         {
-          "prompt": "In which year did Ronald Reagan become U.S. president?",
+          "prompt": "Which year saw enactment of the Economic Recovery Tax Act?",
           "options": [
-            "1993",
             "1981",
-            "1971"
-          ],
-          "answer": 1
-        },
-        {
-          "prompt": "Which method would strengthen a historical argument about The Reagan Era?",
-          "options": [
-            "Compare two contextualized sources addressing supply-side economics and deregulation.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
+            "1972",
+            "1994"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion about The Reagan Era is most defensible?",
+          "prompt": "Which document would establish the exact tax-law changes enacted by Congress?",
           "options": [
-            "Only one participant's account can establish all effects of deficit.",
-            "Interpret supply-side economics in historical context and weigh competing evidence concerning arms control.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "Reagan's retrospective autobiography alone",
+            "Public Law 97-34",
+            "A contemporary political cartoon alone"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What cannot be inferred from Reagan's 1981 address alone?",
+          "options": [
+            "The priorities he publicly advocated",
+            "That he spoke to the nation in 1981",
+            "That his policies caused every subsequent economic trend"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -3829,7 +3847,25 @@
           "Compare inflation, unemployment, and deficit series with policy statements. Avoid attributing every economic outcome to one leader without examining wider conditions."
         ]
       },
-      "investigationKind": "network"
+      "investigationKind": "network",
+      "references": [
+        {
+          "title": "Address to the Nation on the Program for Economic Recovery",
+          "creator": "President Ronald Reagan",
+          "date": "September 24, 1981",
+          "type": "Primary",
+          "url": "https://www.reaganlibrary.gov/archives/speech/address-nation-program-economic-recovery",
+          "summary": "Reagan's own argument in favor of his administration's economic priorities; assertions of expected success are not independently measured results."
+        },
+        {
+          "title": "Economic Recovery Tax Act of 1981, Public Law 97-34",
+          "creator": "United States Congress",
+          "date": "August 13, 1981",
+          "type": "Primary",
+          "url": "https://www.govinfo.gov/content/pkg/STATUTE-95/pdf/STATUTE-95-Pg172.pdf",
+          "summary": "Enacted tax-law text in Statutes at Large; distinguish legal changes from later employment, inflation and deficit outcomes."
+        }
+      ]
     },
     "the-end-of-the-cold-war": {
       "title": "The End of the Cold War",
@@ -3839,16 +3875,16 @@
       "total": 4,
       "essential": "What combination of choices and pressures led to the Cold War's end?",
       "paragraphs": [
-        "Reform efforts under Soviet leader Mikhail Gorbachev, economic pressures, and political movements across Eastern Europe transformed the late 1980s. The Berlin Wall opened in November 1989. Popular protests and reform movements in Eastern Europe were independent historical forces. Treating people in those countries merely as objects of U.S.–Soviet diplomacy leaves out decisive local agency. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "The Soviet Union dissolved in 1991. The end reflected developments within communist societies as well as international diplomacy; it was not the exclusive achievement of a single U.S. president. Soviet reforms loosened political controls and intensified debates over the union's future. Economic difficulties, nationalism, and institutional decisions contributed to the 1991 dissolution. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Compare a chronology of reforms, popular protests, diplomatic negotiations, and state changes. Explain multiple causes rather than a one-person victory narrative. Create a multi-causal timeline including internal reforms, public protest, international negotiations, and state decisions. Test whether a one-leader explanation can account for the evidence. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "The Cold War ended through political change within communist states as well as U.S.–Soviet diplomacy. Protesters and reformers in Poland, Hungary, East Germany, Czechoslovakia and elsewhere pursued political futures of their own. They were not simply spectators watching a contest between Washington and Moscow.",
+        "Mikhail Gorbachev's reforms changed Soviet politics and loosened Soviet control over Eastern Europe. The Berlin Wall opened in November 1989, while the Soviet Union itself dissolved in December 1991. These are distinct events. Economic weakness, public organizing, nationalism, government choices and changing international expectations contributed; the outcome cannot be credited to a single speech or leader.",
+        "Compare the State Department's separate histories of the 1989 Eastern European upheavals and 1991 Soviet collapse. Make a timeline showing which societies changed first, then ask for original material from an East German protester or Soviet reformer. The official U.S. narrative is a useful retrospective synthesis but not the only national perspective."
       ],
-      "activity": "The End of the Cold War · Evidence Investigation",
-      "task": "Write a claim about The End of the Cold War with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "The End of the Cold War · Evidence investigation",
+      "task": "Write a multi-causal explanation featuring citizens and leaders inside Eastern Europe and the USSR. Identify an original non-U.S. document required to test the account.",
       "investigation": [
-        "Identify a dated historical document bearing on The End of the Cold War. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of The End of the Cold War. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about The End of the Cold War with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Using the 1989 chronology, identify political developments in two distinct Eastern European countries and the role of local movements.",
+        "Using the 1991 history, explain why Soviet dissolution was a separate event from the opening of the Berlin Wall.",
+        "Write a multi-causal explanation featuring citizens and leaders inside Eastern Europe and the USSR. Identify an original non-U.S. document required to test the account."
       ],
       "options": [
         "1945",
@@ -3865,31 +3901,31 @@
       ],
       "checks": [
         {
-          "prompt": "In which year did the Soviet Union dissolve?",
+          "prompt": "In what year did the Berlin Wall open?",
           "options": [
-            "1945",
-            "2001",
-            "1991"
-          ],
-          "answer": 2
-        },
-        {
-          "prompt": "Which method would strengthen a historical argument about The End of the Cold War?",
-          "options": [
-            "Compare two contextualized sources addressing glasnost and perestroika.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
+            "1989",
+            "1994",
+            "1962"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion about The End of the Cold War is most defensible?",
+          "prompt": "When did the Soviet Union dissolve?",
           "options": [
-            "Only one participant's account can establish all effects of Berlin Wall.",
-            "Interpret glasnost in historical context and weigh competing evidence concerning Soviet dissolution.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "1975",
+            "1991",
+            "2001"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Which account is too simplistic?",
+          "options": [
+            "Reform movements in Eastern Europe mattered",
+            "Soviet policy changes affected relations with neighboring states",
+            "One U.S. speech alone caused the collapse of all communist governments"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -3904,7 +3940,25 @@
           "Compare a chronology of reforms, popular protests, diplomatic negotiations, and state changes. Explain multiple causes rather than a one-person victory narrative."
         ]
       },
-      "investigationKind": "compare"
+      "investigationKind": "compare",
+      "references": [
+        {
+          "title": "Fall of Communism in Eastern Europe, 1989",
+          "creator": "U.S. Department of State, Office of the Historian",
+          "date": "1989 events; later historical interpretation",
+          "type": "Secondary institutional history",
+          "url": "https://history.state.gov/milestones/1989-1992/fall-of-communism",
+          "summary": "Institutional secondary account describing Polish, Hungarian, East German and Czechoslovak agency; not a period protest manifesto."
+        },
+        {
+          "title": "The Collapse of the Soviet Union",
+          "creator": "U.S. Department of State, Office of the Historian",
+          "date": "1991 events; later historical interpretation",
+          "type": "Secondary institutional history",
+          "url": "https://history.state.gov/milestones/1989-1992/collapse-soviet-union",
+          "summary": "Secondary synthesis of late Soviet reforms, nationalist movements and dissolution; students still need independently dated original East European and Soviet records."
+        }
+      ]
     },
     "america-and-the-global-economy": {
       "title": "America and the Global Economy",
@@ -3914,16 +3968,16 @@
       "total": 4,
       "essential": "How did globalization reshape U.S. employment and exchange?",
       "paragraphs": [
-        "Late twentieth-century advances in transport, communications, and production helped link economies across borders. The North American Free Trade Agreement took effect in 1994, deepening trade integration among the United States, Canada, and Mexico. Production increasingly crossed national borders, with goods assembled through supply chains involving labor and investment in several countries. Consumers could benefit from lower prices while some workers faced job displacement. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "Some consumers and industries benefited from expanded markets while some communities experienced dislocation and changing employment. Trade statistics alone cannot explain the full distribution of benefits and costs. Trade agreements established rules but did not determine every national economic outcome. Currency movements, technology, corporate decisions, and education also influenced employment. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Use an indexed trade chart and contrasting regional employment accounts. Explain what the data measure and what would be needed for a causal claim. Compare a trade-flow graph with regional employment data; explain why simultaneous change does not prove a direct single cause. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "Trade and production became more interconnected across borders late in the twentieth century. The North American Free Trade Agreement took effect in January 1994 among the United States, Canada and Mexico. Its provisions changed rules for regional trade, but it did not make every factory move or determine every household's income.",
+        "The same economic change may benefit consumers through availability or prices while hurting particular workers facing competition. Technology, exchange rates, corporate decisions, and other trade rules complicate the picture. By 2020, NAFTA had been superseded by the United States–Mexico–Canada Agreement; the lesson's 1994 discussion must be identified as historical rather than current law.",
+        "Read the U.S. Trade Representative's dated NAFTA history and the U.S. International Trade Commission's retrospective assessment. Which statements identify legal milestones, and which estimate economic outcomes? An estimate is not an eyewitness record. To judge a particular town's employment losses, students need local labor data and an explicit comparison period."
       ],
-      "activity": "America and the Global Economy · Evidence Investigation",
-      "task": "Write a claim about America and the Global Economy with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "America and the Global Economy · Evidence investigation",
+      "task": "Make a qualified claim about an economic benefit and cost, using a named sector or region and avoiding the assertion that trade alone explains every trend.",
       "investigation": [
-        "Identify a dated historical document bearing on America and the Global Economy. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of America and the Global Economy. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about America and the Global Economy with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Identify NAFTA's January 1994 implementation date and original three parties from the official USTR record.",
+        "Examine the USITC assessment to distinguish estimates of trade effects from legislation and explain why the method matters.",
+        "Make a qualified claim about an economic benefit and cost, using a named sector or region and avoiding the assertion that trade alone explains every trend."
       ],
       "options": [
         "1994",
@@ -3940,31 +3994,31 @@
       ],
       "checks": [
         {
-          "prompt": "In what year did NAFTA take effect?",
+          "prompt": "When did NAFTA enter into force?",
           "options": [
-            "1994",
-            "2015",
-            "1974"
+            "January 1, 1994",
+            "January 1, 2020",
+            "December 25, 1991"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which method would strengthen a historical argument about America and the Global Economy?",
+          "prompt": "What type of evidence is a USITC estimate of trade-agreement effects?",
           "options": [
-            "Compare two contextualized sources addressing globalization and NAFTA.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion about America and the Global Economy is most defensible?",
-          "options": [
-            "Only one participant's account can establish all effects of trade integration.",
-            "Interpret globalization in historical context and weigh competing evidence concerning economic dislocation.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "The literal text of NAFTA itself",
+            "A retrospective quantitative analysis that depends on stated methods",
+            "A first-person factory worker diary"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Which conclusion would require more than national trade figures?",
+          "options": [
+            "NAFTA involved three North American countries",
+            "Trade relationships changed over time",
+            "NAFTA alone caused a particular town's entire employment decline"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -3979,7 +4033,25 @@
           "Use an indexed trade chart and contrasting regional employment accounts. Explain what the data measure and what would be needed for a causal claim."
         ]
       },
-      "investigationKind": "source"
+      "investigationKind": "source",
+      "references": [
+        {
+          "title": "North American Free Trade Agreement (NAFTA): official historical record",
+          "creator": "Office of the United States Trade Representative",
+          "date": "In force January 1, 1994; modern archive",
+          "type": "Secondary government overview",
+          "url": "https://www.ustr.gov/about-us/policy-offices/press-office/ustr-archives/north-american-free-trade-agreement-nafta",
+          "summary": "Official U.S. trade history confirms the 1994 start; an institutional summary is not sufficient for causal claims about workers."
+        },
+        {
+          "title": "The Economic Impact of Trade Agreements, U.S. International Trade Commission",
+          "creator": "United States International Trade Commission",
+          "date": "2016 retrospective analysis",
+          "type": "Secondary quantitative analysis",
+          "url": "https://www.usitc.gov/press_room/news_release/2016/er0629ll625.htm",
+          "summary": "Independent federal economic evaluation using model-based estimates and data; method and scope must be stated."
+        }
+      ]
     },
     "september-11-and-its-consequences": {
       "title": "September 11 and Its Consequences",
@@ -3989,16 +4061,16 @@
       "total": 4,
       "essential": "How did September 11 change U.S. security policy and public life?",
       "paragraphs": [
-        "On September 11, 2001, al-Qaeda terrorists hijacked four passenger aircraft, attacking the World Trade Center and Pentagon; a fourth crashed in Pennsylvania after passengers resisted. Nearly 3,000 people were killed. The attack's history includes the people killed, survivors, first responders, and communities affected by long-term health and social consequences. Responsible teaching prioritizes verified testimony over repeated dramatic images. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "The United States launched military operations in Afghanistan, changed aviation security, and expanded surveillance and counterterrorism powers. The wars and policies raised enduring debates about civil liberties, civilian harm, and international law. Subsequent policy choices involved surveillance, military force, airport security, and changing legal standards. Their effects differed among U.S. residents and people overseas, and they remain subject to historical and civic evaluation. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Analyze verified timelines and official records alongside affected communities' perspectives. Avoid sensational imagery, conspiracy claims, and treating all Muslims as responsible for al-Qaeda's actions. Compare the 9/11 Commission Report's findings with a dated policy and an affected community's account. Separate the terrorist attack from debates over the effectiveness and legality of later decisions. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "On September 11, 2001, al-Qaeda terrorists hijacked four planes. Two struck the World Trade Center, one struck the Pentagon, and a fourth crashed in Pennsylvania after passengers resisted. Nearly 3,000 people were killed. Teach the event through verified chronology and human lives, not repeated shocking footage or invented dialogue.",
+        "The United States' later policies included war in Afghanistan, aviation-security changes, intelligence reforms, and expanded counterterrorism powers. These were choices made after the attack, with complex consequences for security, civil rights and people overseas. It is wrong to hold all Muslim communities responsible for al-Qaeda or to imply every policy adopted afterward was required by the attack itself.",
+        "Compare the independent 9/11 Commission's 2004 conclusions with a firsthand account selected from the memorial museum. What can an investigation establish that one witness cannot, and what individual experience is missing from a national report? Then choose a dated post-2001 policy and evaluate its effects separately from the verified facts of the attacks."
       ],
-      "activity": "September 11 and Its Consequences · Evidence Investigation",
-      "task": "Write a claim about September 11 and Its Consequences with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "September 11 and Its Consequences · Evidence investigation",
+      "task": "Explain the distinction between the attack's causes and one later security decision; use evidence instead of speculation or collective blame.",
       "investigation": [
-        "Select one dated, attributed item relevant to September 11 and Its Consequences from September 11 Memorial & Museum Collections. Record the creator, its publication or creation date, the audience and a concrete claim it supports.",
-        "Corroborate the selected record with another independent source and distinguish information documented at the time from later interpretation about September 11 and Its Consequences.",
-        "Write a claim about September 11 and Its Consequences with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Read the Commission's 2004 Executive Summary and identify one finding about the attacks and one recommendation about future preparedness.",
+        "Select an attributed, age-appropriate firsthand account from the 9/11 Memorial & Museum, identifying the creator and exact date or interview context.",
+        "Explain the distinction between the attack's causes and one later security decision; use evidence instead of speculation or collective blame."
       ],
       "options": [
         "September 11, 2001",
@@ -4015,31 +4087,31 @@
       ],
       "checks": [
         {
-          "prompt": "On what date did the September 11 attacks occur?",
+          "prompt": "Which group carried out the September 11, 2001 attacks?",
           "options": [
-            "September 11, 2001",
-            "September 11, 2011",
-            "September 11, 1991"
+            "al-Qaeda",
+            "The United Nations",
+            "NATO"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which method would strengthen a historical argument about September 11 and Its Consequences?",
+          "prompt": "What is the 9/11 Commission Report?",
           "options": [
-            "Compare two contextualized sources addressing September 11 and al-Qaeda.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion about September 11 and Its Consequences is most defensible?",
-          "options": [
-            "Only one participant's account can establish all effects of counterterrorism.",
-            "Interpret September 11 in historical context and weigh competing evidence concerning civil liberties.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "An eyewitness diary written on September 11",
+            "A later official investigation of the attacks and failures",
+            "A law enacted in 1994"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Which conclusion would misread the evidence?",
+          "options": [
+            "The attacks had long-term policy consequences",
+            "The four aircraft had different outcomes",
+            "All Muslims shared responsibility for the hijackers' crimes"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -4057,12 +4129,20 @@
       "investigationKind": "rights",
       "references": [
         {
-          "title": "September 11 Memorial & Museum Collections",
-          "creator": "September 11 Memorial & Museum Collections",
-          "date": "Research collection",
-          "type": "Research gateway",
+          "title": "9/11 Commission Report, Executive Summary",
+          "creator": "National Commission on Terrorist Attacks Upon the United States",
+          "date": "July 22, 2004",
+          "type": "Official investigative report",
+          "url": "https://www.9-11commission.gov/report/911Report_Exec.htm",
+          "summary": "Official independent bipartisan investigation of the September 11 attacks and institutional failures; retrospective findings, not a transcript from 2001."
+        },
+        {
+          "title": "9/11 Memorial & Museum learning resources and survivor collections",
+          "creator": "National September 11 Memorial & Museum",
+          "date": "2001 original testimony and artifacts; modern guide",
+          "type": "Primary collections within museum gateway",
           "url": "https://www.911memorial.org/learn/resources",
-          "summary": "Use this institution's collection to select and verify individual historical records; the collection link is not itself proof for a specific lesson claim."
+          "summary": "Curated path to firsthand accounts. Select age-appropriate dated item; the museum resource page is not a single eyewitness report."
         }
       ]
     },
@@ -4074,16 +4154,16 @@
       "total": 4,
       "essential": "How has digital technology changed opportunities, privacy, and political participation?",
       "paragraphs": [
-        "Broadband internet, smartphones, and digital platforms transformed communication, business, education, and news distribution in the twenty-first century. Access remains unequal across income, geography, and disability. Technology adoption differs by age, disability, income, and geography. Online access is not the same as the skills, devices, or trustworthy information needed to benefit from digital systems. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "Digital systems can expand information access and civic organizing while also enabling surveillance, misinformation, and concentrated market power. Rapid technological change makes careful source verification essential. Platform companies influence work, advertising, and access to public debate. Researchers investigate the effects of algorithms and information networks, but causal claims require careful study designs. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Compare the claims of a platform, an independent study, and a user survey. Ask what the available data establish about causation rather than assuming every social change came from one technology. Evaluate a chart about internet use by inspecting its sample and date. Distinguish a company claim, an independent finding, and an individual's experience. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "Internet and mobile technology changed how Americans communicated, learned, organized, and worked in the early twenty-first century. Change was uneven. A household could lack broadband access, share a single device, or have service without the skills or accessibility supports needed to use it effectively.",
+        "Government surveys document patterns of digital access. A 2011 national report and a 2014 follow-up on mobile internet reveal that the questions, devices, and populations measured can shift as technology changes. A percentage from an earlier survey is not a current figure, and the presence of a phone does not automatically prove equivalent opportunities.",
+        "Read the two NTIA studies as dated evidence. Identify the survey year, sample or population, and one explicitly defined measure before comparing results. Explain why a company advertisement or an individual's experience cannot replace representative data. Distinguish access, practical ability, privacy and information reliability as different dimensions of digital life."
       ],
-      "activity": "Technology and American Society · Evidence Investigation",
-      "task": "Write a claim about Technology and American Society with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "Technology and American Society · Evidence investigation",
+      "task": "Explain one digital divide and what additional research would establish whether it narrowed for the selected group.",
       "investigation": [
-        "Select one dated, attributed item relevant to Technology and American Society from Smithsonian National Museum of American History. Record the creator, its publication or creation date, the audience and a concrete claim it supports.",
-        "Corroborate the selected record with another independent source and distinguish information documented at the time from later interpretation about Technology and American Society.",
-        "Write a claim about Technology and American Society with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "In the 2011 NTIA report, identify the population, survey year and what one selected internet-access indicator measures.",
+        "In the 2014 report, identify a comparable mobile-usage measure, noting any changes in question or denominator.",
+        "Explain one digital divide and what additional research would establish whether it narrowed for the selected group."
       ],
       "options": [
         "The difference between printed and handwritten books",
@@ -4100,31 +4180,31 @@
       ],
       "checks": [
         {
-          "prompt": "What does the digital divide describe?",
+          "prompt": "What does the term digital divide describe?",
           "options": [
-            "The difference between printed and handwritten books",
-            "Unequal access to and effective use of digital technology",
-            "The gap between two computer screens"
-          ],
-          "answer": 1
-        },
-        {
-          "prompt": "Which method would strengthen a historical argument about Technology and American Society?",
-          "options": [
-            "Compare two contextualized sources addressing digital divide and platform economy.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
+            "Inequalities in access to and effective use of digital tools",
+            "The space between two computer monitors",
+            "A law prohibiting online communication"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion about Technology and American Society is most defensible?",
+          "prompt": "Why should a 2011 internet-use figure not be presented as today's usage rate?",
           "options": [
-            "Only one participant's account can establish all effects of surveillance.",
-            "Interpret digital divide in historical context and weigh competing evidence concerning misinformation.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "Government figures are never useful",
+            "Its date and the technology available at the time matter",
+            "All residents used smartphones in 2011"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What must be checked before comparing survey percentages?",
+          "options": [
+            "Only the titles of the reports",
+            "Only which figure is larger",
+            "The populations, question wording and definitions used"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -4142,12 +4222,20 @@
       "investigationKind": "data",
       "references": [
         {
-          "title": "Smithsonian National Museum of American History",
-          "creator": "Smithsonian National Museum of American History",
-          "date": "Research collection",
-          "type": "Research gateway",
-          "url": "https://americanhistory.si.edu/",
-          "summary": "Use this institution's collection to select and verify individual historical records; the collection link is not itself proof for a specific lesson claim."
+          "title": "Exploring the Digital Nation: Computer and Internet Use at Home",
+          "creator": "National Telecommunications and Information Administration; U.S. Department of Commerce",
+          "date": "November 2011",
+          "type": "Contemporary government data analysis",
+          "url": "https://www.ntia.gov/sites/default/files/publications/exploring_the_digital_nation_computer_and_internet_use_at_home_11092011_0.pdf",
+          "summary": "Period government statistical research describing access patterns; use actual survey population, year and measure, not present-day usage assumptions."
+        },
+        {
+          "title": "Exploring the Digital Nation: Embracing the Mobile Internet",
+          "creator": "National Telecommunications and Information Administration",
+          "date": "October 2014",
+          "type": "Contemporary government data analysis",
+          "url": "https://www.ntia.gov/sites/default/files/publications/exploring_the_digital_nation_embracing_the_mobile_internet_10162014_0.pdf",
+          "summary": "Dated survey-based study of changing mobile connectivity. Compare the same subgroup and definitions before asserting growth."
         }
       ]
     },
@@ -4159,16 +4247,16 @@
       "total": 4,
       "essential": "How do contemporary movements build on earlier rights struggles?",
       "paragraphs": [
-        "Twenty-first-century civic movements have addressed policing, racial inequality, voting access, LGBTQ rights, disability inclusion, and other issues. Participants use community organizing, litigation, elections, and digital communication. Civic movements use tactics familiar from earlier reform struggles but face new communication environments and legal contexts. A hashtag or demonstration is not the whole movement. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "Strategies and demands vary across organizations and periods. Assessing a movement requires distinguishing its stated goals, methods, policy outcomes, and criticism, rather than assuming every member agrees on every proposal. Organizations disagree over priorities and methods, and effects are difficult to measure solely through media attention. Historians distinguish the movement's stated demands from law, practice, and wider social change. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Compare organizational statements with laws and carefully sourced outcomes. Represent competing interpretations fairly while avoiding false equivalence between unsupported claims and established facts. Choose a dated civic campaign and identify its explicit goal, actions, responses, and measurable results. Examine competing views without treating factually unsupported assertions as equivalent to documented evidence. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "Civic movements continue to organize around political participation, disability access, racial equity, LGBTQ rights and other questions. A movement includes people, institutions, debates and specific goals. Demonstrations and online hashtags are visible parts of organizing, but legislation, litigation, coalition work and local persistence can matter just as much.",
+        "The Americans with Disabilities Act of 1990 and the Supreme Court's 2015 marriage-equality ruling show different paths toward legal change. Neither settles every controversy about implementation. Retrospective oral histories can connect earlier civil-rights campaigns to later organizers' thinking, but one participant's memory should not be treated as the only account of a whole movement.",
+        "Compare an original ADA signing-era document with a dated record of LGBTQ rights litigation or civic advocacy. Identify the stated legal goal, who acted, and the change that followed. Then use the 2013 civil-rights oral history to distinguish lived experience from institutional wording. Fair historical analysis can examine disagreements about policy without manufacturing doubt about the existence of documented discrimination."
       ],
-      "activity": "Contemporary Civil Rights and Civic Movements · Evidence Investigation",
-      "task": "Write a claim about Contemporary Civil Rights and Civic Movements with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "Contemporary Civil Rights and Civic Movements · Evidence investigation",
+      "task": "Use the 2013 LOC oral history to explain how participant testimony can add perspective while remaining distinct from official policy and independently measured outcomes.",
       "investigation": [
-        "Select one dated, attributed item relevant to Contemporary Civil Rights and Civic Movements from Library of Congress Civil Rights History Project. Record the creator, its publication or creation date, the audience and a concrete claim it supports.",
-        "Corroborate the selected record with another independent source and distinguish information documented at the time from later interpretation about Contemporary Civil Rights and Civic Movements.",
-        "Write a claim about Contemporary Civil Rights and Civic Movements with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Find the July 26, 1990 ADA record in the NARA archival listing and state what institutional or legal action it documents.",
+        "Select a named, dated LGBTQ rights legal or protest record from NARA and distinguish its author and legal status from the ADA record.",
+        "Use the 2013 LOC oral history to explain how participant testimony can add perspective while remaining distinct from official policy and independently measured outcomes."
       ],
       "options": [
         "Automatic constitutional change without action",
@@ -4185,31 +4273,31 @@
       ],
       "checks": [
         {
-          "prompt": "Which method has been used by civil rights movements across different periods?",
+          "prompt": "Which federal civil-rights law was signed in 1990?",
           "options": [
-            "Automatic constitutional change without action",
-            "Only private conversations with no public campaigns",
-            "Organizing, litigation, and public advocacy"
-          ],
-          "answer": 2
-        },
-        {
-          "prompt": "Which method would strengthen a historical argument about Contemporary Civil Rights and Civic Movements?",
-          "options": [
-            "Compare two contextualized sources addressing civic movement and coalition.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
+            "Americans with Disabilities Act",
+            "Sherman Antitrust Act",
+            "Espionage Act"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion about Contemporary Civil Rights and Civic Movements is most defensible?",
+          "prompt": "What type of evidence is a 2013 interview with a participant recalling 1960s activism?",
           "options": [
-            "Only one participant's account can establish all effects of policy change.",
-            "Interpret civic movement in historical context and weigh competing evidence concerning rights litigation.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "A contemporaneous 1960s court order",
+            "A later-recorded oral history requiring contextual corroboration",
+            "An automatically complete record of all activists"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What cannot be assumed from passage of an important rights law?",
+          "options": [
+            "It may establish enforceable protections",
+            "It may reflect years of organizing",
+            "Every person immediately experiences equal access"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -4227,12 +4315,28 @@
       "investigationKind": "map",
       "references": [
         {
-          "title": "Library of Congress Civil Rights History Project",
-          "creator": "Library of Congress Civil Rights History Project",
-          "date": "Research collection",
-          "type": "Research gateway",
-          "url": "https://www.loc.gov/collections/civil-rights-history-project/",
-          "summary": "Use this institution's collection to select and verify individual historical records; the collection link is not itself proof for a specific lesson claim."
+          "title": "Americans with Disabilities Act of 1990: original presidential documents",
+          "creator": "National Archives; President George H. W. Bush administration",
+          "date": "July 26, 1990",
+          "type": "Primary records in archival guide",
+          "url": "https://www.archives.gov/research/americans-with-disabilities/presidential-documents.html",
+          "summary": "Archival documents concerning the signing of the ADA; an example of legal protection produced by organizing. Choose exact named item from listing."
+        },
+        {
+          "title": "LGBTQIA+ Protest and Reform Records",
+          "creator": "National Archives",
+          "date": "1958–2015 selected records; modern resource",
+          "type": "Primary records within archival collection",
+          "url": "https://www.archives.gov/research/lgbt/protest-reform",
+          "summary": "Original records concerning civic organizing and legal change, including an item on the 2015 marriage ruling; use item-level document with date."
+        },
+        {
+          "title": "Martha Prescod Norman Noonan, oral history interview",
+          "creator": "Martha Prescod Norman Noonan; interviewer John Dittmer",
+          "date": "March 18, 2013",
+          "type": "Primary oral history recorded later",
+          "url": "https://www.loc.gov/item/2015669179/",
+          "summary": "Retrospective participant oral history about earlier civil-rights struggles. First-person testimony is original to the interview date; memories of earlier events need corroboration."
         }
       ]
     },
@@ -4244,16 +4348,16 @@
       "total": 4,
       "essential": "How should citizens evaluate America's changing role in global affairs?",
       "paragraphs": [
-        "The United States participates in international institutions, security relationships, trade networks, and climate negotiations, while domestic debate shapes policy priorities. Global challenges often involve several governments and nonstate actors. International influence includes economics, technology, cultural exchange, diplomacy, and military resources. These measures may point in different directions, so the word 'power' requires a clear definition. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "Assessments of U.S. influence depend on criteria: military resources, economic ties, diplomacy, human rights, or environmental outcomes. Each measure has limits, and major events may alter conditions rapidly. Modern developments change rapidly and historical summaries need a date. Analysts should distinguish well-established institutions from the contested effects of current policies. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Use a dated policy document, independent dataset, and perspective from an affected country. Make a defensible claim that acknowledges uncertainty rather than treating a present-day position as permanent. Build a short evidence dossier with a policy document, an independently defined metric, and a perspective from another country. Qualify conclusions according to the time period and the limits of available information. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "In a connected world, American decisions can affect trade, climate, security and technology beyond U.S. borders. Other countries and international organizations also shape outcomes. A historical argument should identify the specific institution, treaty or decision involved rather than speaking vaguely about America's power.",
+        "The Paris Agreement was adopted in December 2015 within the United Nations climate framework. It provides an example of international negotiation, but national membership, pledges and implementation change over time. U.S. domestic responses to global economic problems, such as the 2010 Dodd-Frank law, operated through different legal institutions. These examples should not be collapsed into a single category of 'global policy.'",
+        "Read the UNFCCC's record of the Paris Agreement and a contemporary U.S. law addressing financial regulation. What authority did an international agreement rely on, and what did an act of Congress establish? Compare their purpose and scope without pretending they address the same problem. Date every claim about current participation and identify whose perspective is missing."
       ],
-      "activity": "America in a Changing World · Evidence Investigation",
-      "task": "Write a claim about America in a Changing World with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "America in a Changing World · Evidence investigation",
+      "task": "Write a qualified explanation of how the United States acts through domestic law and international institutions, with dates and a non-U.S. perspective needed for a complete account.",
       "investigation": [
-        "Select one dated, attributed item relevant to America in a Changing World from National Archives Educator Resources. Record the creator, its publication or creation date, the audience and a concrete claim it supports.",
-        "Corroborate the selected record with another independent source and distinguish information documented at the time from later interpretation about America in a Changing World.",
-        "Write a claim about America in a Changing World with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Document the Paris Agreement's December 2015 adoption using the UNFCCC source, distinguishing adoption from later signature or ratification.",
+        "Examine the 2010 Dodd-Frank enacted record and identify one way federal law differs from an international climate agreement.",
+        "Write a qualified explanation of how the United States acts through domestic law and international institutions, with dates and a non-U.S. perspective needed for a complete account."
       ],
       "options": [
         "Dated policies, comparable data, and affected countries' perspectives",
@@ -4270,31 +4374,31 @@
       ],
       "checks": [
         {
-          "prompt": "Which evidence best supports an argument about contemporary U.S. global influence?",
+          "prompt": "When was the Paris Agreement adopted?",
           "options": [
-            "Dated policies, comparable data, and affected countries' perspectives",
-            "A fictional map with no source",
-            "One undated political slogan"
+            "December 2015",
+            "September 2001",
+            "June 1945"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which method would strengthen a historical argument about America in a Changing World?",
+          "prompt": "Which source establishes the text of a 2010 U.S. financial-regulation statute?",
           "options": [
-            "Compare two contextualized sources addressing multilateralism and diplomacy.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion about America in a Changing World is most defensible?",
-          "options": [
-            "Only one participant's account can establish all effects of global interdependence.",
-            "Interpret multilateralism in historical context and weigh competing evidence concerning policy evaluation.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "The UNFCCC Paris Agreement site",
+            "Public Law 111-203 on GovInfo",
+            "A current climate pledge from another country"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Why should international participation claims be dated?",
+          "options": [
+            "Every treaty has identical membership forever",
+            "Domestic and international policies are the same",
+            "Countries' commitments and legal participation can change"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -4312,12 +4416,28 @@
       "investigationKind": "debate",
       "references": [
         {
-          "title": "National Archives Educator Resources",
-          "creator": "National Archives Educator Resources",
-          "date": "Research collection",
-          "type": "Research gateway",
-          "url": "https://www.archives.gov/education",
-          "summary": "Use this institution's collection to select and verify individual historical records; the collection link is not itself proof for a specific lesson claim."
+          "title": "Paris Agreement: adoption and international framework",
+          "creator": "United Nations Framework Convention on Climate Change",
+          "date": "Adopted December 12, 2015",
+          "type": "Treaty institution primary context",
+          "url": "https://unfccc.int/process-and-meetings/the-paris-agreement",
+          "summary": "Official treaty institution explaining adoption and the agreement's structure. Specific national participation and commitments must be checked for the period discussed."
+        },
+        {
+          "title": "Certified true copies of the Paris Agreement",
+          "creator": "UNFCCC Secretariat and United Nations Treaty Depositary",
+          "date": "March 17, 2016",
+          "type": "Treaty documentation",
+          "url": "https://unfccc.int/news/certified-true-copies-of-the-paris-agreement-issued-by-the-depositary",
+          "summary": "Official institutional account linking certified treaty copies; the adopted 2015 treaty text and 2016 certified copy are distinct documentary events."
+        },
+        {
+          "title": "Dodd-Frank Wall Street Reform and Consumer Protection Act, Public Law 111-203",
+          "creator": "United States Congress",
+          "date": "July 21, 2010",
+          "type": "Primary law",
+          "url": "https://www.govinfo.gov/app/details/PLAW-111publ203",
+          "summary": "Enacted domestic regulatory law useful for comparing global economic crises and national policy responses; it is not an international treaty."
         }
       ]
     }
