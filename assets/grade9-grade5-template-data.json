@@ -231,7 +231,17 @@
           "Compare the Fourteenth Amendment with a Reconstruction-era report of voting intimidation. Distinguish legal rights from enforcement and explain why the two sources cannot be t"
         ]
       },
-      "investigationKind": "timeline"
+      "investigationKind": "timeline",
+      "references": [
+        {
+          "title": "Fourteenth Amendment to the United States Constitution",
+          "creator": "United States Congress and ratifying states",
+          "date": "1868",
+          "type": "Primary",
+          "url": "https://www.archives.gov/milestone-documents/14th-amendment",
+          "summary": "Read Section 1 and distinguish the amendment's legal guarantees from evidence of enforcement in Reconstruction-era communities. The amendment alone does not prove equal protection was practiced."
+        }
+      ]
     },
     "the-rise-of-big-business": {
       "title": "The Rise of Big Business",
@@ -906,7 +916,25 @@
           "Analyze a newspaper headline, the 1898 treaty, and a Filipino independence statement. Evaluate the gap between a claimed war of liberation and imperial consequences."
         ]
       },
-      "investigationKind": "timeline"
+      "investigationKind": "timeline",
+      "references": [
+        {
+          "title": "President McKinley's Message to Congress Requesting a Declaration of War With Spain",
+          "creator": "President William McKinley",
+          "date": "April 11, 1898",
+          "type": "Primary",
+          "url": "https://www.presidency.ucsb.edu/documents/message-congress-requesting-declaration-war-with-spain",
+          "summary": "Analyze the administration's stated reasons for intervention and distinguish presidential advocacy from Cuban perspectives and independently established causes."
+        },
+        {
+          "title": "Act of April 25, 1898 Declaring War Between the United States and Spain (Public Law 55-69)",
+          "creator": "United States Congress",
+          "date": "April 25, 1898",
+          "type": "Primary",
+          "url": "https://docsteach.org/document/act-of-april-25-1898-public-law-5569-30-stat-364-which-declared-war-between-the-united-states-and-spain/",
+          "summary": "Compare the legal declaration with McKinley's request; identify what the act establishes and what it does not reveal about colonial subjects' experiences."
+        }
+      ]
     },
     "america-s-changing-foreign-policy": {
       "title": "America's Changing Foreign Policy",
