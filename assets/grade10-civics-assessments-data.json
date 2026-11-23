@@ -145,7 +145,7 @@
           "answer": 2
         }
       ],
-      "inquiryPrompt": "How should constitutional principles and credible evidence guide decisions about foundations of democracy?",
+      "inquiryPrompt": "When a majority supports a policy but a minority claims it violates rights, how can the Declaration, Constitution, and a contemporary excluded voice help us distinguish ideals, authority, and lived experience?",
       "inquirySteps": [
         "Compare the identified public institutions, original texts and their limitations.",
         "Develop an inquiry question about a specific civic decision, right or policy.",
@@ -157,16 +157,16 @@
         2
       ],
       "conclusions": [
-        "A credible civic argument should identify the governing rule, affected people and evidence that could test its impact.",
-        "Because a government source states a goal, the goal must already have been achieved equally in every community.",
-        "The foundations of democracy unit requires distinguishing source claims from evidence of real-world effects."
+        "The Declaration expresses political claims about consent; the later Constitution sets out a federal framework, and neither proves equal participation in 1776.",
+        "A founding ideal about equality automatically meant everyone had the franchise in 1776.",
+        "Locke's philosophy and Abigail Adams's letter reveal distinct arguments about authority and exclusion, not identical authors or audiences."
       ],
       "conclusionKey": [
         true,
         false,
         true
       ],
-      "writing": "Evaluate a civic dispute or constitutional question connected to Foundations of Democracy. Develop a qualified thesis using at least two relevant documents or authoritative references. Explain which level or branch of government has authority, which rights or public values are at issue, the evidence supporting your interpretation, a counterargument and one significant evidence limitation.",
+      "writing": "Compare the Declaration's consent principle with the actual government designed by the Constitution and an excluded contemporary perspective. Explain what the documents say, what rights they do not establish, and why that distinction matters.",
       "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about Foundations of Democracy. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
       "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
       "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
@@ -323,7 +323,7 @@
           "answer": 2
         }
       ],
-      "inquiryPrompt": "How should constitutional principles and credible evidence guide decisions about the constitution?",
+      "inquiryPrompt": "A proposal changes the written Constitution while another only changes the application of an existing clause. Which institutions and procedures distinguish those paths?",
       "inquirySteps": [
         "Compare the identified public institutions, original texts and their limitations.",
         "Develop an inquiry question about a specific civic decision, right or policy.",
@@ -335,16 +335,16 @@
         2
       ],
       "conclusions": [
-        "Because a government source states a goal, the goal must already have been achieved equally in every community.",
-        "The the constitution unit requires distinguishing source claims from evidence of real-world effects.",
-        "A credible civic argument should identify the governing rule, affected people and evidence that could test its impact."
+        "A presidential veto can be ignored permanently by a simple majority of the House alone.",
+        "Article V sets constitutional amendment procedures that differ from the passage of an ordinary statute.",
+        "The Constitutional Convention's compromises affected power and representation, including unequal treatment of enslaved people."
       ],
       "conclusionKey": [
         false,
         true,
         true
       ],
-      "writing": "Evaluate a civic dispute or constitutional question connected to The Constitution. Develop a qualified thesis using at least two relevant documents or authoritative references. Explain which level or branch of government has authority, which rights or public values are at issue, the evidence supporting your interpretation, a counterargument and one significant evidence limitation.",
+      "writing": "Evaluate a constitutional dispute using Article I, Article V, and a dated ratification-era source. Identify what changes through an amendment rather than judicial interpretation or an ordinary statute.",
       "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about The Constitution. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
       "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
       "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
@@ -495,7 +495,7 @@
           "answer": 2
         }
       ],
-      "inquiryPrompt": "How should constitutional principles and credible evidence guide decisions about the legislative branch?",
+      "inquiryPrompt": "A proposed federal school-safety bill passes one chamber and a committee alleges agency misconduct. What separate steps turn the bill into law and verify the oversight claim?",
       "inquirySteps": [
         "Compare the identified public institutions, original texts and their limitations.",
         "Develop an inquiry question about a specific civic decision, right or policy.",
@@ -507,16 +507,16 @@
         2
       ],
       "conclusions": [
-        "The the legislative branch unit requires distinguishing source claims from evidence of real-world effects.",
-        "A credible civic argument should identify the governing rule, affected people and evidence that could test its impact.",
-        "Because a government source states a goal, the goal must already have been achieved equally in every community."
+        "A committee hearing can collect evidence and scrutinize agency decisions without itself creating a new law.",
+        "House passage alone is enough to make a bill a public law regardless of Senate action.",
+        "Presentment and the potential presidential veto are relevant after both chambers have agreed to a bill."
       ],
       "conclusionKey": [
         true,
-        true,
-        false
+        false,
+        true
       ],
-      "writing": "Evaluate a civic dispute or constitutional question connected to The Legislative Branch. Develop a qualified thesis using at least two relevant documents or authoritative references. Explain which level or branch of government has authority, which rights or public values are at issue, the evidence supporting your interpretation, a counterargument and one significant evidence limitation.",
+      "writing": "Prepare a memorandum distinguishing a committee hearing, passage of a bill by one chamber, bicameral agreement, and enactment. Cite Article I and an official congressional procedural source.",
       "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about The Legislative Branch. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
       "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
       "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
@@ -667,7 +667,7 @@
           "answer": 2
         }
       ],
-      "inquiryPrompt": "How should constitutional principles and credible evidence guide decisions about the executive branch?",
+      "inquiryPrompt": "A president directs a federal agency to change a regulation. Which source of legal authority, publication stage, and checks determine whether the action is valid?",
       "inquirySteps": [
         "Compare the identified public institutions, original texts and their limitations.",
         "Develop an inquiry question about a specific civic decision, right or policy.",
@@ -679,16 +679,16 @@
         2
       ],
       "conclusions": [
-        "A credible civic argument should identify the governing rule, affected people and evidence that could test its impact.",
-        "Because a government source states a goal, the goal must already have been achieved equally in every community.",
-        "The the executive branch unit requires distinguishing source claims from evidence of real-world effects."
+        "Article II gives the president responsibilities, but a presidential speech alone cannot enact a federal tax statute.",
+        "An agency's proposed rule is binding in every circumstance as soon as comments are invited.",
+        "Executive orders and administrative rules must have legal authority and are subject to appropriate review."
       ],
       "conclusionKey": [
         true,
         false,
         true
       ],
-      "writing": "Evaluate a civic dispute or constitutional question connected to The Executive Branch. Develop a qualified thesis using at least two relevant documents or authoritative references. Explain which level or branch of government has authority, which rights or public values are at issue, the evidence supporting your interpretation, a counterargument and one significant evidence limitation.",
+      "writing": "Evaluate a hypothetical executive directive and agency rule. Identify statutory authorization, rulemaking status, potential congressional checks and judicial review without claiming the president can legislate alone.",
       "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about The Executive Branch. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
       "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
       "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
@@ -839,7 +839,7 @@
           "answer": 2
         }
       ],
-      "inquiryPrompt": "How should constitutional principles and credible evidence guide decisions about the judicial branch?",
+      "inquiryPrompt": "Two court cases involve public schools but different rights and facts. How should students trace the holding, lower-court record, and appellate jurisdiction before citing precedent?",
       "inquirySteps": [
         "Compare the identified public institutions, original texts and their limitations.",
         "Develop an inquiry question about a specific civic decision, right or policy.",
@@ -851,16 +851,16 @@
         2
       ],
       "conclusions": [
-        "Because a government source states a goal, the goal must already have been achieved equally in every community.",
-        "The the judicial branch unit requires distinguishing source claims from evidence of real-world effects.",
-        "A credible civic argument should identify the governing rule, affected people and evidence that could test its impact."
+        "An appellate court normally hears every witness again and starts a case from the beginning.",
+        "Marbury v. Madison concerns judicial review; courts still require jurisdiction and a properly presented legal controversy.",
+        "Tinker and Brown addressed different school-related constitutional questions and cannot be used interchangeably."
       ],
       "conclusionKey": [
         false,
         true,
         true
       ],
-      "writing": "Evaluate a civic dispute or constitutional question connected to The Judicial Branch. Develop a qualified thesis using at least two relevant documents or authoritative references. Explain which level or branch of government has authority, which rights or public values are at issue, the evidence supporting your interpretation, a counterargument and one significant evidence limitation.",
+      "writing": "Select a properly attributed federal judicial decision and explain the facts, legal question, holding, court level, limitations and why a different case might require different reasoning.",
       "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about The Judicial Branch. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
       "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
       "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
@@ -1017,7 +1017,7 @@
           "answer": 2
         }
       ],
-      "inquiryPrompt": "How should constitutional principles and credible evidence guide decisions about civil rights and liberties?",
+      "inquiryPrompt": "A public school restricts student expression while a state agency denies a benefit without a hearing. How do the First and Fourteenth Amendments frame the distinct issues?",
       "inquirySteps": [
         "Compare the identified public institutions, original texts and their limitations.",
         "Develop an inquiry question about a specific civic decision, right or policy.",
@@ -1029,16 +1029,16 @@
         2
       ],
       "conclusions": [
-        "The civil rights and liberties unit requires distinguishing source claims from evidence of real-world effects.",
-        "A credible civic argument should identify the governing rule, affected people and evidence that could test its impact.",
-        "Because a government source states a goal, the goal must already have been achieved equally in every community."
+        "The First Amendment includes speech and religion protections, but specific disputes depend on the type of government action.",
+        "The Fourteenth Amendment constrains state government through due process and equal protection provisions.",
+        "The text of a rights amendment proves that discriminatory enforcement ended immediately everywhere."
       ],
       "conclusionKey": [
         true,
         true,
         false
       ],
-      "writing": "Evaluate a civic dispute or constitutional question connected to Civil Rights and Liberties. Develop a qualified thesis using at least two relevant documents or authoritative references. Explain which level or branch of government has authority, which rights or public values are at issue, the evidence supporting your interpretation, a counterargument and one significant evidence limitation.",
+      "writing": "Analyze a realistic civil-liberties scenario by specifying the government actor, constitutional clause, applicable case law, a competing lawful interest and facts still needed.",
       "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about Civil Rights and Liberties. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
       "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
       "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
@@ -1195,7 +1195,7 @@
           "answer": 2
         }
       ],
-      "inquiryPrompt": "How should constitutional principles and credible evidence guide decisions about elections and political participation?",
+      "inquiryPrompt": "Residents receive conflicting voting information and see a viral campaign claim. Which official election records and independent data would resolve each question?",
       "inquirySteps": [
         "Compare the identified public institutions, original texts and their limitations.",
         "Develop an inquiry question about a specific civic decision, right or policy.",
@@ -1207,16 +1207,16 @@
         2
       ],
       "conclusions": [
-        "A credible civic argument should identify the governing rule, affected people and evidence that could test its impact.",
-        "Because a government source states a goal, the goal must already have been achieved equally in every community.",
-        "The elections and political participation unit requires distinguishing source claims from evidence of real-world effects."
+        "Official state or local election authorities are the appropriate starting point for current registration and voting procedures.",
+        "A viral election graphic that omits its date and denominator is automatically reliable if widely shared.",
+        "Campaign finance disclosure documents reported spending but not a causal account of every voter's behavior."
       ],
       "conclusionKey": [
         true,
         false,
         true
       ],
-      "writing": "Evaluate a civic dispute or constitutional question connected to Elections and Political Participation. Develop a qualified thesis using at least two relevant documents or authoritative references. Explain which level or branch of government has authority, which rights or public values are at issue, the evidence supporting your interpretation, a counterargument and one significant evidence limitation.",
+      "writing": "Evaluate two dated election or campaign claims. Use a relevant official state election source and a federal campaign-finance or voting-rights record, while avoiding unsupported causal claims.",
       "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about Elections and Political Participation. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
       "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
       "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
@@ -1367,7 +1367,7 @@
           "answer": 2
         }
       ],
-      "inquiryPrompt": "How should constitutional principles and credible evidence guide decisions about state and local government?",
+      "inquiryPrompt": "A Maryland county proposes a road near a school. Who has legal authority, which budget and safety evidence matter, and how can affected residents respond?",
       "inquirySteps": [
         "Compare the identified public institutions, original texts and their limitations.",
         "Develop an inquiry question about a specific civic decision, right or policy.",
@@ -1379,16 +1379,16 @@
         2
       ],
       "conclusions": [
-        "Because a government source states a goal, the goal must already have been achieved equally in every community.",
-        "The state and local government unit requires distinguishing source claims from evidence of real-world effects.",
-        "A credible civic argument should identify the governing rule, affected people and evidence that could test its impact."
+        "Every county policy is automatically valid merely because it has majority support.",
+        "Maryland bills and constitutional amendments follow different procedures, with voter approval required for state constitutional amendments.",
+        "Local public-service decisions should be evaluated using legal authority, budgets, access needs and consequences across communities."
       ],
       "conclusionKey": [
         false,
         true,
         true
       ],
-      "writing": "Evaluate a civic dispute or constitutional question connected to State and Local Government. Develop a qualified thesis using at least two relevant documents or authoritative references. Explain which level or branch of government has authority, which rights or public values are at issue, the evidence supporting your interpretation, a counterargument and one significant evidence limitation.",
+      "writing": "Write a county-policy recommendation using Maryland state and local government records, budget evidence, the correct decision-making authority and the concerns of affected residents.",
       "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about State and Local Government. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
       "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
       "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
@@ -1545,7 +1545,7 @@
           "answer": 2
         }
       ],
-      "inquiryPrompt": "How should constitutional principles and credible evidence guide decisions about public policy and civic action?",
+      "inquiryPrompt": "A community must choose between two costly projects. How can a public proposal identify opportunity cost, equity, implementation authority, and measurable outcomes?",
       "inquirySteps": [
         "Compare the identified public institutions, original texts and their limitations.",
         "Develop an inquiry question about a specific civic decision, right or policy.",
@@ -1557,16 +1557,16 @@
         2
       ],
       "conclusions": [
-        "The public policy and civic action unit requires distinguishing source claims from evidence of real-world effects.",
-        "A credible civic argument should identify the governing rule, affected people and evidence that could test its impact.",
-        "Because a government source states a goal, the goal must already have been achieved equally in every community."
+        "A policy should name the public body responsible and criteria for judging costs, benefits, equity and outcomes.",
+        "A projection about a proposed policy guarantees the future result without any need to test assumptions.",
+        "A student civic-action proposal can be assessed through baseline data, a feasible action and a follow-up measure."
       ],
       "conclusionKey": [
         true,
-        true,
-        false
+        false,
+        true
       ],
-      "writing": "Evaluate a civic dispute or constitutional question connected to Public Policy and Civic Action. Develop a qualified thesis using at least two relevant documents or authoritative references. Explain which level or branch of government has authority, which rights or public values are at issue, the evidence supporting your interpretation, a counterargument and one significant evidence limitation.",
+      "writing": "Develop a feasible student civic-action proposal with a defined local problem, verified public authority, alternatives, projected costs, equity considerations and a measurable follow-up.",
       "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about Public Policy and Civic Action. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
       "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
       "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
