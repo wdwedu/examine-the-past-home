@@ -66,5 +66,5 @@ function render(d){
  result.scrollIntoView({behavior:"smooth",block:"start"});
  });
 }
-fetch(root+"assets/grade10-civics-assessments-data.json?v=20261119-c1").then(function(r){if(!r.ok)throw Error("Data unavailable");return r.json()}).then(function(all){if(!all.units[key])throw Error("Unknown unit "+key);render(all.units[key])}).catch(function(err){console.error(err);page.textContent="Assessment unavailable. Return to the unit and try again."});
+fetch(root+"assets/grade10-civics-assessments-data.json?v=20261123-grade10-audit-v2").then(function(r){if(!r.ok)throw Error("Data unavailable");return r.json()}).then(function(all){if(!all.units[key])throw Error("Unknown unit "+key);render(all.units[key])}).catch(function(err){console.error(err);page.textContent="Assessment unavailable. Return to the unit and try again."});
 })();
