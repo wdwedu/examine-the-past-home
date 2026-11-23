@@ -10,7 +10,7 @@
 | 10 | 31 | 31 | 31 | 31 |
 | 11 | 40 | 40 | 15 | 0 |
 | 12 | 20 | 20 | 1 | 0 |
-| **Total** | **136** | **101** | **63** | **33** |
+| **Total** | **136** | **101** | **53** | **33** |
 
 **CAUTION:** Primary-type collection records count in the column above even where no individual dated record is selected; these are not release-level proof. A link is not a verified claim-level citation. Grade 9 has two additional unit-level fallback video IDs, assigned to units 9.3 and 9.9 in its engine. YouTube identity confirmation is not playback/embedding confirmation.
 
