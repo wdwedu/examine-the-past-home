@@ -1345,12 +1345,12 @@
           "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
         },
         {
-          "title": "United Nations Universal Declaration of Human Rights",
-          "creator": "United",
-          "date": "Reference resource",
-          "type": "Research resource",
+          "title": "Universal Declaration of Human Rights",
+          "creator": "United Nations General Assembly",
+          "date": "December 10, 1948",
+          "type": "Primary",
           "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
-          "summary": "Institutional source or methodological gateway. Select and cite a specific record or dataset before making historical claims."
+          "summary": "Adopted international declaration; compare stated rights with actual legal protections and implementation. It is not itself a binding international treaty."
         },
         {
           "title": "International IDEA · Global State of Democracy Indices",
