@@ -3219,16 +3219,16 @@
       "total": 5,
       "essential": "How did Black Americans resist Jim Crow before nationally famous victories?",
       "paragraphs": [
-        "After Reconstruction, Jim Crow laws and racial terror restricted rights across the South. Black organizations, families, churches, educators, and legal advocates challenged inequality through organizing and litigation. Jim Crow was maintained not just by written segregation laws but by economic pressure, intimidation, and unequal access to institutions. Organizations challenged those patterns long before the best-known national marches. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "The NAACP, founded in 1909, pursued legal challenges and advocacy. The Great Migration also changed political and social opportunities, while discrimination persisted outside the South. Black communities formed strategies through churches, unions, political clubs, schools, and legal groups. An account centered only on national leaders can erase extensive local organizing. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Analyze a segregation law, a Black newspaper account, and a legal challenge. Explain why formal law, enforcement, and community experience must be considered together. Use a local case study to connect a specific law to practical enforcement and organized resistance. Assess what the record reveals and whose experiences remain absent. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "After Reconstruction, laws, threats, economic pressure, and violence sustained racial segregation and disfranchisement in many places. Black Americans resisted through schools, churches, mutual-aid networks, newspapers, labor organizations, and courts. Civil rights activism did not begin in the 1950s; later campaigns built on generations of work.",
+        "The 1896 Supreme Court decision in Plessy v. Ferguson upheld state-imposed segregation in railroad cars under the separate-but-equal doctrine. Justice John Marshall Harlan dissented, warning about constitutional inequality. The decision must be read as a court judgment endorsing discrimination, not as evidence that separated facilities actually provided equal treatment. Black organizers contested segregation before and after that ruling.",
+        "Read portions of the majority opinion and Harlan's dissent. What legal reasoning did the justices offer, and whose experiences did their arguments omit? Place the decision beside a dated Black-authored account or local challenge. Explain how an authoritative court judgment can shape law without establishing that its underlying social assumptions were true."
       ],
-      "activity": "Segregation and the Fight for Equality · Evidence Investigation",
-      "task": "Write a claim about Segregation and the Fight for Equality with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "Segregation and the Fight for Equality · Civil rights evidence investigation",
+      "task": "Explain how segregation was defended by law and challenged by Black communities. Use two attributed original records and name one missing local perspective.",
       "investigation": [
-        "Identify a dated historical document bearing on Segregation and the Fight for Equality. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of Segregation and the Fight for Equality. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about Segregation and the Fight for Equality with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Read the 1896 majority opinion and Harlan dissent. Identify what legal question each addressed and one key difference in constitutional reasoning.",
+        "Choose and identify a dated NAACP primary item from the Library of Congress exhibition. State its author, intended audience, and connection to organized resistance.",
+        "Explain how segregation was defended by law and challenged by Black communities. Use two attributed original records and name one missing local perspective."
       ],
       "options": [
         "1909",
@@ -3245,31 +3245,31 @@
       ],
       "checks": [
         {
-          "prompt": "In what year was the NAACP founded?",
+          "prompt": "What did the Supreme Court uphold in Plessy v. Ferguson (1896)?",
           "options": [
-            "1909",
-            "1968",
-            "1776"
+            "State-imposed racial separation under 'separate but equal'",
+            "A ban on all segregation",
+            "National voting rights for women"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which method would strengthen a historical argument about Segregation and the Fight for Equality?",
+          "prompt": "Who dissented in Plessy, challenging the constitutional logic of segregation?",
           "options": [
-            "Compare two contextualized sources addressing Jim Crow and NAACP.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion about Segregation and the Fight for Equality is most defensible?",
-          "options": [
-            "Only one participant's account can establish all effects of Great Migration.",
-            "Interpret Jim Crow in historical context and weigh competing evidence concerning racial terror.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "Chief Justice Earl Warren",
+            "Justice John Marshall Harlan",
+            "President Harry Truman"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Why would the Plessy opinion not prove that facilities were actually equal?",
+          "options": [
+            "Courts never produce written records",
+            "No laws about segregation existed",
+            "A legal ruling is not the same as a survey of conditions"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -3289,6 +3289,24 @@
         "Civil Rights and the 1950s: Crash Course US History #39",
         "S64zRnnn4Po",
         0
+      ],
+      "references": [
+        {
+          "title": "Plessy v. Ferguson, majority opinion and Harlan dissent",
+          "creator": "Supreme Court of the United States; Justice Henry Billings Brown and Justice John Marshall Harlan",
+          "date": "May 18, 1896",
+          "type": "Primary",
+          "url": "https://www.archives.gov/milestone-documents/plessy-v-ferguson",
+          "summary": "Original court decision and dissent. The majority upheld racial segregation; do not adopt its discriminatory reasoning as fact."
+        },
+        {
+          "title": "NAACP and the Fight for Civil Rights, 1909–1960",
+          "creator": "Library of Congress, NAACP historical exhibition",
+          "date": "Early 20th-century primary objects; modern exhibit",
+          "type": "Primary-source collection in modern exhibition",
+          "url": "https://www.loc.gov/exhibits/naacp/",
+          "summary": "Curated archival exhibition includes original organizational documents; select and cite a specific item for any documentary claim."
+        }
       ]
     },
     "brown-v-board-of-education": {
@@ -3299,16 +3317,16 @@
       "total": 5,
       "essential": "Why was Brown v. Board a turning point yet not an immediate end to segregation?",
       "paragraphs": [
-        "In Brown v. Board of Education (1954), the U.S. Supreme Court ruled that racial segregation in public schools violated the Equal Protection Clause of the Fourteenth Amendment. The decision rejected the constitutional legitimacy of separate public schooling by race. The Brown ruling addressed state-imposed segregation in public schools under the Equal Protection Clause. It overturned the application of 'separate but equal' to public education rather than immediately desegregating every school. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "Resistance and delayed desegregation followed, including conflicts in Little Rock in 1957. The legal victory required implementation and continuing organizing to affect students' daily lives. Brown II in 1955 called for implementation with 'all deliberate speed,' a phrase that became the focus of disputes about delay. In some districts officials resisted fiercely. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Compare the Court's reasoning with local implementation records. Distinguish a constitutional ruling from immediate compliance in every school district. Compare the Court's reasoning with school-board actions and student experiences. Do not equate a legal declaration with the lived reality of integrated classrooms. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "In Brown v. Board of Education, decided on May 17, 1954, the Supreme Court held that state-mandated racial segregation in public education violated the Equal Protection Clause of the Fourteenth Amendment. The Court rejected the idea that separate schools could be considered equal simply because officials described them that way. The case arose from families and lawyers challenging policies that harmed children.",
+        "The decision did not immediately integrate every school. A separate 1955 decision, often called Brown II, addressed how federal courts should oversee desegregation and used language that became associated with delay. In 1957, resistance to integration at Little Rock Central High School led President Eisenhower to issue Executive Order 10730. Legal victory and actual access to schools are different historical questions.",
+        "Compare the 1954 ruling with the 1957 presidential order. Which institution established the constitutional principle, and which took steps to enforce integration amid resistance? Then seek records from students and families, because neither a court's reasoning nor an executive order fully describes a child's first day at an integrated school."
       ],
-      "activity": "Brown v. Board of Education · Evidence Investigation",
-      "task": "Write a claim about Brown v. Board of Education with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "Brown v. Board of Education · Civil rights evidence investigation",
+      "task": "Write a claim about why a legal judgment requires implementation. Cite the ruling and order, and propose a student-authored account that would show the effects on families.",
       "investigation": [
-        "Identify a dated historical document bearing on Brown v. Board of Education. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of Brown v. Board of Education. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about Brown v. Board of Education with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Examine Brown's 1954 majority opinion and identify the constitutional amendment and educational practice at issue.",
+        "Read Eisenhower's September 1957 executive order. Explain the immediate implementation problem that called for federal action.",
+        "Write a claim about why a legal judgment requires implementation. Cite the ruling and order, and propose a student-authored account that would show the effects on families."
       ],
       "options": [
         "1964",
@@ -3325,31 +3343,31 @@
       ],
       "checks": [
         {
-          "prompt": "In which year was Brown v. Board of Education decided?",
+          "prompt": "Which constitutional protection was central to Brown v. Board of Education?",
           "options": [
-            "1964",
-            "1954",
-            "1896"
-          ],
-          "answer": 1
-        },
-        {
-          "prompt": "Which method would strengthen a historical argument about Brown v. Board of Education?",
-          "options": [
-            "Compare two contextualized sources addressing Brown v. Board and equal protection.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
+            "The Equal Protection Clause of the Fourteenth Amendment",
+            "The Eighteenth Amendment's Prohibition clause",
+            "The presidential veto"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion about Brown v. Board of Education is most defensible?",
+          "prompt": "Why is Executive Order 10730 relevant to Brown's legacy?",
           "options": [
-            "Only one participant's account can establish all effects of desegregation.",
-            "Interpret Brown v. Board in historical context and weigh competing evidence concerning implementation.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "It reversed Brown's ruling",
+            "It directed federal intervention during the Little Rock integration crisis",
+            "It created the NAACP"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What cannot be inferred from the 1954 opinion alone?",
+          "options": [
+            "The Court ruled in 1954",
+            "The ruling concerned public education",
+            "Every school desegregated immediately and without resistance"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -3367,12 +3385,20 @@
       "investigationKind": "data",
       "references": [
         {
-          "title": "Brown v. Board of Education, Supreme Court Opinion",
-          "creator": "United States Supreme Court",
+          "title": "Brown v. Board of Education, opinion",
+          "creator": "Supreme Court of the United States; Chief Justice Earl Warren",
           "date": "May 17, 1954",
           "type": "Primary",
           "url": "https://www.archives.gov/milestone-documents/brown-v-board-of-education",
-          "summary": "Use the majority opinion to analyze why the Court rejected segregated public schooling, distinguishing the decision from its implementation."
+          "summary": "Unanimous constitutional ruling on state-required public school segregation; not proof every district immediately complied."
+        },
+        {
+          "title": "Executive Order 10730, Desegregation of Central High School",
+          "creator": "President Dwight D. Eisenhower",
+          "date": "September 23, 1957",
+          "type": "Primary",
+          "url": "https://www.archives.gov/milestone-documents/executive-order-10730",
+          "summary": "Federal action in the Little Rock integration crisis; compare enforcement action with the prior court ruling."
         }
       ]
     },
@@ -3384,16 +3410,16 @@
       "total": 5,
       "essential": "How did organized nonviolent action produce political pressure?",
       "paragraphs": [
-        "Martin Luther King Jr. and many local activists organized boycotts, marches, and campaigns to confront segregation. The Montgomery bus boycott of 1955–1956 depended on sustained participation by Black residents and organizers including women whose work is sometimes overlooked. Montgomery's boycott drew on local networks, fundraising, transportation alternatives, and sustained commitment. Rosa Parks and other women activists were part of a much wider organizing history. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "The Birmingham campaign of 1963 and March on Washington helped focus national attention on civil rights. Nonviolence was a disciplined strategy involving training, economic pressure, moral argument, and risk, not merely absence of physical retaliation. Nonviolent direct action exposed injustice by creating public moral and political confrontation. Its effectiveness depended partly on institutions, media, local participation, and willingness to bear serious risks. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Compare a campaign plan, local participant testimony, and a government response. Explain how mass participation and political conditions affected outcomes. Analyze a campaign's stated goals, strategic actions, public response, and later policy changes. Avoid claiming that a single speech or figure accomplished the movement alone. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "The Montgomery bus boycott of 1955–1956 depended on sustained work by Black residents, including organizers who built transportation systems, raised money, and maintained public participation. Rosa Parks's arrest became a major catalyst, but she was already an experienced activist. Martin Luther King Jr. emerged as a national leader in a movement that had many local organizers, women, churches, and other institutions.",
+        "Nonviolent direct action was not passive. Activists deliberately challenged unjust policies through boycotts, marches, sit-ins, and public witness, often despite threats and arrests. In his April 1963 Letter from Birmingham Jail, King responded to criticism of demonstrations and explained the reasoning behind direct action. His letter is an argument to a specific audience and must be read with the Birmingham campaign's context.",
+        "Compare Rosa Parks's 1955 arrest record with King's 1963 letter. These sources differ sharply: one is a government record of an arrest, the other a participant's explanation of strategy. What can each establish about the movement? Include the organizing work and risk that the arrest record does not reveal. The story should not end with a single famous speech."
       ],
-      "activity": "Martin Luther King Jr. and Nonviolent Resistance · Evidence Investigation",
-      "task": "Write a claim about Martin Luther King Jr. and Nonviolent Resistance with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "Martin Luther King Jr. and Nonviolent Resistance · Civil rights evidence investigation",
+      "task": "Explain how law enforcement documentation and activist writing reveal different sides of nonviolent resistance. Name a local organizer or record you would add.",
       "investigation": [
-        "Identify a dated historical document bearing on Martin Luther King Jr. and Nonviolent Resistance. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of Martin Luther King Jr. and Nonviolent Resistance. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about Martin Luther King Jr. and Nonviolent Resistance with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Examine the 1955 Rosa Parks arrest record. State who created it and what it reveals or omits about her motives and prior organizing.",
+        "Read an educator-selected passage from King's April 1963 Birmingham letter, identifying whom he addressed and why.",
+        "Explain how law enforcement documentation and activist writing reveal different sides of nonviolent resistance. Name a local organizer or record you would add."
       ],
       "options": [
         "Boston, Massachusetts",
@@ -3410,31 +3436,31 @@
       ],
       "checks": [
         {
-          "prompt": "In which city did the 1955–1956 bus boycott occur?",
+          "prompt": "What event helped initiate the Montgomery bus boycott in December 1955?",
           "options": [
-            "Boston, Massachusetts",
-            "Seattle, Washington",
-            "Montgomery, Alabama"
-          ],
-          "answer": 2
-        },
-        {
-          "prompt": "Which method would strengthen a historical argument about Martin Luther King Jr. and Nonviolent Resistance?",
-          "options": [
-            "Compare two contextualized sources addressing boycott and civil disobedience.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
+            "The arrest of Rosa Parks",
+            "The signing of the 1964 Civil Rights Act",
+            "The Little Rock integration order"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion about Martin Luther King Jr. and Nonviolent Resistance is most defensible?",
+          "prompt": "Which source best conveys King's own reasoning for direct action in Birmingham?",
           "options": [
-            "Only one participant's account can establish all effects of Birmingham campaign.",
-            "Interpret boycott in historical context and weigh competing evidence concerning nonviolence.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "A 1955 Montgomery police arrest form",
+            "His April 1963 Letter from Birmingham Jail",
+            "A 1954 Supreme Court opinion"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What is misleading about crediting the entire boycott to one leader?",
+          "options": [
+            "The boycott had no political aims",
+            "No one traveled during the boycott",
+            "It ignores the many residents and organizers who sustained the campaign"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -3449,7 +3475,25 @@
           "Compare a campaign plan, local participant testimony, and a government response. Explain how mass participation and political conditions affected outcomes."
         ]
       },
-      "investigationKind": "map"
+      "investigationKind": "map",
+      "references": [
+        {
+          "title": "Police Report on the Arrest of Rosa Parks",
+          "creator": "Montgomery law enforcement authorities; preserved by National Archives",
+          "date": "December 1, 1955",
+          "type": "Primary",
+          "url": "https://docsteach.org/document/police-report-on-arrest-of-rosa-parks/",
+          "summary": "Original enforcement record; documents an arrest but does not explain Parks's full activism or the boycott's organization."
+        },
+        {
+          "title": "Letter from Birmingham Jail",
+          "creator": "Martin Luther King Jr.",
+          "date": "April 16, 1963",
+          "type": "Primary",
+          "url": "https://kinginstitute.stanford.edu/letter-birmingham-jail",
+          "summary": "King's own argument for civil disobedience and direct action. Stanford provides scholarly context; quote or reproduce only within applicable permissions."
+        }
+      ]
     },
     "malcolm-x-and-competing-strategies": {
       "title": "Malcolm X and Competing Strategies",
@@ -3459,16 +3503,16 @@
       "total": 5,
       "essential": "How did Malcolm X's evolving ideas broaden debates about civil rights and Black freedom?",
       "paragraphs": [
-        "Malcolm X criticized white supremacy and called for Black dignity, self-determination, and human rights. His public positions changed over time, especially after leaving the Nation of Islam and traveling internationally in 1964. Malcolm X's positions changed significantly after his break with the Nation of Islam. His international travel contributed to his emphasis on human rights and solidarity beyond U.S. borders. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "Civil rights leaders held diverse strategies and goals, and simple 'King versus Malcolm' comparisons obscure changes in their positions and the wider organizing landscape. Malcolm X was assassinated in 1965. Comparisons with King often freeze both men at a single moment and overlook the range of activists, organizations, and strategies involved in Black freedom struggles. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Read statements from different dates to trace change, identifying audience and context. Avoid assigning one fixed slogan to an entire intellectual life. Read statements from more than one date and identify the audience, purpose, and historical setting. Explain an evolution rather than reducing a political thinker to one quotation. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "Malcolm X called for Black dignity, political power, self-determination, and protection from racist violence. His ideas changed over time. He broke with the Nation of Islam in 1964, made pilgrimages and international journeys, and increasingly discussed civil rights in a global human-rights framework. Describing him only through a single slogan leaves out the development of his thinking.",
+        "In his 1964 speech The Ballot or the Bullet, Malcolm urged Black Americans to recognize the power of political participation while sharply criticizing continued denial of rights. The speech's confrontational language must be interpreted in the political circumstances and audience of 1964, not treated as evidence that he opposed voting. King and Malcolm X were not the only two leaders, and their strategies cannot be reduced to permanent opposites.",
+        "Examine Malcolm X's surviving 1964 notes and a published speech text. Identify what a working note can tell us about a speaker's preparation and what a later transcript can tell us about public rhetoric. Compare his positions over time rather than treating one quotation as his settled view. Invite students to distinguish voting rights, self-defense, nonviolent direct action, and international human-rights advocacy as different questions."
       ],
-      "activity": "Malcolm X and Competing Strategies · Evidence Investigation",
-      "task": "Write a claim about Malcolm X and Competing Strategies with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "Malcolm X and Competing Strategies · Civil rights evidence investigation",
+      "task": "Write a comparison explaining how Malcolm X's strategies and framing could change, noting the sources' dates, formats, audiences, and a question a later 1964 source might answer.",
       "investigation": [
-        "Identify a dated historical document bearing on Malcolm X and Competing Strategies. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of Malcolm X and Competing Strategies. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about Malcolm X and Competing Strategies with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Examine the New York Public Library's 1964 notes and identify the evidence that they are preparation material rather than a recording of the full speech.",
+        "Read a short attributed passage of the Ballot or the Bullet speech and identify its appeal about voting and political power.",
+        "Write a comparison explaining how Malcolm X's strategies and framing could change, noting the sources' dates, formats, audiences, and a question a later 1964 source might answer."
       ],
       "options": [
         "1965",
@@ -3485,31 +3529,31 @@
       ],
       "checks": [
         {
-          "prompt": "In what year was Malcolm X assassinated?",
+          "prompt": "In The Ballot or the Bullet, which form of political power did Malcolm X urge Black Americans to consider?",
           "options": [
-            "1965",
-            "1978",
-            "1954"
+            "The vote and political participation",
+            "A return to slavery",
+            "Ending every Black political organization"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which method would strengthen a historical argument about Malcolm X and Competing Strategies?",
+          "prompt": "What distinguishes the NYPL record from the modern published speech text?",
           "options": [
-            "Compare two contextualized sources addressing self-determination and human rights.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion about Malcolm X and Competing Strategies is most defensible?",
-          "options": [
-            "Only one participant's account can establish all effects of Nation of Islam.",
-            "Interpret self-determination in historical context and weigh competing evidence concerning political evolution.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "It is a Supreme Court ruling",
+            "It contains Malcolm X's original speech notes",
+            "It was issued by the U.S. Senate"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Why is a fixed 'King versus Malcolm' contrast academically weak?",
+          "options": [
+            "Their methods were identical at every point",
+            "Neither was involved in civil rights debates",
+            "Both thinkers evolved and many other organizers and strategies mattered"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -3524,7 +3568,25 @@
           "Read statements from different dates to trace change, identifying audience and context. Avoid assigning one fixed slogan to an entire intellectual life."
         ]
       },
-      "investigationKind": "debate"
+      "investigationKind": "debate",
+      "references": [
+        {
+          "title": "The Ballot or the Bullet (notes)",
+          "creator": "Malcolm X",
+          "date": "April 1964",
+          "type": "Primary",
+          "url": "https://old-digitalcollections.nypl.org/items/7e7481f0-37e2-0134-a1da-00505686a51c",
+          "summary": "New York Public Library cataloged original working notes; distinguish handwritten/prepared notes from any verbatim spoken transcript."
+        },
+        {
+          "title": "The Ballot or the Bullet (1964 speech text)",
+          "creator": "Malcolm X; National Constitution Center presentation",
+          "date": "April 3, 1964 speech; modern transcription",
+          "type": "Primary speech via curated transcript",
+          "url": "https://constitutioncenter.org/the-constitution/historic-document-library/detail/the-ballot-or-the-bullet-1964",
+          "summary": "Attributed presentation of Malcolm X's speech. Compare language and editorial context with original NYPL notes; avoid reproducing lengthy copyrighted text."
+        }
+      ]
     },
     "the-civil-rights-movement-s-lasting-impact": {
       "title": "The Civil Rights Movement's Lasting Impact",
@@ -3534,16 +3596,16 @@
       "total": 5,
       "essential": "What did major civil rights laws accomplish, and which struggles continued?",
       "paragraphs": [
-        "The Civil Rights Act of 1964 prohibited specified forms of discrimination, while the Voting Rights Act of 1965 addressed racial barriers to voting. Grassroots organizers, lawyers, local communities, and national coalitions helped secure these changes. Civil rights legislation emerged from sustained pressure by local organizers, litigators, religious institutions, and national coalitions. Passage and enforcement involved political bargaining and continued challenges. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "Legal change did not end economic inequality, residential segregation, or disputes over enforcement. Later movements broadened claims concerning gender, disability, immigration, and other rights. Voting access, education, housing, and economic opportunity changed in different ways and at different rates. A single law could establish crucial legal protection without eliminating structural inequality. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Compare a law's text with a relevant measure of implementation. Evaluate progress without assuming the same outcomes for every community. Use a legal milestone, local implementation evidence, and a longer-term indicator. A strong historical argument distinguishes immediate victory from enduring consequences. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "The Civil Rights Act of 1964 and Voting Rights Act of 1965 were major legal achievements of sustained activism, litigation, journalism, community organizing, and political struggle. The 1964 law addressed discriminatory practices in several settings, including public accommodations and employment. The 1965 law targeted racial discrimination in voting, including literacy tests and mechanisms for federal enforcement.",
+        "It is inaccurate to say the civil rights movement ended when Congress passed these laws. How schools, employers, registrars, and courts implemented legal changes varied. Organizers continued to confront housing inequality, economic exclusion, discrimination, and threats to voting rights. A statute tells us what the federal government required; it cannot by itself tell us whether a particular county followed the law.",
+        "Put the two acts side by side. Find the relevant titles and sections, note the different practices they addressed, and propose what government or community records could test enforcement. A persuasive conclusion can recognize major legal change without pretending that rights automatically became equally accessible to everyone after 1965."
       ],
-      "activity": "The Civil Rights Movement's Lasting Impact · Evidence Investigation",
-      "task": "Write a claim about The Civil Rights Movement's Lasting Impact with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "The Civil Rights Movement's Lasting Impact · Civil rights evidence investigation",
+      "task": "Compare the two statutes and develop an evidence-based claim about legal change versus implementation. Identify dated local registration or employment data needed to measure results.",
       "investigation": [
-        "Identify a dated historical document bearing on The Civil Rights Movement's Lasting Impact. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of The Civil Rights Movement's Lasting Impact. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about The Civil Rights Movement's Lasting Impact with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Read the Civil Rights Act of 1964 and identify the protection in one specific title; do not say it and the Voting Rights Act contain identical provisions.",
+        "Read the Voting Rights Act of 1965 and identify a discriminatory practice or enforcement mechanism it addressed.",
+        "Compare the two statutes and develop an evidence-based claim about legal change versus implementation. Identify dated local registration or employment data needed to measure results."
       ],
       "options": [
         "Sherman Antitrust Act",
@@ -3560,31 +3622,31 @@
       ],
       "checks": [
         {
-          "prompt": "Which federal law of 1965 addressed discriminatory barriers to voting?",
+          "prompt": "Which 1964 law addressed discrimination in public accommodations and employment?",
           "options": [
-            "Sherman Antitrust Act",
-            "Voting Rights Act",
-            "Homestead Act"
-          ],
-          "answer": 1
-        },
-        {
-          "prompt": "Which method would strengthen a historical argument about The Civil Rights Movement's Lasting Impact?",
-          "options": [
-            "Compare two contextualized sources addressing Civil Rights Act 1964 and Voting Rights Act 1965.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
+            "The Civil Rights Act of 1964",
+            "The Sherman Antitrust Act",
+            "The Social Security Act"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion about The Civil Rights Movement's Lasting Impact is most defensible?",
+          "prompt": "What central problem did the Voting Rights Act of 1965 address?",
           "options": [
-            "Only one participant's account can establish all effects of grassroots organizing.",
-            "Interpret Civil Rights Act 1964 in historical context and weigh competing evidence concerning enforcement.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "U.S. annexation of overseas islands",
+            "Racially discriminatory barriers to voting",
+            "The legality of Prohibition"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What evidence is needed to judge enforcement after the laws passed?",
+          "options": [
+            "Only the wording of the laws",
+            "Only an undated campaign poster",
+            "Local records and experiences showing actual compliance or resistance"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -3607,7 +3669,15 @@
           "date": "July 2, 1964",
           "type": "Primary",
           "url": "https://www.archives.gov/milestone-documents/civil-rights-act",
-          "summary": "Identify specific legal protections and distinguish the statutory text from evidence about enforcement or later outcomes."
+          "summary": "Federal law addressing discrimination in public accommodations, employment and other areas. Do not conflate all its titles with the later Voting Rights Act."
+        },
+        {
+          "title": "Voting Rights Act of 1965",
+          "creator": "United States Congress",
+          "date": "August 6, 1965",
+          "type": "Primary",
+          "url": "https://www.archives.gov/milestone-documents/voting-rights-act",
+          "summary": "Statute targeted racial restrictions in voting and instituted important federal enforcement powers; passage is not sufficient proof of local compliance."
         }
       ]
     },
