@@ -147,9 +147,9 @@
       ],
       "inquiryPrompt": "When a majority supports a policy but a minority claims it violates rights, how can the Declaration, Constitution, and a contemporary excluded voice help us distinguish ideals, authority, and lived experience?",
       "inquirySteps": [
-        "Compare the identified public institutions, original texts and their limitations.",
-        "Develop an inquiry question about a specific civic decision, right or policy.",
-        "Defend a qualified conclusion using evidence, limits and a possible counterargument."
+        "Compare Locke's account of political consent with the Declaration's claim about government by consent.",
+        "Identify an excluded population or a contemporary critique, such as Abigail Adams's 1776 correspondence, and state which claims the provided packet does not document directly.",
+        "Reach a qualified conclusion distinguishing founding ideals, constitutional institutions and actual political participation."
       ],
       "inquiryAnswers": [
         1,
@@ -168,9 +168,9 @@
       ],
       "writing": "Compare the Declaration's consent principle with the actual government designed by the Constitution and an excluded contemporary perspective. Explain what the documents say, what rights they do not establish, and why that distinction matters.",
       "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about Foundations of Democracy. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
-      "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
+      "standards": "Maryland American Government framework: unit-level inquiry and civics skills. Exact edition, indicators and alignment require separate verification.",
       "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
-      "sourceAudit": "Three linked original constitutional/legal records or official interpretive resources. Source summaries are educational paraphrases and do not substitute for document excerpts.",
+      "sourceAudit": "Three attributed linked records or official resources, with primary, secondary and collection status labeled per document. These are instructional summaries, not verified verbatim excerpts. Exact standards indicators and historical/legal quotations require source-level editorial confirmation. Unit 10.1 packet has the Declaration and Constitution as primary texts, plus the Maryland framework as secondary curricular context; Locke and Abigail Adams are referenced in the corresponding lessons.",
       "sampleAnswer": "Democratic government rests on claims about legitimate authority, rights and public consent. The Declaration of Independence advanced an argument for independence by connecting political authority to consent and naming grievances against British rule. The later Constitution created an institutional system for federal government. These documents were related, but they performed different functions.\n\nThe Declaration (1776) states a political theory of rights and the justification for separation. The Constitution (1787) establishes government institutions and limits their authority through written procedures. The documents show that declaring a principle and creating a workable government are different steps.\n\nA counterargument might say the founding documents immediately established political equality because they used expansive language about the people. That overlooks legal exclusions facing enslaved people, many women and Indigenous nations. The source texts reveal claims and structures, not the full experience of every person in the founding era.\n\nTherefore, the founders' language shaped an enduring civic argument, but the distance between ideals and implementation must be investigated through laws, political participation records and the accounts of excluded communities. A responsible judgment recognizes both the documents' influence and their historical limits."
     },
     "10.2": {
@@ -325,9 +325,9 @@
       ],
       "inquiryPrompt": "A proposal changes the written Constitution while another only changes the application of an existing clause. Which institutions and procedures distinguish those paths?",
       "inquirySteps": [
-        "Compare the identified public institutions, original texts and their limitations.",
-        "Develop an inquiry question about a specific civic decision, right or policy.",
-        "Defend a qualified conclusion using evidence, limits and a possible counterargument."
+        "Identify a concrete constitutional provision for legislative, executive and judicial powers in Articles I–III.",
+        "Use Federalist No. 51 to compare an advocate's reasoning with the adopted constitutional rules; include the amendment process if textual change is proposed.",
+        "Explain how the relevant check, federal-state division or amendment route would operate in the chosen case."
       ],
       "inquiryAnswers": [
         1,
@@ -346,9 +346,9 @@
       ],
       "writing": "Evaluate a constitutional dispute using Article I, Article V, and a dated ratification-era source. Identify what changes through an amendment rather than judicial interpretation or an ordinary statute.",
       "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about The Constitution. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
-      "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
+      "standards": "Maryland American Government framework: unit-level inquiry and civics skills. Exact edition, indicators and alignment require separate verification.",
       "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
-      "sourceAudit": "Three linked original constitutional/legal records or official interpretive resources. Source summaries are educational paraphrases and do not substitute for document excerpts.",
+      "sourceAudit": "Three attributed linked records or official resources, with primary, secondary and collection status labeled per document. These are instructional summaries, not verified verbatim excerpts. Exact standards indicators and historical/legal quotations require source-level editorial confirmation.",
       "sampleAnswer": "The Constitution attempts to limit concentrated power by distributing responsibilities among institutions and levels of government. Article I gives Congress legislative power, Article II assigns executive power and Article III establishes a federal judicial branch. Federalism adds a distinct division between national and state authority.\n\nFederalist No. 51 is a persuasive ratification-era argument for institutional checks, not a neutral measurement of how the new system would work. Its argument should be compared with the actual text of the Constitution, including vetoes, appointments and the relationship between federal and state powers.\n\nA critic could argue that such divisions delay decisions even when a proposal is popular. Delay is a real possible cost, but the design also aims to make important actions answerable to several institutions. The Bill of Rights later specified constraints that popular majorities also must respect.\n\nThe more defensible conclusion is that the constitutional structure creates mechanisms for accountability rather than guaranteeing perfect balance. A student should examine a specific conflict, identify each actor's legal power and evaluate how the checks operated in practice."
     },
     "10.3": {
@@ -497,9 +497,9 @@
       ],
       "inquiryPrompt": "A proposed federal school-safety bill passes one chamber and a committee alleges agency misconduct. What separate steps turn the bill into law and verify the oversight claim?",
       "inquirySteps": [
-        "Compare the identified public institutions, original texts and their limitations.",
-        "Develop an inquiry question about a specific civic decision, right or policy.",
-        "Defend a qualified conclusion using evidence, limits and a possible counterargument."
+        "Trace a federal bill through committee consideration and explain what the committee has and has not approved.",
+        "Locate the bicameral and presentment steps in Article I, Section 7, using the House procedural guide.",
+        "Evaluate an oversight claim separately from whether the proposal became an enacted statute."
       ],
       "inquiryAnswers": [
         1,
@@ -518,9 +518,9 @@
       ],
       "writing": "Prepare a memorandum distinguishing a committee hearing, passage of a bill by one chamber, bicameral agreement, and enactment. Cite Article I and an official congressional procedural source.",
       "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about The Legislative Branch. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
-      "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
+      "standards": "Maryland American Government framework: unit-level inquiry and civics skills. Exact edition, indicators and alignment require separate verification.",
       "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
-      "sourceAudit": "Three linked original constitutional/legal records or official interpretive resources. Source summaries are educational paraphrases and do not substitute for document excerpts.",
+      "sourceAudit": "Three attributed linked records or official resources, with primary, secondary and collection status labeled per document. These are instructional summaries, not verified verbatim excerpts. Exact standards indicators and historical/legal quotations require source-level editorial confirmation.",
       "sampleAnswer": "Congress makes federal law through a bicameral process involving both the House of Representatives and the Senate. Article I establishes the legislative branch, while the House's official process guide explains how committees, chamber votes and presentation to the president operate.\n\nA proposed transportation bill might receive hearings and amendment in a committee, but a committee vote alone cannot enact it. Both chambers must generally approve identical text before the constitutional presidential stage. If the president vetoes, Congress may attempt to override by the required two-thirds vote in each chamber.\n\nOne might argue that committees hold so much influence that the full legislature is only ceremonial. Committees do affect which proposals advance, but their role does not erase the distinct constitutional stages. Official bill histories provide a way to examine how a real proposal changed.\n\nCongressional oversight is another responsibility. Hearings may identify agency problems, but testimony is not a judicial verdict. A sound civic judgment compares allegations with records and affected perspectives before recommending legislative or administrative action."
     },
     "10.4": {
@@ -669,9 +669,9 @@
       ],
       "inquiryPrompt": "A president directs a federal agency to change a regulation. Which source of legal authority, publication stage, and checks determine whether the action is valid?",
       "inquirySteps": [
-        "Compare the identified public institutions, original texts and their limitations.",
-        "Develop an inquiry question about a specific civic decision, right or policy.",
-        "Defend a qualified conclusion using evidence, limits and a possible counterargument."
+        "Identify the presidential power or legal delegation claimed for a specific executive action.",
+        "Read a dated executive-order or regulatory record and classify its status; do not treat a proposed rule as final.",
+        "Decide what Congress, the courts or affected members of the public could review, challenge or measure."
       ],
       "inquiryAnswers": [
         1,
@@ -690,9 +690,9 @@
       ],
       "writing": "Evaluate a hypothetical executive directive and agency rule. Identify statutory authorization, rulemaking status, potential congressional checks and judicial review without claiming the president can legislate alone.",
       "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about The Executive Branch. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
-      "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
+      "standards": "Maryland American Government framework: unit-level inquiry and civics skills. Exact edition, indicators and alignment require separate verification.",
       "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
-      "sourceAudit": "Three linked original constitutional/legal records or official interpretive resources. Source summaries are educational paraphrases and do not substitute for document excerpts.",
+      "sourceAudit": "Three attributed linked records or official resources, with primary, secondary and collection status labeled per document. These are instructional summaries, not verified verbatim excerpts. Exact standards indicators and historical/legal quotations require source-level editorial confirmation.",
       "sampleAnswer": "The president directs the executive branch, but executive power has constitutional and legal limits. Article II identifies the presidency's executive responsibilities; Congress has distinct authority to enact statutes and appropriate federal funds. An executive order may instruct agencies under existing authority, but it is not automatically a substitute for a law passed by Congress.\n\nThe Federal Register provides the dated text of executive orders. A student studying a disputed order should examine its stated constitutional or statutory basis, the agencies it directs and whether an existing statute authorizes the action. USAGov can help identify the department responsible for implementing a program.\n\nSupporters of a particular executive action may argue that rapid decisions are necessary. Speed can matter in administration, but urgency does not suspend constitutional boundaries. Courts may review a contested legal action when an appropriate case is brought, and Congress can examine or change the underlying statute.\n\nThe strongest recommendation therefore distinguishes political priorities from lawful powers. Government effectiveness should be evaluated using the exact directive, its legal authority, appropriations and evidence of its effects, not simply the public announcement."
     },
     "10.5": {
@@ -841,9 +841,9 @@
       ],
       "inquiryPrompt": "Two court cases involve public schools but different rights and facts. How should students trace the holding, lower-court record, and appellate jurisdiction before citing precedent?",
       "inquirySteps": [
-        "Compare the identified public institutions, original texts and their limitations.",
-        "Develop an inquiry question about a specific civic decision, right or policy.",
-        "Defend a qualified conclusion using evidence, limits and a possible counterargument."
+        "Read the facts and jurisdiction of a selected court case before interpreting the ruling.",
+        "Use Marbury or another named opinion to distinguish what the court held from broad statements about judges.",
+        "Apply the holding to the scenario, identifying any factual difference that might limit the analogy."
       ],
       "inquiryAnswers": [
         1,
@@ -862,9 +862,9 @@
       ],
       "writing": "Select a properly attributed federal judicial decision and explain the facts, legal question, holding, court level, limitations and why a different case might require different reasoning.",
       "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about The Judicial Branch. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
-      "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
+      "standards": "Maryland American Government framework: unit-level inquiry and civics skills. Exact edition, indicators and alignment require separate verification.",
       "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
-      "sourceAudit": "Three linked original constitutional/legal records or official interpretive resources. Source summaries are educational paraphrases and do not substitute for document excerpts.",
+      "sourceAudit": "Three attributed linked records or official resources, with primary, secondary and collection status labeled per document. These are instructional summaries, not verified verbatim excerpts. Exact standards indicators and historical/legal quotations require source-level editorial confirmation.",
       "sampleAnswer": "Federal courts resolve cases under the Constitution and laws within their jurisdiction. Article III establishes the Supreme Court; Congress also created lower federal courts. Trial and appellate courts perform different roles, and judicial review addresses whether government action conflicts with higher law.\n\nMarbury v. Madison (1803) is important to the history of judicial review, but the opinion arose from a particular dispute. A student should identify the actual issue decided rather than conclude judges may rewrite constitutional text whenever they disagree with an elected official.\n\nBrown v. Board of Education (1954) addressed state-imposed racial segregation in public schools. Tinker v. Des Moines (1969) addressed student political expression at school. Both are landmark decisions, yet their facts, rights and legal standards differ and should not be treated as interchangeable.\n\nA critic may worry that judicial review gives unelected judges substantial authority. That concern can be evaluated against the constitutional design, legal reasoning, precedents and constraints of jurisdiction. A sound case brief separates the legal holding from its later social effects."
     },
     "10.6": {
@@ -1019,9 +1019,9 @@
       ],
       "inquiryPrompt": "A public school restricts student expression while a state agency denies a benefit without a hearing. How do the First and Fourteenth Amendments frame the distinct issues?",
       "inquirySteps": [
-        "Compare the identified public institutions, original texts and their limitations.",
-        "Develop an inquiry question about a specific civic decision, right or policy.",
-        "Defend a qualified conclusion using evidence, limits and a possible counterargument."
+        "Identify which government action raises speech, religion, due-process or equal-protection questions.",
+        "Use the relevant amendment and Tinker or another controlling case without assuming every right uses the same legal standard.",
+        "Explain one likely protected interest and one factual/legal limitation requiring further research."
       ],
       "inquiryAnswers": [
         1,
@@ -1040,9 +1040,9 @@
       ],
       "writing": "Analyze a realistic civil-liberties scenario by specifying the government actor, constitutional clause, applicable case law, a competing lawful interest and facts still needed.",
       "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about Civil Rights and Liberties. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
-      "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
+      "standards": "Maryland American Government framework: unit-level inquiry and civics skills. Exact edition, indicators and alignment require separate verification.",
       "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
-      "sourceAudit": "Three linked original constitutional/legal records or official interpretive resources. Source summaries are educational paraphrases and do not substitute for document excerpts.",
+      "sourceAudit": "Three attributed linked records or official resources, with primary, secondary and collection status labeled per document. These are instructional summaries, not verified verbatim excerpts. Exact standards indicators and historical/legal quotations require source-level editorial confirmation.",
       "sampleAnswer": "Constitutional liberties and civil rights create limits on government action and rules for equal treatment. The Bill of Rights contains protections for speech, religion and legal process. The Fourteenth Amendment added important constraints on state government, including due process and equal protection.\n\nImagine a public-school student disciplined for peaceful political expression. Tinker v. Des Moines is relevant because it addressed student speech in a public-school setting. The case's facts and legal standard matter; it does not mean every kind of student expression is immune from all school rules.\n\nA critic might argue that order and safety require administrators to restrict some conduct. Government does have legitimate responsibilities, but restrictions need to be analyzed under the appropriate law and circumstances. The same careful reasoning applies to procedural fairness and government classifications under the Fourteenth Amendment.\n\nTherefore, a civic argument should not merely invoke the word freedom. It should identify who acted, what constitutional right is implicated, which rule applies, and what evidence would establish a violation or justified limitation. The model is reasoned legal analysis, not an automatic verdict."
     },
     "10.7": {
@@ -1197,9 +1197,9 @@
       ],
       "inquiryPrompt": "Residents receive conflicting voting information and see a viral campaign claim. Which official election records and independent data would resolve each question?",
       "inquirySteps": [
-        "Compare the identified public institutions, original texts and their limitations.",
-        "Develop an inquiry question about a specific civic decision, right or policy.",
-        "Defend a qualified conclusion using evidence, limits and a possible counterargument."
+        "Consult the Twelfth Amendment for Electoral College rules and the responsible state election authority for current procedures.",
+        "Use a Federal Election Commission record or Voting Rights Act provision to test a distinct campaign or voting-rights claim.",
+        "Explain why a dated official record is stronger evidence than an unattributed post, without overstating what the record proves."
       ],
       "inquiryAnswers": [
         1,
@@ -1218,9 +1218,9 @@
       ],
       "writing": "Evaluate two dated election or campaign claims. Use a relevant official state election source and a federal campaign-finance or voting-rights record, while avoiding unsupported causal claims.",
       "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about Elections and Political Participation. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
-      "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
+      "standards": "Maryland American Government framework: unit-level inquiry and civics skills. Exact edition, indicators and alignment require separate verification.",
       "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
-      "sourceAudit": "Three linked original constitutional/legal records or official interpretive resources. Source summaries are educational paraphrases and do not substitute for document excerpts.",
+      "sourceAudit": "Three attributed linked records or official resources, with primary, secondary and collection status labeled per document. These are instructional summaries, not verified verbatim excerpts. Exact standards indicators and historical/legal quotations require source-level editorial confirmation.",
       "sampleAnswer": "American elections involve legal rules, institutions and active participation. The Constitution and amendments structure presidential selection, while states administer many election procedures subject to federal protections. The Voting Rights Act (1965) responded to discriminatory restrictions on voting.\n\nFederal Election Commission disclosures can help investigate campaign financing, but a donation record alone does not prove that a particular official changed a vote in exchange. A source-based evaluation requires dated financial records, public statements, legislative actions and independently verifiable evidence.\n\nA student may argue that free expression permits candidates and groups to advocate strongly for their positions. That is an important constitutional value. Equally important is examining claims accurately, checking voting rules with official election authorities, and separating data from campaign predictions.\n\nA strong civic participation plan can remain nonpartisan: find the accurate procedure, understand the issue, consider competing perspectives and choose a lawful participation method. Student achievement should be measured by civic reasoning and source quality, not by which candidate or party a student prefers."
     },
     "10.8": {
@@ -1369,9 +1369,9 @@
       ],
       "inquiryPrompt": "A Maryland county proposes a road near a school. Who has legal authority, which budget and safety evidence matter, and how can affected residents respond?",
       "inquirySteps": [
-        "Compare the identified public institutions, original texts and their limitations.",
-        "Develop an inquiry question about a specific civic decision, right or policy.",
-        "Defend a qualified conclusion using evidence, limits and a possible counterargument."
+        "Use the Maryland Constitution or legislative website to identify which body can decide the policy.",
+        "Examine Charles County service, budget or meeting records appropriate to the scenario and identify affected neighborhoods.",
+        "Recommend a procedure and outcome measure that reflect both state law and local needs."
       ],
       "inquiryAnswers": [
         1,
@@ -1390,9 +1390,9 @@
       ],
       "writing": "Write a county-policy recommendation using Maryland state and local government records, budget evidence, the correct decision-making authority and the concerns of affected residents.",
       "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about State and Local Government. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
-      "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
+      "standards": "Maryland American Government framework: unit-level inquiry and civics skills. Exact edition, indicators and alignment require separate verification.",
       "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
-      "sourceAudit": "Three linked original constitutional/legal records or official interpretive resources. Source summaries are educational paraphrases and do not substitute for document excerpts.",
+      "sourceAudit": "Three attributed linked records or official resources, with primary, secondary and collection status labeled per document. These are instructional summaries, not verified verbatim excerpts. Exact standards indicators and historical/legal quotations require source-level editorial confirmation.",
       "sampleAnswer": "State and local government decisions affect transportation, education, public safety and land use. Maryland's constitution structures state institutions, while its General Assembly records show how proposed bills become or fail to become state law. A proposal is not automatically an enacted rule.\n\nSuppose Charles County considers changing library hours or a road plan. An official county document describes the proposal, but a responsible evaluation also needs the adopted budget, service usage, traffic or safety information and testimony from affected neighborhoods. These sources answer different questions.\n\nSupporters may emphasize lower costs or improved access, while critics point to unequal burdens or unintended effects. Neither position becomes true merely because it appears in government testimony. A good argument distinguishes available data from projections and identifies uncertainties.\n\nThe strongest recommendation should name the institution with legal authority, describe the proposed action, evaluate who benefits and who pays, and propose a measurable test of results. An official county website supplies procedural information; local experiences add evidence about effects."
     },
     "10.9": {
@@ -1547,9 +1547,9 @@
       ],
       "inquiryPrompt": "A community must choose between two costly projects. How can a public proposal identify opportunity cost, equity, implementation authority, and measurable outcomes?",
       "inquirySteps": [
-        "Compare the identified public institutions, original texts and their limitations.",
-        "Develop an inquiry question about a specific civic decision, right or policy.",
-        "Defend a qualified conclusion using evidence, limits and a possible counterargument."
+        "Identify the public problem and compare at least two feasible solutions using explicit assumptions.",
+        "Use a Maryland bill record, CBO analysis or open-data measure only when its jurisdiction and topic fit the proposal.",
+        "Propose a lawful decision, opportunity-cost statement and measurable check after implementation."
       ],
       "inquiryAnswers": [
         1,
@@ -1568,9 +1568,9 @@
       ],
       "writing": "Develop a feasible student civic-action proposal with a defined local problem, verified public authority, alternatives, projected costs, equity considerations and a measurable follow-up.",
       "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about Public Policy and Civic Action. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
-      "standards": "Maryland 2025 American Government Framework — civics inquiry, constitutional institutions, participation and applicable unit skills. Exact indicator mapping requires review.",
+      "standards": "Maryland American Government framework: unit-level inquiry and civics skills. Exact edition, indicators and alignment require separate verification.",
       "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
-      "sourceAudit": "Three linked original constitutional/legal records or official interpretive resources. Source summaries are educational paraphrases and do not substitute for document excerpts.",
+      "sourceAudit": "Three attributed linked records or official resources, with primary, secondary and collection status labeled per document. These are instructional summaries, not verified verbatim excerpts. Exact standards indicators and historical/legal quotations require source-level editorial confirmation.",
       "sampleAnswer": "Public policy is a process of choosing among possible actions under legal, fiscal and ethical constraints. A community may identify a need, such as safer transit or improved stormwater management, but its proposal must name the responsible agency, funding source and criteria for success.\n\nMaryland General Assembly records can establish the status of legislation. Congressional Budget Office reports illustrate how estimates depend on assumptions, and Maryland Open Data may provide baseline indicators. None of these sources alone can guarantee a future outcome.\n\nOne argument for a proposed project might emphasize immediate cost savings, while another prioritizes equitable access or long-term safety. A responsible student compares both using evidence and acknowledges opportunity costs—the benefits of what cannot be funded if the proposal is chosen.\n\nThe final civic product should include a clear question, sourced data, stakeholders, alternatives, a recommended action and a plan to measure effects. Its value is demonstrated through transparent reasoning and realistic evaluation, not whether the student endorses a particular political position."
     }
   }
