@@ -799,6 +799,14 @@
           "type": "Primary",
           "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
           "summary": "The first ten amendments set protections and constraints on federal power; later amendments and case law shaped their application."
+        },
+        {
+          "title": "Constitutional Convention debates and Madison's notes",
+          "creator": "James Madison and other convention delegates; Library of Congress context",
+          "date": "May–September 1787",
+          "url": "https://www.loc.gov/exhibits/creating-the-united-states/convention-and-ratification.html",
+          "type": "Period records within historical exhibition",
+          "summary": "Compare deliberation and ratification with the finished document; identify exact item before citing a specific delegate's words."
         }
       ],
       "isPresidentsGame": false,
@@ -1013,6 +1021,14 @@
           "type": "Primary",
           "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
           "summary": "The first ten amendments set protections and constraints on federal power; later amendments and case law shaped their application."
+        },
+        {
+          "title": "Presidential Veto and Congressional Override",
+          "creator": "U.S. National Archives",
+          "date": "Constitutional Article I; institutional educational record",
+          "url": "https://www.archives.gov/legislative/resources/education/veto",
+          "type": "Government source guide with original records",
+          "summary": "Specifically identifies Article I Section 7 veto procedures, not a blanket power of one branch over all others."
         }
       ],
       "isPresidentsGame": false,
@@ -1120,6 +1136,14 @@
           "type": "Primary",
           "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
           "summary": "The first ten amendments set protections and constraints on federal power; later amendments and case law shaped their application."
+        },
+        {
+          "title": "Article V of the U.S. Constitution",
+          "creator": "Constitutional Convention",
+          "date": "1787",
+          "url": "https://www.archives.gov/federal-register/constitution/article-v.html",
+          "type": "Primary constitutional text",
+          "summary": "Requires a particular amendment proposal and ratification process; a presidential action or court interpretation is not textual amendment."
         }
       ],
       "isPresidentsGame": true,
@@ -1227,6 +1251,14 @@
           "type": "Secondary",
           "url": "https://www.congress.gov/crs-products",
           "summary": "Oversight can involve hearings, investigations and information demands. Congress's authority is subject to constitutional and statutory limits."
+        },
+        {
+          "title": "Congressional Committee System",
+          "creator": "Congressional Research Service",
+          "date": "Modern congressional procedures; research publication",
+          "url": "https://www.congress.gov/crs_external_products/RS/PDF/RS20794/RS20794.6.pdf",
+          "type": "Secondary institutional report",
+          "summary": "Explains legislative and oversight roles of congressional committees. Read as process guidance, not a statute."
         }
       ],
       "isPresidentsGame": false,
@@ -1441,6 +1473,14 @@
           "type": "Secondary",
           "url": "https://www.congress.gov/crs-products",
           "summary": "Oversight can involve hearings, investigations and information demands. Congress's authority is subject to constitutional and statutory limits."
+        },
+        {
+          "title": "Types of Committee Hearings",
+          "creator": "Congressional Research Service",
+          "date": "Current revised congressional procedural report",
+          "url": "https://www.congress.gov/crs_external_products/RS/PDF/98-317/98-317.19.pdf",
+          "type": "Secondary institutional report",
+          "summary": "Distinguishes legislative, oversight and investigative hearings; testimony is not automatically proven factual."
         }
       ],
       "isPresidentsGame": false,
@@ -1655,6 +1695,14 @@
           "type": "Secondary",
           "url": "https://www.usa.gov/branches-of-government",
           "summary": "Federal executive agencies implement authorized programs; their rules and decisions remain subject to other governmental checks."
+        },
+        {
+          "title": "Federal Register proposed and final rule documents",
+          "creator": "Office of the Federal Register",
+          "date": "Contemporary rulemaking documents",
+          "url": "https://www.federalregister.gov/reader-aids/government-policy-and-ofr-procedures/understanding-the-federal-register",
+          "type": "Government process guide",
+          "summary": "Distinguishes proposed rules from final rules; select an item-level example with agency, authority and date."
         }
       ],
       "isPresidentsGame": false,
@@ -1869,6 +1917,14 @@
           "type": "Secondary",
           "url": "https://www.uscourts.gov/about-federal-courts/educational-resources/supreme-court-landmarks",
           "summary": "Case examples illustrate how facts, questions, holdings and later interpretations differ."
+        },
+        {
+          "title": "About U.S. Courts of Appeals",
+          "creator": "Administrative Office of the U.S. Courts",
+          "date": "Modern institutional explanation",
+          "url": "https://www.uscourts.gov/about-federal-courts/court-role-and-structure/about-us-courts-appeals",
+          "type": "Secondary judicial branch institutional history",
+          "summary": "Appeals courts generally review trial proceedings rather than hearing new witnesses."
         }
       ],
       "isPresidentsGame": false,
@@ -2083,6 +2139,14 @@
           "type": "Secondary",
           "url": "https://www.uscourts.gov/about-federal-courts/educational-resources/supreme-court-landmarks",
           "summary": "Case examples illustrate how facts, questions, holdings and later interpretations differ."
+        },
+        {
+          "title": "Tinker v. Des Moines, 393 U.S. 503",
+          "creator": "Supreme Court of the United States",
+          "date": "February 24, 1969",
+          "url": "https://www.govinfo.gov/content/pkg/USREPORTS-393/pdf/USREPORTS-393-503.pdf",
+          "type": "Primary judicial opinion",
+          "summary": "Students wearing black armbands was expression protected on the facts of that case; the decision did not forbid all school speech restrictions."
         }
       ],
       "isPresidentsGame": false,
@@ -2511,6 +2575,22 @@
           "type": "Primary opinion",
           "url": "https://supreme.justia.com/cases/federal/us/393/503/",
           "summary": "The Court protected student expression in a particular public-school context; later student-speech cases and school circumstances must be distinguished."
+        },
+        {
+          "title": "Thirteenth Amendment",
+          "creator": "Congress and ratifying states",
+          "date": "1865",
+          "url": "https://www.archives.gov/milestone-documents/13th-amendment",
+          "type": "Primary amendment",
+          "summary": "Abolished slavery and involuntary servitude except as punishment for crime after conviction; distinguish law from later enforcement."
+        },
+        {
+          "title": "Fifteenth Amendment",
+          "creator": "Congress and ratifying states",
+          "date": "1870",
+          "url": "https://www.archives.gov/milestone-documents/15th-amendment",
+          "type": "Primary amendment",
+          "summary": "Voting discrimination on account of race, color or previous servitude prohibited; does not guarantee every person may vote regardless of other laws."
         }
       ],
       "isPresidentsGame": false,
@@ -3046,6 +3126,14 @@
           "type": "Secondary government information",
           "url": "https://www.charlescountymd.gov/government",
           "summary": "County services, budgets and public participation provide local civic examples; verify current procedures with the official county site."
+        },
+        {
+          "title": "About the Maryland General Assembly",
+          "creator": "Maryland General Assembly",
+          "date": "Modern official procedure reference",
+          "url": "https://mgaleg.maryland.gov/mgawebsite/Information/Text/about_mga",
+          "type": "Government institutional source",
+          "summary": "Maryland constitutional amendments go to voters after legislative proposal; distinguish from federal Article V."
         }
       ],
       "isPresidentsGame": false,
@@ -3367,6 +3455,14 @@
           "type": "Government data collection",
           "url": "https://opendata.maryland.gov/",
           "summary": "Official datasets can inform policy evaluation but require attention to units, dates, missing values and causal limits."
+        },
+        {
+          "title": "Maryland Legislative Process",
+          "creator": "Maryland State Archives",
+          "date": "Contemporary Maryland government process guide",
+          "url": "https://msa.maryland.gov/msa/mdmanual/07leg/html/proc.html",
+          "type": "Secondary institutional source",
+          "summary": "Explains the legislative stages and distinct roles in state policy adoption."
         }
       ],
       "isPresidentsGame": false,
