@@ -1078,16 +1078,16 @@
       ],
       "sources": [
         {
-          "label": "Document A · Constitution Article II / Twelfth Amendment",
-          "title": "Constitution Article II / Twelfth Amendment",
-          "creator": "Constitutional Convention / ratifying states",
-          "date": "1787 / 1804",
-          "url": "https://www.archives.gov/founding-docs/constitution-transcript",
-          "sourceUrl": "https://www.archives.gov/founding-docs/constitution-transcript",
-          "sourceType": "Primary historical text",
-          "excerpt": "Presidential selection uses the Electoral College; state administration, federal statutes and constitutional amendments affect procedures.",
+          "label": "Document A · Twelfth Amendment",
+          "title": "Twelfth Amendment: revised presidential and vice-presidential elector voting",
+          "creator": "United States Congress and ratifying states",
+          "date": "Ratified 1804",
+          "url": "https://www.archives.gov/founding-docs/amendments-11-27",
+          "sourceUrl": "https://www.archives.gov/founding-docs/amendments-11-27",
+          "sourceType": "Primary constitutional amendment",
+          "excerpt": "The Twelfth Amendment revised the Electoral College balloting procedures for president and vice president; Article II provides related founding constitutional structure.",
           "limitation": "This is an attributed instructional summary, not a verbatim excerpt. Open the linked original and verify the cited provision, author, date, source genre, and limits before making a claim.",
-          "lessonContext": "U.S. elections take place under overlapping federal, state and local rules. Voters choose members of Congress directly; presidential selection uses state-administered elections for electors under constitutional and legal rules. Eligibility, voter registration, polling and ballot procedures vary by jurisdiction and can change with law or court decisions."
+          "lessonContext": "The original Article II presidential electoral system was modified by the Twelfth Amendment. The base Constitution and later amendment must be examined as separate documents."
         },
         {
           "label": "Document B · Voting Rights Act",
@@ -1183,7 +1183,7 @@
       ],
       "matchingPrompts": [
         {
-          "prompt": "Which original constitutional text and amendment help explain presidential selection by electors?",
+          "prompt": "Which ratified amendment revised the Electoral College's voting method for president and vice president?",
           "answer": 0
         },
         {
