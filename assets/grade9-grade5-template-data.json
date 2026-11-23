@@ -1638,16 +1638,16 @@
       "total": 4,
       "essential": "What made the 1920s an era of cultural conflict as well as innovation?",
       "paragraphs": [
-        "Radio, cinema, automobiles, and mass advertising reshaped leisure and consumption in the 1920s. New forms of popular entertainment reached wider audiences, though access differed by income, geography, and race. Technologies such as radio encouraged shared national experiences while local communities continued to follow different values and practices. A popular image of a fashionable young city resident does not describe every woman in the 1920s. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "Religious and scientific disputes, immigration restriction, and debates over gender roles revealed contested ideas about modernity. The Scopes Trial of 1925 exemplified conflicts about public-school teaching and cultural authority. Immigration restrictions and the revival of organized racial intolerance existed alongside cultural innovation. These developments challenge a simple narrative of universal freedom and progress. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Compare an advertisement, radio program schedule, and political speech to distinguish lifestyle claims from actual social conditions. Analyze the intended audience of an advertisement or magazine cover. Consider whether it documents how people lived or primarily how advertisers wanted them to live. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "Radio, cinema, automobiles, and mass advertising reshaped leisure and consumption in the 1920s. New forms of popular entertainment reached wider audiences, though access differed by income, geography, and race. Technologies such as radio encouraged shared national experiences while local communities continued to follow different values and practices. A popular image of a fashionable young city resident does not describe every woman in the 1920s.",
+        "Religious and scientific disputes, immigration restriction, and debates over gender roles revealed contested ideas about modernity. The Scopes Trial of 1925 exemplified conflicts about public-school teaching and cultural authority. Immigration restrictions and the revival of organized racial intolerance existed alongside cultural innovation. These developments challenge a simple narrative of universal freedom and progress.",
+        "The 1920s brought radios, movies, cars, and new advertising into many American lives, but those changes reached communities unevenly. In Tennessee, the 1925 Scopes trial put debates about science, religion, and public education in national headlines. One image from the trial shows public controversy; a 1927 automobile advertisement shows commercial aspiration. Neither represents the views or living standards of every American."
       ],
-      "activity": "A Changing American Culture · Evidence Investigation",
-      "task": "Write a claim about A Changing American Culture with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "A Changing American Culture · Historical evidence workshop",
+      "task": "Compare the Scopes trial photograph and car advertisement. Name each creator or publisher, purpose, and audience. How did contemporaries encounter competing ideas of a modern society? Identify evidence needed to hear from rural households or families excluded from advertised prosperity.",
       "investigation": [
-        "Identify a dated historical document bearing on A Changing American Culture. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of A Changing American Culture. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about A Changing American Culture with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Examine Clarence Darrow at the Scopes trial (July 1925). Identify the creator and what the record can directly establish.",
+        "Compare it with Renault automobile advertisement. Identify provenance and whether it is a contemporary item or later interpretation.",
+        "Compare the Scopes trial photograph and car advertisement. Name each creator or publisher, purpose, and audience. How did contemporaries encounter competing ideas of a modern society? Identify evidence needed to hear from rural households or families excluded from advertised prosperity."
       ],
       "options": [
         "Scopes Trial",
@@ -1664,31 +1664,31 @@
       ],
       "checks": [
         {
-          "prompt": "Which 1925 trial concerned teaching evolution in a Tennessee public school?",
+          "prompt": "What did the 1925 Scopes trial concern?",
           "options": [
-            "Scopes Trial",
-            "Nuremberg Trials",
-            "Dred Scott case"
+            "Teaching evolution in a Tennessee school",
+            "Voting rights under the 19th Amendment",
+            "Bank failures in 1933"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which method would strengthen a historical argument about A Changing American Culture?",
+          "prompt": "What is the 1927 advertisement direct evidence of?",
           "options": [
-            "Compare two contextualized sources addressing mass culture and modernity.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion about A Changing American Culture is most defensible?",
-          "options": [
-            "Only one participant's account can establish all effects of Scopes Trial.",
-            "Interpret mass culture in historical context and weigh competing evidence concerning consumerism.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "National car ownership totals",
+            "An advertiser's appeal to consumers",
+            "Public opinion on school science"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Which interpretation goes beyond both visual sources?",
+          "options": [
+            "A trial took place",
+            "Cars were advertised",
+            "All Americans shared one definition of modern life"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -1703,7 +1703,25 @@
           "Compare an advertisement, radio program schedule, and political speech to distinguish lifestyle claims from actual social conditions."
         ]
       },
-      "investigationKind": "data"
+      "investigationKind": "data",
+      "references": [
+        {
+          "title": "Clarence Darrow at the Scopes trial",
+          "creator": "Library of Congress (photographer not identified)",
+          "date": "July 1925",
+          "url": "https://www.loc.gov/item/97512300/",
+          "summary": "A dated photograph of the 1925 controversy; it does not establish nationwide opinion.",
+          "type": "Primary or institutional record"
+        },
+        {
+          "title": "Renault automobile advertisement",
+          "creator": "Raymond Loewy; Vanity Fair",
+          "date": "April 1927",
+          "url": "https://www.loc.gov/pictures/item/2002695557/",
+          "summary": "A commercial appeal, not a survey of household buying power.",
+          "type": "Primary or institutional record"
+        }
+      ]
     },
     "the-harlem-renaissance": {
       "title": "The Harlem Renaissance",
@@ -1713,16 +1731,16 @@
       "total": 4,
       "essential": "How did the Harlem Renaissance transform American cultural expression?",
       "paragraphs": [
-        "The Harlem Renaissance brought influential Black writers, musicians, artists, and intellectuals into national and international conversations during the 1920s. Langston Hughes, Zora Neale Hurston, and other creators explored identity, community, and artistic freedom. The movement included poetry, visual art, theater, music, and political debate. Creators differed in how directly they addressed racial inequality and whether artistic independence should serve explicit political goals. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "The movement emerged through the Great Migration and urban cultural networks but was not confined to one neighborhood or one artistic viewpoint. Racism and patronage relationships affected publication and opportunity. Publishers and patrons could expand opportunity while also imposing expectations on Black artists. Migration and urban institutions made Harlem a prominent center without limiting Black creativity to New York. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Interpret a properly attributed short excerpt or artwork using genre, audience, and historical context. Avoid presenting all Black artistic expression as a single movement with one political position. Read an artist's own description of a work, if available, before interpreting the work solely through a textbook summary. Distinguish the author's stated purpose from a reader's defensible interpretation. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "The Harlem Renaissance brought influential Black writers, musicians, artists, and intellectuals into national and international conversations during the 1920s. Langston Hughes, Zora Neale Hurston, and other creators explored identity, community, and artistic freedom. The movement included poetry, visual art, theater, music, and political debate. Creators differed in how directly they addressed racial inequality and whether artistic independence should serve explicit political goals.",
+        "The movement emerged through the Great Migration and urban cultural networks but was not confined to one neighborhood or one artistic viewpoint. Racism and patronage relationships affected publication and opportunity. Publishers and patrons could expand opportunity while also imposing expectations on Black artists. Migration and urban institutions made Harlem a prominent center without limiting Black creativity to New York.",
+        "Harlem was a major center of Black cultural expression, but the Renaissance was not confined to a neighborhood or a single political viewpoint. Langston Hughes, Zora Neale Hurston, and others wrote and created amid economic barriers and debates about race, art, and independence. Hughes's 1925 letter to Walter White reveals the practical challenge of paying for college; it cannot speak for every artist's circumstances."
       ],
-      "activity": "The Harlem Renaissance · Evidence Investigation",
-      "task": "Write a claim about The Harlem Renaissance with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "The Harlem Renaissance · Historical evidence workshop",
+      "task": "Read Hughes's October 1925 letter and choose one other named period object in the Library of Congress exhibit. Distinguish the writer's own words from the exhibit curator's commentary. How did Black organizations, economic circumstances, and artistic ambitions interact? State whose voice is still missing.",
       "investigation": [
-        "Identify a dated historical document bearing on The Harlem Renaissance. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of The Harlem Renaissance. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about The Harlem Renaissance with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Examine Letter from Langston Hughes to Walter White (October 29, 1925). Identify the creator and what the record can directly establish.",
+        "Compare it with NAACP New Negro Movement exhibition: original objects. Identify provenance and whether it is a contemporary item or later interpretation.",
+        "Read Hughes's October 1925 letter and choose one other named period object in the Library of Congress exhibit. Distinguish the writer's own words from the exhibit curator's commentary. How did Black organizations, economic circumstances, and artistic ambitions interact? State whose voice is still missing."
       ],
       "options": [
         "John Adams",
@@ -1739,31 +1757,31 @@
       ],
       "checks": [
         {
-          "prompt": "Which writer is associated with the Harlem Renaissance?",
+          "prompt": "Who wrote to NAACP official Walter White in October 1925?",
           "options": [
-            "John Adams",
             "Langston Hughes",
-            "Thomas Jefferson"
-          ],
-          "answer": 1
-        },
-        {
-          "prompt": "Which method would strengthen a historical argument about The Harlem Renaissance?",
-          "options": [
-            "Compare two contextualized sources addressing Harlem Renaissance and Great Migration.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
+            "Andrew Carnegie",
+            "John T. Scopes"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion about The Harlem Renaissance is most defensible?",
+          "prompt": "What does Hughes's letter most directly document?",
           "options": [
-            "Only one participant's account can establish all effects of cultural expression.",
-            "Interpret Harlem Renaissance in historical context and weigh competing evidence concerning patronage.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "The earnings of all Harlem artists",
+            "One author's request for educational assistance",
+            "The number of books published in Harlem"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What would be an unsupported generalization?",
+          "options": [
+            "Harlem was one cultural center",
+            "Black writers pursued different interests",
+            "Every Harlem Renaissance artist shared Hughes's circumstances"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -1778,7 +1796,25 @@
           "Interpret a properly attributed short excerpt or artwork using genre, audience, and historical context. Avoid presenting all Black artistic expression as a single movement wit"
         ]
       },
-      "investigationKind": "map"
+      "investigationKind": "map",
+      "references": [
+        {
+          "title": "Letter from Langston Hughes to Walter White",
+          "creator": "Langston Hughes",
+          "date": "October 29, 1925",
+          "url": "https://www.loc.gov/exhibits/naacp/the-new-negro-movement.html",
+          "summary": "Original letter exhibited by the Library of Congress showing a request for help with educational expenses.",
+          "type": "Primary or institutional record"
+        },
+        {
+          "title": "NAACP New Negro Movement exhibition: original objects",
+          "creator": "NAACP contributors; original dated documents",
+          "date": "1920s (selected originals)",
+          "url": "https://www.loc.gov/exhibits/naacp/exhibititems.html",
+          "summary": "Curated entry point to multiple letters and primary publications. Select and identify a second actual document rather than citing the entire modern exhibition as one primary source.",
+          "type": "Primary or institutional record"
+        }
+      ]
     },
     "prohibition-and-social-conflict": {
       "title": "Prohibition and Social Conflict",
@@ -1788,16 +1824,16 @@
       "total": 4,
       "essential": "Why did banning alcohol produce consequences reformers did not anticipate?",
       "paragraphs": [
-        "The Eighteenth Amendment was ratified in 1919, and national Prohibition took effect in 1920 under the Volstead Act. Supporters associated alcohol restriction with family welfare, order, and reform. Support for Prohibition included reform organizations with different religious, public-health, and gender-related concerns. Opposition also drew on liberty, employment, and doubts about enforceability. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "Illegal production and distribution expanded, enforcement varied, and debates about individual liberty and public regulation intensified. The Twenty-First Amendment repealed national Prohibition in 1933. Illegal markets and organized crime became widely associated with the period, but not every increase in reported offenses can be attributed to Prohibition alone. Enforcement methods and definitions changed. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Compare reform claims with enforcement reports and crime statistics, noting how reporting categories change. A law's intentions cannot be assumed to equal its measured effects. Compare a temperance campaign poster to an enforcement report and the amendment's text. Evaluate intentions, measurable effects, and reasons the policy was ultimately repealed. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "The Eighteenth Amendment was ratified in 1919, and national Prohibition took effect in 1920 under the Volstead Act. Supporters associated alcohol restriction with family welfare, order, and reform. Support for Prohibition included reform organizations with different religious, public-health, and gender-related concerns. Opposition also drew on liberty, employment, and doubts about enforceability.",
+        "Illegal production and distribution expanded, enforcement varied, and debates about individual liberty and public regulation intensified. The Twenty-First Amendment repealed national Prohibition in 1933. Illegal markets and organized crime became widely associated with the period, but not every increase in reported offenses can be attributed to Prohibition alone. Enforcement methods and definitions changed.",
+        "The Eighteenth Amendment, ratified in 1919, established a constitutional framework for national Prohibition, which began in 1920. Reformers hoped restrictions on alcohol would improve family and public life. Critics questioned personal liberty and enforcement. The Twenty-first Amendment repealed the Eighteenth in 1933. Neither amendment, by itself, proves how consumption or organized crime changed."
       ],
-      "activity": "Prohibition and Social Conflict · Evidence Investigation",
-      "task": "Write a claim about Prohibition and Social Conflict with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "Prohibition and Social Conflict · Historical evidence workshop",
+      "task": "Read the precise wording of both amendments. What activities were restricted, what was repealed, and what legal powers remained? Compare one dated temperance or repeal appeal with the law, clearly separating a group's claims from measured outcomes.",
       "investigation": [
-        "Identify a dated historical document bearing on Prohibition and Social Conflict. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of Prohibition and Social Conflict. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about Prohibition and Social Conflict with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Examine Eighteenth Amendment (1919 ratification). Identify the creator and what the record can directly establish.",
+        "Compare it with Twenty-first Amendment. Identify provenance and whether it is a contemporary item or later interpretation.",
+        "Read the precise wording of both amendments. What activities were restricted, what was repealed, and what legal powers remained? Compare one dated temperance or repeal appeal with the law, clearly separating a group's claims from measured outcomes."
       ],
       "options": [
         "Nineteenth Amendment",
@@ -1814,31 +1850,31 @@
       ],
       "checks": [
         {
-          "prompt": "Which amendment repealed national Prohibition?",
+          "prompt": "What was prohibited by the Eighteenth Amendment?",
           "options": [
-            "Nineteenth Amendment",
-            "Fourteenth Amendment",
-            "Twenty-First Amendment"
-          ],
-          "answer": 2
-        },
-        {
-          "prompt": "Which method would strengthen a historical argument about Prohibition and Social Conflict?",
-          "options": [
-            "Compare two contextualized sources addressing Prohibition and Volstead Act.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
+            "Manufacture, sale and transportation of intoxicating liquor for beverage purposes",
+            "All private drinking",
+            "All forms of alcohol for medical use"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion about Prohibition and Social Conflict is most defensible?",
+          "prompt": "Which amendment repealed national constitutional Prohibition?",
           "options": [
-            "Only one participant's account can establish all effects of Eighteenth Amendment.",
-            "Interpret Prohibition in historical context and weigh competing evidence concerning Twenty-First Amendment.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "The Seventeenth",
+            "The Twenty-first",
+            "The Twenty-fourth"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What cannot be established by amendment texts alone?",
+          "options": [
+            "What the law stated",
+            "That a repeal amendment was ratified",
+            "Changes in national organized-crime rates"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -1853,7 +1889,25 @@
           "Compare reform claims with enforcement reports and crime statistics, noting how reporting categories change. A law's intentions cannot be assumed to equal its measured effects"
         ]
       },
-      "investigationKind": "debate"
+      "investigationKind": "debate",
+      "references": [
+        {
+          "title": "Eighteenth Amendment",
+          "creator": "United States Congress and ratifying states",
+          "date": "1919 ratification",
+          "url": "https://www.archives.gov/founding-docs/amendments-11-27",
+          "summary": "Constitutional text banning manufacture, sale, and transportation of intoxicating liquor for beverage purposes, not private consumption itself.",
+          "type": "Primary or institutional record"
+        },
+        {
+          "title": "Twenty-first Amendment",
+          "creator": "United States Congress and state conventions",
+          "date": "1933 ratification",
+          "url": "https://www.archives.gov/founding-docs/amendments-11-27",
+          "summary": "Repeals the Eighteenth Amendment and preserves a role for state law.",
+          "type": "Primary or institutional record"
+        }
+      ]
     },
     "consumer-culture-and-economic-growth": {
       "title": "Consumer Culture and Economic Growth",
@@ -1863,16 +1917,16 @@
       "total": 4,
       "essential": "How did credit and consumption conceal vulnerability in the 1920s economy?",
       "paragraphs": [
-        "Automobiles, appliances, and mass advertising expanded consumer markets in the 1920s. Installment credit allowed some families to buy goods over time, while stock speculation drew public attention. A family purchasing an automobile on credit might enjoy mobility while accepting monthly financial obligations. Low down payments could expand access but also make households vulnerable when income declined. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "Rising production did not eliminate uneven wealth, agricultural distress, or risky borrowing. The decade's prosperity was distributed unequally and did not make a severe downturn inevitable from a single factor. Agricultural regions experienced serious difficulties during parts of the decade, contradicting advertisements celebrating endless prosperity. Differences by sector matter as much as national averages. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Read a hypothetical household budget with installment payments and a dated financial advertisement. Distinguish ability to purchase from long-term ability to repay. Analyze a fictional installment contract and a dated economic trend. State clearly which figures are constructed classroom examples and which derive from real historical series. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "Automobiles, appliances, and mass advertising expanded consumer markets in the 1920s. Installment credit allowed some families to buy goods over time, while stock speculation drew public attention. A family purchasing an automobile on credit might enjoy mobility while accepting monthly financial obligations. Low down payments could expand access but also make households vulnerable when income declined.",
+        "Rising production did not eliminate uneven wealth, agricultural distress, or risky borrowing. The decade's prosperity was distributed unequally and did not make a severe downturn inevitable from a single factor. Agricultural regions experienced serious difficulties during parts of the decade, contradicting advertisements celebrating endless prosperity. Differences by sector matter as much as national averages.",
+        "Cars, radios, appliances and installment purchases helped shape consumer culture in the 1920s. Advertising offered images of freedom and prosperity, yet a product's appeal does not demonstrate that most households could afford it. Industrial output rose in some sectors while agricultural distress and uneven wages complicated the broader picture. Treat invented household budgets as examples, not historical statistics."
       ],
-      "activity": "Consumer Culture and Economic Growth · Evidence Investigation",
-      "task": "Write a claim about Consumer Culture and Economic Growth with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "Consumer Culture and Economic Growth · Historical evidence workshop",
+      "task": "Contrast a 1927 vehicle advertisement with a dated edition of the automobile industry's statistical publication. Identify where a commercial claim ends and a measurable figure begins. Then model an installment purchase with clearly fictional figures and explain both access and repayment risk.",
       "investigation": [
-        "Identify a dated historical document bearing on Consumer Culture and Economic Growth. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of Consumer Culture and Economic Growth. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about Consumer Culture and Economic Growth with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Examine Renault automobile advertisement (April 1927). Identify the creator and what the record can directly establish.",
+        "Compare it with Facts and Figures of the Automobile Industry. Identify provenance and whether it is a contemporary item or later interpretation.",
+        "Contrast a 1927 vehicle advertisement with a dated edition of the automobile industry's statistical publication. Identify where a commercial claim ends and a measurable figure begins. Then model an installment purchase with clearly fictional figures and explain both access and repayment risk."
       ],
       "options": [
         "Buying now while paying through scheduled later payments",
@@ -1889,31 +1943,31 @@
       ],
       "checks": [
         {
-          "prompt": "What is installment credit?",
+          "prompt": "How does installment buying work?",
           "options": [
-            "Buying now while paying through scheduled later payments",
-            "Receiving money without obligation",
-            "Paying only in barter"
+            "Payments occur over time",
+            "No money is owed",
+            "Only barter is used"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which method would strengthen a historical argument about Consumer Culture and Economic Growth?",
+          "prompt": "Why inspect the methods behind industry statistics?",
           "options": [
-            "Compare two contextualized sources addressing installment credit and speculation.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion about Consumer Culture and Economic Growth is most defensible?",
-          "options": [
-            "Only one participant's account can establish all effects of mass production.",
-            "Interpret installment credit in historical context and weigh competing evidence concerning income inequality.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "Every trade association fabricates figures",
+            "Definitions and financial interests can shape presentation",
+            "Year and units are irrelevant"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What does a car advertisement not prove?",
+          "options": [
+            "Cars were marketed",
+            "Advertisements targeted prospective consumers",
+            "How many families could afford that car"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -1928,7 +1982,25 @@
           "Read a hypothetical household budget with installment payments and a dated financial advertisement. Distinguish ability to purchase from long-term ability to repay."
         ]
       },
-      "investigationKind": "timeline"
+      "investigationKind": "timeline",
+      "references": [
+        {
+          "title": "Renault automobile advertisement",
+          "creator": "Raymond Loewy; Vanity Fair",
+          "date": "April 1927",
+          "url": "https://www.loc.gov/pictures/item/2002695557/",
+          "summary": "Commercial visual primary source, not a household income survey.",
+          "type": "Primary or institutional record"
+        },
+        {
+          "title": "Facts and Figures of the Automobile Industry",
+          "creator": "National Automobile Chamber of Commerce",
+          "date": "1920s editions (select issue year)",
+          "url": "https://www.loc.gov/item/88647459/",
+          "summary": "Contemporary industry publication; review the edition date, definitions, and industry interests before quoting figures.",
+          "type": "Primary or institutional record"
+        }
+      ]
     },
     "the-stock-market-crash-and-economic-crisis": {
       "title": "The Stock Market Crash and Economic Crisis",
@@ -1938,16 +2010,16 @@
       "total": 4,
       "essential": "Why did the Great Depression extend beyond the 1929 stock market crash?",
       "paragraphs": [
-        "Stock prices collapsed in late October 1929 following years of speculation and economic vulnerabilities. Bank failures, falling investment and consumption, deflation, and international economic pressures deepened the crisis. The 1929 crash occurred amid a financial system with vulnerable banks and uneven economic conditions. Falling stock prices hurt investor confidence, but the broader depression spread through banking, consumer spending, production, and global trade. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "The Depression was not caused solely by one day of trading. Government policy, banking structures, and global links shaped the severity and duration, while different communities faced unequal economic hardship. Different historians emphasize monetary policy, international financial obligations, and weaknesses in demand or banking. A rigorous explanation compares these hypotheses rather than declaring one trading day the complete cause. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Compare an unemployment series with banking data, clearly labeling dates and denominators. Distinguish chronology from proof that one variable alone caused another. If unemployment and bank failures rose together, that pattern alone does not prove the direction of causation. Use dates, mechanisms, and corroborating evidence to make a more defensible argument. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "Stock prices collapsed in late October 1929 following years of speculation and economic vulnerabilities. Bank failures, falling investment and consumption, deflation, and international economic pressures deepened the crisis. The 1929 crash occurred amid a financial system with vulnerable banks and uneven economic conditions. Falling stock prices hurt investor confidence, but the broader depression spread through banking, consumer spending, production, and global trade.",
+        "The Depression was not caused solely by one day of trading. Government policy, banking structures, and global links shaped the severity and duration, while different communities faced unequal economic hardship. Different historians emphasize monetary policy, international financial obligations, and weaknesses in demand or banking. A rigorous explanation compares these hypotheses rather than declaring one trading day the complete cause.",
+        "The market collapse of October 1929 was dramatic, but it should not be presented as the single cause of the entire Great Depression. Financial weaknesses, later bank panics, credit contraction, deflation, and international strains helped deepen the downturn. Historians disagree about the relative influence of these mechanisms. A chronology is the beginning of an explanation, not proof of causation."
       ],
-      "activity": "The Stock Market Crash and Economic Crisis · Evidence Investigation",
-      "task": "Write a claim about The Stock Market Crash and Economic Crisis with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "The Stock Market Crash and Economic Crisis · Historical evidence workshop",
+      "task": "Compare the Federal Reserve History studies of the 1929 crash and the 1930–31 banking panics. Mark which events happened after the crash, then explain at least two possible ways financial trouble reached households and employers. Propose a dated original bank or employment record that could test your argument.",
       "investigation": [
-        "Identify a dated historical document bearing on The Stock Market Crash and Economic Crisis. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of The Stock Market Crash and Economic Crisis. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about The Stock Market Crash and Economic Crisis with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Examine Stock Market Crash of 1929 (Modern historical analysis of 1929). Identify the creator and what the record can directly establish.",
+        "Compare it with Banking Panics of 1930–31. Identify provenance and whether it is a contemporary item or later interpretation.",
+        "Compare the Federal Reserve History studies of the 1929 crash and the 1930–31 banking panics. Mark which events happened after the crash, then explain at least two possible ways financial trouble reached households and employers. Propose a dated original bank or employment record that could test your argument."
       ],
       "options": [
         "1929",
@@ -1964,31 +2036,31 @@
       ],
       "checks": [
         {
-          "prompt": "In which year did the major Wall Street crash begin?",
+          "prompt": "When did the famous U.S. stock-market crash occur?",
           "options": [
-            "1929",
-            "1945",
-            "1914"
+            "October 1929",
+            "December 1933",
+            "January 1919"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which method would strengthen a historical argument about The Stock Market Crash and Economic Crisis?",
+          "prompt": "What later financial events worsened economic conditions?",
           "options": [
-            "Compare two contextualized sources addressing deflation and bank failure.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion about The Stock Market Crash and Economic Crisis is most defensible?",
-          "options": [
-            "Only one participant's account can establish all effects of unemployment.",
-            "Interpret deflation in historical context and weigh competing evidence concerning stock speculation.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "The 1938 labor law",
+            "Banking panics in 1930–31",
+            "The creation of NATO"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Why cannot a stock-price chart alone prove the Depression's complete cause?",
+          "options": [
+            "Its dates are always invented",
+            "Market prices never matter",
+            "It omits other mechanisms and corroborating evidence"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -2003,7 +2075,25 @@
           "Compare an unemployment series with banking data, clearly labeling dates and denominators. Distinguish chronology from proof that one variable alone caused another."
         ]
       },
-      "investigationKind": "cause"
+      "investigationKind": "cause",
+      "references": [
+        {
+          "title": "Stock Market Crash of 1929",
+          "creator": "Federal Reserve History",
+          "date": "Modern historical analysis of 1929",
+          "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+          "summary": "Retrospective institutional secondary analysis, not an original 1929 trading ledger.",
+          "type": "Secondary institutional history"
+        },
+        {
+          "title": "Banking Panics of 1930–31",
+          "creator": "Federal Reserve History",
+          "date": "Modern historical analysis of 1930–31",
+          "url": "https://www.federalreservehistory.org/essays/banking-panics-1930-31",
+          "summary": "Retrospective secondary analysis of later banking crises, not a contemporary depositor's account.",
+          "type": "Secondary institutional history"
+        }
+      ]
     },
     "living-through-the-great-depression": {
       "title": "Living Through the Great Depression",
@@ -2013,16 +2103,16 @@
       "total": 4,
       "essential": "How did families and communities respond to prolonged economic hardship?",
       "paragraphs": [
-        "The Great Depression involved unemployment, falling incomes, foreclosures, and severe uncertainty. Dust Bowl conditions compounded hardship in parts of the Great Plains during the 1930s, contributing to migration. Conditions varied sharply among agricultural families, industrial workers, Black communities, Mexican Americans, and people who retained steady employment. National unemployment estimates can obscure those differences. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "Mutual aid, labor organizing, local relief, and community institutions supported many people. Experiences differed by region, race, gender, and occupation; famous documentary photographs do not represent everyone's life. The Dust Bowl resulted from severe drought interacting with land-use patterns in portions of the Great Plains. Migration stories should distinguish environmental pressure from economic conditions and unequal treatment along routes. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Compare a dated photograph with an oral history and local relief records. Ask whether an image is staged, captioned accurately, and representative before making broad claims. Compare a documentary photograph and testimony with attention to framing, selection, and survival of records. Avoid turning one visually memorable image into a claim about the entire nation. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "The Great Depression involved unemployment, falling incomes, foreclosures, and severe uncertainty. Dust Bowl conditions compounded hardship in parts of the Great Plains during the 1930s, contributing to migration. Conditions varied sharply among agricultural families, industrial workers, Black communities, Mexican Americans, and people who retained steady employment. National unemployment estimates can obscure those differences.",
+        "Mutual aid, labor organizing, local relief, and community institutions supported many people. Experiences differed by region, race, gender, and occupation; famous documentary photographs do not represent everyone's life. The Dust Bowl resulted from severe drought interacting with land-use patterns in portions of the Great Plains. Migration stories should distinguish environmental pressure from economic conditions and unequal treatment along routes.",
+        "Dorothea Lange photographed Florence Owens Thompson and her children in California in March 1936. The image became a symbol of Depression hardship, but it shows a particular family at one moment. Drought and land-use damage intensified hardship on parts of the Great Plains, while employment, migration and relief varied by location and by discrimination. A compelling photograph opens an inquiry; it does not settle one."
       ],
-      "activity": "Living Through the Great Depression · Evidence Investigation",
-      "task": "Write a claim about Living Through the Great Depression with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "Living Through the Great Depression · Historical evidence workshop",
+      "task": "Compare two photographs from Lange's 1936 session. What changes in framing? Read the image metadata and distinguish visible details from assumptions about Thompson's life. Seek her testimony or local relief records before making broader claims.",
       "investigation": [
-        "Identify a dated historical document bearing on Living Through the Great Depression. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of Living Through the Great Depression. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about Living Through the Great Depression with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Examine Migrant Mother, Nipomo, California (March 1936). Identify the creator and what the record can directly establish.",
+        "Compare it with Migrant Mother: original photograph sequence. Identify provenance and whether it is a contemporary item or later interpretation.",
+        "Compare two photographs from Lange's 1936 session. What changes in framing? Read the image metadata and distinguish visible details from assumptions about Thompson's life. Seek her testimony or local relief records before making broader claims."
       ],
       "options": [
         "Hurricane Katrina",
@@ -2039,31 +2129,31 @@
       ],
       "checks": [
         {
-          "prompt": "Which environmental disaster worsened hardship on the Great Plains in the 1930s?",
+          "prompt": "Who made the 1936 Migrant Mother photographs?",
           "options": [
-            "Hurricane Katrina",
-            "Dust Bowl",
-            "Mount St. Helens eruption of 1980"
-          ],
-          "answer": 1
-        },
-        {
-          "prompt": "Which method would strengthen a historical argument about Living Through the Great Depression?",
-          "options": [
-            "Compare two contextualized sources addressing Dust Bowl and mutual aid.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
+            "Dorothea Lange",
+            "Ida B. Wells",
+            "Ansel Adams"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion about Living Through the Great Depression is most defensible?",
+          "prompt": "What does comparing the photo sequence help students see?",
           "options": [
-            "Only one participant's account can establish all effects of foreclosure.",
-            "Interpret Dust Bowl in historical context and weigh competing evidence concerning oral history.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "Every family's income",
+            "How framing affects an image's message",
+            "The exact Dust Bowl death toll"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Why is the photograph not a national survey?",
+          "options": [
+            "It was drawn rather than photographed",
+            "There was no Depression in 1936",
+            "One family's documented circumstances cannot represent every community"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -2078,7 +2168,25 @@
           "Compare a dated photograph with an oral history and local relief records. Ask whether an image is staged, captioned accurately, and representative before making broad claims."
         ]
       },
-      "investigationKind": "network"
+      "investigationKind": "network",
+      "references": [
+        {
+          "title": "Migrant Mother, Nipomo, California",
+          "creator": "Dorothea Lange",
+          "date": "March 1936",
+          "url": "https://www.loc.gov/item/2017762891/",
+          "summary": "A period photo of Florence Owens Thompson and children, not a representative national survey.",
+          "type": "Primary or institutional record"
+        },
+        {
+          "title": "Migrant Mother: original photograph sequence",
+          "creator": "Dorothea Lange; Library of Congress curated guide",
+          "date": "March 1936 photographs; modern guide",
+          "url": "https://guides.loc.gov/migrant-mother/images/",
+          "summary": "Original photographs in a modern guide allow examination of selection and framing. Do not present guide prose as an eyewitness.",
+          "type": "Primary or institutional record"
+        }
+      ]
     },
     "franklin-roosevelt-s-new-deal": {
       "title": "Franklin Roosevelt's New Deal",
@@ -2088,16 +2196,16 @@
       "total": 4,
       "essential": "How did the New Deal redefine federal responsibility for economic security?",
       "paragraphs": [
-        "Franklin D. Roosevelt took office in 1933 and pursued banking reforms, emergency relief, public employment, and regulatory changes. Programs such as the Civilian Conservation Corps provided work, while the Social Security Act of 1935 established a national framework for old-age and other protections. The federal government pursued relief for immediate hardship, recovery of economic activity, and structural reform. These goals were related but not interchangeable, and programs met different criteria for success. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "New Deal policies were debated over cost, constitutionality, and effectiveness. Some occupational exclusions and local discrimination limited benefits for Black Americans and other workers, while many programs expanded the federal government's economic role. Federal rules interacted with local officials, sometimes allowing racial discrimination. A program's national title tells little about who gained access in a particular community. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Compare one program's legislative purpose with implementation records and critiques. Assess a precise outcome rather than assuming every New Deal program worked equally well. Create a matrix linking programs to goals, legal authority, outcomes, and exclusions. Explain why one measure of employment or spending cannot establish the effectiveness of the entire New Deal. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "Franklin D. Roosevelt took office in 1933 and pursued banking reforms, emergency relief, public employment, and regulatory changes. Programs such as the Civilian Conservation Corps provided work, while the Social Security Act of 1935 established a national framework for old-age and other protections. The federal government pursued relief for immediate hardship, recovery of economic activity, and structural reform. These goals were related but not interchangeable, and programs met different criteria for success.",
+        "New Deal policies were debated over cost, constitutionality, and effectiveness. Some occupational exclusions and local discrimination limited benefits for Black Americans and other workers, while many programs expanded the federal government's economic role. Federal rules interacted with local officials, sometimes allowing racial discrimination. A program's national title tells little about who gained access in a particular community.",
+        "When Franklin Roosevelt took office in 1933, banking instability demanded an immediate response. His March 12 radio address sought public confidence during the crisis. The Social Security Act of 1935 addressed different, longer-term problems through benefits and public assistance. Both were important, but neither a presidential speech nor a statute demonstrates how every community benefited. Race, occupation, and local administration shaped access."
       ],
-      "activity": "Franklin Roosevelt's New Deal · Evidence Investigation",
-      "task": "Write a claim about Franklin Roosevelt's New Deal with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "Franklin Roosevelt's New Deal · Historical evidence workshop",
+      "task": "Study Roosevelt's March 1933 banking address and the original 1935 Social Security Act. Describe the immediate problem addressed by the speech and the lasting framework created by the law. What employment and benefit records would establish which groups gained access?",
       "investigation": [
-        "Identify a dated historical document bearing on Franklin Roosevelt's New Deal. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of Franklin Roosevelt's New Deal. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about Franklin Roosevelt's New Deal with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Examine Social Security Act (August 14, 1935). Identify the creator and what the record can directly establish.",
+        "Compare it with First fireside chat on the banking crisis. Identify provenance and whether it is a contemporary item or later interpretation.",
+        "Study Roosevelt's March 1933 banking address and the original 1935 Social Security Act. Describe the immediate problem addressed by the speech and the lasting framework created by the law. What employment and benefit records would establish which groups gained access?"
       ],
       "options": [
         "Civil Rights Act of 1964",
@@ -2114,31 +2222,31 @@
       ],
       "checks": [
         {
-          "prompt": "Which New Deal-era law established a national Social Security framework in 1935?",
+          "prompt": "What did Roosevelt discuss in his March 12, 1933 radio address?",
           "options": [
-            "Civil Rights Act of 1964",
-            "Kansas–Nebraska Act",
-            "Social Security Act"
-          ],
-          "answer": 2
-        },
-        {
-          "prompt": "Which method would strengthen a historical argument about Franklin Roosevelt's New Deal?",
-          "options": [
-            "Compare two contextualized sources addressing New Deal and CCC.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
+            "The banking crisis",
+            "The invasion of Normandy",
+            "The Marshall Plan"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion about Franklin Roosevelt's New Deal is most defensible?",
+          "prompt": "Which 1935 law established social-insurance and aid programs?",
           "options": [
-            "Only one participant's account can establish all effects of Social Security Act.",
-            "Interpret New Deal in historical context and weigh competing evidence concerning federal relief.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "The Volstead Act",
+            "The Social Security Act",
+            "The Pendleton Act"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What goes beyond these two original documents?",
+          "options": [
+            "Roosevelt addressed the public on banking",
+            "Congress passed a major social law",
+            "All Americans immediately received equal benefits"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -2153,7 +2261,25 @@
           "Compare one program's legislative purpose with implementation records and critiques. Assess a precise outcome rather than assuming every New Deal program worked equally well."
         ]
       },
-      "investigationKind": "compare"
+      "investigationKind": "compare",
+      "references": [
+        {
+          "title": "Social Security Act",
+          "creator": "United States Congress",
+          "date": "August 14, 1935",
+          "url": "https://www.archives.gov/milestone-documents/social-security-act",
+          "summary": "Dated statute creating social-insurance and assistance frameworks; original coverage had gaps.",
+          "type": "Primary or institutional record"
+        },
+        {
+          "title": "First fireside chat on the banking crisis",
+          "creator": "Franklin D. Roosevelt",
+          "date": "March 12, 1933",
+          "url": "https://www.fdrlibrary.org/banking-curriculum-hub",
+          "summary": "Original radio speech accessible via FDR Library teaching hub; distinguish speech itself from modern editorial framing.",
+          "type": "Primary or institutional record"
+        }
+      ]
     },
     "did-the-new-deal-transform-government": {
       "title": "Did the New Deal Transform Government?",
@@ -2163,16 +2289,16 @@
       "total": 4,
       "essential": "Was the New Deal a temporary emergency response or an enduring change?",
       "paragraphs": [
-        "New Deal legislation expanded regulatory agencies, labor protections, and social insurance. The Wagner Act of 1935 strengthened collective-bargaining protections for many workers, while the Fair Labor Standards Act of 1938 established federal wage and hour standards. Permanent changes to regulation, labor law, and social insurance outlasted individual emergency programs. The Social Security framework and labor standards affected later generations beyond the immediate crisis. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "Critics objected to increased federal power; supporters argued that economic insecurity required structural change. The extent to which federal programs ended the Depression remains debated, with wartime mobilization later reshaping employment. New Deal opponents warned about federal power or expense, while supporters argued that market instability required public responsibility. Both arguments should be examined using legal and economic evidence. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Use a before-and-after institutional comparison and distinguish lasting laws from short-lived emergency programs. Weigh continuity, change, and contested impacts. A balanced conclusion must specify a dimension of transformation—government size, legal authority, labor relations, or expectations of security—and test it across the decades after the 1930s. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "New Deal legislation expanded regulatory agencies, labor protections, and social insurance. The Wagner Act of 1935 strengthened collective-bargaining protections for many workers, while the Fair Labor Standards Act of 1938 established federal wage and hour standards. Permanent changes to regulation, labor law, and social insurance outlasted individual emergency programs. The Social Security framework and labor standards affected later generations beyond the immediate crisis.",
+        "Critics objected to increased federal power; supporters argued that economic insecurity required structural change. The extent to which federal programs ended the Depression remains debated, with wartime mobilization later reshaping employment. New Deal opponents warned about federal power or expense, while supporters argued that market instability required public responsibility. Both arguments should be examined using legal and economic evidence.",
+        "The Wagner Act of 1935, Social Security Act of 1935, and Fair Labor Standards Act of 1938 illustrate lasting changes to the federal government's role in labor and economic security. Yet not all workers were covered and legal rules were not the same as effective enforcement. The question is not whether government became 'good' or 'bad' but what institutions changed, who gained protections, and whose needs remained unmet."
       ],
-      "activity": "Did the New Deal Transform Government? · Evidence Investigation",
-      "task": "Write a claim about Did the New Deal Transform Government? with two corroborating details, a plausible counterargument, and an explicit qualification.",
+      "activity": "Did the New Deal Transform Government? · Historical evidence workshop",
+      "task": "Compare the Wagner Act and the Department of Labor's history of the 1938 Fair Labor Standards Act, then bring in the Social Security Act. Identify the different powers and protections each established. Write a qualified claim about lasting federal change using a coverage limitation and evidence that would test real-world enforcement.",
       "investigation": [
-        "Identify a dated historical document bearing on Did the New Deal Transform Government?. Describe its creator, intended audience, and one limitation.",
-        "Compare two historical explanations of Did the New Deal Transform Government?. Distinguish what the evidence supports from later interpretation.",
-        "Write a claim about Did the New Deal Transform Government? with two corroborating details, a plausible counterargument, and an explicit qualification."
+        "Examine National Labor Relations Act (Wagner Act) (July 5, 1935). Identify the creator and what the record can directly establish.",
+        "Compare it with Fair Labor Standards Act of 1938: legislative history. Identify provenance and whether it is a contemporary item or later interpretation.",
+        "Compare the Wagner Act and the Department of Labor's history of the 1938 Fair Labor Standards Act, then bring in the Social Security Act. Identify the different powers and protections each established. Write a qualified claim about lasting federal change using a coverage limitation and evidence that would test real-world enforcement."
       ],
       "options": [
         "Fair Labor Standards Act",
@@ -2189,31 +2315,31 @@
       ],
       "checks": [
         {
-          "prompt": "Which 1938 law established federal minimum-wage and overtime standards for covered workers?",
+          "prompt": "Which 1935 law strengthened collective bargaining rights for covered workers?",
           "options": [
-            "Fair Labor Standards Act",
-            "Fugitive Slave Act",
-            "Alien and Sedition Acts"
+            "The National Labor Relations Act",
+            "The Treaty of Versailles",
+            "The Eighteenth Amendment"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which method would strengthen a historical argument about Did the New Deal Transform Government??",
+          "prompt": "Which act was signed in June 1938?",
           "options": [
-            "Compare two contextualized sources addressing Wagner Act and Fair Labor Standards Act.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion about Did the New Deal Transform Government? is most defensible?",
-          "options": [
-            "Only one participant's account can establish all effects of social insurance.",
-            "Interpret Wagner Act in historical context and weigh competing evidence concerning federal regulation.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "The Homestead Act",
+            "The Fair Labor Standards Act",
+            "The Interstate Commerce Act"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "How could a historian judge the New Deal's lasting government role?",
+          "options": [
+            "By reading titles of statutes only",
+            "By considering Roosevelt's speeches alone",
+            "By examining legal powers, enforcement and coverage over time"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -2228,7 +2354,25 @@
           "Use a before-and-after institutional comparison and distinguish lasting laws from short-lived emergency programs. Weigh continuity, change, and contested impacts."
         ]
       },
-      "investigationKind": "source"
+      "investigationKind": "source",
+      "references": [
+        {
+          "title": "National Labor Relations Act (Wagner Act)",
+          "creator": "United States Congress",
+          "date": "July 5, 1935",
+          "url": "https://www.archives.gov/milestone-documents/national-labor-relations-act",
+          "summary": "Historical statute protecting collective bargaining for covered workers, not all occupations.",
+          "type": "Primary or institutional record"
+        },
+        {
+          "title": "Fair Labor Standards Act of 1938: legislative history",
+          "creator": "U.S. Department of Labor",
+          "date": "1938 law; retrospective history",
+          "url": "https://www.dol.gov/general/aboutdol/history/flsa1938",
+          "summary": "Institutional account of wage, hour and child-labor reform; secondary explanation rather than original enrolled act.",
+          "type": "Secondary institutional history"
+        }
+      ]
     },
     "causes-of-world-war-ii": {
       "title": "Causes of World War II",
