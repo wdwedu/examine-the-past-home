@@ -166,9 +166,9 @@
       "total": 4,
       "essential": "How could Reconstruction transform the Constitution yet leave racial inequality entrenched?",
       "paragraphs": [
-        "The Thirteenth, Fourteenth, and Fifteenth Amendments reshaped citizenship and freedom between 1865 and 1870. Black communities formed schools, churches, and political organizations while white supremacists employed terror to undermine their rights. Federal troops and federal courts could sometimes protect voting rights, but local officials and paramilitary groups often resisted enforcement. Legal equality cannot be measured solely by the existence of an amendment. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "Federal enforcement weakened over the 1870s; the 1877 political transition is often treated as an endpoint, but constitutional change and Black civic organizing continued. Period labels therefore clarify chronology without explaining every individual's experience. The economic situation of many freedpeople remained constrained by landownership, labor contracts, and debt. Analyze the relationship between political rights and material power instead of assuming that one automatically produced the other. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Compare the Fourteenth Amendment with a Reconstruction-era report of voting intimidation. Distinguish legal rights from enforcement and explain why the two sources cannot be treated as interchangeable. The chronology extends beyond 1877: later court decisions, segregation laws, and campaigns for voting access show how constitutional protections were repeatedly contested. A well-supported thesis should recognize both constitutional change and retreat. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "The Thirteenth, Fourteenth, and Fifteenth Amendments reshaped citizenship and freedom between 1865 and 1870. Black communities formed schools, churches, and political organizations while white supremacists employed terror to undermine their rights. Federal troops and federal courts could sometimes protect voting rights, but local officials and paramilitary groups often resisted enforcement. Legal equality cannot be measured solely by the existence of an amendment.",
+        "Federal enforcement weakened over the 1870s; the 1877 political transition is often treated as an endpoint, but constitutional change and Black civic organizing continued. Period labels therefore clarify chronology without explaining every individual's experience. The economic situation of many freedpeople remained constrained by landownership, labor contracts, and debt. Analyze the relationship between political rights and material power instead of assuming that one automatically produced the other.",
+        "Start with a simple question: What changed on paper, and what changed in people's lives? Read Section 1 of the Fourteenth Amendment alongside the Fifteenth Amendment. The first addresses citizenship and equal protection; the second addresses racial discrimination in voting. Neither text tells us how a particular county carried out those guarantees. To answer that, students would need local election records, testimony, or reports of intimidation. Explain how an amendment can be a turning point and still leave a struggle unfinished."
       ],
       "activity": "Reconstruction's Unfinished Legacy · Evidence Investigation",
       "task": "Write a claim about Reconstruction's Unfinished Legacy with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -192,31 +192,31 @@
       ],
       "checks": [
         {
-          "prompt": "Which amendment included an Equal Protection Clause?",
+          "prompt": "Which guarantee appears in Section 1 of the Fourteenth Amendment?",
           "options": [
-            "The Fourteenth Amendment",
-            "The Twenty-Sixth Amendment",
-            "The Second Amendment"
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which method would strengthen a historical argument about Reconstruction's Unfinished Legacy?",
-          "options": [
-            "Compare two contextualized sources addressing Reconstruction and equal protection.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion about Reconstruction's Unfinished Legacy is most defensible?",
-          "options": [
-            "Only one participant's account can establish all effects of disenfranchisement.",
-            "Interpret Reconstruction in historical context and weigh competing evidence concerning federal enforcement.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "Direct election of senators",
+            "Equal protection of the laws",
+            "Voting rights beginning at age eighteen"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What did the Fifteenth Amendment specifically prohibit?",
+          "options": [
+            "A state denying voting rights because of race, color, or previous servitude",
+            "Every restriction on voting by any citizen",
+            "A literacy requirement in every setting"
+          ],
+          "answer": 0
+        },
+        {
+          "prompt": "Why can't the text of the Fourteenth Amendment alone establish that Black citizens were protected in practice?",
+          "options": [
+            "It was never ratified",
+            "It applied only to federal laws",
+            "A legal guarantee and its actual enforcement are different kinds of evidence"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -240,6 +240,14 @@
           "type": "Primary",
           "url": "https://www.archives.gov/milestone-documents/14th-amendment",
           "summary": "Read Section 1 and distinguish the amendment's legal guarantees from evidence of enforcement in Reconstruction-era communities. The amendment alone does not prove equal protection was practiced."
+        },
+        {
+          "title": "15th Amendment to the U.S. Constitution",
+          "creator": "United States Congress and ratifying states",
+          "date": "1870",
+          "type": "Primary",
+          "url": "https://www.archives.gov/milestone-documents/15th-amendment",
+          "summary": "Read the restriction on denying voting rights because of race, color, or previous condition of servitude. Contrast the legal text with evidence of violence and restrictions on Black voting; the amendment did not guarantee enforcement."
         }
       ]
     },
@@ -251,9 +259,9 @@
       "total": 4,
       "essential": "When did industrial efficiency become concentrated private power?",
       "paragraphs": [
-        "Railroad expansion and mass production enabled national markets after the Civil War. Carnegie's steel businesses and Rockefeller's oil enterprises illustrate the growth of corporate consolidation through different strategies. Steel production relied on ore, fuel, transportation, capital, and labor; controlling multiple links in that chain differed from buying competing mills. These business structures are not interchangeable, and their effects varied by industry. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "Integration could lower some costs but also give firms significant control over markets, labor, and competitors. The Sherman Antitrust Act of 1890 was an early federal response to concerns about monopolization. A low retail price can benefit consumers while restrictive practices harm competitors or employees. Evaluate more than one outcome before interpreting consolidation, and ask whether claims about efficiency relied on independent measurements. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Contrast the arguments of a corporate executive with worker testimony and competition policy. Separate evidence of output growth from claims about fairness or public benefit. Economic evidence can be distorted by selective periods. If an executive reports higher production, check wages, profits, market share, and safety across a comparable time span before using the number to defend a broad conclusion. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "Railroad expansion and mass production enabled national markets after the Civil War. Carnegie's steel businesses and Rockefeller's oil enterprises illustrate the growth of corporate consolidation through different strategies. Steel production relied on ore, fuel, transportation, capital, and labor; controlling multiple links in that chain differed from buying competing mills. These business structures are not interchangeable, and their effects varied by industry.",
+        "Integration could lower some costs but also give firms significant control over markets, labor, and competitors. The Sherman Antitrust Act of 1890 was an early federal response to concerns about monopolization. A low retail price can benefit consumers while restrictive practices harm competitors or employees. Evaluate more than one outcome before interpreting consolidation, and ask whether claims about efficiency relied on independent measurements.",
+        "Suppose a business can make steel more cheaply by controlling its mines and rail connections. Is that proof it serves the public? Not by itself. Lower production costs, worker conditions, competition, and consumer prices are separate questions. Examine the Interstate Commerce Act of 1887 and Sherman Antitrust Act of 1890. Identify the problem each law addressed, then explain what additional business records would be needed to judge the actual effects on workers and buyers."
       ],
       "activity": "The Rise of Big Business · Evidence Investigation",
       "task": "Write a claim about The Rise of Big Business with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -277,31 +285,31 @@
       ],
       "checks": [
         {
-          "prompt": "Which 1890 law targeted monopolization and restraints of trade?",
+          "prompt": "Which law, enacted in 1890, addressed certain restraints of trade and monopolization?",
           "options": [
-            "Social Security Act",
             "Sherman Antitrust Act",
-            "Homestead Act"
-          ],
-          "answer": 1
-        },
-        {
-          "prompt": "Which method would strengthen a historical argument about The Rise of Big Business?",
-          "options": [
-            "Compare two contextualized sources addressing vertical integration and horizontal integration.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
+            "Homestead Act",
+            "Federal Reserve Act"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion about The Rise of Big Business is most defensible?",
+          "prompt": "Which example best illustrates vertical integration in steel production?",
           "options": [
-            "Only one participant's account can establish all effects of trust.",
-            "Interpret vertical integration in historical context and weigh competing evidence concerning antitrust.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "Buying only rival steel companies",
+            "Controlling mines, transport, and steel mills within a supply chain",
+            "Selling shares to unrelated investors"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What would best test a company's claim that consolidation benefited everyone?",
+          "options": [
+            "Its own advertising campaign alone",
+            "The owner's statement about efficiency",
+            "Evidence about costs, wages, prices, competition, and safety over comparable years"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -316,7 +324,25 @@
           "Contrast the arguments of a corporate executive with worker testimony and competition policy. Separate evidence of output growth from claims about fairness or public benefit."
         ]
       },
-      "investigationKind": "cause"
+      "investigationKind": "cause",
+      "references": [
+        {
+          "title": "Sherman Anti-Trust Act",
+          "creator": "United States Congress",
+          "date": "July 2, 1890",
+          "type": "Primary",
+          "url": "https://www.archives.gov/milestone-documents/sherman-anti-trust-act",
+          "summary": "Examine the law's prohibitions on certain restraints of trade and monopolization. Passage of the act does not establish that enforcement immediately succeeded."
+        },
+        {
+          "title": "Interstate Commerce Act",
+          "creator": "United States Congress",
+          "date": "February 4, 1887",
+          "type": "Primary",
+          "url": "https://www.archives.gov/milestone-documents/interstate-commerce-act",
+          "summary": "Compare federal railroad regulation with federal antitrust law; they governed different problems and should not be treated as interchangeable."
+        }
+      ]
     },
     "labor-immigration-and-urban-america": {
       "title": "Labor, Immigration, and Urban America",
@@ -326,9 +352,9 @@
       "total": 4,
       "essential": "How did industrial growth expand opportunities while provoking conflict?",
       "paragraphs": [
-        "Industrial cities attracted migrants and immigrants seeking work. Factory labor, rail construction, and urban services grew, but workers also faced long hours, workplace hazards, and crowded housing. Urban industrialization did not create one immigrant experience. Job access, legal status, race, gender, language, and established family networks affected the possibilities available to newcomers. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "The 1894 Pullman Strike exposed conflict over wages, corporate housing, union organizing, and federal intervention. Government decisions sometimes defended public transportation while limiting labor protest. A labor dispute could involve private management, organized workers, state officials, and the national government. Each participant might describe the same strike differently because wages, property, public transportation, and political legitimacy were at stake. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Compare wage records, a worker's account, and a newspaper editorial. Ask who produced each source, what details can be corroborated, and whose voice is absent. When working with immigration statistics, distinguish total arrivals from the proportion of the population that was foreign-born. Compare evidence from a particular city before generalizing to the entire nation. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "Industrial cities attracted migrants and immigrants seeking work. Factory labor, rail construction, and urban services grew, but workers also faced long hours, workplace hazards, and crowded housing. Urban industrialization did not create one immigrant experience. Job access, legal status, race, gender, language, and established family networks affected the possibilities available to newcomers.",
+        "The 1894 Pullman Strike exposed conflict over wages, corporate housing, union organizing, and federal intervention. Government decisions sometimes defended public transportation while limiting labor protest. A labor dispute could involve private management, organized workers, state officials, and the national government. Each participant might describe the same strike differently because wages, property, public transportation, and political legitimacy were at stake.",
+        "A factory worker, a Pullman Company manager, and a federal investigator could describe the same strike differently without describing different events. Read the United States Strike Commission's report and identify whose testimony it collected and how it explained the dispute. Then use Jacob Riis's 1890 book to investigate another feature of industrial urban life: crowded housing. Neither source represents every worker or immigrant. Write a conclusion that respects those limits and makes room for missing voices."
       ],
       "activity": "Labor, Immigration, and Urban America · Evidence Investigation",
       "task": "Write a claim about Labor, Immigration, and Urban America with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -352,31 +378,31 @@
       ],
       "checks": [
         {
-          "prompt": "Which 1894 strike involved railway workers and federal intervention?",
+          "prompt": "Which dispute sparked a major national rail conflict in 1894?",
           "options": [
-            "Boston Tea Party",
-            "Memphis Sanitation Strike",
-            "Pullman Strike"
-          ],
-          "answer": 2
-        },
-        {
-          "prompt": "Which method would strengthen a historical argument about Labor, Immigration, and Urban America?",
-          "options": [
-            "Compare two contextualized sources addressing collective bargaining and tenement.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
+            "The Pullman Strike",
+            "The Boston Tea Party",
+            "The Homestead Act"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion about Labor, Immigration, and Urban America is most defensible?",
+          "prompt": "What kind of source is the federal Strike Commission's report?",
           "options": [
-            "Only one participant's account can establish all effects of urbanization.",
-            "Interpret collective bargaining in historical context and weigh competing evidence concerning strike.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "A fictional account written for entertainment",
+            "A government investigation produced after the dispute",
+            "A company payroll ledger"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Why shouldn't Riis's images be taken as a complete picture of immigrant life?",
+          "options": [
+            "Riis made no observations of New York",
+            "Tenements did not exist in 1890",
+            "His selection and framing cannot represent every immigrant household"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -391,7 +417,25 @@
           "Compare wage records, a worker's account, and a newspaper editorial. Ask who produced each source, what details can be corroborated, and whose voice is absent."
         ]
       },
-      "investigationKind": "network"
+      "investigationKind": "network",
+      "references": [
+        {
+          "title": "Report on the Chicago Strike of June–July 1894",
+          "creator": "United States Strike Commission",
+          "date": "1895 (report submitted November 1894)",
+          "type": "Primary",
+          "url": "https://www.loc.gov/item/07032229/",
+          "summary": "Federal investigation of the Pullman conflict. Read as an official inquiry shaped by its mandate; compare with workers' direct testimony and note the gap between report submission and publication."
+        },
+        {
+          "title": "How the Other Half Lives: Studies among the Tenements of New York",
+          "creator": "Jacob A. Riis",
+          "date": "1890",
+          "type": "Primary",
+          "url": "https://www.loc.gov/item/04011775/",
+          "summary": "Riis documented tenement conditions through prose and illustrations. He was an advocate with particular editorial choices, not a neutral survey of every immigrant family."
+        }
+      ]
     },
     "the-gilded-age-wealth-and-inequality": {
       "title": "The Gilded Age: Wealth and Inequality",
@@ -401,9 +445,9 @@
       "total": 4,
       "essential": "How should historians measure progress when prosperity was uneven?",
       "paragraphs": [
-        "Industrial fortunes and new markets expanded in the late nineteenth century while many wage earners and tenant farmers experienced insecurity. Political patronage and corporate influence drew criticism. The term 'gilded' suggests a glittering surface with less attractive conditions underneath. This metaphor encourages questions about whose prosperity is visible in newspaper headlines and whose insecurity remains hidden. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "Farmers' alliances and Populists demanded changes to credit, transport regulation, and political decision-making. Political cartoons depicted corruption and inequality but were designed to persuade readers. Railroad rate disputes and access to credit shaped farmers' complaints. Examine whether a party platform sought a particular remedy rather than assuming every reformer had the same explanation of inequality. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Interpret a hypothetical income-distribution chart, then compare it with an authentic Populist platform and a political cartoon. Do not treat visual satire as a statistical source. A cartoon of a wealthy industrialist standing above lawmakers communicates a criticism through exaggeration. Identify the artistic claim, then search for corroborating evidence before repeating it as fact. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "Industrial fortunes and new markets expanded in the late nineteenth century while many wage earners and tenant farmers experienced insecurity. Political patronage and corporate influence drew criticism. The term 'gilded' suggests a glittering surface with less attractive conditions underneath. This metaphor encourages questions about whose prosperity is visible in newspaper headlines and whose insecurity remains hidden.",
+        "Farmers' alliances and Populists demanded changes to credit, transport regulation, and political decision-making. Political cartoons depicted corruption and inequality but were designed to persuade readers. Railroad rate disputes and access to credit shaped farmers' complaints. Examine whether a party platform sought a particular remedy rather than assuming every reformer had the same explanation of inequality.",
+        "The 1892 Populist platform is not a neutral description of the economy. It is a political argument written to win support. Highlight a demand about railroads, money, or taxation, and ask which groups would benefit if the proposal became law. Compare its demands with the Interstate Commerce Act of 1887. Where did Populists think existing policy fell short? For a claim about the size of the wealth gap, find actual income or property records rather than treating a campaign speech or cartoon as numerical proof."
       ],
       "activity": "The Gilded Age: Wealth and Inequality · Evidence Investigation",
       "task": "Write a claim about The Gilded Age: Wealth and Inequality with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -427,31 +471,31 @@
       ],
       "checks": [
         {
-          "prompt": "Which movement attracted farmers challenging concentrated economic power in the 1890s?",
+          "prompt": "Which document sets out the People's Party's demands in 1892?",
           "options": [
-            "Populists",
-            "Sons of Liberty",
-            "Anti-Federalists"
+            "The Omaha Platform",
+            "The Bill of Rights",
+            "The Truman Doctrine"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which method would strengthen a historical argument about The Gilded Age: Wealth and Inequality?",
+          "prompt": "What does the Omaha Platform most directly reveal?",
           "options": [
-            "Compare two contextualized sources addressing Gilded Age and patronage.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion about The Gilded Age: Wealth and Inequality is most defensible?",
-          "options": [
-            "Only one participant's account can establish all effects of Populism.",
-            "Interpret Gilded Age in historical context and weigh competing evidence concerning income inequality.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "Exactly how every farmer voted",
+            "The reforms and grievances the party publicly advanced",
+            "The nation's audited income distribution"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "What evidence would best support a precise claim about late nineteenth-century inequality?",
+          "options": [
+            "A cartoon alone",
+            "A candidate's slogan alone",
+            "Dated wage, wealth, or property data with stated coverage and limits"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -466,7 +510,25 @@
           "Interpret a hypothetical income-distribution chart, then compare it with an authentic Populist platform and a political cartoon. Do not treat visual satire as a statistical so"
         ]
       },
-      "investigationKind": "compare"
+      "investigationKind": "compare",
+      "references": [
+        {
+          "title": "Populist Party Platform (Omaha Platform)",
+          "creator": "People's Party national convention",
+          "date": "July 4, 1892",
+          "type": "Primary",
+          "url": "https://www.presidency.ucsb.edu/documents/populist-party-platform-1892",
+          "summary": "Primary political program describing Populist grievances and proposed reforms; its assertions are arguments by political organizers, not independently verified statistics."
+        },
+        {
+          "title": "Interstate Commerce Act",
+          "creator": "United States Congress",
+          "date": "February 4, 1887",
+          "type": "Primary",
+          "url": "https://www.archives.gov/milestone-documents/interstate-commerce-act",
+          "summary": "Shows an earlier federal attempt to address railroad practices. Compare the act's authority with the remedies demanded in the 1892 platform."
+        }
+      ]
     },
     "the-progressive-movement": {
       "title": "The Progressive Movement",
@@ -476,9 +538,9 @@
       "total": 4,
       "essential": "Whose definition of progress influenced early twentieth-century reform?",
       "paragraphs": [
-        "Progressive-era reformers criticized corruption, unsafe work, and some forms of corporate power. Movements supported sanitation, consumer protection, municipal reform, and workplace standards. Progressive campaigns often relied on local organizations, settlement workers, labor activists, and journalists rather than presidents alone. They disagreed about whether government should regulate business, directly provide services, or change democratic procedures. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "Progressive programs varied in their treatment of race, immigration, and women's rights; some reformers also embraced discriminatory policies. A single celebratory story of reform hides these contradictions. Municipal sanitation initiatives could reduce disease, but urban conditions also reflected overcrowded housing and uneven public investment. An assessment should consider measurable outcomes and whose neighborhoods benefited. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Use one reform law and one affected group's perspective to evaluate both achievement and exclusion. Distinguish a reformer's stated aim from documented results. Some reformers defended racial segregation or coercive theories of social improvement, which means 'reform' should not automatically be read as equality. Historians evaluate particular policies rather than giving an entire movement a single moral label. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "Progressive-era reformers criticized corruption, unsafe work, and some forms of corporate power. Movements supported sanitation, consumer protection, municipal reform, and workplace standards. Progressive campaigns often relied on local organizations, settlement workers, labor activists, and journalists rather than presidents alone. They disagreed about whether government should regulate business, directly provide services, or change democratic procedures.",
+        "Progressive programs varied in their treatment of race, immigration, and women's rights; some reformers also embraced discriminatory policies. A single celebratory story of reform hides these contradictions. Municipal sanitation initiatives could reduce disease, but urban conditions also reflected overcrowded housing and uneven public investment. An assessment should consider measurable outcomes and whose neighborhoods benefited.",
+        "Progressives did not all pursue the same remedy. The 1911 Triangle factory fire became a powerful example in campaigns for workplace safety. The Seventeenth Amendment, ratified in 1913, changed how senators were chosen. One concerned conditions inside factories; the other changed representation in government. Examine the photographic record and the amendment separately. What can each establish? What would you still need to know to decide whether the reform succeeded, and for whom?"
       ],
       "activity": "The Progressive Movement · Evidence Investigation",
       "task": "Write a claim about The Progressive Movement with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -502,31 +564,31 @@
       ],
       "checks": [
         {
-          "prompt": "Which goal was associated with many Progressive Era reformers?",
+          "prompt": "What major disaster occurred at New York's Triangle Waist Company in 1911?",
           "options": [
-            "Improving public health and regulating unsafe practices",
-            "Repealing the Constitution",
-            "Restoring British colonial rule"
+            "An industrial factory fire",
+            "A presidential assassination",
+            "A banking panic"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which method would strengthen a historical argument about The Progressive Movement?",
+          "prompt": "What changed under the Seventeenth Amendment?",
           "options": [
-            "Compare two contextualized sources addressing Progressivism and municipal reform.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion about The Progressive Movement is most defensible?",
-          "options": [
-            "Only one participant's account can establish all effects of social welfare.",
-            "Interpret Progressivism in historical context and weigh competing evidence concerning exclusion.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "The voting age was lowered",
+            "U.S. senators were elected directly by voters",
+            "Congress abolished the Senate"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Which comparison best avoids oversimplifying Progressivism?",
+          "options": [
+            "Treat every reform as the same policy",
+            "Assume all Progressives agreed about race and equality",
+            "Compare each reform's goal, who benefited, and who remained excluded"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -541,7 +603,25 @@
           "Use one reform law and one affected group's perspective to evaluate both achievement and exclusion. Distinguish a reformer's stated aim from documented results."
         ]
       },
-      "investigationKind": "source"
+      "investigationKind": "source",
+      "references": [
+        {
+          "title": "Triangle Waist Company Fire, New York City, March 1911 (photographic record)",
+          "creator": "Photographers represented in Library of Congress collection",
+          "date": "March 1911",
+          "type": "Primary",
+          "url": "https://www.loc.gov/item/2005675237/",
+          "summary": "Photographs document scenes associated with the fire, not the private decisions that produced unsafe conditions. Avoid treating any unidentified person as a named victim."
+        },
+        {
+          "title": "17th Amendment to the U.S. Constitution",
+          "creator": "United States Congress and ratifying states",
+          "date": "1913",
+          "type": "Primary",
+          "url": "https://www.archives.gov/milestone-documents/17th-amendment",
+          "summary": "A structural reform requiring direct popular election of U.S. senators. Compare political reform with workplace reform rather than describing all Progressive goals as identical."
+        }
+      ]
     },
     "investigative-journalism-and-social-change": {
       "title": "Investigative Journalism and Social Change",
@@ -551,9 +631,9 @@
       "total": 4,
       "essential": "Can journalism change laws without being free of bias?",
       "paragraphs": [
-        "Investigative journalists and activists exposed abuses in business and urban life. Ida B. Wells's anti-lynching investigations challenged false justifications for racial terror, while Upton Sinclair's The Jungle drew attention to conditions in the meatpacking industry. Wells examined specific cases and challenged public narratives that excused anti-Black violence. Her reporting demonstrated why naming victims, investigating alleged motives, and comparing accounts mattered for exposing organized terror. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "The public response to Sinclair's 1906 novel helped build pressure for federal food-safety laws, but fiction and investigative reporting require different kinds of verification. Wells's use of documented cases demonstrates the importance of source collection and political context. Sinclair's novel used fictional characters to portray labor and food-industry conditions. A historical claim about inspection laws is strongest when supported with the actual statutes and regulatory records, not solely a literary scene. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Compare a novel excerpt, an investigative report, and a legislative text. Identify genre, claims, supporting evidence, and what reform actually followed. Investigative journalism can influence public opinion, but a sequence of publication followed by legislation does not automatically prove a single cause. Consider activism, political negotiations, and prior proposals. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "Investigative journalists and activists exposed abuses in business and urban life. Ida B. Wells's anti-lynching investigations challenged false justifications for racial terror, while Upton Sinclair's The Jungle drew attention to conditions in the meatpacking industry. Wells examined specific cases and challenged public narratives that excused anti-Black violence. Her reporting demonstrated why naming victims, investigating alleged motives, and comparing accounts mattered for exposing organized terror.",
+        "The public response to Sinclair's 1906 novel helped build pressure for federal food-safety laws, but fiction and investigative reporting require different kinds of verification. Wells's use of documented cases demonstrates the importance of source collection and political context. Sinclair's novel used fictional characters to portray labor and food-industry conditions. A historical claim about inspection laws is strongest when supported with the actual statutes and regulatory records, not solely a literary scene.",
+        "Compare the kinds of truth these writers could claim. Ida B. Wells investigated lynchings, challenged excuses offered for racial terror, and used documented cases. Upton Sinclair wrote a novel that dramatized exploitation in Chicago's meatpacking world. Both publications mattered, but a novel's dialogue cannot serve as sworn testimony. Use an excerpt from Wells, a passage from Sinclair, and an independent account of 1906 food regulation. Explain what each can establish, and avoid claiming one publication alone caused a law."
       ],
       "activity": "Investigative Journalism and Social Change · Evidence Investigation",
       "task": "Write a claim about Investigative Journalism and Social Change with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -577,31 +657,31 @@
       ],
       "checks": [
         {
-          "prompt": "Which activist investigated and documented lynching in the United States?",
+          "prompt": "Which writer documented lynchings and challenged excuses used to defend racial violence?",
           "options": [
-            "Sacagawea",
             "Ida B. Wells",
-            "Betsy Ross"
-          ],
-          "answer": 1
-        },
-        {
-          "prompt": "Which method would strengthen a historical argument about Investigative Journalism and Social Change?",
-          "options": [
-            "Compare two contextualized sources addressing muckraker and investigative reporting.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
+            "Upton Sinclair",
+            "Andrew Carnegie"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion about Investigative Journalism and Social Change is most defensible?",
+          "prompt": "Why does The Jungle require a different source-reading approach from Wells's investigative pamphlet?",
           "options": [
-            "Only one participant's account can establish all effects of corroboration.",
-            "Interpret muckraker in historical context and weigh competing evidence concerning public opinion.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "It contains no social criticism",
+            "Its characters and scenes are constructed within a novel",
+            "It was published after 1950"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Which claim needs additional evidence beyond publication dates alone?",
+          "options": [
+            "Wells published investigative work",
+            "Sinclair published The Jungle in 1906",
+            "A single novel was the sole cause of the 1906 food laws"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -616,7 +696,25 @@
           "Compare a novel excerpt, an investigative report, and a legislative text. Identify genre, claims, supporting evidence, and what reform actually followed."
         ]
       },
-      "investigationKind": "rights"
+      "investigationKind": "rights",
+      "references": [
+        {
+          "title": "Lynch Law in Georgia: A Six-Weeks' Record",
+          "creator": "Ida B. Wells-Barnett",
+          "date": "1899",
+          "type": "Primary",
+          "url": "https://www.loc.gov/item/91898209/",
+          "summary": "Wells's contemporary investigation records anti-Black lynchings and examines press accounts. Contains graphic descriptions of racial violence; educators should provide a content advisory and select short, suitable passages."
+        },
+        {
+          "title": "The Jungle",
+          "creator": "Upton Sinclair",
+          "date": "1906",
+          "type": "Primary literary work",
+          "url": "https://www.gutenberg.org/ebooks/140",
+          "summary": "Historical novel available in complete text. Its fictional characters are not witnesses; verify claims about conditions and law against separate contemporary records."
+        }
+      ]
     },
     "women-s-suffrage": {
       "title": "Women's Suffrage",
@@ -626,9 +724,9 @@
       "total": 4,
       "essential": "Why did the struggle for voting rights require multiple strategies and generations?",
       "paragraphs": [
-        "Women's suffrage organizers developed state-level campaigns, marches, petitions, and constitutional lobbying. The National American Woman Suffrage Association and National Woman's Party pursued different strategies over time. Suffrage victories occurred in different states before the national amendment. These earlier campaigns supplied organizers with experience in lobbying, public persuasion, and coalition building. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "The Nineteenth Amendment was ratified in 1920, prohibiting denial of voting rights on account of sex. Racist restrictions still prevented many women of color from voting; formal constitutional change did not ensure equal access. Women's voting rights were not distributed equally after 1920. Poll taxes, literacy tests, intimidation, and citizenship restrictions continued to prevent numerous women from voting, particularly in communities already targeted by racial exclusion. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Compare campaign arguments with voting restrictions affecting Black and Indigenous women. Evaluate the distinction between an amendment's wording and the experiences of different communities. A historical timeline should separate state suffrage laws, congressional passage, ratification, and actual access to registration. This distinction demonstrates why a legal milestone can be essential without being a complete history. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "Women's suffrage organizers developed state-level campaigns, marches, petitions, and constitutional lobbying. The National American Woman Suffrage Association and National Woman's Party pursued different strategies over time. Suffrage victories occurred in different states before the national amendment. These earlier campaigns supplied organizers with experience in lobbying, public persuasion, and coalition building.",
+        "The Nineteenth Amendment was ratified in 1920, prohibiting denial of voting rights on account of sex. Racist restrictions still prevented many women of color from voting; formal constitutional change did not ensure equal access. Women's voting rights were not distributed equally after 1920. Poll taxes, literacy tests, intimidation, and citizenship restrictions continued to prevent numerous women from voting, particularly in communities already targeted by racial exclusion.",
+        "The Nineteenth Amendment is a landmark, but it is not the entire story of who could vote in 1920. Start with the amendment's wording. Then examine the named 1918 anti-suffrage petition in the National Archives document collection. What did opponents fear would change? Finally, investigate legal and practical barriers that still affected many Black, Native, Asian American, and other women after ratification. Distinguish an amendment's promise from the citizenship rules, discrimination, and local practices that shaped access to the polls."
       ],
       "activity": "Women's Suffrage · Evidence Investigation",
       "task": "Write a claim about Women's Suffrage with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -652,29 +750,29 @@
       ],
       "checks": [
         {
-          "prompt": "In which year was the Nineteenth Amendment ratified?",
+          "prompt": "When was the Nineteenth Amendment ratified?",
           "options": [
-            "1865",
-            "1965",
+            "1870",
+            "1913",
             "1920"
           ],
           "answer": 2
         },
         {
-          "prompt": "Which method would strengthen a historical argument about Women's Suffrage?",
+          "prompt": "What does the 1918 anti-suffrage petition help historians examine?",
           "options": [
-            "Compare two contextualized sources addressing suffrage and Nineteenth Amendment.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
+            "Why some organized opponents resisted a national voting amendment",
+            "How every woman in the nation felt",
+            "The full number of women who voted in 1920"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which conclusion about Women's Suffrage is most defensible?",
+          "prompt": "What is the best interpretation of women's voting rights after ratification?",
           "options": [
-            "Only one participant's account can establish all effects of franchise.",
-            "Interpret suffrage in historical context and weigh competing evidence concerning organizing.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "All barriers to voting disappeared",
+            "The constitutional change was real, but discriminatory barriers continued",
+            "The amendment barred women from state elections"
           ],
           "answer": 1
         }
@@ -700,6 +798,14 @@
           "type": "Primary",
           "url": "https://www.archives.gov/milestone-documents/19th-amendment",
           "summary": "Compare the constitutional ban on voting discrimination by sex against evidence of continuing barriers for women of color."
+        },
+        {
+          "title": "Petition of the New York State Association Opposed to Woman Suffrage",
+          "creator": "New York State Association Opposed to Woman Suffrage",
+          "date": "June 26, 1918",
+          "type": "Primary",
+          "url": "https://www.archives.gov/legislative/resources/education/womans-place-in-america",
+          "summary": "The National Archives presents this named petition within an educational document collection. It is a primary document selected through a collection page, not a separate item-level landing page; compare the opposition's stated arguments with the amendment."
         }
       ]
     },
@@ -711,9 +817,9 @@
       "total": 4,
       "essential": "How did reform expand federal and democratic authority?",
       "paragraphs": [
-        "The Sixteenth and Seventeenth Amendments, ratified in 1913, expanded federal income-tax authority and introduced direct election of U.S. senators. Reformers also advocated stronger oversight of business practices. The direct election of senators changed how federal representation was selected, while income-tax authority expanded federal revenue capacity. Both amendments reshaped government, but they addressed different problems. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-        "The Federal Reserve System was established in 1913 amid concern over financial instability; the Federal Trade Commission followed in 1914. New institutions reflected growing expectations of federal economic responsibility. Financial regulation sought greater stability in a banking system vulnerable to panic and credit disruption. Consumer protection and antitrust enforcement involved separate institutions and legal authorities. Separate the event's immediate trigger from structural conditions. Explain a mechanism connecting at least two causes rather than listing factors as though they were equivalent.",
-        "Build an institutional timeline, then distinguish constitutional amendments from ordinary federal statutes. Evaluate the specific problem each measure addressed and its limits. Compare the date a reform was adopted with the date it began affecting practice. A stronger evaluation identifies institutional power, its intended problem, and at least one limitation of the measure. Write a thesis that can be challenged. Include a counterargument that a well-informed reader might make, then respond using specific evidence rather than dismissive language."
+        "The Sixteenth and Seventeenth Amendments, ratified in 1913, expanded federal income-tax authority and introduced direct election of U.S. senators. Reformers also advocated stronger oversight of business practices. The direct election of senators changed how federal representation was selected, while income-tax authority expanded federal revenue capacity. Both amendments reshaped government, but they addressed different problems.",
+        "The Federal Reserve System was established in 1913 amid concern over financial instability; the Federal Trade Commission followed in 1914. New institutions reflected growing expectations of federal economic responsibility. Financial regulation sought greater stability in a banking system vulnerable to panic and credit disruption. Consumer protection and antitrust enforcement involved separate institutions and legal authorities.",
+        "Three reforms adopted close together addressed three different questions. The Sixteenth Amendment changed Congress's taxing power; the Seventeenth Amendment changed the selection of senators; the Federal Reserve Act of December 1913 created a new banking structure. Place each in order, then read the two amendments directly. Why was an amendment required for those constitutional changes, while a federal statute could establish a banking system? A timeline can show sequence; it cannot by itself prove that a reform achieved its intended results."
       ],
       "activity": "Reforming Government and Industry · Evidence Investigation",
       "task": "Write a claim about Reforming Government and Industry with two corroborating details, a plausible counterargument, and an explicit qualification.",
@@ -737,31 +843,31 @@
       ],
       "checks": [
         {
-          "prompt": "Which constitutional amendment established direct popular election of U.S. senators?",
+          "prompt": "Which amendment addresses Congress's power to levy income taxes without apportionment among states?",
           "options": [
-            "Seventeenth Amendment",
-            "Twenty-Second Amendment",
-            "Tenth Amendment"
+            "Sixteenth Amendment",
+            "Thirteenth Amendment",
+            "Nineteenth Amendment"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which method would strengthen a historical argument about Reforming Government and Industry?",
+          "prompt": "Which reform created direct election of U.S. senators?",
           "options": [
-            "Compare two contextualized sources addressing Sixteenth Amendment and Seventeenth Amendment.",
-            "Use only a persuasive image without confirming its date or author.",
-            "Ignore a source if it complicates the preferred conclusion."
-          ],
-          "answer": 0
-        },
-        {
-          "prompt": "Which conclusion about Reforming Government and Industry is most defensible?",
-          "options": [
-            "Only one participant's account can establish all effects of Federal Reserve.",
-            "Interpret Sixteenth Amendment in historical context and weigh competing evidence concerning Federal Trade Commission.",
-            "Chronology is irrelevant once a dramatic event is identified."
+            "The Federal Reserve Act",
+            "The Seventeenth Amendment",
+            "The Sherman Antitrust Act"
           ],
           "answer": 1
+        },
+        {
+          "prompt": "Why is the Federal Reserve Act not itself a constitutional amendment?",
+          "options": [
+            "It was only a newspaper editorial",
+            "It predated the Constitution",
+            "Congress established the system by statute under its legislative authority"
+          ],
+          "answer": 2
         }
       ],
       "visual": {
@@ -776,7 +882,25 @@
           "Build an institutional timeline, then distinguish constitutional amendments from ordinary federal statutes. Evaluate the specific problem each measure addressed and its limits"
         ]
       },
-      "investigationKind": "map"
+      "investigationKind": "map",
+      "references": [
+        {
+          "title": "16th Amendment to the U.S. Constitution",
+          "creator": "United States Congress and ratifying states",
+          "date": "1913",
+          "type": "Primary",
+          "url": "https://www.archives.gov/milestone-documents/16th-amendment",
+          "summary": "Ratified February 3, 1913; authorized federal income taxes without apportionment among the states. Do not confuse constitutional authority with the later details of tax laws."
+        },
+        {
+          "title": "17th Amendment to the U.S. Constitution",
+          "creator": "United States Congress and ratifying states",
+          "date": "1913",
+          "type": "Primary",
+          "url": "https://www.archives.gov/milestone-documents/17th-amendment",
+          "summary": "Ratified April 8, 1913; changed the selection of senators. It did not itself create the Federal Reserve or Federal Trade Commission."
+        }
+      ]
     },
     "why-did-america-become-an-overseas-power": {
       "title": "Why Did America Become an Overseas Power?",
