@@ -222,11 +222,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in The World Around 1300?",
+          "prompt": "What is missing if the study of 1300 omits the Americas?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Independent American societies and their networks",
+            "An explanation of NATO's origins",
+            "The French Revolution"
           ],
           "answer": 0
         }
@@ -338,11 +338,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in Afro-Eurasian Trade Networks?",
+          "prompt": "Why did Indian Ocean merchants depend on port communities?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Ports supplied navigation knowledge, contacts and commercial institutions",
+            "Ports eliminated all customs and risk",
+            "Ports had no role in long-distance trade"
           ],
           "answer": 0
         }
@@ -454,11 +454,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in The Mongol Empire and Global Exchange?",
+          "prompt": "How does a conquered city's chronicle complicate a merchant's praise of Mongol routes?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "It may document coercion or destruction overlooked by the merchant",
+            "It proves all exchange stopped immediately",
+            "It proves every conquered population approved Mongol rule"
           ],
           "answer": 0
         }
@@ -578,11 +578,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in Renaissance Humanism and Art?",
+          "prompt": "What must be established when using a Renaissance painting as a political source?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Its patron, commission, context and intended audience",
+            "That every viewer interpreted it identically",
+            "That it was necessarily painted without financial support"
           ],
           "answer": 0
         }
@@ -694,11 +694,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in The Protestant Reformation?",
+          "prompt": "Why might a prince support religious reform?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Religious convictions could interact with control of local church institutions",
+            "All princes lost political authority after 1517",
+            "Printed texts stopped circulating"
           ],
           "answer": 0
         }
@@ -732,6 +732,14 @@
           "date": "Research method, modern",
           "type": "Research methods",
           "summary": "Use source provenance and intended audience to analyze a selected print, painting, pamphlet, or contemporary record; not a direct Renaissance-era primary source."
+        },
+        {
+          "title": "The Reformation",
+          "creator": "Metropolitan Museum of Art",
+          "date": "1517 onward; modern scholarship",
+          "type": "Secondary museum historical essay",
+          "url": "https://www.metmuseum.org/toah/hd/refo/hd_refo.htm",
+          "summary": "Explains artistic and institutional consequences, not an original Luther tract."
         }
       ],
       "researchWorkshop": {
@@ -802,11 +810,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in Religious and Political Transformation?",
+          "prompt": "What limitation accompanies evidence from a seventeenth-century peace treaty?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "It records official settlement terms, not necessarily freedom practiced equally by subjects",
+            "It reveals every individual's religious beliefs",
+            "It proves every religious conflict ended permanently"
           ],
           "answer": 0
         }
@@ -840,6 +848,14 @@
           "date": "Research method, modern",
           "type": "Research methods",
           "summary": "Use source provenance and intended audience to analyze a selected print, painting, pamphlet, or contemporary record; not a direct Renaissance-era primary source."
+        },
+        {
+          "title": "The Reformation",
+          "creator": "Metropolitan Museum of Art",
+          "date": "Sixteenth and seventeenth centuries; modern scholarship",
+          "type": "Secondary museum historical essay",
+          "url": "https://www.metmuseum.org/toah/hd/refo/hd_refo.htm",
+          "summary": "Useful for European confessional transformation; a specific peace treaty or minority record still needed."
         }
       ],
       "researchWorkshop": {
@@ -910,11 +926,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in Maritime Exploration and Expansion?",
+          "prompt": "Which record could challenge a European explorer's claim to have found an 'uninhabited' place?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Indigenous settlement or land-use evidence",
+            "An unrelated nineteenth-century tariff schedule",
+            "A twentieth-century satellite launch"
           ],
           "answer": 0
         }
@@ -1018,11 +1034,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in The Columbian Exchange?",
+          "prompt": "Which causal explanation of Indigenous population losses is most defensible?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Introduced disease interacted with conquest and social disruption",
+            "Disease was the only possible influence in every community",
+            "No ecological changes followed transatlantic contact"
           ],
           "answer": 0
         }
@@ -1126,11 +1142,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in Colonization and Its Human Consequences?",
+          "prompt": "Why should land transfers be studied from Indigenous and colonial records?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "The sources may disagree about authority, consent and possession",
+            "A colonial grant always proves Indigenous consent",
+            "A European crown owned every territory before arrival"
           ],
           "answer": 0
         }
@@ -1234,11 +1250,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in The Atlantic Slave Trade?",
+          "prompt": "What must accompany a table of estimated forced Atlantic crossings?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "An account of surviving records, uncertainty and human experiences",
+            "The claim that the figure is a complete roll of every captive",
+            "The claim that numbers reveal each person's thoughts"
           ],
           "answer": 0
         }
@@ -1350,11 +1366,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in A New Scientific Worldview?",
+          "prompt": "Which evidence could test a seventeenth-century astronomical claim?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Dated observations and competing calculations",
+            "A court title without an observed phenomenon",
+            "A modern advertisement without measurement"
           ],
           "answer": 0
         }
@@ -1466,11 +1482,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in Enlightenment Political Philosophy?",
+          "prompt": "How could two Enlightenment authors differ over legitimate government?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Their views of consent, representation and institutional limits could conflict",
+            "Both had to endorse the U.S. Constitution",
+            "Every text contained identical suffrage proposals"
           ],
           "answer": 0
         }
@@ -1574,11 +1590,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in Enlightenment Ideas and Modern Government?",
+          "prompt": "How can students avoid assuming that political ideals were fully implemented?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Compare written claims of rights with laws and participation records",
+            "Quote an ideal and infer equal access immediately",
+            "Ignore people excluded from elections"
           ],
           "answer": 0
         }
@@ -1682,11 +1698,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in The French Revolution?",
+          "prompt": "Which historical evidence can test the reach of the 1789 rights declaration?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Records of actual citizenship, elections and colonial slavery",
+            "The wording of the declaration alone",
+            "A modern slogan without a date"
           ],
           "answer": 0
         }
@@ -1798,11 +1814,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in The Haitian Revolution?",
+          "prompt": "Why is Haiti's 1804 declaration distinct from the 1789 French rights declaration?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "It was a sovereign claim by Haitian revolutionary leaders after a struggle against colonial slavery",
+            "It was enacted by France's Estates-General",
+            "It created the League of Nations"
           ],
           "answer": 0
         }
@@ -1914,11 +1930,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in Latin American Independence Movements?",
+          "prompt": "What is a limitation of Bolívar's 1815 Jamaica Letter?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "It is one political leader's argument, not a vote of all affected populations",
+            "It documents the decisions of every Indigenous community",
+            "It is an official Brazilian constitution"
           ],
           "answer": 0
         }
@@ -2030,11 +2046,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in Comparing Revolutionary Ideals and Outcomes?",
+          "prompt": "Which comparison exposes unequal revolutionary outcomes?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "The legal status of enslaved people after the French and Haitian upheavals",
+            "Only the number of words in each declaration",
+            "Only whether a leader wore a uniform"
           ],
           "answer": 0
         }
@@ -2162,11 +2178,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in Why Industrialization Began?",
+          "prompt": "What is the strongest way to explain the timing of Britain's industrialization?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Trace the interaction of energy, labor, capital and markets",
+            "Credit one invention as sufficient in every region",
+            "Assume every nation used the same resources"
           ],
           "answer": 0
         }
@@ -2270,11 +2286,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in Industrial Cities and Labor?",
+          "prompt": "Which combination best tests claims about factory working conditions?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Worker testimony, inspector findings and dated employment records",
+            "Only a factory owner's advertisement",
+            "Only an undated painting"
           ],
           "answer": 0
         }
@@ -2378,11 +2394,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in Global Economic and Social Change?",
+          "prompt": "What would reveal unequal benefits from industrial trade?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Wage or labor conditions alongside trade and production figures",
+            "Total exports alone as a measure of everyone’s income",
+            "A statement that all trade prevented coercion"
           ],
           "answer": 0
         }
@@ -2486,11 +2502,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in The New Imperialism?",
+          "prompt": "What does the phrase 'civilizing mission' reveal most directly?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "How imperial advocates sought to justify political control",
+            "That every colonized person requested foreign rule",
+            "That racial hierarchy was scientifically established"
           ],
           "answer": 0
         }
@@ -2524,6 +2540,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "Research collection",
           "summary": "Locate an attributable object from the colonized region rather than relying on an imperial map alone."
+        },
+        {
+          "title": "Plaque with Warrior and Attendants — Benin Court",
+          "creator": "Edo brass-casting guild artists; Metropolitan Museum of Art",
+          "date": "Kingdom of Benin; dating and provenance in item catalog",
+          "type": "Primary art object with museum provenance",
+          "url": "https://www.metmuseum.org/art/collection/search/316393",
+          "summary": "Indigenous court art whose history includes British seizure in 1897; artwork is not a statement approving imperial rule."
         }
       ],
       "researchWorkshop": {
@@ -2594,11 +2618,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in The Scramble for Africa?",
+          "prompt": "What should be compared with European territorial maps of Africa?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "African political and resistance records and dates of actual military occupation",
+            "An unrelated European school timetable",
+            "Claims that boundaries were accepted without conflict"
           ],
           "answer": 0
         }
@@ -2632,6 +2656,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "Research collection",
           "summary": "Locate an attributable object from the colonized region rather than relying on an imperial map alone."
+        },
+        {
+          "title": "Yeke and Congo Free State, from confrontation to collaboration",
+          "creator": "Royal Museum for Central Africa",
+          "date": "Late nineteenth-century events; modern museum scholarship",
+          "type": "Secondary institutional historical analysis",
+          "url": "https://www.africamuseum.be/en/discover/history_articles/the_yeke_and_the_congo_free_state",
+          "summary": "Explains military confrontation and complicated African political decisions; museum collection history must be critically assessed."
         }
       ],
       "researchWorkshop": {
@@ -2702,11 +2734,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in Imperialism in Asia?",
+          "prompt": "Which example highlights different experiences of Asian imperialism?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Unequal treaties in Qing China compared with British rule in India",
+            "Identical policies in every Asian state",
+            "The assumption that trade treaties always meant equal power"
           ],
           "answer": 0
         }
@@ -2740,6 +2772,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "Research collection",
           "summary": "Locate an attributable object from the colonized region rather than relying on an imperial map alone."
+        },
+        {
+          "title": "Asian Imperialism and U.S. Open Door Diplomatic Claims",
+          "creator": "United States Department of State, Office of Historian",
+          "date": "1899–1900 policies; modern scholarship",
+          "type": "Secondary U.S. diplomatic history",
+          "url": "https://history.state.gov/milestones/1899-1913/hay-and-china",
+          "summary": "U.S. trade objectives in China, not a Chinese endorsement of outside commercial interference."
         }
       ],
       "researchWorkshop": {
@@ -2810,11 +2850,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in Resistance to Colonial Rule?",
+          "prompt": "How might an anticolonial petition and a police report describe the same protest differently?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "One might present rights claims while the other emphasizes maintaining colonial order",
+            "Both are guaranteed neutral and word-for-word identical",
+            "The petition cannot contain political goals"
           ],
           "answer": 0
         }
@@ -2848,6 +2888,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "Research collection",
           "summary": "Locate an attributable object from the colonized region rather than relying on an imperial map alone."
+        },
+        {
+          "title": "Benin court-art plaque and colonial provenance",
+          "creator": "Edo artists; Metropolitan Museum of Art",
+          "date": "Benin Kingdom; cataloged context of 1897",
+          "type": "Primary object / modern museum provenance",
+          "url": "https://www.metmuseum.org/art/collection/search/316393",
+          "summary": "Use object dating and evidence of 1897 seizure; recognize that museum accounts may center collecting institutions."
         }
       ],
       "researchWorkshop": {
@@ -2918,11 +2966,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in Causes of the First World War?",
+          "prompt": "Why must the July 1914 ultimatum be distinguished from the assassination?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "The ultimatum was a subsequent government choice that escalated the crisis",
+            "The ultimatum occurred in 1918",
+            "The assassination itself legally compelled all states to fight"
           ],
           "answer": 0
         }
@@ -3034,11 +3082,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in Trench Warfare and Total War?",
+          "prompt": "What did wartime industrial mobilization add to battles at the front?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Civilian production, financing and labor became central to military capacity",
+            "Civilian workers ceased to matter",
+            "Armies operated with no railways or supplies"
           ],
           "answer": 0
         }
@@ -3150,11 +3198,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in The Treaty of Versailles and Its Consequences?",
+          "prompt": "Why is the League covenant only part of the Versailles settlement?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "The treaty also addressed territory, military limitations and financial provisions",
+            "The Covenant abolished all national governments",
+            "The document contained no German terms"
           ],
           "answer": 0
         }
@@ -3266,11 +3314,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in Global Depression and Political Instability?",
+          "prompt": "Which comparison helps assess differences in Depression responses?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Country-specific bank failures, unemployment and policy choices",
+            "A single undated newspaper headline",
+            "The claim that all governments followed identical economic policies"
           ],
           "answer": 0
         }
@@ -3382,11 +3430,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in The Rise of Fascism?",
+          "prompt": "Which evidence most directly reveals how Nazi persecution became state policy?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Specific discriminatory laws and records of enforcement",
+            "An unsourced claim about human racial ranking",
+            "Only a modern costume photograph"
           ],
           "answer": 0
         }
@@ -3498,11 +3546,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in World War II as a Global Conflict?",
+          "prompt": "What would correct an account focused exclusively on D-Day?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Evidence of fighting in China, Soviet campaigns and colonial participation",
+            "The assertion that Asia experienced no warfare",
+            "The claim that Europe was uninvolved"
           ],
           "answer": 0
         }
@@ -3614,11 +3662,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in The Holocaust and Genocide?",
+          "prompt": "Why should students pair perpetrator laws with Jewish survivor or victim records?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "To document the actions and human consequences excluded by bureaucratic language",
+            "To imply the genocide's occurrence is an open opinion poll",
+            "To reproduce graphic violence for shock"
           ],
           "answer": 0
         }
@@ -3746,11 +3794,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in The End of World War II?",
+          "prompt": "Why must Japan's surrender be analyzed using several kinds of evidence?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Military campaigns, atomic bombing, Soviet entry and Japanese political records informed decisions",
+            "One announcement alone establishes every leader's thinking",
+            "The formal surrender happened before the war"
           ],
           "answer": 0
         }
@@ -3862,11 +3910,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in The Cold War and Global Rivalries?",
+          "prompt": "What perspective is missing from a comparison of only U.S. and Soviet speeches?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Nonaligned countries and communities affected by proxy conflicts",
+            "All European military alliances",
+            "Both superpowers' official arguments"
           ],
           "answer": 0
         }
@@ -3978,11 +4026,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in Independence Movements in Africa?",
+          "prompt": "What can Nkrumah's 1957 parliamentary speech directly establish?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "His publicly stated vision for newly independent Ghana",
+            "The views of every African independence movement",
+            "The terms of Algeria's independence agreement"
           ],
           "answer": 0
         }
@@ -4094,11 +4142,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in Decolonization in Asia?",
+          "prompt": "Why should 1947 independence in South Asia be studied alongside partition?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Transfer of power coincided with new borders, displacement and violence",
+            "India and Pakistan remained a single colony",
+            "All religious communities faced identical circumstances"
           ],
           "answer": 0
         }
@@ -4210,11 +4258,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in The Collapse of the Soviet Union?",
+          "prompt": "Which chronology is correct?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "The Berlin Wall opened in 1989; the Soviet Union dissolved in 1991",
+            "The Soviet Union dissolved in 1945; the wall opened in 2001",
+            "Both events occurred in 1962"
           ],
           "answer": 0
         }
@@ -4326,11 +4374,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in Globalization and Interdependence?",
+          "prompt": "Which measure would help test inequality in global supply chains?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Wages, working conditions and value distribution across producing regions",
+            "Total sales alone as proof of equal welfare",
+            "A single undated corporate slogan"
           ],
           "answer": 0
         }
@@ -4442,11 +4490,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in The United Nations and International Cooperation?",
+          "prompt": "What distinction is essential between the 1945 UN Charter and 1948 Universal Declaration?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "The Charter is a founding treaty; the Declaration articulates rights principles",
+            "The Declaration founded NATO",
+            "Both are identical treaties signed in 1945"
           ],
           "answer": 0
         }
@@ -4558,11 +4606,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in Human Rights and Global Challenges?",
+          "prompt": "Why must a human-rights claim be evaluated beyond an international declaration?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Implementation, legal obligations and affected people's actual conditions matter",
+            "The existence of a declaration proves universal compliance",
+            "All countries share one enforcement mechanism"
           ],
           "answer": 0
         }
@@ -4674,11 +4722,11 @@
           "answer": 1
         },
         {
-          "prompt": "Which additional evidence would most effectively test the interpretation in Technology, Migration, and Modern Societies?",
+          "prompt": "What would make two migration datasets comparable?",
           "options": [
-            "A dated, independently produced record from an affected group not represented in the existing sources",
-            "Another undated illustration that repeats the same account",
-            "A modern assertion without author or provenance"
+            "Consistent dates, definitions, places and population measures",
+            "Only a matching chart color",
+            "Different denominators left unexplained"
           ],
           "answer": 0
         }
