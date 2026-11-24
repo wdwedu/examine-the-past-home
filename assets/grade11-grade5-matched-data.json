@@ -1878,14 +1878,6 @@
           "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
         },
         {
-          "title": "National Archives · Declaration of Independence (1776)",
-          "url": "https://www.archives.gov/milestone-documents/declaration-of-independence",
-          "creator": "National Archives",
-          "date": "Institutional reference; select a dated item",
-          "type": "Primary historical document",
-          "summary": "Use as a comparative Atlantic revolutionary claim; avoid using U.S. documents as direct evidence of events in Haiti or France."
-        },
-        {
           "title": "Haitian Declaration of Independence — translated text",
           "creator": "Jean-Jacques Dessalines and Haitian revolutionary generals; translation by Laurent Dubois and John Garrigus",
           "date": "January 1, 1804; modern translation",
@@ -1992,14 +1984,6 @@
           "type": "Research gateway",
           "url": "https://www.loc.gov/collections/",
           "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
-        },
-        {
-          "title": "National Archives · Declaration of Independence (1776)",
-          "url": "https://www.archives.gov/milestone-documents/declaration-of-independence",
-          "creator": "National Archives",
-          "date": "Institutional reference; select a dated item",
-          "type": "Primary historical document",
-          "summary": "Use as a comparative Atlantic revolutionary claim; avoid using U.S. documents as direct evidence of events in Haiti or France."
         },
         {
           "title": "Simón Bolívar's Jamaica Letter",
@@ -2248,6 +2232,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "Primary-source teaching collection",
           "summary": "Select dated worker, factory or industry material and corroborate with a second independent record."
+        },
+        {
+          "title": "The 1833 Factory Act: Parliamentary Historical Context",
+          "creator": "UK Parliament",
+          "date": "1833 legislation; modern institutional context",
+          "type": "Secondary official legislative history",
+          "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/livinglearning/19thcentury/overview/factoryact/",
+          "summary": "Dated legislative development and context; later than the beginning of industrialization and cannot establish all its initial causes."
         }
       ],
       "researchWorkshop": {
@@ -2356,6 +2348,22 @@
           "date": "Institutional reference; select a dated item",
           "type": "Primary-source teaching collection",
           "summary": "Select dated worker, factory or industry material and corroborate with a second independent record."
+        },
+        {
+          "title": "1833 Factory Act: Original Record Studies",
+          "creator": "The National Archives (UK)",
+          "date": "1833 factory legislation and original archival materials",
+          "type": "Primary-source learning collection",
+          "url": "https://www.nationalarchives.gov.uk/education/resources/1833-factory-act/",
+          "summary": "Includes original material for investigating child labor conditions and law enforcement; name each exact document."
+        },
+        {
+          "title": "Factory Regulations: Parliamentary Debate",
+          "creator": "Members of British House of Commons; Hansard transcript",
+          "date": "February 28, 1833",
+          "type": "Primary parliamentary debate transcription",
+          "url": "https://api.parliament.uk/historic-hansard/commons/1833/feb/28/factory-regulations",
+          "summary": "Contemporaneous speech with political perspective, to be corroborated with labor testimony."
         }
       ],
       "researchWorkshop": {
@@ -2464,6 +2472,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "Primary-source teaching collection",
           "summary": "Select dated worker, factory or industry material and corroborate with a second independent record."
+        },
+        {
+          "title": "Factory Regulations: Parliamentary Debate",
+          "creator": "Members of British House of Commons; Hansard transcript",
+          "date": "February 28, 1833",
+          "type": "Primary parliamentary debate transcription",
+          "url": "https://api.parliament.uk/historic-hansard/commons/1833/feb/28/factory-regulations",
+          "summary": "Shows contemporary arguments about economic conditions and child labor, not a representative survey of workers."
         }
       ],
       "researchWorkshop": {
@@ -2557,14 +2573,6 @@
         ]
       },
       "references": [
-        {
-          "title": "National Museum of African American History and Culture",
-          "creator": "National Museum of African American History and Culture",
-          "date": "Reference collection",
-          "type": "Research gateway",
-          "url": "https://nmaahc.si.edu/",
-          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
-        },
         {
           "title": "The Met · Heilbrunn Timeline of Art History",
           "url": "https://www.metmuseum.org/toah/",
@@ -2673,14 +2681,6 @@
         ]
       },
       "references": [
-        {
-          "title": "National Museum of African American History and Culture",
-          "creator": "National Museum of African American History and Culture",
-          "date": "Reference collection",
-          "type": "Research gateway",
-          "url": "https://nmaahc.si.edu/",
-          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
-        },
         {
           "title": "The Met · Heilbrunn Timeline of Art History",
           "url": "https://www.metmuseum.org/toah/",
@@ -2798,14 +2798,6 @@
       },
       "references": [
         {
-          "title": "National Museum of African American History and Culture",
-          "creator": "National Museum of African American History and Culture",
-          "date": "Reference collection",
-          "type": "Research gateway",
-          "url": "https://nmaahc.si.edu/",
-          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
-        },
-        {
           "title": "The Met · Heilbrunn Timeline of Art History",
           "url": "https://www.metmuseum.org/toah/",
           "creator": "The Met",
@@ -2913,14 +2905,6 @@
         ]
       },
       "references": [
-        {
-          "title": "National Museum of African American History and Culture",
-          "creator": "National Museum of African American History and Culture",
-          "date": "Reference collection",
-          "type": "Research gateway",
-          "url": "https://nmaahc.si.edu/",
-          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
-        },
         {
           "title": "The Met · Heilbrunn Timeline of Art History",
           "url": "https://www.metmuseum.org/toah/",
@@ -3394,14 +3378,6 @@
           "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
         },
         {
-          "title": "United States Holocaust Memorial Museum · Introduction to the Holocaust",
-          "url": "https://encyclopedia.ushmm.org/content/en/article/introduction-to-the-holocaust",
-          "creator": "United States Holocaust Memorial Museum",
-          "date": "Institutional reference; select a dated item",
-          "type": "Museum historical reference",
-          "summary": "Use verified chronology and definitions; distinguish museum synthesis from survivor testimony and original documents."
-        },
-        {
           "title": "The Great Depression — Federal Reserve Historical Research",
           "creator": "Federal Reserve System's historical editors",
           "date": "1929–1930s, modern scholarly analysis",
@@ -3624,14 +3600,6 @@
           "type": "Research gateway",
           "url": "https://www.ushmm.org/",
           "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
-        },
-        {
-          "title": "United States Holocaust Memorial Museum · Introduction to the Holocaust",
-          "url": "https://encyclopedia.ushmm.org/content/en/article/introduction-to-the-holocaust",
-          "creator": "United States Holocaust Memorial Museum",
-          "date": "Institutional reference; select a dated item",
-          "type": "Museum historical reference",
-          "summary": "Use verified chronology and definitions; distinguish museum synthesis from survivor testimony and original documents."
         },
         {
           "title": "World War II Documents and Photographs — National Archives",
