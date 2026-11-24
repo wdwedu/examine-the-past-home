@@ -4,7 +4,7 @@ const root=document.querySelector("main[data-unit-assessment-grade]");
 if(!root)return;
 const grade=Number(root.dataset.unitAssessmentGrade),base=root.dataset.root||"../../../../";
 const course=grade===11?"grade-11-modern-world-history":"grade-12-social-studies-electives";
-const file=grade===11?"grade11-grade5-matched-data.json?v=20261124-grade11-academic-v6":"grade12-grade5-matched-data.json?v=20261124-grade12-capstone-v2";
+const file=grade===11?"grade11-grade5-matched-data.json?v=20261124-grade11-academic-v6":"grade12-grade5-matched-data.json?v=20261124-grade12-capstone-v3";
 const E=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const title=grade===11?"Modern World History":"Social Studies Electives";
 document.body.classList.add("etp-curriculum","etp-upper-assessment");
