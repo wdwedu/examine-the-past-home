@@ -4,11 +4,11 @@ const root=document.querySelector("main[data-unit-assessment-grade]");
 if(!root)return;
 const grade=Number(root.dataset.unitAssessmentGrade),base=root.dataset.root||"../../../../";
 const course=grade===11?"grade-11-modern-world-history":"grade-12-social-studies-electives";
-const file=grade===11?"grade11-grade5-matched-data.json?v=20261122-mediaqa-v2":"grade12-grade5-matched-data.json?v=20261122-mediaqa-v2";
+const file=grade===11?"grade11-grade5-matched-data.json?v=20261124-grade11-academic-v3":"grade12-grade5-matched-data.json?v=20261122-mediaqa-v2";
 const E=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const title=grade===11?"Modern World History":"Social Studies Electives";
 document.body.classList.add("etp-curriculum","etp-upper-assessment");
-const order=x=>Object.keys(x).sort((a,b)=>Number(a)-Number(b));
+const order=x=>Object.keys(x).sort((a,b)=>{const [ag,au]=a.split('.').map(Number),[bg,bu]=b.split('.').map(Number);return ag-bg||au-bu;});
 Promise.all([fetch(base+"assets/"+file).then(r=>{if(!r.ok)throw Error("Lesson data unavailable");return r.json()}),fetch(base+"assets/upper-secondary-assessment-question-bank.json?v=20261122-v1").then(r=>{if(!r.ok)throw Error("Assessment question bank unavailable");return r.json()})]).then(([data,bank])=>{
  const units=order(data.units),initial=new URLSearchParams(location.search).get("unit");
  let selected=units.includes(initial)?initial:units[0];
