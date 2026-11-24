@@ -260,6 +260,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "Museum educational overview",
           "summary": "Use material objects and travel narratives to frame trade-network questions; select a dated artifact for primary-source claims."
+        },
+        {
+          "title": "Western and Central Sudan, 1000–1400 A.D.",
+          "creator": "Metropolitan Museum of Art",
+          "date": "1000–1400 chronology; modern scholarly synthesis",
+          "type": "Secondary museum chronology",
+          "url": "https://www.metmuseum.org/toah/ht/07/afu.html",
+          "summary": "Documents Mali and Mansa Musa in West African regional context; not an eyewitness to every polity around 1300."
         }
       ],
       "researchWorkshop": {
@@ -368,6 +376,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "Museum educational overview",
           "summary": "Use material objects and travel narratives to frame trade-network questions; select a dated artifact for primary-source claims."
+        },
+        {
+          "title": "The Legacy of Genghis Khan",
+          "creator": "Metropolitan Museum of Art, Department of Islamic Art",
+          "date": "Thirteenth-century developments; later museum scholarship",
+          "type": "Secondary museum analysis",
+          "url": "https://www.metmuseum.org/essays/the-legacy-of-genghis-khan",
+          "summary": "Explains cultural exchange and imperial art; archaeological objects require individual attribution and dating for primary evidence."
         }
       ],
       "researchWorkshop": {
@@ -476,6 +492,22 @@
           "date": "Institutional reference; select a dated item",
           "type": "Museum educational overview",
           "summary": "Use material objects and travel narratives to frame trade-network questions; select a dated artifact for primary-source claims."
+        },
+        {
+          "title": "The Legacy of Genghis Khan",
+          "creator": "Metropolitan Museum of Art, Department of Islamic Art",
+          "date": "Thirteenth-century developments; later museum scholarship",
+          "type": "Secondary museum analysis",
+          "url": "https://www.metmuseum.org/essays/the-legacy-of-genghis-khan",
+          "summary": "Explains cultural exchange and imperial art; archaeological objects require individual attribution and dating for primary evidence."
+        },
+        {
+          "title": "Yuan Dynasty (1271–1368)",
+          "creator": "Metropolitan Museum of Art",
+          "date": "1271–1368; modern scholarship",
+          "type": "Secondary museum historical essay",
+          "url": "https://www.metmuseum.org/toah/hd/yuan/hd_yuan.htm",
+          "summary": "A grounded treatment of Yuan political history, not neutral evidence for benefits experienced by conquered people."
         }
       ],
       "researchWorkshop": {
@@ -584,6 +616,14 @@
           "date": "Research method, modern",
           "type": "Research methods",
           "summary": "Use source provenance and intended audience to analyze a selected print, painting, pamphlet, or contemporary record; not a direct Renaissance-era primary source."
+        },
+        {
+          "title": "The Art of Renaissance Europe: A Resource for Educators",
+          "creator": "Metropolitan Museum of Art",
+          "date": "Renaissance period; institutional scholarly resource",
+          "type": "Secondary museum educator publication",
+          "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_Renaissance_Europe_A_Resource_for_Educators.pdf",
+          "summary": "Dated artworks and citations require selecting named objects; the guide is contextual interpretation."
         }
       ],
       "researchWorkshop": {
@@ -1232,6 +1272,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "Historical exhibit",
           "summary": "Compare European accounts and evidence of Indigenous experience; exhibit narration is secondary interpretation."
+        },
+        {
+          "title": "Trans-Atlantic Slave Trade Database: Estimates",
+          "creator": "SlaveVoyages Research Project",
+          "date": "Sixteenth–nineteenth-century voyages; modern database",
+          "type": "Reconstructed historical quantitative dataset",
+          "url": "https://www.slavevoyages.org/assessment/estimates",
+          "summary": "Modeled estimates using incomplete surviving voyage registers; not a literal record of every journey or every person's experience."
         }
       ],
       "researchWorkshop": {
@@ -1340,6 +1388,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "Primary-document collection",
           "summary": "Compare later constitutional documents against Enlightenment ideas; do not treat the documents as eighteenth-century philosophy texts."
+        },
+        {
+          "title": "Science in the Making: Historical Research Archive",
+          "creator": "Royal Society",
+          "date": "Seventeenth century onward; modern archive portal",
+          "type": "Archival originals within institutional collection",
+          "url": "https://royalsociety.org/news/2023/04/science-in-the-making/",
+          "summary": "Includes historical correspondence involving Halley and Newton; identify an original document and manuscript ID before using a quotation."
         }
       ],
       "researchWorkshop": {
@@ -1780,6 +1836,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "Primary historical document",
           "summary": "Use as a comparative Atlantic revolutionary claim; avoid using U.S. documents as direct evidence of events in Haiti or France."
+        },
+        {
+          "title": "Haitian Declaration of Independence — translated text",
+          "creator": "Jean-Jacques Dessalines and Haitian revolutionary generals; translation by Laurent Dubois and John Garrigus",
+          "date": "January 1, 1804; modern translation",
+          "type": "Translated primary independence declaration",
+          "url": "https://today.duke.edu/showcase/haitideclaration/declarationstext.html",
+          "summary": "Document created by Black Haitian leaders. Attribute translation and distinguish declaration from effects on all residents."
         }
       ],
       "researchWorkshop": {
@@ -1888,6 +1952,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "Primary historical document",
           "summary": "Use as a comparative Atlantic revolutionary claim; avoid using U.S. documents as direct evidence of events in Haiti or France."
+        },
+        {
+          "title": "Simón Bolívar's Jamaica Letter",
+          "creator": "Simón Bolívar; Brown University Modern Latin America document library",
+          "date": "September 6, 1815; English translation",
+          "type": "Translated primary political letter",
+          "url": "https://library.brown.edu/create/modernlatinamerica/chapters/chapter-2-the-colonial-foundations/primary-documents-with-accompanying-discussion-questions/document-2-simon-bolivar-letter-from-jamaica-september-6-1815/",
+          "summary": "An independence leader's personal political argument, not the collective view of all Latin American or Indigenous communities."
         }
       ],
       "researchWorkshop": {
@@ -1996,6 +2068,30 @@
           "date": "Institutional reference; select a dated item",
           "type": "Primary historical document",
           "summary": "Use as a comparative Atlantic revolutionary claim; avoid using U.S. documents as direct evidence of events in Haiti or France."
+        },
+        {
+          "title": "Declaration of the Rights of Man and of the Citizen",
+          "creator": "French National Constituent Assembly",
+          "date": "August 26, 1789",
+          "type": "Primary constitutional-political declaration (translated)",
+          "url": "https://avalon.law.yale.edu/18th_century/rightsof.asp",
+          "summary": "Primary political claims; compare them with exclusions and later revolutionary actions; confirm translation and exact article before quoting."
+        },
+        {
+          "title": "Haitian Declaration of Independence — translated text",
+          "creator": "Jean-Jacques Dessalines and Haitian revolutionary generals; translation by Laurent Dubois and John Garrigus",
+          "date": "January 1, 1804; modern translation",
+          "type": "Translated primary independence declaration",
+          "url": "https://today.duke.edu/showcase/haitideclaration/declarationstext.html",
+          "summary": "Document created by Black Haitian leaders. Attribute translation and distinguish declaration from effects on all residents."
+        },
+        {
+          "title": "Simón Bolívar's Jamaica Letter",
+          "creator": "Simón Bolívar; Brown University Modern Latin America document library",
+          "date": "September 6, 1815; English translation",
+          "type": "Translated primary political letter",
+          "url": "https://library.brown.edu/create/modernlatinamerica/chapters/chapter-2-the-colonial-foundations/primary-documents-with-accompanying-discussion-questions/document-2-simon-bolivar-letter-from-jamaica-september-6-1815/",
+          "summary": "An independence leader's personal political argument, not the collective view of all Latin American or Indigenous communities."
         }
       ],
       "researchWorkshop": {
@@ -2860,6 +2956,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "Primary-source collection",
           "summary": "Choose dated wartime reports, posters or letters and identify intended audience and geographic limits."
+        },
+        {
+          "title": "Austro-Hungarian Ultimatum to Serbia",
+          "creator": "Government of Austria-Hungary",
+          "date": "July 23, 1914",
+          "type": "Primary diplomatic ultimatum in English transcription",
+          "url": "https://www.firstworldwar.com/source/austrianultimatum.htm",
+          "summary": "Diplomatic demands document a government's accusations and aims, not independent proof of their allegations."
         }
       ],
       "researchWorkshop": {
@@ -2968,6 +3072,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "Primary-source collection",
           "summary": "Choose dated wartime reports, posters or letters and identify intended audience and geographic limits."
+        },
+        {
+          "title": "World War I Rotogravures",
+          "creator": "Library of Congress",
+          "date": "1914–1918 period photographs and press",
+          "type": "Archival collection containing original photos",
+          "url": "https://www.loc.gov/collections/world-war-i-rotogravures/",
+          "summary": "Select a dated photograph or original caption and interpret its wartime media context; collection is not one source."
         }
       ],
       "researchWorkshop": {
@@ -3076,6 +3188,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "Primary-source collection",
           "summary": "Choose dated wartime reports, posters or letters and identify intended audience and geographic limits."
+        },
+        {
+          "title": "Treaty of Versailles, Part I: Covenant of League of Nations",
+          "creator": "Allied and Associated Powers and Germany",
+          "date": "June 28, 1919",
+          "type": "Primary treaty text",
+          "url": "https://avalon.law.yale.edu/imt/parti.asp",
+          "summary": "Primary treaty covenant, not the complete treaty; compare military and reparation provisions separately."
         }
       ],
       "researchWorkshop": {
@@ -3184,6 +3304,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "Museum historical reference",
           "summary": "Use verified chronology and definitions; distinguish museum synthesis from survivor testimony and original documents."
+        },
+        {
+          "title": "The Great Depression — Federal Reserve Historical Research",
+          "creator": "Federal Reserve System's historical editors",
+          "date": "1929–1930s, modern scholarly analysis",
+          "type": "Secondary institutional economic history",
+          "url": "https://www.federalreservehistory.org/essays/great-depression",
+          "summary": "Analyzes banking crises and monetary policy; secondary institutional perspective, not period unemployment data."
         }
       ],
       "researchWorkshop": {
@@ -3292,6 +3420,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "Museum historical reference",
           "summary": "Use verified chronology and definitions; distinguish museum synthesis from survivor testimony and original documents."
+        },
+        {
+          "title": "The Nuremberg Race Laws",
+          "creator": "Nazi German government; US Holocaust Memorial Museum",
+          "date": "September 15, 1935; museum documentary explanation",
+          "type": "Perpetrator legislation with museum interpretation",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/the-nuremberg-race-laws",
+          "summary": "Discriminatory laws and Nazi antisemitism must not be treated as credible racial science; use educator-selected original excerpts."
         }
       ],
       "researchWorkshop": {
@@ -3400,6 +3536,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "Museum historical reference",
           "summary": "Use verified chronology and definitions; distinguish museum synthesis from survivor testimony and original documents."
+        },
+        {
+          "title": "World War II Documents and Photographs — National Archives",
+          "creator": "National Archives and Records Administration",
+          "date": "1939–1945 archival materials",
+          "type": "Research collection with contemporary documents",
+          "url": "https://www.archives.gov/research/military/ww2",
+          "summary": "Select an individual dated original record and complement U.S. institutional perspectives with Chinese, Soviet, Japanese and other accounts."
         }
       ],
       "researchWorkshop": {
@@ -3516,6 +3660,22 @@
           "type": "Primary",
           "url": "https://www.un.org/en/genocide-prevention/1948-convention",
           "summary": "Postwar legal response to genocide; label explicitly as a 1948 retrospective legal instrument, not an eyewitness Holocaust record."
+        },
+        {
+          "title": "The Nuremberg Race Laws",
+          "creator": "Nazi German government; US Holocaust Memorial Museum",
+          "date": "September 15, 1935; museum documentary explanation",
+          "type": "Perpetrator legislation with museum interpretation",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/the-nuremberg-race-laws",
+          "summary": "Discriminatory laws and Nazi antisemitism must not be treated as credible racial science; use educator-selected original excerpts."
+        },
+        {
+          "title": "Wannsee Protocol",
+          "creator": "Nazi government conference officials; US Holocaust Memorial Museum",
+          "date": "January 20, 1942",
+          "type": "Perpetrator record and contextual museum history",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/wannsee-protocol",
+          "summary": "Records coordination of genocidal policy already underway; Nazi euphemisms require careful contextual reading and victim-authored evidence."
         }
       ],
       "researchWorkshop": {
@@ -3624,6 +3784,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "Museum historical reference",
           "summary": "Use verified chronology and definitions; distinguish museum synthesis from survivor testimony and original documents."
+        },
+        {
+          "title": "World War II Documents and Photographs — National Archives",
+          "creator": "National Archives and Records Administration",
+          "date": "1939–1945 archival materials",
+          "type": "Research collection with contemporary documents",
+          "url": "https://www.archives.gov/research/military/ww2",
+          "summary": "Select an individual dated original record and complement U.S. institutional perspectives with Chinese, Soviet, Japanese and other accounts."
         }
       ],
       "researchWorkshop": {
@@ -3732,6 +3900,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "International historic text",
           "summary": "Use the 1948 document to analyze postwar standards, not as proof that later national governments enforced rights equally."
+        },
+        {
+          "title": "The Truman Doctrine: Origins of Cold War Containment",
+          "creator": "U.S. Department of State, Office of the Historian",
+          "date": "1947 policy; modern institutional analysis",
+          "type": "Secondary U.S. diplomatic history",
+          "url": "https://history.state.gov/milestones/1945-1952/truman-doctrine",
+          "summary": "Explains U.S. official framing; not neutral evidence of Soviet or nonaligned government intentions."
         }
       ],
       "researchWorkshop": {
@@ -3840,6 +4016,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "International historic text",
           "summary": "Use the 1948 document to analyze postwar standards, not as proof that later national governments enforced rights equally."
+        },
+        {
+          "title": "Ghana's Policy at Home and Abroad: Speech to Parliament",
+          "creator": "Kwame Nkrumah",
+          "date": "August 29, 1957",
+          "type": "Primary Ghanaian parliamentary speech",
+          "url": "https://www.loc.gov/item/2008700222/",
+          "summary": "African leader's own policy account from the year of Ghanaian independence; not a proxy for all African independence movements."
         }
       ],
       "researchWorkshop": {
@@ -3948,6 +4132,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "International historic text",
           "summary": "Use the 1948 document to analyze postwar standards, not as proof that later national governments enforced rights equally."
+        },
+        {
+          "title": "Asia and Africa in Early Cold War",
+          "creator": "U.S. Department of State, Office of the Historian",
+          "date": "1945–1954 events; modern historical synthesis",
+          "type": "Secondary U.S. diplomatic context",
+          "url": "https://history.state.gov/milestones/1945-1952/asia-and-africa",
+          "summary": "Covers Indian, Indonesian and Vietnamese independence pressures as U.S. officials perceived them; add indigenous declarations to counterbalance."
         }
       ],
       "researchWorkshop": {
@@ -4056,6 +4248,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "International historic text",
           "summary": "Use the 1948 document to analyze postwar standards, not as proof that later national governments enforced rights equally."
+        },
+        {
+          "title": "The Collapse of the Soviet Union",
+          "creator": "U.S. Department of State, Office of the Historian",
+          "date": "1991 events; modern historical synthesis",
+          "type": "Secondary U.S. diplomatic history",
+          "url": "https://history.state.gov/milestones/1989-1992/collapse-soviet-union",
+          "summary": "Documents chronology of Gorbachev resignation and USSR dissolution but needs Soviet/republic-authored corroboration."
         }
       ],
       "researchWorkshop": {
@@ -4164,6 +4364,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "International historical document",
           "summary": "Compare adopted principles to a dated implementation record or national legislation."
+        },
+        {
+          "title": "UN Global Data and Statistics",
+          "creator": "United Nations Statistical Division",
+          "date": "Contemporary annually updated collection",
+          "type": "Statistical source gateway",
+          "url": "https://unstats.un.org/",
+          "summary": "Select explicitly dated and defined datasets before comparing migration, economy or technology; homepage alone is not evidence."
         }
       ],
       "researchWorkshop": {
@@ -4388,6 +4596,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "International historical document",
           "summary": "Compare adopted principles to a dated implementation record or national legislation."
+        },
+        {
+          "title": "Charter of the United Nations: Full Text",
+          "creator": "United Nations Conference on International Organization; original signatory governments",
+          "date": "Signed June 26, 1945",
+          "type": "Primary multilateral treaty",
+          "url": "https://www.un.org/en/about-us/un-charter/full-text",
+          "summary": "Legal framework for UN institutions and duties; distinguish from nonbinding declaration and from actual institutional outcomes."
         }
       ],
       "researchWorkshop": {
@@ -4496,6 +4712,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "International historical document",
           "summary": "Compare adopted principles to a dated implementation record or national legislation."
+        },
+        {
+          "title": "UN Global Data and Statistics",
+          "creator": "United Nations Statistical Division",
+          "date": "Contemporary annually updated collection",
+          "type": "Statistical source gateway",
+          "url": "https://unstats.un.org/",
+          "summary": "Select explicitly dated and defined datasets before comparing migration, economy or technology; homepage alone is not evidence."
         }
       ],
       "researchWorkshop": {
