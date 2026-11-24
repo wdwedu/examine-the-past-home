@@ -215,20 +215,20 @@
         {
           "prompt": "Which map claim needs correction?",
           "options": [
+            "American societies had independent networks",
             "Trade networks linked several regions",
-            "European states were the only centers of political power around 1300",
-            "American societies had independent networks"
+            "European states were the only centers of political power around 1300"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
           "prompt": "What is missing if the study of 1300 omits the Americas?",
           "options": [
-            "Independent American societies and their networks",
             "An explanation of NATO's origins",
-            "The French Revolution"
+            "The French Revolution",
+            "Independent American societies and their networks"
           ],
-          "answer": 0
+          "answer": 2
         }
       ],
       "investigationKind": "compare",
@@ -305,11 +305,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
-        "Monsoon winds",
         "Steamship timetables",
-        "The Panama Canal"
+        "The Panama Canal",
+        "Monsoon winds"
       ],
-      "correct": 0,
+      "correct": 2,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -322,11 +322,11 @@
         {
           "prompt": "What helped structure seasonal sailing on Indian Ocean routes?",
           "options": [
-            "Monsoon winds",
             "Steamship timetables",
-            "The Panama Canal"
+            "The Panama Canal",
+            "Monsoon winds"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "prompt": "Which claim would overstate a map of trade routes?",
@@ -340,11 +340,11 @@
         {
           "prompt": "Why did Indian Ocean merchants depend on port communities?",
           "options": [
+            "Ports had no role in long-distance trade",
             "Ports supplied navigation knowledge, contacts and commercial institutions",
-            "Ports eliminated all customs and risk",
-            "Ports had no role in long-distance trade"
+            "Ports eliminated all customs and risk"
           ],
-          "answer": 0
+          "answer": 1
         }
       ],
       "investigationKind": "flow",
@@ -421,11 +421,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
+        "The founding of the United Nations",
         "A vast thirteenth-century expansion",
-        "The first industrial revolution",
-        "The founding of the United Nations"
+        "The first industrial revolution"
       ],
-      "correct": 0,
+      "correct": 1,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -438,20 +438,20 @@
         {
           "prompt": "What preceded the fragmentation of Mongol rule into multiple khanates?",
           "options": [
+            "The founding of the United Nations",
             "A vast thirteenth-century expansion",
-            "The first industrial revolution",
-            "The founding of the United Nations"
+            "The first industrial revolution"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "prompt": "Which pairing best captures two outcomes of Mongol expansion?",
           "options": [
-            "Universal political equality and no conflict",
             "War and destruction alongside intensified exchanges in some corridors",
-            "The end of overland Eurasian commerce"
+            "The end of overland Eurasian commerce",
+            "Universal political equality and no conflict"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "prompt": "How does a conquered city's chronicle complicate a merchant's praise of Mongol routes?",
@@ -571,20 +571,20 @@
         {
           "prompt": "What does the identity of an artwork's patron help historians evaluate?",
           "options": [
+            "Whether all artists had equal access",
             "The exact beliefs of every viewer",
-            "The political and social purposes shaping its commission",
-            "Whether all artists had equal access"
+            "The political and social purposes shaping its commission"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
           "prompt": "What must be established when using a Renaissance painting as a political source?",
           "options": [
-            "Its patron, commission, context and intended audience",
             "That every viewer interpreted it identically",
-            "That it was necessarily painted without financial support"
+            "That it was necessarily painted without financial support",
+            "Its patron, commission, context and intended audience"
           ],
-          "answer": 0
+          "answer": 2
         }
       ],
       "investigationKind": "debate",
@@ -661,11 +661,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
-        "Indulgence preaching",
         "Railroad construction",
-        "The Treaty of Versailles"
+        "The Treaty of Versailles",
+        "Indulgence preaching"
       ],
-      "correct": 0,
+      "correct": 2,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -678,11 +678,11 @@
         {
           "prompt": "Which practice did Luther challenge in 1517?",
           "options": [
-            "Indulgence preaching",
             "Railroad construction",
-            "The Treaty of Versailles"
+            "The Treaty of Versailles",
+            "Indulgence preaching"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "prompt": "Which factor helped Reformation ideas circulate?",
@@ -696,11 +696,11 @@
         {
           "prompt": "Why might a prince support religious reform?",
           "options": [
+            "Printed texts stopped circulating",
             "Religious convictions could interact with control of local church institutions",
-            "All princes lost political authority after 1517",
-            "Printed texts stopped circulating"
+            "All princes lost political authority after 1517"
           ],
-          "answer": 0
+          "answer": 1
         }
       ],
       "investigationKind": "timeline",
@@ -777,11 +777,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
+        "Treaty of Paris 1898",
         "Peace of Westphalia",
-        "Congress of Vienna",
-        "Treaty of Paris 1898"
+        "Congress of Vienna"
       ],
-      "correct": 0,
+      "correct": 1,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -794,20 +794,20 @@
         {
           "prompt": "Which event concluded the Thirty Years' War in 1648?",
           "options": [
+            "Treaty of Paris 1898",
             "Peace of Westphalia",
-            "Congress of Vienna",
-            "Treaty of Paris 1898"
+            "Congress of Vienna"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "prompt": "Why can a ruler's religious decree not reveal every subject's beliefs?",
           "options": [
-            "All subjects always complied voluntarily",
             "The law describes official authority, not complete lived practice",
-            "Written sources cannot date laws"
+            "Written sources cannot date laws",
+            "All subjects always complied voluntarily"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "prompt": "What limitation accompanies evidence from a seventeenth-century peace treaty?",
@@ -919,20 +919,20 @@
         {
           "prompt": "Why is 'discovery' a limited description of Atlantic encounters?",
           "options": [
+            "It proves maritime routes were peaceful",
             "It recognizes every Indigenous perspective",
-            "It can erase peoples already living in and knowing the places encountered",
-            "It proves maritime routes were peaceful"
+            "It can erase peoples already living in and knowing the places encountered"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
           "prompt": "Which record could challenge a European explorer's claim to have found an 'uninhabited' place?",
           "options": [
-            "Indigenous settlement or land-use evidence",
             "An unrelated nineteenth-century tariff schedule",
-            "A twentieth-century satellite launch"
+            "A twentieth-century satellite launch",
+            "Indigenous settlement or land-use evidence"
           ],
-          "answer": 0
+          "answer": 2
         }
       ],
       "investigationKind": "venn",
@@ -1001,11 +1001,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
-        "American crops circulating in Afro-Eurasia",
         "Sputnik entering orbit",
-        "Steam engines introduced in 1200"
+        "Steam engines introduced in 1200",
+        "American crops circulating in Afro-Eurasia"
       ],
-      "correct": 0,
+      "correct": 2,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -1018,11 +1018,11 @@
         {
           "prompt": "Which movement is characteristic of the Columbian Exchange?",
           "options": [
-            "American crops circulating in Afro-Eurasia",
             "Sputnik entering orbit",
-            "Steam engines introduced in 1200"
+            "Steam engines introduced in 1200",
+            "American crops circulating in Afro-Eurasia"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "prompt": "Why must mortality evidence be interpreted carefully?",
@@ -1036,11 +1036,11 @@
         {
           "prompt": "Which causal explanation of Indigenous population losses is most defensible?",
           "options": [
+            "No ecological changes followed transatlantic contact",
             "Introduced disease interacted with conquest and social disruption",
-            "Disease was the only possible influence in every community",
-            "No ecological changes followed transatlantic contact"
+            "Disease was the only possible influence in every community"
           ],
-          "answer": 0
+          "answer": 1
         }
       ],
       "investigationKind": "network",
@@ -1109,11 +1109,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
+        "A fictional adventure",
         "An issued colonial decree",
-        "An undated modern cartoon",
-        "A fictional adventure"
+        "An undated modern cartoon"
       ],
-      "correct": 0,
+      "correct": 1,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -1126,20 +1126,20 @@
         {
           "prompt": "Which source is most directly evidence of a colonial government's announced policy?",
           "options": [
+            "A fictional adventure",
             "An issued colonial decree",
-            "An undated modern cartoon",
-            "A fictional adventure"
+            "An undated modern cartoon"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "prompt": "Why does a colonial ruler's report require corroboration?",
           "options": [
-            "It is automatically neutral",
             "It may justify conquest and omit Indigenous perspectives",
-            "It has no identifiable author"
+            "It has no identifiable author",
+            "It is automatically neutral"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "prompt": "Why should land transfers be studied from Indigenous and colonial records?",
@@ -1243,20 +1243,20 @@
         {
           "prompt": "Which claim about voyage estimates is historically responsible?",
           "options": [
+            "They measure every captive's personal experience",
             "They count every voyage perfectly",
-            "They are reconstructed from incomplete records and require methodological cautions",
-            "They measure every captive's personal experience"
+            "They are reconstructed from incomplete records and require methodological cautions"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
           "prompt": "What must accompany a table of estimated forced Atlantic crossings?",
           "options": [
-            "An account of surviving records, uncertainty and human experiences",
             "The claim that the figure is a complete roll of every captive",
-            "The claim that numbers reveal each person's thoughts"
+            "The claim that numbers reveal each person's thoughts",
+            "An account of surviving records, uncertainty and human experiences"
           ],
-          "answer": 0
+          "answer": 2
         }
       ],
       "investigationKind": "flow",
@@ -1333,11 +1333,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
-        "Telescope",
         "Satellite navigation receiver",
-        "Electron microscope"
+        "Electron microscope",
+        "Telescope"
       ],
-      "correct": 0,
+      "correct": 2,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -1350,11 +1350,11 @@
         {
           "prompt": "Which instrument improved early modern astronomical observation?",
           "options": [
-            "Telescope",
             "Satellite navigation receiver",
-            "Electron microscope"
+            "Electron microscope",
+            "Telescope"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "prompt": "Why must historians distinguish observation from interpretation?",
@@ -1368,11 +1368,11 @@
         {
           "prompt": "Which evidence could test a seventeenth-century astronomical claim?",
           "options": [
+            "A modern advertisement without measurement",
             "Dated observations and competing calculations",
-            "A court title without an observed phenomenon",
-            "A modern advertisement without measurement"
+            "A court title without an observed phenomenon"
           ],
-          "answer": 0
+          "answer": 1
         }
       ],
       "investigationKind": "gallery",
@@ -1449,11 +1449,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
+        "Napoleon III",
         "Montesquieu",
-        "Louis XIV",
-        "Napoleon III"
+        "Louis XIV"
       ],
-      "correct": 0,
+      "correct": 1,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -1466,20 +1466,20 @@
         {
           "prompt": "Which thinker is strongly associated with the separation of powers?",
           "options": [
+            "Napoleon III",
             "Montesquieu",
-            "Louis XIV",
-            "Napoleon III"
+            "Louis XIV"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "prompt": "Which statement best represents Enlightenment political debate?",
           "options": [
-            "Every author favored identical institutions",
             "Writers disagreed about legitimate authority and political membership",
-            "All states immediately adopted equal suffrage"
+            "All states immediately adopted equal suffrage",
+            "Every author favored identical institutions"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "prompt": "How could two Enlightenment authors differ over legitimate government?",
@@ -1583,20 +1583,20 @@
         {
           "prompt": "Why is similarity between texts insufficient proof of direct influence?",
           "options": [
+            "Every document has identical audiences",
             "Similar ideas can never be compared",
-            "Transmission, timing and authorship must also be established",
-            "Every document has identical audiences"
+            "Transmission, timing and authorship must also be established"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
           "prompt": "How can students avoid assuming that political ideals were fully implemented?",
           "options": [
-            "Compare written claims of rights with laws and participation records",
             "Quote an ideal and infer equal access immediately",
-            "Ignore people excluded from elections"
+            "Ignore people excluded from elections",
+            "Compare written claims of rights with laws and participation records"
           ],
-          "answer": 0
+          "answer": 2
         }
       ],
       "investigationKind": "timeline",
@@ -1665,11 +1665,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
-        "1789",
         "1848",
-        "1917"
+        "1917",
+        "1789"
       ],
-      "correct": 0,
+      "correct": 2,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -1682,11 +1682,11 @@
         {
           "prompt": "In what year did France's Estates-General convene during the revolutionary crisis?",
           "options": [
-            "1789",
             "1848",
-            "1917"
+            "1917",
+            "1789"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "prompt": "What tension is central to interpreting the revolution?",
@@ -1700,11 +1700,11 @@
         {
           "prompt": "Which historical evidence can test the reach of the 1789 rights declaration?",
           "options": [
+            "A modern slogan without a date",
             "Records of actual citizenship, elections and colonial slavery",
-            "The wording of the declaration alone",
-            "A modern slogan without a date"
+            "The wording of the declaration alone"
           ],
-          "answer": 0
+          "answer": 1
         }
       ],
       "investigationKind": "map",
@@ -1781,11 +1781,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
+        "Martinique",
         "Saint-Domingue",
-        "Jamaica",
-        "Martinique"
+        "Jamaica"
       ],
-      "correct": 0,
+      "correct": 1,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -1798,20 +1798,20 @@
         {
           "prompt": "Which colony became independent Haiti in 1804?",
           "options": [
+            "Martinique",
             "Saint-Domingue",
-            "Jamaica",
-            "Martinique"
+            "Jamaica"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "prompt": "Which historical actors must be central to the Haitian Revolution?",
           "options": [
-            "Only metropolitan French legislators",
             "Enslaved and free people in the colony who shaped the revolution",
-            "Only British sailors"
+            "Only British sailors",
+            "Only metropolitan French legislators"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "prompt": "Why is Haiti's 1804 declaration distinct from the 1789 French rights declaration?",
@@ -1923,20 +1923,20 @@
         {
           "prompt": "Why should Latin American independence movements be compared regionally?",
           "options": [
+            "No Indigenous people participated in political life",
             "Every region gained the same institutions at once",
-            "Differences in slavery, state structures and local actors shaped outcomes",
-            "No Indigenous people participated in political life"
+            "Differences in slavery, state structures and local actors shaped outcomes"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
           "prompt": "What is a limitation of Bolívar's 1815 Jamaica Letter?",
           "options": [
-            "It is one political leader's argument, not a vote of all affected populations",
             "It documents the decisions of every Indigenous community",
-            "It is an official Brazilian constitution"
+            "It is an official Brazilian constitution",
+            "It is one political leader's argument, not a vote of all affected populations"
           ],
-          "answer": 0
+          "answer": 2
         }
       ],
       "investigationKind": "network",
@@ -2013,11 +2013,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
-        "The speakers' definitions of rights and actual institutions",
         "Only the revolution's popular nickname",
-        "A single European textbook map"
+        "A single European textbook map",
+        "The speakers' definitions of rights and actual institutions"
       ],
-      "correct": 0,
+      "correct": 2,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -2030,11 +2030,11 @@
         {
           "prompt": "What is essential when comparing revolutionary claims across regions?",
           "options": [
-            "The speakers' definitions of rights and actual institutions",
             "Only the revolution's popular nickname",
-            "A single European textbook map"
+            "A single European textbook map",
+            "The speakers' definitions of rights and actual institutions"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "prompt": "Which claim needs historical qualification?",
@@ -2048,11 +2048,11 @@
         {
           "prompt": "Which comparison exposes unequal revolutionary outcomes?",
           "options": [
+            "Only whether a leader wore a uniform",
             "The legal status of enslaved people after the French and Haitian upheavals",
-            "Only the number of words in each declaration",
-            "Only whether a leader wore a uniform"
+            "Only the number of words in each declaration"
           ],
-          "answer": 0
+          "answer": 1
         }
       ],
       "investigationKind": "compare",
@@ -2145,11 +2145,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
+        "Uranium",
         "Coal",
-        "Solar panels",
-        "Uranium"
+        "Solar panels"
       ],
-      "correct": 0,
+      "correct": 1,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -2162,20 +2162,20 @@
         {
           "prompt": "Which energy source powered many early British industrial factories?",
           "options": [
+            "Uranium",
             "Coal",
-            "Solar panels",
-            "Uranium"
+            "Solar panels"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "prompt": "Why is a single-invention explanation of industrialization inadequate?",
           "options": [
-            "Machines had no effect",
             "Institutions, energy, labor and capital also shaped change",
-            "All regions industrialized in the same year"
+            "All regions industrialized in the same year",
+            "Machines had no effect"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "prompt": "What is the strongest way to explain the timing of Britain's industrialization?",
@@ -2279,20 +2279,20 @@
         {
           "prompt": "Why should a factory inspector's report not stand alone?",
           "options": [
+            "It proves no labor laws were enforced",
             "It has no relationship to workplaces",
-            "Its observations and institutional priorities require comparison with workers' accounts",
-            "It proves no labor laws were enforced"
+            "Its observations and institutional priorities require comparison with workers' accounts"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
           "prompt": "Which combination best tests claims about factory working conditions?",
           "options": [
-            "Worker testimony, inspector findings and dated employment records",
             "Only a factory owner's advertisement",
-            "Only an undated painting"
+            "Only an undated painting",
+            "Worker testimony, inspector findings and dated employment records"
           ],
-          "answer": 0
+          "answer": 2
         }
       ],
       "investigationKind": "gallery",
@@ -2361,11 +2361,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
-        "Raw materials shipped to distant manufacturing centers",
         "The end of international transport",
-        "Only self-sufficient village exchange"
+        "Only self-sufficient village exchange",
+        "Raw materials shipped to distant manufacturing centers"
       ],
-      "correct": 0,
+      "correct": 2,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -2378,11 +2378,11 @@
         {
           "prompt": "What is an example of global industrial economic integration?",
           "options": [
-            "Raw materials shipped to distant manufacturing centers",
             "The end of international transport",
-            "Only self-sufficient village exchange"
+            "Only self-sufficient village exchange",
+            "Raw materials shipped to distant manufacturing centers"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "prompt": "Why are total export values insufficient to show shared prosperity?",
@@ -2396,11 +2396,11 @@
         {
           "prompt": "What would reveal unequal benefits from industrial trade?",
           "options": [
+            "A statement that all trade prevented coercion",
             "Wage or labor conditions alongside trade and production figures",
-            "Total exports alone as a measure of everyone’s income",
-            "A statement that all trade prevented coercion"
+            "Total exports alone as a measure of everyone’s income"
           ],
-          "answer": 0
+          "answer": 1
         }
       ],
       "investigationKind": "debate",
@@ -2469,11 +2469,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
+        "Immediate abandonment of overseas claims",
         "Racialized claims about civilization and power",
-        "Universal colonial voting equality",
-        "Immediate abandonment of overseas claims"
+        "Universal colonial voting equality"
       ],
-      "correct": 0,
+      "correct": 1,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -2486,20 +2486,20 @@
         {
           "prompt": "Which was a major justification advanced by nineteenth-century imperial advocates?",
           "options": [
+            "Immediate abandonment of overseas claims",
             "Racialized claims about civilization and power",
-            "Universal colonial voting equality",
-            "Immediate abandonment of overseas claims"
+            "Universal colonial voting equality"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "prompt": "Why does a colonial official's report need another perspective?",
           "options": [
-            "It is an eyewitness account of every inhabitant",
             "It may justify coercive rule and silence colonized voices",
-            "It always condemns empire"
+            "It always condemns empire",
+            "It is an eyewitness account of every inhabitant"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "prompt": "What does the phrase 'civilizing mission' reveal most directly?",
@@ -2611,20 +2611,20 @@
         {
           "prompt": "Why is a European diplomatic map incomplete evidence of actual colonial control?",
           "options": [
+            "All boundaries were accepted without resistance",
             "Maps cannot represent claims",
-            "Territorial claims differ from enforcement and African societies' responses",
-            "All boundaries were accepted without resistance"
+            "Territorial claims differ from enforcement and African societies' responses"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
           "prompt": "What should be compared with European territorial maps of Africa?",
           "options": [
-            "African political and resistance records and dates of actual military occupation",
             "An unrelated European school timetable",
-            "Claims that boundaries were accepted without conflict"
+            "Claims that boundaries were accepted without conflict",
+            "African political and resistance records and dates of actual military occupation"
           ],
-          "answer": 0
+          "answer": 2
         }
       ],
       "investigationKind": "map",
@@ -2701,11 +2701,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
-        "Unequal treaties",
         "The Treaty of Versailles",
-        "NAFTA"
+        "NAFTA",
+        "Unequal treaties"
       ],
-      "correct": 0,
+      "correct": 2,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -2718,11 +2718,11 @@
         {
           "prompt": "Which treaty system often limited Qing China's sovereignty in the nineteenth century?",
           "options": [
-            "Unequal treaties",
             "The Treaty of Versailles",
-            "NAFTA"
+            "NAFTA",
+            "Unequal treaties"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "prompt": "What is wrong with treating all Asian responses to imperialism as identical?",
@@ -2736,11 +2736,11 @@
         {
           "prompt": "Which example highlights different experiences of Asian imperialism?",
           "options": [
+            "The assumption that trade treaties always meant equal power",
             "Unequal treaties in Qing China compared with British rule in India",
-            "Identical policies in every Asian state",
-            "The assumption that trade treaties always meant equal power"
+            "Identical policies in every Asian state"
           ],
-          "answer": 0
+          "answer": 1
         }
       ],
       "investigationKind": "venn",
@@ -2817,11 +2817,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
+        "Universal acceptance of colonial rule",
         "Organized petitions or boycotts",
-        "The automatic end of all empires",
-        "Universal acceptance of colonial rule"
+        "The automatic end of all empires"
       ],
-      "correct": 0,
+      "correct": 1,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -2834,20 +2834,20 @@
         {
           "prompt": "Which is an example of anticolonial political action?",
           "options": [
+            "Universal acceptance of colonial rule",
             "Organized petitions or boycotts",
-            "The automatic end of all empires",
-            "Universal acceptance of colonial rule"
+            "The automatic end of all empires"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "prompt": "Why might colonial officials label a protest 'disorder'?",
           "options": [
-            "The term is always an objective finding",
             "Officials may seek to delegitimize demands for rights or sovereignty",
-            "All protests lacked articulated goals"
+            "All protests lacked articulated goals",
+            "The term is always an objective finding"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "prompt": "How might an anticolonial petition and a police report describe the same protest differently?",
@@ -2959,20 +2959,20 @@
         {
           "prompt": "Which claim about 1914 alliances is misleading?",
           "options": [
+            "States made diplomatic choices",
             "Alliances influenced risk calculations",
-            "Alliances removed decision-making agency from every government",
-            "States made diplomatic choices"
+            "Alliances removed decision-making agency from every government"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
           "prompt": "Why must the July 1914 ultimatum be distinguished from the assassination?",
           "options": [
-            "The ultimatum was a subsequent government choice that escalated the crisis",
             "The ultimatum occurred in 1918",
-            "The assassination itself legally compelled all states to fight"
+            "The assassination itself legally compelled all states to fight",
+            "The ultimatum was a subsequent government choice that escalated the crisis"
           ],
-          "answer": 0
+          "answer": 2
         }
       ],
       "investigationKind": "compare",
@@ -3049,11 +3049,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
-        "Machine guns",
         "Nuclear missiles",
-        "Guided drones"
+        "Guided drones",
+        "Machine guns"
       ],
-      "correct": 0,
+      "correct": 2,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -3066,11 +3066,11 @@
         {
           "prompt": "Which weapon made exposed assaults especially dangerous in World War I?",
           "options": [
-            "Machine guns",
             "Nuclear missiles",
-            "Guided drones"
+            "Guided drones",
+            "Machine guns"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "prompt": "Why should a propaganda poster not be treated as a neutral measure of morale?",
@@ -3084,11 +3084,11 @@
         {
           "prompt": "What did wartime industrial mobilization add to battles at the front?",
           "options": [
+            "Armies operated with no railways or supplies",
             "Civilian production, financing and labor became central to military capacity",
-            "Civilian workers ceased to matter",
-            "Armies operated with no railways or supplies"
+            "Civilian workers ceased to matter"
           ],
-          "answer": 0
+          "answer": 1
         }
       ],
       "investigationKind": "flow",
@@ -3165,11 +3165,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
+        "European Union",
         "League of Nations",
-        "United Nations",
-        "European Union"
+        "United Nations"
       ],
-      "correct": 0,
+      "correct": 1,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -3182,20 +3182,20 @@
         {
           "prompt": "What international organization was provided for in Part I of the Treaty of Versailles?",
           "options": [
+            "European Union",
             "League of Nations",
-            "United Nations",
-            "European Union"
+            "United Nations"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "prompt": "Which claim about Versailles requires rejection?",
           "options": [
-            "It set terms for Germany",
             "It alone inevitably caused World War II regardless of subsequent choices",
-            "Its provisions could be politically contested"
+            "Its provisions could be politically contested",
+            "It set terms for Germany"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "prompt": "Why is the League covenant only part of the Versailles settlement?",
@@ -3307,20 +3307,20 @@
         {
           "prompt": "Why is an identical political outcome not implied by economic crisis?",
           "options": [
+            "Economic data are never useful",
             "All states used exactly one policy",
-            "Institutions, ideology and political choices differed",
-            "Economic data are never useful"
+            "Institutions, ideology and political choices differed"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
           "prompt": "Which comparison helps assess differences in Depression responses?",
           "options": [
-            "Country-specific bank failures, unemployment and policy choices",
             "A single undated newspaper headline",
-            "The claim that all governments followed identical economic policies"
+            "The claim that all governments followed identical economic policies",
+            "Country-specific bank failures, unemployment and policy choices"
           ],
-          "answer": 0
+          "answer": 2
         }
       ],
       "investigationKind": "debate",
@@ -3397,11 +3397,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
-        "Authoritarian ultranationalism",
         "Independent opposition parties exercising equal power",
-        "Universal protection for dissent"
+        "Universal protection for dissent",
+        "Authoritarian ultranationalism"
       ],
-      "correct": 0,
+      "correct": 2,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -3414,11 +3414,11 @@
         {
           "prompt": "Which political feature characterized fascist governments?",
           "options": [
-            "Authoritarian ultranationalism",
             "Independent opposition parties exercising equal power",
-            "Universal protection for dissent"
+            "Universal protection for dissent",
+            "Authoritarian ultranationalism"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "prompt": "Why must Nazi racial propaganda be described as propaganda?",
@@ -3432,11 +3432,11 @@
         {
           "prompt": "Which evidence most directly reveals how Nazi persecution became state policy?",
           "options": [
+            "Only a modern costume photograph",
             "Specific discriminatory laws and records of enforcement",
-            "An unsourced claim about human racial ranking",
-            "Only a modern costume photograph"
+            "An unsourced claim about human racial ranking"
           ],
-          "answer": 0
+          "answer": 1
         }
       ],
       "investigationKind": "timeline",
@@ -3513,11 +3513,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
+        "South America",
         "East Asia",
-        "Scandinavia",
-        "South America"
+        "Scandinavia"
       ],
-      "correct": 0,
+      "correct": 1,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -3530,20 +3530,20 @@
         {
           "prompt": "Where did Japan's full-scale war against China intensify in 1937?",
           "options": [
+            "South America",
             "East Asia",
-            "Scandinavia",
-            "South America"
+            "Scandinavia"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "prompt": "Which account is too narrow for a global history of WWII?",
           "options": [
-            "Several theaters and empires were involved",
             "Only the United States and Western Europe had meaningful roles",
-            "Civilians endured major consequences"
+            "Civilians endured major consequences",
+            "Several theaters and empires were involved"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "prompt": "What would correct an account focused exclusively on D-Day?",
@@ -3655,20 +3655,20 @@
         {
           "prompt": "Which description of the 1942 Wannsee Conference is accurate?",
           "options": [
+            "It ended the persecution of Jews",
             "It created antisemitism for the first time",
-            "It coordinated aspects of a genocide that was already underway",
-            "It ended the persecution of Jews"
+            "It coordinated aspects of a genocide that was already underway"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
           "prompt": "Why should students pair perpetrator laws with Jewish survivor or victim records?",
           "options": [
-            "To document the actions and human consequences excluded by bureaucratic language",
             "To imply the genocide's occurrence is an open opinion poll",
-            "To reproduce graphic violence for shock"
+            "To reproduce graphic violence for shock",
+            "To document the actions and human consequences excluded by bureaucratic language"
           ],
-          "answer": 0
+          "answer": 2
         }
       ],
       "investigationKind": "venn",
@@ -3761,11 +3761,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
-        "September 2, 1945",
         "June 6, 1944",
-        "January 1, 1942"
+        "January 1, 1942",
+        "September 2, 1945"
       ],
-      "correct": 0,
+      "correct": 2,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -3778,11 +3778,11 @@
         {
           "prompt": "When was Japan's formal surrender instrument signed?",
           "options": [
-            "September 2, 1945",
             "June 6, 1944",
-            "January 1, 1942"
+            "January 1, 1942",
+            "September 2, 1945"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "prompt": "Why is the explanation of Japan's surrender still historically debated?",
@@ -3796,11 +3796,11 @@
         {
           "prompt": "Why must Japan's surrender be analyzed using several kinds of evidence?",
           "options": [
+            "The formal surrender happened before the war",
             "Military campaigns, atomic bombing, Soviet entry and Japanese political records informed decisions",
-            "One announcement alone establishes every leader's thinking",
-            "The formal surrender happened before the war"
+            "One announcement alone establishes every leader's thinking"
           ],
-          "answer": 0
+          "answer": 1
         }
       ],
       "investigationKind": "network",
@@ -3877,11 +3877,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
+        "Carthage and Rome",
         "United States and Soviet Union",
-        "Britain and Ming China",
-        "Carthage and Rome"
+        "Britain and Ming China"
       ],
-      "correct": 0,
+      "correct": 1,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -3894,20 +3894,20 @@
         {
           "prompt": "What was the central international rivalry of the Cold War?",
           "options": [
+            "Carthage and Rome",
             "United States and Soviet Union",
-            "Britain and Ming China",
-            "Carthage and Rome"
+            "Britain and Ming China"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "prompt": "What is the significance of the Non-Aligned Movement?",
           "options": [
-            "Every state joined NATO",
             "Some states pursued policies beyond exclusive alignment with either superpower",
-            "It was a Soviet military alliance"
+            "It was a Soviet military alliance",
+            "Every state joined NATO"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "prompt": "What perspective is missing from a comparison of only U.S. and Soviet speeches?",
@@ -4019,20 +4019,20 @@
         {
           "prompt": "Why should African decolonization not be treated as one uniform peaceful process?",
           "options": [
+            "Local leaders did not participate",
             "All nations gained sovereignty on the same date",
-            "Colonial systems and struggles differed, including negotiations and wars",
-            "Local leaders did not participate"
+            "Colonial systems and struggles differed, including negotiations and wars"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
           "prompt": "What can Nkrumah's 1957 parliamentary speech directly establish?",
           "options": [
-            "His publicly stated vision for newly independent Ghana",
             "The views of every African independence movement",
-            "The terms of Algeria's independence agreement"
+            "The terms of Algeria's independence agreement",
+            "His publicly stated vision for newly independent Ghana"
           ],
-          "answer": 0
+          "answer": 2
         }
       ],
       "investigationKind": "flow",
@@ -4109,11 +4109,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
-        "Partition of India and Pakistan",
         "Fall of the Berlin Wall",
-        "Treaty of Versailles"
+        "Treaty of Versailles",
+        "Partition of India and Pakistan"
       ],
-      "correct": 0,
+      "correct": 2,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -4126,11 +4126,11 @@
         {
           "prompt": "Which event accompanied British India's independence in 1947?",
           "options": [
-            "Partition of India and Pakistan",
             "Fall of the Berlin Wall",
-            "Treaty of Versailles"
+            "Treaty of Versailles",
+            "Partition of India and Pakistan"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "prompt": "Why is decolonization in Asia not reducible to the end of European occupation?",
@@ -4144,11 +4144,11 @@
         {
           "prompt": "Why should 1947 independence in South Asia be studied alongside partition?",
           "options": [
+            "All religious communities faced identical circumstances",
             "Transfer of power coincided with new borders, displacement and violence",
-            "India and Pakistan remained a single colony",
-            "All religious communities faced identical circumstances"
+            "India and Pakistan remained a single colony"
           ],
-          "answer": 0
+          "answer": 1
         }
       ],
       "investigationKind": "gallery",
@@ -4225,11 +4225,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
+        "1979",
         "1991",
-        "1989",
-        "1979"
+        "1989"
       ],
-      "correct": 0,
+      "correct": 1,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -4242,20 +4242,20 @@
         {
           "prompt": "In which year was the Soviet Union dissolved?",
           "options": [
+            "1979",
             "1991",
-            "1989",
-            "1979"
+            "1989"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "prompt": "Which explanation of Soviet dissolution is too narrow?",
           "options": [
-            "Internal reform and national movements mattered",
             "Only one American president caused the USSR to dissolve",
-            "Economic and political conflict shaped outcomes"
+            "Economic and political conflict shaped outcomes",
+            "Internal reform and national movements mattered"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "prompt": "Which chronology is correct?",
@@ -4367,20 +4367,20 @@
         {
           "prompt": "Why is increased international trade not proof of universal prosperity?",
           "options": [
+            "Every region's workers have the same incomes",
             "Trade cannot be measured",
-            "Costs and gains may be distributed unequally",
-            "Every region's workers have the same incomes"
+            "Costs and gains may be distributed unequally"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
           "prompt": "Which measure would help test inequality in global supply chains?",
           "options": [
-            "Wages, working conditions and value distribution across producing regions",
             "Total sales alone as proof of equal welfare",
-            "A single undated corporate slogan"
+            "A single undated corporate slogan",
+            "Wages, working conditions and value distribution across producing regions"
           ],
-          "answer": 0
+          "answer": 2
         }
       ],
       "investigationKind": "timeline",
@@ -4457,11 +4457,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
-        "UN Charter",
         "Treaty of Versailles",
-        "NATO Treaty"
+        "NATO Treaty",
+        "UN Charter"
       ],
-      "correct": 0,
+      "correct": 2,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -4474,11 +4474,11 @@
         {
           "prompt": "What founding document established the United Nations in 1945?",
           "options": [
-            "UN Charter",
             "Treaty of Versailles",
-            "NATO Treaty"
+            "NATO Treaty",
+            "UN Charter"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "prompt": "What distinguishes the 1948 Universal Declaration of Human Rights from the UN Charter?",
@@ -4492,11 +4492,11 @@
         {
           "prompt": "What distinction is essential between the 1945 UN Charter and 1948 Universal Declaration?",
           "options": [
+            "Both are identical treaties signed in 1945",
             "The Charter is a founding treaty; the Declaration articulates rights principles",
-            "The Declaration founded NATO",
-            "Both are identical treaties signed in 1945"
+            "The Declaration founded NATO"
           ],
-          "answer": 0
+          "answer": 1
         }
       ],
       "investigationKind": "map",
@@ -4573,11 +4573,11 @@
         "Historical argument: State a claim that could be falsified by additional evidence, then identify a source that could challenge it. Explain why the interpretation remains provisional and what missing perspective would change the conclusion."
       ],
       "options": [
+        "Magna Carta",
         "Universal Declaration of Human Rights",
-        "Treaty of Tordesillas",
-        "Magna Carta"
+        "Treaty of Tordesillas"
       ],
-      "correct": 0,
+      "correct": 1,
       "depth": "Grade 11 / grades 11–12 disciplinary literacy: original-source analysis, conflicting interpretations, chronological and geographic reasoning, corroboration, qualified thesis",
       "vocabulary": [
         "provenance",
@@ -4590,20 +4590,20 @@
         {
           "prompt": "What document was adopted by the UN General Assembly in 1948?",
           "options": [
+            "Magna Carta",
             "Universal Declaration of Human Rights",
-            "Treaty of Tordesillas",
-            "Magna Carta"
+            "Treaty of Tordesillas"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "prompt": "Why is a human-rights declaration not sufficient evidence of real-world protection?",
           "options": [
-            "All declarations lack dates",
             "Legal commitments and enforcement can differ from lived outcomes",
-            "Declarations have no authors"
+            "Declarations have no authors",
+            "All declarations lack dates"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "prompt": "Why must a human-rights claim be evaluated beyond an international declaration?",
@@ -4715,20 +4715,20 @@
         {
           "prompt": "What is a common error in using technology-adoption trends?",
           "options": [
+            "Comparing the same population over time",
             "Defining measures and years",
-            "Assuming correlation alone proves a specific social effect",
-            "Comparing the same population over time"
+            "Assuming correlation alone proves a specific social effect"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
           "prompt": "What would make two migration datasets comparable?",
           "options": [
-            "Consistent dates, definitions, places and population measures",
             "Only a matching chart color",
-            "Different denominators left unexplained"
+            "Different denominators left unexplained",
+            "Consistent dates, definitions, places and population measures"
           ],
-          "answer": 0
+          "answer": 2
         }
       ],
       "investigationKind": "network",
