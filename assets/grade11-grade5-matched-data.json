@@ -2860,6 +2860,14 @@
           "type": "Secondary U.S. diplomatic history",
           "url": "https://history.state.gov/milestones/1899-1913/hay-and-china",
           "summary": "U.S. trade objectives in China, not a Chinese endorsement of outside commercial interference."
+        },
+        {
+          "title": "John Hay, Open Door Policy diplomatic letter",
+          "creator": "U.S. Secretary of State John Hay; Foreign Relations of the United States 1899",
+          "date": "September 6, 1899",
+          "type": "Primary U.S. diplomatic correspondence",
+          "url": "https://history.state.gov/historicaldocuments/frus1899/d88",
+          "summary": "Original U.S. diplomatic advocacy for access to Chinese markets, not a Qing government endorsement of the policy."
         }
       ],
       "researchWorkshop": {
@@ -3432,6 +3440,14 @@
           "type": "Secondary institutional economic history",
           "url": "https://www.federalreservehistory.org/essays/great-depression",
           "summary": "Analyzes banking crises and monetary policy; secondary institutional perspective, not period unemployment data."
+        },
+        {
+          "title": "Federal Reserve Bulletin, November 1931",
+          "creator": "United States Federal Reserve Board",
+          "date": "November 1931",
+          "type": "Contemporary primary statistical report",
+          "url": "https://fraser.stlouisfed.org/title/federal-reserve-bulletin-62/november-1931-20720/fulltext",
+          "summary": "Period banking and suspension figures, not a complete international unemployment measure. Inspect year, units and limitations."
         }
       ],
       "researchWorkshop": {
@@ -4020,6 +4036,14 @@
           "type": "Secondary U.S. diplomatic history",
           "url": "https://history.state.gov/milestones/1945-1952/truman-doctrine",
           "summary": "Explains U.S. official framing; not neutral evidence of Soviet or nonaligned government intentions."
+        },
+        {
+          "title": "Special Message to Congress on Greece and Turkey",
+          "creator": "U.S. President Harry S. Truman",
+          "date": "March 12, 1947",
+          "type": "Primary presidential foreign-policy address",
+          "url": "https://www.trumanlibrary.gov/library/public-papers/56/special-message-congress-greece-and-turkey-truman-doctrine",
+          "summary": "Original U.S. policy justification, not evidence of Soviet intentions or the independent preferences of Greek and Turkish citizens."
         }
       ],
       "researchWorkshop": {
@@ -4252,6 +4276,14 @@
           "type": "Secondary U.S. diplomatic context",
           "url": "https://history.state.gov/milestones/1945-1952/asia-and-africa",
           "summary": "Covers Indian, Indonesian and Vietnamese independence pressures as U.S. officials perceived them; add indigenous declarations to counterbalance."
+        },
+        {
+          "title": "Sukarno and the Indonesian Independence Proclamation",
+          "creator": "Sukarno, Mohammad Hatta and Indonesian independence leaders; Rijksmuseum historical exhibition",
+          "date": "August 17, 1945; modern museum reproduction/context",
+          "type": "Primary Indonesian proclamation quoted in museum context",
+          "url": "https://www.rijksmuseum.nl/en/stories/exhibitions/revolusi/story/story-sukarno",
+          "summary": "An Indonesian-authored independence claim as reproduced by a museum; text, translation and contemporary documentary form require separate verification."
         }
       ],
       "researchWorkshop": {
@@ -4368,6 +4400,14 @@
           "type": "Secondary U.S. diplomatic history",
           "url": "https://history.state.gov/milestones/1989-1992/collapse-soviet-union",
           "summary": "Documents chronology of Gorbachev resignation and USSR dissolution but needs Soviet/republic-authored corroboration."
+        },
+        {
+          "title": "December 25, 1991 Gorbachev–Bush phone transcript",
+          "creator": "Mikhail Gorbachev and George H. W. Bush; declassified White House record",
+          "date": "December 25, 1991",
+          "type": "Primary declassified diplomatic conversation",
+          "url": "https://nsarchive.gwu.edu/media/22496/ocr",
+          "summary": "Contemporaneous transcript documents Gorbachev's stated intentions about resignation and state disintegration; not the views of all Soviet republics."
         }
       ],
       "researchWorkshop": {
@@ -4484,6 +4524,14 @@
           "type": "Statistical source gateway",
           "url": "https://unstats.un.org/",
           "summary": "Select explicitly dated and defined datasets before comparing migration, economy or technology; homepage alone is not evidence."
+        },
+        {
+          "title": "Marrakesh Agreement Establishing the WTO",
+          "creator": "Negotiating governments of the Uruguay Round",
+          "date": "April 15, 1994",
+          "type": "Primary international economic treaty",
+          "url": "https://www.wto.org/english/docs_e/legal_e/04-wto_e.htm",
+          "summary": "Original treaty of an international trade institution; legal structure does not establish the distribution of economic benefits."
         }
       ],
       "researchWorkshop": {
@@ -4832,6 +4880,14 @@
           "type": "Statistical source gateway",
           "url": "https://unstats.un.org/",
           "summary": "Select explicitly dated and defined datasets before comparing migration, economy or technology; homepage alone is not evidence."
+        },
+        {
+          "title": "World Migration Report 2000",
+          "creator": "International Organization for Migration; United Nations Digital Library",
+          "date": "2000",
+          "type": "Contemporary institutional migration report",
+          "url": "https://digitallibrary.un.org/record/437254",
+          "summary": "Contemporaneous population and policy analysis; data definitions and geographic coverage need to be stated and are not modern-day totals."
         }
       ],
       "researchWorkshop": {
