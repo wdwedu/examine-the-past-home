@@ -740,6 +740,14 @@
           "type": "Secondary museum historical essay",
           "url": "https://www.metmuseum.org/toah/hd/refo/hd_refo.htm",
           "summary": "Explains artistic and institutional consequences, not an original Luther tract."
+        },
+        {
+          "title": "Martin Luther's Ninety-Five Theses (1517), Latin text",
+          "creator": "Martin Luther",
+          "date": "1517, Latin original, Fordham digital transcription",
+          "type": "Primary theological propositions in Latin",
+          "url": "https://sourcebooks.fordham.edu/source/95theses-latin.asp",
+          "summary": "Original text in Latin; classroom translations must be identified and compared for interpretation."
         }
       ],
       "researchWorkshop": {
@@ -856,6 +864,14 @@
           "type": "Secondary museum historical essay",
           "url": "https://www.metmuseum.org/toah/hd/refo/hd_refo.htm",
           "summary": "Useful for European confessional transformation; a specific peace treaty or minority record still needed."
+        },
+        {
+          "title": "Treaty of Westphalia",
+          "creator": "Holy Roman Empire and diplomatic signatories",
+          "date": "October 24, 1648; English transcription",
+          "type": "Primary diplomatic treaty in translation",
+          "url": "https://avalon.law.yale.edu/17th_century/westphal.asp",
+          "summary": "Treaty terms reflect recognized state settlements and privileges, not equal toleration experienced by all religious communities."
         }
       ],
       "researchWorkshop": {
@@ -964,6 +980,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "Historical exhibit",
           "summary": "Compare European accounts and evidence of Indigenous experience; exhibit narration is secondary interpretation."
+        },
+        {
+          "title": "Treaty of Tordesillas",
+          "creator": "Monarchies of Castile and Portugal",
+          "date": "June 7, 1494",
+          "type": "Primary imperial diplomatic treaty in translation",
+          "url": "https://avalon.law.yale.edu/15th_century/mod001.asp",
+          "summary": "European imperial partition claims do not evidence consent by Indigenous societies whose territories were affected."
         }
       ],
       "researchWorkshop": {
@@ -1180,6 +1204,14 @@
           "date": "Institutional reference; select a dated item",
           "type": "Historical exhibit",
           "summary": "Compare European accounts and evidence of Indigenous experience; exhibit narration is secondary interpretation."
+        },
+        {
+          "title": "Treaty of Tordesillas",
+          "creator": "Monarchies of Castile and Portugal",
+          "date": "June 7, 1494",
+          "type": "Primary colonial diplomatic text in translation",
+          "url": "https://avalon.law.yale.edu/15th_century/mod001.asp",
+          "summary": "European diplomats' claimed spheres of control without Indigenous participation; distinguish claimed authority from effective governance."
         }
       ],
       "researchWorkshop": {
@@ -2664,6 +2696,14 @@
           "type": "Secondary institutional historical analysis",
           "url": "https://www.africamuseum.be/en/discover/history_articles/the_yeke_and_the_congo_free_state",
           "summary": "Explains military confrontation and complicated African political decisions; museum collection history must be critically assessed."
+        },
+        {
+          "title": "Plaque with Warrior and Attendants",
+          "creator": "Edo peoples' brass-casting guild; Met Museum catalog",
+          "date": "Kingdom of Benin; context of British invasion in 1897",
+          "type": "Primary artwork with modern provenance study",
+          "url": "https://www.metmuseum.org/art/collection/search/316393",
+          "summary": "Primary African-made object with modern collection context; not a treaty or direct account of all African resistance."
         }
       ],
       "researchWorkshop": {
@@ -3128,6 +3168,14 @@
           "type": "Archival collection containing original photos",
           "url": "https://www.loc.gov/collections/world-war-i-rotogravures/",
           "summary": "Select a dated photograph or original caption and interpret its wartime media context; collection is not one source."
+        },
+        {
+          "title": "The Diary of a German Soldier",
+          "creator": "German soldier; Library of Congress catalog",
+          "date": "1919 publication of wartime personal narrative",
+          "type": "Published contemporary personal narrative",
+          "url": "https://www.loc.gov/item/19003293/",
+          "summary": "Soldier perspective tied to author and publication date; cannot represent all troops or civilians."
         }
       ],
       "researchWorkshop": {
