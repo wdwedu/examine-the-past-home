@@ -123,22 +123,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which methodological error would most weaken a study of what do historians actually do??",
+          "prompt": "Which archival feature helps reconstruct who created a document and why it survives?",
           "options": [
-            "Documenting a plausible alternative explanation",
-            "Defining the sample, date and source provenance",
-            "Treating a source's stated purpose as proof that its goals were achieved"
+            "The color of the website displaying it",
+            "The size of a modern thumbnail",
+            "Record series, creator and chain of custody"
           ],
           "answer": 2
         },
         {
-          "prompt": "Which culminating product is strongest for what do historians actually do??",
+          "prompt": "When may a historian responsibly make a qualified claim from incomplete evidence?",
           "options": [
-            "A list of unsourced definitions",
-            "A documented claim with specific evidence, alternative interpretation, scope and limitations",
-            "An unreferenced opinion paragraph"
+            "When the argument has no citations",
+            "Only when every record from the era survives",
+            "When the scope and uncertainty are explicit and plausible alternative interpretations are tested"
           ],
-          "answer": 1
+          "answer": 2
         }
       ],
       "investigationKind": "compare",
@@ -216,11 +216,11 @@
         "Extended argument: write 700–1,000 words or an equivalent carefully documented project presenting a defensible thesis, multiple sources, counterinterpretation, limitations and original citations. Provide a bibliography and methodological reflection."
       ],
       "options": [
-        "The exact opinion of everyone who saw it",
         "The eventual vote share in every district",
-        "The persuasive claims and visual strategies presented by its maker"
+        "The persuasive claims and visual strategies presented by its maker",
+        "The exact opinion of everyone who saw it"
       ],
-      "correct": 2,
+      "correct": 1,
       "depth": "Grade 12 / college-readiness disciplinary literacy: independent reading, source selection, evidence standards, quantitative/geographic methods where relevant, historiography, and sustained argument",
       "vocabulary": [
         "provenance",
@@ -233,29 +233,29 @@
         {
           "prompt": "What can a contemporary campaign poster most directly establish?",
           "options": [
-            "The exact opinion of everyone who saw it",
             "The eventual vote share in every district",
-            "The persuasive claims and visual strategies presented by its maker"
-          ],
-          "answer": 2
-        },
-        {
-          "prompt": "Which methodological error would most weaken a study of evaluating primary and secondary sources?",
-          "options": [
-            "Defining the sample, date and source provenance",
-            "Treating a source's stated purpose as proof that its goals were achieved",
-            "Documenting a plausible alternative explanation"
+            "The persuasive claims and visual strategies presented by its maker",
+            "The exact opinion of everyone who saw it"
           ],
           "answer": 1
         },
         {
-          "prompt": "Which culminating product is strongest for evaluating primary and secondary sources?",
+          "prompt": "Why is an eyewitness account not automatically sufficient to settle a historical dispute?",
           "options": [
-            "A documented claim with specific evidence, alternative interpretation, scope and limitations",
-            "An unreferenced opinion paragraph",
-            "A list of unsourced definitions"
+            "Only secondary books contain useful evidence",
+            "Direct observers may have limited knowledge, motives and memory",
+            "Eyewitness accounts must always be excluded"
           ],
-          "answer": 0
+          "answer": 1
+        },
+        {
+          "prompt": "Which comparison reveals an author’s argument rather than merely its topic?",
+          "options": [
+            "Comparing cover designs",
+            "Tracing a thesis, evidence selection and response to alternative interpretations",
+            "Counting the document's pages"
+          ],
+          "answer": 1
         }
       ],
       "investigationKind": "flow",
@@ -333,11 +333,11 @@
         "Extended argument: write 700–1,000 words or an equivalent carefully documented project presenting a defensible thesis, multiple sources, counterinterpretation, limitations and original citations. Provide a bibliography and methodological reflection."
       ],
       "options": [
+        "Assume the latest publication is necessarily correct",
         "Treat all explanations as equally corroborated",
-        "Compare their causal mechanisms, sources and neglected alternatives",
-        "Assume the latest publication is necessarily correct"
+        "Compare their causal mechanisms, sources and neglected alternatives"
       ],
-      "correct": 1,
+      "correct": 2,
       "depth": "Grade 12 / college-readiness disciplinary literacy: independent reading, source selection, evidence standards, quantitative/geographic methods where relevant, historiography, and sustained argument",
       "vocabulary": [
         "provenance",
@@ -350,29 +350,29 @@
         {
           "prompt": "How should two historians' differing explanations of industrialization be evaluated?",
           "options": [
+            "Assume the latest publication is necessarily correct",
             "Treat all explanations as equally corroborated",
-            "Compare their causal mechanisms, sources and neglected alternatives",
-            "Assume the latest publication is necessarily correct"
+            "Compare their causal mechanisms, sources and neglected alternatives"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
-          "prompt": "Which methodological error would most weaken a study of historical interpretation and competing narratives?",
+          "prompt": "What is a historiographical disagreement?",
           "options": [
-            "Treating a source's stated purpose as proof that its goals were achieved",
-            "Documenting a plausible alternative explanation",
-            "Defining the sample, date and source provenance"
+            "A disagreement among historical interpretations about explanation, significance or method",
+            "Any disagreement about handwriting",
+            "An official amendment to a treaty"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which culminating product is strongest for historical interpretation and competing narratives?",
+          "prompt": "What can distinguish two explanations that both fit the same event chronology?",
           "options": [
-            "An unreferenced opinion paragraph",
-            "A list of unsourced definitions",
-            "A documented claim with specific evidence, alternative interpretation, scope and limitations"
+            "Testing which causal mechanisms and counterexamples the surviving evidence supports",
+            "Ignoring scholarship written in other countries",
+            "Selecting the most confident author"
           ],
-          "answer": 2
+          "answer": 0
         }
       ],
       "investigationKind": "gallery",
@@ -474,22 +474,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which methodological error would most weaken a study of designing an independent historical investigation?",
+          "prompt": "Why must a historical study specify a time period and geography?",
           "options": [
-            "Documenting a plausible alternative explanation",
-            "Defining the sample, date and source provenance",
-            "Treating a source's stated purpose as proof that its goals were achieved"
+            "The limits guarantee the hypothesis is true",
+            "They eliminate the need to cite original documents",
+            "A bounded question can be tested against identifiable records"
           ],
           "answer": 2
         },
         {
-          "prompt": "Which culminating product is strongest for designing an independent historical investigation?",
+          "prompt": "Which step addresses ethical access to personal historical testimony?",
           "options": [
-            "A list of unsourced definitions",
-            "A documented claim with specific evidence, alternative interpretation, scope and limitations",
-            "An unreferenced opinion paragraph"
+            "Publishing first and asking permission afterward",
+            "Assuming a public conversation grants unlimited rights",
+            "Obtaining permission and explaining storage, confidentiality and intended use"
           ],
-          "answer": 1
+          "answer": 2
         }
       ],
       "investigationKind": "debate",
@@ -567,11 +567,11 @@
         "Extended argument: write 700–1,000 words or an equivalent carefully documented project presenting a defensible thesis, multiple sources, counterinterpretation, limitations and original citations. Provide a bibliography and methodological reflection."
       ],
       "options": [
-        "Every rejected option added together",
         "Only the amount spent on a selected project",
-        "The value of the next-best alternative forgone"
+        "The value of the next-best alternative forgone",
+        "Every rejected option added together"
       ],
-      "correct": 2,
+      "correct": 1,
       "depth": "Grade 12 / college-readiness disciplinary literacy: independent reading, source selection, evidence standards, quantitative/geographic methods where relevant, historiography, and sustained argument",
       "vocabulary": [
         "provenance",
@@ -584,29 +584,29 @@
         {
           "prompt": "How is opportunity cost defined in evaluating a public budget?",
           "options": [
-            "Every rejected option added together",
             "Only the amount spent on a selected project",
-            "The value of the next-best alternative forgone"
-          ],
-          "answer": 2
-        },
-        {
-          "prompt": "Which methodological error would most weaken a study of scarcity, choice, and opportunity cost?",
-          "options": [
-            "Defining the sample, date and source provenance",
-            "Treating a source's stated purpose as proof that its goals were achieved",
-            "Documenting a plausible alternative explanation"
+            "The value of the next-best alternative forgone",
+            "Every rejected option added together"
           ],
           "answer": 1
         },
         {
-          "prompt": "Which culminating product is strongest for scarcity, choice, and opportunity cost?",
+          "prompt": "A city chooses bridge repair over expanded buses. What represents its opportunity cost?",
           "options": [
-            "A documented claim with specific evidence, alternative interpretation, scope and limitations",
-            "An unreferenced opinion paragraph",
-            "A list of unsourced definitions"
+            "The existing bridge's age",
+            "The benefit of the best forgone bus alternative",
+            "The sum of every possible public project"
           ],
-          "answer": 0
+          "answer": 1
+        },
+        {
+          "prompt": "Why does a low budget cost not automatically establish the best policy?",
+          "options": [
+            "Any lower cost guarantees equal benefit",
+            "The distribution of benefits, unmet needs and long-run consequences also matter",
+            "Opportunity costs disappear under public ownership"
+          ],
+          "answer": 1
         }
       ],
       "investigationKind": "timeline",
@@ -684,11 +684,11 @@
         "Extended argument: write 700–1,000 words or an equivalent carefully documented project presenting a defensible thesis, multiple sources, counterinterpretation, limitations and original citations. Provide a bibliography and methodological reflection."
       ],
       "options": [
+        "Only demand can affect prices",
         "Markets never respond to scarcity",
-        "Both supply and demand may shift, so quantity and conditions also matter",
-        "Only demand can affect prices"
+        "Both supply and demand may shift, so quantity and conditions also matter"
       ],
-      "correct": 1,
+      "correct": 2,
       "depth": "Grade 12 / college-readiness disciplinary literacy: independent reading, source selection, evidence standards, quantitative/geographic methods where relevant, historiography, and sustained argument",
       "vocabulary": [
         "provenance",
@@ -701,29 +701,29 @@
         {
           "prompt": "Why cannot a rising price alone prove which market condition changed?",
           "options": [
+            "Only demand can affect prices",
             "Markets never respond to scarcity",
-            "Both supply and demand may shift, so quantity and conditions also matter",
-            "Only demand can affect prices"
+            "Both supply and demand may shift, so quantity and conditions also matter"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
-          "prompt": "Which methodological error would most weaken a study of markets and economic systems?",
+          "prompt": "What evidence could distinguish a supply reduction from demand growth after prices rise?",
           "options": [
-            "Treating a source's stated purpose as proof that its goals were achieved",
-            "Documenting a plausible alternative explanation",
-            "Defining the sample, date and source provenance"
+            "Quantities, production conditions and demand indicators",
+            "A single price observation only",
+            "The name of the product"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which culminating product is strongest for markets and economic systems?",
+          "prompt": "Why is equilibrium a model rather than a complete description of an actual market?",
           "options": [
-            "An unreferenced opinion paragraph",
-            "A list of unsourced definitions",
-            "A documented claim with specific evidence, alternative interpretation, scope and limitations"
+            "Information, institutions, bargaining power and policy can violate simplified assumptions",
+            "Price and quantity can never change together",
+            "Models never predict relationships"
           ],
-          "answer": 2
+          "answer": 0
         }
       ],
       "investigationKind": "map",
@@ -825,22 +825,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which methodological error would most weaken a study of government and the economy?",
+          "prompt": "Which public record establishes that a subsidy was legally authorized?",
           "options": [
-            "Documenting a plausible alternative explanation",
-            "Defining the sample, date and source provenance",
-            "Treating a source's stated purpose as proof that its goals were achieved"
+            "An advertisement claiming success",
+            "Only a beneficiary's testimonial",
+            "The enacted law and appropriation or agency authorization"
           ],
           "answer": 2
         },
         {
-          "prompt": "Which culminating product is strongest for government and the economy?",
+          "prompt": "What can help isolate a policy's effect on employment?",
           "options": [
-            "A list of unsourced definitions",
-            "A documented claim with specific evidence, alternative interpretation, scope and limitations",
-            "An unreferenced opinion paragraph"
+            "Assuming all jobs created after the announcement were caused by it",
+            "Ignoring the baseline",
+            "An appropriate comparison group and checks on concurrent economic changes"
           ],
-          "answer": 1
+          "answer": 2
         }
       ],
       "investigationKind": "venn",
@@ -926,11 +926,11 @@
         "Extended argument: write 700–1,000 words or an equivalent carefully documented project presenting a defensible thesis, multiple sources, counterinterpretation, limitations and original citations. Provide a bibliography and methodological reflection."
       ],
       "options": [
-        "Assume purchasing power was unchanged",
         "Use the larger number as proof of greater wellbeing",
-        "Adjust for price levels and specify whether figures are real or nominal"
+        "Adjust for price levels and specify whether figures are real or nominal",
+        "Assume purchasing power was unchanged"
       ],
-      "correct": 2,
+      "correct": 1,
       "depth": "Grade 12 / college-readiness disciplinary literacy: independent reading, source selection, evidence standards, quantitative/geographic methods where relevant, historiography, and sustained argument",
       "vocabulary": [
         "provenance",
@@ -943,29 +943,29 @@
         {
           "prompt": "What is essential before comparing U.S. dollar totals from 1930 and 2020?",
           "options": [
-            "Assume purchasing power was unchanged",
             "Use the larger number as proof of greater wellbeing",
-            "Adjust for price levels and specify whether figures are real or nominal"
-          ],
-          "answer": 2
-        },
-        {
-          "prompt": "Which methodological error would most weaken a study of economic decisions in historical context?",
-          "options": [
-            "Defining the sample, date and source provenance",
-            "Treating a source's stated purpose as proof that its goals were achieved",
-            "Documenting a plausible alternative explanation"
+            "Adjust for price levels and specify whether figures are real or nominal",
+            "Assume purchasing power was unchanged"
           ],
           "answer": 1
         },
         {
-          "prompt": "Which culminating product is strongest for economic decisions in historical context?",
+          "prompt": "How should a student compare real wages across two decades?",
           "options": [
-            "A documented claim with specific evidence, alternative interpretation, scope and limitations",
-            "An unreferenced opinion paragraph",
-            "A list of unsourced definitions"
+            "Select whichever decade has more zeros",
+            "Use price-adjusted figures and comparable worker groups",
+            "Compare nominal dollar totals without inflation"
           ],
-          "answer": 0
+          "answer": 1
+        },
+        {
+          "prompt": "What is a risk when linking a banking intervention to later recovery?",
+          "options": [
+            "Time-series evidence is always worthless",
+            "Other economic changes may affect the outcome and require a counterfactual",
+            "Government actions cannot be dated"
+          ],
+          "answer": 1
         }
       ],
       "investigationKind": "network",
@@ -1051,11 +1051,11 @@
         "Extended argument: write 700–1,000 words or an equivalent carefully documented project presenting a defensible thesis, multiple sources, counterinterpretation, limitations and original citations. Provide a bibliography and methodological reflection."
       ],
       "options": [
+        "The official regime label alone",
         "One election turnout total without context",
-        "Courts, association rights, press freedom, executive constraints and actual electoral competition",
-        "The official regime label alone"
+        "Courts, association rights, press freedom, executive constraints and actual electoral competition"
       ],
-      "correct": 1,
+      "correct": 2,
       "depth": "Grade 12 / college-readiness disciplinary literacy: independent reading, source selection, evidence standards, quantitative/geographic methods where relevant, historiography, and sustained argument",
       "vocabulary": [
         "provenance",
@@ -1068,29 +1068,29 @@
         {
           "prompt": "Which evidence distinguishes competitive elections from a democratic system's wider protections?",
           "options": [
+            "The official regime label alone",
             "One election turnout total without context",
-            "Courts, association rights, press freedom, executive constraints and actual electoral competition",
-            "The official regime label alone"
+            "Courts, association rights, press freedom, executive constraints and actual electoral competition"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
-          "prompt": "Which methodological error would most weaken a study of democracy and authoritarianism?",
+          "prompt": "Which indicator helps test whether an election offers genuine competition?",
           "options": [
-            "Treating a source's stated purpose as proof that its goals were achieved",
-            "Documenting a plausible alternative explanation",
-            "Defining the sample, date and source provenance"
+            "Ability of opposition candidates to organize and contest results under law",
+            "The government's preferred label for itself",
+            "The height of a national flagpole"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which culminating product is strongest for democracy and authoritarianism?",
+          "prompt": "Why should a democracy index be accompanied by its methodology?",
           "options": [
-            "An unreferenced opinion paragraph",
-            "A list of unsourced definitions",
-            "A documented claim with specific evidence, alternative interpretation, scope and limitations"
+            "Indicator choices and measurement limitations shape comparisons",
+            "No index uses numerical information",
+            "Every index is a constitutional amendment"
           ],
-          "answer": 2
+          "answer": 0
         }
       ],
       "investigationKind": "compare",
@@ -1200,22 +1200,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which methodological error would most weaken a study of comparing political institutions?",
+          "prompt": "Which source should establish whether a prime minister can be removed by no-confidence vote?",
           "options": [
-            "Documenting a plausible alternative explanation",
-            "Defining the sample, date and source provenance",
-            "Treating a source's stated purpose as proof that its goals were achieved"
+            "An unrelated political memoir",
+            "A map of the nation's climate",
+            "An applicable constitution or parliamentary rules"
           ],
           "answer": 2
         },
         {
-          "prompt": "Which culminating product is strongest for comparing political institutions?",
+          "prompt": "Why might two presidential systems operate differently despite similar formal clauses?",
           "options": [
-            "A list of unsourced definitions",
-            "A documented claim with specific evidence, alternative interpretation, scope and limitations",
-            "An unreferenced opinion paragraph"
+            "A constitution can never be amended",
+            "All constitutions prescribe identical practice",
+            "Party structure, courts, conventions and enforcement shape institutions"
           ],
-          "answer": 1
+          "answer": 2
         }
       ],
       "investigationKind": "flow",
@@ -1293,11 +1293,11 @@
         "Extended argument: write 700–1,000 words or an equivalent carefully documented project presenting a defensible thesis, multiple sources, counterinterpretation, limitations and original citations. Provide a bibliography and methodological reflection."
       ],
       "options": [
-        "Written rights always enforce themselves",
         "Citizenship and residency are identical in all countries",
-        "Legal standing, enforcement, resources and local administration influence lived protection"
+        "Legal standing, enforcement, resources and local administration influence lived protection",
+        "Written rights always enforce themselves"
       ],
-      "correct": 2,
+      "correct": 1,
       "depth": "Grade 12 / college-readiness disciplinary literacy: independent reading, source selection, evidence standards, quantitative/geographic methods where relevant, historiography, and sustained argument",
       "vocabulary": [
         "provenance",
@@ -1310,29 +1310,29 @@
         {
           "prompt": "Why might a constitutional right not guarantee equal access in practice?",
           "options": [
-            "Written rights always enforce themselves",
             "Citizenship and residency are identical in all countries",
-            "Legal standing, enforcement, resources and local administration influence lived protection"
-          ],
-          "answer": 2
-        },
-        {
-          "prompt": "Which methodological error would most weaken a study of rights and citizenship around the world?",
-          "options": [
-            "Defining the sample, date and source provenance",
-            "Treating a source's stated purpose as proof that its goals were achieved",
-            "Documenting a plausible alternative explanation"
+            "Legal standing, enforcement, resources and local administration influence lived protection",
+            "Written rights always enforce themselves"
           ],
           "answer": 1
         },
         {
-          "prompt": "Which culminating product is strongest for rights and citizenship around the world?",
+          "prompt": "What must be distinguished from formal citizenship in a rights comparison?",
           "options": [
-            "A documented claim with specific evidence, alternative interpretation, scope and limitations",
-            "An unreferenced opinion paragraph",
-            "A list of unsourced definitions"
+            "The color of identification cards",
+            "Actual access to institutions and legal remedies",
+            "The country’s official language alone"
           ],
-          "answer": 0
+          "answer": 1
+        },
+        {
+          "prompt": "Why is a Universal Declaration article not automatically evidence of national enforcement?",
+          "options": [
+            "No international declarations exist",
+            "Domestic law, implementation and institutions require separate examination",
+            "All courts are operated by the United Nations"
+          ],
+          "answer": 1
         }
       ],
       "investigationKind": "gallery",
@@ -1410,11 +1410,11 @@
         "Extended argument: write 700–1,000 words or an equivalent carefully documented project presenting a defensible thesis, multiple sources, counterinterpretation, limitations and original citations. Provide a bibliography and methodological reflection."
       ],
       "options": [
+        "A global slogan that guarantees compliance",
         "Only a summit attendance photograph",
-        "Which institutions have authority, who bears costs and what outcome data will test the policy",
-        "A global slogan that guarantees compliance"
+        "Which institutions have authority, who bears costs and what outcome data will test the policy"
       ],
-      "correct": 1,
+      "correct": 2,
       "depth": "Grade 12 / college-readiness disciplinary literacy: independent reading, source selection, evidence standards, quantitative/geographic methods where relevant, historiography, and sustained argument",
       "vocabulary": [
         "provenance",
@@ -1427,29 +1427,29 @@
         {
           "prompt": "What must an international climate-policy recommendation identify?",
           "options": [
+            "A global slogan that guarantees compliance",
             "Only a summit attendance photograph",
-            "Which institutions have authority, who bears costs and what outcome data will test the policy",
-            "A global slogan that guarantees compliance"
+            "Which institutions have authority, who bears costs and what outcome data will test the policy"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
-          "prompt": "Which methodological error would most weaken a study of political systems and contemporary challenges?",
+          "prompt": "Why might an international climate pledge fail to change a city's flood protections?",
           "options": [
-            "Treating a source's stated purpose as proof that its goals were achieved",
-            "Documenting a plausible alternative explanation",
-            "Defining the sample, date and source provenance"
+            "Local authority, funding and implementation may differ from international commitments",
+            "All treaties directly build drainage systems",
+            "A diplomatic promise measures every neighborhood's resilience"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which culminating product is strongest for political systems and contemporary challenges?",
+          "prompt": "How should competing policy goals be assessed?",
           "options": [
-            "An unreferenced opinion paragraph",
-            "A list of unsourced definitions",
-            "A documented claim with specific evidence, alternative interpretation, scope and limitations"
+            "Set explicit criteria for effectiveness, costs, jurisdiction, equity and monitoring",
+            "Assume all groups bear identical costs",
+            "Choose the first proposal announced"
           ],
-          "answer": 2
+          "answer": 0
         }
       ],
       "investigationKind": "debate",
@@ -1551,22 +1551,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which methodological error would most weaken a study of population and migration patterns?",
+          "prompt": "What is the difference between a migrant stock and a migrant flow?",
           "options": [
-            "Documenting a plausible alternative explanation",
-            "Defining the sample, date and source provenance",
-            "Treating a source's stated purpose as proof that its goals were achieved"
+            "They are synonyms for birth rates",
+            "A flow measures only citizens",
+            "A stock counts people at a point in time; a flow counts movements over a period"
           ],
           "answer": 2
         },
         {
-          "prompt": "Which culminating product is strongest for population and migration patterns?",
+          "prompt": "What can make migration estimates from two countries difficult to compare?",
           "options": [
-            "A list of unsourced definitions",
-            "A documented claim with specific evidence, alternative interpretation, scope and limitations",
-            "An unreferenced opinion paragraph"
+            "Comparable units and denominators",
+            "Identical definitions",
+            "Different residence thresholds, reporting periods and coverage"
           ],
-          "answer": 1
+          "answer": 2
         }
       ],
       "investigationKind": "timeline",
@@ -1644,11 +1644,11 @@
         "Extended argument: write 700–1,000 words or an equivalent carefully documented project presenting a defensible thesis, multiple sources, counterinterpretation, limitations and original citations. Provide a bibliography and methodological reflection."
       ],
       "options": [
-        "Every urban resident necessarily emigrated",
         "Cities cannot expand their boundaries",
-        "An urban boundary or classification may change"
+        "An urban boundary or classification may change",
+        "Every urban resident necessarily emigrated"
       ],
-      "correct": 2,
+      "correct": 1,
       "depth": "Grade 12 / college-readiness disciplinary literacy: independent reading, source selection, evidence standards, quantitative/geographic methods where relevant, historiography, and sustained argument",
       "vocabulary": [
         "provenance",
@@ -1661,29 +1661,29 @@
         {
           "prompt": "Why could an urbanization statistic increase without every counted resident moving?",
           "options": [
-            "Every urban resident necessarily emigrated",
             "Cities cannot expand their boundaries",
-            "An urban boundary or classification may change"
-          ],
-          "answer": 2
-        },
-        {
-          "prompt": "Which methodological error would most weaken a study of urbanization and global cities?",
-          "options": [
-            "Defining the sample, date and source provenance",
-            "Treating a source's stated purpose as proof that its goals were achieved",
-            "Documenting a plausible alternative explanation"
+            "An urban boundary or classification may change",
+            "Every urban resident necessarily emigrated"
           ],
           "answer": 1
         },
         {
-          "prompt": "Which culminating product is strongest for urbanization and global cities?",
+          "prompt": "What happens to urbanization estimates if a country's legal urban boundary expands?",
           "options": [
-            "A documented claim with specific evidence, alternative interpretation, scope and limitations",
-            "An unreferenced opinion paragraph",
-            "A list of unsourced definitions"
+            "The population must decline",
+            "Some residents may be reclassified without moving",
+            "All affected residents necessarily migrate"
           ],
-          "answer": 0
+          "answer": 1
+        },
+        {
+          "prompt": "Why compare metropolitan areas using a shared boundary definition?",
+          "options": [
+            "All city names have identical meanings",
+            "Comparability fails when 'city' includes different geographic areas and populations",
+            "Urban services cannot be measured"
+          ],
+          "answer": 1
         }
       ],
       "investigationKind": "map",
@@ -1761,11 +1761,11 @@
         "Extended argument: write 700–1,000 words or an equivalent carefully documented project presenting a defensible thesis, multiple sources, counterinterpretation, limitations and original citations. Provide a bibliography and methodological reflection."
       ],
       "options": [
+        "A single uncaptioned modern photo",
         "An assertion that public memory never changes",
-        "Dated maps, municipal records, memorial decisions and community recollections",
-        "A single uncaptioned modern photo"
+        "Dated maps, municipal records, memorial decisions and community recollections"
       ],
-      "correct": 1,
+      "correct": 2,
       "depth": "Grade 12 / college-readiness disciplinary literacy: independent reading, source selection, evidence standards, quantitative/geographic methods where relevant, historiography, and sustained argument",
       "vocabulary": [
         "provenance",
@@ -1778,29 +1778,29 @@
         {
           "prompt": "Which evidence could reveal how a city street's meaning changed across generations?",
           "options": [
+            "A single uncaptioned modern photo",
             "An assertion that public memory never changes",
-            "Dated maps, municipal records, memorial decisions and community recollections",
-            "A single uncaptioned modern photo"
+            "Dated maps, municipal records, memorial decisions and community recollections"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
-          "prompt": "Which methodological error would most weaken a study of cultural landscapes?",
+          "prompt": "What can a sequence of historical maps establish about a neighborhood?",
           "options": [
-            "Treating a source's stated purpose as proof that its goals were achieved",
-            "Documenting a plausible alternative explanation",
-            "Defining the sample, date and source provenance"
+            "Changes in mapped land use and street plans, subject to map accuracy",
+            "Every resident's private memories",
+            "That every renamed street reflects consensus"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which culminating product is strongest for cultural landscapes?",
+          "prompt": "Why include oral histories alongside official monument records?",
           "options": [
-            "An unreferenced opinion paragraph",
-            "A list of unsourced definitions",
-            "A documented claim with specific evidence, alternative interpretation, scope and limitations"
+            "Official preservation may exclude communities' conflicting meanings and experiences",
+            "Every account will be identical",
+            "Oral testimony automatically overrides all documents"
           ],
-          "answer": 2
+          "answer": 0
         }
       ],
       "investigationKind": "venn",
@@ -1902,22 +1902,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which methodological error would most weaken a study of geography, development, and inequality?",
+          "prompt": "What is a limitation of GDP per capita as a development indicator?",
           "options": [
-            "Documenting a plausible alternative explanation",
-            "Defining the sample, date and source provenance",
-            "Treating a source's stated purpose as proof that its goals were achieved"
+            "It measures each household's net wealth",
+            "It is identical to a poverty headcount",
+            "It averages output and conceals within-country distribution and other wellbeing dimensions"
           ],
           "answer": 2
         },
         {
-          "prompt": "Which culminating product is strongest for geography, development, and inequality?",
+          "prompt": "Why should an inequality comparison specify the data year and income concept?",
           "options": [
-            "A list of unsourced definitions",
-            "A documented claim with specific evidence, alternative interpretation, scope and limitations",
-            "An unreferenced opinion paragraph"
+            "Missing observations always mean zero",
+            "Dates are irrelevant to development",
+            "Results depend on whether the metric measures income, wealth, consumption and which population"
           ],
-          "answer": 1
+          "answer": 2
         }
       ],
       "investigationKind": "network",
@@ -2003,11 +2003,11 @@
         "Extended argument: write 700–1,000 words or an equivalent carefully documented project presenting a defensible thesis, multiple sources, counterinterpretation, limitations and original citations. Provide a bibliography and methodological reflection."
       ],
       "options": [
-        "They cannot indicate prices paid",
         "They are always written after the fact",
-        "They provide a situated household record, not a representative population sample"
+        "They provide a situated household record, not a representative population sample",
+        "They cannot indicate prices paid"
       ],
-      "correct": 2,
+      "correct": 1,
       "depth": "Grade 12 / college-readiness disciplinary literacy: independent reading, source selection, evidence standards, quantitative/geographic methods where relevant, historiography, and sustained argument",
       "vocabulary": [
         "provenance",
@@ -2020,29 +2020,29 @@
         {
           "prompt": "What is the chief limitation of studying one family's grocery receipts?",
           "options": [
-            "They cannot indicate prices paid",
             "They are always written after the fact",
-            "They provide a situated household record, not a representative population sample"
-          ],
-          "answer": 2
-        },
-        {
-          "prompt": "Which methodological error would most weaken a study of understanding history through everyday life?",
-          "options": [
-            "Defining the sample, date and source provenance",
-            "Treating a source's stated purpose as proof that its goals were achieved",
-            "Documenting a plausible alternative explanation"
+            "They provide a situated household record, not a representative population sample",
+            "They cannot indicate prices paid"
           ],
           "answer": 1
         },
         {
-          "prompt": "Which culminating product is strongest for understanding history through everyday life?",
+          "prompt": "What can a dated receipt most directly reveal?",
           "options": [
-            "A documented claim with specific evidence, alternative interpretation, scope and limitations",
-            "An unreferenced opinion paragraph",
-            "A list of unsourced definitions"
+            "The views of all shopkeepers",
+            "A recorded household purchase and price in that setting",
+            "Every household's consumption choices"
           ],
-          "answer": 0
+          "answer": 1
+        },
+        {
+          "prompt": "What should accompany a household case study before broader generalization?",
+          "options": [
+            "Only a compelling narrative",
+            "Independent records about the region and the limits of the household sample",
+            "An invented representative family"
+          ],
+          "answer": 1
         }
       ],
       "investigationKind": "compare",
@@ -2120,11 +2120,11 @@
         "Extended argument: write 700–1,000 words or an equivalent carefully documented project presenting a defensible thesis, multiple sources, counterinterpretation, limitations and original citations. Provide a bibliography and methodological reflection."
       ],
       "options": [
+        "A celebratory photograph as proof every barrier vanished",
         "One retrospective slogan",
-        "Dated contracts, rosters, policy rules, testimony and employment outcomes",
-        "A celebratory photograph as proof every barrier vanished"
+        "Dated contracts, rosters, policy rules, testimony and employment outcomes"
       ],
-      "correct": 1,
+      "correct": 2,
       "depth": "Grade 12 / college-readiness disciplinary literacy: independent reading, source selection, evidence standards, quantitative/geographic methods where relevant, historiography, and sustained argument",
       "vocabulary": [
         "provenance",
@@ -2137,29 +2137,29 @@
         {
           "prompt": "Which evidence could test whether integrating a sports league changed opportunities?",
           "options": [
+            "A celebratory photograph as proof every barrier vanished",
             "One retrospective slogan",
-            "Dated contracts, rosters, policy rules, testimony and employment outcomes",
-            "A celebratory photograph as proof every barrier vanished"
+            "Dated contracts, rosters, policy rules, testimony and employment outcomes"
           ],
-          "answer": 1
+          "answer": 2
         },
         {
-          "prompt": "Which methodological error would most weaken a study of sports, entertainment, and social change?",
+          "prompt": "What does a league's integration announcement establish?",
           "options": [
-            "Treating a source's stated purpose as proof that its goals were achieved",
-            "Documenting a plausible alternative explanation",
-            "Defining the sample, date and source provenance"
+            "A publicly stated policy or decision at a particular date",
+            "That all discriminatory barriers ended immediately",
+            "Every athlete's later career outcome"
           ],
           "answer": 0
         },
         {
-          "prompt": "Which culminating product is strongest for sports, entertainment, and social change?",
+          "prompt": "Why compare publicity with contracts and participant testimony?",
           "options": [
-            "An unreferenced opinion paragraph",
-            "A list of unsourced definitions",
-            "A documented claim with specific evidence, alternative interpretation, scope and limitations"
+            "They can reveal employment conditions and experiences beyond official messaging",
+            "The photograph is always fabricated",
+            "Contracts and testimony are irrelevant"
           ],
-          "answer": 2
+          "answer": 0
         }
       ],
       "investigationKind": "flow",
@@ -2269,22 +2269,22 @@
           "answer": 0
         },
         {
-          "prompt": "Which methodological error would most weaken a study of media, identity, and historical memory?",
+          "prompt": "Which difference matters when evaluating a film as historical evidence?",
           "options": [
-            "Documenting a plausible alternative explanation",
-            "Defining the sample, date and source provenance",
-            "Treating a source's stated purpose as proof that its goals were achieved"
+            "The total ticket sales alone",
+            "The length of its closing credits",
+            "A film's portrayal versus what dated records actually establish"
           ],
           "answer": 2
         },
         {
-          "prompt": "Which culminating product is strongest for media, identity, and historical memory?",
+          "prompt": "What could explain why historical memory changes across decades?",
           "options": [
-            "A list of unsourced definitions",
-            "A documented claim with specific evidence, alternative interpretation, scope and limitations",
-            "An unreferenced opinion paragraph"
+            "Historical objects cannot be reinterpreted",
+            "Every generation has identical access and interests",
+            "Political context, new evidence and different communities' interpretations"
           ],
-          "answer": 1
+          "answer": 2
         }
       ],
       "investigationKind": "gallery",
@@ -2362,11 +2362,11 @@
         "Extended argument: write 700–1,000 words or an equivalent carefully documented project presenting a defensible thesis, multiple sources, counterinterpretation, limitations and original citations. Provide a bibliography and methodological reflection."
       ],
       "options": [
-        "Secret publication of recordings",
         "Assuming recollection is a verbatim transcript of decades-old events",
-        "Informed consent, clear storage/access terms and respect for participant permissions"
+        "Informed consent, clear storage/access terms and respect for participant permissions",
+        "Secret publication of recordings"
       ],
-      "correct": 2,
+      "correct": 1,
       "depth": "Grade 12 / college-readiness disciplinary literacy: independent reading, source selection, evidence standards, quantitative/geographic methods where relevant, historiography, and sustained argument",
       "vocabulary": [
         "provenance",
@@ -2379,29 +2379,29 @@
         {
           "prompt": "What is required for ethical oral history involving community members?",
           "options": [
-            "Secret publication of recordings",
             "Assuming recollection is a verbatim transcript of decades-old events",
-            "Informed consent, clear storage/access terms and respect for participant permissions"
-          ],
-          "answer": 2
-        },
-        {
-          "prompt": "Which methodological error would most weaken a study of oral history and community storytelling?",
-          "options": [
-            "Defining the sample, date and source provenance",
-            "Treating a source's stated purpose as proof that its goals were achieved",
-            "Documenting a plausible alternative explanation"
+            "Informed consent, clear storage/access terms and respect for participant permissions",
+            "Secret publication of recordings"
           ],
           "answer": 1
         },
         {
-          "prompt": "Which culminating product is strongest for oral history and community storytelling?",
+          "prompt": "What should an interviewer explain before recording a participant?",
           "options": [
-            "A documented claim with specific evidence, alternative interpretation, scope and limitations",
-            "An unreferenced opinion paragraph",
-            "A list of unsourced definitions"
+            "That all accounts will be published without review",
+            "How the material will be used, stored, shared and whether consent can be withdrawn",
+            "Only the expected interview length"
           ],
-          "answer": 0
+          "answer": 1
+        },
+        {
+          "prompt": "What is the soundest treatment of a remembered event whose date differs from records?",
+          "options": [
+            "Reject the entire interview automatically",
+            "Investigate the discrepancy while respecting the speaker and distinguishing memory from corroborated chronology",
+            "Alter the archive silently to agree with memory"
+          ],
+          "answer": 1
         }
       ],
       "investigationKind": "debate",
