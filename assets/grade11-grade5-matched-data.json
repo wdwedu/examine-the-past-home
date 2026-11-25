@@ -1731,7 +1731,7 @@
       "unitTitle": "Political Revolutions",
       "seq": 1,
       "total": 4,
-      "essential": "How can we compare the 1789 declaration with the course of revolutionary government. What evidence shows reform, exclusion or coercion, and why must these be dated separately?",
+      "essential": "Why did the American and French Revolutions produce different political outcomes?",
       "paragraphs": [
         "The French Revolution began amid fiscal crisis and contested sovereignty in 1789. The Declaration of the Rights of Man and of the Citizen asserted rights, yet political participation, colonial slavery and state violence remained contested. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "The Estates-General met in 1789 during a fiscal and political crisis; subsequent events included the Declaration of the Rights of Man and of the Citizen, abolition of some feudal privileges and profound conflict over monarchy. Revolutionary governments changed rapidly and not all citizens enjoyed equal power. Use a timeline to explain why the same revolution could expand claims to rights and produce coercive violence. Compare revolutionary promises with the rights and political power gained by people subject to slavery, class privilege and colonial control. A declaration of rights can mark a major ideological change without resolving disputes over who counts as a citizen. Events after 1789 included different constitutions, violence and changes in relations with colonies. The argument must therefore specify which phase of the revolution it is describing.",
@@ -1839,6 +1839,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.2.1.b",
+        "page": 11,
+        "objective": "Compare causes, turning points, and early political outcomes of the American and French Revolutions.",
+        "evidence": "Create a three-row comparison for causes, actions, and outcomes. Cite one concrete example per row, including a claim from the American Declaration of Independence and one right from the French Declaration of the Rights of Man and of the Citizen. Explain one important difference in how either revolution translated its ideals into government.",
+        "criteria": "Compares each revolution in all three rows, locates both declarations in time, and distinguishes a statement of principle from an institutional result."
       }
     },
     "the-haitian-revolution": {
@@ -1847,7 +1854,7 @@
       "unitTitle": "Political Revolutions",
       "seq": 2,
       "total": 4,
-      "essential": "How can we compare emancipation measures with the 1804 independence declaration. How did the revolution challenge imperial definitions of rights, and which competing leaders' aims require separate examination?",
+      "essential": "How did demands for liberty and the actions of enslaved people reshape Saint-Domingue?",
       "paragraphs": [
         "Beginning in 1791, enslaved and free people in Saint-Domingue fought through shifting struggles for freedom, power and sovereignty. Haiti declared independence in 1804; the revolution must be narrated through Black political agency rather than as an appendix to France. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "Beginning with an uprising in Saint-Domingue in 1791, enslaved and free people fought over emancipation, authority and independence. Toussaint Louverture and other leaders acted within shifting French, Spanish and British interventions; Haiti declared independence in 1804. The revolution challenged Atlantic slavery while facing external hostility. Compare the actions of revolutionaries with the legal language of French revolutionary declarations. Compare revolutionary promises with the rights and political power gained by people subject to slavery, class privilege and colonial control. The overthrow of slavery and colonial rule challenged the Atlantic world's prevailing racial and political order. Haiti's independence declaration was a deliberate political act by revolutionaries, not simply the French Revolution exported overseas. Its claims must be studied alongside the military struggle and subsequent external pressures.",
@@ -1932,6 +1939,14 @@
           "type": "Translated primary independence declaration",
           "url": "https://today.duke.edu/showcase/haitideclaration/declarationstext.html",
           "summary": "Document created by Black Haitian leaders. Attribute translation and distinguish declaration from effects on all residents."
+        },
+        {
+          "title": "Haïti: Francophone Caribbean Collections",
+          "creator": "Library of Congress",
+          "date": "Retrospective guide",
+          "type": "Historical collection overview",
+          "url": "https://guides.loc.gov/francophone-caribbean-collections-library-of-congress/haiti",
+          "summary": "Use the opening historical overview for the sequence from colonial rebellion to Haitian independence."
         }
       ],
       "researchWorkshop": {
@@ -1947,6 +1962,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.2.2.a",
+        "page": 11,
+        "objective": "Explain how people in Saint-Domingue expanded the meaning of liberty through revolt, emancipation, and independence.",
+        "evidence": "Make a three-event timeline beginning with the 1791 uprising and ending with independence in 1804. Explain how the goals of the revolution changed. Cite the Haitian Declaration of Independence and one detail from the Library of Congress overview.",
+        "criteria": "Identifies the agency of enslaved and formerly enslaved people, distinguishes emancipation from sovereignty, and uses evidence from both readings."
       }
     },
     "latin-american-independence-movements": {
@@ -1955,7 +1977,7 @@
       "unitTitle": "Political Revolutions",
       "seq": 3,
       "total": 4,
-      "essential": "How can we compare an independence proclamation with an Indigenous, Black or local provincial perspective. Whose political rights expanded, and whose claims remained unresolved?",
+      "essential": "How did activists in Mexico and Spanish South America use ideas about who should govern?",
       "paragraphs": [
         "Independence struggles across Spanish and Portuguese America differed in leaders, war aims, Indigenous politics, slavery and later government forms. The chronology of Mexico, the Andes and Brazil should not be collapsed into one revolution. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "Independence struggles from Spanish and Portuguese empires unfolded through different regional campaigns and social coalitions. Leaders including Simón Bolívar and José de San Martín pursued liberation while debating centralized government and representation. Political independence did not automatically eliminate entrenched racial or economic inequality. Compare constitutions or proclamations with evidence about ordinary people's experiences. Compare revolutionary promises with the rights and political power gained by people subject to slavery, class privilege and colonial control. A declaration issued in one republic cannot describe the same process across the continent. In some regions independence entailed intense debate over slavery, citizenship and Indigenous communal lands. The institutional outcome could depart sharply from the equality promised by a military or political leader.",
@@ -2040,6 +2062,14 @@
           "type": "Translated primary political letter",
           "url": "https://library.brown.edu/create/modernlatinamerica/chapters/chapter-2-the-colonial-foundations/primary-documents-with-accompanying-discussion-questions/document-2-simon-bolivar-letter-from-jamaica-september-6-1815/",
           "summary": "An independence leader's personal political argument, not the collective view of all Latin American or Indigenous communities."
+        },
+        {
+          "title": "Independence from Spain to President Porfirio Díaz",
+          "creator": "Library of Congress",
+          "date": "19th-century events; retrospective",
+          "type": "Exhibit using historical records",
+          "url": "https://www.loc.gov/exhibits/mexican-revolution-and-the-united-states/independence-from-spain.html",
+          "summary": "Use the sections on armed independence movements and Mexico's early political transitions."
         }
       ],
       "researchWorkshop": {
@@ -2055,6 +2085,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.2.2.a",
+        "page": 11,
+        "objective": "Compare how leaders in Mexico and South America used ideas about political authority to argue for independence.",
+        "evidence": "Compare one detail from the Library of Congress account of Hidalgo or Morelos with one from Bolívar's Jamaica Letter. Identify a goal, an audience, and a political obstacle for each case. Explain how an ideal helped organize or justify action.",
+        "criteria": "Makes a comparison across Mexico and South America, supports it with two specific details, and avoids treating Bolívar as representative of the whole region."
       }
     },
     "comparing-revolutionary-ideals-and-outcomes": {
@@ -2063,7 +2100,7 @@
       "unitTitle": "Political Revolutions",
       "seq": 4,
       "total": 4,
-      "essential": "Build a comparison matrix with a chronological anchor, original political statement and observed implementation for each movement. Avoid treating a shared word like 'liberty' as a shared outcome.?",
+      "essential": "How much political power did independence actually give people?",
       "paragraphs": [
         "French, Haitian and Latin American revolutions invoked contested rights and sovereignty but produced different institutional settlements. Compare what participants demanded, who exercised authority and how the status of enslaved people shifted. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "The American, French, Haitian and Latin American revolutions invoked overlapping ideals while developing different definitions of citizenship and property. A meaningful comparison must identify a shared question and a common period rather than treating all revolutions as identical episodes. Make a matrix contrasting claims, military turning points, groups included or excluded and subsequent institutional arrangements. Compare revolutionary promises with the rights and political power gained by people subject to slavery, class privilege and colonial control. Comparison requires categories held constant: legal status, freedom from enslavement, political membership, land access and institutional stability. A declaration signed in Paris, a Haitian revolutionary proclamation and a letter by Bolívar are not identical genres, so their audiences and purposes must be established before evaluating their language.",
@@ -2172,6 +2209,22 @@
           "type": "Translated primary political letter",
           "url": "https://library.brown.edu/create/modernlatinamerica/chapters/chapter-2-the-colonial-foundations/primary-documents-with-accompanying-discussion-questions/document-2-simon-bolivar-letter-from-jamaica-september-6-1815/",
           "summary": "An independence leader's personal political argument, not the collective view of all Latin American or Indigenous communities."
+        },
+        {
+          "title": "Independence from Spain to President Porfirio Díaz",
+          "creator": "Library of Congress",
+          "date": "19th-century events; retrospective",
+          "type": "Exhibit using historical records",
+          "url": "https://www.loc.gov/exhibits/mexican-revolution-and-the-united-states/independence-from-spain.html",
+          "summary": "Use the sections on armed independence movements and Mexico's early political transitions."
+        },
+        {
+          "title": "Constitución de la República de Colombia",
+          "creator": "Congress of Cúcuta; Library of Congress catalog",
+          "date": "1821",
+          "type": "Constitution in Spanish with English catalog description",
+          "url": "https://www.loc.gov/item/78341644/",
+          "summary": "Read the English catalog description for the republic and the political setting. The original scan is available for those able to read the Spanish text."
         }
       ],
       "researchWorkshop": {
@@ -2187,6 +2240,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.2.2.b",
+        "page": 11,
+        "objective": "Judge one achievement and one limitation of political participation after independence using Mexico and the Republic of Colombia.",
+        "evidence": "Compare the transitions described in the Library of Congress Mexico exhibit and its account of the 1821 Colombian constitution. Name a change in government for each and explain what additional evidence you would need to tell who could actually participate.",
+        "criteria": "Judges both continuity and change, distinguishes creation of a republic from actual political access, and identifies a missing record such as voting qualifications or election returns."
       }
     },
     "why-industrialization-began": {
@@ -2195,7 +2255,7 @@
       "unitTitle": "Industrial Revolution",
       "seq": 1,
       "total": 3,
-      "essential": "How can we compare a factory owner's claims, patent records and economic data. What mechanism links energy, labor and markets, and what alternative explanations might be tested?",
+      "essential": "How did changes in moving goods, using land, and sharing information help industry grow in England?",
       "paragraphs": [
         "Industrialization grew from interacting factors: energy, investment, labor, empire, markets, infrastructure and technological experiments. Britain's development followed particular conditions, not an inevitable path that every society would duplicate. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "Industrialization accelerated in Britain through an interaction of coal, labor, textile technology, transport, finance, agricultural change and overseas markets. No single invention explains the transition from household production to factories. Evidence includes coal output, patents, wages and contemporary descriptions, each with measurement problems. Create a causal map that distinguishes necessary conditions from accelerators and contested explanations. Distinguish industrial causes from consequences and compare evidence about working conditions with claims of economic progress. Britain's coalfields, financial institutions, imperial connections and skilled labor helped shape industrial development, yet historians disagree about their relative weight. Patents can show technological proposals without measuring adoption, while factory records can show output without explaining the full regional economy.",
@@ -2288,6 +2348,30 @@
           "type": "Secondary official legislative history",
           "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/livinglearning/19thcentury/overview/factoryact/",
           "summary": "Dated legislative development and context; later than the beginning of industrialization and cannot establish all its initial causes."
+        },
+        {
+          "title": "Canals and rivers",
+          "creator": "UK Parliament",
+          "date": "Historical overview",
+          "type": "Parliamentary history",
+          "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/transportcomms/canalsrivers/",
+          "summary": "Look for the role of waterways in supplying early industrial towns."
+        },
+        {
+          "title": "Enclosing the land",
+          "creator": "UK Parliament",
+          "date": "Historical overview",
+          "type": "Parliamentary history",
+          "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/towncountry/landscape/overview/enclosingland/",
+          "summary": "Use the discussion of changes in land ownership and farming. A change in land ownership alone does not establish a rise in productivity."
+        },
+        {
+          "title": "Search Room Guide: Mail coaches",
+          "creator": "The Postal Museum",
+          "date": "2025 guide to historical collections",
+          "type": "Museum research guide",
+          "url": "https://www.postalmuseum.org/wp-content/uploads/2025/02/The-Postal-Museum-Search-Room-Guide.pdf",
+          "summary": "Find the mail coach section. Use the 1784 launch and the spread of services to explain how faster mail could move orders or prices."
         }
       ],
       "researchWorkshop": {
@@ -2303,6 +2387,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.2.3.a",
+        "page": 12,
+        "objective": "Explain how transport, agriculture, and communication supported industrial growth in England.",
+        "evidence": "Trace two links from canals or changes in farming to factory growth. Use the Parliament readings to explain how cheaper or more dependable movement of supplies could affect production. Then use the Postal Museum guide to explain how a faster postal service could help businesses exchange orders or price information.",
+        "criteria": "Makes at least two evidence-backed causal links and accounts for transport, agriculture, and communication without crediting a single invention for industrialization."
       }
     },
     "industrial-cities-and-labor": {
@@ -2311,7 +2402,7 @@
       "unitTitle": "Industrial Revolution",
       "seq": 2,
       "total": 3,
-      "essential": "Contrast a factory inspector's report with a worker's testimony and a population series. Which source is best for regulation, lived experience or urban scale?",
+      "essential": "How did industrial growth reshape work and daily life in British towns?",
       "paragraphs": [
         "Factories and urban growth changed work schedules, housing, class relationships and family life. Children, women and men encountered unequal power at work, while reformers and workers challenged unsafe conditions. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "Factories and railways drew migrants into growing industrial towns, where crowded housing, pollution and unsafe work prompted reform. Experiences varied by occupation, gender, age and region; some wages rose over time without eliminating exploitation. Compare a factory inspector's report with worker testimony, noting what each observer could see and whose incentives shaped their account. Distinguish industrial causes from consequences and compare evidence about working conditions with claims of economic progress. Contemporary reform inquiries often investigated the most alarming conditions, which made their testimony powerful but sometimes unrepresentative. A worker's experience may reveal exploitation that a factory ledger disguises, while population data can establish rapid urban change. Each type of evidence answers a different question.",
@@ -2412,6 +2503,14 @@
           "type": "Primary parliamentary debate transcription",
           "url": "https://api.parliament.uk/historic-hansard/commons/1833/feb/28/factory-regulations",
           "summary": "Contemporaneous speech with political perspective, to be corroborated with labor testimony."
+        },
+        {
+          "title": "Report on the Sanitary Condition of the Labouring Population",
+          "creator": "Edwin Chadwick; UK Parliament",
+          "date": "1842",
+          "type": "Primary report and parliamentary context",
+          "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/livinglearning/coll-9-health1/health-02/",
+          "summary": "Identify a documented sanitation condition and consider the purpose of the inquiry."
         }
       ],
       "researchWorkshop": {
@@ -2427,6 +2526,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.2.4.b",
+        "page": 12,
+        "objective": "Connect factory jobs and migration to a public-health problem in an industrial city.",
+        "evidence": "Use the 1833 Factory Act source and Chadwick's 1842 sanitation report. Write a short chain linking factory work, migration or urban growth, and exposure to a specific health risk. Explain one limitation of a government report.",
+        "criteria": "Uses both records, names a concrete health risk, and distinguishes a plausible causal sequence from a source's opinion."
       }
     },
     "global-economic-and-social-change": {
@@ -2435,7 +2541,7 @@
       "unitTitle": "Industrial Revolution",
       "seq": 3,
       "total": 3,
-      "essential": "Use trade data across at least two regions and identify how the categories were constructed. Explain why increased exports did not guarantee higher living standards for producers.?",
+      "essential": "Why did industrial production expand unevenly across the world?",
       "paragraphs": [
         "Industrial production connected raw-material regions, manufacturing centers and consumer markets through unequal exchanges. Imperial power, migration and capitalist investment shaped different communities in distinct ways. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "Industrial production linked distant economies through raw materials, shipping, investment and labor migration. Export-led growth could enrich merchants and governments while exposing producers to volatile prices and coercive policies. Consider how cotton, rubber or other commodities traveled through multiple regions before arriving at factories. A value-chain diagram should distinguish producers' experiences from the final consumer's perspective. Distinguish industrial causes from consequences and compare evidence about working conditions with claims of economic progress. Economic integration could grow while inequality deepened. Industrial manufacturers' demand for cotton, minerals or food affected labor and land use abroad, including places under imperial control. National trade figures conceal the distinction between increased sales and improved conditions for the people producing those goods.",
@@ -2528,6 +2634,14 @@
           "type": "Primary parliamentary debate transcription",
           "url": "https://api.parliament.uk/historic-hansard/commons/1833/feb/28/factory-regulations",
           "summary": "Shows contemporary arguments about economic conditions and child labor, not a representative survey of workers."
+        },
+        {
+          "title": "Why Europe Grew Rich and Asia Did Not: Introduction",
+          "creator": "Prasannan Parthasarathi",
+          "date": "2011",
+          "type": "Scholarly book excerpt",
+          "url": "https://assets.cambridge.org/97811070/00308/excerpt/9781107000308_excerpt.pdf",
+          "summary": "Read the introduction's comparisons of Britain and India. Treat the author's explanation as an argument to test."
         }
       ],
       "researchWorkshop": {
@@ -2543,6 +2657,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.2.4.c",
+        "page": 12,
+        "objective": "Compare two factors shaping industrial production in Britain and India.",
+        "evidence": "Use Parthasarathi's publicly available introduction and the lesson reading. Compare a production advantage or constraint in each place, then explain how trade, policy, or access to energy might help explain the gap. Identify an added source that could change your conclusion.",
+        "criteria": "Makes an evidence-based comparison, distinguishes industrial output from living standards, and names evidence needed to test the explanation."
       }
     },
     "the-new-imperialism": {
@@ -2551,7 +2672,7 @@
       "unitTitle": "Imperialism and Resistance",
       "seq": 1,
       "total": 4,
-      "essential": "Read an imperial policy statement against an account by those governed. Distinguish claims of modernization from evidence about land, labor or political control.?",
+      "essential": "How did industrial demand help turn commercial interests into imperial policy?",
       "paragraphs": [
         "During the nineteenth century, industrial states expanded political and commercial power abroad. Ideologies of racial hierarchy and civilizing missions sought to justify coercion, while colonized communities negotiated, adapted or resisted. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "During the late nineteenth century European powers and other empires expanded territorial control in Asia and Africa using military force, treaties and administrative institutions. Economic interests, rivalry and racial ideologies contributed but operated differently across settings. Colonized people pursued negotiation, resistance, adaptation and reform. Evaluate a colonial map alongside evidence of political organization that the map hides. Compare imperial policy with local perspectives and consider the limitations of colonial archives, borders and statistics. Imperial governments frequently described conquest as protection or modernization. Those labels should be tested against land seizures, taxation, labor recruitment and military occupation. African and Asian actors made political choices under unequal constraints, and their sources are needed to prevent the colonizer's vocabulary from defining the entire account.",
@@ -2636,6 +2757,30 @@
           "type": "Primary art object with museum provenance",
           "url": "https://www.metmuseum.org/art/collection/search/316393",
           "summary": "Indigenous court art whose history includes British seizure in 1897; artwork is not a statement approving imperial rule."
+        },
+        {
+          "title": "Yeke and Congo Free State, from confrontation to collaboration",
+          "creator": "Royal Museum for Central Africa",
+          "date": "Late nineteenth-century events; modern museum scholarship",
+          "type": "Secondary institutional historical analysis",
+          "url": "https://www.africamuseum.be/en/discover/history_articles/the_yeke_and_the_congo_free_state",
+          "summary": "Explains military confrontation and complicated African political decisions; museum collection history must be critically assessed."
+        },
+        {
+          "title": "John Hay, Open Door Policy diplomatic letter",
+          "creator": "U.S. Secretary of State John Hay; Foreign Relations of the United States 1899",
+          "date": "September 6, 1899",
+          "type": "Primary U.S. diplomatic correspondence",
+          "url": "https://history.state.gov/historicaldocuments/frus1899/d88",
+          "summary": "Original U.S. diplomatic advocacy for access to Chinese markets, not a Qing government endorsement of the policy."
+        },
+        {
+          "title": "The Kongo kingdom",
+          "creator": "AfricaMuseum, Royal Museum for Central Africa",
+          "date": "Retrospective museum article",
+          "type": "Museum historical analysis",
+          "url": "https://www.africamuseum.be/en/discover/history_articles/kongo-kingdom",
+          "summary": "Use the section on land concessions and forced labor to identify the economic interests in rubber and ivory."
         }
       ],
       "researchWorkshop": {
@@ -2651,6 +2796,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.2.5.a",
+        "page": 13,
+        "objective": "Explain how markets, raw materials, and access to low-cost labor influenced imperial expansion in Africa and Asia.",
+        "evidence": "Compare the Congo Free State case from the AfricaMuseum reading with market access in the Open Door notes on China. Identify a commercial goal and the policy used to pursue it in each case. Explain how raw materials or coerced labor mattered in the Congo case, and whose interests the diplomatic note represents.",
+        "criteria": "Names specific economic interests on both continents and distinguishes labor extraction and territorial coercion from a diplomatic demand for market access."
       }
     },
     "the-scramble-for-africa": {
@@ -2659,7 +2811,7 @@
       "unitTitle": "Imperialism and Resistance",
       "seq": 2,
       "total": 4,
-      "essential": "How can we compare conference texts or territorial maps with an African state's own records. Which political boundaries did Europeans claim, and what evidence shows how those claims were enforced or resisted?",
+      "essential": "How did the Berlin Conference change the political geography of Africa?",
       "paragraphs": [
         "European states expanded territorial claims in Africa late in the nineteenth century; the Berlin Conference of 1884–1885 discussed rules for European claims without African nations as equal negotiating parties. African societies retained agency and mounted varied responses. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "The Berlin Conference of 1884–1885 addressed rules among European states regarding African territorial claims; it did not establish universal African consent. Colonial conquest continued through numerous campaigns and negotiations. Existing African polities, commercial networks and communities were displaced or transformed in uneven ways. Compare European diplomatic documents with an African perspective on sovereignty and resistance. Compare imperial policy with local perspectives and consider the limitations of colonial archives, borders and statistics. The Berlin Conference discussed European claims and procedures, but its agreements were not a continent-wide transfer accepted by African societies. Military conquest and treaties followed complex local conditions. Benin's 1897 invasion illustrates how material objects now displayed in museums can also document histories of coercion and displacement.",
@@ -2752,6 +2904,14 @@
           "type": "Primary artwork with modern provenance study",
           "url": "https://www.metmuseum.org/art/collection/search/316393",
           "summary": "Primary African-made object with modern collection context; not a treaty or direct account of all African resistance."
+        },
+        {
+          "title": "General Act of the Berlin West Africa Conference",
+          "creator": "Signatory governments; German Federal Foreign Office Political Archive",
+          "date": "February 26, 1885",
+          "type": "Treaty and archival explanation",
+          "url": "https://archiv.diplo.de/arc-en/the-political-archive/general-act-2684414",
+          "summary": "Use the archived document and English summary of the occupation provisions, especially Articles 34 and 35."
         }
       ],
       "researchWorkshop": {
@@ -2767,6 +2927,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.2.5.e",
+        "page": 13,
+        "objective": "Explain how the Berlin Conference rules shaped later colonial claims and why subsequent events still mattered.",
+        "evidence": "Use the German Foreign Office's General Act record, especially the discussion of claims and effective authority. Compare it with the Yeke and Congo Free State case. Explain one way the new rules shaped later competition and one action on the ground needed to explain actual control.",
+        "criteria": "Distinguishes the conference from later boundary-making and uses a concrete example to connect European rules with events in Africa."
       }
     },
     "imperialism-in-asia": {
@@ -2775,7 +2942,7 @@
       "unitTitle": "Imperialism and Resistance",
       "seq": 3,
       "total": 4,
-      "essential": "How can we compare a treaty provision or commercial concession with a local political account. Did foreign access equal consent, and what did unequal enforcement mean?",
+      "essential": "How did diplomacy and military power give outsiders influence in China?",
       "paragraphs": [
         "European empires and Japan exerted power in Asia through trade, military intervention, treaties and settlement. Responses differed in British India, Qing China, Southeast Asia and Japan; a single model of imperialism cannot capture them. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "British power in South Asia, European concessions in China and Japanese imperial expansion arose in different chronological and institutional circumstances. Treating Asia as a single colonial experience erases differences in state capacity, collaboration and resistance. Compare a treaty clause with a local protest or reform text, specifying who could enforce the agreement and who contested its legitimacy. Compare imperial policy with local perspectives and consider the limitations of colonial archives, borders and statistics. British colonial institutions in India, treaties imposed on Qing China and Japan's expanding regional ambitions were not interchangeable. Students should identify the jurisdiction, treaty terms, trading arrangements and state actors before comparing sovereignty. A foreign commercial concession could confer far more than a simple right to sell goods.",
@@ -2883,6 +3050,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.2.5.c",
+        "page": 13,
+        "objective": "Analyze how diplomatic pressure and military power shaped foreign influence in China around 1900.",
+        "evidence": "Use the Open Door notes and the accompanying Office of the Historian account. Identify one diplomatic aim and one example of military intervention. Explain how they could reinforce each other and which claim the U.S. documents cannot establish about Chinese views.",
+        "criteria": "Explains the relationship between two methods of influence, dates the examples, and states the limits of a U.S. diplomatic perspective."
       }
     },
     "resistance-to-colonial-rule": {
@@ -2891,7 +3065,7 @@
       "unitTitle": "Imperialism and Resistance",
       "seq": 4,
       "total": 4,
-      "essential": "How can we compare an organizer's petition and a colonial security report about the same campaign. Identify how the author's interests shape descriptions of lawful protest or 'disorder.'?",
+      "essential": "Why did resistance to European expansion have different results in Ethiopia and Asante?",
       "paragraphs": [
         "Colonized peoples opposed imperial claims through protest, labor action, armed revolt, religion, petition and education. Movements were not uniform, and their goals could evolve from reform to complete independence. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "Anti-colonial resistance included armed conflicts, noncooperation, labor organizing, religious renewal and educational activism. Resistance also involved disagreement over goals and methods among colonized communities. A colonial police report may document repression but frame protesters as disorderly; an activist's account may describe motivation without providing reliable totals. Corroborate both before explaining an episode. Compare imperial policy with local perspectives and consider the limitations of colonial archives, borders and statistics. Colonial archives often preserved administrators' reports more consistently than the words of those resisting them. Petitions, oral histories and cultural artifacts can change a narrative otherwise organized around police action. Resistance included collaboration and internal disagreement as well as open confrontation.",
@@ -2976,6 +3150,22 @@
           "type": "Primary object / modern museum provenance",
           "url": "https://www.metmuseum.org/art/collection/search/316393",
           "summary": "Use object dating and evidence of 1897 seizure; recognize that museum accounts may center collecting institutions."
+        },
+        {
+          "title": "Adwa’s victory",
+          "creator": "Ethiopia Government Communication Service",
+          "date": "April 2, 2024",
+          "type": "Government historical account",
+          "url": "https://www.gcs.gov.et/en/2024/04/02/adwas-victory-a-painful-blow-to-colonialism-and-a-global-symbol-of-freedom/",
+          "summary": "Read the account of Menelik II's dispute over the Treaty of Wuchale and the 1896 outcome. Consider the commemorative purpose."
+        },
+        {
+          "title": "African Kingdoms Timeline",
+          "creator": "British Museum",
+          "date": "2024 edition",
+          "type": "Museum teaching timeline",
+          "url": "https://www.britishmuseum.org/sites/default/files/2024-04/African_Kingdoms_Timeline.pdf",
+          "summary": "Find the 1900 entry on Yaa Asantewaa and compare it with the surrounding Asante entries."
         }
       ],
       "researchWorkshop": {
@@ -2991,6 +3181,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.2.6.b",
+        "page": 14,
+        "objective": "Compare the strategies and results of Menelik II's and Yaa Asantewaa's resistance.",
+        "evidence": "Use the Adwa account and the Asante entry in the African Kingdoms Timeline. Identify a tactic, a goal, and an outcome for each movement. Explain one difference in what each achieved and one limitation of using retrospective accounts.",
+        "criteria": "Uses evidence from both movements and makes a supported judgment rather than treating successful military resistance and long-term sovereignty as the same outcome."
       }
     },
     "causes-of-the-first-world-war": {
@@ -4683,7 +4880,7 @@
       "unitTitle": "The Contemporary World",
       "seq": 1,
       "total": 4,
-      "essential": "Read trade and migration series with their units, dates and methodological definitions. Explain why rising trade totals cannot establish equal prosperity or cultural convergence.?",
+      "essential": "How do regional agreements and global institutions shape trade in different ways?",
       "paragraphs": [
         "Trade, migration, capital and information networks connect distant societies while distributing benefits and burdens unevenly. Globalization is not one measurable event, and international integration depends on policy and technology. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "Late twentieth-century trade, finance, communications and migration intensified international connections, but globalization did not affect all workers and regions equally. A multinational supply chain can lower some costs while moving environmental burdens or weakening bargaining power elsewhere. Use a commodity's journey to map actors, value added and unrecorded costs; distinguish global averages from local outcomes. Evaluate global claims using dated evidence, distinguish correlation from causation, and ask whose experience is represented or missing. A rise in global trade can coexist with dislocation in a particular industrial town or exporting region. Historical comparison needs consistent units, dates and price adjustments. Migration data likewise distinguish where people moved from, where they settled and how states defined legal categories.",
@@ -4784,6 +4981,14 @@
           "type": "Primary international economic treaty",
           "url": "https://www.wto.org/english/docs_e/legal_e/04-wto_e.htm",
           "summary": "Original treaty of an international trade institution; legal structure does not establish the distribution of economic benefits."
+        },
+        {
+          "title": "Regional Trade Agreement Database: USMCA",
+          "creator": "World Trade Organization",
+          "date": "Effective July 1, 2020",
+          "type": "Treaty notification and provisions index",
+          "url": "https://rtais.wto.org/UI/PublicShowRTAIDCard.aspx?rtaid=1087",
+          "summary": "Read the parties, dates, and note on NAFTA. These show legal scope and timing rather than effects on jobs."
         }
       ],
       "researchWorkshop": {
@@ -4799,6 +5004,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.4.1.c",
+        "page": 23,
+        "objective": "Compare the WTO with NAFTA and its successor agreement as institutions that shape trade rules.",
+        "evidence": "Read the opening provisions of the Marrakesh Agreement and the WTO record for USMCA. Explain the difference between a multilateral institution and a regional agreement. Give one plausible effect of a rule for producers or workers and name the data needed to test it.",
+        "criteria": "Identifies who is covered and what the two arrangements do, distinguishes NAFTA from USMCA, and separates a predicted effect from an observed result."
       }
     },
     "the-united-nations-and-international-cooperation": {
@@ -4807,7 +5019,7 @@
       "unitTitle": "The Contemporary World",
       "seq": 2,
       "total": 4,
-      "essential": "How can we compare the Charter's institutional provisions with the Declaration's normative commitments. What obligations and enforcement mechanisms differ, and how do states' interests shape implementation?",
+      "essential": "What can a UN peacekeeping mandate authorize, and what can limit the response?",
       "paragraphs": [
         "The United Nations Charter of 1945 created institutions for international cooperation and collective security. The Universal Declaration of Human Rights of 1948 proclaimed rights but is not itself the same kind of binding treaty as the Charter. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "Established in 1945, the United Nations provides institutions for diplomacy, humanitarian coordination and international law, but member states retain sovereignty and political interests. The Security Council's veto rules shape its action differently from General Assembly recommendations. Evaluate an example of cooperation by separating institutional mandate, actual authority, funding and measurable outcomes. Evaluate global claims using dated evidence, distinguish correlation from causation, and ask whose experience is represented or missing. The Charter established organizational structures and responsibilities, including the Security Council's distinctive powers. The Universal Declaration later set out rights principles adopted by the General Assembly. A historical assessment should distinguish institutions' legal mandates from their practical capacity when governments disagree.",
@@ -4900,6 +5112,22 @@
           "type": "Primary",
           "url": "https://www.un.org/en/about-us/un-charter/full-text",
           "summary": "Analyze the purposes and institutional powers of the UN; the charter does not itself prove the organization was effective."
+        },
+        {
+          "title": "UNAMIR: Mandate",
+          "creator": "United Nations Peacekeeping",
+          "date": "1994 resolutions; retrospective summary",
+          "type": "Mandate chronology",
+          "url": "https://peacekeeping.un.org/sites/default/files/past/unamirM.htm",
+          "summary": "Read the entries for Security Council resolutions 912 and 918."
+        },
+        {
+          "title": "Independent Inquiry into United Nations actions during the 1994 genocide in Rwanda",
+          "creator": "Independent Inquiry; United Nations Digital Library",
+          "date": "December 15, 1999",
+          "type": "Investigative report, S/1999/1257",
+          "url": "https://digitallibrary.un.org/record/405039",
+          "summary": "Use the English report's conclusions on the resources and political support available to the mission."
         }
       ],
       "researchWorkshop": {
@@ -4915,6 +5143,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.4.4.b",
+        "page": 25,
+        "objective": "Compare the UN's assigned role and its ability to respond during the 1994 genocide in Rwanda.",
+        "evidence": "Compare the April and May changes in UNAMIR's mandate with the later independent inquiry. Explain one change in what the mission was authorized to do, one documented obstacle, and one reason why authority in a resolution did not guarantee an outcome.",
+        "criteria": "Dates the mandate changes, separates authorization from implementation, and supports a judgment with both a UN record and the inquiry."
       }
     },
     "human-rights-and-global-challenges": {
@@ -4923,7 +5158,7 @@
       "unitTitle": "The Contemporary World",
       "seq": 3,
       "total": 4,
-      "essential": "Choose a dated treaty or UN declaration and a contemporaneous implementation report. Identify the legal obligation, institutional capacity and evidence of outcomes before claiming success.?",
+      "essential": "What made it possible to end apartheid in South Africa?",
       "paragraphs": [
         "Human-rights law, humanitarian crises and climate challenges involve states, international bodies and affected communities. Normative declarations, binding treaties, enforcement and actual protection are distinct dimensions of international action. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "The Universal Declaration of Human Rights was adopted in 1948 as a common statement of principles. Treaties, national laws, courts and civil society influence later enforcement, with significant gaps between formal recognition and lived protection. Different challenges—displacement, conflict, climate risk—require different evidence. Compare an agreed rights standard with an implementation indicator and a first-person account. Evaluate global claims using dated evidence, distinguish correlation from causation, and ask whose experience is represented or missing. The proclamation of rights is a major historical action, but implementation depends on laws, institutions and political will. Different treaties establish different obligations, while survivors and affected communities can reveal consequences omitted by official reports. These evidentiary distinctions are essential in evaluating humanitarian claims.",
@@ -5016,6 +5251,22 @@
           "type": "Primary multilateral treaty",
           "url": "https://www.un.org/en/about-us/un-charter/full-text",
           "summary": "Legal framework for UN institutions and duties; distinguish from nonbinding declaration and from actual institutional outcomes."
+        },
+        {
+          "title": "Truth and Reconciliation Commission final report, volume 2",
+          "creator": "South African Truth and Reconciliation Commission",
+          "date": "1998",
+          "type": "Commission report",
+          "url": "https://www.justice.gov.za/trc/report/finalreport/volume%202.pdf",
+          "summary": "Use the chapter on the 1990–1994 period and compare the steps that opened and shaped negotiations."
+        },
+        {
+          "title": "Milestones of 20 Years of Freedom",
+          "creator": "Government of South Africa",
+          "date": "1994 events; retrospective",
+          "type": "Government historical overview",
+          "url": "https://www.gov.za/issues/20years/milestones-20-years-freedom",
+          "summary": "Use the entry for the first democratic elections and distinguish the election from the events leading to it."
         }
       ],
       "researchWorkshop": {
@@ -5031,6 +5282,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.4.3.b",
+        "page": 25,
+        "objective": "Explain how organized resistance and political negotiation helped end apartheid in South Africa.",
+        "evidence": "Use the Truth and Reconciliation Commission chronology and the South African government's account of the 1994 election. Explain how one example of organized opposition and one political turning point helped move the country toward a nonracial election. Cite both sources and name a perspective they leave out.",
+        "criteria": "Connects two documented factors to the transition, identifies the electoral change, and recognizes that the two official accounts have different purposes."
       }
     },
     "technology-migration-and-modern-societies": {
@@ -5039,7 +5297,7 @@
       "unitTitle": "The Contemporary World",
       "seq": 4,
       "total": 4,
-      "essential": "Use two population or connectivity datasets with consistent definitions and periods. Test whether technology adoption caused a claimed social effect rather than merely occurring in the same decade.?",
+      "essential": "How can digital technology change where people work and who can compete for a job?",
       "paragraphs": [
         "Technology and migration reshape work, communication and community across contemporary societies. Access to digital systems, legal status and labor markets differs by region and social position; demographic change needs dated evidence. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "Digital communication, automation and changing migration patterns have transformed work and civic life. Access to devices or networks is not equivalent to equal digital opportunity; language, affordability, skills and state policy matter. Migration may reshape sending and receiving communities in different ways. Build a comparison using dated demographic evidence and a narrative source while acknowledging privacy concerns. Evaluate global claims using dated evidence, distinguish correlation from causation, and ask whose experience is represented or missing. Digital connectivity and population mobility are often described as universal transformations, yet their distribution varies by region, income, legal status and access. Compare historically dated indicators before explaining causation. A rise in connectivity cannot establish whether a particular group became more secure or politically empowered.",
@@ -5140,6 +5398,14 @@
           "type": "Contemporary institutional migration report",
           "url": "https://digitallibrary.un.org/record/437254",
           "summary": "Contemporaneous population and policy analysis; data definitions and geographic coverage need to be stated and are not modern-day totals."
+        },
+        {
+          "title": "The role of digital labour platforms in transforming the world of work",
+          "creator": "International Labour Organization",
+          "date": "2021",
+          "type": "Research report and executive summary",
+          "url": "https://www.ilo.org/publications/flagship-reports/role-digital-labour-platforms-transforming-world-work",
+          "summary": "Use the overview and executive summary on web-based and location-based platforms. Check the populations represented before generalizing."
         }
       ],
       "researchWorkshop": {
@@ -5155,6 +5421,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.4.1.d",
+        "page": 23,
+        "objective": "Assess how online platforms can connect employers and workers across borders and change working conditions.",
+        "evidence": "Use the ILO overview to distinguish online web-based work from platform jobs that require a worker's local presence. Describe an opportunity and a risk of remote contracting, and explain what evidence would show whether effects differ by country or worker group.",
+        "criteria": "Names a mechanism for cross-border work, explains one benefit and one risk, and identifies an appropriate comparison or measure."
       }
     }
   },
@@ -5179,6 +5452,38 @@
       "review": "Look for separation of the 1989 and 1991 events, attention to internal and external causes, and an explanation of what the Soviet and Western records establish and what still requires economic or local evidence.",
       "lessons": [
         "the-collapse-of-the-soviet-union"
+      ]
+    },
+    "11.5": {
+      "prompt": "Did revolutionary promises lead to lasting political change? Compare two revolutions in this unit. Use a founding document from each, trace one political outcome in each case, distinguish a promise from who gained power, and address a credible competing interpretation.",
+      "review": "Look for a comparison across two cases, a distinction between stated rights and political access, and concrete evidence about what changed after independence or revolution.",
+      "lessons": [
+        "the-french-revolution",
+        "the-haitian-revolution",
+        "comparing-revolutionary-ideals-and-outcomes"
+      ]
+    },
+    "11.6": {
+      "prompt": "How did the changes that made industrial production possible also create costs for working families? Trace a causal chain from transport, farming, or factory organization to a social consequence in a British town. Cite a labor or public-health record and a source on how production changed. Explain one limit of the evidence.",
+      "review": "Look for a clear connection between production and working or living conditions, a specific use of public records, and a distinction between correlation and a demonstrated cause.",
+      "lessons": [
+        "why-industrialization-began",
+        "industrial-cities-and-labor"
+      ]
+    },
+    "11.7": {
+      "prompt": "How much could treaties and conferences determine the outcome of imperial expansion? Use the Berlin Conference and a case of African resistance. Explain what the international agreement could authorize or influence and which local choices shaped actual control. Weigh a competing explanation and cite at least two records.",
+      "review": "Look for a distinction between diplomatic claims and control on the ground, accurate use of the resistance case, and a sourced judgment about the relative importance of the two.",
+      "lessons": [
+        "the-scramble-for-africa",
+        "resistance-to-colonial-rule"
+      ]
+    },
+    "11.11": {
+      "prompt": "What does the UN response to Rwanda show about the difference between agreeing on a rule and carrying it out? Compare the April and May changes in UNAMIR's mandate and use the later inquiry to weigh an explanation for the gap between authority and implementation. Name one more perspective or record needed.",
+      "review": "Look for accurate sequencing, clear distinction between an authorized task and what the mission could do, and documented evidence for a specific institutional or political constraint.",
+      "lessons": [
+        "the-united-nations-and-international-cooperation"
       ]
     }
   }

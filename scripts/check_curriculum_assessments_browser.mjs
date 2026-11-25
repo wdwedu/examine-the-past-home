@@ -31,10 +31,12 @@ async function open(page, grade, unit) {
 const worldHistoryResponse = await fetch(new URL("assets/grade11-grade5-matched-data.json", root));
 assert.ok(worldHistoryResponse.ok, "Could not load Grade 11 lesson alignment");
 const worldHistory = await worldHistoryResponse.json();
+assert.deepEqual(Object.keys(worldHistory.marylandUnitArguments).sort((a, b) => Number(a.split(".")[1]) - Number(b.split(".")[1])),
+  ["11.5", "11.6", "11.7", "11.8", "11.9", "11.10", "11.11"]);
 
 async function checkMarylandLessons(page) {
   const lessons = Object.entries(worldHistory.lessons).filter(([, lesson]) => lesson.marylandAlignment);
-  assert.equal(lessons.length, 12);
+  assert.equal(lessons.length, 27);
   for (const [slug, lesson] of lessons) {
     const url = new URL(`lessons/curriculum/${courses[11]}/${slug}/`, root);
     assert.ok((await page.goto(url.href, { waitUntil: "domcontentloaded" }))?.ok(), slug);
@@ -54,7 +56,7 @@ async function checkMarylandLessons(page) {
     assert.ok(closureText.includes(criteria), slug + " success criteria");
     assert.ok(await closure.getByLabel("My evidence-based reflection").isEditable(), slug + " response field");
   }
-  console.log("PASS Maryland objectives and exit tickets in all 12 Grade 11 lessons");
+  console.log("PASS Maryland objectives and exit tickets in all 27 mapped Grade 11 lessons");
 }
 
 const answer = (page, index, value) => page.locator(`input[name="q${index}"][value="${value}"]`);
