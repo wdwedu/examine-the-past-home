@@ -41,6 +41,12 @@ The final Grade 11 batch covers 13 lessons in Units 11.1–11.4, with four topic
 
 The [browser checks](https://github.com/wdwedu/examine-the-past-home/actions/runs/45619611080) passed for all 36 unit assessments and the objectives and closing tasks on all 40 Grade 11 lesson pages at desktop and phone widths. They also checked the writing tasks and teacher guidance for all 11 Grade 11 units. The course coverage inventory links 30 of the 83 state content objectives to a designated task and identifies 53 for follow-up. Some linked objectives still require additional named cases.
 
+### Grade 11 coverage expansion · November 25, 2026
+
+Eight case studies expand the course on six lesson pages. Seven previously unlinked objectives now have a student task and review criteria. A five-power Atlantic comparison adds depth to MWH.1.2.a. The tracker now shows 37 of 83 numbered objectives with a designated task, including all nine in Section 1. Course-level coverage for all named regions and cases remains open.
+
+The source ledger adds two supported claims and one partly verified claim. It now records 120 open claims, six partly verified claims, and ten supported claims.
+
 The scorecard and gates below record the original audit baseline.
 
 ## Executive scorecard

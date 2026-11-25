@@ -299,7 +299,49 @@
         "evidence": "Compare the Mamluk manuscript record and the Met's account of West Africa. Write one supported claim about each setting and one question the available records cannot answer. Identify each source's type, place, and approximate date.",
         "criteria": "Separates artifact evidence from the museum's later explanation and makes claims at the scale each record supports.",
         "inquiry": true
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.1.1.b",
+          "title": "Ottoman achievements after 1453",
+          "reading": [
+            "In 1453, Mehmed II's forces captured Constantinople, the capital of the Byzantine Empire. The Ottomans made the city their own capital. Its position by the Bosporus connected routes into the Black Sea and the Mediterranean. Turning a conquered city into a center of government took investment in institutions, buildings, and the movement of people.",
+            "In the sixteenth century, Süleyman's court sponsored public buildings and the arts. The Süleymaniye mosque complex in Istanbul, designed by Sinan, combined worship with institutions such as schools and charitable services. Geographic expansion and court patronage encouraged craftsmanship, but surviving court objects mostly document elites. The conquest and the building program are distinct achievements separated by about a century."
+          ],
+          "prompt": "Write a two-part summary for a museum label. Explain how the capture of Constantinople changed Ottoman political or commercial reach, then explain how a named building or institution under Süleyman served people in the capital. Cite one detail for each achievement.",
+          "criteria": "Names two distinct achievements, places them in order, and explains a consequence of each.",
+          "sources": [
+            {
+              "title": "The Met · The Ottoman Empire",
+              "url": "https://www.metmuseum.org/learn/educators/curriculum-resources/art-of-the-islamic-world/unit-five/chapter-two/the-ottoman-empire"
+            },
+            {
+              "title": "The Met · The Age of Süleyman",
+              "url": "https://www.metmuseum.org/essays/the-age-of-suleyman-the-magnificent-r-1520-1566"
+            }
+          ]
+        },
+        {
+          "code": "MWH.1.1.e",
+          "title": "How Mughal rule took shape in India",
+          "reading": [
+            "Babur defeated the Delhi Sultanate's ruler Ibrahim Lodi at Panipat in 1526. His victory gave him access to Delhi and Agra, but winning a battle did not by itself secure obedience across northern India. Babur's grandson Akbar expanded and consolidated the empire through campaigns and by drawing regional elites into imperial service.",
+            "Akbar's court also became a site of exchange. Artists working for the court included people trained in Persian and Indian traditions. Collaborative projects such as the illustrated Hamzanama show how patronage could bring different artistic practices together. Such works tell historians a great deal about court culture, while telling them much less about how most people experienced Mughal rule."
+          ],
+          "prompt": "Compare one reason Babur was able to establish Mughal rule with one way Akbar consolidated it. Explain one effect on political organization or cultural life in India. Cite one detail from OpenStax and one from the Met, and explain what the court source leaves out.",
+          "criteria": "Distinguishes military conquest from consolidation, links a policy or practice to an effect, and recognizes the limits of court evidence.",
+          "sources": [
+            {
+              "title": "OpenStax · India and International Connections",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/2-1-india-and-international-connections"
+            },
+            {
+              "title": "The Met · The Art of the Mughals before 1600",
+              "url": "https://www.metmuseum.org/essays/the-art-of-the-mughals-before-1600"
+            }
+          ]
+        }
+      ]
     },
     "afro-eurasian-trade-networks": {
       "title": "Afro-Eurasian Trade Networks",
@@ -563,6 +605,14 @@
           "type": "World History, Volume 1, section 16.3",
           "url": "https://openstax.org/books/world-history-volume-1/pages/16-3-the-black-death-from-east-to-west",
           "summary": "Compare the account of origins and movement with the discussion of consequences. Distinguish supported routes from uncertain details."
+        },
+        {
+          "title": "The Mongol Empire Fragments",
+          "creator": "OpenStax",
+          "date": "2023",
+          "type": "World History, Volume 1, section 14.3",
+          "url": "https://openstax.org/books/world-history-volume-1/pages/14-3-the-mongol-empire-fragments",
+          "summary": "Use the account of the succession dispute and the map of four khanates to compare the regional centers of Mongol rule."
         }
       ],
       "researchWorkshop": {
@@ -585,7 +635,29 @@
         "objective": "Compare the consequences of a political disruption with those of the Black Death.",
         "evidence": "Use the Yuan dynasty account and OpenStax plague reading. Identify one change in political control and one consequence of plague. Explain how connected routes help explain the spread of disease, and state where the evidence falls short of establishing a cause for the fall of a dynasty.",
         "criteria": "Accurately places each development in time, uses both readings, and distinguishes political change from disease transmission."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.1.1.d",
+          "title": "The rise and fall of Ming China",
+          "reading": [
+            "In 1368, Zhu Yuanzhang, a leader who had risen through rebellion against the Yuan, founded the Ming dynasty. The Yuan had faced a series of uprisings. The new dynasty consolidated power under the Hongwu emperor. Later Ming rulers built a capital in Beijing and supported major maritime expeditions. Large projects reveal governing capacity during part of the dynasty's long rule.",
+            "By the seventeenth century, Ming rulers faced pressure from an expanding Manchu state as well as domestic rebellion. Li Zicheng's forces captured Beijing in 1644. The Ming general Wu Sangui then admitted Manchu forces, who defeated Li's army and established Qing control in the capital. That sequence separates a domestic blow to Ming rule from the subsequent victory of the Qing. Resistance outside Beijing continued."
+          ],
+          "prompt": "Create a dated timeline from the end of Yuan rule to the Qing takeover of Beijing. Explain one factor that helped the Ming rise and two interacting factors in its collapse. Cite the historical account and explain why the fall of Beijing did not mean every area changed rulers on the same day.",
+          "criteria": "Distinguishes the Yuan-to-Ming and Ming-to-Qing transitions, connects domestic rebellion and outside pressure, and explains the limit of an endpoint date.",
+          "sources": [
+            {
+              "title": "The Met · China, 1400–1600",
+              "url": "https://artistproject.metmuseum.org/toah/ht/08/eac.html"
+            },
+            {
+              "title": "OpenStax · Exchange in East Asia",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/2-3-exchange-in-east-asia"
+            }
+          ]
+        }
+      ]
     },
     "renaissance-humanism-and-art": {
       "title": "Renaissance Humanism and Art",
@@ -1363,7 +1435,41 @@
         "objective": "Compare how an Iberian treaty and an English colonial law expressed different kinds of power.",
         "evidence": "Compare the Treaty of Tordesillas with Virginia's 1619 laws concerning indentured servants. Name a claim in the treaty and a rule in the Virginia record. Explain how those records answer different questions and identify evidence needed to study Indigenous agency or resistance.",
         "criteria": "Distinguishes a claim over territory from a labor rule, uses a detail from each, and identifies an absent perspective or outcome."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.1.2.a",
+          "title": "Five Atlantic colonial cases",
+          "reading": [
+            "Portugal, Spain, England, France, and the Netherlands pursued different combinations of territory, trade, and settlement. Portuguese Brazil developed plantation sugar production with enslaved labor. In Spanish America, colonial authorities extracted mineral wealth, and Potosí became a major mining center. In English Virginia, tobacco exports shaped where settlers sought land and how colonists organized labor.",
+            "In New France, the fur trade depended on Indigenous knowledge and trading relationships. New Netherland began as a Dutch West India Company venture and drew revenue from commerce, including the fur trade. The French and Dutch cases show that commercial outposts still depended on local relationships, including negotiation and conflict. The five cases compare particular places and periods. Other colonies governed by the same powers could operate differently."
+          ],
+          "prompt": "Make a five-row chart using the linked readings for Portuguese Brazil, Spanish Potosí, English Virginia, New France, and New Netherland. For each case, record one economic motive and one consequence for labor, land, political control, or Indigenous relationships. Then explain the most important difference between two cases using a specific detail from each.",
+          "criteria": "Uses all five named powers, distinguishes motives from consequences, and supports a precise comparison without generalizing across each empire.",
+          "sources": [
+            {
+              "title": "OpenStax · Portuguese South America",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/8-4-portuguese-south-america"
+            },
+            {
+              "title": "UNESCO · City of Potosí",
+              "url": "https://whc.unesco.org/en/list/420/"
+            },
+            {
+              "title": "Encyclopedia Virginia · Tobacco in Colonial Virginia",
+              "url": "https://encyclopediavirginia.org/entries/tobacco-in-colonial-virginia/"
+            },
+            {
+              "title": "Canadian Museum of History · Fur Trade",
+              "url": "https://www.historymuseum.ca/virtual-museum-of-new-france/economic-activities/fur-trade/"
+            },
+            {
+              "title": "National Park Service · New Netherland",
+              "url": "https://www.nps.gov/sapa/planyourvisit/new-netherland-the-dutch-commercial-colony.htm"
+            }
+          ]
+        }
+      ]
     },
     "the-atlantic-slave-trade": {
       "title": "The Atlantic Slave Trade",
@@ -1502,7 +1608,61 @@
         "objective": "Use route estimates and a historical image to explain the scale and conditions of forced migration.",
         "evidence": "In SlaveVoyages select one embarkation region, one destination region, and one time span. Record the estimate and whether it counts embarkation or arrival. Use the Library of Congress description or diagram of the Brookes to explain what the print shows about confinement, its purpose, and one limit of both sources.",
         "criteria": "Labels the estimate and its date range, distinguishes estimated numbers from a complete count, and uses the print without treating it as an account of every voyage."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.1.2.c",
+          "title": "Sugar, tobacco, and silver",
+          "reading": [
+            "European demand for sugar encouraged plantation production in Portuguese Brazil. Enslaved Africans performed much of the work. Tobacco became a valuable export in English Virginia, where Indigenous land dispossession, indentured labor, and the expansion of racial slavery shaped plantation growth. The labor systems changed over time and differed by crop and colony.",
+            "Silver production at Potosí in Spanish South America relied in part on compulsory Indigenous labor through the colonial mita. Silver circulated in Atlantic and Pacific markets. Manila connected some American silver to Chinese markets, where silver was in demand. Different routes connected the three products to different consumers and merchants, while the people who grew or mined them often had little control over those exchanges."
+          ],
+          "prompt": "Build a three-row chart for sugar, tobacco, and silver. Identify a production region, a labor system, and a destination market for each. Use all three regions in your explanation: Europe, South America, and East Asia. Explain one difference between plantation labor and the labor system at Potosí.",
+          "criteria": "Traces each commodity with a supported regional connection, identifies distinct forms of labor, and explains how a trade route affected an economy outside the production site.",
+          "sources": [
+            {
+              "title": "OpenStax · Portuguese South America",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/8-4-portuguese-south-america"
+            },
+            {
+              "title": "Encyclopedia Virginia · Tobacco in Colonial Virginia",
+              "url": "https://encyclopediavirginia.org/entries/tobacco-in-colonial-virginia/"
+            },
+            {
+              "title": "UNESCO · City of Potosí",
+              "url": "https://whc.unesco.org/en/list/420/"
+            },
+            {
+              "title": "OpenStax · Exchange in East Asia",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/2-3-exchange-in-east-asia"
+            }
+          ]
+        },
+        {
+          "code": "MWH.2.1.c",
+          "title": "What changed after slave-trade bans?",
+          "reading": [
+            "Britain banned its subjects' participation in the slave trade in 1807. A United States law prohibiting the importation of enslaved people took effect in 1808. These laws addressed different jurisdictions. Enslavement itself continued, and trafficking across the Atlantic persisted after the bans.",
+            "British naval patrols sought to intercept ships off West Africa and beyond. Suppression affected European traders, people on intercepted vessels, and plantation economies in the Americas in different ways. Shipping estimates can reveal changes in routes and the timing of voyages. They cannot tell historians how every captive experienced interception or what happened in inland African communities."
+          ],
+          "prompt": "Use the British and U.S. records to compare what each law prohibited. In SlaveVoyages, compare one route in windows before and after a ban. Explain a documented or plausible effect for an African group, a destination in the Americas, and a European group. Label which effects the available records support and which need another source.",
+          "criteria": "Distinguishes ending legal participation from ending slavery, dates the comparison, and gives a qualified explanation of effects across all three regions.",
+          "sources": [
+            {
+              "title": "UK Parliament · Britain and the Transatlantic Slave Trade",
+              "url": "https://researchbriefings.files.parliament.uk/documents/LLN-2019-0104/LLN-2019-0104.pdf"
+            },
+            {
+              "title": "National Archives · The Slave Trade",
+              "url": "https://www.archives.gov/education/lessons/slave-trade.html"
+            },
+            {
+              "title": "SlaveVoyages · Estimates",
+              "url": "https://www.slavevoyages.org/assessment/estimates"
+            }
+          ]
+        }
+      ]
     },
     "a-new-scientific-worldview": {
       "title": "A New Scientific Worldview",
@@ -1898,7 +2058,33 @@
         "evidence": "Use the OpenStax discussion of Montesquieu and the opening sections of Articles I, II, and III of the U.S. Constitution. Identify one idea and trace one way the Constitution allocates authority. Explain what added evidence would show whether the rule actually limited power in practice.",
         "criteria": "Cites a specific article and distinguishes an assigned power from an observed outcome or proof of direct influence.",
         "inquiry": true
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.2.1.a",
+          "title": "Civil conflict, the Revolution of 1688, and New England",
+          "reading": [
+            "Charles I governed without calling Parliament for much of the 1630s. His taxes and religious policies became points of conflict. The civil wars of the 1640s led to his defeat and execution and a period without a monarchy. The monarchy returned in 1660, so the outcome of the civil wars and the later settlement belong to different moments.",
+            "In 1688, William of Orange landed in England and James II fled. The subsequent settlement limited royal power and secured a Protestant succession. Across the Atlantic, Massachusetts residents arrested Governor Edmund Andros in 1689, overturning a central feature of the Dominion of New England. Disputes over worship, trade enforcement, and who controlled government helped shape the colonial response."
+          ],
+          "prompt": "Compare one dispute from Charles I's reign with one change after 1688. Then explain how the news and political change affected government in New England. Use the readings to connect religious policy or trade enforcement to the colonial response, and identify one group whose experience the accounts leave out.",
+          "criteria": "Separates the civil wars from the Revolution of 1688, supports a causal connection across the Atlantic, and addresses government and at least one social, religious, or economic effect.",
+          "sources": [
+            {
+              "title": "UK Parliament · The Personal Rule of Charles I",
+              "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/overview/personal-rule/"
+            },
+            {
+              "title": "UK Parliament · The Glorious Revolution",
+              "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/revolution/"
+            },
+            {
+              "title": "OpenStax · The Glorious Revolution and the English Empire",
+              "url": "https://openstax.org/books/us-history/pages/4-2-the-glorious-revolution-and-the-english-empire"
+            }
+          ]
+        }
+      ]
     },
     "the-french-revolution": {
       "title": "The French Revolution",
@@ -2708,7 +2894,29 @@
         "objective": "Connect factory jobs and migration to a public-health problem in an industrial city.",
         "evidence": "Use the 1833 Factory Act source and Chadwick's 1842 sanitation report. Write a short chain linking factory work, migration or urban growth, and exposure to a specific health risk. Explain one limitation of a government report.",
         "criteria": "Uses both records, names a concrete health risk, and distinguishes a plausible causal sequence from a source's opinion."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.2.3.b",
+          "title": "Factories and bargaining over work",
+          "reading": [
+            "In a factory, owners and managers controlled the machines, the workplace, and much of the working schedule. Workers sold their labor for wages. Earlier household producers could also depend on merchants for materials and payment, but factory work concentrated more workers and equipment under one roof. That concentration made it easier to set common hours and supervise output.",
+            "Britain's 1833 Factory Act imposed rules on the work of children in covered textile factories and created an inspectorate. The 1836 factory inspector's report gives students evidence about regulation after the law was passed. A legal limit tells us what the state authorized. The inspector's account helps test what an employer or family could actually do."
+          ],
+          "prompt": "Compare the power of an employer and the choices available to a wage-earning household before and after one provision of the 1833 Act. Cite the act and one detail from the 1836 inspection record. Explain how investing in machinery and organizing wage labor changed an economic relationship.",
+          "criteria": "Connects ownership and wage labor to control over work, uses a specific law and a specific inspection detail, and distinguishes policy from practice.",
+          "sources": [
+            {
+              "title": "The National Archives · 1833 Factory Act",
+              "url": "https://www.nationalarchives.gov.uk/education/resources/1833-factory-act/"
+            },
+            {
+              "title": "The National Archives · Factory inspector's report, 1836",
+              "url": "https://www.nationalarchives.gov.uk/education/resources/1833-factory-act/source-1/"
+            }
+          ]
+        }
+      ]
     },
     "global-economic-and-social-change": {
       "title": "Global Economic and Social Change",

@@ -58,6 +58,25 @@ async function checkMarylandLessons(page) {
     assert.ok(closureText.includes(evidence), slug + " exit ticket");
     assert.ok(closureText.includes(criteria), slug + " success criteria");
     assert.ok(await closure.getByLabel("My evidence-based reflection").isEditable(), slug + " response field");
+    for (const study of lesson.caseStudies ?? []) {
+      const id = "history-case-" + study.code.toLowerCase().replaceAll(".", "-");
+      const jump = standards.getByRole("link", { name: study.title });
+      assert.equal(await jump.getAttribute("href"), "#" + id);
+      await jump.click();
+      assert.equal(new URL(page.url()).hash, "#" + id, slug + " study navigation");
+      const panel = page.locator("#" + id);
+      assert.ok(await panel.getByRole("heading", { name: study.title }).isVisible(), slug + " study heading");
+      const body = await panel.innerText();
+      for (const text of [...study.reading, study.prompt, study.criteria]) {
+        assert.ok(body.includes(text), slug + " study content");
+      }
+      const links = await panel.getByRole("link").evaluateAll(items => items.map(item => item.getAttribute("href")));
+      assert.deepEqual(links, study.sources.map(source => source.url), slug + " study source links");
+      const answerField = panel.getByLabel("My case-study response");
+      await answerField.fill("I can support my claim with a dated detail.");
+      assert.equal(await answerField.inputValue(), "I can support my claim with a dated detail.");
+    }
+
   }
   console.log("PASS Maryland objectives and exit tickets in all 40 Grade 11 lessons");
 }

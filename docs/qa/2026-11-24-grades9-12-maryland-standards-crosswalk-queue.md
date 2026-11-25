@@ -11,10 +11,10 @@ Grades 11–12 disciplinary-literacy benchmark: https://www.thecorestandards.org
 |---|---|---|
 | Grade 9 · U.S. History | 1 of 45 has a partial documented match (Brown v. Board). | Map 44 lessons and expand the Brown task to cover Mendez v. Westminster and short- and long-term effects. |
 | Grade 10 · American Government | 1 of 31 has a partial documented match (How American Elections Work). | Map 30 lessons and extend the elections task to evaluate the Electoral College across two periods. |
-| Grade 11 · Modern World History | 40 of 40 lessons have an objective, student task, and success criteria. Of these, 36 link to specific content objectives and four to Maryland inquiry skills. All 11 unit assessments have a focused written argument. | Audit the full framework for uncovered objectives and missing cases, then check source passages and teacher-scored writing. |
+| Grade 11 · Modern World History | 40 of 40 lessons have an objective, student task, and success criteria. Of these, 36 link to specific content objectives and four to Maryland inquiry skills. All 11 unit assessments have a focused written argument. | Review the 46 objectives with no designated task and finish coverage of partial objectives. Then check source passages and teacher-scored writing. |
 | Grade 12 · Social Studies Electives | 20 lessons have proposed broad topics. | Confirm the applicable local course expectations, then map all 20 lessons and their assessments. |
 
-**Grade 11 next pass.** Compare the entire state framework against what the Grade 11 course teaches and assesses. Early priorities are to add Ottoman achievements, the rise and fall of Ming China, Mughal India, and direct comparisons of the Dutch, English, French, Portuguese and Spanish colonial cases. Keep the four inquiry-focused lessons as support for historical reasoning.
+**Grade 11 next pass.** Compare the entire state framework against what the Grade 11 course teaches and assesses. The early-world case build now addresses the Ottoman, Ming, Mughal, and Atlantic colonial priorities. Review the remaining topics in Sections 2–4, including comparative industrialization, the global effects of World War I, and Cold War conflicts beyond Europe. Keep the four inquiry-focused lessons as support for historical reasoning.
 
 **Gaps in lessons already mapped.** Examples include China and Africa in the industrialization comparison, Samori Ture and Tanganyika in the resistance comparison, Ben Bella and Algeria in postwar independence, and the World Court and nongovernmental organizations in the conflict-response objective. See each lesson row for the full scope of its task. Check other framework objectives even where a lesson already maps to one objective.
 
@@ -22,21 +22,35 @@ Grades 11–12 disciplinary-literacy benchmark: https://www.thecorestandards.org
 
 ### Grade 11 course coverage by Maryland objective
 
-The state framework lists 83 numbered content objectives. Thirty have a linked lesson task, which can cover only a portion of the objective. Fifty-three have no designated task in this tracker. Some of their topics already appear in course readings and need a review before deciding whether to add teaching material or just assess it.
+The state framework lists 83 numbered content objectives. Thirty-seven have a linked lesson or case-study task, which can cover only a portion of the objective. Forty-six have no designated task in this tracker. Some of their topics already appear in course readings and need a review before deciding whether to add teaching material or just assess it.
 
 | MSDE framework section | Objectives linked to a task | Objectives to review for a task |
 |---|---:|---:|
-| 1 · Early connections and overseas expansion | 5 of 9 | 4 |
-| 2 · Political revolutions, industry, and empire | 10 of 25 | 15 |
+| 1 · Early connections and overseas expansion | 9 of 9 | 0 |
+| 2 · Political revolutions, industry, and empire | 13 of 25 | 12 |
 | 3 · World wars, independence, and the Cold War | 11 of 32 | 21 |
 | 4 · Globalization and human rights | 4 of 17 | 13 |
 
 Objectives to review by code
 
-- Section 1: MWH.1.1.b, MWH.1.1.d, MWH.1.1.e, MWH.1.2.c.
-- Section 2: MWH.2.1.a, MWH.2.1.c, MWH.2.3.b, MWH.2.3.c, MWH.2.4.a, MWH.2.5.b, MWH.2.5.d, MWH.2.6.a, MWH.2.6.c, MWH.2.6.d, MWH.2.7.a, MWH.2.7.b, MWH.2.7.c, MWH.2.8.a, MWH.2.8.b.
+- Section 2: MWH.2.3.c, MWH.2.4.a, MWH.2.5.b, MWH.2.5.d, MWH.2.6.a, MWH.2.6.c, MWH.2.6.d, MWH.2.7.a, MWH.2.7.b, MWH.2.7.c, MWH.2.8.a, MWH.2.8.b.
 - Section 3: MWH.3.2.a, MWH.3.2.c, MWH.3.2.d, MWH.3.2.e, MWH.3.2.f, MWH.3.2.g, MWH.3.3.b, MWH.3.3.c, MWH.3.3.d, MWH.3.4.b, MWH.3.4.c, MWH.3.5.b, MWH.3.6.b, MWH.3.6.c, MWH.3.6.d, MWH.3.7.b, MWH.3.8.b, MWH.3.8.c, MWH.3.10.a, MWH.3.10.b, MWH.3.10.c.
 - Section 4: MWH.4.1.a, MWH.4.1.b, MWH.4.2.a, MWH.4.2.b, MWH.4.2.c, MWH.4.2.d, MWH.4.2.e, MWH.4.3.a, MWH.4.3.c, MWH.4.3.d, MWH.4.4.a, MWH.4.5.a, MWH.4.5.b.
+
+### Grade 11 case-study readings and tasks · November 25
+
+Eight case studies on six lesson pages add source-supported readings, individual written responses, and criteria for reviewing the work. All nine Section 1 objectives now have a designated task. The five-power Atlantic comparison expands a previously mapped objective. Section 1 still needs a review of the depth of each task, including the regional effects of the Columbian Exchange and the Atlantic slave trade.
+
+| Objective | Case study | Where students respond |
+|---|---|---|
+| MWH.1.1.b | Ottoman achievements after 1453 | 11.1 · The World Around 1300 → Guided Practice |
+| MWH.1.1.d | The rise and fall of Ming China | 11.1 · The Mongol Empire and Global Exchange → Guided Practice |
+| MWH.1.1.e | How Mughal rule took shape in India | 11.1 · The World Around 1300 → Guided Practice |
+| MWH.1.2.a | Five Atlantic colonial cases | 11.3 · Colonization and Its Human Consequences → Guided Practice |
+| MWH.1.2.c | Sugar, tobacco, and silver | 11.3 · The Atlantic Slave Trade → Guided Practice |
+| MWH.2.1.a | Civil conflict, the Revolution of 1688, and New England | 11.4 · Enlightenment Ideas and Modern Government → Guided Practice |
+| MWH.2.1.c | What changed after slave-trade bans? | 11.3 · The Atlantic Slave Trade → Guided Practice |
+| MWH.2.3.b | Factories and bargaining over work | 11.6 · Industrial Cities and Labor → Guided Practice |
 
 ### Units 11.1–11.4 · November 25
 
