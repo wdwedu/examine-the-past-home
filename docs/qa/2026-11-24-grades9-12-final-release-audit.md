@@ -4,6 +4,16 @@
 
 The word "final" means this is the final consolidated audit after the Grade 12 editorial build, **not** that unresolved source, accessibility, Maryland indicator mapping or live-browser gates have passed.
 
+## Follow-up build · November 24, 2026
+
+- All 16 Grade 11–12 units now have six Part A questions each (66 Grade 11, 30 Grade 12). The three added questions per unit assess interpretation, application or evidence selection. Previous response positions and answer keys carry over.
+- The 12-point teacher rubric now describes the evidence for each score level. Parts B and C are assessed separately from the automatic Part A score. Grade 12 retains the documented senior research product.
+- Static validation passed for 96 distinct prompts and answer keys. A simulated-DOM test exercised scoring, feedback, saved responses, copying and clearing across all 16 units. Desktop and mobile classroom acceptance and assistive-technology testing remain release gates.
+- The source ledger records four passage- or record-level findings. The scarcity lesson now links the relevant opportunity-cost textbook section. The Maryland crosswalk identifies four exact objectives and the evidence still needed for full alignment.
+- The four courses remain interactive drafts. Full source verification, official alignment review, accessibility, and summative validity remain open.
+
+The scorecard and gates below record the original audit baseline.
+
 ## Executive scorecard
 | Grade | Lessons | Units | Distinct lesson checks | Source records | Mean context-panel reading |
 |---|---:|---:|---:|---:|---:|
