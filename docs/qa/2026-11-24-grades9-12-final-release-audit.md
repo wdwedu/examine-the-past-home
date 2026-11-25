@@ -31,6 +31,10 @@ This update does not close the Maryland release gate. The 28 other Grade 11 less
 
 Units 11.5–11.7 and 11.11 add 15 Grade 11 lesson maps, each with a Maryland objective and a matching student task. Four unit assessments add focused written arguments. The running total is 27 of 40 Grade 11 lessons and seven of 11 Grade 11 unit assessments. The [standards crosswalk](2026-11-24-grades9-12-maryland-standards-crosswalk-queue.md#progress-and-remaining-work--november-25-2026) lists the 13 remaining Grade 11 lessons by unit, exact work by grade, and the course-level coverage gaps to check after lesson mapping.
 
+The [desktop and phone-width browser checks](https://github.com/wdwedu/examine-the-past-home/actions/runs/45613777281) passed for all 36 unit assessments and the objectives and closing tasks in all 27 mapped Grade 11 lessons. The written arguments and teacher guidance were also checked in all seven mapped units.
+
+The source ledger currently has 123 open claims, five partly verified claims, and eight supported claims. This mapping batch supplements the lesson readings. Full source verification remains open.
+
 The scorecard and gates below record the original audit baseline.
 
 ## Executive scorecard
