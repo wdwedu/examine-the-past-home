@@ -23,6 +23,8 @@ The word "final" means this is the final consolidated audit after the Grade 12 e
 
 Grade 11 Units 11.8–11.10 (World War I through the Cold War) now connect 12 lessons to 11 specific objectives in the Maryland Modern World History Framework. The Standards and Objectives panels name what students are expected to learn. Closure asks them to demonstrate it. The three unit assessments add a written argument and guidance for teachers on what to look for. The [standards crosswalk](2026-11-24-grades9-12-maryland-standards-crosswalk-queue.md) identifies the cases assessed and the ones still needed.
 
+The [browser check](https://github.com/wdwedu/examine-the-past-home/actions/runs/45519906121) passed at desktop and phone widths on the review build. It verified that the 12 lesson pages display the Maryland objectives and exit tickets and that the three unit assessments display the new writing prompts, source links and teacher guidance. The 36 assessment behavior checks also passed.
+
 This update does not close the Maryland release gate. The 28 other Grade 11 lessons and the remaining Grades 9, 10 and 12 objectives still need lesson-level review. That includes district or local elective expectations where appropriate.
 
 The scorecard and gates below record the original audit baseline.
