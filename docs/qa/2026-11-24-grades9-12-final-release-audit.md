@@ -47,6 +47,8 @@ Eight case studies expand the course on six lesson pages. Seven previously unlin
 
 The source ledger adds two supported claims and one partly verified claim. It now records 120 open claims, six partly verified claims, and ten supported claims.
 
+The [browser checks](https://github.com/wdwedu/examine-the-past-home/actions/runs/45708010891) passed at desktop and phone widths. They covered the 40 Grade 11 lesson pages, all 36 high-school unit assessments, and navigation, reading content, source links, and editable response fields for all eight new case studies. The link checks confirmed the destinations listed on the pages. They do not establish external source availability on school networks or assistive-technology conformance.
+
 The scorecard and gates below record the original audit baseline.
 
 ## Executive scorecard
