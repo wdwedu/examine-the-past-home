@@ -94,14 +94,15 @@ function reframe(d){
  const marylandFramework=grade===11
    ? A("https://msde.maryland.gov/media/17929"+(alignment?"#page="+alignment.page:""),"Maryland Modern World History Framework")
    : A("https://msde.maryland.gov/academics-0/curriculum-academic-standards/social-studies","Maryland Social Studies Frameworks");
+ const standardLabel=alignment?.inquiry ? 'Maryland inquiry skills · '+alignment.code : alignment?.code;
  const standardNote=alignment
-   ? '<p><strong>'+E(alignment.code)+'</strong> · '+E(alignment.objective)+'</p>'
+   ? '<p><strong>'+E(standardLabel)+'</strong> · '+E(alignment.objective)+'</p>'
    : '<p>Historical inquiry, evidence analysis, and informed discussion.</p>';
  const lessonObjective=alignment
    ? '<p><strong>Lesson objective:</strong> '+E(alignment.objective)+'</p>'
    : '';
  const exitEvidence=alignment
-   ? '<p><strong>'+E(alignment.code)+'</strong> · '+E(alignment.evidence)+'</p><p><strong>What to include:</strong> '+E(alignment.criteria)+'</p>'
+   ? '<p><strong>'+E(standardLabel)+'</strong> · '+E(alignment.evidence)+'</p><p><strong>What to include:</strong> '+E(alignment.criteria)+'</p>'
    : '<p>Identify the relevant historical actor, institution, process or social condition, cite one credible piece of evidence, and explain a limitation or perspective you would investigate next.</p>';
  const planExtra='<div class="civic-goal-dropdowns">'+
  D("Standards",standardNote+'<p>'+marylandFramework+'</p><p><strong>Grade 11–12 disciplinary literacy:</strong> RH.11–12.1 and RH.11–12.9 for evaluating evidence and reconciling sources. WHST.11–12.1 and WHST.11–12.8 for evidence-based writing and credible citations.</p>')+
@@ -218,5 +219,5 @@ function wire(d){
  QA("[data-source-good]").forEach(b=>b.onclick=()=>{const ok=b.dataset.sourceGood==="true";Q("#g5-source-result").textContent=ok?"Correct. Corroboration and missing perspectives matter.":"Review historical sourcing. Context matters more than confidence.";assess("reliability",ok,b)});
  Q("#g5-copy").onclick=()=>{const txt=Q("#g5-written").value,o=Q("#g5-copy-result");if(!txt.trim()){o.textContent="Write a response first.";return}if(navigator.clipboard&&isSecureContext)navigator.clipboard.writeText(txt).then(()=>o.textContent="Copied.").catch(()=>o.textContent="Select text manually.");else{Q("#g5-written").select();o.textContent="Selected. Copy using your device."}};
 }
-fetch(root+(grade===11?"assets/grade11-grade5-matched-data.json?v=20261125-md-alignment-v2":"assets/grade12-grade5-matched-data.json?v=20261124-source-evidence-v2")).then(r=>{if(!r.ok)throw Error("Data unavailable");return r.json()}).then(all=>{if(!all.lessons[slug])throw Error("Lesson missing");build(all.lessons[slug],all)}).catch(err=>{console.error(err);const target=page.querySelector(".etp-preview-label");if(target)target.textContent="Lesson content unavailable. Refresh or return to course.";});
+fetch(root+(grade===11?"assets/grade11-grade5-matched-data.json?v=20261125-md-alignment-v3":"assets/grade12-grade5-matched-data.json?v=20261124-source-evidence-v2")).then(r=>{if(!r.ok)throw Error("Data unavailable");return r.json()}).then(all=>{if(!all.lessons[slug])throw Error("Lesson missing");build(all.lessons[slug],all)}).catch(err=>{console.error(err);const target=page.querySelector(".etp-preview-label");if(target)target.textContent="Lesson content unavailable. Refresh or return to course.";});
 })();

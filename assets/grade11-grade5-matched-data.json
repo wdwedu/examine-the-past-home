@@ -175,7 +175,7 @@
       "unitTitle": "Global Connections and Transformation",
       "seq": 1,
       "total": 3,
-      "essential": "How can we compare geographic scale and archival survival: why might a traveler's account of Mali emphasize gold while archaeological evidence answers different questions about cities and exchange?",
+      "essential": "How can historians compare states around 1300 using unequal evidence?",
       "paragraphs": [
         "Yuan China, the Mamluk Sultanate, Mali, and societies in the Americas offer evidence of several centers of power around 1300. Their institutions, languages, religious worlds, and commercial ties did not converge on one European timeline. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "Around 1300, Yuan China under Mongol rule, the Mamluk Sultanate in Egypt and Syria, and Mali in West Africa exercised authority through different military, fiscal and cultural systems. Beyond Afro-Eurasia, societies in the Americas had their own urban, agricultural and trading networks. A world map focused only on European kingdoms would obscure these centers of power. Compare maps produced from different perspectives and explain how the choice of map boundaries influences the narrative. A source that describes the wealth of Mali may have circulated through North African trading networks, while a Chinese imperial record answers questions about a very different state. Dates, travel routes and the political position of the observer help explain why these accounts notice different things.",
@@ -291,6 +291,14 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "Standard 6.0",
+        "page": 4,
+        "objective": "Distinguish what a source can establish about Mali, Yuan China, or the Mamluk Sultanate from what remains uncertain.",
+        "evidence": "Compare the Mamluk manuscript record and the Met's account of West Africa. Write one supported claim about each setting and one question the available records cannot answer. Identify each source's type, place, and approximate date.",
+        "criteria": "Separates artifact evidence from the museum's later explanation and makes claims at the scale each record supports.",
+        "inquiry": true
       }
     },
     "afro-eurasian-trade-networks": {
@@ -299,7 +307,7 @@
       "unitTitle": "Global Connections and Transformation",
       "seq": 2,
       "total": 3,
-      "essential": "Test whether trade routes imply equal benefits. Compare a port description with a dated object whose provenance can be traced and explain where each source falls short.?",
+      "essential": "How did trans-Saharan trade and the spread of Islam shape Mali?",
       "paragraphs": [
         "The Indian Ocean's monsoon winds structured sailing seasons, while overland corridors linked inland markets. Merchants, port authorities, financiers and translators shaped the movement of goods and ideas, sometimes under coercion. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "Merchants carried cloth, ceramics, metals and spices along overlapping Indian Ocean and Silk Road networks. Monsoon patterns helped sailors organize seasonal voyages, while caravan routes linked inland markets. Exchange depended on interpreters, lenders, ports, political protection and often coerced labor; it was never simply a line between two cities. Use a port record and a travel account to distinguish firsthand description from assumptions about the network as a whole. A cargo list can reveal quantities and destinations but usually says little about the choices of sailors or laborers. A travel narrative supplies impressions of a few places, while ceramics found far from their production site can establish circulation without revealing the journey of an individual object.",
@@ -400,6 +408,14 @@
           "type": "Primary archaeological/art object with contextual description",
           "url": "https://www.metmuseum.org/art/collection/search/450577",
           "summary": "A period ceramic object whose style may show cross-cultural connections; provenance and artistic influence are not proof of the exact trade route."
+        },
+        {
+          "title": "The Trans-Saharan Gold Trade (7th–14th Century)",
+          "creator": "Department of Arts of Africa, Oceania, and the Americas, The Met",
+          "date": "2000",
+          "type": "Museum historical essay",
+          "url": "https://www.metmuseum.org/essays/the-trans-saharan-gold-trade-7th-14th-century",
+          "summary": "Read the trade routes and Mali sections. Trace the connection between West African gold, northward trade, and royal power."
         }
       ],
       "researchWorkshop": {
@@ -415,6 +431,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.1.1.c",
+        "page": 9,
+        "objective": "Explain how one commercial connection and one religious or cultural connection influenced Mali.",
+        "evidence": "Use the Met's gold-trade essay to trace gold from West Africa to a market north of the Sahara. Explain how commercial contact and Islamic networks affected a ruler, merchant, or community. Name one limitation of the evidence.",
+        "criteria": "Traces the trade route and supports distinct political or cultural effects with specific evidence about West Africa."
       }
     },
     "the-mongol-empire-and-global-exchange": {
@@ -423,7 +446,7 @@
       "unitTitle": "Global Connections and Transformation",
       "seq": 3,
       "total": 3,
-      "essential": "How can we compare a conquered community's account with an envoy's narrative: what is gained and lost when imperial connectivity is described without the violence of conquest?",
+      "essential": "What changed across Eurasia as Mongol rule fragmented and plague spread?",
       "paragraphs": [
         "Thirteenth-century Mongol conquests brought destruction and new political connections. Different khanates governed varied populations, while diplomatic envoys, merchants and artisans moved through routes affected by Mongol rule. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "In the thirteenth century Mongol armies built an empire stretching across much of Eurasia; successor khanates then governed different territories. Protected travel routes connected merchants and emissaries, but conquest also involved devastating violence and tribute extraction. The term 'Pax Mongolica' must not be read as peace for all communities. Compare a merchant's account with a local chronicle and explain how vantage point shapes the picture. Trade became easier in some corridors because political authorities regulated routes, but no traveler can speak for every conquered settlement. A local chronicle describing siege warfare is not a contradiction of the existence of merchant networks; the two records can reveal how imperial rule affected people differently.",
@@ -532,6 +555,14 @@
           "type": "Primary material artifact",
           "url": "https://www.metmuseum.org/art/collection/search/52662",
           "summary": "A specific artifact from Yuan China; it does not by itself establish Mongol military policy or the experience of conquered societies."
+        },
+        {
+          "title": "The Black Death from East to West",
+          "creator": "OpenStax",
+          "date": "2023",
+          "type": "World History, Volume 1, section 16.3",
+          "url": "https://openstax.org/books/world-history-volume-1/pages/16-3-the-black-death-from-east-to-west",
+          "summary": "Compare the account of origins and movement with the discussion of consequences. Distinguish supported routes from uncertain details."
         }
       ],
       "researchWorkshop": {
@@ -547,6 +578,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.1.1.a",
+        "page": 9,
+        "objective": "Compare the consequences of a political disruption with those of the Black Death.",
+        "evidence": "Use the Yuan dynasty account and OpenStax plague reading. Identify one change in political control and one consequence of plague. Explain how connected routes help explain the spread of disease, and state where the evidence falls short of establishing a cause for the fall of a dynasty.",
+        "criteria": "Accurately places each development in time, uses both readings, and distinguishes political change from disease transmission."
       }
     },
     "renaissance-humanism-and-art": {
@@ -555,7 +593,7 @@
       "unitTitle": "Renaissance and Reformation",
       "seq": 1,
       "total": 3,
-      "essential": "Analyze the commissioning of an artwork before using it as evidence of changing ideas. What does patronage reveal about power, and which audiences are missing?",
+      "essential": "How did Renaissance art change cultural life while preserving ties to patrons and religious institutions?",
       "paragraphs": [
         "Renaissance humanists revisited classical texts and questioned how inherited learning could guide education and public life. Patrons, workshops, printing and wealthy cities affected who could produce and circulate art. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "Renaissance humanists studied classical texts and argued about language, ethics, education and civic life. Patrons financed architecture and painting, making art a record of both innovation and concentrated wealth. Printed books and manuscript circulation expanded some intellectual networks without granting equal participation to all people. Analyze the audience, patron and intended message of one artwork alongside a written humanist source. Compare patrons, reformers and institutions, and resist treating all religious or artistic changes as one uniform movement. A wealthy family's commission of a painting may record status and faith as much as artistic innovation. Scholars therefore attend to materials, patronage contracts, iconography and the setting in which a work was displayed. The label 'Renaissance' describes a scholarly periodization, not a claim that earlier societies lacked knowledge.",
@@ -671,6 +709,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.1.1.f",
+        "page": 9,
+        "objective": "Evaluate one change and one continuity in cultural authority using a Renaissance work.",
+        "evidence": "Inspect Raphael's Colonna Altarpiece and use the Met's educator resource. Choose one visual detail that shows a change in artistic practice and one that reflects continuity in religious patronage or purpose. Explain what further evidence would be needed to infer a change in wider political or religious stability.",
+        "criteria": "Identifies specific details and makes a bounded judgment about how new artistic practices and established institutions coexisted."
       }
     },
     "the-protestant-reformation": {
@@ -679,7 +724,7 @@
       "unitTitle": "Renaissance and Reformation",
       "seq": 2,
       "total": 3,
-      "essential": "How can we compare a reformer's statement with a Catholic response and distinguish doctrinal disagreement from princes' political incentives.?",
+      "essential": "How did print and religious reform challenge authority in Western Europe?",
       "paragraphs": [
         "Martin Luther's 1517 criticism of indulgence preaching developed into wider disputes about scripture, church authority and salvation. Printing and territorial politics shaped how reform ideas circulated and were contested. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "Martin Luther's 1517 criticism of indulgence practices became part of a much wider challenge to religious authority. Printing, princely politics, reform movements and disputes over scripture shaped how ideas spread. Protestant groups disagreed among themselves, while Catholic reform also changed institutions. Distinguish a theological claim, a political interest and the social consequences of reform when explaining why communities responded differently. Compare patrons, reformers and institutions, and resist treating all religious or artistic changes as one uniform movement. The word 'Reformation' covers theological disputes, new institutions and struggles over political authority that did not unfold at the same pace. Luther's propositions are evidence of one reformer's challenge; later confessions and territorial laws show how governments interpreted and sometimes enforced religious commitments.",
@@ -795,6 +840,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.1.1.f",
+        "page": 9,
+        "objective": "Explain how the circulation of reform ideas could change the reach and consequences of a religious dispute.",
+        "evidence": "Use the Met's Reformation account to identify a dispute tied to Luther and one way print helped reform ideas circulate. Add an example of a political or religious response. Explain how the audience or response affected stability in one setting.",
+        "criteria": "Supports a link from an idea to its circulation and a documented response, while keeping print and political decisions distinct."
       }
     },
     "religious-and-political-transformation": {
@@ -803,7 +855,7 @@
       "unitTitle": "Renaissance and Reformation",
       "seq": 3,
       "total": 3,
-      "essential": "How can we compare an official religious settlement with the practices of a dissenting community. How does formal toleration differ from equal freedom of conscience?",
+      "essential": "How did religious conflict and political bargaining reshape authority in Europe?",
       "paragraphs": [
         "The sixteenth- and seventeenth-century upheavals joined theological disputes to the authority of rulers, local communities and church institutions. Confessional policy varied, and coexistence was often conditional. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "Sixteenth- and seventeenth-century rulers often linked religious conformity to political loyalty. Conflicts such as the French Wars of Religion and the Thirty Years' War involved dynastic, territorial and confessional ambitions; religion alone does not explain every alliance. Peace settlements could alter legal status and diplomatic norms while leaving local tensions unresolved. Compare a ruler's decree with an account from a religious minority. Compare patrons, reformers and institutions, and resist treating all religious or artistic changes as one uniform movement. The Westphalian settlements of 1648 can be studied through treaty clauses, but the agreements did not create a modern world of fully equal religious freedom. Their provisions reflected the interests and recognized rights of political authorities; dissenters' experiences need different records, including local legal disputes.",
@@ -919,6 +971,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.1.1.f",
+        "page": 9,
+        "objective": "Evaluate how a peace settlement addressed religious conflict and assess a limit of that settlement.",
+        "evidence": "Use the Westphalia text and the Met's Reformation overview. Identify one provision about religious arrangements or authority. Explain which tension it was meant to address and identify an outcome that the treaty text alone cannot prove.",
+        "criteria": "Distinguishes a treaty provision from its implementation and connects it to an earlier division in authority."
       }
     },
     "maritime-exploration-and-expansion": {
@@ -927,7 +986,7 @@
       "unitTitle": "Exploration and Global Empires",
       "seq": 1,
       "total": 4,
-      "essential": "How can we compare a European voyage account with a locally grounded Indigenous or archaeological record. How can the label 'discovery' obscure preexisting communities and knowledge?",
+      "essential": "Why did European powers sponsor Atlantic voyages, and how did they claim authority overseas?",
       "paragraphs": [
         "Fifteenth- and sixteenth-century overseas voyages drew on navigation, finance, coercion and state rivalry. Indigenous societies encountered European expeditions from positions that varied greatly by region and political circumstance. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "Atlantic voyages expanded through advances in navigation, state sponsorship and commercial ambitions, but European sailors relied on accumulated knowledge from other regions. Portuguese ports on African coasts and Spanish expeditions in the Americas developed unequal relationships shaped by diplomacy, trade, violence and claims of sovereignty. Trace who financed a voyage, who provided navigational knowledge and who bore its costs. Trace causes and consequences from multiple geographic and human perspectives; do not reduce colonization or enslavement to a simple exchange of goods. The Treaty of Tordesillas expressed competing Iberian claims over areas beyond Europe, but Indigenous peoples did not negotiate its terms. Its imaginary division is evidence of imperial ambition, not proof that European monarchs possessed legitimate title or effective control over every coast and interior.",
@@ -1035,6 +1094,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.1.2.a",
+        "page": 9,
+        "objective": "Connect a motive for Iberian exploration to a particular consequence for claims in the Americas.",
+        "evidence": "Compare the Library of Congress account of early Atlantic voyages with the Treaty of Tordesillas. Name one motive and explain how the treaty attempted to allocate overseas claims. Identify whose authority the document asserts and whose consent it omits.",
+        "criteria": "Uses both readings, distinguishes an imperial claim from control on the ground, and explains one consequence of the policy."
       }
     },
     "the-columbian-exchange": {
@@ -1043,7 +1109,7 @@
       "unitTitle": "Exploration and Global Empires",
       "seq": 2,
       "total": 4,
-      "essential": "How can we compare crop diffusion records with demographic evidence. Avoid the claim that all ecological transfers had the same effects or occurred immediately.?",
+      "essential": "How did the movement of crops and diseases after 1492 affect communities differently?",
       "paragraphs": [
         "Following Atlantic contact, plants, animals, pathogens and people moved between continents. Demographic catastrophe among Indigenous peoples involved introduced diseases as well as conquest, forced labor and upheaval. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "After 1492, crops, animals and pathogens crossed the Atlantic in both directions. American crops such as maize and potatoes transformed diets elsewhere, while Old World diseases contributed to catastrophic Indigenous population losses amid conquest and displacement. Changes differed by region and unfolded over generations. Use an agricultural map and an Indigenous historical account to avoid reducing complex histories to a list of traded items. Trace causes and consequences from multiple geographic and human perspectives; do not reduce colonization or enslavement to a simple exchange of goods. A crop's movement between continents must be separated from its adoption into everyday diets; ecological change was neither instant nor uniformly beneficial. Historical epidemiology also faces incomplete population records, so estimates of demographic change require transparent methods and careful geographic scope.",
@@ -1136,6 +1202,14 @@
           "type": "Original material artifact described in modern museum guide",
           "url": "https://www.britishmuseum.org/sites/default/files/2021-11/Peru_a_journey_in_time_large_print_guide.pdf",
           "summary": "Artifact demonstrates Indigenous agricultural culture; its presence does not itself prove European crop diffusion or disease transmission."
+        },
+        {
+          "title": "New Worlds in the Americas: Labor, Commerce, and the Columbian Exchange",
+          "creator": "OpenStax",
+          "date": "2014",
+          "type": "U.S. History, section 2.4",
+          "url": "https://openstax.org/books/us-history/pages/2-4-new-worlds-in-the-americas-labor-commerce-and-the-columbian-exchange",
+          "summary": "Use the exchange subsection to identify specific crops, diseases, directions of movement, and documented effects."
         }
       ],
       "researchWorkshop": {
@@ -1151,6 +1225,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.1.2.b",
+        "page": 9,
+        "objective": "Compare the direction of two Atlantic exchanges and assess contrasting effects.",
+        "evidence": "Use the British Museum maize vessel and the OpenStax account. Trace an American crop outward and a disease carried to the Americas. Compare one effect on food production or diets with one effect on Indigenous communities. Explain why the vessel alone cannot establish where the crop later spread.",
+        "criteria": "Traces both movements in the correct direction and supports their effects with the reading and an appropriately limited artifact observation."
       }
     },
     "colonization-and-its-human-consequences": {
@@ -1159,7 +1240,7 @@
       "unitTitle": "Exploration and Global Empires",
       "seq": 3,
       "total": 4,
-      "essential": "Examine a colonial decree against testimony or records from an affected community. What changed in sovereignty, labor or access to land?",
+      "essential": "What is the difference between claiming a colony and governing people within it?",
       "paragraphs": [
         "Colonization imposed competing systems of land claims, tribute, religious institutions and coerced labor. Indigenous diplomacy and resistance varied, and survival did not mean the absence of dispossession. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "European colonial regimes in the Americas differed in labor arrangements, legal categories, mission systems and forms of resistance. Indigenous communities negotiated, adapted and defended their autonomy even under severe pressure. An official census or colonial ordinance may reveal administrators' priorities while understating coercion and local perspectives. Compare an administrative source with a community-centered account before generalizing. Trace causes and consequences from multiple geographic and human perspectives; do not reduce colonization or enslavement to a simple exchange of goods. Royal charters and colonial laws frequently claimed authority over land already inhabited and governed. Reading those documents beside archaeology and Indigenous oral histories changes the question from where Europeans settled to how existing societies experienced encroachment, accommodation, violence and resistance.",
@@ -1252,6 +1333,14 @@
           "type": "Primary colonial diplomatic text in translation",
           "url": "https://avalon.law.yale.edu/15th_century/mod001.asp",
           "summary": "European diplomats' claimed spheres of control without Indigenous participation; distinguish claimed authority from effective governance."
+        },
+        {
+          "title": "Laws Concerning Indentured Servants",
+          "creator": "Virginia General Assembly; Encyclopedia Virginia transcription",
+          "date": "1619",
+          "type": "Primary colonial legislation",
+          "url": "https://encyclopediavirginia.org/primary-documents/laws-concerning-indentured-servants-1619/",
+          "summary": "Identify a rule affecting a servant, and distinguish the assembly's stated rules from the experience of a person governed by them."
         }
       ],
       "researchWorkshop": {
@@ -1267,6 +1356,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.1.2.a",
+        "page": 9,
+        "objective": "Compare how an Iberian treaty and an English colonial law expressed different kinds of power.",
+        "evidence": "Compare the Treaty of Tordesillas with Virginia's 1619 laws concerning indentured servants. Name a claim in the treaty and a rule in the Virginia record. Explain how those records answer different questions and identify evidence needed to study Indigenous agency or resistance.",
+        "criteria": "Distinguishes a claim over territory from a labor rule, uses a detail from each, and identifies an absent perspective or outcome."
       }
     },
     "the-atlantic-slave-trade": {
@@ -1275,7 +1371,7 @@
       "unitTitle": "Exploration and Global Empires",
       "seq": 4,
       "total": 4,
-      "essential": "Use SlaveVoyages estimates without implying a complete census. Compare estimated embarkations and disembarkations, distinguish missing voyages, and add a verified firsthand account.?",
+      "essential": "What do voyage estimates and the Brookes print reveal about forced migration across the Atlantic?",
       "paragraphs": [
         "The transatlantic trade forcibly transported millions of Africans through commercial and imperial networks. Voyage registers can support estimates of scale, but numerical totals cannot substitute for the perspectives of enslaved people or explain every African society's political circumstances. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "The transatlantic slave trade forcibly moved millions of Africans across the ocean over several centuries. Captivity, coastal trading systems, plantation demand and imperial laws interacted; enslaved people resisted through many forms of action. Shipping registers capture transactions and mortality but cannot fully convey a person's life or kinship ties. Read quantitative evidence alongside an individual narrative with attention to source context. Trace causes and consequences from multiple geographic and human perspectives; do not reduce colonization or enslavement to a simple exchange of goods. A reconstructed database can estimate forced departures, arrivals and deaths, but it depends on documents often produced by traders and officials. Even careful data cannot record every person's name, family relationship or memory. Firsthand testimony, where available, complicates the commercial categories imposed by enslavers.",
@@ -1376,6 +1472,14 @@
           "type": "Primary abolition-era representation within a research guide",
           "url": "https://guides.loc.gov/history-of-british-slavery",
           "summary": "The period diagram documents abolition-era representation of ship confinement; select original image and do not treat the diagram as a complete passenger list."
+        },
+        {
+          "title": "Stowage of the British slave ship Brookes",
+          "creator": "Library of Congress, Prints and Photographs Division",
+          "date": "1788 regulation; see catalog for print date",
+          "type": "Historical diagram and catalog description",
+          "url": "https://www.loc.gov/pictures/item/98504459/",
+          "summary": "Use the catalog description or the diagram. Read it as a representation of one ship under a regulatory scheme."
         }
       ],
       "researchWorkshop": {
@@ -1391,6 +1495,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.1.2.b",
+        "page": 9,
+        "objective": "Use route estimates and a historical image to explain the scale and conditions of forced migration.",
+        "evidence": "In SlaveVoyages select one embarkation region, one destination region, and one time span. Record the estimate and whether it counts embarkation or arrival. Use the Library of Congress description or diagram of the Brookes to explain what the print shows about confinement, its purpose, and one limit of both sources.",
+        "criteria": "Labels the estimate and its date range, distinguishes estimated numbers from a complete count, and uses the print without treating it as an account of every voyage."
       }
     },
     "a-new-scientific-worldview": {
@@ -1399,7 +1510,7 @@
       "unitTitle": "Scientific Revolution and Enlightenment",
       "seq": 1,
       "total": 3,
-      "essential": "How can we compare a dated observation or experimental report with a later explanation. What makes a proposed scientific claim testable in its historical context?",
+      "essential": "What made Galileo's observations of Jupiter persuasive, and what could they establish?",
       "paragraphs": [
         "Early modern investigators challenged established explanations through observations, experiments and mathematical models. Patronage, universities and religious institutions shaped their opportunities and conflicts. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "Early modern investigations in astronomy, physics and anatomy questioned established explanations and developed new methods of observation and mathematical modeling. Copernicus, Galileo and Newton worked in distinct intellectual and religious contexts; their contributions should not be flattened into a single sudden 'discovery of science.' Compare an observational claim, a mathematical argument and an institutional response. Differentiate scientific evidence from political argument, and evaluate who could participate in institutions of learning and government. The history of science is not a contest in which each new thinker simply defeated an ignorant predecessor. Observers depended on instruments, mathematical assumptions and audiences capable of scrutinizing claims. Scientific communities could disagree even when examining similar measurements, especially before common procedures for replication became established.",
@@ -1492,6 +1603,14 @@
           "type": "Archival originals within institutional collection",
           "url": "https://royalsociety.org/news/2023/04/science-in-the-making/",
           "summary": "Includes historical correspondence involving Halley and Newton; identify an original document and manuscript ID before using a quotation."
+        },
+        {
+          "title": "Astronomer Galileo Discovers Jupiter’s Moons",
+          "creator": "NASA",
+          "date": "2025 retrospective",
+          "type": "Institutional historical account",
+          "url": "https://www.nasa.gov/general/415-years-ago-astronomer-galileo-discovers-jupiters-moons/",
+          "summary": "Track the January 1610 observations in the text and the accompanying historical illustrations."
         }
       ],
       "researchWorkshop": {
@@ -1507,6 +1626,14 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "Standard 6.0",
+        "page": 4,
+        "objective": "Evaluate the link between a dated observation, an inference, and the claim it supports.",
+        "evidence": "Use NASA's account of Galileo's January 1610 observations. Identify a change in the position of the observed points, explain why repeated observations mattered, and say one claim the observation supports and one it cannot establish by itself.",
+        "criteria": "Differentiates the observation from the inference, explains why a dated sequence is useful, and scopes the conclusion to what the evidence can show.",
+        "inquiry": true
       }
     },
     "enlightenment-political-philosophy": {
@@ -1515,7 +1642,7 @@
       "unitTitle": "Scientific Revolution and Enlightenment",
       "seq": 2,
       "total": 3,
-      "essential": "How can we compare two authors' assumptions about power or representation, then identify which populations lacked the political standing imagined by the argument.?",
+      "essential": "How did Locke and Rousseau explain where political authority comes from?",
       "paragraphs": [
         "Locke, Montesquieu and Rousseau offered different arguments about authority, consent and political institutions. Their disagreements and the exclusions within their historical societies require attention beyond a list of memorable slogans. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "Locke, Montesquieu and Rousseau advanced different theories of authority, rights and government. Their arguments developed amid empire, inequality and exclusions from political participation. A student should identify what each author actually claimed rather than assume Enlightenment thinkers agreed on suffrage or liberty. Use short attributed passages to construct a comparison of consent, separated powers and popular sovereignty. Differentiate scientific evidence from political argument, and evaluate who could participate in institutions of learning and government. Some philosophers sought to limit arbitrary rulers while accepting unequal social hierarchies. Others disagreed about property, representation and religion. Their texts should be compared in original settings, with attention to whether 'the people' meant all residents, property-owning men or a more restricted political community.",
@@ -1600,6 +1727,22 @@
           "date": "Institutional reference; select a dated item",
           "type": "Primary-document collection",
           "summary": "Compare later constitutional documents against Enlightenment ideas; do not treat the documents as eighteenth-century philosophy texts."
+        },
+        {
+          "title": "Second Treatise of Government",
+          "creator": "John Locke; Project Gutenberg edition",
+          "date": "1689–1690",
+          "type": "Primary political text",
+          "url": "https://www.gutenberg.org/files/7370/7370-h/7370-h",
+          "summary": "Read chapter VIII, beginning with section 95, on how political societies begin."
+        },
+        {
+          "title": "The Social Contract",
+          "creator": "Jean-Jacques Rousseau; English edition in the Library of Congress",
+          "date": "1762 original; 1897 translation",
+          "type": "Primary political text in translation",
+          "url": "https://www.loc.gov/item/06002278/",
+          "summary": "Open the digitized text and read Book I, chapter VI, on the social compact."
         }
       ],
       "researchWorkshop": {
@@ -1615,6 +1758,14 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "Standard 6.0",
+        "page": 4,
+        "objective": "Compare two authors' arguments using direct evidence and historical context.",
+        "evidence": "Read Locke's Second Treatise, chapter VIII, and Rousseau's Social Contract, Book I, chapter VI. For each, identify the political problem and cite a detail about consent or association. Explain one difference that matters for how a government might claim legitimacy.",
+        "criteria": "Attributes ideas to the correct author and text and makes a specific, evidence-based comparison.",
+        "inquiry": true
       }
     },
     "enlightenment-ideas-and-modern-government": {
@@ -1623,7 +1774,7 @@
       "unitTitle": "Scientific Revolution and Enlightenment",
       "seq": 3,
       "total": 3,
-      "essential": "How can we compare a philosophical passage with a specific constitutional or revolutionary claim. Identify adoption, modification and contradiction between ideal and practice.?",
+      "essential": "How can we tell the difference between a political idea and the way a constitution puts it into practice?",
       "paragraphs": [
         "Revolutionary movements adopted selective Enlightenment arguments about rights and consent while constructing institutions under unequal social conditions. Influence requires tracing textual connections and historical circumstances, not assuming that every government practiced universal equality. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "Political reformers drew on Enlightenment arguments, but constitutional arrangements also reflected conflict, negotiation and local circumstances. The language of universal rights frequently coexisted with enslavement, unequal citizenship and colonial rule. Distinguish an ideal in a foundational text from the people legally protected by institutions at the time. Compare two constitutions and explain the gaps between promises and practice. Differentiate scientific evidence from political argument, and evaluate who could participate in institutions of learning and government. The appearance of similar language in two political texts does not by itself establish direct borrowing. Historical influence is strengthened by dated correspondence, circulated editions and recorded debates. It also matters whether leaders translated philosophical ideas into enforceable protections or reserved participation for a small group.",
@@ -1708,6 +1859,22 @@
           "date": "Institutional reference; select a dated item",
           "type": "Primary-document collection",
           "summary": "Compare later constitutional documents against Enlightenment ideas; do not treat the documents as eighteenth-century philosophy texts."
+        },
+        {
+          "title": "The Enlightenment",
+          "creator": "OpenStax",
+          "date": "2022",
+          "type": "World History, Volume 2, section 7.1",
+          "url": "https://openstax.org/books/world-history-volume-2/pages/7-1-the-enlightenment",
+          "summary": "Find the passages about Montesquieu and the structure of political power."
+        },
+        {
+          "title": "Constitution of the United States: A Transcription",
+          "creator": "National Archives",
+          "date": "1787",
+          "type": "Primary constitutional text",
+          "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+          "summary": "Read the opening passages of Articles I, II, and III to identify the bodies assigned legislative, executive, and judicial power."
         }
       ],
       "researchWorkshop": {
@@ -1723,6 +1890,14 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "Standard 6.0",
+        "page": 4,
+        "objective": "Use a political argument and a constitutional text to evaluate a claim about limits on power.",
+        "evidence": "Use the OpenStax discussion of Montesquieu and the opening sections of Articles I, II, and III of the U.S. Constitution. Identify one idea and trace one way the Constitution allocates authority. Explain what added evidence would show whether the rule actually limited power in practice.",
+        "criteria": "Cites a specific article and distinguishes an assigned power from an observed outcome or proof of direct influence.",
+        "inquiry": true
       }
     },
     "the-french-revolution": {
@@ -5484,6 +5659,42 @@
       "review": "Look for accurate sequencing, clear distinction between an authorized task and what the mission could do, and documented evidence for a specific institutional or political constraint.",
       "lessons": [
         "the-united-nations-and-international-cooperation"
+      ]
+    },
+    "11.1": {
+      "prompt": "How did long-distance connections create opportunities and vulnerabilities across Afro-Eurasia? Compare a West African trade example with an example of political change or plague in lands connected to the Mongol Empire. Use dated evidence from two independently produced sources and explain one important limitation of the comparison.",
+      "review": "Look for a mechanism linking exchange with a political or cultural effect in West Africa, a distinct example of disruption in Eurasia, and a limit grounded in the sources.",
+      "lessons": [
+        "afro-eurasian-trade-networks",
+        "the-mongol-empire-and-global-exchange"
+      ]
+    },
+    "11.2": {
+      "prompt": "Which changed authority more in Western Europe: new forms of communication or the political decisions made in response to cultural and religious change? Use at least one Renaissance or print example and one Reformation or settlement example. Cite two records, weigh another explanation, and distinguish regional evidence from a continent-wide conclusion.",
+      "review": "Look for a comparative judgment, accurate evidence about both cultural and religious change, and a distinction between the spread of ideas and the decisions rulers or institutions made.",
+      "lessons": [
+        "renaissance-humanism-and-art",
+        "the-protestant-reformation",
+        "religious-and-political-transformation"
+      ]
+    },
+    "11.3": {
+      "prompt": "How did Atlantic expansion reshape power and daily life? Compare a European claim or colonial rule with one documented consequence for Indigenous or enslaved people. Connect the two using a process such as disease transmission, forced migration, or labor regulation. Cite at least two records, explain one perspective they leave out, and weigh an alternative explanation.",
+      "review": "Look for a sourced distinction between stated policy and lived effects, accurate treatment of the direction of movements, and consideration of the limits of colonial records.",
+      "lessons": [
+        "maritime-exploration-and-expansion",
+        "the-columbian-exchange",
+        "colonization-and-its-human-consequences",
+        "the-atlantic-slave-trade"
+      ]
+    },
+    "11.4": {
+      "prompt": "How do the evidence for a scientific claim and the evidence for a political claim differ? Compare Galileo's Jupiter observations with either an argument about political consent or a constitutional rule. State what each source can establish, give a defensible comparison, and name evidence that could challenge one of your conclusions.",
+      "review": "Apply Maryland's inquiry skills. Look for a clear distinction between a dated observation, a political argument, and an institutional rule where relevant. Award credit for a well-supported limit on each conclusion.",
+      "lessons": [
+        "a-new-scientific-worldview",
+        "enlightenment-political-philosophy",
+        "enlightenment-ideas-and-modern-government"
       ]
     }
   }

@@ -35,6 +35,10 @@ The [desktop and phone-width browser checks](https://github.com/wdwedu/examine-t
 
 The source ledger currently has 123 open claims, five partly verified claims, and eight supported claims. This mapping batch supplements the lesson readings. Full source verification remains open.
 
+### Grade 11 lesson mapping completed · November 25, 2026
+
+The final Grade 11 batch covers 13 lessons in Units 11.1–11.4, with four topic-specific unit writing tasks and teacher guidance. Across Grade 11, 36 lessons use specific Maryland history objectives and four use Standard 6.0 inquiry skills. All 40 have closing tasks and success criteria. The [tracker](2026-11-24-grades9-12-maryland-standards-crosswalk-queue.md#progress-and-remaining-work--november-25-2026) identifies the outstanding course-level coverage review, including omitted content objectives and named cases.
+
 The scorecard and gates below record the original audit baseline.
 
 ## Executive scorecard

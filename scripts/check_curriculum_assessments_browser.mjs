@@ -32,18 +32,21 @@ const worldHistoryResponse = await fetch(new URL("assets/grade11-grade5-matched-
 assert.ok(worldHistoryResponse.ok, "Could not load Grade 11 lesson alignment");
 const worldHistory = await worldHistoryResponse.json();
 assert.deepEqual(Object.keys(worldHistory.marylandUnitArguments).sort((a, b) => Number(a.split(".")[1]) - Number(b.split(".")[1])),
-  ["11.5", "11.6", "11.7", "11.8", "11.9", "11.10", "11.11"]);
+  Array.from({ length: 11 }, (_, index) => `11.${index + 1}`));
 
 async function checkMarylandLessons(page) {
   const lessons = Object.entries(worldHistory.lessons).filter(([, lesson]) => lesson.marylandAlignment);
-  assert.equal(lessons.length, 27);
+  assert.equal(lessons.length, 40);
+  assert.equal(lessons.filter(([, lesson]) => lesson.marylandAlignment.inquiry).length, 4);
   for (const [slug, lesson] of lessons) {
     const url = new URL(`lessons/curriculum/${courses[11]}/${slug}/`, root);
     assert.ok((await page.goto(url.href, { waitUntil: "domcontentloaded" }))?.ok(), slug);
-    const { code, page: frameworkPage, objective, evidence, criteria } = lesson.marylandAlignment;
+    const { code, page: frameworkPage, objective, evidence, criteria, inquiry } = lesson.marylandAlignment;
     const standards = page.locator("#plan details").filter({ has: page.getByText("Standards", { exact: true }) });
     await standards.locator("summary").click();
-    assert.ok((await standards.innerText()).includes(code), slug + " Maryland code");
+    const standardsText = await standards.innerText();
+    assert.ok(standardsText.includes(code), slug + " Maryland code");
+    assert.equal(standardsText.includes("Maryland inquiry skills"), Boolean(inquiry), slug + " alignment type");
     assert.ok((await standards.innerText()).includes(objective), slug + " objective");
     assert.equal(await standards.getByRole("link", { name: /Maryland Modern World History/ }).getAttribute("href"),
       `https://msde.maryland.gov/media/17929#page=${frameworkPage}`, slug + " framework page");
@@ -56,7 +59,7 @@ async function checkMarylandLessons(page) {
     assert.ok(closureText.includes(criteria), slug + " success criteria");
     assert.ok(await closure.getByLabel("My evidence-based reflection").isEditable(), slug + " response field");
   }
-  console.log("PASS Maryland objectives and exit tickets in all 27 mapped Grade 11 lessons");
+  console.log("PASS Maryland objectives and exit tickets in all 40 Grade 11 lessons");
 }
 
 const answer = (page, index, value) => page.locator(`input[name="q${index}"][value="${value}"]`);
