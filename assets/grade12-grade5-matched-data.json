@@ -741,28 +741,20 @@
       },
       "references": [
         {
+          "title": "Principles of Economics 3e, §3.1: Demand, Supply, and Equilibrium",
+          "creator": "Steven A. Greenlaw, David Shapiro, and Daniel MacDonald",
+          "date": "2022, third edition",
+          "type": "Secondary economics textbook",
+          "url": "https://openstax.org/books/principles-economics-3e/pages/3-1-demand-supply-and-equilibrium-in-markets-for-goods-and-services",
+          "summary": "Read the demand and supply schedules and the discussion of equilibrium. Market clearing describes a relationship between quantities at a price. Whether an outcome is equitable is a separate question."
+        },
+        {
           "title": "Federal Reserve education resources",
           "creator": "Federal Reserve education resources",
           "date": "Reference collection",
           "type": "Research gateway",
           "url": "https://www.federalreserveeducation.org/",
           "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
-        },
-        {
-          "title": "Federal Reserve Education",
-          "creator": "Federal",
-          "date": "Reference resource",
-          "type": "Research resource",
-          "url": "https://www.federalreserveeducation.org/",
-          "summary": "Institutional source or methodological gateway. Select and cite a specific record or dataset before making historical claims."
-        },
-        {
-          "title": "World Bank · GDP Per Capita, Constant 2015 US$",
-          "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.KD",
-          "creator": "World Bank",
-          "date": "Institutional reference; select a dated item",
-          "type": "Quantitative dataset",
-          "summary": "Define inflation-adjusted unit, country coverage and period; never equate GDP per capita with median household income."
         }
       ],
       "researchWorkshop": {
@@ -1584,20 +1576,12 @@
       },
       "references": [
         {
-          "title": "United States Census Bureau",
-          "creator": "United States Census Bureau",
-          "date": "Reference collection",
-          "type": "Research gateway",
-          "url": "https://www.census.gov/",
-          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
-        },
-        {
-          "title": "UN World Population Prospects",
-          "creator": "UN",
-          "date": "Reference resource",
-          "type": "Research resource",
-          "url": "https://population.un.org/wpp/",
-          "summary": "Institutional source or methodological gateway. Select and cite a specific record or dataset before making historical claims."
+          "title": "The Components of Demographic Change",
+          "creator": "U.S. Census Bureau",
+          "date": "Methodological teaching brief",
+          "type": "Demographic methodology",
+          "url": "https://www2.census.gov/programs-surveys/international-programs/events/stiph/components-of-demographic-change.pdf",
+          "summary": "Use the demographic balancing equation on page 1. Compare births, deaths, and net migration for the same place and period, and distinguish estimated counts from exact measurements."
         },
         {
           "title": "UN · World Population Prospects",

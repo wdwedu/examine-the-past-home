@@ -3310,28 +3310,44 @@
       },
       "references": [
         {
-          "title": "Imperial War Museums",
-          "creator": "Imperial War Museums",
-          "date": "Reference collection",
-          "type": "Research gateway",
-          "url": "https://www.iwm.org.uk/",
-          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
-        },
-        {
-          "title": "Library of Congress · Primary Sources",
-          "url": "https://www.loc.gov/programs/teachers/getting-started-with-primary-sources/",
-          "creator": "Library of Congress",
-          "date": "Institutional reference; select a dated item",
-          "type": "Primary-source collection",
-          "summary": "Choose dated wartime reports, posters or letters and identify intended audience and geographic limits."
-        },
-        {
           "title": "Treaty of Versailles, Part I: Covenant of League of Nations",
           "creator": "Allied and Associated Powers and Germany",
           "date": "June 28, 1919",
           "type": "Primary treaty text",
           "url": "https://avalon.law.yale.edu/imt/parti.asp",
           "summary": "Primary treaty covenant, not the complete treaty; compare military and reparation provisions separately."
+        },
+        {
+          "title": "Treaty of Versailles, Part III: Article 51",
+          "creator": "Allied and Associated Powers and Germany",
+          "date": "June 28, 1919",
+          "type": "Primary treaty text",
+          "url": "https://avalon.law.yale.edu/imt/partiii.asp",
+          "summary": "Read Article 51 on the restoration of Alsace-Lorraine to French sovereignty. This clause does not establish the views of inhabitants."
+        },
+        {
+          "title": "Treaty of Versailles, Part V: Article 160",
+          "creator": "Allied and Associated Powers and Germany",
+          "date": "June 28, 1919",
+          "type": "Primary treaty text",
+          "url": "https://avalon.law.yale.edu/imt/partv.asp",
+          "summary": "Read Article 160 on German army size and organization. Distinguish the treaty limit from later compliance."
+        },
+        {
+          "title": "Treaty of Versailles, Part VIII: Articles 231–232",
+          "creator": "Allied and Associated Powers and Germany",
+          "date": "June 28, 1919",
+          "type": "Primary treaty text",
+          "url": "https://avalon.law.yale.edu/imt/partviii.asp",
+          "summary": "Read Articles 231 and 232 together to distinguish responsibility for loss and damage from the scope of compensation obligations."
+        },
+        {
+          "title": "Imperial War Museums",
+          "creator": "Imperial War Museums",
+          "date": "Reference collection",
+          "type": "Research gateway",
+          "url": "https://www.iwm.org.uk/",
+          "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
         }
       ],
       "researchWorkshop": {

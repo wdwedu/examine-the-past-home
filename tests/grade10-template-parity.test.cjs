@@ -14,7 +14,11 @@ for(const id of invariants){assert.ok(base.includes(id),"Grade 5 baseline missin
 assert.ok(router.includes("grade10-grade5-matched-engine.js"),"Grade 10 must use approved shared lesson structure");
 assert.ok(!router.includes("grade10-civics-lesson.js"),"Grade 10 must not revert to simplified renderer");
 const stages=["plan","launch","discover","apply","assess","closure","options","evidence"];
-for(const stage of stages){assert.ok(engine.includes("civic-stage-"+stage),"Missing canonical Grade 5 stage "+stage);}
+for (const stage of stages) {
+ const reshapeCall = new RegExp(`reshape\\("[^"]+","${stage}","${stage}",`);
+ const staticPanel = `civic-stage-${stage}" id="${stage}"`;
+ assert.ok(reshapeCall.test(engine) || engine.includes(staticPanel), "Missing canonical Grade 5 stage " + stage);
+}
 for(const name of ["Goals for Learning","Introduction","Guided Practice","Independent / Group Practice","Assessment","Closure","Extensions","Sources"]){assert.ok(engine.includes(name),"Missing original Grade 5 lesson heading "+name);}
 for(const dropdown of ["Standards","Essential Questions","Objectives","Pacing Options"]){assert.ok(engine.includes("<summary>"+dropdown+"</summary>"),"Missing original Grade 5 goals dropdown "+dropdown);}
 assert.ok(engine.includes("Preview the Unit"),"Final assessment must be previewable before completion");
@@ -39,7 +43,7 @@ for(const [slug,l] of Object.entries(data.lessons)){
  if(l.isPresidentsGame)game++;
  const file="lessons/curriculum/grade-10-civics-government/"+slug+"/index.html";
  const html=read(file);
- assert.ok(html.includes("history-hub-lesson.js?v=20261120-grade10-final-v3"),slug+" must load approved lesson router");
+ assert.match(html, /<script[^>]+src="[^"]*\/assets\/history-hub-lesson\.js(?:\?[^"]*)?"/, slug+" must load approved lesson router");
 }
 assert.equal(game,4);
 const index=read("lessons/curriculum/grade-10-civics-government/index.html");

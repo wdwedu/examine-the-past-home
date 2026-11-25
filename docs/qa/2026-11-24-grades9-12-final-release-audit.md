@@ -12,6 +12,13 @@ The word "final" means this is the final consolidated audit after the Grade 12 e
 - The source ledger records four passage- or record-level findings. The scarcity lesson now links the relevant opportunity-cost textbook section. The Maryland crosswalk identifies four exact objectives and the evidence still needed for full alignment.
 - The four courses remain interactive drafts. Full source verification, official alignment review, accessibility, and summative validity remain open.
 
+### Source verification and browser follow-up · November 24, 2026
+
+- Reviewed nine additional claims. Eight are supported at the scope described in the [source ledger](2026-11-24-grades9-12-source-to-claim-ledger.md). The Soviet Union row is partial because the departure chronology is documented and the evidence needed to compare economic and political causes is incomplete.
+- Added item-level readings to four lessons. These cover the 1938 Fair Labor Standards Act, the Versailles treaty clauses, the market equilibrium model and the demographic balancing equation.
+- In public desktop Chromium, Grade 9 Unit 9.9 and Grade 10 Unit 10.7 rendered their forms and reported incomplete submissions with a pending total. The Grade 11 picker moved from 11.10 to 11.11 and updated the address. These checks used the current deployment.
+- Added a Playwright check for the review branch covering assessment scoring and reset across 36 units at desktop and mobile widths, plus saved responses, unit isolation and desktop clipboard for Grades 11–12. This check still requires a successful browser run. It does not cover iOS Safari, screen readers, or lesson reading accessibility.
+
 The scorecard and gates below record the original audit baseline.
 
 ## Executive scorecard
