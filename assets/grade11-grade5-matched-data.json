@@ -2999,7 +2999,7 @@
       "unitTitle": "World War I",
       "seq": 1,
       "total": 3,
-      "essential": "Trace Austria-Hungary's July ultimatum alongside Serbia's response and subsequent declarations. Identify where different decisions could plausibly have changed the sequence.?",
+      "essential": "How did a diplomatic crisis between Austria-Hungary and Serbia widen into a war involving several empires?",
       "paragraphs": [
         "The Sarajevo assassination in June 1914 triggered a diplomatic crisis, but military planning, empire, rival alliances and leaders' choices helped expand war. The July Crisis must be explained as a sequence rather than an automatic chain. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "The assassination of Archduke Franz Ferdinand in 1914 triggered a crisis within a landscape of alliances, military planning, nationalism and imperial rivalry. A trigger is not equivalent to a complete cause. Governments made contingent decisions during the July Crisis rather than simply obeying an automatic alliance chain. Build a sequence showing choices that escalated the conflict and alternatives leaders considered. Separate immediate triggers from structural causes and analyze how wartime technologies, mobilization and peace settlements affected different societies. An ultimatum is both a diplomatic document and an instrument of pressure. Its demands cannot be assumed to prove the allegations used to justify them. Comparing Austria-Hungary's position with Serbia's reply and other powers' communications reveals choices during the July Crisis that an alliance diagram alone cannot show.",
@@ -3092,6 +3092,14 @@
           "type": "Primary diplomatic ultimatum in English transcription",
           "url": "https://www.firstworldwar.com/source/austrianultimatum.htm",
           "summary": "Diplomatic demands document a government's accusations and aims, not independent proof of their allegations."
+        },
+        {
+          "title": "The World in 1914",
+          "creator": "U.S. Department of State, Office of the Historian",
+          "date": "1914 events; retrospective",
+          "type": "Historical overview",
+          "url": "https://history.state.gov/departmenthistory/short-history/worldin1914",
+          "summary": "Use the overview to locate the rival powers. Compare it with the dated July ultimatum."
         }
       ],
       "researchWorkshop": {
@@ -3107,6 +3115,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.3.1.a",
+        "page": 17,
+        "objective": "Explain why a regional crisis widened into war by weighing nationalism, militarism, imperial rivalry and alliance commitments.",
+        "evidence": "Build a four-event timeline from the July ultimatum to wider mobilization. In a paragraph, identify two decisions that widened the crisis and explain how longer-term tensions made each consequential. Address nationalism, militarism, imperial rivalry and alliances. Use one dated document and distinguish the immediate trigger from the underlying causes.",
+        "criteria": "All four long-term factors appear in the explanation. The timeline places decisions in order and the paragraph explains how at least two factors interacted."
       }
     },
     "trench-warfare-and-total-war": {
@@ -3115,7 +3130,7 @@
       "unitTitle": "World War I",
       "seq": 2,
       "total": 3,
-      "essential": "How can we compare a trench soldier's diary with official casualty data and propaganda. How does source purpose affect claims about morale, strategy and sacrifice?",
+      "essential": "How did wartime technologies change what soldiers and civilians experienced during World War I?",
       "paragraphs": [
         "On the Western Front, defensive positions, artillery and machine guns contributed to prolonged and costly fighting. States mobilized industry and civilian labor, while colonial troops served in multiple theaters. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "On the Western Front, entrenched armies confronted machine guns, artillery and difficult terrain, producing severe casualties. The conflict extended far beyond trenches: colonial troops, naval blockades, labor mobilization and civilians shaped the war. Define 'total war' carefully rather than assuming every society mobilized identically. Contrast a soldier's letter with a government production or rationing record. Separate immediate triggers from structural causes and analyze how wartime technologies, mobilization and peace settlements affected different societies. Trench systems varied across the war and by sector; the experience of one Western Front soldier cannot stand for troops in Africa, the Middle East or Eastern Europe. Civilian factory work, rationing, colonial recruitment and wartime messaging show why the conflict extended far beyond the front line.",
@@ -3216,6 +3231,14 @@
           "type": "Published contemporary personal narrative",
           "url": "https://www.loc.gov/item/19003293/",
           "summary": "Soldier perspective tied to author and publication date; cannot represent all troops or civilians."
+        },
+        {
+          "title": "First World War galleries: Large print guide",
+          "creator": "Imperial War Museums",
+          "date": "2023 gallery guide",
+          "type": "Museum captions",
+          "url": "https://www.iwm.org.uk/sites/default/files/files/2023-10/first_world_war_large_print_guide.pdf",
+          "summary": "Search the accessible-text guide for aircraft, aerial reconnaissance and air raids. Record the caption or object heading you used."
         }
       ],
       "researchWorkshop": {
@@ -3231,6 +3254,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.3.2.b",
+        "page": 17,
+        "objective": "Compare how wartime aviation changed the work of military personnel and the risks civilians faced.",
+        "evidence": "Use the Imperial War Museums captions to find one example of aerial observation or combat and one example of air raids on civilians. Make a two-row comparison and explain what the technology changed in each setting.",
+        "criteria": "Names a distinct change for military personnel and civilians and cites a specific caption for each."
       }
     },
     "the-treaty-of-versailles-and-its-consequences": {
@@ -3239,7 +3269,7 @@
       "unitTitle": "World War I",
       "seq": 3,
       "total": 3,
-      "essential": "How can we compare treaty clauses with a contemporary criticism and separate signatories' intentions from longer-term effects. Do not claim the treaty alone made a later world war inevitable.?",
+      "essential": "How effectively did the Treaty of Versailles and the League of Nations stabilize Europe after World War I?",
       "paragraphs": [
         "The 1919 Treaty of Versailles imposed terms on Germany and included the Covenant of the League of Nations. Negotiated peace involved territorial, military and financial provisions; the agreement's consequences depended on later politics and economics. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "The 1919 Treaty of Versailles imposed territorial, military and financial obligations on Germany and established a framework connected to the League of Nations. Other peace settlements also redrew boundaries, often without resolving competing national claims. Later instability cannot be attributed to one treaty alone. Compare two contemporary reactions and distinguish immediate provisions from retrospective arguments about causation. Separate immediate triggers from structural causes and analyze how wartime technologies, mobilization and peace settlements affected different societies. The League covenant formed one part of the Versailles agreement, whose other sections regulated territory, military capacity and financial obligations. Later political instability must be traced through choices and developments after 1919. Treating the treaty as an inevitable trigger of a second war erases those intervening histories.",
@@ -3348,6 +3378,14 @@
           "type": "Research gateway",
           "url": "https://www.iwm.org.uk/",
           "summary": "Institutional collection for locating and evaluating primary or secondary records; not proof of this lesson's specific claims."
+        },
+        {
+          "title": "Locarno: Treaty of Mutual Guarantee and diplomatic notes",
+          "creator": "Signatory governments; U.S. Department of State historical edition",
+          "date": "Oct. 16, 1925; later chronology in editorial notes",
+          "type": "Treaty and diplomatic chronology",
+          "url": "https://history.state.gov/historicaldocuments/frus1919Parisv13/ch33subch1",
+          "summary": "Read Articles 1–4 and the opening note on the League Council's response to the 1936 Rhineland breach."
         }
       ],
       "researchWorkshop": {
@@ -3363,6 +3401,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.3.3.a",
+        "page": 18,
+        "objective": "Judge how the Versailles borders, League of Nations and reparations affected the balance of power in Europe.",
+        "evidence": "Compare Articles 51 and 231–232 with Article 1 of the League Covenant. Use the Locarno record to test one later outcome. Explain one boundary change, one financial obligation and one limit on enforcing the settlement. Finish with an evidence-based judgment of its effectiveness.",
+        "criteria": "Distinguishes territory, financial obligations and collective security. The judgment compares the proposed settlement with observed implementation or limits."
       }
     },
     "global-depression-and-political-instability": {
@@ -3371,7 +3416,7 @@
       "unitTitle": "Interwar Years and World War II",
       "seq": 1,
       "total": 5,
-      "essential": "How can we compare unemployment or trade data for two countries with dated government responses. Explain what the figures can show and what causal claims still require evidence.?",
+      "essential": "How did financial distress and government policy deepen or spread the Great Depression?",
       "paragraphs": [
         "The Great Depression spread through banking, trade, currency regimes and employment systems across countries. Governments responded differently, and economic hardship did not produce the same politics everywhere. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "The economic crisis beginning in 1929 spread internationally through banking, trade, debt and policy decisions. Declining production and mass unemployment unfolded differently across countries, and political responses included democratic reforms as well as authoritarian appeals. Comparing raw unemployment estimates requires attention to coverage and definitions. Analyze the relationship between material hardship and political change without assuming inevitability. Use survivor testimony, historical documentation and careful chronology; avoid treating all wartime suffering as interchangeable or presenting propaganda as fact. Some governments defended monetary orthodoxies while others changed spending, trade or banking policy. Unemployment data, where comparable, reveal differences in intensity and recovery. The worldwide downturn did not automatically dictate authoritarian politics; institutions and political decisions shaped the response in each country.",
@@ -3464,6 +3509,14 @@
           "type": "Contemporary primary statistical report",
           "url": "https://fraser.stlouisfed.org/title/federal-reserve-bulletin-62/november-1931-20720/fulltext",
           "summary": "Period banking and suspension figures, not a complete international unemployment measure. Inspect year, units and limitations."
+        },
+        {
+          "title": "Banking Panics of 1931–33",
+          "creator": "Federal Reserve History",
+          "date": "2013",
+          "type": "Historical analysis",
+          "url": "https://www.federalreservehistory.org/essays/banking-panics-1931-33",
+          "summary": "Compare the British departure from gold with the U.S. policy response. Look for the sequence of pressure on reserves, changes in rates and bank distress."
         }
       ],
       "researchWorkshop": {
@@ -3479,6 +3532,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.3.4.a",
+        "page": 18,
+        "objective": "Explain how banking distress and government decisions about gold contributed to the spread or persistence of the Depression.",
+        "evidence": "Using the November 1931 Federal Reserve Bulletin and the Federal Reserve history, write one cause-and-effect chain linking a financial shock to a policy response and a further economic effect. Explain what part of the chain needs more evidence.",
+        "criteria": "Identifies a political or policy decision and an economic mechanism. Dates evidence and explains the link without treating the stock market crash as the whole explanation."
       }
     },
     "the-rise-of-fascism": {
@@ -3487,7 +3547,7 @@
       "unitTitle": "Interwar Years and World War II",
       "seq": 2,
       "total": 5,
-      "essential": "How can we compare party propaganda with documented laws and violence. The existence of an ideological claim is evidence of what propagandists asserted, not a reason to normalize or validate persecution.?",
+      "essential": "How did Nazi leaders use communication, coercion and political bargaining to gain power?",
       "paragraphs": [
         "Fascist movements rejected liberal democracy and promoted authoritarian power, ultranationalism and political violence. Italian Fascism and German Nazism shared features but differed, including Nazism's genocidal racial ideology. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "Italian Fascism and German Nazism both mobilized nationalism, violence and authoritarian rule, but their ideologies and historical pathways were not identical. Hitler's regime implemented racial persecution and genocide; Nazi antisemitism was central to its worldview. Economic crisis helped create openings but cannot by itself explain mass support or institutional collapse. Compare propaganda with records of law, repression and organized opposition. Use survivor testimony, historical documentation and careful chronology; avoid treating all wartime suffering as interchangeable or presenting propaganda as fact. Political movements gained power through party organizing, intimidation, propaganda and the weakening of democratic constraints. Nazi antisemitism became embedded in enforceable discriminatory laws. A close reading must distinguish propaganda that asserted racial hierarchy from the established historical evidence that those claims were false and used to justify persecution.",
@@ -3580,6 +3640,14 @@
           "type": "Perpetrator legislation with museum interpretation",
           "url": "https://encyclopedia.ushmm.org/content/en/article/the-nuremberg-race-laws",
           "summary": "Discriminatory laws and Nazi antisemitism must not be treated as credible racial science; use educator-selected original excerpts."
+        },
+        {
+          "title": "Adolf Hitler and the Nazi Rise to Power, 1918–1933",
+          "creator": "United States Holocaust Memorial Museum",
+          "date": "1918–1933 events; retrospective",
+          "type": "Historical overview",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/the-nazi-rise-to-power",
+          "summary": "Use the sections on Nazi campaigning and the political decisions leading to Hitler’s appointment. Separate the messages from evidence of political outcomes."
         }
       ],
       "researchWorkshop": {
@@ -3595,6 +3663,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.3.5.a",
+        "page": 19,
+        "objective": "Explain how the Nazis used communication and political pressure to gain power in Germany.",
+        "evidence": "Choose two documented developments before or around January 1933. Explain how one communication method and one form of political pressure or bargaining worked together. Cite the date of each. Distinguish taking office from consolidating power.",
+        "criteria": "Links a communication mechanism and a political mechanism to an event. Keeps the chronology of appointment and consolidation clear."
       }
     },
     "world-war-ii-as-a-global-conflict": {
@@ -3603,7 +3678,7 @@
       "unitTitle": "Interwar Years and World War II",
       "seq": 3,
       "total": 5,
-      "essential": "How can we compare military maps with a civilian or colonial soldier's dated record and evaluate how geography and source selection change the story of the war.?",
+      "essential": "How did Allied strategic decisions shape the course of World War II in Europe and the Pacific?",
       "paragraphs": [
         "The conflict in Europe, North Africa, East Asia and the Pacific followed intersecting but distinct campaigns. Allied contributions included Soviet, Chinese, colonial and resistance forces, whose experiences should not vanish into a U.S.-centered account. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "World War II involved campaigns in Europe, Africa, Asia and the Pacific, with causes and timelines that varied across regions. The war in China predated the 1939 invasion of Poland, and colonial soldiers and civilians played critical roles. A European-only map obscures the scale of conflict. Construct a synchronized timeline of three theaters and identify how supply chains and alliances connected them. Use survivor testimony, historical documentation and careful chronology; avoid treating all wartime suffering as interchangeable or presenting propaganda as fact. The occupation of territories in East Asia and the campaigns of the Soviet Union cannot be reduced to background for an Atlantic war. Different peoples experienced invasion, colonial conscription, resistance and famine. A global narrative should compare timelines across regions rather than assuming one military front defines the conflict.",
@@ -3688,6 +3763,22 @@
           "type": "Research collection with contemporary documents",
           "url": "https://www.archives.gov/research/military/ww2",
           "summary": "Select an individual dated original record and complement U.S. institutional perspectives with Chinese, Soviet, Japanese and other accounts."
+        },
+        {
+          "title": "Midway Overview",
+          "creator": "Naval History and Heritage Command",
+          "date": "June 1942 battle; retrospective",
+          "type": "Naval history",
+          "url": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-006/h-006-1.html",
+          "summary": "Use the discussion of intelligence, leadership and carrier deployment to identify one consequential choice."
+        },
+        {
+          "title": "General Eisenhower’s Order of the Day",
+          "creator": "Dwight D. Eisenhower",
+          "date": "June 1944",
+          "type": "Primary military order",
+          "url": "https://www.archives.gov/milestone-documents/general-eisenhowers-order-of-the-day",
+          "summary": "Use the order for stated aims and the National Archives context for the invasion and its effects."
         }
       ],
       "researchWorkshop": {
@@ -3703,6 +3794,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.3.6.a",
+        "page": 19,
+        "objective": "Evaluate how Allied strategy and leadership affected two turning points in different theaters.",
+        "evidence": "Compare Midway and Normandy. For each, identify a strategic decision, the immediate objective and one consequence. Judge which decision had the clearest effect on the time or place of later operations. Cite evidence from both theaters.",
+        "criteria": "Explains an effect for each decision using evidence from each theater and distinguishes what leaders intended from what occurred."
       }
     },
     "the-holocaust-and-genocide": {
@@ -3711,7 +3809,7 @@
       "unitTitle": "Interwar Years and World War II",
       "seq": 4,
       "total": 5,
-      "essential": "How can we compare the 1935 racial laws with later perpetrator records and verified Jewish testimony. Do not treat the evidence of genocide as a matter for a false 'both sides' debate or ask students to simulate victims' experiences.?",
+      "essential": "How did Nazi persecution escalate into genocide, and what were the consequences for survivors and Jewish communities?",
       "paragraphs": [
         "Nazi Germany and collaborators systematically murdered approximately six million Jews. The genocide developed through discriminatory laws, forced isolation, mass shootings, deportations and killing facilities; other Nazi victims require careful distinct treatment. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "Nazi Germany and its collaborators systematically persecuted and murdered six million Jews during the Holocaust, along with the mass persecution and killing of other targeted groups. Antisemitic ideology, state institutions, wartime occupation and individual choices shaped this process. Distinguish perpetrator documents, survivor testimony and postwar research; avoid graphic sensationalism and claims unsupported by evidence. Use survivor testimony, historical documentation and careful chronology; avoid treating all wartime suffering as interchangeable or presenting propaganda as fact. Nazi officials often used administrative euphemisms while organizing persecution and mass murder. The 1935 racial laws, the 1942 Wannsee proceedings and evidence from killing sites show different stages of policy. Testimony from Jewish victims and survivors restores human perspectives that perpetrator records sought to exclude.",
@@ -3820,6 +3918,14 @@
           "type": "Perpetrator record and contextual museum history",
           "url": "https://encyclopedia.ushmm.org/content/en/article/wannsee-protocol",
           "summary": "Records coordination of genocidal policy already underway; Nazi euphemisms require careful contextual reading and victim-authored evidence."
+        },
+        {
+          "title": "The Aftermath of the Holocaust",
+          "creator": "United States Holocaust Memorial Museum",
+          "date": "Postwar events; retrospective",
+          "type": "Historical overview",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/the-aftermath-of-the-holocaust",
+          "summary": "Use the sections on survivors, displaced persons and migration to document a consequence. Compare with the earlier records in this lesson."
         }
       ],
       "researchWorkshop": {
@@ -3835,6 +3941,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.3.6.e",
+        "page": 19,
+        "objective": "Explain how Nazi persecution escalated into genocide and identify one documented consequence for Jewish survivors or communities.",
+        "evidence": "Create a short timeline with a prewar legal restriction, a wartime step in the escalation to mass murder, and a consequence for survivors or Jewish communities. Support the timeline with two attributed records. Explain how the sources answer different questions.",
+        "criteria": "Links policy, escalation and a documented consequence. The response identifies the limits of perpetrator records and includes evidence about those affected."
       }
     },
     "the-end-of-world-war-ii": {
@@ -3843,7 +3956,7 @@
       "unitTitle": "Interwar Years and World War II",
       "seq": 5,
       "total": 5,
-      "essential": "How can we compare the chronology of decisions and surrender documents without reducing Japan's surrender to a single undisputed cause. Include Soviet and Japanese perspectives.?",
+      "essential": "How did the end of the war change international security and economic cooperation?",
       "paragraphs": [
         "Germany surrendered in May 1945; Japan's surrender followed in August, formally signed September 2. The war's end involved military campaigns, atomic bombings, Soviet entry against Japan and diplomatic choices, with enormous civilian costs. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "Germany surrendered in May 1945, while war in the Pacific continued until Japan's surrender later that year. The atomic bombings of Hiroshima and Nagasaki, Soviet entry into war against Japan and other factors form part of ongoing historical analysis. The war's conclusion brought occupation, displacement, mass destruction and emerging international institutions. Compare contemporary official announcements with civilian accounts. Use survivor testimony, historical documentation and careful chronology; avoid treating all wartime suffering as interchangeable or presenting propaganda as fact. Formal surrender instruments record political and military acceptance of defeat, not every private calculation made beforehand. Japanese leaders confronted bombing, blockade, Soviet intervention and institutional conflict. Historians distinguish the chronology of these pressures from claims that any one factor independently determined surrender.",
@@ -3936,6 +4049,22 @@
           "type": "Research collection with contemporary documents",
           "url": "https://www.archives.gov/research/military/ww2",
           "summary": "Select an individual dated original record and complement U.S. institutional perspectives with Chinese, Soviet, Japanese and other accounts."
+        },
+        {
+          "title": "United Nations Charter",
+          "creator": "United Nations Conference on International Organization",
+          "date": "June 26, 1945",
+          "type": "Primary treaty",
+          "url": "https://www.un.org/en/about-us/un-charter/",
+          "summary": "Follow the Charter text and use Article 1 to identify purposes."
+        },
+        {
+          "title": "Bretton Woods–GATT, 1941–1947",
+          "creator": "U.S. Department of State, Office of the Historian",
+          "date": "1941–1947 events; retrospective",
+          "type": "Diplomatic history",
+          "url": "https://history.state.gov/milestones/1937-1945/bretton-woods",
+          "summary": "Identify the distinct purposes of the IMF and the International Bank for Reconstruction and Development, later part of the World Bank Group."
         }
       ],
       "researchWorkshop": {
@@ -3951,6 +4080,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.3.7.a",
+        "page": 20,
+        "objective": "Distinguish the political and economic purposes of the UN, IMF and World Bank in the postwar international system.",
+        "evidence": "Build a three-row chart showing the founding purpose of each institution and one way it connected countries after the war. Use the UN Charter and the Bretton Woods account. Explain why collective security and financial cooperation addressed different problems.",
+        "criteria": "Accounts for all three institutions and distinguishes security, monetary cooperation and reconstruction or development."
       }
     },
     "the-cold-war-and-global-rivalries": {
@@ -3959,7 +4095,7 @@
       "unitTitle": "Cold War and Decolonization",
       "seq": 1,
       "total": 4,
-      "essential": "How can we compare U.S. and Soviet policy texts with a nonaligned leader's statement. Identify which concerns are security claims and which are political justifications.?",
+      "essential": "How did U.S. and Soviet officials explain the tensions that shaped the early Cold War?",
       "paragraphs": [
         "U.S.–Soviet rivalry shaped alliances, arms competition and conflicts worldwide. Nonaligned states sometimes resisted being reduced to two superpower camps and pursued their own economic or diplomatic agendas. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "The United States and Soviet Union developed competing security systems and ideologies after World War II. The Cold War included proxy conflicts, diplomacy, espionage, economic programs and nuclear deterrence. Newly independent countries did not always align neatly with either bloc. Use a crisis timeline alongside perspectives from states outside Europe and North America. Compare local demands for sovereignty with superpower agendas; account for region-specific histories instead of imposing one Cold War narrative. An account confined to Washington and Moscow can overlook the choices of governments seeking independence or autonomy. Security agreements, economic aid and proxy wars had different meanings in Asia, Africa, Latin America and Europe. The positions of nonaligned leaders complicate a purely bipolar explanation.",
@@ -4060,6 +4196,14 @@
           "type": "Primary presidential foreign-policy address",
           "url": "https://www.trumanlibrary.gov/library/public-papers/56/special-message-congress-greece-and-turkey-truman-doctrine",
           "summary": "Original U.S. policy justification, not evidence of Soviet intentions or the independent preferences of Greek and Turkish citizens."
+        },
+        {
+          "title": "Novikov Telegram",
+          "creator": "Nikolai Novikov; English translation hosted by the University of Oregon",
+          "date": "Sept. 27, 1946",
+          "type": "Primary diplomatic telegram",
+          "url": "https://pages.uoregon.edu/kimball/novikov.46se-tgm.htm",
+          "summary": "Use the sections on overseas bases and U.S. economic policy. Note that the telegram reports the Soviet ambassador’s assessment."
         }
       ],
       "researchWorkshop": {
@@ -4075,6 +4219,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.3.8.a",
+        "page": 20,
+        "objective": "Compare U.S. and Soviet explanations of early Cold War tensions and trace the role of security, economic interests and ideology.",
+        "evidence": "Compare the Novikov telegram and Truman’s address to Congress. For each document, cite one detail, identify the author's audience and interest, and explain which factor it supports. Write a judgment weighing at least two factors within the wider political, economic and ideological context.",
+        "criteria": "Uses both perspectives and distinguishes a documented policy from an official’s interpretation of an opponent’s motives."
       }
     },
     "independence-movements-in-africa": {
@@ -4083,7 +4234,7 @@
       "unitTitle": "Cold War and Decolonization",
       "seq": 2,
       "total": 4,
-      "essential": "Read an African independence speech against a former colonial government's statement and compare their interpretations of sovereignty and economic dependence.?",
+      "essential": "How did independence movements in Ghana and Kenya pursue self-government under British rule?",
       "paragraphs": [
         "African independence movements varied in colonial context, political organization and the experience of transition. Ghana's independence in 1957, Algeria's war and other struggles followed distinct trajectories shaped by African leadership and international pressures. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "African independence movements differed in organization, imperial opponent, timing and use of negotiation or armed struggle. Ghana's independence in 1957 and Algeria's independence in 1962 followed different pathways. Postindependence governments inherited borders and economic structures that shaped possibilities for reform. Compare a nationalist speech, colonial administrative document and later development record. Compare local demands for sovereignty with superpower agendas; account for region-specific histories instead of imposing one Cold War narrative. Nkrumah's August 1957 speech reveals the priorities his government publicly presented after Ghana's independence. It is not a statement on behalf of Algeria, Kenya or the Congo. Their movements faced different colonial regimes and debated how political sovereignty could be accompanied by economic independence.",
@@ -4176,6 +4327,22 @@
           "type": "Primary Ghanaian parliamentary speech",
           "url": "https://www.loc.gov/item/2008700222/",
           "summary": "African leader's own policy account from the year of Ghanaian independence; not a proxy for all African independence movements."
+        },
+        {
+          "title": "U.S. recognition of Kenya",
+          "creator": "U.S. Department of State, Office of the Historian",
+          "date": "1963 events; retrospective",
+          "type": "Diplomatic chronology",
+          "url": "https://history.state.gov/countries/kenya",
+          "summary": "Use the independence date and Kenyatta’s position. Pair this outside government's perspective with the lesson’s Ghana speech."
+        },
+        {
+          "title": "Kenya (Independence): House of Commons debate",
+          "creator": "United Kingdom House of Commons; Hansard",
+          "date": "July 2, 1963",
+          "type": "Primary parliamentary proceedings",
+          "url": "https://api.parliament.uk/historic-hansard/commons/1963/jul/02/kenya-independence",
+          "summary": "Read the colonial secretary’s statement and the questions on negotiations and the independence timetable. Identify whose perspective this British record represents."
         }
       ],
       "researchWorkshop": {
@@ -4191,6 +4358,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.3.9.a",
+        "page": 20,
+        "objective": "Compare political organization and negotiations in Ghana and Kenya during the move from British rule to independence.",
+        "evidence": "Use Nkrumah’s 1957 Ghana Parliament speech and the account of Kenya's transition to identify one role each played by Nkrumah and Kenyatta. Explain one similarity or difference in their routes to power and what an official record leaves out about local organizers.",
+        "criteria": "Names an action or role for both leaders and explains a similarity or difference in the political path to independence."
       }
     },
     "decolonization-in-asia": {
@@ -4199,7 +4373,7 @@
       "unitTitle": "Cold War and Decolonization",
       "seq": 3,
       "total": 4,
-      "essential": "How can we compare a local independence declaration with a colonial official's account. Distinguish a nationalist aspiration from the actual administrative and social outcomes of transfer of power.?",
+      "essential": "How did leaders in India and Vietnam pursue independence, and what followed their demands for self-rule?",
       "paragraphs": [
         "The end of empire in Asia followed different paths in India, Indonesia, Vietnam and other societies. Partition, armed struggle, negotiations and continued Cold War intervention shaped the human costs of independence. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "The end of colonial rule in Asia included India's partition and independence in 1947, Indonesian struggles against Dutch rule and the reshaping of French Indochina. Communities faced complex choices over national identity, religion, borders and political systems. Independence celebrations do not erase displacement or conflict. Compare maps and personal testimony with official political declarations. Compare local demands for sovereignty with superpower agendas; account for region-specific histories instead of imposing one Cold War narrative. The transfer of power in India in 1947 took place alongside partition and mass displacement, while Indonesian and Vietnamese struggles followed different wartime and diplomatic paths. The term 'decolonization' must therefore be linked to the country, chronology and political actors being discussed.",
@@ -4300,6 +4474,38 @@
           "type": "Primary Indonesian proclamation quoted in museum context",
           "url": "https://www.rijksmuseum.nl/en/stories/exhibitions/revolusi/story/story-sukarno",
           "summary": "An Indonesian-authored independence claim as reproduced by a museum; text, translation and contemporary documentary form require separate verification."
+        },
+        {
+          "title": "Gandhi’s letter to Lord Irwin",
+          "creator": "Mohandas Gandhi; Mani Bhavan Gandhi Sangrahalaya transcription",
+          "date": "May 4, 1930",
+          "type": "Primary letter",
+          "url": "https://www.gandhi-manibhavan.org/educational-resources/letter-to-lord-irwin.html",
+          "summary": "Identify the proposed action at Dharasana and how the writer explains it to the viceroy."
+        },
+        {
+          "title": "Vietnamese Declaration of Independence",
+          "creator": "Ho Chi Minh; English translation from Selected Works",
+          "date": "Sept. 2, 1945",
+          "type": "Primary declaration",
+          "url": "https://www.marxists.org/reference/archive/ho-chi-minh/works/1945/declaration-independence.htm",
+          "summary": "Identify the declaration’s audience and arguments. The declaration establishes a public claim, not the full chronology of the transfer of power."
+        },
+        {
+          "title": "Partition of British India",
+          "creator": "The National Archives of the United Kingdom",
+          "date": "1947 records",
+          "type": "Archival teaching collection",
+          "url": "https://www.nationalarchives.gov.uk/education/teaching-resources/partition-of-british-india/",
+          "summary": "Use the dated context to separate anti-colonial protest from independence and partition in 1947."
+        },
+        {
+          "title": "Geneva Conference: final declaration",
+          "creator": "Delegates at the Geneva Conference; U.S. Department of State historical edition",
+          "date": "July 21, 1954",
+          "type": "Primary diplomatic record",
+          "url": "https://history.state.gov/historicaldocuments/frus1952-54v16/d1025",
+          "summary": "Compare the later ceasefire and withdrawal provisions with the 1945 declaration."
         }
       ],
       "researchWorkshop": {
@@ -4315,6 +4521,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.3.9.a",
+        "page": 20,
+        "objective": "Compare strategies associated with Gandhi in India and Ho Chi Minh in Vietnam and distinguish declarations from transfers of power.",
+        "evidence": "Compare Gandhi’s letter about the salt works and Ho Chi Minh’s independence declaration. Name the tactic or claim in each document and place it on a timeline with a later turning point. Explain one difference between the two routes out of colonial rule.",
+        "criteria": "Identifies a tactic or claim for each leader and explains a difference without treating India’s 1947 transfer and Vietnam’s 1945 declaration as identical events."
       }
     },
     "the-collapse-of-the-soviet-union": {
@@ -4323,7 +4536,7 @@
       "unitTitle": "Cold War and Decolonization",
       "seq": 4,
       "total": 4,
-      "essential": "Separate the opening of the Berlin Wall in 1989 from the dissolution of the USSR in 1991. Evaluate an explanation centered on one leader against the chronology of republican declarations and public movements.?",
+      "essential": "How did Soviet reforms, Eastern European upheaval and Western pressure contribute to the decline of the Soviet Union?",
       "paragraphs": [
         "Soviet economic pressures, reforms under Gorbachev, nationalist demands and institutional political conflict shaped the USSR's dissolution in 1991. Movements in the republics acted for their own political futures. The central historical problem is not simply what happened, but how the surviving evidence privileges some actors and obscures others.",
         "Economic stagnation, political reforms, national movements and contested state authority contributed to the Soviet Union's dissolution in 1991. Mikhail Gorbachev's reforms helped open political space but did not mechanically cause every republic's path. Distinguish the collapse of a state from broader transitions in post-Soviet societies. Compare reform speeches with constitutional and referendum records. Compare local demands for sovereignty with superpower agendas; account for region-specific histories instead of imposing one Cold War narrative. Reforms in the Soviet center interacted with political mobilization in the republics. The opening of the Berlin Wall concerned East German and wider European developments, whereas the USSR's dissolution required a separate institutional and national chronology. One American diplomatic overview cannot fully explain the internal decisions.",
@@ -4424,6 +4637,22 @@
           "type": "Primary declassified diplomatic conversation",
           "url": "https://nsarchive.gwu.edu/media/22496/ocr",
           "summary": "Contemporaneous transcript documents Gorbachev's stated intentions about resignation and state disintegration; not the views of all Soviet republics."
+        },
+        {
+          "title": "Gorbachev speaks to the UN",
+          "creator": "Mikhail Gorbachev; University of Illinois-hosted translated excerpts",
+          "date": "Dec. 7, 1988",
+          "type": "Primary speech excerpts",
+          "url": "https://seventeenmoments.web.illinois.edu/1991-2/warsaw-pact-dissolves/warsaw-pact-dissolves-texts/gorbachev-speaks-to-the-un/",
+          "summary": "Read the announced policy changes and distinguish public commitments from their outcomes."
+        },
+        {
+          "title": "North Atlantic Council final communiqué",
+          "creator": "North Atlantic Council",
+          "date": "Dec. 9, 1988",
+          "type": "Primary policy statement",
+          "url": "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/1988/12/09/final-communique",
+          "summary": "Read the paragraphs on East–West relations and arms control. Use the document for Western priorities and policy, while looking elsewhere for evidence of its effects."
         }
       ],
       "researchWorkshop": {
@@ -4439,6 +4668,13 @@
           "Corroboration, contrasting perspectives and reasoned causation",
           "Developed argument, counterinterpretation and explicit limits"
         ]
+      },
+      "marylandAlignment": {
+        "code": "MWH.3.11.a",
+        "page": 21,
+        "objective": "Weigh Soviet reform, Eastern European upheaval and Western pressures in explaining the Soviet Union’s decline.",
+        "evidence": "Make a timeline distinguishing the fall of the Berlin Wall and the dissolution of the USSR. Compare Gorbachev's UN address, the NATO statement and the lesson chronology. Explain how reform, upheaval or economic decline in Eastern Europe, and Western political or economic pressure interacted. Flag a cause that needs stronger evidence.",
+        "criteria": "Separates the two events and weighs three factors. Distinguishes a leader’s public statement and a Western policy position from independent evidence of impact."
       }
     },
     "globalization-and-interdependence": {
@@ -4920,6 +5156,30 @@
           "Developed argument, counterinterpretation and explicit limits"
         ]
       }
+    }
+  },
+  "marylandUnitArguments": {
+    "11.8": {
+      "prompt": "Judge how effectively the postwar settlement stabilized Europe. Connect one cause of wartime escalation to a feature of the settlement. Consider a border change, reparations and the League’s ability to respond to a breach. Cite at least two dated records, address a plausible competing interpretation and explain one limit of your evidence.",
+      "review": "Look for a clear judgment about effectiveness, attention to European geography and power, and evidence that distinguishes treaty terms from later enforcement.",
+      "lessons": [
+        "causes-of-the-first-world-war",
+        "the-treaty-of-versailles-and-its-consequences"
+      ]
+    },
+    "11.9": {
+      "prompt": "Use Midway and Normandy to argue how different strategic decisions shaped the war’s course in the Pacific and Europe. For each case, distinguish the aim, decision and outcome. Cite evidence from both theaters, consider another plausible explanation and name a limitation of your sources.",
+      "review": "Look for accurate chronology, a reasoned judgment about each decision’s effect, and a comparison based on outcomes as well as commanders’ stated aims.",
+      "lessons": [
+        "world-war-ii-as-a-global-conflict"
+      ]
+    },
+    "11.10": {
+      "prompt": "Which combination of Soviet reforms, events in Eastern Europe and Western pressures best explains the Soviet Union’s decline? Distinguish the opening of the Berlin Wall in 1989 from the end of the USSR in 1991. Cite dated evidence, weigh another explanation and identify a source that would let you test the weakest part of your argument.",
+      "review": "Look for separation of the 1989 and 1991 events, attention to internal and external causes, and an explanation of what the Soviet and Western records establish and what still requires economic or local evidence.",
+      "lessons": [
+        "the-collapse-of-the-soviet-union"
+      ]
     }
   }
 }

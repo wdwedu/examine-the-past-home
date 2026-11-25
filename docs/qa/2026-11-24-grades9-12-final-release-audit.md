@@ -19,6 +19,12 @@ The word "final" means this is the final consolidated audit after the Grade 12 e
 - In public desktop Chromium, Grade 9 Unit 9.9 and Grade 10 Unit 10.7 rendered their forms and reported incomplete submissions with a pending total. The Grade 11 picker moved from 11.10 to 11.11 and updated the address. These checks used the current deployment.
 - Added a Playwright check for the review branch covering assessment scoring and reset across 36 units at desktop and mobile widths, plus saved responses, unit isolation and desktop clipboard for Grades 11–12. All 36 unit assessments passed at both viewport settings in [GitHub Actions run 45517830828](https://github.com/wdwedu/examine-the-past-home/actions/runs/45517830828) on the review build. It does not cover iOS Safari, screen readers, or lesson reading accessibility.
 
+### Maryland alignment follow-up · November 24, 2026
+
+Grade 11 Units 11.8–11.10 (World War I through the Cold War) now connect 12 lessons to 11 specific objectives in the Maryland Modern World History Framework. The Standards and Objectives panels name what students are expected to learn. Closure asks them to demonstrate it. The three unit assessments add a written argument and guidance for teachers on what to look for. The [standards crosswalk](2026-11-24-grades9-12-maryland-standards-crosswalk-queue.md) identifies the cases assessed and the ones still needed.
+
+This update does not close the Maryland release gate. The 28 other Grade 11 lessons and the remaining Grades 9, 10 and 12 objectives still need lesson-level review. That includes district or local elective expectations where appropriate.
+
 The scorecard and gates below record the original audit baseline.
 
 ## Executive scorecard

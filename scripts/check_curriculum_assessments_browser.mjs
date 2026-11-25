@@ -28,6 +28,35 @@ async function open(page, grade, unit) {
   assert.ok(response?.ok(), `Assessment request failed: ${unit}`);
 }
 
+const worldHistoryResponse = await fetch(new URL("assets/grade11-grade5-matched-data.json", root));
+assert.ok(worldHistoryResponse.ok, "Could not load Grade 11 lesson alignment");
+const worldHistory = await worldHistoryResponse.json();
+
+async function checkMarylandLessons(page) {
+  const lessons = Object.entries(worldHistory.lessons).filter(([, lesson]) => lesson.marylandAlignment);
+  assert.equal(lessons.length, 12);
+  for (const [slug, lesson] of lessons) {
+    const url = new URL(`lessons/curriculum/${courses[11]}/${slug}/`, root);
+    assert.ok((await page.goto(url.href, { waitUntil: "domcontentloaded" }))?.ok(), slug);
+    const { code, page: frameworkPage, objective, evidence, criteria } = lesson.marylandAlignment;
+    const standards = page.locator("#plan details").filter({ has: page.getByText("Standards", { exact: true }) });
+    await standards.locator("summary").click();
+    assert.ok((await standards.innerText()).includes(code), slug + " Maryland code");
+    assert.ok((await standards.innerText()).includes(objective), slug + " objective");
+    assert.equal(await standards.getByRole("link", { name: /Maryland Modern World History/ }).getAttribute("href"),
+      `https://msde.maryland.gov/media/17929#page=${frameworkPage}`, slug + " framework page");
+    const objectives = page.locator("#plan details").filter({ has: page.getByText("Objectives", { exact: true }) });
+    await objectives.locator("summary").click();
+    assert.ok((await objectives.innerText()).includes(objective), slug + " lesson objective");
+    const closure = page.locator("#closure");
+    const closureText = await closure.innerText();
+    assert.ok(closureText.includes(evidence), slug + " exit ticket");
+    assert.ok(closureText.includes(criteria), slug + " success criteria");
+    assert.ok(await closure.getByLabel("My evidence-based reflection").isEditable(), slug + " response field");
+  }
+  console.log("PASS Maryland objectives and exit tickets in all 12 Grade 11 lessons");
+}
+
 const answer = (page, index, value) => page.locator(`input[name="q${index}"][value="${value}"]`);
 
 async function checkMixedFormat(page, data) {
@@ -70,6 +99,19 @@ async function checkUpper(page, grade, unit, items, expectedUnits, mobile) {
   assert.equal(await picker.inputValue(), unit);
   assert.deepEqual(await picker.locator("option").evaluateAll(options => options.map(option => option.value)), expectedUnits);
   assert.equal(await page.locator("#ua-form fieldset").count(), items.length);
+
+  const alignment = grade === 11 ? worldHistory.marylandUnitArguments[unit] : undefined;
+  if (alignment) {
+    assert.equal(await page.locator("#ua-writing-prompt").innerText(), alignment.prompt);
+    assert.equal(await page.getByLabel("Final written response").getAttribute("aria-describedby"), "ua-writing-prompt");
+    for (const slug of alignment.lessons) {
+      const source = page.getByRole("link", { name: worldHistory.lessons[slug].title, exact: true });
+      assert.equal(await source.getAttribute("href"), `../${slug}/#evidence`);
+    }
+    const rubric = page.locator("details").filter({ has: page.getByText("Teacher review rubric · 12 points", { exact: true }) });
+    await rubric.locator("summary").click();
+    assert.ok((await rubric.innerText()).includes(alignment.review));
+  }
 
   const correct = answer(page, 0, items[0].answer);
   await correct.press("Space");
@@ -138,6 +180,10 @@ try {
             }
             assert.deepEqual(errors, [], `Grade ${grade} unit ${unit} browser errors`);
             console.log(`PASS Grade ${grade} · Unit ${unit} · ${mobile ? "mobile viewport" : "desktop"}`);
+          }
+          if (grade === 11) {
+            await checkMarylandLessons(page);
+            assert.deepEqual(errors, [], "Grade 11 lesson browser errors");
           }
         } finally {
           await page.close();
