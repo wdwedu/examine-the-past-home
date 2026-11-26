@@ -2012,14 +2012,14 @@
       "paragraphs": [
         "Radio, film, automobiles and popular advertising reached growing audiences during the 1920s. This did not mean every household had a car, every community saw the same films, or every family could afford the goods being promoted. A period advertisement tells us what a company wanted consumers to imagine, not how an entire nation lived.",
         "Cultural disagreements also became highly visible. John T. Scopes's 1925 trial in Tennessee centered on a state law restricting teaching human evolution in public schools. The trial attracted national attention, but it did not divide Americans neatly into two uniform groups. Religious commitments, scientific education and ideas about public authority were debated in different ways.",
-        "The 1920s brought radios, movies, cars, and new advertising into many American lives, but those changes reached communities unevenly. In Tennessee, the 1925 Scopes trial put debates about science, religion, and public education in national headlines. One image from the trial shows public controversy; a 1927 automobile advertisement shows commercial aspiration. Neither represents the views or living standards of every American."
+        "Tennessee’s Butler Act shows what lawmakers allowed in state-funded classrooms. The Scopes trial shows how that policy was challenged. Read the act and the trial overview to compare the legal question with the broader dispute about who should decide what students learn."
       ],
       "activity": "A Changing American Culture · Historical evidence workshop",
-      "task": "Compare the Scopes trial photograph and car advertisement. Name each creator or publisher, purpose, and audience. How did contemporaries encounter competing ideas of a modern society? Identify evidence needed to hear from rural households or families excluded from advertised prosperity.",
+      "task": "Use the Women’s Bureau report and the suffrage overview to explain one gain and one limit for women in the 1920s. Then use the Butler Act and the trial overview to explain what supporters wanted schools to teach and why opponents challenged the law.",
       "investigation": [
         "Examine Clarence Darrow at the Scopes trial (July 1925). Identify the creator and what the record can directly establish.",
         "Compare it with Renault automobile advertisement. Identify provenance and whether it is a contemporary item or later interpretation.",
-        "Compare the Scopes trial photograph and car advertisement. Name each creator or publisher, purpose, and audience. How did contemporaries encounter competing ideas of a modern society? Identify evidence needed to hear from rural households or families excluded from advertised prosperity."
+        "Use the Women’s Bureau report and the suffrage overview to explain one gain and one limit for women in the 1920s. Then use the Butler Act and the trial overview to explain what supporters wanted schools to teach and why opponents challenged the law."
       ],
       "options": [
         "Scopes Trial",
@@ -2078,12 +2078,12 @@
       "investigationKind": "data",
       "references": [
         {
-          "title": "Clarence Darrow at the Scopes trial",
-          "creator": "Library of Congress (photographer not identified)",
-          "date": "July 1925",
-          "url": "https://www.loc.gov/item/97512300/",
-          "summary": "A dated photograph of the 1925 controversy; it does not establish nationwide opinion.",
-          "type": "Primary photograph"
+          "title": "Butler Act, Tennessee Public Acts, chapter 27",
+          "creator": "Tennessee General Assembly",
+          "date": "March 21, 1925",
+          "type": "Primary law",
+          "url": "https://teva.contentdm.oclc.org/digital/collection/scopes/id/168",
+          "summary": "The first section states the restriction on teaching human evolution in institutions supported by state school funds."
         },
         {
           "title": "Renault automobile advertisement",
@@ -2093,7 +2093,38 @@
           "summary": "A commercial appeal, not a survey of household buying power.",
           "type": "Primary advertisement"
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.2.2.b and USH.2.2.g",
+        "kind": "content",
+        "page": 12,
+        "objective": "Evaluate gains and limits in women’s public and working lives and explain how the Scopes trial exposed a dispute over public education.",
+        "prompt": "Use the Women’s Bureau report and the suffrage overview to explain one gain and one limit for women in the 1920s. Then use the Butler Act and the trial overview to explain what supporters wanted schools to teach and why opponents challenged the law.",
+        "criteria": "Name a documented gain and a continuing barrier. Explain the competing views about what public schools should teach and identify the Tennessee law that brought the dispute to court.",
+        "readingTitle": "Work, voting, and who decides what schools teach",
+        "reading": [
+          "The Nineteenth Amendment barred denial of the vote on account of sex. Women organized as voters, and the federal government created a Women’s Bureau in 1920 to investigate working conditions. Expanding office and sales work opened opportunities for some women. The bureau’s 1929 study shows that Black women also worked in industries such as tobacco manufacturing while many continued to work in domestic and personal service. These opportunities varied with race, location, and the kinds of work employers made available.",
+          "In Tennessee, the 1925 Butler Act restricted teaching human evolution in schools supported by state funds. Fundamentalist supporters such as William Jennings Bryan wanted public education to uphold a biblical account of human origins. Scopes’s defenders challenged the state’s restriction on teaching a scientific theory. The dispute drew national attention, but the two sides in the courtroom did not speak for all religious Americans or all teachers."
+        ],
+        "sources": [
+          {
+            "title": "National Park Service, Beyond 1920: The Legacies of Woman Suffrage",
+            "url": "https://www.nps.gov/articles/beyond-1920-the-legacies-of-woman-suffrage.htm"
+          },
+          {
+            "title": "U.S. Women’s Bureau Bulletin No. 70, Black women in industry (1929)",
+            "url": "https://fraser.stlouisfed.org/title/negro-women-industry-15-states-5379/fulltext"
+          },
+          {
+            "title": "Tennessee State Library and Archives, Butler Act, section 1",
+            "url": "https://teva.contentdm.oclc.org/digital/collection/scopes/id/168"
+          },
+          {
+            "title": "University of Minnesota Law Library, Scopes trial and appeal",
+            "url": "https://lawlibrarycollections.umn.edu/scopes-exhibit-item-trial-appeal"
+          }
+        ]
+      }
     },
     "the-harlem-renaissance": {
       "title": "The Harlem Renaissance",
@@ -2108,11 +2139,11 @@
         "Harlem was a major center of Black cultural expression, but the Renaissance was not confined to a neighborhood or a single political viewpoint. Langston Hughes, Zora Neale Hurston, and others wrote and created amid economic barriers and debates about race, art, and independence. Hughes's 1925 letter to Walter White reveals the practical challenge of paying for college; it cannot speak for every artist's circumstances."
       ],
       "activity": "The Harlem Renaissance · Historical evidence workshop",
-      "task": "Read Hughes's October 1925 letter and choose one other named period object in the Library of Congress exhibit. Distinguish the writer's own words from the exhibit curator's commentary. How did Black organizations, economic circumstances, and artistic ambitions interact? State whose voice is still missing.",
+      "task": "Make three evidence notes. Connect the Great Migration, Harlem Renaissance, and Garvey’s UNIA to Black community power. Compare one Asian naturalization case with the Indian Citizenship Act or LULAC’s organizing. Then choose two examples of exclusion or intimidation from the reading and explain how their effects differed.",
       "investigation": [
         "Examine Letter from Langston Hughes to Walter White (October 29, 1925). Identify the creator and what the record can directly establish.",
         "Compare it with NAACP New Negro Movement exhibition: original objects. Identify provenance and whether it is a contemporary item or later interpretation.",
-        "Read Hughes's October 1925 letter and choose one other named period object in the Library of Congress exhibit. Distinguish the writer's own words from the exhibit curator's commentary. How did Black organizations, economic circumstances, and artistic ambitions interact? State whose voice is still missing."
+        "Make three evidence notes. Connect the Great Migration, Harlem Renaissance, and Garvey’s UNIA to Black community power. Compare one Asian naturalization case with the Indian Citizenship Act or LULAC’s organizing. Then choose two examples of exclusion or intimidation from the reading and explain how their effects differed."
       ],
       "options": [
         "John Adams",
@@ -2174,7 +2205,7 @@
           "title": "Letter from Langston Hughes to Walter White",
           "creator": "Langston Hughes",
           "date": "October 29, 1925",
-          "url": "https://www.loc.gov/exhibits/naacp/the-new-negro-movement.html",
+          "url": "https://www.loc.gov/exhibits/naacp/the-new-negro-movement.html#obj19",
           "summary": "Original letter exhibited by the Library of Congress showing a request for help with educational expenses.",
           "type": "Primary letter (in institutional exhibition)"
         },
@@ -2186,7 +2217,85 @@
           "summary": "Curated entry point to multiple letters and primary publications. Select and identify a second actual document rather than citing the entire modern exhibition as one primary source.",
           "type": "Primary-source exhibition collection"
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.2.2.c and USH.2.2.d and USH.2.2.e",
+        "kind": "content",
+        "page": 12,
+        "objective": "Explain how Black cultural and political organizing advanced freedom, compare responses to citizenship discrimination, and examine how violence, laws, and eugenics restricted opportunity.",
+        "prompt": "Make three evidence notes. Connect the Great Migration, Harlem Renaissance, and Garvey’s UNIA to Black community power. Compare one Asian naturalization case with the Indian Citizenship Act or LULAC’s organizing. Then choose two examples of exclusion or intimidation from the reading and explain how their effects differed.",
+        "criteria": "Show how migration, art, and organizing worked in different ways. Distinguish citizenship eligibility from admission to the country. Support two consequences of discrimination with named sources and avoid generalizing one community’s experience to others.",
+        "readingTitle": "Building community power while confronting exclusion",
+        "reading": [
+          "The Great Migration brought Black southerners to northern cities seeking work, safety, and greater freedom. Larger Black urban communities supported audiences, businesses, newspapers, and institutions. The writers and artists associated with the Harlem Renaissance made Black lives and perspectives more visible. Langston Hughes’s letter to NAACP official Walter White shows that individual artists still relied on networks for financial support.",
+          "Marcus Garvey’s Universal Negro Improvement Association, or UNIA, organized across national borders, promoted Black-owned businesses, and encouraged racial pride. Garvey’s strategy of building independent institutions differed from the NAACP’s approach of challenging discrimination through courts and public advocacy. Look for the different kinds of power that a literary movement, a membership organization, and a legal campaign could build.",
+          "People also challenged exclusion through the courts and civic organizing. Takao Ozawa and Bhagat Singh Thind challenged racial rules for becoming U.S. citizens. The Supreme Court denied both claims, classifying Ozawa as outside what it called the “Caucasian” race and then rejecting Thind’s claim that this classification alone entitled him to citizenship. In 1924, Congress extended citizenship to U.S.-born Native people who did not already have it and preserved rights to tribal or other property. That law did not itself erase voting barriers. In 1929, Mexican American leaders founded LULAC in Corpus Christi to organize for civil rights.",
+          "Discrimination worked through more than one institution. The 1924 Immigration Act restricted new immigration through national-origin quotas and excluded many people ineligible for citizenship. California’s 1920 Alien Land Law restricted leasing by people barred from citizenship, impairing Japanese immigrant farming. Eugenics, a discredited movement that falsely ranked people by supposedly inherited traits, supplied arguments for exclusion and forced sterilization. Those policies harmed people with disabilities and people classified as unfit by officials.",
+          "Violence and intimidation also threatened Black institutions. In 1921 a white mob attacked Greenwood, a thriving Black district in Tulsa. The Red Cross documented extensive destruction and relief needs. In 1925 the Ku Klux Klan’s march through Washington, D.C., displayed the public reach of an organization that promoted white Protestant supremacy and targeted Black Americans, immigrants, Catholics, and Jews. The march and the Tulsa attack were separate events. They provide evidence of different forms of intimidation."
+        ],
+        "sources": [
+          {
+            "title": "National Archives, the First Great Migration",
+            "url": "https://www.archives.gov/research/african-americans/wwi/great-migration"
+          },
+          {
+            "title": "Library of Congress, Langston Hughes to Walter White (1925)",
+            "url": "https://www.loc.gov/exhibits/naacp/the-new-negro-movement.html#obj19"
+          },
+          {
+            "title": "Library of Congress, Marcus Garvey and the UNIA",
+            "url": "https://www.loc.gov/exhibits/naacp/the-new-negro-movement.html#obj10"
+          },
+          {
+            "title": "Texas State Historical Association, LULAC’s founding",
+            "url": "https://www.tshaonline.org/handbook/entries/league-of-united-latin-american-citizens"
+          },
+          {
+            "title": "Supreme Court, Ozawa v. United States (1922)",
+            "url": "https://www.law.cornell.edu/supremecourt/text/260/178"
+          },
+          {
+            "title": "Supreme Court, United States v. Thind (1923)",
+            "url": "https://www.govinfo.gov/app/details/USREPORTS-261/USREPORTS-261-204"
+          },
+          {
+            "title": "National Archives, Indian Citizenship Act (1924)",
+            "url": "https://www.archives.gov/files/historical-docs/doc-content/images/indian-citizenship-act-1924.pdf"
+          },
+          {
+            "title": "Immigration Act of 1924, 43 Stat. 153",
+            "url": "https://www.govinfo.gov/app/details/STATUTE-43/STATUTE-43-Pg153-2"
+          },
+          {
+            "title": "Office of the Historian, the quota system and immigration policy",
+            "url": "https://history.state.gov/milestones/1921-1936/immigration-act"
+          },
+          {
+            "title": "Densho Encyclopedia, Alien Land Laws",
+            "url": "https://encyclopedia.densho.org/Alien_land_laws"
+          },
+          {
+            "title": "National Archives, Tulsa Race Massacre and the Red Cross report",
+            "url": "https://visit.archives.gov/whats-on/explore-exhibits/black-wall-street-100-years-tulsa-race-massacre"
+          },
+          {
+            "title": "George Mason University, Ku Klux Klan march in Washington",
+            "url": "https://mallhistory.org/items/show/175.html"
+          },
+          {
+            "title": "National Human Genome Research Institute, history of eugenics",
+            "url": "https://www.genome.gov/about-genomics/educational-resources/timelines/eugenics"
+          },
+          {
+            "title": "Smithsonian, Native American citizenship and voting barriers",
+            "url": "https://americanhistory.si.edu/explore/exhibitions/american-democracy/online/vote-voice/getting-vote/demanding-vote/native-americans"
+          },
+          {
+            "title": "Smithsonian, Jim Crow and the targets of the 1920s Klan",
+            "url": "https://americanhistory.si.edu/brown/history/1-segregated/white-only-2.html"
+          }
+        ]
+      }
     },
     "prohibition-and-social-conflict": {
       "title": "Prohibition and Social Conflict",
@@ -2201,11 +2310,11 @@
         "The Eighteenth Amendment, ratified in 1919, established a constitutional framework for national Prohibition, which began in 1920. Reformers hoped restrictions on alcohol would improve family and public life. Critics questioned personal liberty and enforcement. The Twenty-first Amendment repealed the Eighteenth in 1933. Neither amendment, by itself, proves how consumption or organized crime changed."
       ],
       "activity": "Prohibition and Social Conflict · Historical evidence workshop",
-      "task": "Read the precise wording of both amendments. What activities were restricted, what was repealed, and what legal powers remained? Compare one dated temperance or repeal appeal with the law, clearly separating a group's claims from measured outcomes.",
+      "task": "Give two judgments about Prohibition, one about drinking and one about enforcement. Use the research estimates, the federal enforcement review, and the Eighteenth Amendment. Explain one limit of the evidence used to estimate drinking.",
       "investigation": [
         "Examine Eighteenth Amendment (1919 ratification). Identify the creator and what the record can directly establish.",
         "Compare it with Twenty-first Amendment. Identify provenance and whether it is a contemporary item or later interpretation.",
-        "Read the precise wording of both amendments. What activities were restricted, what was repealed, and what legal powers remained? Compare one dated temperance or repeal appeal with the law, clearly separating a group's claims from measured outcomes."
+        "Give two judgments about Prohibition, one about drinking and one about enforcement. Use the research estimates, the federal enforcement review, and the Eighteenth Amendment. Explain one limit of the evidence used to estimate drinking."
       ],
       "options": [
         "Nineteenth Amendment",
@@ -2279,7 +2388,34 @@
           "summary": "Repeals the Eighteenth Amendment and preserves a role for state law.",
           "type": "Primary constitutional text"
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.2.2.f",
+        "kind": "content",
+        "page": 12,
+        "objective": "Judge how effectively national Prohibition reduced alcohol consumption and how consistently governments enforced it.",
+        "prompt": "Give two judgments about Prohibition, one about drinking and one about enforcement. Use the research estimates, the federal enforcement review, and the Eighteenth Amendment. Explain one limit of the evidence used to estimate drinking.",
+        "criteria": "Distinguish what the amendment prohibited from what researchers measured. Explain the early decline and later rebound in estimated consumption and give an evidence-based judgment about enforcement.",
+        "readingTitle": "Two ways to judge Prohibition",
+        "reading": [
+          "The Eighteenth Amendment banned the manufacture, sale, and transportation of intoxicating liquor for beverage use. It did not ban drinking itself. To judge whether the policy reduced drinking, historians need evidence about behavior. Since illegal sales often went unrecorded, researchers Jeffrey Miron and Jeffrey Zwiebel used indirect measures such as mortality and crime records. They estimated an early drop followed by a rebound to about 60–70 percent of the pre-Prohibition level. These figures are estimates, not a count of drinks sold.",
+          "Enforcement is a separate question. In 1931 President Herbert Hoover told Congress that the Wickersham Commission found enforcement unsatisfactory nationwide, although it reported some improvements in federal enforcement. Illegal supply and uneven cooperation made it difficult to enforce the law. The Twenty-first Amendment ended national Prohibition in 1933. Repeal establishes when the constitutional policy ended. The estimates and enforcement records help assess what it accomplished before then."
+        ],
+        "sources": [
+          {
+            "title": "National Archives, Eighteenth and Twenty-first Amendments",
+            "url": "https://www.archives.gov/founding-docs/amendments-11-27"
+          },
+          {
+            "title": "Miron and Zwiebel, Alcohol Consumption During Prohibition, abstract",
+            "url": "https://www.nber.org/papers/w3675"
+          },
+          {
+            "title": "Hoover’s 1931 message reporting the Wickersham Commission’s findings",
+            "url": "https://www.presidency.ucsb.edu/documents/message-the-congress-transmitting-report-the-national-commission-law-observance-and"
+          }
+        ]
+      }
     },
     "consumer-culture-and-economic-growth": {
       "title": "Consumer Culture and Economic Growth",
@@ -2294,11 +2430,11 @@
         "Cars, radios, appliances and installment purchases helped shape consumer culture in the 1920s. Advertising offered images of freedom and prosperity, yet a product's appeal does not demonstrate that most households could afford it. Industrial output rose in some sectors while agricultural distress and uneven wages complicated the broader picture. Treat invented household budgets as examples, not historical statistics."
       ],
       "activity": "Consumer Culture and Economic Growth · Historical evidence workshop",
-      "task": "Contrast a 1927 vehicle advertisement with a dated edition of the automobile industry's statistical publication. Identify where a commercial claim ends and a measurable figure begins. Then model an installment purchase with clearly fictional figures and explain both access and repayment risk.",
+      "task": "Build a three-step explanation linking the 1921 Federal Highway Act, auto production, and consumer demand. Contrast the effects of assembly-line production and installment credit. Use an advertisement to explain what companies promised and identify the extra evidence needed to know who could afford a car.",
       "investigation": [
         "Examine Renault automobile advertisement (April 1927). Identify the creator and what the record can directly establish.",
         "Compare it with Facts and Figures of the Automobile Industry. Identify provenance and whether it is a contemporary item or later interpretation.",
-        "Contrast a 1927 vehicle advertisement with a dated edition of the automobile industry's statistical publication. Identify where a commercial claim ends and a measurable figure begins. Then model an installment purchase with clearly fictional figures and explain both access and repayment risk."
+        "Build a three-step explanation linking the 1921 Federal Highway Act, auto production, and consumer demand. Contrast the effects of assembly-line production and installment credit. Use an advertisement to explain what companies promised and identify the extra evidence needed to know who could afford a car."
       ],
       "options": [
         "Buying now while paying through scheduled later payments",
@@ -2372,7 +2508,38 @@
           "summary": "Contemporary industry publication; review the edition date, definitions, and industry interests before quoting figures.",
           "type": "Contemporary industry publication"
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.2.2.a",
+        "kind": "content",
+        "page": 12,
+        "objective": "Explain how federal road policy, mass production, and credit changed what firms produced and what households could buy.",
+        "prompt": "Build a three-step explanation linking the 1921 Federal Highway Act, auto production, and consumer demand. Contrast the effects of assembly-line production and installment credit. Use an advertisement to explain what companies promised and identify the extra evidence needed to know who could afford a car.",
+        "criteria": "Identify a public policy and explain its connection to driving. Distinguish lower production costs from spreading household payments over time. Explain one limit of advertising as evidence about prosperity.",
+        "readingTitle": "How roads, factories, and credit expanded the car market",
+        "reading": [
+          "The 1921 Federal Highway Act supported road construction through federal aid to states. Better roads made regular travel by car more practical and helped create markets for fuel, repair, and roadside businesses. The law shows what Congress financed. It does not show how quickly every region received a better road.",
+          "Factories and consumer finance affected the price and timing of a purchase in different ways. Ford’s mass production strategy brought cars within reach of more buyers. General Motors offered customers credit, which let buyers spread the cost over installments. A buyer still owed money after driving the car home. An advertisement can show how manufacturers appealed to readers, while wages, prices, and loan terms are better evidence of who could afford the purchase."
+        ],
+        "sources": [
+          {
+            "title": "Federal Highway Act of 1921, 42 Stat. 212",
+            "url": "https://www.govinfo.gov/content/pkg/STATUTE-42/pdf/STATUTE-42-Pg212.pdf"
+          },
+          {
+            "title": "Federal Highway Administration, national road timeline",
+            "url": "https://www.fhwa.dot.gov/candc/timeline.cfm"
+          },
+          {
+            "title": "Smithsonian National Museum of American History, Building and Fixing Cars",
+            "url": "https://www.americanhistory.si.edu/explore/exhibitions/america-on-the-move/online/americans-adopt-auto/building-fixing-cars"
+          },
+          {
+            "title": "Library of Congress, 1927 Renault advertisement",
+            "url": "https://www.loc.gov/pictures/item/2002695557/"
+          }
+        ]
+      }
     },
     "the-stock-market-crash-and-economic-crisis": {
       "title": "The Stock Market Crash and Economic Crisis",

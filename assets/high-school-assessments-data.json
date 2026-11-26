@@ -801,165 +801,159 @@
           "slug": "a-changing-american-culture",
           "title": "A Changing American Culture",
           "essential": "What made the 1920s an era of cultural conflict as well as innovation?",
-          "task": "Write a claim about A Changing American Culture with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Use the Women’s Bureau report and the suffrage overview to explain one gain and one limit for women in the 1920s. Then use the Butler Act and the trial overview to explain what supporters wanted schools to teach and why opponents challenged the law."
         },
         {
           "slug": "the-harlem-renaissance",
           "title": "The Harlem Renaissance",
           "essential": "How did the Harlem Renaissance transform American cultural expression?",
-          "task": "Write a claim about The Harlem Renaissance with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Make three evidence notes. Connect the Great Migration, Harlem Renaissance, and Garvey’s UNIA to Black community power. Compare one Asian naturalization case with the Indian Citizenship Act or LULAC’s organizing. Then choose two examples of exclusion or intimidation from the reading and explain how their effects differed."
         },
         {
           "slug": "prohibition-and-social-conflict",
           "title": "Prohibition and Social Conflict",
           "essential": "Why did banning alcohol produce consequences reformers did not anticipate?",
-          "task": "Write a claim about Prohibition and Social Conflict with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Give two judgments about Prohibition, one about drinking and one about enforcement. Use the research estimates, the federal enforcement review, and the Eighteenth Amendment. Explain one limit of the evidence used to estimate drinking."
         },
         {
           "slug": "consumer-culture-and-economic-growth",
           "title": "Consumer Culture and Economic Growth",
           "essential": "How did credit and consumption conceal vulnerability in the 1920s economy?",
-          "task": "Write a claim about Consumer Culture and Economic Growth with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Build a three-step explanation linking the 1921 Federal Highway Act, auto production, and consumer demand. Contrast the effects of assembly-line production and installment credit. Use an advertisement to explain what companies promised and identify the extra evidence needed to know who could afford a car."
         }
       ],
       "sources": [
         {
-          "label": "Document A · Harlem Renaissance Primary-Source Collection",
-          "title": "Harlem Renaissance Primary-Source Collection",
-          "creator": "Library of Congress collections of period creators",
-          "date": "1920s–1930s",
-          "url": "https://www.loc.gov/classroom-materials/harlem-renaissance/",
-          "sourceUrl": "https://www.loc.gov/classroom-materials/harlem-renaissance/",
-          "sourceType": "Primary-source collection: historical images, writings, and recordings",
-          "excerpt": "Writers and artists created influential new work and debated identity and cultural expression; collection items must be examined individually with creator and date.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
-          "documentExcerpt": "",
-          "sourceNote": "Writers and artists created influential new work and debated identity and cultural expression; collection items must be examined individually with creator and date.",
-          "lessonContext": "Radio, cinema, automobiles, and mass advertising reshaped leisure and consumption in the 1920s. New forms of popular entertainment reached wider audiences, though access differed by income, geography, and race. Technologies such as radio encouraged shared national experiences while local communities continued to follow different values and practices. A popular image of a fashionable young city resident does not describe every woman in the 1920s. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
+          "label": "Document A · Tennessee Butler Act",
+          "title": "Tennessee Butler Act, chapter 27",
+          "creator": "Tennessee General Assembly",
+          "date": "March 21, 1925",
+          "url": "https://teva.contentdm.oclc.org/digital/collection/scopes/id/168",
+          "sourceUrl": "https://teva.contentdm.oclc.org/digital/collection/scopes/id/168",
+          "sourceType": "Primary source: state statute",
+          "excerpt": "Section 1 restricted teaching human evolution in schools supported by state funds. The provision made classroom teaching a matter of state law and set the terms of the charge against Scopes.",
+          "limitation": "The law establishes a restriction. Trial records are needed to examine how it was enforced and challenged.",
+          "documentExcerpt": ""
         },
         {
-          "label": "Document B · Nineteenth Amendment",
-          "title": "Nineteenth Amendment",
-          "creator": "United States Congress and ratifying states",
-          "date": "1920",
-          "url": "https://www.archives.gov/milestone-documents/19th-amendment",
-          "sourceUrl": "https://www.archives.gov/milestone-documents/19th-amendment",
-          "sourceType": "Primary source: constitutional amendment",
-          "excerpt": "The amendment prohibited denial of voting rights on account of sex; it did not remove every discriminatory voting barrier.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
-          "documentExcerpt": "",
-          "sourceNote": "The amendment prohibited denial of voting rights on account of sex; it did not remove every discriminatory voting barrier.",
-          "lessonContext": "The Harlem Renaissance brought influential Black writers, musicians, artists, and intellectuals into national and international conversations during the 1920s. Langston Hughes, Zora Neale Hurston, and other creators explored identity, community, and artistic freedom. The movement included poetry, visual art, theater, music, and political debate. Creators differed in how directly they addressed racial inequality and whether artistic independence should serve explicit political goals. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
-        },
-        {
-          "label": "Document C · Boulder Canyon Project Act",
-          "title": "Boulder Canyon Project Act",
+          "label": "Document B · Indian Citizenship Act",
+          "title": "Indian Citizenship Act",
           "creator": "United States Congress",
-          "date": "1928",
-          "url": "https://www.archives.gov/milestone-documents/boulder-canyon-project-act",
-          "sourceUrl": "https://www.archives.gov/milestone-documents/boulder-canyon-project-act",
-          "sourceType": "Primary source: federal legislation",
-          "excerpt": "Federal investment in a major water and power project reflects changing economic expectations, but legislation does not measure prosperity for every family.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
-          "documentExcerpt": "",
-          "sourceNote": "Federal investment in a major water and power project reflects changing economic expectations, but legislation does not measure prosperity for every family.",
-          "lessonContext": "The Eighteenth Amendment was ratified in 1919, and national Prohibition took effect in 1920 under the Volstead Act. Supporters associated alcohol restriction with family welfare, order, and reform. Support for Prohibition included reform organizations with different religious, public-health, and gender-related concerns. Opposition also drew on liberty, employment, and doubts about enforceability. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
+          "date": "June 2, 1924",
+          "url": "https://www.archives.gov/files/historical-docs/doc-content/images/indian-citizenship-act-1924.pdf",
+          "sourceUrl": "https://www.archives.gov/files/historical-docs/doc-content/images/indian-citizenship-act-1924.pdf",
+          "sourceType": "Primary source: federal statute",
+          "excerpt": "The act granted citizenship to U.S.-born Native people who did not already have it. It preserved rights to tribal or other property.",
+          "limitation": "Citizenship does not establish whether state voting restrictions were removed in practice.",
+          "documentExcerpt": ""
         },
         {
-          "label": "Document D · Additional interpretation",
-          "title": "Consumer Culture and Economic Growth",
-          "creator": "Examine the Past curriculum editors",
-          "date": "2026 instructional summary",
-          "url": "../consumer-culture-and-economic-growth/",
-          "sourceUrl": "../consumer-culture-and-economic-growth/",
-          "sourceType": "Secondary source: lesson interpretation, NOT primary evidence",
-          "excerpt": "Automobiles, appliances, and mass advertising expanded consumer markets in the 1920s. Installment credit allowed some families to buy goods over time, while stock speculation drew public attention. A family purchasing an automobile on credit might enjoy mobility while accepting monthly financial obligations. Low down payments could expand access but also make households vulnerable when income declined. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-          "limitation": "This is a modern instructional interpretation, not an original primary document. Use it for context; investigate originals for source-based claims.",
+          "label": "Document C · Federal Highway Act",
+          "title": "Federal Highway Act",
+          "creator": "United States Congress",
+          "date": "November 9, 1921",
+          "url": "https://www.govinfo.gov/content/pkg/STATUTE-42/pdf/STATUTE-42-Pg212.pdf",
+          "sourceUrl": "https://www.govinfo.gov/content/pkg/STATUTE-42/pdf/STATUTE-42-Pg212.pdf",
+          "sourceType": "Primary source: federal statute",
+          "excerpt": "The act provided federal support for road building in cooperation with the states. States and the federal government shared responsibility for developing the road network.",
+          "limitation": "The law establishes policy. Road records show where and when improvements occurred.",
+          "documentExcerpt": ""
+        },
+        {
+          "label": "Document D · Drinking during Prohibition",
+          "title": "Alcohol Consumption During Prohibition",
+          "creator": "Jeffrey A. Miron and Jeffrey Zwiebel",
+          "date": "1991",
+          "url": "https://www.nber.org/papers/w3675",
+          "sourceUrl": "https://www.nber.org/papers/w3675",
+          "sourceType": "Secondary source: historical research",
+          "excerpt": "The authors estimate that drinking fell sharply at first, then partly rebounded before repeal. Their estimates are based on indirect measures such as mortality and crime records.",
+          "limitation": "The study estimates consumption indirectly. It cannot tell us what every household or community did.",
           "documentExcerpt": ""
         }
       ],
       "questions": [
         {
-          "prompt": "The Library of Congress Harlem Renaissance source collection includes work by different creators. Why does that matter?",
+          "prompt": "What best explains how road policy and installment credit expanded the market for cars?",
           "choices": [
-            "Artistic work cannot provide historical evidence about public culture",
-            "All artists represented the same views because they lived in the same era",
-            "Each work's creator, medium, audience and date shape the claim it can support"
-          ],
-          "answer": 2,
-          "explain": "Cultural evidence requires attention to authorship and medium."
-        },
-        {
-          "prompt": "A student uses the Nineteenth Amendment to claim women had full ballot access in 1920. What is missing?",
-          "choices": [
-            "Evidence about state and local enforcement and other discriminatory voting barriers",
-            "The amendment's exact ratification year alone",
-            "A list of political cartoons unrelated to voting"
+            "Federal road aid improved travel while installment loans spread the timing of payments.",
+            "Federal road aid set loan rates while installment plans financed the road system.",
+            "The highway law fixed the price of cars while credit removed the obligation to pay."
           ],
           "answer": 0,
-          "explain": "Legal guarantees and actual access are different historical claims."
+          "explain": "Federal road aid and consumer credit addressed different barriers to using and purchasing a car."
         },
         {
-          "prompt": "The Boulder Canyon Project Act is evidence of federal support for an infrastructure project. What cannot be inferred from it alone?",
+          "prompt": "A student argues that new opportunities affected all women in the same way. Which evidence most directly tests that claim?",
           "choices": [
-            "That governments were making economic decisions in the 1920s",
-            "That every region and family benefited equally from resulting projects",
-            "That Congress debated and authorized federal infrastructure policy"
+            "An editorial praising women voters in one city",
+            "Women’s Bureau data and testimony about jobs and conditions across racial groups",
+            "One newspaper photograph of women shopping"
           ],
           "answer": 1,
-          "explain": "Authorization is not a nationwide equality measure."
+          "explain": "Employment records and worker accounts reveal differences obscured by a single image or opinion."
         },
         {
-          "prompt": "Which source combination most directly tests claims about uneven prosperity in the 1920s?",
+          "prompt": "How did the Great Migration, the Harlem Renaissance, and Garvey’s UNIA each contribute to Black community power?",
           "choices": [
-            "A single product catalog with no price dates",
-            "Only magazine advertisements for consumer products",
-            "Household wages, credit obligations and employment records from comparable years"
+            "All three used federal court cases as their principal method.",
+            "All three worked through one organization with the same goals.",
+            "Migration expanded urban networks, artists shaped public culture, and the UNIA organized collective action."
           ],
           "answer": 2,
-          "explain": "Prosperity requires measures beyond advertising."
+          "explain": "The developments reinforced one another in different ways through community networks, cultural expression, and organized activism."
         },
         {
-          "prompt": "How should a historian relate Harlem Renaissance art to the era's racial inequalities?",
+          "prompt": "Which statement correctly compares the Indian Citizenship Act with the Ozawa and Thind decisions?",
           "choices": [
-            "Interpret cultural innovation alongside legal, social and economic evidence",
-            "Assume artistic success meant discrimination had disappeared",
-            "Exclude cultural evidence when investigating political power"
+            "The act extended citizenship to U.S.-born Native people who lacked it, while the Court applied racial limits to naturalization in the two cases.",
+            "The act created the same naturalization procedure the Court ordered for both applicants.",
+            "The Court resolved voting disputes under the same law Congress used to confer citizenship."
           ],
           "answer": 0,
-          "explain": "Cultural achievement and unequal rights could coexist."
+          "explain": "The act concerned citizenship for U.S.-born Native people. The two decisions concerned eligibility to naturalize."
         },
         {
-          "prompt": "What is the strongest conclusion about the 1920s drawn from the unit's different kinds of evidence?",
+          "prompt": "Which judgment about Prohibition best fits the figures in Document D?",
           "choices": [
-            "Consumer expansion ensured long-term financial security for households",
-            "Innovation and expanded opportunities coexisted with political, racial and economic tensions",
-            "A single unified national culture replaced all local differences"
+            "The estimates prove the law was enforced equally across the country.",
+            "The estimates support an early decline and later rebound without measuring every illegal purchase.",
+            "The estimates show that repeal caused consumption to jump immediately to its previous level."
           ],
           "answer": 1,
-          "explain": "The evidence describes overlapping change and conflict."
+          "explain": "The estimates trace broad changes in consumption. Different evidence is needed for enforcement and local experiences."
+        },
+        {
+          "prompt": "What dispute did the Scopes trial bring into public view?",
+          "choices": [
+            "Whether federal road grants should reach rural Tennessee",
+            "Whether a state could bar the sale of biology textbooks to adults",
+            "Whether state-funded schools could teach a scientific explanation of human origins at odds with the religious view behind the law"
+          ],
+          "answer": 2,
+          "explain": "The dispute involved the state’s authority over public-school instruction and the place of religious beliefs in curriculum."
         }
       ],
       "matchingOptions": [
-        "Harlem Renaissance Primary-Source Collection",
-        "Nineteenth Amendment",
-        "Boulder Canyon Project Act"
+        "Tennessee Butler Act",
+        "Indian Citizenship Act",
+        "Federal Highway Act"
       ],
       "matchingPrompts": [
         {
-          "prompt": "Which original record helps investigate Harlem Renaissance Primary-Source Collection and its historical context?",
+          "prompt": "Which source states what Tennessee restricted in publicly supported schools?",
           "answer": 0
         },
         {
-          "prompt": "Which original record helps investigate Nineteenth Amendment and its historical context?",
+          "prompt": "Which source extends citizenship and protects rights to tribal or other property?",
           "answer": 1
         },
         {
-          "prompt": "Which original record helps investigate Boulder Canyon Project Act and its historical context?",
+          "prompt": "Which source establishes federal support for state road building?",
           "answer": 2
         }
       ],
-      "inquiryPrompt": "How did cultural innovation and changing consumer life coexist with conflict and inequality in the 1920s?",
+      "inquiryPrompt": "Whose choices expanded in the 1920s, and what kept others from gaining the same opportunities?",
       "inquirySteps": [
         "Compare the sources and record their perspectives and limitations.",
         "Develop a focused historical question and identify which sources address it.",
@@ -971,21 +965,21 @@
         2
       ],
       "conclusions": [
-        "Documents B and C can help historians compare how evidence, policy and experience relate to the roaring twenties.",
-        "Document A records a position or record from 1920s–1930s, but it needs context to support claims about historical effects.",
-        "Mass consumer advertising from the 1920s proves that every household could afford new products on equal terms."
+        "Documents A and B show how governments changed access to instruction and citizenship through different laws.",
+        "The Indian Citizenship Act and the Immigration Act of 1924 opened the same path to U.S. citizenship for people born outside the United States.",
+        "Document D supports a qualified judgment about drinking levels, while enforcement needs its own evidence."
       ],
       "conclusionKey": [
         true,
-        true,
-        false
+        false,
+        true
       ],
-      "writing": "How did cultural innovation and changing consumer life coexist with conflict and inequality in the 1920s? Construct a qualified historical argument using at least three specific facts supported by two original records from this unit and one other kind of evidence (such as testimony, a map, statistics, or a carefully attributed secondary interpretation). Explain each source's date and perspective, compare experiences of affected communities, discuss at least one limitation, and address a plausible counterargument.",
-      "challenge": "Create a museum exhibit or document-based investigation responding to: How did cultural innovation and changing consumer life coexist with conflict and inequality in the 1920s? Use four attributed sources, a chronological visualization, two perspectives, an evidence limitation and a defended curator thesis.",
-      "standards": "Maryland 2025 High School United States History Framework; historical inquiry and relevant unit content. Exact indicator crosswalk pending.",
-      "framework": "https://msde.maryland.gov/media/17926",
-      "sourceAudit": "Original documents linked to the National Archives, Library of Congress, presidential libraries, or National September 11 Memorial; source cards contain instructional summaries, not verbatim transcriptions. Verify original collection item, creator, and date before citing.",
-      "sampleAnswer": "The question raised in The Roaring Twenties is: How did cultural innovation and changing consumer life coexist with conflict and inequality in the 1920s? The evidence suggests that decisions and events changed institutions and opportunities, but the results differed among people and places. A defensible argument requires attention to whom a policy or movement affected, not only its supporters' intentions.\n\nDocument A (Harlem Renaissance Primary-Source Collection, 1920s–1930s) provides one perspective: Writers and artists created influential new work and debated identity and cultural expression; collection items must be examined individually with creator and date. Document B (Nineteenth Amendment, 1920) adds another: The amendment prohibited denial of voting rights on account of sex; it did not remove every discriminatory voting barrier. These records identify choices or experiences, but their authors and purposes must be considered before treating them as complete accounts.\n\nDocument C (Boulder Canyon Project Act, 1928) supplies further evidence: Federal investment in a major water and power project reflects changing economic expectations, but legislation does not measure prosperity for every family. A historian should test these records against different evidence such as the observations of affected communities, independent statistics, archaeological evidence when relevant, and the unit's contextual lesson reading. The sources do not necessarily measure results by themselves.\n\nA reasonable counterargument might emphasize the benefits or stated goals of these developments. Those claims deserve evaluation, but they do not eliminate unintended consequences, unequal impacts or limits of the evidence. I would therefore defend a qualified conclusion and explain which further sources might change it."
+      "writing": "Did the 1920s expand opportunity broadly or unevenly? Explain one economic change and one civic or cultural change. You may compare them through work, citizenship, schooling, Black organizing, or Prohibition. Use at least two primary records and one corroborating source from the unit. Explain whose opportunities changed, consider one credible counterargument, and identify a limit of one source.",
+      "challenge": "Compare two mechanisms of exclusion from the Harlem Renaissance lesson: a court ruling, immigration quota, land restriction, eugenics policy, or organized racial intimidation. Use two named records and identify a documented response or an additional source needed to establish how people resisted.",
+      "standards": "Maryland High School United States History Framework (June 2025), USH.2.2.a–g. The lesson exit tickets cover additional cases, including USH.2.2.e on exclusion and intimidation.",
+      "framework": "https://msde.maryland.gov/media/17926#page=12",
+      "sourceAudit": "Documents A–C establish what the laws provided. Document D reports a historical estimate. Return to the lesson sources for evidence of how each law or policy affected different groups.",
+      "sampleAnswer": "Opportunity expanded unevenly in the 1920s. The Federal Highway Act shows Congress supported better roads through federal aid to the states. The Smithsonian’s account of auto production explains that General Motors offered installment credit. Together these changes made car travel or ownership more practical for some people. A road law and company account do not establish that every household could finance a car.\n\nThe Indian Citizenship Act extended citizenship to U.S.-born Native people who lacked it and protected their rights to tribal or other property. This was a significant legal gain. Someone could argue that better transportation and expanded citizenship show broad opportunities. Both gains mattered, but their effects depended on practical access. I would look for state voter registration rules and records before claiming the citizenship law brought equal access to voting."
     },
     "9.6": {
       "id": "9.6",

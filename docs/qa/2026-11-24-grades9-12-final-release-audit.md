@@ -87,6 +87,10 @@ Unit 9.3 adds Maryland objectives USH.1.2.a–d to all three lessons. The guided
 
 Unit 9.4 now addresses USH.2.1.a–g through three source-linked exit tickets and a revised scored assessment. The July Crisis lesson compares two 1914 diplomatic reports and establishes the international context. The updated assessment examines neutrality, the 1918 Allied offensive, mobilization, restrictions on dissent, constitutional change and League membership. The Red Scare case introduces immigration enforcement and repression. Course-level review still needs evidence of surveillance and effects across more groups. Grade 9 now has 15 of 45 lessons with exact mappings. The source ledger records 106 open, four partly verified, and 26 supported claims.
 
+### Grade 9 The Roaring Twenties · November 26
+
+Unit 9.5 adds four source-linked readings and exit tickets addressing USH.2.2.a–g. Topics include women’s changing roles, the Scopes trial, Black cultural and political organizing, citizenship and immigration, Prohibition’s results, and the car market. The revised scored assessment includes three primary statutes and a historical estimate of drinking during Prohibition. The USH.2.2.e task uses selected cases. Broader effects across groups remain open. Grade 9 now has 19 of 45 lessons with exact mappings. The source ledger records 102 open, four partly verified, and 30 supported claims.
+
 The scorecard and gates below record the original audit baseline.
 
 ## Executive scorecard

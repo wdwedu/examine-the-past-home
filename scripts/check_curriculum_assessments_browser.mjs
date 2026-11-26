@@ -33,7 +33,7 @@ async function checkGrade9Alignment(page) {
   assert.ok(response.ok);
   const { lessons } = await response.json();
   const mapped = Object.entries(lessons).filter(([, lesson]) => lesson.marylandAlignment);
-  assert.equal(mapped.length, 15);
+  assert.equal(mapped.length, 19);
   const imperialismCodes = mapped.filter(([, lesson]) => lesson.unit === "9.3")
     .flatMap(([, lesson]) => lesson.marylandAlignment.code.split(" and "));
   assert.deepEqual(imperialismCodes.sort(), ["USH.1.2.a", "USH.1.2.b", "USH.1.2.c", "USH.1.2.d"]);
@@ -41,6 +41,10 @@ async function checkGrade9Alignment(page) {
     .flatMap(([, lesson]) => lesson.marylandAlignment.code.split(" and "));
   assert.deepEqual(warCodes.sort(), ["USH.2.1.a", "USH.2.1.b", "USH.2.1.c", "USH.2.1.d",
     "USH.2.1.e", "USH.2.1.f", "USH.2.1.g"]);
+  const twentiesCodes = mapped.filter(([, lesson]) => lesson.unit === "9.5")
+    .flatMap(([, lesson]) => lesson.marylandAlignment.code.split(" and "));
+  assert.deepEqual(twentiesCodes.sort(), ["USH.2.2.a", "USH.2.2.b", "USH.2.2.c", "USH.2.2.d",
+    "USH.2.2.e", "USH.2.2.f", "USH.2.2.g"]);
   const frameworkIds = { content: 17926, bridge: 17926, review: 17918 };
   for (const [slug, { unit, marylandAlignment: alignment }] of mapped) {
     const url = new URL(`lessons/curriculum/${courses[9]}/${slug}/`, root);
@@ -75,6 +79,10 @@ async function checkGrade9Alignment(page) {
         assert.ok((await guided.innerText()).includes(paragraph));
       }
     }
+    if (slug === "the-harlem-renaissance") {
+      await Promise.all([page.waitForURL("**/unit-9-5-assessment/"), assessmentLink.click()]);
+      await page.getByRole("heading", { name: "Document B · Indian Citizenship Act" }).waitFor();
+    }
     if (slug === "the-spanish-american-war") {
       await Promise.all([page.waitForURL("**/unit-9-3-assessment/"), assessmentLink.click()]);
       await page.getByRole("heading", { name: "Document A · Treaty of Paris" }).waitFor();
@@ -95,7 +103,7 @@ async function checkGrade9Alignment(page) {
     assessment.getByRole("link", { name: "Open the full Unit 9.4 Assessment" }).click(),
   ]);
   await page.getByRole("heading", { name: "Document C · Versailles, Article X" }).waitFor();
-  console.log("PASS fifteen Grade 9 alignments, July Crisis source links, and lesson-to-assessment navigation");
+  console.log("PASS nineteen Grade 9 alignments, July Crisis source links, and lesson-to-assessment navigation");
 }
 
 const worldHistoryResponse = await fetch(new URL("assets/grade11-grade5-matched-data.json", root));
@@ -171,6 +179,13 @@ async function checkMixedFormat(page, data) {
     assert.match(await questions.first().innerText(), /Cuba from the Philippines/);
     assert.ok(await page.locator("#performance").getByText(data.writing, { exact: true }).isVisible());
     assert.ok(await page.getByRole("heading", { name: "Document A · Treaty of Paris" }).isVisible());
+  }
+
+  if (data.id === "9.5") {
+    assert.match(await questions.first().innerText(), /installment credit/);
+    assert.ok(await page.locator("#performance").getByText(data.writing, { exact: true }).isVisible());
+    assert.ok(await page.getByRole("heading", { name: "Document A · Tennessee Butler Act" }).isVisible());
+    assert.ok(await page.getByRole("heading", { name: "Document D · Drinking during Prohibition" }).isVisible());
   }
 
   if (data.id === "9.4") {
