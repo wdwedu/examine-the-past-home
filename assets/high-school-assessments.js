@@ -66,5 +66,5 @@ function render(d){
  result.scrollIntoView({behavior:"smooth",block:"start"});
  });
 }
-fetch(root+"assets/high-school-assessments-data.json?v=20261126-imperialism").then(function(r){if(!r.ok)throw Error("Data unavailable");return r.json()}).then(function(all){if(!all.units[key])throw Error("Unknown unit "+key);render(all.units[key])}).catch(function(err){console.error(err);page.textContent="Assessment unavailable. Return to the unit and try again."});
+fetch(root+"assets/high-school-assessments-data.json?v=20261126-world-war-i").then(function(r){if(!r.ok)throw Error("Data unavailable");return r.json()}).then(function(all){if(!all.units[key])throw Error("Unknown unit "+key);render(all.units[key])}).catch(function(err){console.error(err);page.textContent="Assessment unavailable. Return to the unit and try again."});
 })();

@@ -33,10 +33,14 @@ async function checkGrade9Alignment(page) {
   assert.ok(response.ok);
   const { lessons } = await response.json();
   const mapped = Object.entries(lessons).filter(([, lesson]) => lesson.marylandAlignment);
-  assert.equal(mapped.length, 12);
+  assert.equal(mapped.length, 15);
   const imperialismCodes = mapped.filter(([, lesson]) => lesson.unit === "9.3")
     .flatMap(([, lesson]) => lesson.marylandAlignment.code.split(" and "));
   assert.deepEqual(imperialismCodes.sort(), ["USH.1.2.a", "USH.1.2.b", "USH.1.2.c", "USH.1.2.d"]);
+  const warCodes = mapped.filter(([, lesson]) => lesson.unit === "9.4")
+    .flatMap(([, lesson]) => lesson.marylandAlignment.code.split(" and "));
+  assert.deepEqual(warCodes.sort(), ["USH.2.1.a", "USH.2.1.b", "USH.2.1.c", "USH.2.1.d",
+    "USH.2.1.e", "USH.2.1.f", "USH.2.1.g"]);
   const frameworkIds = { content: 17926, bridge: 17926, review: 17918 };
   for (const [slug, { unit, marylandAlignment: alignment }] of mapped) {
     const url = new URL(`lessons/curriculum/${courses[9]}/${slug}/`, root);
@@ -76,7 +80,22 @@ async function checkGrade9Alignment(page) {
       await page.getByRole("heading", { name: "Document A · Treaty of Paris" }).waitFor();
     }
   }
-  console.log("PASS Maryland alignment, sources, and exit tickets in twelve Grade 9 lessons");
+  const crisisUrl = new URL(`lessons/curriculum/${courses[9]}/causes-of-world-war-i/`, root);
+  assert.ok((await page.goto(crisisUrl.href, { waitUntil: "domcontentloaded" }))?.ok());
+  const evidence = page.locator("#evidence");
+  const diplomaticSources = evidence.getByRole("link");
+  await evidence.getByText("Historical references and credits", { exact: true }).click();
+  const sourceUrls = await diplomaticSources.evaluateAll(links => links.map(link => link.getAttribute("href")));
+  assert.ok(sourceUrls.includes("https://history.state.gov/historicaldocuments/frus1914Supp/d30"));
+  assert.ok(sourceUrls.includes("https://history.state.gov/historicaldocuments/frus1914Supp/d32"));
+  const assessment = page.locator("#assess details").filter({ hasText: "Final Assessment" });
+  await assessment.locator("summary").click();
+  await Promise.all([
+    page.waitForURL("**/unit-9-4-assessment/"),
+    assessment.getByRole("link", { name: "Open the full Unit 9.4 Assessment" }).click(),
+  ]);
+  await page.getByRole("heading", { name: "Document C · Versailles, Article X" }).waitFor();
+  console.log("PASS fifteen Grade 9 alignments, July Crisis source links, and lesson-to-assessment navigation");
 }
 
 const worldHistoryResponse = await fetch(new URL("assets/grade11-grade5-matched-data.json", root));
@@ -152,6 +171,13 @@ async function checkMixedFormat(page, data) {
     assert.match(await questions.first().innerText(), /Cuba from the Philippines/);
     assert.ok(await page.locator("#performance").getByText(data.writing, { exact: true }).isVisible());
     assert.ok(await page.getByRole("heading", { name: "Document A · Treaty of Paris" }).isVisible());
+  }
+
+  if (data.id === "9.4") {
+    assert.match(await questions.first().innerText(), /Zimmermann Telegram/);
+    assert.ok(await page.locator("#performance").getByText(data.writing, { exact: true }).isVisible());
+    assert.ok(await page.getByRole("heading", { name: "Document C · Versailles, Article X" }).isVisible());
+    assert.ok(await page.getByRole("heading", { name: "Document D · Black migration and war work" }).isVisible());
   }
 
   await page.getByRole("button", { name: "Grade My Answers" }).click();

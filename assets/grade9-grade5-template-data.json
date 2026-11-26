@@ -1482,14 +1482,14 @@
       "paragraphs": [
         "The assassination of Archduke Franz Ferdinand in Sarajevo on June 28, 1914, was the immediate crisis that helped set events in motion, not a sufficient explanation of a world war. Nationalism, imperial competition, military planning, and alliances made the political environment volatile. Yet governments still made decisions. A careful account names those decisions instead of treating war as the automatic result of a map of alliances.",
         "Austria-Hungary delivered an ultimatum to Serbia on July 23, 1914. Serbia's reply did not prevent the diplomatic breakdown, and Austria-Hungary declared war on July 28. Mobilizations and further declarations widened the conflict. Historians should ask both what the ultimatum demanded and why other governments treated the crisis as a threat to their interests. The war's European origins must also be placed in the context of colonial soldiers, resources, and affected populations across empires.",
-        "Build a three-part timeline: assassination, ultimatum and reply, escalation into war. Read a portion of the actual ultimatum, then compare its demands with a contemporaneous chronology. Which actions were choices by governments? Which pressures had been building for years? Support a causal explanation with dates and actions, and acknowledge that understanding those choices does not require claiming the conflict was inevitable."
+        "On July 27, U.S. ambassador Frederic Penfield expected the fighting to stay mainly in the Balkans. On July 28, a U.S. diplomat in St. Petersburg reported Russian military preparations and warned that German officials expected intervention if Russia entered. Compare where the two diplomats were reporting from and what each could know. Their telegrams capture uncertainty before the conflict spread."
       ],
       "activity": "Causes of World War I · Historical evidence investigation",
-      "task": "Argue whether the assassination alone explains the widening war. Explain how at least two government decisions contributed to escalation while separating those choices from longer-term conditions.",
+      "task": "Build a dated sequence from the Sarajevo assassination to Austria-Hungary’s declaration of war. Explain one way the crisis widened and use both U.S. diplomatic reports to show what was still uncertain in late July.",
       "investigation": [
-        "Use the Library of Congress chronology to distinguish June 28, July 23 and July 28, 1914. Identify what occurred on each date.",
-        "Read the Austro-Hungarian ultimatum. Select a specific demand and explain how its language asserts state authority. Distinguish an accusation from independently established guilt.",
-        "Argue whether the assassination alone explains the widening war. Explain how at least two government decisions contributed to escalation while separating those choices from longer-term conditions."
+        "Sequence the June 28 assassination, July 23 ultimatum, and July 28 declaration. Mark the assassination as a trigger and identify one longer-term pressure.",
+        "Compare the July 27 Vienna telegram with the July 28 St. Petersburg telegram. Underline one observation and one prediction in each.",
+        "Build a dated sequence from the Sarajevo assassination to Austria-Hungary’s declaration of war. Explain one way the crisis widened and use both U.S. diplomatic reports to show what was still uncertain in late July."
       ],
       "options": [
         "Assassination of Archduke Franz Ferdinand",
@@ -1556,12 +1556,12 @@
           "summary": "Library of Congress page supplies timelines and period documents including Austria-Hungary's declaration. Distinguish editorial narrative from the reproduced original texts."
         },
         {
-          "title": "Austro-Hungarian Ultimatum to Serbia",
-          "creator": "Government of Austria-Hungary",
-          "date": "July 23, 1914",
-          "type": "Primary",
-          "url": "https://www.firstworldwar.com/source/austrianultimatum.htm",
-          "summary": "English-language transcription of the ultimatum at a historical primary-source site. A demand is evidence of a government's position, not proof that every allegation in it was true."
+          "title": "U.S. Embassy Telegram from Vienna",
+          "creator": "Frederic C. Penfield, U.S. ambassador to Austria-Hungary",
+          "date": "July 27, 1914",
+          "type": "Primary diplomatic telegram",
+          "url": "https://history.state.gov/historicaldocuments/frus1914Supp/d32",
+          "summary": "Foreign Relations of the United States, document 32. Penfield’s expectations show what one diplomat anticipated."
         },
         {
           "title": "The Ultimatum",
@@ -1570,6 +1570,14 @@
           "type": "Secondary institutional history",
           "url": "https://ww1.habsburger.net/en/chapters/ultimatum",
           "summary": "Institutional analysis explaining the ultimatum and mobilization. It is an interpretation, not a substitute for the original diplomatic text."
+        },
+        {
+          "title": "U.S. Embassy Telegram from St. Petersburg",
+          "creator": "U.S. chargé d’affaires in Russia",
+          "date": "July 28, 1914",
+          "type": "Primary diplomatic telegram",
+          "url": "https://history.state.gov/historicaldocuments/frus1914Supp/d30",
+          "summary": "Foreign Relations of the United States, document 30. The dispatch reports military preparations and the diplomat’s expectations as the crisis spread."
         }
       ]
     },
@@ -1668,11 +1676,42 @@
           "title": "Joint Resolution Declaring War on Germany",
           "creator": "United States Congress",
           "date": "April 6, 1917",
-          "type": "Primary record identified through NARA collection",
-          "url": "https://www.archives.gov/topics/wwi",
-          "summary": "National Archives World War I document portal identifies the April 6 formal resolution. This link is a collection portal and should not be misrepresented as a document-specific transcription."
+          "type": "Primary record with U.S. Senate context",
+          "url": "https://www.senate.gov/about/images/documents/sjres1-wwi-germany.htm",
+          "summary": "The Senate exhibits the April 2 proposal and dates congressional approval to April 6. Distinguish the introduction date on the record from the date Congress acted."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.2.1.a and USH.2.1.e",
+        "kind": "content",
+        "page": 11,
+        "objective": "Explain how German submarine warfare and the Zimmermann Telegram weakened U.S. neutrality, then assess the American military contribution to the Allied victory.",
+        "prompt": "Write two short responses. First, use the telegram and Wilson’s message to weigh two pressures on neutrality. Then explain how the American Expeditionary Forces contributed to the Allied offensive in 1918 and name one reason the outcome depended on more than U.S. forces.",
+        "criteria": "Distinguish the conditional German proposal from submarine attacks. Name the 1918 campaign, explain a specific U.S. contribution, and place it within the wider Allied effort.",
+        "readingTitle": "From U.S. neutrality to the Allied offensive",
+        "reading": [
+          "Germany resumed unrestricted submarine warfare in 1917. German submarines could attack merchant ships in designated waters without warning, leaving ships from neutral countries at risk. In his April 2 address, Wilson presented those attacks as a reason the United States should enter the war. The Zimmermann Telegram raised a different concern: Germany sought Mexican cooperation if the United States entered the conflict. The declaration of war followed on April 6.",
+          "U.S. entry in 1917 and the military impact of U.S. troops were separate developments. In September 1918 the American First Army began the Meuse–Argonne offensive in France. It committed fresh troops to one sector as other Allied armies attacked elsewhere along the Western Front. Fighting and logistical problems slowed the advance, but sustained pressure in several sectors strained Germany’s ability to defend them before the November armistice ended the fighting."
+        ],
+        "sources": [
+          {
+            "title": "National Archives, Zimmermann Telegram and translation",
+            "url": "https://www.archives.gov/milestone-documents/zimmermann-telegram"
+          },
+          {
+            "title": "National Archives, Wilson’s April 2 war message",
+            "url": "https://www.archives.gov/milestone-documents/address-to-congress-declaration-of-war-against-germany"
+          },
+          {
+            "title": "U.S. Senate, declaration of war with Germany",
+            "url": "https://www.senate.gov/about/images/documents/sjres1-wwi-germany.htm"
+          },
+          {
+            "title": "U.S. Army Center of Military History, Meuse–Argonne campaign",
+            "url": "https://history.army.mil/Publications/Publications-Catalog/Meuse-Argonne/"
+          }
+        ]
+      }
     },
     "americans-on-the-home-front": {
       "title": "Americans on the Home Front",
@@ -1773,7 +1812,55 @@
           "url": "https://www.loc.gov/collections/world-war-i-posters/about-this-collection/",
           "summary": "Supplementary collection containing multiple authors and dates; the collection page itself is not a singular period document."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.2.1.b and USH.2.1.c and USH.2.1.d",
+        "kind": "content",
+        "page": 11,
+        "objective": "Explain how mobilization and Black migration supported the war effort, evaluate restrictions on dissent, and trace wartime arguments for the Eighteenth and Nineteenth Amendments.",
+        "prompt": "Make three evidence notes. Explain how draft registration and Black migration helped meet different wartime needs. Explain the purpose and one consequence of restricting dissent. Then compare one wartime argument used for each of the two amendments, naming one reason each reform also had roots before the war.",
+        "criteria": "Connect one record to each wartime need, name who was affected by a speech restriction, and distinguish grain conservation and women’s war service as arguments for different reforms.",
+        "readingTitle": "Workers, dissent, and reform during wartime",
+        "reading": [
+          "The Selective Service System registered about 24 million men during the war. That number counts people registered, including many who were never inducted. At the same time, Black southerners moving north filled industrial jobs. The Pennsylvania Railroad recruited Black workers in 1916 as demand grew. Jobs drew migrants north and the threat of racial violence drove many to leave the South. Black workers helped keep railroads and factories running while continuing to face discrimination.",
+          "Congress restricted some forms of speech to protect recruitment and wartime operations. In 1918 it expanded restrictions through what is often called the Sedition Act. Socialist labor leader Eugene Debs faced prosecution after a speech criticizing the war and the draft. In 1919 the Supreme Court upheld his conviction. The case shows how wartime restrictions could lead to punishment for political speech.",
+          "Wartime arguments gave two established reform movements new leverage. A 1917 appeal sent to Congress framed prohibition as a wartime sacrifice. Advocates argued that limiting alcohol production could conserve grain. Temperance activists had already been organizing for years, and several states had adopted prohibition. In September 1918 Wilson pointed to women’s wartime service as he urged the Senate to support a federal suffrage amendment. Suffragists had campaigned for decades, and the Senate still fell short on its first vote after his appeal. The Eighteenth Amendment was ratified in 1919 and the Nineteenth in 1920."
+        ],
+        "sources": [
+          {
+            "title": "National Archives, draft registration records",
+            "url": "https://www.archives.gov/education/lessons/wwi-draft-cards.html"
+          },
+          {
+            "title": "Smithsonian American Art Museum, The Great Migration, page 1",
+            "url": "https://americanexperience.si.edu/wp-content/uploads/2014/07/The-Great-Migration.pdf"
+          },
+          {
+            "title": "1918 Sedition Act, 40 Stat. 553, section 1",
+            "url": "https://www.govinfo.gov/content/pkg/STATUTE-40/pdf/STATUTE-40-Pg550-2.pdf"
+          },
+          {
+            "title": "Supreme Court, Debs v. United States, 249 U.S. 211 (1919)",
+            "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep249/usrep249211/usrep249211.pdf"
+          },
+          {
+            "title": "U.S. House archives, 1917 wartime prohibition appeal",
+            "url": "https://history.house.gov/HouseRecord/Detail/15032436142"
+          },
+          {
+            "title": "Hoover Presidential Library, grain conservation and prohibition",
+            "url": "https://hoover.blogs.archives.gov/2016/04/06/law-of-the-land/"
+          },
+          {
+            "title": "U.S. Senate, Wilson’s September 1918 suffrage address",
+            "url": "https://www.senate.gov/artandhistory/history/resources/pdf/WilsonSpeech1918.pdf"
+          },
+          {
+            "title": "National Archives, amendments and ratification dates",
+            "url": "https://www.archives.gov/founding-docs/amendments-11-27"
+          }
+        ]
+      }
     },
     "the-treaty-of-versailles": {
       "title": "The Treaty of Versailles",
@@ -1874,7 +1961,46 @@
           "url": "https://www.senate.gov/about/powers-procedures/treaties/senate-rejects-treaty-of-versailles.htm",
           "summary": "Official retrospective Senate history documenting debates and votes; institutional secondary source, not an original 1919 floor transcript."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.2.1.f and USH.2.1.g",
+        "kind": "content",
+        "page": 11,
+        "objective": "Compare arguments over U.S. membership in the League of Nations and explain how the First Red Scare led to immigration enforcement and repression at home.",
+        "prompt": "Explain why Wilson supported collective security and why Lodge sought limits on U.S. obligations under Article X. In a separate paragraph, use the 1918 law and one Red Scare case to trace how fear of radicalism led to a raid, detention, or deportation. Identify who was affected and what evidence would show whether others had similar experiences.",
+        "criteria": "Explain one argument for League membership and one case for limiting it. For the Red Scare, distinguish the fears officials voiced, the legal authority they used, and the effect on a person or group.",
+        "readingTitle": "Two debates after the fighting ended",
+        "reading": [
+          "Wilson argued that countries acting together could protect members from aggression. Article X required members to protect one another’s territorial integrity and political independence against outside aggression. Senator Henry Cabot Lodge sought conditions to protect Congress’s authority over the use of U.S. forces. Other senators opposed League membership even with conditions. The Senate failed to give its consent and the United States stayed outside the League.",
+          "After the war, strikes, bombings, and fears of revolution fed the First Red Scare. A 1918 immigration law allowed officials to exclude or deport noncitizens on specified grounds tied to anarchism and related political activity. The Palmer Raids of 1919–1920 brought mass arrests and deportations. Emma Goldman, a Jewish immigrant, anarchist, and advocate for workers and women, was imprisoned for opposing conscription and then deported in 1919. Her case shows how political activity and immigration status intersected. One person’s case cannot establish how every immigrant or labor organizer was treated."
+        ],
+        "sources": [
+          {
+            "title": "National Archives, Wilson’s Fourteen Points, especially point XIV",
+            "url": "https://www.archives.gov/milestone-documents/president-woodrow-wilsons-14-points"
+          },
+          {
+            "title": "Treaty of Versailles, League Covenant, Article X",
+            "url": "https://avalon.law.yale.edu/imt/parti.asp"
+          },
+          {
+            "title": "U.S. Capitol, Lodge reservations and the Senate votes",
+            "url": "https://www.visitthecapitol.gov/artifact/treaty-peace-germany-reservations"
+          },
+          {
+            "title": "Library of Congress, Palmer Raids timeline and newspaper records",
+            "url": "https://guides.loc.gov/chronicling-america-palmer-raids"
+          },
+          {
+            "title": "Immigration law of October 16, 1918, 40 Stat. 1012, sections 1–2",
+            "url": "https://www.govinfo.gov/content/pkg/STATUTE-40/pdf/STATUTE-40-Pg1012.pdf"
+          },
+          {
+            "title": "PBS American Experience, Emma Goldman",
+            "url": "https://www.pbs.org/wgbh/americanexperience/features/goldman-1869-1940/"
+          }
+        ]
+      }
     },
     "a-changing-american-culture": {
       "title": "A Changing American Culture",

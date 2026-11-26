@@ -605,25 +605,25 @@
           "slug": "causes-of-world-war-i",
           "title": "Causes of World War I",
           "essential": "Why did a regional crisis become a global war in 1914?",
-          "task": "Write a claim about Causes of World War I with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Build a dated sequence from the Sarajevo assassination to Austria-Hungary’s declaration of war. Explain one way the crisis widened and use both U.S. diplomatic reports to show what was still uncertain in late July."
         },
         {
           "slug": "why-did-the-united-states-enter-the-war",
           "title": "Why Did the United States Enter the War?",
           "essential": "Why did U.S. neutrality give way to intervention in 1917?",
-          "task": "Write a claim about Why Did the United States Enter the War? with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Write two short responses. First, use the telegram and Wilson’s message to weigh two pressures on neutrality. Then explain how the American Expeditionary Forces contributed to the Allied offensive in 1918 and name one reason the outcome depended on more than U.S. forces."
         },
         {
           "slug": "americans-on-the-home-front",
           "title": "Americans on the Home Front",
           "essential": "How did total war change civil liberties and everyday life?",
-          "task": "Write a claim about Americans on the Home Front with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Make three evidence notes. Explain how draft registration and Black migration helped meet different wartime needs. Explain the purpose and one consequence of restricting dissent. Then compare one wartime argument used for each of the two amendments, naming one reason each reform also had roots before the war."
         },
         {
           "slug": "the-treaty-of-versailles",
           "title": "The Treaty of Versailles",
           "essential": "Did the postwar settlement establish a lasting peace?",
-          "task": "Write a claim about The Treaty of Versailles with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Explain why Wilson supported collective security and why Lodge sought limits on U.S. obligations under Article X. In a separate paragraph, use the 1918 law and one Red Scare case to trace how fear of radicalism led to a raid, detention, or deportation. Identify who was affected and what evidence would show whether others had similar experiences."
         }
       ],
       "sources": [
@@ -636,7 +636,7 @@
           "sourceUrl": "https://www.archives.gov/milestone-documents/zimmermann-telegram",
           "sourceType": "Primary source: diplomatic telegram",
           "excerpt": "Germany proposed cooperation with Mexico if the United States entered the war; the message helps explain U.S. debate but cannot alone explain all causes of intervention.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
+          "limitation": "The proposed alliance depended on the United States entering the war. The telegram does not record Mexican acceptance.",
           "documentExcerpt": "",
           "sourceNote": "Germany proposed cooperation with Mexico if the United States entered the war; the message helps explain U.S. debate but cannot alone explain all causes of intervention.",
           "lessonContext": "European imperial rivalries, militarization, alliance commitments, and nationalism created instability before 1914. The assassination of Archduke Franz Ferdinand in Sarajevo triggered a sequence of diplomatic ultimatums and mobilizations. The July Crisis involved decisions by Austria-Hungary, Serbia, Russia, Germany, France, and Britain under severe uncertainty. Alliances affected calculations but did not erase the agency of political leaders. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
@@ -650,120 +650,120 @@
           "sourceUrl": "https://www.archives.gov/milestone-documents/address-to-congress-declaration-of-war-against-germany",
           "sourceType": "Primary source: presidential address",
           "excerpt": "Wilson urged war against Germany and framed intervention in moral and security terms; a presidential appeal needs comparison with actual threats and public debate.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
+          "limitation": "Wilson’s address is the president’s public case to Congress. It does not establish the reasons individual legislators voted for or against war.",
           "documentExcerpt": "",
           "sourceNote": "Wilson urged war against Germany and framed intervention in moral and security terms; a presidential appeal needs comparison with actual threats and public debate.",
           "lessonContext": "The United States remained officially neutral when World War I began. German unrestricted submarine warfare endangered shipping, while the Zimmermann Telegram proposed an alliance between Germany and Mexico. Germany resumed unrestricted submarine warfare in 1917 after prior confrontations over attacks on ships. These maritime events interacted with American commercial relationships and public debate. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
         },
         {
-          "label": "Document C · Wilson's Fourteen Points",
-          "title": "Wilson's Fourteen Points",
-          "creator": "President Woodrow Wilson",
-          "date": "1918",
-          "url": "https://www.archives.gov/milestone-documents/president-woodrow-wilsons-14-points",
-          "sourceUrl": "https://www.archives.gov/milestone-documents/president-woodrow-wilsons-14-points",
-          "sourceType": "Primary source: peace proposal",
-          "excerpt": "Wilson argued for principles of postwar peace; proposed ideals do not demonstrate that the Treaty of Versailles fully carried them out.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
+          "label": "Document C · Versailles, Article X",
+          "title": "Covenant of the League of Nations, Article X",
+          "creator": "Treaty signatories",
+          "date": "June 28, 1919",
+          "url": "https://avalon.law.yale.edu/imt/parti.asp",
+          "sourceUrl": "https://avalon.law.yale.edu/imt/parti.asp",
+          "sourceType": "Primary source: treaty text",
+          "excerpt": "Member governments agreed to respect and preserve one another’s territorial integrity and political independence against outside aggression.",
+          "limitation": "The covenant describes a proposed obligation for members. Read the Senate debate to understand why the United States did not accept it.",
           "documentExcerpt": "",
-          "sourceNote": "Wilson argued for principles of postwar peace; proposed ideals do not demonstrate that the Treaty of Versailles fully carried them out.",
-          "lessonContext": "U.S. mobilization for World War I involved military conscription, industrial production, public campaigns, and changing work roles. The Great Migration of Black Americans from the South to northern and western cities accelerated across this era. War mobilization increased demand in certain industries while heightening disputes about wages, migration, and racial discrimination. Women took on jobs outside previous expectations, but these changes differed by occupation. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
+          "sourceNote": "Read Article X and identify what the League Council was expected to do.",
+          "lessonContext": "Compare Article X with Wilson’s Fourteen Points and the Senate reservations in the Versailles lesson."
         },
         {
-          "label": "Document D · Additional interpretation",
-          "title": "The Treaty of Versailles",
-          "creator": "Examine the Past curriculum editors",
-          "date": "2026 instructional summary",
-          "url": "../the-treaty-of-versailles/",
-          "sourceUrl": "../the-treaty-of-versailles/",
-          "sourceType": "Secondary source: lesson interpretation, NOT primary evidence",
-          "excerpt": "The 1919 Treaty of Versailles imposed territorial, military, and financial terms on Germany and established the League of Nations framework. President Wilson advocated collective security and self-determination, although the settlement applied those principles unevenly. The treaty included the League of Nations covenant, but its other provisions addressed reparations, territory, and military limitations. The agreement was more complex than a single punishment clause. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-          "limitation": "This is a modern instructional interpretation, not an original primary document. Use it for context; investigate originals for source-based claims.",
+          "label": "Document D · Black migration and war work",
+          "title": "The Great Migration, page 1",
+          "creator": "Smithsonian American Art Museum",
+          "date": "Historical account of early twentieth-century migration",
+          "url": "https://americanexperience.si.edu/wp-content/uploads/2014/07/The-Great-Migration.pdf",
+          "sourceUrl": "https://americanexperience.si.edu/wp-content/uploads/2014/07/The-Great-Migration.pdf",
+          "sourceType": "Secondary source: institutional history",
+          "excerpt": "Industries including railroads and steel mills recruited Black workers during World War I. The Pennsylvania Railroad recruited Black workers in 1916.",
+          "limitation": "The recruitment example shows why some employers recruited in the South. It does not establish why each worker moved or what conditions each faced.",
           "documentExcerpt": ""
         }
       ],
       "questions": [
         {
-          "prompt": "The Zimmermann Telegram and Wilson's April 1917 address relate to U.S. entry into war. What does the telegram establish most directly?",
+          "prompt": "What does the Zimmermann Telegram establish most directly?",
           "choices": [
-            "A German proposal involving Mexico during the war",
-            "That the treaty ending the war was already agreed",
-            "That every American supported intervention"
+            "Germany sought Mexican cooperation if the United States entered the war.",
+            "Mexico committed to the alliance before the U.S. declaration.",
+            "Germany withdrew its submarine policy in return for Mexican cooperation."
           ],
           "answer": 0,
-          "explain": "The telegram is evidence of one diplomatic proposal, not of universal U.S. opinion."
+          "explain": "The German proposal was conditional. The telegram does not show Mexican acceptance."
         },
         {
-          "prompt": "Wilson described U.S. entry as a defense of rights and peace. How should a historian test that explanation?",
+          "prompt": "Which explanation best connects the U.S. Meuse–Argonne campaign to the Allied outcome?",
           "choices": [
-            "Use the 1919 peace settlement to determine all causes in 1914",
-            "Compare his address with submarine-warfare reports, diplomatic records, and dissenting voices",
-            "Treat the address as a complete record of every motive"
+            "U.S. forces fought alone after other Allied armies withdrew.",
+            "The American First Army added pressure in one sector as other Allied armies fought elsewhere.",
+            "The campaign was already over before U.S. troops entered combat."
           ],
           "answer": 1,
-          "explain": "Policy speeches need context and corroboration."
+          "explain": "The Meuse–Argonne offensive was one part of the wider Allied effort on the Western Front."
         },
         {
-          "prompt": "The Fourteen Points proposed principles for peace. What additional source best tests their implementation?",
+          "prompt": "What does Document D help explain about wartime mobilization?",
           "choices": [
-            "A map of prewar alliances only",
-            "A 1917 U.S. military recruitment poster",
-            "The Treaty of Versailles terms and records of negotiations"
+            "Most draft registrants went to work for the railroads.",
+            "Military service was the primary reason Black workers migrated north.",
+            "Black migration helped some war-related employers meet labor demand."
           ],
           "answer": 2,
-          "explain": "Compare proposed principles with negotiated outcomes."
+          "explain": "The railroad example connects Black migration with new demand for workers in wartime industries."
         },
         {
-          "prompt": "Source A is a secret telegram; Source B is a public address. What is the most important difference for interpretation?",
+          "prompt": "Why did Lodge and other reservationists question Article X?",
           "choices": [
-            "They were created for different audiences and political purposes",
-            "Public statements are always more reliable than private messages",
-            "The telegram cannot include any valid facts because it was secret"
+            "They wanted to preserve Congress’s authority over U.S. military commitments.",
+            "They favored giving the League Council control over Congress’s decisions.",
+            "They believed Article X applied only to nations that stayed outside the League."
           ],
           "answer": 0,
-          "explain": "Purpose and audience influence what each text reveals."
+          "explain": "Reservationists wanted to condition membership to protect congressional war powers."
         },
         {
-          "prompt": "A classmate claims that the assassination in Sarajevo alone caused the global war. What evidence challenges that explanation?",
+          "prompt": "What do the 1917 prohibition appeal and Wilson’s 1918 suffrage address have in common?",
           "choices": [
-            "A battle photograph from 1918 without source information",
-            "Earlier alliance commitments, militarization, and imperial rivalry",
-            "Only a biography of the assassin without international context"
+            "Both establish that the reform movements started after U.S. entry.",
+            "Both used wartime needs or wartime service to build a case for an existing reform.",
+            "Both show that congressional approval followed immediately."
           ],
           "answer": 1,
-          "explain": "Multiple long-term causes helped turn a regional crisis into wider conflict."
+          "explain": "Wartime arguments gave existing reforms new leverage. The movements predated U.S. entry."
         },
         {
-          "prompt": "Which is the strongest qualified conclusion about Wilson's wartime and postwar goals?",
+          "prompt": "Which comparison distinguishes wartime restrictions on speech from First Red Scare immigration enforcement?",
           "choices": [
-            "His public goals were identical to all Allied and defeated governments' goals",
-            "The Fourteen Points removed future international conflicts automatically",
-            "His stated goals influenced debate, but the peace settlement reflected negotiations and competing interests"
+            "Both depended on a constitutional amendment adopted after the war.",
+            "Both affected only noncitizens who had just entered the country.",
+            "The Debs case concerned speech and recruitment. Some Red Scare deportations used immigration law against noncitizens."
           ],
           "answer": 2,
-          "explain": "Policy proposals were shaped by conflict and compromise."
+          "explain": "The two episodes used different legal mechanisms, even though both involved government action against perceived threats."
         }
       ],
       "matchingOptions": [
         "Zimmermann Telegram",
         "Wilson's War Message",
-        "Wilson's Fourteen Points"
+        "Versailles, Article X"
       ],
       "matchingPrompts": [
         {
-          "prompt": "Which original record helps investigate Zimmermann Telegram and its historical context?",
+          "prompt": "Which document records a conditional German proposal involving Mexico?",
           "answer": 0
         },
         {
-          "prompt": "Which original record helps investigate Wilson's War Message and its historical context?",
+          "prompt": "Which document gives the president’s public case to Congress for entering the war?",
           "answer": 1
         },
         {
-          "prompt": "Which original record helps investigate Wilson's Fourteen Points and its historical context?",
+          "prompt": "Which document states the collective security obligation debated in the Senate?",
           "answer": 2
         }
       ],
-      "inquiryPrompt": "Why did the United States enter World War I and how far did war change democracy at home and abroad?",
+      "inquiryPrompt": "How did entry into World War I change what Americans expected the federal government to do?",
       "inquirySteps": [
         "Compare the sources and record their perspectives and limitations.",
         "Develop a focused historical question and identify which sources address it.",
@@ -775,21 +775,21 @@
         2
       ],
       "conclusions": [
-        "Wilson's Fourteen Points prove that the Treaty of Versailles adopted every American proposal.",
-        "Documents B and C can help historians compare how evidence, policy and experience relate to world war i.",
-        "Document A records a position or record from 1917, but it needs context to support claims about historical effects."
+        "Documents A and B reveal different positions on U.S. entry. One is a diplomatic proposal and the other is a public argument for war.",
+        "The Zimmermann Telegram establishes that Mexico formally entered the war against the United States.",
+        "Document C describes a League obligation. The Senate’s failure to give consent kept the United States from taking it on."
       ],
       "conclusionKey": [
-        false,
         true,
+        false,
         true
       ],
-      "writing": "Why did the United States enter World War I and how far did war change democracy at home and abroad? Construct a qualified historical argument using at least three specific facts supported by two original records from this unit and one other kind of evidence (such as testimony, a map, statistics, or a carefully attributed secondary interpretation). Explain each source's date and perspective, compare experiences of affected communities, discuss at least one limitation, and address a plausible counterargument.",
-      "challenge": "Create a museum exhibit or document-based investigation responding to: Why did the United States enter World War I and how far did war change democracy at home and abroad? Use four attributed sources, a chronological visualization, two perspectives, an evidence limitation and a defended curator thesis.",
-      "standards": "Maryland 2025 High School United States History Framework; historical inquiry and relevant unit content. Exact indicator crosswalk pending.",
-      "framework": "https://msde.maryland.gov/media/17926",
-      "sourceAudit": "Original documents linked to the National Archives, Library of Congress, presidential libraries, or National September 11 Memorial; source cards contain instructional summaries, not verbatim transcriptions. Verify original collection item, creator, and date before citing.",
-      "sampleAnswer": "The question raised in World War I is: Why did the United States enter World War I and how far did war change democracy at home and abroad? The evidence suggests that decisions and events changed institutions and opportunities, but the results differed among people and places. A defensible argument requires attention to whom a policy or movement affected, not only its supporters' intentions.\n\nDocument A (Zimmermann Telegram, 1917) provides one perspective: Germany proposed cooperation with Mexico if the United States entered the war; the message helps explain U.S. Document B (Wilson's War Message, April 2, 1917) adds another: Wilson urged war against Germany and framed intervention in moral and security terms; a presidential appeal needs comparison with actual threats and public debate. These records identify choices or experiences, but their authors and purposes must be considered before treating them as complete accounts.\n\nDocument C (Wilson's Fourteen Points, 1918) supplies further evidence: Wilson argued for principles of postwar peace; proposed ideals do not demonstrate that the Treaty of Versailles fully carried them out. A historian should test these records against different evidence such as the observations of affected communities, independent statistics, archaeological evidence when relevant, and the unit's contextual lesson reading. The sources do not necessarily measure results by themselves.\n\nA reasonable counterargument might emphasize the benefits or stated goals of these developments. Those claims deserve evaluation, but they do not eliminate unintended consequences, unequal impacts or limits of the evidence. I would therefore defend a qualified conclusion and explain which further sources might change it."
+      "writing": "How did entering World War I change the U.S. government’s role at home and abroad? First, weigh two pressures on neutrality. Then explain one domestic change involving migration and mobilization, civil liberties, or constitutional reform. Compare it with one change abroad involving the 1918 Allied offensive or the debate over League membership. Support your argument with two primary records and one corroborating source from the unit. Address a plausible counterargument and explain one limit of your evidence.",
+      "challenge": "Compare a wartime restriction on dissent with one First Red Scare immigration action. Use a statute, a case or contemporary account, and one historical interpretation. Explain how each policy was justified, whom it affected, and where the evidence supports or limits a comparison.",
+      "standards": "Maryland High School United States History Framework (June 2025), USH.2.1.a–g. Lesson exit tickets include evidence for objectives that are optional in the written performance task.",
+      "framework": "https://msde.maryland.gov/media/17926#page=11",
+      "sourceAudit": "Document summaries identify the passages to read. Return to the lesson readings for the draft records, wartime laws and court case, suffrage and prohibition appeals, and the Senate debate.",
+      "sampleAnswer": "U.S. entry increased the federal government’s role in mobilizing people at home, but participation in the war did not settle what obligations the country would accept afterward. The Zimmermann Telegram raised the possibility of a German alliance with Mexico. Wilson’s April 2 address shows why submarine attacks also mattered: they threatened neutral shipping even without a Mexican alliance. The telegram alone cannot explain what persuaded Congress.\n\nAt home, the federal government expanded its ability to raise an army through draft registration. National Archives records count roughly 24 million registrants. Registration is evidence of the system’s reach, but it does not reveal who served or how people felt about conscription.\n\nAbroad, Article X proposed that members protect one another against aggression. A supporter could argue that U.S. participation would help prevent another war. But the Senate debate shows that some senators wanted to protect Congress’s power over military commitments. The failed votes left the United States outside the League, even after it had fought alongside the Allies."
     },
     "9.5": {
       "id": "9.5",
