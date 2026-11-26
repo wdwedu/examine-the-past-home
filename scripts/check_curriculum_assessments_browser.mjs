@@ -39,14 +39,15 @@ async function checkMarylandLessons(page) {
   assert.equal(lessons.length, 40);
   assert.equal(lessons.filter(([, lesson]) => lesson.marylandAlignment.inquiry).length, 4);
   const cases = lessons.flatMap(([, lesson]) => lesson.caseStudies ?? []);
-  assert.equal(cases.length, 41);
+  assert.equal(cases.length, 54);
   const coveredContent = new Set([
     ...lessons.filter(([, lesson]) => !lesson.marylandAlignment.inquiry).map(([, lesson]) => lesson.marylandAlignment.code),
     ...cases.map(study => study.code),
   ]);
-  assert.equal(coveredContent.size, 70);
+  assert.equal(coveredContent.size, 83);
   assert.equal([...coveredContent].filter(code => code.startsWith("MWH.2.")).length, 25);
   assert.equal([...coveredContent].filter(code => code.startsWith("MWH.3.")).length, 32);
+  assert.equal([...coveredContent].filter(code => code.startsWith("MWH.4.")).length, 17);
   for (const [slug, lesson] of lessons) {
     const url = new URL(`lessons/curriculum/${courses[11]}/${slug}/`, root);
     assert.ok((await page.goto(url.href, { waitUntil: "domcontentloaded" }))?.ok(), slug);
@@ -87,7 +88,7 @@ async function checkMarylandLessons(page) {
     }
 
   }
-  console.log("PASS Maryland objectives and exit tickets in all 40 Grade 11 lessons");
+  console.log(`PASS Maryland objectives and exit tickets in all 40 Grade 11 lessons and ${cases.length} case studies`);
 }
 
 const answer = (page, index, value) => page.locator(`input[name="q${index}"][value="${value}"]`);

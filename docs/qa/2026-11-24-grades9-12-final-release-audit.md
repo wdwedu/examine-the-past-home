@@ -65,6 +65,12 @@ The [browser run](https://github.com/wdwedu/examine-the-past-home/actions/runs/4
 
 Three Grade 11 claims gained supporting passages in the source ledger. The ledger now records 115 open claims, six partly verified claims, and 15 supported claims.
 
+### Grade 11 globalization and human rights · November 25
+
+This build adds 13 case studies to six Grade 11 lessons. All 17 Maryland Section 4 objectives have a designated student task, and the course links all 83 numbered content objectives to tasks. The [Maryland tracker](2026-11-24-grades9-12-maryland-standards-crosswalk-queue.md#grade-11-course-coverage-by-maryland-objective) lists where students respond and identifies named cases and skills that require a fuller review.
+
+The source ledger adds supporting passages for the United Nations and the Universal Declaration of Human Rights. It now records 115 open claims, four partly verified claims, and 17 supported claims.
+
 The scorecard and gates below record the original audit baseline.
 
 ## Executive scorecard

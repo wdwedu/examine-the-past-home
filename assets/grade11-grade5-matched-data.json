@@ -5661,7 +5661,29 @@
         "objective": "Compare political organization and negotiations in Ghana and Kenya during the move from British rule to independence.",
         "evidence": "Use Nkrumah’s 1957 Ghana Parliament speech and the account of Kenya's transition to identify one role each played by Nkrumah and Kenyatta. Explain one similarity or difference in their routes to power and what an official record leaves out about local organizers.",
         "criteria": "Names an action or role for both leaders and explains a similarity or difference in the political path to independence."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.4.3.d",
+          "title": "What political independence made possible",
+          "reading": [
+            "Political independence gave African governments more authority to make their own laws and development choices. Botswana used diamond export revenues to finance development. Heavy reliance on a single export continued to expose the country to changes in the market for diamonds.",
+            "Mauritius reduced its dependence on sugar over time as activity grew in manufacturing, tourism, and services. These two cases show different uses of self-government. They also show how economic opportunities, inherited export patterns, and access to foreign markets can shape what independent institutions are able to change."
+          ],
+          "prompt": "Compare one policy choice and one persistent constraint in each country. Use a dated indicator or documented change from each source to judge one impact of self-rule. Explain what else you would need to separate the effects of government policy from those of global markets.",
+          "criteria": "Uses evidence for both countries and distinguishes political authority, economic outcomes, and factors outside national control.",
+          "sources": [
+            {
+              "title": "World Bank · Botswana country economic analysis",
+              "url": "https://documents1.worldbank.org/curated/en/099112023112034378/pdf/BOSIB056106b900660a7d8068fe9cad99f2.pdf"
+            },
+            {
+              "title": "World Bank · Mauritius economic and political overview",
+              "url": "https://www.worldbank.org/ext/en/country/mauritius"
+            }
+          ]
+        }
+      ]
     },
     "decolonization-in-asia": {
       "title": "Decolonization in Asia",
@@ -6042,6 +6064,30 @@
               "url": "https://history.state.gov/milestones/1969-1976/south-asia"
             }
           ]
+        },
+        {
+          "code": "MWH.4.1.a",
+          "title": "How two political shifts opened markets",
+          "reading": [
+            "After communist governments fell across Central and Eastern Europe, many states began replacing centrally planned systems with market economies. Changes in trade and investment rules opened new dealings with firms abroad. The transition varied by country, and it disrupted jobs and incomes as older systems changed.",
+            "China began market-oriented reforms after Mao's death while maintaining Communist Party rule. Reforms starting in 1978 included steps toward opening to foreign investment, with early experiments in special economic zones. China joined the World Trade Organization in 2001. That sequence began before the Cold War ended."
+          ],
+          "prompt": "Build two short timelines. Compare one barrier to trade or investment that changed in each case. Explain why describing both as market openings can obscure the differences in timing, political authority, and effects on workers.",
+          "criteria": "Identifies an actual policy mechanism in each case, correctly sequences China's opening and the end of the Cold War, and distinguishes the political systems.",
+          "sources": [
+            {
+              "title": "EBRD · Ten Years of Transition",
+              "url": "https://www.ebrd.com/content/dam/ebrd_dxp/assets/pdfs/office-of-the-chief-economist/transition-report-archive/transition-report-1999/Transition-Report-1999-Ten-years-of-Transition-English.pdf"
+            },
+            {
+              "title": "World Bank · China's major policy reforms",
+              "url": "https://documents1.worldbank.org/curated/en/696751468016214474/pdf/wps4223.pdf"
+            },
+            {
+              "title": "World Trade Organization · China's membership",
+              "url": "https://www.wto.org/english/thewto_e/countries_e/china_e.htm"
+            }
+          ]
         }
       ]
     },
@@ -6182,7 +6228,49 @@
         "objective": "Compare the WTO with NAFTA and its successor agreement as institutions that shape trade rules.",
         "evidence": "Read the opening provisions of the Marrakesh Agreement and the WTO record for USMCA. Explain the difference between a multilateral institution and a regional agreement. Give one plausible effect of a rule for producers or workers and name the data needed to test it.",
         "criteria": "Identifies who is covered and what the two arrangements do, distinguishes NAFTA from USMCA, and separates a predicted effect from an observed result."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.4.1.b",
+          "title": "Who controls a global supply chain?",
+          "reading": [
+            "A multinational firm can own production facilities abroad, buy from independent suppliers, or do both. In apparel, an international brand can control product design and retail while contracting factories in another country to make garments. That lets the firm expand its reach without owning every factory.",
+            "These relationships can create jobs and new export markets. Their benefits and costs depend on where decisions and bargaining power sit. A supplier can gain customers yet remain exposed to decisions made abroad, such as changes in order volume, price, or delivery requirements."
+          ],
+          "prompt": "Trace a garment from the buyer's design and purchasing decisions to a supplier and worker. Using the report, explain how multinational firms both expand and depend on global trade. Give one opportunity and one source of vulnerability for a supplier or worker.",
+          "criteria": "Distinguishes foreign ownership from contracting, explains the relationship in both directions, and supports the proposed benefit and vulnerability with evidence.",
+          "sources": [
+            {
+              "title": "World Bank · Trading for Development in the Age of Global Value Chains",
+              "url": "https://www.worldbank.org/en/publication/wdr2020"
+            }
+          ]
+        },
+        {
+          "code": "MWH.4.2.e",
+          "title": "Who can act on shared environmental problems?",
+          "reading": [
+            "Governments that share rivers or lakes can use the Water Convention to coordinate through agreements and joint bodies. Their choices affect how users share scarce water and how communities downstream experience pollution. International agreement can support coordination, while local systems still determine whether households can obtain safe water.",
+            "Brazil's Amazon Fund supports projects intended to reduce deforestation and promote sustainable use. The Paris Agreement takes a global approach to warming, with countries setting and updating national climate contributions. Those contributions can include a transition toward low-emission energy. A policy's stated goals and its observed effects require different evidence."
+          ],
+          "prompt": "Compare the water agreement, the Amazon Fund, and the Paris Agreement. For each, identify the level of action, who is responsible, and a result that could be measured. Across your comparison, address scarcity, clean water, forests, warming, and sustainable energy.",
+          "criteria": "Uses a documented mechanism in each case and proposes an outcome measure that can distinguish implementation from a promise.",
+          "sources": [
+            {
+              "title": "UNECE · Guide to Implementing the Water Convention, article 9 on joint bodies",
+              "url": "https://unece.org/sites/default/files/2021-01/ECE_MP.WAT_39_Guide_to_implementing_water_convention_small_size_ENG.pdf"
+            },
+            {
+              "title": "Amazon Fund · Program purpose and governance",
+              "url": "https://www.amazonfund.gov.br/en/amazon-fund"
+            },
+            {
+              "title": "UNFCCC · The Paris Agreement",
+              "url": "https://unfccc.int/process-and-meetings/the-paris-agreement"
+            }
+          ]
+        }
+      ]
     },
     "the-united-nations-and-international-cooperation": {
       "title": "The United Nations and International Cooperation",
@@ -6321,7 +6409,33 @@
         "objective": "Compare the UN's assigned role and its ability to respond during the 1994 genocide in Rwanda.",
         "evidence": "Compare the April and May changes in UNAMIR's mandate with the later independent inquiry. Explain one change in what the mission was authorized to do, one documented obstacle, and one reason why authority in a resolution did not guarantee an outcome.",
         "criteria": "Dates the mandate changes, separates authorization from implementation, and supports a judgment with both a UN record and the inquiry."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.4.5.b",
+          "title": "Negotiation, regional cooperation, and accountability",
+          "reading": [
+            "The Belfast Agreement addressed a conflict in Europe through negotiated reforms, including power sharing and provisions concerning rights and policing. In Southeast Asia, ASEAN members set out a legal framework for cooperation on preventing terrorism, supporting investigations, and working together across national jurisdictions.",
+            "In the Middle East, the UNITAD team supported accountability for grave crimes in Iraq by collecting and analyzing evidence. Its findings on crimes against the Yazidi community illustrate what an investigation can establish. Negotiating representation, coordinating laws, and documenting crimes answer different needs."
+          ],
+          "prompt": "Compare how these responses sought to improve civilian security. For each region, identify who had authority, what the response was intended to achieve, and one way you would measure how well it worked. Explain which response most directly supports survivors seeking accountability.",
+          "criteria": "Uses all three regions, identifies an actual action in each, and judges each approach against a goal it could reasonably achieve.",
+          "sources": [
+            {
+              "title": "UK government · The Belfast Agreement",
+              "url": "https://www.gov.uk/government/publications/the-belfast-agreement"
+            },
+            {
+              "title": "UN Treaty Series · ASEAN Convention on Counter Terrorism, article VI",
+              "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%203199/Part/volume-3199-I-54629.pdf"
+            },
+            {
+              "title": "UN in Iraq · UNITAD findings on crimes against the Yazidi community",
+              "url": "https://iraq.un.org/en/278383-unitad-publishes-detailed-findings-international-crimes-including-genocide-committed-isil-da"
+            }
+          ]
+        }
+      ]
     },
     "human-rights-and-global-challenges": {
       "title": "Human Rights and Global Challenges",
@@ -6460,7 +6574,113 @@
         "objective": "Explain how organized resistance and political negotiation helped end apartheid in South Africa.",
         "evidence": "Use the Truth and Reconciliation Commission chronology and the South African government's account of the 1994 election. Explain how one example of organized opposition and one political turning point helped move the country toward a nonracial election. Cite both sources and name a perspective they leave out.",
         "criteria": "Connects two documented factors to the transition, identifies the electoral change, and recognizes that the two official accounts have different purposes."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.4.3.a",
+          "title": "Three routes toward rights and political participation",
+          "reading": [
+            "In Argentina, the Mothers of Plaza de Mayo began publicly seeking information about disappeared relatives under military rule in 1977. Their activism made disappearances a public issue. In Guatemala, a truth commission established through the peace process documented violence against civilians and issued findings and recommendations after the civil war.",
+            "In Nicaragua, international observers monitored the 1990 election, in which opposition candidate Violeta Chamorro defeated incumbent Daniel Ortega. Public protest, truth-seeking, and elections opened different routes for people to demand rights or change their government. Each route had limits."
+          ],
+          "prompt": "Identify the people making demands in each case, the institutions they used or challenged, and an outcome. Compare what public protest, a truth commission, and an election could achieve. Explain which evidence would establish whether the gains lasted.",
+          "criteria": "Uses all three cases and distinguishes public visibility, findings and recommendations, and a transfer of political power.",
+          "sources": [
+            {
+              "title": "Government of Argentina · First Mothers of Plaza de Mayo gathering (Spanish)",
+              "url": "https://www.argentina.gob.ar/node/262827"
+            },
+            {
+              "title": "Abdorrahman Boroumand Center · Guatemala's truth commission and findings",
+              "url": "https://www.iranrights.org/library/document/3107"
+            },
+            {
+              "title": "Carter Center · Nicaragua election observation",
+              "url": "https://www.cartercenter.org/country/nicaragua/"
+            }
+          ]
+        },
+        {
+          "code": "MWH.4.3.c",
+          "title": "When an election opens political space",
+          "reading": [
+            "Egypt's 2011 protests brought together citizens with different demands, including political change and economic opportunity. Mohamed Morsi won the 2012 presidential election. Political polarization, opposition mobilization, and the military's continuing power shaped events before the military removed him in 2013.",
+            "In Iraq, elections in 2005 opened a route to representation after Saddam Hussein's government fell. Insecurity and differing levels of participation across communities complicated that transition. In Iran, protesters challenged the official 2009 presidential election result, and state authorities repressed the Green Movement. Voters' choices and the power of institutions outside an election shaped all three cases."
+          ],
+          "prompt": "For each country, identify an opening and an obstacle for democratic participation. Compare political institutions, social divisions, and one economic factor supported by a source. Distinguish evidence of an economic grievance from evidence that it caused a political outcome.",
+          "criteria": "Addresses Egypt, Iraq, and Iran with dated evidence, compares at least three kinds of influence, and identifies the limits of election results as a measure of democracy.",
+          "sources": [
+            {
+              "title": "Carnegie Endowment · Egypt's political party history since 2011",
+              "url": "https://carnegieendowment.org/files/CP305_Dunne_and_Hamzawy_Parties_Final_Web.pdf"
+            },
+            {
+              "title": "U.S. Department of State archive · Milestones in Iraq's political development",
+              "url": "https://2001-2009.state.gov/p/nea/rls/66532.htm"
+            },
+            {
+              "title": "U.S. Institute of Peace · Iran's Green Movement",
+              "url": "https://iranprimer.usip.org/resource/green-movement"
+            }
+          ]
+        },
+        {
+          "code": "MWH.4.4.a",
+          "title": "Compare persecution, displacement, and justice",
+          "reading": [
+            "The Khmer Rouge took power in Cambodia in 1975 and imposed forced relocation and labor. Many Cambodians died from execution, starvation, or disease, and courts later recognized genocide against targeted groups. In Rwanda in 1994, extremist leaders organized genocide against the Tutsi in the context of civil war. Moderate Hutu and others were also killed.",
+            "In 2014, ISIL persecuted the Yazidi community in Iraq. A United Nations investigative team documented evidence of genocide and other international crimes. Survivors in each case faced consequences beyond the period of organized violence, including displacement, loss of family or community members, and struggles for documentation and justice."
+          ],
+          "prompt": "Compare Cambodia, Rwanda, and Iraq. For each, identify one condition that made persecution possible, who was targeted, and one consequence. Explain why evidence of displacement alone cannot establish genocide and what further evidence a court or investigator would need.",
+          "criteria": "Uses all three cases, identifies responsible actors and targeted populations, and distinguishes a social consequence from evidence for a legal finding.",
+          "sources": [
+            {
+              "title": "U.S. Holocaust Memorial Museum · Cambodia and Khmer Rouge trials",
+              "url": "https://www.ushmm.org/genocide-prevention/countries/cambodia/the-cases"
+            },
+            {
+              "title": "U.S. Holocaust Memorial Museum · Rwanda",
+              "url": "https://www.ushmm.org/genocide-prevention/countries/rwanda"
+            },
+            {
+              "title": "UN in Iraq · UNITAD findings on crimes against the Yazidi community",
+              "url": "https://iraq.un.org/en/278383-unitad-publishes-detailed-findings-international-crimes-including-genocide-committed-isil-da"
+            }
+          ]
+        },
+        {
+          "code": "MWH.4.5.a",
+          "title": "Political outcomes of violence against civilians",
+          "reading": [
+            "In Northern Ireland, negotiations after decades of conflict involving paramilitary organizations produced an agreement that provided for power sharing and consent on constitutional change. In Spain, ETA dissolved in 2018 without achieving its goal of an independent Basque state. In Russia, Moscow restored federal control in Chechnya after wars involving separatists. Civilian harm and repression persisted as political concerns.",
+            "In the Middle East, Hamas won Palestinian legislative elections in 2006 and took control of Gaza in 2007. Those political developments did not resolve the conflict or end harm to civilians. In Peru, the Shining Path insurgency failed to take national power. Peru's truth commission documented grave abuses and found that rural and Indigenous communities bore a disproportionate share of the harm."
+          ],
+          "prompt": "Compare the political aims and outcomes in all five cases and document one cost to civilians using the readings. Explain why a settlement, territorial control, or an electoral result cannot by itself show that violence produced that outcome.",
+          "criteria": "Distinguishes the five outcomes, cites evidence about civilian harm, and separates chronology from causal claims.",
+          "sources": [
+            {
+              "title": "UK government · The Belfast Agreement",
+              "url": "https://www.gov.uk/government/publications/the-belfast-agreement"
+            },
+            {
+              "title": "Euronews · ETA's dissolution",
+              "url": "https://www.euronews.com/2018/05/03/basque-separatist-group-eta-announces-formal-end-to-60-year-fight-for-independence"
+            },
+            {
+              "title": "Council on Foreign Relations · Russia's North Caucasus",
+              "url": "https://www.cfr.org/backgrounders/instability-russias-north-caucasus-region"
+            },
+            {
+              "title": "CFR Education · Israeli-Palestinian conflict timeline",
+              "url": "https://www.cfr.org/education/learn/timelines/israeli-palestinian-conflict-timeline"
+            },
+            {
+              "title": "Peru Truth and Reconciliation Commission · Final report conclusions",
+              "url": "https://www.cverdad.org.pe/ingles/ifinal/conclusiones.php"
+            }
+          ]
+        }
+      ]
     },
     "technology-migration-and-modern-societies": {
       "title": "Technology, Migration, and Modern Societies",
@@ -6599,7 +6819,93 @@
         "objective": "Assess how online platforms can connect employers and workers across borders and change working conditions.",
         "evidence": "Use the ILO overview to distinguish online web-based work from platform jobs that require a worker's local presence. Describe an opportunity and a risk of remote contracting, and explain what evidence would show whether effects differ by country or worker group.",
         "criteria": "Names a mechanism for cross-border work, explains one benefit and one risk, and identifies an appropriate comparison or measure."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.4.2.a",
+          "title": "Urban growth, migration, and the limits of city data",
+          "reading": [
+            "Lagos and London are both connected to international commerce, but they sit within different histories of urbanization. The United Nations tracks the growth of urban agglomerations, which can include built-up areas outside a city's administrative boundary. Its series shows substantial long-term growth in the Lagos agglomeration. A World Bank report identifies both migration and natural population increase as drivers of growth in Lagos.",
+            "England and Wales census data show that London had the highest proportion of residents born outside the United Kingdom among English regions in 2021. Birthplace can show that someone moved internationally during their lifetime. It cannot tell us when they moved, why they moved, or how much migration alone explains a city's growth."
+          ],
+          "prompt": "Use the UN table, the Lagos report, and the London census to compare trends in population, urban growth, and migration. Explain one way cross-border economic ties could influence each city. Identify one local data measure needed to compare how much migration contributes to growth in the two cities.",
+          "criteria": "Uses evidence from Lagos and London, distinguishes urban population from residents born abroad, and explains how to test an inference about economic ties.",
+          "sources": [
+            {
+              "title": "UN population division · World Urbanization Prospects, table II",
+              "url": "https://population.un.org/wup/assets/Publications/WUP2018-Highlights.pdf"
+            },
+            {
+              "title": "Office for National Statistics · International migration, Census 2021",
+              "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/internationalmigrationenglandandwales/census2021"
+            },
+            {
+              "title": "World Bank · Lagos growth and migration, Development Trends and Challenges",
+              "url": "https://documents1.worldbank.org/curated/en/099062123034023646/pdf/P1750310c8d0390000afa70e5c583aa3b87.pdf"
+            }
+          ]
+        },
+        {
+          "code": "MWH.4.2.b",
+          "title": "Garment work, gender, and unequal bargaining power",
+          "reading": [
+            "Export manufacturing can expand access to paid work for women and open routes for migrants and their families. Jordan's export garment sector employs a large share of migrant workers, many from South Asia, and women make up much of the workforce. Factory jobs can alter expectations about who earns wages and who can send income to relatives.",
+            "A job can also reproduce inequalities. Pay grades, immigration status, and recruitment practices can affect workers' options. Sorting jobs along national or gender lines can reinforce assumptions about who belongs in particular roles. Workforce data by nationality cannot establish racial discrimination on their own."
+          ],
+          "prompt": "Use the industry records to explain how export jobs can challenge one local expectation and reinforce another. Assess how class, gender, and nationality shape bargaining power. Explain what further evidence would help determine whether workers also face a racialized hierarchy.",
+          "criteria": "Uses a supported example of change and continuity, connects three dimensions of inequality, and distinguishes nationality data from evidence of racial treatment.",
+          "sources": [
+            {
+              "title": "ILO and Better Work Jordan · Workforce inclusion and worker profiles",
+              "url": "https://www.ilo.org/sites/default/files/2024-06/Guidelines%20for%20Enhancing%20the%20Employment%20of%20People-BWJ.pdf"
+            },
+            {
+              "title": "World Bank · Trading for Development in the Age of Global Value Chains",
+              "url": "https://www.worldbank.org/en/publication/wdr2020"
+            }
+          ]
+        },
+        {
+          "code": "MWH.4.2.c",
+          "title": "What digital platforms do to popular culture",
+          "reading": [
+            "Online video and streaming let recordings circulate internationally. Audiences can share clips, organize fan communities, and add translations. South Korea's cultural ministry tracks the international Korean Wave, which includes popular music and screen entertainment.",
+            "Access to a platform does not distribute attention evenly. Search, recommendation, and payment systems influence which artists audiences encounter and how creators are paid. UNESCO examines both the wider reach of digital cultural work and the difficulty of making diverse work discoverable."
+          ],
+          "prompt": "Use the Korean Wave as a case to compare two mechanisms that spread culture online. Judge how strongly the evidence supports one claim about consumer behavior and one about cultural diversity. Name a statistic or comparison that could change your judgment.",
+          "criteria": "Connects a named example to digital distribution and audience behavior and weighs a benefit against a limit of platform evidence.",
+          "sources": [
+            {
+              "title": "Republic of Korea Ministry of Culture, Sports and Tourism · 2024 Overseas Hallyu Survey",
+              "url": "https://www.mcst.go.kr/english/policy/pressView.jsp?pSeq=383"
+            },
+            {
+              "title": "UNESCO · Cultural and creative industries in the digital environment",
+              "url": "https://www.unesco.org/reports/reshaping-creativity/2022/en/new-opportunities-challenges-inclusive-cultural-creative-industries-digital-environment"
+            }
+          ]
+        },
+        {
+          "code": "MWH.4.2.d",
+          "title": "Travel, contact, and the 2003 SARS response",
+          "reading": [
+            "In 2003, a traveler returning from Hong Kong was the first recognized case in Toronto's SARS outbreak. International travel connected outbreaks across distant cities. In Toronto, much of the documented transmission occurred among patients, staff, and visitors in and around hospitals.",
+            "Population density counts people in a given area. Exposure also depends on which people share a place and for how long. The Toronto records show why hospital contact patterns mattered. Local authorities investigated cases and hospital transmission, while the World Health Organization monitored regional spread and issued travel advice."
+          ],
+          "prompt": "Use the dated reports to trace a connection between international travel and local transmission. Compare what population density and contact setting can each explain. Assess the respective roles of local and international authorities and identify one limit of comparing two cities using case totals alone.",
+          "criteria": "Uses a dated detail from each report, distinguishes introduction from local spread, and explains how a response changed with new information.",
+          "sources": [
+            {
+              "title": "CDC historical report · Toronto SARS update, June 2003",
+              "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5223a4.htm"
+            },
+            {
+              "title": "WHO historical report · Toronto transmission update, May 2003",
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2003_05_26-en"
+            }
+          ]
+        }
+      ]
     }
   },
   "marylandUnitArguments": {

@@ -11,10 +11,10 @@ Grades 11–12 disciplinary-literacy benchmark: https://www.thecorestandards.org
 |---|---|---|
 | Grade 9 · U.S. History | 1 of 45 has a partial documented match (Brown v. Board). | Map 44 lessons and expand the Brown task to cover Mendez v. Westminster and short- and long-term effects. |
 | Grade 10 · American Government | 1 of 31 has a partial documented match (How American Elections Work). | Map 30 lessons and extend the elections task to evaluate the Electoral College across two periods. |
-| Grade 11 · Modern World History | 40 of 40 lessons have an objective, student task, and success criteria. Of these, 36 link to specific content objectives and four to Maryland inquiry skills. All 11 unit assessments have a focused written argument. | Link the 13 Section 4 objectives with no designated task and finish coverage of partial objectives. Then check source passages and teacher-scored writing. |
+| Grade 11 · Modern World History | 40 of 40 lessons have an objective, student task, and success criteria. Of these, 36 link to specific content objectives and four to Maryland inquiry skills. All 11 unit assessments have a focused written argument. | Check the breadth and depth of the tasks linked to all 83 content objectives. Then check source passages and teacher-scored writing. |
 | Grade 12 · Social Studies Electives | 20 lessons have proposed broad topics. | Confirm the applicable local course expectations, then map all 20 lessons and their assessments. |
 
-**Grade 11 next pass.** Add tasks for the 13 unlinked objectives in Section 4 on globalization and human rights. Sections 1–3 now have designated tasks for all numbered objectives. Check how fully each task covers its objective and keep the four inquiry-focused lessons as support for historical reasoning.
+**Grade 11 next pass.** Review named cases, regions, and historical skills against the full wording of each objective. Review samples of student responses against the written assessment criteria.
 
 **Gaps in lessons already mapped.** Examples include China and Africa in the industrialization comparison, Samori Ture and Tanganyika in the resistance comparison, Ben Bella and Algeria in postwar independence, and the World Court and nongovernmental organizations in the conflict-response objective. See each lesson row for the full scope of its task. Check other framework objectives even where a lesson already maps to one objective.
 
@@ -22,18 +22,34 @@ Grades 11–12 disciplinary-literacy benchmark: https://www.thecorestandards.org
 
 ### Grade 11 course coverage by Maryland objective
 
-The state framework lists 83 numbered content objectives. Seventy have a linked lesson or case-study task, which can cover only a portion of the objective. Thirteen have no designated task in this tracker. Some of their topics already appear in course readings and need a review before deciding whether to add teaching material or just assess it.
+The state framework lists 83 numbered content objectives. All 83 have a linked lesson or case-study task. Some tasks cover a subset of the people, regions, or skills named in the objective. Review that scope in the lesson-level evidence before using the course for full alignment.
 
 | MSDE framework section | Objectives linked to a task | Objectives to review for a task |
 |---|---:|---:|
 | 1 · Early connections and overseas expansion | 9 of 9 | 0 |
 | 2 · Political revolutions, industry, and empire | 25 of 25 | 0 |
 | 3 · World wars, independence, and the Cold War | 32 of 32 | 0 |
-| 4 · Globalization and human rights | 4 of 17 | 13 |
+| 4 · Globalization and human rights | 17 of 17 | 0 |
 
-Objectives to review by code
+### Grade 11 globalization and human rights · November 25
 
-- Section 4: MWH.4.1.a, MWH.4.1.b, MWH.4.2.a, MWH.4.2.b, MWH.4.2.c, MWH.4.2.d, MWH.4.2.e, MWH.4.3.a, MWH.4.3.c, MWH.4.3.d, MWH.4.4.a, MWH.4.5.a, MWH.4.5.b.
+Thirteen case studies on six existing lesson pages give the previously unlinked Section 4 objectives a designated task. Each has a short reading, linked sources, a written response and teacher criteria. The tasks contribute evidence at the scope described in each reading. The conflict-response objective MWH.4.4.b still needs its own coverage review for the World Court and humanitarian organizations.
+
+| Maryland objective | New student task | Find it in Guided Practice |
+|---|---|---|
+| MWH.4.1.a | How two political shifts opened markets | 11.10 · [The Collapse of the Soviet Union](../../lessons/curriculum/grade-11-modern-world-history/the-collapse-of-the-soviet-union/index.html#history-case-mwh-4-1-a) |
+| MWH.4.1.b | Who controls a global supply chain? | 11.11 · [Globalization and Interdependence](../../lessons/curriculum/grade-11-modern-world-history/globalization-and-interdependence/index.html#history-case-mwh-4-1-b) |
+| MWH.4.2.a | Urban growth, migration, and the limits of city data | 11.11 · [Technology, Migration, and Modern Societies](../../lessons/curriculum/grade-11-modern-world-history/technology-migration-and-modern-societies/index.html#history-case-mwh-4-2-a) |
+| MWH.4.2.b | Garment work, gender, and unequal bargaining power | 11.11 · [Technology, Migration, and Modern Societies](../../lessons/curriculum/grade-11-modern-world-history/technology-migration-and-modern-societies/index.html#history-case-mwh-4-2-b) |
+| MWH.4.2.c | What digital platforms do to popular culture | 11.11 · [Technology, Migration, and Modern Societies](../../lessons/curriculum/grade-11-modern-world-history/technology-migration-and-modern-societies/index.html#history-case-mwh-4-2-c) |
+| MWH.4.2.d | Travel, contact, and the 2003 SARS response | 11.11 · [Technology, Migration, and Modern Societies](../../lessons/curriculum/grade-11-modern-world-history/technology-migration-and-modern-societies/index.html#history-case-mwh-4-2-d) |
+| MWH.4.2.e | Who can act on shared environmental problems? | 11.11 · [Globalization and Interdependence](../../lessons/curriculum/grade-11-modern-world-history/globalization-and-interdependence/index.html#history-case-mwh-4-2-e) |
+| MWH.4.3.a | Three routes toward rights and political participation | 11.11 · [Human Rights and Global Challenges](../../lessons/curriculum/grade-11-modern-world-history/human-rights-and-global-challenges/index.html#history-case-mwh-4-3-a) |
+| MWH.4.3.c | When an election opens political space | 11.11 · [Human Rights and Global Challenges](../../lessons/curriculum/grade-11-modern-world-history/human-rights-and-global-challenges/index.html#history-case-mwh-4-3-c) |
+| MWH.4.3.d | What political independence made possible | 11.10 · [Independence Movements in Africa](../../lessons/curriculum/grade-11-modern-world-history/independence-movements-in-africa/index.html#history-case-mwh-4-3-d) |
+| MWH.4.4.a | Compare persecution, displacement, and justice | 11.11 · [Human Rights and Global Challenges](../../lessons/curriculum/grade-11-modern-world-history/human-rights-and-global-challenges/index.html#history-case-mwh-4-4-a) |
+| MWH.4.5.a | Political outcomes of violence against civilians | 11.11 · [Human Rights and Global Challenges](../../lessons/curriculum/grade-11-modern-world-history/human-rights-and-global-challenges/index.html#history-case-mwh-4-5-a) |
+| MWH.4.5.b | Negotiation, regional cooperation, and accountability | 11.11 · [The United Nations and International Cooperation](../../lessons/curriculum/grade-11-modern-world-history/the-united-nations-and-international-cooperation/index.html#history-case-mwh-4-5-b) |
 
 ### Grade 11 world wars, independence, and the Cold War · November 25
 
