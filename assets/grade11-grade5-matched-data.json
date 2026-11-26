@@ -4146,8 +4146,8 @@
               "url": "https://openstax.org/books/world-history-volume-2/pages/11-5-the-war-ends"
             },
             {
-              "title": "Imperial War Museums · First World War Galleries guide",
-              "url": "https://www.iwm.org.uk/sites/default/files/files/2023-10/first_world_war_large_print_guide.pdf"
+              "title": "Australian War Memorial · Amiens",
+              "url": "https://www.awm.gov.au/collection/E84380"
             }
           ]
         },
@@ -4164,10 +4164,6 @@
             {
               "title": "Library of Congress · World War I posters",
               "url": "https://www.loc.gov/free-to-use/wwi-posters/"
-            },
-            {
-              "title": "Library of Congress · About the collection",
-              "url": "https://www.loc.gov/collections/world-war-i-posters/about-this-collection/"
             }
           ]
         },
@@ -4186,8 +4182,8 @@
               "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10514/"
             },
             {
-              "title": "Imperial War Museums · First World War Galleries guide",
-              "url": "https://www.iwm.org.uk/sites/default/files/files/2023-10/first_world_war_large_print_guide.pdf"
+              "title": "National Army Museum · The East Africa campaign",
+              "url": "https://www.nam.ac.uk/explore/east-africa-campaign"
             },
             {
               "title": "Cornell University · Egyptian Labor Corps research",
@@ -4235,7 +4231,7 @@
             },
             {
               "title": "Public Health Reports · Influenza deaths recorded in India, 1918–19",
-              "url": "https://stacks.cdc.gov/view/cdc/67928/cdc_67928_DS1.pdf"
+              "url": "https://stacks.cdc.gov/view/cdc/67928/cdc_67928_DS1.pdf#page=12"
             }
           ]
         }
@@ -4419,8 +4415,8 @@
             "The League of Nations placed former German and Ottoman territories under mandates administered by other powers. Britain administered Tanganyika and Palestine, while France administered Syria and Lebanon. The mandate system created international reporting and oversight, but governing power largely rested with the countries administering each territory.",
             "In Palestine, British commitments to a Jewish national home gave the Zionist movement an international political opening, while Palestinian Arabs pressed their own claims to political rights. Opposition to French rule in Syria drew on local and Arab nationalist demands. Pan-African organizers also used the postwar settlement as a forum to press for political rights and protection of African interests."
           ],
-          "prompt": "Compare a mandate in Africa with one in the Middle East using Article 22 and the mandate records. Explain how oversight and administrative power worked in each. Then connect the settlement to one Zionist, Arab nationalist, or Pan-African claim and name one voice the mandate text leaves out.",
-          "criteria": "Distinguishes international oversight from day-to-day control, addresses both regions, and connects a named movement to a dated political dispute.",
+          "prompt": "Compare a mandate in Africa with one in the Middle East using Article 22 and the mandate records. Then explain how Zionist, Arab nationalist, and Pan-African organizers pursued their distinct goals in response to the postwar settlement. Name one group whose perspective the mandate text leaves out.",
+          "criteria": "Distinguishes oversight from day-to-day rule, addresses both regions, and connects each movement to a specific development in the postwar settlement.",
           "sources": [
             {
               "title": "Office of the Historian · Article 22 and mandate records",
@@ -4445,10 +4441,10 @@
           "title": "War and the campaign for women's suffrage",
           "reading": [
             "Women's voting-rights movements existed before the First World War. Wartime work expanded women's public roles in many countries and became part of the argument for enfranchisement. Activists took different approaches, including public protest, organizing, and support for the war effort.",
-            "Britain's 1918 reform gave the vote to some women aged 30 and older under qualifying rules. In the United States, ratification of the Nineteenth Amendment in 1920 prohibited denying voting rights on account of sex. Other barriers still restricted access for many women. Changes in law differed in timing and in who could use the right in practice."
+            "Britain's 1918 reform gave the vote to some women aged 30 and older under qualifying rules. In the United States, ratification of the Nineteenth Amendment in 1920 prohibited denying voting rights on account of sex. Other barriers still restricted access for many women. Changes in law differed in timing and in who could use the right in practice. In New Zealand, petitions had helped secure women's voting rights in 1893, a generation before the war."
           ],
-          "prompt": "Compare the British and U.S. cases. Give a prewar movement activity, a wartime experience that advocates could cite, and a postwar change in each. Judge how much the war mattered and name a limit or a group whose access the reform did not secure.",
-          "criteria": "Weighs wartime effects against prewar organizing, compares legal changes and remaining barriers, and cites both country readings.",
+          "prompt": "Compare suffrage reform in Britain and the United States with New Zealand's earlier reform. For Britain and the United States, weigh wartime pressures against organizing that began before the war. Use New Zealand as a comparison to explain what the timing alone can establish. Identify one limit on voting access in any case.",
+          "criteria": "Cites all three readings, weighs the war against other causes, and compares legal rights with access in practice.",
           "sources": [
             {
               "title": "UK Parliament · Representation of the People Act 1918",
@@ -4457,6 +4453,10 @@
             {
               "title": "National Park Service · Women's Suffrage and WWI",
               "url": "https://www.nps.gov/articles/womens-suffrage-wwi.htm"
+            },
+            {
+              "title": "NZ History · New Zealand women and the vote",
+              "url": "https://nzhistory.govt.nz/politics/womens-suffrage"
             }
           ]
         }
@@ -4632,8 +4632,8 @@
               "url": "https://www.loc.gov/exhibits/naacp/founding-and-early-years.html"
             },
             {
-              "title": "IIT Kanpur and NCERT · Nationalism in India",
-              "url": "https://sathee.iitk.ac.in/ncert-books/class-10/social-science/india-and-the-contemporary-world-2/chapter-02-nationalism-in-india/"
+              "title": "Gandhi Heritage · The Dandi Salt March",
+              "url": "https://www.mkgandhi.in/civil_dis/dandi_march.htm"
             },
             {
               "title": "Michael Provence · The Great Syrian Revolt and the Rise of Arab Nationalism",
@@ -4642,6 +4642,10 @@
             {
               "title": "Mexico's National Institute of Historical Studies of the Revolutions · Indigenous language and organizing",
               "url": "https://www.inehrm.gob.mx/recursos/Libros/2025_el_corazon_que_labra_la_tierra.pdf"
+            },
+            {
+              "title": "National Autonomous University of Mexico · Pátzcuaro Convention (Spanish)",
+              "url": "https://www.nacionmulticultural.unam.mx/100preguntas/pregunta.php?num_pre=75"
             }
           ]
         }
@@ -4793,8 +4797,8 @@
               "url": "https://openstax.org/books/us-history/pages/27-1-the-origins-of-war-europe-asia-and-the-united-states"
             },
             {
-              "title": "OpenStax · The Causes of World War II",
-              "url": "https://openstax.org/books/world-history-volume-2/pages/13-1-the-causes-of-world-war-ii"
+              "title": "OpenStax · An Unstable Peace",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/13-1-an-unstable-peace"
             }
           ]
         }
@@ -4946,8 +4950,8 @@
               "url": "https://openstax.org/books/world-history-volume-2/pages/13-2-theaters-of-war"
             },
             {
-              "title": "Imperial War Museums · Battle of Britain and the Blitz fact sheet",
-              "url": "https://www.iwm.org.uk/sites/default/files/press-release/Battle_of_Britain_and_Blitz_Factsheet.pdf"
+              "title": "RAF Museum · Radar in the Battle of Britain",
+              "url": "https://www.rafmuseum.org.uk/our-collection/supporting-research/online-exhibitions/how-radar-works/"
             },
             {
               "title": "United States Holocaust Memorial Museum · The Soviet Union and the Eastern Front",
@@ -5316,8 +5320,8 @@
               "url": "https://history.state.gov/milestones/1945-1952/arab-israeli-war"
             },
             {
-              "title": "The National Archives · Partition of British India",
-              "url": "https://www.nationalarchives.gov.uk/education/teaching-resources/partition-of-british-india/"
+              "title": "National Army Museum · Independence and Partition, 1947",
+              "url": "https://www.nam.ac.uk/explore/independence-and-partition-1947"
             },
             {
               "title": "Office of the Historian · The Chinese Revolution of 1949",
