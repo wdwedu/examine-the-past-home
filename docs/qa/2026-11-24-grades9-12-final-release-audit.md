@@ -61,6 +61,10 @@ The [browser run](https://github.com/wdwedu/examine-the-past-home/actions/runs/4
 
 The draft adds 21 Grade 11 Guided Practice case studies across 11 lessons. All 32 Maryland Section 3 objectives now have a designated student task, bringing the course total to 70 of 83. A designated task can cover only part of the objective. The [Maryland tracker](2026-11-24-grades9-12-maryland-standards-crosswalk-queue.md#grade-11-course-coverage-by-maryland-objective) lists all 13 unlinked Section 4 objectives and records the location of each new case study.
 
+The [browser run](https://github.com/wdwedu/examine-the-past-home/actions/runs/45732611621) passed for 40 Grade 11 lessons, 41 case studies, and 36 unit assessments at desktop and phone widths in Chromium. Case-study checks covered navigation, displayed readings and prompts, source destinations, and editable response fields.
+
+Three Grade 11 claims gained supporting passages in the source ledger. The ledger now records 115 open claims, six partly verified claims, and 15 supported claims.
+
 The scorecard and gates below record the original audit baseline.
 
 ## Executive scorecard
