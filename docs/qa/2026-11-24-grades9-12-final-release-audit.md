@@ -77,6 +77,8 @@ The [desktop and phone-width Chromium run](https://github.com/wdwedu/examine-the
 
 Nine Grade 9 lesson pages now show a Maryland framework objective and a matching exit ticket with linked sources and criteria. The opening eight lessons cover Units 9.1 and 9.2. The ninth compares Mendez and Brown in Unit 9.9. Reconstruction is labeled as prior-grade review, Big Business as a bridge-unit match, and the other seven as high-school content matches. Thirty-six Grade 9 lesson mappings remain. Three Grade 9 claims gained supporting evidence. The ledger now records 112 open, four partly verified, and 20 supported claims.
 
+The [desktop and phone-width Chromium run](https://github.com/wdwedu/examine-the-past-home/actions/runs/45813111861) passed for the nine updated Grade 9 lessons, all 40 Grade 11 lesson pages and 54 case studies, and all 36 high-school unit assessments. The Grade 9 checks covered framework and source destinations, the link to Closure, the Mendez–Brown reading, and editable exit tickets.
+
 The scorecard and gates below record the original audit baseline.
 
 ## Executive scorecard
