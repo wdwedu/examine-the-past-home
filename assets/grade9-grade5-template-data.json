@@ -1157,7 +1157,30 @@
           "url": "https://colecciones.agn.gob.do/opac/ficha.php?codopac=OPPUB&idpag=1431151555&informatico=00094750PI",
           "summary": "Dominican national-archives catalog record for Cuban revolutionary manifesto; Spanish original and the archive's bibliographic description require guided translation for English-language readers."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.1.2.a",
+        "kind": "content",
+        "page": 10,
+        "objective": "Weigh racial, economic, political, and strategic motives for U.S. overseas expansion.",
+        "prompt": "Identify a racial, economic, political, and strategic motive for overseas expansion. Decide which two best explain the U.S. push to annex Hawaiʻi. Use the sources to explain why, and identify whose interests one author left out.",
+        "criteria": "Distinguish the four motives, use specific evidence from two sources, and explain how the authors’ positions affect what their evidence can establish.",
+        "readingTitle": "Four motives for overseas expansion",
+        "reading": [
+          "In his 1898 campaign speech, Albert Beveridge argued that overseas trade could benefit U.S. producers. He also promoted the idea that the United States was destined to govern others. His portrayal of Filipinos as incapable of self-government reflected racial beliefs used to defend imperial rule. A campaign speech shows what a politician wanted an audience to believe. It cannot tell us how widely voters shared those views.",
+          "Hawaiʻi lets you test those arguments against a specific decision. U.S. planters had economic interests in the islands. During the war with Spain, the islands also offered a strategic stop for ships crossing the Pacific. Annexation would move political authority from an independent country to the United States. The Hawaiian Patriotic League petition organized opposition and challenges the idea that the people affected agreed with the policy."
+        ],
+        "sources": [
+          {
+            "title": "Albert Beveridge, The March of the Flag (1898 campaign speech)",
+            "url": "https://www.loc.gov/resource/gdcmassbookdig.marchofflagbegin00beve/?st=grid"
+          },
+          {
+            "title": "National Archives, Hawaiʻi petition and historical background",
+            "url": "https://www.archives.gov/education/lessons/hawaii-petition"
+          }
+        ]
+      }
     },
     "the-spanish-american-war": {
       "title": "The Spanish-American War",
@@ -1279,7 +1302,42 @@
         "American Imperialism: Crash Course US History #28",
         "QfsfoFqsFk4",
         0
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.1.2.b and USH.1.2.c",
+        "kind": "content",
+        "page": 10,
+        "objective": "Trace the origins and territorial effects of the Spanish–American War and compare the consequences of annexation in Hawaiʻi with those of the Philippine–American War.",
+        "prompt": "Explain one condition and one event that pushed the United States toward war with Spain. Use Articles I–III to identify two territorial outcomes. Then compare how Native Hawaiians and Filipinos resisted U.S. control, and explain one consequence for each.",
+        "criteria": "Distinguish a longer-term cause from an immediate event. Cite the treaty and evidence for both cases. Explain a consequence of each and keep the two wars in sequence.",
+        "readingTitle": "1898 in the Caribbean and Pacific",
+        "reading": [
+          "Cuban revolutionaries were already fighting for independence when the USS Maine exploded in Havana in February 1898. The explosion increased public pressure in the United States. The Treaty of Paris later required Spain to give up sovereignty over Cuba, which the United States occupied temporarily. Spain ceded Puerto Rico, Guam, and the Philippines to the United States.",
+          "Hawaiʻi was outside the peace treaty. A Native Hawaiian petition helped stop an annexation treaty in 1897, but Congress used a joint resolution in 1898 to annex the islands. In the Philippines, revolutionaries had declared independence from Spain. Fighting between Filipino and U.S. forces began in February 1899. The war caused extensive civilian suffering and established U.S. colonial control. Compare what the petition and the Filipino resistance show about how people responded to decisions made about their future."
+        ],
+        "sources": [
+          {
+            "title": "Office of the Historian, origins of the war with Spain",
+            "url": "https://history.state.gov/milestones/1866-1898/spanish-american-war"
+          },
+          {
+            "title": "Treaty of Paris, Articles I–III (1898)",
+            "url": "https://avalon.law.yale.edu/19th_century/sp1898.asp"
+          },
+          {
+            "title": "National Archives, Native Hawaiian petition against annexation",
+            "url": "https://www.archives.gov/education/lessons/hawaii-petition"
+          },
+          {
+            "title": "National Archives, Newlands Resolution (1898)",
+            "url": "https://www.archives.gov/milestone-documents/joint-resolution-for-annexing-the-hawaiian-islands"
+          },
+          {
+            "title": "Office of the Historian, the Philippine–American War",
+            "url": "https://history.state.gov/milestones/1899-1913/war"
+          }
+        ]
+      }
     },
     "america-s-changing-foreign-policy": {
       "title": "America's Changing Foreign Policy",
@@ -1380,7 +1438,39 @@
           "url": "https://www.archives.gov/milestone-documents/roosevelt-corollary",
           "summary": "NARA's exhibition heading uses 1905 while the corollary was articulated in the 1904 annual message. Preserve this distinction rather than silently changing the date."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.1.2.d",
+        "kind": "content",
+        "page": 10,
+        "objective": "Explain a cause and a consequence of U.S. involvement in Latin America, China, and Japan.",
+        "prompt": "For Panama, China, and Japan, name the policy or agreement and explain why U.S. officials pursued it and what followed. Cite a detail for each case. Compare two cases and identify one perspective missing from the records.",
+        "criteria": "Give a historically accurate cause and consequence for all three cases. Distinguish a policy’s stated goal from an observed outcome and identify a perspective useful for checking that outcome.",
+        "readingTitle": "Three cases of U.S. involvement",
+        "reading": [
+          "Panama: The United States wanted a canal route between the Atlantic and Pacific. When Colombia rejected the earlier treaty, the Roosevelt administration supported Panama’s separation from Colombia. Panama gained U.S. recognition, and a 1903 treaty granted the United States control over a strip of land for the canal. That arrangement made the canal possible and became a source of tension over sovereignty.",
+          "China: U.S. officials feared that powers with spheres of influence would restrict U.S. trade. In his 1899 letter to the U.S. ambassador in Britain, Secretary of State John Hay asked for equal treatment for commerce within those spheres. The notes put commercial access on the diplomatic agenda. Other powers gave conditional replies, and the policy left their existing privileges in place.",
+          "Japan: Diplomatic tensions grew after San Francisco ordered Japanese pupils into segregated schools in 1906. In the 1907–1908 Gentlemen’s Agreement, U.S. officials pressed the city to withdraw the order, and Japan restricted the emigration of laborers to the United States. Ending the school order and restricting immigration were different outcomes for Japanese families."
+        ],
+        "sources": [
+          {
+            "title": "Office of the Historian, building the Panama Canal",
+            "url": "https://history.state.gov/milestones/1899-1913/panama-canal"
+          },
+          {
+            "title": "John Hay, 1899 Open Door instructions to the U.S. ambassador in Britain",
+            "url": "https://history.state.gov/historicaldocuments/frus1899/d94"
+          },
+          {
+            "title": "Office of the Historian, background and responses to the Open Door notes",
+            "url": "https://history.state.gov/milestones/1899-1913/hay-and-china"
+          },
+          {
+            "title": "Office of the Historian, U.S.–Japanese relations and the Gentlemen’s Agreement",
+            "url": "https://history.state.gov/milestones/1899-1913/japanese-relations"
+          }
+        ]
+      }
     },
     "causes-of-world-war-i": {
       "title": "Causes of World War I",
@@ -3593,7 +3683,8 @@
         "reading": [
           "In 1946, a federal district court ruled against the segregation of children of Mexican descent in several Orange County school districts. In 1947, a federal appeals court upheld the result. That decision affected the districts in the case. California repealed school segregation provisions the same year, and Mendez became part of the wider history of challenges to unequal schooling.",
           "In 1954, the Supreme Court held in Brown that racial segregation in public schools violated the Fourteenth Amendment. The ruling reached beyond the districts involved in Mendez. Implementation took far longer. In 1957, federal action helped enforce a desegregation order at Central High School in Little Rock after state resistance. That episode shows why a national legal decision mattered and why local school access still depended on enforcement."
-        ]
+        ],
+        "readingTitle": "Compare Mendez and Brown"
       }
     },
     "martin-luther-king-jr-and-nonviolent-resistance": {

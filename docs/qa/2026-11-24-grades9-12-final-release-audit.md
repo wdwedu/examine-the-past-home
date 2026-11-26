@@ -79,6 +79,10 @@ Nine Grade 9 lesson pages now show a Maryland framework objective and a matching
 
 The [desktop and phone-width Chromium run](https://github.com/wdwedu/examine-the-past-home/actions/runs/45813111861) passed for the nine updated Grade 9 lessons, all 40 Grade 11 lesson pages and 54 case studies, and all 36 high-school unit assessments. The Grade 9 checks covered framework and source destinations, the link to Closure, the Mendez–Brown reading, and editable exit tickets.
 
+### Grade 9 Imperialism and Expansion · November 26
+
+Unit 9.3 adds Maryland objectives USH.1.2.a–d to all three lessons. The guided readings and exit tickets cover motives for expansion, causes and outcomes of the war with Spain, Hawaiʻi and the Philippines, and U.S. involvement in Panama, China, and Japan. The unit assessment now asks students to interpret the territorial terms of the Treaty of Paris and compare consequences across cases. This brings Grade 9 to 12 of 45 mapped lessons. The source ledger records 109 open, four partly verified, and 23 supported claims.
+
 The scorecard and gates below record the original audit baseline.
 
 ## Executive scorecard

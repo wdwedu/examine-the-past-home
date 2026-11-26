@@ -415,35 +415,35 @@
           "slug": "why-did-america-become-an-overseas-power",
           "title": "Why Did America Become an Overseas Power?",
           "essential": "What motivated U.S. overseas expansion, and who resisted it?",
-          "task": "Write a claim about Why Did America Become an Overseas Power? with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Identify a racial, economic, political, and strategic motive for overseas expansion. Decide which two best explain the U.S. push to annex Hawaiʻi. Use the sources to explain why, and identify whose interests one author left out."
         },
         {
           "slug": "the-spanish-american-war",
           "title": "The Spanish-American War",
           "essential": "How did a short war create long-term imperial questions?",
-          "task": "Write a claim about The Spanish-American War with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Explain one condition and one event that pushed the United States toward war with Spain. Use Articles I–III to identify two territorial outcomes. Then compare how Native Hawaiians and Filipinos resisted U.S. control, and explain one consequence for each."
         },
         {
           "slug": "america-s-changing-foreign-policy",
           "title": "America's Changing Foreign Policy",
           "essential": "How did U.S. foreign policy combine ideals, investment, and coercion?",
-          "task": "Write a claim about America's Changing Foreign Policy with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "For Panama, China, and Japan, name the policy or agreement and explain why U.S. officials pursued it and what followed. Cite a detail for each case. Compare two cases and identify one perspective missing from the records."
         }
       ],
       "sources": [
         {
-          "label": "Document A · De Lôme Letter",
-          "title": "De Lôme Letter",
-          "creator": "Spanish Ambassador Enrique Dupuy de Lôme",
-          "date": "1898",
-          "url": "https://www.archives.gov/milestone-documents/delome-letter",
-          "sourceUrl": "https://www.archives.gov/milestone-documents/delome-letter",
-          "sourceType": "Primary source: diplomatic correspondence",
-          "excerpt": "Diplomatic criticism of McKinley became public amid Cuban independence struggles; a published letter reveals one official's viewpoint, not the reasons of every American.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
+          "label": "Document A · Treaty of Paris",
+          "title": "Treaty of Paris, Articles I–III",
+          "creator": "United States and Spain",
+          "date": "December 10, 1898",
+          "url": "https://avalon.law.yale.edu/19th_century/sp1898.asp",
+          "sourceUrl": "https://avalon.law.yale.edu/19th_century/sp1898.asp",
+          "sourceType": "Primary source: peace treaty (Yale Avalon transcript)",
+          "excerpt": "Spain relinquished sovereignty over Cuba and ceded Puerto Rico, Guam, and the Philippines to the United States.",
+          "limitation": "The treaty gives the terms approved by the two governments. It does not represent the views of people across the affected territories.",
           "documentExcerpt": "",
-          "sourceNote": "Diplomatic criticism of McKinley became public amid Cuban independence struggles; a published letter reveals one official's viewpoint, not the reasons of every American.",
-          "lessonContext": "Late nineteenth-century U.S. advocates of overseas power emphasized commerce, naval strategy, competition, and ideas of national prestige. American involvement extended to Pacific and Caribbean territories. Commercial expansion, strategic coaling stations, naval planning, and ideological claims about national destiny worked together in late-nineteenth-century debates. An overseas possession could be described as both a market opportunity and a military asset. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
+          "sourceNote": "Compare the terms used for Cuba in Article I with the cessions in Articles II and III.",
+          "lessonContext": "Cuban revolutionaries had been fighting Spain before U.S. entry. The explosion of the USS Maine intensified public pressure for war. Filipino revolutionaries had already declared independence when the treaty was signed."
         },
         {
           "label": "Document B · Hawaiian Annexation Resolution",
@@ -454,7 +454,7 @@
           "sourceUrl": "https://www.archives.gov/milestone-documents/joint-resolution-for-annexing-the-hawaiian-islands",
           "sourceType": "Primary source: federal resolution",
           "excerpt": "The resolution records a congressional claim to annex Hawaii, but it does not prove all Native Hawaiians consented to annexation.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
+          "limitation": "The resolution records the decision of the U.S. Congress. Compare it with the 1897 petition to examine Native Hawaiian opposition.",
           "documentExcerpt": "",
           "sourceNote": "The resolution records a congressional claim to annex Hawaii, but it does not prove all Native Hawaiians consented to annexation.",
           "lessonContext": "The 1898 Spanish–American War was influenced by Cuban independence struggles, sensational press coverage, and U.S. strategic interests. The explosion of the USS Maine intensified public pressure, but its cause was not definitively established at the time. Cuban independence activists had struggled against Spanish colonial rule before U.S. intervention. A U.S. -centered account can wrongly make Cubans disappear from the origins of the conflict. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
@@ -463,12 +463,12 @@
           "label": "Document C · Roosevelt Corollary",
           "title": "Roosevelt Corollary",
           "creator": "President Theodore Roosevelt",
-          "date": "1905",
+          "date": "December 6, 1904 (message)",
           "url": "https://www.archives.gov/milestone-documents/roosevelt-corollary",
           "sourceUrl": "https://www.archives.gov/milestone-documents/roosevelt-corollary",
           "sourceType": "Primary source: presidential policy statement",
           "excerpt": "The corollary presented a justification for U.S. intervention in the Western Hemisphere; stated policy and effects on local sovereignty must be distinguished.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
+          "limitation": "The message explains Roosevelt’s rationale for intervention. It cannot establish how local governments or communities responded to a particular intervention.",
           "documentExcerpt": "",
           "sourceNote": "The corollary presented a justification for U.S. intervention in the Western Hemisphere; stated policy and effects on local sovereignty must be distinguished.",
           "lessonContext": "The Open Door notes sought equal commercial opportunity in China amid imperial competition. Theodore Roosevelt's 1904 corollary to the Monroe Doctrine justified intervention in parts of Latin America. The Roosevelt Corollary framed intervention as a way of preventing European interference, but its application increased U.S. power over neighboring countries' affairs. Stated security aims and actual power relations may be different. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
@@ -488,14 +488,14 @@
       ],
       "questions": [
         {
-          "prompt": "The de Lôme letter was written by a Spanish diplomat, then published in a U.S. newspaper. What most needs consideration before interpreting U.S. reaction?",
+          "prompt": "Which comparison correctly distinguishes Cuba from the Philippines in Articles I and III?",
           "choices": [
-            "Whether all readers understood the translation in exactly the same way",
-            "The letter's original purpose and how publication changed its audience",
-            "Whether the Spanish diplomat represented the opinion of every Cuban resident"
+            "Both were ceded to the United States.",
+            "Spain relinquished sovereignty over Cuba and ceded the Philippines to the United States.",
+            "Spain relinquished sovereignty over the Philippines and ceded Cuba to the United States."
           ],
           "answer": 1,
-          "explain": "A privately addressed diplomatic letter acquired a new purpose and audience through publication."
+          "explain": "Article I provides for Spain to relinquish sovereignty over Cuba and anticipates U.S. occupation. Article III cedes the Philippines to the United States."
         },
         {
           "prompt": "Congress approved Hawaii's annexation in 1898. What additional evidence is needed to investigate consent?",
@@ -549,21 +549,21 @@
         }
       ],
       "matchingOptions": [
-        "De Lôme Letter",
+        "Treaty of Paris",
         "Hawaiian Annexation Resolution",
         "Roosevelt Corollary"
       ],
       "matchingPrompts": [
         {
-          "prompt": "Which original record helps investigate De Lôme Letter and its historical context?",
+          "prompt": "Which record distinguishes relinquishing sovereignty over Cuba from ceding the Philippines?",
           "answer": 0
         },
         {
-          "prompt": "Which original record helps investigate Hawaiian Annexation Resolution and its historical context?",
+          "prompt": "Which record shows what Congress did after the earlier annexation treaty stalled?",
           "answer": 1
         },
         {
-          "prompt": "Which original record helps investigate Roosevelt Corollary and its historical context?",
+          "prompt": "Which record gives Roosevelt’s rationale for U.S. intervention in the Western Hemisphere?",
           "answer": 2
         }
       ],
@@ -579,21 +579,21 @@
         2
       ],
       "conclusions": [
-        "Document A records a position or record from 1898, but it needs context to support claims about historical effects.",
+        "The Treaty of Paris establishes how Spain and the United States handled Cuba and the Philippines. It leaves open how residents responded.",
         "The 1898 congressional annexation resolution proves that every Native Hawaiian consented to U.S. annexation.",
-        "Documents B and C can help historians compare how evidence, policy and experience relate to imperialism and expansion."
+        "Documents B and C provide evidence of two different forms of U.S. power: annexation and a claimed right to intervene."
       ],
       "conclusionKey": [
         true,
         false,
         true
       ],
-      "writing": "Did overseas expansion advance American ideals or contradict self-government? Construct a qualified historical argument using at least three specific facts supported by two original records from this unit and one other kind of evidence (such as testimony, a map, statistics, or a carefully attributed secondary interpretation). Explain each source's date and perspective, compare experiences of affected communities, discuss at least one limitation, and address a plausible counterargument.",
+      "writing": "To what extent did U.S. imperial expansion between 1898 and 1908 uphold self-government? Explain which motive mattered most in one decision, how the war with Spain changed control of two territories, and how Hawaiʻi or the Philippines illustrates a consequence for the people affected. Compare one of those examples with U.S. involvement in Panama, China, or Japan. Cite two primary records and one corroborating source from the unit, address a plausible counterargument, and explain one limitation in the evidence.",
       "challenge": "Create a museum exhibit or document-based investigation responding to: Did overseas expansion advance American ideals or contradict self-government? Use four attributed sources, a chronological visualization, two perspectives, an evidence limitation and a defended curator thesis.",
-      "standards": "Maryland 2025 High School United States History Framework; historical inquiry and relevant unit content. Exact indicator crosswalk pending.",
-      "framework": "https://msde.maryland.gov/media/17926",
-      "sourceAudit": "Original documents linked to the National Archives, Library of Congress, presidential libraries, or National September 11 Memorial; source cards contain instructional summaries, not verbatim transcriptions. Verify original collection item, creator, and date before citing.",
-      "sampleAnswer": "The question raised in Imperialism and Expansion is: Did overseas expansion advance American ideals or contradict self-government? The evidence suggests that decisions and events changed institutions and opportunities, but the results differed among people and places. A defensible argument requires attention to whom a policy or movement affected, not only its supporters' intentions.\n\nDocument A (De Lôme Letter, 1898) provides one perspective: Diplomatic criticism of McKinley became public amid Cuban independence struggles; a published letter reveals one official's viewpoint, not the reasons of every American. Document B (Hawaiian Annexation Resolution, 1898) adds another: The resolution records a congressional claim to annex Hawaii, but it does not prove all Native Hawaiians consented to annexation. These records identify choices or experiences, but their authors and purposes must be considered before treating them as complete accounts.\n\nDocument C (Roosevelt Corollary, 1905) supplies further evidence: The corollary presented a justification for U.S. A historian should test these records against different evidence such as the observations of affected communities, independent statistics, archaeological evidence when relevant, and the unit's contextual lesson reading. The sources do not necessarily measure results by themselves.\n\nA reasonable counterargument might emphasize the benefits or stated goals of these developments. Those claims deserve evaluation, but they do not eliminate unintended consequences, unequal impacts or limits of the evidence. I would therefore defend a qualified conclusion and explain which further sources might change it."
+      "standards": "Maryland High School United States History Framework (June 2025), USH.1.2.a–d. The lesson exit tickets also assess cases the written assessment lets students choose among.",
+      "framework": "https://msde.maryland.gov/media/17926#page=10",
+      "sourceAudit": "The evidence packet links original government records and a classroom overview. The three lesson pages also link to the Native Hawaiian petition, the Open Door correspondence, and the histories of the Philippine–American War, Panama, and U.S.–Japan diplomacy.",
+      "sampleAnswer": "U.S. expansion upheld self-government unevenly. Congress promised in the Teller Amendment that the United States would leave control of Cuba to its people after pacification. Articles I and III of the Treaty of Paris gave Cuba and the Philippines different outcomes. Spain relinquished sovereignty over Cuba, which the United States occupied temporarily. Spain ceded the Philippines to the United States. A demand for trade and naval access helps explain why U.S. leaders valued a presence in the Pacific. The Office of the Historian’s account shows that Filipino forces fought U.S. rule. The treaty reveals what the negotiators agreed to, but it does not tell us what Filipinos wanted.\n\nIn Panama, support for separation from Colombia helped Panamanian leaders secure recognition. The agreement for the canal also gave the United States authority in the Canal Zone. A counterargument is that recognition advanced Panamanian independence. That benefit was real and existed alongside limits on Panamanian control in the Canal Zone. To test how people experienced that trade-off, I would compare the diplomatic record with Panamanian sources on local views and canal governance."
     },
     "9.4": {
       "id": "9.4",

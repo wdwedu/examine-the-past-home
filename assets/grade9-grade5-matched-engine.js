@@ -104,7 +104,7 @@ function reframe(d){
  intro=intro.replace('</section>','<div class="g5-activity"><h3>Your opening thought</h3><label for="g9-opening-notes">What do you already think about this historical question, and what evidence could change your view?</label><textarea class="g5-writing" id="g9-opening-notes" placeholder="Initial thinking… Evidence I need…"></textarea></div></section>');
  let guided=reshape("discover","discover","discover","Guided Practice","03 · Read · Watch · Model · Investigate");
  if(alignment?.reading){
-  const comparison='<div class="g5-activity"><h3>Compare Mendez and Brown</h3>'+alignment.reading.map(text=>'<p>'+E(text)+'</p>').join("")+'</div>';
+  const comparison='<div class="g5-activity"><h3>'+E(alignment.readingTitle)+ '</h3>'+alignment.reading.map(text=>'<p>'+E(text)+'</p>').join("")+'</div>';
   guided=guided.replace('</section>',comparison+'</section>');
  }
  let independent=reshape("lab","apply","apply","Independent / Group Practice","04 · Collaborate · Investigate · Create");
@@ -206,5 +206,5 @@ function wire(d){
  QA("[data-source-good]").forEach(b=>b.onclick=()=>{const ok=b.dataset.sourceGood==="true";Q("#g5-source-result").textContent=ok?"Correct. Corroboration and missing perspectives matter.":"Review historical sourcing. Context matters more than confidence.";assess("reliability",ok,b)});
  Q("#g5-copy").onclick=()=>{const txt=Q("#g5-written").value,o=Q("#g5-copy-result");if(!txt.trim()){o.textContent="Write a response first.";return}if(navigator.clipboard&&isSecureContext)navigator.clipboard.writeText(txt).then(()=>o.textContent="Copied.").catch(()=>o.textContent="Select text manually.");else{Q("#g5-written").select();o.textContent="Selected. Copy using your device."}};
 }
-fetch(root+"assets/grade9-grade5-template-data.json?v=20261126-md-v1").then(r=>{if(!r.ok)throw Error("Data unavailable");return r.json()}).then(all=>{if(!all.lessons[slug])throw Error("Lesson missing");build(all.lessons[slug],all)}).catch(err=>{console.error(err);const target=page.querySelector(".etp-preview-label");if(target)target.textContent="Lesson content unavailable. Refresh or return to course.";});
+fetch(root+"assets/grade9-grade5-template-data.json?v=20261126-md-v2").then(r=>{if(!r.ok)throw Error("Data unavailable");return r.json()}).then(all=>{if(!all.lessons[slug])throw Error("Lesson missing");build(all.lessons[slug],all)}).catch(err=>{console.error(err);const target=page.querySelector(".etp-preview-label");if(target)target.textContent="Lesson content unavailable. Refresh or return to course.";});
 })();

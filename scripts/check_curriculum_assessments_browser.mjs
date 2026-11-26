@@ -33,7 +33,10 @@ async function checkGrade9Alignment(page) {
   assert.ok(response.ok);
   const { lessons } = await response.json();
   const mapped = Object.entries(lessons).filter(([, lesson]) => lesson.marylandAlignment);
-  assert.equal(mapped.length, 9);
+  assert.equal(mapped.length, 12);
+  const imperialismCodes = mapped.filter(([, lesson]) => lesson.unit === "9.3")
+    .flatMap(([, lesson]) => lesson.marylandAlignment.code.split(" and "));
+  assert.deepEqual(imperialismCodes.sort(), ["USH.1.2.a", "USH.1.2.b", "USH.1.2.c", "USH.1.2.d"]);
   const frameworkIds = { content: 17926, bridge: 17926, review: 17918 };
   for (const [slug, { marylandAlignment: alignment }] of mapped) {
     const url = new URL(`lessons/curriculum/${courses[9]}/${slug}/`, root);
@@ -59,12 +62,13 @@ async function checkGrade9Alignment(page) {
     assert.equal(await field.inputValue(), "I can support this claim with evidence.");
     if (alignment.reading) {
       const guided = page.locator("#discover");
+      assert.ok(await guided.getByRole("heading", { name: alignment.readingTitle, exact: true }).isVisible());
       for (const paragraph of alignment.reading) {
         assert.ok((await guided.innerText()).includes(paragraph));
       }
     }
   }
-  console.log("PASS Maryland alignment, sources, and exit tickets in nine Grade 9 lessons");
+  console.log("PASS Maryland alignment, sources, and exit tickets in twelve Grade 9 lessons");
 }
 
 const worldHistoryResponse = await fetch(new URL("assets/grade11-grade5-matched-data.json", root));
@@ -136,6 +140,11 @@ async function checkMixedFormat(page, data) {
   const questions = page.locator("#questions fieldset");
   await questions.first().waitFor();
   assert.equal(await questions.count(), data.questions.length);
+  if (data.id === "9.3") {
+    assert.match(await questions.first().innerText(), /Cuba from the Philippines/);
+    assert.ok(await page.locator("#performance").getByText(data.writing, { exact: true }).isVisible());
+    assert.ok(await page.getByRole("heading", { name: "Document A · Treaty of Paris" }).isVisible());
+  }
 
   await page.getByRole("button", { name: "Grade My Answers" }).click();
   assert.match(await page.locator("#result").innerText(), /Assessment incomplete/);
