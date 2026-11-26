@@ -55,6 +55,8 @@ Twelve new case studies give the previously unlinked Section 2 objectives a desi
 
 The source ledger now records 118 open claims, six partly verified claims, and 12 supported claims.
 
+The [browser run](https://github.com/wdwedu/examine-the-past-home/actions/runs/45728795760) passed at desktop and phone widths for all 40 Grade 11 lessons, all 20 case studies, and all 36 high-school unit assessments. For the case studies, it checked in-page navigation, visible reading and prompt text, the displayed source destinations, and editable response fields.
+
 The scorecard and gates below record the original audit baseline.
 
 ## Executive scorecard
