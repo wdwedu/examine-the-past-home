@@ -39,13 +39,14 @@ async function checkMarylandLessons(page) {
   assert.equal(lessons.length, 40);
   assert.equal(lessons.filter(([, lesson]) => lesson.marylandAlignment.inquiry).length, 4);
   const cases = lessons.flatMap(([, lesson]) => lesson.caseStudies ?? []);
-  assert.equal(cases.length, 20);
+  assert.equal(cases.length, 41);
   const coveredContent = new Set([
     ...lessons.filter(([, lesson]) => !lesson.marylandAlignment.inquiry).map(([, lesson]) => lesson.marylandAlignment.code),
     ...cases.map(study => study.code),
   ]);
-  assert.equal(coveredContent.size, 49);
+  assert.equal(coveredContent.size, 70);
   assert.equal([...coveredContent].filter(code => code.startsWith("MWH.2.")).length, 25);
+  assert.equal([...coveredContent].filter(code => code.startsWith("MWH.3.")).length, 32);
   for (const [slug, lesson] of lessons) {
     const url = new URL(`lessons/curriculum/${courses[11]}/${slug}/`, root);
     assert.ok((await page.goto(url.href, { waitUntil: "domcontentloaded" }))?.ok(), slug);

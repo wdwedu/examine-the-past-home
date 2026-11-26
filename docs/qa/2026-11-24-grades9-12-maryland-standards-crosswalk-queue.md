@@ -11,10 +11,10 @@ Grades 11–12 disciplinary-literacy benchmark: https://www.thecorestandards.org
 |---|---|---|
 | Grade 9 · U.S. History | 1 of 45 has a partial documented match (Brown v. Board). | Map 44 lessons and expand the Brown task to cover Mendez v. Westminster and short- and long-term effects. |
 | Grade 10 · American Government | 1 of 31 has a partial documented match (How American Elections Work). | Map 30 lessons and extend the elections task to evaluate the Electoral College across two periods. |
-| Grade 11 · Modern World History | 40 of 40 lessons have an objective, student task, and success criteria. Of these, 36 link to specific content objectives and four to Maryland inquiry skills. All 11 unit assessments have a focused written argument. | Review the 34 objectives with no designated task and finish coverage of partial objectives. Then check source passages and teacher-scored writing. |
+| Grade 11 · Modern World History | 40 of 40 lessons have an objective, student task, and success criteria. Of these, 36 link to specific content objectives and four to Maryland inquiry skills. All 11 unit assessments have a focused written argument. | Link the 13 Section 4 objectives with no designated task and finish coverage of partial objectives. Then check source passages and teacher-scored writing. |
 | Grade 12 · Social Studies Electives | 20 lessons have proposed broad topics. | Confirm the applicable local course expectations, then map all 20 lessons and their assessments. |
 
-**Grade 11 next pass.** Compare the entire state framework against what the Grade 11 course teaches and assesses. The early-world case build now addresses the Ottoman, Ming, Mughal, and Atlantic colonial priorities. Sections 1 and 2 now have tasks for every numbered objective. Next map the 21 remaining objectives in Section 3 and the 13 in Section 4. Early Section 3 priorities include the global effects of World War I, the interwar period outside Europe, and Cold War conflicts beyond Europe. Keep the four inquiry-focused lessons as support for historical reasoning.
+**Grade 11 next pass.** Add tasks for the 13 unlinked objectives in Section 4 on globalization and human rights. Sections 1–3 now have designated tasks for all numbered objectives. Check how fully each task covers its objective and keep the four inquiry-focused lessons as support for historical reasoning.
 
 **Gaps in lessons already mapped.** Examples include China and Africa in the industrialization comparison, Samori Ture and Tanganyika in the resistance comparison, Ben Bella and Algeria in postwar independence, and the World Court and nongovernmental organizations in the conflict-response objective. See each lesson row for the full scope of its task. Check other framework objectives even where a lesson already maps to one objective.
 
@@ -22,19 +22,46 @@ Grades 11–12 disciplinary-literacy benchmark: https://www.thecorestandards.org
 
 ### Grade 11 course coverage by Maryland objective
 
-The state framework lists 83 numbered content objectives. Forty-nine have a linked lesson or case-study task, which can cover only a portion of the objective. Thirty-four have no designated task in this tracker. Some of their topics already appear in course readings and need a review before deciding whether to add teaching material or just assess it.
+The state framework lists 83 numbered content objectives. Seventy have a linked lesson or case-study task, which can cover only a portion of the objective. Thirteen have no designated task in this tracker. Some of their topics already appear in course readings and need a review before deciding whether to add teaching material or just assess it.
 
 | MSDE framework section | Objectives linked to a task | Objectives to review for a task |
 |---|---:|---:|
 | 1 · Early connections and overseas expansion | 9 of 9 | 0 |
 | 2 · Political revolutions, industry, and empire | 25 of 25 | 0 |
-| 3 · World wars, independence, and the Cold War | 11 of 32 | 21 |
+| 3 · World wars, independence, and the Cold War | 32 of 32 | 0 |
 | 4 · Globalization and human rights | 4 of 17 | 13 |
 
 Objectives to review by code
 
-- Section 3: MWH.3.2.a, MWH.3.2.c, MWH.3.2.d, MWH.3.2.e, MWH.3.2.f, MWH.3.2.g, MWH.3.3.b, MWH.3.3.c, MWH.3.3.d, MWH.3.4.b, MWH.3.4.c, MWH.3.5.b, MWH.3.6.b, MWH.3.6.c, MWH.3.6.d, MWH.3.7.b, MWH.3.8.b, MWH.3.8.c, MWH.3.10.a, MWH.3.10.b, MWH.3.10.c.
 - Section 4: MWH.4.1.a, MWH.4.1.b, MWH.4.2.a, MWH.4.2.b, MWH.4.2.c, MWH.4.2.d, MWH.4.2.e, MWH.4.3.a, MWH.4.3.c, MWH.4.3.d, MWH.4.4.a, MWH.4.5.a, MWH.4.5.b.
+
+### Grade 11 world wars, independence, and the Cold War · November 25
+
+Twenty-one case studies on 11 lesson pages fill the Section 3 gaps in designated student tasks. Each includes a reading, linked sources, a written response, and teacher criteria. Review the scope of individual objectives alongside the source-to-claim and educator review.
+
+| Maryland objective | New student task | Find it in Guided Practice |
+|---|---|---|
+| MWH.3.10.a | How Cold War rivalry shaped regional conflicts | 11.10 · [The Cold War and Global Rivalries](../../lessons/curriculum/grade-11-modern-world-history/the-cold-war-and-global-rivalries/index.html) |
+| MWH.3.10.b | Resistance to political repression in four settings | 11.10 · [The Collapse of the Soviet Union](../../lessons/curriculum/grade-11-modern-world-history/the-collapse-of-the-soviet-union/index.html) |
+| MWH.3.10.c | Domestic upheaval and China's foreign relations | 11.10 · [Decolonization in Asia](../../lessons/curriculum/grade-11-modern-world-history/decolonization-in-asia/index.html) |
+| MWH.3.2.a | How the fighting changed in 1918 | 11.8 · [Trench Warfare and Total War](../../lessons/curriculum/grade-11-modern-world-history/trench-warfare-and-total-war/index.html) |
+| MWH.3.2.c | Recruitment, food, and wartime propaganda | 11.8 · [Trench Warfare and Total War](../../lessons/curriculum/grade-11-modern-world-history/trench-warfare-and-total-war/index.html) |
+| MWH.3.2.d | World War I and labor across empires | 11.8 · [Trench Warfare and Total War](../../lessons/curriculum/grade-11-modern-world-history/trench-warfare-and-total-war/index.html) |
+| MWH.3.2.e | Armenian lives under Ottoman wartime policies | 11.8 · [Trench Warfare and Total War](../../lessons/curriculum/grade-11-modern-world-history/trench-warfare-and-total-war/index.html) |
+| MWH.3.2.f | Influenza across borders in 1918 | 11.8 · [Trench Warfare and Total War](../../lessons/curriculum/grade-11-modern-world-history/trench-warfare-and-total-war/index.html) |
+| MWH.3.2.g | Russia's revolutions and withdrawal from the war | 11.8 · [Causes of the First World War](../../lessons/curriculum/grade-11-modern-world-history/causes-of-the-first-world-war/index.html) |
+| MWH.3.3.b | From empires to new states | 11.8 · [The Treaty of Versailles and Its Consequences](../../lessons/curriculum/grade-11-modern-world-history/the-treaty-of-versailles-and-its-consequences/index.html) |
+| MWH.3.3.c | Mandates and claims to self-government | 11.8 · [The Treaty of Versailles and Its Consequences](../../lessons/curriculum/grade-11-modern-world-history/the-treaty-of-versailles-and-its-consequences/index.html) |
+| MWH.3.3.d | War and the campaign for women's suffrage | 11.8 · [The Treaty of Versailles and Its Consequences](../../lessons/curriculum/grade-11-modern-world-history/the-treaty-of-versailles-and-its-consequences/index.html) |
+| MWH.3.4.b | The Great Depression in the United States, Gold Coast, and Java | 11.9 · [Global Depression and Political Instability](../../lessons/curriculum/grade-11-modern-world-history/global-depression-and-political-instability/index.html) |
+| MWH.3.4.c | Interwar demands for independence and political recognition | 11.9 · [Global Depression and Political Instability](../../lessons/curriculum/grade-11-modern-world-history/global-depression-and-political-instability/index.html) |
+| MWH.3.5.b | Expansion and the limits of international responses | 11.9 · [The Rise of Fascism](../../lessons/curriculum/grade-11-modern-world-history/the-rise-of-fascism/index.html) |
+| MWH.3.6.b | Technology and the reach of total war | 11.9 · [World War II as a Global Conflict](../../lessons/curriculum/grade-11-modern-world-history/world-war-ii-as-a-global-conflict/index.html) |
+| MWH.3.6.c | Four regions and their wartime contributions | 11.9 · [World War II as a Global Conflict](../../lessons/curriculum/grade-11-modern-world-history/world-war-ii-as-a-global-conflict/index.html) |
+| MWH.3.6.d | State-sponsored atrocities in Europe and Asia | 11.9 · [The Holocaust and Genocide](../../lessons/curriculum/grade-11-modern-world-history/the-holocaust-and-genocide/index.html) |
+| MWH.3.7.b | Why the end of the war reshaped political identities | 11.9 · [The End of World War II](../../lessons/curriculum/grade-11-modern-world-history/the-end-of-world-war-ii/index.html) |
+| MWH.3.8.b | How Soviet leaders responded to containment | 11.10 · [The Cold War and Global Rivalries](../../lessons/curriculum/grade-11-modern-world-history/the-cold-war-and-global-rivalries/index.html) |
+| MWH.3.8.c | How the Chinese Communists won the civil war | 11.10 · [Decolonization in Asia](../../lessons/curriculum/grade-11-modern-world-history/decolonization-in-asia/index.html) |
 
 ### Grade 11 industrialization, imperialism, and nationalism · November 25
 

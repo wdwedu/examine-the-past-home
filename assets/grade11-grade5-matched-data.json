@@ -3969,6 +3969,26 @@
               "url": "https://openstax.org/books/world-history-volume-2/pages/11-2-the-collapse-of-the-ottomans-and-the-coming-of-war"
             }
           ]
+        },
+        {
+          "code": "MWH.3.2.g",
+          "title": "Russia's revolutions and withdrawal from the war",
+          "reading": [
+            "Military losses, food shortages, and declining trust in the tsar helped produce the first revolution of 1917. The Provisional Government continued the war. Workers, soldiers, and parties disagreed over whether the country should keep fighting and who could decide its future.",
+            "The Bolsheviks took power later that year and pursued peace. In March 1918 the Treaty of Brest-Litovsk ended Russian participation in the war against the Central Powers on harsh terms. Germany could shift forces westward, although the withdrawal did not decide the outcome of the war in the west."
+          ],
+          "prompt": "Use the textbook and the June 1917 resolution. Identify one domestic cause and one pressure connected to the international war. Compare the position in the resolution with the later withdrawal, then trace one effect on the wider war.",
+          "criteria": "Distinguishes the two revolutions, connects home-front pressure to wartime policy, and gives a dated effect of withdrawal.",
+          "sources": [
+            {
+              "title": "OpenStax · The War Ends",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/11-5-the-war-ends"
+            },
+            {
+              "title": "Office of the Historian · Russian councils' June 1917 war resolution",
+              "url": "https://history.state.gov/historicaldocuments/frus1918Russiav01/d73"
+            }
+          ]
         }
       ]
     },
@@ -4109,7 +4129,117 @@
         "objective": "Compare how wartime aviation changed the work of military personnel and the risks civilians faced.",
         "evidence": "Use the Imperial War Museums captions to find one example of aerial observation or combat and one example of air raids on civilians. Make a two-row comparison and explain what the technology changed in each setting.",
         "criteria": "Names a distinct change for military personnel and civilians and cites a specific caption for each."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.3.2.a",
+          "title": "How the fighting changed in 1918",
+          "reading": [
+            "Germany's spring offensives in 1918 gained ground on the Western Front after Russia left the war. The offensives strained Germany's supplies and failed to defeat the Allies before American reinforcements arrived in strength.",
+            "From August, a series of Allied offensives pushed German forces back. At Amiens, coordinated use of infantry, aircraft, artillery, and tanks helped break the previous pattern of brief gains followed by long pauses. These operations mattered alongside shortages, German losses, and the wider military situation."
+          ],
+          "prompt": "Compare the German spring offensives and the Allied offensives that began in August. For each, identify the strategic aim, the immediate result, and whether the commanders could sustain the result. Cite both readings and explain which development did more to change the war's course.",
+          "criteria": "Compares results with aims, uses dated evidence, and distinguishes a tactical gain from a lasting strategic outcome.",
+          "sources": [
+            {
+              "title": "OpenStax · The War Ends",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/11-5-the-war-ends"
+            },
+            {
+              "title": "Imperial War Museums · First World War Galleries guide",
+              "url": "https://www.iwm.org.uk/sites/default/files/files/2023-10/first_world_war_large_print_guide.pdf"
+            }
+          ]
+        },
+        {
+          "code": "MWH.3.2.c",
+          "title": "Recruitment, food, and wartime propaganda",
+          "reading": [
+            "First World War posters converted wartime policies into practical appeals. Governments asked people to enlist, conserve food, or finance the war. Posters could turn ordinary choices into public tests of duty or belonging.",
+            "A recruitment image could make military service seem like the proper role for men. A food poster could link shopping or eating habits with national loyalty. These designs show expectations and persuasive strategies. Other evidence is needed to establish how audiences interpreted a poster or changed their behavior."
+          ],
+          "prompt": "Choose a recruitment poster and a food-conservation poster from the Library of Congress collection. Record the title, creator or sponsor when available, audience, and action requested. Cite an image or wording detail from each. Explain how the two posters communicated different ideas about duty and what evidence would show their effect.",
+          "criteria": "Interprets two actual posters, connects design to ideology and audience, and separates intended persuasion from demonstrated response.",
+          "sources": [
+            {
+              "title": "Library of Congress · World War I posters",
+              "url": "https://www.loc.gov/free-to-use/wwi-posters/"
+            },
+            {
+              "title": "Library of Congress · About the collection",
+              "url": "https://www.loc.gov/collections/world-war-i-posters/about-this-collection/"
+            }
+          ]
+        },
+        {
+          "code": "MWH.3.2.d",
+          "title": "World War I and labor across empires",
+          "reading": [
+            "Soldiers from British India fought in Europe, Africa, and the Middle East. In East Africa, carriers moved supplies where rail and road networks could not meet military demand. Recruiters drew labor from communities already subject to colonial rule.",
+            "Egyptian Labor Corps workers also moved supplies and performed transport and construction work, often under coercive recruitment. The forces depended on soldiers and support workers, while recruitment and absences affected households left behind. Service had different risks and rewards depending on location, role, and terms of recruitment."
+          ],
+          "prompt": "Build a comparison for British India, East Africa, and Egypt. For each, name one contribution and one effect on the people or community that supplied it. Use each source and explain a difference between combat and support service or between voluntary and coerced service.",
+          "criteria": "Addresses all three regions, explains contributions and local costs, and avoids treating all recruits as having made the same choices.",
+          "sources": [
+            {
+              "title": "UK Parliament Commons Library · Commonwealth contributions",
+              "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10514/"
+            },
+            {
+              "title": "Imperial War Museums · First World War Galleries guide",
+              "url": "https://www.iwm.org.uk/sites/default/files/files/2023-10/first_world_war_large_print_guide.pdf"
+            },
+            {
+              "title": "Cornell University · Egyptian Labor Corps research",
+              "url": "https://ecommons.cornell.edu/entities/publication/746fc0e4-5ca8-44e6-af86-cc240afb1935"
+            }
+          ]
+        },
+        {
+          "code": "MWH.3.2.e",
+          "title": "Armenian lives under Ottoman wartime policies",
+          "reading": [
+            "In 1915, Ottoman authorities arrested Armenian community leaders and carried out mass deportations. Officials described Armenians as a security threat during the war. Deportations, massacres, and the seizure of property destroyed long-established communities. The United States Holocaust Memorial Museum identifies these events as the Armenian genocide.",
+            "Armenian people experienced the policies in different ways. Many were killed or died during forced displacement. Survivors sought refuge, tried to locate relatives, and rebuilt their lives in new places. The historical record includes policy descriptions and records of individual experience, each of which answers different questions."
+          ],
+          "prompt": "Use the museum's account and one captioned refugee or survivor record from its gallery. Explain a specific policy and a consequence for an Armenian person or community. Identify which evidence establishes the pattern of persecution and which evidence describes one experience.",
+          "criteria": "Names the responsible authorities, connects a documented policy to its effect, and uses individual evidence without treating one experience as representative of all survivors.",
+          "sources": [
+            {
+              "title": "USHMM · The Armenian Genocide in depth",
+              "url": "https://encyclopedia.ushmm.org/content/en/article/the-armenian-genocide-1915-16-in-depth"
+            },
+            {
+              "title": "USHMM · Armenian Genocide gallery",
+              "url": "https://encyclopedia.ushmm.org/content/en/gallery/the-armenian-genocide"
+            }
+          ]
+        },
+        {
+          "code": "MWH.3.2.f",
+          "title": "Influenza across borders in 1918",
+          "reading": [
+            "The 1918 influenza pandemic spread across borders in several waves. The movement of people during wartime contributed to its spread. Mortality estimates vary because record-keeping and the ability to diagnose influenza differed across places and periods.",
+            "In November 1918, the ship Talune brought influenza to Western Samoa, where authorities had not imposed quarantine on it. The outbreak caused severe loss of life and disrupted families and communities. India also experienced heavy mortality. Historical records there can reveal the scale of the epidemic while leaving uncertainty about precise counts."
+          ],
+          "prompt": "Compare the global pattern described by the CDC with the records for Western Samoa and India. Explain one connection between travel and spread, one consequence for a community, and why recorded totals from these two places should not be compared as if they measured every case in the same way.",
+          "criteria": "Uses evidence at global and local scales, identifies a social consequence, and distinguishes an estimate or administrative count from a complete record.",
+          "sources": [
+            {
+              "title": "CDC archive · 1918 pandemic history",
+              "url": "https://archive.cdc.gov/www_cdc_gov/flu/pandemic-resources/1918-commemoration/1918-pandemic-history.htm"
+            },
+            {
+              "title": "NZ History · Influenza in Samoa",
+              "url": "https://nzhistory.govt.nz/page/influenza-samoa"
+            },
+            {
+              "title": "Public Health Reports · Influenza deaths recorded in India, 1918–19",
+              "url": "https://stacks.cdc.gov/view/cdc/67928/cdc_67928_DS1.pdf"
+            }
+          ]
+        }
+      ]
     },
     "the-treaty-of-versailles-and-its-consequences": {
       "title": "The Treaty of Versailles and Its Consequences",
@@ -4256,7 +4386,81 @@
         "objective": "Judge how the Versailles borders, League of Nations and reparations affected the balance of power in Europe.",
         "evidence": "Compare Articles 51 and 231–232 with Article 1 of the League Covenant. Use the Locarno record to test one later outcome. Explain one boundary change, one financial obligation and one limit on enforcing the settlement. Finish with an evidence-based judgment of its effectiveness.",
         "criteria": "Distinguishes territory, financial obligations and collective security. The judgment compares the proposed settlement with observed implementation or limits."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.3.3.b",
+          "title": "From empires to new states",
+          "reading": [
+            "Germany lost territory after defeat. Austria-Hungary dissolved, and Czechoslovakia emerged from some of its former lands. Poland reappeared after the collapse or defeat of empires that had partitioned it, including Russia and Germany. Independence claims, military control, and diplomatic decisions all shaped the new borders.",
+            "In the former Ottoman lands, the peace process produced European mandates as well as new political arrangements. The Turkish nationalist movement resisted the first settlement, and a subsequent treaty recognized new terms for Turkey. The changes in Europe and the Middle East followed different timelines and left unresolved questions about minorities and self-government."
+          ],
+          "prompt": "Trace four imperial changes involving Germany, Austria-Hungary, Russia, and the Ottoman Empire. Give two new or restored states in Europe and one new political arrangement in the Middle East or Anatolia. Explain a case in which local action changed or complicated the settlement.",
+          "criteria": "Uses all four empires, appropriately distinguishes a state from a mandate, and links an outcome to more than one cause.",
+          "sources": [
+            {
+              "title": "USHMM · World War I treaties and reparations",
+              "url": "https://encyclopedia.ushmm.org/content/en/article/world-war-i-treaties-and-reparations?series=20"
+            },
+            {
+              "title": "Office of the Historian · League mandate provisions",
+              "url": "https://history.state.gov/historicaldocuments/frus1919Parisv13/ch10subch1"
+            },
+            {
+              "title": "OpenStax · The War Ends",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/11-5-the-war-ends"
+            }
+          ]
+        },
+        {
+          "code": "MWH.3.3.c",
+          "title": "Mandates and claims to self-government",
+          "reading": [
+            "The League of Nations placed former German and Ottoman territories under mandates administered by other powers. Britain administered Tanganyika and Palestine, while France administered Syria and Lebanon. The mandate system created international reporting and oversight, but governing power largely rested with the countries administering each territory.",
+            "In Palestine, British commitments to a Jewish national home gave the Zionist movement an international political opening, while Palestinian Arabs pressed their own claims to political rights. Opposition to French rule in Syria drew on local and Arab nationalist demands. Pan-African organizers also used the postwar settlement as a forum to press for political rights and protection of African interests."
+          ],
+          "prompt": "Compare a mandate in Africa with one in the Middle East using Article 22 and the mandate records. Explain how oversight and administrative power worked in each. Then connect the settlement to one Zionist, Arab nationalist, or Pan-African claim and name one voice the mandate text leaves out.",
+          "criteria": "Distinguishes international oversight from day-to-day control, addresses both regions, and connects a named movement to a dated political dispute.",
+          "sources": [
+            {
+              "title": "Office of the Historian · Article 22 and mandate records",
+              "url": "https://history.state.gov/historicaldocuments/frus1919Parisv13/ch10subch1"
+            },
+            {
+              "title": "Office of the Historian · Creation of Israel and the mandate background",
+              "url": "https://history.state.gov/milestones/1945-1952/creation-israel"
+            },
+            {
+              "title": "Library of Congress · The 1919 Pan-African Congress",
+              "url": "https://www.loc.gov/exhibits/naacp/founding-and-early-years.html"
+            },
+            {
+              "title": "Michael Provence · The Great Syrian Revolt and the Rise of Arab Nationalism",
+              "url": "https://www.jstor.org/stable/10.7560/706354"
+            }
+          ]
+        },
+        {
+          "code": "MWH.3.3.d",
+          "title": "War and the campaign for women's suffrage",
+          "reading": [
+            "Women's voting-rights movements existed before the First World War. Wartime work expanded women's public roles in many countries and became part of the argument for enfranchisement. Activists took different approaches, including public protest, organizing, and support for the war effort.",
+            "Britain's 1918 reform gave the vote to some women aged 30 and older under qualifying rules. In the United States, ratification of the Nineteenth Amendment in 1920 prohibited denying voting rights on account of sex. Other barriers still restricted access for many women. Changes in law differed in timing and in who could use the right in practice."
+          ],
+          "prompt": "Compare the British and U.S. cases. Give a prewar movement activity, a wartime experience that advocates could cite, and a postwar change in each. Judge how much the war mattered and name a limit or a group whose access the reform did not secure.",
+          "criteria": "Weighs wartime effects against prewar organizing, compares legal changes and remaining barriers, and cites both country readings.",
+          "sources": [
+            {
+              "title": "UK Parliament · Representation of the People Act 1918",
+              "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/parliament-and-the-first-world-war/legislation-and-acts-of-war/acts-of-war---representation-of-the-people-act-1918--/"
+            },
+            {
+              "title": "National Park Service · Women's Suffrage and WWI",
+              "url": "https://www.nps.gov/articles/womens-suffrage-wwi.htm"
+            }
+          ]
+        }
+      ]
     },
     "global-depression-and-political-instability": {
       "title": "Global Depression and Political Instability",
@@ -4387,7 +4591,61 @@
         "objective": "Explain how banking distress and government decisions about gold contributed to the spread or persistence of the Depression.",
         "evidence": "Using the November 1931 Federal Reserve Bulletin and the Federal Reserve history, write one cause-and-effect chain linking a financial shock to a policy response and a further economic effect. Explain what part of the chain needs more evidence.",
         "criteria": "Identifies a political or policy decision and an economic mechanism. Dates evidence and explains the link without treating the stock market crash as the whole explanation."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.3.4.b",
+          "title": "The Great Depression in the United States, Gold Coast, and Java",
+          "reading": [
+            "In the United States, failed banks, business closures, and job losses put households under pressure. Public debate focused on whose responsibility it was to provide relief and how government could support recovery. The international downturn also reached colonial exporting economies through falling demand and unsettled commodity prices.",
+            "Gold Coast cocoa growers faced pressures from falling returns and the power of exporting firms. Some producers withheld sales in 1937–38. In colonial Java, changes in rice prices affected households differently depending on whether they bought or sold rice and where they lived. Falling prices did not have one universal effect across wage earners, farmers, and consumers."
+          ],
+          "prompt": "Compare one U.S. worker or household, Gold Coast cocoa producers, and a rice buyer or grower in Java. For each, trace an economic change to an effect on daily life or collective action. Distinguish changes in export earnings from changes in prices people paid.",
+          "criteria": "Uses a case from each region, explains a mechanism and social effect, and distinguishes how a price change can affect buyers and sellers differently.",
+          "sources": [
+            {
+              "title": "OpenStax · The Great Depression",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/12-3-the-great-depression"
+            },
+            {
+              "title": "African Economic History index · The 1937–1938 Gold Coast Cocoa Crisis",
+              "url": "https://www.africabib.org/rec.php?RID=089576764"
+            },
+            {
+              "title": "Australian Economic History Review · Rice in Java in the 1930s",
+              "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1467-8446.2009.00272.x"
+            }
+          ]
+        },
+        {
+          "code": "MWH.3.4.c",
+          "title": "Interwar demands for independence and political recognition",
+          "reading": [
+            "During the interwar era, Pan-African organizers pressed for political rights and criticized colonial administration. In India, the 1930 Salt March turned a colonial tax and monopoly into a focus of mass civil disobedience. In French-mandated Syria, the revolt of 1925 challenged colonial rule and helped shape arguments for wider Arab political solidarity.",
+            "In Mexico, Indigenous intellectuals pursued language and political recognition through work with public institutions. The 1940 Pátzcuaro Indigenous congress grew out of organizing in the preceding years. These movements sought different outcomes, from national independence to representation and cultural rights. Comparing them requires attention to what a community or organizer meant by self-government."
+          ],
+          "prompt": "Choose an organizer or action in each of the four regions. Compare whose authority was challenged, one strategy, and one result or obstacle. Use the readings to explain a difference between seeking independence from an empire and seeking greater recognition within a state.",
+          "criteria": "Addresses Africa, South Asia, the Middle East, and Mexico, compares aims and methods, and places the Mexican endpoint in 1940 rather than within the early interwar years.",
+          "sources": [
+            {
+              "title": "Library of Congress · The 1919 Pan-African Congress",
+              "url": "https://www.loc.gov/exhibits/naacp/founding-and-early-years.html"
+            },
+            {
+              "title": "IIT Kanpur and NCERT · Nationalism in India",
+              "url": "https://sathee.iitk.ac.in/ncert-books/class-10/social-science/india-and-the-contemporary-world-2/chapter-02-nationalism-in-india/"
+            },
+            {
+              "title": "Michael Provence · The Great Syrian Revolt and the Rise of Arab Nationalism",
+              "url": "https://www.jstor.org/stable/10.7560/706354"
+            },
+            {
+              "title": "Mexico's National Institute of Historical Studies of the Revolutions · Indigenous language and organizing",
+              "url": "https://www.inehrm.gob.mx/recursos/Libros/2025_el_corazon_que_labra_la_tierra.pdf"
+            }
+          ]
+        }
+      ]
     },
     "the-rise-of-fascism": {
       "title": "The Rise of Fascism",
@@ -4518,7 +4776,29 @@
         "objective": "Explain how the Nazis used communication and political pressure to gain power in Germany.",
         "evidence": "Choose two documented developments before or around January 1933. Explain how one communication method and one form of political pressure or bargaining worked together. Cite the date of each. Distinguish taking office from consolidating power.",
         "criteria": "Links a communication mechanism and a political mechanism to an event. Keeps the chronology of appointment and consolidation clear."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.3.5.b",
+          "title": "Expansion and the limits of international responses",
+          "reading": [
+            "Japan occupied Manchuria in 1931. The League of Nations investigated and rejected Japan's claim that the new state of Manchukuo was independent. Japan withdrew from the League. Italy invaded Ethiopia in 1935, drawing League sanctions that failed to stop the conquest.",
+            "In 1938, Britain and France agreed at Munich to German annexation of the Sudetenland. Czechoslovakia had no seat at the negotiations. The agreement came from a separate diplomatic process. It gave Hitler territory in the hope of avoiding war, and German forces occupied the Czech lands in March 1939."
+          ],
+          "prompt": "Compare the three acts of expansion and the response to each. Explain what leverage outside governments used or gave up, and assess why one response failed to protect the sovereignty of the people affected.",
+          "criteria": "Distinguishes League investigation, sanctions, and the Munich Agreement, with evidence from all three cases.",
+          "sources": [
+            {
+              "title": "OpenStax · The Origins of War",
+              "url": "https://openstax.org/books/us-history/pages/27-1-the-origins-of-war-europe-asia-and-the-united-states"
+            },
+            {
+              "title": "OpenStax · The Causes of World War II",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/13-1-the-causes-of-world-war-ii"
+            }
+          ]
+        }
+      ]
     },
     "world-war-ii-as-a-global-conflict": {
       "title": "World War II as a Global Conflict",
@@ -4649,7 +4929,65 @@
         "objective": "Evaluate how Allied strategy and leadership affected two turning points in different theaters.",
         "evidence": "Compare Midway and Normandy. For each, identify a strategic decision, the immediate objective and one consequence. Judge which decision had the clearest effect on the time or place of later operations. Cite evidence from both theaters.",
         "criteria": "Explains an effect for each decision using evidence from each theater and distinguishes what leaders intended from what occurred."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.3.6.b",
+          "title": "Technology and the reach of total war",
+          "reading": [
+            "In Great Britain, radar helped defenders detect approaching aircraft during the Battle of Britain. On the European continent, mass production of aircraft expanded the reach of strategic bombing. Air crews faced high risks, and attacks on urban targets exposed civilians to destruction far from the front.",
+            "On the Eastern Front, tanks and other military equipment helped armies move and fight across enormous distances, while the Soviet war effort depended on industrial production behind the lines. In Japan, aerial bombing reached urban populations. In Hiroshima, the atomic bombing caused immediate destruction and radiation injuries that persisted after the war."
+          ],
+          "prompt": "Explain one effect of wartime technology in Great Britain, continental Europe, the Soviet Union, and Japan. Compare impacts on people in uniform and civilians, and identify where industrial capacity or geography helps explain a difference.",
+          "criteria": "Uses all four locations, makes an evidence-based comparison across civilian and military experiences, and distinguishes immediate and longer-term effects.",
+          "sources": [
+            {
+              "title": "OpenStax · Theaters of War",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/13-2-theaters-of-war"
+            },
+            {
+              "title": "Imperial War Museums · Battle of Britain and the Blitz fact sheet",
+              "url": "https://www.iwm.org.uk/sites/default/files/press-release/Battle_of_Britain_and_Blitz_Factsheet.pdf"
+            },
+            {
+              "title": "United States Holocaust Memorial Museum · The Soviet Union and the Eastern Front",
+              "url": "https://encyclopedia.ushmm.org/content/en/article/the-soviet-union-and-the-eastern-front"
+            },
+            {
+              "title": "City of Hiroshima · The atomic bombing and its effects",
+              "url": "https://www.city.hiroshima.lg.jp/english/peace/1029869/1009930.html"
+            }
+          ]
+        },
+        {
+          "code": "MWH.3.6.c",
+          "title": "Four regions and their wartime contributions",
+          "reading": [
+            "Forces from British India and British West Africa served in the Burma campaign. Their roles show how a war against Japan drew people from different parts of the British Empire into the same theater. Service in a shared campaign did not give these troops the same home conditions or political outlook.",
+            "People from the Caribbean joined the Royal Air Force, in roles that ranged from aircrew to ground support. In the Middle East, the British Army organized Jewish and Palestinian Arab battalions into the Palestine Regiment. The choices of individuals and units show how global mobilization crossed imperial and mandate borders."
+          ],
+          "prompt": "Use one example from each region to compare military contributions. Then use the sources to describe one effect that service had on participants or their communities. Explain where a military recruitment or campaign record leaves questions about civilian experience.",
+          "criteria": "Supports the comparison with four regional examples and distinguishes documented contributions from broader social impacts that require additional evidence.",
+          "sources": [
+            {
+              "title": "UK Ministry of Defence · The Second World War in Burma",
+              "url": "https://www.gov.uk/government/news/vj-day-70-the-second-world-war-in-burma"
+            },
+            {
+              "title": "National Army Museum · Royal West African Frontier Force in Burma",
+              "url": "https://www.nam.ac.uk/explore/royal-west-african-frontier-force-burma-1944"
+            },
+            {
+              "title": "RAF Museum · Second World War recruitment",
+              "url": "https://www.rafmuseum.org.uk/our-collection/supporting-research/online-exhibitions/the-second-world-war-1939-to-1945-recruitment/"
+            },
+            {
+              "title": "United States Holocaust Memorial Museum · Palestine Regiment and Jewish Brigade Group",
+              "url": "https://encyclopedia.ushmm.org/content/en/article/jewish-brigade-group"
+            }
+          ]
+        }
+      ]
     },
     "the-holocaust-and-genocide": {
       "title": "The Holocaust and Genocide",
@@ -4796,7 +5134,29 @@
         "objective": "Explain how Nazi persecution escalated into genocide and identify one documented consequence for Jewish survivors or communities.",
         "evidence": "Create a short timeline with a prewar legal restriction, a wartime step in the escalation to mass murder, and a consequence for survivors or Jewish communities. Support the timeline with two attributed records. Explain how the sources answer different questions.",
         "criteria": "Links policy, escalation and a documented consequence. The response identifies the limits of perpetrator records and includes evidence about those affected."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.3.6.d",
+          "title": "State-sponsored atrocities in Europe and Asia",
+          "reading": [
+            "After Germany invaded the Soviet Union in 1941, Nazi Germany subjected captured Soviet soldiers to systematic mistreatment. German authorities classified these prisoners by race and political identity, and many died from deliberate deprivation or killing.",
+            "In Nanjing in 1937, during the wider war in Asia, soldiers of the Imperial Japanese Army killed civilians and disarmed soldiers after capturing the city. Documents kept by people in Nanjing provide local accounts of the occupation and efforts to protect civilians."
+          ],
+          "prompt": "Compare how military authority contributed to violence in both cases. Identify who was targeted and explain what an institutional history and an eyewitness archive can each establish about responsibility.",
+          "criteria": "Uses evidence from both sources, distinguishes the groups targeted, and identifies a limit to what each kind of source can show.",
+          "sources": [
+            {
+              "title": "United States Holocaust Memorial Museum · Groups targeted by the Nazis",
+              "url": "https://encyclopedia.ushmm.org/content/en/article/what-groups-of-people-did-the-nazis-target"
+            },
+            {
+              "title": "Yale Divinity Library · Nanking Massacre Archival Project",
+              "url": "https://adhoc.yalepages.org/Collections/Nanking/about.html"
+            }
+          ]
+        }
+      ]
     },
     "the-end-of-world-war-ii": {
       "title": "The End of World War II",
@@ -4935,7 +5295,41 @@
         "objective": "Distinguish the political and economic purposes of the UN, IMF and World Bank in the postwar international system.",
         "evidence": "Build a three-row chart showing the founding purpose of each institution and one way it connected countries after the war. Use the UN Charter and the Bretton Woods account. Explain why collective security and financial cooperation addressed different problems.",
         "criteria": "Accounts for all three institutions and distinguishes security, monetary cooperation and reconstruction or development."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.3.7.b",
+          "title": "Why the end of the war reshaped political identities",
+          "reading": [
+            "Britain ended its mandate in Palestine in 1948. Israel declared independence, and the war that followed Israel's declaration widened fighting that had already displaced Palestinians. In British India, wartime pressures and long-running independence campaigns preceded the 1947 creation of India and Pakistan. Partition drove mass migration.",
+            "In China, Japan's defeat ended the wartime struggle against occupation. Conflict between Nationalists and Communists resumed and led to the founding of the People's Republic of China in 1949. At the 1945 Manchester Pan-African Congress, organizers used the postwar moment to press for an end to colonial rule and define shared political demands."
+          ],
+          "prompt": "Build a four-row comparison for Israel and Palestine, India and Pakistan, China, and the Pan-African movement. Identify a prewar cause, a wartime or postwar opening, and a change in political identity or organization. Explain which connection to the war is most direct.",
+          "criteria": "Traces a supported connection for each case and distinguishes statehood, displacement, regime change, and transnational organizing.",
+          "sources": [
+            {
+              "title": "Office of the Historian · The Creation of Israel",
+              "url": "https://history.state.gov/milestones/1945-1952/creation-israel"
+            },
+            {
+              "title": "Office of the Historian · The Arab-Israeli War of 1948",
+              "url": "https://history.state.gov/milestones/1945-1952/arab-israeli-war"
+            },
+            {
+              "title": "The National Archives · Partition of British India",
+              "url": "https://www.nationalarchives.gov.uk/education/teaching-resources/partition-of-british-india/"
+            },
+            {
+              "title": "Office of the Historian · The Chinese Revolution of 1949",
+              "url": "https://history.state.gov/milestones/1945-1952/chinese-rev"
+            },
+            {
+              "title": "University of Manchester · Manchester and African independence",
+              "url": "https://www.manchester.ac.uk/about/news/manchesters-role-in-the-african-independence-movement/"
+            }
+          ]
+        }
+      ]
     },
     "the-cold-war-and-global-rivalries": {
       "title": "The Cold War and Global Rivalries",
@@ -5074,7 +5468,57 @@
         "objective": "Compare U.S. and Soviet explanations of early Cold War tensions and trace the role of security, economic interests and ideology.",
         "evidence": "Compare the Novikov telegram and Truman’s address to Congress. For each document, cite one detail, identify the author's audience and interest, and explain which factor it supports. Write a judgment weighing at least two factors within the wider political, economic and ideological context.",
         "criteria": "Uses both perspectives and distinguishes a documented policy from an official’s interpretation of an opponent’s motives."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.3.8.b",
+          "title": "How Soviet leaders responded to containment",
+          "reading": [
+            "The United States backed European economic recovery through the Marshall Plan. Soviet leaders rejected the aid and pressed Eastern European governments to stay out. The Soviet Union and its allies created the Council for Mutual Economic Assistance in 1949 to coordinate their own economic relationships.",
+            "In 1948 the Soviet Union blocked western surface routes into Berlin following disputes that included the introduction of a new currency in the Western zones. The Western Allies supplied the city by air until the blockade ended. The blockade and airlift turned a dispute about occupied Germany into a test of rival commitments."
+          ],
+          "prompt": "Explain one Soviet response to Western economic policy and one to Western plans for Germany. Use the readings to infer a Soviet concern in each case and distinguish each response from the Western countermeasure.",
+          "criteria": "Identifies two distinct responses, supports an inference about Soviet concerns, and accurately sequences the blockade and airlift.",
+          "sources": [
+            {
+              "title": "OpenStax · The Cold War Begins",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/14-1-the-cold-war-begins"
+            },
+            {
+              "title": "Office of the Historian · The Berlin Airlift",
+              "url": "https://history.state.gov/milestones/1945-1952/berlin-airlift"
+            },
+            {
+              "title": "Office of the Historian · The Marshall Plan",
+              "url": "https://history.state.gov/milestones/1945-1952/marshall-plan"
+            }
+          ]
+        },
+        {
+          "code": "MWH.3.10.a",
+          "title": "How Cold War rivalry shaped regional conflicts",
+          "reading": [
+            "In Korea, a conflict over the peninsula led to direct combat by forces led by the United States under a United Nations command and by Chinese troops on the other side. The Soviet Union supported North Korea. In Angola, rival independence movements competed for power as Portuguese rule ended. The MPLA received Soviet and Cuban support, while the United States and South Africa supported rival forces.",
+            "In the Americas, Cuban exiles backed by the United States attempted to overthrow Fidel Castro's government at the Bay of Pigs in 1961. The attempt failed. Cuban leaders had already moved closer to the Soviet Union, and the invasion reinforced Cuban fears of further U.S. intervention."
+          ],
+          "prompt": "Compare how local actors and foreign powers shaped all three conflicts. Identify one instance of direct intervention and one of outside support. Explain which local objective would be obscured by treating the conflict only as a U.S.–Soviet rivalry.",
+          "criteria": "Accurately assigns local and foreign roles across three regions and distinguishes direct combat from supplies, funding, or training.",
+          "sources": [
+            {
+              "title": "Office of the Historian · The Korean War",
+              "url": "https://history.state.gov/departmenthistory/short-history/koreanwar"
+            },
+            {
+              "title": "Office of the Historian · The Angolan Civil War",
+              "url": "https://history.state.gov/milestones/1969-1976/angola"
+            },
+            {
+              "title": "Office of the Historian · The Bay of Pigs invasion",
+              "url": "https://history.state.gov/milestones/1961-1968/bay-of-pigs"
+            }
+          ]
+        }
+      ]
     },
     "independence-movements-in-africa": {
       "title": "Independence Movements in Africa",
@@ -5376,7 +5820,49 @@
         "objective": "Compare strategies associated with Gandhi in India and Ho Chi Minh in Vietnam and distinguish declarations from transfers of power.",
         "evidence": "Compare Gandhi’s letter about the salt works and Ho Chi Minh’s independence declaration. Name the tactic or claim in each document and place it on a timeline with a later turning point. Explain one difference between the two routes out of colonial rule.",
         "criteria": "Identifies a tactic or claim for each leader and explains a difference without treating India’s 1947 transfer and Vietnam’s 1945 declaration as identical events."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.3.8.c",
+          "title": "How the Chinese Communists won the civil war",
+          "reading": [
+            "The Chinese Communist Party under Mao Zedong and the Nationalists under Chiang Kai-shek had fought before they established a fragile wartime alliance against Japan. After Japan surrendered in 1945, competition over territory and power brought renewed civil war. The Communists had built support in rural areas, while the Nationalist government faced problems that included corruption and inflation.",
+            "Communist military victories in 1948 and 1949 helped turn regional control into national power on the mainland. Mao proclaimed the People's Republic of China in October 1949. Chiang's government withdrew to Taiwan, leaving two rival governments and creating a dispute that shaped later international relations."
+          ],
+          "prompt": "Compare one political and one military cause of the outcome. Use evidence about both leaders and explain one consequence on the mainland and one for Taiwan or its international relations.",
+          "criteria": "Connects wartime and postwar events to the Communist victory and accurately distinguishes the two governments after 1949.",
+          "sources": [
+            {
+              "title": "Office of the Historian · The Chinese Revolution of 1949",
+              "url": "https://history.state.gov/milestones/1945-1952/chinese-rev"
+            },
+            {
+              "title": "OpenStax · The Spread of Communism",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/14-2-the-spread-of-communism"
+            }
+          ]
+        },
+        {
+          "code": "MWH.3.10.c",
+          "title": "Domestic upheaval and China's foreign relations",
+          "reading": [
+            "Beginning in 1958, the Great Leap Forward reorganized work and agriculture through mass mobilization. Its policies contributed to famine. The campaign also unfolded as differences over development and leadership widened between China and the Soviet Union. During the Cultural Revolution, which began in 1966, political persecution and attacks on institutions destabilized Chinese society.",
+            "Despite those upheavals, Chinese leaders moved toward rapprochement with the United States in the early 1970s as they faced tensions with the Soviet Union. In 1989, Chinese authorities used military force to suppress protests centered on Tiananmen Square. The crackdown prompted foreign condemnation and U.S. restrictions."
+          ],
+          "prompt": "Compare one domestic consequence of each event with its connection to foreign relations. Explain where the evidence shows an international reaction to events in China and where other factors, such as the Sino-Soviet split, shaped China's own decisions.",
+          "criteria": "Uses evidence about all three events, separates domestic effects from diplomatic consequences, and avoids assigning a single cause to the Sino-Soviet split or U.S.–China rapprochement.",
+          "sources": [
+            {
+              "title": "OpenStax · The Spread of Communism",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/14-2-the-spread-of-communism"
+            },
+            {
+              "title": "National Security Archive · Tiananmen Square, 1989: The Declassified History",
+              "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB16/"
+            }
+          ]
+        }
+      ]
     },
     "the-collapse-of-the-soviet-union": {
       "title": "The Collapse of the Soviet Union",
@@ -5523,7 +6009,37 @@
         "objective": "Weigh Soviet reform, Eastern European upheaval and Western pressures in explaining the Soviet Union’s decline.",
         "evidence": "Make a timeline distinguishing the fall of the Berlin Wall and the dissolution of the USSR. Compare Gorbachev's UN address, the NATO statement and the lesson chronology. Explain how reform, upheaval or economic decline in Eastern Europe, and Western political or economic pressure interacted. Flag a cause that needs stronger evidence.",
         "criteria": "Separates the two events and weighs three factors. Distinguishes a leader’s public statement and a Western policy position from independent evidence of impact."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.3.10.b",
+          "title": "Resistance to political repression in four settings",
+          "reading": [
+            "Czechoslovak reformers tried to expand political and cultural freedom during the Prague Spring in 1968. A Soviet-led invasion halted the reforms. In Taiwan, protests after a violent encounter with authorities in February 1947 broadened into calls for political reform, and government forces suppressed the uprising.",
+            "India's Emergency curbed civil liberties and opposition activity from 1975 to 1977. Voters removed the ruling Congress Party from national power in the election that ended the period. In East Pakistan, the military crackdown of 1971 followed demands for political representation and helped turn the struggle into a war for Bangladesh's independence."
+          ],
+          "prompt": "Compare an action and a government response in each place. Explain why one movement chiefly sought reform within an existing state while another moved toward independence. Cite evidence about both immediate and longer-term outcomes.",
+          "criteria": "Uses four distinct cases, identifies demands and responses, and distinguishes reform, electoral turnover, and secession.",
+          "sources": [
+            {
+              "title": "Office of the Historian · Soviet Invasion of Czechoslovakia",
+              "url": "https://history.state.gov/milestones/1961-1968/soviet-invasion-czechoslavkia"
+            },
+            {
+              "title": "Taipei 228 Memorial Museum · The February 28 Incident",
+              "url": "https://www.228.org.tw/en/228-incident"
+            },
+            {
+              "title": "India Press Information Bureau · The Emergency",
+              "url": "https://www.pib.gov.in/FactsheetDetails.aspx?ModuleId=16&NoteId=149224&id=149224&lang=2&reg=48"
+            },
+            {
+              "title": "Office of the Historian · The South Asia Crisis and the Founding of Bangladesh",
+              "url": "https://history.state.gov/milestones/1969-1976/south-asia"
+            }
+          ]
+        }
+      ]
     },
     "globalization-and-interdependence": {
       "title": "Globalization and Interdependence",
