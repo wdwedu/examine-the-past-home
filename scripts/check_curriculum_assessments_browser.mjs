@@ -38,7 +38,7 @@ async function checkGrade9Alignment(page) {
     .flatMap(([, lesson]) => lesson.marylandAlignment.code.split(" and "));
   assert.deepEqual(imperialismCodes.sort(), ["USH.1.2.a", "USH.1.2.b", "USH.1.2.c", "USH.1.2.d"]);
   const frameworkIds = { content: 17926, bridge: 17926, review: 17918 };
-  for (const [slug, { marylandAlignment: alignment }] of mapped) {
+  for (const [slug, { unit, marylandAlignment: alignment }] of mapped) {
     const url = new URL(`lessons/curriculum/${courses[9]}/${slug}/`, root);
     assert.ok((await page.goto(url.href, { waitUntil: "domcontentloaded" }))?.ok(), slug);
     const standards = page.locator("#plan details").filter({ has: page.getByText("Standards", { exact: true }) });
@@ -56,6 +56,10 @@ async function checkGrade9Alignment(page) {
     const sources = page.getByRole("list", { name: "Sources for the exit ticket" }).getByRole("link");
     assert.deepEqual(await sources.evaluateAll(links => links.map(link => link.getAttribute("href"))),
       alignment.sources.map(source => source.url));
+    const assessment = page.locator("#assess details").filter({ hasText: "Final Assessment" });
+    await assessment.locator("summary").click();
+    const assessmentLink = assessment.getByRole("link", { name: `Open the full Unit ${unit} Assessment` });
+    assert.equal(await assessmentLink.getAttribute("href"), `../unit-${unit.replace(".", "-")}-assessment/`);
     const field = page.getByLabel("My evidence-based reflection");
     assert.equal(await field.getAttribute("aria-describedby"), "g9-md-prompt g9-md-criteria");
     await field.fill("I can support this claim with evidence.");
@@ -66,6 +70,10 @@ async function checkGrade9Alignment(page) {
       for (const paragraph of alignment.reading) {
         assert.ok((await guided.innerText()).includes(paragraph));
       }
+    }
+    if (slug === "the-spanish-american-war") {
+      await Promise.all([page.waitForURL("**/unit-9-3-assessment/"), assessmentLink.click()]);
+      await page.getByRole("heading", { name: "Document A · Treaty of Paris" }).waitFor();
     }
   }
   console.log("PASS Maryland alignment, sources, and exit tickets in twelve Grade 9 lessons");

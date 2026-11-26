@@ -81,7 +81,7 @@ The [desktop and phone-width Chromium run](https://github.com/wdwedu/examine-the
 
 ### Grade 9 Imperialism and Expansion · November 26
 
-Unit 9.3 adds Maryland objectives USH.1.2.a–d to all three lessons. The guided readings and exit tickets cover motives for expansion, causes and outcomes of the war with Spain, Hawaiʻi and the Philippines, and U.S. involvement in Panama, China, and Japan. The unit assessment now asks students to interpret the territorial terms of the Treaty of Paris and compare consequences across cases. This brings Grade 9 to 12 of 45 mapped lessons. The source ledger records 109 open, four partly verified, and 23 supported claims.
+Unit 9.3 adds Maryland objectives USH.1.2.a–d to all three lessons. The guided readings and exit tickets cover motives for expansion, causes and outcomes of the war with Spain, Hawaiʻi and the Philippines, and U.S. involvement in Panama, China, and Japan. The unit assessment now asks students to interpret the territorial terms of the Treaty of Paris and compare consequences across cases. The final-assessment links in all Grade 9 lessons now open their scored assessment pages. This brings Grade 9 to 12 of 45 mapped lessons. The source ledger records 109 open, four partly verified, and 23 supported claims.
 
 The scorecard and gates below record the original audit baseline.
 
