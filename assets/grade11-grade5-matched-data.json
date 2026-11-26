@@ -2915,6 +2915,26 @@
               "url": "https://www.nationalarchives.gov.uk/education/resources/1833-factory-act/source-1/"
             }
           ]
+        },
+        {
+          "code": "MWH.2.4.a",
+          "title": "Socialist politics and factory work in Germany",
+          "reading": [
+            "Industrial wage work gave employers control over production schedules and conditions. Socialist organizers argued that individual workers had limited bargaining power. At Erfurt in 1891, the German Social Democratic Party adopted a program that linked Marxist criticism of capitalism to immediate political and workplace demands, including protections for workers and changes in who could participate in government.",
+            "A decade earlier, the imperial government had proposed state-backed social insurance while restricting socialist organizing. Its proclamation shows that industrial risk had become a political question. The Erfurt Program documents what socialists sought, while the imperial proclamation shows how officials framed their own response. A proposal or declaration alone cannot show that a specific reform was carried out or that one party caused it."
+          ],
+          "prompt": "Choose a political demand and a workplace demand in the Erfurt Program. Compare those demands with one measure proposed in the imperial proclamation. Explain how industrial labor conditions entered politics, what each author wanted, and what further evidence could show whether the proposals altered workplace conditions.",
+          "criteria": "Connects Marxist or socialist ideas to politics, industry, and labor. Uses the two dated records and distinguishes a demand, a policy proposal, and an outcome.",
+          "sources": [
+            {
+              "title": "German History in Documents and Images · Erfurt Program (1891)",
+              "url": "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/the-erfurt-program-1891"
+            },
+            {
+              "title": "German History in Documents and Images · Royal Proclamation on Social Policy (1881)",
+              "url": "https://germanhistorydocs.org/en/forging-an-empire-bismarckian-germany-1866-1890/kaiser-wilhelm-i-s-royal-proclamation-on-social-policy-november-17-1881"
+            }
+          ]
         }
       ]
     },
@@ -3047,7 +3067,49 @@
         "objective": "Compare two factors shaping industrial production in Britain and India.",
         "evidence": "Use Parthasarathi's publicly available introduction and the lesson reading. Compare a production advantage or constraint in each place, then explain how trade, policy, or access to energy might help explain the gap. Identify an added source that could change your conclusion.",
         "criteria": "Makes an evidence-based comparison, distinguishes industrial output from living standards, and names evidence needed to test the explanation."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.2.3.c",
+          "title": "Four paths to industrialization",
+          "reading": [
+            "In western Europe, Britain's coalfields, canals, and established textile and metal trades helped factories grow. In the United States, expanding railroads joined markets across long distances. Producers drew on domestic resources, immigrant workers, and European investment. The timing and mix of these factors varied by industry.",
+            "Russia also had substantial resources, but they were scattered across a vast territory. The government encouraged rail construction and sought foreign capital. In Japan, Meiji leaders sponsored model industries and drew on foreign technicians before selling many enterprises to private owners. Railroads mattered in all four cases, while the roles of government, location, and outside capital differed."
+          ],
+          "prompt": "Build a chart for Britain, the United States, Russia, and Japan. In each row cite an internal condition and an external connection or market. Across the chart address resources or energy, geography, technology, capital, and government policy. Use the chart to explain why one factor mattered more in Russia or Japan than it did in Britain or the United States.",
+          "criteria": "Uses all four cases, distinguishes local conditions from outside connections, and supports a comparative explanation rather than ranking countries by a single measure.",
+          "sources": [
+            {
+              "title": "OpenStax · The Second Industrial Revolution",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/9-1-the-second-industrial-revolution"
+            },
+            {
+              "title": "Cambridge University Press · Russia as a great power, part 1",
+              "url": "https://www.cambridge.org/core/journals/journal-of-institutional-economics/article/russia-as-a-great-power-from-1815-to-the-present-day-part-1/266C39E2BCF07078CC2D83A9DFC269D8"
+            }
+          ]
+        },
+        {
+          "code": "MWH.2.7.b",
+          "title": "Russia's railways, reform, and expansion",
+          "reading": [
+            "Russian modernization faced internal obstacles. Serfdom limited labor mobility before emancipation in 1861. Resources, ports, and industrial markets were separated by long distances. The government used protective policies, public spending, and railway investment to encourage industry. Finance Minister Sergei Witte promoted industrialization and helped attract investment from abroad.",
+            "Modernization also took place under external pressure. Competition with other powers encouraged the search for strategic routes and markets. The Trans-Siberian Railway helped connect European Russia to the Pacific. Rail connections into Manchuria also served Russian economic and imperial aims, contributing to competition with Japan. A railway could serve both internal development and expansion beyond existing borders."
+          ],
+          "prompt": "Make a causal diagram with one domestic constraint, one external input or pressure, two modernization policies, and one imperial consequence. Use the readings to explain why railways could contribute both to industry and to rivalry in East Asia. Label a relationship that requires evidence beyond chronology.",
+          "criteria": "Uses internal and external causes, gives a specific railway or policy example, and explains the link to imperial expansion rather than treating it as automatic.",
+          "sources": [
+            {
+              "title": "OpenStax · The Second Industrial Revolution",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/9-1-the-second-industrial-revolution"
+            },
+            {
+              "title": "OpenStax · Colonial Empires",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/9-3-colonial-empires"
+            }
+          ]
+        }
+      ]
     },
     "the-new-imperialism": {
       "title": "The New Imperialism",
@@ -3186,7 +3248,73 @@
         "objective": "Explain how markets, raw materials, and access to low-cost labor influenced imperial expansion in Africa and Asia.",
         "evidence": "Compare the Congo Free State case from the AfricaMuseum reading with market access in the Open Door notes on China. Identify a commercial goal and the policy used to pursue it in each case. Explain how raw materials or coerced labor mattered in the Congo case, and whose interests the diplomatic note represents.",
         "criteria": "Names specific economic interests on both continents and distinguishes labor extraction and territorial coercion from a diplomatic demand for market access."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.2.5.b",
+          "title": "How racial ideology was used to justify empire",
+          "reading": [
+            "In the 1880s, the French politician Jules Ferry defended colonial expansion before legislators. His case combined economic arguments about markets with a claim that Europeans had a right or duty to rule people they ranked as inferior. Reading the speech helps explain how a politician sought support for an imperial policy. It does not make his racial assertions credible.",
+            "Writers who applied ideas of competition and selection to human institutions are often described as Social Darwinists. Advocates of scientific racism also presented invented racial hierarchies as though they were validated by measurement or inheritance. These approaches were distinct and could reinforce one another when used to naturalize unequal power. Modern genetics does not support rankings of human worth, intelligence, or entitlement by race."
+          ],
+          "prompt": "Identify a commercial justification and a racial justification in Ferry's speech. Explain how an audience might be encouraged to see unequal rule as legitimate. Compare this use of racial hierarchy with the institutional reading on scientific racism. Cite both texts and identify a claim for which the speech offers no valid evidence.",
+          "criteria": "Identifies both justifications, distinguishes Social Darwinist reasoning from claims presented as racial science, and treats the speech as evidence of political rhetoric.",
+          "sources": [
+            {
+              "title": "Fordham University · Jules Ferry on French Colonial Expansion",
+              "url": "https://sourcebooks.fordham.edu/mod/1884ferry.asp"
+            },
+            {
+              "title": "National Human Genome Research Institute · Eugenics and Scientific Racism",
+              "url": "https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism"
+            }
+          ]
+        },
+        {
+          "code": "MWH.2.5.d",
+          "title": "Schools, missions, and local choices",
+          "reading": [
+            "In British India, Thomas Macaulay's 1835 education minute advocated spending government funds on English-language education. Policy proposals like his could change which languages and qualifications opened routes into colonial administration. Indian students and reformers later used some of these same tools to challenge colonial authority.",
+            "Across southern Africa, Moshoeshoe I allowed French Protestant missionaries to settle in his kingdom in the 1830s. Missionaries pursued conversion, while the Basotho ruler could use relationships with them to seek information and diplomatic support. In Qing China, foreign missionary privileges expanded under unequal treaties. Conflict around missionaries and local Christian converts became part of some communities' response to foreign power. The three cases show how schools, religious institutions, and treaty privileges shaped different relationships."
+          ],
+          "prompt": "Use a three-row chart for Basutoland, British India, and Qing China. Identify an institution or rule in each, a local response, and one change it could make to authority, identity, or access to opportunity. Use Macaulay, the Lesotho history, and the OpenStax discussion of China. Explain why similar foreign ideas could have different consequences.",
+          "criteria": "Uses all three regions, attributes one specific institution or policy to each, and identifies local agency without inferring that everyone responded the same way.",
+          "sources": [
+            {
+              "title": "University of Washington · Macaulay's Minute on Education (1835)",
+              "url": "https://english.washington.edu/sites/english/files/documents/ewp/teaching_resources/minute_on_indian_education_1835_by_thomas_babington_macaulay.pdf"
+            },
+            {
+              "title": "South African History Online · Lesotho",
+              "url": "https://sahistory.org.za/place/lesotho"
+            },
+            {
+              "title": "OpenStax · Colonial Empires",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/9-3-colonial-empires"
+            }
+          ]
+        },
+        {
+          "code": "MWH.2.7.a",
+          "title": "Ottoman reform and the limits of an edict",
+          "reading": [
+            "Nineteenth-century Ottoman leaders faced military and diplomatic pressure, demands for revenue, and disputes over how officials exercised authority. Reformers in the Tanzimat period tried to strengthen the state by changing administration, law, taxation, and military recruitment. The 1839 Gülhane edict promised protections for subjects and changes to taxation and conscription.",
+            "Changes at the center affected relationships in the provinces. Local officials and communities could interpret promises differently. Some peasants invoked reform language when they protested taxes or asserted rights. An edict shows what leaders pledged, while evidence of a local dispute helps show how people understood or tested that pledge."
+          ],
+          "prompt": "Identify a pressure that helped motivate reform and choose one promise in the 1839 decree or the study's discussion of it. Use the peasant-protest study to give an example of how reform changed a local relationship or created a new point of dispute. Explain whether that evidence supports a broad claim about success.",
+          "criteria": "Connects a cause to a particular reform, uses a concrete provincial effect, and distinguishes official intent from implementation.",
+          "sources": [
+            {
+              "title": "Cambridge University Press · Peasant Protest in the Late Ottoman Empire",
+              "url": "https://www.cambridge.org/core/journals/international-review-of-social-history/article/peasant-protest-in-the-late-ottoman-empire-moral-economy-revolt-and-the-tanzimat-reforms/71E8BB89C36FE8160E4B939E62BE668A"
+            },
+            {
+              "title": "Centre for Advanced Study Sofia · Gülhane Edict selections and context",
+              "url": "https://cas.bg/wp-content/uploads/2020/04/ID-Reader-vol1-Late-Enlighten.pdf"
+            }
+          ]
+        }
+      ]
     },
     "the-scramble-for-africa": {
       "title": "The Scramble for Africa",
@@ -3317,7 +3445,29 @@
         "objective": "Explain how the Berlin Conference rules shaped later colonial claims and why subsequent events still mattered.",
         "evidence": "Use the German Foreign Office's General Act record, especially the discussion of claims and effective authority. Compare it with the Yeke and Congo Free State case. Explain one way the new rules shaped later competition and one action on the ground needed to explain actual control.",
         "criteria": "Distinguishes the conference from later boundary-making and uses a concrete example to connect European rules with events in Africa."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.2.6.c",
+          "title": "How South Africa made racial hierarchy into law",
+          "reading": [
+            "Long before apartheid became official policy, land rules and labor restrictions advantaged settlers. The Natives Land Act of 1913 sharply restricted where Black Africans could buy or lease land. These rules affected household choices about farming, where to live, and how to earn a living.",
+            "After 1948, the apartheid government built on earlier segregation. The Population Registration Act of 1950 assigned people to racial categories. Other laws used those classifications to restrict residence and movement or to allocate rights and services unequally. These categories were imposed by the state. Their consequences reflected laws and enforcement rather than any natural division of human beings."
+          ],
+          "prompt": "Compare the 1913 land law with 1950 population registration. Give a legally imposed category or restriction, then trace how each law changed a relationship among government officials, landowners or employers, and affected families. Cite both linked readings and identify one kind of evidence that could show how people resisted or challenged the system.",
+          "criteria": "Distinguishes segregation before 1948 from later apartheid, explains how state categories affected relationships and access, and connects at least two policies to specific consequences.",
+          "sources": [
+            {
+              "title": "South African History Online · The Native Land Act is passed",
+              "url": "https://sahistory.org.za/dated-event/native-land-act-passed"
+            },
+            {
+              "title": "South African History Online · Turning Points: 1948 and the 1950s",
+              "url": "https://sahistory.org.za/classroom/grade-9/turning-points-1948-and-1950s"
+            }
+          ]
+        }
+      ]
     },
     "imperialism-in-asia": {
       "title": "Imperialism in Asia",
@@ -3440,7 +3590,57 @@
         "objective": "Analyze how diplomatic pressure and military power shaped foreign influence in China around 1900.",
         "evidence": "Use the Open Door notes and the accompanying Office of the Historian account. Identify one diplomatic aim and one example of military intervention. Explain how they could reinforce each other and which claim the U.S. documents cannot establish about Chinese views.",
         "criteria": "Explains the relationship between two methods of influence, dates the examples, and states the limits of a U.S. diplomatic perspective."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.2.6.d",
+          "title": "Qing choices, the Taiping, and the Boxers",
+          "reading": [
+            "Qing officials tried to control foreign trade. Military defeat in the Opium Wars forced concessions, including opening more ports. Some officials later promoted the selective adoption of foreign military technology and industry under Self-Strengthening. The state restricted outside influence in some areas and pursued technological change in others.",
+            "The Taiping movement, led by Hong Xiuquan, chiefly waged a civil war to replace the Qing. It weakened the state but failed to establish a lasting alternative government. The Boxers more directly attacked foreign influence and Chinese Christians. An international coalition defeated the uprising, and the settlement imposed new burdens on the Qing. The movements pursued different goals, so their effectiveness must be measured against different outcomes."
+          ],
+          "prompt": "Make a chart of the Qing government's response to trade and technology, the Taiping movement's chief goal, and the Boxers' chief goal. Explain which actions targeted the Qing, which targeted foreign influence, and what each accomplished or failed to accomplish. Use two sources and cite one result for each movement.",
+          "criteria": "Explains selective adaptation alongside trade restrictions, distinguishes internal civil war from resistance to foreign influence, and supports a judgment about each movement's results.",
+          "sources": [
+            {
+              "title": "OpenStax · Colonial Empires",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/9-3-colonial-empires"
+            },
+            {
+              "title": "OpenStax · The Rise of a Global Economy",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/6-2-the-rise-of-a-global-economy"
+            },
+            {
+              "title": "OpenStax · Communities in Diaspora",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/10-4-communities-in-diaspora"
+            }
+          ]
+        },
+        {
+          "code": "MWH.2.7.c",
+          "title": "Meiji industry and the expansion of Japan's empire",
+          "reading": [
+            "After 1868 the Meiji government invested in infrastructure, brought in foreign expertise, and developed model enterprises. Expanded revenue and industrial capacity helped support a stronger military. Leaders also pursued regional influence for strategic and political reasons. Industrial growth supplied resources for expansion, while policy decisions determined where and when the government used them.",
+            "Japan defeated Qing China in 1894–95. The Treaty of Shimonoseki required Qing China to cede Taiwan to Japan. Korea's status and sovereignty were contested as Japanese influence grew. The treaty establishes terms after the war. To explain why the war took place, a historian must also consider the decisions of Korean, Chinese, and Japanese actors."
+          ],
+          "prompt": "Use the OpenStax account and the 1895 diplomatic summary to connect two Meiji policies to a specific capacity for imperial expansion. Identify a treaty consequence and explain one reason why the capacity to expand cannot explain a decision by itself.",
+          "criteria": "Uses evidence of two policies, distinguishes economic or military capacity from motive, and names a specific consequence supported by the treaty summary.",
+          "sources": [
+            {
+              "title": "OpenStax · The Second Industrial Revolution",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/9-1-the-second-industrial-revolution"
+            },
+            {
+              "title": "OpenStax · Colonial Empires",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/9-3-colonial-empires"
+            },
+            {
+              "title": "Office of the Historian · U.S. diplomatic summary of the Treaty of Shimonoseki (1895)",
+              "url": "https://history.state.gov/historicaldocuments/frus1895p1/d203"
+            }
+          ]
+        }
+      ]
     },
     "resistance-to-colonial-rule": {
       "title": "Resistance to Colonial Rule",
@@ -3571,7 +3771,29 @@
         "objective": "Compare the strategies and results of Menelik II's and Yaa Asantewaa's resistance.",
         "evidence": "Use the Adwa account and the Asante entry in the African Kingdoms Timeline. Identify a tactic, a goal, and an outcome for each movement. Explain one difference in what each achieved and one limitation of using retrospective accounts.",
         "criteria": "Uses evidence from both movements and makes a supported judgment rather than treating successful military resistance and long-term sovereignty as the same outcome."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.2.6.a",
+          "title": "How Indian nationalism developed",
+          "reading": [
+            "The revolt of 1857 had many causes and participants. It helped lead to the end of East India Company rule and the transfer of authority to the British Crown in 1858. Later political organizers used associations, petitions, and print to develop demands that reached across regions. The Indian National Congress, founded in 1885, gave some of these organizers a common political forum.",
+            "Other critics focused on how imperial policy transferred wealth and shaped access to government. After the 1905 partition of Bengal, the swadeshi movement encouraged boycotts and support for Indian-made goods. It joined economic action to a claim about who should govern. Participation and priorities varied, so the growth of nationalism involved choices about whose interests the movement would represent."
+          ],
+          "prompt": "Build a timeline with the 1857 revolt, the founding of the Congress, and the 1905 swadeshi campaign. Explain one political idea, one economic grievance, and one way people organized. Show how at least two factors reinforced each other and name a group whose perspective needs a separate source.",
+          "criteria": "Accurately sequences the turning points and makes an evidence-based argument about social organization, economic critique, and ideas about self-rule.",
+          "sources": [
+            {
+              "title": "OpenStax · Old Empires and New Colonies",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/12-4-old-empires-and-new-colonies"
+            },
+            {
+              "title": "Columbia University · A Local History of Global Capital, chapter 2",
+              "url": "https://sai.columbia.edu/sites/sai.columbia.edu/files/content/docs/A%20Local%20History%20of%20Global%20Capital_Chapters%201%20%26%202_0.pdf"
+            }
+          ]
+        }
+      ]
     },
     "causes-of-the-first-world-war": {
       "title": "Causes of the First World War",
@@ -3702,7 +3924,53 @@
         "objective": "Explain why a regional crisis widened into war by weighing nationalism, militarism, imperial rivalry and alliance commitments.",
         "evidence": "Build a four-event timeline from the July ultimatum to wider mobilization. In a paragraph, identify two decisions that widened the crisis and explain how longer-term tensions made each consequential. Address nationalism, militarism, imperial rivalry and alliances. Use one dated document and distinguish the immediate trigger from the underlying causes.",
         "criteria": "All four long-term factors appear in the explanation. The timeline places decisions in order and the paragraph explains how at least two factors interacted."
-      }
+      },
+      "caseStudies": [
+        {
+          "code": "MWH.2.8.a",
+          "title": "Nationalism in Germany, Italy, and India",
+          "reading": [
+            "In much of central Europe, German nationalists promoted political union among German-speaking states. Prussia led the process that produced the German Empire in 1871, and war and diplomacy shaped which states joined. In Italy, nationalist campaigning, warfare, and leadership by Piedmont-Sardinia helped form the Kingdom of Italy in 1861. Venetia and Rome were incorporated later.",
+            "Indian nationalists faced a different political setting. They sought to build collective claims under colonial rule, rather than unite a set of independent states by the same process as Germany or Italy. Organizations such as the Indian National Congress helped coordinate demands, while disagreements about representation and priorities continued."
+          ],
+          "prompt": "Compare Germany, Italy, and India in three rows. For each, identify the political setting, one actor or organization, and one result of nationalist action during the period studied. Use each reading and explain why nationalism could help form a state in one setting and organize demands for self-rule in another.",
+          "criteria": "Addresses both western European cases and one non-Western case, compares the political role of nationalism with specific evidence, and identifies the limits of the comparison.",
+          "sources": [
+            {
+              "title": "German History in Documents and Images · Creation of the German Empire",
+              "url": "https://germanhistorydocs.org/en/forging-an-empire-bismarckian-germany-1866-1890/creation-of-the-german-empire-1866-1871"
+            },
+            {
+              "title": "Office of the Historian · Italy and unification",
+              "url": "https://history.state.gov/countries/italy"
+            },
+            {
+              "title": "OpenStax · Old Empires and New Colonies",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/12-4-old-empires-and-new-colonies"
+            }
+          ]
+        },
+        {
+          "code": "MWH.2.8.b",
+          "title": "National claims and Ottoman authority in the Balkans",
+          "reading": [
+            "Nationalist movements in the Balkans challenged Ottoman authority, but movements pursued different outcomes, including autonomy, independence, or territorial union. The Ottoman government sought to retain power. Neighboring governments and major European powers also pursued their own security interests, so local demands did not determine the result by themselves.",
+            "After war between Russia and the Ottoman Empire, the 1878 Treaty of Berlin revised an earlier settlement. It recognized independence for Serbia, Montenegro, and Romania and established an autonomous Bulgaria under Ottoman suzerainty. These outcomes were legally different. Borders and political status settled by a treaty could leave communities or rival governments dissatisfied."
+          ],
+          "prompt": "Compare the treaty excerpts for one state recognized as independent and for Bulgaria. Use the textbook's regional account to explain how a nationalist claim, an Ottoman interest, and an outside power's interest interacted. Identify one reason the settlement could leave later disputes unresolved.",
+          "criteria": "Distinguishes independence from autonomy, connects a specific nationalist demand with imperial and interstate pressures, and limits claims about treaty effects to the available evidence.",
+          "sources": [
+            {
+              "title": "UCLA · Treaty of Berlin excerpts (1878)",
+              "url": "https://whfua.history.ucla.edu/downloads/download.php?file=E7LS6"
+            },
+            {
+              "title": "OpenStax · The Collapse of the Ottomans and the Coming of War",
+              "url": "https://openstax.org/books/world-history-volume-2/pages/11-2-the-collapse-of-the-ottomans-and-the-coming-of-war"
+            }
+          ]
+        }
+      ]
     },
     "trench-warfare-and-total-war": {
       "title": "Trench Warfare and Total War",

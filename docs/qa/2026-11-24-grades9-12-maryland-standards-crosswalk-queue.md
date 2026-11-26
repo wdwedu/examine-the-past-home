@@ -11,10 +11,10 @@ Grades 11–12 disciplinary-literacy benchmark: https://www.thecorestandards.org
 |---|---|---|
 | Grade 9 · U.S. History | 1 of 45 has a partial documented match (Brown v. Board). | Map 44 lessons and expand the Brown task to cover Mendez v. Westminster and short- and long-term effects. |
 | Grade 10 · American Government | 1 of 31 has a partial documented match (How American Elections Work). | Map 30 lessons and extend the elections task to evaluate the Electoral College across two periods. |
-| Grade 11 · Modern World History | 40 of 40 lessons have an objective, student task, and success criteria. Of these, 36 link to specific content objectives and four to Maryland inquiry skills. All 11 unit assessments have a focused written argument. | Review the 46 objectives with no designated task and finish coverage of partial objectives. Then check source passages and teacher-scored writing. |
+| Grade 11 · Modern World History | 40 of 40 lessons have an objective, student task, and success criteria. Of these, 36 link to specific content objectives and four to Maryland inquiry skills. All 11 unit assessments have a focused written argument. | Review the 34 objectives with no designated task and finish coverage of partial objectives. Then check source passages and teacher-scored writing. |
 | Grade 12 · Social Studies Electives | 20 lessons have proposed broad topics. | Confirm the applicable local course expectations, then map all 20 lessons and their assessments. |
 
-**Grade 11 next pass.** Compare the entire state framework against what the Grade 11 course teaches and assesses. The early-world case build now addresses the Ottoman, Ming, Mughal, and Atlantic colonial priorities. Review the remaining topics in Sections 2–4, including comparative industrialization, the global effects of World War I, and Cold War conflicts beyond Europe. Keep the four inquiry-focused lessons as support for historical reasoning.
+**Grade 11 next pass.** Compare the entire state framework against what the Grade 11 course teaches and assesses. The early-world case build now addresses the Ottoman, Ming, Mughal, and Atlantic colonial priorities. Sections 1 and 2 now have tasks for every numbered objective. Next map the 21 remaining objectives in Section 3 and the 13 in Section 4. Early Section 3 priorities include the global effects of World War I, the interwar period outside Europe, and Cold War conflicts beyond Europe. Keep the four inquiry-focused lessons as support for historical reasoning.
 
 **Gaps in lessons already mapped.** Examples include China and Africa in the industrialization comparison, Samori Ture and Tanganyika in the resistance comparison, Ben Bella and Algeria in postwar independence, and the World Court and nongovernmental organizations in the conflict-response objective. See each lesson row for the full scope of its task. Check other framework objectives even where a lesson already maps to one objective.
 
@@ -22,20 +22,38 @@ Grades 11–12 disciplinary-literacy benchmark: https://www.thecorestandards.org
 
 ### Grade 11 course coverage by Maryland objective
 
-The state framework lists 83 numbered content objectives. Thirty-seven have a linked lesson or case-study task, which can cover only a portion of the objective. Forty-six have no designated task in this tracker. Some of their topics already appear in course readings and need a review before deciding whether to add teaching material or just assess it.
+The state framework lists 83 numbered content objectives. Forty-nine have a linked lesson or case-study task, which can cover only a portion of the objective. Thirty-four have no designated task in this tracker. Some of their topics already appear in course readings and need a review before deciding whether to add teaching material or just assess it.
 
 | MSDE framework section | Objectives linked to a task | Objectives to review for a task |
 |---|---:|---:|
 | 1 · Early connections and overseas expansion | 9 of 9 | 0 |
-| 2 · Political revolutions, industry, and empire | 13 of 25 | 12 |
+| 2 · Political revolutions, industry, and empire | 25 of 25 | 0 |
 | 3 · World wars, independence, and the Cold War | 11 of 32 | 21 |
 | 4 · Globalization and human rights | 4 of 17 | 13 |
 
 Objectives to review by code
 
-- Section 2: MWH.2.3.c, MWH.2.4.a, MWH.2.5.b, MWH.2.5.d, MWH.2.6.a, MWH.2.6.c, MWH.2.6.d, MWH.2.7.a, MWH.2.7.b, MWH.2.7.c, MWH.2.8.a, MWH.2.8.b.
 - Section 3: MWH.3.2.a, MWH.3.2.c, MWH.3.2.d, MWH.3.2.e, MWH.3.2.f, MWH.3.2.g, MWH.3.3.b, MWH.3.3.c, MWH.3.3.d, MWH.3.4.b, MWH.3.4.c, MWH.3.5.b, MWH.3.6.b, MWH.3.6.c, MWH.3.6.d, MWH.3.7.b, MWH.3.8.b, MWH.3.8.c, MWH.3.10.a, MWH.3.10.b, MWH.3.10.c.
 - Section 4: MWH.4.1.a, MWH.4.1.b, MWH.4.2.a, MWH.4.2.b, MWH.4.2.c, MWH.4.2.d, MWH.4.2.e, MWH.4.3.a, MWH.4.3.c, MWH.4.3.d, MWH.4.4.a, MWH.4.5.a, MWH.4.5.b.
+
+### Grade 11 industrialization, imperialism, and nationalism · November 25
+
+The 12 new case studies add readings, response fields, and teacher criteria for the previously unlinked Section 2 objectives. All 25 numbered objectives in that section now have a designated task. Existing tasks still need a review for breadth where the state names several cases. Examples include China and Africa in the industrial production comparison and Samori Ture and Tanganyika in the African resistance comparison.
+
+| Maryland objective | New student task | Find it in Guided Practice |
+|---|---|---|
+| MWH.2.3.c | Four paths to industrialization | 11.6 · Global Economic and Social Change |
+| MWH.2.4.a | Socialist politics and factory work in Germany | 11.6 · Industrial Cities and Labor |
+| MWH.2.5.b | How racial ideology was used to justify empire | 11.7 · The New Imperialism |
+| MWH.2.5.d | Schools, missions, and local choices | 11.7 · The New Imperialism |
+| MWH.2.6.a | How Indian nationalism developed | 11.7 · Resistance to Colonial Rule |
+| MWH.2.6.c | How South Africa made racial hierarchy into law | 11.7 · The Scramble for Africa |
+| MWH.2.6.d | Qing choices, the Taiping, and the Boxers | 11.7 · Imperialism in Asia |
+| MWH.2.7.a | Ottoman reform and the limits of an edict | 11.7 · The New Imperialism |
+| MWH.2.7.b | Russia's railways, reform, and expansion | 11.6 · Global Economic and Social Change |
+| MWH.2.7.c | Meiji industry and the expansion of Japan's empire | 11.7 · Imperialism in Asia |
+| MWH.2.8.a | Nationalism in Germany, Italy, and India | 11.8 · Causes of the First World War |
+| MWH.2.8.b | National claims and Ottoman authority in the Balkans | 11.8 · Causes of the First World War |
 
 ### Grade 11 case-study readings and tasks · November 25
 

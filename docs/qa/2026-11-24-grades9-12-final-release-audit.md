@@ -49,6 +49,12 @@ The source ledger adds two supported claims and one partly verified claim. It no
 
 The [browser checks](https://github.com/wdwedu/examine-the-past-home/actions/runs/45708010891) passed at desktop and phone widths. They covered the 40 Grade 11 lesson pages, all 36 high-school unit assessments, and navigation, reading content, source links, and editable response fields for all eight new case studies. The link checks confirmed the destinations listed on the pages. They do not establish external source availability on school networks or assistive-technology conformance.
 
+### Grade 11 industrialization, imperialism, and nationalism · November 25, 2026
+
+Twelve new case studies give the previously unlinked Section 2 objectives a designated student task. Grade 11 now links 49 of 83 content objectives to a task, including all 34 numbered objectives in Sections 1 and 2. The [Maryland tracker](2026-11-24-grades9-12-maryland-standards-crosswalk-queue.md#grade-11-course-coverage-by-maryland-objective) lists 21 objectives still open in Section 3 and 13 in Section 4. A designated task can cover only part of an objective.
+
+The source ledger now records 118 open claims, six partly verified claims, and 12 supported claims.
+
 The scorecard and gates below record the original audit baseline.
 
 ## Executive scorecard
