@@ -249,7 +249,25 @@
           "url": "https://www.archives.gov/milestone-documents/15th-amendment",
           "summary": "Read the restriction on denying voting rights because of race, color, or previous condition of servitude. Contrast the legal text with evidence of violence and restrictions on Black voting; the amendment did not guarantee enforcement."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "8.6.4.a",
+        "page": 29,
+        "kind": "review",
+        "objective": "Weigh factors that weakened federal protection for Reconstruction governments and Black voters in the 1870s.",
+        "prompt": "Use the National Park Service study to explain how organized intimidation and changes in federal enforcement contributed to the end of Reconstruction. Which factor better explains what changed by 1877? Cite a dated detail and explain why the Fifteenth Amendment remained important after that turning point.",
+        "criteria": "Explains two factors, weighs their significance with a dated example, and distinguishes the constitutional protection from its enforcement.",
+        "sources": [
+          {
+            "title": "National Park Service · Reconstruction theme study",
+            "url": "https://home.nps.gov/subjects/reconstruction/upload/Reconstruction-NHL_Theme_Study_508.pdf"
+          },
+          {
+            "title": "National Archives · Fifteenth Amendment",
+            "url": "https://www.archives.gov/milestone-documents/15th-amendment"
+          }
+        ]
+      }
     },
     "the-rise-of-big-business": {
       "title": "The Rise of Big Business",
@@ -342,7 +360,25 @@
           "url": "https://www.archives.gov/milestone-documents/interstate-commerce-act",
           "summary": "Compare federal railroad regulation with federal antitrust law; they governed different problems and should not be treated as interchangeable."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.BR.1.b",
+        "page": 7,
+        "kind": "bridge",
+        "objective": "Explain how business consolidation shaped competition and led to debate about federal regulation.",
+        "prompt": "Choose a business or industry discussed in the lesson. Explain how consolidation could help it operate on a larger scale and how it could limit competition. Cite one detail from the lesson and a provision of the Sherman Act or Interstate Commerce Act to explain what lawmakers sought to change.",
+        "criteria": "Distinguishes a possible benefit of scale from a cost of concentrated power and connects the chosen law to a specific practice.",
+        "sources": [
+          {
+            "title": "National Archives · Sherman Anti-Trust Act",
+            "url": "https://www.archives.gov/milestone-documents/sherman-anti-trust-act"
+          },
+          {
+            "title": "National Archives · Interstate Commerce Act",
+            "url": "https://www.archives.gov/milestone-documents/interstate-commerce-act"
+          }
+        ]
+      }
     },
     "labor-immigration-and-urban-america": {
       "title": "Labor, Immigration, and Urban America",
@@ -435,7 +471,25 @@
           "url": "https://www.loc.gov/item/04011775/",
           "summary": "Riis documented tenement conditions through prose and illustrations. He was an advocate with particular editorial choices, not a neutral survey of every immigrant family."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.1.1.a",
+        "page": 9,
+        "kind": "content",
+        "objective": "Explain how collective action and federal intervention affected labor-management relations in the Pullman strike.",
+        "prompt": "Use the strike report and the Library of Congress guide. Name a grievance of Pullman workers, explain how the American Railway Union broadened the dispute, and show how the federal response changed the workers’ leverage. Use two dated or specific details.",
+        "criteria": "Traces a grievance, a union action, and the federal response. Explains how the balance of power changed.",
+        "sources": [
+          {
+            "title": "Library of Congress · U.S. Strike Commission’s Pullman report",
+            "url": "https://www.loc.gov/item/07032229/"
+          },
+          {
+            "title": "Library of Congress · Strikes and work stoppages",
+            "url": "https://guides.loc.gov/organized-labor/strikes-lockouts"
+          }
+        ]
+      }
     },
     "the-gilded-age-wealth-and-inequality": {
       "title": "The Gilded Age: Wealth and Inequality",
@@ -528,7 +582,29 @@
           "url": "https://www.archives.gov/milestone-documents/interstate-commerce-act",
           "summary": "Shows an earlier federal attempt to address railroad practices. Compare the act's authority with the remedies demanded in the 1892 platform."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.1.1.b",
+        "page": 9,
+        "kind": "content",
+        "objective": "Assess the effectiveness of the Populist movement using its demands and their political results.",
+        "prompt": "Select one economic demand and one political reform in the 1892 Omaha Platform. Compare each with later federal policy, such as the Seventeenth Amendment or Congress’s approach to coinage. Decide whether the movement had more impact on what people debated or on the policies they secured.",
+        "criteria": "Uses two actual platform demands and at least one later outcome. Distinguishes policy change from influence on debate.",
+        "sources": [
+          {
+            "title": "Teaching American History · Omaha Platform and Expression of Sentiments",
+            "url": "https://teachingamericanhistory.org/document/the-populist-party-platform-and-expression-of-sentiments/"
+          },
+          {
+            "title": "National Archives · Seventeenth Amendment",
+            "url": "https://www.archives.gov/milestone-documents/17th-amendment"
+          },
+          {
+            "title": "U.S. Statutes at Large · Gold Standard Act, section 1",
+            "url": "https://www.govinfo.gov/content/pkg/STATUTE-31/pdf/STATUTE-31-Pg45.pdf"
+          }
+        ]
+      }
     },
     "the-progressive-movement": {
       "title": "The Progressive Movement",
@@ -621,7 +697,25 @@
           "url": "https://www.archives.gov/milestone-documents/17th-amendment",
           "summary": "A structural reform requiring direct popular election of U.S. senators. Compare political reform with workplace reform rather than describing all Progressive goals as identical."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.1.1.c",
+        "page": 9,
+        "kind": "content",
+        "objective": "Evaluate the impact and limits of Progressive reforms addressing urban working conditions and political representation.",
+        "prompt": "Compare the Seventeenth Amendment’s change to Senate elections with one workplace safety reform that followed the Triangle fire. For each, explain what changed. Then identify what additional evidence would show whether the reform improved political participation or safety in practice.",
+        "criteria": "Explains direct election of senators and one specific safety reform. Distinguishes a change in law from evidence of its effects.",
+        "sources": [
+          {
+            "title": "National Archives · Seventeenth Amendment",
+            "url": "https://www.archives.gov/milestone-documents/17th-amendment"
+          },
+          {
+            "title": "Cornell University · Triangle Fire and its legacy",
+            "url": "https://trianglefire.ilr.cornell.edu/legacy/index.html"
+          }
+        ]
+      }
     },
     "investigative-journalism-and-social-change": {
       "title": "Investigative Journalism and Social Change",
@@ -714,7 +808,25 @@
           "url": "https://www.gutenberg.org/ebooks/140",
           "summary": "Historical novel available in complete text. Its fictional characters are not witnesses; verify claims about conditions and law against separate contemporary records."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.1.1.c",
+        "page": 9,
+        "kind": "content",
+        "objective": "Evaluate the contribution of public reporting and advocacy to Progressive-era regulation of the food industry.",
+        "prompt": "Compare a detail from The Jungle with the FDA account of food and drug regulation. Explain one way public attention shaped regulation and one reason the novel alone cannot establish what caused the law. Identify a group whose concerns the new law served and one whose concerns need other evidence.",
+        "criteria": "Uses a specific detail from each source, distinguishes fiction from an agency history, and connects public pressure to a documented regulatory change.",
+        "sources": [
+          {
+            "title": "Upton Sinclair · The Jungle",
+            "url": "https://www.gutenberg.org/ebooks/140"
+          },
+          {
+            "title": "FDA · The 1906 Food and Drugs Act and its enforcement",
+            "url": "https://www.fda.gov/about-fda/changes-science-law-and-regulatory-authorities/part-i-1906-food-and-drugs-act-and-its-enforcement"
+          }
+        ]
+      }
     },
     "women-s-suffrage": {
       "title": "Women's Suffrage",
@@ -807,7 +919,33 @@
           "url": "https://catalog.archives.gov/id/23914362",
           "summary": "Specific opposition petition linked from the National Archives' Woman's Place in America document list. Compare the petition's stated argument with the 1920 amendment and with the records of suffrage supporters."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.1.1.d",
+        "page": 9,
+        "kind": "content",
+        "objective": "Evaluate the role of suffrage organizations in securing the Nineteenth Amendment and identify barriers that remained.",
+        "prompt": "Choose one tactic used by the National American Woman Suffrage Association. Compare that tactic with an argument in the anti-suffrage petition. Cite the Nineteenth Amendment and explain a limit on voting access that persisted for some women after ratification.",
+        "criteria": "Connects a specific NAWSA tactic to the campaign, accurately states what the amendment forbids, and identifies a documented barrier that persisted.",
+        "sources": [
+          {
+            "title": "Library of Congress · The Final Push and NAWSA’s Winning Plan",
+            "url": "https://guides.loc.gov/american-women-manuscript/womens-suffrage/the-final-push"
+          },
+          {
+            "title": "National Archives · Anti-suffrage petition",
+            "url": "https://catalog.archives.gov/id/23914362"
+          },
+          {
+            "title": "National Archives · Nineteenth Amendment",
+            "url": "https://www.archives.gov/milestone-documents/19th-amendment"
+          },
+          {
+            "title": "National Park Service · Voting access after 1920",
+            "url": "https://home.nps.gov/articles/000/did-women-earn-the-right-to-vote-on-august-18-1920.htm"
+          }
+        ]
+      }
     },
     "reforming-government-and-industry": {
       "title": "Reforming Government and Industry",
@@ -900,7 +1038,25 @@
           "url": "https://www.archives.gov/milestone-documents/17th-amendment",
           "summary": "Ratified April 8, 1913; changed the selection of senators. It did not itself create the Federal Reserve or Federal Trade Commission."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.1.1.e",
+        "page": 9,
+        "kind": "content",
+        "objective": "Compare how Theodore Roosevelt and Woodrow Wilson used presidential authority and federal institutions to pursue domestic reforms.",
+        "prompt": "Compare Roosevelt’s use of presidential authority in conservation with Wilson’s support for the Federal Trade Commission. Identify who exercised authority under each approach and explain one change it made possible. Cite one documented action from each administration.",
+        "criteria": "Names a dated action by each administration and distinguishes presidential action from authority that Congress granted to an agency.",
+        "sources": [
+          {
+            "title": "Library of Congress · Conservation in the Progressive era",
+            "url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/progressive-era-to-new-era-1900-1929/conservation-in-progressive-era"
+          },
+          {
+            "title": "Federal Trade Commission · Founding and early history",
+            "url": "https://www.ftc.gov/about-ftc/history"
+          }
+        ]
+      }
     },
     "why-did-america-become-an-overseas-power": {
       "title": "Why Did America Become an Overseas Power?",
@@ -3408,7 +3564,37 @@
           "url": "https://www.archives.gov/milestone-documents/executive-order-10730",
           "summary": "Federal action in the Little Rock integration crisis; compare enforcement action with the prior court ruling."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.3.3.a",
+        "page": 16,
+        "kind": "content",
+        "objective": "Assess short- and long-term effects of Mendez and Brown on access to public education.",
+        "prompt": "Compare Mendez and Brown. For each case, explain what the court decided, one near-term change or obstacle, and one longer-term effect on educational access. Use the court or archive records to support the comparison. Explain why a ruling can change the law before students see the change in their school.",
+        "criteria": "Uses evidence from both cases, accurately distinguishes regional and nationwide legal reach, and assesses immediate and later effects.",
+        "sources": [
+          {
+            "title": "National Archives · Judicial records of Mendez and other cases before Brown",
+            "url": "https://www.archives.gov/publications/ref-info-papers/112-brown-board-educ/prior-judicial-records.html"
+          },
+          {
+            "title": "National Archives Museum · Sylvia Mendez and the Struggle for Mexican American Civil Rights",
+            "url": "https://visit.archives.gov/whats-on/explore-exhibits/sylvia-mendez-and-struggle-mexican-american-civil-rights"
+          },
+          {
+            "title": "National Archives · Brown opinion",
+            "url": "https://www.archives.gov/milestone-documents/brown-v-board-of-education"
+          },
+          {
+            "title": "National Archives · Executive Order 10730 and Little Rock",
+            "url": "https://www.archives.gov/milestone-documents/executive-order-10730"
+          }
+        ],
+        "reading": [
+          "In 1946, a federal district court ruled against the segregation of children of Mexican descent in several Orange County school districts. In 1947, a federal appeals court upheld the result. That decision affected the districts in the case. California repealed school segregation provisions the same year, and Mendez became part of the wider history of challenges to unequal schooling.",
+          "In 1954, the Supreme Court held in Brown that racial segregation in public schools violated the Fourteenth Amendment. The ruling reached beyond the districts involved in Mendez. Implementation took far longer. In 1957, federal action helped enforce a desegregation order at Central High School in Little Rock after state resistance. That episode shows why a national legal decision mattered and why local school access still depended on enforcement."
+        ]
+      }
     },
     "martin-luther-king-jr-and-nonviolent-resistance": {
       "title": "Martin Luther King Jr. and Nonviolent Resistance",

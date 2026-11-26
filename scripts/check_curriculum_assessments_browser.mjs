@@ -28,6 +28,45 @@ async function open(page, grade, unit) {
   assert.ok(response?.ok(), `Assessment request failed: ${unit}`);
 }
 
+async function checkGrade9Alignment(page) {
+  const response = await fetch(new URL("assets/grade9-grade5-template-data.json", root));
+  assert.ok(response.ok);
+  const { lessons } = await response.json();
+  const mapped = Object.entries(lessons).filter(([, lesson]) => lesson.marylandAlignment);
+  assert.equal(mapped.length, 9);
+  const frameworkIds = { content: 17926, bridge: 17926, review: 17918 };
+  for (const [slug, { marylandAlignment: alignment }] of mapped) {
+    const url = new URL(`lessons/curriculum/${courses[9]}/${slug}/`, root);
+    assert.ok((await page.goto(url.href, { waitUntil: "domcontentloaded" }))?.ok(), slug);
+    const standards = page.locator("#plan details").filter({ has: page.getByText("Standards", { exact: true }) });
+    await standards.locator("summary").click();
+    assert.ok((await standards.innerText()).includes(alignment.code), slug);
+    assert.equal(await standards.getByRole("link", { name: "Open Maryland framework" }).getAttribute("href"),
+      `https://msde.maryland.gov/media/${frameworkIds[alignment.kind]}#page=${alignment.page}`);
+    const objectives = page.locator("#plan details").filter({ has: page.getByText("Objectives", { exact: true }) });
+    await objectives.locator("summary").click();
+    assert.ok((await objectives.innerText()).includes(alignment.objective));
+    await standards.getByRole("link", { name: "Go to the exit ticket" }).click();
+    assert.equal(new URL(page.url()).hash, "#g9-md-prompt");
+    assert.equal(await page.locator("#g9-md-prompt").innerText(), alignment.prompt);
+    assert.ok((await page.locator("#g9-md-criteria").innerText()).includes(alignment.criteria));
+    const sources = page.getByRole("list", { name: "Sources for the exit ticket" }).getByRole("link");
+    assert.deepEqual(await sources.evaluateAll(links => links.map(link => link.getAttribute("href"))),
+      alignment.sources.map(source => source.url));
+    const field = page.getByLabel("My evidence-based reflection");
+    assert.equal(await field.getAttribute("aria-describedby"), "g9-md-prompt g9-md-criteria");
+    await field.fill("I can support this claim with evidence.");
+    assert.equal(await field.inputValue(), "I can support this claim with evidence.");
+    if (alignment.reading) {
+      const guided = page.locator("#discover");
+      for (const paragraph of alignment.reading) {
+        assert.ok((await guided.innerText()).includes(paragraph));
+      }
+    }
+  }
+  console.log("PASS Maryland alignment, sources, and exit tickets in nine Grade 9 lessons");
+}
+
 const worldHistoryResponse = await fetch(new URL("assets/grade11-grade5-matched-data.json", root));
 assert.ok(worldHistoryResponse.ok, "Could not load Grade 11 lesson alignment");
 const worldHistory = await worldHistoryResponse.json();
@@ -214,6 +253,10 @@ try {
             }
             assert.deepEqual(errors, [], `Grade ${grade} unit ${unit} browser errors`);
             console.log(`PASS Grade ${grade} · Unit ${unit} · ${mobile ? "mobile viewport" : "desktop"}`);
+          }
+          if (grade === 9) {
+            await checkGrade9Alignment(page);
+            assert.deepEqual(errors, [], "Grade 9 lesson browser errors");
           }
           if (grade === 11) {
             await checkMarylandLessons(page);

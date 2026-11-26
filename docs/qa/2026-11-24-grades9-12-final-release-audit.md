@@ -73,6 +73,10 @@ The source ledger adds supporting passages for the United Nations and the Univer
 
 The [desktop and phone-width Chromium run](https://github.com/wdwedu/examine-the-past-home/actions/runs/45738369604) passed for all 40 Grade 11 lesson pages, 54 case studies, and 36 high-school unit assessments. It checked in-page navigation, displayed readings and source destinations, and editable response fields. Safari, assistive technology, and public deployment acceptance remain open.
 
+### Grade 9 Reconstruction review, Gilded Age, and Progressivism · November 26
+
+Nine Grade 9 lesson pages now show a Maryland framework objective and a matching exit ticket with linked sources and criteria. The opening eight lessons cover Units 9.1 and 9.2. The ninth compares Mendez and Brown in Unit 9.9. Reconstruction is labeled as prior-grade review, Big Business as a bridge-unit match, and the other seven as high-school content matches. Thirty-six Grade 9 lesson mappings remain. Three Grade 9 claims gained supporting evidence. The ledger now records 112 open, four partly verified, and 20 supported claims.
+
 The scorecard and gates below record the original audit baseline.
 
 ## Executive scorecard
