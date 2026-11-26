@@ -71,6 +71,8 @@ This build adds 13 case studies to six Grade 11 lessons. All 17 Maryland Section
 
 The source ledger adds supporting passages for the United Nations and the Universal Declaration of Human Rights. It now records 115 open claims, four partly verified claims, and 17 supported claims.
 
+The [desktop and phone-width Chromium run](https://github.com/wdwedu/examine-the-past-home/actions/runs/45738369604) passed for all 40 Grade 11 lesson pages, 54 case studies, and 36 high-school unit assessments. It checked in-page navigation, displayed readings and source destinations, and editable response fields. Safari, assistive technology, and public deployment acceptance remain open.
+
 The scorecard and gates below record the original audit baseline.
 
 ## Executive scorecard
