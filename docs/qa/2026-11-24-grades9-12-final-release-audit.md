@@ -99,6 +99,10 @@ Unit 9.6 adds four focused readings and exit tickets addressing USH.2.3.a–d. S
 
 Unit 9.7 adds source-linked readings and exit tickets to the five existing lessons and maps USH.2.4.a–f and USH.2.5.a–c. It compares prewar expansion, U.S. entry, the Holocaust and U.S. rescue policy, home-front mobilization and incarceration, and military decisions and postwar institutions. The assessment adds the United States Holocaust Memorial Museum’s refugee-policy history to the packet. The home-front task uses Japanese American incarceration as its Asian American case. The postwar task checks the institutions’ distinct roles and early examples. Broader impact evaluation remains open. Grade 9 now has 28 of 45 lessons with documented mappings. The source ledger records 94 open, four partly verified, and 38 supported claims.
 
+### Grade 9 Cold War · November 27
+
+Unit 9.8 adds source-linked readings and exit tickets to all four existing lessons. It addresses USH.3.2.a–f and selected Vietnam objectives in USH.3.4. New evidence includes opposing diplomatic views, the Korean armistice, U.S. loyalty policy, civil-defense material, a Cuban diplomatic perspective, and Vietnam-era student protest. Broader antiwar effects, Korean firsthand perspectives, and Vietnam–Watergate reform links remain open. The revised assessment uses a Cuban Missile Crisis document and a written comparison of containment in different regions. Grade 9 now has 32 of 45 lessons with documented mappings. The source ledger records 90 open, four partly verified, and 42 supported claims.
+
 The scorecard and gates below record the original audit baseline.
 
 ## Executive scorecard

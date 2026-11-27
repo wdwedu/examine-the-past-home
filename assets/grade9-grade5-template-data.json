@@ -3735,11 +3735,11 @@
         "Read Truman's own address and a separate institutional history of the Marshall Plan or a European account. What problems did Truman say the United States should address? Identify the speech's audience, the proposed policy and one perspective it did not include. Analyze concrete actions, not rhetoric alone, before judging who caused or intensified the Cold War."
       ],
       "activity": "Origins of the Cold War · Historical evidence inquiry",
-      "task": "Explain how U.S. security concerns and Soviet actions produced rivalry. Identify one Soviet or Greek source that would test Truman's characterization.",
+      "task": "Make three evidence notes. Compare one U.S. concern in Kennan’s telegram with one Soviet concern in Novikov’s. Then contrast a European alliance, military intervention in Korea, and covert intervention in Guatemala. Finally, explain one effect of Cold War fears on U.S. federal workers or congressional politics.",
       "investigation": [
         "Read Truman's March 12, 1947 address and identify the specific countries, the proposed response and the stated rationale.",
         "Use the State Department's history to identify the immediate diplomatic circumstances. Label the retrospective account secondary.",
-        "Explain how U.S. security concerns and Soviet actions produced rivalry. Identify one Soviet or Greek source that would test Truman's characterization."
+        "Make three evidence notes. Compare one U.S. concern in Kennan’s telegram with one Soviet concern in Novikov’s. Then contrast a European alliance, military intervention in Korea, and covert intervention in Guatemala. Finally, explain one effect of Cold War fears on U.S. federal workers or congressional politics."
       ],
       "options": [
         "Truman Doctrine",
@@ -3813,7 +3813,55 @@
           "summary": "Secondary institutional context for British withdrawal of aid and U.S. policy formulation; use original diplomatic records for further corroboration.",
           "type": "Secondary institutional history"
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.3.2.a and USH.3.2.b and USH.3.2.d",
+        "kind": "content",
+        "page": 15,
+        "objective": "Explain why the wartime alliance broke down, compare how containment was pursued in three regions, and connect Cold War fears to U.S. domestic politics.",
+        "prompt": "Make three evidence notes. Compare one U.S. concern in Kennan’s telegram with one Soviet concern in Novikov’s. Then contrast a European alliance, military intervention in Korea, and covert intervention in Guatemala. Finally, explain one effect of Cold War fears on U.S. federal workers or congressional politics.",
+        "criteria": "Distinguish ideology and economic interests from security claims. Identify what each intervention did and cite a specific domestic policy or event.",
+        "readingTitle": "Competing views of security and containment",
+        "reading": [
+          "The wartime alliance broke down as leaders disagreed over the political future of Europe. In 1946 U.S. diplomat George Kennan interpreted Soviet foreign policy as hostile to capitalist countries. Soviet ambassador Nikolai Novikov interpreted U.S. economic and military power as an effort to dominate the postwar world. Their reports show how each government’s representative saw the other. An interpretation from one diplomat cannot establish every decision by the other government.",
+          "The United States used different means to resist what its leaders viewed as communist expansion. The Marshall Plan provided economic assistance in Europe. The North Atlantic Treaty created an alliance built around collective defense. In Korea, the United States led military intervention under United Nations authority. In Guatemala in 1954, the CIA backed the overthrow of elected president Jacobo Árbenz. U.S. officials framed the conflict as an anti-communist concern, while land reform and local political conflicts also shaped events.",
+          "Cold War suspicions changed politics at home. Executive Order 9835 created a federal employee loyalty program in 1947. An investigation could affect a person’s job as well as their reputation. Senator Joseph McCarthy built influence by making allegations of communist infiltration. The Senate censured him in 1954 for his conduct. Censure checked one senator’s conduct, while the political pressure surrounding accusations of disloyalty extended beyond him."
+        ],
+        "sources": [
+          {
+            "title": "George Kennan’s February 1946 telegram",
+            "url": "https://history.state.gov/historicaldocuments/frus1946v06/d475"
+          },
+          {
+            "title": "Nikolai Novikov’s September 1946 telegram, English translation",
+            "url": "https://pages.uoregon.edu/kimball/novikov.46se-tgm.htm"
+          },
+          {
+            "title": "National Archives, Marshall Plan",
+            "url": "https://www.archives.gov/milestone-documents/marshall-plan"
+          },
+          {
+            "title": "North Atlantic Treaty, Article 5",
+            "url": "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/1949/04/04/the-north-atlantic-treaty"
+          },
+          {
+            "title": "National Archives, U.S. entry into the Korean conflict",
+            "url": "https://www.archives.gov/education/lessons/korean-conflict"
+          },
+          {
+            "title": "Office of the Historian, the 1954 Guatemala intervention",
+            "url": "https://history.state.gov/historicaldocuments/frus1950-55Intel/d154"
+          },
+          {
+            "title": "Executive Order 9835, federal employee loyalty program",
+            "url": "https://www.presidency.ucsb.edu/documents/executive-order-9835-prescribing-procedures-for-the-administration-employees-loyalty"
+          },
+          {
+            "title": "U.S. Senate, McCarthy censure case",
+            "url": "https://www.senate.gov/about/powers-procedures/censure/133Joseph_McCarthy.htm"
+          }
+        ]
+      }
     },
     "the-korean-war": {
       "title": "The Korean War",
@@ -3828,11 +3876,11 @@
         "Read the actual armistice and compare it with a dated historical account of the invasion and United Nations response. Identify exactly what the agreement sets out and what it leaves unresolved. A map of the demilitarized zone can show geography, but cannot express the experience of divided Korean families; students need Korean-authored accounts for that."
       ],
       "activity": "The Korean War · Historical evidence inquiry",
-      "task": "Explain why the armistice did not reunify Korea or constitute a final peace treaty. Propose a Korean civilian account needed to investigate family separation.",
+      "task": "Build a dated sequence from the division of Korea to the 1953 armistice. Explain how UN and Chinese intervention changed the war. Use the actual agreement to identify what it established and what it left unresolved. Give one consequence for Korean civilians.",
       "investigation": [
         "Read the July 27, 1953 armistice. Identify its parties and one military arrangement.",
         "Use the National Archives historical account to explain how the conflict developed and why negotiation took so long. Mark this text secondary.",
-        "Explain why the armistice did not reunify Korea or constitute a final peace treaty. Propose a Korean civilian account needed to investigate family separation."
+        "Build a dated sequence from the division of Korea to the 1953 armistice. Explain how UN and Chinese intervention changed the war. Use the actual agreement to identify what it established and what it left unresolved. Give one consequence for Korean civilians."
       ],
       "options": [
         "A peace treaty permanently reunifying Korea",
@@ -3906,7 +3954,38 @@
           "summary": "Institutional secondary context on negotiations. It is not Korean civilian testimony or the armistice itself.",
           "type": "Secondary institutional history"
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.3.2.c",
+        "kind": "content",
+        "page": 15,
+        "objective": "Trace the causes and course of the Korean War and distinguish an armistice from a permanent settlement.",
+        "prompt": "Build a dated sequence from the division of Korea to the 1953 armistice. Explain how UN and Chinese intervention changed the war. Use the actual agreement to identify what it established and what it left unresolved. Give one consequence for Korean civilians.",
+        "criteria": "Explain why rival governments and outside powers mattered. Cite an armistice provision, distinguish the ceasefire from a peace treaty, and identify a civilian consequence.",
+        "readingTitle": "From division to an unfinished settlement",
+        "reading": [
+          "After Japanese colonial rule ended in 1945, U.S. and Soviet occupation divided Korea. Rival governments emerged in 1948. North Korea invaded South Korea in June 1950. UN forces led by the United States intervened and pushed north. Chinese forces entered the war and helped drive UN troops back. Fighting eventually settled near the original division, but villages and cities had been damaged and civilians had been displaced. In December 1950, about 91,000 refugees were evacuated from Hungnam as United Nations forces withdrew from the port.",
+          "The July 1953 armistice created a military demarcation line and a demilitarized zone. It halted combat without creating a political settlement or reuniting Korea. South Korea’s government did not sign, although its forces fought under the United Nations Command. The line can explain where armies stopped. It does not show how division and displacement affected individual families."
+        ],
+        "sources": [
+          {
+            "title": "National Archives, U.S. entry into the Korean conflict",
+            "url": "https://www.archives.gov/education/lessons/korean-conflict"
+          },
+          {
+            "title": "Korean War Armistice Agreement, Article I",
+            "url": "https://www.archives.gov/milestone-documents/armistice-agreement-restoration-south-korean-state"
+          },
+          {
+            "title": "National Archives, historical background to the armistice",
+            "url": "https://www.archives.gov/publications/prologue/2003/summer/korean-war-armistice"
+          },
+          {
+            "title": "Naval History and Heritage Command, Hungnam evacuation",
+            "url": "https://www.history.navy.mil/our-collections/art/exhibits/operations/250-years-of-the-us-navy-through-art/hungnam-evacuation.html"
+          }
+        ]
+      }
     },
     "nuclear-competition-and-the-space-race": {
       "title": "Nuclear Competition and the Space Race",
@@ -3921,11 +4000,11 @@
         "Compare a contemporary October 1957 U.S. draft statement on Sputnik with the 1962 reconnaissance photograph from Cuba. What did policymakers fear, what did each source directly document, and what required interpretation? Avoid equating a satellite launch with a missile attack, or using the success of crisis diplomacy to claim nuclear risks disappeared."
       ],
       "activity": "Nuclear Competition and the Space Race · Historical evidence inquiry",
-      "task": "Explain the distinction between an actual technical capability and what decision-makers claimed it meant for national security. Include a Soviet or Cuban perspective still needed.",
+      "task": "Compare the government’s intended use of the Interstate Highway System and the school drills shown in Duck and Cover. Give one plausible benefit and one limit for each. Then trace the Cuban Revolution, Bay of Pigs, and missile crisis. Use the embargo proclamation or Castro’s letter to explain a perspective or consequence that the reconnaissance photograph cannot show.",
       "investigation": [
         "Read the October 1957 draft statement and identify its U.S. author, immediate audience and explanation of Sputnik.",
         "Examine the National Archives' October 1962 reconnaissance image. Describe what the image alone can and cannot prove.",
-        "Explain the distinction between an actual technical capability and what decision-makers claimed it meant for national security. Include a Soviet or Cuban perspective still needed."
+        "Compare the government’s intended use of the Interstate Highway System and the school drills shown in Duck and Cover. Give one plausible benefit and one limit for each. Then trace the Cuban Revolution, Bay of Pigs, and missile crisis. Use the embargo proclamation or Castro’s letter to explain a perspective or consequence that the reconnaissance photograph cannot show."
       ],
       "options": [
         "Apollo 11",
@@ -3999,7 +4078,51 @@
           "summary": "Original intelligence photograph and modern archival context; interpretation of image needs dated corroboration.",
           "type": "Primary historical record"
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.3.2.e and USH.3.2.f",
+        "kind": "content",
+        "page": 15,
+        "objective": "Evaluate the purposes and limits of civil defense measures and explain the deterioration and consequences of U.S. relations with Cuba.",
+        "prompt": "Compare the government’s intended use of the Interstate Highway System and the school drills shown in Duck and Cover. Give one plausible benefit and one limit for each. Then trace the Cuban Revolution, Bay of Pigs, and missile crisis. Use the embargo proclamation or Castro’s letter to explain a perspective or consequence that the reconnaissance photograph cannot show.",
+        "criteria": "Distinguish a preparedness claim from evidence of effectiveness. Explain why Cuba and the United States reacted differently and identify one lasting consequence of the confrontation.",
+        "readingTitle": "Civil defense and the Cuban Missile Crisis",
+        "reading": [
+          "Cold War competition appeared in space when the Soviet Union launched Sputnik 1 in 1957. On the ground, officials treated preparedness as a separate challenge. Advocates argued the Interstate Highway System could support national defense and evacuations. Roads could improve movement, but actual evacuation would depend on warning time and traffic. The school film Duck and Cover taught a simple response to a warning or flash. The film shows an instruction, but it does not measure how well drills protected people during an attack.",
+          "Fidel Castro’s revolution overthrew Fulgencio Batista in 1959. U.S.–Cuban relations deteriorated as the new government took over U.S.-owned property and grew closer to the Soviet Union. The U.S.-backed Bay of Pigs invasion failed in 1961. The United States issued a trade embargo in 1962. In his October 26 letter to Soviet leader Nikita Khrushchev, Castro expressed his concern that the United States might invade again.",
+          "U.S. surveillance discovered Soviet missile sites in Cuba in October 1962. The United States imposed a naval quarantine. Soviet leaders agreed to remove the missiles. The United States publicly pledged not to invade Cuba and privately agreed to remove its missiles from Turkey. The settlement reduced the immediate risk of war. It did not end the trade embargo or restore normal relations."
+        ],
+        "sources": [
+          {
+            "title": "NASA, Sputnik and the dawn of the space age",
+            "url": "https://www.nasa.gov/history/dawn-of-the-space-age/"
+          },
+          {
+            "title": "GovInfo, Federal-Aid Highway Act and defense rationale",
+            "url": "https://www.govinfo.gov/features/federal-highway-act-1956"
+          },
+          {
+            "title": "Library of Congress, Duck and Cover civil-defense film",
+            "url": "https://www.loc.gov/item/2022604365/"
+          },
+          {
+            "title": "Office of the Historian, Bay of Pigs and its aftermath",
+            "url": "https://history.state.gov/milestones/1961-1968/bay-of-pigs"
+          },
+          {
+            "title": "Office of the Historian, Cuban Missile Crisis",
+            "url": "https://history.state.gov/milestones/1961-1968/cuban-missile-crisis"
+          },
+          {
+            "title": "October 26, 1962, Castro letter to Khrushchev, English translation",
+            "url": "https://www.pbs.org/wgbh/americanexperience/features/jfk-attack/"
+          },
+          {
+            "title": "Proclamation 3447, embargo on trade with Cuba",
+            "url": "https://www.govinfo.gov/app/details/STATUTE-76/STATUTE-76-Pg1446"
+          }
+        ]
+      }
     },
     "the-vietnam-war": {
       "title": "The Vietnam War",
@@ -4014,11 +4137,11 @@
         "Read the Gulf of Tonkin Resolution as a legal and political primary source, then compare it with the National Archives' account of how the incidents were represented at the time. Identify the authority Congress granted, which claims were contested, and whose Vietnamese perspectives are not in the congressional text. Explain the difference between official justification and evidence established by later investigation."
       ],
       "activity": "The Vietnam War · Historical evidence inquiry",
-      "task": "Construct a Vietnam-centered account that includes Vietnamese political aims and a U.S. policy document, while explaining the limits of the American archival record.",
+      "task": "Use the Tonkin resolution, the Tet account, and the Paris agreement history to explain how U.S. policy changed. Compare the students’ armbands with a 1969 Moratorium demonstration, giving one documented effect of dissent and one limit of the evidence. Finally, explain why the U.S. withdrawal in 1973 did not settle the outcome in Vietnam.",
       "investigation": [
         "Read the August 7, 1964 resolution. Identify the authority Congress granted and distinguish the text from events reported by U.S. officials.",
         "Use the National Archives document collection to identify a later U.S. record bearing on the Gulf of Tonkin episode or its interpretation. Mark any modern narration secondary.",
-        "Construct a Vietnam-centered account that includes Vietnamese political aims and a U.S. policy document, while explaining the limits of the American archival record."
+        "Use the Tonkin resolution, the Tet account, and the Paris agreement history to explain how U.S. policy changed. Compare the students’ armbands with a 1969 Moratorium demonstration, giving one documented effect of dissent and one limit of the evidence. Finally, explain why the U.S. withdrawal in 1973 did not settle the outcome in Vietnam."
       ],
       "options": [
         "1968",
@@ -4092,7 +4215,51 @@
           "summary": "Institutional collection listing original records; not a singular Vietnamese testimony or period document. Use item-level record and metadata before quoting.",
           "type": "Archival research collection"
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.3.4.a and USH.3.4.b and USH.3.4.d",
+        "kind": "content",
+        "page": 17,
+        "objective": "Explain U.S. escalation, assess how different forms of antiwar protest mattered, and distinguish U.S. withdrawal from the fall of South Vietnam.",
+        "prompt": "Use the Tonkin resolution, the Tet account, and the Paris agreement history to explain how U.S. policy changed. Compare the students’ armbands with a 1969 Moratorium demonstration, giving one documented effect of dissent and one limit of the evidence. Finally, explain why the U.S. withdrawal in 1973 did not settle the outcome in Vietnam.",
+        "criteria": "Use dated evidence for escalation, a turning point, and withdrawal. Distinguish a court outcome from proof that protest directly changed war policy. Explain why South Vietnam remained vulnerable after U.S. combat forces left.",
+        "readingTitle": "Escalation, dissent, and withdrawal",
+        "reading": [
+          "The 1954 Geneva agreement established a temporary military dividing line after the war against French colonial rule. U.S. support for South Vietnam grew. The 1964 Gulf of Tonkin Resolution gave the president broad authority to act. The text establishes what Congress authorized. It cannot prove that each reported incident occurred as described.",
+          "In 1968 North Vietnamese and Viet Cong forces launched the Tet Offensive. U.S. and South Vietnamese forces repelled the attacks, but the offensive made official claims of progress harder to believe. Nixon later reduced U.S. troop levels while shifting more fighting to South Vietnamese forces. The January 1973 Paris accords provided for U.S. withdrawal. Fighting among Vietnamese forces continued and South Vietnam fell in 1975. U.S. withdrawal left South Vietnam with less direct military support while North Vietnam retained the ability to renew large offensives.",
+          "Opponents used different methods. Des Moines students wore black armbands in 1965 to oppose the war and support a truce. The Supreme Court later held that the schools had violated their freedom of expression. The 1969 Moratorium made dissent visible through public gatherings. These records show two consequences of dissent: a ruling on student speech and visible public mobilization. Neither record by itself proves that a protest caused a particular military decision."
+        ],
+        "sources": [
+          {
+            "title": "Geneva agreement on the cessation of hostilities in Vietnam, Article 1",
+            "url": "https://history.state.gov/historicaldocuments/frus1952-54v16/d1035"
+          },
+          {
+            "title": "National Archives, Tonkin Gulf Resolution and historical context",
+            "url": "https://www.archives.gov/milestone-documents/tonkin-gulf-resolution"
+          },
+          {
+            "title": "Office of the Historian, the Tet Offensive",
+            "url": "https://history.state.gov/milestones/1961-1968/tet"
+          },
+          {
+            "title": "Office of the Historian, ending U.S. involvement in Vietnam",
+            "url": "https://history.state.gov/milestones/1969-1976/ending-vietnam"
+          },
+          {
+            "title": "Office of the Historian, January 1973 agreement and U.S. withdrawal",
+            "url": "https://history.state.gov/historicaldocuments/frus1969-76v15/d74"
+          },
+          {
+            "title": "Tinker v. Des Moines, 393 U.S. 503, majority opinion",
+            "url": "https://www.govinfo.gov/content/pkg/USREPORTS-393/pdf/USREPORTS-393-503.pdf"
+          },
+          {
+            "title": "Library of Congress, Vietnam Moratorium photograph, October 1969",
+            "url": "https://www.loc.gov/item/2020737884/"
+          }
+        ]
+      }
     },
     "segregation-and-the-fight-for-equality": {
       "title": "Segregation and the Fight for Equality",

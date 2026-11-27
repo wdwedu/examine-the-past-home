@@ -1389,25 +1389,25 @@
           "slug": "origins-of-the-cold-war",
           "title": "Origins of the Cold War",
           "essential": "Why did wartime allies become ideological and strategic rivals?",
-          "task": "Write a claim about Origins of the Cold War with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Make three evidence notes. Compare one U.S. concern in Kennan’s telegram with one Soviet concern in Novikov’s. Then contrast a European alliance, military intervention in Korea, and covert intervention in Guatemala. Finally, explain one effect of Cold War fears on U.S. federal workers or congressional politics."
         },
         {
           "slug": "the-korean-war",
           "title": "The Korean War",
           "essential": "Why did war in Korea become an international Cold War conflict?",
-          "task": "Write a claim about The Korean War with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Build a dated sequence from the division of Korea to the 1953 armistice. Explain how UN and Chinese intervention changed the war. Use the actual agreement to identify what it established and what it left unresolved. Give one consequence for Korean civilians."
         },
         {
           "slug": "nuclear-competition-and-the-space-race",
           "title": "Nuclear Competition and the Space Race",
           "essential": "How did technological competition shape Cold War security and public life?",
-          "task": "Write a claim about Nuclear Competition and the Space Race with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Compare the government’s intended use of the Interstate Highway System and the school drills shown in Duck and Cover. Give one plausible benefit and one limit for each. Then trace the Cuban Revolution, Bay of Pigs, and missile crisis. Use the embargo proclamation or Castro’s letter to explain a perspective or consequence that the reconnaissance photograph cannot show."
         },
         {
           "slug": "the-vietnam-war",
           "title": "The Vietnam War",
           "essential": "How did the Vietnam War challenge U.S. containment policy?",
-          "task": "Write a claim about The Vietnam War with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Use the Tonkin resolution, the Tet account, and the Paris agreement history to explain how U.S. policy changed. Compare the students’ armbands with a 1969 Moratorium demonstration, giving one documented effect of dissent and one limit of the evidence. Finally, explain why the U.S. withdrawal in 1973 did not settle the outcome in Vietnam."
         }
       ],
       "sources": [
@@ -1454,15 +1454,15 @@
           "lessonContext": "The United States and Soviet Union developed nuclear arsenals and delivery systems, raising fears of catastrophic war. The Soviet launch of Sputnik in 1957 accelerated competition in space science and education. Deterrence depends on an opponent believing a response would impose unacceptable costs. This strategic logic shaped planning but could not remove the risks of accidents, miscalculation, or uncontrolled escalation. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
         },
         {
-          "label": "Document D · Additional interpretation",
-          "title": "The Vietnam War",
-          "creator": "Examine the Past curriculum editors",
-          "date": "2026 instructional summary",
-          "url": "../the-vietnam-war/",
-          "sourceUrl": "../the-vietnam-war/",
-          "sourceType": "Secondary source: lesson interpretation, NOT primary evidence",
-          "excerpt": "Conflict in Vietnam grew from anticolonial struggle, competing Vietnamese political movements, and Cold War intervention. U. S. military involvement expanded substantially after the 1964 Gulf of Tonkin Resolution. French colonial rule and Vietnamese independence movements preceded major U. S. military escalation. Vietnamese communists and noncommunists pursued distinct goals, and the conflict cannot be explained only as a superpower contest. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-          "limitation": "This is a modern instructional interpretation, not an original primary document. Use it for context; investigate originals for source-based claims.",
+          "label": "Document D · The Cuban Missile Crisis",
+          "title": "The Cuban Missile Crisis, October 1962",
+          "creator": "U.S. Department of State, Office of the Historian",
+          "date": "Retrospective history of October 1962",
+          "url": "https://history.state.gov/milestones/1961-1968/cuban-missile-crisis",
+          "sourceUrl": "https://history.state.gov/milestones/1961-1968/cuban-missile-crisis",
+          "sourceType": "Secondary source: institutional history",
+          "excerpt": "After U.S. surveillance revealed Soviet missiles in Cuba, the two governments negotiated their removal. The agreement paired removal with a U.S. pledge not to invade Cuba and a private commitment concerning U.S. missiles in Turkey.",
+          "limitation": "The account summarizes diplomacy. Cuban records are needed to examine how Cuban officials understood the threat and the settlement.",
           "documentExcerpt": ""
         }
       ],
@@ -1478,14 +1478,14 @@
           "explain": "Different policies addressed interconnected but distinct goals."
         },
         {
-          "prompt": "What evidence would best test whether Marshall Plan assistance helped European recovery?",
+          "prompt": "What can the Interstate Highway Act and a civil-defense training film show most directly?",
           "choices": [
-            "Economic indicators and recipient-country records over several years",
-            "Only a U.S. speech requesting aid",
-            "A current photograph of a postwar monument"
+            "What the government authorized or taught, while evaluating protection requires evidence of actual capabilities.",
+            "How many families would have escaped a nuclear attack using a particular road.",
+            "That an evacuation plan and a classroom drill offered the same type of protection."
           ],
           "answer": 0,
-          "explain": "Outcomes should be tested through time-series and recipient records."
+          "explain": "Government policy and training show intended purposes. Warning time, traffic, and conditions would affect results."
         },
         {
           "prompt": "The Tonkin Gulf Resolution is a congressional action. Which claim exceeds what its text alone can establish?",
@@ -1508,14 +1508,14 @@
           "explain": "The conflict was linked to division and international power."
         },
         {
-          "prompt": "A student argues Sputnik caused every change in U.S. science education. What is the best inquiry strategy?",
+          "prompt": "Which conclusion about the 1962 missile settlement follows from Document D?",
           "choices": [
-            "Compare education policy, prior programs, funding and Soviet/U.S. competition over time",
-            "Accept the simple cause because launch dates are precise",
-            "Ignore public reaction and government decisions"
+            "The two superpowers reduced immediate risk through reciprocal commitments, while U.S.–Cuban tensions continued.",
+            "The Soviet Union removed its missiles after the United States ended the embargo.",
+            "Cuba and the United States resumed normal diplomatic relations as part of the settlement."
           ],
           "answer": 0,
-          "explain": "A triggering event rarely explains all policy changes."
+          "explain": "The agreement ended the immediate missile confrontation. It did not end the embargo or normalize relations."
         },
         {
           "prompt": "Which is the strongest evidence-based judgment about U.S. containment?",
@@ -1547,7 +1547,7 @@
           "answer": 2
         }
       ],
-      "inquiryPrompt": "How did containment policies seek security while creating new conflicts and costs?",
+      "inquiryPrompt": "When did a Cold War policy reduce one danger while creating new costs?",
       "inquirySteps": [
         "Compare the sources and record their perspectives and limitations.",
         "Develop a focused historical question and identify which sources address it.",
@@ -1559,21 +1559,21 @@
         2
       ],
       "conclusions": [
-        "Documents B and C can help historians compare how evidence, policy and experience relate to the cold war.",
-        "Document A records a position or record from 1947, but it needs context to support claims about historical effects.",
-        "The Gulf of Tonkin Resolution alone proves that all events reported by the U.S. executive branch occurred exactly as described."
+        "Documents B and C show different approaches to Cold War policy: economic assistance and authorization to use military force.",
+        "Document D explains how a negotiated settlement could reduce immediate risk without ending the wider conflict with Cuba.",
+        "The Tonkin Gulf Resolution alone proves that each reported incident happened as described."
       ],
       "conclusionKey": [
         true,
         true,
         false
       ],
-      "writing": "How did containment policies seek security while creating new conflicts and costs? Construct a qualified historical argument using at least three specific facts supported by two original records from this unit and one other kind of evidence (such as testimony, a map, statistics, or a carefully attributed secondary interpretation). Explain each source's date and perspective, compare experiences of affected communities, discuss at least one limitation, and address a plausible counterargument.",
-      "challenge": "Create a museum exhibit or document-based investigation responding to: How did containment policies seek security while creating new conflicts and costs? Use four attributed sources, a chronological visualization, two perspectives, an evidence limitation and a defended curator thesis.",
-      "standards": "Maryland 2025 High School United States History Framework; historical inquiry and relevant unit content. Exact indicator crosswalk pending.",
-      "framework": "https://msde.maryland.gov/media/17926",
-      "sourceAudit": "Original documents linked to the National Archives, Library of Congress, presidential libraries, or National September 11 Memorial; source cards contain instructional summaries, not verbatim transcriptions. Verify original collection item, creator, and date before citing.",
-      "sampleAnswer": "The question raised in The Cold War is: How did containment policies seek security while creating new conflicts and costs? The evidence suggests that decisions and events changed institutions and opportunities, but the results differed among people and places. A defensible argument requires attention to whom a policy or movement affected, not only its supporters' intentions.\n\nDocument A (Truman Doctrine, 1947) provides one perspective: The Truman Doctrine framed U.S. Document B (Marshall Plan, 1947–1948) adds another: Postwar economic reconstruction was linked to U.S. These records identify choices or experiences, but their authors and purposes must be considered before treating them as complete accounts.\n\nDocument C (Tonkin Gulf Resolution, 1964) supplies further evidence: The resolution broadened presidential authority in the Vietnam conflict; the legal language is not an independent record of battlefield events. A historian should test these records against different evidence such as the observations of affected communities, independent statistics, archaeological evidence when relevant, and the unit's contextual lesson reading. The sources do not necessarily measure results by themselves.\n\nA reasonable counterargument might emphasize the benefits or stated goals of these developments. Those claims deserve evaluation, but they do not eliminate unintended consequences, unequal impacts or limits of the evidence. I would therefore defend a qualified conclusion and explain which further sources might change it."
+      "writing": "Compare two Cold War responses in different places. Choose from European recovery or collective defense, military intervention in Korea or Vietnam, covert intervention in Guatemala, and diplomacy with Cuba. Explain the goal and one documented consequence of each. Use two primary records and one corroborating source. Address a counterargument and identify a perspective missing from one official record.",
+      "challenge": "Compare the intended protection of a nuclear drill with the intended protection of an evacuation route. Explain what evidence would let you judge the actual effectiveness of each.",
+      "standards": "Maryland High School United States History Framework (June 2025), USH.3.2.a–f, with Vietnam links to USH.3.4.a, b and d. Exit tickets assess cases not required in the written assessment.",
+      "framework": "https://msde.maryland.gov/media/17926#page=15",
+      "sourceAudit": "Documents A–C establish public proposals or congressional action. Document D is an institutional history. Use the lesson links to compare official records with other governments’ perspectives and evidence of outcomes.",
+      "sampleAnswer": "The Marshall Plan tried to strengthen postwar Europe through economic recovery. Marshall’s speech states the case for aid, but European records are needed to judge how the assistance was received and used. In Cuba, the discovery of Soviet missiles raised an immediate security concern. The Office of the Historian’s account shows how public and private commitments helped resolve the crisis.\n\nThe decisions pursued security through different means. One could argue that both policies reduced the risk of conflict. Yet the settlement in Cuba left the embargo and mistrust in place. Castro’s October 26 letter shows his fear of invasion after the Bay of Pigs. It explains a concern missing from a U.S. photograph of the missile sites, though it cannot represent what all Cubans thought."
     },
     "9.9": {
       "id": "9.9",
