@@ -2554,11 +2554,11 @@
         "The market collapse of October 1929 was dramatic, but it should not be presented as the single cause of the entire Great Depression. Financial weaknesses, later bank panics, credit contraction, deflation, and international strains helped deepen the downturn. Historians disagree about the relative influence of these mechanisms. A chronology is the beginning of an explanation, not proof of causation."
       ],
       "activity": "The Stock Market Crash and Economic Crisis · Historical evidence workshop",
-      "task": "Compare the Federal Reserve History studies of the 1929 crash and the 1930–31 banking panics. Mark which events happened after the crash, then explain at least two possible ways financial trouble reached households and employers. Propose a dated original bank or employment record that could test your argument.",
+      "task": "Explain how buying stocks with borrowed money made losses worse when prices fell. Then use the banking history and FDIC’s bank-suspension table to explain how later panics affected lending and spending. Identify what a date or a bank count alone cannot prove.",
       "investigation": [
         "Examine Stock Market Crash of 1929 (Modern historical analysis of 1929). Identify the creator and what the record can directly establish.",
         "Compare it with Banking Panics of 1930–31. Identify provenance and whether it is a contemporary item or later interpretation.",
-        "Compare the Federal Reserve History studies of the 1929 crash and the 1930–31 banking panics. Mark which events happened after the crash, then explain at least two possible ways financial trouble reached households and employers. Propose a dated original bank or employment record that could test your argument."
+        "Explain how buying stocks with borrowed money made losses worse when prices fell. Then use the banking history and FDIC’s bank-suspension table to explain how later panics affected lending and spending. Identify what a date or a bank count alone cannot prove."
       ],
       "options": [
         "1929",
@@ -2632,7 +2632,34 @@
           "summary": "Retrospective secondary analysis of later banking crises, not a contemporary depositor's account.",
           "type": "Secondary institutional economic history"
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.2.3.a",
+        "kind": "content",
+        "page": 12,
+        "objective": "Distinguish causes of the 1929 stock market crash from factors that deepened and prolonged the Great Depression.",
+        "prompt": "Explain how buying stocks with borrowed money made losses worse when prices fell. Then use the banking history and FDIC’s bank-suspension table to explain how later panics affected lending and spending. Identify what a date or a bank count alone cannot prove.",
+        "criteria": "Separate the 1929 crash from the 1930–31 banking panics. Explain one mechanism for each and use a dated detail without treating a sequence as proof of a single cause.",
+        "readingTitle": "How a market crash and banking panics spread losses",
+        "reading": [
+          "Buying on margin meant paying part of a stock’s price and borrowing the rest. The stock served as security for the loan. A price decline could leave the buyer owing nearly as much as the stock was now worth. Lenders could demand more cash or force investors to sell. As many investors tried to sell, the extra selling put still more pressure on prices.",
+          "From late 1930, bank panics added a different problem. When many depositors asked for cash at once, banks struggled to meet withdrawals. Banks holding onto cash or shutting their doors could make fewer loans. That made it harder for businesses to pay bills, keep workers, or expand. The FDIC’s historical table reports 1,350 bank suspensions in 1930 and 2,293 in 1931. The counts show that disruptions increased. The banking history explains one way those disruptions reached the wider economy."
+        ],
+        "sources": [
+          {
+            "title": "Federal Reserve History, Stock Market Crash of 1929",
+            "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929"
+          },
+          {
+            "title": "Federal Reserve History, Banking Panics of 1930–31",
+            "url": "https://www.federalreservehistory.org/essays/banking-panics-1930-31"
+          },
+          {
+            "title": "FDIC, historical overview, Table 1.1 on commercial bank suspensions",
+            "url": "https://www.fdic.gov/resources/publications/managing-the-crisis/documents/managing-crisis-chronological-overview.pdf"
+          }
+        ]
+      }
     },
     "living-through-the-great-depression": {
       "title": "Living Through the Great Depression",
@@ -2647,11 +2674,11 @@
         "Dorothea Lange photographed Florence Owens Thompson and her children in California in March 1936. The image became a symbol of Depression hardship, but it shows a particular family at one moment. Drought and land-use damage intensified hardship on parts of the Great Plains, while employment, migration and relief varied by location and by discrimination. A compelling photograph opens an inquiry; it does not settle one."
       ],
       "activity": "Living Through the Great Depression · Historical evidence workshop",
-      "task": "Compare two photographs from Lange's 1936 session. What changes in framing? Read the image metadata and distinguish visible details from assumptions about Thompson's life. Seek her testimony or local relief records before making broader claims.",
+      "task": "Use Lange’s photo and two contextual readings to compare hardship in three settings: drought-stricken farm communities, workers or businesses facing falling demand, and Mexican-origin families facing pressure to leave. Add one example of employment or relief discrimination and explain one thing the photo cannot tell you.",
       "investigation": [
         "Examine Migrant Mother, Nipomo, California (March 1936). Identify the creator and what the record can directly establish.",
         "Compare it with Migrant Mother: original photograph sequence. Identify provenance and whether it is a contemporary item or later interpretation.",
-        "Compare two photographs from Lange's 1936 session. What changes in framing? Read the image metadata and distinguish visible details from assumptions about Thompson's life. Seek her testimony or local relief records before making broader claims."
+        "Use Lange’s photo and two contextual readings to compare hardship in three settings: drought-stricken farm communities, workers or businesses facing falling demand, and Mexican-origin families facing pressure to leave. Add one example of employment or relief discrimination and explain one thing the photo cannot tell you."
       ],
       "options": [
         "Hurricane Katrina",
@@ -2725,7 +2752,38 @@
           "summary": "Original photographs in a modern guide allow examination of selection and framing. Do not present guide prose as an eyewitness.",
           "type": "Primary photographs in modern research guide"
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.2.3.b",
+        "kind": "content",
+        "page": 12,
+        "objective": "Explain how economic collapse, the Dust Bowl, and discrimination affected different workers, families, and businesses.",
+        "prompt": "Use Lange’s photo and two contextual readings to compare hardship in three settings: drought-stricken farm communities, workers or businesses facing falling demand, and Mexican-origin families facing pressure to leave. Add one example of employment or relief discrimination and explain one thing the photo cannot tell you.",
+        "criteria": "Distinguish economic distress, environmental damage, and discriminatory action. Explain a concrete consequence in each setting. Identify one limit of using a single photograph as evidence for an entire group.",
+        "readingTitle": "Different pressures on families, workers, and businesses",
+        "reading": [
+          "When households spent less, businesses sold less. Owners might cut hours, lay off workers, or close. In parts of the Great Plains, drought and blowing soil caused crop failures and added to existing farm debts. Some families moved to find work. Dorothea Lange photographed Florence Owens Thompson and three of her children in California in 1936. The image shows one family in a farm labor camp. It cannot establish that the family followed the same route or moved for the same reasons as Dust Bowl migrants.",
+          "Black workers faced severe unemployment and discrimination in hiring and relief. Mexican immigrants and Mexican Americans faced an additional threat. Some families chose to leave for Mexico during the Depression, while others faced official pressure or coercion. Some of the people sent to Mexico were U.S. citizens. A search for work and a coerced departure both involved movement, but people had very different choices."
+        ],
+        "sources": [
+          {
+            "title": "Library of Congress, Dorothea Lange’s photograph of Florence Owens Thompson and her children",
+            "url": "https://www.loc.gov/item/2017762891/"
+          },
+          {
+            "title": "Library of Congress, Dust Bowl timeline and newspapers",
+            "url": "https://guides.loc.gov/chronicling-america-dust-bowl"
+          },
+          {
+            "title": "Library of Congress, race relations in the 1930s and 1940s",
+            "url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/great-depression-and-world-war-ii-1929-1945/race-relations-in-1930s-and-1940s/"
+          },
+          {
+            "title": "Library of Congress, Depression and the Struggle for Survival",
+            "url": "https://www.loc.gov/classroom-materials/immigration/mexican/depression-and-the-struggle-for-survival/"
+          }
+        ]
+      }
     },
     "franklin-roosevelt-s-new-deal": {
       "title": "Franklin Roosevelt's New Deal",
@@ -2740,11 +2798,11 @@
         "When Franklin Roosevelt took office in 1933, banking instability demanded an immediate response. His March 12 radio address sought public confidence during the crisis. The Social Security Act of 1935 addressed different, longer-term problems through benefits and public assistance. Both were important, but neither a presidential speech nor a statute demonstrates how every community benefited. Race, occupation, and local administration shaped access."
       ],
       "activity": "Franklin Roosevelt's New Deal · Historical evidence workshop",
-      "task": "Study Roosevelt's March 1933 banking address and the original 1935 Social Security Act. Describe the immediate problem addressed by the speech and the lasting framework created by the law. What employment and benefit records would establish which groups gained access?",
+      "task": "Create a four-row evidence chart for banking, the TVA, labor bargaining, and old-age insurance. Name the problem and the response in each row. Use at least one implementation record to show who benefited or bore a cost. Explain how one program changed what federal, state, or private actors were expected to do.",
       "investigation": [
         "Examine Social Security Act (August 14, 1935). Identify the creator and what the record can directly establish.",
         "Compare it with First fireside chat on the banking crisis. Identify provenance and whether it is a contemporary item or later interpretation.",
-        "Study Roosevelt's March 1933 banking address and the original 1935 Social Security Act. Describe the immediate problem addressed by the speech and the lasting framework created by the law. What employment and benefit records would establish which groups gained access?"
+        "Create a four-row evidence chart for banking, the TVA, labor bargaining, and old-age insurance. Name the problem and the response in each row. Use at least one implementation record to show who benefited or bore a cost. Explain how one program changed what federal, state, or private actors were expected to do."
       ],
       "options": [
         "Civil Rights Act of 1964",
@@ -2814,11 +2872,54 @@
           "title": "First fireside chat on the banking crisis",
           "creator": "Franklin D. Roosevelt",
           "date": "March 12, 1933",
-          "url": "https://www.fdrlibrary.org/banking-curriculum-hub",
-          "summary": "Original radio speech accessible via FDR Library teaching hub; distinguish speech itself from modern editorial framing.",
-          "type": "Primary speech via institutional collection"
+          "url": "https://www.presidency.ucsb.edu/documents/fireside-chat-banking",
+          "summary": "Roosevelt explains the bank holiday and the reopening process. The address documents his explanation and appeal to depositors.",
+          "type": "Primary speech transcript"
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.2.3.c",
+        "kind": "content",
+        "page": 12,
+        "objective": "Evaluate how New Deal banking, regional development, labor, and social-insurance policies changed the economy and expanded government responsibility unevenly.",
+        "prompt": "Create a four-row evidence chart for banking, the TVA, labor bargaining, and old-age insurance. Name the problem and the response in each row. Use at least one implementation record to show who benefited or bore a cost. Explain how one program changed what federal, state, or private actors were expected to do.",
+        "criteria": "Distinguish the four policy mechanisms. Explain when one program reached people or changed their risks, and use a specific cost or coverage rule to qualify the result.",
+        "readingTitle": "Four ways government intervened in the economy",
+        "reading": [
+          "The 1933 bank holiday paused ordinary banking while officials evaluated which banks could reopen. Roosevelt explained the process on the radio. A separate law created the Federal Deposit Insurance Corporation. When federal deposit insurance began in January 1934, it initially covered deposits up to $2,500 at participating banks. The federal government assumed a new responsibility for protecting qualifying deposits, a change from relying on individual banks to bear the risk alone.",
+          "The Tennessee Valley Authority built dams for flood control, navigation, and power. It brought the federal government into regional development and relocated some families. The Randolph family’s case file shows a cost of the Norris Dam project from the agency’s point of view. The Wagner Act protected organizing and bargaining for covered workers. Social Security created federal old-age benefits and supported state unemployment systems. The original old-age provisions excluded agricultural work and household domestic service, occupations employing many Black workers and other workers of color. These exclusions limited who received protection."
+        ],
+        "sources": [
+          {
+            "title": "Roosevelt’s March 12, 1933, fireside chat on banking",
+            "url": "https://www.presidency.ucsb.edu/documents/fireside-chat-banking"
+          },
+          {
+            "title": "FDIC, historical overview of deposit insurance",
+            "url": "https://www.fdic.gov/resources/publications/managing-the-crisis/documents/managing-crisis-chronological-overview.pdf"
+          },
+          {
+            "title": "National Archives, Tennessee Valley Authority Act",
+            "url": "https://www.archives.gov/milestone-documents/tennessee-valley-authority-act"
+          },
+          {
+            "title": "National Archives, Randolph family relocation notes (1935)",
+            "url": "https://www.archives.gov/atlanta/highlights/family-removal"
+          },
+          {
+            "title": "National Labor Relations Act as enacted, 49 Stat. 449, sections 2 and 7",
+            "url": "https://www.govinfo.gov/content/pkg/STATUTE-49/pdf/STATUTE-49-Pg449.pdf"
+          },
+          {
+            "title": "National Archives, Social Security Act, Title II and section 210",
+            "url": "https://www.archives.gov/milestone-documents/social-security-act"
+          },
+          {
+            "title": "Social Security Bulletin, occupational exclusions and their effects",
+            "url": "https://www.ssa.gov/policy/docs/ssb/v70n4/v70n4p49.html"
+          }
+        ]
+      }
     },
     "did-the-new-deal-transform-government": {
       "title": "Did the New Deal Transform Government?",
@@ -2833,11 +2934,11 @@
         "The Wagner Act of 1935, Social Security Act of 1935, and Fair Labor Standards Act of 1938 illustrate lasting changes to the federal government's role in labor and economic security. Yet not all workers were covered and legal rules were not the same as effective enforcement. The question is not whether government became 'good' or 'bad' but what institutions changed, who gained protections, and whose needs remained unmet."
       ],
       "activity": "Did the New Deal Transform Government? · Historical evidence workshop",
-      "task": "Compare the Wagner Act and the Department of Labor's history of the 1938 Fair Labor Standards Act, then bring in the Social Security Act. Identify the different powers and protections each established. Write a qualified claim about lasting federal change using a coverage limitation and evidence that would test real-world enforcement.",
+      "task": "Build a timeline with the 1935 Social Security Act, the first monthly benefits in 1940, and the 1950 coverage amendments. Use the Wagner Act or the Fair Labor Standards Act for a second example. Explain what changed quickly, what took longer, and one way a law’s reach could fall short of its promise.",
       "investigation": [
         "Examine National Labor Relations Act (Wagner Act) (July 5, 1935). Identify the creator and what the record can directly establish.",
         "Compare it with Fair Labor Standards Act of 1938: legislative history. Identify provenance and whether it is a contemporary item or later interpretation.",
-        "Compare the Wagner Act and the Department of Labor's history of the 1938 Fair Labor Standards Act, then bring in the Social Security Act. Identify the different powers and protections each established. Write a qualified claim about lasting federal change using a coverage limitation and evidence that would test real-world enforcement."
+        "Build a timeline with the 1935 Social Security Act, the first monthly benefits in 1940, and the 1950 coverage amendments. Use the Wagner Act or the Fair Labor Standards Act for a second example. Explain what changed quickly, what took longer, and one way a law’s reach could fall short of its promise."
       ],
       "options": [
         "Fair Labor Standards Act",
@@ -2919,7 +3020,42 @@
           "summary": "Institutional account of wage, hour and child-labor reform; secondary explanation rather than original enrolled act.",
           "type": "Secondary institutional legislative history"
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.2.3.d",
+        "kind": "content",
+        "page": 12,
+        "objective": "Evaluate a near-term result and a lasting institutional change while identifying limits of New Deal coverage.",
+        "prompt": "Build a timeline with the 1935 Social Security Act, the first monthly benefits in 1940, and the 1950 coverage amendments. Use the Wagner Act or the Fair Labor Standards Act for a second example. Explain what changed quickly, what took longer, and one way a law’s reach could fall short of its promise.",
+        "criteria": "Use dated evidence for a near-term result and a lasting change. Distinguish enactment, implementation, and later expansion. Name an initial coverage limit.",
+        "readingTitle": "What changed quickly and what lasted",
+        "reading": [
+          "A law’s enactment date is only one stage. The 1935 Social Security Act created a federal benefit structure, but the first monthly old-age insurance payments became payable in 1940 after Congress revised the timetable. Amendments in 1950 extended coverage to additional occupations, including many previously excluded farm and household workers, subject to eligibility rules. This sequence shows how a lasting program can begin with narrow coverage and change over time.",
+          "The 1935 Wagner Act gave covered employees a legal right to organize and bargain collectively. The 1938 Fair Labor Standards Act set a federal wage floor and overtime rules for covered work and restricted some uses of child labor. Together these laws gave federal institutions an ongoing role in setting and enforcing workplace rules. To decide how much conditions improved during the Depression, a historian would also need wage, employment, or enforcement records."
+        ],
+        "sources": [
+          {
+            "title": "National Archives, Social Security Act",
+            "url": "https://www.archives.gov/milestone-documents/social-security-act"
+          },
+          {
+            "title": "Social Security Administration, 1940s chronology",
+            "url": "https://www.ssa.gov/history/1940.html"
+          },
+          {
+            "title": "Social Security Bulletin, 1950 amendments",
+            "url": "https://www.ssa.gov/history/1950amend.html"
+          },
+          {
+            "title": "Wagner Act as enacted, 49 Stat. 449",
+            "url": "https://www.govinfo.gov/content/pkg/STATUTE-49/pdf/STATUTE-49-Pg449.pdf"
+          },
+          {
+            "title": "Fair Labor Standards Act as enacted, 52 Stat. 1060, sections 6, 7, 12 and 13",
+            "url": "https://www.govinfo.gov/content/pkg/STATUTE-52/pdf/STATUTE-52-Pg1060.pdf"
+          }
+        ]
+      }
     },
     "causes-of-world-war-ii": {
       "title": "Causes of World War II",

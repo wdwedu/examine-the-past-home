@@ -91,6 +91,10 @@ Unit 9.4 now addresses USH.2.1.a–g through three source-linked exit tickets an
 
 Unit 9.5 adds four source-linked readings and exit tickets addressing USH.2.2.a–g. Topics include women’s changing roles, the Scopes trial, Black cultural and political organizing, citizenship and immigration, Prohibition’s results, and the car market. The revised scored assessment includes three primary statutes and a historical estimate of drinking during Prohibition. The USH.2.2.e task uses selected cases. Broader effects across groups remain open. Grade 9 now has 19 of 45 lessons with exact mappings. The source ledger records 102 open, four partly verified, and 30 supported claims.
 
+### Grade 9 Great Depression and New Deal · November 27
+
+Unit 9.6 adds four focused readings and exit tickets addressing USH.2.3.a–d. Students distinguish the market crash from later banking panics, compare the effects of unemployment, drought and discrimination, and use dated evidence to evaluate who benefited from New Deal programs and when. The scored assessment includes the original Wagner Act and a bank-suspension data source. Grade 9 now has 23 of 45 lessons with exact mappings. The source ledger records 99 open, four partly verified, and 33 supported claims.
+
 The scorecard and gates below record the original audit baseline.
 
 ## Executive scorecard

@@ -991,25 +991,25 @@
           "slug": "the-stock-market-crash-and-economic-crisis",
           "title": "The Stock Market Crash and Economic Crisis",
           "essential": "Why did the Great Depression extend beyond the 1929 stock market crash?",
-          "task": "Write a claim about The Stock Market Crash and Economic Crisis with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Explain how buying stocks with borrowed money made losses worse when prices fell. Then use the banking history and FDIC’s bank-suspension table to explain how later panics affected lending and spending. Identify what a date or a bank count alone cannot prove."
         },
         {
           "slug": "living-through-the-great-depression",
           "title": "Living Through the Great Depression",
           "essential": "How did families and communities respond to prolonged economic hardship?",
-          "task": "Write a claim about Living Through the Great Depression with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Use Lange’s photo and two contextual readings to compare hardship in three settings: drought-stricken farm communities, workers or businesses facing falling demand, and Mexican-origin families facing pressure to leave. Add one example of employment or relief discrimination and explain one thing the photo cannot tell you."
         },
         {
           "slug": "franklin-roosevelt-s-new-deal",
           "title": "Franklin Roosevelt's New Deal",
           "essential": "How did the New Deal redefine federal responsibility for economic security?",
-          "task": "Write a claim about Franklin Roosevelt's New Deal with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Create a four-row evidence chart for banking, the TVA, labor bargaining, and old-age insurance. Name the problem and the response in each row. Use at least one implementation record to show who benefited or bore a cost. Explain how one program changed what federal, state, or private actors were expected to do."
         },
         {
           "slug": "did-the-new-deal-transform-government",
           "title": "Did the New Deal Transform Government?",
           "essential": "Was the New Deal a temporary emergency response or an enduring change?",
-          "task": "Write a claim about Did the New Deal Transform Government? with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Build a timeline with the 1935 Social Security Act, the first monthly benefits in 1940, and the 1950 coverage amendments. Use the Wagner Act or the Fair Labor Standards Act for a second example. Explain what changed quickly, what took longer, and one way a law’s reach could fall short of its promise."
         }
       ],
       "sources": [
@@ -1031,14 +1031,14 @@
           "label": "Document B · National Labor Relations Act",
           "title": "National Labor Relations Act",
           "creator": "United States Congress",
-          "date": "1935",
-          "url": "https://www.archives.gov/milestone-documents/national-labor-relations-act",
-          "sourceUrl": "https://www.archives.gov/milestone-documents/national-labor-relations-act",
+          "date": "July 5, 1935",
+          "url": "https://www.govinfo.gov/content/pkg/STATUTE-49/pdf/STATUTE-49-Pg449.pdf",
+          "sourceUrl": "https://www.govinfo.gov/content/pkg/STATUTE-49/pdf/STATUTE-49-Pg449.pdf",
           "sourceType": "Primary source: federal law",
           "excerpt": "The act protected collective bargaining rights for many workers; its exclusions and enforcement must be assessed separately.",
           "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
           "documentExcerpt": "",
-          "sourceNote": "The act protected collective bargaining rights for many workers; its exclusions and enforcement must be assessed separately.",
+          "sourceNote": "Read sections 2 and 7 in the law as enacted for coverage and organizing rights.",
           "lessonContext": "The Great Depression involved unemployment, falling incomes, foreclosures, and severe uncertainty. Dust Bowl conditions compounded hardship in parts of the Great Plains during the 1930s, contributing to migration. Conditions varied sharply among agricultural families, industrial workers, Black communities, Mexican Americans, and people who retained steady employment. National unemployment estimates can obscure those differences. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
         },
         {
@@ -1056,15 +1056,15 @@
           "lessonContext": "Franklin D. Roosevelt took office in 1933 and pursued banking reforms, emergency relief, public employment, and regulatory changes. Programs such as the Civilian Conservation Corps provided work, while the Social Security Act of 1935 established a national framework for old-age and other protections. The federal government pursued relief for immediate hardship, recovery of economic activity, and structural reform. These goals were related but not interchangeable, and programs met different criteria for success. Compare two relevant sources and identify one factual point on which they agree."
         },
         {
-          "label": "Document D · Additional interpretation",
-          "title": "Did the New Deal Transform Government?",
-          "creator": "Examine the Past curriculum editors",
-          "date": "2026 instructional summary",
-          "url": "../did-the-new-deal-transform-government/",
-          "sourceUrl": "../did-the-new-deal-transform-government/",
-          "sourceType": "Secondary source: lesson interpretation, NOT primary evidence",
-          "excerpt": "New Deal legislation expanded regulatory agencies, labor protections, and social insurance. The Wagner Act of 1935 strengthened collective-bargaining protections for many workers, while the Fair Labor Standards Act of 1938 established federal wage and hour standards. Permanent changes to regulation, labor law, and social insurance outlasted individual emergency programs. The Social Security framework and labor standards affected later generations beyond the immediate crisis. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-          "limitation": "This is a modern instructional interpretation, not an original primary document. Use it for context; investigate originals for source-based claims.",
+          "label": "Document D · Bank suspensions and deposit insurance",
+          "title": "Historical overview of the banking crisis and federal deposit insurance",
+          "creator": "Federal Deposit Insurance Corporation",
+          "date": "Retrospective agency history",
+          "url": "https://www.fdic.gov/resources/publications/managing-the-crisis/documents/managing-crisis-chronological-overview.pdf",
+          "sourceUrl": "https://www.fdic.gov/resources/publications/managing-the-crisis/documents/managing-crisis-chronological-overview.pdf",
+          "sourceType": "Secondary source: agency history with historical data",
+          "excerpt": "Table 1.1 counts commercial bank suspensions before federal deposit insurance began. The accompanying history dates the start of deposit insurance to January 1934 and identifies the initial coverage limit.",
+          "limitation": "A commercial bank suspension before 1934 and the later failure of an insured bank are different categories. Compare series only after checking their definitions.",
           "documentExcerpt": ""
         }
       ],
@@ -1100,24 +1100,24 @@
           "explain": "Legal intent and results are separate issues."
         },
         {
-          "prompt": "Why does the 1929 stock crash not by itself fully explain the Great Depression?",
+          "prompt": "How did the banking panics of 1930–31 deepen the economic crisis after the 1929 stock market crash?",
           "choices": [
-            "The crash had no connection to financial conditions",
-            "Banking weakness, demand changes, debt and international problems also shaped the downturn",
-            "Stock prices had never changed before October 1929"
+            "They restored businesses’ access to credit as depositors withdrew funds.",
+            "Withdrawals and closures reduced the ability of banks to lend, increasing pressure on businesses and households.",
+            "They reduced household debt by raising stock prices."
           ],
           "answer": 1,
-          "explain": "The lesson teaches interacting causes."
+          "explain": "Panics strained banks’ cash reserves and could reduce lending. This mechanism followed the stock market collapse and was different from losses on stocks."
         },
         {
-          "prompt": "Two accounts disagree on whether New Deal programs were effective. What should a historian compare?",
+          "prompt": "Which evidence would best explain why some Mexican-origin families left the United States during the Depression?",
           "choices": [
-            "Which writer uses more forceful adjectives",
-            "Only one national statistic without dates",
-            "Comparable employment, recovery and relief data alongside different affected groups' experiences"
+            "A national stock index and a list of New Deal bank regulations",
+            "A single photograph of a Dust Bowl migrant with no information about the family",
+            "Local departure and removal records alongside accounts from families who experienced official pressure"
           ],
           "answer": 2,
-          "explain": "Comparisons require context, effects and multiple measures."
+          "explain": "Administrative records and personal accounts help distinguish voluntary departures from coerced removal."
         },
         {
           "prompt": "Which conclusion best combines Documents A–C?",
@@ -1149,7 +1149,7 @@
           "answer": 2
         }
       ],
-      "inquiryPrompt": "To what extent did New Deal policies expand government responsibility while leaving major needs unmet?",
+      "inquiryPrompt": "Who benefited from New Deal programs, and what evidence shows the limits of those benefits?",
       "inquirySteps": [
         "Compare the sources and record their perspectives and limitations.",
         "Develop a focused historical question and identify which sources address it.",
@@ -1161,21 +1161,21 @@
         2
       ],
       "conclusions": [
-        "Document A records a position or record from 1933, but it needs context to support claims about historical effects.",
-        "The Social Security Act of 1935 immediately ended unemployment and economic hardship for all Americans.",
-        "Documents B and C can help historians compare how evidence, policy and experience relate to great depression and new deal."
+        "Document A identifies purposes of federal regional development. Local records are needed to judge effects on families and businesses.",
+        "Document C establishes that all farm and domestic workers qualified for immediate federal old-age payments in 1935.",
+        "Documents B and C show two distinct federal roles: protecting organizing for covered workers and establishing a system of old-age benefits."
       ],
       "conclusionKey": [
         true,
         false,
         true
       ],
-      "writing": "To what extent did New Deal policies expand government responsibility while leaving major needs unmet? Construct a qualified historical argument using at least three specific facts supported by two original records from this unit and one other kind of evidence (such as testimony, a map, statistics, or a carefully attributed secondary interpretation). Explain each source's date and perspective, compare experiences of affected communities, discuss at least one limitation, and address a plausible counterargument.",
-      "challenge": "Create a museum exhibit or document-based investigation responding to: To what extent did New Deal policies expand government responsibility while leaving major needs unmet? Use four attributed sources, a chronological visualization, two perspectives, an evidence limitation and a defended curator thesis.",
-      "standards": "Maryland 2025 High School United States History Framework; historical inquiry and relevant unit content. Exact indicator crosswalk pending.",
-      "framework": "https://msde.maryland.gov/media/17926",
-      "sourceAudit": "Original documents linked to the National Archives, Library of Congress, presidential libraries, or National September 11 Memorial; source cards contain instructional summaries, not verbatim transcriptions. Verify original collection item, creator, and date before citing.",
-      "sampleAnswer": "The question raised in Great Depression and New Deal is: To what extent did New Deal policies expand government responsibility while leaving major needs unmet? The evidence suggests that decisions and events changed institutions and opportunities, but the results differed among people and places. A defensible argument requires attention to whom a policy or movement affected, not only its supporters' intentions.\n\nDocument A (Tennessee Valley Authority Act, 1933) provides one perspective: The law authorized regional development and electricity projects; benefits, displacements, and effectiveness require separate empirical evidence. Document B (National Labor Relations Act, 1935) adds another: The act protected collective bargaining rights for many workers; its exclusions and enforcement must be assessed separately. These records identify choices or experiences, but their authors and purposes must be considered before treating them as complete accounts.\n\nDocument C (Social Security Act, 1935) supplies further evidence: Social insurance was expanded through federal law, but the original law did not cover every occupation or eliminate poverty. A historian should test these records against different evidence such as the observations of affected communities, independent statistics, archaeological evidence when relevant, and the unit's contextual lesson reading. The sources do not necessarily measure results by themselves.\n\nA reasonable counterargument might emphasize the benefits or stated goals of these developments. Those claims deserve evaluation, but they do not eliminate unintended consequences, unequal impacts or limits of the evidence. I would therefore defend a qualified conclusion and explain which further sources might change it."
+      "writing": "To what extent did the New Deal change who was responsible for economic security? Compare two programs. Explain the problem each addressed, identify one documented result, and explain a coverage limit or cost. Use two primary records and one corroborating source. Consider a reasonable counterargument and identify a piece of evidence that would help you evaluate it.",
+      "challenge": "Compare the TVA Act with the Randolph family relocation file. Explain the program’s regional purpose, one cost for a household, and what evidence would show whether other families had similar experiences.",
+      "standards": "Maryland High School United States History Framework (June 2025), USH.2.3.a–d. Lesson exit tickets add evidence on farm distress, migration, policy implementation, and the New Deal’s legacy.",
+      "framework": "https://msde.maryland.gov/media/17926#page=12",
+      "sourceAudit": "Documents A–C establish what Congress authorized. Document D provides a banking chronology and historical estimates. Use the lesson evidence for examples of costs, exclusion, and later implementation.",
+      "sampleAnswer": "The New Deal gave the federal government lasting responsibilities for both workplace bargaining and retirement security. Section 7 of the Wagner Act protected organizing and collective bargaining for covered employees. The Social Security Act created an old-age insurance system, but its employment definition left agricultural labor and private household service outside the original coverage.\n\nA supporter could say these laws offered immediate relief because they passed in 1935. The Social Security Administration’s chronology shows that monthly old-age benefits did not become payable until 1940. The date of enactment tells us when the framework was established. It does not tell us when a retired worker first received regular payments. To judge the reach of both programs, I would compare payment and labor-board records with evidence from occupations excluded at the outset."
     },
     "9.7": {
       "id": "9.7",
