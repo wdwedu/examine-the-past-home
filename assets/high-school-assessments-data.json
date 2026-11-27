@@ -1187,31 +1187,31 @@
           "slug": "causes-of-world-war-ii",
           "title": "Causes of World War II",
           "essential": "How did aggression, political crisis, and failed diplomacy contribute to World War II?",
-          "task": "Write a claim about Causes of World War II with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Build a two-region timeline. Compare Japan’s expansion in China with one example of German or Italian expansion. Then explain what Britain and France hoped to avoid at Munich and what happened by March 1939. Use the agreement and one dated event as evidence."
         },
         {
           "slug": "pearl-harbor-and-american-entry",
           "title": "Pearl Harbor and American Entry",
           "essential": "How did Pearl Harbor alter U.S. participation in World War II?",
-          "task": "Write a claim about Pearl Harbor and American Entry with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Compare three stages: a restriction under the Neutrality Acts, the aid authorized by Lend-Lease, and the decision Congress made after Pearl Harbor. Which stage ended formal neutrality toward Japan? Name the document that establishes the change."
         },
         {
           "slug": "the-holocaust-and-human-rights",
           "title": "The Holocaust and Human Rights",
           "essential": "How did Nazi policy turn persecution into genocide, and why does evidence matter?",
-          "task": "Write a claim about The Holocaust and Human Rights with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Use the Nuremberg Laws and the Wannsee Protocol to explain two stages in persecution. Then compare U.S. refugee policy before entry into the war with the creation of the War Refugee Board. Identify one pressure that limited the response and one way Gerda Schild Haas’s testimony adds a perspective absent from official records."
         },
         {
           "slug": "war-on-the-home-front",
           "title": "War on the Home Front",
           "essential": "How did wartime mobilization expand opportunity while limiting rights?",
-          "task": "Write a claim about War on the Home Front with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Use two short evidence notes. First, explain how Black migration and the Bracero Program filled different labor needs. Compare opportunities and limits for women, Black workers, Mexican-origin workers, Japanese Americans, and Native Americans using the examples. Second, explain what Executive Order 9066 authorized and how the Korematsu and Endo decisions differed."
         },
         {
           "slug": "d-day-the-pacific-war-and-allied-victory",
           "title": "D-Day, the Pacific War, and Allied Victory",
           "essential": "How did coordinated campaigns and difficult decisions lead to Allied victory?",
-          "task": "Write a claim about D-Day, the Pacific War, and Allied Victory with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Make three short evidence notes. Compare what Normandy and Midway changed. Then weigh two considerations in the U.S. atomic bomb decision and explain why the August timeline allows more than one explanation for Japan’s surrender. Finally, assign the UN, IMF, or World Bank to each problem: monitoring a ceasefire, a shortage of foreign currency for international payments, and financing reconstruction. Explain the choice for each."
         }
       ],
       "sources": [
@@ -1258,28 +1258,28 @@
           "lessonContext": "Nazi antisemitism, exclusionary laws, and violence intensified after 1933. During World War II, Nazi Germany and collaborators systematically murdered approximately six million Jews in the Holocaust, alongside persecution and mass murder of other groups. Nazi persecution developed through laws excluding Jews from public life, organized violence, deportations, ghettos, shootings, and killing centers. Chronology matters: not every instrument of persecution appeared at the same time. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
         },
         {
-          "label": "Document D · Additional interpretation",
-          "title": "D-Day, the Pacific War, and Allied Victory",
-          "creator": "Examine the Past curriculum editors",
-          "date": "2026 instructional summary",
-          "url": "../d-day-the-pacific-war-and-allied-victory/",
-          "sourceUrl": "../d-day-the-pacific-war-and-allied-victory/",
-          "sourceType": "Secondary source: lesson interpretation, NOT primary evidence",
-          "excerpt": "Allied forces landed in Normandy on June 6, 1944, opening a major Western European offensive. The Soviet military's campaigns on the Eastern Front were also crucial to Germany's defeat in May 1945. Normandy depended on coordination among Allied forces, air and naval support, deception, and logistics. The Soviet Union's enormous military role in defeating Germany must also be considered. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-          "limitation": "This is a modern instructional interpretation, not an original primary document. Use it for context; investigate originals for source-based claims.",
+          "label": "Document D · U.S. refugee policy, 1938–41",
+          "title": "The United States and the Refugee Crisis, 1938–41",
+          "creator": "United States Holocaust Memorial Museum",
+          "date": "Retrospective museum history",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/the-united-states-and-the-refugee-crisis-1938-41",
+          "sourceUrl": "https://encyclopedia.ushmm.org/content/en/article/the-united-states-and-the-refugee-crisis-1938-41",
+          "sourceType": "Secondary source: museum history",
+          "excerpt": "U.S. immigration quotas, public opposition to expanding immigration, and security concerns constrained entry as increasing numbers of Jewish refugees sought safety before American entry into the war.",
+          "limitation": "The overview describes policy and public attitudes. A refugee’s testimony gives evidence of an individual experience of that policy.",
           "documentExcerpt": ""
         }
       ],
       "questions": [
         {
-          "prompt": "Roosevelt's December 1941 address is a primary source. What does it establish most directly?",
+          "prompt": "What changed when Congress moved from the Neutrality Acts to Lend-Lease and then responded to Pearl Harbor?",
           "choices": [
-            "The administration's publicly stated case for war after Pearl Harbor",
-            "The full experiences of civilians in occupied Europe",
-            "All U.S. citizens agreed on every wartime policy"
+            "It moved from restricting arms sales to authorizing aid, then formally declared war on Japan.",
+            "It declared war on Japan through Lend-Lease and approved arms sales only afterward.",
+            "It authorized aid to Germany and Japan and then returned to strict neutrality after Pearl Harbor."
           ],
           "answer": 0,
-          "explain": "The president's address records the government's public argument."
+          "explain": "The three steps changed U.S. participation in different ways. The December 8 resolution was the formal declaration against Japan."
         },
         {
           "prompt": "Executive Order 9066 enabled exclusion policies. What would best evaluate its consequences?",
@@ -1312,24 +1312,24 @@
           "explain": "Wartime actions included both expanded opportunities and major rights restrictions."
         },
         {
-          "prompt": "What would best support a historical explanation of the Holocaust beyond its occurrence during wartime?",
+          "prompt": "Which conclusion explains a change and a limit in the U.S. response to Nazi persecution?",
           "choices": [
-            "A single anonymous claim without place or date",
-            "Nazi policy records, survivor testimony and evidence of organized persecution and murder",
-            "Only a map of postwar Allied borders"
+            "The U.S. lifted its immigration quotas when the Nuremberg Laws took effect.",
+            "Refugee entry remained limited before U.S. entry, and an official federal rescue agency began only in 1944.",
+            "Creating the War Refugee Board shows the U.S. had already made rescue its primary policy in 1938."
           ],
           "answer": 1,
-          "explain": "The Holocaust requires careful, corroborated evidence and attention to victims."
+          "explain": "Immigration restrictions limited earlier entry. The War Refugee Board represented a shift toward rescue late in the war."
         },
         {
-          "prompt": "Which argument about World War II avoids oversimplification?",
+          "prompt": "Which postwar institution is correctly paired with its original purpose?",
           "choices": [
-            "Victory resulted only from one battle and one country",
-            "All economic gains were shared equally by civilians",
-            "Military coordination and domestic mobilization shaped victory while rights and experiences varied"
+            "The IMF was created to deploy military observers to monitor ceasefires.",
+            "The United Nations was created to lend directly for industrial reconstruction.",
+            "The original World Bank institution was created in part to finance reconstruction and development."
           ],
           "answer": 2,
-          "explain": "Both international campaigns and unequal domestic conditions matter."
+          "explain": "The original World Bank institution financed reconstruction and development. The UN and IMF addressed different security and monetary problems."
         }
       ],
       "matchingOptions": [
@@ -1351,7 +1351,7 @@
           "answer": 2
         }
       ],
-      "inquiryPrompt": "How did wartime choices shape military victory while transforming rights and obligations at home?",
+      "inquiryPrompt": "How did wartime decisions change U.S. responsibilities at home and abroad?",
       "inquirySteps": [
         "Compare the sources and record their perspectives and limitations.",
         "Develop a focused historical question and identify which sources address it.",
@@ -1363,21 +1363,21 @@
         2
       ],
       "conclusions": [
-        "The existence of Executive Order 8802 establishes that discrimination disappeared from all U.S. defense-industry workplaces.",
-        "Documents B and C can help historians compare how evidence, policy and experience relate to world war ii.",
-        "Document A records a position or record from December 8, 1941, but it needs context to support claims about historical effects."
+        "Executive Order 8802 establishes that discrimination ended in every defense-industry workplace.",
+        "Executive Orders 9066 and 8802 show that wartime federal action could restrict civil liberties and also address discrimination in employment.",
+        "Roosevelt’s address gives his public case for war after Pearl Harbor. Congress’s joint resolution establishes that Congress declared war."
       ],
       "conclusionKey": [
         false,
         true,
         true
       ],
-      "writing": "How did wartime choices shape military victory while transforming rights and obligations at home? Construct a qualified historical argument using at least three specific facts supported by two original records from this unit and one other kind of evidence (such as testimony, a map, statistics, or a carefully attributed secondary interpretation). Explain each source's date and perspective, compare experiences of affected communities, discuss at least one limitation, and address a plausible counterargument.",
-      "challenge": "Create a museum exhibit or document-based investigation responding to: How did wartime choices shape military victory while transforming rights and obligations at home? Use four attributed sources, a chronological visualization, two perspectives, an evidence limitation and a defended curator thesis.",
-      "standards": "Maryland 2025 High School United States History Framework; historical inquiry and relevant unit content. Exact indicator crosswalk pending.",
-      "framework": "https://msde.maryland.gov/media/17926",
-      "sourceAudit": "Original documents linked to the National Archives, Library of Congress, presidential libraries, or National September 11 Memorial; source cards contain instructional summaries, not verbatim transcriptions. Verify original collection item, creator, and date before citing.",
-      "sampleAnswer": "The question raised in World War II is: How did wartime choices shape military victory while transforming rights and obligations at home? The evidence suggests that decisions and events changed institutions and opportunities, but the results differed among people and places. A defensible argument requires attention to whom a policy or movement affected, not only its supporters' intentions.\n\nDocument A (Roosevelt's War Message after Pearl Harbor, December 8, 1941) provides one perspective: The president asked Congress to declare war following Japan's attack; the address reflects a government case for war, not all civilian experiences. Document B (Executive Order 9066, 1942) adds another: The order enabled military exclusion policies that led to incarceration of Japanese Americans; public security rationales require comparison with rights and actual evidence. These records identify choices or experiences, but their authors and purposes must be considered before treating them as complete accounts.\n\nDocument C (Executive Order 8802, 1941) supplies further evidence: The order addressed employment discrimination in defense work; the executive commitment did not itself end discrimination in every workplace. A historian should test these records against different evidence such as the observations of affected communities, independent statistics, archaeological evidence when relevant, and the unit's contextual lesson reading. The sources do not necessarily measure results by themselves.\n\nA reasonable counterargument might emphasize the benefits or stated goals of these developments. Those claims deserve evaluation, but they do not eliminate unintended consequences, unequal impacts or limits of the evidence. I would therefore defend a qualified conclusion and explain which further sources might change it."
+      "writing": "Compare two wartime decisions, one involving U.S. action abroad and one affecting a community at home or people seeking refuge. Explain what each was intended to do, identify a documented consequence, and explain whose perspective an official record leaves out. Use two primary records and one corroborating source. Address a reasonable counterargument and state one evidence limit.",
+      "challenge": "Compare the founding documents for the UN, IMF, and original World Bank institution. Identify a problem each was designed to address and one piece of evidence you would seek to judge its early effectiveness.",
+      "standards": "Maryland High School United States History Framework (June 2025), USH.2.4.a–f and USH.2.5.a–c. The lesson exit tickets cover additional topics, including military turning points and the atomic bomb decision.",
+      "framework": "https://msde.maryland.gov/media/17926#page=13",
+      "sourceAudit": "The speech and executive orders document stated policy. Use the linked congressional resolution, court opinions, testimony, and museum history to test outcomes.",
+      "sampleAnswer": "Roosevelt’s address on December 8 presented Japan’s attack on Pearl Harbor as the reason to enter the war. The joint resolution shows that Congress moved from material aid to a formal declaration of war against Japan. The speech is useful for understanding Roosevelt’s public argument but cannot tell us how Japanese leaders decided to attack.\n\nAt home, Executive Order 9066 authorized military exclusion. Government records and the Endo case show how a policy described as a security measure affected people of Japanese ancestry, including U.S. citizens. A defender of the order could argue that wartime officials needed broad powers to protect defense sites. That claim needs evidence of a specific security risk and does not by itself explain continued detention of a citizen whose loyalty was conceded. To evaluate the effects on families, I would also compare government records with firsthand accounts."
     },
     "9.8": {
       "id": "9.8",

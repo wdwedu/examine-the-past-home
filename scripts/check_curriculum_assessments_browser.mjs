@@ -33,7 +33,7 @@ async function checkGrade9Alignment(page) {
   assert.ok(response.ok);
   const { lessons } = await response.json();
   const mapped = Object.entries(lessons).filter(([, lesson]) => lesson.marylandAlignment);
-  assert.equal(mapped.length, 23);
+  assert.equal(mapped.length, 28);
   const imperialismCodes = mapped.filter(([, lesson]) => lesson.unit === "9.3")
     .flatMap(([, lesson]) => lesson.marylandAlignment.code.split(" and "));
   assert.deepEqual(imperialismCodes.sort(), ["USH.1.2.a", "USH.1.2.b", "USH.1.2.c", "USH.1.2.d"]);
@@ -48,6 +48,12 @@ async function checkGrade9Alignment(page) {
   const depressionCodes = mapped.filter(([, lesson]) => lesson.unit === "9.6")
     .map(([, lesson]) => lesson.marylandAlignment.code);
   assert.deepEqual(depressionCodes.sort(), ["USH.2.3.a", "USH.2.3.b", "USH.2.3.c", "USH.2.3.d"]);
+  const worldWarIICodes = mapped.filter(([, lesson]) => lesson.unit === "9.7")
+    .flatMap(([, lesson]) => lesson.marylandAlignment.code.split(" and "));
+  assert.deepEqual(worldWarIICodes.sort(), [
+    "USH.2.4.a", "USH.2.4.b", "USH.2.4.c", "USH.2.4.d", "USH.2.4.e", "USH.2.4.f",
+    "USH.2.5.a", "USH.2.5.b", "USH.2.5.c",
+  ]);
   const frameworkIds = { content: 17926, bridge: 17926, review: 17918 };
   for (const [slug, { unit, marylandAlignment: alignment }] of mapped) {
     const url = new URL(`lessons/curriculum/${courses[9]}/${slug}/`, root);
@@ -82,6 +88,10 @@ async function checkGrade9Alignment(page) {
         assert.ok((await guided.innerText()).includes(paragraph));
       }
     }
+    if (slug === "the-holocaust-and-human-rights") {
+      await Promise.all([page.waitForURL("**/unit-9-7-assessment/"), assessmentLink.click()]);
+      await page.getByRole("heading", { name: "Document D · U.S. refugee policy, 1938–41" }).waitFor();
+    }
     if (slug === "living-through-the-great-depression") {
       await Promise.all([page.waitForURL("**/unit-9-6-assessment/"), assessmentLink.click()]);
       await page.getByRole("heading", { name: "Document D · Bank suspensions and deposit insurance" }).waitFor();
@@ -110,7 +120,7 @@ async function checkGrade9Alignment(page) {
     assessment.getByRole("link", { name: "Open the full Unit 9.4 Assessment" }).click(),
   ]);
   await page.getByRole("heading", { name: "Document C · Versailles, Article X" }).waitFor();
-  console.log("PASS twenty-three Grade 9 alignments, July Crisis source links, and lesson-to-assessment navigation");
+  console.log("PASS twenty-eight Grade 9 alignments, July Crisis source links, and lesson-to-assessment navigation");
 }
 
 const worldHistoryResponse = await fetch(new URL("assets/grade11-grade5-matched-data.json", root));
@@ -186,6 +196,12 @@ async function checkMixedFormat(page, data) {
     assert.match(await questions.first().innerText(), /Cuba from the Philippines/);
     assert.ok(await page.locator("#performance").getByText(data.writing, { exact: true }).isVisible());
     assert.ok(await page.getByRole("heading", { name: "Document A · Treaty of Paris" }).isVisible());
+  }
+
+  if (data.id === "9.7") {
+    assert.match(await questions.first().innerText(), /Neutrality Acts to Lend-Lease/);
+    assert.ok(await page.locator("#performance").getByText(data.writing, { exact: true }).isVisible());
+    assert.ok(await page.getByRole("heading", { name: "Document D · U.S. refugee policy, 1938–41" }).isVisible());
   }
 
   if (data.id === "9.6") {

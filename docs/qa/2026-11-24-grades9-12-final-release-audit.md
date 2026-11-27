@@ -95,6 +95,10 @@ Unit 9.5 adds four source-linked readings and exit tickets addressing USH.2.2.a�
 
 Unit 9.6 adds four focused readings and exit tickets addressing USH.2.3.a–d. Students distinguish the market crash from later banking panics, compare the effects of unemployment, drought and discrimination, and use dated evidence to evaluate who benefited from New Deal programs and when. The scored assessment includes the original Wagner Act and a bank-suspension data source. Grade 9 now has 23 of 45 lessons with exact mappings. The source ledger records 99 open, four partly verified, and 33 supported claims.
 
+### Grade 9 World War II · November 27
+
+Unit 9.7 adds source-linked readings and exit tickets to the five existing lessons and maps USH.2.4.a–f and USH.2.5.a–c. It compares prewar expansion, U.S. entry, the Holocaust and U.S. rescue policy, home-front mobilization and incarceration, and military decisions and postwar institutions. The assessment adds the United States Holocaust Memorial Museum’s refugee-policy history to the packet. The home-front task uses Japanese American incarceration as its Asian American case. The postwar task checks the institutions’ distinct roles and early examples. Broader impact evaluation remains open. Grade 9 now has 28 of 45 lessons with documented mappings. The source ledger records 94 open, four partly verified, and 38 supported claims.
+
 The scorecard and gates below record the original audit baseline.
 
 ## Executive scorecard

@@ -3070,11 +3070,11 @@
         "Set two chronologies beside one another: Japanese expansion in East Asia and German expansion in Europe. Use the State Department's dated diplomatic history as a guide to selecting original declarations, treaties or speeches. Separate what leaders said they wanted from what their armies did. If the evidence comes from a later historical overview, identify it as secondary rather than pretending to read the author's original diary."
       ],
       "activity": "Causes of World War II · Historical evidence inquiry",
-      "task": "Argue why explaining the war requires more than 'appeasement failed.' Name a decision in Europe and one in Asia, and identify an original document still needed to corroborate them.",
+      "task": "Build a two-region timeline. Compare Japan’s expansion in China with one example of German or Italian expansion. Then explain what Britain and France hoped to avoid at Munich and what happened by March 1939. Use the agreement and one dated event as evidence.",
       "investigation": [
         "Compare the Department of State chronologies of war in Asia and in Europe. Mark 1937, 1938 and September 1939, with the distinct events for each.",
         "Identify one statement of government intent and one act of military expansion. Explain why an official justification is not neutral proof that the policy was warranted.",
-        "Argue why explaining the war requires more than 'appeasement failed.' Name a decision in Europe and one in Asia, and identify an original document still needed to corroborate them."
+        "Build a two-region timeline. Compare Japan’s expansion in China with one example of German or Italian expansion. Then explain what Britain and France hoped to avoid at Munich and what happened by March 1939. Use the agreement and one dated event as evidence."
       ],
       "options": [
         "Germany's invasion of Poland",
@@ -3148,7 +3148,34 @@
           "summary": "Contextual account for distinguishing the European and Asian theaters. Use its references to locate dated original diplomatic texts.",
           "type": "Secondary institutional history"
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.2.4.a",
+        "kind": "content",
+        "page": 13,
+        "objective": "Explain how dictatorship, imperial expansion, and appeasement contributed to war in Europe and Asia.",
+        "prompt": "Build a two-region timeline. Compare Japan’s expansion in China with one example of German or Italian expansion. Then explain what Britain and France hoped to avoid at Munich and what happened by March 1939. Use the agreement and one dated event as evidence.",
+        "criteria": "Connect leaders’ goals to a documented action in each region. Explain why concessions at Munich failed to prevent further expansion.",
+        "readingTitle": "Expansion and the limits of appeasement",
+        "reading": [
+          "Fascist Italy and Nazi Germany concentrated power under dictatorships and pursued expansion. Italy invaded Ethiopia in 1935. Nazi leaders pursued territory and racial domination in Europe. In Asia, Japan seized Manchuria in 1931 and launched a full-scale war in China in 1937. These governments pursued different goals, but each used military force to extend control beyond its borders.",
+          "At Munich in September 1938, Britain and France agreed to the transfer of Czechoslovakia’s Sudetenland to Germany alongside Germany and Italy. Czechoslovakia was excluded from the agreement. British and French leaders hoped making a concession would prevent a wider war. In March 1939, Germany occupied the Czech lands beyond the territory covered by the agreement. The agreement records what the signatories accepted. The subsequent occupation shows the limits of that policy."
+        ],
+        "sources": [
+          {
+            "title": "Munich Agreement (September 1938)",
+            "url": "https://avalon.law.yale.edu/wwii/ylbk012.asp"
+          },
+          {
+            "title": "United States Holocaust Memorial Museum, Munich Agreement",
+            "url": "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1933-1938/munich-agreement"
+          },
+          {
+            "title": "United States Holocaust Memorial Museum, World War II dates and timeline",
+            "url": "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+          }
+        ]
+      }
     },
     "pearl-harbor-and-american-entry": {
       "title": "Pearl Harbor and American Entry",
@@ -3163,11 +3190,11 @@
         "Read Roosevelt's December 8 speech beside the State Department's historical chronology of diplomatic tensions from 1937 to 1941. Identify the immediate event, the preceding policies, and the decision taken by Congress. What could each record establish? An official speech can document the administration's stated reasons, while a retrospective chronology helps situate them and must be labeled accordingly."
       ],
       "activity": "Pearl Harbor and American Entry · Historical evidence inquiry",
-      "task": "Explain the difference between the attack, Roosevelt's argument, and Congress's decision. Identify a Japanese record that would give another perspective.",
+      "task": "Compare three stages: a restriction under the Neutrality Acts, the aid authorized by Lend-Lease, and the decision Congress made after Pearl Harbor. Which stage ended formal neutrality toward Japan? Name the document that establishes the change.",
       "investigation": [
         "Read Roosevelt's December 8 address and identify the date, audience, request, and two factual claims that need corroboration.",
         "Use the Department of State's chronology to identify two developments before December 7 that strained relations with Japan.",
-        "Explain the difference between the attack, Roosevelt's argument, and Congress's decision. Identify a Japanese record that would give another perspective."
+        "Compare three stages: a restriction under the Neutrality Acts, the aid authorized by Lend-Lease, and the decision Congress made after Pearl Harbor. Which stage ended formal neutrality toward Japan? Name the document that establishes the change."
       ],
       "options": [
         "September 1, 1939",
@@ -3241,7 +3268,38 @@
           "summary": "Secondary diplomatic context for the attack; distinguish original government documents embedded or linked from modern analysis.",
           "type": "Secondary institutional history"
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.2.4.b",
+        "kind": "content",
+        "page": 13,
+        "objective": "Evaluate how the Neutrality Acts, Lend-Lease, and Pearl Harbor changed the U.S. role in the war.",
+        "prompt": "Compare three stages: a restriction under the Neutrality Acts, the aid authorized by Lend-Lease, and the decision Congress made after Pearl Harbor. Which stage ended formal neutrality toward Japan? Name the document that establishes the change.",
+        "criteria": "Explain what each action changed. Distinguish sending material aid from a formal declaration of war and cite the date Congress acted.",
+        "readingTitle": "From neutrality to aid to war",
+        "reading": [
+          "The first Neutrality Act in 1935 restricted arms sales to countries at war. Congress revised the rules in 1939 to allow belligerents to buy arms on a cash-and-carry basis. Buyers paid upfront and transported the goods themselves. Lend-Lease went further in March 1941 by authorizing aid to governments whose defense the president deemed vital to U.S. defense. This moved the United States away from evenhanded neutrality while it remained formally at peace with Japan and Germany.",
+          "Japan’s attack on Pearl Harbor on December 7, 1941, changed what Congress was deciding. Roosevelt asked for a declaration of war against Japan on December 8. Congress approved it that day. Roosevelt’s speech records his argument for entering the war. The joint resolution records the legal decision."
+        ],
+        "sources": [
+          {
+            "title": "Office of the Historian, the Neutrality Acts",
+            "url": "https://history.state.gov/milestones/1921-1936/neutrality-acts"
+          },
+          {
+            "title": "Lend-Lease Act as enacted, 55 Stat. 31, section 3",
+            "url": "https://www.govinfo.gov/content/pkg/STATUTE-55/pdf/STATUTE-55-Pg31.pdf"
+          },
+          {
+            "title": "National Archives, Roosevelt’s December 8 address",
+            "url": "https://www.archives.gov/milestone-documents/joint-address-to-congress-declaration-of-war-against-japan"
+          },
+          {
+            "title": "Joint resolution declaring war on Japan, 55 Stat. 795",
+            "url": "https://www.govinfo.gov/content/pkg/STATUTE-55/pdf/STATUTE-55-Pg795.pdf"
+          }
+        ]
+      }
     },
     "the-holocaust-and-human-rights": {
       "title": "The Holocaust and Human Rights",
@@ -3253,14 +3311,14 @@
       "paragraphs": [
         "The Holocaust was the systematic, state-sponsored persecution and murder of approximately six million European Jews by Nazi Germany and its allies and collaborators. Nazi antisemitism was central to the project. Other groups were persecuted and murdered under different Nazi policies; their experiences must be studied accurately without obscuring the specifically anti-Jewish genocide.",
         "The process did not begin with killing centers. Nazi laws excluded Jews from citizenship and public life, while organized violence, forced displacement, ghettos, mass shootings, deportations and killing facilities escalated persecution. The September 1935 Nuremberg Laws provide evidence of legalized racial discrimination. The surviving January 1942 Wannsee Conference protocol shows senior officials coordinating aspects of the genocide that was already underway. Neither document should be treated as its beginning.",
-        "Teach the material through carefully selected museum-vetted excerpts, without simulated victim dialogue or gratuitous graphic images. Compare what the Nazi laws prescribed with what the Wannsee document reveals about perpetrator coordination. These are perpetrator documents: their bureaucratic language conceals human suffering. Pair them with verified testimony or a victim's contemporary record, and ask whose perspective is absent from each."
+        "The texts of the laws and the Wannsee minutes reflect the views of Nazi officials. Pair them with Gerda Schild Haas’s testimony. Identify what the official records show about persecution and what the survivor’s account adds about separation, loss, and survival."
       ],
       "activity": "The Holocaust and Human Rights · Historical evidence inquiry",
-      "task": "Write a carefully sourced explanation of how persecution escalated, then identify one verified Jewish victim or survivor record needed to counterbalance perpetrator documents. Avoid reenactments or unsupported invented testimony.",
+      "task": "Use the Nuremberg Laws and the Wannsee Protocol to explain two stages in persecution. Then compare U.S. refugee policy before entry into the war with the creation of the War Refugee Board. Identify one pressure that limited the response and one way Gerda Schild Haas’s testimony adds a perspective absent from official records.",
       "investigation": [
         "Using the USHMM material, identify the date and legal effect of the Nuremberg Laws. Record which text is an original law and which paragraphs are modern interpretation.",
         "Examine a short curator-selected portion of the Wannsee Protocol. Describe the participants' administrative language and why it must not be adopted as neutral terminology.",
-        "Write a carefully sourced explanation of how persecution escalated, then identify one verified Jewish victim or survivor record needed to counterbalance perpetrator documents. Avoid reenactments or unsupported invented testimony."
+        "Use the Nuremberg Laws and the Wannsee Protocol to explain two stages in persecution. Then compare U.S. refugee policy before entry into the war with the creation of the War Refugee Board. Identify one pressure that limited the response and one way Gerda Schild Haas’s testimony adds a perspective absent from official records."
       ],
       "options": [
         "Sixty thousand",
@@ -3334,7 +3392,42 @@
           "summary": "USHMM documents the surviving perpetrator conference minutes and their creation. This record shows coordination rather than the start of the Holocaust; discriminatory euphemisms require contextual interpretation.",
           "type": "Perpetrator primary document with museum interpretation"
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.2.4.c",
+        "kind": "content",
+        "page": 13,
+        "objective": "Explain how Nazi antisemitism escalated into genocide and evaluate the pressures that shaped U.S. refugee and rescue decisions.",
+        "prompt": "Use the Nuremberg Laws and the Wannsee Protocol to explain two stages in persecution. Then compare U.S. refugee policy before entry into the war with the creation of the War Refugee Board. Identify one pressure that limited the response and one way Gerda Schild Haas’s testimony adds a perspective absent from official records.",
+        "criteria": "Connect anti-Jewish laws and wartime decisions to the escalation of genocide. Use dated evidence for the U.S. response and distinguish a family’s experience from what an official record can establish.",
+        "readingTitle": "Escalating persecution and choices about rescue",
+        "reading": [
+          "Nazi antisemitism treated Jews as a supposed racial enemy. In 1935 the Nuremberg Laws stripped Jews of full political citizenship and prohibited marriages between Jews and people classified as German or related by blood. Under cover of war and occupation, persecution escalated into mass murder. The Wannsee meeting took place in January 1942, after mass killings had begun. The surviving minutes show officials coordinating deportation and genocide.",
+          "Before the United States entered the war, immigration quotas, prejudices including antisemitism, and fears about security limited entry even as Jewish refugees sought safety. In January 1944, Roosevelt created the War Refugee Board after pressure from Treasury officials and rescue advocates. It supported rescue and relief efforts, but it began after most victims of the Holocaust had already been murdered. Gerda Schild Haas’s later testimony about reuniting with her father adds one family’s perspective on separation and survival."
+        ],
+        "sources": [
+          {
+            "title": "United States Holocaust Memorial Museum, Nuremberg Laws",
+            "url": "https://encyclopedia.ushmm.org/content/en/article/nuremberg-laws"
+          },
+          {
+            "title": "United States Holocaust Memorial Museum, Wannsee Protocol",
+            "url": "https://encyclopedia.ushmm.org/content/en/article/wannsee-protocol"
+          },
+          {
+            "title": "Oral history transcript, Gerda Schild Haas on reuniting with her father",
+            "url": "https://encyclopedia.ushmm.org/content/en/oral-history/gerda-haas-describes-postwar-reunion-with-her-father-in-the-united-states"
+          },
+          {
+            "title": "U.S. refugee policy, 1938–41",
+            "url": "https://encyclopedia.ushmm.org/content/en/article/the-united-states-and-the-refugee-crisis-1938-41"
+          },
+          {
+            "title": "War Refugee Board, background and establishment",
+            "url": "https://encyclopedia.ushmm.org/content/en/article/war-refugee-board-background-and-establishment"
+          }
+        ]
+      }
     },
     "war-on-the-home-front": {
       "title": "War on the Home Front",
@@ -3349,11 +3442,11 @@
         "Compare Executive Order 9066 with a wartime government statement or record about employment rights. Identify what each document empowered officials to do and which communities were affected. Ask what additional testimony is needed to understand the experiences of incarcerated families and workers confronting discrimination. A claim of military necessity must be examined against evidence and constitutional rights, not accepted simply because the government made it."
       ],
       "activity": "War on the Home Front · Historical evidence inquiry",
-      "task": "Compare the government's wartime calls for participation with two groups' experiences. Use the orders plus an independently selected personal account; do not assume policies were applied equally.",
+      "task": "Use two short evidence notes. First, explain how Black migration and the Bracero Program filled different labor needs. Compare opportunities and limits for women, Black workers, Mexican-origin workers, Japanese Americans, and Native Americans using the examples. Second, explain what Executive Order 9066 authorized and how the Korematsu and Endo decisions differed.",
       "investigation": [
         "Read Executive Order 8802 and state which employment discrimination it prohibited; explain what evidence would test enforcement.",
         "Read Executive Order 9066 and identify its stated powers. Explain the difference between its wording and the forced removal and incarceration that followed.",
-        "Compare the government's wartime calls for participation with two groups' experiences. Use the orders plus an independently selected personal account; do not assume policies were applied equally."
+        "Use two short evidence notes. First, explain how Black migration and the Bracero Program filled different labor needs. Compare opportunities and limits for women, Black workers, Mexican-origin workers, Japanese Americans, and Native Americans using the examples. Second, explain what Executive Order 9066 authorized and how the Korematsu and Endo decisions differed."
       ],
       "options": [
         "Executive Order 9066",
@@ -3427,7 +3520,54 @@
           "summary": "Prohibits certain discrimination in federal defense employment and establishes the Fair Employment Practice Committee; legal promise is not proof of equal practice.",
           "type": "Primary historical record"
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.2.5.a and USH.2.5.b and USH.2.5.c",
+        "kind": "content",
+        "page": 13,
+        "objective": "Compare the effects of wartime mobilization on employment, migration, and civil liberties for five communities.",
+        "prompt": "Use two short evidence notes. First, explain how Black migration and the Bracero Program filled different labor needs. Compare opportunities and limits for women, Black workers, Mexican-origin workers, Japanese Americans, and Native Americans using the examples. Second, explain what Executive Order 9066 authorized and how the Korematsu and Endo decisions differed.",
+        "criteria": "Distinguish contract labor from internal migration and identify a documented consequence for each community. Explain the legal difference between upholding an exclusion order and rejecting continued detention in Endo’s case.",
+        "readingTitle": "Mobilization and civil liberties on the home front",
+        "reading": [
+          "Defense industries drew Black workers to industrial cities and hired more women. Executive Order 8802 prohibited discrimination in defense employment, but discrimination continued. The United States and Mexico created the Bracero Program in 1942 to address agricultural labor shortages. Mexican contract workers faced low wages and difficult conditions. Many Mexican Americans already living in the United States served in the military. Some veterans later organized against discrimination in access to benefits and services.",
+          "Native Americans served in the military, including Navajo Marines whose language skills helped keep communications secure. Japanese American families faced a different federal policy. Executive Order 9066 let military officials designate areas from which people could be excluded. Military orders applied that authority to people of Japanese ancestry, including U.S. citizens. In 1944 the Supreme Court upheld the exclusion order at issue in Korematsu. In Endo it held that the government lacked authority to detain a citizen whose loyalty it conceded."
+        ],
+        "sources": [
+          {
+            "title": "National Park Service, wartime employment and Black migration",
+            "url": "https://home.nps.gov/subjects/civilrights/birth-of-civil-rights.htm"
+          },
+          {
+            "title": "Library of Congress, the Bracero Program and Mexican American service",
+            "url": "https://www.loc.gov/classroom-materials/immigration/mexican/expansion-and-expulsion/"
+          },
+          {
+            "title": "National Park Service, Latinos in World War II: Fighting on Two Fronts",
+            "url": "https://www.nps.gov/articles/latinoww2.htm"
+          },
+          {
+            "title": "National Archives, Executive Order 8802",
+            "url": "https://www.archives.gov/milestone-documents/executive-order-8802"
+          },
+          {
+            "title": "National Archives, Navajo code talker enlistment",
+            "url": "https://www.archives.gov/education/lessons/code-talkers"
+          },
+          {
+            "title": "National Archives, Executive Order 9066",
+            "url": "https://www.archives.gov/milestone-documents/executive-order-9066"
+          },
+          {
+            "title": "Supreme Court, Korematsu v. United States",
+            "url": "https://www.govinfo.gov/app/details/USREPORTS-323/USREPORTS-323-214"
+          },
+          {
+            "title": "Supreme Court, Ex parte Endo",
+            "url": "https://www.govinfo.gov/app/details/USREPORTS-323/USREPORTS-323-283"
+          }
+        ]
+      }
     },
     "d-day-the-pacific-war-and-allied-victory": {
       "title": "D-Day, the Pacific War, and Allied Victory",
@@ -3442,11 +3582,11 @@
         "Read Eisenhower's June 1944 order as a commander's primary source, then compare it with a verified account from another theater or a civilian perspective. How does the purpose of a pre-invasion message differ from an after-action report? Do not treat D-Day as the sole reason for victory in Europe or the atomic bombs as a single-cause explanation of Japanese surrender."
       ],
       "activity": "D-Day, the Pacific War, and Allied Victory · Historical evidence inquiry",
-      "task": "Construct a careful two-theater conclusion: explain how Allied victory in Europe and the Pacific unfolded differently, name one missing Soviet or Japanese civilian perspective, and avoid reducing the outcomes to one cause.",
+      "task": "Make three short evidence notes. Compare what Normandy and Midway changed. Then weigh two considerations in the U.S. atomic bomb decision and explain why the August timeline allows more than one explanation for Japan’s surrender. Finally, assign the UN, IMF, or World Bank to each problem: monitoring a ceasefire, a shortage of foreign currency for international payments, and financing reconstruction. Explain the choice for each.",
       "investigation": [
         "Read Eisenhower's Order of the Day and identify its audience, date and goals. Distinguish what he asked troops to do from what happened later.",
         "Select a dated original invasion record or Allied account from the National Archives D-Day collection. Compare command intention with subsequent evidence.",
-        "Construct a careful two-theater conclusion: explain how Allied victory in Europe and the Pacific unfolded differently, name one missing Soviet or Japanese civilian perspective, and avoid reducing the outcomes to one cause."
+        "Make three short evidence notes. Compare what Normandy and Midway changed. Then weigh two considerations in the U.S. atomic bomb decision and explain why the August timeline allows more than one explanation for Japan’s surrender. Finally, assign the UN, IMF, or World Bank to each problem: monitoring a ceasefire, a shortage of foreign currency for international payments, and financing reconstruction. Explain the choice for each."
       ],
       "options": [
         "May 8, 1945",
@@ -3520,7 +3660,67 @@
           "summary": "Archival collection with original records and explanatory metadata. Choose a dated item for comparison instead of calling the entire page a primary document.",
           "type": "Primary-source collection with modern catalog"
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.2.4.d and USH.2.4.e and USH.2.4.f",
+        "kind": "content",
+        "page": 13,
+        "objective": "Compare turning points in Europe and the Pacific, weigh factors behind the U.S. decision to use atomic bombs, and assess how postwar institutions pursued security and economic stability.",
+        "prompt": "Make three short evidence notes. Compare what Normandy and Midway changed. Then weigh two considerations in the U.S. atomic bomb decision and explain why the August timeline allows more than one explanation for Japan’s surrender. Finally, assign the UN, IMF, or World Bank to each problem: monitoring a ceasefire, a shortage of foreign currency for international payments, and financing reconstruction. Explain the choice for each.",
+        "criteria": "Explain what each military turning point enabled, distinguish U.S. officials’ reasons from evidence of Japan’s surrender, and give a distinct purpose for each postwar institution.",
+        "readingTitle": "Military turning points, surrender, and postwar cooperation",
+        "reading": [
+          "Normandy gave the Western Allies a foothold in occupied France in June 1944. It opened a major western front as Soviet forces also pressed Germany from the east. In the Pacific, the U.S. victory at Midway in June 1942 cost Japan four aircraft carriers and checked its expansion. The two battles changed the Allies’ ability to move forward in different theaters. Neither battle ended the war.",
+          "In 1945 U.S. officials weighed the prospect of a costly invasion, the pressure of blockade and conventional bombing, how surrender terms might be received, and the prospect of Soviet entry. U.S. atomic bombing killed large numbers of civilians in Hiroshima and Nagasaki. The Soviet Union declared war on Japan between the two bombings. Japan announced its surrender soon afterward. The sequence lets historians compare explanations, but timing alone cannot measure the weight Japanese decision-makers gave each event.",
+          "Planning for peace began before the war ended. The United Nations Charter established a framework for collective security and cooperation. At Bretton Woods, governments agreed on the IMF to support monetary stability and help countries facing international payment difficulties. They also designed the International Bank for Reconstruction and Development, the original World Bank institution, to finance reconstruction and development. Early examples include UN truce observers in 1948 and the World Bank’s reconstruction loan to France in 1947. Each institution addressed a different problem, so its results require different evidence."
+        ],
+        "sources": [
+          {
+            "title": "National Archives, Eisenhower’s D-Day Order of the Day",
+            "url": "https://www.archives.gov/milestone-documents/general-eisenhowers-order-of-the-day"
+          },
+          {
+            "title": "United States Holocaust Memorial Museum, map of the defeat of Nazi Germany",
+            "url": "https://encyclopedia.ushmm.org/content/en/map/defeat-of-nazi-germany-1942-1945"
+          },
+          {
+            "title": "U.S. Navy museum, the Battle of Midway",
+            "url": "https://www.history.navy.mil/content/history/museums/nnam/explore/exhibits/permanent-exhibits/west-wing/battle-of-midway-exhibit.html"
+          },
+          {
+            "title": "Truman Presidential Library, records on the decision to use atomic bombs",
+            "url": "https://www.trumanlibrary.gov/education/presidential-inquiries/decision-drop-atomic-bomb"
+          },
+          {
+            "title": "August 8, 1945 diplomatic record on Soviet entry",
+            "url": "https://history.state.gov/historicaldocuments/frus1945v06/d402"
+          },
+          {
+            "title": "UN Charter, Article 1",
+            "url": "https://www.un.org/en/about-us/un-charter/chapter-1"
+          },
+          {
+            "title": "UN Peacekeeping, early missions",
+            "url": "https://peacekeeping.un.org/en/our-history"
+          },
+          {
+            "title": "IMF Articles of Agreement, Article I",
+            "url": "https://www.imf.org/en/publications/ft/aa/index"
+          },
+          {
+            "title": "World Bank IBRD Articles of Agreement, Article I",
+            "url": "https://www.worldbank.org/en/about/articles-of-agreement/ibrd-articles-of-agreement/article-I"
+          },
+          {
+            "title": "World Bank records of the 1947 France loan",
+            "url": "https://www.worldbank.org/en/archive/history/exhibits/Digitized-Records-World-Bank-First-Loan"
+          },
+          {
+            "title": "Office of the Historian, Bretton Woods",
+            "url": "https://history.state.gov/milestones/1937-1945/bretton-woods"
+          }
+        ]
+      }
     },
     "origins-of-the-cold-war": {
       "title": "Origins of the Cold War",
