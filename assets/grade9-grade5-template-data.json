@@ -4274,11 +4274,11 @@
         "Read portions of the majority opinion and Harlan's dissent. What legal reasoning did the justices offer, and whose experiences did their arguments omit? Place the decision beside a dated Black-authored account or local challenge. Explain how an authoritative court judgment can shape law without establishing that its underlying social assumptions were true."
       ],
       "activity": "Segregation and the Fight for Equality · Civil rights evidence investigation",
-      "task": "Explain how segregation was defended by law and challenged by Black communities. Use two attributed original records and name one missing local perspective.",
+      "task": "Use Plessy and Griffin to distinguish a state law requiring segregation from a county decision that resisted desegregation. Explain what Prince Edward County did to school funding and who could use the private alternative. Identify one action the Supreme Court ruled a federal court could take.",
       "investigation": [
         "Read the 1896 majority opinion and Harlan dissent. Identify what legal question each addressed and one key difference in constitutional reasoning.",
         "Choose and identify a dated NAACP primary item from the Library of Congress exhibition. State its author, intended audience, and connection to organized resistance.",
-        "Explain how segregation was defended by law and challenged by Black communities. Use two attributed original records and name one missing local perspective."
+        "Use Plessy and Griffin to distinguish a state law requiring segregation from a county decision that resisted desegregation. Explain what Prince Edward County did to school funding and who could use the private alternative. Identify one action the Supreme Court ruled a federal court could take."
       ],
       "options": [
         "1909",
@@ -4346,7 +4346,7 @@
           "creator": "Supreme Court of the United States; Justice Henry Billings Brown and Justice John Marshall Harlan",
           "date": "May 18, 1896",
           "type": "Primary",
-          "url": "https://www.archives.gov/milestone-documents/plessy-v-ferguson",
+          "url": "https://www.govinfo.gov/content/pkg/USREPORTS-163/pdf/USREPORTS-163-537.pdf",
           "summary": "Original court decision and dissent. The majority upheld racial segregation; do not adopt its discriminatory reasoning as fact."
         },
         {
@@ -4357,7 +4357,34 @@
           "url": "https://www.loc.gov/exhibits/naacp/",
           "summary": "Curated archival exhibition includes original organizational documents; select and cite a specific item for any documentary claim."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.3.3.l",
+        "kind": "content",
+        "page": 16,
+        "objective": "Explain how state and local officials used public policy to resist desegregation and how courts responded.",
+        "prompt": "Use Plessy and Griffin to distinguish a state law requiring segregation from a county decision that resisted desegregation. Explain what Prince Edward County did to school funding and who could use the private alternative. Identify one action the Supreme Court ruled a federal court could take.",
+        "criteria": "Identify the state and local actions, explain their effects on school access, and distinguish the county’s actions from the federal court response.",
+        "readingTitle": "How local officials resisted school desegregation",
+        "reading": [
+          "In Plessy v. Ferguson, the Supreme Court upheld Louisiana’s law requiring separate railroad cars by race. After Brown rejected state-required public school segregation, some local officials used different methods to preserve racial separation. In 1959 the supervisors of Prince Edward County, Virginia, refused to fund public schools rather than desegregate them. White families had access to a private segregated school supported through tuition grants and tax benefits. Black students lost access to regular public schooling in the county.",
+          "The Supreme Court ruled in Griffin in 1964 that the county could not use school closure to deny equal protection while public schools operated elsewhere in Virginia. The opinion allowed a federal court to require local officials to raise enough funds to reopen and operate the public schools if needed. Compare the power to pass a state segregation law, the power to withhold local funds, and the power of a federal court to enforce constitutional rights."
+        ],
+        "sources": [
+          {
+            "title": "Plessy v. Ferguson, opinion and dissent, 163 U.S. 537",
+            "url": "https://www.govinfo.gov/content/pkg/USREPORTS-163/pdf/USREPORTS-163-537.pdf"
+          },
+          {
+            "title": "Griffin v. County School Board, 377 U.S. 218, opinion",
+            "url": "https://www.govinfo.gov/content/pkg/USREPORTS-377/pdf/USREPORTS-377-218.pdf"
+          },
+          {
+            "title": "National Archives, Brown v. Board of Education",
+            "url": "https://www.archives.gov/milestone-documents/brown-v-board-of-education"
+          }
+        ]
+      }
     },
     "brown-v-board-of-education": {
       "title": "Brown v. Board of Education",
@@ -4445,7 +4472,7 @@
         {
           "title": "Executive Order 10730, Desegregation of Central High School",
           "creator": "President Dwight D. Eisenhower",
-          "date": "September 23, 1957",
+          "date": "September 24, 1957",
           "type": "Primary",
           "url": "https://www.archives.gov/milestone-documents/executive-order-10730",
           "summary": "Federal action in the Little Rock integration crisis; compare enforcement action with the prior court ruling."
@@ -4474,6 +4501,14 @@
           {
             "title": "National Archives · Executive Order 10730 and Little Rock",
             "url": "https://www.archives.gov/milestone-documents/executive-order-10730"
+          },
+          {
+            "title": "National Archives, Mendez case records and teaching guide",
+            "url": "https://www.archives.gov/education/lessons/mendez-case"
+          },
+          {
+            "title": "National Archives, executive order signing dates for 1957",
+            "url": "https://www.archives.gov/federal-register/executive-orders/1957.html"
           }
         ],
         "reading": [
@@ -4496,11 +4531,11 @@
         "Compare Rosa Parks's 1955 arrest record with King's 1963 letter. These sources differ sharply: one is a government record of an arrest, the other a participant's explanation of strategy. What can each establish about the movement? Include the organizing work and risk that the arrest record does not reveal. The story should not end with a single famous speech."
       ],
       "activity": "Martin Luther King Jr. and Nonviolent Resistance · Civil rights evidence investigation",
-      "task": "Explain how law enforcement documentation and activist writing reveal different sides of nonviolent resistance. Name a local organizer or record you would add.",
+      "task": "Compare the Montgomery boycott, Selma voting rights campaign, and Memphis sanitation strike. Name a local organizer or group and describe what each campaign asked people to do. Choose one campaign and explain a documented effect and a limit.",
       "investigation": [
         "Examine the 1955 Rosa Parks arrest record. State who created it and what it reveals or omits about her motives and prior organizing.",
         "Read an educator-selected passage from King's April 1963 Birmingham letter, identifying whom he addressed and why.",
-        "Explain how law enforcement documentation and activist writing reveal different sides of nonviolent resistance. Name a local organizer or record you would add."
+        "Compare the Montgomery boycott, Selma voting rights campaign, and Memphis sanitation strike. Name a local organizer or group and describe what each campaign asked people to do. Choose one campaign and explain a documented effect and a limit."
       ],
       "options": [
         "Boston, Massachusetts",
@@ -4574,7 +4609,42 @@
           "url": "https://kinginstitute.stanford.edu/letter-birmingham-jail",
           "summary": "King's own argument for civil disobedience and direct action. Stanford provides scholarly context; quote or reproduce only within applicable permissions."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.3.3.b",
+        "kind": "content",
+        "page": 16,
+        "objective": "Evaluate how local leadership and collective action challenged unequal access to transportation, voting, and work.",
+        "prompt": "Compare the Montgomery boycott, Selma voting rights campaign, and Memphis sanitation strike. Name a local organizer or group and describe what each campaign asked people to do. Choose one campaign and explain a documented effect and a limit.",
+        "criteria": "Distinguish a boycott, voting rights march, and labor strike. Use the sources to connect each action with a goal and evaluate an outcome without treating one leader as the whole movement.",
+        "readingTitle": "Three forms of collective action",
+        "reading": [
+          "After Rosa Parks’s arrest, Jo Ann Robinson and the Women’s Political Council distributed a leaflet calling for Montgomery residents to stay off buses. Organizers sustained the boycott through rides, fundraising, and local meetings. The boycott put pressure on the transit system. A federal court case, Browder v. Gayle, also challenged the legal basis for segregated buses.",
+          "In Selma, local organizers and national groups campaigned against barriers to voter registration. Marches and the violence against marchers brought national attention to those barriers. In Memphis, Black sanitation workers struck in 1968 over conditions, pay, and recognition of their union. King supported the strike as part of the struggle for economic equality. Memphis eventually agreed to recognize the union and raise pay. Each campaign used a different route to challenge a different barrier."
+        ],
+        "sources": [
+          {
+            "title": "Women’s Political Council, December 1955 boycott leaflet",
+            "url": "https://kinginstitute.stanford.edu/king-papers/documents/dont-ride-bus"
+          },
+          {
+            "title": "King Institute, Browder v. Gayle and the end of segregated Montgomery bus service",
+            "url": "https://kinginstitute.stanford.edu/browder-v-gayle-352-us-903"
+          },
+          {
+            "title": "King Institute, Letter from Birmingham Jail and its context",
+            "url": "https://kinginstitute.stanford.edu/letter-birmingham-jail"
+          },
+          {
+            "title": "King Institute, Selma to Montgomery March",
+            "url": "https://kinginstitute.stanford.edu/selma-montgomery-march"
+          },
+          {
+            "title": "King Institute, Memphis Sanitation Workers’ Strike",
+            "url": "https://kinginstitute.stanford.edu/memphis-sanitation-workers-strike"
+          }
+        ]
+      }
     },
     "malcolm-x-and-competing-strategies": {
       "title": "Malcolm X and Competing Strategies",
@@ -4589,11 +4659,11 @@
         "Examine Malcolm X's surviving 1964 notes and a published speech text. Identify what a working note can tell us about a speaker's preparation and what a later transcript can tell us about public rhetoric. Compare his positions over time rather than treating one quotation as his settled view. Invite students to distinguish voting rights, self-defense, nonviolent direct action, and international human-rights advocacy as different questions."
       ],
       "activity": "Malcolm X and Competing Strategies · Civil rights evidence investigation",
-      "task": "Write a comparison explaining how Malcolm X's strategies and framing could change, noting the sources' dates, formats, audiences, and a question a later 1964 source might answer.",
+      "task": "Explain the political problem Malcolm X identified in his 1964 speech. Then use a photograph and its archive description to evaluate what the Black Panther Party’s Oakland breakfast program accomplished and what evidence would be needed to judge its reach. Distinguish the speaker from the later organization.",
       "investigation": [
         "Examine the New York Public Library's 1964 notes and identify the evidence that they are preparation material rather than a recording of the full speech.",
         "Read a short attributed passage of the Ballot or the Bullet speech and identify its appeal about voting and political power.",
-        "Write a comparison explaining how Malcolm X's strategies and framing could change, noting the sources' dates, formats, audiences, and a question a later 1964 source might answer."
+        "Explain the political problem Malcolm X identified in his 1964 speech. Then use a photograph and its archive description to evaluate what the Black Panther Party’s Oakland breakfast program accomplished and what evidence would be needed to judge its reach. Distinguish the speaker from the later organization."
       ],
       "options": [
         "1965",
@@ -4667,7 +4737,34 @@
           "url": "https://constitutioncenter.org/the-constitution/historic-document-library/detail/the-ballot-or-the-bullet-1964",
           "summary": "Attributed presentation of Malcolm X's speech. Compare language and editorial context with original NYPL notes; avoid reproducing lengthy copyrighted text."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.3.3.d",
+        "kind": "content",
+        "page": 16,
+        "objective": "Compare Malcolm X’s call for political power with a later Black Power community program and evaluate evidence of its results.",
+        "prompt": "Explain the political problem Malcolm X identified in his 1964 speech. Then use a photograph and its archive description to evaluate what the Black Panther Party’s Oakland breakfast program accomplished and what evidence would be needed to judge its reach. Distinguish the speaker from the later organization.",
+        "criteria": "Identify a goal and method for each example. Use the Oakland record to explain a documented outcome and a limit without treating one program as the entire Black Power movement.",
+        "readingTitle": "Political leverage and meeting community needs",
+        "reading": [
+          "In The Ballot or the Bullet, Malcolm X argued that Black voters could use political leverage against leaders who promised equality while tolerating discrimination. He linked political rights in the United States to struggles against colonial rule abroad. His 1964 speech records his argument to an audience. It does not tell us how all listeners responded.",
+          "The Black Panther Party, founded after Malcolm X’s death, pursued its own organizing strategies. In Oakland, its Free Breakfast for School Children Program provided meals for children and drew on local volunteers and partnerships. A photograph in the Oakland Public Library’s collection shows food being served. It is evidence of the program in action. Attendance records or accounts from families would help establish who it reached and how consistently it operated."
+        ],
+        "sources": [
+          {
+            "title": "National Constitution Center, Malcolm X’s 1964 speech",
+            "url": "https://constitutioncenter.org/the-constitution/historic-document-library/detail/the-ballot-or-the-bullet-1964"
+          },
+          {
+            "title": "University of Houston, The Ballot or the Bullet speech transcript",
+            "url": "https://www.digitalhistory.uh.edu/disp_textbook.cfm?psid=3624&smtID=3"
+          },
+          {
+            "title": "Oakland Public Library, Free Breakfast program and archival photograph",
+            "url": "https://oaklandlibrary.org/blogs/post/celebrating-the-60th-anniversary-of-the-black-panther-party-free-breakfast-for-school-children-program/"
+          }
+        ]
+      }
     },
     "the-civil-rights-movement-s-lasting-impact": {
       "title": "The Civil Rights Movement's Lasting Impact",
@@ -4682,11 +4779,11 @@
         "Put the two acts side by side. Find the relevant titles and sections, note the different practices they addressed, and propose what government or community records could test enforcement. A persuasive conclusion can recognize major legal change without pretending that rights automatically became equally accessible to everyone after 1965."
       ],
       "activity": "The Civil Rights Movement's Lasting Impact · Civil rights evidence investigation",
-      "task": "Compare the two statutes and develop an evidence-based claim about legal change versus implementation. Identify dated local registration or employment data needed to measure results.",
+      "task": "Write three evidence notes. First, compare two civil rights protections and use a court case or voter registration data to test an effect. Second, use Medicare or Medicaid to explain how the Great Society expanded the New Deal’s social protections. Third, compare what the 1965 immigration law changed with later census evidence. Explain why a law or a speech cannot by itself prove how people experienced the change.",
       "investigation": [
         "Read the Civil Rights Act of 1964 and identify the protection in one specific title; do not say it and the Voting Rights Act contain identical provisions.",
         "Read the Voting Rights Act of 1965 and identify a discriminatory practice or enforcement mechanism it addressed.",
-        "Compare the two statutes and develop an evidence-based claim about legal change versus implementation. Identify dated local registration or employment data needed to measure results."
+        "Write three evidence notes. First, compare two civil rights protections and use a court case or voter registration data to test an effect. Second, use Medicare or Medicaid to explain how the Great Society expanded the New Deal’s social protections. Third, compare what the 1965 immigration law changed with later census evidence. Explain why a law or a speech cannot by itself prove how people experienced the change."
       ],
       "options": [
         "Sherman Antitrust Act",
@@ -4760,7 +4857,72 @@
           "url": "https://www.archives.gov/milestone-documents/voting-rights-act",
           "summary": "Statute targeted racial restrictions in voting and instituted important federal enforcement powers; passage is not sufficient proof of local compliance."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.3.3.c and USH.3.3.e and USH.3.3.i",
+        "kind": "content",
+        "page": 16,
+        "objective": "Evaluate how federal laws, court decisions, and executive action changed access to voting, employment, public accommodations, health coverage, and immigration.",
+        "prompt": "Write three evidence notes. First, compare two civil rights protections and use a court case or voter registration data to test an effect. Second, use Medicare or Medicaid to explain how the Great Society expanded the New Deal’s social protections. Third, compare what the 1965 immigration law changed with later census evidence. Explain why a law or a speech cannot by itself prove how people experienced the change.",
+        "criteria": "Distinguish the legal tools and identify whom they covered. Cite an implementation measure or a documented outcome. Separate what immigration law changed, what the census measured, and what evidence would establish public attitudes.",
+        "readingTitle": "Legal protections and evidence of their reach",
+        "reading": [
+          "Title II of the Civil Rights Act addressed discrimination in covered public accommodations. In Heart of Atlanta Motel, the Supreme Court upheld Congress’s authority to apply those protections to a motel serving interstate travelers. Title VII established employment protections, and Executive Order 11246 used federal contracting requirements to address employment discrimination.",
+          "The Twenty-fourth Amendment barred poll taxes in federal elections. In Harper the Supreme Court struck down Virginia’s poll tax in state elections. The Voting Rights Act added federal enforcement in jurisdictions with histories of exclusion. The Library of Congress reports that Black adult voter registration in the South rose from about 35 percent in 1964 to nearly 65 percent in 1969. Registration is a measure of access. It cannot tell us who voted or whether barriers ended everywhere.",
+          "The Great Society built on Social Security by adding Medicare for older people and Medicaid through federal and state cooperation for eligible people with low incomes. Medicare began serving more than 19 million people in 1966. Enrollment shows how many people the program reached. It does not measure the program’s effect on poverty or tell us whether everyone could see a doctor.",
+          "The Immigration and Nationality Act amendments of 1965 replaced the national-origins quota system and gave preference to categories including relatives and certain workers. President Johnson predicted the changes would have limited effects on everyday life. Census records show that the foreign-born population from Asia and Latin America grew over the following decades. The law helps explain the policy shift. Migration also depended on conditions abroad and other U.S. policies, and census counts cannot show what Americans thought about the change."
+        ],
+        "sources": [
+          {
+            "title": "Civil Rights Act of 1964, Titles II and VII",
+            "url": "https://www.archives.gov/milestone-documents/civil-rights-act"
+          },
+          {
+            "title": "Heart of Atlanta Motel v. United States, 379 U.S. 241",
+            "url": "https://www.govinfo.gov/content/pkg/USREPORTS-379/pdf/USREPORTS-379-241.pdf"
+          },
+          {
+            "title": "Executive Order 11246, federal employment and contracting provisions",
+            "url": "https://www.archives.gov/federal-register/codification/executive-order/11246.html"
+          },
+          {
+            "title": "National Archives, Twenty-fourth Amendment",
+            "url": "https://www.archives.gov/founding-docs/amendments-11-27"
+          },
+          {
+            "title": "Harper v. Virginia Board of Elections, 383 U.S. 663",
+            "url": "https://www.govinfo.gov/content/pkg/USREPORTS-383/pdf/USREPORTS-383-663.pdf"
+          },
+          {
+            "title": "Voting Rights Act of 1965",
+            "url": "https://www.archives.gov/milestone-documents/voting-rights-act"
+          },
+          {
+            "title": "Library of Congress, registration before and after the Voting Rights Act",
+            "url": "https://www.loc.gov/exhibits/civil-rights-act/immediate-impact.html"
+          },
+          {
+            "title": "Medicare and Medicaid Act of 1965",
+            "url": "https://www.archives.gov/milestone-documents/medicare-and-medicaid-act"
+          },
+          {
+            "title": "Centers for Medicare & Medicaid Services, 1966 implementation and enrollment",
+            "url": "https://www.cms.gov/sites/default/files/repo-new/35/05-06Winpg1.pdf"
+          },
+          {
+            "title": "1965 Immigration and Nationality Act amendments, 79 Stat. 911",
+            "url": "https://www.govinfo.gov/content/pkg/STATUTE-79/pdf/STATUTE-79-Pg911.pdf"
+          },
+          {
+            "title": "President Johnson’s remarks at the signing, October 3, 1965",
+            "url": "https://lbjlibrary.org/object/text/remarks-signing-immigration-bill-liberty-island-new-york-10-03-1965"
+          },
+          {
+            "title": "U.S. Census Bureau, Profile of the Foreign-Born Population in the United States",
+            "url": "https://www.census.gov/content/dam/Census/library/publications/2001/demo/p23-206.pdf"
+          }
+        ]
+      }
     },
     "watergate-and-public-trust": {
       "title": "Watergate and Public Trust",

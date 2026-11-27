@@ -1585,31 +1585,31 @@
           "slug": "segregation-and-the-fight-for-equality",
           "title": "Segregation and the Fight for Equality",
           "essential": "How did Black Americans resist Jim Crow before nationally famous victories?",
-          "task": "Write a claim about Segregation and the Fight for Equality with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Use Plessy and Griffin to distinguish a state law requiring segregation from a county decision that resisted desegregation. Explain what Prince Edward County did to school funding and who could use the private alternative. Identify one action the Supreme Court ruled a federal court could take."
         },
         {
           "slug": "brown-v-board-of-education",
           "title": "Brown v. Board of Education",
           "essential": "Why was Brown v. Board a turning point yet not an immediate end to segregation?",
-          "task": "Write a claim about Brown v. Board of Education with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Compare Mendez and Brown. For each case, explain what the court decided, one near-term change or obstacle, and one longer-term effect on educational access. Use the court or archive records to support the comparison. Explain why a ruling can change the law before students see the change in their school."
         },
         {
           "slug": "martin-luther-king-jr-and-nonviolent-resistance",
           "title": "Martin Luther King Jr. and Nonviolent Resistance",
           "essential": "How did organized nonviolent action produce political pressure?",
-          "task": "Write a claim about Martin Luther King Jr. and Nonviolent Resistance with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Compare the Montgomery boycott, Selma voting rights campaign, and Memphis sanitation strike. Name a local organizer or group and describe what each campaign asked people to do. Choose one campaign and explain a documented effect and a limit."
         },
         {
           "slug": "malcolm-x-and-competing-strategies",
           "title": "Malcolm X and Competing Strategies",
           "essential": "How did Malcolm X's evolving ideas broaden debates about civil rights and Black freedom?",
-          "task": "Write a claim about Malcolm X and Competing Strategies with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Explain the political problem Malcolm X identified in his 1964 speech. Then use a photograph and its archive description to evaluate what the Black Panther Party’s Oakland breakfast program accomplished and what evidence would be needed to judge its reach. Distinguish the speaker from the later organization."
         },
         {
           "slug": "the-civil-rights-movement-s-lasting-impact",
           "title": "The Civil Rights Movement's Lasting Impact",
           "essential": "What did major civil rights laws accomplish, and which struggles continued?",
-          "task": "Write a claim about The Civil Rights Movement's Lasting Impact with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Write three evidence notes. First, compare two civil rights protections and use a court case or voter registration data to test an effect. Second, use Medicare or Medicaid to explain how the Great Society expanded the New Deal’s social protections. Third, compare what the 1965 immigration law changed with later census evidence. Explain why a law or a speech cannot by itself prove how people experienced the change."
         }
       ],
       "sources": [
@@ -1656,15 +1656,15 @@
           "lessonContext": "Martin Luther King Jr. and many local activists organized boycotts, marches, and campaigns to confront segregation. The Montgomery bus boycott of 1955–1956 depended on sustained participation by Black residents and organizers including women whose work is sometimes overlooked. Montgomery's boycott drew on local networks, fundraising, transportation alternatives, and sustained commitment. Rosa Parks and other women activists were part of a much wider organizing history. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
         },
         {
-          "label": "Document D · Additional interpretation",
-          "title": "The Civil Rights Movement's Lasting Impact",
-          "creator": "Examine the Past curriculum editors",
-          "date": "2026 instructional summary",
-          "url": "../the-civil-rights-movement-s-lasting-impact/",
-          "sourceUrl": "../the-civil-rights-movement-s-lasting-impact/",
-          "sourceType": "Secondary source: lesson interpretation, NOT primary evidence",
-          "excerpt": "The Civil Rights Act of 1964 prohibited specified forms of discrimination, while the Voting Rights Act of 1965 addressed racial barriers to voting. Grassroots organizers, lawyers, local communities, and national coalitions helped secure these changes. Civil rights legislation emerged from sustained pressure by local organizers, litigators, religious institutions, and national coalitions. Passage and enforcement involved political bargaining and continued challenges. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-          "limitation": "This is a modern instructional interpretation, not an original primary document. Use it for context; investigate originals for source-based claims.",
+          "label": "Document D · Voting rights in practice",
+          "title": "Immediate Impact of the Civil Rights Act",
+          "creator": "Library of Congress",
+          "date": "Retrospective exhibition with 1964–1969 registration figures",
+          "url": "https://www.loc.gov/exhibits/civil-rights-act/immediate-impact.html",
+          "sourceUrl": "https://www.loc.gov/exhibits/civil-rights-act/immediate-impact.html",
+          "sourceType": "Secondary source: archival exhibition",
+          "excerpt": "The exhibition describes federal voting protections and reports that the share of Black adults registered to vote in the South rose from about 35 percent in 1964 to nearly 65 percent in 1969.",
+          "limitation": "Regional registration figures can show changing access. They do not measure turnout or establish the experience of every county.",
           "documentExcerpt": ""
         }
       ],
@@ -1680,14 +1680,14 @@
           "explain": "Legal change and institutional change can differ."
         },
         {
-          "prompt": "What is the strongest way to evaluate civil rights movement strategies beyond prominent speeches?",
+          "prompt": "Which comparison correctly identifies the goals of the Montgomery boycott and the Memphis sanitation strike?",
           "choices": [
-            "Assume national leaders acted without support from local communities",
-            "Rely on one retrospective biography without context",
-            "Compare local organizing records, boycotts, legal cases and firsthand testimony"
+            "Both challenged the closure of public schools.",
+            "Montgomery workers sought a federal voting law while Memphis workers challenged bus segregation.",
+            "Montgomery organizers challenged segregated transit, while Memphis workers sought fair pay and union recognition."
           ],
           "answer": 2,
-          "explain": "Movement history depends on distributed organizers and multiple kinds of evidence."
+          "explain": "The campaigns used collective action to address different forms of exclusion."
         },
         {
           "prompt": "Which is an unsupported conclusion from the Civil Rights Act alone?",
@@ -1710,24 +1710,24 @@
           "explain": "The laws addressed distinct but related issues."
         },
         {
-          "prompt": "How could a researcher investigate Malcolm X's changing perspectives?",
+          "prompt": "What can the Oakland breakfast-program photograph help establish about the Black Panther Party?",
           "choices": [
-            "Treat one early statement as his permanently fixed views",
-            "Infer beliefs from others' reactions without reading his words",
-            "Compare speeches and interviews from different years in historical context"
+            "It shows that all Black Power groups used the same strategy.",
+            "It measures how many children the program reached across the country.",
+            "It documents one example of organizers meeting a material need in their community."
           ],
           "answer": 2,
-          "explain": "Intellectual change requires chronological evidence."
+          "explain": "One photograph shows the program in action. Attendance records would help measure its reach."
         },
         {
-          "prompt": "What does the evidence suggest about legal victories and continuing civic movements?",
+          "prompt": "Which inference is supported by the voter registration figures in Document D?",
           "choices": [
-            "Rights expanded through law and activism, but enforcement and broader inequalities remained contested",
-            "Legal victories ended the need for any further organizing",
-            "National laws erased all local differences in enforcement"
+            "Registration increased across the region, but the figures alone cannot show turnout or differences among counties.",
+            "The increase means that every person who registered cast a ballot.",
+            "The figures establish that changes in registration were identical nationwide."
           ],
           "answer": 0,
-          "explain": "Historic change involved achievements and continued struggles."
+          "explain": "Registration counts and turnout measure different outcomes, and regional trends can conceal local differences."
         }
       ],
       "matchingOptions": [
@@ -1761,21 +1761,21 @@
         2
       ],
       "conclusions": [
-        "Document A records a position or record from 1954, but it needs context to support claims about historical effects.",
-        "The Brown decision and Voting Rights Act immediately eliminated segregation and voting discrimination throughout the nation.",
-        "Documents B and C can help historians compare how evidence, policy and experience relate to civil rights and social change."
+        "The Brown opinion establishes a constitutional rule. Local evidence, such as the Griffin case, is needed to show how communities responded.",
+        "Brown and the Voting Rights Act immediately eliminated segregation and voting discrimination throughout the United States.",
+        "The Voting Rights Act and the registration figures together show a change in federal enforcement and an increase in registration."
       ],
       "conclusionKey": [
         true,
         false,
         true
       ],
-      "writing": "How far did legal victories change civil rights, and why did activism continue? Construct a qualified historical argument using at least three specific facts supported by two original records from this unit and one other kind of evidence (such as testimony, a map, statistics, or a carefully attributed secondary interpretation). Explain each source's date and perspective, compare experiences of affected communities, discuss at least one limitation, and address a plausible counterargument.",
-      "challenge": "Create a museum exhibit or document-based investigation responding to: How far did legal victories change civil rights, and why did activism continue? Use four attributed sources, a chronological visualization, two perspectives, an evidence limitation and a defended curator thesis.",
-      "standards": "Maryland 2025 High School United States History Framework; historical inquiry and relevant unit content. Exact indicator crosswalk pending.",
-      "framework": "https://msde.maryland.gov/media/17926",
-      "sourceAudit": "Original documents linked to the National Archives, Library of Congress, presidential libraries, or National September 11 Memorial; source cards contain instructional summaries, not verbatim transcriptions. Verify original collection item, creator, and date before citing.",
-      "sampleAnswer": "The question raised in Civil Rights and Social Change is: How far did legal victories change civil rights, and why did activism continue? The evidence suggests that decisions and events changed institutions and opportunities, but the results differed among people and places. A defensible argument requires attention to whom a policy or movement affected, not only its supporters' intentions.\n\nDocument A (Brown v. Board of Education, 1954) provides one perspective: The ruling held school segregation unconstitutional; the decision does not itself prove immediate, full desegregation everywhere. Document B (Civil Rights Act, 1964) adds another: The law prohibited specified discrimination; impact depended on enforcement, local resistance and later interpretations. These records identify choices or experiences, but their authors and purposes must be considered before treating them as complete accounts.\n\nDocument C (Voting Rights Act, 1965) supplies further evidence: The act addressed racial discrimination in voting; legal change requires comparison with registration and participation evidence. A historian should test these records against different evidence such as the observations of affected communities, independent statistics, archaeological evidence when relevant, and the unit's contextual lesson reading. The sources do not necessarily measure results by themselves.\n\nA reasonable counterargument might emphasize the benefits or stated goals of these developments. Those claims deserve evaluation, but they do not eliminate unintended consequences, unequal impacts or limits of the evidence. I would therefore defend a qualified conclusion and explain which further sources might change it."
+      "writing": "How did organizing and enforcement turn a legal promise into a practical change? Compare two examples involving schools, public accommodations, jobs, or voting. Use two primary records and one corroborating source. Explain one documented outcome and one barrier that remained. Address a plausible counterargument and identify evidence that would help test it.",
+      "challenge": "Compare the 1965 Medicare and Medicaid law with the 1965 immigration amendments. Choose one measure that would help evaluate each law and explain what that measure would leave unanswered.",
+      "standards": "Maryland High School United States History Framework (June 2025), USH.3.3.a–e, i and l, with selected cases. Lesson exit tickets also cover Great Society programs and immigration.",
+      "framework": "https://msde.maryland.gov/media/17926#page=16",
+      "sourceAudit": "Documents A–C establish rulings or legal requirements. Document D supplies a registration measure. Consult lesson sources for local implementation and organizer perspectives.",
+      "sampleAnswer": "Brown changed the constitutional rule for public education, but local officials could still obstruct integration. In Prince Edward County, the board refused to fund public schools. The Griffin decision describes that response and explains how federal courts could require steps toward reopening. A ruling offered a legal remedy, while families experienced years of lost or interrupted schooling.\n\nThe Voting Rights Act used federal enforcement to address voting barriers. The Library of Congress reports a rise in Black adult registration in the South from about 35 percent in 1964 to nearly 65 percent in 1969. Someone might argue that the increase proves access was equal by 1969. Registration measures one step. County-level voting records and testimony from people attempting to register would help evaluate that claim."
     },
     "9.10": {
       "id": "9.10",
