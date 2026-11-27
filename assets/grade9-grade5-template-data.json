@@ -4937,11 +4937,11 @@
         "Read the Court's 1974 decision and identify exactly what evidence it ordered produced. Then inspect the National Archives' collection of presidential recordings and choose one dated record. How did a legal ruling and an actual recorded conversation play different roles in establishing what happened? Judge public trust through documented actions rather than assuming a president's resignation proves every allegation ever made."
       ],
       "activity": "Watergate and Public Trust · Evidence investigation",
-      "task": "Explain how courts, investigators, and the political process constrained executive power, distinguishing the court's order from Nixon's August 9 resignation.",
+      "task": "Build a short chain linking the break-in, the dispute over the tapes, the Supreme Court ruling, and Nixon’s resignation. Compare one reform connected to Vietnam with one connected to Watergate-era accountability. Use the trust survey to explain what declined and why the survey alone cannot identify a single cause.",
       "investigation": [
         "Read United States v. Nixon and identify the Court's holding about the subpoena and executive confidentiality.",
         "Find a specific dated presidential recording or associated record in the National Archives guide. Identify the speaker, recording date, and what can actually be established.",
-        "Explain how courts, investigators, and the political process constrained executive power, distinguishing the court's order from Nixon's August 9 resignation."
+        "Build a short chain linking the break-in, the dispute over the tapes, the Supreme Court ruling, and Nixon’s resignation. Compare one reform connected to Vietnam with one connected to Watergate-era accountability. Use the trust survey to explain what declined and why the survey alone cannot identify a single cause."
       ],
       "options": [
         "1974",
@@ -5004,18 +5004,53 @@
           "creator": "Supreme Court of the United States",
           "date": "July 24, 1974",
           "type": "Primary",
-          "url": "https://supreme.justia.com/cases/federal/us/418/683/",
+          "url": "https://www.govinfo.gov/content/pkg/USREPORTS-418/pdf/USREPORTS-418-683.pdf",
           "summary": "Transcription of the Court's ruling requiring compliance with a subpoena for presidential tapes; judicial decision, not a complete history of the scandal."
         },
         {
-          "title": "Records on Presidential Tapes",
+          "title": "Watergate trial exhibit 1: June 23, 1972 recording transcript",
           "creator": "National Archives",
           "date": "1972–1974 original records; modern research page",
           "type": "Primary records within archival collection",
-          "url": "https://www.archives.gov/research/investigations/watergate/presidential-tape-recordings.html",
-          "summary": "Archival guide to tape records and investigation documents; choose and date a specific tape for analysis."
+          "url": "https://www.nixonlibrary.gov/sites/default/files/forresearchers/find/tapes/watergate/trial/exhibit_01.pdf",
+          "summary": "A dated transcript of Nixon and Haldeman’s Oval Office conversation. The conversation provides evidence about the proposed response to the investigation."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.3.4.c and USH.3.4.e",
+        "kind": "content",
+        "page": 17,
+        "objective": "Explain how Watergate became a constitutional crisis and compare reforms associated with Vietnam and Watergate.",
+        "prompt": "Build a short chain linking the break-in, the dispute over the tapes, the Supreme Court ruling, and Nixon’s resignation. Compare one reform connected to Vietnam with one connected to Watergate-era accountability. Use the trust survey to explain what declined and why the survey alone cannot identify a single cause.",
+        "criteria": "Distinguish a recording from the ruling that required its release. Identify what each reform tried to change. Use a dated survey comparison without turning it into proof of causation.",
+        "readingTitle": "Executive power, evidence, and accountability",
+        "reading": [
+          "The Watergate investigation reached the White House when prosecutors sought recordings for a criminal trial. In United States v. Nixon, the Supreme Court recognized an interest in confidential presidential communications but held that a general claim of confidentiality could not defeat the specific need for evidence in the case. The June 23, 1972 recording documents Nixon and Haldeman discussing a plan to limit the FBI inquiry. Its release in August 1974 eroded Nixon’s remaining support in Congress. He resigned before the full House voted on impeachment.",
+          "The Vietnam War and Watergate raised different questions about presidential power. Congress passed the War Powers Resolution over Nixon’s veto in 1973 to require consultation and reporting and to limit certain military commitments without congressional authorization. Later, the Ethics in Government Act of 1978 required financial disclosures from specified federal officials. In national election surveys, trust in the federal government fell from 77 percent in 1964 to 36 percent in 1974. The same decade included Vietnam, Watergate, and economic strain. The survey records the decline without assigning a share to each cause."
+        ],
+        "sources": [
+          {
+            "title": "United States v. Nixon, 418 U.S. 683, opinion at 706–713",
+            "url": "https://www.govinfo.gov/content/pkg/USREPORTS-418/pdf/USREPORTS-418-683.pdf"
+          },
+          {
+            "title": "Nixon Library, June 23, 1972 tape transcript, trial exhibit 1",
+            "url": "https://www.nixonlibrary.gov/sites/default/files/forresearchers/find/tapes/watergate/trial/exhibit_01.pdf"
+          },
+          {
+            "title": "War Powers Resolution as enacted, sections 2–5",
+            "url": "https://www.govinfo.gov/content/pkg/STATUTE-87/pdf/STATUTE-87-Pg555.pdf"
+          },
+          {
+            "title": "Ethics in Government Act as enacted, Title I",
+            "url": "https://www.govinfo.gov/content/pkg/STATUTE-92/pdf/STATUTE-92-Pg1824.pdf"
+          },
+          {
+            "title": "Pew Research Center, historical federal trust survey results",
+            "url": "https://www.pewresearch.org/politics/2015/11/23/1-trust-in-government-1958-2015/"
+          }
+        ]
+      }
     },
     "the-reagan-era": {
       "title": "The Reagan Era",
@@ -5030,11 +5065,11 @@
         "Read the 1981 address alongside the actual tax legislation. Identify an asserted benefit, then locate the legal provision intended to achieve it. To test the outcome, students would need comparable economic data over multiple years and explanations of Federal Reserve monetary policy and wider conditions. Avoid treating agreement or disagreement with Reagan as a substitute for economic evidence."
       ],
       "activity": "The Reagan Era · Evidence investigation",
-      "task": "Explain how to evaluate the effects of 1980s economic policy without assigning every improvement or problem to a single leader.",
+      "task": "Explain how a tax revolt and one issue important to religious conservatives brought people into the New Right. Then compare the 1981 tax law’s stated strategy with two budget or employment figures from different years. Use the Federal Reserve history to explain why tax policy cannot explain the whole economic record.",
       "investigation": [
         "Read Reagan's September 1981 address and identify one promised economic effect and its intended audience.",
         "Examine a selected provision of Public Law 97-34 to distinguish an enacted tax change from a campaign claim.",
-        "Explain how to evaluate the effects of 1980s economic policy without assigning every improvement or problem to a single leader."
+        "Explain how a tax revolt and one issue important to religious conservatives brought people into the New Right. Then compare the 1981 tax law’s stated strategy with two budget or employment figures from different years. Use the Federal Reserve history to explain why tax policy cannot explain the whole economic record."
       ],
       "options": [
         "1993",
@@ -5108,7 +5143,51 @@
           "url": "https://www.govinfo.gov/content/pkg/STATUTE-95/pdf/STATUTE-95-Pg172.pdf",
           "summary": "Enacted tax-law text in Statutes at Large; distinguish legal changes from later employment, inflation and deficit outcomes."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.4.4.a and USH.4.4.b",
+        "kind": "content",
+        "page": 20,
+        "objective": "Explain how tax and social issues helped build the New Right, and evaluate Reagan-era economic policy using historical data.",
+        "prompt": "Explain how a tax revolt and one issue important to religious conservatives brought people into the New Right. Then compare the 1981 tax law’s stated strategy with two budget or employment figures from different years. Use the Federal Reserve history to explain why tax policy cannot explain the whole economic record.",
+        "criteria": "Use named evidence for two strands of the coalition, distinguish tax and spending decisions from monetary policy, and explain what budget or labor data can and cannot establish.",
+        "readingTitle": "A political coalition and an uneven economic record",
+        "reading": [
+          "California’s 1978 Proposition 13 cut property taxes and became a visible example of the tax revolt. Religious conservative leaders helped mobilize voters around issues such as opposition to abortion and the Equal Rights Amendment. Reagan drew on that coalition. At a 1980 gathering of religious conservatives in Dallas, he spoke about traditional values. The tax vote and the speech show different reasons people supported the New Right.",
+          "The 1981 tax law phased in reductions in individual income tax rates. Supporters argued lower tax rates would encourage work and investment. The federal budget deficit rose from about $79 billion in fiscal year 1981 to about $221 billion in 1986. The figures show that outlays exceeded receipts by more in 1986. Tax changes, spending decisions, and the recession all influenced the result. The Federal Reserve’s high-interest-rate policy also helped slow inflation while contributing to rising unemployment in the early 1980s.",
+          "The administration’s response to the 1981 air traffic controllers’ strike shows a separate shift in federal labor policy. Reagan ordered employees who had struck to return to work or face dismissal. Compare what the president said about the strike with what the tax statute did. The examples help distinguish changes in taxes, the federal budget, and labor relations."
+        ],
+        "sources": [
+          {
+            "title": "California State Board of Equalization, the 1978 tax revolt",
+            "url": "https://boe.ca.gov/info/pub216/index.htm"
+          },
+          {
+            "title": "Reagan’s August 1980 address to the National Affairs Briefing",
+            "url": "https://www.reaganlibrary.gov/public/2024-02/40-656-7386407-437-009-2023.pdf"
+          },
+          {
+            "title": "Republican Party platform of 1980, sections on equal rights and abortion",
+            "url": "https://www.reaganlibrary.gov/public/digitallibrary/smof/policydev/barr/box-015/40-035-21969590-015-002-2018.pdf"
+          },
+          {
+            "title": "Economic Recovery Tax Act, section 101",
+            "url": "https://www.govinfo.gov/content/pkg/STATUTE-95/pdf/STATUTE-95-Pg172.pdf"
+          },
+          {
+            "title": "Federal budget receipts and outlays, fiscal years 1981 and 1986",
+            "url": "https://www.presidency.ucsb.edu/statistics/data/federal-budget-receipts-and-outlays"
+          },
+          {
+            "title": "Federal Reserve History, recession of 1981–82",
+            "url": "https://www.federalreservehistory.org/essays/recession-of-1981-82"
+          },
+          {
+            "title": "Reagan’s August 3, 1981 statement on the air traffic controllers’ strike",
+            "url": "https://www.reaganlibrary.gov/archives/speech/remarks-and-question-and-answer-session-reporters-air-traffic-controllers-strike"
+          }
+        ]
+      }
     },
     "the-end-of-the-cold-war": {
       "title": "The End of the Cold War",
@@ -5123,11 +5202,11 @@
         "Compare the State Department's separate histories of the 1989 Eastern European upheavals and 1991 Soviet collapse. Make a timeline showing which societies changed first, then ask for original material from an East German protester or Soviet reformer. The official U.S. narrative is a useful retrospective synthesis but not the only national perspective."
       ],
       "activity": "The End of the Cold War · Evidence investigation",
-      "task": "Write a multi-causal explanation featuring citizens and leaders inside Eastern Europe and the USSR. Identify an original non-U.S. document required to test the account.",
+      "task": "Make three evidence notes. Explain what Iran-Contra investigators examined about aid to the Nicaraguan Contras. Compare what the INF Treaty accomplished with why the Berlin Wall opened. Then identify why the 1991 coalition intervened in Kuwait and what its military campaign achieved.",
       "investigation": [
         "Using the 1989 chronology, identify political developments in two distinct Eastern European countries and the role of local movements.",
         "Using the 1991 history, explain why Soviet dissolution was a separate event from the opening of the Berlin Wall.",
-        "Write a multi-causal explanation featuring citizens and leaders inside Eastern Europe and the USSR. Identify an original non-U.S. document required to test the account."
+        "Make three evidence notes. Explain what Iran-Contra investigators examined about aid to the Nicaraguan Contras. Compare what the INF Treaty accomplished with why the Berlin Wall opened. Then identify why the 1991 coalition intervened in Kuwait and what its military campaign achieved."
       ],
       "options": [
         "1945",
@@ -5201,7 +5280,51 @@
           "url": "https://history.state.gov/milestones/1989-1992/collapse-soviet-union",
           "summary": "Secondary synthesis of late Soviet reforms, nationalist movements and dissolution; students still need independently dated original East European and Soviet records."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.4.5.a and USH.4.5.b and USH.4.5.c",
+        "kind": "content",
+        "page": 20,
+        "objective": "Compare congressional oversight of U.S. intervention in Nicaragua, U.S.–Soviet arms diplomacy, and the coalition response to Iraq’s invasion of Kuwait.",
+        "prompt": "Make three evidence notes. Explain what Iran-Contra investigators examined about aid to the Nicaraguan Contras. Compare what the INF Treaty accomplished with why the Berlin Wall opened. Then identify why the 1991 coalition intervened in Kuwait and what its military campaign achieved.",
+        "criteria": "Distinguish covert action, a negotiated treaty, and a coalition response. Cite one record for each and explain a limit of using a U.S. document to explain decisions overseas.",
+        "readingTitle": "Oversight, negotiated change, and coalition action",
+        "reading": [
+          "The Iran-Contra investigation examined arms sales to Iran and the diversion of proceeds to aid the Contras fighting Nicaragua’s government. Members of Congress investigated how officials pursued foreign policy while Congress had restricted aid to the Contras. Reagan addressed the controversy in 1987. His account shows how he publicly explained the policy. The congressional record helps distinguish that explanation from evidence gathered by investigators.",
+          "In December 1987 Reagan and Gorbachev signed the Intermediate-Range Nuclear Forces Treaty. It required eliminating specified missiles and included verification provisions. The German people’s protests and East German decisions had a different role in the opening of the Berlin Wall in 1989. Soviet reforms and reduced willingness to intervene helped create room for change. The Soviet Union dissolved in 1991. A treaty can show what governments agreed to remove. It cannot establish why a protest movement succeeded.",
+          "As the Cold War was ending, Iraq invaded Kuwait in August 1990. The United States organized diplomacy and joined an international coalition that expelled Iraqi forces in 1991. The coalition’s immediate goal was to reverse the invasion. The war ended with Kuwait liberated, but Saddam Hussein remained in power in Iraq. This case lets students compare a multinational military response with arms-control diplomacy."
+        ],
+        "sources": [
+          {
+            "title": "Reagan’s March 4, 1987 address on Iran-Contra",
+            "url": "https://www.reaganlibrary.gov/archives/speech/address-nation-iran-arms-and-contra-aid-controversy-0"
+          },
+          {
+            "title": "Senate preliminary report on Iran arms sales and possible diversion of funds",
+            "url": "https://www.govinfo.gov/content/pkg/SERIALSET-13730_00_00-008-0007-0000/pdf/SERIALSET-13730_00_00-008-0007-0000.pdf"
+          },
+          {
+            "title": "State Department, INF Treaty text and verification history",
+            "url": "https://1997-2001.state.gov/global/arms/treaties/inf1.html"
+          },
+          {
+            "title": "Office of the Historian, the Reagan–Gorbachev meeting and treaty signing",
+            "url": "https://history.state.gov/historicaldocuments/frus1981-88v44p1/d243"
+          },
+          {
+            "title": "National Museum of American Diplomacy, the rise and fall of the Berlin Wall",
+            "url": "https://diplomacy.state.gov/berlin-wall/"
+          },
+          {
+            "title": "Office of the Historian, collapse of the Soviet Union",
+            "url": "https://history.state.gov/milestones/1989-1992/collapse-soviet-union"
+          },
+          {
+            "title": "Office of the Historian, the First Gulf War",
+            "url": "https://history.state.gov/departmenthistory/short-history/firstgulf"
+          }
+        ]
+      }
     },
     "america-and-the-global-economy": {
       "title": "America and the Global Economy",
@@ -5216,11 +5339,11 @@
         "Read the U.S. Trade Representative's dated NAFTA history and the U.S. International Trade Commission's retrospective assessment. Which statements identify legal milestones, and which estimate economic outcomes? An estimate is not an eyewitness record. To judge a particular town's employment losses, students need local labor data and an explicit comparison period."
       ],
       "activity": "America and the Global Economy · Evidence investigation",
-      "task": "Make a qualified claim about an economic benefit and cost, using a named sector or region and avoiding the assertion that trade alone explains every trend.",
+      "task": "Explain what the NAFTA implementation act changed. Use the trade or productivity study to describe why different workers or sectors could experience different effects. Then compare the household Internet survey with the 2000 election survey. Explain what each measured and whose experience a national average can hide.",
       "investigation": [
         "Identify NAFTA's January 1994 implementation date and original three parties from the official USTR record.",
         "Examine the USITC assessment to distinguish estimates of trade effects from legislation and explain why the method matters.",
-        "Make a qualified claim about an economic benefit and cost, using a named sector or region and avoiding the assertion that trade alone explains every trend."
+        "Explain what the NAFTA implementation act changed. Use the trade or productivity study to describe why different workers or sectors could experience different effects. Then compare the household Internet survey with the 2000 election survey. Explain what each measured and whose experience a national average can hide."
       ],
       "options": [
         "1994",
@@ -5294,7 +5417,43 @@
           "url": "https://www.usitc.gov/press_room/news_release/2016/er0629ll625.htm",
           "summary": "Independent federal economic evaluation using model-based estimates and data; method and scope must be stated."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.5.1.a and USH.5.1.b and USH.5.1.c",
+        "kind": "content",
+        "page": 21,
+        "objective": "Distinguish trade agreements, changes in production, and Internet access as factors shaping the late-twentieth-century economy and public life.",
+        "prompt": "Explain what the NAFTA implementation act changed. Use the trade or productivity study to describe why different workers or sectors could experience different effects. Then compare the household Internet survey with the 2000 election survey. Explain what each measured and whose experience a national average can hide.",
+        "criteria": "Distinguish an enacted trade policy, an economic estimate, and survey evidence. Connect one production change and one communications change to a specific outcome or limitation.",
+        "readingTitle": "Trade, technology, and unequal access",
+        "reading": [
+          "The United States approved NAFTA in 1993 and it took effect in 1994. The agreement lowered barriers to regional trade. A U.S. International Trade Commission working paper estimates labor effects through a model. Its conclusions depend on how the researchers represent trade and labor markets. Trade competition could hurt jobs in one industry while lower input prices or more exports helped another. Shifts in production and technology also affected workers, so a single factory closure cannot establish NAFTA’s national effect.",
+          "The Bureau of Labor Statistics found that labor productivity, or output per hour, accelerated in the second half of the 1990s. Businesses used information technology to change production, management, and services. A productivity gain does not tell us how wages changed for every worker. Those gains and losses require evidence about different jobs, industries, and regions.",
+          "The Census Bureau reported that about 18 percent of households had Internet access in 1997 and about 42 percent had at least one member using the Internet at home in 2000. Access differed by income. Pew’s 2000 survey documented people using the Internet for election news. Household access records who could connect from home, while the election survey shows one way people used the technology. Neither figure tells us how many people changed their vote because of what they read online."
+        ],
+        "sources": [
+          {
+            "title": "North American Free Trade Agreement Implementation Act, 107 Stat. 2057, section 101",
+            "url": "https://www.govinfo.gov/content/pkg/STATUTE-107/pdf/STATUTE-107-Pg2057.pdf"
+          },
+          {
+            "title": "U.S. International Trade Commission working paper, Impact of NAFTA on U.S. Labor Markets",
+            "url": "https://www.usitc.gov/publications/332/ec201406a.pdf"
+          },
+          {
+            "title": "Bureau of Labor Statistics, productivity, outsourcing, and technology",
+            "url": "https://www.bls.gov/productivity/articles-and-research/effect-of-outsourcing-offshoring-on-productivity-2004.pdf"
+          },
+          {
+            "title": "U.S. Census Bureau, Home Computers and Internet Use in the United States, 2000",
+            "url": "https://www.census.gov/content/dam/Census/library/publications/2001/demo/p23-207.pdf"
+          },
+          {
+            "title": "Pew Research Center, Internet use during the 2000 election",
+            "url": "https://www.pewresearch.org/politics/2000/12/03/internet-election-news-audience-seeks-convenience-familiar-names/"
+          }
+        ]
+      }
     },
     "september-11-and-its-consequences": {
       "title": "September 11 and Its Consequences",

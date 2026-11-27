@@ -1787,40 +1787,40 @@
           "slug": "watergate-and-public-trust",
           "title": "Watergate and Public Trust",
           "essential": "How did Watergate test constitutional accountability?",
-          "task": "Write a claim about Watergate and Public Trust with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Build a short chain linking the break-in, the dispute over the tapes, the Supreme Court ruling, and Nixon’s resignation. Compare one reform connected to Vietnam with one connected to Watergate-era accountability. Use the trust survey to explain what declined and why the survey alone cannot identify a single cause."
         },
         {
           "slug": "the-reagan-era",
           "title": "The Reagan Era",
           "essential": "How did policy choices during the 1980s reshape economic and political debates?",
-          "task": "Write a claim about The Reagan Era with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Explain how a tax revolt and one issue important to religious conservatives brought people into the New Right. Then compare the 1981 tax law’s stated strategy with two budget or employment figures from different years. Use the Federal Reserve history to explain why tax policy cannot explain the whole economic record."
         },
         {
           "slug": "the-end-of-the-cold-war",
           "title": "The End of the Cold War",
           "essential": "What combination of choices and pressures led to the Cold War's end?",
-          "task": "Write a claim about The End of the Cold War with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Make three evidence notes. Explain what Iran-Contra investigators examined about aid to the Nicaraguan Contras. Compare what the INF Treaty accomplished with why the Berlin Wall opened. Then identify why the 1991 coalition intervened in Kuwait and what its military campaign achieved."
         },
         {
           "slug": "america-and-the-global-economy",
           "title": "America and the Global Economy",
           "essential": "How did globalization reshape U.S. employment and exchange?",
-          "task": "Write a claim about America and the Global Economy with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Explain what the NAFTA implementation act changed. Use the trade or productivity study to describe why different workers or sectors could experience different effects. Then compare the household Internet survey with the 2000 election survey. Explain what each measured and whose experience a national average can hide."
         }
       ],
       "sources": [
         {
-          "label": "Document A · Watergate Presidential Tape Records",
-          "title": "Watergate Presidential Tape Records",
-          "creator": "Richard Nixon White House; preserved by National Archives",
-          "date": "1972–1974",
-          "url": "https://www.archives.gov/research/investigations/watergate/presidential-tape-recordings.html",
-          "sourceUrl": "https://www.archives.gov/research/investigations/watergate/presidential-tape-recordings.html",
-          "sourceType": "Primary-source collection: recorded presidential conversations",
-          "excerpt": "Contemporary recordings help investigate executive decision-making but require date, completeness and independent corroboration.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
+          "label": "Document A · Watergate tape transcript",
+          "title": "Watergate trial exhibit 1: June 23, 1972 conversation",
+          "creator": "Richard Nixon and H. R. Haldeman",
+          "date": "June 23, 1972",
+          "url": "https://www.nixonlibrary.gov/sites/default/files/forresearchers/find/tapes/watergate/trial/exhibit_01.pdf",
+          "sourceUrl": "https://www.nixonlibrary.gov/sites/default/files/forresearchers/find/tapes/watergate/trial/exhibit_01.pdf",
+          "sourceType": "Primary source: transcript of a recorded conversation",
+          "excerpt": "The transcript records Nixon and Haldeman discussing a plan to use the CIA to limit part of the FBI’s Watergate inquiry. It documents the contents of this conversation rather than all actions taken in the investigation.",
+          "limitation": "The transcript records a particular exchange. It cannot establish the motives of all participants or every action that followed.",
           "documentExcerpt": "",
-          "sourceNote": "Contemporary recordings help investigate executive decision-making but require date, completeness and independent corroboration.",
+          "sourceNote": "Compare the conversation with United States v. Nixon to distinguish the recorded evidence from the decision requiring production.",
           "lessonContext": "The 1972 break-in at Democratic National Committee offices and subsequent cover-up prompted investigations of the Nixon administration. Congressional hearings, investigative reporting, and court rulings exposed abuses of executive power. The investigations involved journalists, congressional committees, courts, and officials within the executive branch. These institutions did not all perform the same function or operate on the same timeline. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
         },
         {
@@ -1852,15 +1852,15 @@
           "lessonContext": "Reform efforts under Soviet leader Mikhail Gorbachev, economic pressures, and political movements across Eastern Europe transformed the late 1980s. The Berlin Wall opened in November 1989. Popular protests and reform movements in Eastern Europe were independent historical forces. Treating people in those countries merely as objects of U.S.–Soviet diplomacy leaves out decisive local agency. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
         },
         {
-          "label": "Document D · Additional interpretation",
-          "title": "America and the Global Economy",
-          "creator": "Examine the Past curriculum editors",
-          "date": "2026 instructional summary",
-          "url": "../america-and-the-global-economy/",
-          "sourceUrl": "../america-and-the-global-economy/",
-          "sourceType": "Secondary source: lesson interpretation, NOT primary evidence",
-          "excerpt": "Late twentieth-century advances in transport, communications, and production helped link economies across borders. The North American Free Trade Agreement took effect in 1994, deepening trade integration among the United States, Canada, and Mexico. Production increasingly crossed national borders, with goods assembled through supply chains involving labor and investment in several countries. Consumers could benefit from lower prices while some workers faced job displacement. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-          "limitation": "This is a modern instructional interpretation, not an original primary document. Use it for context; investigate originals for source-based claims.",
+          "label": "Document D · Household Internet access",
+          "title": "Home Computers and Internet Use in the United States: August 2000",
+          "creator": "U.S. Census Bureau",
+          "date": "September 2001",
+          "url": "https://www.census.gov/content/dam/Census/library/publications/2001/demo/p23-207.pdf",
+          "sourceUrl": "https://www.census.gov/content/dam/Census/library/publications/2001/demo/p23-207.pdf",
+          "sourceType": "Secondary source: government survey report",
+          "excerpt": "About 42 percent of U.S. households had at least one member using the Internet at home in 2000. The report compares that result with about 18 percent of households with access in 1997. The report compares access across income and other household characteristics.",
+          "limitation": "Household Internet access is distinct from individual use. The data do not establish who read election news or how anyone voted.",
           "documentExcerpt": ""
         }
       ],
@@ -1906,34 +1906,34 @@
           "explain": "Predictions and realized outcomes should be tested separately."
         },
         {
-          "prompt": "What can compare Watergate and late-Cold-War foreign policy without treating them as identical?",
+          "prompt": "What can Document D establish about the Internet near the end of the twentieth century?",
           "choices": [
-            "A single interpretation that ignores chronology",
-            "How public claims, evidence and institutional decisions were scrutinized in different contexts",
-            "Whether both events occurred during exactly the same presidency"
+            "It identifies how many people changed their vote because of online news.",
+            "It shows a rise in home Internet access, without identifying what each household did online.",
+            "It establishes that households of every income level used the Internet equally."
           ],
           "answer": 1,
-          "explain": "Shared historical skills do not erase important differences."
+          "explain": "The survey measured household access. Use records about individual behavior to evaluate specific activities or political effects."
         },
         {
-          "prompt": "Which conclusion about late-twentieth-century U.S. policy is most defensible?",
+          "prompt": "How do the INF Treaty and the 1991 coalition response to Iraq’s invasion of Kuwait differ?",
           "choices": [
-            "All economic policies produced equally distributed gains",
-            "Every Cold War change resulted directly from one speech",
-            "Political accountability, diplomatic change and global trade had different causes and contested effects"
+            "Both were agreements authorizing the same military intervention.",
+            "Both were speeches with no consequences to examine.",
+            "The treaty reduced a category of arms, while the coalition used force to reverse an invasion."
           ],
           "answer": 2,
-          "explain": "The unit covers distinct yet connected transformations."
+          "explain": "The examples used different tools for different international goals."
         }
       ],
       "matchingOptions": [
-        "Watergate Presidential Tape Records",
+        "Watergate tape transcript",
         "Reagan's Brandenburg Gate Address",
         "Clinton's Remarks on NAFTA"
       ],
       "matchingPrompts": [
         {
-          "prompt": "Which original record helps investigate Watergate Presidential Tape Records and its historical context?",
+          "prompt": "Which original record documents a conversation about limiting the FBI’s Watergate inquiry?",
           "answer": 0
         },
         {
@@ -1957,21 +1957,21 @@
         2
       ],
       "conclusions": [
-        "President Clinton's public claims about NAFTA in 1993 establish the exact economic effects that followed for every worker.",
-        "Documents B and C can help historians compare how evidence, policy and experience relate to america in the late twentieth century.",
-        "Document A records a position or record from 1972–1974, but it needs context to support claims about historical effects."
+        "The June 23 recording and the Supreme Court opinion establish the truth of every allegation about Watergate.",
+        "Document A records a particular conversation. Other sources are needed to explain why Congress and the courts acted.",
+        "Document D shows rising household Internet access. Specific evidence about online behavior is needed to evaluate political effects."
       ],
       "conclusionKey": [
         false,
         true,
         true
       ],
-      "writing": "How did challenges to public trust, Cold War change and globalization reshape American politics? Construct a qualified historical argument using at least three specific facts supported by two original records from this unit and one other kind of evidence (such as testimony, a map, statistics, or a carefully attributed secondary interpretation). Explain each source's date and perspective, compare experiences of affected communities, discuss at least one limitation, and address a plausible counterargument.",
-      "challenge": "Create a museum exhibit or document-based investigation responding to: How did challenges to public trust, Cold War change and globalization reshape American politics? Use four attributed sources, a chronological visualization, two perspectives, an evidence limitation and a defended curator thesis.",
-      "standards": "Maryland 2025 High School United States History Framework; historical inquiry and relevant unit content. Exact indicator crosswalk pending.",
-      "framework": "https://msde.maryland.gov/media/17926",
-      "sourceAudit": "Original documents linked to the National Archives, Library of Congress, presidential libraries, or National September 11 Memorial; source cards contain instructional summaries, not verbatim transcriptions. Verify original collection item, creator, and date before citing.",
-      "sampleAnswer": "The question raised in America in the Late Twentieth Century is: How did challenges to public trust, Cold War change and globalization reshape American politics? The evidence suggests that decisions and events changed institutions and opportunities, but the results differed among people and places. A defensible argument requires attention to whom a policy or movement affected, not only its supporters' intentions.\n\nDocument A (Watergate Presidential Tape Records, 1972–1974) provides one perspective: Contemporary recordings help investigate executive decision-making but require date, completeness and independent corroboration. Document B (Reagan's Brandenburg Gate Address, June 12, 1987) adds another: The speech argued for greater political freedom in Eastern Europe; rhetorical claims and broader causes of Cold War change are not identical. These records identify choices or experiences, but their authors and purposes must be considered before treating them as complete accounts.\n\nDocument C (Clinton's Remarks on NAFTA, 1993) supplies further evidence: Supporters forecast trade opportunities; effects on different workers and regions require subsequent economic data. A historian should test these records against different evidence such as the observations of affected communities, independent statistics, archaeological evidence when relevant, and the unit's contextual lesson reading. The sources do not necessarily measure results by themselves.\n\nA reasonable counterargument might emphasize the benefits or stated goals of these developments. Those claims deserve evaluation, but they do not eliminate unintended consequences, unequal impacts or limits of the evidence. I would therefore defend a qualified conclusion and explain which further sources might change it."
+      "writing": "Compare two late-twentieth-century changes involving political accountability, economic policy, diplomacy, or technology. For each, explain what officials or advocates wanted and identify one documented outcome. Use two primary records and one corroborating study or data source. Address a plausible counterargument and explain one conclusion your evidence cannot establish.",
+      "challenge": "Compare a national NAFTA estimate with one piece of evidence about a specific industry or community. Explain what a national estimate cannot reveal about local employment or wages.",
+      "standards": "Maryland High School United States History Framework (June 2025), selected cases for USH.3.4.c and e, USH.4.4.a–b, USH.4.5.a–c, and USH.5.1.a–c. Exact links and scope are listed with each lesson.",
+      "framework": "https://msde.maryland.gov/media/17926#page=17",
+      "sourceAudit": "Documents A–C show a recorded conversation or public statements. Document D measures household access. Use the course’s original laws, budget records, and historical studies to evaluate what followed.",
+      "sampleAnswer": "The Watergate tape documents Nixon and Haldeman discussing a plan to limit the investigation. The Supreme Court opinion establishes a different fact: a general claim of presidential privilege did not override the need for evidence in this criminal trial. Trust surveys show a decline by 1974. They do not establish that Watergate alone caused it.\n\nIn the 1990s, the NAFTA implementation act changed trade rules. A competing explanation for economic changes is that information technology changed productivity and how firms organized production. The statute establishes policy, while labor and productivity research helps test outcomes. Industry and local records would be necessary to evaluate a specific community."
     },
     "9.11": {
       "id": "9.11",

@@ -107,6 +107,10 @@ Unit 9.8 adds source-linked readings and exit tickets to all four existing lesso
 
 Unit 9.9 retains the Brown and Mendez comparison, corrects the signing date of Executive Order 10730, and adds four source-linked exit tickets. The five lessons cover selected cases for seven USH.3.3 objectives. The revised assessment tests evidence of organizing, implementation, and voter registration. Further coverage across freedom movements and the broader outcomes of Great Society and immigration policy remains open. Grade 9 now has 36 of 45 lessons with documented mappings. The source ledger records 86 open, four partly verified, and 46 supported claims.
 
+### Grade 9 America in the Late Twentieth Century · November 27
+
+Unit 9.10 adds source-linked exit tickets across the four existing lessons. They address selected cases for ten Maryland objectives. The scored assessment retains its 27-point structure and asks students to weigh evidence from the Nixon tape and federal Census data alongside the other documents. Grade 9 now has 40 of 45 lessons with documented mappings. The source ledger records 82 open, four partly verified, and 50 supported claims. The Maryland tracker records the remaining scope of the unit’s composite objectives.
+
 The scorecard and gates below record the original audit baseline.
 
 ## Executive scorecard
