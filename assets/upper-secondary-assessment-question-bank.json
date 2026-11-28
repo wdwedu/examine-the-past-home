@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-22-editorial-v1",
-  "status": "Educator-authored draft questions requiring final classroom review",
+  "version": "2026-11-24-senior-assessment-v2",
+  "status": "Draft questions for classroom review",
   "units": {
     "11.1": [
       {
@@ -32,6 +32,36 @@
         ],
         "answer": 2,
         "explanation": "Exchange and violence existed simultaneously within the Mongol world."
+      },
+      {
+        "prompt": "A port ledger records vessels from Gujarat, Arabia and East Africa. Which finding would best test whether merchants used the port as a regional hub?",
+        "options": [
+          "The port collected duties under a written tariff schedule.",
+          "A single merchant spent a year in the port.",
+          "The same goods appear entering and leaving on ships bound for different ports."
+        ],
+        "answer": 2,
+        "explanation": "Re-export to multiple destinations shows that the port connected routes. Duties and a merchant's stay do not establish that role."
+      },
+      {
+        "prompt": "A court chronicle and a merchant's route account describe the same Mongol-era road. Why might their judgments about safety differ?",
+        "options": [
+          "Court officials and merchants experienced different risks and wrote for different audiences.",
+          "A chronicle covers a larger area, so it controls for differences between travelers.",
+          "The account naming more towns has the strongest evidence for year-round safety."
+        ],
+        "answer": 0,
+        "explanation": "Social position and purpose affect what a writer sees and reports. Named locations alone do not measure safety."
+      },
+      {
+        "prompt": "Which evidence best locates Mali within a wider exchange network around 1300?",
+        "options": [
+          "Evidence of trade between farming villages near the Niger River",
+          "Records connecting West African gold markets with caravan routes and North African buyers",
+          "A map showing the boundaries of the Mali Empire at its height"
+        ],
+        "answer": 1,
+        "explanation": "Long-distance links between producers, routes and buyers show how Mali participated in interregional trade."
       }
     ],
     "11.2": [
@@ -64,6 +94,36 @@
         ],
         "answer": 2,
         "explanation": "The war cannot be reduced to one cause."
+      },
+      {
+        "prompt": "A patron commissions an altarpiece that includes portraits of the patron's family. Which reading accounts for both the subject and the commission?",
+        "options": [
+          "The image could serve devotion while publicly associating the family with piety and status.",
+          "The portraits make the altarpiece mainly a record of family ancestry.",
+          "The religious setting makes the family portraits irrelevant to the work's audience."
+        ],
+        "answer": 0,
+        "explanation": "A commission can serve religious and social purposes simultaneously."
+      },
+      {
+        "prompt": "What would best explain why reform ideas produced different outcomes in two cities with access to the same pamphlets?",
+        "options": [
+          "Compare total circulation in both cities without examining how authorities responded.",
+          "Compare the wording of the pamphlets that circulated in both cities.",
+          "Compare the decisions of councils, clergy and printers in each city."
+        ],
+        "answer": 2,
+        "explanation": "Shared texts cannot explain divergent outcomes by themselves. Local authority and enforcement offer evidence of why reactions differed."
+      },
+      {
+        "prompt": "A decree requires public attendance at an established church. Which source would best test whether people followed it privately?",
+        "options": [
+          "A second copy of the decree kept by church officials",
+          "Letters or court testimony describing worship in homes",
+          "A printed map of the parishes covered by the decree"
+        ],
+        "answer": 1,
+        "explanation": "Personal records and testimony can provide evidence of practice. The decree and map establish official expectations."
       }
     ],
     "11.3": [
@@ -96,6 +156,36 @@
         ],
         "answer": 2,
         "explanation": "Comparative sourcing helps expose administrative perspectives and omissions."
+      },
+      {
+        "prompt": "How could a historian test the claim that royal backing made Atlantic voyages feasible?",
+        "options": [
+          "Compare sailors' later descriptions of the coastlines they reached.",
+          "Compare charters, financial accounts and the obligations imposed on voyage organizers.",
+          "Compare the volume of goods traded decades after the voyages."
+        ],
+        "answer": 1,
+        "explanation": "Charters and accounts show who financed and authorized voyages and what risks or obligations they accepted."
+      },
+      {
+        "prompt": "Disease appears in multiple colonial accounts shortly before population decline. What further evidence would help evaluate its role?",
+        "options": [
+          "Use regional population totals alone to calculate the share of deaths caused by disease.",
+          "Use the reported date of first contact as a substitute for outbreak records.",
+          "Compare the timing of outbreaks with evidence of displacement, forced labor and food disruption."
+        ],
+        "answer": 2,
+        "explanation": "Comparing timelines and other pressures helps evaluate multiple causes of demographic change."
+      },
+      {
+        "prompt": "An Atlantic voyage database identifies embarkation and arrival ports. Which claim can it support most directly?",
+        "options": [
+          "Recorded voyages linked particular regions of Africa and the Americas.",
+          "The recorded arrivals represent every person displaced by the trade.",
+          "A person's recorded arrival port identifies where that person was born."
+        ],
+        "answer": 0,
+        "explanation": "Voyage records show routes within the scope of the database. The ports do not establish individual origins or total displacement."
       }
     ],
     "11.4": [
@@ -128,6 +218,36 @@
         ],
         "answer": 2,
         "explanation": "Enlightenment texts and institutions frequently differed in who was protected."
+      },
+      {
+        "prompt": "Two early modern authors disagree over an astronomical model. Which evidence would best help adjudicate their claims?",
+        "options": [
+          "The number of books each author sold during the debate",
+          "The relative prestige of the institutions that employed the authors",
+          "Observations compared with the predictions produced by each model"
+        ],
+        "answer": 2,
+        "explanation": "Predictive performance connects observations to the competing explanations."
+      },
+      {
+        "prompt": "A proposed constitution assigns selected powers to separate bodies and allows them to limit one another. What problem does this arrangement address most directly?",
+        "options": [
+          "Uncertainty about citizenship at birth",
+          "Concentration of political authority",
+          "Variation in the cost of parliamentary elections"
+        ],
+        "answer": 1,
+        "explanation": "Divided powers and checks constrain how far any one body can act by itself."
+      },
+      {
+        "prompt": "A declaration calls rights universal, while an election law restricts eligibility. Which comparison best evaluates the relationship?",
+        "options": [
+          "Compare the declaration's stated principles with the people the law actually enfranchised.",
+          "Treat limits on voting as evidence that the declaration had no contemporary influence.",
+          "Use the declaration to infer which groups voted without consulting election rules."
+        ],
+        "answer": 0,
+        "explanation": "The comparison identifies a gap between published principles and their legal application."
       }
     ],
     "11.5": [
@@ -160,6 +280,36 @@
         ],
         "answer": 2,
         "explanation": "Explicit criteria make comparisons meaningful."
+      },
+      {
+        "prompt": "A revolutionary government issues a declaration of equality. What would best test whether it changed political participation?",
+        "options": [
+          "Compare voting and officeholding rules before and after the declaration, including who remained excluded.",
+          "Count how often equality appears in celebratory speeches.",
+          "Compare the length of the declaration with other revolutionary charters."
+        ],
+        "answer": 0,
+        "explanation": "Participation requires evidence about eligibility and practice. The declaration establishes an aspiration."
+      },
+      {
+        "prompt": "What makes an account centered solely on elite independence leaders inadequate for explaining the Haitian Revolution?",
+        "options": [
+          "It overstates how much the outcome differed from the French Revolution.",
+          "It misses how enslaved people organized and made emancipation central to the struggle.",
+          "It gives too much weight to plantation slavery when explaining mobilization."
+        ],
+        "answer": 1,
+        "explanation": "Enslaved participants were political and military actors, and emancipation was central to the revolution."
+      },
+      {
+        "prompt": "Two regions win independence but retain different labor arrangements. Which explanation should a historian investigate first?",
+        "options": [
+          "Whether independence declarations in both regions used the same terms for sovereignty",
+          "Whether both regions won international recognition in the same decade",
+          "Whether regional coalitions, economic interests and conflicts shaped different postwar laws"
+        ],
+        "answer": 2,
+        "explanation": "Coalitions and interests can explain differences in labor law that shared language or recognition dates do not."
       }
     ],
     "11.6": [
@@ -192,6 +342,36 @@
         ],
         "answer": 2,
         "explanation": "Global production networks distribute benefits and harms unevenly."
+      },
+      {
+        "prompt": "Why might industrial production cluster near coalfields and navigable waterways?",
+        "options": [
+          "Dense settlement lowers staffing costs in the same way in every manufacturing region.",
+          "Fuel access and cheaper freight can reduce the cost of expanding production.",
+          "Local access to coal makes investment in machinery less important."
+        ],
+        "answer": 1,
+        "explanation": "Coal and transport lower different costs. Investment and labor conditions still affect industrial growth."
+      },
+      {
+        "prompt": "A city report shows rising factory output and a public health report shows crowded housing. Which conclusion best fits both?",
+        "options": [
+          "Industrial growth and deteriorating living conditions could coexist.",
+          "Higher output establishes that real wages rose for most households.",
+          "Crowding implies the new factories produced less per worker."
+        ],
+        "answer": 0,
+        "explanation": "Output and housing conditions measure different outcomes, so industrial gains can coexist with local hardship."
+      },
+      {
+        "prompt": "Which evidence would best connect industrial textile growth to overseas labor systems?",
+        "options": [
+          "Inventories listing loom types and repair costs within one mill",
+          "Retail advertisements that name the price of finished fabric",
+          "Records tracing raw cotton from source regions through trade to mill suppliers"
+        ],
+        "answer": 2,
+        "explanation": "Supply records connect raw-material production, labor and industrial consumption."
       }
     ],
     "11.7": [
@@ -224,6 +404,36 @@
         ],
         "answer": 2,
         "explanation": "Resistance took different forms and should be investigated through varied sources."
+      },
+      {
+        "prompt": "A colonial authority announces a tax payable in cash. Which source combination would best show its effect on households?",
+        "options": [
+          "Two official editions of the tax notice",
+          "An imperial boundary map and a list of governors",
+          "Tax and wage records paired with local petitions or testimony"
+        ],
+        "answer": 2,
+        "explanation": "Combining administrative and local evidence helps establish how families experienced or responded to the tax."
+      },
+      {
+        "prompt": "Why should a historian distinguish the Berlin Conference from later military conquest?",
+        "options": [
+          "Conference rules governed claims among imperial powers, while control on the ground depended on later action and resistance.",
+          "Conference decisions already defined how every colonized community would be administered.",
+          "The conference replaced competition for land with a common European government in Africa."
+        ],
+        "answer": 0,
+        "explanation": "Diplomatic rules for claims differ from territorial control, which involved local conflict and negotiation."
+      },
+      {
+        "prompt": "How could a historian explain two Asian governments' different responses to foreign pressure?",
+        "options": [
+          "Use the number of foreign ships arriving in each decade as a complete measure of pressure.",
+          "Compare domestic political coalitions, trading relationships and the terms each faced.",
+          "Infer the response solely from how far each capital lay from a seaport."
+        ],
+        "answer": 1,
+        "explanation": "Political and economic conditions help explain why states responded differently to external demands."
       }
     ],
     "11.8": [
@@ -256,6 +466,36 @@
         ],
         "answer": 2,
         "explanation": "Causation needs sources and broader context."
+      },
+      {
+        "prompt": "Why is the assassination at Sarajevo insufficient as a complete explanation for World War I?",
+        "options": [
+          "It explains the trigger, while decisions about alliances, mobilization and ultimatums help explain escalation.",
+          "It occurred after the major powers had already signed the peace settlement.",
+          "It establishes long-term rivalry more clearly than it explains the July Crisis."
+        ],
+        "answer": 0,
+        "explanation": "The assassination triggered the crisis. Subsequent choices and existing rivalries help explain how it became a general war."
+      },
+      {
+        "prompt": "Which pair gives the clearest evidence of total war on the home front?",
+        "options": [
+          "A trench map and a soldier's account of a patrol",
+          "The text of an armistice and a map of new boundaries",
+          "Rationing orders and records of industry redirected to military production"
+        ],
+        "answer": 2,
+        "explanation": "Rationing and industrial redirection show that states mobilized civilian resources as well as armed forces."
+      },
+      {
+        "prompt": "A student argues that the Treaty of Versailles alone explains Germany's later political collapse. Which approach best tests the claim?",
+        "options": [
+          "Read newspaper reactions from the week the treaty was signed and stop there.",
+          "Compare treaty provisions with later economic shocks, political choices and developments in other states.",
+          "Use the treaty's reparations provisions as a measure of later electoral behavior."
+        ],
+        "answer": 1,
+        "explanation": "The treaty alone cannot explain outcomes across the intervening years. Comparing evidence tests alternatives."
       }
     ],
     "11.9": [
@@ -288,6 +528,36 @@
         ],
         "answer": 2,
         "explanation": "An exclusively European chronology excludes much of the war's context."
+      },
+      {
+        "prompt": "Which evidence best tests how the Great Depression weakened a particular democracy?",
+        "options": [
+          "Measure the stock market decline in another country and apply that figure to the case.",
+          "Compare unemployment, voting patterns, party strategies and decisions by political leaders over time.",
+          "Treat unemployment and democratic breakdown as a predictable sequence in every country."
+        ],
+        "answer": 1,
+        "explanation": "Economic hardship, political mobilization and institutional decisions together provide an explanation that can be tested."
+      },
+      {
+        "prompt": "A deportation list and a survivor's testimony describe the same Nazi transport. How should a historian use them?",
+        "options": [
+          "Treat both records as if they were created for the same audience and purpose.",
+          "Use the absence of personal detail on the list to discount details in the testimony.",
+          "Use the official record for logistics and the testimony for lived experience, then compare details where they overlap."
+        ],
+        "answer": 2,
+        "explanation": "The sources were created for different purposes and document different dimensions of persecution."
+      },
+      {
+        "prompt": "Why is 1945 both an ending and a starting point for a historical argument?",
+        "options": [
+          "The war ended while occupation, displacement and rebuilding created new political problems.",
+          "The military surrender of one state immediately settled political disputes across all regions.",
+          "Postwar reconstruction began only after all refugees had returned home."
+        ],
+        "answer": 0,
+        "explanation": "Military endings and political or social transitions operate on different timelines."
       }
     ],
     "11.10": [
@@ -320,6 +590,36 @@
         ],
         "answer": 2,
         "explanation": "Many states refused simple alignment and shaped global diplomacy."
+      },
+      {
+        "prompt": "A nationalist leader sought aid from both Cold War blocs. Which interpretation best fits this behavior?",
+        "options": [
+          "Any contact with both blocs proves that the country avoided all foreign commitments.",
+          "Contacts with both blocs show the country's domestic priorities had little influence.",
+          "A government could pursue its own goals by negotiating across bloc lines."
+        ],
+        "answer": 2,
+        "explanation": "Diplomacy across blocs can demonstrate agency, even when policy is constrained by global competition."
+      },
+      {
+        "prompt": "How could a historian compare partition in South Asia with a negotiated transfer of power elsewhere?",
+        "options": [
+          "Use agreement dates to rank how much political authority changed in each case.",
+          "Examine territorial arrangements, popular mobilization and the effects on different communities in each case.",
+          "Compare the language of independence announcements as a substitute for migration evidence."
+        ],
+        "answer": 1,
+        "explanation": "A systematic comparison includes how power changed hands and what that change meant for affected communities."
+      },
+      {
+        "prompt": "Which approach best tests a claim that one leader caused the Soviet Union's dissolution?",
+        "options": [
+          "Compare reforms with economic pressures, republic-level mobilization and decisions by rival elites.",
+          "Use the date of the leader's resignation as evidence of the cause.",
+          "Count international speeches that mentioned the leader during the period."
+        ],
+        "answer": 0,
+        "explanation": "Dissolution involved interacting processes at central and republic levels. Timing alone cannot identify a single cause."
       }
     ],
     "11.11": [
@@ -352,6 +652,36 @@
         ],
         "answer": 2,
         "explanation": "Implementation and enforceability require separate investigation."
+      },
+      {
+        "prompt": "A multinational supply chain spans several ports. Which finding most directly shows interdependence?",
+        "options": [
+          "A disruption at one supplier delays production and raises costs in several other countries.",
+          "The largest company sells the same product under several brand names.",
+          "The shipping routes cross more borders in summer than in winter."
+        ],
+        "answer": 0,
+        "explanation": "A disruption spreading across the network shows that actors depend on production and transport elsewhere."
+      },
+      {
+        "prompt": "Why might a United Nations declaration and a treaty matter differently to a rights investigation?",
+        "options": [
+          "Both automatically create the same domestic enforcement powers in every country.",
+          "A declaration sets out standards, while treaty obligations depend on the treaty and a state's status under it.",
+          "The document with more signatories necessarily offers stronger individual remedies."
+        ],
+        "answer": 1,
+        "explanation": "Legal effect depends on the kind of instrument, the obligations accepted and available enforcement mechanisms."
+      },
+      {
+        "prompt": "An online survey says migrants found jobs through social media. What would best test how broadly the result applies?",
+        "options": [
+          "Infer that anyone who did not respond had no internet access.",
+          "Read the most detailed entries and use them to calculate the national rate.",
+          "Check recruitment and internet access, then compare with interviews and a broader sample."
+        ],
+        "answer": 2,
+        "explanation": "Recruitment and connectivity can skew an online sample. Other evidence helps assess representativeness."
       }
     ],
     "12.1": [
@@ -384,6 +714,36 @@
         ],
         "answer": 2,
         "explanation": "Archival silence must be acknowledged, not filled by invention."
+      },
+      {
+        "prompt": "Two historians cite the same court case to support different claims. What should a reviewer compare first?",
+        "options": [
+          "Which historian cites more sources in the full bibliography",
+          "Which passages each uses, what questions they ask and how each accounts for contrary evidence",
+          "Which historian published later and therefore had more time to interpret the case"
+        ],
+        "answer": 1,
+        "explanation": "Argument quality depends on the fit between claims, methods and evidence, including treatment of counterevidence."
+      },
+      {
+        "prompt": "An investigator initially finds only records produced by local officials. Which revision best addresses that limit?",
+        "options": [
+          "Seek independently produced accounts and narrow the claim if those voices remain unavailable.",
+          "Expand the geographic claim using more official records of the same kind.",
+          "Average the officials' accounts to estimate views they did not document."
+        ],
+        "answer": 0,
+        "explanation": "Additional independent perspectives address one-sided evidence. A narrower claim is appropriate if the gaps remain."
+      },
+      {
+        "prompt": "A newspaper's scanned page has one date but the database lists another. What should the student do?",
+        "options": [
+          "Use the database date because a searchable entry is easier to cite.",
+          "Use the date that fits the expected timeline and cite both sources as corroboration.",
+          "Check the issue masthead and catalog record and document the discrepancy in the citation."
+        ],
+        "answer": 2,
+        "explanation": "Verifying the original issue and metadata keeps a catalog error from becoming a chronology error."
       }
     ],
     "12.2": [
@@ -416,6 +776,36 @@
         ],
         "answer": 2,
         "explanation": "Averages may hide who gains and who bears burdens."
+      },
+      {
+        "prompt": "A price ceiling is set below the market-clearing rent. Which observation best supports a claim of excess demand under the ceiling?",
+        "options": [
+          "The average rent is lower for tenants in covered units.",
+          "The size of the city housing stock rises over the next decade.",
+          "More households seek covered units than landlords offer at the regulated price."
+        ],
+        "answer": 2,
+        "explanation": "Excess demand refers to demand exceeding supply at the regulated price. Lower regulated prices alone do not establish it."
+      },
+      {
+        "prompt": "A policy evaluation finds that jobs rose after a subsidy. Which design would improve the causal inference?",
+        "options": [
+          "Compare the change with similar places without the subsidy and check prior trends.",
+          "Compare job totals before and after the subsidy without adjusting for wider trends.",
+          "Compare the employment levels of firms that received different-size subsidies after implementation."
+        ],
+        "answer": 0,
+        "explanation": "A credible comparison helps estimate what would have happened without the policy. Prior trends help judge comparability."
+      },
+      {
+        "prompt": "A transport project benefits some neighborhoods but displaces residents in others. What should the evaluation show?",
+        "options": [
+          "The region's total estimated benefit, with each household assigned the regional average",
+          "Who gains access or time savings, who faces costs and how the estimates were made",
+          "Current ridership alone, before the new route changes travel behavior"
+        ],
+        "answer": 1,
+        "explanation": "Separating gains and costs by group shows distributional effects hidden by a regional average."
       }
     ],
     "12.3": [
@@ -448,6 +838,36 @@
         ],
         "answer": 2,
         "explanation": "Formal rights and practical protection differ."
+      },
+      {
+        "prompt": "A legislature can remove a cabinet through a vote of no confidence. Which institutional feature does this illustrate?",
+        "options": [
+          "The executive's ability to remain in office depends on legislative support.",
+          "The executive receives a separate fixed mandate from voters.",
+          "Courts appoint the executive to arbitrate disputes in parliament."
+        ],
+        "answer": 0,
+        "explanation": "Confidence votes illustrate how a parliamentary cabinet can depend on maintaining legislative support."
+      },
+      {
+        "prompt": "A state permits opposition parties to register but restricts their media access. Which evidence best tests whether electoral competition is meaningful?",
+        "options": [
+          "Compare the number of parties registered at each election.",
+          "Compare turnout with neighboring countries without examining campaign conditions.",
+          "Compare ballot access, campaign rules and enforcement, media exposure and independent observer reports."
+        ],
+        "answer": 2,
+        "explanation": "Meaningful competition depends on whether candidates can campaign and voters have a genuine choice."
+      },
+      {
+        "prompt": "Two constitutions promise the same right. How can a researcher compare access to remedies?",
+        "options": [
+          "Compare how early in each constitution the right appears.",
+          "Compare court access, relevant rulings and evidence of implementation in each country.",
+          "Compare judicial biographies without examining legal procedures or decisions."
+        ],
+        "answer": 1,
+        "explanation": "A right's practical enforceability depends on procedures, decisions and compliance."
       }
     ],
     "12.4": [
@@ -480,6 +900,36 @@
         ],
         "answer": 2,
         "explanation": "Multiple indicators are needed for fuller comparisons."
+      },
+      {
+        "prompt": "Two cities count commuting suburbs differently. What would make their population figures more comparable?",
+        "options": [
+          "Use figures from the same census year even if the geographic definitions differ.",
+          "Use a consistent urban area definition and document the geographic boundaries.",
+          "Divide both figures by national population to convert them into percentages."
+        ],
+        "answer": 1,
+        "explanation": "A common geographic definition addresses the underlying mismatch. A shared year or unit of measurement cannot do that alone."
+      },
+      {
+        "prompt": "A district reports falling population despite net in-migration. What additional figures could explain the result?",
+        "options": [
+          "The share of commuters traveling by train",
+          "Population density in the neighboring district",
+          "Births and deaths over the same period, using the same district boundary"
+        ],
+        "answer": 2,
+        "explanation": "Natural decrease can exceed migration gains. The figures must cover the same time and place."
+      },
+      {
+        "prompt": "After a conservation rule begins, a street's storefront signs change. Which approach best investigates what the signs reveal about the cultural landscape?",
+        "options": [
+          "Compare dated images, permit records and interviews with shopkeepers and residents.",
+          "Use current signs to infer residents' views of the earlier district.",
+          "Count storefronts and treat the total as a measure of cultural continuity."
+        ],
+        "answer": 0,
+        "explanation": "Evidence from several times and perspectives distinguishes changes brought by regulation, commerce and community choices."
       }
     ],
     "12.5": [
@@ -512,6 +962,36 @@
         ],
         "answer": 2,
         "explanation": "Historical memory involves selection and reinterpretation."
+      },
+      {
+        "prompt": "A stadium photo and an organizer's notes describe the same protest. What can their comparison reveal?",
+        "options": [
+          "Whether everyone in the stands held the position described in the notes",
+          "Whether the photo can replace the notes as evidence of planning",
+          "How a public image framed the protest and how organizers described its aims"
+        ],
+        "answer": 2,
+        "explanation": "The photo and notes document different perspectives. Together they can help explain public framing and organizers' intentions."
+      },
+      {
+        "prompt": "A former worker recalls buying groceries on credit. Which record best corroborates the specific practice?",
+        "options": [
+          "A company newsletter listing the store's opening hours",
+          "A local store ledger showing household balances carried from one week to the next",
+          "A regional occupational census listing the number of retail workers"
+        ],
+        "answer": 1,
+        "explanation": "Balances carried forward directly document a credit practice in that store."
+      },
+      {
+        "prompt": "News coverage and an anniversary exhibit emphasize different people. What is the strongest inquiry about public memory?",
+        "options": [
+          "Compare who created each account, for whom, and what evidence explains whose roles were highlighted.",
+          "Treat the later account as more accurate because it has more distance from the event.",
+          "Use the number of featured people to rate the accuracy of each portrayal."
+        ],
+        "answer": 0,
+        "explanation": "Purpose, audience and selection help explain how accounts of an event change over time."
       }
     ]
   }

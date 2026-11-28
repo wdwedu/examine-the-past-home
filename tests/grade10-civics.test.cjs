@@ -20,7 +20,7 @@ for(let n=1;n<=9;n++){
  assert.equal(a.questions.length,6,k+" MC count");mc+=6;
  assert.equal(new Set(a.questions.map(q=>q.prompt)).size,6,k+" repeated prompt");
  assert.ok(a.questions.every(q=>q.choices.length===3&&Number.isInteger(q.answer)&&q.answer>=0&&q.answer<3),k+" MC keys");
- assert.equal(a.sources.length,3,k+" source packet");
+ assert.equal(a.sources.length,k==="10.1"?4:3,k+" source packet");
  assert.ok(a.sources.every(s=>s.url.startsWith("https://")&&s.creator&&s.date&&s.sourceType),k+" source metadata");
  assert.equal(a.matchingPrompts.length,3,k+" source matching");
  assert.deepEqual([...a.inquiryAnswers].sort(),[0,1,2],k+" inquiry sequence");

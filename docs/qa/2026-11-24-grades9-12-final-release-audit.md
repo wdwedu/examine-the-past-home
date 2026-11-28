@@ -4,6 +4,123 @@
 
 The word "final" means this is the final consolidated audit after the Grade 12 editorial build, **not** that unresolved source, accessibility, Maryland indicator mapping or live-browser gates have passed.
 
+## Follow-up build · November 24, 2026
+
+- All 16 Grade 11–12 units now have six Part A questions each (66 Grade 11, 30 Grade 12). The three added questions per unit assess interpretation, application or evidence selection. Previous response positions and answer keys carry over.
+- The 12-point teacher rubric now describes the evidence for each score level. Parts B and C are assessed separately from the automatic Part A score. Grade 12 retains the documented senior research product.
+- Static validation passed for 96 distinct prompts and answer keys. A simulated-DOM test exercised scoring, feedback, saved responses, copying and clearing across all 16 units. Desktop and mobile classroom acceptance and assistive-technology testing remain release gates.
+- The source ledger records four passage- or record-level findings. The scarcity lesson now links the relevant opportunity-cost textbook section. The Maryland crosswalk identifies four exact objectives and the evidence still needed for full alignment.
+- The four courses remain interactive drafts. Full source verification, official alignment review, accessibility, and summative validity remain open.
+
+### Source verification and browser follow-up · November 24, 2026
+
+- Reviewed nine additional claims. Eight are supported at the scope described in the [source ledger](2026-11-24-grades9-12-source-to-claim-ledger.md). The Soviet Union row is partial because the departure chronology is documented and the evidence needed to compare economic and political causes is incomplete.
+- Added item-level readings to four lessons. These cover the 1938 Fair Labor Standards Act, the Versailles treaty clauses, the market equilibrium model and the demographic balancing equation.
+- In public desktop Chromium, Grade 9 Unit 9.9 and Grade 10 Unit 10.7 rendered their forms and reported incomplete submissions with a pending total. The Grade 11 picker moved from 11.10 to 11.11 and updated the address. These checks used the current deployment.
+- Added a Playwright check for the review branch covering assessment scoring and reset across 36 units at desktop and mobile widths, plus saved responses, unit isolation and desktop clipboard for Grades 11–12. All 36 unit assessments passed at both viewport settings in [GitHub Actions run 45517830828](https://github.com/wdwedu/examine-the-past-home/actions/runs/45517830828) on the review build. It does not cover iOS Safari, screen readers, or lesson reading accessibility.
+
+### Maryland alignment follow-up · November 24, 2026
+
+Grade 11 Units 11.8–11.10 (World War I through the Cold War) now connect 12 lessons to 11 specific objectives in the Maryland Modern World History Framework. The Standards and Objectives panels name what students are expected to learn. Closure asks them to demonstrate it. The three unit assessments add a written argument and guidance for teachers on what to look for. The [standards crosswalk](2026-11-24-grades9-12-maryland-standards-crosswalk-queue.md) identifies the cases assessed and the ones still needed.
+
+The [browser check](https://github.com/wdwedu/examine-the-past-home/actions/runs/45519906121) passed at desktop and phone widths on the review build. It verified that the 12 lesson pages display the Maryland objectives and exit tickets and that the three unit assessments display the new writing prompts, source links and teacher guidance. The 36 assessment behavior checks also passed.
+
+This update does not close the Maryland release gate. The 28 other Grade 11 lessons and the remaining Grades 9, 10 and 12 objectives still need lesson-level review. That includes district or local elective expectations where appropriate.
+
+### Maryland alignment follow-up · November 25, 2026
+
+Units 11.5–11.7 and 11.11 add 15 Grade 11 lesson maps, each with a Maryland objective and a matching student task. Four unit assessments add focused written arguments. The running total is 27 of 40 Grade 11 lessons and seven of 11 Grade 11 unit assessments. The [standards crosswalk](2026-11-24-grades9-12-maryland-standards-crosswalk-queue.md#progress-and-remaining-work--november-25-2026) lists the 13 remaining Grade 11 lessons by unit, exact work by grade, and the course-level coverage gaps to check after lesson mapping.
+
+The [desktop and phone-width browser checks](https://github.com/wdwedu/examine-the-past-home/actions/runs/45613777281) passed for all 36 unit assessments and the objectives and closing tasks in all 27 mapped Grade 11 lessons. The written arguments and teacher guidance were also checked in all seven mapped units.
+
+The source ledger currently has 123 open claims, five partly verified claims, and eight supported claims. This mapping batch supplements the lesson readings. Full source verification remains open.
+
+### Grade 11 lesson mapping completed · November 25, 2026
+
+The final Grade 11 batch covers 13 lessons in Units 11.1–11.4, with four topic-specific unit writing tasks and teacher guidance. Across Grade 11, 36 lessons use specific Maryland history objectives and four use Standard 6.0 inquiry skills. All 40 have closing tasks and success criteria. The [tracker](2026-11-24-grades9-12-maryland-standards-crosswalk-queue.md#progress-and-remaining-work--november-25-2026) identifies the outstanding course-level coverage review, including omitted content objectives and named cases.
+
+The [browser checks](https://github.com/wdwedu/examine-the-past-home/actions/runs/45619611080) passed for all 36 unit assessments and the objectives and closing tasks on all 40 Grade 11 lesson pages at desktop and phone widths. They also checked the writing tasks and teacher guidance for all 11 Grade 11 units. The course coverage inventory links 30 of the 83 state content objectives to a designated task and identifies 53 for follow-up. Some linked objectives still require additional named cases.
+
+### Grade 11 coverage expansion · November 25, 2026
+
+Eight case studies expand the course on six lesson pages. Seven previously unlinked objectives now have a student task and review criteria. A five-power Atlantic comparison adds depth to MWH.1.2.a. The tracker now shows 37 of 83 numbered objectives with a designated task, including all nine in Section 1. Course-level coverage for all named regions and cases remains open.
+
+The source ledger adds two supported claims and one partly verified claim. It now records 120 open claims, six partly verified claims, and ten supported claims.
+
+The [browser checks](https://github.com/wdwedu/examine-the-past-home/actions/runs/45708010891) passed at desktop and phone widths. They covered the 40 Grade 11 lesson pages, all 36 high-school unit assessments, and navigation, reading content, source links, and editable response fields for all eight new case studies. The link checks confirmed the destinations listed on the pages. They do not establish external source availability on school networks or assistive-technology conformance.
+
+### Grade 11 industrialization, imperialism, and nationalism · November 25, 2026
+
+Twelve new case studies give the previously unlinked Section 2 objectives a designated student task. Grade 11 now links 49 of 83 content objectives to a task, including all 34 numbered objectives in Sections 1 and 2. The [Maryland tracker](2026-11-24-grades9-12-maryland-standards-crosswalk-queue.md#grade-11-course-coverage-by-maryland-objective) lists 21 objectives still open in Section 3 and 13 in Section 4. A designated task can cover only part of an objective.
+
+The source ledger now records 118 open claims, six partly verified claims, and 12 supported claims.
+
+The [browser run](https://github.com/wdwedu/examine-the-past-home/actions/runs/45728795760) passed at desktop and phone widths for all 40 Grade 11 lessons, all 20 case studies, and all 36 high-school unit assessments. For the case studies, it checked in-page navigation, visible reading and prompt text, the displayed source destinations, and editable response fields.
+
+### Grade 11 world wars, independence, and the Cold War · November 25
+
+The draft adds 21 Grade 11 Guided Practice case studies across 11 lessons. All 32 Maryland Section 3 objectives now have a designated student task, bringing the course total to 70 of 83. A designated task can cover only part of the objective. The [Maryland tracker](2026-11-24-grades9-12-maryland-standards-crosswalk-queue.md#grade-11-course-coverage-by-maryland-objective) lists all 13 unlinked Section 4 objectives and records the location of each new case study.
+
+The [browser run](https://github.com/wdwedu/examine-the-past-home/actions/runs/45732611621) passed for 40 Grade 11 lessons, 41 case studies, and 36 unit assessments at desktop and phone widths in Chromium. Case-study checks covered navigation, displayed readings and prompts, source destinations, and editable response fields.
+
+Three Grade 11 claims gained supporting passages in the source ledger. The ledger now records 115 open claims, six partly verified claims, and 15 supported claims.
+
+### Grade 11 globalization and human rights · November 25
+
+This build adds 13 case studies to six Grade 11 lessons. All 17 Maryland Section 4 objectives have a designated student task, and the course links all 83 numbered content objectives to tasks. The [Maryland tracker](2026-11-24-grades9-12-maryland-standards-crosswalk-queue.md#grade-11-course-coverage-by-maryland-objective) lists where students respond and identifies named cases and skills that require a fuller review.
+
+The source ledger adds supporting passages for the United Nations and the Universal Declaration of Human Rights. It now records 115 open claims, four partly verified claims, and 17 supported claims.
+
+The [desktop and phone-width Chromium run](https://github.com/wdwedu/examine-the-past-home/actions/runs/45738369604) passed for all 40 Grade 11 lesson pages, 54 case studies, and 36 high-school unit assessments. It checked in-page navigation, displayed readings and source destinations, and editable response fields. Safari, assistive technology, and public deployment acceptance remain open.
+
+### Grade 9 Reconstruction review, Gilded Age, and Progressivism · November 26
+
+Nine Grade 9 lesson pages now show a Maryland framework objective and a matching exit ticket with linked sources and criteria. The opening eight lessons cover Units 9.1 and 9.2. The ninth compares Mendez and Brown in Unit 9.9. Reconstruction is labeled as prior-grade review, Big Business as a bridge-unit match, and the other seven as high-school content matches. Thirty-six Grade 9 lesson mappings remain. Three Grade 9 claims gained supporting evidence. The ledger now records 112 open, four partly verified, and 20 supported claims.
+
+The [desktop and phone-width Chromium run](https://github.com/wdwedu/examine-the-past-home/actions/runs/45813111861) passed for the nine updated Grade 9 lessons, all 40 Grade 11 lesson pages and 54 case studies, and all 36 high-school unit assessments. The Grade 9 checks covered framework and source destinations, the link to Closure, the Mendez–Brown reading, and editable exit tickets.
+
+### Grade 9 Imperialism and Expansion · November 26
+
+Unit 9.3 adds Maryland objectives USH.1.2.a–d to all three lessons. The guided readings and exit tickets cover motives for expansion, causes and outcomes of the war with Spain, Hawaiʻi and the Philippines, and U.S. involvement in Panama, China, and Japan. The unit assessment now asks students to interpret the territorial terms of the Treaty of Paris and compare consequences across cases. The final-assessment links in all Grade 9 lessons now open their scored assessment pages. This brings Grade 9 to 12 of 45 mapped lessons. The source ledger records 109 open, four partly verified, and 23 supported claims.
+
+### Grade 9 World War I · November 26
+
+Unit 9.4 now addresses USH.2.1.a–g through three source-linked exit tickets and a revised scored assessment. The July Crisis lesson compares two 1914 diplomatic reports and establishes the international context. The updated assessment examines neutrality, the 1918 Allied offensive, mobilization, restrictions on dissent, constitutional change and League membership. The Red Scare case introduces immigration enforcement and repression. Course-level review still needs evidence of surveillance and effects across more groups. Grade 9 now has 15 of 45 lessons with exact mappings. The source ledger records 106 open, four partly verified, and 26 supported claims.
+
+### Grade 9 The Roaring Twenties · November 26
+
+Unit 9.5 adds four source-linked readings and exit tickets addressing USH.2.2.a–g. Topics include women’s changing roles, the Scopes trial, Black cultural and political organizing, citizenship and immigration, Prohibition’s results, and the car market. The revised scored assessment includes three primary statutes and a historical estimate of drinking during Prohibition. The USH.2.2.e task uses selected cases. Broader effects across groups remain open. Grade 9 now has 19 of 45 lessons with exact mappings. The source ledger records 102 open, four partly verified, and 30 supported claims.
+
+### Grade 9 Great Depression and New Deal · November 27
+
+Unit 9.6 adds four focused readings and exit tickets addressing USH.2.3.a–d. Students distinguish the market crash from later banking panics, compare the effects of unemployment, drought and discrimination, and use dated evidence to evaluate who benefited from New Deal programs and when. The scored assessment includes the original Wagner Act and a bank-suspension data source. Grade 9 now has 23 of 45 lessons with exact mappings. The source ledger records 99 open, four partly verified, and 33 supported claims.
+
+### Grade 9 World War II · November 27
+
+Unit 9.7 adds source-linked readings and exit tickets to the five existing lessons and maps USH.2.4.a–f and USH.2.5.a–c. It compares prewar expansion, U.S. entry, the Holocaust and U.S. rescue policy, home-front mobilization and incarceration, and military decisions and postwar institutions. The assessment adds the United States Holocaust Memorial Museum’s refugee-policy history to the packet. The home-front task uses Japanese American incarceration as its Asian American case. The postwar task checks the institutions’ distinct roles and early examples. Broader impact evaluation remains open. Grade 9 now has 28 of 45 lessons with documented mappings. The source ledger records 94 open, four partly verified, and 38 supported claims.
+
+### Grade 9 Cold War · November 27
+
+Unit 9.8 adds source-linked readings and exit tickets to all four existing lessons. It addresses USH.3.2.a–f and selected Vietnam objectives in USH.3.4. New evidence includes opposing diplomatic views, the Korean armistice, U.S. loyalty policy, civil-defense material, a Cuban diplomatic perspective, and Vietnam-era student protest. Broader antiwar effects, Korean firsthand perspectives, and Vietnam–Watergate reform links remain open. The revised assessment uses a Cuban Missile Crisis document and a written comparison of containment in different regions. Grade 9 now has 32 of 45 lessons with documented mappings. The source ledger records 90 open, four partly verified, and 42 supported claims.
+
+### Grade 9 Civil Rights and Social Change · November 27
+
+Unit 9.9 retains the Brown and Mendez comparison, corrects the signing date of Executive Order 10730, and adds four source-linked exit tickets. The five lessons cover selected cases for seven USH.3.3 objectives. The revised assessment tests evidence of organizing, implementation, and voter registration. Further coverage across freedom movements and the broader outcomes of Great Society and immigration policy remains open. Grade 9 now has 36 of 45 lessons with documented mappings. The source ledger records 86 open, four partly verified, and 46 supported claims.
+
+### Grade 9 America in the Late Twentieth Century · November 27
+
+Unit 9.10 adds source-linked exit tickets across the four existing lessons. They address selected cases for ten Maryland objectives. The scored assessment retains its 27-point structure and asks students to weigh evidence from the Nixon tape and federal Census data alongside the other documents. Grade 9 now has 40 of 45 lessons with documented mappings. The source ledger records 82 open, four partly verified, and 50 supported claims. The Maryland tracker records the remaining scope of the unit’s composite objectives.
+
+### Grade 9 The United States in the Twenty-First Century · November 28
+
+Unit 9.11 adds source-linked exit tickets across the four existing lessons. The lessons address selected cases for six Maryland objectives. The 27-point assessment uses a congressional authorization, federal survey results, a Supreme Court ruling, and the Paris Agreement. All 11 Grade 9 units have been reviewed. Grade 9 now has 44 of 45 lessons with documented mappings. The July Crisis lesson serves as background for U.S. entry into World War I. The crosswalk lists outstanding objective coverage and evidence breadth. The source ledger records 78 open, four partly verified, and 54 supported claims.
+
+### Grade 10 Foundations of Democracy · November 28
+
+Unit 10.1 links three revised lessons and source-based exit tickets to selected cases for GOV.1.2.a–c and GOV.1.2.e. The 27-point assessment incorporates the 1777 Massachusetts petition for freedom and the Seventeenth Amendment as primary evidence. The Grade 10 crosswalk now has four documented lesson matches, including the earlier partial elections match. The source ledger records 75 open, four partly verified, and 57 supported claims. The next unit takes up the Articles of Confederation and the Constitution.
+
+The scorecard and gates below record the original audit baseline.
+
 ## Executive scorecard
 | Grade | Lessons | Units | Distinct lesson checks | Source records | Mean context-panel reading |
 |---|---:|---:|---:|---:|---:|

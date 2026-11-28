@@ -66,5 +66,5 @@ function render(d){
  result.scrollIntoView({behavior:"smooth",block:"start"});
  });
 }
-fetch(root+"assets/high-school-assessments-data.json?v=20261119-locked1").then(function(r){if(!r.ok)throw Error("Data unavailable");return r.json()}).then(function(all){if(!all.units[key])throw Error("Unknown unit "+key);render(all.units[key])}).catch(function(err){console.error(err);page.textContent="Assessment unavailable. Return to the unit and try again."});
+fetch(root+"assets/high-school-assessments-data.json?v=20261128-twenty-first-century").then(function(r){if(!r.ok)throw Error("Data unavailable");return r.json()}).then(function(all){if(!all.units[key])throw Error("Unknown unit "+key);render(all.units[key])}).catch(function(err){console.error(err);page.textContent="Assessment unavailable. Return to the unit and try again."});
 })();

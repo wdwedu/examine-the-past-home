@@ -415,35 +415,35 @@
           "slug": "why-did-america-become-an-overseas-power",
           "title": "Why Did America Become an Overseas Power?",
           "essential": "What motivated U.S. overseas expansion, and who resisted it?",
-          "task": "Write a claim about Why Did America Become an Overseas Power? with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Identify a racial, economic, political, and strategic motive for overseas expansion. Decide which two best explain the U.S. push to annex Hawaiʻi. Use the sources to explain why, and identify whose interests one author left out."
         },
         {
           "slug": "the-spanish-american-war",
           "title": "The Spanish-American War",
           "essential": "How did a short war create long-term imperial questions?",
-          "task": "Write a claim about The Spanish-American War with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Explain one condition and one event that pushed the United States toward war with Spain. Use Articles I–III to identify two territorial outcomes. Then compare how Native Hawaiians and Filipinos resisted U.S. control, and explain one consequence for each."
         },
         {
           "slug": "america-s-changing-foreign-policy",
           "title": "America's Changing Foreign Policy",
           "essential": "How did U.S. foreign policy combine ideals, investment, and coercion?",
-          "task": "Write a claim about America's Changing Foreign Policy with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "For Panama, China, and Japan, name the policy or agreement and explain why U.S. officials pursued it and what followed. Cite a detail for each case. Compare two cases and identify one perspective missing from the records."
         }
       ],
       "sources": [
         {
-          "label": "Document A · De Lôme Letter",
-          "title": "De Lôme Letter",
-          "creator": "Spanish Ambassador Enrique Dupuy de Lôme",
-          "date": "1898",
-          "url": "https://www.archives.gov/milestone-documents/delome-letter",
-          "sourceUrl": "https://www.archives.gov/milestone-documents/delome-letter",
-          "sourceType": "Primary source: diplomatic correspondence",
-          "excerpt": "Diplomatic criticism of McKinley became public amid Cuban independence struggles; a published letter reveals one official's viewpoint, not the reasons of every American.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
+          "label": "Document A · Treaty of Paris",
+          "title": "Treaty of Paris, Articles I–III",
+          "creator": "United States and Spain",
+          "date": "December 10, 1898",
+          "url": "https://avalon.law.yale.edu/19th_century/sp1898.asp",
+          "sourceUrl": "https://avalon.law.yale.edu/19th_century/sp1898.asp",
+          "sourceType": "Primary source: peace treaty (Yale Avalon transcript)",
+          "excerpt": "Spain relinquished sovereignty over Cuba and ceded Puerto Rico, Guam, and the Philippines to the United States.",
+          "limitation": "The treaty gives the terms approved by the two governments. It does not represent the views of people across the affected territories.",
           "documentExcerpt": "",
-          "sourceNote": "Diplomatic criticism of McKinley became public amid Cuban independence struggles; a published letter reveals one official's viewpoint, not the reasons of every American.",
-          "lessonContext": "Late nineteenth-century U.S. advocates of overseas power emphasized commerce, naval strategy, competition, and ideas of national prestige. American involvement extended to Pacific and Caribbean territories. Commercial expansion, strategic coaling stations, naval planning, and ideological claims about national destiny worked together in late-nineteenth-century debates. An overseas possession could be described as both a market opportunity and a military asset. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
+          "sourceNote": "Compare the terms used for Cuba in Article I with the cessions in Articles II and III.",
+          "lessonContext": "Cuban revolutionaries had been fighting Spain before U.S. entry. The explosion of the USS Maine intensified public pressure for war. Filipino revolutionaries had already declared independence when the treaty was signed."
         },
         {
           "label": "Document B · Hawaiian Annexation Resolution",
@@ -454,7 +454,7 @@
           "sourceUrl": "https://www.archives.gov/milestone-documents/joint-resolution-for-annexing-the-hawaiian-islands",
           "sourceType": "Primary source: federal resolution",
           "excerpt": "The resolution records a congressional claim to annex Hawaii, but it does not prove all Native Hawaiians consented to annexation.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
+          "limitation": "The resolution records the decision of the U.S. Congress. Compare it with the 1897 petition to examine Native Hawaiian opposition.",
           "documentExcerpt": "",
           "sourceNote": "The resolution records a congressional claim to annex Hawaii, but it does not prove all Native Hawaiians consented to annexation.",
           "lessonContext": "The 1898 Spanish–American War was influenced by Cuban independence struggles, sensational press coverage, and U.S. strategic interests. The explosion of the USS Maine intensified public pressure, but its cause was not definitively established at the time. Cuban independence activists had struggled against Spanish colonial rule before U.S. intervention. A U.S. -centered account can wrongly make Cubans disappear from the origins of the conflict. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
@@ -463,12 +463,12 @@
           "label": "Document C · Roosevelt Corollary",
           "title": "Roosevelt Corollary",
           "creator": "President Theodore Roosevelt",
-          "date": "1905",
+          "date": "December 6, 1904 (message)",
           "url": "https://www.archives.gov/milestone-documents/roosevelt-corollary",
           "sourceUrl": "https://www.archives.gov/milestone-documents/roosevelt-corollary",
           "sourceType": "Primary source: presidential policy statement",
           "excerpt": "The corollary presented a justification for U.S. intervention in the Western Hemisphere; stated policy and effects on local sovereignty must be distinguished.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
+          "limitation": "The message explains Roosevelt’s rationale for intervention. It cannot establish how local governments or communities responded to a particular intervention.",
           "documentExcerpt": "",
           "sourceNote": "The corollary presented a justification for U.S. intervention in the Western Hemisphere; stated policy and effects on local sovereignty must be distinguished.",
           "lessonContext": "The Open Door notes sought equal commercial opportunity in China amid imperial competition. Theodore Roosevelt's 1904 corollary to the Monroe Doctrine justified intervention in parts of Latin America. The Roosevelt Corollary framed intervention as a way of preventing European interference, but its application increased U.S. power over neighboring countries' affairs. Stated security aims and actual power relations may be different. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
@@ -488,14 +488,14 @@
       ],
       "questions": [
         {
-          "prompt": "The de Lôme letter was written by a Spanish diplomat, then published in a U.S. newspaper. What most needs consideration before interpreting U.S. reaction?",
+          "prompt": "Which comparison correctly distinguishes Cuba from the Philippines in Articles I and III?",
           "choices": [
-            "Whether all readers understood the translation in exactly the same way",
-            "The letter's original purpose and how publication changed its audience",
-            "Whether the Spanish diplomat represented the opinion of every Cuban resident"
+            "Both were ceded to the United States.",
+            "Spain relinquished sovereignty over Cuba and ceded the Philippines to the United States.",
+            "Spain relinquished sovereignty over the Philippines and ceded Cuba to the United States."
           ],
           "answer": 1,
-          "explain": "A privately addressed diplomatic letter acquired a new purpose and audience through publication."
+          "explain": "Article I provides for Spain to relinquish sovereignty over Cuba and anticipates U.S. occupation. Article III cedes the Philippines to the United States."
         },
         {
           "prompt": "Congress approved Hawaii's annexation in 1898. What additional evidence is needed to investigate consent?",
@@ -549,21 +549,21 @@
         }
       ],
       "matchingOptions": [
-        "De Lôme Letter",
+        "Treaty of Paris",
         "Hawaiian Annexation Resolution",
         "Roosevelt Corollary"
       ],
       "matchingPrompts": [
         {
-          "prompt": "Which original record helps investigate De Lôme Letter and its historical context?",
+          "prompt": "Which record distinguishes relinquishing sovereignty over Cuba from ceding the Philippines?",
           "answer": 0
         },
         {
-          "prompt": "Which original record helps investigate Hawaiian Annexation Resolution and its historical context?",
+          "prompt": "Which record shows what Congress did after the earlier annexation treaty stalled?",
           "answer": 1
         },
         {
-          "prompt": "Which original record helps investigate Roosevelt Corollary and its historical context?",
+          "prompt": "Which record gives Roosevelt’s rationale for U.S. intervention in the Western Hemisphere?",
           "answer": 2
         }
       ],
@@ -579,21 +579,21 @@
         2
       ],
       "conclusions": [
-        "Document A records a position or record from 1898, but it needs context to support claims about historical effects.",
+        "The Treaty of Paris establishes how Spain and the United States handled Cuba and the Philippines. It leaves open how residents responded.",
         "The 1898 congressional annexation resolution proves that every Native Hawaiian consented to U.S. annexation.",
-        "Documents B and C can help historians compare how evidence, policy and experience relate to imperialism and expansion."
+        "Documents B and C provide evidence of two different forms of U.S. power: annexation and a claimed right to intervene."
       ],
       "conclusionKey": [
         true,
         false,
         true
       ],
-      "writing": "Did overseas expansion advance American ideals or contradict self-government? Construct a qualified historical argument using at least three specific facts supported by two original records from this unit and one other kind of evidence (such as testimony, a map, statistics, or a carefully attributed secondary interpretation). Explain each source's date and perspective, compare experiences of affected communities, discuss at least one limitation, and address a plausible counterargument.",
+      "writing": "To what extent did U.S. imperial expansion between 1898 and 1908 uphold self-government? Explain which motive mattered most in one decision, how the war with Spain changed control of two territories, and how Hawaiʻi or the Philippines illustrates a consequence for the people affected. Compare one of those examples with U.S. involvement in Panama, China, or Japan. Cite two primary records and one corroborating source from the unit, address a plausible counterargument, and explain one limitation in the evidence.",
       "challenge": "Create a museum exhibit or document-based investigation responding to: Did overseas expansion advance American ideals or contradict self-government? Use four attributed sources, a chronological visualization, two perspectives, an evidence limitation and a defended curator thesis.",
-      "standards": "Maryland 2025 High School United States History Framework; historical inquiry and relevant unit content. Exact indicator crosswalk pending.",
-      "framework": "https://msde.maryland.gov/media/17926",
-      "sourceAudit": "Original documents linked to the National Archives, Library of Congress, presidential libraries, or National September 11 Memorial; source cards contain instructional summaries, not verbatim transcriptions. Verify original collection item, creator, and date before citing.",
-      "sampleAnswer": "The question raised in Imperialism and Expansion is: Did overseas expansion advance American ideals or contradict self-government? The evidence suggests that decisions and events changed institutions and opportunities, but the results differed among people and places. A defensible argument requires attention to whom a policy or movement affected, not only its supporters' intentions.\n\nDocument A (De Lôme Letter, 1898) provides one perspective: Diplomatic criticism of McKinley became public amid Cuban independence struggles; a published letter reveals one official's viewpoint, not the reasons of every American. Document B (Hawaiian Annexation Resolution, 1898) adds another: The resolution records a congressional claim to annex Hawaii, but it does not prove all Native Hawaiians consented to annexation. These records identify choices or experiences, but their authors and purposes must be considered before treating them as complete accounts.\n\nDocument C (Roosevelt Corollary, 1905) supplies further evidence: The corollary presented a justification for U.S. A historian should test these records against different evidence such as the observations of affected communities, independent statistics, archaeological evidence when relevant, and the unit's contextual lesson reading. The sources do not necessarily measure results by themselves.\n\nA reasonable counterargument might emphasize the benefits or stated goals of these developments. Those claims deserve evaluation, but they do not eliminate unintended consequences, unequal impacts or limits of the evidence. I would therefore defend a qualified conclusion and explain which further sources might change it."
+      "standards": "Maryland High School United States History Framework (June 2025), USH.1.2.a–d. The lesson exit tickets also assess cases the written assessment lets students choose among.",
+      "framework": "https://msde.maryland.gov/media/17926#page=10",
+      "sourceAudit": "The evidence packet links original government records and a classroom overview. The three lesson pages also link to the Native Hawaiian petition, the Open Door correspondence, and the histories of the Philippine–American War, Panama, and U.S.–Japan diplomacy.",
+      "sampleAnswer": "U.S. expansion upheld self-government unevenly. Congress promised in the Teller Amendment that the United States would leave control of Cuba to its people after pacification. Articles I and III of the Treaty of Paris gave Cuba and the Philippines different outcomes. Spain relinquished sovereignty over Cuba, which the United States occupied temporarily. Spain ceded the Philippines to the United States. A demand for trade and naval access helps explain why U.S. leaders valued a presence in the Pacific. The Office of the Historian’s account shows that Filipino forces fought U.S. rule. The treaty reveals what the negotiators agreed to, but it does not tell us what Filipinos wanted.\n\nIn Panama, support for separation from Colombia helped Panamanian leaders secure recognition. The agreement for the canal also gave the United States authority in the Canal Zone. A counterargument is that recognition advanced Panamanian independence. That benefit was real and existed alongside limits on Panamanian control in the Canal Zone. To test how people experienced that trade-off, I would compare the diplomatic record with Panamanian sources on local views and canal governance."
     },
     "9.4": {
       "id": "9.4",
@@ -605,25 +605,25 @@
           "slug": "causes-of-world-war-i",
           "title": "Causes of World War I",
           "essential": "Why did a regional crisis become a global war in 1914?",
-          "task": "Write a claim about Causes of World War I with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Build a dated sequence from the Sarajevo assassination to Austria-Hungary’s declaration of war. Explain one way the crisis widened and use both U.S. diplomatic reports to show what was still uncertain in late July."
         },
         {
           "slug": "why-did-the-united-states-enter-the-war",
           "title": "Why Did the United States Enter the War?",
           "essential": "Why did U.S. neutrality give way to intervention in 1917?",
-          "task": "Write a claim about Why Did the United States Enter the War? with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Write two short responses. First, use the telegram and Wilson’s message to weigh two pressures on neutrality. Then explain how the American Expeditionary Forces contributed to the Allied offensive in 1918 and name one reason the outcome depended on more than U.S. forces."
         },
         {
           "slug": "americans-on-the-home-front",
           "title": "Americans on the Home Front",
           "essential": "How did total war change civil liberties and everyday life?",
-          "task": "Write a claim about Americans on the Home Front with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Make three evidence notes. Explain how draft registration and Black migration helped meet different wartime needs. Explain the purpose and one consequence of restricting dissent. Then compare one wartime argument used for each of the two amendments, naming one reason each reform also had roots before the war."
         },
         {
           "slug": "the-treaty-of-versailles",
           "title": "The Treaty of Versailles",
           "essential": "Did the postwar settlement establish a lasting peace?",
-          "task": "Write a claim about The Treaty of Versailles with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Explain why Wilson supported collective security and why Lodge sought limits on U.S. obligations under Article X. In a separate paragraph, use the 1918 law and one Red Scare case to trace how fear of radicalism led to a raid, detention, or deportation. Identify who was affected and what evidence would show whether others had similar experiences."
         }
       ],
       "sources": [
@@ -636,7 +636,7 @@
           "sourceUrl": "https://www.archives.gov/milestone-documents/zimmermann-telegram",
           "sourceType": "Primary source: diplomatic telegram",
           "excerpt": "Germany proposed cooperation with Mexico if the United States entered the war; the message helps explain U.S. debate but cannot alone explain all causes of intervention.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
+          "limitation": "The proposed alliance depended on the United States entering the war. The telegram does not record Mexican acceptance.",
           "documentExcerpt": "",
           "sourceNote": "Germany proposed cooperation with Mexico if the United States entered the war; the message helps explain U.S. debate but cannot alone explain all causes of intervention.",
           "lessonContext": "European imperial rivalries, militarization, alliance commitments, and nationalism created instability before 1914. The assassination of Archduke Franz Ferdinand in Sarajevo triggered a sequence of diplomatic ultimatums and mobilizations. The July Crisis involved decisions by Austria-Hungary, Serbia, Russia, Germany, France, and Britain under severe uncertainty. Alliances affected calculations but did not erase the agency of political leaders. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
@@ -650,120 +650,120 @@
           "sourceUrl": "https://www.archives.gov/milestone-documents/address-to-congress-declaration-of-war-against-germany",
           "sourceType": "Primary source: presidential address",
           "excerpt": "Wilson urged war against Germany and framed intervention in moral and security terms; a presidential appeal needs comparison with actual threats and public debate.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
+          "limitation": "Wilson’s address is the president’s public case to Congress. It does not establish the reasons individual legislators voted for or against war.",
           "documentExcerpt": "",
           "sourceNote": "Wilson urged war against Germany and framed intervention in moral and security terms; a presidential appeal needs comparison with actual threats and public debate.",
           "lessonContext": "The United States remained officially neutral when World War I began. German unrestricted submarine warfare endangered shipping, while the Zimmermann Telegram proposed an alliance between Germany and Mexico. Germany resumed unrestricted submarine warfare in 1917 after prior confrontations over attacks on ships. These maritime events interacted with American commercial relationships and public debate. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
         },
         {
-          "label": "Document C · Wilson's Fourteen Points",
-          "title": "Wilson's Fourteen Points",
-          "creator": "President Woodrow Wilson",
-          "date": "1918",
-          "url": "https://www.archives.gov/milestone-documents/president-woodrow-wilsons-14-points",
-          "sourceUrl": "https://www.archives.gov/milestone-documents/president-woodrow-wilsons-14-points",
-          "sourceType": "Primary source: peace proposal",
-          "excerpt": "Wilson argued for principles of postwar peace; proposed ideals do not demonstrate that the Treaty of Versailles fully carried them out.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
+          "label": "Document C · Versailles, Article X",
+          "title": "Covenant of the League of Nations, Article X",
+          "creator": "Treaty signatories",
+          "date": "June 28, 1919",
+          "url": "https://avalon.law.yale.edu/imt/parti.asp",
+          "sourceUrl": "https://avalon.law.yale.edu/imt/parti.asp",
+          "sourceType": "Primary source: treaty text",
+          "excerpt": "Member governments agreed to respect and preserve one another’s territorial integrity and political independence against outside aggression.",
+          "limitation": "The covenant describes a proposed obligation for members. Read the Senate debate to understand why the United States did not accept it.",
           "documentExcerpt": "",
-          "sourceNote": "Wilson argued for principles of postwar peace; proposed ideals do not demonstrate that the Treaty of Versailles fully carried them out.",
-          "lessonContext": "U.S. mobilization for World War I involved military conscription, industrial production, public campaigns, and changing work roles. The Great Migration of Black Americans from the South to northern and western cities accelerated across this era. War mobilization increased demand in certain industries while heightening disputes about wages, migration, and racial discrimination. Women took on jobs outside previous expectations, but these changes differed by occupation. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
+          "sourceNote": "Read Article X and identify what the League Council was expected to do.",
+          "lessonContext": "Compare Article X with Wilson’s Fourteen Points and the Senate reservations in the Versailles lesson."
         },
         {
-          "label": "Document D · Additional interpretation",
-          "title": "The Treaty of Versailles",
-          "creator": "Examine the Past curriculum editors",
-          "date": "2026 instructional summary",
-          "url": "../the-treaty-of-versailles/",
-          "sourceUrl": "../the-treaty-of-versailles/",
-          "sourceType": "Secondary source: lesson interpretation, NOT primary evidence",
-          "excerpt": "The 1919 Treaty of Versailles imposed territorial, military, and financial terms on Germany and established the League of Nations framework. President Wilson advocated collective security and self-determination, although the settlement applied those principles unevenly. The treaty included the League of Nations covenant, but its other provisions addressed reparations, territory, and military limitations. The agreement was more complex than a single punishment clause. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-          "limitation": "This is a modern instructional interpretation, not an original primary document. Use it for context; investigate originals for source-based claims.",
+          "label": "Document D · Black migration and war work",
+          "title": "The Great Migration, page 1",
+          "creator": "Smithsonian American Art Museum",
+          "date": "Historical account of early twentieth-century migration",
+          "url": "https://americanexperience.si.edu/wp-content/uploads/2014/07/The-Great-Migration.pdf",
+          "sourceUrl": "https://americanexperience.si.edu/wp-content/uploads/2014/07/The-Great-Migration.pdf",
+          "sourceType": "Secondary source: institutional history",
+          "excerpt": "Industries including railroads and steel mills recruited Black workers during World War I. The Pennsylvania Railroad recruited Black workers in 1916.",
+          "limitation": "The recruitment example shows why some employers recruited in the South. It does not establish why each worker moved or what conditions each faced.",
           "documentExcerpt": ""
         }
       ],
       "questions": [
         {
-          "prompt": "The Zimmermann Telegram and Wilson's April 1917 address relate to U.S. entry into war. What does the telegram establish most directly?",
+          "prompt": "What does the Zimmermann Telegram establish most directly?",
           "choices": [
-            "A German proposal involving Mexico during the war",
-            "That the treaty ending the war was already agreed",
-            "That every American supported intervention"
+            "Germany sought Mexican cooperation if the United States entered the war.",
+            "Mexico committed to the alliance before the U.S. declaration.",
+            "Germany withdrew its submarine policy in return for Mexican cooperation."
           ],
           "answer": 0,
-          "explain": "The telegram is evidence of one diplomatic proposal, not of universal U.S. opinion."
+          "explain": "The German proposal was conditional. The telegram does not show Mexican acceptance."
         },
         {
-          "prompt": "Wilson described U.S. entry as a defense of rights and peace. How should a historian test that explanation?",
+          "prompt": "Which explanation best connects the U.S. Meuse–Argonne campaign to the Allied outcome?",
           "choices": [
-            "Use the 1919 peace settlement to determine all causes in 1914",
-            "Compare his address with submarine-warfare reports, diplomatic records, and dissenting voices",
-            "Treat the address as a complete record of every motive"
+            "U.S. forces fought alone after other Allied armies withdrew.",
+            "The American First Army added pressure in one sector as other Allied armies fought elsewhere.",
+            "The campaign was already over before U.S. troops entered combat."
           ],
           "answer": 1,
-          "explain": "Policy speeches need context and corroboration."
+          "explain": "The Meuse–Argonne offensive was one part of the wider Allied effort on the Western Front."
         },
         {
-          "prompt": "The Fourteen Points proposed principles for peace. What additional source best tests their implementation?",
+          "prompt": "What does Document D help explain about wartime mobilization?",
           "choices": [
-            "A map of prewar alliances only",
-            "A 1917 U.S. military recruitment poster",
-            "The Treaty of Versailles terms and records of negotiations"
+            "Most draft registrants went to work for the railroads.",
+            "Military service was the primary reason Black workers migrated north.",
+            "Black migration helped some war-related employers meet labor demand."
           ],
           "answer": 2,
-          "explain": "Compare proposed principles with negotiated outcomes."
+          "explain": "The railroad example connects Black migration with new demand for workers in wartime industries."
         },
         {
-          "prompt": "Source A is a secret telegram; Source B is a public address. What is the most important difference for interpretation?",
+          "prompt": "Why did Lodge and other reservationists question Article X?",
           "choices": [
-            "They were created for different audiences and political purposes",
-            "Public statements are always more reliable than private messages",
-            "The telegram cannot include any valid facts because it was secret"
+            "They wanted to preserve Congress’s authority over U.S. military commitments.",
+            "They favored giving the League Council control over Congress’s decisions.",
+            "They believed Article X applied only to nations that stayed outside the League."
           ],
           "answer": 0,
-          "explain": "Purpose and audience influence what each text reveals."
+          "explain": "Reservationists wanted to condition membership to protect congressional war powers."
         },
         {
-          "prompt": "A classmate claims that the assassination in Sarajevo alone caused the global war. What evidence challenges that explanation?",
+          "prompt": "What do the 1917 prohibition appeal and Wilson’s 1918 suffrage address have in common?",
           "choices": [
-            "A battle photograph from 1918 without source information",
-            "Earlier alliance commitments, militarization, and imperial rivalry",
-            "Only a biography of the assassin without international context"
+            "Both establish that the reform movements started after U.S. entry.",
+            "Both used wartime needs or wartime service to build a case for an existing reform.",
+            "Both show that congressional approval followed immediately."
           ],
           "answer": 1,
-          "explain": "Multiple long-term causes helped turn a regional crisis into wider conflict."
+          "explain": "Wartime arguments gave existing reforms new leverage. The movements predated U.S. entry."
         },
         {
-          "prompt": "Which is the strongest qualified conclusion about Wilson's wartime and postwar goals?",
+          "prompt": "Which comparison distinguishes wartime restrictions on speech from First Red Scare immigration enforcement?",
           "choices": [
-            "His public goals were identical to all Allied and defeated governments' goals",
-            "The Fourteen Points removed future international conflicts automatically",
-            "His stated goals influenced debate, but the peace settlement reflected negotiations and competing interests"
+            "Both depended on a constitutional amendment adopted after the war.",
+            "Both affected only noncitizens who had just entered the country.",
+            "The Debs case concerned speech and recruitment. Some Red Scare deportations used immigration law against noncitizens."
           ],
           "answer": 2,
-          "explain": "Policy proposals were shaped by conflict and compromise."
+          "explain": "The two episodes used different legal mechanisms, even though both involved government action against perceived threats."
         }
       ],
       "matchingOptions": [
         "Zimmermann Telegram",
         "Wilson's War Message",
-        "Wilson's Fourteen Points"
+        "Versailles, Article X"
       ],
       "matchingPrompts": [
         {
-          "prompt": "Which original record helps investigate Zimmermann Telegram and its historical context?",
+          "prompt": "Which document records a conditional German proposal involving Mexico?",
           "answer": 0
         },
         {
-          "prompt": "Which original record helps investigate Wilson's War Message and its historical context?",
+          "prompt": "Which document gives the president’s public case to Congress for entering the war?",
           "answer": 1
         },
         {
-          "prompt": "Which original record helps investigate Wilson's Fourteen Points and its historical context?",
+          "prompt": "Which document states the collective security obligation debated in the Senate?",
           "answer": 2
         }
       ],
-      "inquiryPrompt": "Why did the United States enter World War I and how far did war change democracy at home and abroad?",
+      "inquiryPrompt": "How did entry into World War I change what Americans expected the federal government to do?",
       "inquirySteps": [
         "Compare the sources and record their perspectives and limitations.",
         "Develop a focused historical question and identify which sources address it.",
@@ -775,21 +775,21 @@
         2
       ],
       "conclusions": [
-        "Wilson's Fourteen Points prove that the Treaty of Versailles adopted every American proposal.",
-        "Documents B and C can help historians compare how evidence, policy and experience relate to world war i.",
-        "Document A records a position or record from 1917, but it needs context to support claims about historical effects."
+        "Documents A and B reveal different positions on U.S. entry. One is a diplomatic proposal and the other is a public argument for war.",
+        "The Zimmermann Telegram establishes that Mexico formally entered the war against the United States.",
+        "Document C describes a League obligation. The Senate’s failure to give consent kept the United States from taking it on."
       ],
       "conclusionKey": [
-        false,
         true,
+        false,
         true
       ],
-      "writing": "Why did the United States enter World War I and how far did war change democracy at home and abroad? Construct a qualified historical argument using at least three specific facts supported by two original records from this unit and one other kind of evidence (such as testimony, a map, statistics, or a carefully attributed secondary interpretation). Explain each source's date and perspective, compare experiences of affected communities, discuss at least one limitation, and address a plausible counterargument.",
-      "challenge": "Create a museum exhibit or document-based investigation responding to: Why did the United States enter World War I and how far did war change democracy at home and abroad? Use four attributed sources, a chronological visualization, two perspectives, an evidence limitation and a defended curator thesis.",
-      "standards": "Maryland 2025 High School United States History Framework; historical inquiry and relevant unit content. Exact indicator crosswalk pending.",
-      "framework": "https://msde.maryland.gov/media/17926",
-      "sourceAudit": "Original documents linked to the National Archives, Library of Congress, presidential libraries, or National September 11 Memorial; source cards contain instructional summaries, not verbatim transcriptions. Verify original collection item, creator, and date before citing.",
-      "sampleAnswer": "The question raised in World War I is: Why did the United States enter World War I and how far did war change democracy at home and abroad? The evidence suggests that decisions and events changed institutions and opportunities, but the results differed among people and places. A defensible argument requires attention to whom a policy or movement affected, not only its supporters' intentions.\n\nDocument A (Zimmermann Telegram, 1917) provides one perspective: Germany proposed cooperation with Mexico if the United States entered the war; the message helps explain U.S. Document B (Wilson's War Message, April 2, 1917) adds another: Wilson urged war against Germany and framed intervention in moral and security terms; a presidential appeal needs comparison with actual threats and public debate. These records identify choices or experiences, but their authors and purposes must be considered before treating them as complete accounts.\n\nDocument C (Wilson's Fourteen Points, 1918) supplies further evidence: Wilson argued for principles of postwar peace; proposed ideals do not demonstrate that the Treaty of Versailles fully carried them out. A historian should test these records against different evidence such as the observations of affected communities, independent statistics, archaeological evidence when relevant, and the unit's contextual lesson reading. The sources do not necessarily measure results by themselves.\n\nA reasonable counterargument might emphasize the benefits or stated goals of these developments. Those claims deserve evaluation, but they do not eliminate unintended consequences, unequal impacts or limits of the evidence. I would therefore defend a qualified conclusion and explain which further sources might change it."
+      "writing": "How did entering World War I change the U.S. government’s role at home and abroad? First, weigh two pressures on neutrality. Then explain one domestic change involving migration and mobilization, civil liberties, or constitutional reform. Compare it with one change abroad involving the 1918 Allied offensive or the debate over League membership. Support your argument with two primary records and one corroborating source from the unit. Address a plausible counterargument and explain one limit of your evidence.",
+      "challenge": "Compare a wartime restriction on dissent with one First Red Scare immigration action. Use a statute, a case or contemporary account, and one historical interpretation. Explain how each policy was justified, whom it affected, and where the evidence supports or limits a comparison.",
+      "standards": "Maryland High School United States History Framework (June 2025), USH.2.1.a–g. Lesson exit tickets include evidence for objectives that are optional in the written performance task.",
+      "framework": "https://msde.maryland.gov/media/17926#page=11",
+      "sourceAudit": "Document summaries identify the passages to read. Return to the lesson readings for the draft records, wartime laws and court case, suffrage and prohibition appeals, and the Senate debate.",
+      "sampleAnswer": "U.S. entry increased the federal government’s role in mobilizing people at home, but participation in the war did not settle what obligations the country would accept afterward. The Zimmermann Telegram raised the possibility of a German alliance with Mexico. Wilson’s April 2 address shows why submarine attacks also mattered: they threatened neutral shipping even without a Mexican alliance. The telegram alone cannot explain what persuaded Congress.\n\nAt home, the federal government expanded its ability to raise an army through draft registration. National Archives records count roughly 24 million registrants. Registration is evidence of the system’s reach, but it does not reveal who served or how people felt about conscription.\n\nAbroad, Article X proposed that members protect one another against aggression. A supporter could argue that U.S. participation would help prevent another war. But the Senate debate shows that some senators wanted to protect Congress’s power over military commitments. The failed votes left the United States outside the League, even after it had fought alongside the Allies."
     },
     "9.5": {
       "id": "9.5",
@@ -801,165 +801,159 @@
           "slug": "a-changing-american-culture",
           "title": "A Changing American Culture",
           "essential": "What made the 1920s an era of cultural conflict as well as innovation?",
-          "task": "Write a claim about A Changing American Culture with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Use the Women’s Bureau report and the suffrage overview to explain one gain and one limit for women in the 1920s. Then use the Butler Act and the trial overview to explain what supporters wanted schools to teach and why opponents challenged the law."
         },
         {
           "slug": "the-harlem-renaissance",
           "title": "The Harlem Renaissance",
           "essential": "How did the Harlem Renaissance transform American cultural expression?",
-          "task": "Write a claim about The Harlem Renaissance with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Make three evidence notes. Connect the Great Migration, Harlem Renaissance, and Garvey’s UNIA to Black community power. Compare one Asian naturalization case with the Indian Citizenship Act or LULAC’s organizing. Then choose two examples of exclusion or intimidation from the reading and explain how their effects differed."
         },
         {
           "slug": "prohibition-and-social-conflict",
           "title": "Prohibition and Social Conflict",
           "essential": "Why did banning alcohol produce consequences reformers did not anticipate?",
-          "task": "Write a claim about Prohibition and Social Conflict with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Give two judgments about Prohibition, one about drinking and one about enforcement. Use the research estimates, the federal enforcement review, and the Eighteenth Amendment. Explain one limit of the evidence used to estimate drinking."
         },
         {
           "slug": "consumer-culture-and-economic-growth",
           "title": "Consumer Culture and Economic Growth",
           "essential": "How did credit and consumption conceal vulnerability in the 1920s economy?",
-          "task": "Write a claim about Consumer Culture and Economic Growth with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Build a three-step explanation linking the 1921 Federal Highway Act, auto production, and consumer demand. Contrast the effects of assembly-line production and installment credit. Use an advertisement to explain what companies promised and identify the extra evidence needed to know who could afford a car."
         }
       ],
       "sources": [
         {
-          "label": "Document A · Harlem Renaissance Primary-Source Collection",
-          "title": "Harlem Renaissance Primary-Source Collection",
-          "creator": "Library of Congress collections of period creators",
-          "date": "1920s–1930s",
-          "url": "https://www.loc.gov/classroom-materials/harlem-renaissance/",
-          "sourceUrl": "https://www.loc.gov/classroom-materials/harlem-renaissance/",
-          "sourceType": "Primary-source collection: historical images, writings, and recordings",
-          "excerpt": "Writers and artists created influential new work and debated identity and cultural expression; collection items must be examined individually with creator and date.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
-          "documentExcerpt": "",
-          "sourceNote": "Writers and artists created influential new work and debated identity and cultural expression; collection items must be examined individually with creator and date.",
-          "lessonContext": "Radio, cinema, automobiles, and mass advertising reshaped leisure and consumption in the 1920s. New forms of popular entertainment reached wider audiences, though access differed by income, geography, and race. Technologies such as radio encouraged shared national experiences while local communities continued to follow different values and practices. A popular image of a fashionable young city resident does not describe every woman in the 1920s. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
+          "label": "Document A · Tennessee Butler Act",
+          "title": "Tennessee Butler Act, chapter 27",
+          "creator": "Tennessee General Assembly",
+          "date": "March 21, 1925",
+          "url": "https://teva.contentdm.oclc.org/digital/collection/scopes/id/168",
+          "sourceUrl": "https://teva.contentdm.oclc.org/digital/collection/scopes/id/168",
+          "sourceType": "Primary source: state statute",
+          "excerpt": "Section 1 restricted teaching human evolution in schools supported by state funds. The provision made classroom teaching a matter of state law and set the terms of the charge against Scopes.",
+          "limitation": "The law establishes a restriction. Trial records are needed to examine how it was enforced and challenged.",
+          "documentExcerpt": ""
         },
         {
-          "label": "Document B · Nineteenth Amendment",
-          "title": "Nineteenth Amendment",
-          "creator": "United States Congress and ratifying states",
-          "date": "1920",
-          "url": "https://www.archives.gov/milestone-documents/19th-amendment",
-          "sourceUrl": "https://www.archives.gov/milestone-documents/19th-amendment",
-          "sourceType": "Primary source: constitutional amendment",
-          "excerpt": "The amendment prohibited denial of voting rights on account of sex; it did not remove every discriminatory voting barrier.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
-          "documentExcerpt": "",
-          "sourceNote": "The amendment prohibited denial of voting rights on account of sex; it did not remove every discriminatory voting barrier.",
-          "lessonContext": "The Harlem Renaissance brought influential Black writers, musicians, artists, and intellectuals into national and international conversations during the 1920s. Langston Hughes, Zora Neale Hurston, and other creators explored identity, community, and artistic freedom. The movement included poetry, visual art, theater, music, and political debate. Creators differed in how directly they addressed racial inequality and whether artistic independence should serve explicit political goals. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
-        },
-        {
-          "label": "Document C · Boulder Canyon Project Act",
-          "title": "Boulder Canyon Project Act",
+          "label": "Document B · Indian Citizenship Act",
+          "title": "Indian Citizenship Act",
           "creator": "United States Congress",
-          "date": "1928",
-          "url": "https://www.archives.gov/milestone-documents/boulder-canyon-project-act",
-          "sourceUrl": "https://www.archives.gov/milestone-documents/boulder-canyon-project-act",
-          "sourceType": "Primary source: federal legislation",
-          "excerpt": "Federal investment in a major water and power project reflects changing economic expectations, but legislation does not measure prosperity for every family.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
-          "documentExcerpt": "",
-          "sourceNote": "Federal investment in a major water and power project reflects changing economic expectations, but legislation does not measure prosperity for every family.",
-          "lessonContext": "The Eighteenth Amendment was ratified in 1919, and national Prohibition took effect in 1920 under the Volstead Act. Supporters associated alcohol restriction with family welfare, order, and reform. Support for Prohibition included reform organizations with different religious, public-health, and gender-related concerns. Opposition also drew on liberty, employment, and doubts about enforceability. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
+          "date": "June 2, 1924",
+          "url": "https://www.archives.gov/files/historical-docs/doc-content/images/indian-citizenship-act-1924.pdf",
+          "sourceUrl": "https://www.archives.gov/files/historical-docs/doc-content/images/indian-citizenship-act-1924.pdf",
+          "sourceType": "Primary source: federal statute",
+          "excerpt": "The act granted citizenship to U.S.-born Native people who did not already have it. It preserved rights to tribal or other property.",
+          "limitation": "Citizenship does not establish whether state voting restrictions were removed in practice.",
+          "documentExcerpt": ""
         },
         {
-          "label": "Document D · Additional interpretation",
-          "title": "Consumer Culture and Economic Growth",
-          "creator": "Examine the Past curriculum editors",
-          "date": "2026 instructional summary",
-          "url": "../consumer-culture-and-economic-growth/",
-          "sourceUrl": "../consumer-culture-and-economic-growth/",
-          "sourceType": "Secondary source: lesson interpretation, NOT primary evidence",
-          "excerpt": "Automobiles, appliances, and mass advertising expanded consumer markets in the 1920s. Installment credit allowed some families to buy goods over time, while stock speculation drew public attention. A family purchasing an automobile on credit might enjoy mobility while accepting monthly financial obligations. Low down payments could expand access but also make households vulnerable when income declined. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-          "limitation": "This is a modern instructional interpretation, not an original primary document. Use it for context; investigate originals for source-based claims.",
+          "label": "Document C · Federal Highway Act",
+          "title": "Federal Highway Act",
+          "creator": "United States Congress",
+          "date": "November 9, 1921",
+          "url": "https://www.govinfo.gov/content/pkg/STATUTE-42/pdf/STATUTE-42-Pg212.pdf",
+          "sourceUrl": "https://www.govinfo.gov/content/pkg/STATUTE-42/pdf/STATUTE-42-Pg212.pdf",
+          "sourceType": "Primary source: federal statute",
+          "excerpt": "The act provided federal support for road building in cooperation with the states. States and the federal government shared responsibility for developing the road network.",
+          "limitation": "The law establishes policy. Road records show where and when improvements occurred.",
+          "documentExcerpt": ""
+        },
+        {
+          "label": "Document D · Drinking during Prohibition",
+          "title": "Alcohol Consumption During Prohibition",
+          "creator": "Jeffrey A. Miron and Jeffrey Zwiebel",
+          "date": "1991",
+          "url": "https://www.nber.org/papers/w3675",
+          "sourceUrl": "https://www.nber.org/papers/w3675",
+          "sourceType": "Secondary source: historical research",
+          "excerpt": "The authors estimate that drinking fell sharply at first, then partly rebounded before repeal. Their estimates are based on indirect measures such as mortality and crime records.",
+          "limitation": "The study estimates consumption indirectly. It cannot tell us what every household or community did.",
           "documentExcerpt": ""
         }
       ],
       "questions": [
         {
-          "prompt": "The Library of Congress Harlem Renaissance source collection includes work by different creators. Why does that matter?",
+          "prompt": "What best explains how road policy and installment credit expanded the market for cars?",
           "choices": [
-            "Artistic work cannot provide historical evidence about public culture",
-            "All artists represented the same views because they lived in the same era",
-            "Each work's creator, medium, audience and date shape the claim it can support"
-          ],
-          "answer": 2,
-          "explain": "Cultural evidence requires attention to authorship and medium."
-        },
-        {
-          "prompt": "A student uses the Nineteenth Amendment to claim women had full ballot access in 1920. What is missing?",
-          "choices": [
-            "Evidence about state and local enforcement and other discriminatory voting barriers",
-            "The amendment's exact ratification year alone",
-            "A list of political cartoons unrelated to voting"
+            "Federal road aid improved travel while installment loans spread the timing of payments.",
+            "Federal road aid set loan rates while installment plans financed the road system.",
+            "The highway law fixed the price of cars while credit removed the obligation to pay."
           ],
           "answer": 0,
-          "explain": "Legal guarantees and actual access are different historical claims."
+          "explain": "Federal road aid and consumer credit addressed different barriers to using and purchasing a car."
         },
         {
-          "prompt": "The Boulder Canyon Project Act is evidence of federal support for an infrastructure project. What cannot be inferred from it alone?",
+          "prompt": "A student argues that new opportunities affected all women in the same way. Which evidence most directly tests that claim?",
           "choices": [
-            "That governments were making economic decisions in the 1920s",
-            "That every region and family benefited equally from resulting projects",
-            "That Congress debated and authorized federal infrastructure policy"
+            "An editorial praising women voters in one city",
+            "Women’s Bureau data and testimony about jobs and conditions across racial groups",
+            "One newspaper photograph of women shopping"
           ],
           "answer": 1,
-          "explain": "Authorization is not a nationwide equality measure."
+          "explain": "Employment records and worker accounts reveal differences obscured by a single image or opinion."
         },
         {
-          "prompt": "Which source combination most directly tests claims about uneven prosperity in the 1920s?",
+          "prompt": "How did the Great Migration, the Harlem Renaissance, and Garvey’s UNIA each contribute to Black community power?",
           "choices": [
-            "A single product catalog with no price dates",
-            "Only magazine advertisements for consumer products",
-            "Household wages, credit obligations and employment records from comparable years"
+            "All three used federal court cases as their principal method.",
+            "All three worked through one organization with the same goals.",
+            "Migration expanded urban networks, artists shaped public culture, and the UNIA organized collective action."
           ],
           "answer": 2,
-          "explain": "Prosperity requires measures beyond advertising."
+          "explain": "The developments reinforced one another in different ways through community networks, cultural expression, and organized activism."
         },
         {
-          "prompt": "How should a historian relate Harlem Renaissance art to the era's racial inequalities?",
+          "prompt": "Which statement correctly compares the Indian Citizenship Act with the Ozawa and Thind decisions?",
           "choices": [
-            "Interpret cultural innovation alongside legal, social and economic evidence",
-            "Assume artistic success meant discrimination had disappeared",
-            "Exclude cultural evidence when investigating political power"
+            "The act extended citizenship to U.S.-born Native people who lacked it, while the Court applied racial limits to naturalization in the two cases.",
+            "The act created the same naturalization procedure the Court ordered for both applicants.",
+            "The Court resolved voting disputes under the same law Congress used to confer citizenship."
           ],
           "answer": 0,
-          "explain": "Cultural achievement and unequal rights could coexist."
+          "explain": "The act concerned citizenship for U.S.-born Native people. The two decisions concerned eligibility to naturalize."
         },
         {
-          "prompt": "What is the strongest conclusion about the 1920s drawn from the unit's different kinds of evidence?",
+          "prompt": "Which judgment about Prohibition best fits the figures in Document D?",
           "choices": [
-            "Consumer expansion ensured long-term financial security for households",
-            "Innovation and expanded opportunities coexisted with political, racial and economic tensions",
-            "A single unified national culture replaced all local differences"
+            "The estimates prove the law was enforced equally across the country.",
+            "The estimates support an early decline and later rebound without measuring every illegal purchase.",
+            "The estimates show that repeal caused consumption to jump immediately to its previous level."
           ],
           "answer": 1,
-          "explain": "The evidence describes overlapping change and conflict."
+          "explain": "The estimates trace broad changes in consumption. Different evidence is needed for enforcement and local experiences."
+        },
+        {
+          "prompt": "What dispute did the Scopes trial bring into public view?",
+          "choices": [
+            "Whether federal road grants should reach rural Tennessee",
+            "Whether a state could bar the sale of biology textbooks to adults",
+            "Whether state-funded schools could teach a scientific explanation of human origins at odds with the religious view behind the law"
+          ],
+          "answer": 2,
+          "explain": "The dispute involved the state’s authority over public-school instruction and the place of religious beliefs in curriculum."
         }
       ],
       "matchingOptions": [
-        "Harlem Renaissance Primary-Source Collection",
-        "Nineteenth Amendment",
-        "Boulder Canyon Project Act"
+        "Tennessee Butler Act",
+        "Indian Citizenship Act",
+        "Federal Highway Act"
       ],
       "matchingPrompts": [
         {
-          "prompt": "Which original record helps investigate Harlem Renaissance Primary-Source Collection and its historical context?",
+          "prompt": "Which source states what Tennessee restricted in publicly supported schools?",
           "answer": 0
         },
         {
-          "prompt": "Which original record helps investigate Nineteenth Amendment and its historical context?",
+          "prompt": "Which source extends citizenship and protects rights to tribal or other property?",
           "answer": 1
         },
         {
-          "prompt": "Which original record helps investigate Boulder Canyon Project Act and its historical context?",
+          "prompt": "Which source establishes federal support for state road building?",
           "answer": 2
         }
       ],
-      "inquiryPrompt": "How did cultural innovation and changing consumer life coexist with conflict and inequality in the 1920s?",
+      "inquiryPrompt": "Whose choices expanded in the 1920s, and what kept others from gaining the same opportunities?",
       "inquirySteps": [
         "Compare the sources and record their perspectives and limitations.",
         "Develop a focused historical question and identify which sources address it.",
@@ -971,21 +965,21 @@
         2
       ],
       "conclusions": [
-        "Documents B and C can help historians compare how evidence, policy and experience relate to the roaring twenties.",
-        "Document A records a position or record from 1920s–1930s, but it needs context to support claims about historical effects.",
-        "Mass consumer advertising from the 1920s proves that every household could afford new products on equal terms."
+        "Documents A and B show how governments changed access to instruction and citizenship through different laws.",
+        "The Indian Citizenship Act and the Immigration Act of 1924 opened the same path to U.S. citizenship for people born outside the United States.",
+        "Document D supports a qualified judgment about drinking levels, while enforcement needs its own evidence."
       ],
       "conclusionKey": [
         true,
-        true,
-        false
+        false,
+        true
       ],
-      "writing": "How did cultural innovation and changing consumer life coexist with conflict and inequality in the 1920s? Construct a qualified historical argument using at least three specific facts supported by two original records from this unit and one other kind of evidence (such as testimony, a map, statistics, or a carefully attributed secondary interpretation). Explain each source's date and perspective, compare experiences of affected communities, discuss at least one limitation, and address a plausible counterargument.",
-      "challenge": "Create a museum exhibit or document-based investigation responding to: How did cultural innovation and changing consumer life coexist with conflict and inequality in the 1920s? Use four attributed sources, a chronological visualization, two perspectives, an evidence limitation and a defended curator thesis.",
-      "standards": "Maryland 2025 High School United States History Framework; historical inquiry and relevant unit content. Exact indicator crosswalk pending.",
-      "framework": "https://msde.maryland.gov/media/17926",
-      "sourceAudit": "Original documents linked to the National Archives, Library of Congress, presidential libraries, or National September 11 Memorial; source cards contain instructional summaries, not verbatim transcriptions. Verify original collection item, creator, and date before citing.",
-      "sampleAnswer": "The question raised in The Roaring Twenties is: How did cultural innovation and changing consumer life coexist with conflict and inequality in the 1920s? The evidence suggests that decisions and events changed institutions and opportunities, but the results differed among people and places. A defensible argument requires attention to whom a policy or movement affected, not only its supporters' intentions.\n\nDocument A (Harlem Renaissance Primary-Source Collection, 1920s–1930s) provides one perspective: Writers and artists created influential new work and debated identity and cultural expression; collection items must be examined individually with creator and date. Document B (Nineteenth Amendment, 1920) adds another: The amendment prohibited denial of voting rights on account of sex; it did not remove every discriminatory voting barrier. These records identify choices or experiences, but their authors and purposes must be considered before treating them as complete accounts.\n\nDocument C (Boulder Canyon Project Act, 1928) supplies further evidence: Federal investment in a major water and power project reflects changing economic expectations, but legislation does not measure prosperity for every family. A historian should test these records against different evidence such as the observations of affected communities, independent statistics, archaeological evidence when relevant, and the unit's contextual lesson reading. The sources do not necessarily measure results by themselves.\n\nA reasonable counterargument might emphasize the benefits or stated goals of these developments. Those claims deserve evaluation, but they do not eliminate unintended consequences, unequal impacts or limits of the evidence. I would therefore defend a qualified conclusion and explain which further sources might change it."
+      "writing": "Did the 1920s expand opportunity broadly or unevenly? Explain one economic change and one civic or cultural change. You may compare them through work, citizenship, schooling, Black organizing, or Prohibition. Use at least two primary records and one corroborating source from the unit. Explain whose opportunities changed, consider one credible counterargument, and identify a limit of one source.",
+      "challenge": "Compare two mechanisms of exclusion from the Harlem Renaissance lesson: a court ruling, immigration quota, land restriction, eugenics policy, or organized racial intimidation. Use two named records and identify a documented response or an additional source needed to establish how people resisted.",
+      "standards": "Maryland High School United States History Framework (June 2025), USH.2.2.a–g. The lesson exit tickets cover additional cases, including USH.2.2.e on exclusion and intimidation.",
+      "framework": "https://msde.maryland.gov/media/17926#page=12",
+      "sourceAudit": "Documents A–C establish what the laws provided. Document D reports a historical estimate. Return to the lesson sources for evidence of how each law or policy affected different groups.",
+      "sampleAnswer": "Opportunity expanded unevenly in the 1920s. The Federal Highway Act shows Congress supported better roads through federal aid to the states. The Smithsonian’s account of auto production explains that General Motors offered installment credit. Together these changes made car travel or ownership more practical for some people. A road law and company account do not establish that every household could finance a car.\n\nThe Indian Citizenship Act extended citizenship to U.S.-born Native people who lacked it and protected their rights to tribal or other property. This was a significant legal gain. Someone could argue that better transportation and expanded citizenship show broad opportunities. Both gains mattered, but their effects depended on practical access. I would look for state voter registration rules and records before claiming the citizenship law brought equal access to voting."
     },
     "9.6": {
       "id": "9.6",
@@ -997,25 +991,25 @@
           "slug": "the-stock-market-crash-and-economic-crisis",
           "title": "The Stock Market Crash and Economic Crisis",
           "essential": "Why did the Great Depression extend beyond the 1929 stock market crash?",
-          "task": "Write a claim about The Stock Market Crash and Economic Crisis with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Explain how buying stocks with borrowed money made losses worse when prices fell. Then use the banking history and FDIC’s bank-suspension table to explain how later panics affected lending and spending. Identify what a date or a bank count alone cannot prove."
         },
         {
           "slug": "living-through-the-great-depression",
           "title": "Living Through the Great Depression",
           "essential": "How did families and communities respond to prolonged economic hardship?",
-          "task": "Write a claim about Living Through the Great Depression with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Use Lange’s photo and two contextual readings to compare hardship in three settings: drought-stricken farm communities, workers or businesses facing falling demand, and Mexican-origin families facing pressure to leave. Add one example of employment or relief discrimination and explain one thing the photo cannot tell you."
         },
         {
           "slug": "franklin-roosevelt-s-new-deal",
           "title": "Franklin Roosevelt's New Deal",
           "essential": "How did the New Deal redefine federal responsibility for economic security?",
-          "task": "Write a claim about Franklin Roosevelt's New Deal with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Create a four-row evidence chart for banking, the TVA, labor bargaining, and old-age insurance. Name the problem and the response in each row. Use at least one implementation record to show who benefited or bore a cost. Explain how one program changed what federal, state, or private actors were expected to do."
         },
         {
           "slug": "did-the-new-deal-transform-government",
           "title": "Did the New Deal Transform Government?",
           "essential": "Was the New Deal a temporary emergency response or an enduring change?",
-          "task": "Write a claim about Did the New Deal Transform Government? with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Build a timeline with the 1935 Social Security Act, the first monthly benefits in 1940, and the 1950 coverage amendments. Use the Wagner Act or the Fair Labor Standards Act for a second example. Explain what changed quickly, what took longer, and one way a law’s reach could fall short of its promise."
         }
       ],
       "sources": [
@@ -1037,14 +1031,14 @@
           "label": "Document B · National Labor Relations Act",
           "title": "National Labor Relations Act",
           "creator": "United States Congress",
-          "date": "1935",
-          "url": "https://www.archives.gov/milestone-documents/national-labor-relations-act",
-          "sourceUrl": "https://www.archives.gov/milestone-documents/national-labor-relations-act",
+          "date": "July 5, 1935",
+          "url": "https://www.govinfo.gov/content/pkg/STATUTE-49/pdf/STATUTE-49-Pg449.pdf",
+          "sourceUrl": "https://www.govinfo.gov/content/pkg/STATUTE-49/pdf/STATUTE-49-Pg449.pdf",
           "sourceType": "Primary source: federal law",
           "excerpt": "The act protected collective bargaining rights for many workers; its exclusions and enforcement must be assessed separately.",
           "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
           "documentExcerpt": "",
-          "sourceNote": "The act protected collective bargaining rights for many workers; its exclusions and enforcement must be assessed separately.",
+          "sourceNote": "Read sections 2 and 7 in the law as enacted for coverage and organizing rights.",
           "lessonContext": "The Great Depression involved unemployment, falling incomes, foreclosures, and severe uncertainty. Dust Bowl conditions compounded hardship in parts of the Great Plains during the 1930s, contributing to migration. Conditions varied sharply among agricultural families, industrial workers, Black communities, Mexican Americans, and people who retained steady employment. National unemployment estimates can obscure those differences. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
         },
         {
@@ -1062,15 +1056,15 @@
           "lessonContext": "Franklin D. Roosevelt took office in 1933 and pursued banking reforms, emergency relief, public employment, and regulatory changes. Programs such as the Civilian Conservation Corps provided work, while the Social Security Act of 1935 established a national framework for old-age and other protections. The federal government pursued relief for immediate hardship, recovery of economic activity, and structural reform. These goals were related but not interchangeable, and programs met different criteria for success. Compare two relevant sources and identify one factual point on which they agree."
         },
         {
-          "label": "Document D · Additional interpretation",
-          "title": "Did the New Deal Transform Government?",
-          "creator": "Examine the Past curriculum editors",
-          "date": "2026 instructional summary",
-          "url": "../did-the-new-deal-transform-government/",
-          "sourceUrl": "../did-the-new-deal-transform-government/",
-          "sourceType": "Secondary source: lesson interpretation, NOT primary evidence",
-          "excerpt": "New Deal legislation expanded regulatory agencies, labor protections, and social insurance. The Wagner Act of 1935 strengthened collective-bargaining protections for many workers, while the Fair Labor Standards Act of 1938 established federal wage and hour standards. Permanent changes to regulation, labor law, and social insurance outlasted individual emergency programs. The Social Security framework and labor standards affected later generations beyond the immediate crisis. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-          "limitation": "This is a modern instructional interpretation, not an original primary document. Use it for context; investigate originals for source-based claims.",
+          "label": "Document D · Bank suspensions and deposit insurance",
+          "title": "Historical overview of the banking crisis and federal deposit insurance",
+          "creator": "Federal Deposit Insurance Corporation",
+          "date": "Retrospective agency history",
+          "url": "https://www.fdic.gov/resources/publications/managing-the-crisis/documents/managing-crisis-chronological-overview.pdf",
+          "sourceUrl": "https://www.fdic.gov/resources/publications/managing-the-crisis/documents/managing-crisis-chronological-overview.pdf",
+          "sourceType": "Secondary source: agency history with historical data",
+          "excerpt": "Table 1.1 counts commercial bank suspensions before federal deposit insurance began. The accompanying history dates the start of deposit insurance to January 1934 and identifies the initial coverage limit.",
+          "limitation": "A commercial bank suspension before 1934 and the later failure of an insured bank are different categories. Compare series only after checking their definitions.",
           "documentExcerpt": ""
         }
       ],
@@ -1106,24 +1100,24 @@
           "explain": "Legal intent and results are separate issues."
         },
         {
-          "prompt": "Why does the 1929 stock crash not by itself fully explain the Great Depression?",
+          "prompt": "How did the banking panics of 1930–31 deepen the economic crisis after the 1929 stock market crash?",
           "choices": [
-            "The crash had no connection to financial conditions",
-            "Banking weakness, demand changes, debt and international problems also shaped the downturn",
-            "Stock prices had never changed before October 1929"
+            "They restored businesses’ access to credit as depositors withdrew funds.",
+            "Withdrawals and closures reduced the ability of banks to lend, increasing pressure on businesses and households.",
+            "They reduced household debt by raising stock prices."
           ],
           "answer": 1,
-          "explain": "The lesson teaches interacting causes."
+          "explain": "Panics strained banks’ cash reserves and could reduce lending. This mechanism followed the stock market collapse and was different from losses on stocks."
         },
         {
-          "prompt": "Two accounts disagree on whether New Deal programs were effective. What should a historian compare?",
+          "prompt": "Which evidence would best explain why some Mexican-origin families left the United States during the Depression?",
           "choices": [
-            "Which writer uses more forceful adjectives",
-            "Only one national statistic without dates",
-            "Comparable employment, recovery and relief data alongside different affected groups' experiences"
+            "A national stock index and a list of New Deal bank regulations",
+            "A single photograph of a Dust Bowl migrant with no information about the family",
+            "Local departure and removal records alongside accounts from families who experienced official pressure"
           ],
           "answer": 2,
-          "explain": "Comparisons require context, effects and multiple measures."
+          "explain": "Administrative records and personal accounts help distinguish voluntary departures from coerced removal."
         },
         {
           "prompt": "Which conclusion best combines Documents A–C?",
@@ -1155,7 +1149,7 @@
           "answer": 2
         }
       ],
-      "inquiryPrompt": "To what extent did New Deal policies expand government responsibility while leaving major needs unmet?",
+      "inquiryPrompt": "Who benefited from New Deal programs, and what evidence shows the limits of those benefits?",
       "inquirySteps": [
         "Compare the sources and record their perspectives and limitations.",
         "Develop a focused historical question and identify which sources address it.",
@@ -1167,21 +1161,21 @@
         2
       ],
       "conclusions": [
-        "Document A records a position or record from 1933, but it needs context to support claims about historical effects.",
-        "The Social Security Act of 1935 immediately ended unemployment and economic hardship for all Americans.",
-        "Documents B and C can help historians compare how evidence, policy and experience relate to great depression and new deal."
+        "Document A identifies purposes of federal regional development. Local records are needed to judge effects on families and businesses.",
+        "Document C establishes that all farm and domestic workers qualified for immediate federal old-age payments in 1935.",
+        "Documents B and C show two distinct federal roles: protecting organizing for covered workers and establishing a system of old-age benefits."
       ],
       "conclusionKey": [
         true,
         false,
         true
       ],
-      "writing": "To what extent did New Deal policies expand government responsibility while leaving major needs unmet? Construct a qualified historical argument using at least three specific facts supported by two original records from this unit and one other kind of evidence (such as testimony, a map, statistics, or a carefully attributed secondary interpretation). Explain each source's date and perspective, compare experiences of affected communities, discuss at least one limitation, and address a plausible counterargument.",
-      "challenge": "Create a museum exhibit or document-based investigation responding to: To what extent did New Deal policies expand government responsibility while leaving major needs unmet? Use four attributed sources, a chronological visualization, two perspectives, an evidence limitation and a defended curator thesis.",
-      "standards": "Maryland 2025 High School United States History Framework; historical inquiry and relevant unit content. Exact indicator crosswalk pending.",
-      "framework": "https://msde.maryland.gov/media/17926",
-      "sourceAudit": "Original documents linked to the National Archives, Library of Congress, presidential libraries, or National September 11 Memorial; source cards contain instructional summaries, not verbatim transcriptions. Verify original collection item, creator, and date before citing.",
-      "sampleAnswer": "The question raised in Great Depression and New Deal is: To what extent did New Deal policies expand government responsibility while leaving major needs unmet? The evidence suggests that decisions and events changed institutions and opportunities, but the results differed among people and places. A defensible argument requires attention to whom a policy or movement affected, not only its supporters' intentions.\n\nDocument A (Tennessee Valley Authority Act, 1933) provides one perspective: The law authorized regional development and electricity projects; benefits, displacements, and effectiveness require separate empirical evidence. Document B (National Labor Relations Act, 1935) adds another: The act protected collective bargaining rights for many workers; its exclusions and enforcement must be assessed separately. These records identify choices or experiences, but their authors and purposes must be considered before treating them as complete accounts.\n\nDocument C (Social Security Act, 1935) supplies further evidence: Social insurance was expanded through federal law, but the original law did not cover every occupation or eliminate poverty. A historian should test these records against different evidence such as the observations of affected communities, independent statistics, archaeological evidence when relevant, and the unit's contextual lesson reading. The sources do not necessarily measure results by themselves.\n\nA reasonable counterargument might emphasize the benefits or stated goals of these developments. Those claims deserve evaluation, but they do not eliminate unintended consequences, unequal impacts or limits of the evidence. I would therefore defend a qualified conclusion and explain which further sources might change it."
+      "writing": "To what extent did the New Deal change who was responsible for economic security? Compare two programs. Explain the problem each addressed, identify one documented result, and explain a coverage limit or cost. Use two primary records and one corroborating source. Consider a reasonable counterargument and identify a piece of evidence that would help you evaluate it.",
+      "challenge": "Compare the TVA Act with the Randolph family relocation file. Explain the program’s regional purpose, one cost for a household, and what evidence would show whether other families had similar experiences.",
+      "standards": "Maryland High School United States History Framework (June 2025), USH.2.3.a–d. Lesson exit tickets add evidence on farm distress, migration, policy implementation, and the New Deal’s legacy.",
+      "framework": "https://msde.maryland.gov/media/17926#page=12",
+      "sourceAudit": "Documents A–C establish what Congress authorized. Document D provides a banking chronology and historical estimates. Use the lesson evidence for examples of costs, exclusion, and later implementation.",
+      "sampleAnswer": "The New Deal gave the federal government lasting responsibilities for both workplace bargaining and retirement security. Section 7 of the Wagner Act protected organizing and collective bargaining for covered employees. The Social Security Act created an old-age insurance system, but its employment definition left agricultural labor and private household service outside the original coverage.\n\nA supporter could say these laws offered immediate relief because they passed in 1935. The Social Security Administration’s chronology shows that monthly old-age benefits did not become payable until 1940. The date of enactment tells us when the framework was established. It does not tell us when a retired worker first received regular payments. To judge the reach of both programs, I would compare payment and labor-board records with evidence from occupations excluded at the outset."
     },
     "9.7": {
       "id": "9.7",
@@ -1193,31 +1187,31 @@
           "slug": "causes-of-world-war-ii",
           "title": "Causes of World War II",
           "essential": "How did aggression, political crisis, and failed diplomacy contribute to World War II?",
-          "task": "Write a claim about Causes of World War II with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Build a two-region timeline. Compare Japan’s expansion in China with one example of German or Italian expansion. Then explain what Britain and France hoped to avoid at Munich and what happened by March 1939. Use the agreement and one dated event as evidence."
         },
         {
           "slug": "pearl-harbor-and-american-entry",
           "title": "Pearl Harbor and American Entry",
           "essential": "How did Pearl Harbor alter U.S. participation in World War II?",
-          "task": "Write a claim about Pearl Harbor and American Entry with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Compare three stages: a restriction under the Neutrality Acts, the aid authorized by Lend-Lease, and the decision Congress made after Pearl Harbor. Which stage ended formal neutrality toward Japan? Name the document that establishes the change."
         },
         {
           "slug": "the-holocaust-and-human-rights",
           "title": "The Holocaust and Human Rights",
           "essential": "How did Nazi policy turn persecution into genocide, and why does evidence matter?",
-          "task": "Write a claim about The Holocaust and Human Rights with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Use the Nuremberg Laws and the Wannsee Protocol to explain two stages in persecution. Then compare U.S. refugee policy before entry into the war with the creation of the War Refugee Board. Identify one pressure that limited the response and one way Gerda Schild Haas’s testimony adds a perspective absent from official records."
         },
         {
           "slug": "war-on-the-home-front",
           "title": "War on the Home Front",
           "essential": "How did wartime mobilization expand opportunity while limiting rights?",
-          "task": "Write a claim about War on the Home Front with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Use two short evidence notes. First, explain how Black migration and the Bracero Program filled different labor needs. Compare opportunities and limits for women, Black workers, Mexican-origin workers, Japanese Americans, and Native Americans using the examples. Second, explain what Executive Order 9066 authorized and how the Korematsu and Endo decisions differed."
         },
         {
           "slug": "d-day-the-pacific-war-and-allied-victory",
           "title": "D-Day, the Pacific War, and Allied Victory",
           "essential": "How did coordinated campaigns and difficult decisions lead to Allied victory?",
-          "task": "Write a claim about D-Day, the Pacific War, and Allied Victory with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Make three short evidence notes. Compare what Normandy and Midway changed. Then weigh two considerations in the U.S. atomic bomb decision and explain why the August timeline allows more than one explanation for Japan’s surrender. Finally, assign the UN, IMF, or World Bank to each problem: monitoring a ceasefire, a shortage of foreign currency for international payments, and financing reconstruction. Explain the choice for each."
         }
       ],
       "sources": [
@@ -1264,28 +1258,28 @@
           "lessonContext": "Nazi antisemitism, exclusionary laws, and violence intensified after 1933. During World War II, Nazi Germany and collaborators systematically murdered approximately six million Jews in the Holocaust, alongside persecution and mass murder of other groups. Nazi persecution developed through laws excluding Jews from public life, organized violence, deportations, ghettos, shootings, and killing centers. Chronology matters: not every instrument of persecution appeared at the same time. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
         },
         {
-          "label": "Document D · Additional interpretation",
-          "title": "D-Day, the Pacific War, and Allied Victory",
-          "creator": "Examine the Past curriculum editors",
-          "date": "2026 instructional summary",
-          "url": "../d-day-the-pacific-war-and-allied-victory/",
-          "sourceUrl": "../d-day-the-pacific-war-and-allied-victory/",
-          "sourceType": "Secondary source: lesson interpretation, NOT primary evidence",
-          "excerpt": "Allied forces landed in Normandy on June 6, 1944, opening a major Western European offensive. The Soviet military's campaigns on the Eastern Front were also crucial to Germany's defeat in May 1945. Normandy depended on coordination among Allied forces, air and naval support, deception, and logistics. The Soviet Union's enormous military role in defeating Germany must also be considered. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-          "limitation": "This is a modern instructional interpretation, not an original primary document. Use it for context; investigate originals for source-based claims.",
+          "label": "Document D · U.S. refugee policy, 1938–41",
+          "title": "The United States and the Refugee Crisis, 1938–41",
+          "creator": "United States Holocaust Memorial Museum",
+          "date": "Retrospective museum history",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/the-united-states-and-the-refugee-crisis-1938-41",
+          "sourceUrl": "https://encyclopedia.ushmm.org/content/en/article/the-united-states-and-the-refugee-crisis-1938-41",
+          "sourceType": "Secondary source: museum history",
+          "excerpt": "U.S. immigration quotas, public opposition to expanding immigration, and security concerns constrained entry as increasing numbers of Jewish refugees sought safety before American entry into the war.",
+          "limitation": "The overview describes policy and public attitudes. A refugee’s testimony gives evidence of an individual experience of that policy.",
           "documentExcerpt": ""
         }
       ],
       "questions": [
         {
-          "prompt": "Roosevelt's December 1941 address is a primary source. What does it establish most directly?",
+          "prompt": "What changed when Congress moved from the Neutrality Acts to Lend-Lease and then responded to Pearl Harbor?",
           "choices": [
-            "The administration's publicly stated case for war after Pearl Harbor",
-            "The full experiences of civilians in occupied Europe",
-            "All U.S. citizens agreed on every wartime policy"
+            "It moved from restricting arms sales to authorizing aid, then formally declared war on Japan.",
+            "It declared war on Japan through Lend-Lease and approved arms sales only afterward.",
+            "It authorized aid to Germany and Japan and then returned to strict neutrality after Pearl Harbor."
           ],
           "answer": 0,
-          "explain": "The president's address records the government's public argument."
+          "explain": "The three steps changed U.S. participation in different ways. The December 8 resolution was the formal declaration against Japan."
         },
         {
           "prompt": "Executive Order 9066 enabled exclusion policies. What would best evaluate its consequences?",
@@ -1318,24 +1312,24 @@
           "explain": "Wartime actions included both expanded opportunities and major rights restrictions."
         },
         {
-          "prompt": "What would best support a historical explanation of the Holocaust beyond its occurrence during wartime?",
+          "prompt": "Which conclusion explains a change and a limit in the U.S. response to Nazi persecution?",
           "choices": [
-            "A single anonymous claim without place or date",
-            "Nazi policy records, survivor testimony and evidence of organized persecution and murder",
-            "Only a map of postwar Allied borders"
+            "The U.S. lifted its immigration quotas when the Nuremberg Laws took effect.",
+            "Refugee entry remained limited before U.S. entry, and an official federal rescue agency began only in 1944.",
+            "Creating the War Refugee Board shows the U.S. had already made rescue its primary policy in 1938."
           ],
           "answer": 1,
-          "explain": "The Holocaust requires careful, corroborated evidence and attention to victims."
+          "explain": "Immigration restrictions limited earlier entry. The War Refugee Board represented a shift toward rescue late in the war."
         },
         {
-          "prompt": "Which argument about World War II avoids oversimplification?",
+          "prompt": "Which postwar institution is correctly paired with its original purpose?",
           "choices": [
-            "Victory resulted only from one battle and one country",
-            "All economic gains were shared equally by civilians",
-            "Military coordination and domestic mobilization shaped victory while rights and experiences varied"
+            "The IMF was created to deploy military observers to monitor ceasefires.",
+            "The United Nations was created to lend directly for industrial reconstruction.",
+            "The original World Bank institution was created in part to finance reconstruction and development."
           ],
           "answer": 2,
-          "explain": "Both international campaigns and unequal domestic conditions matter."
+          "explain": "The original World Bank institution financed reconstruction and development. The UN and IMF addressed different security and monetary problems."
         }
       ],
       "matchingOptions": [
@@ -1357,7 +1351,7 @@
           "answer": 2
         }
       ],
-      "inquiryPrompt": "How did wartime choices shape military victory while transforming rights and obligations at home?",
+      "inquiryPrompt": "How did wartime decisions change U.S. responsibilities at home and abroad?",
       "inquirySteps": [
         "Compare the sources and record their perspectives and limitations.",
         "Develop a focused historical question and identify which sources address it.",
@@ -1369,21 +1363,21 @@
         2
       ],
       "conclusions": [
-        "The existence of Executive Order 8802 establishes that discrimination disappeared from all U.S. defense-industry workplaces.",
-        "Documents B and C can help historians compare how evidence, policy and experience relate to world war ii.",
-        "Document A records a position or record from December 8, 1941, but it needs context to support claims about historical effects."
+        "Executive Order 8802 establishes that discrimination ended in every defense-industry workplace.",
+        "Executive Orders 9066 and 8802 show that wartime federal action could restrict civil liberties and also address discrimination in employment.",
+        "Roosevelt’s address gives his public case for war after Pearl Harbor. Congress’s joint resolution establishes that Congress declared war."
       ],
       "conclusionKey": [
         false,
         true,
         true
       ],
-      "writing": "How did wartime choices shape military victory while transforming rights and obligations at home? Construct a qualified historical argument using at least three specific facts supported by two original records from this unit and one other kind of evidence (such as testimony, a map, statistics, or a carefully attributed secondary interpretation). Explain each source's date and perspective, compare experiences of affected communities, discuss at least one limitation, and address a plausible counterargument.",
-      "challenge": "Create a museum exhibit or document-based investigation responding to: How did wartime choices shape military victory while transforming rights and obligations at home? Use four attributed sources, a chronological visualization, two perspectives, an evidence limitation and a defended curator thesis.",
-      "standards": "Maryland 2025 High School United States History Framework; historical inquiry and relevant unit content. Exact indicator crosswalk pending.",
-      "framework": "https://msde.maryland.gov/media/17926",
-      "sourceAudit": "Original documents linked to the National Archives, Library of Congress, presidential libraries, or National September 11 Memorial; source cards contain instructional summaries, not verbatim transcriptions. Verify original collection item, creator, and date before citing.",
-      "sampleAnswer": "The question raised in World War II is: How did wartime choices shape military victory while transforming rights and obligations at home? The evidence suggests that decisions and events changed institutions and opportunities, but the results differed among people and places. A defensible argument requires attention to whom a policy or movement affected, not only its supporters' intentions.\n\nDocument A (Roosevelt's War Message after Pearl Harbor, December 8, 1941) provides one perspective: The president asked Congress to declare war following Japan's attack; the address reflects a government case for war, not all civilian experiences. Document B (Executive Order 9066, 1942) adds another: The order enabled military exclusion policies that led to incarceration of Japanese Americans; public security rationales require comparison with rights and actual evidence. These records identify choices or experiences, but their authors and purposes must be considered before treating them as complete accounts.\n\nDocument C (Executive Order 8802, 1941) supplies further evidence: The order addressed employment discrimination in defense work; the executive commitment did not itself end discrimination in every workplace. A historian should test these records against different evidence such as the observations of affected communities, independent statistics, archaeological evidence when relevant, and the unit's contextual lesson reading. The sources do not necessarily measure results by themselves.\n\nA reasonable counterargument might emphasize the benefits or stated goals of these developments. Those claims deserve evaluation, but they do not eliminate unintended consequences, unequal impacts or limits of the evidence. I would therefore defend a qualified conclusion and explain which further sources might change it."
+      "writing": "Compare two wartime decisions, one involving U.S. action abroad and one affecting a community at home or people seeking refuge. Explain what each was intended to do, identify a documented consequence, and explain whose perspective an official record leaves out. Use two primary records and one corroborating source. Address a reasonable counterargument and state one evidence limit.",
+      "challenge": "Compare the founding documents for the UN, IMF, and original World Bank institution. Identify a problem each was designed to address and one piece of evidence you would seek to judge its early effectiveness.",
+      "standards": "Maryland High School United States History Framework (June 2025), USH.2.4.a–f and USH.2.5.a–c. The lesson exit tickets cover additional topics, including military turning points and the atomic bomb decision.",
+      "framework": "https://msde.maryland.gov/media/17926#page=13",
+      "sourceAudit": "The speech and executive orders document stated policy. Use the linked congressional resolution, court opinions, testimony, and museum history to test outcomes.",
+      "sampleAnswer": "Roosevelt’s address on December 8 presented Japan’s attack on Pearl Harbor as the reason to enter the war. The joint resolution shows that Congress moved from material aid to a formal declaration of war against Japan. The speech is useful for understanding Roosevelt’s public argument but cannot tell us how Japanese leaders decided to attack.\n\nAt home, Executive Order 9066 authorized military exclusion. Government records and the Endo case show how a policy described as a security measure affected people of Japanese ancestry, including U.S. citizens. A defender of the order could argue that wartime officials needed broad powers to protect defense sites. That claim needs evidence of a specific security risk and does not by itself explain continued detention of a citizen whose loyalty was conceded. To evaluate the effects on families, I would also compare government records with firsthand accounts."
     },
     "9.8": {
       "id": "9.8",
@@ -1395,25 +1389,25 @@
           "slug": "origins-of-the-cold-war",
           "title": "Origins of the Cold War",
           "essential": "Why did wartime allies become ideological and strategic rivals?",
-          "task": "Write a claim about Origins of the Cold War with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Make three evidence notes. Compare one U.S. concern in Kennan’s telegram with one Soviet concern in Novikov’s. Then contrast a European alliance, military intervention in Korea, and covert intervention in Guatemala. Finally, explain one effect of Cold War fears on U.S. federal workers or congressional politics."
         },
         {
           "slug": "the-korean-war",
           "title": "The Korean War",
           "essential": "Why did war in Korea become an international Cold War conflict?",
-          "task": "Write a claim about The Korean War with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Build a dated sequence from the division of Korea to the 1953 armistice. Explain how UN and Chinese intervention changed the war. Use the actual agreement to identify what it established and what it left unresolved. Give one consequence for Korean civilians."
         },
         {
           "slug": "nuclear-competition-and-the-space-race",
           "title": "Nuclear Competition and the Space Race",
           "essential": "How did technological competition shape Cold War security and public life?",
-          "task": "Write a claim about Nuclear Competition and the Space Race with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Compare the government’s intended use of the Interstate Highway System and the school drills shown in Duck and Cover. Give one plausible benefit and one limit for each. Then trace the Cuban Revolution, Bay of Pigs, and missile crisis. Use the embargo proclamation or Castro’s letter to explain a perspective or consequence that the reconnaissance photograph cannot show."
         },
         {
           "slug": "the-vietnam-war",
           "title": "The Vietnam War",
           "essential": "How did the Vietnam War challenge U.S. containment policy?",
-          "task": "Write a claim about The Vietnam War with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Use the Tonkin resolution, the Tet account, and the Paris agreement history to explain how U.S. policy changed. Compare the students’ armbands with a 1969 Moratorium demonstration, giving one documented effect of dissent and one limit of the evidence. Finally, explain why the U.S. withdrawal in 1973 did not settle the outcome in Vietnam."
         }
       ],
       "sources": [
@@ -1460,15 +1454,15 @@
           "lessonContext": "The United States and Soviet Union developed nuclear arsenals and delivery systems, raising fears of catastrophic war. The Soviet launch of Sputnik in 1957 accelerated competition in space science and education. Deterrence depends on an opponent believing a response would impose unacceptable costs. This strategic logic shaped planning but could not remove the risks of accidents, miscalculation, or uncontrolled escalation. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
         },
         {
-          "label": "Document D · Additional interpretation",
-          "title": "The Vietnam War",
-          "creator": "Examine the Past curriculum editors",
-          "date": "2026 instructional summary",
-          "url": "../the-vietnam-war/",
-          "sourceUrl": "../the-vietnam-war/",
-          "sourceType": "Secondary source: lesson interpretation, NOT primary evidence",
-          "excerpt": "Conflict in Vietnam grew from anticolonial struggle, competing Vietnamese political movements, and Cold War intervention. U. S. military involvement expanded substantially after the 1964 Gulf of Tonkin Resolution. French colonial rule and Vietnamese independence movements preceded major U. S. military escalation. Vietnamese communists and noncommunists pursued distinct goals, and the conflict cannot be explained only as a superpower contest. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-          "limitation": "This is a modern instructional interpretation, not an original primary document. Use it for context; investigate originals for source-based claims.",
+          "label": "Document D · The Cuban Missile Crisis",
+          "title": "The Cuban Missile Crisis, October 1962",
+          "creator": "U.S. Department of State, Office of the Historian",
+          "date": "Retrospective history of October 1962",
+          "url": "https://history.state.gov/milestones/1961-1968/cuban-missile-crisis",
+          "sourceUrl": "https://history.state.gov/milestones/1961-1968/cuban-missile-crisis",
+          "sourceType": "Secondary source: institutional history",
+          "excerpt": "After U.S. surveillance revealed Soviet missiles in Cuba, the two governments negotiated their removal. The agreement paired removal with a U.S. pledge not to invade Cuba and a private commitment concerning U.S. missiles in Turkey.",
+          "limitation": "The account summarizes diplomacy. Cuban records are needed to examine how Cuban officials understood the threat and the settlement.",
           "documentExcerpt": ""
         }
       ],
@@ -1484,14 +1478,14 @@
           "explain": "Different policies addressed interconnected but distinct goals."
         },
         {
-          "prompt": "What evidence would best test whether Marshall Plan assistance helped European recovery?",
+          "prompt": "What can the Interstate Highway Act and a civil-defense training film show most directly?",
           "choices": [
-            "Economic indicators and recipient-country records over several years",
-            "Only a U.S. speech requesting aid",
-            "A current photograph of a postwar monument"
+            "What the government authorized or taught, while evaluating protection requires evidence of actual capabilities.",
+            "How many families would have escaped a nuclear attack using a particular road.",
+            "That an evacuation plan and a classroom drill offered the same type of protection."
           ],
           "answer": 0,
-          "explain": "Outcomes should be tested through time-series and recipient records."
+          "explain": "Government policy and training show intended purposes. Warning time, traffic, and conditions would affect results."
         },
         {
           "prompt": "The Tonkin Gulf Resolution is a congressional action. Which claim exceeds what its text alone can establish?",
@@ -1514,14 +1508,14 @@
           "explain": "The conflict was linked to division and international power."
         },
         {
-          "prompt": "A student argues Sputnik caused every change in U.S. science education. What is the best inquiry strategy?",
+          "prompt": "Which conclusion about the 1962 missile settlement follows from Document D?",
           "choices": [
-            "Compare education policy, prior programs, funding and Soviet/U.S. competition over time",
-            "Accept the simple cause because launch dates are precise",
-            "Ignore public reaction and government decisions"
+            "The two superpowers reduced immediate risk through reciprocal commitments, while U.S.–Cuban tensions continued.",
+            "The Soviet Union removed its missiles after the United States ended the embargo.",
+            "Cuba and the United States resumed normal diplomatic relations as part of the settlement."
           ],
           "answer": 0,
-          "explain": "A triggering event rarely explains all policy changes."
+          "explain": "The agreement ended the immediate missile confrontation. It did not end the embargo or normalize relations."
         },
         {
           "prompt": "Which is the strongest evidence-based judgment about U.S. containment?",
@@ -1553,7 +1547,7 @@
           "answer": 2
         }
       ],
-      "inquiryPrompt": "How did containment policies seek security while creating new conflicts and costs?",
+      "inquiryPrompt": "When did a Cold War policy reduce one danger while creating new costs?",
       "inquirySteps": [
         "Compare the sources and record their perspectives and limitations.",
         "Develop a focused historical question and identify which sources address it.",
@@ -1565,21 +1559,21 @@
         2
       ],
       "conclusions": [
-        "Documents B and C can help historians compare how evidence, policy and experience relate to the cold war.",
-        "Document A records a position or record from 1947, but it needs context to support claims about historical effects.",
-        "The Gulf of Tonkin Resolution alone proves that all events reported by the U.S. executive branch occurred exactly as described."
+        "Documents B and C show different approaches to Cold War policy: economic assistance and authorization to use military force.",
+        "Document D explains how a negotiated settlement could reduce immediate risk without ending the wider conflict with Cuba.",
+        "The Tonkin Gulf Resolution alone proves that each reported incident happened as described."
       ],
       "conclusionKey": [
         true,
         true,
         false
       ],
-      "writing": "How did containment policies seek security while creating new conflicts and costs? Construct a qualified historical argument using at least three specific facts supported by two original records from this unit and one other kind of evidence (such as testimony, a map, statistics, or a carefully attributed secondary interpretation). Explain each source's date and perspective, compare experiences of affected communities, discuss at least one limitation, and address a plausible counterargument.",
-      "challenge": "Create a museum exhibit or document-based investigation responding to: How did containment policies seek security while creating new conflicts and costs? Use four attributed sources, a chronological visualization, two perspectives, an evidence limitation and a defended curator thesis.",
-      "standards": "Maryland 2025 High School United States History Framework; historical inquiry and relevant unit content. Exact indicator crosswalk pending.",
-      "framework": "https://msde.maryland.gov/media/17926",
-      "sourceAudit": "Original documents linked to the National Archives, Library of Congress, presidential libraries, or National September 11 Memorial; source cards contain instructional summaries, not verbatim transcriptions. Verify original collection item, creator, and date before citing.",
-      "sampleAnswer": "The question raised in The Cold War is: How did containment policies seek security while creating new conflicts and costs? The evidence suggests that decisions and events changed institutions and opportunities, but the results differed among people and places. A defensible argument requires attention to whom a policy or movement affected, not only its supporters' intentions.\n\nDocument A (Truman Doctrine, 1947) provides one perspective: The Truman Doctrine framed U.S. Document B (Marshall Plan, 1947–1948) adds another: Postwar economic reconstruction was linked to U.S. These records identify choices or experiences, but their authors and purposes must be considered before treating them as complete accounts.\n\nDocument C (Tonkin Gulf Resolution, 1964) supplies further evidence: The resolution broadened presidential authority in the Vietnam conflict; the legal language is not an independent record of battlefield events. A historian should test these records against different evidence such as the observations of affected communities, independent statistics, archaeological evidence when relevant, and the unit's contextual lesson reading. The sources do not necessarily measure results by themselves.\n\nA reasonable counterargument might emphasize the benefits or stated goals of these developments. Those claims deserve evaluation, but they do not eliminate unintended consequences, unequal impacts or limits of the evidence. I would therefore defend a qualified conclusion and explain which further sources might change it."
+      "writing": "Compare two Cold War responses in different places. Choose from European recovery or collective defense, military intervention in Korea or Vietnam, covert intervention in Guatemala, and diplomacy with Cuba. Explain the goal and one documented consequence of each. Use two primary records and one corroborating source. Address a counterargument and identify a perspective missing from one official record.",
+      "challenge": "Compare the intended protection of a nuclear drill with the intended protection of an evacuation route. Explain what evidence would let you judge the actual effectiveness of each.",
+      "standards": "Maryland High School United States History Framework (June 2025), USH.3.2.a–f, with Vietnam links to USH.3.4.a, b and d. Exit tickets assess cases not required in the written assessment.",
+      "framework": "https://msde.maryland.gov/media/17926#page=15",
+      "sourceAudit": "Documents A–C establish public proposals or congressional action. Document D is an institutional history. Use the lesson links to compare official records with other governments’ perspectives and evidence of outcomes.",
+      "sampleAnswer": "The Marshall Plan tried to strengthen postwar Europe through economic recovery. Marshall’s speech states the case for aid, but European records are needed to judge how the assistance was received and used. In Cuba, the discovery of Soviet missiles raised an immediate security concern. The Office of the Historian’s account shows how public and private commitments helped resolve the crisis.\n\nThe decisions pursued security through different means. One could argue that both policies reduced the risk of conflict. Yet the settlement in Cuba left the embargo and mistrust in place. Castro’s October 26 letter shows his fear of invasion after the Bay of Pigs. It explains a concern missing from a U.S. photograph of the missile sites, though it cannot represent what all Cubans thought."
     },
     "9.9": {
       "id": "9.9",
@@ -1591,31 +1585,31 @@
           "slug": "segregation-and-the-fight-for-equality",
           "title": "Segregation and the Fight for Equality",
           "essential": "How did Black Americans resist Jim Crow before nationally famous victories?",
-          "task": "Write a claim about Segregation and the Fight for Equality with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Use Plessy and Griffin to distinguish a state law requiring segregation from a county decision that resisted desegregation. Explain what Prince Edward County did to school funding and who could use the private alternative. Identify one action the Supreme Court ruled a federal court could take."
         },
         {
           "slug": "brown-v-board-of-education",
           "title": "Brown v. Board of Education",
           "essential": "Why was Brown v. Board a turning point yet not an immediate end to segregation?",
-          "task": "Write a claim about Brown v. Board of Education with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Compare Mendez and Brown. For each case, explain what the court decided, one near-term change or obstacle, and one longer-term effect on educational access. Use the court or archive records to support the comparison. Explain why a ruling can change the law before students see the change in their school."
         },
         {
           "slug": "martin-luther-king-jr-and-nonviolent-resistance",
           "title": "Martin Luther King Jr. and Nonviolent Resistance",
           "essential": "How did organized nonviolent action produce political pressure?",
-          "task": "Write a claim about Martin Luther King Jr. and Nonviolent Resistance with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Compare the Montgomery boycott, Selma voting rights campaign, and Memphis sanitation strike. Name a local organizer or group and describe what each campaign asked people to do. Choose one campaign and explain a documented effect and a limit."
         },
         {
           "slug": "malcolm-x-and-competing-strategies",
           "title": "Malcolm X and Competing Strategies",
           "essential": "How did Malcolm X's evolving ideas broaden debates about civil rights and Black freedom?",
-          "task": "Write a claim about Malcolm X and Competing Strategies with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Explain the political problem Malcolm X identified in his 1964 speech. Then use a photograph and its archive description to evaluate what the Black Panther Party’s Oakland breakfast program accomplished and what evidence would be needed to judge its reach. Distinguish the speaker from the later organization."
         },
         {
           "slug": "the-civil-rights-movement-s-lasting-impact",
           "title": "The Civil Rights Movement's Lasting Impact",
           "essential": "What did major civil rights laws accomplish, and which struggles continued?",
-          "task": "Write a claim about The Civil Rights Movement's Lasting Impact with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Write three evidence notes. First, compare two civil rights protections and use a court case or voter registration data to test an effect. Second, use Medicare or Medicaid to explain how the Great Society expanded the New Deal’s social protections. Third, compare what the 1965 immigration law changed with later census evidence. Explain why a law or a speech cannot by itself prove how people experienced the change."
         }
       ],
       "sources": [
@@ -1662,15 +1656,15 @@
           "lessonContext": "Martin Luther King Jr. and many local activists organized boycotts, marches, and campaigns to confront segregation. The Montgomery bus boycott of 1955–1956 depended on sustained participation by Black residents and organizers including women whose work is sometimes overlooked. Montgomery's boycott drew on local networks, fundraising, transportation alternatives, and sustained commitment. Rosa Parks and other women activists were part of a much wider organizing history. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
         },
         {
-          "label": "Document D · Additional interpretation",
-          "title": "The Civil Rights Movement's Lasting Impact",
-          "creator": "Examine the Past curriculum editors",
-          "date": "2026 instructional summary",
-          "url": "../the-civil-rights-movement-s-lasting-impact/",
-          "sourceUrl": "../the-civil-rights-movement-s-lasting-impact/",
-          "sourceType": "Secondary source: lesson interpretation, NOT primary evidence",
-          "excerpt": "The Civil Rights Act of 1964 prohibited specified forms of discrimination, while the Voting Rights Act of 1965 addressed racial barriers to voting. Grassroots organizers, lawyers, local communities, and national coalitions helped secure these changes. Civil rights legislation emerged from sustained pressure by local organizers, litigators, religious institutions, and national coalitions. Passage and enforcement involved political bargaining and continued challenges. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-          "limitation": "This is a modern instructional interpretation, not an original primary document. Use it for context; investigate originals for source-based claims.",
+          "label": "Document D · Voting rights in practice",
+          "title": "Immediate Impact of the Civil Rights Act",
+          "creator": "Library of Congress",
+          "date": "Retrospective exhibition with 1964–1969 registration figures",
+          "url": "https://www.loc.gov/exhibits/civil-rights-act/immediate-impact.html",
+          "sourceUrl": "https://www.loc.gov/exhibits/civil-rights-act/immediate-impact.html",
+          "sourceType": "Secondary source: archival exhibition",
+          "excerpt": "The exhibition describes federal voting protections and reports that the share of Black adults registered to vote in the South rose from about 35 percent in 1964 to nearly 65 percent in 1969.",
+          "limitation": "Regional registration figures can show changing access. They do not measure turnout or establish the experience of every county.",
           "documentExcerpt": ""
         }
       ],
@@ -1686,14 +1680,14 @@
           "explain": "Legal change and institutional change can differ."
         },
         {
-          "prompt": "What is the strongest way to evaluate civil rights movement strategies beyond prominent speeches?",
+          "prompt": "Which comparison correctly identifies the goals of the Montgomery boycott and the Memphis sanitation strike?",
           "choices": [
-            "Assume national leaders acted without support from local communities",
-            "Rely on one retrospective biography without context",
-            "Compare local organizing records, boycotts, legal cases and firsthand testimony"
+            "Both challenged the closure of public schools.",
+            "Montgomery workers sought a federal voting law while Memphis workers challenged bus segregation.",
+            "Montgomery organizers challenged segregated transit, while Memphis workers sought fair pay and union recognition."
           ],
           "answer": 2,
-          "explain": "Movement history depends on distributed organizers and multiple kinds of evidence."
+          "explain": "The campaigns used collective action to address different forms of exclusion."
         },
         {
           "prompt": "Which is an unsupported conclusion from the Civil Rights Act alone?",
@@ -1716,24 +1710,24 @@
           "explain": "The laws addressed distinct but related issues."
         },
         {
-          "prompt": "How could a researcher investigate Malcolm X's changing perspectives?",
+          "prompt": "What can the Oakland breakfast-program photograph help establish about the Black Panther Party?",
           "choices": [
-            "Treat one early statement as his permanently fixed views",
-            "Infer beliefs from others' reactions without reading his words",
-            "Compare speeches and interviews from different years in historical context"
+            "It shows that all Black Power groups used the same strategy.",
+            "It measures how many children the program reached across the country.",
+            "It documents one example of organizers meeting a material need in their community."
           ],
           "answer": 2,
-          "explain": "Intellectual change requires chronological evidence."
+          "explain": "One photograph shows the program in action. Attendance records would help measure its reach."
         },
         {
-          "prompt": "What does the evidence suggest about legal victories and continuing civic movements?",
+          "prompt": "Which inference is supported by the voter registration figures in Document D?",
           "choices": [
-            "Rights expanded through law and activism, but enforcement and broader inequalities remained contested",
-            "Legal victories ended the need for any further organizing",
-            "National laws erased all local differences in enforcement"
+            "Registration increased across the region, but the figures alone cannot show turnout or differences among counties.",
+            "The increase means that every person who registered cast a ballot.",
+            "The figures establish that changes in registration were identical nationwide."
           ],
           "answer": 0,
-          "explain": "Historic change involved achievements and continued struggles."
+          "explain": "Registration counts and turnout measure different outcomes, and regional trends can conceal local differences."
         }
       ],
       "matchingOptions": [
@@ -1767,21 +1761,21 @@
         2
       ],
       "conclusions": [
-        "Document A records a position or record from 1954, but it needs context to support claims about historical effects.",
-        "The Brown decision and Voting Rights Act immediately eliminated segregation and voting discrimination throughout the nation.",
-        "Documents B and C can help historians compare how evidence, policy and experience relate to civil rights and social change."
+        "The Brown opinion establishes a constitutional rule. Local evidence, such as the Griffin case, is needed to show how communities responded.",
+        "Brown and the Voting Rights Act immediately eliminated segregation and voting discrimination throughout the United States.",
+        "The Voting Rights Act and the registration figures together show a change in federal enforcement and an increase in registration."
       ],
       "conclusionKey": [
         true,
         false,
         true
       ],
-      "writing": "How far did legal victories change civil rights, and why did activism continue? Construct a qualified historical argument using at least three specific facts supported by two original records from this unit and one other kind of evidence (such as testimony, a map, statistics, or a carefully attributed secondary interpretation). Explain each source's date and perspective, compare experiences of affected communities, discuss at least one limitation, and address a plausible counterargument.",
-      "challenge": "Create a museum exhibit or document-based investigation responding to: How far did legal victories change civil rights, and why did activism continue? Use four attributed sources, a chronological visualization, two perspectives, an evidence limitation and a defended curator thesis.",
-      "standards": "Maryland 2025 High School United States History Framework; historical inquiry and relevant unit content. Exact indicator crosswalk pending.",
-      "framework": "https://msde.maryland.gov/media/17926",
-      "sourceAudit": "Original documents linked to the National Archives, Library of Congress, presidential libraries, or National September 11 Memorial; source cards contain instructional summaries, not verbatim transcriptions. Verify original collection item, creator, and date before citing.",
-      "sampleAnswer": "The question raised in Civil Rights and Social Change is: How far did legal victories change civil rights, and why did activism continue? The evidence suggests that decisions and events changed institutions and opportunities, but the results differed among people and places. A defensible argument requires attention to whom a policy or movement affected, not only its supporters' intentions.\n\nDocument A (Brown v. Board of Education, 1954) provides one perspective: The ruling held school segregation unconstitutional; the decision does not itself prove immediate, full desegregation everywhere. Document B (Civil Rights Act, 1964) adds another: The law prohibited specified discrimination; impact depended on enforcement, local resistance and later interpretations. These records identify choices or experiences, but their authors and purposes must be considered before treating them as complete accounts.\n\nDocument C (Voting Rights Act, 1965) supplies further evidence: The act addressed racial discrimination in voting; legal change requires comparison with registration and participation evidence. A historian should test these records against different evidence such as the observations of affected communities, independent statistics, archaeological evidence when relevant, and the unit's contextual lesson reading. The sources do not necessarily measure results by themselves.\n\nA reasonable counterargument might emphasize the benefits or stated goals of these developments. Those claims deserve evaluation, but they do not eliminate unintended consequences, unequal impacts or limits of the evidence. I would therefore defend a qualified conclusion and explain which further sources might change it."
+      "writing": "How did organizing and enforcement turn a legal promise into a practical change? Compare two examples involving schools, public accommodations, jobs, or voting. Use two primary records and one corroborating source. Explain one documented outcome and one barrier that remained. Address a plausible counterargument and identify evidence that would help test it.",
+      "challenge": "Compare the 1965 Medicare and Medicaid law with the 1965 immigration amendments. Choose one measure that would help evaluate each law and explain what that measure would leave unanswered.",
+      "standards": "Maryland High School United States History Framework (June 2025), USH.3.3.a–e, i and l, with selected cases. Lesson exit tickets also cover Great Society programs and immigration.",
+      "framework": "https://msde.maryland.gov/media/17926#page=16",
+      "sourceAudit": "Documents A–C establish rulings or legal requirements. Document D supplies a registration measure. Consult lesson sources for local implementation and organizer perspectives.",
+      "sampleAnswer": "Brown changed the constitutional rule for public education, but local officials could still obstruct integration. In Prince Edward County, the board refused to fund public schools. The Griffin decision describes that response and explains how federal courts could require steps toward reopening. A ruling offered a legal remedy, while families experienced years of lost or interrupted schooling.\n\nThe Voting Rights Act used federal enforcement to address voting barriers. The Library of Congress reports a rise in Black adult registration in the South from about 35 percent in 1964 to nearly 65 percent in 1969. Someone might argue that the increase proves access was equal by 1969. Registration measures one step. County-level voting records and testimony from people attempting to register would help evaluate that claim."
     },
     "9.10": {
       "id": "9.10",
@@ -1793,40 +1787,40 @@
           "slug": "watergate-and-public-trust",
           "title": "Watergate and Public Trust",
           "essential": "How did Watergate test constitutional accountability?",
-          "task": "Write a claim about Watergate and Public Trust with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Build a short chain linking the break-in, the dispute over the tapes, the Supreme Court ruling, and Nixon’s resignation. Compare one reform connected to Vietnam with one connected to Watergate-era accountability. Use the trust survey to explain what declined and why the survey alone cannot identify a single cause."
         },
         {
           "slug": "the-reagan-era",
           "title": "The Reagan Era",
           "essential": "How did policy choices during the 1980s reshape economic and political debates?",
-          "task": "Write a claim about The Reagan Era with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Explain how a tax revolt and one issue important to religious conservatives brought people into the New Right. Then compare the 1981 tax law’s stated strategy with two budget or employment figures from different years. Use the Federal Reserve history to explain why tax policy cannot explain the whole economic record."
         },
         {
           "slug": "the-end-of-the-cold-war",
           "title": "The End of the Cold War",
           "essential": "What combination of choices and pressures led to the Cold War's end?",
-          "task": "Write a claim about The End of the Cold War with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Make three evidence notes. Explain what Iran-Contra investigators examined about aid to the Nicaraguan Contras. Compare what the INF Treaty accomplished with why the Berlin Wall opened. Then identify why the 1991 coalition intervened in Kuwait and what its military campaign achieved."
         },
         {
           "slug": "america-and-the-global-economy",
           "title": "America and the Global Economy",
           "essential": "How did globalization reshape U.S. employment and exchange?",
-          "task": "Write a claim about America and the Global Economy with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Explain what the NAFTA implementation act changed. Use the trade or productivity study to describe why different workers or sectors could experience different effects. Then compare the household Internet survey with the 2000 election survey. Explain what each measured and whose experience a national average can hide."
         }
       ],
       "sources": [
         {
-          "label": "Document A · Watergate Presidential Tape Records",
-          "title": "Watergate Presidential Tape Records",
-          "creator": "Richard Nixon White House; preserved by National Archives",
-          "date": "1972–1974",
-          "url": "https://www.archives.gov/research/investigations/watergate/presidential-tape-recordings.html",
-          "sourceUrl": "https://www.archives.gov/research/investigations/watergate/presidential-tape-recordings.html",
-          "sourceType": "Primary-source collection: recorded presidential conversations",
-          "excerpt": "Contemporary recordings help investigate executive decision-making but require date, completeness and independent corroboration.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
+          "label": "Document A · Watergate tape transcript",
+          "title": "Watergate trial exhibit 1: June 23, 1972 conversation",
+          "creator": "Richard Nixon and H. R. Haldeman",
+          "date": "June 23, 1972",
+          "url": "https://www.nixonlibrary.gov/sites/default/files/forresearchers/find/tapes/watergate/trial/exhibit_01.pdf",
+          "sourceUrl": "https://www.nixonlibrary.gov/sites/default/files/forresearchers/find/tapes/watergate/trial/exhibit_01.pdf",
+          "sourceType": "Primary source: transcript of a recorded conversation",
+          "excerpt": "The transcript records Nixon and Haldeman discussing a plan to use the CIA to limit part of the FBI’s Watergate inquiry. It documents the contents of this conversation rather than all actions taken in the investigation.",
+          "limitation": "The transcript records a particular exchange. It cannot establish the motives of all participants or every action that followed.",
           "documentExcerpt": "",
-          "sourceNote": "Contemporary recordings help investigate executive decision-making but require date, completeness and independent corroboration.",
+          "sourceNote": "Compare the conversation with United States v. Nixon to distinguish the recorded evidence from the decision requiring production.",
           "lessonContext": "The 1972 break-in at Democratic National Committee offices and subsequent cover-up prompted investigations of the Nixon administration. Congressional hearings, investigative reporting, and court rulings exposed abuses of executive power. The investigations involved journalists, congressional committees, courts, and officials within the executive branch. These institutions did not all perform the same function or operate on the same timeline. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
         },
         {
@@ -1858,15 +1852,15 @@
           "lessonContext": "Reform efforts under Soviet leader Mikhail Gorbachev, economic pressures, and political movements across Eastern Europe transformed the late 1980s. The Berlin Wall opened in November 1989. Popular protests and reform movements in Eastern Europe were independent historical forces. Treating people in those countries merely as objects of U.S.–Soviet diplomacy leaves out decisive local agency. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
         },
         {
-          "label": "Document D · Additional interpretation",
-          "title": "America and the Global Economy",
-          "creator": "Examine the Past curriculum editors",
-          "date": "2026 instructional summary",
-          "url": "../america-and-the-global-economy/",
-          "sourceUrl": "../america-and-the-global-economy/",
-          "sourceType": "Secondary source: lesson interpretation, NOT primary evidence",
-          "excerpt": "Late twentieth-century advances in transport, communications, and production helped link economies across borders. The North American Free Trade Agreement took effect in 1994, deepening trade integration among the United States, Canada, and Mexico. Production increasingly crossed national borders, with goods assembled through supply chains involving labor and investment in several countries. Consumers could benefit from lower prices while some workers faced job displacement. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-          "limitation": "This is a modern instructional interpretation, not an original primary document. Use it for context; investigate originals for source-based claims.",
+          "label": "Document D · Household Internet access",
+          "title": "Home Computers and Internet Use in the United States: August 2000",
+          "creator": "U.S. Census Bureau",
+          "date": "September 2001",
+          "url": "https://www.census.gov/content/dam/Census/library/publications/2001/demo/p23-207.pdf",
+          "sourceUrl": "https://www.census.gov/content/dam/Census/library/publications/2001/demo/p23-207.pdf",
+          "sourceType": "Secondary source: government survey report",
+          "excerpt": "About 42 percent of U.S. households had at least one member using the Internet at home in 2000. The report compares that result with about 18 percent of households with access in 1997. The report compares access across income and other household characteristics.",
+          "limitation": "Household Internet access is distinct from individual use. The data do not establish who read election news or how anyone voted.",
           "documentExcerpt": ""
         }
       ],
@@ -1912,34 +1906,34 @@
           "explain": "Predictions and realized outcomes should be tested separately."
         },
         {
-          "prompt": "What can compare Watergate and late-Cold-War foreign policy without treating them as identical?",
+          "prompt": "What can Document D establish about the Internet near the end of the twentieth century?",
           "choices": [
-            "A single interpretation that ignores chronology",
-            "How public claims, evidence and institutional decisions were scrutinized in different contexts",
-            "Whether both events occurred during exactly the same presidency"
+            "It identifies how many people changed their vote because of online news.",
+            "It shows a rise in home Internet access, without identifying what each household did online.",
+            "It establishes that households of every income level used the Internet equally."
           ],
           "answer": 1,
-          "explain": "Shared historical skills do not erase important differences."
+          "explain": "The survey measured household access. Use records about individual behavior to evaluate specific activities or political effects."
         },
         {
-          "prompt": "Which conclusion about late-twentieth-century U.S. policy is most defensible?",
+          "prompt": "How do the INF Treaty and the 1991 coalition response to Iraq’s invasion of Kuwait differ?",
           "choices": [
-            "All economic policies produced equally distributed gains",
-            "Every Cold War change resulted directly from one speech",
-            "Political accountability, diplomatic change and global trade had different causes and contested effects"
+            "Both were agreements authorizing the same military intervention.",
+            "Both were speeches with no consequences to examine.",
+            "The treaty reduced a category of arms, while the coalition used force to reverse an invasion."
           ],
           "answer": 2,
-          "explain": "The unit covers distinct yet connected transformations."
+          "explain": "The examples used different tools for different international goals."
         }
       ],
       "matchingOptions": [
-        "Watergate Presidential Tape Records",
+        "Watergate tape transcript",
         "Reagan's Brandenburg Gate Address",
         "Clinton's Remarks on NAFTA"
       ],
       "matchingPrompts": [
         {
-          "prompt": "Which original record helps investigate Watergate Presidential Tape Records and its historical context?",
+          "prompt": "Which original record documents a conversation about limiting the FBI’s Watergate inquiry?",
           "answer": 0
         },
         {
@@ -1963,21 +1957,21 @@
         2
       ],
       "conclusions": [
-        "President Clinton's public claims about NAFTA in 1993 establish the exact economic effects that followed for every worker.",
-        "Documents B and C can help historians compare how evidence, policy and experience relate to america in the late twentieth century.",
-        "Document A records a position or record from 1972–1974, but it needs context to support claims about historical effects."
+        "The June 23 recording and the Supreme Court opinion establish the truth of every allegation about Watergate.",
+        "Document A records a particular conversation. Other sources are needed to explain why Congress and the courts acted.",
+        "Document D shows rising household Internet access. Specific evidence about online behavior is needed to evaluate political effects."
       ],
       "conclusionKey": [
         false,
         true,
         true
       ],
-      "writing": "How did challenges to public trust, Cold War change and globalization reshape American politics? Construct a qualified historical argument using at least three specific facts supported by two original records from this unit and one other kind of evidence (such as testimony, a map, statistics, or a carefully attributed secondary interpretation). Explain each source's date and perspective, compare experiences of affected communities, discuss at least one limitation, and address a plausible counterargument.",
-      "challenge": "Create a museum exhibit or document-based investigation responding to: How did challenges to public trust, Cold War change and globalization reshape American politics? Use four attributed sources, a chronological visualization, two perspectives, an evidence limitation and a defended curator thesis.",
-      "standards": "Maryland 2025 High School United States History Framework; historical inquiry and relevant unit content. Exact indicator crosswalk pending.",
-      "framework": "https://msde.maryland.gov/media/17926",
-      "sourceAudit": "Original documents linked to the National Archives, Library of Congress, presidential libraries, or National September 11 Memorial; source cards contain instructional summaries, not verbatim transcriptions. Verify original collection item, creator, and date before citing.",
-      "sampleAnswer": "The question raised in America in the Late Twentieth Century is: How did challenges to public trust, Cold War change and globalization reshape American politics? The evidence suggests that decisions and events changed institutions and opportunities, but the results differed among people and places. A defensible argument requires attention to whom a policy or movement affected, not only its supporters' intentions.\n\nDocument A (Watergate Presidential Tape Records, 1972–1974) provides one perspective: Contemporary recordings help investigate executive decision-making but require date, completeness and independent corroboration. Document B (Reagan's Brandenburg Gate Address, June 12, 1987) adds another: The speech argued for greater political freedom in Eastern Europe; rhetorical claims and broader causes of Cold War change are not identical. These records identify choices or experiences, but their authors and purposes must be considered before treating them as complete accounts.\n\nDocument C (Clinton's Remarks on NAFTA, 1993) supplies further evidence: Supporters forecast trade opportunities; effects on different workers and regions require subsequent economic data. A historian should test these records against different evidence such as the observations of affected communities, independent statistics, archaeological evidence when relevant, and the unit's contextual lesson reading. The sources do not necessarily measure results by themselves.\n\nA reasonable counterargument might emphasize the benefits or stated goals of these developments. Those claims deserve evaluation, but they do not eliminate unintended consequences, unequal impacts or limits of the evidence. I would therefore defend a qualified conclusion and explain which further sources might change it."
+      "writing": "Compare two late-twentieth-century changes involving political accountability, economic policy, diplomacy, or technology. For each, explain what officials or advocates wanted and identify one documented outcome. Use two primary records and one corroborating study or data source. Address a plausible counterargument and explain one conclusion your evidence cannot establish.",
+      "challenge": "Compare a national NAFTA estimate with one piece of evidence about a specific industry or community. Explain what a national estimate cannot reveal about local employment or wages.",
+      "standards": "Maryland High School United States History Framework (June 2025), selected cases for USH.3.4.c and e, USH.4.4.a–b, USH.4.5.a–c, and USH.5.1.a–c. Exact links and scope are listed with each lesson.",
+      "framework": "https://msde.maryland.gov/media/17926#page=17",
+      "sourceAudit": "Documents A–C show a recorded conversation or public statements. Document D measures household access. Use the course’s original laws, budget records, and historical studies to evaluate what followed.",
+      "sampleAnswer": "The Watergate tape documents Nixon and Haldeman discussing a plan to limit the investigation. The Supreme Court opinion establishes a different fact: a general claim of presidential privilege did not override the need for evidence in this criminal trial. Trust surveys show a decline by 1974. They do not establish that Watergate alone caused it.\n\nIn the 1990s, the NAFTA implementation act changed trade rules. A competing explanation for economic changes is that information technology changed productivity and how firms organized production. The statute establishes policy, while labor and productivity research helps test outcomes. Industry and local records would be necessary to evaluate a specific community."
     },
     "9.11": {
       "id": "9.11",
@@ -1989,81 +1983,83 @@
           "slug": "september-11-and-its-consequences",
           "title": "September 11 and Its Consequences",
           "essential": "How did September 11 change U.S. security policy and public life?",
-          "task": "Write a claim about September 11 and Its Consequences with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Explain one step in al-Qaeda’s development, compare the stated grounds for force in the two authorizations, and evaluate the security and privacy tradeoff in one post-9/11 policy. Cite a dated source for each part."
         },
         {
           "slug": "technology-and-american-society",
           "title": "Technology and American Society",
           "essential": "How has digital technology changed opportunities, privacy, and political participation?",
-          "task": "Write a claim about Technology and American Society with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Explain one difference between the NTIA measures. Use a Pew survey finding to explain how digital news can contribute to separate information environments, and identify what the survey cannot establish about cause and effect."
         },
         {
           "slug": "contemporary-civil-rights-and-civic-movements",
           "title": "Contemporary Civil Rights and Civic Movements",
           "essential": "How do contemporary movements build on earlier rights struggles?",
-          "task": "Write a claim about Contemporary Civil Rights and Civic Movements with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Compare Milk’s letter and Obergefell. Identify who acted, the action each record sought or required, and one difference in legal effect. Use the ADA to identify another route to a legal protection and name evidence that could show how one protection worked in practice."
         },
         {
           "slug": "america-in-a-changing-world",
           "title": "America in a Changing World",
           "essential": "How should citizens evaluate America's changing role in global affairs?",
-          "task": "Write a claim about America in a Changing World with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Use Article 4 and the first U.S. climate submission to explain who sets the target, identify its baseline and deadline, and describe how to test whether it was reached. Then give one difference between the agreement and a domestic law such as Dodd-Frank."
         }
       ],
       "sources": [
         {
-          "label": "Document A · September 20 Joint Address",
-          "title": "September 20 Joint Address",
-          "creator": "President George W. Bush",
-          "date": "September 20, 2001",
-          "url": "https://georgewbush-whitehouse.archives.gov/news/releases/2001/09/20010920-8.html",
-          "sourceUrl": "https://georgewbush-whitehouse.archives.gov/news/releases/2001/09/20010920-8.html",
-          "sourceType": "Primary source: presidential speech",
-          "excerpt": "The address explains the administration's framing of the attacks and planned response; it is not a neutral summary of all consequences.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
+          "label": "Document A · 2001 military authorization",
+          "title": "2001 Authorization for Use of Military Force, §2(a)",
+          "creator": "United States Congress",
+          "date": "September 18, 2001",
+          "url": "https://www.govinfo.gov/content/pkg/PLAW-107publ40/pdf/PLAW-107publ40.pdf",
+          "sourceUrl": "https://www.govinfo.gov/content/pkg/PLAW-107publ40/pdf/PLAW-107publ40.pdf",
+          "sourceType": "Primary source: enacted joint resolution",
+          "excerpt": "Section 2(a) authorized the president to use necessary and appropriate force against actors he determined had planned, authorized, committed, or aided the September 11 attacks, or harbored those actors.",
+          "limitation": "The resolution establishes congressional authority. Use military and civilian records to evaluate how the authority was used.",
           "documentExcerpt": "",
-          "sourceNote": "The address explains the administration's framing of the attacks and planned response; it is not a neutral summary of all consequences.",
-          "lessonContext": "On September 11, 2001, al-Qaeda terrorists hijacked four passenger aircraft, attacking the World Trade Center and Pentagon; a fourth crashed in Pennsylvania after passengers resisted. Nearly 3,000 people were killed. The attack's history includes the people killed, survivors, first responders, and communities affected by long-term health and social consequences. Responsible teaching prioritizes verified testimony over repeated dramatic images. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
+          "sourceNote": "Compare §2(a) with §3(a) of the separate 2002 Iraq authorization.",
+          "lessonContext": "The 9/11 Commission traced al-Qaeda’s emergence to networks formed during the war against Soviet forces in Afghanistan. Under Osama bin Laden, al-Qaeda targeted the United States, including in the 1998 U.S. embassy bombings in Kenya and Tanzania. By 2001, the Taliban provided al-Qaeda a haven in Afghanistan. These records trace a specific organization and its leadership. The Justice Department later documented backlash against Muslim, Arab, Sikh, and South Asian communities in the United States."
         },
         {
-          "label": "Document B · 9/11 Oral History Collection",
-          "title": "9/11 Oral History Collection",
-          "creator": "Eyewitnesses and interviewees; National September 11 Memorial & Museum",
-          "date": "Interviews concerning 2001–present",
-          "url": "https://collection.911memorial.org/Search/oral_histories",
-          "sourceUrl": "https://collection.911memorial.org/Search/oral_histories",
-          "sourceType": "Primary-source collection: first-person testimony",
-          "excerpt": "Recorded testimony documents individual experiences; each interview must be identified and cannot represent all affected people.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
+          "label": "Document B · Home broadband survey",
+          "title": "NTIA, Exploring the Digital Nation, 2011 report, executive summary",
+          "creator": "National Telecommunications and Information Administration",
+          "date": "November 2011, drawing on October 2010 survey data",
+          "url": "https://www.ntia.doc.gov/files/ntia/publications/exploring_the_digital_nation_computer_and_internet_use_at_home_11092011.pdf",
+          "sourceUrl": "https://www.ntia.doc.gov/files/ntia/publications/exploring_the_digital_nation_computer_and_internet_use_at_home_11092011.pdf",
+          "sourceType": "Government statistical report",
+          "excerpt": "The report found that 68 percent of U.S. households used home broadband in 2010, compared with 64 percent the previous year.",
+          "limitation": "Household broadband use cannot establish who used a mobile phone, how often they went online, or whether political beliefs changed.",
           "documentExcerpt": "",
-          "sourceNote": "Recorded testimony documents individual experiences; each interview must be identified and cannot represent all affected people.",
-          "lessonContext": "Broadband internet, smartphones, and digital platforms transformed communication, business, education, and news distribution in the twenty-first century. Access remains unequal across income, geography, and disability. Technology adoption differs by age, disability, income, and geography. Online access is not the same as the skills, devices, or trustworthy information needed to benefit from digital systems. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
+          "sourceNote": "Read the first paragraph of the executive summary. Identify the household measure and the survey year.",
+          "lessonContext": "The Census Bureau’s October 2010 survey found that 68 percent of U.S. households used home broadband, up from 64 percent a year earlier. A later survey measured a different behavior. Among people age 25 and older with family incomes below $25,000, reported mobile phone use rose from 73 percent in 2011 to 77 percent in 2012. This measure includes ordinary mobile phone use. It does not tell us whether respondents had home broadband or used a phone to go online."
         },
         {
-          "label": "Document C · 9/11 Commission Interview Records",
-          "title": "9/11 Commission Interview Records",
-          "creator": "National Commission on Terrorist Attacks upon the United States",
-          "date": "2003–2004",
-          "url": "https://www.archives.gov/research/9-11/commission-series.html",
-          "sourceUrl": "https://www.archives.gov/research/9-11/commission-series.html",
-          "sourceType": "Primary-source collection: interview records and contemporaneous exhibits",
-          "excerpt": "The commission files provide investigative records; distinguish original testimony and documents from later commission analysis.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
+          "label": "Document C · Obergefell ruling",
+          "title": "Obergefell v. Hodges, 576 U.S. 644, majority opinion at 675–681",
+          "creator": "Supreme Court of the United States",
+          "date": "June 26, 2015",
+          "url": "https://www.govinfo.gov/content/pkg/USREPORTS-576/pdf/USREPORTS-576-644.pdf",
+          "sourceUrl": "https://www.govinfo.gov/content/pkg/USREPORTS-576/pdf/USREPORTS-576-644.pdf",
+          "sourceType": "Primary source: majority opinion",
+          "excerpt": "The Court held that the Fourteenth Amendment requires states to license same-sex marriages and to recognize those lawfully licensed and performed in other states.",
+          "limitation": "The opinion establishes the legal obligation. Evaluating implementation requires evidence from states and affected couples.",
           "documentExcerpt": "",
-          "sourceNote": "The commission files provide investigative records; distinguish original testimony and documents from later commission analysis.",
-          "lessonContext": "Twenty-first-century civic movements have addressed policing, racial inequality, voting access, LGBTQ rights, disability inclusion, and other issues. Participants use community organizing, litigation, elections, and digital communication. Civic movements use tactics familiar from earlier reform struggles but face new communication environments and legal contexts. A hashtag or demonstration is not the whole movement. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
+          "sourceNote": "Read the majority opinion’s closing discussion at pages 675–681.",
+          "lessonContext": "In 1978, San Francisco Supervisor Harvey Milk wrote to President Jimmy Carter asking him to oppose a California ballot measure that sought to bar gay and lesbian people from working in public schools. Voters rejected the measure. Milk’s letter shows a local elected official asking a national leader to act. The letter cannot tell us how many voters changed their minds or why the measure lost."
         },
         {
-          "label": "Document D · Additional interpretation",
-          "title": "America in a Changing World",
-          "creator": "Examine the Past curriculum editors",
-          "date": "2026 instructional summary",
-          "url": "../america-in-a-changing-world/",
-          "sourceUrl": "../america-in-a-changing-world/",
-          "sourceType": "Secondary source: lesson interpretation, NOT primary evidence",
-          "excerpt": "The United States participates in international institutions, security relationships, trade networks, and climate negotiations, while domestic debate shapes policy priorities. Global challenges often involve several governments and nonstate actors. International influence includes economics, technology, cultural exchange, diplomacy, and military resources. These measures may point in different directions, so the word 'power' requires a clear definition. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-          "limitation": "This is a modern instructional interpretation, not an original primary document. Use it for context; investigate originals for source-based claims.",
-          "documentExcerpt": ""
+          "label": "Document D · Paris Agreement",
+          "title": "UNFCCC, Decision 1/CP.21, annex, Paris Agreement, Article 4",
+          "creator": "Parties to the United Nations Framework Convention on Climate Change",
+          "date": "December 12, 2015",
+          "url": "https://unfccc.int/resource/docs/2015/cop21/eng/10a01.pdf",
+          "sourceUrl": "https://unfccc.int/resource/docs/2015/cop21/eng/10a01.pdf",
+          "sourceType": "Primary source: text adopted at the Paris climate conference",
+          "excerpt": "Article 4 requires each party to prepare, communicate, and maintain successive nationally determined contributions and to pursue domestic mitigation measures toward their objectives.",
+          "limitation": "To establish a specific national target or measure progress, consult that country’s submission and dated emissions data.",
+          "documentExcerpt": "",
+          "sourceNote": "Read Article 4, paragraphs 2 and 9, and compare it with the first U.S. submission.",
+          "lessonContext": "Governments adopted the Paris Agreement in December 2015 through the United Nations climate process. Article 4 calls for each party to prepare, communicate, and maintain successive nationally determined contributions. A contribution is a country’s own climate plan or target. In its first submission, the United States set an economy-wide target of reducing greenhouse gas emissions by 26 to 28 percent below the 2005 level by 2025."
         }
       ],
       "questions": [
@@ -2078,80 +2074,80 @@
           "explain": "First-person accounts offer valuable but necessarily situated evidence."
         },
         {
-          "prompt": "President Bush's September 20, 2001 address presents a government response. What is necessary to evaluate its long-term effects?",
+          "prompt": "Which claim about congressional authority is supported by Document A?",
           "choices": [
-            "Compare later policy records and experiences of affected communities",
-            "Treat the address as a complete prediction of every later decision",
-            "Use the speech alone to establish whether security measures worked"
+            "Congress tied the authority to actors linked to the September 11 attacks or to those who harbored them.",
+            "Congress named Iraq as the government responsible for September 11.",
+            "Congress used the joint resolution to create the TSA and set federal screening rules."
           ],
           "answer": 0,
-          "explain": "Speech content differs from policy implementation and long-term outcomes."
+          "explain": "Section 2(a) defines the authority by a connection to the attacks. The Iraq authorization and aviation law were separate acts."
         },
         {
-          "prompt": "The 9/11 Commission records include interviews and analysis. What must students distinguish?",
+          "prompt": "What comparison can a student make using Document B?",
           "choices": [
-            "Government analysis is the same as eyewitness memory",
-            "Contemporary documents, later interviews and conclusions reached by investigators",
-            "All interviews were made before the attacks"
+            "Individual smartphone ownership rose by four percentage points.",
+            "The share of households using home broadband rose by four percentage points.",
+            "Home broadband use increased by four points in every income group."
           ],
           "answer": 1,
-          "explain": "Different dates and source types answer different questions."
+          "explain": "The national household figure rose from 64 to 68 percent. The difference is four percentage points."
         },
         {
-          "prompt": "How should a historian compare public claims about digital technology and privacy?",
+          "prompt": "What does Document C establish about states outside the couple’s home state?",
           "choices": [
-            "Avoid asking about platform ownership or data collection",
-            "Use the most popular post as proof of the social effect",
-            "Corroborate with relevant data, laws, firsthand experiences and time period"
+            "States could refuse recognition if they offered civil unions.",
+            "The ruling left recognition of out-of-state marriages entirely to state legislatures.",
+            "States had to recognize same-sex marriages lawfully performed elsewhere."
           ],
           "answer": 2,
-          "explain": "Technology claims require credible, contextual evidence."
+          "explain": "The majority opinion addressed both licensing and recognition."
         },
         {
-          "prompt": "A student says a contemporary civic movement has the same goals as every movement from the 1960s. What improves the claim?",
+          "prompt": "Which evidence would help verify whether the first U.S. climate target was reached?",
           "choices": [
-            "Compare stated goals, participants and strategies in each historical context",
-            "Assume similar protest symbols establish identical demands",
-            "Choose the movement with the larger media audience"
+            "A comparable national emissions series for the baseline and target years.",
+            "The date other countries submitted their contributions.",
+            "A survey on whether voters supported the Paris Agreement."
           ],
           "answer": 0,
-          "explain": "Historical comparisons should recognize continuity and difference."
+          "explain": "The target specified a national emissions reduction relative to a baseline year."
         },
         {
-          "prompt": "What is a qualified conclusion about policy after September 11?",
+          "prompt": "How could you test the claim that online news habits caused greater political polarization?",
           "choices": [
-            "All affected communities experienced security policy in the same way",
-            "Security priorities changed, while consequences for rights, global relationships and communities need separate evidence",
-            "The attacks explain every subsequent U.S. security decision without other causes"
+            "Use only the national rise in household broadband reported in Document B.",
+            "Compare news exposure and political beliefs over time and consider other possible influences.",
+            "Compare the number of digital news sources named by two survey respondents."
           ],
           "answer": 1,
-          "explain": "Avoid single-cause, universal claims about complex policy consequences."
+          "explain": "A causal claim needs evidence about changes in exposure and beliefs, with attention to other explanations."
         }
       ],
       "matchingOptions": [
-        "September 20 Joint Address",
-        "9/11 Oral History Collection",
-        "9/11 Commission Interview Records"
+        "Nationwide household survey",
+        "Supreme Court majority opinion",
+        "International agreement"
       ],
       "matchingPrompts": [
         {
-          "prompt": "Which original record helps investigate September 20 Joint Address and its historical context?",
+          "prompt": "Which source measures a change in home broadband use?",
           "answer": 0
         },
         {
-          "prompt": "Which original record helps investigate 9/11 Oral History Collection and its historical context?",
+          "prompt": "Which source establishes the states’ legal obligations concerning same-sex marriage?",
           "answer": 1
         },
         {
-          "prompt": "Which original record helps investigate 9/11 Commission Interview Records and its historical context?",
+          "prompt": "Which source describes how nations communicate successive climate contributions?",
           "answer": 2
         }
       ],
-      "inquiryPrompt": "How have security decisions and digital change reshaped freedom, civic life and public evidence?",
+      "inquiryPrompt": "How can historians judge what changed after a policy decision?",
       "inquirySteps": [
-        "Compare the sources and record their perspectives and limitations.",
-        "Develop a focused historical question and identify which sources address it.",
-        "Present a supported thesis that considers other evidence and uncertainty."
+        "Compare what the decision required with independent evidence of what happened afterward.",
+        "Identify the decision, its date, and the outcome you want to investigate.",
+        "Present a conclusion that explains what the comparison supports and what remains uncertain."
       ],
       "inquiryAnswers": [
         1,
@@ -2159,21 +2155,21 @@
         2
       ],
       "conclusions": [
-        "Documents B and C can help historians compare how evidence, policy and experience relate to the united states in the twenty-first century.",
-        "Document A records a position or record from September 20, 2001, but it needs context to support claims about historical effects.",
-        "A single eyewitness account of September 11 is sufficient to establish every cause and consequence of U.S. security policy."
+        "Document B supports a claim about growth in household broadband use. Testing changes in political beliefs would require additional evidence.",
+        "Document C establishes a legal obligation for states. Implementation can be studied with records from states and affected couples.",
+        "Document D shows that the United States reached its first national emissions target."
       ],
       "conclusionKey": [
         true,
         true,
         false
       ],
-      "writing": "How have security decisions and digital change reshaped freedom, civic life and public evidence? Construct a qualified historical argument using at least three specific facts supported by two original records from this unit and one other kind of evidence (such as testimony, a map, statistics, or a carefully attributed secondary interpretation). Explain each source's date and perspective, compare experiences of affected communities, discuss at least one limitation, and address a plausible counterargument.",
-      "challenge": "Create a museum exhibit or document-based investigation responding to: How have security decisions and digital change reshaped freedom, civic life and public evidence? Use four attributed sources, a chronological visualization, two perspectives, an evidence limitation and a defended curator thesis.",
-      "standards": "Maryland 2025 High School United States History Framework; historical inquiry and relevant unit content. Exact indicator crosswalk pending.",
+      "writing": "How did two twenty-first-century policy decisions change what governments could or had to do? Choose two of Documents A, C, and D. Make a claim about the difference between those decisions. Use a specific detail from each document and a third piece of evidence from the unit to explain one consequence or tradeoff. Address a plausible counterargument and identify one outcome that still needs evidence.",
+      "challenge": "Build a three-panel exhibit tracing one policy from the decision to its implementation. Use four attributed sources, including the original decision and a record from an affected person or institution. Date your evidence and explain one question it leaves open.",
+      "standards": "Maryland 2025 High School United States History Framework. Selected evidence for USH.5.2.a, USH.5.2.b, USH.5.2.d, and USH.5.3.b–d.",
       "framework": "https://msde.maryland.gov/media/17926",
-      "sourceAudit": "Original documents linked to the National Archives, Library of Congress, presidential libraries, or National September 11 Memorial; source cards contain instructional summaries, not verbatim transcriptions. Verify original collection item, creator, and date before citing.",
-      "sampleAnswer": "The question raised in The United States in the Twenty-First Century is: How have security decisions and digital change reshaped freedom, civic life and public evidence? The evidence suggests that decisions and events changed institutions and opportunities, but the results differed among people and places. A defensible argument requires attention to whom a policy or movement affected, not only its supporters' intentions.\n\nDocument A (September 20 Joint Address, September 20, 2001) provides one perspective: The address explains the administration's framing of the attacks and planned response; it is not a neutral summary of all consequences. Document B (9/11 Oral History Collection, Interviews concerning 2001–present) adds another: Recorded testimony documents individual experiences; each interview must be identified and cannot represent all affected people. These records identify choices or experiences, but their authors and purposes must be considered before treating them as complete accounts.\n\nDocument C (9/11 Commission Interview Records, 2003–2004) supplies further evidence: The commission files provide investigative records; distinguish original testimony and documents from later commission analysis. A historian should test these records against different evidence such as the observations of affected communities, independent statistics, archaeological evidence when relevant, and the unit's contextual lesson reading. The sources do not necessarily measure results by themselves.\n\nA reasonable counterargument might emphasize the benefits or stated goals of these developments. Those claims deserve evaluation, but they do not eliminate unintended consequences, unequal impacts or limits of the evidence. I would therefore defend a qualified conclusion and explain which further sources might change it."
+      "sourceAudit": "Documents A–D summarize specific passages in a congressional authorization, a federal survey report, a Supreme Court majority opinion, and a climate agreement. Open each record and cite the section, page, or survey measure you use.",
+      "sampleAnswer": "Documents A and C show two ways federal decisions changed government authority. Congress gave the president authority to use force against actors linked to September 11. The Supreme Court later imposed a duty on states to license and recognize same-sex marriages. Congress granted discretion to an executive official within the terms of the law. The Court required states to change how they treated couples seeking legal marriage.\n\nThe separate 2002 Iraq authorization reinforces the distinction between the authorities. Its stated grounds included a threat attributed to Iraq and enforcement of United Nations resolutions. The 2001 authorization instead centered on the attacks and those linked to them. A counterargument is that federal decisions like these immediately settle what happens on the ground. They can settle an important legal question. To judge outcomes, I would also look for dated military records or state marriage records and accounts from affected couples."
     }
   }
 }

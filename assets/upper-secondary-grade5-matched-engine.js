@@ -90,16 +90,50 @@ function reframe(d){
   v=v.replace(/<div class="g5-kicker">[^<]*<\/div><h2>[^<]*<\/h2>/,'<div class="g5-kicker">'+eyebrow+'</div><h2>'+heading+'</h2>');
   return v;
  };
+ const alignment=d.marylandAlignment;
+ const marylandFramework=grade===11
+   ? A("https://msde.maryland.gov/media/17929"+(alignment?"#page="+alignment.page:""),"Maryland Modern World History Framework")
+   : A("https://msde.maryland.gov/academics-0/curriculum-academic-standards/social-studies","Maryland Social Studies Frameworks");
+ const standardLabel=alignment?.inquiry ? 'Maryland inquiry skills · '+alignment.code : alignment?.code;
+ const standardNote=alignment
+   ? '<p><strong>'+E(standardLabel)+'</strong> · '+E(alignment.objective)+'</p>'
+   : '<p>Historical inquiry, evidence analysis, and informed discussion.</p>';
+ const lessonObjective=alignment
+   ? '<p><strong>Lesson objective:</strong> '+E(alignment.objective)+'</p>'
+   : '';
+ const exitEvidence=alignment
+   ? '<p><strong>'+E(standardLabel)+'</strong> · '+E(alignment.evidence)+'</p><p><strong>What to include:</strong> '+E(alignment.criteria)+'</p>'
+   : '<p>Identify the relevant historical actor, institution, process or social condition, cite one credible piece of evidence, and explain a limitation or perspective you would investigate next.</p>';
+ const caseStudies=(d.caseStudies||[]).map(study=>({
+   ...study,
+   id:"history-case-"+study.code.toLowerCase().replaceAll(".","-")
+ }));
+ const caseList=caseStudies.length ? '<h3>Related case studies</h3><ul>'+caseStudies.map(study=>
+   '<li><a href="#'+E(study.id)+'">'+E(study.title)+'</a> · '+E(study.code)+'</li>'
+ ).join("")+'</ul>' : '';
  const planExtra='<div class="civic-goal-dropdowns">'+
- '<details><summary>Standards</summary><div class="g5-detail"><p><strong>Upper-secondary social studies:</strong> historical inquiry, social-science evidence and informed discussion. Match lesson tasks with the adopted state framework; this description is not an official indicator-by-indicator certification.</p><p><strong>Grade 11–12 Literacy:</strong> RI.11-12.1 — cite textual evidence; RI.11-12.9 — analyze accounts; W.11-12.1 — write arguments; W.11-12.8 — evaluate and cite credible evidence.</p><p>'+A("https://msde.maryland.gov/media/17919","Maryland Government Framework")+'</p></div></details>'+
+ D("Standards",standardNote+caseList+'<p>'+marylandFramework+'</p><p><strong>Grade 11–12 disciplinary literacy:</strong> RH.11–12.1 and RH.11–12.9 for evaluating evidence and reconciling sources. WHST.11–12.1 and WHST.11–12.8 for evidence-based writing and credible citations.</p>')+
  '<details><summary>Essential Questions</summary><div class="g5-detail"><p><strong>Primary inquiry:</strong> '+E(d.essential)+'</p><ol><li>Which historical institutions, actors and circumstances shaped the issue?</li><li>How do sources differ in purpose, context, audience and evidentiary value?</li><li>What evidence would justify or challenge a historical interpretation?</li></ol></div></details>'+
- '<details><summary>Objectives</summary><div class="g5-detail"><p>By the end of this lesson, students will be able to:</p><ol><li><strong>Explain</strong> the relevant historical developments and competing interpretations using accurate vocabulary.</li><li><strong>Evaluate</strong> two sourced documents by their origin, date, purpose and limits.</li><li><strong>Construct and defend</strong> a historical or social-science conclusion using two relevant details, a counterargument and a reasonable qualification.</li></ol><p><strong>Success criteria:</strong> accurate contextualization, appropriate evidence, consideration of diverse perspectives, and a justified conclusion.</p></div></details>'+
+ '<details><summary>Objectives</summary><div class="g5-detail"><p>By the end of this lesson, students will be able to:</p>'+lessonObjective+'<ol><li><strong>Explain</strong> the relevant historical developments and competing interpretations using accurate vocabulary.</li><li><strong>Evaluate</strong> two sourced documents by their origin, date, purpose and limits.</li><li><strong>Construct and defend</strong> a historical or social-science conclusion using two relevant details, a counterargument and a reasonable qualification.</li></ol><p><strong>Success criteria:</strong> accurate contextualization, appropriate evidence, consideration of diverse perspectives, and a justified conclusion.</p></div></details>'+
  '<details><summary>Pacing Options</summary><div class="g5-detail"><p>Choose a flexible 45-, 60- or 90-minute lesson. The timer is optional and does not affect scores.</p><div class="civic-pacing-wrap"><table class="civic-pacing"><thead><tr><th>Lesson stage</th><th>45 min</th><th>60 min</th><th>90 min</th></tr></thead><tbody><tr><th>Goals</th><td>3</td><td>4</td><td>5</td></tr><tr><th>Introduction</th><td>5</td><td>8</td><td>10</td></tr><tr><th>Guided Practice</th><td>13</td><td>18</td><td>31</td></tr><tr><th>Independent / Group</th><td>12</td><td>16</td><td>25</td></tr><tr><th>Assessment</th><td>7</td><td>9</td><td>12</td></tr><tr><th>Closure</th><td>5</td><td>5</td><td>7</td></tr></tbody></table></div><p>For 90 minutes, add close viewing of the media, source corroboration and peer discussion. Students may write, speak or present with equivalent source-evidence expectations.</p></div></details></div>';
  let plan=reshape("goals","plan","plan","Goals for Learning","01 · Standards · Essential Questions · Objectives · Pacing");
  plan=plan.replace(/(<h2>Goals for Learning<\/h2>)/,'$1'+planExtra);
  let intro=reshape("prepare","launch","launch","Introduction","02 · Pre-check · Vocabulary · Opening Inquiry");
  intro=intro.replace('</section>','<div class="g5-activity"><h3>Your opening thought</h3><label for="civic-opening-notes">What do you initially think about this historical or social-science question, and what evidence could change your view?</label><textarea class="g5-writing" id="civic-opening-notes" placeholder="Initial thinking… Evidence I need…"></textarea></div></section>');
  let guided=reshape("discover","discover","discover","Guided Practice","03 · Read · Watch · Model · Investigate");
+ const casePanels=caseStudies.map(study=>{
+   const paragraphs=study.reading.map(paragraph=>'<p>'+E(paragraph)+'</p>').join("");
+   const sourceLinks=study.sources.map(source=>'<li>'+A(source.url,source.title)+'</li>').join("");
+   return '<article class="g5-activity g5-history-case" id="'+E(study.id)+'" aria-labelledby="'+E(study.id)+'-heading">'+
+     '<h3 id="'+E(study.id)+'-heading">'+E(study.title)+'</h3><p>'+E(study.code)+'</p>'+
+     paragraphs+'<h4>Read the sources</h4><ul>'+sourceLinks+'</ul>'+
+     '<h4>Student task</h4><p>'+E(study.prompt)+'</p><p><strong>What to include:</strong> '+E(study.criteria)+'</p>'+
+     '<label for="'+E(study.id)+'-response">My case-study response</label>'+
+     '<textarea class="g5-writing" id="'+E(study.id)+'-response" rows="5"></textarea>'+
+     '<p>Keep a copy of your response before leaving this page.</p></article>';
+ }).join("");
+ if(casePanels)guided=guided.replace('</section>',casePanels+'</section>');
+
  let independent=reshape("lab","apply","apply","Independent / Group Practice","04 · Collaborate · Investigate · Create");
  const writing=parts.apply.replace(/^<section[^>]*>/,'').replace(/<\/section>$/,'');
  independent=independent.replace('</section>','<div class="g5-activity civic-independent-writing">'+writing+'</div></section>');
@@ -119,7 +153,7 @@ function reframe(d){
  const unitHref='../unit-assessments/?unit='+encodeURIComponent(d.unit);
  const preview='<details class="civic-final-preview"><summary>Open Unit '+E(d.unit)+' Evidence Assessment</summary><div class="g5-detail"><p><a href="'+E(unitHref)+'" data-etp-transition="warp-tunnel">Open unit evidence assessment →</a></p><p>Includes knowledge checks, primary/secondary source analysis and a teacher-reviewed written argument. This assessment remains in editorial review; automatically scored knowledge checks are not a final unit grade.</p><p>Lesson practice credits remain separate from unit assessment results.</p></div></details>';
  assess=assess.replace('</section>',preview+'</section>');
- const closure='<section class="g5-panel civic-stage-closure" id="closure"><div class="g5-kicker">06 · Summarize · Reflect · Exit Ticket</div><h2>Closure</h2><p><strong>Return to the essential question:</strong> '+E(d.essential)+'</p><div class="g5-activity"><h3>Exit ticket · Connect the lesson to a larger historical question</h3><p>Identify the relevant historical actor, institution, process or social condition, cite one credible piece of evidence, and explain a limitation or perspective you would investigate next.</p><label for="civic-exit-ticket">My evidence-based reflection</label><textarea class="g5-writing" id="civic-exit-ticket" placeholder="I learned… The document shows… Another viewpoint or question is…"></textarea></div><p>Check the assessment preview above whenever you want to see what the unit evaluates. Your written reflections remain on this page unless you copy them.</p></section>';
+ const closure='<section class="g5-panel civic-stage-closure" id="closure"><div class="g5-kicker">06 · Summarize · Reflect · Exit Ticket</div><h2>Closure</h2><p><strong>Return to the essential question:</strong> '+E(d.essential)+'</p><div class="g5-activity"><h3>Exit ticket · Connect the lesson to a larger historical question</h3>'+exitEvidence+'<label for="civic-exit-ticket">My evidence-based reflection</label><textarea class="g5-writing" id="civic-exit-ticket" placeholder="I learned… The document shows… Another viewpoint or question is…"></textarea></div><p>Check the assessment preview above whenever you want to see what the unit evaluates. Your written reflections remain on this page unless you copy them.</p></section>';
  let extensions=reshape("optional","options","options","Extensions","07 · Optional Inquiry · Explore More");
  let sources=reshape("sources","evidence","evidence","Sources","08 · References · Credits · Source Quality");
  let newHead=head.replace(/<div class="g5-jumps">[\s\S]*?<\/div>/,
@@ -205,5 +239,5 @@ function wire(d){
  QA("[data-source-good]").forEach(b=>b.onclick=()=>{const ok=b.dataset.sourceGood==="true";Q("#g5-source-result").textContent=ok?"Correct. Corroboration and missing perspectives matter.":"Review historical sourcing. Context matters more than confidence.";assess("reliability",ok,b)});
  Q("#g5-copy").onclick=()=>{const txt=Q("#g5-written").value,o=Q("#g5-copy-result");if(!txt.trim()){o.textContent="Write a response first.";return}if(navigator.clipboard&&isSecureContext)navigator.clipboard.writeText(txt).then(()=>o.textContent="Copied.").catch(()=>o.textContent="Select text manually.");else{Q("#g5-written").select();o.textContent="Selected. Copy using your device."}};
 }
-fetch(root+(grade===11?"assets/grade11-grade5-matched-data.json?v=20261124-grade11-academic-v6":"assets/grade12-grade5-matched-data.json?v=20261124-grade12-capstone-v4")).then(r=>{if(!r.ok)throw Error("Data unavailable");return r.json()}).then(all=>{if(!all.lessons[slug])throw Error("Lesson missing");build(all.lessons[slug],all)}).catch(err=>{console.error(err);const target=page.querySelector(".etp-preview-label");if(target)target.textContent="Lesson content unavailable. Refresh or return to course.";});
+fetch(root+(grade===11?"assets/grade11-grade5-matched-data.json?v=20261125-md-cases-v4":"assets/grade12-grade5-matched-data.json?v=20261124-source-evidence-v2")).then(r=>{if(!r.ok)throw Error("Data unavailable");return r.json()}).then(all=>{if(!all.lessons[slug])throw Error("Lesson missing");build(all.lessons[slug],all)}).catch(err=>{console.error(err);const target=page.querySelector(".etp-preview-label");if(target)target.textContent="Lesson content unavailable. Refresh or return to course.";});
 })();

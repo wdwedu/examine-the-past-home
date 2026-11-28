@@ -10,146 +10,158 @@
         {
           "title": "Enlightenment Ideas and Natural Rights",
           "slug": "enlightenment-ideas-and-natural-rights",
-          "essential": "How can we use credible sources and constitutional reasoning to investigate enlightenment ideas and natural rights?",
-          "task": "Build a source-backed civic argument"
+          "essential": "How did ideas about limiting rulers change from English legal traditions to the American founding?",
+          "task": "Compare one English legal limit, Locke’s account of consent, and a principle or rule in an American founding document. Explain how each source limits authority and identify one difference in what it does."
         },
         {
           "title": "The Declaration of Independence",
           "slug": "the-declaration-of-independence",
-          "essential": "How can we use credible sources and constitutional reasoning to investigate the declaration of independence?",
-          "task": "Build a source-backed civic argument"
+          "essential": "How did the Declaration justify independence, and how did other people use or challenge its language about rights?",
+          "task": "Explain how rights and consent support Congress’s case for independence. Cite one grievance and compare the Declaration’s argument with what Abigail Adams or the Massachusetts petitioners asked their audience to do."
         },
         {
           "title": "The Principles of Democratic Government",
           "slug": "the-principles-of-democratic-government",
-          "essential": "How can we use credible sources and constitutional reasoning to investigate the principles of democratic government?",
-          "task": "Build a source-backed civic argument"
+          "essential": "How do elections and public testimony give people a role in representative government?",
+          "task": "Use one constitutional change to explain how citizens gained a more direct role in elections. Then apply popular sovereignty and representative democracy to a Maryland bill hearing. Explain one way a witness can participate and who decides what happens to the bill."
         }
       ],
       "sources": [
         {
           "label": "Document A · Declaration of Independence",
-          "title": "Declaration of Independence",
+          "title": "Declaration of Independence, opening principles and grievances",
           "creator": "Second Continental Congress",
-          "date": "1776",
+          "date": "July 4, 1776",
           "url": "https://www.archives.gov/founding-docs/declaration-transcript",
           "sourceUrl": "https://www.archives.gov/founding-docs/declaration-transcript",
-          "sourceType": "Primary historical text",
-          "excerpt": "The Declaration argues that governments derive just powers from consent; it announces political ideals and independence, not an enforceable federal constitution.",
-          "limitation": "This is an attributed instructional summary, not a verbatim excerpt. Open the linked original and verify the cited provision, author, date, source genre, and limits before making a claim.",
-          "lessonContext": "Locke's social-contract arguments challenged unlimited monarchy by asking why political authority is legitimate. Natural-rights reasoning holds that certain rights do not depend on a ruler's gift, while consent of the governed requires government to answer to the people. Enlightenment authors disagreed about representation, property, religion and who qualified as a political member. Their arguments should be studied in their historical context, including exclusions they did not remedy."
+          "sourceType": "Primary founding document",
+          "excerpt": "The Declaration says governments receive legitimate authority from consent and exist to protect rights. The grievances support a case for independence.",
+          "limitation": "The document presents Congress’s public argument. State laws and records of participation provide evidence of how rights worked in practice.",
+          "lessonContext": "Identify the principle about the source of political power and the action Congress sought to justify."
         },
         {
           "label": "Document B · Constitution",
-          "title": "Constitution",
+          "title": "U.S. Constitution, Preamble and Article I, §§2, 3, and 9",
           "creator": "Constitutional Convention",
           "date": "1787",
           "url": "https://www.archives.gov/founding-docs/constitution-transcript",
           "sourceUrl": "https://www.archives.gov/founding-docs/constitution-transcript",
-          "sourceType": "Primary historical text",
-          "excerpt": "The Preamble and articles establish a proposed structure of government. Compare the document's promises with rules about representation and ratification.",
-          "limitation": "This is an attributed instructional summary, not a verbatim excerpt. Open the linked original and verify the cited provision, author, date, source genre, and limits before making a claim.",
-          "lessonContext": "The Declaration of Independence was adopted by the Second Continental Congress in 1776. It states political principles concerning equality, rights, consent and the right to alter a destructive government. Its list of grievances makes an argument against British rule and addresses audiences at home and abroad. Unlike the Constitution, it did not create the operating branches of the later federal government."
+          "sourceType": "Primary founding document",
+          "excerpt": "The original Constitution provided for an elected House, state legislatures’ selection of senators, and spending from the Treasury only under appropriations made by law.",
+          "limitation": "Later amendments changed how senators are selected and added protections for voting rights.",
+          "lessonContext": "Read the House and Senate selection rules as they stood in 1787."
         },
         {
-          "label": "Document C · Maryland Government Framework",
-          "title": "Maryland Government Framework",
-          "creator": "Maryland State Department of Education",
-          "date": "2025",
-          "url": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
-          "sourceUrl": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
-          "sourceType": "Secondary institutional context",
-          "excerpt": "The state framework provides inquiry and assessment expectations, not an original founding-period document.",
-          "limitation": "This is an attributed instructional summary, not a verbatim excerpt. Open the linked original and verify the cited provision, author, date, source genre, and limits before making a claim.",
-          "lessonContext": "Popular sovereignty places ultimate political authority in the people. Republican government uses representatives selected through established political rules, while constitutionalism limits the powers of public officials. The rule of law requires government action to follow legal constraints; it does not mean every law or decision is automatically fair. These principles can reinforce one another or come into tension."
+          "label": "Document C · Massachusetts petition for freedom",
+          "title": "Petition for freedom to the Massachusetts legislature, opening paragraph",
+          "creator": "Black petitioners held in slavery in Massachusetts",
+          "date": "January 13, 1777",
+          "url": "https://csac.history.wisc.edu/wp-content/uploads/sites/1026/2025/06/8-PS-Prince-Hall-Petition-13-Jan-1777.pdf",
+          "sourceUrl": "https://csac.history.wisc.edu/wp-content/uploads/sites/1026/2025/06/8-PS-Prince-Hall-Petition-13-Jan-1777.pdf",
+          "sourceType": "Primary petition",
+          "excerpt": "The petitioners asserted an equal natural right to freedom and asked Massachusetts lawmakers to end their enslavement.",
+          "limitation": "The petition documents a demand for action. The legislature’s response requires a separate record.",
+          "lessonContext": "Identify how the petitioners applied natural-rights reasoning and what they asked state lawmakers to do."
+        },
+        {
+          "label": "Document D · Seventeenth Amendment",
+          "title": "U.S. Constitution, Seventeenth Amendment",
+          "creator": "United States Congress and ratifying states",
+          "date": "1913",
+          "url": "https://www.archives.gov/founding-docs/amendments-11-27",
+          "sourceUrl": "https://www.archives.gov/founding-docs/amendments-11-27",
+          "sourceType": "Primary constitutional amendments",
+          "excerpt": "The amendment requires the people of each state to elect its two U.S. senators.",
+          "limitation": "It changes the method of selecting senators. It does not measure voter turnout or explain later election results.",
+          "lessonContext": "Compare the method of choosing senators with Article I, Section 3 in Document B."
         }
       ],
       "questions": [
         {
-          "prompt": "Which evidence would best support an analysis of natural-rights ideas influencing later government?",
+          "prompt": "Which argument connects Locke’s account of consent with Document A?",
           "choices": [
-            "Assume every Enlightenment writer supported identical voting rights.",
-            "Use only a modern slogan without examining its historical meaning.",
-            "Compare a dated Enlightenment argument with passages of a later founding document and identify both agreement and limits."
+            "Rulers may suspend laws whenever their supporters approve.",
+            "A legislature’s lawmaking power comes from royal inheritance.",
+            "Legitimate government depends on the consent of the people it governs."
           ],
           "answer": 2,
-          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+          "explain": "Locke grounds membership in political society in consent. Congress makes consent the basis of legitimate government."
         },
         {
-          "prompt": "Which research method best evaluates a tension between the Declaration's ideals and society in 1776?",
+          "prompt": "How does Document C use an idea found in Document A?",
           "choices": [
-            "Dismiss the political text as useless because its promises were not universally fulfilled.",
-            "Compare its stated principles with contemporary law and experiences of people excluded from political rights.",
-            "Infer that every adult could vote immediately after July 1776."
+            "It asks Congress to create a second chamber.",
+            "It applies an asserted natural right to freedom to a demand to end enslavement.",
+            "It argues that a court had already freed the petitioners."
           ],
           "answer": 1,
-          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+          "explain": "The petitioners claimed an inherent right to freedom and asked the Massachusetts legislature to act on it."
         },
         {
-          "prompt": "A city council passes a popular ordinance that conflicts with constitutional protections. Which conclusion is strongest?",
+          "prompt": "How did Document D change the rule for senators in Document B?",
           "choices": [
-            "Majority support matters but cannot alone authorize government to violate constitutional rights.",
-            "A popular ordinance cannot face court review.",
-            "Only judges determine every policy choice regardless of elections."
+            "Voters in each state began electing their senators directly.",
+            "The House of Representatives gained the power to select senators.",
+            "State legislatures gained control of Senate selection from voters."
           ],
           "answer": 0,
-          "explain": "The best response uses the appropriate source, legal authority, context and evidence, instead of treating a slogan or unsupported inference as proof."
+          "explain": "In 1787 the Constitution assigned Senate selection to state legislatures. The amendment gave voters the choice."
         },
         {
-          "prompt": "A representative claims their authority comes only from birthright. Which founding principle challenges that claim?",
+          "prompt": "What can a Maryland resident do by testifying at a committee hearing?",
           "choices": [
-            "Hereditary power is a constitutional requirement for every office.",
-            "The rule of law permits officeholders to ignore ordinary legal limits.",
-            "Consent of the governed requires political power to be justified to the people."
+            "Cast the committee’s final vote on a bill.",
+            "Put a bill into effect without action from legislators.",
+            "Present evidence or an argument for lawmakers to consider."
           ],
           "answer": 2,
-          "explain": "Consent-based government does not treat heredity as sufficient political legitimacy."
+          "explain": "Testimony supplies public input. Lawmakers retain the authority to vote."
         },
         {
-          "prompt": "The Declaration argues for independence while the Constitution establishes federal institutions. Which comparison is defensible?",
+          "prompt": "Which comparison correctly explains a similarity between the English Bill of Rights and the U.S. Constitution’s appropriations rule?",
           "choices": [
-            "The Constitution was adopted before the Declaration was written.",
-            "The Declaration creates the three modern federal branches.",
-            "They are different kinds of documents, one announcing reasons for separation and one structuring federal government."
+            "Both require the executive to hold an election before spending public money.",
+            "Both give a legislative body a role in authorizing a financial action by the government.",
+            "Both describe how voters choose the members of every legislative chamber."
           ],
-          "answer": 2,
-          "explain": "Their purposes and legal roles differ."
+          "answer": 1,
+          "explain": "The English act limited raising money for the Crown without a parliamentary grant. The Constitution requires spending from the Treasury to follow an appropriation made by law."
         },
         {
-          "prompt": "Why might a political principle receive broad public support but still require constitutional limits?",
+          "prompt": "Which record would help determine how Massachusetts lawmakers responded to Document C?",
           "choices": [
-            "Because popularity always creates legal authority.",
-            "Because the Constitution has no relationship to the public.",
-            "Because elected institutions must also respect individual rights and valid law."
+            "The legislative journal or a committee report on the petition.",
+            "A later list of U.S. senators elected under Document D.",
+            "A list of the signers of Document A."
           ],
-          "answer": 2,
-          "explain": "Majorities and constitutional protections are both relevant."
+          "answer": 0,
+          "explain": "A record of the legislature’s proceedings can show how lawmakers handled the petition."
         }
       ],
       "matchingOptions": [
-        "Declaration of Independence",
-        "Constitution",
-        "Maryland Government Framework"
+        "Continental Congress’s public declaration",
+        "Constitutional amendment",
+        "Petition to a state legislature"
       ],
       "matchingPrompts": [
         {
-          "prompt": "Which founding document argues that political independence is justified by violations of rights and consent?",
+          "prompt": "Which source offers a justification for breaking with Britain?",
           "answer": 0
         },
         {
-          "prompt": "Which founding document establishes the later federal government's constitutional structure?",
+          "prompt": "Which source changes the constitutional rule for choosing U.S. senators?",
           "answer": 1
         },
         {
-          "prompt": "Which source describes the state's current inquiry and assessment expectations rather than eighteenth-century ideas?",
+          "prompt": "Which source asks lawmakers to act on the authors’ claim to freedom?",
           "answer": 2
         }
       ],
-      "inquiryPrompt": "When a majority supports a policy but a minority claims it violates rights, how can the Declaration, Constitution, and a contemporary excluded voice help us distinguish ideals, authority, and lived experience?",
+      "inquiryPrompt": "How can you trace a governing principle from a public argument to a concrete change or demand?",
       "inquirySteps": [
-        "Compare Locke's account of political consent with the Declaration's claim about government by consent.",
-        "Identify an excluded population or a contemporary critique, such as Abigail Adams's 1776 correspondence, and state which claims the provided packet does not document directly.",
-        "Reach a qualified conclusion distinguishing founding ideals, constitutional institutions and actual political participation."
+        "Compare the public principle with a dated demand for action or a specific change to a rule.",
+        "Identify the principle and distinguish the original document’s purpose and audience.",
+        "Draw a conclusion about what changed or was sought, and name evidence needed to evaluate the result."
       ],
       "inquiryAnswers": [
         1,
@@ -157,21 +169,22 @@
         2
       ],
       "conclusions": [
-        "The Declaration expresses political claims about consent; the later Constitution sets out a federal framework, and neither proves equal participation in 1776.",
-        "A founding ideal about equality automatically meant everyone had the franchise in 1776.",
-        "Locke's philosophy and Abigail Adams's letter reveal distinct arguments about authority and exclusion, not identical authors or audiences."
+        "Documents B and D show that the method for choosing senators changed from selection by state legislators to direct election by voters.",
+        "Document A proves that everyone in the new states gained equal legal and political rights in 1776.",
+        "Document C shows that people held in slavery used natural-rights reasoning to call for legislative action."
       ],
       "conclusionKey": [
         true,
         false,
         true
       ],
-      "writing": "Compare the Declaration's consent principle with the actual government designed by the Constitution and an excluded contemporary perspective. Explain what the documents say, what rights they do not establish, and why that distinction matters.",
-      "challenge": "Civic Policy Lab: create a nonpartisan brief or mock hearing packet about Foundations of Democracy. Identify the decision-making body, make a sourced recommendation, compare at least two affected perspectives, and propose measurable outcomes.",
-      "standards": "Maryland American Government framework: unit-level inquiry and civics skills. Exact edition, indicators and alignment require separate verification.",
-      "framework": "https://www.marylandpublicschools.org/about/Documents/DCAA/SocialStudies/Framework/AmericanGovernment-A.pdf",
-      "sourceAudit": "Three attributed linked records or official resources, with primary, secondary and collection status labeled per document. These are instructional summaries, not verified verbatim excerpts. Exact standards indicators and historical/legal quotations require source-level editorial confirmation. Unit 10.1 packet has the Declaration and Constitution as primary texts, plus the Maryland framework as secondary curricular context; Locke and Abigail Adams are referenced in the corresponding lessons.",
-      "sampleAnswer": "Democratic government rests on claims about legitimate authority, rights and public consent. The Declaration of Independence advanced an argument for independence by connecting political authority to consent and naming grievances against British rule. The later Constitution created an institutional system for federal government. These documents were related, but they performed different functions.\n\nThe Declaration (1776) states a political theory of rights and the justification for separation. The Constitution (1787) establishes government institutions and limits their authority through written procedures. The documents show that declaring a principle and creating a workable government are different steps.\n\nA counterargument might say the founding documents immediately established political equality because they used expansive language about the people. That overlooks legal exclusions facing enslaved people, many women and Indigenous nations. The source texts reveal claims and structures, not the full experience of every person in the founding era.\n\nTherefore, the founders' language shaped an enduring civic argument, but the distance between ideals and implementation must be investigated through laws, political participation records and the accounts of excluded communities. A responsible judgment recognizes both the documents' influence and their historical limits."
+      "writing": "How did consent and rights function as ideals and as rules in the early United States and later reforms? Use the Declaration, the Massachusetts petition, and one detail from each of the original Constitution and the Seventeenth Amendment. Explain one gap between an ideal and participation, address a plausible counterargument, and name a record that could show what happened in practice.",
+      "challenge": "Trace public participation in one Maryland bill. Use the hearing guidance, the bill’s public history, and a committee or floor vote. Explain how residents could offer input, who had formal decision-making power, and whether the record shows that the input changed the bill.",
+      "standards": "June 2025 Maryland High School American Government Framework, p. 11. Selected evidence for GOV.1.2.a–c and GOV.1.2.e.",
+      "framework": "https://msde.maryland.gov/media/17919#page=11",
+      "sourceAudit": "The source cards summarize the opening principles of the Declaration, specific sections of Article I, the opening of the 1777 Massachusetts petition, and the Seventeenth Amendment. Cite the linked passage and tell the reader whether it is an argument, a request, or a rule.",
+      "sampleAnswer": "The Declaration argues that legitimate government derives its powers from the people and protects their rights. The 1777 Massachusetts petition put the principle of natural rights to work by asking lawmakers to recognize the petitioners’ right to freedom. The petition shows the gap between the ideal of equal rights and the petitioners’ lived position in slavery.\n\nThe original Constitution used both direct and indirect representation. Article I let voters choose House members while state legislatures chose U.S. senators. The Seventeenth Amendment gave voters a direct choice for the Senate as well.\n\nOne could argue that state legislatures already represented the people, so the original Senate could draw legitimacy from public elections indirectly. The amendment still changed who made the final selection.\n\nTo judge the effects of the change in practice, I would compare state election and turnout records across the transition. To learn what happened to the petition, I would look for a Massachusetts legislative journal or committee report.",
+      "writingGuide": "a source-backed argument of approximately 3–5 developed paragraphs with a claim, specific document evidence, a counterargument, and a source limitation"
     },
     "10.2": {
       "id": "10.2",

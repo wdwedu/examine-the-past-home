@@ -55,3 +55,7 @@ body.etp-civics-lesson .g6-svg-actions button{padding:9px 12px;border-radius:8px
 @media(max-width:1000px){body.etp-civics-lesson .g5-jumps.civic-lesson-jumps{gap:4px;justify-content:flex-start!important}body.etp-civics-lesson .g5-jumps.civic-lesson-jumps a{flex:0 0 auto!important}}
 @media(max-width:640px){body.etp-civics-lesson .g5-jumps.civic-lesson-jumps{gap:3px}body.etp-civics-lesson .g5-jumps.civic-lesson-jumps a{font-size:11px;padding:7px 3px}body.etp-civics-lesson .g5-toolbar{padding:8px}body.etp-civics-lesson .g5-panel{padding:17px}}
 @media(prefers-reduced-motion:reduce){body.etp-civics-lesson .g5-track>span{transition:none!important}}
+
+body.etp-civics-lesson .g5-history-case {
+  scroll-margin-top: var(--civic-lesson-anchor, 210px);
+}
