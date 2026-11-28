@@ -161,6 +161,60 @@ async function checkGrade9Alignment(page) {
   console.log("PASS 44 Grade 9 alignments, July Crisis source links, and lesson-to-assessment navigation");
 }
 
+async function checkGrade10Foundations(page) {
+  const response = await fetch(new URL("assets/grade10-grade5-matched-data.json", root));
+  assert.ok(response.ok);
+  const { lessons } = await response.json();
+  const foundationLessons = Object.entries(lessons).filter(([, lesson]) => lesson.unit === "10.1");
+  assert.equal(foundationLessons.length, 3);
+  const codes = foundationLessons.flatMap(([, lesson]) => lesson.marylandAlignment.code.split(" and "));
+  assert.deepEqual(codes.sort(), ["GOV.1.2.a", "GOV.1.2.b", "GOV.1.2.c", "GOV.1.2.e"]);
+  for (const [slug, lesson] of foundationLessons) {
+    const url = new URL(`lessons/curriculum/${courses[10]}/${slug}/`, root);
+    assert.ok((await page.goto(url.href, { waitUntil: "domcontentloaded" }))?.ok(), slug);
+    const alignment = lesson.marylandAlignment;
+    const standards = page.locator("#plan details").filter({ hasText: "Standards" }).first();
+    await standards.locator("summary").click();
+    assert.ok((await standards.innerText()).includes(alignment.code));
+    assert.equal(await standards.getByRole("link", { name: "Open Maryland framework" }).getAttribute("href"),
+      "https://msde.maryland.gov/media/17919#page=11");
+    const objectives = page.locator("#plan details").filter({ has: page.getByText("Objectives", { exact: true }) });
+    await objectives.locator("summary").click();
+    assert.ok((await objectives.innerText()).includes(alignment.objective));
+    await standards.getByRole("link", { name: "Go to the exit ticket" }).click();
+    assert.equal(new URL(page.url()).hash, "#civic-exit-prompt");
+    const closure = page.locator("#closure");
+    assert.equal(await closure.locator("#civic-exit-prompt").innerText(), alignment.prompt);
+    assert.ok((await closure.locator("#civic-exit-criteria").innerText()).includes(alignment.criteria));
+    const links = closure.getByRole("list", { name: "Sources for the exit ticket" }).getByRole("link");
+    assert.deepEqual(await links.evaluateAll(items => items.map(item => item.getAttribute("href"))),
+      alignment.sources.map(source => source.url));
+    const field = closure.getByLabel("My evidence-based reflection");
+    assert.equal(await field.getAttribute("aria-describedby"), "civic-exit-prompt civic-exit-criteria");
+    await field.fill("I can support a claim with a detail from the record.");
+    assert.equal(await field.inputValue(), "I can support a claim with a detail from the record.");
+    const guided = page.locator("#discover");
+    for (const [index, paragraph] of lesson.paragraphs.entries()) {
+      await guided.locator(`[data-part="${index}"]`).click();
+      const reading = guided.locator(`[data-reading="${index}"]`);
+      assert.ok(await reading.isVisible(), slug + " reading " + index);
+      assert.ok((await reading.innerText()).includes(paragraph));
+    }
+    const check = page.locator("#assess");
+    assert.ok(await check.getByRole("heading", { name: lesson.conceptQuestion, exact: true }).isVisible());
+    await check.getByRole("button", { name: lesson.options[lesson.correct], exact: true }).click();
+    assert.match(await check.locator("#g5-answer-result").innerText(), /^Correct\./);
+    const preview = page.locator(".civic-final-preview");
+    await preview.locator("summary").click();
+    await Promise.all([
+      page.waitForURL("**/unit-10-1-assessment/"),
+      preview.getByRole("link", { name: "Open the full Unit 10.1 Assessment" }).click(),
+    ]);
+    await page.getByRole("heading", { name: "Document D · Seventeenth Amendment" }).waitFor();
+  }
+  console.log("PASS Grade 10 foundations readings, four Maryland objectives, exit tickets, and assessment navigation");
+}
+
 const worldHistoryResponse = await fetch(new URL("assets/grade11-grade5-matched-data.json", root));
 assert.ok(worldHistoryResponse.ok, "Could not load Grade 11 lesson alignment");
 const worldHistory = await worldHistoryResponse.json();
@@ -234,6 +288,13 @@ async function checkMixedFormat(page, data) {
     assert.match(await questions.first().innerText(), /Cuba from the Philippines/);
     assert.ok(await page.locator("#performance").getByText(data.writing, { exact: true }).isVisible());
     assert.ok(await page.getByRole("heading", { name: "Document A · Treaty of Paris" }).isVisible());
+  }
+
+  if (data.id === "10.1") {
+    assert.ok(await page.locator("#performance").getByText(data.writing, { exact: true }).isVisible());
+    for (const source of data.sources) {
+      assert.ok(await page.getByRole("heading", { name: source.label, exact: true }).isVisible());
+    }
   }
 
   if (data.id === "9.11") {
@@ -408,6 +469,10 @@ try {
           if (grade === 9) {
             await checkGrade9Alignment(page);
             assert.deepEqual(errors, [], "Grade 9 lesson browser errors");
+          }
+          if (grade === 10) {
+            await checkGrade10Foundations(page);
+            assert.deepEqual(errors, [], "Grade 10 lesson browser errors");
           }
           if (grade === 11) {
             await checkMarylandLessons(page);

@@ -115,6 +115,10 @@ Unit 9.10 adds source-linked exit tickets across the four existing lessons. They
 
 Unit 9.11 adds source-linked exit tickets across the four existing lessons. The lessons address selected cases for six Maryland objectives. The 27-point assessment uses a congressional authorization, federal survey results, a Supreme Court ruling, and the Paris Agreement. All 11 Grade 9 units have been reviewed. Grade 9 now has 44 of 45 lessons with documented mappings. The July Crisis lesson serves as background for U.S. entry into World War I. The crosswalk lists outstanding objective coverage and evidence breadth. The source ledger records 78 open, four partly verified, and 54 supported claims.
 
+### Grade 10 Foundations of Democracy · November 28
+
+Unit 10.1 links three revised lessons and source-based exit tickets to selected cases for GOV.1.2.a–c and GOV.1.2.e. The 27-point assessment incorporates the 1777 Massachusetts petition for freedom and the Seventeenth Amendment as primary evidence. The Grade 10 crosswalk now has four documented lesson matches, including the earlier partial elections match. The source ledger records 75 open, four partly verified, and 57 supported claims. The next unit takes up the Articles of Confederation and the Constitution.
+
 The scorecard and gates below record the original audit baseline.
 
 ## Executive scorecard
