@@ -111,6 +111,10 @@ Unit 9.9 retains the Brown and Mendez comparison, corrects the signing date of E
 
 Unit 9.10 adds source-linked exit tickets across the four existing lessons. They address selected cases for ten Maryland objectives. The scored assessment retains its 27-point structure and asks students to weigh evidence from the Nixon tape and federal Census data alongside the other documents. Grade 9 now has 40 of 45 lessons with documented mappings. The source ledger records 82 open, four partly verified, and 50 supported claims. The Maryland tracker records the remaining scope of the unit’s composite objectives.
 
+### Grade 9 The United States in the Twenty-First Century · November 28
+
+Unit 9.11 adds source-linked exit tickets across the four existing lessons. The lessons address selected cases for six Maryland objectives. The 27-point assessment uses a congressional authorization, federal survey results, a Supreme Court ruling, and the Paris Agreement. All 11 Grade 9 units have been reviewed. Grade 9 now has 44 of 45 lessons with documented mappings. The July Crisis lesson serves as background for U.S. entry into World War I. The crosswalk lists outstanding objective coverage and evidence breadth. The source ledger records 78 open, four partly verified, and 54 supported claims.
+
 The scorecard and gates below record the original audit baseline.
 
 ## Executive scorecard

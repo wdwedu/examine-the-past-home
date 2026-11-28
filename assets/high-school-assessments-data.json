@@ -1983,81 +1983,83 @@
           "slug": "september-11-and-its-consequences",
           "title": "September 11 and Its Consequences",
           "essential": "How did September 11 change U.S. security policy and public life?",
-          "task": "Write a claim about September 11 and Its Consequences with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Explain one step in al-Qaeda’s development, compare the stated grounds for force in the two authorizations, and evaluate the security and privacy tradeoff in one post-9/11 policy. Cite a dated source for each part."
         },
         {
           "slug": "technology-and-american-society",
           "title": "Technology and American Society",
           "essential": "How has digital technology changed opportunities, privacy, and political participation?",
-          "task": "Write a claim about Technology and American Society with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Explain one difference between the NTIA measures. Use a Pew survey finding to explain how digital news can contribute to separate information environments, and identify what the survey cannot establish about cause and effect."
         },
         {
           "slug": "contemporary-civil-rights-and-civic-movements",
           "title": "Contemporary Civil Rights and Civic Movements",
           "essential": "How do contemporary movements build on earlier rights struggles?",
-          "task": "Write a claim about Contemporary Civil Rights and Civic Movements with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Compare Milk’s letter and Obergefell. Identify who acted, the action each record sought or required, and one difference in legal effect. Use the ADA to identify another route to a legal protection and name evidence that could show how one protection worked in practice."
         },
         {
           "slug": "america-in-a-changing-world",
           "title": "America in a Changing World",
           "essential": "How should citizens evaluate America's changing role in global affairs?",
-          "task": "Write a claim about America in a Changing World with two corroborating details, a plausible counterargument, and an explicit qualification."
+          "task": "Use Article 4 and the first U.S. climate submission to explain who sets the target, identify its baseline and deadline, and describe how to test whether it was reached. Then give one difference between the agreement and a domestic law such as Dodd-Frank."
         }
       ],
       "sources": [
         {
-          "label": "Document A · September 20 Joint Address",
-          "title": "September 20 Joint Address",
-          "creator": "President George W. Bush",
-          "date": "September 20, 2001",
-          "url": "https://georgewbush-whitehouse.archives.gov/news/releases/2001/09/20010920-8.html",
-          "sourceUrl": "https://georgewbush-whitehouse.archives.gov/news/releases/2001/09/20010920-8.html",
-          "sourceType": "Primary source: presidential speech",
-          "excerpt": "The address explains the administration's framing of the attacks and planned response; it is not a neutral summary of all consequences.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
+          "label": "Document A · 2001 military authorization",
+          "title": "2001 Authorization for Use of Military Force, §2(a)",
+          "creator": "United States Congress",
+          "date": "September 18, 2001",
+          "url": "https://www.govinfo.gov/content/pkg/PLAW-107publ40/pdf/PLAW-107publ40.pdf",
+          "sourceUrl": "https://www.govinfo.gov/content/pkg/PLAW-107publ40/pdf/PLAW-107publ40.pdf",
+          "sourceType": "Primary source: enacted joint resolution",
+          "excerpt": "Section 2(a) authorized the president to use necessary and appropriate force against actors he determined had planned, authorized, committed, or aided the September 11 attacks, or harbored those actors.",
+          "limitation": "The resolution establishes congressional authority. Use military and civilian records to evaluate how the authority was used.",
           "documentExcerpt": "",
-          "sourceNote": "The address explains the administration's framing of the attacks and planned response; it is not a neutral summary of all consequences.",
-          "lessonContext": "On September 11, 2001, al-Qaeda terrorists hijacked four passenger aircraft, attacking the World Trade Center and Pentagon; a fourth crashed in Pennsylvania after passengers resisted. Nearly 3,000 people were killed. The attack's history includes the people killed, survivors, first responders, and communities affected by long-term health and social consequences. Responsible teaching prioritizes verified testimony over repeated dramatic images. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
+          "sourceNote": "Compare §2(a) with §3(a) of the separate 2002 Iraq authorization.",
+          "lessonContext": "The 9/11 Commission traced al-Qaeda’s emergence to networks formed during the war against Soviet forces in Afghanistan. Under Osama bin Laden, al-Qaeda targeted the United States, including in the 1998 U.S. embassy bombings in Kenya and Tanzania. By 2001, the Taliban provided al-Qaeda a haven in Afghanistan. These records trace a specific organization and its leadership. The Justice Department later documented backlash against Muslim, Arab, Sikh, and South Asian communities in the United States."
         },
         {
-          "label": "Document B · 9/11 Oral History Collection",
-          "title": "9/11 Oral History Collection",
-          "creator": "Eyewitnesses and interviewees; National September 11 Memorial & Museum",
-          "date": "Interviews concerning 2001–present",
-          "url": "https://collection.911memorial.org/Search/oral_histories",
-          "sourceUrl": "https://collection.911memorial.org/Search/oral_histories",
-          "sourceType": "Primary-source collection: first-person testimony",
-          "excerpt": "Recorded testimony documents individual experiences; each interview must be identified and cannot represent all affected people.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
+          "label": "Document B · Home broadband survey",
+          "title": "NTIA, Exploring the Digital Nation, 2011 report, executive summary",
+          "creator": "National Telecommunications and Information Administration",
+          "date": "November 2011, drawing on October 2010 survey data",
+          "url": "https://www.ntia.doc.gov/files/ntia/publications/exploring_the_digital_nation_computer_and_internet_use_at_home_11092011.pdf",
+          "sourceUrl": "https://www.ntia.doc.gov/files/ntia/publications/exploring_the_digital_nation_computer_and_internet_use_at_home_11092011.pdf",
+          "sourceType": "Government statistical report",
+          "excerpt": "The report found that 68 percent of U.S. households used home broadband in 2010, compared with 64 percent the previous year.",
+          "limitation": "Household broadband use cannot establish who used a mobile phone, how often they went online, or whether political beliefs changed.",
           "documentExcerpt": "",
-          "sourceNote": "Recorded testimony documents individual experiences; each interview must be identified and cannot represent all affected people.",
-          "lessonContext": "Broadband internet, smartphones, and digital platforms transformed communication, business, education, and news distribution in the twenty-first century. Access remains unequal across income, geography, and disability. Technology adoption differs by age, disability, income, and geography. Online access is not the same as the skills, devices, or trustworthy information needed to benefit from digital systems. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
+          "sourceNote": "Read the first paragraph of the executive summary. Identify the household measure and the survey year.",
+          "lessonContext": "The Census Bureau’s October 2010 survey found that 68 percent of U.S. households used home broadband, up from 64 percent a year earlier. A later survey measured a different behavior. Among people age 25 and older with family incomes below $25,000, reported mobile phone use rose from 73 percent in 2011 to 77 percent in 2012. This measure includes ordinary mobile phone use. It does not tell us whether respondents had home broadband or used a phone to go online."
         },
         {
-          "label": "Document C · 9/11 Commission Interview Records",
-          "title": "9/11 Commission Interview Records",
-          "creator": "National Commission on Terrorist Attacks upon the United States",
-          "date": "2003–2004",
-          "url": "https://www.archives.gov/research/9-11/commission-series.html",
-          "sourceUrl": "https://www.archives.gov/research/9-11/commission-series.html",
-          "sourceType": "Primary-source collection: interview records and contemporaneous exhibits",
-          "excerpt": "The commission files provide investigative records; distinguish original testimony and documents from later commission analysis.",
-          "limitation": "Identify the record's purpose, creator and intended audience. Its existence alone cannot prove equal enforcement or a single cause.",
+          "label": "Document C · Obergefell ruling",
+          "title": "Obergefell v. Hodges, 576 U.S. 644, majority opinion at 675–681",
+          "creator": "Supreme Court of the United States",
+          "date": "June 26, 2015",
+          "url": "https://www.govinfo.gov/content/pkg/USREPORTS-576/pdf/USREPORTS-576-644.pdf",
+          "sourceUrl": "https://www.govinfo.gov/content/pkg/USREPORTS-576/pdf/USREPORTS-576-644.pdf",
+          "sourceType": "Primary source: majority opinion",
+          "excerpt": "The Court held that the Fourteenth Amendment requires states to license same-sex marriages and to recognize those lawfully licensed and performed in other states.",
+          "limitation": "The opinion establishes the legal obligation. Evaluating implementation requires evidence from states and affected couples.",
           "documentExcerpt": "",
-          "sourceNote": "The commission files provide investigative records; distinguish original testimony and documents from later commission analysis.",
-          "lessonContext": "Twenty-first-century civic movements have addressed policing, racial inequality, voting access, LGBTQ rights, disability inclusion, and other issues. Participants use community organizing, litigation, elections, and digital communication. Civic movements use tactics familiar from earlier reform struggles but face new communication environments and legal contexts. A hashtag or demonstration is not the whole movement. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account."
+          "sourceNote": "Read the majority opinion’s closing discussion at pages 675–681.",
+          "lessonContext": "In 1978, San Francisco Supervisor Harvey Milk wrote to President Jimmy Carter asking him to oppose a California ballot measure that sought to bar gay and lesbian people from working in public schools. Voters rejected the measure. Milk’s letter shows a local elected official asking a national leader to act. The letter cannot tell us how many voters changed their minds or why the measure lost."
         },
         {
-          "label": "Document D · Additional interpretation",
-          "title": "America in a Changing World",
-          "creator": "Examine the Past curriculum editors",
-          "date": "2026 instructional summary",
-          "url": "../america-in-a-changing-world/",
-          "sourceUrl": "../america-in-a-changing-world/",
-          "sourceType": "Secondary source: lesson interpretation, NOT primary evidence",
-          "excerpt": "The United States participates in international institutions, security relationships, trade networks, and climate negotiations, while domestic debate shapes policy priorities. Global challenges often involve several governments and nonstate actors. International influence includes economics, technology, cultural exchange, diplomacy, and military resources. These measures may point in different directions, so the word 'power' requires a clear definition. Compare two relevant sources and identify one factual point on which they agree. Ask whether that agreement reflects independent corroboration or reliance on the same earlier account.",
-          "limitation": "This is a modern instructional interpretation, not an original primary document. Use it for context; investigate originals for source-based claims.",
-          "documentExcerpt": ""
+          "label": "Document D · Paris Agreement",
+          "title": "UNFCCC, Decision 1/CP.21, annex, Paris Agreement, Article 4",
+          "creator": "Parties to the United Nations Framework Convention on Climate Change",
+          "date": "December 12, 2015",
+          "url": "https://unfccc.int/resource/docs/2015/cop21/eng/10a01.pdf",
+          "sourceUrl": "https://unfccc.int/resource/docs/2015/cop21/eng/10a01.pdf",
+          "sourceType": "Primary source: text adopted at the Paris climate conference",
+          "excerpt": "Article 4 requires each party to prepare, communicate, and maintain successive nationally determined contributions and to pursue domestic mitigation measures toward their objectives.",
+          "limitation": "To establish a specific national target or measure progress, consult that country’s submission and dated emissions data.",
+          "documentExcerpt": "",
+          "sourceNote": "Read Article 4, paragraphs 2 and 9, and compare it with the first U.S. submission.",
+          "lessonContext": "Governments adopted the Paris Agreement in December 2015 through the United Nations climate process. Article 4 calls for each party to prepare, communicate, and maintain successive nationally determined contributions. A contribution is a country’s own climate plan or target. In its first submission, the United States set an economy-wide target of reducing greenhouse gas emissions by 26 to 28 percent below the 2005 level by 2025."
         }
       ],
       "questions": [
@@ -2072,80 +2074,80 @@
           "explain": "First-person accounts offer valuable but necessarily situated evidence."
         },
         {
-          "prompt": "President Bush's September 20, 2001 address presents a government response. What is necessary to evaluate its long-term effects?",
+          "prompt": "Which claim about congressional authority is supported by Document A?",
           "choices": [
-            "Compare later policy records and experiences of affected communities",
-            "Treat the address as a complete prediction of every later decision",
-            "Use the speech alone to establish whether security measures worked"
+            "Congress tied the authority to actors linked to the September 11 attacks or to those who harbored them.",
+            "Congress named Iraq as the government responsible for September 11.",
+            "Congress used the joint resolution to create the TSA and set federal screening rules."
           ],
           "answer": 0,
-          "explain": "Speech content differs from policy implementation and long-term outcomes."
+          "explain": "Section 2(a) defines the authority by a connection to the attacks. The Iraq authorization and aviation law were separate acts."
         },
         {
-          "prompt": "The 9/11 Commission records include interviews and analysis. What must students distinguish?",
+          "prompt": "What comparison can a student make using Document B?",
           "choices": [
-            "Government analysis is the same as eyewitness memory",
-            "Contemporary documents, later interviews and conclusions reached by investigators",
-            "All interviews were made before the attacks"
+            "Individual smartphone ownership rose by four percentage points.",
+            "The share of households using home broadband rose by four percentage points.",
+            "Home broadband use increased by four points in every income group."
           ],
           "answer": 1,
-          "explain": "Different dates and source types answer different questions."
+          "explain": "The national household figure rose from 64 to 68 percent. The difference is four percentage points."
         },
         {
-          "prompt": "How should a historian compare public claims about digital technology and privacy?",
+          "prompt": "What does Document C establish about states outside the couple’s home state?",
           "choices": [
-            "Avoid asking about platform ownership or data collection",
-            "Use the most popular post as proof of the social effect",
-            "Corroborate with relevant data, laws, firsthand experiences and time period"
+            "States could refuse recognition if they offered civil unions.",
+            "The ruling left recognition of out-of-state marriages entirely to state legislatures.",
+            "States had to recognize same-sex marriages lawfully performed elsewhere."
           ],
           "answer": 2,
-          "explain": "Technology claims require credible, contextual evidence."
+          "explain": "The majority opinion addressed both licensing and recognition."
         },
         {
-          "prompt": "A student says a contemporary civic movement has the same goals as every movement from the 1960s. What improves the claim?",
+          "prompt": "Which evidence would help verify whether the first U.S. climate target was reached?",
           "choices": [
-            "Compare stated goals, participants and strategies in each historical context",
-            "Assume similar protest symbols establish identical demands",
-            "Choose the movement with the larger media audience"
+            "A comparable national emissions series for the baseline and target years.",
+            "The date other countries submitted their contributions.",
+            "A survey on whether voters supported the Paris Agreement."
           ],
           "answer": 0,
-          "explain": "Historical comparisons should recognize continuity and difference."
+          "explain": "The target specified a national emissions reduction relative to a baseline year."
         },
         {
-          "prompt": "What is a qualified conclusion about policy after September 11?",
+          "prompt": "How could you test the claim that online news habits caused greater political polarization?",
           "choices": [
-            "All affected communities experienced security policy in the same way",
-            "Security priorities changed, while consequences for rights, global relationships and communities need separate evidence",
-            "The attacks explain every subsequent U.S. security decision without other causes"
+            "Use only the national rise in household broadband reported in Document B.",
+            "Compare news exposure and political beliefs over time and consider other possible influences.",
+            "Compare the number of digital news sources named by two survey respondents."
           ],
           "answer": 1,
-          "explain": "Avoid single-cause, universal claims about complex policy consequences."
+          "explain": "A causal claim needs evidence about changes in exposure and beliefs, with attention to other explanations."
         }
       ],
       "matchingOptions": [
-        "September 20 Joint Address",
-        "9/11 Oral History Collection",
-        "9/11 Commission Interview Records"
+        "Nationwide household survey",
+        "Supreme Court majority opinion",
+        "International agreement"
       ],
       "matchingPrompts": [
         {
-          "prompt": "Which original record helps investigate September 20 Joint Address and its historical context?",
+          "prompt": "Which source measures a change in home broadband use?",
           "answer": 0
         },
         {
-          "prompt": "Which original record helps investigate 9/11 Oral History Collection and its historical context?",
+          "prompt": "Which source establishes the states’ legal obligations concerning same-sex marriage?",
           "answer": 1
         },
         {
-          "prompt": "Which original record helps investigate 9/11 Commission Interview Records and its historical context?",
+          "prompt": "Which source describes how nations communicate successive climate contributions?",
           "answer": 2
         }
       ],
-      "inquiryPrompt": "How have security decisions and digital change reshaped freedom, civic life and public evidence?",
+      "inquiryPrompt": "How can historians judge what changed after a policy decision?",
       "inquirySteps": [
-        "Compare the sources and record their perspectives and limitations.",
-        "Develop a focused historical question and identify which sources address it.",
-        "Present a supported thesis that considers other evidence and uncertainty."
+        "Compare what the decision required with independent evidence of what happened afterward.",
+        "Identify the decision, its date, and the outcome you want to investigate.",
+        "Present a conclusion that explains what the comparison supports and what remains uncertain."
       ],
       "inquiryAnswers": [
         1,
@@ -2153,21 +2155,21 @@
         2
       ],
       "conclusions": [
-        "Documents B and C can help historians compare how evidence, policy and experience relate to the united states in the twenty-first century.",
-        "Document A records a position or record from September 20, 2001, but it needs context to support claims about historical effects.",
-        "A single eyewitness account of September 11 is sufficient to establish every cause and consequence of U.S. security policy."
+        "Document B supports a claim about growth in household broadband use. Testing changes in political beliefs would require additional evidence.",
+        "Document C establishes a legal obligation for states. Implementation can be studied with records from states and affected couples.",
+        "Document D shows that the United States reached its first national emissions target."
       ],
       "conclusionKey": [
         true,
         true,
         false
       ],
-      "writing": "How have security decisions and digital change reshaped freedom, civic life and public evidence? Construct a qualified historical argument using at least three specific facts supported by two original records from this unit and one other kind of evidence (such as testimony, a map, statistics, or a carefully attributed secondary interpretation). Explain each source's date and perspective, compare experiences of affected communities, discuss at least one limitation, and address a plausible counterargument.",
-      "challenge": "Create a museum exhibit or document-based investigation responding to: How have security decisions and digital change reshaped freedom, civic life and public evidence? Use four attributed sources, a chronological visualization, two perspectives, an evidence limitation and a defended curator thesis.",
-      "standards": "Maryland 2025 High School United States History Framework; historical inquiry and relevant unit content. Exact indicator crosswalk pending.",
+      "writing": "How did two twenty-first-century policy decisions change what governments could or had to do? Choose two of Documents A, C, and D. Make a claim about the difference between those decisions. Use a specific detail from each document and a third piece of evidence from the unit to explain one consequence or tradeoff. Address a plausible counterargument and identify one outcome that still needs evidence.",
+      "challenge": "Build a three-panel exhibit tracing one policy from the decision to its implementation. Use four attributed sources, including the original decision and a record from an affected person or institution. Date your evidence and explain one question it leaves open.",
+      "standards": "Maryland 2025 High School United States History Framework. Selected evidence for USH.5.2.a, USH.5.2.b, USH.5.2.d, and USH.5.3.b–d.",
       "framework": "https://msde.maryland.gov/media/17926",
-      "sourceAudit": "Original documents linked to the National Archives, Library of Congress, presidential libraries, or National September 11 Memorial; source cards contain instructional summaries, not verbatim transcriptions. Verify original collection item, creator, and date before citing.",
-      "sampleAnswer": "The question raised in The United States in the Twenty-First Century is: How have security decisions and digital change reshaped freedom, civic life and public evidence? The evidence suggests that decisions and events changed institutions and opportunities, but the results differed among people and places. A defensible argument requires attention to whom a policy or movement affected, not only its supporters' intentions.\n\nDocument A (September 20 Joint Address, September 20, 2001) provides one perspective: The address explains the administration's framing of the attacks and planned response; it is not a neutral summary of all consequences. Document B (9/11 Oral History Collection, Interviews concerning 2001–present) adds another: Recorded testimony documents individual experiences; each interview must be identified and cannot represent all affected people. These records identify choices or experiences, but their authors and purposes must be considered before treating them as complete accounts.\n\nDocument C (9/11 Commission Interview Records, 2003–2004) supplies further evidence: The commission files provide investigative records; distinguish original testimony and documents from later commission analysis. A historian should test these records against different evidence such as the observations of affected communities, independent statistics, archaeological evidence when relevant, and the unit's contextual lesson reading. The sources do not necessarily measure results by themselves.\n\nA reasonable counterargument might emphasize the benefits or stated goals of these developments. Those claims deserve evaluation, but they do not eliminate unintended consequences, unequal impacts or limits of the evidence. I would therefore defend a qualified conclusion and explain which further sources might change it."
+      "sourceAudit": "Documents A–D summarize specific passages in a congressional authorization, a federal survey report, a Supreme Court majority opinion, and a climate agreement. Open each record and cite the section, page, or survey measure you use.",
+      "sampleAnswer": "Documents A and C show two ways federal decisions changed government authority. Congress gave the president authority to use force against actors linked to September 11. The Supreme Court later imposed a duty on states to license and recognize same-sex marriages. Congress granted discretion to an executive official within the terms of the law. The Court required states to change how they treated couples seeking legal marriage.\n\nThe separate 2002 Iraq authorization reinforces the distinction between the authorities. Its stated grounds included a threat attributed to Iraq and enforcement of United Nations resolutions. The 2001 authorization instead centered on the attacks and those linked to them. A counterargument is that federal decisions like these immediately settle what happens on the ground. They can settle an important legal question. To judge outcomes, I would also look for dated military records or state marriage records and accounts from affected couples."
     }
   }
 }

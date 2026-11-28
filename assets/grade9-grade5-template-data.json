@@ -5468,11 +5468,11 @@
         "Compare the independent 9/11 Commission's 2004 conclusions with a firsthand account selected from the memorial museum. What can an investigation establish that one witness cannot, and what individual experience is missing from a national report? Then choose a dated post-2001 policy and evaluate its effects separately from the verified facts of the attacks."
       ],
       "activity": "September 11 and Its Consequences · Evidence investigation",
-      "task": "Explain the distinction between the attack's causes and one later security decision; use evidence instead of speculation or collective blame.",
+      "task": "Explain one step in al-Qaeda’s development, compare the stated grounds for force in the two authorizations, and evaluate the security and privacy tradeoff in one post-9/11 policy. Cite a dated source for each part.",
       "investigation": [
-        "Read the Commission's 2004 Executive Summary and identify one finding about the attacks and one recommendation about future preparedness.",
-        "Select an attributed, age-appropriate firsthand account from the 9/11 Memorial & Museum, identifying the creator and exact date or interview context.",
-        "Explain the distinction between the attack's causes and one later security decision; use evidence instead of speculation or collective blame."
+        "Locate the 1998 embassy attacks and the Taliban’s relationship with al-Qaeda in the Commission’s executive summary.",
+        "Underline who or what Congress identified in each military authorization. Add one later development for each war.",
+        "Pair a government action with evidence about its limits or consequences. Explain what more you would need to judge its effectiveness."
       ],
       "options": [
         "September 11, 2001",
@@ -5546,7 +5546,55 @@
           "url": "https://www.911memorial.org/learn/resources",
           "summary": "Curated path to firsthand accounts. Select age-appropriate dated item; the museum resource page is not a single eyewitness report."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.5.3.b and USH.5.3.c and USH.5.3.d",
+        "kind": "content",
+        "page": 23,
+        "objective": "Trace al-Qaeda’s development, evaluate a civil-liberties tradeoff, and compare the U.S. wars in Afghanistan and Iraq.",
+        "prompt": "Explain one step in al-Qaeda’s development, compare the stated grounds for force in the two authorizations, and evaluate the security and privacy tradeoff in one post-9/11 policy. Cite a dated source for each part.",
+        "criteria": "Distinguish al-Qaeda from the Taliban and from communities targeted by backlash. Explain one difference between the authorizations and what later evidence adds to the debate over a domestic policy.",
+        "readingTitle": "From the attacks to separate policy decisions",
+        "reading": [
+          "The 9/11 Commission traced al-Qaeda’s emergence to networks formed during the war against Soviet forces in Afghanistan. Under Osama bin Laden, al-Qaeda targeted the United States, including in the 1998 U.S. embassy bombings in Kenya and Tanzania. By 2001, the Taliban provided al-Qaeda a haven in Afghanistan. These records trace a specific organization and its leadership. The Justice Department later documented backlash against Muslim, Arab, Sikh, and South Asian communities in the United States.",
+          "Congress created the Transportation Security Administration and expanded federal responsibility for airport screening in 2001. A separate surveillance program collected telephone call records in bulk. In 2014, a federal oversight board questioned the legal basis and the documented security benefits of the program. Call records record information such as which numbers connected. They differ from recordings of conversations.",
+          "Congress passed the 2001 military authorization in response to the attacks. The United States and its allies removed the Taliban from power in Afghanistan that year. The Taliban regrouped and took control again as the United States withdrew in 2021. Congress separately authorized force against Iraq in 2002, citing the threat it attributed to Iraq and enforcement of United Nations resolutions. The 2003 invasion removed Saddam Hussein. A postwar Senate review examined how earlier weapons claims compared with investigators’ findings. The two authorizations establish different stated grounds for force."
+        ],
+        "sources": [
+          {
+            "title": "9/11 Commission Report, Executive Summary",
+            "url": "https://www.9-11commission.gov/report/911Report_Exec.htm"
+          },
+          {
+            "title": "2001 Authorization for Use of Military Force, §2(a)",
+            "url": "https://www.govinfo.gov/content/pkg/PLAW-107publ40/pdf/PLAW-107publ40.pdf"
+          },
+          {
+            "title": "2002 Iraq authorization, §3(a)",
+            "url": "https://www.govinfo.gov/content/pkg/PLAW-107publ243/pdf/PLAW-107publ243.pdf"
+          },
+          {
+            "title": "Aviation and Transportation Security Act, §§101 and 110",
+            "url": "https://www.govinfo.gov/content/pkg/PLAW-107publ71/pdf/PLAW-107publ71.pdf"
+          },
+          {
+            "title": "Privacy and Civil Liberties Oversight Board, Section 215 report, executive summary",
+            "url": "https://documents.pclob.gov/prod/Documents/OversightReport/cf0ce183-7935-4b06-bb41-007d1f437412/215-Report_on_the_Telephone_Records_Program%20-%20Completed%20508%20-%2011292022.pdf#page=19"
+          },
+          {
+            "title": "Congressional Research Service, U.S. withdrawal and Taliban takeover",
+            "url": "https://www.congress.gov/crs_external_products/R/PDF/R46879/R46879.10.pdf"
+          },
+          {
+            "title": "Senate Intelligence Committee, Iraq postwar findings",
+            "url": "https://www.govinfo.gov/app/details/CRPT-109srpt331/CRPT-109srpt331"
+          },
+          {
+            "title": "Department of Justice, Looking Back: The Post-9/11 Backlash",
+            "url": "https://www.justice.gov/sites/default/files/crt/legacy/2012/04/16/post911summit_report_2012-04.pdf"
+          }
+        ]
+      }
     },
     "technology-and-american-society": {
       "title": "Technology and American Society",
@@ -5561,11 +5609,11 @@
         "Read the two NTIA studies as dated evidence. Identify the survey year, sample or population, and one explicitly defined measure before comparing results. Explain why a company advertisement or an individual's experience cannot replace representative data. Distinguish access, practical ability, privacy and information reliability as different dimensions of digital life."
       ],
       "activity": "Technology and American Society · Evidence investigation",
-      "task": "Explain one digital divide and what additional research would establish whether it narrowed for the selected group.",
+      "task": "Explain one difference between the NTIA measures. Use a Pew survey finding to explain how digital news can contribute to separate information environments, and identify what the survey cannot establish about cause and effect.",
       "investigation": [
-        "In the 2011 NTIA report, identify the population, survey year and what one selected internet-access indicator measures.",
-        "In the 2014 report, identify a comparable mobile-usage measure, noting any changes in question or denominator.",
-        "Explain one digital divide and what additional research would establish whether it narrowed for the selected group."
+        "Label each NTIA comparison with the years, group, and behavior measured. Use percentage points for changes.",
+        "Find one comparison of political news habits in Pew’s study. Identify who was surveyed and what the study measured.",
+        "Write a claim about digital news habits and identify evidence you would need to test whether media use changed opinions."
       ],
       "options": [
         "The difference between printed and handwritten books",
@@ -5639,7 +5687,34 @@
           "url": "https://www.ntia.gov/sites/default/files/publications/exploring_the_digital_nation_embracing_the_mobile_internet_10162014_0.pdf",
           "summary": "Dated survey-based study of changing mobile connectivity. Compare the same subgroup and definitions before asserting growth."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.5.2.a",
+        "kind": "content",
+        "page": 22,
+        "objective": "Analyze what research on digital news habits can show about political divisions and what it leaves unresolved.",
+        "prompt": "Explain one difference between the NTIA measures. Use a Pew survey finding to explain how digital news can contribute to separate information environments, and identify what the survey cannot establish about cause and effect.",
+        "criteria": "Name the year, population, and behavior for each NTIA statistic you cite. Distinguish differences in news habits from evidence that media use caused political divisions.",
+        "readingTitle": "Who connected, and where did people get their news?",
+        "reading": [
+          "The Census Bureau’s October 2010 survey found that 68 percent of U.S. households used home broadband, up from 64 percent a year earlier. A later survey measured a different behavior. Among people age 25 and older with family incomes below $25,000, reported mobile phone use rose from 73 percent in 2011 to 77 percent in 2012. This measure includes ordinary mobile phone use. It does not tell us whether respondents had home broadband or used a phone to go online.",
+          "In 2014, Pew found different news-source habits among people with consistently liberal and consistently conservative views. The researchers compared where different groups got political news and which sources they trusted. The differences are evidence of separate news habits. To determine whether media habits changed political beliefs, researchers would need evidence that tracks what people believed before and after changes in what they read or watched."
+        ],
+        "sources": [
+          {
+            "title": "NTIA, Exploring the Digital Nation, 2011 report, executive summary",
+            "url": "https://www.ntia.doc.gov/files/ntia/publications/exploring_the_digital_nation_computer_and_internet_use_at_home_11092011.pdf"
+          },
+          {
+            "title": "NTIA, 2014 mobile Internet report, Figure 2",
+            "url": "https://www.ntia.gov/sites/default/files/publications/exploring_the_digital_nation_embracing_the_mobile_internet_10162014_0.pdf"
+          },
+          {
+            "title": "Pew Research Center, Political Polarization & Media Habits, 2014",
+            "url": "https://www.pewresearch.org/journalism/2014/10/21/political-polarization-media-habits/"
+          }
+        ]
+      }
     },
     "contemporary-civil-rights-and-civic-movements": {
       "title": "Contemporary Civil Rights and Civic Movements",
@@ -5654,11 +5729,11 @@
         "Compare an original ADA signing-era document with a dated record of LGBTQ rights litigation or civic advocacy. Identify the stated legal goal, who acted, and the change that followed. Then use the 2013 civil-rights oral history to distinguish lived experience from institutional wording. Fair historical analysis can examine disagreements about policy without manufacturing doubt about the existence of documented discrimination."
       ],
       "activity": "Contemporary Civil Rights and Civic Movements · Evidence investigation",
-      "task": "Use the 2013 LOC oral history to explain how participant testimony can add perspective while remaining distinct from official policy and independently measured outcomes.",
+      "task": "Compare Milk’s letter and Obergefell. Identify who acted, the action each record sought or required, and one difference in legal effect. Use the ADA to identify another route to a legal protection and name evidence that could show how one protection worked in practice.",
       "investigation": [
-        "Find the July 26, 1990 ADA record in the NARA archival listing and state what institutional or legal action it documents.",
-        "Select a named, dated LGBTQ rights legal or protest record from NARA and distinguish its author and legal status from the ADA record.",
-        "Use the 2013 LOC oral history to explain how participant testimony can add perspective while remaining distinct from official policy and independently measured outcomes."
+        "Read the Archives exhibit and identify what Milk asked President Carter to do and who ultimately decided the ballot measure.",
+        "Read the majority opinion’s holding. Identify the two obligations it established for states.",
+        "Compare the route to legal protection in the court decision with the route in the ADA. Name one piece of implementation evidence you would look for."
       ],
       "options": [
         "Automatic constitutional change without action",
@@ -5740,7 +5815,34 @@
           "url": "https://www.loc.gov/item/2015669179/",
           "summary": "Retrospective participant oral history about earlier civil-rights struggles. First-person testimony is original to the interview date; memories of earlier events need corroboration."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.5.2.d",
+        "kind": "content",
+        "page": 22,
+        "objective": "Compare advocacy and litigation at selected turning points in LGBTQ+ rights and distinguish legal change from implementation.",
+        "prompt": "Compare Milk’s letter and Obergefell. Identify who acted, the action each record sought or required, and one difference in legal effect. Use the ADA to identify another route to a legal protection and name evidence that could show how one protection worked in practice.",
+        "criteria": "Identify advocacy, a court holding, and a statute as distinct tools. Attribute the records to the people or institutions that created them and give a specific example of evidence about implementation.",
+        "readingTitle": "From public advocacy to enforceable rights",
+        "reading": [
+          "In 1978, San Francisco Supervisor Harvey Milk wrote to President Jimmy Carter asking him to oppose a California ballot measure that sought to bar gay and lesbian people from working in public schools. Voters rejected the measure. Milk’s letter shows a local elected official asking a national leader to act. The letter cannot tell us how many voters changed their minds or why the measure lost.",
+          "In 2015, the Supreme Court decided Obergefell v. Hodges. The majority held that the Fourteenth Amendment requires states to license marriages between two people of the same sex and to recognize lawful same-sex marriages performed elsewhere. The 1990 Americans with Disabilities Act shows a different route to legal change. Congress set rules against disability discrimination in employment, public services, and certain private places open to the public. Both records establish legal protections. Evidence about enforcement or people’s experiences is needed to evaluate implementation."
+        ],
+        "sources": [
+          {
+            "title": "National Archives, Harvey Milk’s letter to President Carter",
+            "url": "https://visit.archives.gov/whats-on/explore-exhibits/harvey-milk-writes-president"
+          },
+          {
+            "title": "Obergefell v. Hodges, 576 U.S. 644, majority opinion at 675–681",
+            "url": "https://www.govinfo.gov/content/pkg/USREPORTS-576/pdf/USREPORTS-576-644.pdf"
+          },
+          {
+            "title": "Americans with Disabilities Act as enacted, §2 and Titles I–III",
+            "url": "https://www.govinfo.gov/content/pkg/STATUTE-104/pdf/STATUTE-104-Pg327.pdf"
+          }
+        ]
+      }
     },
     "america-in-a-changing-world": {
       "title": "America in a Changing World",
@@ -5755,11 +5857,11 @@
         "Read the UNFCCC's record of the Paris Agreement and a contemporary U.S. law addressing financial regulation. What authority did an international agreement rely on, and what did an act of Congress establish? Compare their purpose and scope without pretending they address the same problem. Date every claim about current participation and identify whose perspective is missing."
       ],
       "activity": "America in a Changing World · Evidence investigation",
-      "task": "Write a qualified explanation of how the United States acts through domestic law and international institutions, with dates and a non-U.S. perspective needed for a complete account.",
+      "task": "Use Article 4 and the first U.S. climate submission to explain who sets the target, identify its baseline and deadline, and describe how to test whether it was reached. Then give one difference between the agreement and a domestic law such as Dodd-Frank.",
       "investigation": [
-        "Document the Paris Agreement's December 2015 adoption using the UNFCCC source, distinguishing adoption from later signature or ratification.",
-        "Examine the 2010 Dodd-Frank enacted record and identify one way federal law differs from an international climate agreement.",
-        "Write a qualified explanation of how the United States acts through domestic law and international institutions, with dates and a non-U.S. perspective needed for a complete account."
+        "Read Article 4, paragraphs 2 and 9. Mark the steps each party must take and how often contributions are communicated.",
+        "Find the U.S. target on page 1 of the archived submission. Sketch what an emissions comparison would require.",
+        "Compare the kind of authority Article 4 exercises with what Congress created under Dodd-Frank §1011."
       ],
       "options": [
         "Dated policies, comparable data, and affected countries' perspectives",
@@ -5841,7 +5943,34 @@
           "url": "https://www.govinfo.gov/app/details/PLAW-111publ203",
           "summary": "Enacted domestic regulatory law useful for comparing global economic crises and national policy responses; it is not an international treaty."
         }
-      ]
+      ],
+      "marylandAlignment": {
+        "code": "USH.5.2.b",
+        "kind": "content",
+        "page": 22,
+        "objective": "Explain how the Paris Agreement framed U.S. climate policy and distinguish an international commitment, a national target, and an actual outcome.",
+        "prompt": "Use Article 4 and the first U.S. climate submission to explain who sets the target, identify its baseline and deadline, and describe how to test whether it was reached. Then give one difference between the agreement and a domestic law such as Dodd-Frank.",
+        "criteria": "Separate the collective process from the U.S. target. Name the baseline and target years and describe a fair comparison of actual emissions.",
+        "readingTitle": "A shared agreement and a U.S. target",
+        "reading": [
+          "Governments adopted the Paris Agreement in December 2015 through the United Nations climate process. Article 4 calls for each party to prepare, communicate, and maintain successive nationally determined contributions. A contribution is a country’s own climate plan or target. In its first submission, the United States set an economy-wide target of reducing greenhouse gas emissions by 26 to 28 percent below the 2005 level by 2025.",
+          "Read the agreement and the U.S. submission as dated records. To determine whether the United States reached the target, compare measured emissions with the 2005 baseline using consistent definitions. Congress used a different policy tool in the Dodd-Frank Act after the financial crisis. Section 1011 established a federal consumer financial protection bureau. Compare who acts under each record and what the record can tell you about results."
+        ],
+        "sources": [
+          {
+            "title": "UNFCCC, Decision 1/CP.21, annex, Paris Agreement, Article 4",
+            "url": "https://unfccc.int/resource/docs/2015/cop21/eng/10a01.pdf"
+          },
+          {
+            "title": "United States first climate contribution, archived submission, p. 1",
+            "url": "https://unfccc.int/sites/default/files/NDC/2022-06/U.S.A.%20First%20NDC%20Submission.pdf"
+          },
+          {
+            "title": "Dodd-Frank Act, §1011",
+            "url": "https://www.govinfo.gov/content/pkg/PLAW-111publ203/pdf/PLAW-111publ203.pdf"
+          }
+        ]
+      }
     }
   }
 }
